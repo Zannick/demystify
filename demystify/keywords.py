@@ -17,7 +17,7 @@
 # our objective is not to disallow poorly worded Magic cards but to interpret
 # all existing Magic cards.
 
-class Keyword:
+class Keyword(object):
     """ Common superclass for the types of words that are used here.
         Allows export of a mini-dictionary that contains words and tokens. """
     def __init__(self, *tokenlists):
@@ -43,7 +43,7 @@ class Verb(Keyword):
         self.past = past
         self.progressive = progressive
         self.noun = noun
-        super().__init__(present, past, progressive, noun)
+        super(Verb, self).__init__(present, past, progressive, noun)
 
 class Noun(Keyword):
     """ Nouns are different from verbs in that only one form of a token
@@ -56,9 +56,9 @@ class Noun(Keyword):
         self.plural = plural
         self.sing_poss = sing_poss
         self.pl_poss = pl_poss
-        super().__init__((token, singular, plural),
-                         (token + "_POSS", sing_poss),
-                         (token + "_PL_POSS", pl_poss))
+        super(Noun, self).__init__((token, singular, plural),
+                                   (token + "_POSS", sing_poss),
+                                   (token + "_PL_POSS", pl_poss))
 
 actions = {}
 _actions = [
