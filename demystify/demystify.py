@@ -4,10 +4,7 @@ import re
 import sys
 import logging
 
-import progressbar
-
 from . import card
-from .card import Card, preprocess_names, preprocess_reminder
 
 logging.basicConfig(level=logging.DEBUG, filename="LOG")
 plog = logging.getLogger("Parser")
@@ -52,7 +49,7 @@ def load():
             raw_cards = smart_split(f.read())
             c = len(raw_cards)
             for cs in raw_cards:
-                _ = Card.from_string(cs)
+                _ = card.Card.from_string(cs)
             logging.debug("Loaded {} cards from {}.".format(c, filename))
             count += c
     return count
@@ -94,38 +91,6 @@ def update(files):
     print(summary)
     ulog.info(summary)
 
-def CardProgressBar(cards):
-    """ A generator that writes a progress bar to stdout as its elements
-        are accessed. """
-    current_card = ' '
-    class CardWidget(progressbar.ProgressBarWidget):
-        def update(self, pbar):
-            if len(current_card) < 16:
-                return current_card + (16 - len(current_card)) * ' '
-            else:
-                return current_card[:16]
-    widgets = [CardWidget(), ' ', progressbar.Bar(left='[', right=']'), ' ',
-               progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
-    pbar = progressbar.ProgressBar(widgets=widgets, maxval=len(cards))
-    pbar.start()
-    for i, card in enumerate(cards):
-        current_card = card.name
-        pbar.update(i)
-        yield card
-    pbar.finish()
-
-def preprocess_all(cards):
-    """ Scans the rules texts of every card to replace any card names that
-        appear with appropriate symbols. """
-    print("Processing cards for card names...")
-    for c in CardProgressBar(cards):
-        names = (c.name,)
-        if c.shortname:
-            names += (c.shortname,)
-        lines = [preprocess_reminder(preprocess_names(line, names))
-                 for line in c.rules.split("\n")]
-        c.rules = "\n".join(lines)
-
 def main():
     if len(sys.argv) > 1:
         update(sys.argv[1:])
@@ -151,4 +116,4 @@ def main():
     if len(cards) - len(legalcards) != len(BANNED):
         logging.warning("...but {} banned cards were named."
                         .format(len(BANNED)))
-    preprocess_all(legalcards)
+    card.preprocess_all(legalcards)

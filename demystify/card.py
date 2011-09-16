@@ -5,6 +5,8 @@ logger = logging.getLogger("card")
 logger.setLevel(logging.INFO)
 import re
 
+import progressbar
+
 abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
@@ -220,6 +222,26 @@ class Card:
     def __hash__(self):
         return self.name.__hash__()
 
+def CardProgressBar(cards):
+    """ A generator that writes a progress bar to stdout as its elements
+        are accessed. """
+    current_card = ' '
+    class CardWidget(progressbar.ProgressBarWidget):
+        def update(self, pbar):
+            if len(current_card) < 16:
+                return current_card + (16 - len(current_card)) * ' '
+            else:
+                return current_card[:16]
+    widgets = [CardWidget(), ' ', progressbar.Bar(left='[', right=']'), ' ',
+               progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
+    pbar = progressbar.ProgressBar(widgets=widgets, maxval=len(cards))
+    pbar.start()
+    for i, card in enumerate(cards):
+        current_card = card.name
+        pbar.update(i)
+        yield card
+    pbar.finish()
+
 def potential_names(words, cardnames):
     """ cardnames is a list of potential names, either SELF or PARENT,
         that should not be replaced with NAME_ tokens. """
@@ -316,6 +338,7 @@ def format_by_name(names, words):
     namelist += ' ' + ' '.join(words[ll:])
     return namelist
 
+# For testing PARENT detection.
 _parentcards = set()
 
 def preprocess_cardname(line, selfnames=(), parentnames=()):
@@ -420,6 +443,20 @@ def preprocess_reminder(text):
         so that searching cards for text won't match reminder text. """
     return _reminder_text.sub(_reminder_chop, text).strip()
 
+## Main entry point for the preprocessing step ##
+
+def preprocess_all(cards):
+    """ Scans the rules texts of every card to replace any card names that
+        appear with appropriate symbols. """
+    print("Processing cards for card names...")
+    for c in CardProgressBar(cards):
+        names = (c.name,)
+        if c.shortname:
+            names += (c.shortname,)
+        lines = [preprocess_reminder(preprocess_names(line, names))
+                 for line in c.rules.split("\n")]
+        c.rules = "\n".join(lines)
+
 def get_cards():
     """ Returns a set of all the Cards instantiated with the Card class. """
     return set(_all_cards.values())
@@ -431,6 +468,8 @@ def get_card(cardname):
 def get_name_from_uname(uname):
     """ Returns the English card for an object, given its unique name. """
     return all_names_inv[uname]
+
+## Utility functions to search card text, get simple text stats ##
 
 def search_text(text, cards=None, reflags=re.I):
     """ Returns a list of (card name, line of text), containing
