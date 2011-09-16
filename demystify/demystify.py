@@ -152,4 +152,3 @@ def main():
         logging.warning("...but {} banned cards were named."
                         .format(len(BANNED)))
     preprocess_all(legalcards)
-    #used_t, used_v = test_lex(cards)
