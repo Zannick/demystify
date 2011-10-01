@@ -447,7 +447,7 @@ def preprocess_reminder(text):
 
 def preprocess_all(cards):
     """ Scans the rules texts of every card to replace any card names that
-        appear with appropriate symbols. """
+        appear with appropriate symbols, and eliminates reminder text. """
     print("Processing cards for card names...")
     for c in CardProgressBar(cards):
         names = (c.name,)
