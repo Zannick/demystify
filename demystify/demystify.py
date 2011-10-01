@@ -31,6 +31,9 @@ def get_cards():
 nameline = re.compile(r"^Name:", re.M)
 
 def smart_split(cardlist):
+    """ Given a list of cards in gatherer format as a single string,
+        splits them into blocks of single cards, each starting with a
+        'Name:' line. """
     i = 0
     c = []
     for t in nameline.finditer(cardlist):
@@ -42,6 +45,10 @@ def smart_split(cardlist):
     return c
 
 def load():
+    """ Load the cards from the data files. These are stored statically
+        in the card module.
+        
+        Returns the number of cards loaded. """
     count = 0
     for filename in TEXTFILES:
         logging.info("Loading cards from {}...".format(filename))
@@ -55,6 +62,9 @@ def load():
     return count
 
 def update(files):
+    """ Given a list of text files (not the ones in data/) containing card
+        data, update the text files in data/ by adding new card entries or
+        updating existing entries. """
     alpha = {}
     # read in the data we already have
     for tfile in TEXTFILES:
@@ -67,6 +77,9 @@ def update(files):
     updated = 0
     # Lines with whitespace only are junk
     differ = difflib.Differ(linejunk=lambda s: not s.strip())
+    def sequencify(s):
+        """ Make a sequence of lines that end in newlines. """
+        return (s + '\n').splitlines(True)
     # read in the new data
     for ufile in files:
         with open(ufile) as f:
@@ -75,7 +88,8 @@ def update(files):
                 initial = name[0] if name[0] in alpha else '0'
                 if name in alpha[initial]:
                     updated += 1
-                    diff = differ.compare(alpha[initial][name], raw_card)
+                    diff = differ.compare(sequencify(alpha[initial][name]),
+                                          sequencify(raw_card))
                     ulog.info("Updating {}:\n{}".format(name, ''.join(diff)))
                 else:
                     added += 1
@@ -86,6 +100,8 @@ def update(files):
         with open(tfile, 'w') as f:
             f.write('\n\n'.join(sorted(alpha[tfile[-1]].values())))
             f.write('\n')
+    # The update count might include those with no changes.
+    # But this usually doesn't happen, as reprinted cards get a new expansion.
     summary = ("Added {} new cards and updated {} old ones."
                .format(added, updated))
     print(summary)
@@ -93,7 +109,11 @@ def update(files):
 
 def main():
     if len(sys.argv) > 1:
-        update(sys.argv[1:])
+        if len(sys.argv) > 2 and sys.argv[-1] == '-q':
+            update(sys.argv[1:-1])
+            return
+        else:
+            update(sys.argv[1:])
     numcards = load()
     cards = card.get_cards()
     split = set([c.name for c in cards if c.multitype == "split"])
