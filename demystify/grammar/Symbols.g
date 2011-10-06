@@ -6,12 +6,9 @@ options {
     language = Python;
 }
 
-// hack to allow unicode
-@header {
-    if sys.getdefaultencoding() != 'utf-8':
-        reload(sys)
-        sys.setdefaultencoding('utf-8')
-}
+// Literals used in parsing rules don't have to be declared,
+// but for reference they are:
+// ,:;."'+-*/
 
 // TODO: Need to chop off the '}' from the token values?
 
@@ -52,11 +49,7 @@ PARENT_POSS : 'PARENT\'s';
 
 REFBYNAME : 'NAME_' '\w'+;
 
-NON : 'non' '-'?;
-
-// Literals used in parsing rules don't have to be declared,
-// but for reference they are:
-// ,:;."'+-*/
+NON : ('n' | 'N') 'on' '-'?;
 
 // TODO: Determine landwalk type.
 // TODO: Avoid collision with "planeswalk" keyword.

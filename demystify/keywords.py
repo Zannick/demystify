@@ -17,6 +17,8 @@
 # our objective is not to disallow poorly worded Magic cards but to interpret
 # all existing Magic cards.
 
+import string
+
 class Keyword(object):
     """ Common superclass for the types of words that are used here.
         Allows export of a mini-dictionary that contains words and tokens. """
@@ -1459,30 +1461,59 @@ def main():
             rev[token].append(text)
     def reprsinglequote(s):
         if not s:
-            return "''";
+            return ''
         a = repr(s)
         if a[0] == '"':
             a = "'" + a[1:-1].replace("'", r"\'") + "'"
         return a
-    with open('grammar/{}.g'.format(grammar), 'w') as f:
+    _alphas = set(string.lowercase)
+    def maybecapitalize(s):
+        """ Capitalize the first word, and repr with single quotes. """
+        a = s[0]
+        if a in _alphas:
+            if len(s) == 1:
+                return ("( '{}' | '{}' )".format(a.upper(), a))
+            return ("( '{}' | '{}' ) {}"
+                    .format(a.upper(), a, reprsinglequote(s[1:])))
+    def setforoutput(tlist):
+        """ Produce a list of strings to be ORed together. """
+        if len(tlist) == 1:
+            return [maybecapitalize(tlist[0])]
+        elif len(tlist) < 5:
+            a = tlist[0][0]
+            if all(s[0] == a for s in tlist[1:]):
+                cap = maybecapitalize(a)
+                tails = [s[1:] for s in tlist]
+                if len(tails) == 2:
+                    a, b = tails
+                    if a[:-1] == b:
+                        m = reprsinglequote(b)
+                        n = reprsinglequote(a[-1])
+                        return ['{} {} {}?'.format(cap, m, n)]
+                    elif b[:-1] == a:
+                        m = reprsinglequote(a)
+                        n = reprsinglequote(b[-1])
+                        return ['{} {} {}?'.format(cap, m, n)]
+                plist = [reprsinglequote(t) for t in tails]
+                return ['{} ( {} )'.format(cap, ' | '.join(plist))]
+        return [maybecapitalize(t) for t in tlist]
+    import os
+    filename = os.path.join(os.path.dirname(__file__), 'grammar',
+                            '{}.g'.format(grammar))
+    with open(filename, 'w') as f:
         f.write('\n'.join(header).format(grammar=grammar))
         f.write('\n')
         for token, textlist in sorted(rev.items()):
-            tlist = sorted(textlist)
+            tlist = setforoutput(sorted(textlist))
             f.write('{}: '.format(token))
             if len(tlist) == 1:
-                f.write('{};\n'.format(reprsinglequote(tlist[0])))
-            elif len(tlist) < 6:
-                f.write('( {}'.format(reprsinglequote(tlist[0])))
-                for text in tlist[1:]:
-                    f.write(' | {}'.format(reprsinglequote(text)))
-                f.write(' );\n')
+                f.write('{};\n'.format(tlist[0]))
             else:
-                f.write('( {}'.format(reprsinglequote(tlist[0])))
+                f.write('( {}'.format(tlist[0]))
                 for text in tlist[1:]:
                     f.write('\n{bar:>{width}} {text}'
-                            .format(bar='|', width=len(token)+3,
-                                    text=reprsinglequote(text)))
+                            .format(bar='|', width=len(token) + 3,
+                                    text=text))
                 f.write(' );\n')
 
 if __name__ == "__main__":
