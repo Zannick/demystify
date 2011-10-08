@@ -36,7 +36,7 @@ SELF : 'SELF';
 PARENT_POSS : 'PARENT\'s';
 PARENT : 'PARENT';
 
-REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' )+;
+REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' | '\u00c6' | '\u00e6' )+;
 
 // Basic lands have only one letter as their rules text
 BASIC_MANA_SYM : ('W'|'U'|'B'|'R'|'G');

@@ -109,7 +109,7 @@ def construct_uname(name):
         character (as in \W) replaced with an underscore. This is intended
         to be a unique mapping of the card name to one which contains only
         alphanumerics and underscores. """
-    return nonwords.sub(r'_', "NAME_" + name)
+    return nonwords.sub(r'_', unicode("NAME_" + name))
 
 def make_shortname(name):
     if ', ' in name:
