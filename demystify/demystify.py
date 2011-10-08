@@ -116,11 +116,15 @@ def test_lex(cards):
     """ Test the lexer against the given cards' text, logging failures. """
     Lexer = Demystify.Demystify
     for c in card.CardProgressBar(cards):
-        char_stream = antlr3.ANTLRStringStream(c.rules)
-        lexer = Lexer(char_stream)
-        lexer.card = c.name
-        # tokenizes completely and logs on errors
-        tokens = antlr3.CommonTokenStream(lexer).getTokens()
+        try:
+            char_stream = antlr3.ANTLRStringStream(c.rules)
+            lexer = Lexer(char_stream)
+            lexer.card = c.name
+            # tokenizes completely and logs on errors
+            tokens = antlr3.CommonTokenStream(lexer).getTokens()
+        except:
+            print('Error lexing {}:\n{}'.format(c.name, c.rules))
+            raise
 
 def lex_card(c):
     """ Test the lexer against one card's text. """
