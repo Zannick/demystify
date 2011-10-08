@@ -29,7 +29,7 @@ tokens {
 // but for reference they are:
 // ,:;."'+-*/
 
-// These five are the only things exempt from being lowercased.
+// These seven are the only things exempt from being lowercased.
 SELF_POSS : 'SELF\'s';
 SELF : 'SELF';
 
@@ -38,18 +38,18 @@ PARENT : 'PARENT';
 
 REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' )+;
 
+// Basic lands have only one letter as their rules text
+BASIC_MANA_SYM : ('W'|'U'|'B'|'R'|'G');
+
+// Appearance in rules text
+PHYREXIA_SYM : 'P';
+
 // TODO: Need to chop off the '}' from the token values?
 
 MANA_SYM
     : '{(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' WUBRGP ')}'
     | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) ( '}' | '/' WUBRGP '}' )
     | '(' ( WUBRG | DIGIT_SYM | 's' ) '/' ( WUBRGP | 's' ) ')';
-
-// Basic lands have only one letter as their rules text
-BASIC_MANA_SYM : WUBRG;
-
-// Appearance in rules text
-PHYREXIA_SYM : 'p';
 
 VAR_SYM : '{' ('x'..'z') '}';
 

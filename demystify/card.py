@@ -447,13 +447,16 @@ def preprocess_reminder(text):
     return _reminder_text.sub(_reminder_chop, text).strip()
 
 def preprocess_capitals(text):
-    """ Lowercase every word (but not SELF, PARENT, or NAME_). """
+    """ Lowercase every word (but not SELF, PARENT, NAME_, or
+        bare mana symbols). """
+    if len(text) == 1:
+        return text
     ws = text.split(' ')
     caps = set(string.uppercase)
     lows = set(string.lowercase)
     vs = []
     for w in ws:
-        if 'SELF' in w or 'PARENT' in w or 'NAME_' in w:
+        if 'SELF' in w or 'PARENT' in w or 'NAME_' in w or w == 'P':
             vs.append(w)
         else:
             vs.append(w.lower())
