@@ -17,8 +17,6 @@
 # our objective is not to disallow poorly worded Magic cards but to interpret
 # all existing Magic cards.
 
-import string
-
 class Keyword(object):
     """ Common superclass for the types of words that are used here.
         Allows export of a mini-dictionary that contains words and tokens. """
@@ -243,6 +241,8 @@ _actions = [
     Verb(   ("EXILE", "exile", "exiles"),
             ("EXILED", "exiled"),
             ("EXILING", "exiling")),
+    Verb(   ("FIGHT", "fight", "fights"),
+            ("FOUGHT", "fought")),
     Verb(   ("PLAY", "play", "plays"),
             ("PLAYED", "played"),
             ("PLAYING", "playing")),
@@ -287,6 +287,8 @@ _actions = [
     Verb(   ("SCRY", "scry", "scries"),
             ("SCRIED", "scried"),
             ("SCRYING", "scrying")),
+    Verb(   ("TRANSFORM", "transform", "transforms"),
+            ("TRANSFORMED", "transformed")),
 
     # special
     Verb(   ("ABANDON", "abandon", "abandons"),
@@ -324,6 +326,8 @@ _actions = [
     Verb(   ("DEAL", "deal", "deals"),
             ("DEALT", "dealt"),
             ("DEALING", "dealing")),
+    Verb(   ("DIE", "die", "dies"),
+            ("DIED", "died")),
     Verb(   ("END", "end", "ends"),
             ("ENDED", "ended")),
     Verb(   ("ENTER", "enter", "enters"),
@@ -409,6 +413,7 @@ _abilities = [
     Keyword(("FLASH", "flash")),
     Keyword(("FLYING", "flying")),
     Keyword(("HASTE", "haste")),
+    Keyword(("HEXPROOF", "hexproof")),
     Keyword(("INTIMIDATE", "intimidate")),
     Keyword(("LANDWALK", "landwalk")),
     Keyword(("LIFELINK", "lifelink")),
@@ -540,9 +545,11 @@ _ability_words = [
     Keyword(("GRANDEUR", "grandeur")),
     Keyword(("HELLBENT", "hellbent")),
     Keyword(("IMPRINT", "imprint")),
+    Keyword(("JOIN_FORCES", "join forces")),
     Keyword(("KINSHIP", "kinship")),
     Keyword(("LANDFALL", "landfall")),
     Keyword(("METALCRAFT", "metalcraft")),
+    Keyword(("MORBID", "morbid")),
     Keyword(("RADIANCE", "radiance")),
     Keyword(("SWEEP", "sweep")),
     Keyword(("THRESHOLD", "threshold")),
@@ -605,6 +612,7 @@ _types = [
     Keyword(("MULTICOLORED", "multicolored")),
 
     # Other Types
+    Noun("COMMANDER", "commander", "commanders", "commander's", "commanders'"),
     Noun("EMBLEM", "emblem", "emblems", "emblem's", "emblems'"),
     Noun("PLANE", "plane", "planes", "plane's", "planes'"),
     Noun("SCHEME", "scheme", "schemes", "scheme's", "schemes'"),
@@ -1028,6 +1036,7 @@ counter_types = [
     "soot",
     "spore",
     "storage",
+    "strife",
     "study",
     "theft",
     "tide",
@@ -1079,6 +1088,7 @@ _zones = [
     Noun("GAME", "game", "games", "game's", "games'"),
     Noun("SIDEBOARD", "sideboard", "sideboards", "sideboard's", "sideboards'"),
     Noun("SUBGAME", "subgame", "subgames", "subgame's", "subgames"),
+    Noun("ZONE", "zone", "zones", "zone's", "zones'"),
     Keyword(("OUTSIDE", "outside")),
     Keyword(("ANYWHERE", "anywhere")),
 ]
@@ -1188,6 +1198,8 @@ _concepts = [
     Keyword(("REST", "rest")),
     Keyword(("LEFT", "left")),
     Keyword(("RIGHT", "right")),
+    Keyword(("WAR", "war")),
+    Keyword(("PEACE", "peace")),
 
     # comparisons
     Keyword(("MOST", "most")),
@@ -1291,7 +1303,9 @@ _concepts = [
 
     # Subgames
     Keyword(("MAGIC", "magic")),
-    Keyword(("SUBGAME", "subgame")),
+
+    # Color identity (Commander)
+    Keyword(("IDENTITY", "identity")),
 
     # Timing
     Keyword(("AFTER", "after")),
@@ -1377,7 +1391,7 @@ _misc = [
     Keyword(("MAKE", "make")),
     Keyword(("MUST", "must")),
     Keyword(("NEW", "new")),
-    Keyword(("NOT", "not")),
+    Keyword(("NOT", "not", "n't")),
     Keyword(("OF", "of")),
     Keyword(("OR", "or")),
     Keyword(("PART", "part")),
@@ -1452,13 +1466,23 @@ def main():
         'options {{',
         '    language = Python;',
         '}}\n',
+        'tokens {{',
+        '    {tokens};',
+        '}}\n',
     ]
-    rev = {}
+    all_tokens = set(all_words.values())
+    # token -> (text, substitute token) list
+    match_cases = {}
     for text, token in all_words.items():
-        if token not in rev:
-            rev[token] = [text]
+        slen = len(text)
+        for c in " '-/":
+            if c in text:
+                slen = min(slen, text.index(c))
+        stoken = text[:slen].upper()
+        if stoken not in match_cases:
+            match_cases[stoken] = [(text, token)]
         else:
-            rev[token].append(text)
+            match_cases[stoken].append((text, token))
     def reprsinglequote(s):
         if not s:
             return ''
@@ -1466,55 +1490,36 @@ def main():
         if a[0] == '"':
             a = "'" + a[1:-1].replace("'", r"\'") + "'"
         return a
-    _alphas = set(string.lowercase)
-    def maybecapitalize(s):
-        """ Capitalize the first word, and repr with single quotes. """
-        a = s[0]
-        if a in _alphas:
-            if len(s) == 1:
-                return ("( '{}' | '{}' )".format(a.upper(), a))
-            return ("( '{}' | '{}' ) {}"
-                    .format(a.upper(), a, reprsinglequote(s[1:])))
-    def setforoutput(tlist):
-        """ Produce a list of strings to be ORed together. """
-        if len(tlist) == 1:
-            return [maybecapitalize(tlist[0])]
-        elif len(tlist) < 5:
-            a = tlist[0][0]
-            if all(s[0] == a for s in tlist[1:]):
-                cap = maybecapitalize(a)
-                tails = [s[1:] for s in tlist]
-                if len(tails) == 2:
-                    a, b = tails
-                    if a[:-1] == b:
-                        m = reprsinglequote(b)
-                        n = reprsinglequote(a[-1])
-                        return ['{} {} {}?'.format(cap, m, n)]
-                    elif b[:-1] == a:
-                        m = reprsinglequote(a)
-                        n = reprsinglequote(b[-1])
-                        return ['{} {} {}?'.format(cap, m, n)]
-                plist = [reprsinglequote(t) for t in tails]
-                return ['{} ( {} )'.format(cap, ' | '.join(plist))]
-        return [maybecapitalize(t) for t in tlist]
     import os
     filename = os.path.join(os.path.dirname(__file__), 'grammar',
                             '{}.g'.format(grammar))
     with open(filename, 'w') as f:
-        f.write('\n'.join(header).format(grammar=grammar))
+        f.write('\n'.join(header)
+                .format(grammar=grammar,
+                        tokens=';\n    '.join(sorted(all_tokens))))
         f.write('\n')
-        for token, textlist in sorted(rev.items()):
-            tlist = setforoutput(sorted(textlist))
-            f.write('{}: '.format(token))
+        for token, tlist in sorted(match_cases.items(),
+                                   key=lambda x: (-len(x[0]), x[0])):
             if len(tlist) == 1:
-                f.write('{};\n'.format(tlist[0]))
+                text, rtoken = tlist[0]
+                if rtoken != token:
+                    rt = ' {{$type = {}}}'.format(rtoken)
+                else:
+                    rt = ''
+                f.write('{} : {}{};\n'.format(token,
+                                              reprsinglequote(text), rt))
             else:
-                f.write('( {}'.format(tlist[0]))
-                for text in tlist[1:]:
-                    f.write('\n{bar:>{width}} {text}'
-                            .format(bar='|', width=len(token) + 3,
-                                    text=text))
-                f.write(' );\n')
+                sep = '\n  {bar:>{width}} '.format(bar='|', width=len(token))
+                lines = []
+                for text, rtoken in sorted(tlist,
+                                           key=lambda x: (-len(x[0]), x[0])):
+                    if rtoken != token:
+                        lines.append('{} {{$type = {}}}'
+                                     .format(reprsinglequote(text), rtoken))
+                    else:
+                        lines.append(reprsinglequote(text))
+                f.write('{} : {};\n'.format(token, sep.join(lines)))
+                    
 
 if __name__ == "__main__":
     main()

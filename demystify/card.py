@@ -4,13 +4,14 @@ import logging
 logger = logging.getLogger("card")
 logger.setLevel(logging.INFO)
 import re
+import string
 
 import progressbar
 
 abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
-nonwords = re.compile(r'\W')
+nonwords = re.compile(r'\W', flags=re.UNICODE)
 
 all_names = {}
 all_names_inv = {}
@@ -346,7 +347,8 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
     change = False
     for cardname in selfnames:
         if cardname in line:
-            line, count = re.subn(r"\b{}(?!\w)".format(cardname), "SELF", line)
+            line, count = re.subn(r"\b{}(?!\w)".format(cardname),
+                                  "SELF", line, flags=re.UNICODE)
             if count > 0:
                 change = True
                 if parentnames:
@@ -354,7 +356,8 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
                                 .format(parentnames[0]))
     for cardname in parentnames:
         if cardname in line:
-            line, count = re.subn(r"\b{}(?!\w)".format(cardname), "PARENT", line)
+            line, count = re.subn(r"\b{}(?!\w)".format(cardname),
+                                  "PARENT", line, flags=re.UNICODE)
             if count > 0:
                 change = True
                 logger.info("Detected PARENT in an ability granted by {}."
@@ -443,6 +446,19 @@ def preprocess_reminder(text):
         so that searching cards for text won't match reminder text. """
     return _reminder_text.sub(_reminder_chop, text).strip()
 
+def preprocess_capitals(text):
+    """ Lowercase every word (but not SELF, PARENT, or NAME_). """
+    ws = text.split(' ')
+    caps = set(string.uppercase)
+    lows = set(string.lowercase)
+    vs = []
+    for w in ws:
+        if 'SELF' in w or 'PARENT' in w or 'NAME_' in w:
+            vs.append(w)
+        else:
+            vs.append(w.lower())
+    return ' '.join(vs)
+
 ## Main entry point for the preprocessing step ##
 
 def preprocess_all(cards):
@@ -453,7 +469,8 @@ def preprocess_all(cards):
         names = (c.name,)
         if c.shortname:
             names += (c.shortname,)
-        lines = [preprocess_reminder(preprocess_names(line, names))
+        lines = [preprocess_capitals(
+                    preprocess_reminder(preprocess_names(line, names)))
                  for line in c.rules.split("\n")]
         c.rules = "\n".join(lines)
 
@@ -471,7 +488,7 @@ def get_name_from_uname(uname):
 
 ## Utility functions to search card text, get simple text stats ##
 
-def search_text(text, cards=None, reflags=re.I):
+def search_text(text, cards=None, reflags=re.I|re.U):
     """ Returns a list of (card name, line of text), containing
         every line in the text of a card that contains a match for the
         given text.
@@ -484,7 +501,7 @@ def search_text(text, cards=None, reflags=re.I):
     return [(c.name, line) for c in cards for line in c.rules.split('\n')
             if r.search(line)]
 
-def preceding_words(text, cards=None, reflags=re.I):
+def preceding_words(text, cards=None, reflags=re.I|re.U):
     """ Returns a set of words which appear anywhere in a card's rules text
         before the given text.
 
@@ -498,7 +515,7 @@ def preceding_words(text, cards=None, reflags=re.I):
         a.update(r.findall(c.rules))
     return a
 
-def following_words(text, cards=None, reflags=re.I):
+def following_words(text, cards=None, reflags=re.I|re.U):
     """ Returns a set of words which appear anywhere in a card's rules text
         after the given text.
 

@@ -1,7 +1,9 @@
 lexer grammar Demystify;
 
 options {
+    k = 1;
     language = Python;
+    backtrack = true;
 }
 
 import Keywords, Symbols;
@@ -44,6 +46,9 @@ import Keywords, Symbols;
         llog.error(msg)
 }
 
+// These rules take precedence over the ones defined in Keywords and Symbols.
+NON : 'non' '-'?;
+
 COMMA : ',';
 COLON : ':';
 SEMICOLON : ';';
@@ -54,4 +59,3 @@ PLUS_SYM : '+';
 MINUS_SYM : '-';
 STAR_SYM : '*';
 DIV_SYM : '/';
-LANDWALK : 'landwalk';
