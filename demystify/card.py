@@ -174,7 +174,7 @@ class Card:
         
         self.shortname = None
         if 'Legendary' in typeline:
-            self.shortname = make_shortname(self.name)
+            self.shortname = unicode(make_shortname(self.name))
             if self.shortname:
                 logger.debug("Shortname for {} set to {}."
                              .format(self.name, self.shortname))
@@ -191,7 +191,7 @@ class Card:
         # Gatherer is pretty inconsistent, especially wrt split and flip cards
         for l in t:
             if l.startswith("Name:"):
-                name = l[5:].strip()
+                name = unicode(l[5:].strip())
                 if name in _all_cards:
                     logger.debug("Previously saw {}.".format(name))
                     return _all_cards[name]
@@ -212,7 +212,7 @@ class Card:
                     rules += '\n' + l.strip()
         assert name is not None
         logger.debug("Loaded {}.".format(name))
-        return Card(name, cost, typeline, pt, rules, set_rarity)
+        return Card(name, cost, typeline, pt, unicode(rules), set_rarity)
 
     def __eq__(self, c):
         return type(self) == type(c) and self.name == c.name
@@ -347,7 +347,7 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
     change = False
     for cardname in selfnames:
         if cardname in line:
-            line, count = re.subn(r"\b{}(?!\w)".format(cardname),
+            line, count = re.subn(ur"\b{}(?!\w)".format(cardname),
                                   "SELF", line, flags=re.UNICODE)
             if count > 0:
                 change = True
@@ -356,7 +356,7 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
                                 .format(parentnames[0]))
     for cardname in parentnames:
         if cardname in line:
-            line, count = re.subn(r"\b{}(?!\w)".format(cardname),
+            line, count = re.subn(ur"\b{}(?!\w)".format(cardname),
                                   "PARENT", line, flags=re.UNICODE)
             if count > 0:
                 change = True
@@ -483,7 +483,7 @@ def get_cards():
 
 def get_card(cardname):
     """ Returns a specific card by name, or None if no such card exists. """
-    return _all_cards.get(cardname)
+    return _all_cards.get(unicode(cardname))
 
 def get_name_from_uname(uname):
     """ Returns the English card for an object, given its unique name. """
