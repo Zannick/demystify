@@ -17,6 +17,12 @@
 # our objective is not to disallow poorly worded Magic cards but to interpret
 # all existing Magic cards.
 
+# Some keywords are technically multiple words, such as "first strike" and
+# "cumulative upkeep". For lexing clarity, these are tokenized separately
+# if the first word appears elsewhere in Magic's vocabulary. Hence "first
+# strike" will be split into "first" and "strike" while "cumulative upkeep"
+# will not be split at all.
+
 class Keyword(object):
     """ Common superclass for the types of words that are used here.
         Allows export of a mini-dictionary that contains words and tokens. """
@@ -115,9 +121,8 @@ _actions = [
     Verb(   ("DO", "do", "does"),
             ("DID", "did"),
             ("DOING", "doing")),
-    Verb(   ("DONT", "don't", "do not"),
-            ("DIDNT", "didn't", "did not")),
-    Keyword(("DOESNT", "doesn't", "does not")),
+    Verb(   ("DONT", "don't", "doesn't"),
+            ("DIDNT", "didn't")),
     Verb(   ("DOUBLE", "double", "doubles"),
             ("DOUBLED", "doubled")),
     Verb(   ("DRAW", "draw", "draws"),
@@ -369,47 +374,43 @@ _actions = [
             ("BEING", "being")),
     Verb(   ("CAN", "can"),
             ("COULD", "could")),
-    Verb(   ("CANT", "can't", "cannot", "can not"),
-            ("COULDNT", "couldn't", "could not")),
+    Verb(   ("CANT", "can't", "cannot"),
+            ("COULDNT", "couldn't")),
     Verb(   ("IS", "is"),
             ("WAS", "was")),
-    Verb(   ("ISNT", "isn't", "is not"),
-            ("WASNT", "wasn't", "was not")),
+    Verb(   ("ISNT", "isn't"),
+            ("WASNT", "wasn't")),
     Verb(   ("ARE", "are"),
             ("WERE", "were")),
-    Verb(   ("ARENT", "aren't", "are not"),
-            ("WERENT", "weren't", "were not")),
+    Verb(   ("ARENT", "aren't"),
+            ("WERENT", "weren't")),
     Verb(   ("HAS", "has", "have"),
             ("HAD", "had"),
             ("HAVING", "having")),
-    Verb(   ("HASNT", "hasn't", "has not", "haven't", "have not"),
-            ("HADNT", "hadn't", "had not")),
+    Verb(   ("HASNT", "hasn't", "haven't"),
+            ("HADNT", "hadn't")),
     Keyword(("MAY", "may")),
 ]
 for action in _actions:
     actions.update(action.dict)
-
-#    Verb(("BECOME", "becomes", "become"),
-#         ("BECAME", "became"),
-#         ("BECOMING", "becoming")),
 
 abilities = {}
 _abilities = [
     # core
     Keyword(("DEATHTOUCH", "deathtouch")),
     Keyword(("DEFENDER", "defender")),
-    Keyword(("DOUBLE_STRIKE", "double strike")),
-    # we use Verbs to describe keywords that can be used like actions
-    # though they aren't officially keyword actions
+    # Double strike, first strike
+    Keyword(("STRIKE", "strike")),
+    # We use Verbs to describe keywords that can be used like actions
+    # though they aren't officially keyword actions.
     # This allows us to define words like "kicked" here with the
-    # relevant keyword
+    # relevant keyword.
     Verb(   ("ENCHANT", "enchant", "enchants"),
             ("ENCHANTED", "enchanted"),
             ("ENCHANTING", "enchanting")),
     Verb(   ("EQUIP", "equip", "equips"),
             ("EQUIPPED", "equipped"),
             ("EQUIPPING", "equipping")),
-    Keyword(("FIRST_STRIKE", "first strike")),
     Keyword(("FLASH", "flash")),
     Keyword(("FLYING", "flying")),
     Keyword(("HASTE", "haste")),
@@ -433,8 +434,9 @@ _abilities = [
     Verb(   ("AMPLIFY", "amplify", "amplifies"),
             ("AMPLIFIED", "amplified")),
     Keyword(("ANNIHILATOR", "annihilator")),
-    Verb(   ("AURA_SWAP", "aura swap", "aura swaps"),
-            ("AURA_SWAPPED", "aura swapped")),
+    # Aura swap
+    Verb(   ("SWAP", "swap", "swaps"),
+            ("SWAPPED", "swapped")),
     Keyword(("BATTLE_CRY", "battle cry")),
     Keyword(("BLOODTHIRST", "bloodthirst")),
     Keyword(("BUSHIDO", "bushido")),
@@ -479,8 +481,8 @@ _abilities = [
     Keyword(("KICKER", "kicker")),
     Verb(   ("KICK", "kick", "kicks"),
             ("KICKED", "kicked")),
-    Verb(   ("LEVEL_UP", "level up", "levels up"),
-            ("LEVELED_UP", "leveled up")),
+    # Level up
+    Keyword(("LEVEL", "level")),
     Keyword(("LIVING_WEAPON", "living weapon")),
     Keyword(("MADNESS", "madness")),
     Keyword(("MODULAR", "modular")),
@@ -489,11 +491,10 @@ _abilities = [
     Keyword(("NINJUTSU", "ninjutsu")),
     Keyword(("OFFERING", "offering")),
     Keyword(("PERSIST", "persist")),
-    Verb(   ("PHASE_IN", "phase in", "phases in"),
-            ("PHASED_IN", "phased in")),
-    Verb(   ("PHASE_OUT", "phase out", "phases out"),
-            ("PHASED_OUT", "phased out")),
-    Keyword(("PHASING", "phasing")),
+    # Phasing
+    Verb(   ("PHASE", "phase", "phases"),
+            ("PHASED", "phased"),
+            ("PHASING", "phasing")),
     Keyword(("POISONOUS", "poisonous")),
     Verb(   ("PROVOKE", "provoke", "provokes"),
             ("PROVOKED", "provoked")),
@@ -527,10 +528,10 @@ _abilities = [
     Keyword(("VANISHING", "vanishing")),
     Keyword(("WITHER", "wither")),
     # Dead
+    # Banding and Bands with other
     Verb(   ("BAND", "band", "bands"),
             ("BANDED", "banded"),
             ("BANDING", "banding")),
-    Keyword(("BANDS_WITH_OTHER", "bands with other")),
     Keyword(("FEAR", "fear")),
 ]
 for ability in _abilities:
@@ -1076,13 +1077,13 @@ for st in _subtypes:
 
 zones = {}
 _zones = [
-    Keyword(("THE_BATTLEFIELD", "the battlefield")),
+    Keyword(("BATTLEFIELD", "battlefield")),
     Keyword(("COMMAND", "command")),
     Keyword(("EXILE", "exile")),
     Noun("GRAVEYARD", "graveyard", "graveyards", "graveyard's", "graveyards'"),
     Noun("HAND", "hand", "hands", "hand's", "hands'"),
     Noun("LIBRARY", "library", "libraries", "library's", "libraries'"),
-    Keyword(("THE_STACK", "the stack")),
+    Keyword(("STACK", "stack")),
 
     Noun("DECK", "deck", "decks", "deck's", "decks'"),
     Noun("GAME", "game", "games", "game's", "games'"),
@@ -1117,7 +1118,7 @@ _turn_structure = [
     Keyword(("DECLARE", "declare")),
     Keyword(("ATTACKERS", "attackers")),
     Keyword(("BLOCKERS", "blockers")),
-    Keyword(("COMBAT_DAMAGE", "combat damage")),
+    Keyword(("DAMAGE", "damage")), # combat damage
     Keyword(("END", "end")), # of combat; end step
     Keyword(("CLEANUP", "cleanup")),
 ]
@@ -1136,13 +1137,14 @@ _concepts = [
     # mana
     Keyword(("COMBINATION", "combination")),
     Noun("MANA", "mana", "mana", "mana's", "mana's"),
-    Noun("MANA_POOL", "mana pool", "mana pools", "mana pool's", "mana pools'"),
+    Noun("POOL", "pool", "pools", "pool's", "pools'"),
     Noun("SYMBOL", "symbol", "symbols", "symbol's", "symbols'"),
 
     # Object or zone parts
     Noun("BOTTOM", "bottom", "bottoms", "bottom's", "bottoms'"),
     Noun("TOP", "top", "tops", "top's", "tops'"),
-    Keyword(("LIFE", "life", "life total", "life totals")),
+    Keyword(("LIFE", "life")),
+    Keyword(("TOTAL", "total", "totals")),
     Keyword(("POWER", "power")),
     Keyword(("TOUGHNESS", "toughness")),
     Keyword(("TEXT", "text")),
@@ -1256,11 +1258,15 @@ _concepts = [
     # Pronouns
     Keyword(("YOU", "you")),
     Keyword(("YOUR", "your", "yours")),
-    Keyword(("YOU_ARE", "you're", "you are")),
-    Keyword(("YOU_HAVE", "you've", "you have")),
-    Noun("THEY", "he or she", "they", "his or her", "their"),
-    Keyword(("THEY_ARE", "they're", "they are")),
-    Noun("THEM", "him or her", "them", "his or her", "their"),
+    Keyword(("YOU_ARE", "you're")),
+    Keyword(("YOU_HAVE", "you've")),
+    # Their, or his or her
+    Keyword(("THEIR", "their")),
+    # Them, or him or her
+    Keyword(("THEM", "them")),
+    # They, or he or she
+    Keyword(("THEY", "they")),
+    Keyword(("THEY_ARE", "they're")),
     Keyword(("ITSELF", "itself")),
     # Planeswalkers use these
     Keyword(("HE", "he")),
@@ -1338,19 +1344,20 @@ _concepts = [
     Keyword(("INSTEAD", "instead")),
     Keyword(("INTO", "into")),
     Keyword(("IT", "it")),
-    Keyword(("IT_IS", "it's", "it is")),
+    Keyword(("IT_IS", "it's")),
     Keyword(("ITS", "its")),
     Keyword(("LIKEWISE", "likewise")),
     Keyword(("ON", "on")),
     Keyword(("ONTO", "onto")),
     Keyword(("OTHERWISE", "otherwise")),
+    Keyword(("OUT", "out")),
     Keyword(("PROCESS", "process")),
     Keyword(("RATHER", "rather")),
     Keyword(("STILL", "still")),
     Keyword(("THAT", "that")),
-    Keyword(("THAT_IS", "that's", "that is")),
+    Keyword(("THAT_IS", "that's")),
     Keyword(("THERE", "there")),
-    Keyword(("THERE_IS", "there's", "there is")),
+    Keyword(("THERE_IS", "there's")),
     Keyword(("THIS", "this")),
     Keyword(("THOSE", "those")),
     Keyword(("THOUGH", "though")),
@@ -1391,7 +1398,8 @@ _misc = [
     Keyword(("MAKE", "make")),
     Keyword(("MUST", "must")),
     Keyword(("NEW", "new")),
-    Keyword(("NOT", "not", "n't")),
+    Keyword(("NON", "non-")),
+    Keyword(("NOT", "not")),
     Keyword(("OF", "of")),
     Keyword(("OR", "or")),
     Keyword(("PART", "part")),
@@ -1447,8 +1455,7 @@ for s in subtypes:
 for s in subtypes_poss:
     all_words[s] = "OBJ_SUBTYPE_POSS"
 for c in counter_types:
-    all_words["{} counter".format(c)] = "OBJ_COUNTER"
-    all_words["{} counters".format(c)] = "OBJ_COUNTER"
+    all_words[c] = c.upper()
 for n in number_words:
     all_words[n] = "NUMBER_WORD"
 for o in ordinals:

@@ -1,9 +1,7 @@
 lexer grammar Demystify;
 
 options {
-    k = 1;
     language = Python;
-    backtrack = true;
 }
 
 import Keywords, Symbols;
@@ -45,9 +43,6 @@ import Keywords, Symbols;
             msg = self.card + ':' + msg
         llog.error(msg)
 }
-
-// These rules take precedence over the ones defined in Keywords and Symbols.
-NON : 'non' '-'?;
 
 COMMA : ',';
 COLON : ':';

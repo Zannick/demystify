@@ -452,8 +452,6 @@ def preprocess_capitals(text):
     if len(text) == 1:
         return text
     ws = text.split(' ')
-    caps = set(string.uppercase)
-    lows = set(string.lowercase)
     vs = []
     for w in ws:
         if 'SELF' in w or 'PARENT' in w or 'NAME_' in w or w == 'P':
@@ -461,6 +459,13 @@ def preprocess_capitals(text):
         else:
             vs.append(w.lower())
     return ' '.join(vs)
+
+# Min length is 2 to avoid the sole exception of "none".
+_non = re.compile(r"\bnon(\w{2,})", flags=re.I|re.U)
+
+def preprocess_non(text):
+    """ Ensure a dash appears between non and the word it modifies. """
+    return _non.sub(r"non-\1", text)
 
 ## Main entry point for the preprocessing step ##
 
@@ -475,7 +480,7 @@ def preprocess_all(cards):
         lines = [preprocess_capitals(
                     preprocess_reminder(preprocess_names(line, names)))
                  for line in c.rules.split("\n")]
-        c.rules = "\n".join(lines)
+        c.rules = preprocess_non("\n".join(lines))
 
 def get_cards():
     """ Returns a set of all the Cards instantiated with the Card class. """
@@ -530,4 +535,20 @@ def following_words(text, cards=None, reflags=re.I|re.U):
     a = set()
     for c in cards:
         a.update(r.findall(c.rules))
+    return a
+
+def matching_text(text, cards=None, reflags=re.I|re.U, group=0):
+    """ Returns a set of all matches for the given regex.
+        By default use the whole match. Set group to use only the specific
+        match group.
+
+        A subset of cards can be specified if one doesn't want to search
+        the entire set. """
+    if not cards:
+        cards = get_cards()
+    r = re.compile(text, reflags)
+    a = set()
+    for c in cards:
+        for m in r.finditer(c.rules):
+            a.add(m.group(group))
     return a
