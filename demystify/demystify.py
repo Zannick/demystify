@@ -4,16 +4,16 @@ import re
 import sys
 import logging
 
-import antlr3
-
-from . import card
-from .grammar import Demystify
-
-logging.basicConfig(level=logging.DEBUG, filename="LOG")
+logging.basicConfig(level=logging.DEBUG, filename="LOG", filemode="w")
 plog = logging.getLogger("Parser")
 plog.setLevel(logging.DEBUG)
 ulog = logging.getLogger("Updater")
 ulog.setLevel(logging.INFO)
+
+import antlr3
+
+from . import card
+from .grammar import Demystify
 
 DATADIR = os.path.join(os.path.dirname(__file__), "data/")
 TEXTDIR = DATADIR + "text/"
@@ -90,10 +90,12 @@ def update(files):
                 name = raw_card[5:raw_card.index('\n')].strip()
                 initial = name[0] if name[0] in alpha else '0'
                 if name in alpha[initial]:
-                    updated += 1
-                    diff = differ.compare(sequencify(alpha[initial][name]),
-                                          sequencify(raw_card))
-                    ulog.info("Updating {}:\n{}".format(name, ''.join(diff)))
+                    if alpha[initial][name] != raw_card:
+                        updated += 1
+                        diff = differ.compare(sequencify(alpha[initial][name]),
+                                              sequencify(raw_card))
+                        ulog.info("Updating {}:\n{}"
+                                  .format(name, ''.join(diff)))
                 else:
                     added += 1
                     ulog.info("Adding {}.".format(name))
