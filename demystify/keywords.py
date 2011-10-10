@@ -640,6 +640,7 @@ _artifact_types = [
 
 _enchantment_types = [
     Noun("AURA", "aura", "auras", "aura's", "auras'"),
+    Noun("CURSE", "curse", "curses", "curse's", "curses'"),
     Noun("SHRINE", "shrine", "shrines", "shrine's", "shrines'"),
 ]
 
@@ -912,6 +913,7 @@ _creature_types = [
     Noun("WALL", "wall", "walls", "wall's", "walls'"),
     Noun("WARRIOR", "warrior", "warriors", "warrior's", "warriors'"),
     Noun("WEIRD", "weird", "weirds", "weird's", "weirds'"),
+    Noun("WEREWOLF", "werewolf", "werewolves", "werewolf's", "werewolves'"),
     Noun("WHALE", "whale", "whales", "whale's", "whales'"),
     Noun("WIZARD", "wizard", "wizards", "wizard's", "wizards'"),
     Noun("WOLF", "wolf", "wolves", "wolf's", "wolves'"),

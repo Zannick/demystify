@@ -123,11 +123,12 @@ def make_shortname(name):
 
 class Card:
     """ Stores information about a Magic card, as given by Gatherer. """
-    def __init__(self, name, cost, typeline,
+    def __init__(self, name, cost, typeline, color=None,
                  pt=None, rules=None, set_rarity=None):
         self.name = name
         self.cost = cost
         self.typeline = typeline
+        self.color = color
         self.pt = pt
         self.rules = rules
         self.set_rarity = set_rarity
@@ -187,7 +188,7 @@ class Card:
     @staticmethod
     def from_string(s):
         t = s.split('\n')
-        name = cost = typeline = pt = rules = set_rarity = ""
+        name = cost = typeline = color = pt = rules = set_rarity = ""
         # Gatherer is pretty inconsistent, especially wrt split and flip cards
         for l in t:
             if l.startswith("Name:"):
@@ -197,6 +198,8 @@ class Card:
                     return _all_cards[name]
             elif l.startswith("Cost:"):
                 cost = l[5:].strip()
+            elif l.startswith("Color:"):
+                color = l[6:].strip()
             elif l.startswith("Type:"):
                 typeline = l[5:].strip()
             elif l.startswith("Pow/Tgh:"):
@@ -212,7 +215,8 @@ class Card:
                     rules += '\n' + l.strip()
         assert name is not None
         logger.debug("Loaded {}.".format(name))
-        return Card(name, cost, typeline, pt, unicode(rules), set_rarity)
+        return Card(name, cost, typeline, color,
+                    pt, unicode(rules), set_rarity)
 
     def __eq__(self, c):
         return type(self) == type(c) and self.name == c.name
