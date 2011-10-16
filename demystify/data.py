@@ -12,8 +12,13 @@ from HTMLParser import HTMLParser
 
 llog = logging.getLogger('Loader')
 llog.setLevel(logging.INFO)
-ulog = logging.getLogger("Updater")
+ulog = logging.getLogger('Updater')
 ulog.setLevel(logging.INFO)
+_stdout = logging.StreamHandler()
+_stdout.setLevel(logging.INFO)
+ulog.addHandler(_stdout)
+dlog = logging.getLogger('Differ')
+dlog.setLevel(logging.INFO)
 
 DATADIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 TEXTFILES = [os.path.join(DATADIR, "text", c)
@@ -23,6 +28,8 @@ GATHERER = 'http://gatherer.wizards.com/Pages/Search/Default.aspx'
 
 # Match only cards with parentheses but not split cards
 _parens = re.compile(r'([^/]*) \((.*)\)')
+# Remove unnecessary padding around the mdash.
+_mdash = re.compile(r'\s+(—|--)\s+')
 # Fix up mana symbols.
 # {S}i}? => {S} , {(u/r){ => {(u/r)}{ , {1}0} => {10}, and p => {p}
 _mana = re.compile(r'{S}i}?|{\d}\d}|{\(?\w/\w\)?(?={)| p ')
@@ -54,13 +61,14 @@ def load(files=None):
     if not files:
         files = TEXTFILES
     for filename in files:
-        logging.info("Loading cards from {}...".format(filename))
+        llog.info("Loading cards from {}...".format(filename))
         with open(filename) as f:
             cards = _smart_split(f.read())
             c = len(cards)
-            logging.debug("Loaded {} cards from {}.".format(c, filename))
+            llog.debug("Loaded {} cards from {}.".format(c, filename))
             raw_cards[filename] = cards
-    logging.info("Loaded {} cards total.".format(len(raw_cards)))
+    ncards = sum(len(rc) for rc in raw_cards.values())
+    llog.info("Loaded {} cards total.".format(ncards))
     return raw_cards
 
 ## Updater ##
@@ -87,19 +95,13 @@ class ListCards(argparse.Action):
                      for line in f]
         setattr(namespace, self.dest, names)
 
-class CheckpointDir(argparse.Action):
-    def __call__(self, parser, namespace, values, option_string=None):
-        if values:
-            if not os.path.exists(values):
-                os.makedirs(values)
-        setattr(namespace, self.dest, values)
-
 class GathererParser(HTMLParser):
     def reset(self):
         HTMLParser.reset(self)
         self._level = 0
         self._parsed_cards = []
         self._current_card = []
+        self._rules_text = ''
 
     def _finish_card(self):
         self._parsed_cards.append(''.join(self._current_card))
@@ -139,12 +141,19 @@ class GathererParser(HTMLParser):
                         ulog.info('Not correcting flip card "{}".'.format(s))
                 if s:
                     self._name = s
+            elif self._header == 'Type:':
+                s = _mdash.sub(r' \1 ', s)
             elif self._header == 'Rules Text:':
                 s = _mana.sub(partial(_fix_mana, self._name), s)
+                self._rules_text += s
+                return
             if s:
                 if s[-1] == ':':
                     self._header = s
-                    s += '    '
+                    spacing = ' ' * (4 - (len(s) % 4))
+                    if spacing == ' ':
+                        spacing += ' ' * 4
+                    s += spacing
                 self._current_card.append(s)
 
     def handle_endtag(self, tag):
@@ -153,7 +162,11 @@ class GathererParser(HTMLParser):
         elif self._level == 2 and tag == 'table':
             self._level -= 1
         elif self._level == 3 and tag == 'tr':
-            self._current_card.append('\n')
+            if self._rules_text:
+                self._current_card.append(self._rules_text.strip())
+                self._rules_text = ''
+            if self._current_card:
+                self._current_card.append('\n')
             self._level -= 1
             self._header = None
         elif self._level == 4 and tag == 'td':
@@ -161,7 +174,10 @@ class GathererParser(HTMLParser):
 
     def handle_startendtag(self, tag, attrs):
         if self._level == 4 and tag == 'br':
-            self._finish_card()
+            if self._header == 'Rules Text:':
+                self._rules_text += '\n'
+            else:
+                self._finish_card()
 
 def _send_request(params):
     """ Build the actual request and send it. Returns the full html
@@ -203,7 +219,7 @@ def _parse(html_data, ckpt_file, checkpoint):
     result = parser.get_output()
     if checkpoint:
         with open(ckpt_file, 'w') as f:
-            f.write('\n\n'.join(result))
+            f.write('\n'.join(result))
     return result
 
 def _update(raw_cards):
@@ -226,6 +242,7 @@ def _update(raw_cards):
         return (s + '\n').splitlines(True)
     # Sort the new data
     for raw_card in raw_cards:
+        raw_card = raw_card.strip()
         name = raw_card[5:raw_card.index('\n')].strip()
         # TODO: factor out name -> filename function in case we decide
         # to reorganize again?
@@ -235,11 +252,11 @@ def _update(raw_cards):
                 updated += 1
                 diff = differ.compare(sequencify(alpha[initial][name]),
                                       sequencify(raw_card))
-                ulog.info("Updating {}:\n{}"
+                dlog.info("Updating {}:\n{}"
                           .format(name, ''.join(diff)))
         else:
             added += 1
-            ulog.info("Adding {}.".format(name))
+            dlog.info("Adding {}.".format(name))
         alpha[initial][name] = raw_card
     # write out the data
     for tfile in TEXTFILES:
@@ -250,7 +267,6 @@ def _update(raw_cards):
     # But this usually doesn't happen, as reprinted cards get a new expansion.
     summary = ("Added {} new cards and updated {} old ones."
                .format(added, updated))
-    print(summary)
     ulog.info(summary)
 
 def add_subcommands(subparsers):
@@ -284,7 +300,7 @@ def add_subcommands(subparsers):
               'files with the new data in the parsing checkpoint '
               'files listed.'))
     subparser.add_argument('--checkpoint-dir', metavar='CKPT_DIR',
-        action=CheckpointDir, dest='ckpt_dir', default='/tmp/demystify',
+        dest='ckpt_dir', default='/tmp/demystify',
         help=('With --checkpoint-requests and/or --checkpoint-parsing, '
               'sets the location of the directory that will contain the '
               'checkpoint files. Defaults to /tmp/demystify.'))
@@ -303,6 +319,9 @@ def add_subcommands(subparsers):
 def run_update(args):
     """ Main entry point for the 'update' subcommand.
         args is a Namespace object with the proper flags. """
+    if args.checkpoint_requests or args.checkpoint_parsing:
+        if not os.path.exists(args.ckpt_dir):
+            os.makedirs(args.ckpt_dir)
     skip_parse = (args.checkpoint_only and args.checkpoint_requests
                   and not args.checkpoint_parsing)
     skip_update = (args.checkpoint_only
