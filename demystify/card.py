@@ -19,6 +19,31 @@ all_shortnames = {}
 _all_cards = {}
 expect_multi = {}
 
+# Transform cards aren't linked in gatherer as flip and split cards are.
+# These are listed as front card (the one you'd play) -> back card.
+transforms = {
+    "Bloodline Keeper"       : "Lord of Lineage",
+    "Civilized Scholar"      : "Homicidal Brute",
+    "Cloistered Youth"       : "Unholy Fiend",
+    "Daybreak Ranger"        : "Nightfall Predator",
+    "Delver of Secrets"      : "Insectile Aberration",
+    "Garruk Relentless"      : "Garruk, the Veil-Cursed",
+    "Gatstaf Shepherd"       : "Gatstaf Howler",
+    "Grizzled Outcasts"      : "Krallenhorde Wantons",
+    "Hanweir Watchkeep"      : "Bane of Hanweir",
+    "Instigator Gang"        : "Wildblood Pack",
+    "Kruin Outlaw"           : "Terror of Kruin Pass",
+    "Ludevic's Test Subject" : "Ludevic's Abomination",
+    "Mayor of Avabruck"      : "Howlpack Alpha",
+    "Reckless Waif"          : "Merciless Predator",
+    "Screeching Bat"         : "Stalking Vampire",
+    "Thraben Sentry"         : "Thraben Militia",
+    "Tormented Pariah"       : "Rampaging Werewolf",
+    "Ulvenwald Mystics"      : "Ulvenwald Primordials",
+    "Village Ironsmith"      : "Ironfang",
+    "Villagers of Estwald"   : "Howlpack of Estwald",
+}
+
 # Handle any Legendary names we couldn't get with ", " or " the ", most of
 # which have two words only, eg. Arcades Sabboth, or "of the".
 # We wouldn't be able to guess these without also grabbing things like
@@ -126,22 +151,22 @@ class Card:
     """ Stores information about a Magic card, as given by Gatherer. """
     def __init__(self, name, cost, typeline, color=None,
                  pt=None, rules=None, set_rarity=None):
-        self.name = name
+        self.name = unicode(name)
         self.cost = cost
-        self.typeline = typeline
+        self.typeline = unicode(typeline)
         self.color = color
         self.pt = pt
-        self.rules = rules
+        self.rules = unicode(rules)
         self.set_rarity = set_rarity
         # Check for split and flip cards
         self.multicard = self.multitype = None
-        m = splitname.match(name)
+        m = splitname.match(self.name)
         if m:
             first, second, self.name = m.groups()
             self.multicard = (self.name == first) and second or first
             self.multitype = "split"
         else:
-            n = flipname.match(name)
+            n = flipname.match(self.name)
             if n:
                 self.multicard, self.name = n.groups()
                 self.multitype = "flip"
@@ -160,8 +185,11 @@ class Card:
                                  rules='\n'.join(flines),
                                  set_rarity=set_rarity)
                     self.multicard = fname
-                    fcard.multicard = name
+                    fcard.multicard = self.name
                     self.multitype = fcard.multitype = "flip"
+            elif self.name in transforms:
+                self.multicard = transforms[self.name]
+                self.multitype = "transform"
         # The other card should have multicard and multitype set
         if self.multicard:
             if self.multicard in _all_cards:
@@ -218,8 +246,7 @@ class Card:
                     rules += '\n' + l.strip()
         assert name is not None
         logger.debug("Loaded {}.".format(name))
-        return Card(name, cost, typeline, color,
-                    pt, unicode(rules), set_rarity)
+        return Card(name, cost, typeline, color, pt, rules, set_rarity)
 
     def __eq__(self, c):
         return type(self) == type(c) and self.name == c.name

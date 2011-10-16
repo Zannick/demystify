@@ -78,11 +78,17 @@ def preprocess(args):
     logging.debug("Flip cards: " + "; ".join(sorted(flip)))
     if flip != xflip:
         logging.error("Difference: " + "; ".join(flip ^ xflip))
+    trans = set([c.name for c in cards if c.multitype == "transform"])
+    xtrans = set([c.multicard for c in cards if c.multitype == "transform"])
+    logging.debug("Transform cards: " + "; ".join(sorted(trans)))
+    if trans != xtrans:
+        logging.error("Difference: " + "; ".join(trans ^ xtrans))
     s = int(len(split) / 2)
     f = int(len(flip) / 2)
-    logging.info("Discovered {} unique cards, from {}, including "
-                 "{} split cards and {} flip cards."
-                 .format(len(cards) - s - f, numcards, s, f))
+    t = int(len(trans) / 2)
+    logging.info("Discovered {} unique (physical) cards, from {}, including "
+                 "{} split cards, {} flip cards, and {} transform cards."
+                 .format(len(cards) - s - f - t, numcards, s, f, t))
     legalcards = get_cards()
     logging.info("Found {} banned cards.".format(len(cards) - len(legalcards)))
     if len(cards) - len(legalcards) != len(BANNED):
