@@ -107,7 +107,7 @@ Cost:   3BRG
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, sacrifice Earthlink unless you pay {2}.
-Whenever a creature is put into a graveyard from the battlefield, that creature's controller sacrifices a land.
+Whenever a creature dies, that creature's controller sacrifices a land.
 Set/Rarity:     Masters Edition II Rare, Ice Age Rare
 
 Name:   Earthlore
@@ -451,6 +451,13 @@ Enchanted creature gets +0/+4.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 Set/Rarity:     Rise of the Eldrazi Common
 
+Name:   Elder Cathar
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     When Elder Cathar dies, put a +1/+1 counter on target creature you control. If that creature is a Human, put two +1/+1 counters on it instead.
+Set/Rarity:     Innistrad Common
+
 Name:   Elder Druid
 Cost:   3G
 Type:   Creature — Elf Cleric Druid
@@ -473,23 +480,30 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +3/+3 and has flying.
 Whenever enchanted creature deals damage to a player, that player discards two cards.
-Set/Rarity:     Conflux Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Conflux Uncommon
 
 Name:   Elder Pine of Jukai
 Cost:   2G
 Type:   Creature — Spirit
 Pow/Tgh:    (2/1)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest on the bottom of your library in any order.
-Soulshift 2 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 2 or less from your graveyard to your hand.)
+Soulshift 2 (When this creature dies, you may return target Spirit card with converted mana cost 2 or less from your graveyard to your hand.)
 Set/Rarity:     Saviors of Kamigawa Common
 
 Name:   Elder Spawn
 Cost:   4UUU
-Type:   Creature — Elemental
+Type:   Creature — Spawn
 Pow/Tgh:    (6/6)
 Rules Text:     At the beginning of your upkeep, unless you sacrifice an Island, sacrifice Elder Spawn and it deals 6 damage to you.
 Elder Spawn can't be blocked by red creatures.
 Set/Rarity:     Legends Rare
+
+Name:   Elder of Laurels
+Cost:   2G
+Type:   Creature — Human Advisor
+Pow/Tgh:    (2/3)
+Rules Text:     {3}{G}: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.
+Set/Rarity:     Innistrad Rare
 
 Name:   Eldrazi Conscription
 Cost:   8
@@ -614,7 +628,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature gets +3/+3.
-When enchanted creature is put into a graveyard, put a 3/3 green Elephant creature token onto the battlefield.
+When enchanted creature dies, put a 3/3 green Elephant creature token onto the battlefield.
 Set/Rarity:     Duel Decks: Garruk vs. Liliana Uncommon, Judgment Uncommon
 
 Name:   Elephant Resurgence
@@ -669,6 +683,14 @@ Pow/Tgh:    (2/3)
 Rules Text:     Forestwalk
 Set/Rarity:     Masters Edition IV Common, Portal Common, Portal Common
 
+Name:   Elite Inquisitor
+Cost:   WW
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     First strike, vigilance
+Protection from Vampires, from Werewolves, and from Zombies
+Set/Rarity:     Innistrad Rare
+
 Name:   Elite Javelineer
 Cost:   2W
 Type:   Creature — Human Soldier
@@ -681,14 +703,14 @@ Cost:   W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/1)
 Rules Text:     
-Set/Rarity:     Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon, Magic 2010 Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon, Magic 2010 Uncommon
 
 Name:   Elixir of Immortality
 Cost:   1
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your graveyard into their owner's library.
-Set/Rarity:     Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon
 
 Name:   Elixir of Vitality
 Cost:   4
@@ -809,7 +831,7 @@ Type:   Creature — Elf Druid
 Pow/Tgh:    (2/2)
 Rules Text:     Other Elf creatures you control get +1/+1.
 {T}: Add {G} to your mana pool for each Elf you control.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Elvish Archers
 Cost:   1G
@@ -995,7 +1017,7 @@ Name:   Elvish Soultiller
 Cost:   3GG
 Type:   Creature — Elf Mutant
 Pow/Tgh:    (5/4)
-Rules Text:     When Elvish Soultiller is put into a graveyard from the battlefield, choose a creature type. Shuffle all creature cards of that type from your graveyard into your library.
+Rules Text:     When Elvish Soultiller dies, choose a creature type. Shuffle all creature cards of that type from your graveyard into your library.
 Set/Rarity:     Legions Rare
 
 Name:   Elvish Spirit Guide
@@ -1085,7 +1107,7 @@ Name:   Ember-Fist Zubera
 Cost:   1R
 Type:   Creature — Zubera Spirit
 Pow/Tgh:    (1/2)
-Rules Text:     When Ember-Fist Zubera is put into a graveyard from the battlefield, it deals damage to target creature or player equal to the number of Zubera put into all graveyards from the battlefield this turn.
+Rules Text:     When Ember-Fist Zubera dies, it deals damage to target creature or player equal to the number of Zubera that died this turn.
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Embermage Goblin
@@ -1328,7 +1350,7 @@ Name:   Enatu Golem
 Cost:   6
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (3/5)
-Rules Text:     When Enatu Golem is put into a graveyard from the battlefield, you gain 4 life.
+Rules Text:     When Enatu Golem dies, you gain 4 life.
 Set/Rarity:     Rise of the Eldrazi Uncommon
 
 Name:   Enchanted Being
@@ -1414,7 +1436,7 @@ Name:   Endless Cockroaches
 Cost:   1BB
 Type:   Creature — Insect
 Pow/Tgh:    (1/1)
-Rules Text:     When Endless Cockroaches is put into a graveyard from the battlefield, return Endless Cockroaches to its owner's hand.
+Rules Text:     When Endless Cockroaches dies, return it to its owner's hand.
 Set/Rarity:     Portal Rare
 
 Name:   Endless Horizons
@@ -1424,6 +1446,13 @@ Pow/Tgh:
 Rules Text:     When Endless Horizons enters the battlefield, search your library for any number of Plains cards and exile them. Then shuffle your library.
 At the beginning of your upkeep, you may put a card you own exiled with Endless Horizons into your hand.
 Set/Rarity:     Eventide Rare
+
+Name:   Endless Ranks of the Dead
+Cost:   2BB
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.
+Set/Rarity:     Innistrad Rare
 
 Name:   Endless Scream
 Cost:   XB
@@ -1446,7 +1475,7 @@ Name:   Endless Whispers
 Cost:   2BB
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Each creature has "When this creature is put into a graveyard, choose target opponent. That player returns this card from that graveyard to the battlefield under his or her control at the beginning of the next end step."
+Rules Text:     Each creature has "When this creature dies, choose target opponent. That player returns this card from that graveyard to the battlefield under his or her control at the beginning of the next end step."
 Set/Rarity:     Fifth Dawn Rare
 
 Name:   Endless Wurm
@@ -1858,7 +1887,7 @@ Cost:   2
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (1/1)
 Rules Text:     Epochrasite enters the battlefield with three +1/+1 counters on it if you didn't cast it from your hand.
-When Epochrasite is put into a graveyard from the battlefield, exile it with three time counters on it and it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, cast this card without paying its mana cost. It has haste.)
+When Epochrasite dies, exile it with three time counters on it and it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, cast this card without paying its mana cost. It has haste.)
 Set/Rarity:     Future Sight Rare
 
 Name:   Equal Treatment
@@ -2128,7 +2157,7 @@ Name:   Esper Sojourners
 Cost:   WUB
 Type:   Artifact Creature — Vedalken Wizard
 Pow/Tgh:    (2/3)
-Rules Text:     When you cycle Esper Sojourners or it's put into a graveyard from the battlefield, you may tap or untap target permanent.
+Rules Text:     When you cycle Esper Sojourners or it dies, you may tap or untap target permanent.
 Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)
 Set/Rarity:     Alara Reborn Common
 
@@ -2227,7 +2256,14 @@ Cost:   G
 Type:   Creature — Elf Shaman
 Pow/Tgh:    (1/1)
 Rules Text:     Whenever another creature enters the battlefield, you gain 1 life.
-Set/Rarity:     Planar Chaos Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Planar Chaos Common
+
+Name:   Essence of the Wild
+Cost:   3GGG
+Type:   Creature — Avatar
+Pow/Tgh:    (6/6)
+Rules Text:     Creatures you control enter the battlefield as a copy of Essence of the Wild.
+Set/Rarity:     Innistrad Mythic Rare
 
 Name:   Etched Champion
 Cost:   3
@@ -2438,7 +2474,7 @@ Name:   Evaporate
 Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Evaporate deals 1 damage to each creature that's white or blue.
+Rules Text:     Evaporate deals 1 damage to each white and/or blue creature.
 Set/Rarity:     Homelands Uncommon
 
 Name:   Evasive Action
@@ -2500,11 +2536,11 @@ Set/Rarity:     Shadowmoor Rare
 
 Name:   Evermind
 Cost:   
+Color:  Blue
 Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     (Nonexistent mana costs can't be paid.)
 Draw a card.
-Evermind is blue.
 Splice onto Arcane {1}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
@@ -2541,6 +2577,13 @@ Rules Text:     Enchant land
 Enchanted land is a Swamp.
 Set/Rarity:     New Phyrexia Common, Masters Edition III Common, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
+Name:   Evil Twin
+Cost:   2UB
+Type:   Creature — Shapeshifter
+Pow/Tgh:    (0/0)
+Rules Text:     You may have Evil Twin enter the battlefield as a copy of any creature on the battlefield except it gains "{U}{B}, {T}: Destroy target creature with the same name as this creature."
+Set/Rarity:     Innistrad Rare
+
 Name:   Evincar's Justice
 Cost:   2BB
 Type:   Sorcery
@@ -2576,7 +2619,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
 
 Name:   Exalted Angel
 Cost:   4WW
@@ -2680,8 +2723,8 @@ Name:   Exhumer Thrull
 Cost:   5B
 Type:   Creature — Thrull
 Pow/Tgh:    (3/3)
-Rules Text:     Haunt (When this card is put into a graveyard from the battlefield, exile it haunting target creature.)
-When Exhumer Thrull enters the battlefield or the creature it haunts is put into a graveyard, return target creature card from your graveyard to your hand.
+Rules Text:     Haunt (When this creature dies, exile it haunting target creature.)
+When Exhumer Thrull enters the battlefield or the creature it haunts dies, return target creature card from your graveyard to your hand.
 Set/Rarity:     Guildpact Uncommon
 
 Name:   Exile
@@ -2703,7 +2746,7 @@ Name:   Exiled Boggart
 Cost:   1B
 Type:   Creature — Goblin Rogue
 Pow/Tgh:    (2/2)
-Rules Text:     When Exiled Boggart is put into a graveyard from the battlefield, discard a card.
+Rules Text:     When Exiled Boggart dies, discard a card.
 Set/Rarity:     Lorwyn Common
 
 Name:   Exiled Doomsayer

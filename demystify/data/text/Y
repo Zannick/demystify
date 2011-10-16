@@ -2,14 +2,14 @@ Name:   Yamabushi's Flame
 Cost:   2R
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Yamabushi's Flame deals 3 damage to target creature or player. If a creature dealt damage this way would be put into a graveyard this turn, exile it instead.
+Rules Text:     Yamabushi's Flame deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Yamabushi's Storm
 Cost:   1R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Yamabushi's Storm deals 1 damage to each creature. If a creature dealt damage this way would be put into a graveyard this turn, exile it instead.
+Rules Text:     Yamabushi's Storm deals 1 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Yare
@@ -61,7 +61,7 @@ Name:   Yavimaya Elder
 Cost:   1GG
 Type:   Creature — Human Druid
 Pow/Tgh:    (2/1)
-Rules Text:     When Yavimaya Elder is put into a graveyard from the battlefield, you may search your library for up to two basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.
+Rules Text:     When Yavimaya Elder dies, you may search your library for up to two basic land cards, reveal them, and put them into your hand. If you do, shuffle your library.
 {2}, Sacrifice Yavimaya Elder: Draw a card.
 Set/Rarity:     Magic: The Gathering-Commander Common, Duel Decks: Phyrexia vs. the Coalition Common, Urza's Destiny Common
 
@@ -219,7 +219,7 @@ Cost:   1B
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When a creature is put into a graveyard from the battlefield, destroy enchanted creature.
+When a creature dies, destroy enchanted creature.
 Set/Rarity:     Conflux Common
 
 Name:   Yoked Plowbeast
@@ -248,7 +248,7 @@ Cost:   4WW
 Type:   Legendary Creature — Dragon Spirit
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Yosei, the Morning Star is put into a graveyard from the battlefield, target player skips his or her next untap step. Tap up to five target permanents that player controls.
+When Yosei, the Morning Star dies, target player skips his or her next untap step. Tap up to five target permanents that player controls.
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Yotian Soldier

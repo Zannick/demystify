@@ -60,7 +60,7 @@ Rules Text:     When you cast Ulamog, the Infinite Gyre, destroy target permanen
 Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
 Ulamog is indestructible.
 When Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.
-Set/Rarity:     Rise of the Eldrazi Mythic Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Rise of the Eldrazi Mythic Rare
 
 Name:   Ulasht, the Hate Seed
 Cost:   2RG
@@ -69,6 +69,22 @@ Pow/Tgh:    (0/0)
 Rules Text:     Ulasht, the Hate Seed enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.
 {1}, Remove a +1/+1 counter from Ulasht: Choose one — Ulasht deals 1 damage to target creature; or put a 1/1 green Saproling creature token onto the battlefield.
 Set/Rarity:     Guildpact Rare
+
+Name:   Ulvenwald Mystics
+Cost:   2GG
+Type:   Creature — Human Shaman Werewolf
+Pow/Tgh:    (3/3)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Ulvenwald Mystics.
+Set/Rarity:     Innistrad Uncommon
+
+Name:   Ulvenwald Primordials
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (5/5)
+Rules Text:     {G}: Regenerate Ulvenwald Primordials.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ulvenwald Primordials.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Umara Raptor
 Cost:   2U
@@ -112,7 +128,7 @@ Cost:   2
 Type:   Legendary Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.
-Remove a charge counter from Umezawa's Jitte: Choose one — Equipped creature gets +2/+2 until end of turn; or target creature gets -1/-1 until end of turn; or you gain 2 life.
+Remove a charge counter from Umezawa's Jitte: Choose one —  Equipped creature gets +2/+2 until end of turn; or target creature gets -1/-1 until end of turn; or you gain 2 life.
 Equip {2}
 Set/Rarity:     Betrayers of Kamigawa Rare
 
@@ -131,6 +147,14 @@ Rules Text:     Morph {2}{U} (You may cast this face down as a 2/2 creature for 
 Whenever Unblinking Bleb or another permanent is turned face up, you may scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
 Set/Rarity:     Future Sight Common
 
+Name:   Unbreathing Horde
+Cost:   2B
+Type:   Creature — Zombie
+Pow/Tgh:    (0/0)
+Rules Text:     Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.
+If Unbreathing Horde would be dealt damage, prevent that damage and remove a +1/+1 counter from it.
+Set/Rarity:     Innistrad Rare
+
 Name:   Unburden
 Cost:   1BB
 Type:   Sorcery
@@ -138,6 +162,14 @@ Pow/Tgh:
 Rules Text:     Target player discards two cards.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Scourge Common
+
+Name:   Unburial Rites
+Cost:   4B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target creature card from your graveyard to the battlefield.
+Flashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Unchecked Growth
 Cost:   2G
@@ -169,6 +201,14 @@ Pow/Tgh:
 Rules Text:     Enchant nonbasic land
 When enchanted land becomes tapped, destroy it.
 Set/Rarity:     Scourge Common
+
+Name:   Undead Alchemist
+Cost:   3U
+Type:   Creature — Zombie
+Pow/Tgh:    (4/2)
+Rules Text:     If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of his or her library into his or her graveyard.
+Whenever a creature card is put into an opponent's graveyard from his or her library, exile that card and put a 2/2 black Zombie creature token onto the battlefield.
+Set/Rarity:     Innistrad Rare
 
 Name:   Undead Gladiator
 Cost:   1BB
@@ -237,7 +277,7 @@ Cost:   UUB
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell. Its controller loses 3 life.
-Set/Rarity:     Invasion Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Invasion Rare
 
 Name:   Undertaker
 Cost:   1B
@@ -278,7 +318,7 @@ Name:   Undying Beast
 Cost:   3B
 Type:   Creature — Beast
 Pow/Tgh:    (3/2)
-Rules Text:     When Undying Beast is put into a graveyard from the battlefield, put Undying Beast on top of its owner's library.
+Rules Text:     When Undying Beast dies, put it on top of its owner's library.
 Set/Rarity:     Portal Common
 
 Name:   Undying Flames
@@ -348,6 +388,14 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Black legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Legends Uncommon
+
+Name:   Unholy Fiend
+Cost:   
+Color:  Black
+Type:   Creature — Horror
+Pow/Tgh:    (3/3)
+Rules Text:     At the beginning of your end step, you lose 1 life.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Unholy Grotto
 Cost:   
@@ -468,12 +516,19 @@ When Unquestioned Authority enters the battlefield, draw a card.
 Enchanted creature has protection from creatures.
 Set/Rarity:     Judgment Uncommon
 
+Name:   Unruly Mob
+Cost:   1W
+Type:   Creature — Human
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
+Set/Rarity:     Innistrad Common
+
 Name:   Unscythe, Killer of Kings
 Cost:   UBBR
 Type:   Legendary Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature gets +3/+3 and has first strike.
-Whenever a creature dealt damage by equipped creature this turn is put into a graveyard, you may exile that card. If you do, put a 2/2 black Zombie creature token onto the battlefield.
+Whenever a creature dealt damage by equipped creature this turn dies, you may exile that card. If you do, put a 2/2 black Zombie creature token onto the battlefield.
 Equip {2}
 Set/Rarity:     Alara Reborn Rare
 
@@ -547,7 +602,7 @@ Cost:   U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return target creature to its owner's hand.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Conflux Common, Tenth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Conflux Common, Tenth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Untaidake, the Cloud Keeper
 Cost:   
@@ -800,6 +855,13 @@ Pow/Tgh:
 Rules Text:     Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.
 Set/Rarity:     Worldwake Uncommon
 
+Name:   Urgent Exorcism
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target Spirit or enchantment.
+Set/Rarity:     Innistrad Common
+
 Name:   Uril, the Miststalker
 Cost:   2RGW
 Type:   Legendary Creature — Beast
@@ -871,7 +933,7 @@ Set/Rarity:     Alliances Uncommon
 
 Name:   Urza's Factory
 Cost:   
-Type:   Land — Urza's
+Type:   Land — Urza’s
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {7}, {T}: Put a 2/2 colorless Assembly-Worker artifact creature token onto the battlefield.
@@ -901,7 +963,7 @@ Set/Rarity:     Urza's Destiny Rare
 
 Name:   Urza's Mine
 Cost:   
-Type:   Land — Urza's Mine
+Type:   Land — Urza’s Mine
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {2} to your mana pool instead.
 Set/Rarity:     Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Ninth Edition Uncommon, Eighth Edition Uncommon, Fifth Edition Common, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Antiquities Uncommon, Antiquities Common, Antiquities Uncommon, Antiquities Common
@@ -915,7 +977,7 @@ Set/Rarity:     Masters Edition IV Rare, Antiquities Rare
 
 Name:   Urza's Power Plant
 Cost:   
-Type:   Land — Urza's Power-Plant
+Type:   Land — Urza’s Power-Plant
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {2} to your mana pool instead.
 Set/Rarity:     Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Ninth Edition Uncommon, Eighth Edition Uncommon, Fifth Edition Common, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Antiquities Uncommon, Antiquities Common, Antiquities Common, Antiquities Uncommon
@@ -931,7 +993,7 @@ Set/Rarity:     Duel Decks: Phyrexia vs. the Coalition Mythic Rare, Invasion Rar
 
 Name:   Urza's Tower
 Cost:   
-Type:   Land — Urza's Tower
+Type:   Land — Urza’s Tower
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {3} to your mana pool instead.
 Set/Rarity:     Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Ninth Edition Uncommon, Eighth Edition Uncommon, Fifth Edition Common, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Antiquities Uncommon, Antiquities Common, Antiquities Uncommon, Antiquities Uncommon

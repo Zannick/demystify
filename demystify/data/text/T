@@ -171,7 +171,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 At the beginning of the upkeep of enchanted creature's controller, put a -0/-1 counter on that creature.
-When enchanted creature is put into a graveyard, that creature's controller chooses a creature that Takklemaggot could enchant. If he or she does, return Takklemaggot to the battlefield under your control attached to that creature. If he or she doesn't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses "enchant creature" and gains "At the beginning of that player's upkeep, Takklemaggot deals 1 damage to him or her."
+When enchanted creature dies, that creature's controller chooses a creature that Takklemaggot could enchant. If he or she does, return Takklemaggot to the battlefield under your control attached to that creature. If he or she doesn't, return Takklemaggot to the battlefield under your control as a non-Aura enchantment. It loses "enchant creature" and gains "At the beginning of that player's upkeep, Takklemaggot deals 1 damage to him or her."
 Set/Rarity:     Masters Edition III Uncommon, Chronicles Uncommon, Legends Uncommon
 
 Name:   Talara's Bane
@@ -537,7 +537,7 @@ Name:   Tarpan
 Cost:   G
 Type:   Creature — Horse
 Pow/Tgh:    (1/1)
-Rules Text:     When Tarpan is put into a graveyard from the battlefield, you gain 1 life.
+Rules Text:     When Tarpan dies, you gain 1 life.
 Set/Rarity:     Fifth Edition Common, Ice Age Common
 
 Name:   Task Force
@@ -564,6 +564,13 @@ Enchanted creature gets +2/+0.
 Hellbent — Enchanted creature gets an additional +2/+0 as long as you have no cards in hand.
 Set/Rarity:     Dissension Common
 
+Name:   Taste of Blood
+Cost:   B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Taste of Blood deals 1 damage to target player and you gain 1 life.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Taste of Paradise
 Cost:   3G
 Type:   Sorcery
@@ -577,7 +584,7 @@ Cost:   6
 Type:   Legendary Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature gets +5/+5.
-{6}, Exile Tatsumasa, the Dragon's Fang: Put a 5/5 blue Dragon Spirit creature token with flying onto the battlefield. Return Tatsumasa to the battlefield under its owner's control when that token is put into a graveyard.
+{6}, Exile Tatsumasa, the Dragon's Fang: Put a 5/5 blue Dragon Spirit creature token with flying onto the battlefield. Return Tatsumasa to the battlefield under its owner's control when that token dies.
 Equip {3}
 Set/Rarity:     Champions of Kamigawa Rare
 
@@ -725,6 +732,13 @@ Pow/Tgh:
 Rules Text:     Whenever a land enters the battlefield, tap all lands its controller controls.
 Set/Rarity:     Invasion Rare
 
+Name:   Tectonic Rift
+Cost:   3R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target land. Creatures without flying can't block this turn.
+Set/Rarity:     Magic 2012 Uncommon
+
 Name:   Teeka's Dragon
 Cost:   9
 Type:   Artifact Creature — Dragon
@@ -838,7 +852,7 @@ Pow/Tgh:    (3/4)
 Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
 Creature cards you own that aren't on the battlefield have flash.
 Each opponent can cast spells only any time he or she could cast a sorcery.
-Set/Rarity:     Time Spiral Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Time Spiral Rare
 
 Name:   Tek
 Cost:   5
@@ -1360,7 +1374,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Magic: The Gathering-Commander Common, Magic 2011 Common, Archenemy Common, Duel Decks: Phyrexia vs. the Coalition Common, Premium Deck Series: Slivers Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Time Spiral Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Archenemy Common, Duel Decks: Phyrexia vs. the Coalition Common, Premium Deck Series: Slivers Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Time Spiral Common
 
 Name:   Terrarion
 Cost:   1
@@ -1400,6 +1414,16 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target nonartifact, nonblack creature. It can't be regenerated.
 Set/Rarity:     Masters Edition IV Common, Tenth Edition Common, Mirrodin Common, Beatdown Box Set Common, Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+
+Name:   Terror of Kruin Pass
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (3/3)
+Rules Text:     Double strike
+Each Werewolf you control can't be blocked except by two or more creatures.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Terror of Kruin Pass.
+Set/Rarity:     Innistrad Rare
 
 Name:   Test of Endurance
 Cost:   2WW
@@ -1462,7 +1486,7 @@ Cost:   1WB
 Type:   Legendary Creature — Human Advisor
 Pow/Tgh:    (2/3)
 Rules Text:     Sacrifice three white creatures: Exile target creature.
-Whenever another black creature you control is put into a graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.
+Whenever another black creature you control dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
 Set/Rarity:     Guildpact Rare
 
 Name:   Tezzeret the Seeker
@@ -1790,7 +1814,7 @@ Name:   Thermopod
 Cost:   4R
 Type:   Snow Creature — Slug
 Pow/Tgh:    (4/3)
-Rules Text:     {S}i}: Thermopod gains haste until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+Rules Text:     {S}: Thermopod gains haste until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Sacrifice a creature: Add {R} to your mana pool.
 Set/Rarity:     Coldsnap Common
 
@@ -1822,7 +1846,7 @@ Cost:   2B
 Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, target opponent loses 1 life and you gain 1 life.
-Soulshift 2 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 2 or less from your graveyard to your hand.)
+Soulshift 2 (When this creature dies, you may return target Spirit card with converted mana cost 2 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Thieves' Auction
@@ -1876,7 +1900,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Draw a card.
 Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Innistrad Common, Time Spiral Common
 
 Name:   Thirst
 Cost:   2U
@@ -1971,7 +1995,7 @@ Name:   Thornbite Staff
 Cost:   2
 Type:   Tribal Artifact — Shaman Equipment
 Pow/Tgh:    
-Rules Text:     Equipped creature has "{2}, {T}: This creature deals 1 damage to target creature or player" and "Whenever a creature is put into a graveyard from the battlefield, untap this creature."
+Rules Text:     Equipped creature has "{2}, {T}: This creature deals 1 damage to target creature or player" and "Whenever a creature dies, untap this creature."
 Whenever a Shaman creature enters the battlefield, you may attach Thornbite Staff to it.
 Equip {4}
 Set/Rarity:     Morningtide Uncommon
@@ -2101,7 +2125,7 @@ Cost:   2UU
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Cumulative upkeep—Exile the top card of your library. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-When Thought Lash's cumulative upkeep isn't paid, exile all cards from your library.
+When a player doesn't pay Thought Lash's cumulative upkeep, that player exiles all cards from his or her library.
 Exile the top card of your library: Prevent the next 1 damage that would be dealt to you this turn.
 Set/Rarity:     Masters Edition II Rare, Alliances Rare
 
@@ -2221,8 +2245,31 @@ Name:   Thousand-legged Kami
 Cost:   6GG
 Type:   Creature — Spirit
 Pow/Tgh:    (6/6)
-Rules Text:     Soulshift 7 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 7 or less from your graveyard to your hand.)
+Rules Text:     Soulshift 7 (When this creature dies, you may return target Spirit card with converted mana cost 7 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Uncommon
+
+Name:   Thraben Militia
+Cost:   
+Color:  White
+Type:   Creature — Human Soldier
+Pow/Tgh:    (5/4)
+Rules Text:     Trample
+Set/Rarity:     Innistrad Common
+
+Name:   Thraben Purebloods
+Cost:   4W
+Type:   Creature — Hound
+Pow/Tgh:    (3/5)
+Rules Text:     
+Set/Rarity:     Innistrad Common
+
+Name:   Thraben Sentry
+Cost:   3W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Vigilance
+Whenever another creature you control dies, you may transform Thraben Sentry.
+Set/Rarity:     Innistrad Common
 
 Name:   Thran Dynamo
 Cost:   4
@@ -2250,7 +2297,7 @@ Cost:   5
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (3/3)
 Rules Text:     As long as Thran Golem is enchanted, it gets +2/+2 and has flying, first strike, and trample.
-Set/Rarity:     Ninth Edition Rare, Urza's Destiny Rare
+Set/Rarity:     Magic 2012 Uncommon, Ninth Edition Rare, Urza's Destiny Rare
 
 Name:   Thran Lens
 Cost:   2
@@ -2409,6 +2456,13 @@ Pow/Tgh:
 Rules Text:     Whenever a player casts a black spell, you may pay {1}. If you do, you gain 1 life.
 Set/Rarity:     Eighth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
+Name:   Throne of Empires
+Cost:   4
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {1}, {T}: Put a 1/1 white Soldier creature token onto the battlefield. Put five of those tokens onto the battlefield instead if you control artifacts named Crown of Empires and Scepter of Empires.
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Throne of Geth
 Cost:   2
 Type:   Artifact
@@ -2553,7 +2607,7 @@ Type:   Creature — Elemental
 Pow/Tgh:    (7/2)
 Rules Text:     Haste
 Thunderblust has trample as long as it has a -1/-1 counter on it.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Rare
 
 Name:   Thunderbolt
@@ -2955,7 +3009,7 @@ Cost:   3UU
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards. Exile Time Reversal.
-Set/Rarity:     Magic 2011 Mythic Rare
+Set/Rarity:     Magic 2012 Mythic Rare, Magic 2011 Mythic Rare
 
 Name:   Time Sieve
 Cost:   UB
@@ -3044,6 +3098,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Remove X time counters from target permanent or suspended card; or put X time counters on target permanent with a time counter on it or suspended card.
 Set/Rarity:     Planar Chaos Uncommon
+
+Name:   Timely Reinforcements
+Cost:   2W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     If you have less life than an opponent, you gain 6 life. If you control fewer creatures than an opponent, put three 1/1 white Soldier creature tokens onto the battlefield.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Timesifter
 Cost:   5
@@ -3171,7 +3232,7 @@ Name:   Titania's Song
 Cost:   3G
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Each noncreature artifact loses its abilities and becomes an artifact creature with power and toughness each equal to its converted mana cost. If Titania's Song leaves the battlefield, this effect continues until end of turn.
+Rules Text:     Each noncreature artifact loses all abilities and becomes an artifact creature with power and toughness each equal to its converted mana cost. If Titania's Song leaves the battlefield, this effect continues until end of turn.
 Set/Rarity:     Masters Edition IV Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Antiquities Uncommon
 
 Name:   Titanic Bulvox
@@ -3182,12 +3243,19 @@ Rules Text:     Trample
 Morph {4}{G}{G}{G} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Set/Rarity:     Scourge Common
 
+Name:   Titanic Growth
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +4/+4 until end of turn.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Titanic Ultimatum
 Cost:   RRGGGWW
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Until end of turn, creatures you control get +5/+5 and gain first strike, lifelink, and trample.
-Set/Rarity:     Shards of Alara Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Shards of Alara Rare
 
 Name:   Titanium Golem
 Cost:   5
@@ -3200,7 +3268,7 @@ Name:   Tithe
 Cost:   W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Search your library for a Plains card. If you control fewer lands than an opponent, you may search your library for an additional Plains card. Reveal those cards and put them into your hand. Then shuffle your library.
+Rules Text:     Search your library for a Plains card. If target opponent controls more lands than you, you may search your library for an additional Plains card. Reveal those cards and put them into your hand. Then shuffle your library.
 Set/Rarity:     Visions Rare
 
 Name:   Tivadar of Thorn
@@ -3488,7 +3556,7 @@ Cost:   4W
 Type:   Creature — Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     Vigilance (Attacking doesn't cause this creature to tap.)
-Soulshift 4 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
+Soulshift 4 (When this creature dies, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
 Set/Rarity:     Saviors of Kamigawa Common
 
 Name:   Torment
@@ -3505,6 +3573,20 @@ Type:   Creature — Angel
 Pow/Tgh:    (1/5)
 Rules Text:     Flying
 Set/Rarity:     Urza's Destiny Common
+
+Name:   Tormented Pariah
+Cost:   3R
+Type:   Creature — Human Warrior Werewolf
+Pow/Tgh:    (3/2)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Tormented Pariah.
+Set/Rarity:     Innistrad Common
+
+Name:   Tormented Soul
+Cost:   B
+Type:   Creature — Spirit
+Pow/Tgh:    (1/1)
+Rules Text:     Tormented Soul can't block and is unblockable.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Tormentor Exarch
 Cost:   3R
@@ -3633,7 +3715,7 @@ Cost:   1BB
 Type:   Legendary Creature — Human Samurai
 Pow/Tgh:    (2/2)
 Rules Text:     Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
-Whenever a creature an opponent controls is put into a graveyard from the battlefield, you may cast target instant card from your graveyard. If that card would be put into a graveyard this turn, exile it instead.
+Whenever a creature an opponent controls dies, you may cast target instant card from your graveyard. If that card would be put into a graveyard this turn, exile it instead.
 Set/Rarity:     Betrayers of Kamigawa Rare
 
 Name:   Total War
@@ -3989,6 +4071,13 @@ Rules Text:     Tap target untapped creature. It deals damage equal to its power
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
 Set/Rarity:     Shadowmoor Common
 
+Name:   Traitorous Blood
+Cost:   1RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Gain control of target creature until end of turn. Untap it. It gains trample and haste until end of turn.
+Set/Rarity:     Innistrad Common
+
 Name:   Traitorous Instinct
 Cost:   3R
 Type:   Sorcery
@@ -4070,9 +4159,10 @@ Set/Rarity:     Rise of the Eldrazi Mythic Rare
 
 Name:   Transguild Courier
 Cost:   4
+Color:  White/Blue/Black/Red/Green
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (3/3)
-Rules Text:     Transguild Courier is all colors (even if this card isn't on the battlefield).
+Rules Text:     
 Set/Rarity:     Dissension Uncommon
 
 Name:   Transluminant
@@ -4131,7 +4221,7 @@ Cost:   4(G/U)(G/U)
 Type:   Creature — Beast
 Pow/Tgh:    (3/3)
 Rules Text:     Flash
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Common
 
 Name:   Trapmaker's Snare
@@ -4171,6 +4261,21 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player puts the top half of his or her library, rounded down, into his or her graveyard.
 Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Odyssey Rare
+
+Name:   Travel Preparations
+Cost:   1G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put a +1/+1 counter on each of up to two target creatures.
+Flashback {1}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Common
+
+Name:   Traveler's Amulet
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.
+Set/Rarity:     Innistrad Common
 
 Name:   Traveler's Cloak
 Cost:   2U
@@ -4213,14 +4318,14 @@ Type:   Creature — Vampire
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Whenever Treacherous Vampire attacks or blocks, sacrifice it unless you exile a card from your graveyard.
-Threshold — As long as seven or more cards are in your graveyard, Treacherous Vampire gets +2/+2 and has "When Treacherous Vampire is put into a graveyard from the battlefield, you lose 6 life."
+Threshold — As long as seven or more cards are in your graveyard, Treacherous Vampire gets +2/+2 and has "When Treacherous Vampire dies, you lose 6 life."
 Set/Rarity:     Judgment Uncommon
 
 Name:   Treacherous Werewolf
 Cost:   2B
-Type:   Creature — Human Wolf Minion
+Type:   Creature — Werewolf Minion
 Pow/Tgh:    (2/2)
-Rules Text:     Threshold — As long as seven or more cards are in your graveyard, Treacherous Werewolf gets +2/+2 and has "When Treacherous Werewolf is put into a graveyard from the battlefield, you lose 4 life."
+Rules Text:     Threshold — As long as seven or more cards are in your graveyard, Treacherous Werewolf gets +2/+2 and has "When Treacherous Werewolf dies, you lose 4 life."
 Set/Rarity:     Judgment Common
 
 Name:   Treachery
@@ -4266,6 +4371,14 @@ Type:   Creature — Ape
 Pow/Tgh:    (1/1)
 Rules Text:     Reach (This creature can block creatures with flying.)
 Set/Rarity:     Ninth Edition Common, Portal Second Age Common
+
+Name:   Tree of Redemption
+Cost:   3G
+Type:   Creature — Plant
+Pow/Tgh:    (0/13)
+Rules Text:     Defender
+{T}: Exchange your life total with Tree of Redemption's toughness.
+Set/Rarity:     Innistrad Mythic Rare
 
 Name:   Tree of Tales
 Cost:   
@@ -4392,6 +4505,14 @@ Pow/Tgh:    (2/3)
 Rules Text:     Sacrifice a land: Trenching Steed gets +0/+3 until end of turn.
 Set/Rarity:     Prophecy Common
 
+Name:   Trepanation Blade
+Cost:   3
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Whenever equipped creature attacks, defending player reveals cards from the top of his or her library until he or she reveals a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into his or her graveyard.
+Equip {2}
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Trespasser il-Vec
 Cost:   2B
 Type:   Creature — Human Rogue
@@ -4456,8 +4577,7 @@ Name:   Trial // Error (Error)
 Cost:   UB
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Counter target multicolored spell.
+Rules Text:     Counter target multicolored spell.
 Set/Rarity:     Dissension Uncommon
 
 Name:   Trial // Error (Trial)
@@ -4471,7 +4591,7 @@ Name:   Triangle of War
 Cost:   1
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {2}, Sacrifice Triangle of War: Choose target creature you control and target creature an opponent controls. Each of those creatures deals damage equal to its power to the other.
+Rules Text:     {2}, Sacrifice Triangle of War: Choose target creature you control and target creature an opponent controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Visions Rare
 
 Name:   Triassic Egg
@@ -4510,6 +4630,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Creatures of the creature type of your choice get +X/+X until end of turn.
 Set/Rarity:     Planechase Uncommon, Onslaught Uncommon
+
+Name:   Tribute to Hunger
+Cost:   2B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target opponent sacrifices a creature. You gain life equal to that creature's toughness.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Tribute to the Wild
 Cost:   1G
@@ -4669,6 +4796,14 @@ Pow/Tgh:
 Rules Text:     {T}: Add {R} or {G} to your mana pool.
 Set/Rarity:     Invasion Uncommon
 
+Name:   Trollhide
+Cost:   2G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+2 and has "{1}{G}: Regenerate this creature." (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+Set/Rarity:     Magic 2012 Common
+
 Name:   Trolls of Tel-Jilad
 Cost:   5GG
 Type:   Creature — Troll Shaman
@@ -4688,7 +4823,7 @@ Cost:   2G
 Type:   Creature — Human Archer
 Pow/Tgh:    (2/3)
 Rules Text:     {1}{G}: Trophy Hunter deals 1 damage to target creature with flying.
-Whenever a creature with flying dealt damage by Trophy Hunter this turn is put into a graveyard, put a +1/+1 counter on Trophy Hunter.
+Whenever a creature with flying dealt damage by Trophy Hunter this turn dies, put a +1/+1 counter on Trophy Hunter.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
 Name:   Tropical Island
@@ -4827,7 +4962,7 @@ Name:   Tukatongue Thallid
 Cost:   G
 Type:   Creature — Fungus
 Pow/Tgh:    (1/1)
-Rules Text:     When Tukatongue Thallid is put into a graveyard from the battlefield, put a 1/1 green Saproling creature token onto the battlefield.
+Rules Text:     When Tukatongue Thallid dies, put a 1/1 green Saproling creature token onto the battlefield.
 Set/Rarity:     Conflux Common
 
 Name:   Tuknir Deathlock
@@ -4858,7 +4993,7 @@ Cost:   2R
 Type:   Legendary Creature — Goblin
 Pow/Tgh:    (1/1)
 Rules Text:     Haste
-When Tuktuk the Explorer is put into a graveyard from the battlefield, put a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned onto the battlefield.
+When Tuktuk the Explorer dies, put a legendary 5/5 colorless Goblin Golem artifact creature token named Tuktuk the Returned onto the battlefield.
 Set/Rarity:     Rise of the Eldrazi Rare
 
 Name:   Tumble Magnet
@@ -4963,6 +5098,13 @@ Pow/Tgh:
 Rules Text:     Destroy target Equipment. Add {G} to your mana pool.
 Set/Rarity:     Mirrodin Common
 
+Name:   Turn to Frog
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature loses all abilities and becomes a 1/1 blue Frog until end of turn.
+Set/Rarity:     Magic 2012 Uncommon
+
 Name:   Turn to Mist
 Cost:   1(W/U)
 Type:   Instant
@@ -5052,7 +5194,7 @@ Type:   Creature — Angel
 Pow/Tgh:    (5/5)
 Rules Text:     Flying, vigilance
 When Twilight Shepherd enters the battlefield, return to your hand all cards in your graveyard that were put there from the battlefield this turn.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Duel Decks: Divine vs. Demonic Rare, Shadowmoor Rare
 
 Name:   Twilight's Call
@@ -5163,6 +5305,13 @@ Type:   Creature — Sliver
 Pow/Tgh:    (1/1)
 Rules Text:     All Sliver creatures have "This creature can't be blocked except by two or more creatures."
 Set/Rarity:     Time Spiral Common
+
+Name:   Typhoid Rats
+Cost:   B
+Type:   Creature — Rat
+Pow/Tgh:    (1/1)
+Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Set/Rarity:     Innistrad Common
 
 Name:   Typhoon
 Cost:   2G

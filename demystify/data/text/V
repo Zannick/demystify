@@ -121,6 +121,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Discard a creature card: Vampire Hounds gets +2/+2 until end of turn.
 Set/Rarity:     Exodus Common
 
+Name:   Vampire Interloper
+Cost:   1B
+Type:   Creature — Vampire Scout
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+Vampire Interloper can't block.
+Set/Rarity:     Innistrad Common
+
 Name:   Vampire Lacerator
 Cost:   B
 Type:   Creature — Vampire Warrior
@@ -145,6 +153,14 @@ Rules Text:     Play with the top card of your library revealed.
 As long as the top card of your library is black, Vampire Nocturnus and other Vampire creatures you control get +2/+1 and have flying.
 Set/Rarity:     Magic 2010 Mythic Rare
 
+Name:   Vampire Outcasts
+Cost:   2BB
+Type:   Creature — Vampire
+Pow/Tgh:    (2/2)
+Rules Text:     Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Set/Rarity:     Magic 2012 Uncommon
+
 Name:   Vampire's Bite
 Cost:   B
 Type:   Instant
@@ -158,7 +174,7 @@ Cost:   6BR
 Type:   Creature — Vampire Dragon
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-Whenever a creature dealt damage by Vampiric Dragon this turn is put into a graveyard, put a +1/+1 counter on Vampiric Dragon.
+Whenever a creature dealt damage by Vampiric Dragon this turn dies, put a +1/+1 counter on Vampiric Dragon.
 {1}{R}: Vampiric Dragon deals 1 damage to target creature.
 Set/Rarity:     Archenemy Rare, Odyssey Rare
 
@@ -168,7 +184,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature gets +2/+2 and has flying.
-Whenever a creature dealt damage by enchanted creature this turn is put into a graveyard, put a +1/+1 counter on that creature.
+Whenever a creature dealt damage by enchanted creature this turn dies, put a +1/+1 counter on that creature.
 Set/Rarity:     Urza's Saga Uncommon
 
 Name:   Vampiric Feast
@@ -177,6 +193,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Vampiric Feast deals 4 damage to target creature or player and you gain 4 life.
 Set/Rarity:     Portal Uncommon
+
+Name:   Vampiric Fury
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Vampire creatures you control get +2/+0 and gain first strike until end of turn.
+Set/Rarity:     Innistrad Common
 
 Name:   Vampiric Link
 Cost:   B
@@ -190,7 +213,7 @@ Name:   Vampiric Sliver
 Cost:   3B
 Type:   Creature — Sliver
 Pow/Tgh:    (3/3)
-Rules Text:     All Sliver creatures have "Whenever a creature dealt damage by this creature this turn is put into a graveyard, put a +1/+1 counter on this creature."
+Rules Text:     All Sliver creatures have "Whenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature."
 Set/Rarity:     Time Spiral Uncommon
 
 Name:   Vampiric Spirit
@@ -252,7 +275,7 @@ Cost:   U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return target creature to its owner's hand. Its controller loses 1 life.
-Set/Rarity:     New Phyrexia Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, New Phyrexia Common
 
 Name:   Vapor Snare
 Cost:   4U
@@ -305,7 +328,7 @@ Cost:   5G
 Type:   Creature — Wurm
 Pow/Tgh:    (5/6)
 Rules Text:     
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Magic 2012 Common, Zendikar Common
 
 Name:   Vastwood Zendikon
 Cost:   4G
@@ -313,7 +336,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land
 Enchanted land is a 6/4 green Elemental creature. It's still a land.
-When enchanted land is put into a graveyard, return that card to its owner's hand.
+When enchanted land dies, return that card to its owner's hand.
 Set/Rarity:     Worldwake Common
 
 Name:   Vault Skirge
@@ -558,7 +581,7 @@ Type:   Creature — Vampire
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
 {R}, {T}: Vein Drinker deals damage equal to its power to target creature. That creature deals damage equal to its power to Vein Drinker.
-Whenever a creature dealt damage by Vein Drinker this turn is put into a graveyard, put a +1/+1 counter on Vein Drinker.
+Whenever a creature dealt damage by Vein Drinker this turn dies, put a +1/+1 counter on Vein Drinker.
 Set/Rarity:     Shards of Alara Rare
 
 Name:   Veinfire Borderpost
@@ -624,7 +647,7 @@ Cost:   4G
 Type:   Creature — Spirit
 Pow/Tgh:    (2/3)
 Rules Text:     Reach (This creature can block creatures with flying.)
-Soulshift 4 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
+Soulshift 4 (When this creature dies, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Venerable Monk
@@ -660,7 +683,7 @@ Name:   Vengeful Dead
 Cost:   3B
 Type:   Creature — Zombie
 Pow/Tgh:    (3/2)
-Rules Text:     Whenever Vengeful Dead or another Zombie is put into a graveyard from the battlefield, each opponent loses 1 life.
+Rules Text:     Whenever Vengeful Dead or another Zombie dies, each opponent loses 1 life.
 Set/Rarity:     Scourge Common
 
 Name:   Vengeful Dreams
@@ -678,6 +701,14 @@ Pow/Tgh:    (5/2)
 Rules Text:     Vengeful Firebrand has haste as long as a Warrior card is in your graveyard.
 {R}: Vengeful Firebrand gets +1/+0 until end of turn.
 Set/Rarity:     Morningtide Rare
+
+Name:   Vengeful Pharaoh
+Cost:   2BBB
+Type:   Creature — Zombie
+Pow/Tgh:    (5/4)
+Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Whenever combat damage is dealt to you or a planeswalker you control, if Vengeful Pharaoh is in your graveyard, destroy target attacking creature, then put Vengeful Pharaoh on top of your library.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Vengeful Rebirth
 Cost:   4RG
@@ -838,7 +869,7 @@ Name:   Verdant Succession
 Cost:   4G
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a green nontoken creature is put into a graveyard from the battlefield, that creature's controller may search his or her library for a card with the same name as that creature and put it onto the battlefield. If that player does, he or she shuffles his or her library.
+Rules Text:     Whenever a green nontoken creature dies, that creature's controller may search his or her library for a card with the same name as that creature and put it onto the battlefield. If that player does, he or she shuffles his or her library.
 Set/Rarity:     Odyssey Rare
 
 Name:   Verdant Touch
@@ -985,7 +1016,7 @@ Name:   Veteran Explorer
 Cost:   G
 Type:   Creature — Human Soldier Scout
 Pow/Tgh:    (1/1)
-Rules Text:     When Veteran Explorer is put into a graveyard from the battlefield, each player may search his or her library for up to two basic land cards and put them onto the battlefield. Then each player who searched his or her library this way shuffles it.
+Rules Text:     When Veteran Explorer dies, each player may search his or her library for up to two basic land cards and put them onto the battlefield. Then each player who searched his or her library this way shuffles it.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Weatherlight Uncommon
 
 Name:   Veteran Swordsmith
@@ -1062,7 +1093,7 @@ Type:   Creature — Sphinx
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Cumulative upkeep—Discard a card. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-When Vexing Sphinx is put into a graveyard from the battlefield, draw a card for each age counter on it.
+When Vexing Sphinx dies, draw a card for each age counter on it.
 Set/Rarity:     Coldsnap Rare
 
 Name:   Vhati il-Dal
@@ -1239,8 +1270,15 @@ Name:   Vicious Shadows
 Cost:   6R
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, you may have Vicious Shadows deal damage to target player equal to the number of cards in that player's hand.
+Rules Text:     Whenever a creature dies, you may have Vicious Shadows deal damage to target player equal to the number of cards in that player's hand.
 Set/Rarity:     Shards of Alara Rare
+
+Name:   Victim of Night
+Cost:   BB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target non-Vampire, non-Werewolf, non-Zombie creature.
+Set/Rarity:     Innistrad Common
 
 Name:   Victimize
 Cost:   2B
@@ -1305,7 +1343,7 @@ Name:   Vigil for the Lost
 Cost:   3W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature you control is put into a graveyard from the battlefield, you may pay {X}. If you do, you gain X life.
+Rules Text:     Whenever a creature you control dies, you may pay {X}. If you do, you gain X life.
 Set/Rarity:     Scars of Mirrodin Uncommon
 
 Name:   Vigilance
@@ -1387,12 +1425,42 @@ Rules Text:     At the beginning of your upkeep, you may put a verse counter on 
 {1}{B}, Sacrifice Vile Requiem: Destroy up to X target nonblack creatures, where X is the number of verse counters on Vile Requiem. They can't be regenerated.
 Set/Rarity:     Urza's Saga Uncommon
 
+Name:   Village Bell-Ringer
+Cost:   2W
+Type:   Creature — Human Scout
+Pow/Tgh:    (1/4)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+When Village Bell-Ringer enters the battlefield, untap all creatures you control.
+Set/Rarity:     Innistrad Common
+
+Name:   Village Cannibals
+Cost:   2B
+Type:   Creature — Human
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever another Human creature dies, put a +1/+1 counter on Village Cannibals.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Village Elder
 Cost:   G
 Type:   Creature — Human Druid
 Pow/Tgh:    (1/1)
 Rules Text:     {G}, {T}, Sacrifice a Forest: Regenerate target creature.
 Set/Rarity:     Battle Royale Box Set Common, Mirage Common
+
+Name:   Village Ironsmith
+Cost:   1R
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (1/1)
+Rules Text:     First strike
+At the beginning of each upkeep, if no spells were cast last turn, transform Village Ironsmith.
+Set/Rarity:     Innistrad Common
+
+Name:   Villagers of Estwald
+Cost:   2G
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (2/3)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Villagers of Estwald.
+Set/Rarity:     Innistrad Common
 
 Name:   Villainous Ogre
 Cost:   2B
@@ -1431,7 +1499,7 @@ Cost:   6G
 Type:   Creature — Spirit
 Pow/Tgh:    (4/4)
 Rules Text:     Vine Kami can't be blocked except by two or more creatures.
-Soulshift 6 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 6 or less from your graveyard to your hand.)
+Soulshift 6 (When this creature dies, you may return target Spirit card with converted mana cost 6 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Vine Trellis
@@ -1553,7 +1621,7 @@ Name:   Viridian Emissary
 Cost:   1G
 Type:   Creature — Elf Scout
 Pow/Tgh:    (2/1)
-Rules Text:     When Viridian Emissary is put into a graveyard from the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+Rules Text:     When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
 Set/Rarity:     Mirrodin Besieged Common
 
 Name:   Viridian Harvest
@@ -1568,7 +1636,7 @@ Name:   Viridian Joiner
 Cost:   2G
 Type:   Creature — Elf Druid
 Pow/Tgh:    (1/2)
-Rules Text:     {T}: Add an amount of {G} to your mana pool equal to Viridian Joiner's power.
+Rules Text:     {T}: Add to your mana pool an amount of {G} equal to Viridian Joiner's power.
 Set/Rarity:     Mirrodin Common
 
 Name:   Viridian Longbow
@@ -1647,7 +1715,7 @@ Name:   Virulent Wound
 Cost:   B
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Put a -1/-1 counter on target creature. When that creature is put into a graveyard this turn, its controller gets a poison counter.
+Rules Text:     Put a -1/-1 counter on target creature. When that creature dies this turn, its controller gets a poison counter.
 Set/Rarity:     Mirrodin Besieged Common
 
 Name:   Visara the Dreadful
@@ -1656,7 +1724,7 @@ Type:   Legendary Creature — Gorgon
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
 {T}: Destroy target creature. It can't be regenerated.
-Set/Rarity:     Onslaught Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Onslaught Rare
 
 Name:   Viscera Dragger
 Cost:   3B
@@ -1742,6 +1810,13 @@ Pow/Tgh:
 Rules Text:     Look at the top five cards of target player's library. You may then have that player shuffle that library.
 Set/Rarity:     Fourth Edition Uncommon, Legends Uncommon
 
+Name:   Visions of Beyond
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Draw a card. If a graveyard has twenty or more cards in it, draw three cards instead.
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Vital Splicer
 Cost:   3G
 Type:   Creature — Human Artificer
@@ -1816,7 +1891,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {2}{G}{W}, {T}: Put a 1/1 green Saproling creature token onto the battlefield.
-Set/Rarity:     Archenemy Uncommon, Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Archenemy Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Vivid Crag
 Cost:   
@@ -1955,7 +2030,7 @@ Pow/Tgh:    (0/4)
 Rules Text:     Defender (This creature can't attack.)
 Tap an untapped Merfolk you control: Vodalian War Machine can attack this turn as though it didn't have defender.
 Tap an untapped Merfolk you control: Vodalian War Machine gets +2/+1 until end of turn.
-When Vodalian War Machine is put into a graveyard from the battlefield, destroy all Merfolk tapped this turn to pay for its abilities.
+When Vodalian War Machine dies, destroy all Merfolk tapped this turn to pay for its abilities.
 Set/Rarity:     Fallen Empires Rare
 
 Name:   Vodalian Zombie
@@ -2016,6 +2091,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Tap five untapped Elves you control: Put a 7/7 green Elemental creature token with trample onto the battlefield.
 Set/Rarity:     Duel Decks: Elves vs. Goblins Rare, Onslaught Rare
 
+Name:   Voiceless Spirit
+Cost:   2W
+Type:   Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     Flying, first strike
+Set/Rarity:     Innistrad Common
+
 Name:   Voices from the Void
 Cost:   4B
 Type:   Sorcery
@@ -2035,7 +2117,7 @@ Cost:   4BB
 Type:   Creature — Horror
 Pow/Tgh:    (4/5)
 Rules Text:     Trample
-If another creature would be put into a graveyard from the battlefield, exile it instead.
+If another creature would die, exile it instead.
 Put a card exiled with Void Maw into its owner's graveyard: Void Maw gets +2/+2 until end of turn.
 Set/Rarity:     Coldsnap Rare
 
@@ -2093,8 +2175,9 @@ Name:   Volcanic Dragon
 Cost:   4RR
 Type:   Creature — Dragon
 Pow/Tgh:    (4/4)
-Rules Text:     Flying, haste
-Set/Rarity:     Starter 1999 Rare, Classic Sixth Edition Rare, Portal Rare, Mirage Rare
+Rules Text:     Flying
+Haste (This creature can attack and {T} as soon as it comes under your control.)
+Set/Rarity:     Magic 2012 Uncommon, Starter 1999 Rare, Classic Sixth Edition Rare, Portal Rare, Mirage Rare
 
 Name:   Volcanic Eruption
 Cost:   XUUU

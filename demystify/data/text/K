@@ -39,7 +39,7 @@ Name:   Kaboom!
 Cost:   4R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Choose any number of target players. For each of those players, reveal cards from the top of your library until you reveal a nonland card. Kaboom! deals damage equal to that card's converted mana cost to that player, then you put the revealed cards on the bottom of your library in any order.
+Rules Text:     Choose any number of target players. For each of those players, reveal cards from the top of your library until you reveal a nonland card. Kaboom deals damage equal to that card's converted mana cost to that player, then you put the revealed cards on the bottom of your library in any order.
 Set/Rarity:     Onslaught Rare
 
 Name:   Kabuto Moth
@@ -68,7 +68,7 @@ Name:   Kaervek's Purge
 Cost:   XBR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy target creature with converted mana cost X. If that creature is put into a graveyard this way, Kaervek's Purge deals damage equal to the creature's power to the creature's controller.
+Rules Text:     Destroy target creature with converted mana cost X. If that creature dies this way, Kaervek's Purge deals damage equal to the creature's power to the creature's controller.
 Set/Rarity:     Mirage Uncommon
 
 Name:   Kaervek's Spite
@@ -123,7 +123,7 @@ Name:   Kalastria Highborn
 Cost:   BB
 Type:   Creature — Vampire Shaman
 Pow/Tgh:    (2/2)
-Rules Text:     Whenever Kalastria Highborn or another Vampire you control is put into a graveyard from the battlefield, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.
+Rules Text:     Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.
 Set/Rarity:     Worldwake Rare
 
 Name:   Kaleidostone
@@ -138,7 +138,7 @@ Name:   Kalitas, Bloodchief of Ghet
 Cost:   5BB
 Type:   Legendary Creature — Vampire Warrior
 Pow/Tgh:    (5/5)
-Rules Text:     {B}{B}{B}, {T}: Destroy target creature. If that creature is put into a graveyard this way, put a black Vampire creature token onto the battlefield. Its power is equal to that creature's power and its toughness is equal to that creature's toughness.
+Rules Text:     {B}{B}{B}, {T}: Destroy target creature. If that creature dies this way, put a black Vampire creature token onto the battlefield. Its power is equal to that creature's power and its toughness is equal to that creature's toughness.
 Set/Rarity:     Zendikar Mythic Rare
 
 Name:   Kalonian Behemoth
@@ -199,7 +199,7 @@ Name:   Kami of Empty Graves
 Cost:   3B
 Type:   Creature — Spirit
 Pow/Tgh:    (4/1)
-Rules Text:     Soulshift 3 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
+Rules Text:     Soulshift 3 (When this creature dies, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
 Set/Rarity:     Saviors of Kamigawa Common
 
 Name:   Kami of False Hope
@@ -221,7 +221,7 @@ Cost:   4BB
 Type:   Creature — Spirit
 Pow/Tgh:    (4/1)
 Rules Text:     Flying
-Soulshift 5 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
+Soulshift 5 (When this creature dies, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Kami of Old Stone
@@ -258,7 +258,7 @@ Type:   Creature — Spirit
 Pow/Tgh:    (3/5)
 Rules Text:     Flying
 Whenever Kami of the Honored Dead is dealt damage, you gain that much life.
-Soulshift 6 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 6 or less from your graveyard to your hand.)
+Soulshift 6 (When this creature dies, you may return target Spirit card with converted mana cost 6 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Kami of the Hunt
@@ -280,7 +280,7 @@ Cost:   5W
 Type:   Creature — Spirit
 Pow/Tgh:    (3/2)
 Rules Text:     Flying, first strike
-Soulshift 5 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
+Soulshift 5 (When this creature dies, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Kami of the Tended Garden
@@ -288,7 +288,7 @@ Cost:   3G
 Type:   Creature — Spirit
 Pow/Tgh:    (4/4)
 Rules Text:     At the beginning of your upkeep, sacrifice Kami of the Tended Garden unless you pay {G}.
-Soulshift 3 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
+Soulshift 3 (When this creature dies, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
 Name:   Kami of the Waning Moon
@@ -682,7 +682,7 @@ Pow/Tgh:
 Rules Text:     Kazandu Refuge enters the battlefield tapped.
 When Kazandu Refuge enters the battlefield, you gain 1 life.
 {T}: Add {R} or {G} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Archenemy Uncommon, Zendikar Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Magic: The Gathering-Commander Uncommon, Archenemy Uncommon, Zendikar Uncommon
 
 Name:   Kazandu Tuskcaller
 Cost:   1G
@@ -862,7 +862,7 @@ Cost:   5U
 Type:   Legendary Creature — Dragon Spirit
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Keiga, the Tide Star is put into a graveyard from the battlefield, gain control of target creature.
+When Keiga, the Tide Star dies, gain control of target creature.
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Keldon Arsonist
@@ -1024,6 +1024,28 @@ Rules Text:     Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 un
 You may pay {X} rather than pay the mana cost for Samurai spells you cast, where X is that spell's converted mana cost.
 Set/Rarity:     Betrayers of Kamigawa Rare
 
+Name:   Kessig Cagebreakers
+Cost:   4G
+Type:   Creature — Human Rogue
+Pow/Tgh:    (3/4)
+Rules Text:     Whenever Kessig Cagebreakers attacks, put a 2/2 green Wolf creature token onto the battlefield tapped and attacking for each creature card in your graveyard.
+Set/Rarity:     Innistrad Rare
+
+Name:   Kessig Wolf
+Cost:   2R
+Type:   Creature — Wolf
+Pow/Tgh:    (3/1)
+Rules Text:     {1}{R}: Kessig Wolf gains first strike until end of turn.
+Set/Rarity:     Innistrad Common
+
+Name:   Kessig Wolf Run
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn.
+Set/Rarity:     Innistrad Rare
+
 Name:   Kezzerdrix
 Cost:   2BB
 Type:   Creature — Rabbit Beast
@@ -1036,7 +1058,7 @@ Name:   Khabál Ghoul
 Cost:   2B
 Type:   Creature — Zombie
 Pow/Tgh:    (1/1)
-Rules Text:     At the beginning of each end step, put a +1/+1 counter on Khabál Ghoul for each creature put into a graveyard from the battlefield this turn.
+Rules Text:     At the beginning of each end step, put a +1/+1 counter on Khabál Ghoul for each creature that died this turn.
 Set/Rarity:     Masters Edition Rare, Arabian Nights Uncommon
 
 Name:   Khalni Garden
@@ -1086,7 +1108,7 @@ Type:   Legendary Creature — Goblin Shaman
 Pow/Tgh:    (2/2)
 Rules Text:     Haste
 {T}: Put a token that's a copy of target nonlegendary creature you control onto the battlefield. That token has haste. Sacrifice it at the beginning of the next end step.
-Set/Rarity:     Champions of Kamigawa Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Champions of Kamigawa Rare
 
 Name:   Kiku's Shadow
 Cost:   BB
@@ -1162,6 +1184,13 @@ Flying
 {T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to target creature or player.
 Set/Rarity:     Duel Decks: Knights vs. Dragons Rare, Archenemy Rare, Legions Rare
 
+Name:   Kindercatch
+Cost:   3GGG
+Type:   Creature — Spirit
+Pow/Tgh:    (6/6)
+Rules Text:     
+Set/Rarity:     Innistrad Common
+
 Name:   Kindle
 Cost:   1R
 Type:   Instant
@@ -1216,7 +1245,7 @@ Cost:   3U
 Type:   Creature — Bird
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-When Kingfisher is put into a graveyard from the battlefield, draw a card.
+When Kingfisher dies, draw a card.
 Set/Rarity:     Urza's Destiny Common
 
 Name:   Kinsbaile Balloonist
@@ -1232,7 +1261,7 @@ Cost:   1WW
 Type:   Creature — Kithkin Soldier
 Pow/Tgh:    (1/1)
 Rules Text:     Kinsbaile Borderguard enters the battlefield with a +1/+1 counter on it for each other Kithkin you control.
-When Kinsbaile Borderguard is put into a graveyard from the battlefield, put a 1/1 white Kithkin Soldier creature token onto the battlefield for each counter on it.
+When Kinsbaile Borderguard dies, put a 1/1 white Kithkin Soldier creature token onto the battlefield for each counter on it.
 Set/Rarity:     Morningtide Rare
 
 Name:   Kinsbaile Cavalier
@@ -1270,7 +1299,7 @@ Cost:   R
 Type:   Creature — Ape
 Pow/Tgh:    (1/1)
 Rules Text:     Kird Ape gets +1/+2 as long as you control a Forest.
-Set/Rarity:     From the Vault: Exiled Mythic Rare, Ninth Edition Uncommon, Beatdown Box Set Common, Revised Edition Common, Arabian Nights Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, From the Vault: Exiled Mythic Rare, Ninth Edition Uncommon, Beatdown Box Set Common, Revised Edition Common, Arabian Nights Common
 
 Name:   Kiri-Onna
 Cost:   4U
@@ -1323,8 +1352,16 @@ Cost:   1(G/W)(G/W)
 Type:   Creature — Ouphe
 Pow/Tgh:    (3/2)
 Rules Text:     When Kitchen Finks enters the battlefield, you gain 2 life.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Uncommon
+
+Name:   Kite Shield
+Cost:   0
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +0/+3.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Kitesail
 Cost:   2
@@ -1406,7 +1443,7 @@ Type:   Creature — Kithkin Wizard
 Pow/Tgh:    (2/3)
 Rules Text:     Flying
 {1}{W}, Sacrifice Kithkin Spellduster: Destroy target enchantment.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Common
 
 Name:   Kithkin Zealot
@@ -1719,7 +1756,7 @@ Name:   Knight of Sursi
 Cost:   3W
 Type:   Creature — Human Knight
 Pow/Tgh:    (2/2)
-Rules Text:     Flying; flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
+Rules Text:     Flying; flanking  (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 Suspend 3—{W} (Rather than cast this card from your hand, you may pay {W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 Set/Rarity:     Future Sight Common
 
@@ -1851,7 +1888,7 @@ Name:   Knucklebone Witch
 Cost:   B
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (1/1)
-Rules Text:     Whenever a Goblin you control is put into a graveyard from the battlefield, you may put a +1/+1 counter on Knucklebone Witch.
+Rules Text:     Whenever a Goblin you control dies, you may put a +1/+1 counter on Knucklebone Witch.
 Set/Rarity:     Lorwyn Rare
 
 Name:   Kobold Drill Sergeant
@@ -1878,9 +1915,10 @@ Set/Rarity:     Masters Edition III Common, Time Spiral "Timeshifted" Special, L
 
 Name:   Kobolds of Kher Keep
 Cost:   0
+Color:  Red
 Type:   Creature — Kobold
 Pow/Tgh:    (0/1)
-Rules Text:     Kobolds of Kher Keep is red.
+Rules Text:     
 Set/Rarity:     Masters Edition III Common, Legends Common
 
 Name:   Kodama of the Center Tree
@@ -1888,7 +1926,7 @@ Cost:   4G
 Type:   Legendary Creature — Spirit
 Pow/Tgh:    (*/*)
 Rules Text:     Kodama of the Center Tree's power and toughness are each equal to the number of Spirits you control.
-Kodama of the Center Tree has soulshift X, where X is the number of Spirits you control. (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost X or less from your graveyard to your hand.)
+Kodama of the Center Tree has soulshift X, where X is the number of Spirits you control. (When this creature dies, you may return target Spirit card with converted mana cost X or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Rare
 
 Name:   Kodama of the North Tree
@@ -1925,7 +1963,7 @@ Cost:   4BB
 Type:   Legendary Creature — Dragon Spirit
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Kokusho, the Evening Star is put into a graveyard from the battlefield, each opponent loses 5 life. You gain life equal to the life lost this way.
+When Kokusho, the Evening Star dies, each opponent loses 5 life. You gain life equal to the life lost this way.
 Set/Rarity:     From the Vault: Dragons Rare, Champions of Kamigawa Rare
 
 Name:   Konda's Banner
@@ -2118,7 +2156,7 @@ Type:   Planeswalker — Koth
 Loyalty:    (3)
 Rules Text:     +1: Untap target Mountain. It becomes a 4/4 red Elemental creature until end of turn. It's still a land.
 -2: Add {R} to your mana pool for each Mountain you control.
--5: You get an emblem with "Mountains you control have '{T}: This land deals 1 damage to target creature or player.'"
+-5: You get an emblem with "Mountains you control have ‘{T}: This land deals 1 damage to target creature or player.'"
 Set/Rarity:     Scars of Mirrodin Mythic Rare
 
 Name:   Koth's Courier
@@ -2156,7 +2194,7 @@ Cost:   2
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Whenever a player casts a blue spell, you may gain 1 life.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
 
 Name:   Krakilin
 Cost:   XGG
@@ -2165,6 +2203,14 @@ Pow/Tgh:    (0/0)
 Rules Text:     Krakilin enters the battlefield with X +1/+1 counters on it.
 {1}{G}: Regenerate Krakilin.
 Set/Rarity:     Tempest Uncommon
+
+Name:   Krallenhorde Wantons
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (7/7)
+Rules Text:     At the beginning of each upkeep, if a player cast two or more spells last turn, transform Krallenhorde Wantons.
+Set/Rarity:     Innistrad Common
 
 Name:   Kranioceros
 Cost:   4R
@@ -2226,8 +2272,8 @@ Name:   Kresh the Bloodbraided
 Cost:   2BRG
 Type:   Legendary Creature — Human Warrior
 Pow/Tgh:    (3/3)
-Rules Text:     Whenever another creature is put into a graveyard from the battlefield, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.
-Set/Rarity:     Shards of Alara Mythic Rare
+Rules Text:     Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.
+Set/Rarity:     From the Vault: Legends Mythic Rare, Shards of Alara Mythic Rare
 
 Name:   Kris Mage
 Cost:   R
@@ -2429,7 +2475,7 @@ Name:   Krovikan Vampire
 Cost:   3BB
 Type:   Creature — Vampire
 Pow/Tgh:    (3/3)
-Rules Text:     At the beginning of each end step, if a creature dealt damage by Krovikan Vampire this turn was put into a graveyard, put that card onto the battlefield under your control. Sacrifice it when you lose control of Krovikan Vampire.
+Rules Text:     At the beginning of each end step, if a creature dealt damage by Krovikan Vampire this turn died, put that card onto the battlefield under your control. Sacrifice it when you lose control of Krovikan Vampire.
 Set/Rarity:     Masters Edition II Uncommon, Ice Age Uncommon
 
 Name:   Krovikan Whispers
@@ -2441,6 +2487,14 @@ Cumulative upkeep {U} or {B} (At the beginning of your upkeep, put an age counte
 You control enchanted creature.
 When Krovikan Whispers is put into a graveyard from the battlefield, you lose 2 life for each age counter on it.
 Set/Rarity:     Coldsnap Uncommon
+
+Name:   Kruin Outlaw
+Cost:   1RR
+Type:   Creature — Human Rogue Werewolf
+Pow/Tgh:    (2/2)
+Rules Text:     First strike
+At the beginning of each upkeep, if no spells were cast last turn, transform Kruin Outlaw.
+Set/Rarity:     Innistrad Rare
 
 Name:   Kry Shield
 Cost:   2
@@ -2526,14 +2580,14 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Flash
 Enchant creature
-If a creature dealt damage by enchanted creature this turn would be put into a graveyard, exile it instead.
+If a creature dealt damage by enchanted creature this turn would die, exile it instead.
 Set/Rarity:     Betrayers of Kamigawa Common
 
 Name:   Kumano's Pupils
 Cost:   4R
 Type:   Creature — Human Shaman
 Pow/Tgh:    (3/3)
-Rules Text:     If a creature dealt damage by Kumano's Pupils this turn would be put into a graveyard, exile it instead.
+Rules Text:     If a creature dealt damage by Kumano's Pupils this turn would die, exile it instead.
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Kumano, Master Yamabushi
@@ -2541,14 +2595,14 @@ Cost:   3RR
 Type:   Legendary Creature — Human Shaman
 Pow/Tgh:    (4/4)
 Rules Text:     {1}{R}: Kumano, Master Yamabushi deals 1 damage to target creature or player.
-If a creature dealt damage by Kumano this turn would be put into a graveyard, exile it instead.
+If a creature dealt damage by Kumano this turn would die, exile it instead.
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Kuon, Ogre Ascendant
 Cost:   BBB
 Type:   Legendary Creature — Ogre Monk
 Pow/Tgh:    (2/4)
-Rules Text:     At the beginning of the end step, if three or more creatures were put into graveyards from the battlefield this turn, flip Kuon, Ogre Ascendant.
+Rules Text:     At the beginning of the end step, if three or more creatures died this turn, flip Kuon, Ogre Ascendant.
 Set/Rarity:     Saviors of Kamigawa Rare
 
 Name:   Kuon, Ogre Ascendant (Kuon's Essence)

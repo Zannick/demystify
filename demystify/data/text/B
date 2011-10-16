@@ -1,3 +1,10 @@
+Name:   Back from the Brink
+Cost:   4UU
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Exile a creature card from your graveyard and pay its mana cost: Put a token onto the battlefield that's a copy of that card. Activate this ability only any time you could cast a sorcery.
+Set/Rarity:     Innistrad Rare
+
 Name:   Back to Basics
 Cost:   2U
 Type:   Enchantment
@@ -212,6 +219,14 @@ Pow/Tgh:    (3/2)
 Rules Text:     {T}: Remove target blocking creature from combat. Creatures it was blocking that hadn't become blocked by another creature this combat become unblocked, then it blocks an attacking creature of your choice. Activate this ability only during the declare blockers step.
 Set/Rarity:     Coldsnap Uncommon
 
+Name:   Balefire Dragon
+Cost:   5RR
+Type:   Creature — Dragon
+Pow/Tgh:    (6/6)
+Rules Text:     Flying
+Whenever Balefire Dragon deals combat damage to a player, it deals that much damage to each creature that player controls.
+Set/Rarity:     Innistrad Mythic Rare
+
 Name:   Balefire Liege
 Cost:   2(R/W)(R/W)(R/W)
 Type:   Creature — Spirit Horror
@@ -351,6 +366,15 @@ Rules Text:     Prevent the next 1 damage that would be dealt to target creature
 Draw a card.
 Set/Rarity:     Tenth Edition Common, Stronghold Common
 
+Name:   Bane of Hanweir
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (5/5)
+Rules Text:     Bane of Hanweir attacks each turn if able.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Bane of Hanweir.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Bane of the Living
 Cost:   2BB
 Type:   Creature — Insect
@@ -386,7 +410,7 @@ Cost:   1B
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, that creature's controller loses life equal to its toughness.
+When enchanted creature dies, that creature's controller loses life equal to its toughness.
 Set/Rarity:     Shards of Alara Common
 
 Name:   Banishing Knack
@@ -446,7 +470,7 @@ Name:   Bant Sojourners
 Cost:   1GWU
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/4)
-Rules Text:     When you cycle Bant Sojourners or it's put into a graveyard from the battlefield, you may put a 1/1 white Soldier creature token onto the battlefield.
+Rules Text:     When you cycle Bant Sojourners or it dies, you may put a 1/1 white Soldier creature token onto the battlefield.
 Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
 Set/Rarity:     Alara Reborn Common
 
@@ -618,7 +642,7 @@ Name:   Barishi
 Cost:   2GG
 Type:   Creature — Elemental
 Pow/Tgh:    (4/3)
-Rules Text:     When Barishi is put into a graveyard from the battlefield, exile Barishi, then shuffle all creature cards from your graveyard into your library.
+Rules Text:     When Barishi dies, exile Barishi, then shuffle all creature cards from your graveyard into your library.
 Set/Rarity:     Weatherlight Uncommon
 
 Name:   Barkhide Mauler
@@ -655,7 +679,7 @@ Cost:   5BBB
 Type:   Legendary Creature — Vampire
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-Whenever a creature dealt damage by Baron Sengir this turn is put into a graveyard, put a +2/+2 counter on Baron Sengir.
+Whenever a creature dealt damage by Baron Sengir this turn dies, put a +2/+2 counter on Baron Sengir.
 {T}: Regenerate another target Vampire.
 Set/Rarity:     Masters Edition Rare, Homelands Rare
 
@@ -1055,6 +1079,14 @@ Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1
 Whenever a creature you control attacks alone, it gains lifelink until end of turn.
 Set/Rarity:     Shards of Alara Rare
 
+Name:   Battleground Geist
+Cost:   4U
+Type:   Creature — Spirit
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Other Spirit creatures you control get +1/+0.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Battlegrowth
 Cost:   G
 Type:   Instant
@@ -1324,7 +1356,7 @@ Type:   Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature gets +2/+2 and has lifelink and trample.
 Equip {3}
-Set/Rarity:     Alara Reborn Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Alara Reborn Uncommon
 
 Name:   Behemoth's Herald
 Cost:   G
@@ -1361,8 +1393,8 @@ Cost:   3WW
 Type:   Creature — Spirit
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
-Haunt (When this card is put into a graveyard from the battlefield, exile it haunting target creature.)
-When Belfry Spirit enters the battlefield or the creature it haunts is put into a graveyard, put two 1/1 black Bat creature tokens with flying onto the battlefield.
+Haunt (When this creature dies, exile it haunting target creature.)
+When Belfry Spirit enters the battlefield or the creature it haunts dies, put two 1/1 black Bat creature tokens with flying onto the battlefield.
 Set/Rarity:     Guildpact Uncommon
 
 Name:   Belligerent Hatchling
@@ -1398,7 +1430,7 @@ Type:   Creature — Sphinx
 Pow/Tgh:    (2/5)
 Rules Text:     Flying
 Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of his or her library into his or her graveyard.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Beloved Chaplain
 Cost:   1W
@@ -1489,6 +1521,13 @@ Pow/Tgh:    (1/2)
 Rules Text:     {W}, {T}: Tap target creature.
 Set/Rarity:     Invasion Common
 
+Name:   Benalish Veteran
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever Benalish Veteran attacks, it gets +1/+1 until end of turn.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Bend or Break
 Cost:   3R
 Type:   Sorcery
@@ -1502,7 +1541,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     You gain 1 life for each player.
 Haunt (When this spell card is put into a graveyard after resolving, exile it haunting target creature.)
-When the creature Benediction of Moons haunts is put into a graveyard, you gain 1 life for each player.
+When the creature Benediction of Moons haunts dies, you gain 1 life for each player.
 Set/Rarity:     Guildpact Common
 
 Name:   Benevolent Ancestor
@@ -1563,14 +1602,14 @@ Cost:   G
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, you draw two cards.
+When enchanted creature dies, you draw two cards.
 Set/Rarity:     Exodus Common
 
 Name:   Bereavement
 Cost:   1B
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a green creature is put into a graveyard from the battlefield, its controller discards a card.
+Rules Text:     Whenever a green creature dies, its controller discards a card.
 Set/Rarity:     Seventh Edition Uncommon, Urza's Saga Uncommon
 
 Name:   Berserk
@@ -1743,7 +1782,7 @@ Type:   Creature — Bird
 Pow/Tgh:    (0/1)
 Rules Text:     Flying
 {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ravnica: City of Guilds Rare, Eighth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ravnica: City of Guilds Rare, Eighth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
 Name:   Birthing Pod
 Cost:   3(G/P)
@@ -1776,6 +1815,14 @@ Type:   Tribal Enchantment — Faerie
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, you lose 1 life and put a 1/1 black Faerie Rogue creature token with flying onto the battlefield.
 Set/Rarity:     Morningtide Rare
+
+Name:   Bitterheart Witch
+Cost:   4B
+Type:   Creature — Human Shaman
+Pow/Tgh:    (1/2)
+Rules Text:     Deathtouch
+When Bitterheart Witch dies, you may search your library for a Curse card, put it onto the battlefield attached to target player, then shuffle your library.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Bituminous Blast
 Cost:   3BR
@@ -1822,7 +1869,7 @@ Name:   Black Market
 Cost:   3BB
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, put a charge counter on Black Market.
+Rules Text:     Whenever a creature dies, put a charge counter on Black Market.
 At the beginning of your precombat main phase, add {B} to your mana pool for each charge counter on Black Market.
 Set/Rarity:     Mercadian Masques Rare
 
@@ -1907,7 +1954,7 @@ Name:   Blade of the Bloodchief
 Cost:   1
 Type:   Artifact — Equipment
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, put a +1/+1 counter on equipped creature. If equipped creature is a Vampire, put two +1/+1 counters on it instead.
+Rules Text:     Whenever a creature dies, put a +1/+1 counter on equipped creature. If equipped creature is a Vampire, put two +1/+1 counters on it instead.
 Equip {1}
 Set/Rarity:     Zendikar Rare
 
@@ -2002,6 +2049,14 @@ Pow/Tgh:
 Rules Text:     Each land is a Swamp in addition to its other land types.
 Set/Rarity:     Visions Uncommon
 
+Name:   Blasphemous Act
+Cost:   8R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Blasphemous Act costs {1} less to cast for each creature on the battlefield.
+Blasphemous Act deals 13 damage to each creature.
+Set/Rarity:     Innistrad Rare
+
 Name:   Blasted Landscape
 Cost:   
 Type:   Land
@@ -2083,7 +2138,7 @@ Name:   Blazing Effigy
 Cost:   1R
 Type:   Creature — Elemental
 Pow/Tgh:    (0/3)
-Rules Text:     When Blazing Effigy is put into a graveyard from the battlefield, Blazing Effigy deals X damage to target creature, where X is 3 plus the amount of damage dealt to Blazing Effigy this turn by other sources named Blazing Effigy.
+Rules Text:     When Blazing Effigy dies, it deals X damage to target creature, where X is 3 plus the amount of damage dealt to Blazing Effigy this turn by other sources named Blazing Effigy.
 Set/Rarity:     Legends Common
 
 Name:   Blazing Salvo
@@ -2107,7 +2162,7 @@ Type:   Creature — Specter
 Pow/Tgh:    (2/2)
 Rules Text:     Flying, haste
 Whenever Blazing Specter deals combat damage to a player, that player discards a card.
-Set/Rarity:     Invasion Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Invasion Rare
 
 Name:   Blazing Torch
 Cost:   1
@@ -2115,8 +2170,8 @@ Type:   Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature can't be blocked by Vampires or Zombies.
 Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to target creature or player."
-Equip {1}
-Set/Rarity:     Zendikar Uncommon
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Innistrad Common, Zendikar Uncommon
 
 Name:   Bleak Coven Vampires
 Cost:   3BB
@@ -2287,8 +2342,8 @@ Cost:   2WB
 Type:   Creature — Bat
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-Haunt (When this card is put into a graveyard from the battlefield, exile it haunting target creature.)
-When Blind Hunter enters the battlefield or the creature it haunts is put into a graveyard, target player loses 2 life and you gain 2 life.
+Haunt (When this creature dies, exile it haunting target creature.)
+When Blind Hunter enters the battlefield or the creature it haunts dies, target player loses 2 life and you gain 2 life.
 Set/Rarity:     Guildpact Common
 
 Name:   Blind Phantasm
@@ -2423,7 +2478,7 @@ Cost:   2B
 Type:   Creature — Horror
 Pow/Tgh:    (2/2)
 Rules Text:     Swampwalk
-When Blistergrub is put into a graveyard from the battlefield, each opponent loses 2 life.
+When Blistergrub dies, each opponent loses 2 life.
 Set/Rarity:     Scars of Mirrodin Common
 
 Name:   Blistering Barrier
@@ -2539,7 +2594,7 @@ Cost:   1BR
 Type:   Creature — Human Wizard
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Blood Cultist deals 1 damage to target creature.
-Whenever a creature dealt damage by Blood Cultist this turn is put into a graveyard, put a +1/+1 counter on Blood Cultist.
+Whenever a creature dealt damage by Blood Cultist this turn dies, put a +1/+1 counter on Blood Cultist.
 Set/Rarity:     Shards of Alara Uncommon
 
 Name:   Blood Frenzy
@@ -2594,6 +2649,14 @@ Pow/Tgh:
 Rules Text:     Choose a card type. Target opponent reveals his or her hand. Blood Oath deals 3 damage to that player for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)
 Set/Rarity:     Mercadian Masques Rare
 
+Name:   Blood Ogre
+Cost:   2R
+Type:   Creature — Ogre Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
+First strike (This creature deals combat damage before creatures without first strike.)
+Set/Rarity:     Magic 2012 Common
+
 Name:   Blood Pet
 Cost:   B
 Type:   Creature — Thrull
@@ -2613,7 +2676,7 @@ Cost:   1B
 Type:   Creature — Vampire Shaman
 Pow/Tgh:    (1/1)
 Rules Text:     Whenever a creature enters the battlefield under an opponent's control, you may have that player lose 1 life.
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Magic 2012 Common, Zendikar Common
 
 Name:   Blood Speaker
 Cost:   3B
@@ -2691,6 +2754,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Bloodcrazed Goblin can't attack unless an opponent has been dealt damage this turn.
 Set/Rarity:     Magic 2011 Common
 
+Name:   Bloodcrazed Neonate
+Cost:   1R
+Type:   Creature — Vampire
+Pow/Tgh:    (2/1)
+Rules Text:     Bloodcrazed Neonate attacks each turn if able.
+Whenever Bloodcrazed Neonate deals combat damage to a player, put a +1/+1 counter on it.
+Set/Rarity:     Innistrad Common
+
 Name:   Bloodcurdler
 Cost:   1B
 Type:   Creature — Horror
@@ -2745,6 +2816,14 @@ Bloodghast has haste as long as an opponent has 10 or less life.
 Landfall — Whenever a land enters the battlefield under your control, you may return Bloodghast from your graveyard to the battlefield.
 Set/Rarity:     Zendikar Rare
 
+Name:   Bloodgift Demon
+Cost:   3BB
+Type:   Creature — Demon
+Pow/Tgh:    (5/4)
+Rules Text:     Flying
+At the beginning of your upkeep, target player draws a card and loses 1 life.
+Set/Rarity:     Innistrad Rare
+
 Name:   Bloodhall Ooze
 Cost:   R
 Type:   Creature — Ooze
@@ -2777,12 +2856,30 @@ Rules Text:     {2}, {T}, Put a blood counter on Bloodletter Quill: Draw a card,
 {U}{B}: Remove a blood counter from Bloodletter Quill.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
+Name:   Bloodline Keeper
+Cost:   2BB
+Type:   Creature — Vampire
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+{T}: Put a 2/2 black Vampire creature token with flying onto the battlefield.
+{B}: Transform Bloodline Keeper. Activate this ability only if you control five or more Vampires.
+Set/Rarity:     Innistrad Rare
+
 Name:   Bloodline Shaman
 Cost:   1G
 Type:   Creature — Elf Wizard Shaman
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Choose a creature type. Reveal the top card of your library. If that card is a creature card of the chosen type, put it into your hand. Otherwise, put it into your graveyard.
 Set/Rarity:     Onslaught Uncommon
+
+Name:   Bloodlord of Vaasgoth
+Cost:   3BB
+Type:   Creature — Vampire Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)
+Flying
+Whenever you cast a Vampire creature spell, it gains bloodthirst 3.
+Set/Rarity:     Magic 2012 Mythic Rare
 
 Name:   Bloodmark Mentor
 Cost:   1R
@@ -2797,6 +2894,13 @@ Type:   Creature — Elemental
 Pow/Tgh:    (4/1)
 Rules Text:     Sacrifice Bloodpyre Elemental: Bloodpyre Elemental deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.
 Set/Rarity:     Shards of Alara Common
+
+Name:   Bloodrage Vampire
+Cost:   2B
+Type:   Creature — Vampire
+Pow/Tgh:    (3/1)
+Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
+Set/Rarity:     Magic 2012 Common
 
 Name:   Bloodrite Invoker
 Cost:   2B
@@ -2911,7 +3015,7 @@ Name:   Blowfly Infestation
 Cost:   2B
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, if it had a -1/-1 counter on it, put a -1/-1 counter on target creature.
+Rules Text:     Whenever a creature dies, if it had a -1/-1 counter on it, put a -1/-1 counter on target creature.
 Set/Rarity:     Shadowmoor Uncommon
 
 Name:   Bludgeon Brawl
@@ -3013,7 +3117,7 @@ Cost:   2BB
 Type:   Creature — Minion
 Pow/Tgh:    (2/2)
 Rules Text:     When Body Snatcher enters the battlefield, exile it unless you discard a creature card.
-When Body Snatcher is put into a graveyard from the battlefield, exile Body Snatcher and return target creature card from your graveyard to the battlefield.
+When Body Snatcher dies, exile Body Snatcher and return target creature card from your graveyard to the battlefield.
 Set/Rarity:     Urza's Destiny Rare
 
 Name:   Body of Jukai
@@ -3021,7 +3125,7 @@ Cost:   7GG
 Type:   Creature — Spirit
 Pow/Tgh:    (8/5)
 Rules Text:     Trample
-Soulshift 8 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 8 or less from your graveyard to your hand.)
+Soulshift 8 (When this creature dies, you may return target Spirit card with converted mana cost 8 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Bog Down
@@ -3148,7 +3252,7 @@ Name:   Bogardan Firefiend
 Cost:   2R
 Type:   Creature — Elemental Spirit
 Pow/Tgh:    (2/1)
-Rules Text:     When Bogardan Firefiend is put into a graveyard from the battlefield, it deals 2 damage to target creature.
+Rules Text:     When Bogardan Firefiend dies, it deals 2 damage to target creature.
 Set/Rarity:     Planechase Common, Tenth Edition Common, Weatherlight Common
 
 Name:   Bogardan Hellkite
@@ -3173,7 +3277,7 @@ Cost:   2RRR
 Type:   Creature — Phoenix
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-When Bogardan Phoenix is put into a graveyard from the battlefield, exile it if it had a death counter on it. Otherwise, return it to the battlefield under your control and put a death counter on it.
+When Bogardan Phoenix dies, exile it if it had a death counter on it. Otherwise, return it to the battlefield under your control and put a death counter on it.
 Set/Rarity:     Visions Rare
 
 Name:   Bogardan Rager
@@ -3241,7 +3345,7 @@ Name:   Boggart Shenanigans
 Cost:   2R
 Type:   Tribal Enchantment — Goblin
 Pow/Tgh:    
-Rules Text:     Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player.
+Rules Text:     Whenever another Goblin you control dies, you may have Boggart Shenanigans deal 1 damage to target player.
 Set/Rarity:     Duel Decks: Elves vs. Goblins Uncommon, Lorwyn Uncommon
 
 Name:   Boggart Sprite-Chaser
@@ -3347,6 +3451,14 @@ Rules Text:     Defender, haste
 {T}: Draw a card, then discard a card.
 Set/Rarity:     Future Sight Uncommon
 
+Name:   Bonds of Faith
+Cost:   1W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block.
+Set/Rarity:     Innistrad Common
+
 Name:   Bonds of Quicksilver
 Cost:   3U
 Type:   Enchantment — Aura
@@ -3417,6 +3529,13 @@ Rules Text:     As an additional cost to cast Bone Splinters, sacrifice a creatu
 Destroy target creature.
 Set/Rarity:     Shards of Alara Common
 
+Name:   Bonebreaker Giant
+Cost:   4R
+Type:   Creature — Giant
+Pow/Tgh:    (4/4)
+Rules Text:     
+Set/Rarity:     Magic 2012 Common
+
 Name:   Bonehoard
 Cost:   4
 Type:   Artifact — Equipment
@@ -3464,6 +3583,13 @@ Pow/Tgh:    (4/2)
 Rules Text:     Whenever a permanent is turned face up, Bonethorn Valesk deals 1 damage to target creature or player.
 Set/Rarity:     Scourge Common
 
+Name:   Boneyard Wurm
+Cost:   1G
+Type:   Creature — Wurm
+Pow/Tgh:    (*/*)
+Rules Text:     Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Booby Trap
 Cost:   6
 Type:   Artifact
@@ -3498,8 +3624,7 @@ Name:   Boom // Bust (Bust)
 Cost:   5R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Destroy all lands.
+Rules Text:     Destroy all lands.
 Set/Rarity:     Planar Chaos Rare
 
 Name:   Boomerang
@@ -3557,7 +3682,7 @@ Name:   Boreal Centaur
 Cost:   1G
 Type:   Snow Creature — Centaur Warrior
 Pow/Tgh:    (2/2)
-Rules Text:     {S}i}: Boreal Centaur gets +1/+1 until end of turn. Activate this ability only once each turn. ({S}i} can be paid with one mana from a snow permanent.)
+Rules Text:     {S}: Boreal Centaur gets +1/+1 until end of turn. Activate this ability only once each turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Common
 
 Name:   Boreal Druid
@@ -3572,7 +3697,7 @@ Cost:   3WW
 Type:   Snow Creature — Griffin
 Pow/Tgh:    (3/2)
 Rules Text:     Flying
-{S}i}: Boreal Griffin gains first strike until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+{S}: Boreal Griffin gains first strike until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Common
 
 Name:   Boreal Shelf
@@ -3730,8 +3855,7 @@ Name:   Bound // Determined (Determined)
 Cost:   GU
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Other spells you control can't be countered by spells or abilities this turn.
+Rules Text:     Other spells you control can't be countered by spells or abilities this turn.
 Draw a card.
 Set/Rarity:     Dissension Rare
 
@@ -3756,7 +3880,7 @@ Cost:   4G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     You gain 1 life for each land you control.
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common
 
 Name:   Bounty Hunter
 Cost:   2BB
@@ -3787,7 +3911,7 @@ Type:   Creature — Elemental
 Pow/Tgh:    (4/4)
 Rules Text:     When Brackwater Elemental attacks or blocks, sacrifice it at the beginning of the next end step.
 Unearth {2}{U} ({2}{U}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
-Set/Rarity:     Conflux Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Conflux Common
 
 Name:   Braid of Fire
 Cost:   1R
@@ -3847,6 +3971,14 @@ Pow/Tgh:
 Rules Text:     Name a nonland card. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card.
 Set/Rarity:     Dissension Uncommon
 
+Name:   Brain Weevil
+Cost:   3B
+Type:   Creature — Insect
+Pow/Tgh:    (1/1)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Sacrifice Brain Weevil: Target player discards two cards. Activate this ability only any time you could cast a sorcery.
+Set/Rarity:     Innistrad Common
+
 Name:   Brainbite
 Cost:   2UB
 Type:   Sorcery
@@ -3898,6 +4030,13 @@ Type:   Creature — Elemental
 Pow/Tgh:    (4/4)
 Rules Text:     Whenever an Aura becomes attached to Bramble Elemental or enters the battlefield attached to Bramble Elemental, put two 1/1 green Saproling creature tokens onto the battlefield.
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Bramblecrush
+Cost:   2GG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target noncreature permanent.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Bramblesnap
 Cost:   1G
@@ -4191,7 +4330,7 @@ Pow/Tgh:    (3/3)
 Rules Text:     Flash
 When Briarhorn enters the battlefield, target creature gets +3/+3 until end of turn.
 Evoke {1}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
-Set/Rarity:     Planechase Uncommon, Lorwyn Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Planechase Uncommon, Lorwyn Uncommon
 
 Name:   Briarknit Kami
 Cost:   3GG
@@ -4288,12 +4427,20 @@ LEVEL 3+
 {T}: Brimstone Mage deals 3 damage to target creature or player.
 Set/Rarity:     Rise of the Eldrazi Uncommon
 
+Name:   Brimstone Volley
+Cost:   2R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Brimstone Volley deals 3 damage to target creature or player.
+Morbid — Brimstone Volley deals 5 damage to that creature or player instead if a creature died this turn.
+Set/Rarity:     Innistrad Common
+
 Name:   Brindle Boar
 Cost:   2G
 Type:   Creature — Boar
 Pow/Tgh:    (2/2)
 Rules Text:     Sacrifice Brindle Boar: You gain 4 life.
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common
 
 Name:   Brine Elemental
 Cost:   4UU
@@ -4307,7 +4454,7 @@ Name:   Brine Hag
 Cost:   2UU
 Type:   Creature — Hag
 Pow/Tgh:    (2/2)
-Rules Text:     When Brine Hag is put into a graveyard from the battlefield, all creatures that dealt damage to it this turn become 0/2. (This effect lasts indefinitely.)
+Rules Text:     When Brine Hag dies, all creatures that dealt damage to it this turn become 0/2. (This effect lasts indefinitely.)
 Set/Rarity:     Legends Uncommon
 
 Name:   Brine Seer
@@ -4376,7 +4523,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature or land
 When enchanted permanent becomes tapped, destroy it.
-Set/Rarity:     Worldwake Common
+Set/Rarity:     Magic 2012 Common, Worldwake Common
 
 Name:   Brink of Madness
 Cost:   2BB
@@ -4722,6 +4869,14 @@ Pow/Tgh:
 Rules Text:     At the beginning of your upkeep, Bulwark deals X damage to target opponent, where X is the number of cards in your hand minus the number of cards in that player's hand.
 Set/Rarity:     Urza's Saga Rare
 
+Name:   Bump in the Night
+Cost:   B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target opponent loses 3 life.
+Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Common
+
 Name:   Buoyancy
 Cost:   1U
 Type:   Enchantment — Aura
@@ -4751,6 +4906,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Odyssey Uncommon, Weatherlight Uncommon
+
+Name:   Buried Ruin
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{2}, {T}, Sacrifice Buried Ruin: Return target artifact card from your graveyard to your hand.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Burn Trail
 Cost:   3R
@@ -4799,7 +4962,7 @@ Name:   Burning Sands
 Cost:   3RR
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, that creature's controller sacrifices a land.
+Rules Text:     Whenever a creature dies, that creature's controller sacrifices a land.
 Set/Rarity:     Odyssey Rare
 
 Name:   Burning Shield Askari
@@ -4809,6 +4972,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 {R}{R}: Burning Shield Askari gains first strike until end of turn.
 Set/Rarity:     Mirage Common
+
+Name:   Burning Vengeance
+Cost:   2R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to target creature or player.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Burning Wish
 Cost:   1R
@@ -4821,14 +4991,14 @@ Name:   Burning of Xinye
 Cost:   4RR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     You destroy four lands you control, then target opponent destroys four lands he or she controls. Then Burning of Xinye deals 4 damage to each creature.
+Rules Text:     Choose four lands you control and destroy those lands. Then target opponent chooses four lands he or she controls. Destroy those lands. Then Burning of Xinye deals 4 damage to each creature.
 Set/Rarity:     Masters Edition III Rare, Portal Three Kingdoms Rare
 
 Name:   Burning-Eye Zubera
 Cost:   2RR
 Type:   Creature — Zubera Spirit
 Pow/Tgh:    (3/3)
-Rules Text:     When Burning-Eye Zubera is put into a graveyard from the battlefield, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to target creature or player.
+Rules Text:     When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to target creature or player.
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
 Name:   Burning-Tree Bloodscale
@@ -4868,7 +5038,7 @@ Cost:   3G
 Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     Sacrifice Burr Grafter: Target creature gets +2/+2 until end of turn.
-Soulshift 3 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
+Soulshift 3 (When this creature dies, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Burrenton Bombardier
@@ -4928,7 +5098,7 @@ Name:   Bushi Tenderfoot
 Cost:   W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (1/1)
-Rules Text:     When a creature dealt damage by Bushi Tenderfoot this turn is put into a graveyard, flip Bushi Tenderfoot.
+Rules Text:     When a creature dealt damage by Bushi Tenderfoot this turn dies, flip Bushi Tenderfoot.
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Bushi Tenderfoot (Kenzo the Hardhearted)
@@ -4950,8 +5120,17 @@ Cost:   5BB
 Type:   Creature — Vampire Warrior
 Pow/Tgh:    (5/4)
 Rules Text:     Flying
-Whenever Butcher of Malakir or another creature you control is put into a graveyard from the battlefield, each opponent sacrifices a creature.
+Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Worldwake Rare
+
+Name:   Butcher's Cleaver
+Cost:   3
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +3/+0.
+As long as equipped creature is a Human, it has lifelink.
+Equip {3}
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Bösium Strip
 Cost:   3

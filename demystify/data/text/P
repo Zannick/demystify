@@ -4,7 +4,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Duel Decks: Divine vs. Demonic Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common, Seventh Edition Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Urza's Saga Common, Tempest Common, Mirage Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Duel Decks: Divine vs. Demonic Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common, Seventh Edition Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Urza's Saga Common, Tempest Common, Mirage Common
 
 Name:   Pack Hunt
 Cost:   3G
@@ -22,19 +22,19 @@ Set/Rarity:     Morningtide Common
 
 Name:   Pact of Negation
 Cost:   0
+Color:  Blue
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Pact of Negation is blue.
-Counter target spell.
+Rules Text:     Counter target spell.
 At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.
 Set/Rarity:     Future Sight Rare
 
 Name:   Pact of the Titan
 Cost:   0
+Color:  Red
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Pact of the Titan is red.
-Put a 4/4 red Giant creature token onto the battlefield.
+Rules Text:     Put a 4/4 red Giant creature token onto the battlefield.
 At the beginning of your next upkeep, pay {4}{R}. If you don't, you lose the game.
 Set/Rarity:     Future Sight Rare
 
@@ -43,15 +43,14 @@ Cost:   B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards a card.
-Set/Rarity:     Invasion Uncommon, Invasion Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Invasion Uncommon, Invasion Uncommon
 
 Name:   Pain // Suffering (Suffering)
 Cost:   3R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Destroy target land.
-Set/Rarity:     Invasion Uncommon, Invasion Uncommon
+Rules Text:     Destroy target land.
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Invasion Uncommon, Invasion Uncommon
 
 Name:   Pain Kami
 Cost:   2R
@@ -406,6 +405,13 @@ Rules Text:     For each creature token on the battlefield, its controller puts 
 Flashback {4}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Torment Rare
 
+Name:   Parallel Lives
+Cost:   3G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     If an effect would put one or more tokens onto the battlefield under your control, it puts twice that many of those tokens onto the battlefield instead.
+Set/Rarity:     Innistrad Rare
+
 Name:   Parallel Thoughts
 Cost:   3UU
 Type:   Enchantment
@@ -446,6 +452,13 @@ Type:   Creature — Kithkin Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     {(w/u)}: Parapet Watchers gets +0/+1 until end of turn.
 Set/Rarity:     Shadowmoor Common
+
+Name:   Paraselene
+Cost:   2W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy all enchantments. You gain 1 life for each enchantment destroyed this way.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Parasitic Bond
 Cost:   3B
@@ -569,6 +582,14 @@ Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Return all creatures you control to their owner's hand.
 Set/Rarity:     Champions of Kamigawa Rare
+
+Name:   Past in Flames
+Cost:   3R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Each instant and sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.
+Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Mythic Rare
 
 Name:   Patagia Golem
 Cost:   4
@@ -721,7 +742,7 @@ Cost:   3G
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, that creature's controller may search his or her library for a creature card and put that card onto the battlefield. If that player does, he or she shuffles his or her library.
+When enchanted creature dies, that creature's controller may search his or her library for a creature card and put that card onto the battlefield. If that player does, he or she shuffles his or her library.
 Set/Rarity:     Urza's Destiny Rare
 
 Name:   Paupers' Cage
@@ -742,7 +763,7 @@ Name:   Pawn of Ulamog
 Cost:   1BB
 Type:   Creature — Vampire Shaman
 Pow/Tgh:    (2/2)
-Rules Text:     Whenever Pawn of Ulamog or another nontoken creature you control is put into a graveyard from the battlefield, you may put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has "Sacrifice this creature: Add {1} to your mana pool."
+Rules Text:     Whenever Pawn of Ulamog or another nontoken creature you control dies, you may put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has "Sacrifice this creature: Add {1} to your mana pool."
 Set/Rarity:     Rise of the Eldrazi Uncommon
 
 Name:   Pay No Heed
@@ -905,7 +926,7 @@ Type:   Creature — Wurm
 Pow/Tgh:    (7/7)
 Rules Text:     Trample
 When Pelakka Wurm enters the battlefield, you gain 7 life.
-When Pelakka Wurm is put into a graveyard from the battlefield, draw a card.
+When Pelakka Wurm dies, draw a card.
 Set/Rarity:     Rise of the Eldrazi Uncommon
 
 Name:   Pemmin's Aura
@@ -1013,20 +1034,20 @@ Pow/Tgh:    (0/0)
 Rules Text:     Pentavus enters the battlefield with five +1/+1 counters on it.
 {1}, Remove a +1/+1 counter from Pentavus: Put a 1/1 colorless Pentavite artifact creature token with flying onto the battlefield.
 {1}, Sacrifice a Pentavite: Put a +1/+1 counter on Pentavus.
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Rare, Planechase Rare, Mirrodin Rare
+Set/Rarity:     Magic 2012 Rare, Duel Decks: Elspeth vs. Tezzeret Rare, Planechase Rare, Mirrodin Rare
 
 Name:   Penumbra Bobcat
 Cost:   2G
 Type:   Creature — Cat
 Pow/Tgh:    (2/1)
-Rules Text:     When Penumbra Bobcat is put into a graveyard from the battlefield, put a 2/1 black Cat creature token onto the battlefield.
+Rules Text:     When Penumbra Bobcat dies, put a 2/1 black Cat creature token onto the battlefield.
 Set/Rarity:     Apocalypse Common
 
 Name:   Penumbra Kavu
 Cost:   4G
 Type:   Creature — Kavu
 Pow/Tgh:    (3/3)
-Rules Text:     When Penumbra Kavu is put into a graveyard from the battlefield, put a 3/3 black Kavu creature token onto the battlefield.
+Rules Text:     When Penumbra Kavu dies, put a 3/3 black Kavu creature token onto the battlefield.
 Set/Rarity:     Apocalypse Uncommon
 
 Name:   Penumbra Spider
@@ -1034,7 +1055,7 @@ Cost:   2GG
 Type:   Creature — Spider
 Pow/Tgh:    (2/4)
 Rules Text:     Reach (This creature can block creatures with flying.)
-When Penumbra Spider is put into a graveyard from the battlefield, put a 2/4 black Spider creature token with reach onto the battlefield.
+When Penumbra Spider dies, put a 2/4 black Spider creature token with reach onto the battlefield.
 Set/Rarity:     Magic: The Gathering-Commander Common, Time Spiral Common
 
 Name:   Penumbra Wurm
@@ -1042,7 +1063,7 @@ Cost:   5GG
 Type:   Creature — Wurm
 Pow/Tgh:    (6/6)
 Rules Text:     Trample
-When Penumbra Wurm is put into a graveyard from the battlefield, put a 6/6 black Wurm creature token with trample onto the battlefield.
+When Penumbra Wurm dies, put a 6/6 black Wurm creature token with trample onto the battlefield.
 Set/Rarity:     Apocalypse Rare
 
 Name:   People of the Woods
@@ -1067,6 +1088,14 @@ Rules Text:     Flying
 When Peregrine Drake enters the battlefield, untap up to five lands.
 Set/Rarity:     Urza's Saga Uncommon
 
+Name:   Peregrine Griffin
+Cost:   4W
+Type:   Creature — Griffin
+Pow/Tgh:    (2/4)
+Rules Text:     Flying
+First strike (This creature deals combat damage before creatures without first strike.)
+Set/Rarity:     Magic 2012 Common
+
 Name:   Peregrine Mask
 Cost:   1
 Type:   Artifact — Equipment
@@ -1086,7 +1115,7 @@ Name:   Perilous Myr
 Cost:   2
 Type:   Artifact Creature — Myr
 Pow/Tgh:    (1/1)
-Rules Text:     When Perilous Myr is put into a graveyard from the battlefield, it deals 2 damage to target creature or player.
+Rules Text:     When Perilous Myr dies, it deals 2 damage to target creature or player.
 Set/Rarity:     Scars of Mirrodin Common
 
 Name:   Perilous Research
@@ -1153,8 +1182,15 @@ Cost:   3WWW
 Type:   Creature — Avatar Incarnation
 Pow/Tgh:    (6/6)
 Rules Text:     {0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Any player may activate this ability, but only if he or she owns Personal Incarnation.
-When Personal Incarnation is put into a graveyard from the battlefield, its owner loses half his or her life, rounded up.
+When Personal Incarnation dies, its owner loses half his or her life, rounded up.
 Set/Rarity:     Masters Edition IV Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+
+Name:   Personal Sanctuary
+Cost:   2W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     During your turn, prevent all damage that would be dealt to you.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Personal Tutor
 Cost:   U
@@ -1325,6 +1361,21 @@ Rules Text:     Defender
 When Phantasmal Abomination becomes the target of a spell or ability, sacrifice it.
 Set/Rarity:     Rise of the Eldrazi Uncommon
 
+Name:   Phantasmal Bear
+Cost:   U
+Type:   Creature — Bear Illusion
+Pow/Tgh:    (2/2)
+Rules Text:     When Phantasmal Bear becomes the target of a spell or ability, sacrifice it.
+Set/Rarity:     Magic 2012 Common
+
+Name:   Phantasmal Dragon
+Cost:   2UU
+Type:   Creature — Dragon Illusion
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+When Phantasmal Dragon becomes the target of a spell or ability, sacrifice it.
+Set/Rarity:     Magic 2012 Uncommon
+
 Name:   Phantasmal Fiend
 Cost:   3B
 Type:   Creature — Illusion
@@ -1340,6 +1391,13 @@ Pow/Tgh:    (4/1)
 Rules Text:     Flying
 At the beginning of your upkeep, sacrifice Phantasmal Forces unless you pay {U}.
 Set/Rarity:     Masters Edition IV Common, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+
+Name:   Phantasmal Image
+Cost:   1U
+Type:   Creature — Illusion
+Pow/Tgh:    (0/0)
+Rules Text:     You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it's an Illusion in addition to its other types and it gains "When this creature becomes the target of a spell or ability, sacrifice it."
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Phantasmal Mount
 Cost:   1U
@@ -1627,7 +1685,7 @@ Cost:   6
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (1/1)
 Rules Text:     When Phyrexian Devourer's power is 7 or greater, sacrifice it.
-Exile the top card of your library: Put X +1/+1 counters on Phyrexian Devourer, where X is the exiled card's converted mana cost. If Phyrexian Devourer's power is 7 or greater, sacrifice it.
+Exile the top card of your library: Put X +1/+1 counters on Phyrexian Devourer, where X is the exiled card's converted mana cost.
 Set/Rarity:     Masters Edition II Uncommon, Alliances Rare
 
 Name:   Phyrexian Digester
@@ -1733,7 +1791,7 @@ Cost:   3
 Type:   Snow Artifact Creature — Construct
 Pow/Tgh:    (3/4)
 Rules Text:     Phyrexian Ironfoot doesn't untap during your untap step.
-{1}{S}i}: Untap Phyrexian Ironfoot. ({S}i} can be paid with one mana from a snow permanent.)
+{1}{S}: Untap Phyrexian Ironfoot. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Phyrexian Juggernaut
@@ -1888,7 +1946,7 @@ Cost:   6
 Type:   Snow Artifact Creature — Juggernaut
 Pow/Tgh:    (6/5)
 Rules Text:     Phyrexian Snowcrusher attacks each turn if able.
-{1}{S}i}: Phyrexian Snowcrusher gets +1/+0 until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+{1}{S}: Phyrexian Snowcrusher gets +1/+0 until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Phyrexian Soulgorger
@@ -2256,6 +2314,13 @@ Pow/Tgh:
 Rules Text:     {2}, {T}, Sacrifice Pit Trap: Destroy target attacking creature without flying. It can't be regenerated.
 Set/Rarity:     Seventh Edition Uncommon, Urza's Saga Uncommon, Ice Age Uncommon
 
+Name:   Pitchburn Devils
+Cost:   4R
+Type:   Creature — Devil
+Pow/Tgh:    (3/3)
+Rules Text:     When Pitchburn Devils dies, it deals 3 damage to target creature or player.
+Set/Rarity:     Innistrad Common
+
 Name:   Pitchstone Wall
 Cost:   2R
 Type:   Creature — Wall
@@ -2323,7 +2388,7 @@ Name:   Plague Dogs
 Cost:   4B
 Type:   Creature — Zombie Hound
 Pow/Tgh:    (3/3)
-Rules Text:     When Plague Dogs is put into a graveyard from the battlefield, all creatures get -1/-1 until end of turn.
+Rules Text:     When Plague Dogs dies, all creatures get -1/-1 until end of turn.
 {2}, Sacrifice Plague Dogs: Draw a card.
 Set/Rarity:     Urza's Destiny Uncommon
 
@@ -2361,7 +2426,7 @@ Cost:   2B
 Type:   Creature — Horror
 Pow/Tgh:    (2/2)
 Rules Text:     At the beginning of your upkeep, Plague Spitter deals 1 damage to each creature and each player.
-When Plague Spitter is put into a graveyard from the battlefield, Plague Spitter deals 1 damage to each creature and each player.
+When Plague Spitter dies, Plague Spitter deals 1 damage to each creature and each player.
 Set/Rarity:     Invasion Uncommon
 
 Name:   Plague Spores
@@ -2426,7 +2491,7 @@ Cost:
 Type:   Basic Land — Plains
 Pow/Tgh:    
 Rules Text:     W
-Set/Rarity:     Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Planar Birth
 Cost:   1W
@@ -2697,7 +2762,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target creature with flying.
-Set/Rarity:     Magic 2011 Common, Archenemy Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Archenemy Common
 
 Name:   Plunder
 Cost:   4R
@@ -2812,7 +2877,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Look at the top three cards of your library, then put them back in any order. You may shuffle your library.
 Draw a card.
-Set/Rarity:     Magic 2010 Common, Lorwyn Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common, Lorwyn Common
 
 Name:   Pongify
 Cost:   U
@@ -3231,6 +3296,13 @@ Rules Text:     Enchant creature
 Whenever enchanted creature becomes blocked, tap all lands defending player controls.
 Set/Rarity:     Mercadian Masques Uncommon
 
+Name:   Prey Upon
+Cost:   G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)
+Set/Rarity:     Innistrad Common
+
 Name:   Prey's Vengeance
 Cost:   G
 Type:   Instant
@@ -3260,12 +3332,20 @@ Pow/Tgh:    (1/1)
 Rules Text:     Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 Set/Rarity:     Morningtide Common
 
+Name:   Pride Guardian
+Cost:   W
+Type:   Creature — Cat Monk
+Pow/Tgh:    (0/3)
+Rules Text:     Defender (This creature can't attack.)
+Whenever Pride Guardian blocks, you gain 3 life.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Pride of Lions
 Cost:   3GG
 Type:   Creature — Cat
 Pow/Tgh:    (4/4)
 Rules Text:     You may have Pride of Lions assign its combat damage as though it weren't blocked.
-Set/Rarity:     Seventh Edition Uncommon, Starter 1999 Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Seventh Edition Uncommon, Starter 1999 Uncommon
 
 Name:   Pride of the Clouds
 Cost:   WU
@@ -3301,7 +3381,7 @@ Name:   Priest of Yawgmoth
 Cost:   1B
 Type:   Creature — Human Cleric
 Pow/Tgh:    (1/2)
-Rules Text:     {T}, Sacrifice an artifact: Add to your mana pool an amount of black mana equal to the sacrificed artifact's converted mana cost.
+Rules Text:     {T}, Sacrifice an artifact: Add to your mana pool an amount of {B} equal to the sacrificed artifact's converted mana cost.
 Set/Rarity:     Antiquities Common
 
 Name:   Priests of Norn
@@ -3447,7 +3527,7 @@ Type:   Creature — Giant
 Pow/Tgh:    (6/6)
 Rules Text:     Trample
 Whenever Primeval Titan enters the battlefield or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library.
-Set/Rarity:     Magic 2011 Mythic Rare
+Set/Rarity:     Magic 2012 Mythic Rare, Magic 2011 Mythic Rare
 
 Name:   Primitive Etchings
 Cost:   2GG
@@ -3471,6 +3551,15 @@ Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Legions Uncommon
+
+Name:   Primordial Hydra
+Cost:   XGG
+Type:   Creature — Hydra
+Pow/Tgh:    (0/0)
+Rules Text:     Primordial Hydra enters the battlefield with X +1/+1 counters on it.
+At the beginning of your upkeep, double the number of +1/+1 counters on Primordial Hydra.
+Primordial Hydra has trample as long as it has ten or more +1/+1 counters on it.
+Set/Rarity:     Magic 2012 Mythic Rare
 
 Name:   Primordial Ooze
 Cost:   R
@@ -3604,7 +3693,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 At the beginning of your upkeep, you may put a page counter on Private Research.
-When enchanted creature is put into a graveyard, draw a card for each page counter on Private Research.
+When enchanted creature dies, draw a card for each page counter on Private Research.
 Set/Rarity:     Urza's Destiny Uncommon
 
 Name:   Privileged Position
@@ -3658,7 +3747,7 @@ Cost:   XBB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Choose two — Target player loses X life; or return target creature card with converted mana cost X or less from your graveyard to the battlefield; or target creature gets -X/-X until end of turn; or up to X target creatures gain fear until end of turn. (They can't be blocked except by artifact creatures and/or black creatures.)
-Set/Rarity:     Planechase Rare, Lorwyn Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Planechase Rare, Lorwyn Rare
 
 Name:   Profane Prayers
 Cost:   2BB
@@ -3673,7 +3762,7 @@ Type:   Legendary Creature — Hydra Avatar
 Pow/Tgh:    (10/10)
 Rules Text:     Protection from everything
 If Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.
-Set/Rarity:     Conflux Mythic Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Conflux Mythic Rare
 
 Name:   Prohibit
 Cost:   1U
@@ -3687,7 +3776,7 @@ Name:   Promise of Bunrei
 Cost:   2W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     When a creature you control is put into a graveyard from the battlefield, sacrifice Promise of Bunrei. If you do, put four 1/1 colorless Spirit creature tokens onto the battlefield.
+Rules Text:     When a creature you control dies, sacrifice Promise of Bunrei. If you do, put four 1/1 colorless Spirit creature tokens onto the battlefield.
 Set/Rarity:     Saviors of Kamigawa Rare
 
 Name:   Promise of Power
@@ -3702,7 +3791,7 @@ Name:   Promised Kannushi
 Cost:   G
 Type:   Creature — Human Druid
 Pow/Tgh:    (1/1)
-Rules Text:     Soulshift 7 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 7 or less from your graveyard to your hand.)
+Rules Text:     Soulshift 7 (When this creature dies, you may return target Spirit card with converted mana cost 7 or less from your graveyard to your hand.)
 Set/Rarity:     Saviors of Kamigawa Common
 
 Name:   Propaganda
@@ -3716,7 +3805,7 @@ Name:   Proper Burial
 Cost:   3W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature you control is put into a graveyard from the battlefield, you gain life equal to that creature's toughness.
+Rules Text:     Whenever a creature you control dies, you gain life equal to that creature's toughness.
 Set/Rarity:     Dissension Rare
 
 Name:   Prophecy
@@ -3753,7 +3842,7 @@ Name:   Protean Hulk
 Cost:   5GG
 Type:   Creature — Beast
 Pow/Tgh:    (6/6)
-Rules Text:     When Protean Hulk is put into a graveyard from the battlefield, search your library for any number of creature cards with total converted mana cost 6 or less and put them onto the battlefield. Then shuffle your library.
+Rules Text:     When Protean Hulk dies, search your library for any number of creature cards with total converted mana cost 6 or less and put them onto the battlefield. Then shuffle your library.
 Set/Rarity:     Dissension Rare
 
 Name:   Protean Hydra
@@ -4230,7 +4319,7 @@ Cost:   UUU
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, return that card to its owner's hand. If that card is returned to its owner's hand this way, you may pay {U}{U}{U}. If you do, return Puppet Master from your graveyard to your hand.
+When enchanted creature dies, return that card to its owner's hand. If that card is returned to its owner's hand this way, you may pay {U}{U}{U}. If you do, return Puppet Master from your graveyard to your hand.
 Set/Rarity:     Chronicles Uncommon, Legends Uncommon
 
 Name:   Puppet Strings
@@ -4259,8 +4348,8 @@ Cost:   3BB
 Type:   Creature — Faerie Wizard
 Pow/Tgh:    (3/2)
 Rules Text:     Flying
-When Puppeteer Clique enters the battlefield, put target creature card from an opponent's graveyard onto the battlefield under your control. It has haste. At the beginning of your next end step, exile it.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+When Puppeteer Clique enters the battlefield, put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. At the beginning of your next end step, exile it.
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Rare
 
 Name:   Pure // Simple (Pure)
@@ -4274,8 +4363,7 @@ Name:   Pure // Simple (Simple)
 Cost:   1GW
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Destroy all Auras and Equipment.
+Rules Text:     Destroy all Auras and Equipment.
 Set/Rarity:     Dissension Uncommon
 
 Name:   Pure Intentions
@@ -4344,6 +4432,14 @@ Pow/Tgh:
 Rules Text:     Destroy all artifacts and enchantments.
 Set/Rarity:     Seventh Edition Rare, Urza's Legacy Rare
 
+Name:   Purify the Grave
+Cost:   W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Exile target card from a graveyard.
+Flashback {W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Purity
 Cost:   3WWW
 Type:   Creature — Elemental Incarnation
@@ -4375,7 +4471,7 @@ Cost:   5BB
 Type:   Creature — Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     {B}, Sacrifice Pus Kami: Destroy target nonblack creature.
-Soulshift 6 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 6 or less from your graveyard to your hand.)
+Soulshift 6 (When this creature dies, you may return target Spirit card with converted mana cost 6 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Put Away
@@ -4441,7 +4537,7 @@ Name:   Putrid Warrior
 Cost:   WB
 Type:   Creature — Zombie Soldier Warrior
 Pow/Tgh:    (2/2)
-Rules Text:     Whenever Putrid Warrior deals damage, choose one — each player loses 1 life; or each player gains 1 life.
+Rules Text:     Whenever Putrid Warrior deals damage, choose one — Each player loses 1 life; or each player gains 1 life.
 Set/Rarity:     Apocalypse Common
 
 Name:   Pygmy Allosaurus
@@ -4500,7 +4596,7 @@ Name:   Pyramids
 Cost:   6
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {2}: Choose one — Destroy target Aura attached to a land; or the next time target land would be destroyed this turn, remove all damage from it instead.
+Rules Text:     {2}: Choose one — Destroy target Aura attached to a land; or the next time target land would be destroyed this turn, remove all damage marked on it instead.
 Set/Rarity:     Arabian Nights Rare
 
 Name:   Pyre Charger

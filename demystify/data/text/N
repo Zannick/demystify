@@ -5,7 +5,7 @@ Pow/Tgh:    (5/4)
 Rules Text:     Vigilance
 {R}, {T}: Target creature can't block this turn.
 {G}, {T}: Target creature blocks this turn if able.
-Set/Rarity:     Conflux Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Conflux Uncommon
 
 Name:   Nacatl Outlander
 Cost:   RG
@@ -305,7 +305,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target artifact or enchantment.
-Set/Rarity:     Magic 2011 Common, Rise of the Eldrazi Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common
+Set/Rarity:     Innistrad Common, Magic 2012 Common, Magic 2011 Common, Rise of the Eldrazi Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common
 
 Name:   Nature's Blessing
 Cost:   2GW
@@ -416,7 +416,7 @@ Cost:   RGW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Naya Charm deals 3 damage to target creature; or return target card from a graveyard to its owner's hand; or tap all creatures target player controls.
-Set/Rarity:     Shards of Alara Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Shards of Alara Uncommon
 
 Name:   Naya Hushblade
 Cost:   (R/W)G
@@ -437,7 +437,7 @@ Name:   Naya Sojourners
 Cost:   2RGW
 Type:   Creature — Elf Shaman
 Pow/Tgh:    (5/3)
-Rules Text:     When you cycle Naya Sojourners or it's put into a graveyard from the battlefield, you may put a +1/+1 counter on target creature.
+Rules Text:     When you cycle Naya Sojourners or it dies, you may put a +1/+1 counter on target creature.
 Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)
 Set/Rarity:     Alara Reborn Common
 
@@ -561,7 +561,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Creatures you control that are enchanted get +1/+1.
-If a creature you control that's enchanted would be put into a graveyard, return it to its owner's hand instead.
+If a creature you control that's enchanted would die, return it to its owner's hand instead.
 Set/Rarity:     Guildpact Common
 
 Name:   Necromancy
@@ -585,7 +585,7 @@ Cost:   2
 Type:   Artifact Creature — Insect
 Pow/Tgh:    (1/1)
 Rules Text:     Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-When Necropede is put into a graveyard from the battlefield, you may put a -1/-1 counter on target creature.
+When Necropede dies, you may put a -1/-1 counter on target creature.
 Set/Rarity:     Scars of Mirrodin Uncommon
 
 Name:   Necroplasm
@@ -635,7 +635,7 @@ Cost:   1BB
 Type:   Creature — Elemental
 Pow/Tgh:    (1/4)
 Rules Text:     Wither (This deals damage to creatures in the form of -1/-1 counters.)
-Whenever a creature an opponent controls with a -1/-1 counter on it is put into a graveyard, you may return that card to the battlefield under your control.
+Whenever a creature an opponent controls with a -1/-1 counter on it dies, you may return that card to the battlefield under your control.
 Set/Rarity:     Eventide Rare
 
 Name:   Necrotic Ooze
@@ -651,7 +651,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature has "At the beginning of your upkeep, sacrifice this creature."
-When enchanted creature is put into a graveyard, its controller chooses target creature one of his or her opponents controls. Return Necrotic Plague from its owner's graveyard to the battlefield attached to that creature.
+When enchanted creature dies, its controller chooses target creature one of his or her opponents controls. Return Necrotic Plague from its owner's graveyard to the battlefield attached to that creature.
 Set/Rarity:     Magic 2011 Rare
 
 Name:   Necrotic Sliver
@@ -751,7 +751,7 @@ Cost:   1U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target noncreature spell.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Morningtide Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Morningtide Common
 
 Name:   Neko-Te
 Cost:   3
@@ -807,6 +807,14 @@ Type:   Creature — Leviathan Horror
 Pow/Tgh:    (3/7)
 Rules Text:     Whenever Nemesis of Reason attacks, defending player puts the top ten cards of his or her library into his or her graveyard.
 Set/Rarity:     Alara Reborn Rare
+
+Name:   Nephalia Drownyard
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{1}{U}{B}, {T}: Target player puts the top three cards of his or her library into his or her graveyard.
+Set/Rarity:     Innistrad Rare
 
 Name:   Nessian Courser
 Cost:   2G
@@ -1017,6 +1025,14 @@ When Nevermaker leaves the battlefield, put target nonland permanent on top of i
 Evoke {3}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
 Set/Rarity:     Morningtide Uncommon
 
+Name:   Nevermore
+Cost:   1WW
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     As Nevermore enters the battlefield, name a nonland card.
+The named card can't be cast.
+Set/Rarity:     Innistrad Rare
+
 Name:   Nevinyrral's Disk
 Cost:   4
 Type:   Artifact
@@ -1121,14 +1137,13 @@ Loyalty:    (5)
 Rules Text:     +3: Destroy target noncreature permanent.
 -2: Gain control of target creature.
 -9: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents.
-Set/Rarity:     Conflux Mythic Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Mythic Rare, Conflux Mythic Rare
 
 Name:   Night // Day (Day)
 Cost:   2W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Creatures target player controls get +1/+1 until end of turn.
+Rules Text:     Creatures target player controls get +1/+1 until end of turn.
 Set/Rarity:     Apocalypse Uncommon, Apocalypse Uncommon
 
 Name:   Night // Day (Night)
@@ -1146,12 +1161,26 @@ Rules Text:     Whenever a source you control deals damage to another player, pu
 {2}{B}{B}, Remove X theft counters from Night Dealings: Search your library for a nonland card with converted mana cost X, reveal it, and put it into your hand. Then shuffle your library.
 Set/Rarity:     Champions of Kamigawa Rare
 
+Name:   Night Revelers
+Cost:   4R
+Type:   Creature — Vampire
+Pow/Tgh:    (4/4)
+Rules Text:     Night Revelers has haste as long as an opponent controls a Human.
+Set/Rarity:     Innistrad Common
+
 Name:   Night Soil
 Cost:   GG
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     {1}, Exile two creature cards from a single graveyard: Put a 1/1 green Saproling creature token onto the battlefield.
 Set/Rarity:     Masters Edition II Uncommon, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+
+Name:   Night Terrors
+Cost:   2B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player reveals his or her hand. You choose a nonland card from it. Exile that card.
+Set/Rarity:     Innistrad Common
 
 Name:   Night of Souls' Betrayal
 Cost:   2BB
@@ -1167,12 +1196,29 @@ Pow/Tgh:
 Rules Text:     You draw two cards and you lose 2 life.
 Set/Rarity:     Fifth Dawn Uncommon
 
+Name:   Nightbird's Clutches
+Cost:   1R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Up to two target creatures can't block this turn.
+Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Common
+
 Name:   Nightcreep
 Cost:   BB
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Until end of turn, all creatures become black and all lands become Swamps.
 Set/Rarity:     Dissension Uncommon
+
+Name:   Nightfall Predator
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (4/4)
+Rules Text:     {R}, {T}: Nightfall Predator fights target creature. (Each deals damage equal to its power to the other.)
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Nightfall Predator.
+Set/Rarity:     Innistrad Rare
 
 Name:   Nightguard Patrol
 Cost:   2W
@@ -1243,7 +1289,7 @@ Type:   Creature — Zombie
 Pow/Tgh:    (1/1)
 Rules Text:     Blue spells and red spells you cast cost {1} less to cast.
 {1}{B}: Regenerate Nightscape Familiar.
-Set/Rarity:     Planeshift Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Planeshift Common
 
 Name:   Nightscape Master
 Cost:   2BB
@@ -1296,7 +1342,7 @@ Name:   Nightsoil Kami
 Cost:   4GG
 Type:   Creature — Spirit
 Pow/Tgh:    (6/4)
-Rules Text:     Soulshift 5 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
+Rules Text:     Soulshift 5 (When this creature dies, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
 Set/Rarity:     Saviors of Kamigawa Common
 
 Name:   Nightstalker Engine
@@ -1458,7 +1504,7 @@ Name:   Nine-Ringed Bo
 Cost:   3
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {T}: Nine-Ringed Bo deals 1 damage to target Spirit creature. If that creature would be put into a graveyard this turn, exile it instead.
+Rules Text:     {T}: Nine-Ringed Bo deals 1 damage to target Spirit creature. If that creature would die this turn, exile it instead.
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Ninja of the Deep Hours
@@ -1510,7 +1556,7 @@ Name:   Nissa's Chosen
 Cost:   GG
 Type:   Creature — Elf Warrior
 Pow/Tgh:    (2/3)
-Rules Text:     If Nissa's Chosen would be put into a graveyard from the battlefield, put it on the bottom of its owner's library instead.
+Rules Text:     If Nissa's Chosen would die, put it on the bottom of its owner's library instead.
 Set/Rarity:     Zendikar Common
 
 Name:   Niv-Mizzet, the Firemind
@@ -1588,7 +1634,7 @@ Name:   Noble Benefactor
 Cost:   2U
 Type:   Creature — Human Cleric
 Pow/Tgh:    (2/2)
-Rules Text:     When Noble Benefactor is put into a graveyard from the battlefield, each player may search his or her library for a card and put that card into his or her hand. Then each player who searched his or her library this way shuffles it.
+Rules Text:     When Noble Benefactor dies, each player may search his or her library for a card and put that card into his or her hand. Then each player who searched his or her library this way shuffles it.
 Set/Rarity:     Weatherlight Uncommon
 
 Name:   Noble Elephant
@@ -1953,7 +1999,7 @@ Name:   Noxious Toad
 Cost:   2B
 Type:   Creature — Frog
 Pow/Tgh:    (1/1)
-Rules Text:     When Noxious Toad is put into a graveyard from the battlefield, each opponent discards a card.
+Rules Text:     When Noxious Toad dies, each opponent discards a card.
 Set/Rarity:     Portal Uncommon
 
 Name:   Noxious Vapors

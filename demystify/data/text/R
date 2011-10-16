@@ -115,7 +115,7 @@ Type:   Legendary Creature — Human Knight
 Pow/Tgh:    (3/3)
 Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Whenever a creature you control attacks alone, it gains double strike until end of turn.
-Set/Rarity:     Shards of Alara Mythic Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Shards of Alara Mythic Rare
 
 Name:   Rag Dealer
 Cost:   B
@@ -143,7 +143,7 @@ Cost:   4(R/P)
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     ({(r/p)} can be paid with either {R} or 2 life.)
-Whenever you cast a spell with P in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to target creature or player.
+Whenever you cast a spell with {p} in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to target creature or player.
 Set/Rarity:     New Phyrexia Uncommon
 
 Name:   Rage Forger
@@ -168,6 +168,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures you control have double strike.
 Set/Rarity:     Shadowmoor Rare
+
+Name:   Rage Thrower
+Cost:   5R
+Type:   Creature — Human Shaman
+Pow/Tgh:    (4/2)
+Rules Text:     Whenever another creature dies, Rage Thrower deals 2 damage to target player.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Rage Weaver
 Cost:   1R
@@ -488,6 +495,13 @@ Pow/Tgh:
 Rules Text:     Whenever a creature with flying attacks you, Raking Canopy deals 4 damage to it.
 Set/Rarity:     Shadowmoor Uncommon
 
+Name:   Rakish Heir
+Cost:   2R
+Type:   Creature — Vampire
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever a Vampire you control deals combat damage to a player, put a +1/+1 counter on it.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Rakka Mar
 Cost:   2RR
 Type:   Legendary Creature — Human Shaman
@@ -522,8 +536,16 @@ Name:   Rally the Horde
 Cost:   5R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Exile the top three cards of your library. If the last card exiled isn't a land, repeat this process until the last card exiled is a land. Put a 1/1 red Warrior creature token onto the battlefield for each nonland card exiled this way.
+Rules Text:     Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land, repeat this process. Put a 1/1 red Warrior creature token onto the battlefield for each nonland card exiled this way.
 Set/Rarity:     Saviors of Kamigawa Rare
+
+Name:   Rally the Peasants
+Cost:   2W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures you control get +2/+0 until end of turn.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Rally the Righteous
 Cost:   1RW
@@ -608,6 +630,14 @@ Rules Text:     Trample
 Landfall — Whenever a land enters the battlefield under your control, you may put a 4/4 green Beast creature token onto the battlefield.
 Set/Rarity:     Zendikar Mythic Rare
 
+Name:   Rampaging Werewolf
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (6/4)
+Rules Text:     At the beginning of each upkeep, if a player cast two or more spells last turn, transform Rampaging Werewolf.
+Set/Rarity:     Innistrad Common
+
 Name:   Rampant Elephant
 Cost:   3W
 Type:   Creature — Elephant
@@ -620,7 +650,7 @@ Cost:   1G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Planechase Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Classic Sixth Edition Common, Tempest Common, Mirage Common
+Set/Rarity:     Magic 2012 Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Classic Sixth Edition Common, Tempest Common, Mirage Common
 
 Name:   Rampart Crawler
 Cost:   B
@@ -667,6 +697,13 @@ Type:   Creature — Human Soldier
 Pow/Tgh:    (3/2)
 Rules Text:     When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with converted mana cost 1 or less, reveal them, and put them into your hand. If you do, shuffle your library.
 Set/Rarity:     Shards of Alara Rare
+
+Name:   Ranger's Guile
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you control gets +1/+1 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+Set/Rarity:     Innistrad Common
 
 Name:   Rank and File
 Cost:   2BB
@@ -726,7 +763,7 @@ Cost:   3WW
 Type:   Legendary Creature — Human Archer
 Pow/Tgh:    (3/3)
 Rules Text:     Reach (This creature can block creatures with flying.)
-Whenever Rashka blocks one or more black creatures, Rashka gets +1/+2 until end of turn.
+Whenever Rashka the Slayer blocks one or more black creatures, Rashka gets +1/+2 until end of turn.
 Set/Rarity:     Homelands Uncommon
 
 Name:   Rasputin Dreamweaver
@@ -822,7 +859,7 @@ Name:   Rattleblaze Scarecrow
 Cost:   6
 Type:   Artifact Creature — Scarecrow
 Pow/Tgh:    (5/3)
-Rules Text:     Rattleblaze Scarecrow has persist as long as you control a black creature. (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Rules Text:     Rattleblaze Scarecrow has persist as long as you control a black creature. (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Rattleblaze Scarecrow has haste as long as you control a red creature.
 Set/Rarity:     Shadowmoor Common
 
@@ -1263,6 +1300,14 @@ Other Scarecrow creatures you control get +1/+1.
 Whenever another Scarecrow enters the battlefield under your control, destroy target permanent.
 Set/Rarity:     Shadowmoor Rare
 
+Name:   Reaper from the Abyss
+Cost:   3BBB
+Type:   Creature — Demon
+Pow/Tgh:    (6/6)
+Rules Text:     Flying
+Morbid — At the beginning of each end step, if a creature died this turn, destroy target non-Demon creature.
+Set/Rarity:     Innistrad Mythic Rare
+
 Name:   Reaper of Sheoldred
 Cost:   4B
 Type:   Creature — Horror
@@ -1292,7 +1337,7 @@ Cost:   1B
 Type:   Creature — Skeleton Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
-Set/Rarity:     Magic 2011 Uncommon, Archenemy Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Archenemy Uncommon
 
 Name:   Rebel Informer
 Cost:   2B
@@ -1323,7 +1368,7 @@ Cost:   2W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     Vigilance
-Threshold — As long as seven or more cards are in your graveyard, Reborn Hero has "When Reborn Hero is put into a graveyard from the battlefield, you may pay {W}{W}. If you do, return Reborn Hero to the battlefield under your control."
+Threshold — As long as seven or more cards are in your graveyard, Reborn Hero has "When Reborn Hero dies, you may pay {W}{W}. If you do, return Reborn Hero to the battlefield under your control."
 Set/Rarity:     Torment Rare
 
 Name:   Reborn Hope
@@ -1354,6 +1399,13 @@ Pow/Tgh:
 Rules Text:     Return all artifacts to their owners' hands.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Urza's Legacy Uncommon
+
+Name:   Rebuke
+Cost:   2W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target attacking creature.
+Set/Rarity:     Innistrad Common
 
 Name:   Rebuking Ceremony
 Cost:   3GG
@@ -1443,6 +1495,13 @@ Pow/Tgh:
 Rules Text:     Destroy two target nonblack creatures. You lose 5 life.
 Set/Rarity:     Invasion Uncommon, Tempest Uncommon
 
+Name:   Reckless Waif
+Cost:   R
+Type:   Creature — Human Rogue Werewolf
+Pow/Tgh:    (1/1)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Reckless Waif.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Reckless Wurm
 Cost:   3RR
 Type:   Creature — Wurm
@@ -1456,7 +1515,7 @@ Cost:   G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Put target card from your graveyard on top of your library.
-Set/Rarity:     Ninth Edition Common, Seventh Edition Common, Exodus Common
+Set/Rarity:     Magic 2012 Common, Ninth Edition Common, Seventh Edition Common, Exodus Common
 
 Name:   Reclamation
 Cost:   2GW
@@ -1477,7 +1536,7 @@ Cost:   1UB
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return target permanent to its owner's hand. Then that player discards a card.
-Set/Rarity:     Invasion Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Invasion Common
 
 Name:   Recollect
 Cost:   2G
@@ -1530,7 +1589,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block.
 At the beginning of your upkeep, you may gain 1 life.
-Set/Rarity:     Eventide Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Eventide Common
 
 Name:   Recuperate
 Cost:   3W
@@ -1599,7 +1658,7 @@ Name:   Red Sun's Zenith
 Cost:   XR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Red Sun's Zenith deals X damage to target creature or player. If a creature dealt damage this way would be put into a graveyard this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.
+Rules Text:     Red Sun's Zenith deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.
 Set/Rarity:     Mirrodin Besieged Rare
 
 Name:   Red Ward
@@ -1629,7 +1688,7 @@ Cost:   UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     You may choose new targets for target spell.
-Set/Rarity:     Magic 2011 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare
 
 Name:   Reduce to Dreams
 Cost:   3UU
@@ -1774,14 +1833,14 @@ Name:   Reign of Terror
 Cost:   3BB
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy all green creatures or all white creatures. They can't be regenerated. You lose 2 life for each creature put into a graveyard this way.
+Rules Text:     Destroy all green creatures or all white creatures. They can't be regenerated. You lose 2 life for each creature that died this way.
 Set/Rarity:     Mirage Uncommon
 
 Name:   Reincarnation
 Cost:   1GG
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Choose target creature. When that creature is put into a graveyard this turn, return a creature card from that graveyard to the battlefield under the control of that creature's owner.
+Rules Text:     Choose target creature. When that creature dies this turn, return a creature card from that graveyard to the battlefield under the control of that creature's owner.
 Set/Rarity:     Masters Edition III Uncommon, Legends Uncommon
 
 Name:   Reinforced Bulwark
@@ -1812,7 +1871,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature gets +2/+2.
-When enchanted creature is put into a graveyard, you may return Reins of the Vinesteed from your graveyard to the battlefield attached to a creature that shares a creature type with that creature.
+When enchanted creature dies, you may return Reins of the Vinesteed from your graveyard to the battlefield attached to a creature that shares a creature type with that creature.
 Set/Rarity:     Morningtide Common
 
 Name:   Reiterate
@@ -1964,7 +2023,7 @@ Name:   Reliquary Monk
 Cost:   2W
 Type:   Creature — Human Monk Cleric
 Pow/Tgh:    (2/2)
-Rules Text:     When Reliquary Monk is put into a graveyard from the battlefield, destroy target artifact or enchantment.
+Rules Text:     When Reliquary Monk dies, destroy target artifact or enchantment.
 Set/Rarity:     Urza's Destiny Common
 
 Name:   Reliquary Tower
@@ -2001,7 +2060,7 @@ Name:   Remembrance
 Cost:   3W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a nontoken creature you control is put into a graveyard from the battlefield, you may search your library for a card with the same name as that creature, reveal it, and put it into your hand. If you do, shuffle your library.
+Rules Text:     Whenever a nontoken creature you control dies, you may search your library for a card with the same name as that creature, reveal it, and put it into your hand. If you do, shuffle your library.
 Set/Rarity:     Urza's Saga Rare
 
 Name:   Reminisce
@@ -2069,7 +2128,7 @@ Cost:   2(B/G)
 Type:   Creature — Troll
 Pow/Tgh:    (2/2)
 Rules Text:     Wither (This deals damage to creatures in the form of -1/-1 counters.)
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Common
 
 Name:   Rending Vines
@@ -2204,7 +2263,7 @@ Cost:   3BB
 Type:   Creature — Vampire
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-Whenever a creature dealt damage by Repentant Vampire this turn is put into a graveyard, put a +1/+1 counter on Repentant Vampire.
+Whenever a creature dealt damage by Repentant Vampire this turn dies, put a +1/+1 counter on Repentant Vampire.
 Threshold — As long as seven or more cards are in your graveyard, Repentant Vampire is white and has "{T}: Destroy target black creature."
 Set/Rarity:     Odyssey Rare
 
@@ -2279,8 +2338,7 @@ Name:   Research // Development (Development)
 Cost:   3UR
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Put a 3/1 red Elemental creature token onto the battlefield unless any opponent has you draw a card. Repeat this process two more times.
+Rules Text:     Put a 3/1 red Elemental creature token onto the battlefield unless any opponent has you draw a card. Repeat this process two more times.
 Set/Rarity:     Dissension Rare
 
 Name:   Research // Development (Research)
@@ -2408,7 +2466,7 @@ Cost:   (W/B)(W/B)(W/B)
 Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     {(w/b)}{(w/b)}{(w/b)}: Restless Apparition gets +3/+3 until end of turn.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Uncommon
 
 Name:   Restless Bones
@@ -2443,10 +2501,10 @@ Set/Rarity:     Invasion Rare
 
 Name:   Restore Balance
 Cost:   
+Color:  White
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Restore Balance is white.
-Suspend 6—{W} (Rather than cast this card from your hand, pay {W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Rules Text:     Suspend 6—{W} (Rather than cast this card from your hand, pay {W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice creatures and discard cards the same way.
 Set/Rarity:     Time Spiral Rare
 
@@ -2623,7 +2681,7 @@ Cost:   RR
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Copy target instant or sorcery spell. You may choose new targets for the copy.
-Set/Rarity:     Premium Deck Series: Fire and Lightning Rare, Magic 2011 Rare
+Set/Rarity:     Magic 2012 Rare, Premium Deck Series: Fire and Lightning Rare, Magic 2011 Rare
 
 Name:   Reverberation
 Cost:   2UU
@@ -3136,14 +3194,14 @@ Cost:   1B
 Type:   Snow Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature gets +2/+1 and has "{S}i}: This creature can't be blocked this turn except by snow creatures." ({S}i} can be paid with one mana from a snow permanent.)
+Enchanted creature gets +2/+1 and has "{S}: This creature can't be blocked this turn except by snow creatures." ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Rimebound Dead
 Cost:   B
 Type:   Snow Creature — Skeleton
 Pow/Tgh:    (1/1)
-Rules Text:     {S}i}: Regenerate Rimebound Dead. ({S}i} can be paid with one mana from a snow permanent.)
+Rules Text:     {S}: Regenerate Rimebound Dead. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Common
 
 Name:   Rimefeather Owl
@@ -3152,7 +3210,7 @@ Type:   Snow Creature — Bird
 Pow/Tgh:    (*/*)
 Rules Text:     Flying
 Rimefeather Owl's power and toughness are each equal to the number of snow permanents on the battlefield.
-{1}{S}i}: Put an ice counter on target permanent.
+{1}{S}: Put an ice counter on target permanent.
 Permanents with ice counters on them are snow.
 Set/Rarity:     Coldsnap Rare
 
@@ -3162,7 +3220,7 @@ Type:   Snow Creature — Aurochs
 Pow/Tgh:    (3/3)
 Rules Text:     Trample
 Whenever Rimehorn Aurochs attacks, it gets +1/+0 until end of turn for each other attacking Aurochs.
-{2}{S}i}: Target creature blocks target creature this turn if able. ({S}i} can be paid with one mana from a snow permanent.)
+{2}{S}: Target creature blocks target creature this turn if able. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Rimescale Dragon
@@ -3170,7 +3228,7 @@ Cost:   5RR
 Type:   Snow Creature — Dragon
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-{2}{S}i}: Tap target creature and put an ice counter on it. ({S}i} can be paid with one mana from a snow permanent.)
+{2}{S}: Tap target creature and put an ice counter on it. ({S} can be paid with one mana from a snow permanent.)
 Creatures with ice counters on them don't untap during their controllers' untap steps.
 Set/Rarity:     Coldsnap Rare
 
@@ -3229,8 +3287,15 @@ Cost:   1U
 Type:   Creature — Faerie Wizard
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
-When Ringskipper is put into a graveyard from the battlefield, clash with an opponent. If you win, return Ringskipper to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+When Ringskipper dies, clash with an opponent. If you win, return Ringskipper to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 Set/Rarity:     Lorwyn Common
+
+Name:   Riot Devils
+Cost:   2R
+Type:   Creature — Devil
+Pow/Tgh:    (2/3)
+Rules Text:     
+Set/Rarity:     Innistrad Common
 
 Name:   Riot Spikes
 Cost:   (B/R)
@@ -3275,7 +3340,7 @@ Cost:   1WU
 Type:   Creature — Crab
 Pow/Tgh:    (1/3)
 Rules Text:     Vigilance
-When Riptide Crab is put into a graveyard from the battlefield, draw a card.
+When Riptide Crab dies, draw a card.
 Set/Rarity:     Invasion Uncommon
 
 Name:   Riptide Director
@@ -3344,22 +3409,21 @@ Name:   Rise // Fall (Fall)
 Cost:   BR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way.
-Set/Rarity:     Dissension Uncommon
+Rules Text:     Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way.
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Dissension Uncommon
 
 Name:   Rise // Fall (Rise)
 Cost:   UB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return target creature card from a graveyard and target creature on the battlefield to their owners' hands.
-Set/Rarity:     Dissension Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Dissension Uncommon
 
 Name:   Rise from the Grave
 Cost:   4B
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Put target creature card in a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types.
+Rules Text:     Put target creature card from a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Magic 2011 Uncommon, Duel Decks: Garruk vs. Liliana Uncommon, Magic 2010 Uncommon
 
 Name:   Rise of the Hobgoblins
@@ -3462,7 +3526,7 @@ Cost:   2UU
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Kicker {5} (You may pay an additional {5} as you cast this spell.)
-Put a token onto the battlefield that's a copy of target creature. If Rite of Replication was kicked, put five of those tokens onto the battlefield instead.
+Put a token that's a copy of target creature onto the battlefield. If Rite of Replication was kicked, put five of those tokens onto the battlefield instead.
 Set/Rarity:     Zendikar Rare
 
 Name:   Rites of Flourishing
@@ -3471,7 +3535,7 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of each player's draw step, that player draws an additional card.
 Each player may play an additional land on each of his or her turns.
-Set/Rarity:     Future Sight Rare
+Set/Rarity:     Magic 2012 Rare, Future Sight Rare
 
 Name:   Rites of Initiation
 Cost:   R
@@ -3567,7 +3631,7 @@ Name:   Rivals' Duel
 Cost:   3R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Choose two target creatures that share no creature types. Each of those creatures deals damage equal to its power to the other.
+Rules Text:     Choose two target creatures that share no creature types. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Morningtide Uncommon
 
 Name:   Riven Turnbull
@@ -3614,7 +3678,7 @@ Type:   Creature — Beast
 Pow/Tgh:    (3/3)
 Rules Text:     Whenever River Kelpie or another permanent is put onto the battlefield from a graveyard, draw a card.
 Whenever a player casts a spell from a graveyard, draw a card.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Rare
 
 Name:   River Merfolk
@@ -3719,8 +3783,8 @@ Cost:   2W
 Type:   Creature — Bird
 Pow/Tgh:    (0/3)
 Rules Text:     Defender (This creature can't attack.)
-When Roc Egg is put into a graveyard from the battlefield, put a 3/3 white Bird creature token with flying onto the battlefield.
-Set/Rarity:     Magic 2011 Uncommon
+When Roc Egg dies, put a 3/3 white Bird creature token with flying onto the battlefield.
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon
 
 Name:   Roc Hatchling
 Cost:   R
@@ -3811,7 +3875,7 @@ Cost:   2R
 Type:   Creature — Elemental
 Pow/Tgh:    (1/1)
 Rules Text:     First strike
-Whenever another creature is put into a graveyard from the battlefield, you may put a +1/+1 counter on Rockslide Elemental.
+Whenever another creature dies, you may put a +1/+1 counter on Rockslide Elemental.
 Set/Rarity:     Planechase Uncommon, Shards of Alara Uncommon
 
 Name:   Rocky Tar Pit
@@ -3918,6 +3982,14 @@ Pow/Tgh:
 Rules Text:     Wall creatures can attack as though they didn't have defender.
 Set/Rarity:     Eighth Edition Rare, Seventh Edition Rare, Stronghold Rare
 
+Name:   Rolling Temblor
+Cost:   2R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Rolling Temblor deals 2 damage to each creature without flying.
+Flashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Rolling Thunder
 Cost:   XRR
 Type:   Sorcery
@@ -3987,6 +4059,13 @@ Pow/Tgh:    (2/1)
 Rules Text:     {1}{U}: Roofstalker Wight gains flying until end of turn.
 Set/Rarity:     Ravnica: City of Guilds Common
 
+Name:   Rooftop Storm
+Cost:   5U
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     You may pay {0} rather than pay the mana cost for Zombie creature spells you cast.
+Set/Rarity:     Innistrad Rare
+
 Name:   Root Cage
 Cost:   1G
 Type:   Enchantment
@@ -4045,7 +4124,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
 {T}: Add {R} or {G} to your mana pool.
-Set/Rarity:     Magic 2011 Rare, Premium Deck Series: Slivers Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Premium Deck Series: Slivers Rare, Magic 2010 Rare
 
 Name:   Rootbreaker Wurm
 Cost:   5GG
@@ -4065,7 +4144,7 @@ Name:   Rooting Kavu
 Cost:   2GG
 Type:   Creature — Kavu
 Pow/Tgh:    (4/3)
-Rules Text:     When Rooting Kavu is put into a graveyard from the battlefield, you may exile it. If you do, shuffle all creature cards from your graveyard into your library.
+Rules Text:     When Rooting Kavu dies, you may exile it. If you do, shuffle all creature cards from your graveyard into your library.
 Set/Rarity:     Invasion Uncommon
 
 Name:   Rootrunner
@@ -4073,7 +4152,7 @@ Cost:   2GG
 Type:   Creature — Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     {G}{G}, Sacrifice Rootrunner: Put target land on top of its owner's library.
-Soulshift 3 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
+Soulshift 3 (When this creature dies, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Roots
@@ -4184,7 +4263,7 @@ Cost:   2G
 Type:   Creature — Wolf
 Pow/Tgh:    (2/2)
 Rules Text:     Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-Whenever a creature dealt damage by Rot Wolf this turn is put into a graveyard, you may draw a card.
+Whenever a creature dealt damage by Rot Wolf this turn dies, you may draw a card.
 Set/Rarity:     Mirrodin Besieged Common
 
 Name:   Roterothopter
@@ -4199,7 +4278,7 @@ Name:   Rotlung Reanimator
 Cost:   2B
 Type:   Creature — Zombie Cleric
 Pow/Tgh:    (2/2)
-Rules Text:     Whenever Rotlung Reanimator or another Cleric is put into a graveyard from the battlefield, put a 2/2 black Zombie creature token onto the battlefield.
+Rules Text:     Whenever Rotlung Reanimator or another Cleric dies, put a 2/2 black Zombie creature token onto the battlefield.
 Set/Rarity:     Onslaught Rare
 
 Name:   Rotted Hystrix
@@ -4208,6 +4287,13 @@ Type:   Creature — Beast
 Pow/Tgh:    (3/6)
 Rules Text:     
 Set/Rarity:     New Phyrexia Common
+
+Name:   Rotting Fensnake
+Cost:   3B
+Type:   Creature — Zombie Snake
+Pow/Tgh:    (5/1)
+Rules Text:     
+Set/Rarity:     Innistrad Common
 
 Name:   Rotting Giant
 Cost:   1B
@@ -4242,8 +4328,7 @@ Name:   Rough // Tumble (Tumble)
 Cost:   5R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Tumble deals 6 damage to each creature with flying.
+Rules Text:     Tumble deals 6 damage to each creature with flying.
 Set/Rarity:     Planar Chaos Uncommon
 
 Name:   Roughshod Mentor
@@ -4289,7 +4374,7 @@ Cost:   1BB
 Type:   Creature — Human Assassin
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Destroy target tapped creature.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
 Name:   Royal Decree
 Cost:   2WW
@@ -4409,7 +4494,7 @@ Name:   Rukh Egg
 Cost:   3R
 Type:   Creature — Bird
 Pow/Tgh:    (0/3)
-Rules Text:     When Rukh Egg is put into a graveyard from the battlefield, put a 4/4 red Bird creature token with flying onto the battlefield at the beginning of the next end step.
+Rules Text:     When Rukh Egg dies, put a 4/4 red Bird creature token with flying onto the battlefield at the beginning of the next end step.
 Set/Rarity:     Ninth Edition Rare, Eighth Edition Rare, Arabian Nights Common, Arabian Nights Common
 
 Name:   Rule of Law
@@ -4526,6 +4611,14 @@ Rules Text:     Flying
 {(g/w)}{(g/w)}: Rune-Cervin Rider gets +1/+1 until end of turn.
 Set/Rarity:     Shadowmoor Common
 
+Name:   Rune-Scarred Demon
+Cost:   5BB
+Type:   Creature — Demon
+Pow/Tgh:    (6/6)
+Rules Text:     Flying
+When Rune-Scarred Demon enters the battlefield, search your library for a card, put it into your hand, then shuffle your library.
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Rune-Tail, Kitsune Ascendant
 Cost:   2W
 Type:   Legendary Creature — Fox Monk
@@ -4548,12 +4641,20 @@ Rules Text:     Counter target spell unless its controller pays {1}.
 Draw a card.
 Set/Rarity:     Guildpact Common
 
+Name:   Runechanter's Pike
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has first strike and gets +X/+0, where X is the number of instant and sorcery cards in your graveyard.
+Equip {2}
+Set/Rarity:     Innistrad Rare
+
 Name:   Runeclaw Bear
 Cost:   1G
 Type:   Creature — Bear
 Pow/Tgh:    (2/2)
 Rules Text:     
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Runed Arch
 Cost:   3
@@ -4575,7 +4676,7 @@ Name:   Runed Servitor
 Cost:   2
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (2/2)
-Rules Text:     When Runed Servitor is put into a graveyard from the battlefield, each player draws a card.
+Rules Text:     When Runed Servitor dies, each player draws a card.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Uncommon, Rise of the Eldrazi Uncommon
 
 Name:   Runed Stalactite
@@ -4607,8 +4708,15 @@ Name:   Runesword
 Cost:   6
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {3}, {T}: Target attacking creature gets +2/+0 until end of turn. When that creature leaves the battlefield this turn, sacrifice Runesword. If the creature deals damage to a creature this turn, the creature dealt damage can't be regenerated this turn. If a creature dealt damage by the targeted creature would be put into a graveyard this turn, exile that creature instead.
+Rules Text:     {3}, {T}: Target attacking creature gets +2/+0 until end of turn. When that creature leaves the battlefield this turn, sacrifice Runesword. If the creature deals damage to a creature this turn, the creature dealt damage can't be regenerated this turn. If a creature dealt damage by the targeted creature would die this turn, exile that creature instead.
 Set/Rarity:     Chronicles Common, The Dark Uncommon
+
+Name:   Runic Repetition
+Cost:   2U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target exiled card with flashback you own to your hand.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Rupture
 Cost:   2R
@@ -4624,7 +4732,7 @@ Pow/Tgh:
 Rules Text:     Rupture Spire enters the battlefield tapped.
 When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Premium Deck Series: Slivers Common, Conflux Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Premium Deck Series: Slivers Common, Conflux Common
 
 Name:   Rush of Knowledge
 Cost:   4U
@@ -4645,7 +4753,7 @@ Name:   Rushing-Tide Zubera
 Cost:   2UU
 Type:   Creature — Zubera Spirit
 Pow/Tgh:    (3/3)
-Rules Text:     When Rushing-Tide Zubera is put into a graveyard from the battlefield, if 4 or more damage was dealt to it this turn, draw three cards.
+Rules Text:     When Rushing-Tide Zubera dies, if 4 or more damage was dealt to it this turn, draw three cards.
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
 Name:   Rushwood Dryad
@@ -4715,6 +4823,13 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Metalcraft — Rusted Relic is a 5/5 Golem artifact creature as long as you control three or more artifacts.
 Set/Rarity:     Scars of Mirrodin Uncommon
+
+Name:   Rusted Sentinel
+Cost:   4
+Type:   Artifact Creature — Golem
+Pow/Tgh:    (3/4)
+Rules Text:     Rusted Sentinel enters the battlefield tapped.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Rusted Slasher
 Cost:   4
@@ -4789,5 +4904,5 @@ Cost:   5R
 Type:   Legendary Creature — Dragon Spirit
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Ryusei, the Falling Star is put into a graveyard from the battlefield, it deals 5 damage to each creature without flying.
+When Ryusei, the Falling Star dies, it deals 5 damage to each creature without flying.
 Set/Rarity:     Archenemy Rare, Champions of Kamigawa Rare, Promo set for Gatherer Rare

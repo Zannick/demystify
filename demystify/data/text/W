@@ -93,6 +93,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     {T}: You may put a land card from your hand onto the battlefield.
 Set/Rarity:     Worldwake Common
 
+Name:   Walking Corpse
+Cost:   1B
+Type:   Creature — Zombie
+Pow/Tgh:    (2/2)
+Rules Text:     
+Set/Rarity:     Innistrad Common
+
 Name:   Walking Dead
 Cost:   1B
 Type:   Creature — Zombie
@@ -208,7 +215,7 @@ Cost:   1R
 Type:   Creature — Wall
 Pow/Tgh:    (0/5)
 Rules Text:     Defender (This creature can't attack.)
-Wall of Diffusion can block creatures with shadow as though they didn't have shadow.
+Wall of Diffusion can block creatures with shadow as though Wall of Diffusion had shadow.
 Set/Rarity:     Tempest Common
 
 Name:   Wall of Distortion
@@ -496,6 +503,13 @@ Pow/Tgh:    (0/1)
 Rules Text:     Defender (This creature can't attack.)
 At the beginning of your upkeep, Wall of Tombstones's toughness becomes 1 plus the number of creature cards in your graveyard. (This effect lasts indefinitely.)
 Set/Rarity:     Legends Uncommon
+
+Name:   Wall of Torches
+Cost:   1R
+Type:   Creature — Wall
+Pow/Tgh:    (4/1)
+Rules Text:     Defender (This creature can't attack.)
+Set/Rarity:     Magic 2012 Common
 
 Name:   Wall of Vapor
 Cost:   3U
@@ -879,7 +893,7 @@ Cost:   2B
 Type:   Creature — Zombie
 Pow/Tgh:    (3/2)
 Rules Text:     
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common
 
 Name:   Warped Devotion
 Cost:   2B
@@ -976,6 +990,13 @@ Pow/Tgh:
 Rules Text:     Cast Warrior's Stand only during the declare attackers step and only if you've been attacked this step.
 Creatures you control get +2/+2 until end of turn.
 Set/Rarity:     Portal Three Kingdoms Uncommon, Portal Second Age Uncommon
+
+Name:   Warstorm Surge
+Cost:   5R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature enters the battlefield under your control, it deals damage equal to its power to target creature or player.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Warthog
 Cost:   1GG
@@ -1163,8 +1184,7 @@ Name:   Wax // Wane (Wane)
 Cost:   W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Destroy target enchantment.
+Rules Text:     Destroy target enchantment.
 Set/Rarity:     Archenemy Uncommon, Invasion Uncommon, Invasion Uncommon
 
 Name:   Wax // Wane (Wax)
@@ -1286,7 +1306,7 @@ Cost:   2GGG
 Type:   Creature — Treefolk
 Pow/Tgh:    (5/3)
 Rules Text:     Trample
-When Weatherseed Treefolk is put into a graveyard from the battlefield, return Weatherseed Treefolk to its owner's hand.
+When Weatherseed Treefolk dies, return it to its owner's hand.
 Set/Rarity:     Urza's Legacy Rare
 
 Name:   Weaver of Lies
@@ -1434,7 +1454,7 @@ Cost:   1W
 Type:   Creature — Bird
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
-When Welkin Hawk is put into a graveyard from the battlefield, you may search your library for a card named Welkin Hawk, reveal that card, put it into your hand, then shuffle your library.
+When Welkin Hawk dies, you may search your library for a card named Welkin Hawk, reveal that card, put it into your hand, then shuffle your library.
 Set/Rarity:     Exodus Common
 
 Name:   Welkin Tern
@@ -1530,16 +1550,15 @@ Cost:   3U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Any number of target opponents each discards his or her hand and draws seven cards.
-
 Draw a card.
 Set/Rarity:     Onslaught Rare
 
 Name:   Wheel of Fate
 Cost:   
+Color:  Red
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Wheel of Fate is red.
-Suspend 4—{1}{R} (Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Rules Text:     Suspend 4—{1}{R} (Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Each player discards his or her hand, then draws seven cards.
 Set/Rarity:     Time Spiral Rare
 
@@ -1676,7 +1695,7 @@ Name:   Whippoorwill
 Cost:   G
 Type:   Creature — Bird
 Pow/Tgh:    (1/1)
-Rules Text:     {G}{G}, {T}: Target creature can't be regenerated this turn. Damage that would be dealt to that creature this turn can't be prevented or dealt instead to another creature or player. When the creature is put into a graveyard this turn, exile the creature.
+Rules Text:     {G}{G}, {T}: Target creature can't be regenerated this turn. Damage that would be dealt to that creature this turn can't be prevented or dealt instead to another creature or player. When the creature dies this turn, exile the creature.
 Set/Rarity:     The Dark Uncommon
 
 Name:   Whipstitched Zombie
@@ -1728,7 +1747,7 @@ Type:   Creature — Drake
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
 When Whirlpool Drake enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.
-When Whirlpool Drake is put into a graveyard from the battlefield, shuffle the cards from your hand into your library, then draw that many cards.
+When Whirlpool Drake dies, shuffle the cards from your hand into your library, then draw that many cards.
 Set/Rarity:     Apocalypse Uncommon
 
 Name:   Whirlpool Rider
@@ -2020,7 +2039,7 @@ Type:   Creature — Cat Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     Wild Nacatl gets +1/+1 as long as you control a Mountain.
 Wild Nacatl gets +1/+1 as long as you control a Plains.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Shards of Alara Common
 
 Name:   Wild Ox
 Cost:   3G
@@ -2064,6 +2083,16 @@ Type:   Creature — Wurm
 Pow/Tgh:    (5/4)
 Rules Text:     When Wild Wurm enters the battlefield, flip a coin. If you lose the flip, return Wild Wurm to its owner's hand.
 Set/Rarity:     Tempest Uncommon
+
+Name:   Wildblood Pack
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (5/5)
+Rules Text:     Trample
+Attacking creatures you control get +3/+0.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Wildblood Pack.
+Set/Rarity:     Innistrad Rare
 
 Name:   Wilderness Elemental
 Cost:   1RG
@@ -2239,7 +2268,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land
 Enchanted land is a 2/2 blue Elemental creature with flying. It's still a land.
-When enchanted land is put into a graveyard, return that card to its owner's hand.
+When enchanted land dies, return that card to its owner's hand.
 Set/Rarity:     Worldwake Common
 
 Name:   Windborn Muse
@@ -2447,7 +2476,7 @@ Cost:   3
 Type:   Artifact Creature — Scarecrow
 Pow/Tgh:    (2/2)
 Rules Text:     Wingrattle Scarecrow has flying as long as you control a blue creature.
-Wingrattle Scarecrow has persist as long as you control a black creature. (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Wingrattle Scarecrow has persist as long as you control a black creature. (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Common
 
 Name:   Wings of Aesthir
@@ -2597,7 +2626,7 @@ Name:   Wirewood Herald
 Cost:   1G
 Type:   Creature — Elf
 Pow/Tgh:    (1/1)
-Rules Text:     When Wirewood Herald is put into a graveyard from the battlefield, you may search your library for an Elf card, reveal that card, put it into your hand, then shuffle your library.
+Rules Text:     When Wirewood Herald dies, you may search your library for an Elf card, reveal that card, put it into your hand, then shuffle your library.
 Set/Rarity:     Duel Decks: Elves vs. Goblins Common, Onslaught Common
 
 Name:   Wirewood Hivemaster
@@ -2703,6 +2732,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     Whenever you cast a spell, you may put two +1/+1 counters on Witch-Maw Nephilim.
 Whenever Witch-Maw Nephilim attacks, it gains trample until end of turn if its power is 10 or greater.
 Set/Rarity:     Guildpact Rare
+
+Name:   Witchbane Orb
+Cost:   4
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     When Witchbane Orb enters the battlefield, destroy all Curses attached to you.
+You have hexproof. (You can't be the target of spells or abilities your opponents control, including Aura spells.)
+Set/Rarity:     Innistrad Rare
 
 Name:   Withdraw
 Cost:   UU
@@ -2947,14 +2984,31 @@ Pow/Tgh:
 Rules Text:     Whenever a player casts a green spell, you may pay {1}. If you do, you gain 1 life.
 Set/Rarity:     Eighth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
+Name:   Wooden Stake
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +1/+0.
+Whenever equipped creature blocks or becomes blocked by a Vampire, destroy that creature. It can't be regenerated.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Innistrad Common
+
 Name:   Woodfall Primus
 Cost:   5GGG
 Type:   Creature — Treefolk Shaman
 Pow/Tgh:    (6/6)
 Rules Text:     Trample
 When Woodfall Primus enters the battlefield, destroy target noncreature permanent.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Rare
+
+Name:   Woodland Cemetery
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Woodland Cemetery enters the battlefield tapped unless you control a Swamp or a Forest.
+{T}: Add {B} or {G} to your mana pool.
+Set/Rarity:     Innistrad Rare
 
 Name:   Woodland Changeling
 Cost:   1G
@@ -2977,6 +3031,13 @@ Pow/Tgh:
 Rules Text:     Return target card from your graveyard to your hand. Clash with an opponent. If you win, untap all Forests you control. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 Exile Woodland Guidance.
 Set/Rarity:     Lorwyn Uncommon
+
+Name:   Woodland Sleuth
+Cost:   3G
+Type:   Creature — Human Scout
+Pow/Tgh:    (2/3)
+Rules Text:     Morbid — When Woodland Sleuth enters the battlefield, if a creature died this turn, return a creature card at random from your graveyard to your hand.
+Set/Rarity:     Innistrad Common
 
 Name:   Woodlurker Mimic
 Cost:   1(B/G)
@@ -3036,7 +3097,7 @@ Cost:   RGW
 Type:   Creature — Beast
 Pow/Tgh:    (5/4)
 Rules Text:     
-Set/Rarity:     Shards of Alara Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Shards of Alara Uncommon
 
 Name:   Word of Binding
 Cost:   XBB
@@ -3182,8 +3243,8 @@ Cost:   5
 Type:   Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Whenever equipped creature deals combat damage to a player, destroy all permanents other than Worldslayer.
-Equip {5} ({5}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)
-Set/Rarity:     Mirrodin Rare
+Equip {5} ({5}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Magic 2012 Rare, Mirrodin Rare
 
 Name:   Worm Harvest
 Cost:   2(B/G)(B/G)(B/G)
@@ -3360,6 +3421,14 @@ Rules Text:     Wreak Havoc can't be countered by spells or abilities.
 Destroy target artifact or land.
 Set/Rarity:     Guildpact Uncommon
 
+Name:   Wreath of Geists
+Cost:   G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +X/+X, where X is the number of creature cards in your graveyard.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Wrecking Ball
 Cost:   2BR
 Type:   Instant
@@ -3412,6 +3481,13 @@ Pow/Tgh:    (5/8)
 Rules Text:     Islandwalk, swampwalk
 Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that card would be put into a graveyard this turn, exile it instead.
 Set/Rarity:     Magic: The Gathering-Commander Mythic Rare, Worldwake Mythic Rare
+
+Name:   Wring Flesh
+Cost:   B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -3/-1 until end of turn.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Writ of Passage
 Cost:   U
@@ -3484,7 +3560,7 @@ Cost:   2
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Whenever a player casts a green spell, you may gain 1 life.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
 
 Name:   Wurmcalling
 Cost:   XG
@@ -3499,7 +3575,7 @@ Cost:   6
 Type:   Artifact Creature — Wurm
 Pow/Tgh:    (6/6)
 Rules Text:     Deathtouch, lifelink
-When Wurmcoil Engine is put into a graveyard from the battlefield, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield.
+When Wurmcoil Engine dies, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield.
 Set/Rarity:     Scars of Mirrodin Mythic Rare
 
 Name:   Wurmskin Forger

@@ -15,12 +15,27 @@ Rules Text:     Abandoned Outpost enters the battlefield tapped.
 {T}, Sacrifice Abandoned Outpost: Add one mana of any color to your mana pool.
 Set/Rarity:     Odyssey Common
 
+Name:   Abattoir Ghoul
+Cost:   3B
+Type:   Creature — Zombie
+Pow/Tgh:    (3/2)
+Rules Text:     First strike
+Whenever a creature dealt damage by Abattoir Ghoul this turn dies, you gain life equal to that creature's toughness.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Abbey Gargoyles
 Cost:   2WWW
 Type:   Creature — Gargoyle
 Pow/Tgh:    (3/4)
 Rules Text:     Flying, protection from red
 Set/Rarity:     Masters Edition II Uncommon, Fifth Edition Uncommon, Homelands Uncommon
+
+Name:   Abbey Griffin
+Cost:   3W
+Type:   Creature — Griffin
+Pow/Tgh:    (2/2)
+Rules Text:     Flying, vigilance
+Set/Rarity:     Innistrad Common
 
 Name:   Abbey Matron
 Cost:   2W
@@ -36,7 +51,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When Abduction enters the battlefield, untap enchanted creature.
 You control enchanted creature.
-When enchanted creature is put into a graveyard, return that card to the battlefield under its owner's control.
+When enchanted creature dies, return that card to the battlefield under its owner's control.
 Set/Rarity:     Classic Sixth Edition Uncommon, Weatherlight Uncommon
 
 Name:   Abeyance
@@ -119,8 +134,8 @@ Name:   Absolver Thrull
 Cost:   3W
 Type:   Creature — Thrull Cleric
 Pow/Tgh:    (2/3)
-Rules Text:     Haunt (When this card is put into a graveyard from the battlefield, exile it haunting target creature.)
-When Absolver Thrull enters the battlefield or the creature it haunts is put into a graveyard, destroy target enchantment.
+Rules Text:     Haunt (When this creature dies, exile it haunting target creature.)
+When Absolver Thrull enters the battlefield or the creature it haunts dies, destroy target enchantment.
 Set/Rarity:     Guildpact Common
 
 Name:   Absorb
@@ -142,7 +157,7 @@ Name:   Abu Ja'far
 Cost:   W
 Type:   Creature — Human
 Pow/Tgh:    (0/1)
-Rules Text:     When Abu Ja'far is put into a graveyard from the battlefield, destroy all creatures blocking or blocked by it. They can't be regenerated.
+Rules Text:     When Abu Ja'far dies, destroy all creatures blocking or blocked by it. They can't be regenerated.
 Set/Rarity:     Chronicles Uncommon, Arabian Nights Uncommon
 
 Name:   Abuna Acolyte
@@ -172,7 +187,7 @@ Name:   Abyssal Gatekeeper
 Cost:   1B
 Type:   Creature — Horror
 Pow/Tgh:    (1/1)
-Rules Text:     When Abyssal Gatekeeper is put into a graveyard from the battlefield, each player sacrifices a creature.
+Rules Text:     When Abyssal Gatekeeper dies, each player sacrifices a creature.
 Set/Rarity:     Duel Decks: Divine vs. Demonic Common, Weatherlight Common
 
 Name:   Abyssal Horror
@@ -224,7 +239,7 @@ Name:   Academy Rector
 Cost:   3W
 Type:   Creature — Human Cleric
 Pow/Tgh:    (1/2)
-Rules Text:     When Academy Rector is put into a graveyard from the battlefield, you may exile it. If you do, search your library for an enchantment card, put that card onto the battlefield, then shuffle your library.
+Rules Text:     When Academy Rector dies, you may exile it. If you do, search your library for an enchantment card, put that card onto the battlefield, then shuffle your library.
 Set/Rarity:     Urza's Destiny Rare
 
 Name:   Academy Researchers
@@ -322,7 +337,7 @@ Type:   Creature — Ooze
 Pow/Tgh:    (2/2)
 Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 When Acidic Slime enters the battlefield, destroy target artifact, enchantment, or land.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic: The Gathering-Commander Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon
 
 Name:   Acidic Sliver
 Cost:   BR
@@ -387,7 +402,7 @@ Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)
-Set/Rarity:     Magic 2011 Common, Magic 2010 Uncommon
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Uncommon
 
 Name:   Active Volcano
 Cost:   R
@@ -410,6 +425,15 @@ Pow/Tgh:    (*/*)
 Rules Text:     Adamaro, First to Desire's power and toughness are each equal to the number of cards in the hand of the opponent with the most cards in hand.
 Set/Rarity:     Saviors of Kamigawa Rare
 
+Name:   Adaptive Automaton
+Cost:   3
+Type:   Artifact Creature — Construct
+Pow/Tgh:    (2/2)
+Rules Text:     As Adaptive Automaton enters the battlefield, choose a creature type.
+Adaptive Automaton is the chosen type in addition to its other types.
+Other creatures you control of the chosen type get +1/+1.
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Adarkar Sentinel
 Cost:   5
 Type:   Artifact Creature — Soldier
@@ -429,7 +453,7 @@ Cost:   4WW
 Type:   Snow Creature — Angel
 Pow/Tgh:    (4/5)
 Rules Text:     Flying, vigilance
-{T}: When target creature other than Adarkar Valkyrie is put into a graveyard this turn, return that card to the battlefield under your control.
+{T}: When target creature other than Adarkar Valkyrie dies this turn, return that card to the battlefield under your control.
 Set/Rarity:     Coldsnap Rare
 
 Name:   Adarkar Wastes
@@ -445,7 +469,7 @@ Cost:   4U
 Type:   Snow Creature — Illusion
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-{1}{S}i}: Target creature loses flying until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+{1}{S}: Target creature loses flying until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Adder-Staff Boggart
@@ -517,6 +541,14 @@ Rules Text:     ({(2/u)} can be paid with any two mana or with {U}. This card's 
 Look at the top five cards of your library. If you control more creatures than each other player, put two of those cards into your hand. Otherwise, put one of them into your hand. Then put the rest on the bottom of your library in any order.
 Set/Rarity:     Shadowmoor Uncommon
 
+Name:   Aegis Angel
+Cost:   4WW
+Type:   Creature — Angel
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+When Aegis Angel enters the battlefield, another target permanent is indestructible for as long as you control Aegis Angel. (Effects that say "destroy" don't destroy that permanent. An indestructible creature can't be destroyed by damage.)
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Aegis of Honor
 Cost:   W
 Type:   Enchantment
@@ -543,7 +575,7 @@ Cost:   3UU
 Type:   Creature — Avatar
 Pow/Tgh:    (*/*)
 Rules Text:     Aeon Chronicler's power and toughness are each equal to the number of cards in your hand.
-Suspend X—{X}{3}{U}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{3}{U} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
+Suspend X—{X}{3}{U}. X can't be 0.  (Rather than cast this card from your hand, you may pay {X}{3}{U} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 Whenever a time counter is removed from Aeon Chronicler while it's exiled, draw a card.
 Set/Rarity:     Planar Chaos Rare
 
@@ -568,7 +600,7 @@ Cost:   4G
 Type:   Creature — Ouphe
 Pow/Tgh:    (3/3)
 Rules Text:     Sacrifice Aerie Ouphes: Aerie Ouphes deals damage equal to its power to target creature with flying.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Common
 
 Name:   Aesthir Glider
@@ -630,7 +662,7 @@ Cost:   3GG
 Type:   Creature — Elemental
 Pow/Tgh:    (4/4)
 Rules Text:     Whenever you gain life, put that many +1/+1 counters on Ageless Entity.
-Set/Rarity:     Darksteel Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Darksteel Rare
 
 Name:   Ageless Sentinels
 Cost:   3W
@@ -700,7 +732,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
 Destroy target nonblack creature. It can't be regenerated. If Agonizing Demise was kicked, it deals damage equal to that creature's power to the creature's controller.
-Set/Rarity:     Invasion Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Invasion Common
 
 Name:   Agonizing Memories
 Cost:   2BB
@@ -786,21 +818,21 @@ Loyalty:    (3)
 Rules Text:     +1: Target permanent doesn't untap during its controller's next untap step.
 -2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
 -7: Destroy all lands target player controls.
-Set/Rarity:     Shards of Alara Mythic Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Mythic Rare, Shards of Alara Mythic Rare
 
 Name:   Ajani's Mantra
 Cost:   1W
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, you may gain 1 life.
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Magic 2011 Common
 
 Name:   Ajani's Pridemate
 Cost:   1W
 Type:   Creature — Cat Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate. (For example, if an effect causes you to gain 3 life, you may put one +1/+1 counter on this creature.)
-Set/Rarity:     Magic 2011 Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Magic 2011 Uncommon
 
 Name:   Akki Avalanchers
 Cost:   R
@@ -813,7 +845,7 @@ Name:   Akki Blizzard-Herder
 Cost:   1R
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (1/1)
-Rules Text:     When Akki Blizzard-Herder is put into a graveyard from the battlefield, each player sacrifices a land.
+Rules Text:     When Akki Blizzard-Herder dies, each player sacrifices a land.
 Set/Rarity:     Betrayers of Kamigawa Common
 
 Name:   Akki Coalflinger
@@ -988,7 +1020,7 @@ Cost:   4WW
 Type:   Creature — Dragon
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
-When Alabaster Dragon is put into a graveyard from the battlefield, shuffle Alabaster Dragon into its owner's library.
+When Alabaster Dragon dies, shuffle it into its owner's library.
 Set/Rarity:     Weatherlight Rare, Portal Rare
 
 Name:   Alabaster Leech
@@ -997,6 +1029,13 @@ Type:   Creature — Leech
 Pow/Tgh:    (1/3)
 Rules Text:     White spells you cast cost {W} more to cast.
 Set/Rarity:     Invasion Rare
+
+Name:   Alabaster Mage
+Cost:   1W
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/1)
+Rules Text:     {1}{W}: Target creature you control gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Alabaster Potion
 Cost:   XWW
@@ -1135,7 +1174,7 @@ Cost:   3G
 Type:   Creature — Crocodile
 Pow/Tgh:    (1/1)
 Rules Text:     Shroud
-Whenever another creature is put into a graveyard from the battlefield, you may put a +1/+1 counter on Algae Gharial.
+Whenever another creature dies, you may put a +1/+1 counter on Algae Gharial.
 Set/Rarity:     Shards of Alara Uncommon
 
 Name:   Ali Baba
@@ -1245,7 +1284,7 @@ Cost:   1U
 Type:   Creature — Siren
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Target creature an opponent controls attacks you this turn if able.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon
 
 Name:   Alms
 Cost:   W
@@ -1323,6 +1362,14 @@ Pow/Tgh:
 Rules Text:     Exile target artifact or enchantment.
 Set/Rarity:     Mirrodin Uncommon
 
+Name:   Altar's Reap
+Cost:   1B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     As an additional cost to cast Altar's Reap, sacrifice a creature.
+Draw two cards.
+Set/Rarity:     Innistrad Common
+
 Name:   Alter Reality
 Cost:   1U
 Type:   Instant
@@ -1389,6 +1436,14 @@ Pow/Tgh:    (3/1)
 Rules Text:     First strike, haste
 Set/Rarity:     Masters Edition II Common, Fifth Edition Common, Homelands Common, Homelands Common
 
+Name:   Ambush Viper
+Cost:   1G
+Type:   Creature — Snake
+Pow/Tgh:    (2/1)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Set/Rarity:     Innistrad Common
+
 Name:   Amnesia
 Cost:   3UUU
 Type:   Sorcery
@@ -1418,6 +1473,13 @@ Type:   Creature — Kavu
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever Amphibious Kavu blocks or becomes blocked by one or more blue and/or black creatures, Amphibious Kavu gets +3/+3 until end of turn.
 Set/Rarity:     Planeshift Common
+
+Name:   Amphin Cutthroat
+Cost:   3U
+Type:   Creature — Salamander Rogue
+Pow/Tgh:    (2/4)
+Rules Text:     
+Set/Rarity:     Magic 2012 Common
 
 Name:   Amrou Kithkin
 Cost:   WW
@@ -1656,10 +1718,10 @@ Set/Rarity:     Odyssey Rare
 
 Name:   Ancestral Vision
 Cost:   
+Color:  Blue
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Ancestral Vision is blue.
-Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Rules Text:     Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Target player draws three cards.
 Set/Rarity:     Duel Decks: Jace vs. Chandra Rare, Time Spiral Rare
 
@@ -1692,7 +1754,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target artifact.
 Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Innistrad Common, Time Spiral Common
 
 Name:   Ancient Hellkite
 Cost:   4RRR
@@ -1791,6 +1853,14 @@ Rules Text:     Flying
 When Angel of Despair enters the battlefield, destroy target permanent.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Guildpact Rare
 
+Name:   Angel of Flight Alabaster
+Cost:   4W
+Type:   Creature — Angel
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+At the beginning of your upkeep, return target Spirit card from your graveyard to your hand.
+Set/Rarity:     Innistrad Rare
+
 Name:   Angel of Fury
 Cost:   4WW
 Type:   Creature — Angel
@@ -1835,7 +1905,7 @@ Cost:   2
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Whenever a player casts a white spell, you may gain 1 life.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
 
 Name:   Angel's Grace
 Cost:   W
@@ -1857,7 +1927,7 @@ Cost:   2WW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     You gain 7 life.
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common
 
 Name:   Angel's Trumpet
 Cost:   3
@@ -1920,6 +1990,15 @@ Pow/Tgh:    (1/1)
 Rules Text:     Flying, protection from artifacts
 Set/Rarity:     Urza's Legacy Common
 
+Name:   Angelic Destiny
+Cost:   2WW
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.
+When enchanted creature dies, return Angelic Destiny to its owner's hand.
+Set/Rarity:     Magic 2012 Mythic Rare
+
 Name:   Angelic Favor
 Cost:   3W
 Type:   Instant
@@ -1928,6 +2007,14 @@ Rules Text:     If you control a Plains, you may tap an untapped creature you co
 Cast Angelic Favor only during combat.
 Put a 4/4 white Angel creature token with flying onto the battlefield. Exile it at the beginning of the next end step.
 Set/Rarity:     Nemesis Uncommon
+
+Name:   Angelic Overseer
+Cost:   3WW
+Type:   Creature — Angel
+Pow/Tgh:    (5/3)
+Rules Text:     Flying
+As long as you control a Human, Angelic Overseer has hexproof and is indestructible.
+Set/Rarity:     Innistrad Mythic Rare
 
 Name:   Angelic Page
 Cost:   1W
@@ -1957,7 +2044,6 @@ Cost:   WU
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures you control get +0/+1.
-
 Sacrifice Angelic Shield: Return target creature to its owner's hand.
 Set/Rarity:     Invasion Uncommon
 
@@ -2096,7 +2182,7 @@ Name:   Anodet Lurker
 Cost:   5
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (3/3)
-Rules Text:     When Anodet Lurker is put into a graveyard from the battlefield, you gain 3 life.
+Rules Text:     When Anodet Lurker dies, you gain 3 life.
 Set/Rarity:     Fifth Dawn Common
 
 Name:   Anoint
@@ -2156,7 +2242,7 @@ Name:   Antler Skulkin
 Cost:   5
 Type:   Artifact Creature — Scarecrow
 Pow/Tgh:    (3/3)
-Rules Text:     {2}: Target white creature gains persist until end of turn. (When it's put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Rules Text:     {2}: Target white creature gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Common
 
 Name:   Anurid Barkripper
@@ -2271,7 +2357,7 @@ Cost:   4BB
 Type:   Creature — Zombie Bird
 Pow/Tgh:    (3/2)
 Rules Text:     Flying
-When Aphetto Vulture is put into a graveyard from the battlefield, you may put target Zombie card from your graveyard on top of your library.
+When Aphetto Vulture dies, you may put target Zombie card from your graveyard on top of your library.
 Set/Rarity:     Onslaught Uncommon
 
 Name:   Aphotic Wisps
@@ -2385,6 +2471,23 @@ Pow/Tgh:    (2/6)
 Rules Text:     Reach (This creature can block creatures with flying.)
 Set/Rarity:     Fifth Dawn Uncommon
 
+Name:   Arachnus Spinner
+Cost:   5G
+Type:   Creature — Spider
+Pow/Tgh:    (5/7)
+Rules Text:     Reach (This creature can block creatures with flying.)
+Tap an untapped Spider you control: Search your graveyard and/or library for a card named Arachnus Web and put it onto the battlefield attached to target creature. If you search your library this way, shuffle it.
+Set/Rarity:     Magic 2012 Rare
+
+Name:   Arachnus Web
+Cost:   2G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature can't attack or block, and its activated abilities can't be activated.
+At the beginning of the end step, if enchanted creature's power is 4 or greater, destroy Arachnus Web.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Arashi, the Sky Asunder
 Cost:   3GG
 Type:   Legendary Creature — Spirit
@@ -2392,6 +2495,13 @@ Pow/Tgh:    (5/5)
 Rules Text:     {X}{G}, {T}: Arashi, the Sky Asunder deals X damage to target creature with flying.
 Channel — {X}{G}{G}, Discard Arashi: Arashi deals X damage to each creature with flying.
 Set/Rarity:     Saviors of Kamigawa Rare
+
+Name:   Arbalest Elite
+Cost:   2WW
+Type:   Creature — Human Archer
+Pow/Tgh:    (2/3)
+Rules Text:     {2}{W}, {T}: Arbalest Elite deals 3 damage to target attacking or blocking creature. Arbalest Elite doesn't untap during your next untap step.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Arbiter of Knollridge
 Cost:   6W
@@ -2529,7 +2639,7 @@ Name:   Arcbound Bruiser
 Cost:   5
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (0/0)
-Rules Text:     Modular 3 (This enters the battlefield with three +1/+1 counters on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Rules Text:     Modular 3 (This enters the battlefield with three +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Common
 
 Name:   Arcbound Crusher
@@ -2538,7 +2648,7 @@ Type:   Artifact Creature — Juggernaut
 Pow/Tgh:    (0/0)
 Rules Text:     Trample
 Whenever another artifact enters the battlefield, put a +1/+1 counter on Arcbound Crusher.
-Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Planechase Uncommon, Darksteel Uncommon
 
 Name:   Arcbound Fiend
@@ -2547,7 +2657,7 @@ Type:   Artifact Creature — Horror
 Pow/Tgh:    (0/0)
 Rules Text:     Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 At the beginning of your upkeep, you may move a +1/+1 counter from target creature onto Arcbound Fiend.
-Modular 3 (This enters the battlefield with three +1/+1 counters on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 3 (This enters the battlefield with three +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Uncommon
 
 Name:   Arcbound Hybrid
@@ -2555,7 +2665,7 @@ Cost:   4
 Type:   Artifact Creature — Beast
 Pow/Tgh:    (0/0)
 Rules Text:     Haste
-Modular 2 (This enters the battlefield with two +1/+1 counters on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 2 (This enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Common
 
 Name:   Arcbound Lancer
@@ -2563,7 +2673,7 @@ Cost:   7
 Type:   Artifact Creature — Beast
 Pow/Tgh:    (0/0)
 Rules Text:     First strike
-Modular 4 (This enters the battlefield with four +1/+1 counters on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 4 (This enters the battlefield with four +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Uncommon
 
 Name:   Arcbound Overseer
@@ -2571,7 +2681,7 @@ Cost:   8
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (0/0)
 Rules Text:     At the beginning of your upkeep, put a +1/+1 counter on each creature with modular you control.
-Modular 6 (This enters the battlefield with six +1/+1 counters on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 6 (This enters the battlefield with six +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Rare
 
 Name:   Arcbound Ravager
@@ -2579,7 +2689,7 @@ Cost:   2
 Type:   Artifact Creature — Beast
 Pow/Tgh:    (0/0)
 Rules Text:     Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.
-Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Rare
 
 Name:   Arcbound Reclaimer
@@ -2587,7 +2697,7 @@ Cost:   4
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (0/0)
 Rules Text:     Remove a +1/+1 counter from Arcbound Reclaimer: Put target artifact card from your graveyard on top of your library.
-Modular 2 (This enters the battlefield with two +1/+1 counters on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 2 (This enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Rare
 
 Name:   Arcbound Slith
@@ -2595,7 +2705,7 @@ Cost:   2
 Type:   Artifact Creature — Slith
 Pow/Tgh:    (0/0)
 Rules Text:     Whenever Arcbound Slith deals combat damage to a player, put a +1/+1 counter on it.
-Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Planechase Uncommon, Darksteel Uncommon
 
 Name:   Arcbound Stinger
@@ -2603,21 +2713,21 @@ Cost:   2
 Type:   Artifact Creature — Insect
 Pow/Tgh:    (0/0)
 Rules Text:     Flying
-Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Darksteel Common
 
 Name:   Arcbound Wanderer
 Cost:   6
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (0/0)
-Rules Text:     Modular—Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Rules Text:     Modular—Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Fifth Dawn Uncommon
 
 Name:   Arcbound Worker
 Cost:   1
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (0/0)
-Rules Text:     Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it's put into a graveyard, you may put its +1/+1 counters on target artifact creature.)
+Rules Text:     Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Darksteel Common
 
 Name:   Archaeological Dig
@@ -2699,8 +2809,8 @@ Cost:   3WW
 Type:   Creature — Archon
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
-When Archon of Justice is put into a graveyard from the battlefield, exile target permanent.
-Set/Rarity:     Eventide Rare
+When Archon of Justice dies, exile target permanent.
+Set/Rarity:     Magic 2012 Rare, Eventide Rare
 
 Name:   Archon of Redemption
 Cost:   3WW
@@ -2739,7 +2849,7 @@ Type:   Creature — Cat Warrior
 Pow/Tgh:    (6/6)
 Rules Text:     Trample
 Cumulative upkeep {G} or {W} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-When Arctic Nishoba is put into a graveyard from the battlefield, you gain 2 life for each age counter on it.
+When Arctic Nishoba dies, you gain 2 life for each age counter on it.
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Arctic Wolves
@@ -2814,7 +2924,7 @@ Name:   Arena
 Cost:   
 Type:   Land
 Pow/Tgh:    
-Rules Text:     {3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Each of those creatures deals damage equal to its power to the other.
+Rules Text:     {3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Time Spiral "Timeshifted" Special, Promo set for Gatherer Special
 
 Name:   Arena of the Ancients
@@ -3082,6 +3192,20 @@ Pow/Tgh:    (1/2)
 Rules Text:     Flying
 Set/Rarity:     Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Tempest Common, Portal Common
 
+Name:   Armored Skaab
+Cost:   2U
+Type:   Creature — Zombie Warrior
+Pow/Tgh:    (1/4)
+Rules Text:     When Armored Skaab enters the battlefield, put the top four cards of your library into your graveyard.
+Set/Rarity:     Innistrad Common
+
+Name:   Armored Warhorse
+Cost:   WW
+Type:   Creature — Horse
+Pow/Tgh:    (2/3)
+Rules Text:     
+Set/Rarity:     Magic 2012 Common
+
 Name:   Armorer Guildmage
 Cost:   R
 Type:   Creature — Human Wizard
@@ -3110,6 +3234,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Attacking creatures get +2/+0 until end of turn.
 Set/Rarity:     Arabian Nights Common, Arabian Nights Common
+
+Name:   Army of the Damned
+Cost:   5BBB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.
+Flashback {7}{B}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Mythic Rare
 
 Name:   Arnjlot's Ascent
 Cost:   1UU
@@ -3301,7 +3433,7 @@ Name:   Ashen-Skin Zubera
 Cost:   1B
 Type:   Creature — Zubera Spirit
 Pow/Tgh:    (1/2)
-Rules Text:     When Ashen-Skin Zubera is put into a graveyard from the battlefield, target opponent discards a card for each Zubera put into a graveyard from the battlefield this turn.
+Rules Text:     When Ashen-Skin Zubera dies, target opponent discards a card for each Zubera that died this turn.
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Ashenmoor Cohort
@@ -3364,6 +3496,13 @@ Type:   Legendary Creature — Elemental Shaman
 Pow/Tgh:    (4/4)
 Rules Text:     Whenever Ashling, the Extinguisher deals combat damage to a player, choose target creature that player controls. He or she sacrifices that creature.
 Set/Rarity:     Eventide Rare
+
+Name:   Ashmouth Hound
+Cost:   1R
+Type:   Creature — Elemental Hound
+Pow/Tgh:    (2/1)
+Rules Text:     Whenever Ashmouth Hound blocks or becomes blocked by a creature, Ashmouth Hound deals 1 damage to that creature.
+Set/Rarity:     Innistrad Common
 
 Name:   Ashnod's Altar
 Cost:   3
@@ -3445,8 +3584,7 @@ Name:   Assault // Battery (Battery)
 Cost:   3G
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Put a 3/3 green Elephant creature token onto the battlefield.
+Rules Text:     Put a 3/3 green Elephant creature token onto the battlefield.
 Set/Rarity:     Planechase Uncommon, Time Spiral "Timeshifted" Special, Invasion Uncommon, Invasion Uncommon
 
 Name:   Assault Griffin
@@ -3454,7 +3592,7 @@ Cost:   3W
 Type:   Creature — Griffin
 Pow/Tgh:    (3/2)
 Rules Text:     Flying
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common
 
 Name:   Assault Strobe
 Cost:   R
@@ -3676,7 +3814,7 @@ Cost:   3U
 Type:   Creature — Illusion
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-When Aura Thief is put into a graveyard from the battlefield, you gain control of all enchantments. (You don't get to move Auras.)
+When Aura Thief dies, you gain control of all enchantments. (You don't get to move Auras.)
 Set/Rarity:     Urza's Destiny Rare
 
 Name:   Aura of Dominion
@@ -3700,7 +3838,7 @@ Cost:   2W
 Type:   Creature — Human Wizard
 Pow/Tgh:    (2/2)
 Rules Text:     When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.
-Set/Rarity:     Odyssey Common
+Set/Rarity:     Magic 2012 Common, Odyssey Common
 
 Name:   Auramancer's Guise
 Cost:   2UU
@@ -3858,7 +3996,7 @@ Name:   Auspicious Ancestor
 Cost:   3W
 Type:   Creature — Human Cleric
 Pow/Tgh:    (2/3)
-Rules Text:     When Auspicious Ancestor is put into a graveyard from the battlefield, you gain 3 life.
+Rules Text:     When Auspicious Ancestor dies, you gain 3 life.
 Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 life.
 Set/Rarity:     Mirage Rare
 
@@ -3890,7 +4028,21 @@ Cost:   G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Spells you control can't be countered by blue or black spells this turn, and creatures you control can't be the targets of blue or black spells this turn.
-Set/Rarity:     Magic 2011 Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon
+
+Name:   Avacyn's Pilgrim
+Cost:   G
+Type:   Creature — Human Monk
+Pow/Tgh:    (1/1)
+Rules Text:     {T}: Add {W} to your mana pool.
+Set/Rarity:     Innistrad Common
+
+Name:   Avacynian Priest
+Cost:   1W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/2)
+Rules Text:     {1}, {T}: Tap target non-Human creature.
+Set/Rarity:     Innistrad Common
 
 Name:   Avalanche
 Cost:   X2RR
@@ -4045,8 +4197,16 @@ Cost:   3U
 Type:   Creature — Bird Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     Flying (This creature can't be blocked except by creatures with flying or reach.)
-When Aven Fisher is put into a graveyard from the battlefield, you may draw a card.
+When Aven Fisher dies, you may draw a card.
 Set/Rarity:     Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Odyssey Common
+
+Name:   Aven Fleetwing
+Cost:   3U
+Type:   Creature — Bird Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Set/Rarity:     Magic 2012 Common
 
 Name:   Aven Flock
 Cost:   4W
@@ -4197,7 +4357,7 @@ Cost:   3WW
 Type:   Creature — Angel
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-When Avenging Angel is put into a graveyard from the battlefield, you may put Avenging Angel on top of its owner's library.
+When Avenging Angel dies, you may put it on top of its owner's library.
 Set/Rarity:     Tempest Rare
 
 Name:   Avenging Druid
@@ -4234,7 +4394,7 @@ Name:   Awakener Druid
 Cost:   2G
 Type:   Creature — Human Druid
 Pow/Tgh:    (1/1)
-Rules Text:     When Awakener Druid enters the battlefield, target Forest becomes a 4/5 green Treefolk creature for as long as Awakener Druid is on the battlefield. It's still a land.
+Rules Text:     When Awakener Druid enters the battlefield, target Forest becomes a 4/5 green Treefolk creature for as long as Awakener Druid remains on the battlefield. It's still a land.
 Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon
 
 Name:   Awakening
@@ -4278,7 +4438,7 @@ Cost:   4BBRR
 Type:   Legendary Creature — Giant
 Pow/Tgh:    (5/5)
 Rules Text:     Trample
-Whenever a creature dealt damage by Axelrod Gunnarson this turn is put into a graveyard, you gain 1 life and Axelrod deals 1 damage to target player.
+Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player.
 Set/Rarity:     Masters Edition III Uncommon, Chronicles Rare, Legends Rare
 
 Name:   Ayesha Tanaka
@@ -4404,6 +4564,13 @@ Type:   Creature — Drake
 Pow/Tgh:    (2/4)
 Rules Text:     Flying
 Set/Rarity:     Magic 2011 Common, Ninth Edition Uncommon, Battle Royale Box Set Uncommon, Fifth Edition Uncommon, Chronicles Uncommon, Legends Uncommon
+
+Name:   Azure Mage
+Cost:   1U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/1)
+Rules Text:     {3}{U}: Draw a card.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Azusa, Lost but Seeking
 Cost:   2G

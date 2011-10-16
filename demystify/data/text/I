@@ -99,7 +99,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated.
 When enchanted creature becomes the target of a spell or ability, destroy Ice Cage.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Ice Cauldron
 Cost:   4
@@ -216,7 +216,7 @@ Cost:   4
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {1}, {T}: Tap target artifact, creature, or land.
-Set/Rarity:     Masters Edition IV Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Mirrodin Uncommon, Ice Age Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Masters Edition IV Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Mirrodin Uncommon, Ice Age Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Icy Prison
 Cost:   UU
@@ -276,7 +276,7 @@ Type:   Creature — Elemental
 Pow/Tgh:    (5/1)
 Rules Text:     Haste
 Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, and put it into your hand. Then shuffle your library.)
-Set/Rarity:     Alara Reborn Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Alara Reborn Common
 
 Name:   Ignite Disorder
 Cost:   1R
@@ -391,8 +391,7 @@ Name:   Illusion // Reality (Reality)
 Cost:   2G
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Destroy target artifact.
+Rules Text:     Destroy target artifact.
 Set/Rarity:     Apocalypse Uncommon, Apocalypse Uncommon
 
 Name:   Illusionary Forces
@@ -648,7 +647,7 @@ Name:   Impromptu Raid
 Cost:   3(R/G)
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     {2}{(r/g)}: Reveal the top card of your library. If it isn't a creature card, put it into your graveyard. Otherwise, put that card onto the battlefield. That creature has haste. Sacrifice it at the beginning of the next end step.
+Rules Text:     {2}{(r/g)}: Reveal the top card of your library. If it isn't a creature card, put it into your graveyard. Otherwise, put that card onto the battlefield. That creature gains haste. Sacrifice it at the beginning of the next end step.
 Set/Rarity:     Shadowmoor Rare
 
 Name:   Improvised Armor
@@ -701,7 +700,7 @@ Cost:   8BBGG
 Type:   Legendary Creature — Spirit
 Pow/Tgh:    (8/8)
 Rules Text:     When Iname as One enters the battlefield, if you cast it from your hand, you may search your library for a Spirit permanent card, put it onto the battlefield, then shuffle your library.
-When Iname as One is put into a graveyard from the battlefield, you may exile it. If you do, return target Spirit permanent card from your graveyard to the battlefield.
+When Iname as One dies, you may exile it. If you do, return target Spirit permanent card from your graveyard to the battlefield.
 Set/Rarity:     Saviors of Kamigawa Rare
 
 Name:   Iname, Death Aspect
@@ -715,7 +714,7 @@ Name:   Iname, Life Aspect
 Cost:   4GG
 Type:   Legendary Creature — Spirit
 Pow/Tgh:    (4/4)
-Rules Text:     When Iname, Life Aspect is put into a graveyard from the battlefield, you may exile it. If you do, return any number of target Spirit cards from your graveyard to your hand.
+Rules Text:     When Iname, Life Aspect dies, you may exile it. If you do, return any number of target Spirit cards from your graveyard to your hand.
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Incandescent Soulstoke
@@ -732,7 +731,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 At the beginning of your upkeep, you may put a fuse counter on Incendiary.
-When enchanted creature is put into a graveyard, Incendiary deals X damage to target creature or player, where X is the number of fuse counters on Incendiary.
+When enchanted creature dies, Incendiary deals X damage to target creature or player, where X is the number of fuse counters on Incendiary.
 Set/Rarity:     Urza's Destiny Uncommon
 
 Name:   Incendiary Command
@@ -747,7 +746,7 @@ Cost:   1R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.
-Set/Rarity:     Duel Decks: Jace vs. Chandra Common, Masters Edition II Common, Tenth Edition Common, Fifth Edition Common, Mirage Common, Ice Age Common
+Set/Rarity:     Magic 2012 Common, Duel Decks: Jace vs. Chandra Common, Masters Edition II Common, Tenth Edition Common, Fifth Edition Common, Mirage Common, Ice Age Common
 
 Name:   Incite
 Cost:   R
@@ -797,7 +796,7 @@ Cost:   3W
 Type:   Creature — Human Samurai
 Pow/Tgh:    (2/3)
 Rules Text:     Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
-Whenever a Samurai you control is put into a graveyard from the battlefield, you may put a +1/+1 counter on Indebted Samurai.
+Whenever a Samurai you control dies, you may put a +1/+1 counter on Indebted Samurai.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Indentured Djinn
@@ -947,7 +946,7 @@ Name:   Infectious Host
 Cost:   2B
 Type:   Creature — Zombie
 Pow/Tgh:    (1/1)
-Rules Text:     When Infectious Host is put into a graveyard from the battlefield, target player loses 2 life.
+Rules Text:     When Infectious Host dies, target player loses 2 life.
 Set/Rarity:     Ravnica: City of Guilds Common
 
 Name:   Infectious Rage
@@ -956,7 +955,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature gets +2/-1.
-When enchanted creature is put into a graveyard, choose a creature at random Infectious Rage can enchant. Return Infectious Rage to the battlefield attached to that creature.
+When enchanted creature dies, choose a creature at random Infectious Rage can enchant. Return Infectious Rage to the battlefield attached to that creature.
 Set/Rarity:     Judgment Uncommon
 
 Name:   Infernal Caretaker
@@ -1021,6 +1020,14 @@ Rules Text:     Whenever Infernal Medusa blocks a creature, destroy that creatur
 Whenever Infernal Medusa becomes blocked by a non-Wall creature, destroy that creature at end of combat.
 Set/Rarity:     Legends Uncommon
 
+Name:   Infernal Plunge
+Cost:   R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     As an additional cost to cast Infernal Plunge, sacrifice a creature.
+Add {R}{R}{R} to your mana pool.
+Set/Rarity:     Innistrad Common
+
 Name:   Infernal Tribute
 Cost:   BBB
 Type:   Enchantment
@@ -1056,7 +1063,7 @@ Type:   Creature — Giant
 Pow/Tgh:    (6/6)
 Rules Text:     {R}: Inferno Titan gets +1/+0 until end of turn.
 Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
-Set/Rarity:     Magic 2011 Mythic Rare
+Set/Rarity:     Magic 2012 Mythic Rare, Magic 2011 Mythic Rare
 
 Name:   Inferno Trap
 Cost:   3R
@@ -1118,7 +1125,7 @@ Cost:   WWW
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Whenever enchanted creature blocks or becomes blocked by a creature with toughness 3 or less, destroy the other creature at end of combat. At the beginning of the next end step, if that creature was put into a graveyard this way, put a +1/+1 counter on the first creature.
+Whenever enchanted creature blocks or becomes blocked by a creature with toughness 3 or less, destroy the other creature at end of combat. At the beginning of the next end step, if that creature died this way, put a +1/+1 counter on the first creature.
 Set/Rarity:     Legends Rare
 
 Name:   Infinite Hourglass
@@ -1181,14 +1188,14 @@ Name:   Inheritance
 Cost:   W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, you may pay {3}. If you do, draw a card.
+Rules Text:     Whenever a creature dies, you may pay {3}. If you do, draw a card.
 Set/Rarity:     Masters Edition II Uncommon, Alliances Uncommon
 
 Name:   Initiate of Blood
 Cost:   3R
 Type:   Creature — Ogre Shaman
 Pow/Tgh:    (2/2)
-Rules Text:     {T}: Initiate of Blood deals 1 damage to target creature that was dealt damage this turn. When that creature is put into a graveyard this turn, flip Initiate of Blood.
+Rules Text:     {T}: Initiate of Blood deals 1 damage to target creature that was dealt damage this turn. When that creature dies this turn, flip Initiate of Blood.
 Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Initiate of Blood (Goka the Unjust)
@@ -1346,6 +1353,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     When Inquisitor Exarch enters the battlefield, choose one — You gain 2 life; or target opponent loses 2 life.
 Set/Rarity:     New Phyrexia Uncommon
 
+Name:   Inquisitor's Flail
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     If equipped creature would deal combat damage, it deals double that damage instead.
+If another creature would deal combat damage to equipped creature, it deals double that damage to equipped creature instead.
+Equip {2}
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Inquisitor's Snare
 Cost:   1W
 Type:   Instant
@@ -1360,6 +1376,14 @@ Pow/Tgh:    (5/1)
 Rules Text:     {(g/p)}: Insatiable Souleater gains trample until end of turn. ({(g/p)} can be paid with either {G} or 2 life.)
 Set/Rarity:     New Phyrexia Common
 
+Name:   Insectile Aberration
+Cost:   
+Color:  Blue
+Type:   Creature — Human Insect
+Pow/Tgh:    (3/2)
+Rules Text:     Flying
+Set/Rarity:     Innistrad Common
+
 Name:   Inside Out
 Cost:   1(U/R)
 Type:   Instant
@@ -1372,7 +1396,7 @@ Name:   Insidious Bookworms
 Cost:   B
 Type:   Creature — Worm
 Pow/Tgh:    (1/1)
-Rules Text:     When Insidious Bookworms is put into a graveyard from the battlefield, you may pay {1}{B}. If you do, target player discards a card at random.
+Rules Text:     When Insidious Bookworms dies, you may pay {1}{B}. If you do, target player discards a card at random.
 Set/Rarity:     Alliances Common, Alliances Common
 
 Name:   Insidious Dreams
@@ -1444,6 +1468,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {1}{B}{B}, {T}, Discard a card: Creatures target player controls attack this turn if able.
 Set/Rarity:     Mercadian Masques Rare
 
+Name:   Instigator Gang
+Cost:   3R
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (2/3)
+Rules Text:     Attacking creatures you control get +1/+0.
+At the beginning of each upkeep, if no spells were cast last turn, transform Instigator Gang.
+Set/Rarity:     Innistrad Rare
+
 Name:   Instill Energy
 Cost:   G
 Type:   Enchantment — Aura
@@ -1484,6 +1516,13 @@ Pow/Tgh:
 Rules Text:     Untap all creatures and gain control of them until end of turn. They gain haste until end of turn.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Planechase Rare, Onslaught Rare
 
+Name:   Intangible Virtue
+Cost:   1W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Creature tokens you control get +1/+1 and have vigilance.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Interdict
 Cost:   1U
 Type:   Instant
@@ -1501,10 +1540,10 @@ Set/Rarity:     Urza's Legacy Common
 
 Name:   Intervention Pact
 Cost:   0
+Color:  White
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Intervention Pact is white.
-The next time a source of your choice would deal damage to you this turn, prevent that damage. You gain life equal to the damage prevented this way.
+Rules Text:     The next time a source of your choice would deal damage to you this turn, prevent that damage. You gain life equal to the damage prevented this way.
 At the beginning of your next upkeep, pay {1}{W}{W}. If you don't, you lose the game.
 Set/Rarity:     Future Sight Rare
 
@@ -1559,6 +1598,13 @@ Pow/Tgh:
 Rules Text:     Target creature attacks this turn if able.
 Splice onto Arcane {R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 Set/Rarity:     Saviors of Kamigawa Common
+
+Name:   Into the Maw of Hell
+Cost:   4RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target land. Into the Maw of Hell deals 13 damage to target creature.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Into the North
 Cost:   1G
@@ -1672,6 +1718,14 @@ Rules Text:     Enchant creature
 Enchanted creature can't be blocked except by Walls.
 Set/Rarity:     Eighth Edition Uncommon, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
+Name:   Invisible Stalker
+Cost:   1U
+Type:   Creature — Human Rogue
+Pow/Tgh:    (1/1)
+Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Invisible Stalker is unblockable.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Invoke Prejudice
 Cost:   UUUU
 Type:   Enchantment
@@ -1751,7 +1805,7 @@ Name:   Irini Sengir
 Cost:   2BB
 Type:   Legendary Creature — Vampire Dwarf
 Pow/Tgh:    (2/2)
-Rules Text:     White enchantment spells and green enchantment spells cost {2} more to cast.
+Rules Text:     Green enchantment spells and white enchantment spells cost {2} more to cast.
 Set/Rarity:     Homelands Uncommon
 
 Name:   Iron Lance
@@ -1837,6 +1891,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     Ironclaw Orcs can't block creatures with power 2 or greater.
 Set/Rarity:     Masters Edition II Common, Fifth Edition Common, Fourth Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
+Name:   Ironfang
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (3/1)
+Rules Text:     First strike
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ironfang.
+Set/Rarity:     Innistrad Common
+
 Name:   Ironfist Crusher
 Cost:   4W
 Type:   Creature — Human Soldier
@@ -1918,15 +1981,15 @@ Cost:
 Type:   Basic Land — Island
 Pow/Tgh:    
 Rules Text:     U
-Set/Rarity:     Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Island Fish Jasconius
 Cost:   4UUU
 Type:   Creature — Fish
 Pow/Tgh:    (6/8)
-Rules Text:     Island Fish Jasconius can't attack unless defending player controls an Island.
-Island Fish Jasconius doesn't untap during your untap step.
+Rules Text:     Island Fish Jasconius doesn't untap during your untap step.
 At the beginning of your upkeep, you may pay {U}{U}{U}. If you do, untap Island Fish Jasconius.
+Island Fish Jasconius can't attack unless defending player controls an Island.
 When you control no Islands, sacrifice Island Fish Jasconius.
 Set/Rarity:     Fourth Edition Rare, Revised Edition Rare, Arabian Nights Rare
 
@@ -1959,6 +2022,14 @@ Pow/Tgh:
 Rules Text:     Imprint — When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.
 {2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.
 Set/Rarity:     From the Vault: Relics Mythic Rare, Mirrodin Uncommon
+
+Name:   Isolated Chapel
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.
+{T}: Add {W} or {B} to your mana pool.
+Set/Rarity:     Innistrad Rare
 
 Name:   Isolation Cell
 Cost:   4
@@ -2018,7 +2089,7 @@ Cost:   4W
 Type:   Creature — Gargoyle
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-When Ivory Gargoyle is put into a graveyard from the battlefield, return it to the battlefield under its owner's control at the beginning of the next end step and you skip your next draw step.
+When Ivory Gargoyle dies, return it to the battlefield under its owner's control at the beginning of the next end step and you skip your next draw step.
 {4}{W}: Exile Ivory Gargoyle.
 Set/Rarity:     Masters Edition II Rare, Alliances Rare
 

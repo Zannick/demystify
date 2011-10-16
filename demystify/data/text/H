@@ -4,7 +4,7 @@ Type:   Legendary Creature — Zombie Knight
 Pow/Tgh:    (3/3)
 Rules Text:     You may cast Haakon, Stromgald Scourge from your graveyard, but not from anywhere else.
 As long as Haakon is on the battlefield, you may play Knight cards from your graveyard.
-When Haakon is put into a graveyard from the battlefield, you lose 2 life.
+When Haakon dies, you lose 2 life.
 Set/Rarity:     Coldsnap Rare
 
 Name:   Haazda Exonerator
@@ -166,7 +166,7 @@ Cost:
 Type:   Legendary Land
 Pow/Tgh:    
 Rules Text:     Hall of the Bandit Lord enters the battlefield tapped.
-{T}, Pay 3 life: Add {1} to your mana pool. If that mana is spent on a creature spell, that creature has haste.
+{T}, Pay 3 life: Add {1} to your mana pool. If that mana is spent on a creature spell, it gains haste.
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Hallow
@@ -229,6 +229,13 @@ Pow/Tgh:
 Rules Text:     Counter target artifact spell.
 Draw a card.
 Set/Rarity:     Scars of Mirrodin Uncommon
+
+Name:   Hamlet Captain
+Cost:   1G
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever Hamlet Captain attacks or blocks, other Human creatures you control get +1/+1 until end of turn.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Hamletback Goliath
 Cost:   6R
@@ -382,6 +389,14 @@ Pow/Tgh:    (1/2)
 Rules Text:     {1}{W}{U}, {T}: Return target artifact or enchantment card from your graveyard to your hand.
 Set/Rarity:     Invasion Rare
 
+Name:   Hanweir Watchkeep
+Cost:   2R
+Type:   Creature — Human Warrior Werewolf
+Pow/Tgh:    (1/5)
+Rules Text:     Defender
+At the beginning of each upkeep, if no spells were cast last turn, transform Hanweir Watchkeep.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Hapless Researcher
 Cost:   U
 Type:   Creature — Human Wizard
@@ -408,7 +423,7 @@ Cost:   4G
 Type:   Creature — Spirit
 Pow/Tgh:    (2/1)
 Rules Text:     Protection from non-Spirit creatures
-Soulshift 4 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
+Soulshift 4 (When this creature dies, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Common
 
 Name:   Harbor Guardian
@@ -425,7 +440,7 @@ Type:   Creature — Serpent
 Pow/Tgh:    (5/5)
 Rules Text:     Islandwalk (This creature is unblockable as long as defending player controls an Island.)
 Harbor Serpent can't attack unless there are five or more Islands on the battlefield.
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common
 
 Name:   Harm's Way
 Cost:   W
@@ -554,6 +569,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {G}, {T}, Discard a card: Until end of turn, if you tap a land for mana, it produces one mana of a color of your choice instead of any other type and amount.
 Set/Rarity:     Nemesis Common
 
+Name:   Harvest Pyre
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     As an additional cost to cast Harvest Pyre, exile X cards from your graveyard.
+Harvest Pyre deals X damage to target creature.
+Set/Rarity:     Innistrad Common
+
 Name:   Harvest Wurm
 Cost:   1G
 Type:   Creature — Wurm
@@ -617,7 +640,7 @@ Cost:   2W
 Type:   Creature — Angel
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-When Haunted Angel is put into a graveyard from the battlefield, exile Haunted Angel and each other player puts a 3/3 black Angel creature token with flying onto the battlefield.
+When Haunted Angel dies, exile Haunted Angel and each other player puts a 3/3 black Angel creature token with flying onto the battlefield.
 Set/Rarity:     Apocalypse Uncommon
 
 Name:   Haunted Cadaver
@@ -702,7 +725,7 @@ Cost:   5BB
 Type:   Creature — Demon
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Havoc Demon is put into a graveyard from the battlefield, all creatures get -5/-5 until end of turn.
+When Havoc Demon dies, all creatures get -5/-5 until end of turn.
 Set/Rarity:     Legions Rare
 
 Name:   Hawkeater Moth
@@ -764,7 +787,7 @@ Type:   Legendary Creature — Spirit
 Pow/Tgh:    (3/2)
 Rules Text:     Flying
 {1}, Sacrifice a Spirit: Target opponent reveals his or her hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.
-Soulshift 4 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
+Soulshift 4 (When this creature dies, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Head Games
@@ -878,7 +901,7 @@ Cost:   2RR
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-When Heart of Bogardan's cumulative upkeep isn't paid, it deals X damage to target player and each creature he or she controls, where X is twice the number of age counters on Heart of Bogardan minus two.
+When a player doesn't pay Heart of Bogardan's cumulative upkeep, Heart of Bogardan deals X damage to target player and each creature he or she controls, where X is twice the number of age counters on Heart of Bogardan minus 2.
 Set/Rarity:     Weatherlight Rare
 
 Name:   Heart of Light
@@ -958,12 +981,20 @@ Pow/Tgh:    (4/3)
 Rules Text:     {T}: Heartless Hidetsugu deals damage to each player equal to half that player's life total, rounded down.
 Set/Rarity:     Betrayers of Kamigawa Rare
 
+Name:   Heartless Summoning
+Cost:   1B
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Creature spells you cast cost {2} less to cast.
+Creatures you control get -1/-1.
+Set/Rarity:     Innistrad Rare
+
 Name:   Heartmender
 Cost:   2(G/W)(G/W)
 Type:   Creature — Elemental
 Pow/Tgh:    (2/2)
 Rules Text:     At the beginning of your upkeep, remove a -1/-1 counter from each creature you control.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Rare
 
 Name:   Heartseeker
@@ -994,7 +1025,7 @@ Name:   Heartwood Dryad
 Cost:   1G
 Type:   Creature — Dryad
 Pow/Tgh:    (2/1)
-Rules Text:     Heartwood Dryad can block creatures with shadow as though they didn't have shadow.
+Rules Text:     Heartwood Dryad can block creatures with shadow as though Heartwood Dryad had shadow.
 Set/Rarity:     Tempest Common
 
 Name:   Heartwood Giant
@@ -1264,7 +1295,7 @@ Name:   Hellfire
 Cost:   2BBB
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy all nonblack creatures. Hellfire deals X plus 3 damage to you, where X is the number of creatures put into all graveyards this way.
+Rules Text:     Destroy all nonblack creatures. Hellfire deals X plus 3 damage to you, where X is the number of creatures that died this way.
 Set/Rarity:     Masters Edition III Rare, Legends Rare
 
 Name:   Hellfire Mongrel
@@ -1272,7 +1303,7 @@ Cost:   2R
 Type:   Creature — Elemental Hound
 Pow/Tgh:    (2/2)
 Rules Text:     At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her.
-Set/Rarity:     Zendikar Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Zendikar Uncommon
 
 Name:   Hellhole Rats
 Cost:   2BR
@@ -1448,6 +1479,13 @@ Type:   Creature — Beast
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever another creature enters the battlefield under your control, Herd Gnarr gets +2/+2 until end of turn.
 Set/Rarity:     Time Spiral Common
+
+Name:   Heretic's Punishment
+Cost:   4R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     {3}{R}: Choose target creature or player, then put the top three cards of your library into your graveyard.  Heretic's Punishment deals damage to that creature or player equal to the highest converted mana cost among those cards.
+Set/Rarity:     Innistrad Rare
 
 Name:   Heritage Druid
 Cost:   G
@@ -1673,8 +1711,7 @@ Name:   Hide // Seek (Seek)
 Cost:   WB
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles his or her library.
+Rules Text:     Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles his or her library.
 Set/Rarity:     Dissension Rare
 
 Name:   Hideous End
@@ -1691,6 +1728,13 @@ Pow/Tgh:
 Rules Text:     All creatures get -2/-2 until end of turn.
 Splice onto Arcane {3}{B}{B} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 Set/Rarity:     Champions of Kamigawa Uncommon
+
+Name:   Hideous Visage
+Cost:   2B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Creatures you control gain intimidate until end of turn. (Each of those creatures can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Set/Rarity:     Magic 2012 Common
 
 Name:   Hidetsugu's Second Rite
 Cost:   3R
@@ -1763,7 +1807,7 @@ Cost:   3UU
 Type:   Legendary Creature — Human Ninja
 Pow/Tgh:    (3/4)
 Rules Text:     Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
-Whenever Higure deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.
+Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.
 {2}: Target Ninja creature is unblockable this turn.
 Set/Rarity:     Betrayers of Kamigawa Rare
 
@@ -1819,6 +1863,14 @@ Pow/Tgh:
 Rules Text:     Target player reveals his or her hand. That player discards all nonland cards with the same name as another card in his or her hand.
 Set/Rarity:     Odyssey Rare
 
+Name:   Hinterland Harbor
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Hinterland Harbor enters the battlefield tapped unless you control a Forest or an Island.
+{T}: Add {G} or {U} to your mana pool.
+Set/Rarity:     Innistrad Rare
+
 Name:   Hipparion
 Cost:   1W
 Type:   Creature — Horse
@@ -1872,7 +1924,7 @@ Name:   Hissing Iguanar
 Cost:   2R
 Type:   Creature — Lizard
 Pow/Tgh:    (3/1)
-Rules Text:     Whenever another creature is put into a graveyard from the battlefield, you may have Hissing Iguanar deal 1 damage to target player.
+Rules Text:     Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player.
 Set/Rarity:     Shards of Alara Common
 
 Name:   Hissing Miasma
@@ -1893,8 +1945,7 @@ Name:   Hit // Run (Run)
 Cost:   3RG
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Attacking creatures you control get +1/+0 until end of turn for each other attacking creature.
+Rules Text:     Attacking creatures you control get +1/+0 until end of turn for each other attacking creature.
 Set/Rarity:     Dissension Uncommon
 
 Name:   Hive Mind
@@ -1947,7 +1998,7 @@ Type:   Creature — Dragon
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
 When Hoarding Dragon enters the battlefield, you may search your library for an artifact card, exile it, then shuffle your library.
-When Hoarding Dragon is put into a graveyard from the battlefield, you may put the exiled card into its owner's hand.
+When Hoarding Dragon dies, you may put the exiled card into its owner's hand.
 Set/Rarity:     Magic 2011 Rare
 
 Name:   Hobble
@@ -2029,6 +2080,13 @@ Rules Text:     At the beginning of your upkeep, if you have no cards in hand, e
 At the beginning of each opponent's upkeep, if that player has no cards in hand, he or she loses 2 life.
 Set/Rarity:     Shadowmoor Rare
 
+Name:   Hollowhenge Scavenger
+Cost:   3GG
+Type:   Creature — Elemental
+Pow/Tgh:    (4/5)
+Rules Text:     Morbid — When Hollowhenge Scavenger enters the battlefield, if a creature died this turn, you gain 5 life.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Hollowsage
 Cost:   3B
 Type:   Creature — Merfolk Wizard
@@ -2107,6 +2165,14 @@ Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Each player gains control of all creatures he or she owns.
 Set/Rarity:     Magic: The Gathering-Commander Rare
 
+Name:   Homicidal Brute
+Cost:   
+Color:  Red
+Type:   Creature — Human Mutant
+Pow/Tgh:    (5/1)
+Rules Text:     At the beginning of your end step, if Homicidal Brute didn't attack this turn, tap Homicidal Brute, then transform it.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Homing Sliver
 Cost:   2R
 Type:   Creature — Sliver
@@ -2120,7 +2186,7 @@ Cost:   4RR
 Type:   Legendary Creature — Human Monk
 Pow/Tgh:    (4/4)
 Rules Text:     Homura, Human Ascendant can't block.
-When Homura is put into a graveyard from the battlefield, return it to the battlefield flipped.
+When Homura dies, return it to the battlefield flipped.
 Set/Rarity:     Saviors of Kamigawa Rare
 
 Name:   Homura, Human Ascendant (Homura's Essence)
@@ -2177,7 +2243,7 @@ Cost:   1W
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     White creatures you control get +1/+1.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Honor the Fallen
 Cost:   1W
@@ -2396,7 +2462,7 @@ Name:   Hornet Harasser
 Cost:   2BB
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (2/2)
-Rules Text:     When Hornet Harasser is put into a graveyard from the battlefield, target creature gets -2/-2 until end of turn.
+Rules Text:     When Hornet Harasser dies, target creature gets -2/-2 until end of turn.
 Set/Rarity:     Lorwyn Common
 
 Name:   Hornet Queen
@@ -2573,6 +2639,24 @@ Pow/Tgh:    (2/2)
 Rules Text:     When Howling Wolf enters the battlefield, you may search your library for up to three cards named Howling Wolf, reveal them, and put them into your hand. If you do, shuffle your library.
 Set/Rarity:     Mercadian Masques Common
 
+Name:   Howlpack Alpha
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (3/3)
+Rules Text:     Other Werewolf and Wolf creatures you control get +1/+1.
+At the beginning of your end step, put a 2/2 green Wolf creature token onto the battlefield.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Howlpack Alpha.
+Set/Rarity:     Innistrad Rare
+
+Name:   Howlpack of Estwald
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (4/6)
+Rules Text:     At the beginning of each upkeep, if a player cast two or more spells last turn, transform Howlpack of Estwald.
+Set/Rarity:     Innistrad Common
+
 Name:   Howltooth Hollow
 Cost:   
 Type:   Land
@@ -2664,7 +2748,7 @@ Cost:   4W
 Type:   Creature — Spirit
 Pow/Tgh:    (2/3)
 Rules Text:     Flying
-Soulshift 4 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
+Soulshift 4 (When this creature dies, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Hundred-Talon Strike
@@ -2773,6 +2857,13 @@ Rules Text:     When Hunter of Eyeblights enters the battlefield, put a +1/+1 co
 {2}{B}, {T}: Destroy target creature with a counter on it.
 Set/Rarity:     Lorwyn Uncommon
 
+Name:   Hunter's Insight
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose target creature you control. Whenever that creature deals combat damage to a player or planeswalker this turn, draw that many cards.
+Set/Rarity:     Magic 2012 Uncommon
+
 Name:   Hunters' Feast
 Cost:   3G
 Type:   Sorcery
@@ -2814,7 +2905,7 @@ Cost:   2G
 Type:   Creature — Bird Beast
 Pow/Tgh:    (3/2)
 Rules Text:     Echo {2}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Hunting Moa enters the battlefield or is put into a graveyard from the battlefield, put a +1/+1 counter on target creature.
+When Hunting Moa enters the battlefield or dies, put a +1/+1 counter on target creature.
 Set/Rarity:     Archenemy Uncommon, Time Spiral "Timeshifted" Special, Urza's Destiny Uncommon
 
 Name:   Hunting Pack
@@ -2860,7 +2951,7 @@ Name:   Hurloon Shaman
 Cost:   1RR
 Type:   Creature — Minotaur Shaman
 Pow/Tgh:    (2/3)
-Rules Text:     When Hurloon Shaman is put into a graveyard from the battlefield, each player sacrifices a land.
+Rules Text:     When Hurloon Shaman dies, each player sacrifices a land.
 Set/Rarity:     Weatherlight Uncommon
 
 Name:   Hurly-Burly
@@ -2953,10 +3044,10 @@ Set/Rarity:     Masters Edition Uncommon, Fallen Empires Common, Fallen Empires 
 
 Name:   Hypergenesis
 Cost:   
+Color:  Green
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Hypergenesis is green.
-Suspend 3—{1}{G}{G} (Rather than cast this card from your hand, pay {1}{G}{G} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Rules Text:     Suspend 3—{1}{G}{G} (Rather than cast this card from your hand, pay {1}{G}{G} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Starting with you, each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield.
 Set/Rarity:     Time Spiral Rare
 
@@ -3008,6 +3099,13 @@ Pow/Tgh:
 Rules Text:     {W}, Discard a card: Prevent the next 3 damage that would be dealt to target creature or player this turn.
 {W}, Sacrifice Hypochondria: Prevent the next 3 damage that would be dealt to target creature or player this turn.
 Set/Rarity:     Torment Uncommon
+
+Name:   Hysterical Blindness
+Cost:   2U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures your opponents control get -4/-0 until end of turn.
+Set/Rarity:     Innistrad Common
 
 Name:   Hystrodon
 Cost:   4G

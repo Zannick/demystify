@@ -267,7 +267,7 @@ Cost:   3RR
 Type:   Creature — Phoenix
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-When Magma Phoenix is put into a graveyard from the battlefield, it deals 3 damage to each creature and each player.
+When Magma Phoenix dies, it deals 3 damage to each creature and each player.
 {3}{R}{R}: Return Magma Phoenix from your graveyard to your hand.
 Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare
 
@@ -290,7 +290,7 @@ Name:   Magma Spray
 Cost:   R
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Magma Spray deals 2 damage to target creature. If that creature would be put into a graveyard this turn, exile it instead.
+Rules Text:     Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.
 Set/Rarity:     Shards of Alara Common
 
 Name:   Magma Vein
@@ -411,7 +411,7 @@ Name:   Magus of the Arena
 Cost:   4RR
 Type:   Creature — Human Wizard
 Pow/Tgh:    (5/5)
-Rules Text:     {3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Each of those creatures deals damage equal to its power to the other.
+Rules Text:     {3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Planar Chaos Rare
 
 Name:   Magus of the Bazaar
@@ -530,12 +530,26 @@ Rules Text:     Flying
 {3}{W}{W}, Sacrifice Major Teroh: Exile all black creatures.
 Set/Rarity:     Torment Rare
 
+Name:   Make a Wish
+Cost:   3G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return two cards at random from your graveyard to your hand.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Makeshift Mannequin
 Cost:   3B
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return target creature card from your graveyard to the battlefield with a mannequin counter on it. For as long as that creature has a mannequin counter on it, it has "When this creature becomes the target of a spell or ability, sacrifice it."
 Set/Rarity:     Archenemy Uncommon, Lorwyn Uncommon
+
+Name:   Makeshift Mauler
+Cost:   3U
+Type:   Creature — Zombie Horror
+Pow/Tgh:    (4/5)
+Rules Text:     As an additional cost to cast Makeshift Mauler, exile a creature card from your graveyard.
+Set/Rarity:     Innistrad Common
 
 Name:   Makindi Griffin
 Cost:   3W
@@ -716,7 +730,7 @@ Cost:   1U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell unless its controller pays {3}.
-Set/Rarity:     Magic 2011 Common, Ninth Edition Common, Eighth Edition Common, Battle Royale Box Set Common, Stronghold Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Ninth Edition Common, Eighth Edition Common, Battle Royale Box Set Common, Stronghold Common
 
 Name:   Mana Leech
 Cost:   2B
@@ -838,7 +852,7 @@ Cost:   3R
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a player taps a land for mana, Manabarbs deals 1 damage to that player.
-Set/Rarity:     Magic 2010 Rare, Tenth Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2010 Rare, Tenth Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
 Name:   Manabond
 Cost:   G
@@ -878,6 +892,13 @@ Type:   Artifact Creature — Construct
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Add {1} to your mana pool.
 Set/Rarity:     Tempest Common
+
+Name:   Manalith
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add one mana of any color to your mana pool.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Manamorphose
 Cost:   1(R/G)
@@ -939,7 +960,7 @@ Cost:   2R
 Type:   Creature — Human Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     When Manic Vandal enters the battlefield, destroy target artifact.
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common
 
 Name:   Manipulate Fate
 Cost:   1U
@@ -955,6 +976,23 @@ Type:   Legendary Creature — Spirit
 Pow/Tgh:    (1/2)
 Rules Text:     {1}{R}: Switch each creature's power and toughness until end of turn.
 Set/Rarity:     Betrayers of Kamigawa Rare
+
+Name:   Manor Gargoyle
+Cost:   5
+Type:   Artifact Creature — Gargoyle
+Pow/Tgh:    (4/4)
+Rules Text:     Defender
+Manor Gargoyle is indestructible as long as it has defender.
+{1}: Until end of turn, Manor Gargoyle loses defender and gains flying.
+Set/Rarity:     Innistrad Rare
+
+Name:   Manor Skeleton
+Cost:   1B
+Type:   Creature — Skeleton
+Pow/Tgh:    (1/1)
+Rules Text:     Haste
+{1}{B}: Regenerate Manor Skeleton.
+Set/Rarity:     Innistrad Common
 
 Name:   Manriki-Gusari
 Cost:   2
@@ -1076,7 +1114,7 @@ Cost:   2(R/W)G
 Type:   Creature — Cat Warrior
 Pow/Tgh:    (2/4)
 Rules Text:     Double strike
-Set/Rarity:     Alara Reborn Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Alara Reborn Uncommon
 
 Name:   Maritime Guard
 Cost:   1U
@@ -1090,10 +1128,10 @@ Cost:   5UU
 Type:   Creature — Leviathan
 Pow/Tgh:    (8/8)
 Rules Text:     Marjhan doesn't untap during your untap step.
-Marjhan can't attack unless defending player controls an Island.
-When you control no Islands, sacrifice Marjhan.
 {U}{U}, Sacrifice a creature: Untap Marjhan. Activate this ability only during your upkeep.
+Marjhan can't attack unless defending player controls an Island.
 {U}{U}: Marjhan gets -1/-0 until end of turn and deals 1 damage to target attacking creature without flying.
+When you control no Islands, sacrifice Marjhan.
 Set/Rarity:     Masters Edition II Rare, Homelands Rare
 
 Name:   Mark of Asylum
@@ -1148,9 +1186,16 @@ Name:   Marker Beetles
 Cost:   1GG
 Type:   Creature — Insect
 Pow/Tgh:    (2/3)
-Rules Text:     When Marker Beetles is put into a graveyard from the battlefield, target creature gets +1/+1 until end of turn.
+Rules Text:     When Marker Beetles dies, target creature gets +1/+1 until end of turn.
 {2}, Sacrifice Marker Beetles: Draw a card.
 Set/Rarity:     Urza's Destiny Common
+
+Name:   Markov Patrician
+Cost:   2B
+Type:   Creature — Vampire
+Pow/Tgh:    (3/1)
+Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Set/Rarity:     Innistrad Common
 
 Name:   Maro
 Cost:   2GG
@@ -1388,6 +1433,14 @@ Rules Text:     Flash
 Tapped creatures you control can block as though they were untapped.
 Set/Rarity:     Champions of Kamigawa Rare
 
+Name:   Mask of Avacyn
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +1/+2 and has hexproof. (It can't be the target of spells or abilities your opponents control.)
+Equip {3}
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Mask of Intolerance
 Cost:   2
 Type:   Artifact
@@ -1485,7 +1538,7 @@ Cost:   3BBB
 Type:   Creature — Wurm
 Pow/Tgh:    (6/5)
 Rules Text:     When Massacre Wurm enters the battlefield, creatures your opponents control get -2/-2 until end of turn.
-Whenever a creature an opponent controls is put into a graveyard from the battlefield, that player loses 2 life.
+Whenever a creature an opponent controls dies, that player loses 2 life.
 Set/Rarity:     Mirrodin Besieged Mythic Rare
 
 Name:   Master Apothecary
@@ -1516,6 +1569,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     When Master Splicer enters the battlefield, put a 3/3 colorless Golem artifact creature token onto the battlefield.
 Golem creatures you control get +1/+1.
 Set/Rarity:     New Phyrexia Uncommon
+
+Name:   Master Thief
+Cost:   2UU
+Type:   Creature — Human Rogue
+Pow/Tgh:    (2/2)
+Rules Text:     When Master Thief enters the battlefield, gain control of target artifact for as long as you control Master Thief.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Master Transmuter
 Cost:   3U
@@ -1640,12 +1700,26 @@ Rules Text:     When Maul Splicer enters the battlefield, put two 3/3 colorless 
 Golem creatures you control have trample.
 Set/Rarity:     New Phyrexia Common
 
+Name:   Mausoleum Guard
+Cost:   3W
+Type:   Creature — Human Scout
+Pow/Tgh:    (2/2)
+Rules Text:     When Mausoleum Guard dies, put two 1/1 white Spirit creature tokens with flying onto the battlefield.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Mausoleum Turnkey
 Cost:   3B
 Type:   Creature — Ogre Rogue
 Pow/Tgh:    (3/2)
 Rules Text:     When Mausoleum Turnkey enters the battlefield, return target creature card of an opponent's choice from your graveyard to your hand.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
+
+Name:   Maw of the Mire
+Cost:   4B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target land. You gain 4 life.
+Set/Rarity:     Innistrad Common
 
 Name:   Mawcor
 Cost:   3UU
@@ -1669,6 +1743,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, put a +1/+1 counter on each creature you control if you control a creature with power 5 or greater. Then you gain 10 life if you control a creature with power 10 or greater. Then you win the game if you control a creature with power 20 or greater.
 Set/Rarity:     Alara Reborn Rare
+
+Name:   Mayor of Avabruck
+Cost:   1G
+Type:   Creature — Human Advisor Werewolf
+Pow/Tgh:    (1/1)
+Rules Text:     Other Human creatures you control get +1/+1.
+At the beginning of each upkeep, if no spells were cast last turn, transform Mayor of Avabruck.
+Set/Rarity:     Innistrad Rare
 
 Name:   Maze of Ith
 Cost:   
@@ -1918,6 +2000,14 @@ Rules Text:     Target player puts the top four cards of his or her library into
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
 Set/Rarity:     Shadowmoor Common
 
+Name:   Memory's Journey
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target player shuffles up to three target cards from his or her graveyard into his or her library.
+Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Menacing Ogre
 Cost:   3RR
 Type:   Creature — Ogre
@@ -1970,6 +2060,13 @@ Rules Text:     Put the top two cards of your library into your graveyard.
 
 Draw a card.
 Set/Rarity:     Judgment Common
+
+Name:   Mentor of the Meek
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever another creature with power 2 or less enters the battlefield under your control, you may pay {1}. If you do, draw a card.
+Set/Rarity:     Innistrad Rare
 
 Name:   Mephidross Vampire
 Cost:   4BB
@@ -2063,6 +2160,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     When Merchant of Secrets enters the battlefield, draw a card.
 Set/Rarity:     Eighth Edition Common, Legions Common
 
+Name:   Merciless Predator
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (3/2)
+Rules Text:     At the beginning of each upkeep, if a player cast two or more spells last turn, transform Merciless Predator.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Mercurial Kite
 Cost:   3U
 Type:   Creature — Bird
@@ -2090,7 +2195,14 @@ Cost:   1U
 Type:   Creature — Merfolk Rogue
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Draw a card, then discard a card.
-Set/Rarity:     Magic 2010 Common, Tenth Edition Common, Seventh Edition Uncommon, Exodus Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common, Tenth Edition Common, Seventh Edition Uncommon, Exodus Common
+
+Name:   Merfolk Mesmerist
+Cost:   1U
+Type:   Creature — Merfolk Wizard
+Pow/Tgh:    (1/2)
+Rules Text:     {U}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Merfolk Observer
 Cost:   1U
@@ -2119,7 +2231,7 @@ Name:   Merfolk Seer
 Cost:   2U
 Type:   Creature — Merfolk Wizard
 Pow/Tgh:    (2/2)
-Rules Text:     When Merfolk Seer is put into a graveyard from the battlefield, you may pay {1}{U}. If you do, draw a card.
+Rules Text:     When Merfolk Seer dies, you may pay {1}{U}. If you do, draw a card.
 Set/Rarity:     Mirage Common
 
 Name:   Merfolk Skyscout
@@ -2258,7 +2370,7 @@ Cost:   1WW
 Type:   Creature — Human Druid
 Pow/Tgh:    (0/2)
 Rules Text:     Whenever you cast an enchantment spell, you may draw a card.
-Set/Rarity:     Magic 2010 Rare, Planar Chaos Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2010 Rare, Planar Chaos Rare
 
 Name:   Mesa Falcon
 Cost:   1W
@@ -2467,6 +2579,13 @@ Rules Text:     Enchant creature
 Enchanted creature has "{B}: This creature gets +1/+1 until end of turn."
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Midnight Haunting
+Cost:   2W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Midnight Ritual
 Cost:   X2B
 Type:   Sorcery
@@ -2550,7 +2669,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +2/+2 and gains flying until end of turn.
-Set/Rarity:     Duel Decks: Knights vs. Dragons Common, Magic 2011 Common, Duel Decks: Elspeth vs. Tezzeret Common
+Set/Rarity:     Magic 2012 Common, Duel Decks: Knights vs. Dragons Common, Magic 2011 Common, Duel Decks: Elspeth vs. Tezzeret Common
 
 Name:   Mijae Djinn
 Cost:   RRR
@@ -2558,6 +2677,15 @@ Type:   Creature — Djinn
 Pow/Tgh:    (6/3)
 Rules Text:     Whenever Mijae Djinn attacks, flip a coin. If you lose the flip, remove Mijae Djinn from combat and tap it.
 Set/Rarity:     Masters Edition IV Rare, Revised Edition Rare, Arabian Nights Rare
+
+Name:   Mikaeus, the Lunarch
+Cost:   XW
+Type:   Legendary Creature — Human Cleric
+Pow/Tgh:    (0/0)
+Rules Text:     Mikaeus, the Lunarch enters the battlefield with X +1/+1 counters on it.
+{T}: Put a +1/+1 counter on Mikaeus.
+{T}, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.
+Set/Rarity:     Innistrad Mythic Rare, From the Vault: Legends Mythic Rare
 
 Name:   Mikokoro, Center of the Sea
 Cost:   
@@ -2608,7 +2736,7 @@ Name:   Mimic Vat
 Cost:   3
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Imprint — Whenever a nontoken creature is put into a graveyard from the battlefield, you may exile that card. If you do, return each other card exiled with Mimic Vat to its owner's graveyard.
+Rules Text:     Imprint — Whenever a nontoken creature dies, you may exile that card. If you do, return each other card exiled with Mimic Vat to its owner's graveyard.
 {3}, {T}: Put a token onto the battlefield that's a copy of the exiled card. It gains haste. Exile it at the beginning of the next end step.
 Set/Rarity:     Scars of Mirrodin Rare
 
@@ -2669,7 +2797,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 You control enchanted creature.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon
 
 Name:   Mind Extraction
 Cost:   2B
@@ -2745,7 +2873,7 @@ Cost:   2B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards two cards.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Starter 1999 Common, Portal Second Age Common, Portal Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Starter 1999 Common, Portal Second Age Common, Portal Common
 
 Name:   Mind Shatter
 Cost:   XBB
@@ -2797,6 +2925,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards X cards at random.
 Set/Rarity:     Masters Edition III Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+
+Name:   Mind Unbound
+Cost:   4UU
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, put a lore counter on Mind Unbound, then draw a card for each lore counter on Mind Unbound.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Mind Warp
 Cost:   X3B
@@ -2918,6 +3053,14 @@ Pow/Tgh:
 Rules Text:     Join forces — Starting with you, each player may pay any amount of mana. Each player draws X cards, where X is the total amount of mana paid this way.
 Set/Rarity:     Magic: The Gathering-Commander Rare
 
+Name:   Mindshrieker
+Cost:   1U
+Type:   Creature — Spirit Bird
+Pow/Tgh:    (1/1)
+Rules Text:     Flying
+{2}: Target player puts the top card of his or her library into his or her graveyard. Mindshrieker gets +X/+X until end of turn, where X is that card's converted mana cost.
+Set/Rarity:     Innistrad Rare
+
 Name:   Mindslaver
 Cost:   6
 Type:   Legendary Artifact
@@ -2929,7 +3072,7 @@ Name:   Mindslicer
 Cost:   2BB
 Type:   Creature — Horror
 Pow/Tgh:    (4/3)
-Rules Text:     When Mindslicer is put into a graveyard from the battlefield, each player discards his or her hand.
+Rules Text:     When Mindslicer dies, each player discards his or her hand.
 Set/Rarity:     Ninth Edition Rare, Odyssey Rare
 
 Name:   Mindstab
@@ -3277,6 +3420,14 @@ Pow/Tgh:
 Rules Text:     {T}, Sacrifice Mirror of Fate: Choose up to seven face-up exiled cards you own. Exile all the cards from your library, then put the chosen cards on top of your library.
 Set/Rarity:     Magic 2010 Rare
 
+Name:   Mirror-Mad Phantasm
+Cost:   3UU
+Type:   Creature — Spirit
+Pow/Tgh:    (5/1)
+Rules Text:     Flying
+{1}{U}: Mirror-Mad Phantasm's owner shuffles it into his or her library. If that player does, he or she reveals cards from the top of that library until a card named Mirror-Mad Phantasm is revealed. The player puts that card onto the battlefield and all other cards revealed this way into his or her graveyard.
+Set/Rarity:     Innistrad Mythic Rare
+
 Name:   Mirror-Sigil Sergeant
 Cost:   5W
 Type:   Creature — Rhino Soldier
@@ -3611,7 +3762,7 @@ Cost:   3W
 Type:   Creature — Griffin
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-When Mistmoon Griffin is put into a graveyard from the battlefield, exile Mistmoon Griffin, then return the top creature card of your graveyard to the battlefield.
+When Mistmoon Griffin dies, exile Mistmoon Griffin, then return the top creature card of your graveyard to the battlefield.
 Set/Rarity:     Weatherlight Uncommon
 
 Name:   Mistral Charger
@@ -3657,7 +3808,7 @@ Name:   Mitotic Slime
 Cost:   4G
 Type:   Creature — Ooze
 Pow/Tgh:    (4/4)
-Rules Text:     When Mitotic Slime is put into a graveyard from the battlefield, put two 2/2 green Ooze creature tokens onto the battlefield. They have "When this creature is put into a graveyard, put two 1/1 green Ooze creature tokens onto the battlefield."
+Rules Text:     When Mitotic Slime dies, put two 2/2 green Ooze creature tokens onto the battlefield. They have "When this creature dies, put two 1/1 green Ooze creature tokens onto the battlefield."
 Set/Rarity:     Magic 2011 Rare
 
 Name:   Mizzium Transreliquat
@@ -3689,6 +3840,14 @@ Pow/Tgh:    (0/4)
 Rules Text:     Defender
 When Mnemonic Wall enters the battlefield, you may return target instant or sorcery card from your graveyard to your hand.
 Set/Rarity:     Rise of the Eldrazi Common
+
+Name:   Moan of the Unhallowed
+Cost:   2BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put two 2/2 black Zombie creature tokens onto the battlefield.
+Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Moaning Spirit
 Cost:   2B
@@ -3805,7 +3964,7 @@ Name:   Mogg Infestation
 Cost:   3RR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy all creatures target player controls. For each creature put into a graveyard this way, put two 1/1 red Goblin creature tokens onto the battlefield under that player's control.
+Rules Text:     Destroy all creatures target player controls. For each creature that died this way, put two 1/1 red Goblin creature tokens onto the battlefield under that player's control.
 Set/Rarity:     Stronghold Rare
 
 Name:   Mogg Jailer
@@ -3864,7 +4023,7 @@ Cost:   1R
 Type:   Creature — Goblin Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     Echo {1}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Mogg War Marshal enters the battlefield or is put into a graveyard from the battlefield, put a 1/1 red Goblin creature token onto the battlefield.
+When Mogg War Marshal enters the battlefield or dies, put a 1/1 red Goblin creature token onto the battlefield.
 Set/Rarity:     Duel Decks: Elves vs. Goblins Common, Time Spiral Common
 
 Name:   Moggcatcher
@@ -3927,6 +4086,14 @@ Enchanted creature gets +3/+3.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
+Name:   Moldgraf Monstrosity
+Cost:   4GGG
+Type:   Creature — Insect
+Pow/Tgh:    (8/8)
+Rules Text:     Trample
+When Moldgraf Monstrosity dies, exile it, then return two creature cards at random from your graveyard to the battlefield.
+Set/Rarity:     Innistrad Rare
+
 Name:   Mole Worms
 Cost:   2B
 Type:   Creature — Worm
@@ -3957,7 +4124,7 @@ Cost:   4R
 Type:   Creature — Phoenix
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-When Molten Firebird is put into a graveyard from the battlefield, return it to the battlefield under its owner's control at the beginning of the next end step and you skip your next draw step.
+When Molten Firebird dies, return it to the battlefield under its owner's control at the beginning of the next end step and you skip your next draw step.
 {4}{R}: Exile Molten Firebird.
 Set/Rarity:     Planar Chaos Rare
 
@@ -4055,6 +4222,13 @@ Pow/Tgh:
 Rules Text:     Return Molting Skin to its owner's hand: Regenerate target creature.
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
+Name:   Moment of Heroism
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +2/+2 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
+Set/Rarity:     Innistrad Common
+
 Name:   Moment of Silence
 Cost:   W
 Type:   Instant
@@ -4107,7 +4281,7 @@ Name:   Mongrel Pack
 Cost:   3G
 Type:   Creature — Hound
 Pow/Tgh:    (4/1)
-Rules Text:     When Mongrel Pack is put into a graveyard from the battlefield during combat, put four 1/1 green Hound creature tokens onto the battlefield.
+Rules Text:     When Mongrel Pack dies during combat, put four 1/1 green Hound creature tokens onto the battlefield.
 Set/Rarity:     Tempest Rare
 
 Name:   Monk Idealist
@@ -4130,6 +4304,13 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     When a creature enters the battlefield, sacrifice Monkey Cage and put X 2/2 green Ape creature tokens onto the battlefield, where X is that creature's converted mana cost.
 Set/Rarity:     Mercadian Masques Rare
+
+Name:   Monomania
+Cost:   3BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player chooses a card in his or her hand and discards the rest.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Mons's Goblin Raiders
 Cost:   R
@@ -4175,6 +4356,13 @@ Pow/Tgh:    (4/4)
 Rules Text:     Monstrous Hound can't attack unless you control more lands than defending player.
 Monstrous Hound can't block unless you control more lands than attacking player.
 Set/Rarity:     Exodus Rare, Promo set for Gatherer Rare
+
+Name:   Moon Heron
+Cost:   3U
+Type:   Creature — Spirit Bird
+Pow/Tgh:    (3/2)
+Rules Text:     Flying
+Set/Rarity:     Innistrad Common
 
 Name:   Moon Sprite
 Cost:   1G
@@ -4239,15 +4427,22 @@ Cost:   3W
 Type:   Creature — Spirit
 Pow/Tgh:    (1/4)
 Rules Text:     Sacrifice Moonlit Strider: Target creature you control gains protection from the color of your choice until end of turn.
-Soulshift 3 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
+Soulshift 3 (When this creature dies, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Common
 
 Name:   Moonlit Wake
 Cost:   2W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, you gain 1 life.
+Rules Text:     Whenever a creature dies, you gain 1 life.
 Set/Rarity:     Mercadian Masques Uncommon
+
+Name:   Moonmist
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Transform all Humans. Prevent all combat damage that would be dealt this turn by creatures other than Werewolves and Wolves. (Only double-faced cards can be transformed.)
+Set/Rarity:     Innistrad Common
 
 Name:   Moonring Island
 Cost:   
@@ -4287,6 +4482,14 @@ Type:   Creature — Human Knight
 Pow/Tgh:    (3/3)
 Rules Text:     Trample
 Set/Rarity:     Time Spiral "Timeshifted" Special, Arabian Nights Common, Arabian Nights Common
+
+Name:   Moorland Haunt
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{W}{U}, {T}, Exile a creature card from your graveyard: Put a 1/1 white Spirit creature token with flying onto the battlefield.
+Set/Rarity:     Innistrad Rare
 
 Name:   Morale
 Cost:   1WW
@@ -4361,7 +4564,7 @@ Cost:   2B
 Type:   Creature — Frog
 Pow/Tgh:    (2/2)
 Rules Text:     Sacrifice Morgue Toad: Add {U}{R} to your mana pool.
-Set/Rarity:     Planeshift Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Planeshift Common
 
 Name:   Morinfen
 Cost:   3BB
@@ -4399,6 +4602,13 @@ Pow/Tgh:    (2/3)
 Rules Text:     When Moriok Scavenger enters the battlefield, you may return target artifact creature card from your graveyard to your hand.
 Set/Rarity:     Mirrodin Common
 
+Name:   Morkrut Banshee
+Cost:   3BB
+Type:   Creature — Spirit
+Pow/Tgh:    (4/4)
+Rules Text:     Morbid — When Morkrut Banshee enters the battlefield, if a creature died this turn, target creature gets -4/-4 until end of turn.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Morningtide
 Cost:   1W
 Type:   Sorcery
@@ -4412,7 +4622,7 @@ Type:   Creature — Vampire
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
 At the beginning of your upkeep, you lose 1 life.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Morphling
 Cost:   3UU
@@ -4499,7 +4709,7 @@ Cost:   3B
 Type:   Creature — Hound
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever Mortis Dogs attacks, it gets +2/+0 until end of turn.
-When Mortis Dogs is put into a graveyard from the battlefield, target player loses life equal to its power.
+When Mortis Dogs dies, target player loses life equal to its power.
 Set/Rarity:     New Phyrexia Common
 
 Name:   Mortivore
@@ -4620,7 +4830,7 @@ Cost:
 Type:   Basic Land — Mountain
 Pow/Tgh:    
 Rules Text:     R
-Set/Rarity:     Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Arabian Nights Common, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Arabian Nights Common, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Mountain Bandit
 Cost:   R
@@ -4719,7 +4929,7 @@ Cost:
 Type:   Snow Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
-{4}{S}i}, {T}, Sacrifice Mouth of Ronom: Mouth of Ronom deals 4 damage to target creature. ({S}i} can be paid with one mana from a snow permanent.)
+{4}{S}, {T}, Sacrifice Mouth of Ronom: Mouth of Ronom deals 4 damage to target creature. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Mox Diamond
@@ -4836,7 +5046,7 @@ Name:   Mudbutton Torchrunner
 Cost:   2R
 Type:   Creature — Goblin Warrior
 Pow/Tgh:    (1/1)
-Rules Text:     When Mudbutton Torchrunner is put into a graveyard from the battlefield, it deals 3 damage to target creature or player.
+Rules Text:     When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player.
 Set/Rarity:     Duel Decks: Knights vs. Dragons Common, Duel Decks: Elves vs. Goblins Common, Lorwyn Common
 
 Name:   Muddle the Mixture
@@ -4876,7 +5086,7 @@ Cost:   1G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.
-Set/Rarity:     Stronghold Common
+Set/Rarity:     Innistrad Common, Stronghold Common
 
 Name:   Mulldrifter
 Cost:   4U
@@ -4922,7 +5132,7 @@ Cost:   4GG
 Type:   Legendary Creature — Elemental
 Pow/Tgh:    (*/*)
 Rules Text:     Shroud (This permanent can't be the target of spells or abilities.)
-Multani's power and toughness are each equal to the total number of cards in all players' hands.
+Multani, Maro-Sorcerer's power and toughness are each equal to the total number of cards in all players' hands.
 Set/Rarity:     Urza's Legacy Rare
 
 Name:   Mundungu
@@ -4953,11 +5163,19 @@ Pow/Tgh:    (3/2)
 Rules Text:     Whenever Murasa Pyromancer or another Ally enters the battlefield under your control, you may have Murasa Pyromancer deal damage to target creature equal to the number of Allies you control.
 Set/Rarity:     Zendikar Uncommon
 
+Name:   Murder of Crows
+Cost:   3UU
+Type:   Creature — Bird
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+Whenever another creature dies, you may draw a card. If you do, discard a card.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Murderous Betrayal
 Cost:   BBB
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     {B}{B}, Pay half your life rounded up: Destroy target nonblack creature. It can't be regenerated.
+Rules Text:     {B}{B}, Pay half your life, rounded up: Destroy target nonblack creature. It can't be regenerated.
 Set/Rarity:     Eighth Edition Rare, Nemesis Rare
 
 Name:   Murderous Redcap
@@ -4965,7 +5183,7 @@ Cost:   2(B/R)(B/R)
 Type:   Creature — Goblin Assassin
 Pow/Tgh:    (2/2)
 Rules Text:     When Murderous Redcap enters the battlefield, it deals damage equal to its power to target creature or player.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Uncommon
 
 Name:   Murderous Spoils
@@ -5087,7 +5305,7 @@ Name:   Mycoid Shepherd
 Cost:   1GGW
 Type:   Creature — Fungus
 Pow/Tgh:    (5/4)
-Rules Text:     Whenever Mycoid Shepherd or another creature you control with power 5 or greater is put into a graveyard from the battlefield, you may gain 5 life.
+Rules Text:     Whenever Mycoid Shepherd or another creature you control with power 5 or greater dies, you may gain 5 life.
 Set/Rarity:     Alara Reborn Rare
 
 Name:   Mycologist
@@ -5247,7 +5465,7 @@ Name:   Myr Moonvessel
 Cost:   1
 Type:   Artifact Creature — Myr
 Pow/Tgh:    (1/1)
-Rules Text:     When Myr Moonvessel is put into a graveyard from the battlefield, add {1} to your mana pool.
+Rules Text:     When Myr Moonvessel dies, add {1} to your mana pool.
 Set/Rarity:     Darksteel Common
 
 Name:   Myr Propagator
@@ -5284,7 +5502,7 @@ Name:   Myr Retriever
 Cost:   2
 Type:   Artifact Creature — Myr
 Pow/Tgh:    (1/1)
-Rules Text:     When Myr Retriever is put into a graveyard from the battlefield, return another target artifact card from your graveyard to your hand.
+Rules Text:     When Myr Retriever dies, return another target artifact card from your graveyard to your hand.
 Set/Rarity:     Mirrodin Uncommon
 
 Name:   Myr Servitor
@@ -5298,7 +5516,7 @@ Name:   Myr Sire
 Cost:   2
 Type:   Artifact Creature — Myr
 Pow/Tgh:    (1/1)
-Rules Text:     When Myr Sire is put into a graveyard from the battlefield, put a 1/1 colorless Myr artifact creature token onto the battlefield.
+Rules Text:     When Myr Sire dies, put a 1/1 colorless Myr artifact creature token onto the battlefield.
 Set/Rarity:     Mirrodin Besieged Common
 
 Name:   Myr Superion

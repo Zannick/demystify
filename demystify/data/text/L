@@ -6,6 +6,13 @@ Rules Text:     Buyback {4} (You may pay an additional {4} as you cast this spel
 Put a 1/1 black Rat creature token onto the battlefield.
 Set/Rarity:     Stronghold Common
 
+Name:   Laboratory Maniac
+Cost:   2U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     If you would draw a card while your library has no cards in it, you win the game instead.
+Set/Rarity:     Innistrad Rare
+
 Name:   Labyrinth Minotaur
 Cost:   3U
 Type:   Creature — Minotaur
@@ -207,6 +214,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     Flying
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Lantern Spirit
+Cost:   2U
+Type:   Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+{U}: Return Lantern Spirit to its owner's hand.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Lantern of Insight
 Cost:   1
 Type:   Artifact
@@ -343,7 +358,6 @@ Cost:   2BB
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a permanent other than Last Laugh is put into a graveyard from the battlefield, Last Laugh deals 1 damage to each creature and each player.
-
 When no creatures are on the battlefield, sacrifice Last Laugh.
 Set/Rarity:     Torment Rare
 
@@ -422,7 +436,7 @@ Cost:   4R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Lava Axe deals 5 damage to target player.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Starter 1999 Common, Urza's Legacy Common, Portal Second Age Common, Portal Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Starter 1999 Common, Urza's Legacy Common, Portal Second Age Common, Portal Common
 
 Name:   Lava Blister
 Cost:   1R
@@ -603,7 +617,7 @@ Cost:   2G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.
-Set/Rarity:     Mirrodin Besieged Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Mirrodin Besieged Uncommon
 
 Name:   Lead-Belly Chimera
 Cost:   4
@@ -931,7 +945,7 @@ Set/Rarity:     Eighth Edition Uncommon, Prophecy Uncommon
 
 Name:   Lesser Werewolf
 Cost:   3B
-Type:   Creature — Human Wolf
+Type:   Creature — Werewolf
 Pow/Tgh:    (2/4)
 Rules Text:     {B}: If Lesser Werewolf's power is 1 or more, it gets -1/-0 until end of turn and put a -0/-1 counter on target creature blocking or blocked by Lesser Werewolf. Activate this ability only during the declare blockers step.
 Set/Rarity:     Masters Edition III Common, Legends Uncommon
@@ -974,7 +988,7 @@ Cost:   2UU
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures you control have flying.
-Set/Rarity:     Magic 2010 Uncommon, Ninth Edition Uncommon, Seventh Edition Uncommon, Urza's Legacy Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2010 Uncommon, Ninth Edition Uncommon, Seventh Edition Uncommon, Urza's Legacy Uncommon
 
 Name:   Ley Druid
 Cost:   2G
@@ -1177,7 +1191,7 @@ Name:   Liege of the Hollows
 Cost:   2GG
 Type:   Creature — Spirit
 Pow/Tgh:    (3/4)
-Rules Text:     When Liege of the Hollows is put into a graveyard from the battlefield, each player may pay any amount of mana. Then each player who paid mana this way puts that many 1/1 green Squirrel creature tokens onto the battlefield.
+Rules Text:     When Liege of the Hollows dies, each player may pay any amount of mana. Then each player who paid mana this way puts that many 1/1 green Squirrel creature tokens onto the battlefield.
 Set/Rarity:     Weatherlight Rare
 
 Name:   Liege of the Pit
@@ -1209,8 +1223,7 @@ Name:   Life // Death (Death)
 Cost:   1B
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.
+Rules Text:     Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.
 Set/Rarity:     Apocalypse Uncommon, Apocalypse Uncommon
 
 Name:   Life // Death (Life)
@@ -1295,7 +1308,7 @@ Name:   Lifeline
 Cost:   5
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, if another creature is on the battlefield, return the first card to the battlefield under its owner's control at the beginning of the next end step.
+Rules Text:     Whenever a creature dies, if another creature is on the battlefield, return the first card to the battlefield under its owner's control at the beginning of the next end step.
 Set/Rarity:     Urza's Saga Rare
 
 Name:   Lifelink
@@ -1304,7 +1317,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common
 
 Name:   Lifesmith
 Cost:   1G
@@ -1449,7 +1462,7 @@ Name:   Lightning Coils
 Cost:   3
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Whenever a nontoken creature you control is put into a graveyard from the battlefield, put a charge counter on Lightning Coils.
+Rules Text:     Whenever a nontoken creature you control dies, put a charge counter on Lightning Coils.
 At the beginning of your upkeep, if Lightning Coils has five or more charge counters on it, remove all of them from it and put that many 3/1 red Elemental creature tokens with haste onto the battlefield. Exile them at the beginning of the next end step.
 Set/Rarity:     Mirrodin Rare
 
@@ -1482,7 +1495,7 @@ Cost:   3R
 Type:   Creature — Elemental
 Pow/Tgh:    (4/1)
 Rules Text:     Haste (This creature can attack and {T} as soon as it comes under your control.)
-Set/Rarity:     Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Battle Royale Box Set Common, Tempest Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Battle Royale Box Set Common, Tempest Common
 
 Name:   Lightning Greaves
 Cost:   2
@@ -1497,7 +1510,7 @@ Cost:   RW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Lightning Helix deals 3 damage to target creature or player and you gain 3 life.
-Set/Rarity:     Planechase Uncommon, Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Planechase Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Lightning Hounds
 Cost:   2RR
@@ -1590,6 +1603,15 @@ Rules Text:     +1: Target player discards a card.
 -8: Put all creature cards from all graveyards onto the battlefield under your control.
 Set/Rarity:     Magic 2011 Mythic Rare, Duel Decks: Garruk vs. Liliana Mythic Rare, Magic 2010 Mythic Rare, Lorwyn Rare
 
+Name:   Liliana of the Veil
+Cost:   1BB
+Type:   Planeswalker — Liliana
+Loyalty:    (3)
+Rules Text:     +1: Each player discards a card.
+-2: Target player sacrifices a creature.
+-6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.
+Set/Rarity:     Innistrad Mythic Rare
+
 Name:   Liliana's Caress
 Cost:   1B
 Type:   Enchantment
@@ -1617,7 +1639,7 @@ Name:   Lim-Dûl the Necromancer
 Cost:   5BB
 Type:   Legendary Creature — Human Wizard
 Pow/Tgh:    (4/4)
-Rules Text:     Whenever a creature an opponent controls is put into a graveyard from the battlefield, you may pay {1}{B}. If you do, return that card to the battlefield under your control. If it's a creature, it's a Zombie in addition to its other creature types.
+Rules Text:     Whenever a creature an opponent controls dies, you may pay {1}{B}. If you do, return that card to the battlefield under your control. If it's a creature, it's a Zombie in addition to its other creature types.
 {1}{B}: Regenerate target Zombie.
 Set/Rarity:     Time Spiral Rare
 
@@ -1657,7 +1679,7 @@ Name:   Lim-Dûl's Vault
 Cost:   UB
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Look at the top five cards of your library. As many times as you choose, you may pay 1 life, put those cards on the bottom of your library, then look at the top five cards of your library. Then shuffle your library and put the last cards you looked at this way on top of it in any order.
+Rules Text:     Look at the top five cards of your library. As many times as you choose, you may pay 1 life, put those cards on the bottom of your library in any order, then look at the top five cards of your library. Then shuffle your library and put the last cards you looked at this way on top of it in any order.
 Set/Rarity:     Masters Edition Uncommon, Alliances Uncommon
 
 Name:   Limestone Golem
@@ -1713,7 +1735,7 @@ Cost:   3B
 Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Uncommon
 
 Name:   Linvala, Keeper of Silence
@@ -1833,10 +1855,10 @@ Set/Rarity:     Rise of the Eldrazi Common
 
 Name:   Living End
 Cost:   
+Color:  Black
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Living End is black.
-Suspend 3—{2}{B}{B} (Rather than cast this card from your hand, pay {2}{B}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Rules Text:     Suspend 3—{2}{B}{B} (Rather than cast this card from your hand, pay {2}{B}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield.
 Set/Rarity:     Time Spiral Rare
 
@@ -1963,7 +1985,7 @@ Cost:   G
 Type:   Creature — Elf Druid
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Add {G} to your mana pool.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Duel Decks: Elves vs. Goblins Common, Tenth Edition Common, Ninth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Duel Decks: Elves vs. Goblins Common, Tenth Edition Common, Ninth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Llanowar Empath
 Cost:   3G
@@ -2044,7 +2066,7 @@ Cost:   W
 Type:   Creature — Cat
 Pow/Tgh:    (1/1)
 Rules Text:     Loam Lion gets +1/+2 as long as you control a Forest.
-Set/Rarity:     Worldwake Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Worldwake Uncommon
 
 Name:   Loamdragger Giant
 Cost:   4(R/G)(R/G)(R/G)
@@ -2086,7 +2108,7 @@ Cost:   4
 Type:   Artifact Creature — Scarecrow
 Pow/Tgh:    (2/2)
 Rules Text:     Wither (This deals damage to creatures in the form of -1/-1 counters.)
-When Lockjaw Snapper is put into a graveyard from the battlefield, put a -1/-1 counter on each creature with a -1/-1 counter on it.
+When Lockjaw Snapper dies, put a -1/-1 counter on each creature with a -1/-1 counter on it.
 Set/Rarity:     Shadowmoor Uncommon
 
 Name:   Locust Miser
@@ -2233,6 +2255,16 @@ Pow/Tgh:    (*/*)
 Rules Text:     Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.
 Set/Rarity:     Alara Reborn Mythic Rare
 
+Name:   Lord of Lineage
+Cost:   
+Color:  Black
+Type:   Creature — Vampire
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+Other Vampire creatures you control get +2/+2.
+{T}: Put a 2/2 black Vampire creature token with flying onto the battlefield.
+Set/Rarity:     Innistrad Rare
+
 Name:   Lord of Shatterskull Pass
 Cost:   3R
 Type:   Creature — Minotaur Shaman
@@ -2270,6 +2302,13 @@ Rules Text:     Other Zombie creatures get +1/+1.
 {1}{B}, {T}: Return target Zombie card from your graveyard to your hand.
 Set/Rarity:     Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Planeshift Rare
 
+Name:   Lord of the Unreal
+Cost:   UU
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     Illusion creatures you control get +1/+1 and have hexproof. (They can't be the targets of spells or abilities your opponents control.)
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Lore Broker
 Cost:   1U
 Type:   Creature — Human Rogue
@@ -2304,7 +2343,7 @@ Cost:   2WW
 Type:   Creature — Human Wizard
 Pow/Tgh:    (3/3)
 Rules Text:     Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
-When Lost Auramancers is put into a graveyard from the battlefield, if it had no time counters on it, you may search your library for an enchantment card and put it onto the battlefield. If you do, shuffle your library.
+When Lost Auramancers dies, if it had no time counters on it, you may search your library for an enchantment card and put it onto the battlefield. If you do, shuffle your library.
 Set/Rarity:     Future Sight Uncommon
 
 Name:   Lost Hours
@@ -2343,6 +2382,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated. Its controller may exile three cards from his or her graveyard for that player to ignore this effect until end of turn.
 Set/Rarity:     Judgment Common
+
+Name:   Lost in the Mist
+Cost:   3UU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell. Return target permanent to its owner's hand.
+Set/Rarity:     Innistrad Common
 
 Name:   Lotus Bloom
 Cost:   
@@ -2453,7 +2499,7 @@ Type:   Creature — Elephant Cleric
 Pow/Tgh:    (4/4)
 Rules Text:     When Loxodon Hierarch enters the battlefield, you gain 4 life.
 {G}{W}, Sacrifice Loxodon Hierarch: Regenerate each creature you control.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Ravnica: City of Guilds Rare
 
 Name:   Loxodon Mender
 Cost:   5W
@@ -2571,6 +2617,22 @@ Pow/Tgh:    (3/3)
 Rules Text:     Flying
 Set/Rarity:     Future Sight Common
 
+Name:   Ludevic's Abomination
+Cost:   
+Color:  Blue
+Type:   Creature — Lizard Horror
+Pow/Tgh:    (13/13)
+Rules Text:     Trample
+Set/Rarity:     Innistrad Rare
+
+Name:   Ludevic's Test Subject
+Cost:   1U
+Type:   Creature — Lizard
+Pow/Tgh:    (0/3)
+Rules Text:     Defender
+{1}{U}: Put a hatchling counter on Ludevic's Test Subject. Then if there are five or more hatchling counters on it, remove all of them and transform it.
+Set/Rarity:     Innistrad Rare
+
 Name:   Lull
 Cost:   1G
 Type:   Instant
@@ -2593,6 +2655,14 @@ Type:   Creature — Satyr Beast
 Pow/Tgh:    (5/4)
 Rules Text:     All creatures have forestwalk.
 Set/Rarity:     Mercadian Masques Uncommon
+
+Name:   Lumberknot
+Cost:   2GG
+Type:   Creature — Treefolk
+Pow/Tgh:    (1/1)
+Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Whenever a creature dies, put a +1/+1 counter on Lumberknot.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Lumengrid Augur
 Cost:   3U
@@ -2711,9 +2781,9 @@ Name:   Lure
 Cost:   1GG
 Type:   Enchantment — Aura
 Pow/Tgh:    
-Rules Text:     Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+Rules Text:     Enchant creature
 All creatures able to block enchanted creature do so.
-Set/Rarity:     Tenth Edition Uncommon, Champions of Kamigawa Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Mercadian Masques Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Ice Age Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Tenth Edition Uncommon, Champions of Kamigawa Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Mercadian Masques Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Ice Age Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Lure of Prey
 Cost:   2GG
@@ -2737,6 +2807,14 @@ Type:   Creature — Beast
 Pow/Tgh:    (2/3)
 Rules Text:     Lurker can't be the target of spells unless it attacked or blocked this turn.
 Set/Rarity:     The Dark Rare
+
+Name:   Lurking Crocodile
+Cost:   2G
+Type:   Creature — Crocodile
+Pow/Tgh:    (2/2)
+Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
+Islandwalk (This creature is unblockable as long as defending player controls an Island.)
+Set/Rarity:     Magic 2012 Common
 
 Name:   Lurking Evil
 Cost:   BBB

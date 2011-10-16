@@ -22,12 +22,19 @@ Rules Text:     +2: Each player draws a card.
 -10: Target player puts the top twenty cards of his or her library into his or her graveyard.
 Set/Rarity:     Magic 2011 Mythic Rare, Magic 2010 Mythic Rare, Duel Decks: Jace vs. Chandra Mythic Rare, Lorwyn Rare
 
+Name:   Jace's Archivist
+Cost:   1UU
+Type:   Creature — Vedalken Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {U}, {T}: Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Jace's Erasure
 Cost:   1U
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever you draw a card, you may have target player put the top card of his or her library into his or her graveyard.
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common
 
 Name:   Jace's Ingenuity
 Cost:   3UU
@@ -35,6 +42,15 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Draw three cards.
 Set/Rarity:     Magic 2011 Uncommon
+
+Name:   Jace, Memory Adept
+Cost:   3UU
+Type:   Planeswalker — Jace
+Loyalty:    (4)
+Rules Text:     +1: Draw a card. Target player puts the top card of his or her library into his or her graveyard.
+0: Target player puts the top ten cards of his or her library into his or her graveyard.
+-7: Any number of target players each draw twenty cards.
+Set/Rarity:     Magic 2012 Mythic Rare
 
 Name:   Jace, the Mind Sculptor
 Cost:   2UU
@@ -94,6 +110,13 @@ Type:   Creature — Leech
 Pow/Tgh:    (5/5)
 Rules Text:     Green spells you cast cost {G} more to cast.
 Set/Rarity:     Invasion Rare
+
+Name:   Jade Mage
+Cost:   1G
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/1)
+Rules Text:     {2}{G}: Put a 1/1 green Saproling creature token onto the battlefield.
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Magic 2012 Uncommon
 
 Name:   Jade Monolith
 Cost:   4
@@ -377,7 +400,7 @@ Type:   Creature — Zombie
 Pow/Tgh:    (2/4)
 Rules Text:     Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 Islandcycling {2}, swampcycling {2} ({2}, Discard this card: Search your library for an Island or Swamp card, reveal it, and put it into your hand. Then shuffle your library.)
-Set/Rarity:     Alara Reborn Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Alara Reborn Common
 
 Name:   Jhoira of the Ghitu
 Cost:   1UR
@@ -689,7 +712,7 @@ Cost:   3GGG
 Type:   Legendary Creature — Dragon Spirit
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Jugan, the Rising Star is put into a graveyard from the battlefield, you may distribute five +1/+1 counters among any number of target creatures.
+When Jugan, the Rising Star dies, you may distribute five +1/+1 counters among any number of target creatures.
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Juggernaut
@@ -757,7 +780,7 @@ Name:   Jund Sojourners
 Cost:   BRG
 Type:   Creature — Viashino Shaman
 Pow/Tgh:    (3/2)
-Rules Text:     When you cycle Jund Sojourners or it's put into a graveyard from the battlefield, you may have it deal 1 damage to target creature or player.
+Rules Text:     When you cycle Jund Sojourners or it dies, you may have it deal 1 damage to target creature or player.
 Cycling {2}{R} ({2}{R}, Discard this card: Draw a card.)
 Set/Rarity:     Alara Reborn Common
 
@@ -789,7 +812,7 @@ Name:   Jungle Patrol
 Cost:   3G
 Type:   Creature — Human Soldier
 Pow/Tgh:    (3/2)
-Rules Text:     {1}{G}, {T}: Put a 0/1 green Wall creature token with defender named Wood onto the battlefield.
+Rules Text:     {1}{G}, {T}:  Put a 0/1 green Wall creature token with defender named Wood onto the battlefield.
 Sacrifice a token named Wood: Add {R} to your mana pool.
 Set/Rarity:     Mirage Rare
 
@@ -799,7 +822,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Jungle Shrine enters the battlefield tapped.
 {T}: Add {R}, {G}, or {W} to your mana pool.
-Set/Rarity:     Shards of Alara Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Shards of Alara Uncommon
 
 Name:   Jungle Troll
 Cost:   1RG
@@ -851,7 +874,7 @@ Cost:   3
 Type:   Artifact Creature — Bird
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
-When Junk Diver is put into a graveyard from the battlefield, return another target artifact card from your graveyard to your hand.
+When Junk Diver dies, return another target artifact card from your graveyard to your hand.
 Set/Rarity:     Urza's Destiny Rare
 
 Name:   Junk Golem
@@ -981,5 +1004,5 @@ Cost:   2W
 Type:   Creature — Giant
 Pow/Tgh:    (3/3)
 Rules Text:     Cumulative upkeep {W} or {U} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-When Jötun Owl Keeper is put into a graveyard from the battlefield, put a 1/1 white Bird creature token with flying onto the battlefield for each age counter on it.
+When Jötun Owl Keeper dies, put a 1/1 white Bird creature token with flying onto the battlefield for each age counter on it.
 Set/Rarity:     Coldsnap Uncommon

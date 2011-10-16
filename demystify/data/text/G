@@ -160,6 +160,14 @@ Rules Text:     Trample
 Cumulative upkeep—Pay 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 Set/Rarity:     Weatherlight Rare
 
+Name:   Gallows Warden
+Cost:   4W
+Type:   Creature — Spirit
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Other Spirit creatures you control get +0/+1.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Galvanic Arc
 Cost:   2R
 Type:   Enchantment — Aura
@@ -176,6 +184,15 @@ Pow/Tgh:
 Rules Text:     Galvanic Blast deals 2 damage to target creature or player.
 Metalcraft — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts.
 Set/Rarity:     Scars of Mirrodin Common
+
+Name:   Galvanic Juggernaut
+Cost:   4
+Type:   Artifact Creature — Juggernaut
+Pow/Tgh:    (5/5)
+Rules Text:     Galvanic Juggernaut attacks each turn if able.
+Galvanic Juggernaut doesn't untap during your untap step.
+Whenever another creature dies, untap Galvanic Juggernaut.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Galvanic Key
 Cost:   2
@@ -225,7 +242,7 @@ Name:   Gamekeeper
 Cost:   3G
 Type:   Creature — Elf
 Pow/Tgh:    (2/2)
-Rules Text:     When Gamekeeper is put into a graveyard from the battlefield, you may exile it. If you do, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and put all other cards revealed this way into your graveyard.
+Rules Text:     When Gamekeeper dies, you may exile it. If you do, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and put all other cards revealed this way into your graveyard.
 Set/Rarity:     Urza's Destiny Uncommon
 
 Name:   Gang of Elk
@@ -273,6 +290,15 @@ Rules Text:     Defender (This creature can't attack.)
 {3}: Until end of turn, Gargoyle Sentinel loses defender and gains flying.
 Set/Rarity:     Magic 2011 Uncommon
 
+Name:   Garruk Relentless
+Cost:   3G
+Type:   Planeswalker — Garruk
+Loyalty:    (3)
+Rules Text:     When Garruk Relentless has two or fewer loyalty counters on him, transform him.
+0: Garruk Relentless deals 3 damage to target creature. That creature deals damage equal to its power to him.
+0: Put a 2/2 green Wolf creature token onto the battlefield.
+Set/Rarity:     Innistrad Mythic Rare
+
 Name:   Garruk Wildspeaker
 Cost:   2GG
 Type:   Planeswalker — Garruk
@@ -287,7 +313,16 @@ Cost:   GG
 Type:   Creature — Beast
 Pow/Tgh:    (3/2)
 Rules Text:     Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common
+
+Name:   Garruk's Horde
+Cost:   5GG
+Type:   Creature — Beast
+Pow/Tgh:    (7/7)
+Rules Text:     Trample
+Play with the top card of your library revealed.
+You may cast the top card of your library if it's a creature card. (Do this only any time you could cast that creature card. You still pay the spell's costs.)
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Garruk's Packleader
 Cost:   4G
@@ -296,12 +331,31 @@ Pow/Tgh:    (4/4)
 Rules Text:     Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card.
 Set/Rarity:     Magic 2011 Uncommon
 
+Name:   Garruk, Primal Hunter
+Cost:   2GGG
+Type:   Planeswalker — Garruk
+Loyalty:    (3)
+Rules Text:     +1: Put a 3/3 green Beast creature token onto the battlefield.
+-3: Draw cards equal to the greatest power among creatures you control.
+-6: Put a 6/6 green Wurm creature token onto the battlefield for each land you control.
+Set/Rarity:     Magic 2012 Mythic Rare
+
+Name:   Garruk, the Veil-Cursed
+Cost:   
+Color:  Black/Green
+Type:   Planeswalker — Garruk
+Pow/Tgh:    
+Rules Text:     +1: Put a 1/1 black Wolf creature token with deathtouch onto the battlefield.
+-1: Sacrifice a creature. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle your library.
+-3: Creatures you control gain trample and get +X/+X until end of turn, where X is the number of creature cards in your graveyard.
+Set/Rarity:     Innistrad Mythic Rare
+
 Name:   Garza Zol, Plague Queen
 Cost:   4UBR
 Type:   Legendary Creature — Vampire
 Pow/Tgh:    (5/5)
 Rules Text:     Flying, haste
-Whenever a creature dealt damage by Garza Zol, Plague Queen this turn is put into a graveyard, put a +1/+1 counter on Garza Zol.
+Whenever a creature dealt damage by Garza Zol, Plague Queen this turn dies, put a +1/+1 counter on Garza Zol.
 Whenever Garza Zol deals combat damage to a player, you may draw a card.
 Set/Rarity:     Coldsnap Rare
 
@@ -354,7 +408,7 @@ Name:   Gathan Raiders
 Cost:   3RR
 Type:   Creature — Human Warrior
 Pow/Tgh:    (3/3)
-Rules Text:     Hellbent — Gathan Raiders gets +2/+2 if you have no cards in hand.
+Rules Text:     Hellbent — Gathan Raiders gets +2/+2 as long as you have no cards in hand.
 Morph—Discard a card. (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Set/Rarity:     Archenemy Common, Future Sight Common
 
@@ -381,6 +435,22 @@ Rules Text:     Gatherer of Graces gets +1/+1 for each Aura attached to it.
 Sacrifice an Aura: Regenerate Gatherer of Graces.
 Set/Rarity:     Guildpact Uncommon
 
+Name:   Gatstaf Howler
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (3/3)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Gatstaf Howler.
+Set/Rarity:     Innistrad Uncommon
+
+Name:   Gatstaf Shepherd
+Cost:   1G
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (2/2)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Gatstaf Shepherd.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Gauntlet of Might
 Cost:   4
 Type:   Artifact
@@ -404,6 +474,14 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {5}, Sacrifice Gauntlets of Chaos: Exchange control of target artifact, creature, or land you control and target permanent an opponent controls that shares one of those types with it. If those permanents are exchanged this way, destroy all Auras attached to them.
 Set/Rarity:     Masters Edition III Rare, Fifth Edition Rare, Chronicles Rare, Legends Rare
+
+Name:   Gavony Township
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{2}{G}{W}, {T}: Put a +1/+1 counter on each creature you control.
+Set/Rarity:     Innistrad Rare
 
 Name:   Gaze of Adamaro
 Cost:   2RR
@@ -436,6 +514,38 @@ Rules Text:     ({(b/g)} can be paid with either {B} or {G}.)
 Regenerate target creature. At end of combat, destroy all creatures that blocked or were blocked by that creature this turn.
 Set/Rarity:     Ravnica: City of Guilds Common
 
+Name:   Geist of Saint Traft
+Cost:   1WU
+Type:   Legendary Creature — Spirit Cleric
+Pow/Tgh:    (2/2)
+Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Whenever Geist of Saint Traft attacks, put a 4/4 white Angel creature token with flying onto the battlefield tapped and attacking. Exile that token at end of combat.
+Set/Rarity:     Innistrad Mythic Rare
+
+Name:   Geist-Honored Monk
+Cost:   3WW
+Type:   Creature — Human Monk
+Pow/Tgh:    (*/*)
+Rules Text:     Vigilance
+Geist-Honored Monk's power and toughness are each equal to the number of creatures you control.
+When Geist-Honored Monk enters the battlefield, put two 1/1 white Spirit creature tokens with flying onto the battlefield.
+Set/Rarity:     Innistrad Rare
+
+Name:   Geistcatcher's Rig
+Cost:   6
+Type:   Artifact Creature — Construct
+Pow/Tgh:    (4/5)
+Rules Text:     When Geistcatcher's Rig enters the battlefield, you may have it deal 4 damage to target creature with flying.
+Set/Rarity:     Innistrad Uncommon
+
+Name:   Geistflame
+Cost:   R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Geistflame deals 1 damage to target creature or player.
+Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Common
+
 Name:   Gelatinous Genesis
 Cost:   XXG
 Type:   Sorcery
@@ -457,7 +567,7 @@ Type:   Snow Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature can't block, and its activated abilities can't be activated.
-{S}i}: Enchanted creature gains defender until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+{S}: Enchanted creature gains defender until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Common
 
 Name:   Gemhide Sliver
@@ -864,7 +974,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library.
-Set/Rarity:     Dissension Uncommon
+Set/Rarity:     Innistrad Uncommon, Dissension Uncommon
 
 Name:   Ghost Ship
 Cost:   2UU
@@ -974,6 +1084,15 @@ Pow/Tgh:
 Rules Text:     Black and/or red permanents and spells are colorless sources of damage.
 Set/Rarity:     Ice Age Rare
 
+Name:   Ghostly Possession
+Cost:   2W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has flying.
+Prevent all combat damage that would be dealt to and dealt by enchanted creature.
+Set/Rarity:     Innistrad Common
+
 Name:   Ghostly Prison
 Cost:   2W
 Type:   Enchantment
@@ -1015,7 +1134,7 @@ Name:   Ghostway
 Cost:   2W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Exile each creature you control. Return those cards to the battlefield under their owners' control at the beginning of the next end step.
+Rules Text:     Exile each creature you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.
 Set/Rarity:     Guildpact Rare
 
 Name:   Ghoul's Feast
@@ -1025,12 +1144,33 @@ Pow/Tgh:
 Rules Text:     Target creature gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.
 Set/Rarity:     Mercadian Masques Uncommon
 
+Name:   Ghoulcaller's Bell
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Each player puts the top card of his or her library into his or her graveyard.
+Set/Rarity:     Innistrad Common
+
+Name:   Ghoulcaller's Chant
+Cost:   B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Choose one — Return target creature card from your graveyard to your hand; or return two target Zombie cards from your graveyard to your hand.
+Set/Rarity:     Innistrad Common
+
+Name:   Ghoulraiser
+Cost:   1BB
+Type:   Creature — Zombie
+Pow/Tgh:    (2/2)
+Rules Text:     When Ghoulraiser enters the battlefield, return a Zombie card at random from your graveyard to your hand.
+Set/Rarity:     Innistrad Common
+
 Name:   Giant Albatross
 Cost:   1U
 Type:   Creature — Bird
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
-When Giant Albatross is put into a graveyard from the battlefield, you may pay {1}{U}. If you do, for each creature that dealt damage to Giant Albatross this turn, destroy that creature unless its controller pays 2 life. A creature destroyed this way can't be regenerated.
+When Giant Albatross dies, you may pay {1}{U}. If you do, for each creature that dealt damage to Giant Albatross this turn, destroy that creature unless its controller pays 2 life. A creature destroyed this way can't be regenerated.
 Set/Rarity:     Homelands Common, Homelands Common
 
 Name:   Giant Ambush Beetle
@@ -1149,7 +1289,7 @@ Cost:   3G
 Type:   Creature — Spider
 Pow/Tgh:    (2/4)
 Rules Text:     Reach (This creature can block creatures with flying.)
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Portal Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Portal Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Giant Strength
 Cost:   RR
@@ -1223,7 +1363,7 @@ Cost:   3B
 Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-Soulshift 3 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
+Soulshift 3 (When this creature dies, you may return target Spirit card with converted mana cost 3 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Gideon Jura
@@ -1233,7 +1373,21 @@ Loyalty:    (6)
 Rules Text:     +2: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.
 -2: Destroy target tapped creature.
 0: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
-Set/Rarity:     Rise of the Eldrazi Mythic Rare
+Set/Rarity:     Magic 2012 Mythic Rare, Rise of the Eldrazi Mythic Rare
+
+Name:   Gideon's Avenger
+Cost:   1WW
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever a creature an opponent controls becomes tapped, put a +1/+1 counter on Gideon's Avenger.
+Set/Rarity:     Magic 2012 Rare
+
+Name:   Gideon's Lawkeeper
+Cost:   W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     {W}, {T}: Tap target creature.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Gift of Estates
 Cost:   1W
@@ -1415,14 +1569,14 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
 {T}: Add {W} or {U} to your mana pool.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Glacial Plating
 Cost:   2WW
 Type:   Snow Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Cumulative upkeep {S}i} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S}i} can be paid with one mana from a snow permanent.)
+Cumulative upkeep {S} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S} can be paid with one mana from a snow permanent.)
 Enchanted creature gets +3/+3 for each age counter on Glacial Plating.
 Set/Rarity:     Coldsnap Uncommon
 
@@ -1456,6 +1610,13 @@ Type:   Creature — Beast
 Pow/Tgh:    (4/4)
 Rules Text:     Whenever a player casts a blue spell, Glade Gnarr gets +2/+2 until end of turn.
 Set/Rarity:     Apocalypse Common
+
+Name:   Gladecover Scout
+Cost:   G
+Type:   Creature — Elf Scout
+Pow/Tgh:    (1/1)
+Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Set/Rarity:     Magic 2012 Common
 
 Name:   Glamer Spinners
 Cost:   4(W/U)
@@ -1566,7 +1727,7 @@ Type:   Creature — Faerie Wizard
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
 {U}, Sacrifice Glen Elendra Archmage: Counter target noncreature spell.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Rare
 
 Name:   Glen Elendra Liege
@@ -1706,7 +1867,7 @@ Cost:   BGG
 Type:   Legendary Creature — Zombie Elf
 Pow/Tgh:    (3/3)
 Rules Text:     First strike, deathtouch
-Whenever a creature an opponent controls is put into a graveyard from the battlefield, you may return target artifact card from your graveyard to your hand.
+Whenever a creature an opponent controls dies, you may return target artifact card from your graveyard to your hand.
 Set/Rarity:     Mirrodin Besieged Mythic Rare
 
 Name:   Glistener Elf
@@ -1922,7 +2083,7 @@ Cost:   G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Glyph of Reincarnation only after combat.
-Destroy all creatures that were blocked by target Wall this turn. They can't be regenerated. For each creature put into a graveyard this way, put a creature card from the graveyard of the player who controlled that creature the last time it became blocked by that Wall onto the battlefield under its owner's control.
+Destroy all creatures that were blocked by target Wall this turn. They can't be regenerated. For each creature that died this way, put a creature card from the graveyard of the player who controlled that creature the last time it became blocked by that Wall onto the battlefield under its owner's control.
 Set/Rarity:     Legends Common
 
 Name:   Gnarled Effigy
@@ -1968,6 +2129,14 @@ Pow/Tgh:    (5/4)
 Rules Text:     Sacrifice an artifact: Gnathosaur gains trample until end of turn.
 Set/Rarity:     Mirrodin Besieged Common
 
+Name:   Gnaw to the Bone
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     You gain 2 life for each creature card in your graveyard.
+Flashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Common
+
 Name:   Go for the Throat
 Cost:   1B
 Type:   Instant
@@ -2000,8 +2169,8 @@ Name:   Goblin Arsonist
 Cost:   R
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (1/1)
-Rules Text:     When Goblin Arsonist is put into a graveyard from the battlefield, you may have it deal 1 damage to target creature or player.
-Set/Rarity:     Rise of the Eldrazi Common
+Rules Text:     When Goblin Arsonist dies, you may have it deal 1 damage to target creature or player.
+Set/Rarity:     Magic 2012 Common, Rise of the Eldrazi Common
 
 Name:   Goblin Artillery
 Cost:   1RR
@@ -2038,6 +2207,13 @@ Type:   Creature — Goblin Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     {R}: Goblin Balloon Brigade gains flying until end of turn.
 Set/Rarity:     Magic 2011 Common, Ninth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+
+Name:   Goblin Bangchuckers
+Cost:   2RR
+Type:   Creature — Goblin Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     {T}: Flip a coin. If you win the flip, Goblin Bangchuckers deals 2 damage to target creature or player. If you lose the flip, Goblin Bangchuckers deals 2 damage to itself.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Goblin Berserker
 Cost:   3R
@@ -2148,7 +2324,7 @@ Type:   Creature — Goblin
 Pow/Tgh:    (2/2)
 Rules Text:     Haste (This creature can attack and {T} as soon as it comes under your control.)
 Other Goblin creatures you control get +1/+1 and have haste.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Goblin Chirurgeon
 Cost:   R
@@ -2239,6 +2415,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     When Goblin Firebug leaves the battlefield, sacrifice a land.
 Set/Rarity:     Legions Common
 
+Name:   Goblin Fireslinger
+Cost:   R
+Type:   Creature — Goblin Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     {T}: Goblin Fireslinger deals 1 damage to target player.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Goblin Firestarter
 Cost:   R
 Type:   Creature — Goblin
@@ -2279,7 +2462,7 @@ Name:   Goblin Gardener
 Cost:   3R
 Type:   Creature — Goblin
 Pow/Tgh:    (2/1)
-Rules Text:     When Goblin Gardener is put into a graveyard from the battlefield, destroy target land.
+Rules Text:     When Goblin Gardener dies, destroy target land.
 Set/Rarity:     Seventh Edition Common, Urza's Destiny Common
 
 Name:   Goblin Gaveleer
@@ -2326,7 +2509,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     As an additional cost to cast Goblin Grenade, sacrifice a Goblin.
 Goblin Grenade deals 5 damage to target creature or player.
-Set/Rarity:     Masters Edition Uncommon, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+Set/Rarity:     Magic 2012 Uncommon, Masters Edition Uncommon, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
 
 Name:   Goblin Grenadiers
 Cost:   3R
@@ -2412,14 +2595,14 @@ Cost:   4RR
 Type:   Creature — Goblin Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     Echo {4}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Goblin Marshal enters the battlefield or is put into a graveyard from the battlefield, put two 1/1 red Goblin creature tokens onto the battlefield.
+When Goblin Marshal enters the battlefield or dies, put two 1/1 red Goblin creature tokens onto the battlefield.
 Set/Rarity:     Urza's Destiny Rare
 
 Name:   Goblin Masons
 Cost:   1R
 Type:   Creature — Goblin
 Pow/Tgh:    (2/1)
-Rules Text:     When Goblin Masons is put into a graveyard from the battlefield, destroy target Wall.
+Rules Text:     When Goblin Masons dies, destroy target Wall.
 Set/Rarity:     Urza's Destiny Common
 
 Name:   Goblin Matron
@@ -2478,7 +2661,7 @@ Cost:   1R
 Type:   Creature — Goblin Warrior
 Pow/Tgh:    (2/1)
 Rules Text:     
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Portal Second Age Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Portal Second Age Common
 
 Name:   Goblin Piledriver
 Cost:   1R
@@ -2537,7 +2720,7 @@ Cost:   2R
 Type:   Snow Creature — Goblin Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     {T}: Target creature can't block this turn.
-{S}i}: Goblin Rimerunner gains haste until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+{S}: Goblin Rimerunner gains haste until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Common
 
 Name:   Goblin Ringleader
@@ -2600,7 +2783,7 @@ Cost:   2R
 Type:   Creature — Goblin
 Pow/Tgh:    (1/1)
 Rules Text:     Goblin Sharpshooter doesn't untap during your untap step.
-Whenever a creature is put into a graveyard from the battlefield, untap Goblin Sharpshooter.
+Whenever a creature dies, untap Goblin Sharpshooter.
 {T}: Goblin Sharpshooter deals 1 damage to target creature or player.
 Set/Rarity:     Onslaught Rare
 
@@ -2718,7 +2901,7 @@ Cost:   1R
 Type:   Creature — Goblin Rogue
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Target creature with power 2 or less is unblockable this turn.
-Set/Rarity:     Magic 2011 Common, Rise of the Eldrazi Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Rise of the Eldrazi Common
 
 Name:   Goblin Turncoat
 Cost:   1B
@@ -2761,8 +2944,8 @@ Cost:   1R
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature gets +2/+2 and has haste.
-Set/Rarity:     Zendikar Common
+Enchanted creature gets +2/+2 and has haste. (It can attack and {T} no matter when it came under its controller's control.)
+Set/Rarity:     Magic 2012 Common, Zendikar Common
 
 Name:   Goblin War Strike
 Cost:   R
@@ -2852,7 +3035,7 @@ Cost:   5R
 Type:   Legendary Creature — Human Barbarian
 Pow/Tgh:    (3/3)
 Rules Text:     When Godo, Bandit Warlord enters the battlefield, you may search your library for an Equipment card and put it onto the battlefield. If you do, shuffle your library.
-Whenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, you get an additional combat phase.
+Whenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, there is an additional combat phase.
 Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Gods' Eye, Gate to the Reikai
@@ -3001,7 +3184,7 @@ Name:   Golgari Germination
 Cost:   1BG
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a nontoken creature you control is put into a graveyard from the battlefield, put a 1/1 green Saproling creature token onto the battlefield.
+Rules Text:     Whenever a nontoken creature you control dies, put a 1/1 green Saproling creature token onto the battlefield.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
 Name:   Golgari Grave-Troll
@@ -3048,7 +3231,7 @@ Name:   Golgari Thug
 Cost:   1B
 Type:   Creature — Human Warrior
 Pow/Tgh:    (1/1)
-Rules Text:     When Golgari Thug is put into a graveyard from the battlefield, put target creature card from your graveyard on top of your library.
+Rules Text:     When Golgari Thug dies, put target creature card from your graveyard on top of your library.
 Dredge 4 (If you would draw a card, instead you may put exactly four cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
@@ -3094,6 +3277,13 @@ Type:   Creature — Hound
 Pow/Tgh:    (2/1)
 Rules Text:     Sacrifice Gore Vassal: Put a -1/-1 counter on target creature. Then if that creature's toughness is 1 or greater, regenerate it.
 Set/Rarity:     Mirrodin Besieged Uncommon
+
+Name:   Gorehorn Minotaurs
+Cost:   2RR
+Type:   Creature — Minotaur Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
+Set/Rarity:     Magic 2012 Common
 
 Name:   Goretusk Firebeast
 Cost:   5R
@@ -3246,7 +3436,7 @@ Name:   Graceful Reprieve
 Cost:   1W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     When target creature is put into a graveyard this turn, return that card to the battlefield under its owner's control.
+Rules Text:     When target creature dies this turn, return that card to the battlefield under its owner's control.
 Set/Rarity:     Morningtide Uncommon
 
 Name:   Grafted Exoskeleton
@@ -3274,6 +3464,13 @@ Rules Text:     Equipped creature gets +3/+2.
 Whenever Grafted Wargear becomes unattached from a permanent, sacrifice that permanent.
 Equip {0} ({0}: Attach to target creature you control. Equip only as a sorcery.)
 Set/Rarity:     Fifth Dawn Uncommon
+
+Name:   Grand Abolisher
+Cost:   WW
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/2)
+Rules Text:     During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Grand Arbiter Augustin IV
 Cost:   2WU
@@ -3394,6 +3591,14 @@ Pow/Tgh:
 Rules Text:     Target creature gets -4/-4 until end of turn.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Grasp of Phantoms
+Cost:   3U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put target creature on top of its owner's library.
+Flashback {7}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Grassland Crusader
 Cost:   5W
 Type:   Creature — Human Cleric Soldier
@@ -3416,6 +3621,13 @@ Pow/Tgh:
 Rules Text:     If a creature you control would deal damage to a creature or player, it deals double that damage to that creature or player instead.
 Set/Rarity:     Onslaught Rare
 
+Name:   Grave Bramble
+Cost:   1GG
+Type:   Creature — Plant
+Pow/Tgh:    (3/4)
+Rules Text:     Defender, protection from Zombies
+Set/Rarity:     Innistrad Common
+
 Name:   Grave Consequences
 Cost:   1B
 Type:   Instant
@@ -3436,7 +3648,7 @@ Name:   Grave Pact
 Cost:   1BBB
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Whenever a creature you control is put into a graveyard from the battlefield, each other player sacrifices a creature.
+Rules Text:     Whenever a creature you control dies, each other player sacrifices a creature.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Planechase Rare, Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Stronghold Rare
 
 Name:   Grave Peril
@@ -3476,7 +3688,7 @@ Type:   Creature — Giant
 Pow/Tgh:    (6/6)
 Rules Text:     Deathtouch
 Whenever Grave Titan enters the battlefield or attacks, put two 2/2 black Zombie creature tokens onto the battlefield.
-Set/Rarity:     Magic 2011 Mythic Rare
+Set/Rarity:     Magic 2012 Mythic Rare, Magic 2011 Mythic Rare
 
 Name:   Grave-Shell Scarab
 Cost:   2BGG
@@ -3490,7 +3702,7 @@ Name:   Gravebane Zombie
 Cost:   3B
 Type:   Creature — Zombie
 Pow/Tgh:    (3/2)
-Rules Text:     If Gravebane Zombie would be put into a graveyard from the battlefield, put Gravebane Zombie on top of its owner's library instead.
+Rules Text:     If Gravebane Zombie would die, put Gravebane Zombie on top of its owner's library instead.
 Set/Rarity:     Classic Sixth Edition Uncommon, Mirage Common
 
 Name:   Gravebind
@@ -3514,7 +3726,7 @@ Cost:   3B
 Type:   Creature — Zombie
 Pow/Tgh:    (2/2)
 Rules Text:     When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.
-Set/Rarity:     Magic: The Gathering-Commander Common, Magic 2011 Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Odyssey Common, Seventh Edition Common, Beatdown Box Set Common, Starter 1999 Uncommon, Classic Sixth Edition Common, Tempest Common, Portal Uncommon
+Set/Rarity:     Magic 2012 Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Odyssey Common, Seventh Edition Common, Beatdown Box Set Common, Starter 1999 Uncommon, Classic Sixth Edition Common, Tempest Common, Portal Uncommon
 
 Name:   Gravegouger
 Cost:   2B
@@ -3536,7 +3748,7 @@ Name:   Gravelgill Axeshark
 Cost:   4(U/B)
 Type:   Creature — Merfolk Soldier
 Pow/Tgh:    (3/3)
-Rules Text:     Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Rules Text:     Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Common
 
 Name:   Gravelgill Duo
@@ -3560,8 +3772,8 @@ Cost:   4WW
 Type:   Creature — Gargoyle
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
-Haunt (When this card is put into a graveyard from the battlefield, exile it haunting target creature.)
-When Graven Dominator enters the battlefield or the creature it haunts is put into a graveyard, each other creature becomes 1/1 until end of turn.
+Haunt (When this creature dies, exile it haunting target creature.)
+When Graven Dominator enters the battlefield or the creature it haunts dies, each other creature becomes 1/1 until end of turn.
 Set/Rarity:     Guildpact Rare
 
 Name:   Gravespawn Sovereign
@@ -3577,6 +3789,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, target opponent may exile a card from his or her graveyard. If that player doesn't, you may draw a card.
 Set/Rarity:     Odyssey Rare
+
+Name:   Graveyard Shovel
+Cost:   2
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {2}, {T}: Target player exiles a card from his or her graveyard. If it's a creature card, you gain 2 life.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Gravitational Shift
 Cost:   3UU
@@ -3629,7 +3848,7 @@ Pow/Tgh:
 Rules Text:     Graypelt Refuge enters the battlefield tapped.
 When Graypelt Refuge enters the battlefield, you gain 1 life.
 {T}: Add {G} or {W} to your mana pool.
-Set/Rarity:     Archenemy Uncommon, Zendikar Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Archenemy Uncommon, Zendikar Uncommon
 
 Name:   Grayscaled Gharial
 Cost:   U
@@ -3643,14 +3862,14 @@ Cost:   2G
 Type:   Creature — Antelope
 Pow/Tgh:    (2/2)
 Rules Text:     Landfall — Whenever a land enters the battlefield under your control, you may gain 2 life.
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Zendikar Common
 
 Name:   Grazing Kelpie
 Cost:   3(G/U)
 Type:   Creature — Beast
 Pow/Tgh:    (2/3)
 Rules Text:     {(g/u)}, Sacrifice Grazing Kelpie: Put target card from a graveyard on the bottom of its owner's library.
-Persist (When this creature is put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Common
 
 Name:   Great Defender
@@ -3711,7 +3930,7 @@ Cost:   3GG
 Type:   Creature — Basilisk
 Pow/Tgh:    (3/5)
 Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common
 
 Name:   Greater Forgeling
 Cost:   3RR
@@ -3767,10 +3986,18 @@ Set/Rarity:     Coldsnap Uncommon
 
 Name:   Greater Werewolf
 Cost:   4B
-Type:   Creature — Human Wolf
+Type:   Creature — Werewolf
 Pow/Tgh:    (2/4)
 Rules Text:     At end of combat, put a -0/-2 counter on each creature blocking or blocked by Greater Werewolf.
 Set/Rarity:     Fifth Edition Uncommon, Homelands Common
+
+Name:   Greatsword
+Cost:   3
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +3/+0.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Greed
 Cost:   3B
@@ -3876,7 +4103,7 @@ Cost:   5(B/R)
 Type:   Creature — Horror
 Pow/Tgh:    (8/8)
 Rules Text:     Grief Tyrant enters the battlefield with four -1/-1 counters on it.
-When Grief Tyrant is put into a graveyard from the battlefield, put a -1/-1 counter on target creature for each -1/-1 counter on Grief Tyrant.
+When Grief Tyrant dies, put a -1/-1 counter on target creature for each -1/-1 counter on Grief Tyrant.
 Set/Rarity:     Shadowmoor Uncommon
 
 Name:   Griffin Canyon
@@ -3893,8 +4120,15 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature gets +2/+2 and has flying.
-When enchanted creature is put into a graveyard, put a 2/2 white Griffin creature token with flying onto the battlefield.
-Set/Rarity:     Duel Decks: Knights vs. Dragons Uncommon, Time Spiral Uncommon
+When enchanted creature dies, put a 2/2 white Griffin creature token with flying onto the battlefield.
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Duel Decks: Knights vs. Dragons Uncommon, Time Spiral Uncommon
+
+Name:   Griffin Rider
+Cost:   1W
+Type:   Creature — Human Knight
+Pow/Tgh:    (1/1)
+Rules Text:     As long as you control a Griffin creature, Griffin Rider gets +3/+3 and has flying.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Griffin Sentinel
 Cost:   2W
@@ -3902,7 +4136,7 @@ Type:   Creature — Griffin
 Pow/Tgh:    (1/3)
 Rules Text:     Flying
 Vigilance (Attacking doesn't cause this creature to tap.)
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common
 
 Name:   Grifter's Blade
 Cost:   3
@@ -3949,7 +4183,7 @@ Cost:   R
 Type:   Creature — Human Wizard
 Pow/Tgh:    (1/1)
 Rules Text:     {R}, {T}, Exile two cards from your graveyard: Grim Lavamancer deals 2 damage to target creature or player.
-Set/Rarity:     Premium Deck Series: Fire and Lightning Rare, Torment Rare
+Set/Rarity:     Magic 2012 Rare, Premium Deck Series: Fire and Lightning Rare, Torment Rare
 
 Name:   Grim Monolith
 Cost:   2
@@ -3993,6 +4227,15 @@ Rules Text:     Flying
 {B}, Pay 1 life: Grimclaw Bats gets +1/+1 until end of turn.
 Set/Rarity:     Darksteel Common
 
+Name:   Grimgrin, Corpse-Born
+Cost:   3UB
+Type:   Legendary Creature — Zombie Warrior
+Pow/Tgh:    (5/5)
+Rules Text:     Grimgrin, Corpse-Born enters the battlefield tapped and doesn't untap during your untap step.
+Sacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.
+Whenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin.
+Set/Rarity:     Innistrad Mythic Rare
+
 Name:   Grimoire Thief
 Cost:   UU
 Type:   Creature — Merfolk Rogue
@@ -4001,6 +4244,14 @@ Rules Text:     Whenever Grimoire Thief becomes tapped, exile the top three card
 You may look at cards exiled with Grimoire Thief.
 {U}, Sacrifice Grimoire Thief: Turn all cards exiled with Grimoire Thief face up. Counter all spells with those names.
 Set/Rarity:     Morningtide Rare
+
+Name:   Grimoire of the Dead
+Cost:   4
+Type:   Legendary Artifact
+Pow/Tgh:    
+Rules Text:     {1}, {T}, Discard a card: Put a study counter on Grimoire of the Dead.
+{T}, Remove three study counters from Grimoire of the Dead and sacrifice it: Put all creature cards from all graveyards onto the battlefield under your control. They're black Zombies in addition to their other colors and types.
+Set/Rarity:     Innistrad Mythic Rare
 
 Name:   Grindclock
 Cost:   2
@@ -4066,7 +4317,7 @@ Name:   Gristle Grinner
 Cost:   4B
 Type:   Creature — Zombie
 Pow/Tgh:    (3/3)
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, Gristle Grinner gets +2/+2 until end of turn.
+Rules Text:     Whenever a creature dies, Gristle Grinner gets +2/+2 until end of turn.
 Set/Rarity:     Coldsnap Uncommon
 
 Name:   Gristleback
@@ -4090,7 +4341,7 @@ Cost:   UBR
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Return target permanent to its owner's hand; or target creature gets -4/-4 until end of turn; or creatures you control get +2/+0 until end of turn.
-Set/Rarity:     Shards of Alara Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Shards of Alara Uncommon
 
 Name:   Grixis Grimblade
 Cost:   (U/R)B
@@ -4126,7 +4377,7 @@ Name:   Grixis Sojourners
 Cost:   1UBR
 Type:   Creature — Zombie Ogre
 Pow/Tgh:    (4/3)
-Rules Text:     When you cycle Grixis Sojourners or it's put into a graveyard from the battlefield, you may exile target card from a graveyard.
+Rules Text:     When you cycle Grixis Sojourners or it dies, you may exile target card from a graveyard.
 Cycling {2}{B} ({2}{B}, Discard this card: Draw a card.)
 Set/Rarity:     Alara Reborn Common
 
@@ -4136,6 +4387,13 @@ Type:   Creature — Cat
 Pow/Tgh:    (1/5)
 Rules Text:     
 Set/Rarity:     Alara Reborn Common
+
+Name:   Grizzled Outcasts
+Cost:   4G
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (4/4)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Grizzled Outcasts.
+Set/Rarity:     Innistrad Common
 
 Name:   Grizzled Wolverine
 Cost:   1RR
@@ -4267,6 +4525,14 @@ When Grozoth enters the battlefield, you may search your library for any number 
 Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 Set/Rarity:     Ravnica: City of Guilds Rare
 
+Name:   Gruesome Deformity
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has intimidate. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Set/Rarity:     Innistrad Common
+
 Name:   Gruesome Encore
 Cost:   2B
 Type:   Sorcery
@@ -4396,7 +4662,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land
 Enchanted land is a 2/6 white Wall creature with defender. It's still a land.
-When enchanted land is put into a graveyard, return that card to its owner's hand.
+When enchanted land dies, return that card to its owner's hand.
 Set/Rarity:     Worldwake Common
 
 Name:   Guardian of Cloverdell
@@ -4445,6 +4711,13 @@ Pow/Tgh:    (0/4)
 Rules Text:     Defender
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Set/Rarity:     Shards of Alara Common
+
+Name:   Guardians' Pledge
+Cost:   1WW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     White creatures you control get +2/+2 until end of turn.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Guerrilla Tactics
 Cost:   1R
@@ -4619,6 +4892,13 @@ Type:   Snow Creature — Zombie
 Pow/Tgh:    (2/2)
 Rules Text:     {1}, Sacrifice a creature: You gain 2 life.
 Set/Rarity:     Coldsnap Common
+
+Name:   Gutter Grime
+Cost:   4G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then put a green Ooze creature token onto the battlefield with "This creature's power and toughness are each equal to the number of slime counters on Gutter Grime."
+Set/Rarity:     Innistrad Rare
 
 Name:   Guttural Response
 Cost:   (R/G)

@@ -270,6 +270,15 @@ Rules Text:     Dark Depths enters the battlefield with ten ice counters on it.
 When Dark Depths has no ice counters on it, sacrifice it. If you do, put a legendary 20/20 black Avatar creature token with flying and "This creature is indestructible" named Marit Lage onto the battlefield.
 Set/Rarity:     Coldsnap Rare
 
+Name:   Dark Favor
+Cost:   1B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Dark Favor enters the battlefield, you lose 1 life.
+Enchanted creature gets +3/+1.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Dark Hatchling
 Cost:   4BB
 Type:   Creature — Horror
@@ -290,7 +299,7 @@ Cost:   4U
 Type:   Creature — Wall
 Pow/Tgh:    (4/5)
 Rules Text:     Defender (This creature can't attack.)
-{0}: Dark Maze can attack this turn as though it didn't have defender. Exile it at the beginning of the next end step.
+{0}: Dark Maze can attack this turn as though it didn't have defender.  Exile it at the beginning of the next end step.
 Set/Rarity:     Fifth Edition Common, Homelands Common, Homelands Common
 
 Name:   Dark Offering
@@ -426,7 +435,7 @@ Cost:   2UU
 Type:   Creature — Drake
 Pow/Tgh:    (2/4)
 Rules Text:     Flying
-When Darkslick Drake is put into a graveyard from the battlefield, draw a card.
+When Darkslick Drake dies, draw a card.
 Set/Rarity:     Scars of Mirrodin Uncommon
 
 Name:   Darkslick Shores
@@ -559,6 +568,13 @@ Rules Text:     Flash (You may cast this spell any time you could cast an instan
 Vigilance
 Darksteel Sentinel is indestructible. (Lethal damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)
 Set/Rarity:     Scars of Mirrodin Uncommon
+
+Name:   Darkthicket Wolf
+Cost:   1G
+Type:   Creature — Wolf
+Pow/Tgh:    (2/2)
+Rules Text:     {2}{G}: Darkthicket Wolf gets +2/+2 until end of turn. Activate this ability only once each turn.
+Set/Rarity:     Innistrad Common
 
 Name:   Darkwatch Elves
 Cost:   2G
@@ -717,7 +733,7 @@ Cost:   1B
 Type:   Creature — Dauthi Zombie
 Pow/Tgh:    (1/1)
 Rules Text:     Shadow (This creature can block or be blocked by only creatures with shadow.)
-Whenever a creature with shadow is put into a graveyard from the battlefield, put a +1/+1 counter on Dauthi Ghoul.
+Whenever a creature with shadow dies, put a +1/+1 counter on Dauthi Ghoul.
 Set/Rarity:     Tempest Uncommon
 
 Name:   Dauthi Horror
@@ -872,7 +888,7 @@ Cost:   2WW
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy all creatures.
-Set/Rarity:     Magic 2011 Rare, Zendikar Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Zendikar Rare
 
 Name:   Day of the Dragons
 Cost:   4UUU
@@ -889,6 +905,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature with another Aura attached to it
 Enchanted creature gets +3/+3 and has first strike, vigilance, and lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)
 Set/Rarity:     Future Sight Rare
+
+Name:   Daybreak Ranger
+Cost:   2G
+Type:   Creature — Human Archer Werewolf
+Pow/Tgh:    (2/2)
+Rules Text:     {T}: Daybreak Ranger deals 2 damage to target creature with flying.
+At the beginning of each upkeep, if no spells were cast last turn, transform Daybreak Ranger.
+Set/Rarity:     Innistrad Rare
 
 Name:   Daze
 Cost:   1U
@@ -919,8 +943,7 @@ Name:   Dead // Gone (Gone)
 Cost:   2R
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     
-Return target creature you don't control to its owner's hand.
+Rules Text:     Return target creature you don't control to its owner's hand.
 Set/Rarity:     Planar Chaos Common
 
 Name:   Dead Reckoning
@@ -936,6 +959,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy two target nonblack creatures unless either one is a color the other isn't. They can't be regenerated.
 Set/Rarity:     Apocalypse Common
+
+Name:   Dead Weight
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -2/-2.
+Set/Rarity:     Innistrad Common
 
 Name:   Dead-Iron Sledge
 Cost:   1
@@ -964,7 +995,7 @@ Cost:   2B
 Type:   Creature — Insect
 Pow/Tgh:    (3/1)
 Rules Text:     Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
-When Deadly Grub is put into a graveyard from the battlefield, if it had no time counters on it, put a 6/1 green Insect creature token with shroud onto the battlefield. (It can't be the target of spells or abilities.)
+When Deadly Grub dies, if it had no time counters on it, put a 6/1 green Insect creature token with shroud onto the battlefield. (It can't be the target of spells or abilities.)
 Set/Rarity:     Planar Chaos Common
 
 Name:   Deadly Insect
@@ -1004,6 +1035,14 @@ Pow/Tgh:    (3/6)
 Rules Text:     Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 When Deadwood Treefolk enters the battlefield or leaves the battlefield, return another target creature card from your graveyard to your hand.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Planar Chaos Uncommon
+
+Name:   Dearly Departed
+Cost:   4WW
+Type:   Creature — Spirit
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+As long as Dearly Departed is in your graveyard, each Human creature you control enters the battlefield with an additional +1/+1 counter on it.
+Set/Rarity:     Innistrad Rare
 
 Name:   Death Baron
 Cost:   1BB
@@ -1135,7 +1174,7 @@ Cost:   B
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, its controller loses life equal to its power and you gain life equal to its toughness.
+When enchanted creature dies, its controller loses life equal to its power and you gain life equal to its toughness.
 Set/Rarity:     Visions Common
 
 Name:   Death Wish
@@ -1186,7 +1225,7 @@ Cost:   1BB
 Type:   Creature — Bird
 Pow/Tgh:    (2/1)
 Rules Text:     Flying
-When Death's-Head Buzzard is put into a graveyard from the battlefield, all creatures get -1/-1 until end of turn.
+When Death's-Head Buzzard dies, all creatures get -1/-1 until end of turn.
 Set/Rarity:     Scourge Common
 
 Name:   Death-Hood Cobra
@@ -1219,7 +1258,7 @@ Name:   Deathbringer Thoctar
 Cost:   4BR
 Type:   Creature — Zombie Beast
 Pow/Tgh:    (3/3)
-Rules Text:     Whenever another creature is put into a graveyard from the battlefield, you may put a +1/+1 counter on Deathbringer Thoctar.
+Rules Text:     Whenever another creature dies, you may put a +1/+1 counter on Deathbringer Thoctar.
 Remove a +1/+1 counter from Deathbringer Thoctar: Deathbringer Thoctar deals 1 damage to target creature or player.
 Set/Rarity:     Alara Reborn Rare
 
@@ -1234,7 +1273,7 @@ Name:   Deathcurse Ogre
 Cost:   5B
 Type:   Creature — Ogre Warrior
 Pow/Tgh:    (3/3)
-Rules Text:     When Deathcurse Ogre is put into a graveyard from the battlefield, each player loses 3 life.
+Rules Text:     When Deathcurse Ogre dies, each player loses 3 life.
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Deathforge Shaman
@@ -1256,7 +1295,7 @@ Name:   Deathgreeter
 Cost:   B
 Type:   Creature — Human Shaman
 Pow/Tgh:    (1/1)
-Rules Text:     Whenever another creature is put into a graveyard from the battlefield, you may gain 1 life.
+Rules Text:     Whenever another creature dies, you may gain 1 life.
 Set/Rarity:     Duel Decks: Garruk vs. Liliana Common, Shards of Alara Common
 
 Name:   Deathgrip
@@ -1272,7 +1311,7 @@ Type:   Creature — Spirit
 Pow/Tgh:    (0/1)
 Rules Text:     Flying
 {2}: Deathknell Kami gets +1/+1 until end of turn. Sacrifice it at the beginning of the next end step.
-Soulshift 1 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 1 or less from your graveyard to your hand.)
+Soulshift 1 (When this creature dies, you may return target Spirit card with converted mana cost 1 or less from your graveyard to your hand.)
 Set/Rarity:     Saviors of Kamigawa Common
 
 Name:   Deathlace
@@ -1295,7 +1334,7 @@ Cost:   B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy target green or white creature.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Coldsnap Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Coldsnap Uncommon
 
 Name:   Deathmark Prelate
 Cost:   3B
@@ -1316,7 +1355,7 @@ Cost:   4
 Type:   Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature gets +2/+2.
-Whenever equipped creature is put into a graveyard, you may put a creature card from your hand onto the battlefield and attach Deathrender to it.
+Whenever equipped creature dies, you may put a creature card from your hand onto the battlefield and attach Deathrender to it.
 Equip {2}
 Set/Rarity:     Lorwyn Rare
 
@@ -1402,7 +1441,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant black creature
 Enchanted creature has "Cumulative upkeep—Pay 1 life." (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless he or she pays its upkeep cost for each age counter on it.)
-When enchanted creature is put into a graveyard, its controller loses 2 life.
+When enchanted creature dies, its controller loses 2 life.
 Set/Rarity:     Mirage Uncommon
 
 Name:   Deconstruct
@@ -1470,7 +1509,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player draws two cards.
 Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Torment Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Torment Common
 
 Name:   Deep Reconnaissance
 Cost:   2G
@@ -1863,6 +1902,13 @@ Rules Text:     When Delusions of Mediocrity enters the battlefield, you gain 10
 When Delusions of Mediocrity leaves the battlefield, you lose 10 life.
 Set/Rarity:     Seventh Edition Rare, Urza's Legacy Rare
 
+Name:   Delver of Secrets
+Cost:   U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     At the beginning of your upkeep, look at the top card of your library. You may reveal that card. If an instant or sorcery card is revealed this way, transform Delver of Secrets.
+Set/Rarity:     Innistrad Common
+
 Name:   Dematerialize
 Cost:   3U
 Type:   Sorcery
@@ -1921,7 +1967,7 @@ Cost:   2
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Whenever a player casts a black spell, you may gain 1 life.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
 
 Name:   Demon's Jester
 Cost:   3B
@@ -1935,7 +1981,7 @@ Name:   Demonfire
 Cost:   XR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Demonfire deals X damage to target creature or player. If a creature dealt damage this way would be put into a graveyard this turn, exile it instead.
+Rules Text:     Demonfire deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
 Hellbent — If you have no cards in hand, Demonfire can't be countered by spells or abilities and the damage can't be prevented.
 Set/Rarity:     Duel Decks: Jace vs. Chandra Rare, Dissension Rare
 
@@ -1953,7 +1999,6 @@ Cost:   1BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Remove Demonic Attorney from your deck before playing if you're not playing for ante.
-
 Each player antes the top card of his or her library.
 Set/Rarity:     Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
@@ -1985,7 +2030,6 @@ Cost:   3BBB
 Type:   Creature — Demon
 Pow/Tgh:    (5/5)
 Rules Text:     {T}: Destroy target land.
-
 At the beginning of your upkeep, unless you pay {B}{B}{B}, tap Demonic Hordes and sacrifice a land of an opponent's choice.
 Set/Rarity:     Masters Edition IV Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
@@ -2004,6 +2048,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for a card and put that card into your hand. Then shuffle your library.
 Set/Rarity:     Masters Edition IV Rare, Duel Decks: Divine vs. Demonic Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+
+Name:   Demonmail Hauberk
+Cost:   4
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +4/+2.
+Equip—Sacrifice a creature.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Demonspine Whip
 Cost:   BR
@@ -2026,7 +2078,7 @@ Cost:   W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target enchantment.
-Set/Rarity:     Rise of the Eldrazi Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common
+Set/Rarity:     Magic 2012 Common, Rise of the Eldrazi Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common
 
 Name:   Denizen of the Deep
 Cost:   6UU
@@ -2071,6 +2123,13 @@ Pow/Tgh:
 Rules Text:     As an additional cost to cast Deprive, return a land you control to its owner's hand.
 Counter target spell.
 Set/Rarity:     Rise of the Eldrazi Common
+
+Name:   Deranged Assistant
+Cost:   1U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     {T}, Put the top card of your library into your graveyard: Add {1} to your mana pool.
+Set/Rarity:     Innistrad Common
 
 Name:   Deranged Hermit
 Cost:   3GG
@@ -2231,6 +2290,14 @@ Pow/Tgh:
 Rules Text:     Choose a source you control and flip a coin. If you win the flip, the next time that source would deal damage this turn, it deals double that damage instead. If you lose the flip, the next time it would deal damage this turn, prevent that damage.
 Set/Rarity:     Weatherlight Uncommon
 
+Name:   Desperate Ravings
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Draw two cards, then discard a card at random.
+Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Desperate Research
 Cost:   1B
 Type:   Sorcery
@@ -2361,6 +2428,14 @@ Pow/Tgh:
 Rules Text:     Destroy all creatures and lands.
 Set/Rarity:     Masters Edition IV Rare, Starter 1999 Rare, Portal Rare
 
+Name:   Devil's Play
+Cost:   XR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Devil's Play deals X damage to target creature or player.
+Flashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Rare
+
 Name:   Devoted Caretaker
 Cost:   W
 Type:   Creature — Human Cleric
@@ -2437,6 +2512,14 @@ At the beginning of your upkeep, sacrifice a creature.
 Sacrifice a creature: Regenerate Devouring Strossus.
 Set/Rarity:     Invasion Rare
 
+Name:   Devouring Swarm
+Cost:   1BB
+Type:   Creature — Insect
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+Sacrifice a creature: Devouring Swarm gets +1/+1 until end of turn.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Devout Harpist
 Cost:   W
 Type:   Creature — Human
@@ -2502,7 +2585,7 @@ Cost:   3B
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     When Diabolic Servitude enters the battlefield, return target creature card from your graveyard to the battlefield.
-When the creature put onto the battlefield with Diabolic Servitude is put into a graveyard, exile it and return Diabolic Servitude to its owner's hand.
+When the creature put onto the battlefield with Diabolic Servitude dies, exile it and return Diabolic Servitude to its owner's hand.
 When Diabolic Servitude leaves the battlefield, exile the creature put onto the battlefield with Diabolic Servitude.
 Set/Rarity:     Urza's Saga Uncommon
 
@@ -2511,7 +2594,7 @@ Cost:   2BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for a card and put that card into your hand. Then shuffle your library.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic: The Gathering-Commander Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
 
 Name:   Diabolic Vision
 Cost:   UB
@@ -2525,7 +2608,7 @@ Cost:   2GWU
 Type:   Snow Creature — Faerie
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-{1}{S}i}: Snow creatures you control get +1/+1 until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+{1}{S}: Snow creatures you control get +1/+1 until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Rare
 
 Name:   Diamond Kaleidoscope
@@ -2608,7 +2691,7 @@ Cost:   1UB
 Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever Dimir Cutpurse deals combat damage to a player, that player discards a card and you draw a card.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Ravnica: City of Guilds Rare
 
 Name:   Dimir Doppelganger
 Cost:   1UB
@@ -2676,7 +2759,7 @@ Name:   Dingus Staff
 Cost:   4
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, Dingus Staff deals 2 damage to that creature's controller.
+Rules Text:     Whenever a creature dies, Dingus Staff deals 2 damage to that creature's controller.
 Set/Rarity:     Weatherlight Uncommon
 
 Name:   Diplomatic Escort
@@ -2709,6 +2792,13 @@ Type:   Creature — Wolf
 Pow/Tgh:    (2/2)
 Rules Text:     Dire Wolves has banding as long as you control a Plains. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Ice Age Common
+
+Name:   Diregraf Ghoul
+Cost:   B
+Type:   Creature — Zombie
+Pow/Tgh:    (2/2)
+Rules Text:     Diregraf Ghoul enters the battlefield tapped.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Dirge of Dread
 Cost:   2B
@@ -2773,6 +2863,13 @@ Pow/Tgh:    (1/2)
 Rules Text:     Protection from black
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Onslaught Common, Urza's Saga Common
+
+Name:   Disciple of Griselbrand
+Cost:   1B
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/1)
+Rules Text:     {1}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Disciple of Kangee
 Cost:   2W
@@ -2839,7 +2936,7 @@ Name:   Disease Carriers
 Cost:   2BB
 Type:   Creature — Rat
 Pow/Tgh:    (2/2)
-Rules Text:     When Disease Carriers is put into a graveyard from the battlefield, target creature gets -2/-2 until end of turn.
+Rules Text:     When Disease Carriers dies, target creature gets -2/-2 until end of turn.
 Set/Rarity:     Urza's Destiny Common
 
 Name:   Diseased Vermin
@@ -2876,7 +2973,7 @@ Cost:   B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return target creature card from your graveyard to your hand.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Disfigure
 Cost:   B
@@ -2897,7 +2994,7 @@ Name:   Disintegrate
 Cost:   XR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Disintegrate deals X damage to target creature or player. That creature can't be regenerated this turn. If the creature would be put into a graveyard this turn, exile it instead.
+Rules Text:     Disintegrate deals X damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Dismal Failure
@@ -2936,7 +3033,6 @@ Cost:   2UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell.
-
 Draw a card.
 Set/Rarity:     Tempest Uncommon
 
@@ -3057,7 +3153,7 @@ Cost:   1UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
-Set/Rarity:     Mirage Uncommon
+Set/Rarity:     Innistrad Uncommon, Mirage Uncommon
 
 Name:   Dissipation Field
 Cost:   2UU
@@ -3107,7 +3203,7 @@ Cost:   BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player reveals his or her hand. You choose a nonland card from it. That player discards that card.
-Set/Rarity:     Tenth Edition Common, Champions of Kamigawa Common
+Set/Rarity:     Magic 2012 Common, Tenth Edition Common, Champions of Kamigawa Common
 
 Name:   Disturbed Burial
 Cost:   1B
@@ -3167,7 +3263,7 @@ Cost:   2U
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Draw two cards.
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common
 
 Name:   Divine Congregation
 Cost:   3W
@@ -3176,6 +3272,15 @@ Pow/Tgh:
 Rules Text:     You gain 2 life for each creature target player controls.
 Suspend 5—{1}{W} (Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Set/Rarity:     Time Spiral Common
+
+Name:   Divine Favor
+Cost:   1W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Divine Favor enters the battlefield, you gain 3 life.
+Enchanted creature gets +1/+3.
+Set/Rarity:     Magic 2012 Common
 
 Name:   Divine Intervention
 Cost:   6WW
@@ -3206,6 +3311,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     If a source would deal 4 or more damage to a creature or player, that source deals 3 damage to that creature or player instead.
 Set/Rarity:     Invasion Rare
+
+Name:   Divine Reckoning
+Cost:   2WW
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Each player chooses a creature he or she controls. Destroy the rest.
+Flashback {5}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Rare
 
 Name:   Divine Retribution
 Cost:   1W
@@ -3300,7 +3413,7 @@ Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Djinn of Wishes enters the battlefield with three wish counters on it.
 {2}{U}{U}, Remove a wish counter from Djinn of Wishes: Reveal the top card of your library. You may play that card without paying its mana cost. If you don't, exile it.
-Set/Rarity:     Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2010 Rare
 
 Name:   Djinn of the Lamp
 Cost:   5UU
@@ -3410,7 +3523,7 @@ Cost:   1B
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target nonblack creature.
-Set/Rarity:     Magic: The Gathering-Commander Common, Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Doom Cannon
 Cost:   6
@@ -3426,6 +3539,13 @@ Type:   Creature — Human Cleric Mercenary
 Pow/Tgh:    (2/2)
 Rules Text:     {B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.
 Set/Rarity:     Tenth Edition Rare, Onslaught Rare
+
+Name:   Doomed Traveler
+Cost:   W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     When Doomed Traveler dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
+Set/Rarity:     Innistrad Common
 
 Name:   Doomgape
 Cost:   4(B/G)(B/G)(B/G)
@@ -3473,7 +3593,7 @@ Cost:   BGW
 Type:   Legendary Creature — Treefolk Shaman
 Pow/Tgh:    (0/5)
 Rules Text:     Each creature assigns combat damage equal to its toughness rather than its power.
-Set/Rarity:     Lorwyn Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Lorwyn Rare
 
 Name:   Dormant Gomazoa
 Cost:   1UU
@@ -3530,6 +3650,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter up to two target spells.
 Set/Rarity:     Alara Reborn Uncommon
+
+Name:   Doubling Chant
+Cost:   5G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     For each creature you control, you may search your library for a creature card with the same name as that creature. Put those cards onto the battlefield, then shuffle your library.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Doubling Cube
 Cost:   2
@@ -3778,7 +3905,7 @@ Cost:   2
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Whenever a player casts a red spell, you may gain 1 life.
-Set/Rarity:     Duel Decks: Knights vs. Dragons Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Duel Decks: Knights vs. Dragons Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Darksteel Uncommon
 
 Name:   Dragon's Herald
 Cost:   R
@@ -3800,7 +3927,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
 {T}: Add {B} or {R} to your mana pool.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Dragonsoul Knight
 Cost:   2R
@@ -4145,6 +4272,14 @@ Rules Text:     Creatures don't untap during their controllers' untap steps.
 At the beginning of each player's upkeep, that player may choose any number of tapped nongreen creatures he or she controls and pay {2} for each creature chosen this way. If the player does, untap those creatures.
 Set/Rarity:     Visions Uncommon
 
+Name:   Dream Twist
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target player puts the top three cards of his or her library into his or her graveyard.
+Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Common
+
 Name:   Dream's Grip
 Cost:   U
 Type:   Instant
@@ -4292,6 +4427,14 @@ Rules Text:     Drifting Meadow enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Battle Royale Box Set Common, Urza's Saga Common
 
+Name:   Drifting Shade
+Cost:   3B
+Type:   Creature — Shade
+Pow/Tgh:    (1/1)
+Rules Text:     Flying
+{B}: Drifting Shade gets +1/+1 until end of turn.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Drill-Skimmer
 Cost:   4
 Type:   Artifact Creature — Thopter
@@ -4320,7 +4463,7 @@ Name:   Dripping-Tongue Zubera
 Cost:   1G
 Type:   Creature — Zubera Spirit
 Pow/Tgh:    (1/2)
-Rules Text:     When Dripping-Tongue Zubera is put into a graveyard from the battlefield, put a 1/1 colorless Spirit creature token onto the battlefield for each Zubera put into a graveyard from the battlefield this turn.
+Rules Text:     When Dripping-Tongue Zubera dies, put a 1/1 colorless Spirit creature token onto the battlefield for each Zubera that died this turn.
 Set/Rarity:     Champions of Kamigawa Common
 
 Name:   Dromad Purebred
@@ -4417,7 +4560,7 @@ Type:   Creature — Horror
 Pow/Tgh:    (4/4)
 Rules Text:     Protection from white
 At the beginning of your end step, you lose 4 life.
-Whenever a creature is put into a graveyard from the battlefield, you gain 2 life.
+Whenever a creature dies, you gain 2 life.
 Set/Rarity:     Mirrodin Rare
 
 Name:   Dross Hopper
@@ -4445,7 +4588,7 @@ Name:   Dross Scorpion
 Cost:   4
 Type:   Artifact Creature — Scorpion
 Pow/Tgh:    (3/1)
-Rules Text:     Whenever Dross Scorpion or another artifact creature is put into a graveyard from the battlefield, you may untap target artifact.
+Rules Text:     Whenever Dross Scorpion or another artifact creature dies, you may untap target artifact.
 Set/Rarity:     Mirrodin Common
 
 Name:   Drought
@@ -4478,7 +4621,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
 {T}: Add {U} or {B} to your mana pool.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Drowned Rusalka
 Cost:   U
@@ -4546,6 +4689,13 @@ Rules Text:     Enchant creature
 Whenever enchanted creature is dealt damage, its controller puts that many 1/1 green Squirrel creature tokens onto the battlefield.
 Set/Rarity:     Odyssey Uncommon
 
+Name:   Druidic Satchel
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {2}, {T}: Reveal the top card of your library. If it's a creature card, put a 1/1 green Saproling creature token onto the battlefield. If it's a land card, put that card onto the battlefield under your control. If it's a noncreature, nonland card, you gain 2 life.
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Drumhunter
 Cost:   3G
 Type:   Creature — Human Druid Warrior
@@ -4563,10 +4713,10 @@ Set/Rarity:     Masters Edition II Common, Classic Sixth Edition Common, Portal 
 
 Name:   Dryad Arbor
 Cost:   
+Color:  Green
 Type:   Land Creature — Forest Dryad
 Pow/Tgh:    (1/1)
 Rules Text:     (Dryad Arbor isn't a spell, it's affected by summoning sickness, and it has "{T}: Add {G} to your mana pool.")
-Dryad Arbor is green.
 Set/Rarity:     Future Sight Uncommon
 
 Name:   Dryad Sophisticate
@@ -4676,6 +4826,14 @@ Rules Text:     Flying
 {B}: Dungeon Shade gets +1/+1 until end of turn.
 Set/Rarity:     Stronghold Common
 
+Name:   Dungrove Elder
+Cost:   2G
+Type:   Creature — Treefolk
+Pow/Tgh:    (*/*)
+Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Dungrove Elder's power and toughness are each equal to the number of Forests you control.
+Set/Rarity:     Magic 2012 Rare
+
 Name:   Duplicant
 Cost:   6
 Type:   Artifact Creature — Shapeshifter
@@ -4734,7 +4892,7 @@ Cost:   2B
 Type:   Creature — Ouphe
 Pow/Tgh:    (4/3)
 Rules Text:     Whenever Dusk Urchins attacks or blocks, put a -1/-1 counter on it.
-When Dusk Urchins is put into a graveyard from the battlefield, draw a card for each -1/-1 counter on it.
+When Dusk Urchins dies, draw a card for each -1/-1 counter on it.
 Set/Rarity:     Shadowmoor Rare
 
 Name:   Duskdale Wurm
@@ -4743,6 +4901,14 @@ Type:   Creature — Wurm
 Pow/Tgh:    (7/7)
 Rules Text:     Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
 Set/Rarity:     Magic 2011 Uncommon, Eventide Uncommon
+
+Name:   Duskhunter Bat
+Cost:   1B
+Type:   Creature — Bat
+Pow/Tgh:    (1/1)
+Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
+Flying
+Set/Rarity:     Magic 2012 Common
 
 Name:   Duskmantle, House of Shadow
 Cost:   
@@ -5046,7 +5212,7 @@ Cost:   1B
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, target player discards two cards.
+When enchanted creature dies, target player discards two cards.
 Set/Rarity:     Urza's Destiny Common
 
 Name:   Dystopia

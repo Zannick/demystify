@@ -116,6 +116,14 @@ Pow/Tgh:    (4/4)
 Rules Text:     At the beginning of your upkeep, return a permanent you control to its owner's hand.
 Set/Rarity:     Eventide Uncommon
 
+Name:   Cackling Counterpart
+Cost:   1UU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put a token onto the battlefield that's a copy of target creature you control.
+Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Rare
+
 Name:   Cackling Fiend
 Cost:   2BB
 Type:   Creature — Zombie
@@ -320,7 +328,7 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of each player's upkeep, that player sacrifices a non-Zombie creature.
 At the beginning of the end step, if no creatures are on the battlefield, sacrifice Call to the Grave.
-Set/Rarity:     Scourge Rare
+Set/Rarity:     Magic 2012 Rare, Scourge Rare
 
 Name:   Call to the Netherworld
 Cost:   B
@@ -433,7 +441,7 @@ Cost:   1UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell.
-Set/Rarity:     Magic 2011 Common, Zendikar Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Time Spiral Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Zendikar Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Time Spiral Common
 
 Name:   Candelabra of Tawnos
 Cost:   1
@@ -554,14 +562,14 @@ Cost:   1R
 Type:   Creature — Cat
 Pow/Tgh:    (2/1)
 Rules Text:     Mountainwalk
-Set/Rarity:     Eighth Edition Common, Tempest Common
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Eighth Edition Common, Tempest Common
 
 Name:   Cao Cao, Lord of Wei
 Cost:   3BB
 Type:   Legendary Creature — Human Soldier
 Pow/Tgh:    (3/3)
 Rules Text:     {T}: Target opponent discards two cards. Activate this ability only during your turn, before attackers are declared.
-Set/Rarity:     Portal Three Kingdoms Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Portal Three Kingdoms Rare
 
 Name:   Cao Ren, Wei Commander
 Cost:   2BB
@@ -629,7 +637,7 @@ Cost:   2GW
 Type:   Legendary Creature — Human Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     {T}: Search your library for a legendary card, reveal that card, and put it into your hand. Then shuffle your library.
-Set/Rarity:     Invasion Rare
+Set/Rarity:     From the Vault: Legends Mythic Rare, Invasion Rare
 
 Name:   Captain of the Watch
 Cost:   4WW
@@ -721,11 +729,19 @@ Pow/Tgh:    (1/5)
 Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Set/Rarity:     Zendikar Common
 
+Name:   Caravan Vigil
+Cost:   G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+Morbid — You may put that card onto the battlefield instead of putting it into your hand if a creature died this turn.
+Set/Rarity:     Innistrad Common
+
 Name:   Carbonize
 Cost:   2R
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Carbonize deals 3 damage to target creature or player. That creature can't be regenerated this turn. If the creature would be put into a graveyard this turn, exile it instead.
+Rules Text:     Carbonize deals 3 damage to target creature or player. That creature can't be regenerated this turn. If the creature would die this turn, exile it instead.
 Set/Rarity:     Scourge Uncommon
 
 Name:   Careful Consideration
@@ -771,6 +787,14 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {3}, Sacrifice a creature: Draw a card.
 Set/Rarity:     Zendikar Uncommon
+
+Name:   Carnage Wurm
+Cost:   6G
+Type:   Creature — Wurm
+Pow/Tgh:    (6/6)
+Rules Text:     Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)
+Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Carnassid
 Cost:   4GG
@@ -889,7 +913,7 @@ Name:   Carrion Thrash
 Cost:   2BRG
 Type:   Creature — Viashino Warrior
 Pow/Tgh:    (4/4)
-Rules Text:     When Carrion Thrash is put into a graveyard from the battlefield, you may pay {2}. If you do, return another target creature card from your graveyard to your hand.
+Rules Text:     When Carrion Thrash dies, you may pay {2}. If you do, return another target creature card from your graveyard to your hand.
 Set/Rarity:     Shards of Alara Common
 
 Name:   Carrion Wall
@@ -965,7 +989,7 @@ Cost:   2B
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, draw three cards, then discard one of them.
+When enchanted creature dies, draw three cards, then discard one of them.
 Set/Rarity:     Alliances Common, Alliances Common
 
 Name:   Castle
@@ -1132,7 +1156,7 @@ Type:   Artifact Creature — Wall
 Pow/Tgh:    (0/3)
 Rules Text:     ({(w/p)} can be paid with either {W} or 2 life.)
 Defender
-When Cathedral Membrane is put into a graveyard from the battlefield during combat, it deals 6 damage to each creature it blocked this combat.
+When Cathedral Membrane dies during combat, it deals 6 damage to each creature it blocked this combat.
 Set/Rarity:     New Phyrexia Uncommon
 
 Name:   Cathedral of Serra
@@ -1146,7 +1170,7 @@ Name:   Cathodion
 Cost:   3
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (3/3)
-Rules Text:     When Cathodion is put into a graveyard from the battlefield, add {3} to your mana pool.
+Rules Text:     When Cathodion dies, add {3} to your mana pool.
 Set/Rarity:     Mirrodin Uncommon, Urza's Saga Uncommon
 
 Name:   Cauldron Dance
@@ -1162,14 +1186,14 @@ Name:   Cauldron Haze
 Cost:   1(W/B)
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it's put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Rules Text:     Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Uncommon
 
 Name:   Cauldron of Souls
 Cost:   5
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {T}: Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it's put into a graveyard from the battlefield, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+Rules Text:     {T}: Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Shadowmoor Rare
 
 Name:   Caustic Crawler
@@ -1183,7 +1207,7 @@ Name:   Caustic Hound
 Cost:   5B
 Type:   Creature — Hound
 Pow/Tgh:    (4/4)
-Rules Text:     When Caustic Hound is put into a graveyard from the battlefield, each player loses 4 life.
+Rules Text:     When Caustic Hound dies, each player loses 4 life.
 Set/Rarity:     Mirrodin Besieged Common
 
 Name:   Caustic Rain
@@ -1367,7 +1391,7 @@ Cost:   3WW
 Type:   Creature — Bird Cleric
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-When Celestial Gatekeeper is put into a graveyard from the battlefield, exile it, then return up to two target Bird and/or Cleric permanent cards from your graveyard to the battlefield.
+When Celestial Gatekeeper dies, exile it, then return up to two target Bird and/or Cleric permanent cards from your graveyard to the battlefield.
 Set/Rarity:     Legions Rare
 
 Name:   Celestial Kirin
@@ -1399,7 +1423,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Exile target black or red permanent.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Conflux Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Conflux Uncommon
 
 Name:   Celestial Sword
 Cost:   6
@@ -1407,6 +1431,13 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {3}, {T}: Target creature you control gets +3/+3 until end of turn. Its controller sacrifices it at the beginning of the next end step.
 Set/Rarity:     Masters Edition IV Uncommon, Ice Age Rare
+
+Name:   Cellar Door
+Cost:   2
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {3}, {T}: Target player puts the bottom card of his or her library into his or her graveyard. If it's a creature card, you put a 2/2 black Zombie creature token onto the battlefield.
+Set/Rarity:     Innistrad Uncommon
 
 Name:   Cemetery Gate
 Cost:   2B
@@ -1420,7 +1451,7 @@ Name:   Cemetery Puca
 Cost:   1(U/B)(U/B)
 Type:   Creature — Shapeshifter
 Pow/Tgh:    (1/2)
-Rules Text:     Whenever a creature is put into a graveyard from the battlefield, you may pay {1}. If you do, Cemetery Puca becomes a copy of that creature and gains this ability.
+Rules Text:     Whenever a creature dies, you may pay {1}. If you do, Cemetery Puca becomes a copy of that creature and gains this ability.
 Set/Rarity:     Shadowmoor Rare
 
 Name:   Cemetery Reaper
@@ -1429,7 +1460,7 @@ Type:   Creature — Zombie
 Pow/Tgh:    (2/2)
 Rules Text:     Other Zombie creatures you control get +1/+1.
 {2}{B}, {T}: Exile target creature card from a graveyard. Put a 2/2 black Zombie creature token onto the battlefield.
-Set/Rarity:     Archenemy Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2012 Rare, Archenemy Rare, Magic 2010 Rare
 
 Name:   Cenn's Enlistment
 Cost:   3W
@@ -1510,7 +1541,7 @@ Cost:   2(G/W)
 Type:   Creature — Centaur Warrior
 Pow/Tgh:    (3/1)
 Rules Text:     ({(g/w)} can be paid with either {G} or {W}.)
-When Centaur Safeguard is put into a graveyard from the battlefield, you may gain 3 life.
+When Centaur Safeguard dies, you may gain 3 life.
 Set/Rarity:     Ravnica: City of Guilds Common
 
 Name:   Centaur Veteran
@@ -1865,6 +1896,13 @@ Pow/Tgh:    (3/3)
 Rules Text:     Prevent all damage that would be dealt to Champion Lancer by creatures.
 Set/Rarity:     Masters Edition IV Rare, Starter 1999 Rare
 
+Name:   Champion of the Parish
+Cost:   W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.
+Set/Rarity:     Innistrad Rare
+
 Name:   Champion's Drake
 Cost:   1U
 Type:   Creature — Drake
@@ -1971,7 +2009,16 @@ Cost:   2RR
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.
-Set/Rarity:     Magic 2011 Common, Archenemy Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Archenemy Common
+
+Name:   Chandra's Phoenix
+Cost:   1RR
+Type:   Creature — Phoenix
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Haste (This creature can attack and {T} as soon as it comes under your control.)
+Whenever an opponent is dealt damage by a red instant or sorcery spell you control or by a red planeswalker you control, return Chandra's Phoenix from your graveyard to your hand.
+Set/Rarity:     Magic 2012 Rare
 
 Name:   Chandra's Spitfire
 Cost:   2R
@@ -1980,6 +2027,15 @@ Pow/Tgh:    (1/3)
 Rules Text:     Flying
 Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 until end of turn.
 Set/Rarity:     Magic 2011 Uncommon
+
+Name:   Chandra, the Firebrand
+Cost:   3R
+Type:   Planeswalker — Chandra
+Loyalty:    (3)
+Rules Text:     +1: Chandra, the Firebrand deals 1 damage to target creature or player.
+-2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+-6: Chandra, the Firebrand deals 6 damage to each of up to six target creatures and/or players.
+Set/Rarity:     Magic 2012 Mythic Rare
 
 Name:   Change of Heart
 Cost:   W
@@ -2128,6 +2184,13 @@ Flip a coin. If you win the flip, target creature gets +1/+1 until end of turn.
 Draw a card.
 Set/Rarity:     Invasion Uncommon
 
+Name:   Chapel Geist
+Cost:   1WW
+Type:   Creature — Spirit
+Pow/Tgh:    (2/3)
+Rules Text:     Flying
+Set/Rarity:     Innistrad Common
+
 Name:   Char
 Cost:   2R
 Type:   Instant
@@ -2217,6 +2280,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {W}, {T}, Discard a card: The next time a source of your choice would deal damage to target creature this turn, prevent that damage.
 Set/Rarity:     Mercadian Masques Common
 
+Name:   Charmbreaker Devils
+Cost:   5R
+Type:   Creature — Devil
+Pow/Tgh:    (4/4)
+Rules Text:     At the beginning of your upkeep, return an instant or sorcery card at random from your graveyard to your hand.
+Whenever you cast an instant or sorcery spell, Charmbreaker Devils gets +4/+0 until end of turn.
+Set/Rarity:     Innistrad Rare
+
 Name:   Charmed Griffin
 Cost:   3W
 Type:   Creature — Griffin
@@ -2248,6 +2319,14 @@ Rules Text:     {R}: Chartooth Cougar gets +1/+0 until end of turn.
 Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, and put it into your hand. Then shuffle your library.)
 Set/Rarity:     Magic: The Gathering-Commander Common, Duel Decks: Jace vs. Chandra Common, Scourge Common
 
+Name:   Chasm Drake
+Cost:   4U
+Type:   Creature — Drake
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Whenever Chasm Drake attacks, target creature you control gains flying until end of turn.
+Set/Rarity:     Magic 2012 Common
+
 Name:   Chastise
 Cost:   3W
 Type:   Instant
@@ -2275,7 +2354,7 @@ Cost:   WUBRG
 Type:   Legendary Creature — Avatar
 Pow/Tgh:    (6/6)
 Rules Text:     Trample
-When Child of Alara is put into a graveyard from the battlefield, destroy all nonland permanents. They can't be regenerated.
+When Child of Alara dies, destroy all nonland permanents. They can't be regenerated.
 Set/Rarity:     Conflux Mythic Rare
 
 Name:   Child of Gaea
@@ -2292,7 +2371,7 @@ Cost:   1B
 Type:   Creature — Vampire
 Pow/Tgh:    (2/1)
 Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Child of Thorns
 Cost:   G
@@ -2351,7 +2430,7 @@ Cost:   2B
 Type:   Snow Creature — Shade
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
-{S}i}: Chilling Shade gets +1/+1 until end of turn. ({S}i} can be paid with one mana from a snow permanent.)
+{S}: Chilling Shade gets +1/+1 until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Common
 
 Name:   Chime of Night
@@ -2412,7 +2491,7 @@ Cost:   4B
 Type:   Creature — Imp
 Pow/Tgh:    (1/2)
 Rules Text:     Flying
-When Chimney Imp is put into a graveyard from the battlefield, target opponent puts a card from his or her hand on top of his or her library.
+When Chimney Imp dies, target opponent puts a card from his or her hand on top of his or her library.
 Set/Rarity:     Mirrodin Common
 
 Name:   Chisei, Heart of Oceans
@@ -2649,7 +2728,7 @@ Type:   Creature — Illusion
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
 Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
-When Chronozoa is put into a graveyard from the battlefield, if it had no time counters on it, put two tokens that are copies of it onto the battlefield.
+When Chronozoa dies, if it had no time counters on it, put two tokens that are copies of it onto the battlefield.
 Set/Rarity:     Planar Chaos Rare
 
 Name:   Chub Toad
@@ -2670,7 +2749,7 @@ Name:   Cinder Cloud
 Cost:   3RR
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Destroy target creature. If a white creature is put into a graveyard this way, Cinder Cloud deals damage to that creature's controller equal to the creature's power.
+Rules Text:     Destroy target creature. If a white creature dies this way, Cinder Cloud deals damage to that creature's controller equal to the creature's power.
 Set/Rarity:     Mirage Uncommon
 
 Name:   Cinder Crawler
@@ -2770,6 +2849,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     {1}, Sacrifice a creature: The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage.
 Set/Rarity:     Mirage Rare
+
+Name:   Circle of Flame
+Cost:   1R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature without flying attacks you or a planeswalker you control, Circle of Flame deals 1 damage to that creature.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Circle of Protection: Artifacts
 Cost:   1W
@@ -2952,6 +3038,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.
 Set/Rarity:     Tenth Edition Common, Ravnica: City of Guilds Common
 
+Name:   Civilized Scholar
+Cost:   2U
+Type:   Creature — Human Advisor
+Pow/Tgh:    (0/1)
+Rules Text:     {T}: Draw a card, then discard a card. If a creature card is discarded this way, untap Civilized Scholar, then transform it.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Clairvoyance
 Cost:   U
 Type:   Instant
@@ -2975,6 +3068,15 @@ Pow/Tgh:
 Rules Text:     All Spirits have "When this permanent enters the battlefield, you may have it deal 3 damage to target non-Spirit creature."
 Non-Spirit creatures have "When this creature enters the battlefield, you may have it deal 3 damage to target Spirit creature."
 Set/Rarity:     Betrayers of Kamigawa Rare
+
+Name:   Claustrophobia
+Cost:   1UU
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Claustrophobia enters the battlefield, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.
+Set/Rarity:     Innistrad Common
 
 Name:   Claws of Gix
 Cost:   0
@@ -3102,6 +3204,14 @@ Pow/Tgh:    (5/3)
 Rules Text:     Cliffrunner Behemoth has haste as long as you control a red permanent.
 Cliffrunner Behemoth has lifelink as long as you control a white permanent.
 Set/Rarity:     Conflux Rare
+
+Name:   Clifftop Retreat
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Clifftop Retreat enters the battlefield tapped unless you control a Mountain or a Plains.
+{T}: Add {R} or {W} to your mana pool.
+Set/Rarity:     Innistrad Rare
 
 Name:   Clinging Darkness
 Cost:   1B
@@ -3260,6 +3370,13 @@ Whenever Clockwork Vorrac attacks or blocks, remove a +1/+1 counter from it at e
 {T}: Put a +1/+1 counter on Clockwork Vorrac.
 Set/Rarity:     Mirrodin Uncommon
 
+Name:   Cloistered Youth
+Cost:   1W
+Type:   Creature — Human
+Pow/Tgh:    (1/1)
+Rules Text:     At the beginning of your upkeep, you may transform Cloistered Youth.
+Set/Rarity:     Innistrad Uncommon
+
 Name:   Clone
 Cost:   3U
 Type:   Creature — Shapeshifter
@@ -3272,7 +3389,7 @@ Cost:   5
 Type:   Artifact Creature — Shapeshifter
 Pow/Tgh:    (2/2)
 Rules Text:     Imprint — When Clone Shell enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library in any order.
-When Clone Shell is put into a graveyard from the battlefield, turn the exiled card face up. If it's a creature card, put it onto the battlefield under your control.
+When Clone Shell dies, turn the exiled card face up. If it's a creature card, put it onto the battlefield under your control.
 Set/Rarity:     Scars of Mirrodin Uncommon
 
 Name:   Close Quarters
@@ -3616,6 +3733,14 @@ Pow/Tgh:    (2/3)
 Rules Text:     {1}{U}: Cobalt Golem gains flying until end of turn.
 Set/Rarity:     Mirrodin Common
 
+Name:   Cobbled Wings
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has flying.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Innistrad Common
+
 Name:   Cobra Trap
 Cost:   4GG
 Type:   Instant — Trap
@@ -3834,7 +3959,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Combust can't be countered by spells or abilities.
 Combust deals 5 damage to target white or blue creature. The damage can't be prevented.
-Set/Rarity:     Magic 2011 Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon
 
 Name:   Comet Storm
 Cost:   XRR
@@ -4197,7 +4322,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Spend only black mana on X.
 Consume Spirit deals X damage to target creature or player and you gain X life.
-Set/Rarity:     Planechase Uncommon, Magic 2010 Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Mirrodin Common
+Set/Rarity:     Magic 2012 Uncommon, Planechase Uncommon, Magic 2010 Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Mirrodin Common
 
 Name:   Consume Strength
 Cost:   1BG
@@ -4328,7 +4453,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
-{R}{G}, {T}: Choose target Beast creature you control and target creature an opponent controls. Each of those creatures deals damage equal to its power to the other.
+{R}{G}, {T}: Choose target Beast creature you control and target creature an opponent controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Onslaught Rare
 
 Name:   Contested War Zone
@@ -4573,7 +4698,7 @@ Cost:   1U
 Type:   Creature — Merfolk
 Pow/Tgh:    (2/1)
 Rules Text:     
-Set/Rarity:     Magic 2010 Common, Seventh Edition Common, Urza's Saga Common
+Set/Rarity:     Magic 2012 Common, Magic 2010 Common, Seventh Edition Common, Urza's Saga Common
 
 Name:   Coral Net
 Cost:   U
@@ -4619,7 +4744,7 @@ Cost:   4
 Type:   Artifact Creature — Horror
 Pow/Tgh:    (2/2)
 Rules Text:     Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-When Core Prowler is put into a graveyard from the battlefield, proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
+When Core Prowler dies, proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
 Set/Rarity:     Mirrodin Besieged Uncommon
 
 Name:   Coretapper
@@ -4668,6 +4793,14 @@ Type:   Creature — Zombie Wizard
 Pow/Tgh:    (3/3)
 Rules Text:     {1}{B}, {T}, Sacrifice a creature: Search your library for a Zombie card and a Swamp card, reveal them, and put them into your hand. Then shuffle your library.
 Set/Rarity:     Planechase Uncommon, Legions Uncommon
+
+Name:   Corpse Lunge
+Cost:   2B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     As an additional cost to cast Corpse Lunge, exile a creature card from your graveyard.
+Corpse Lunge deals damage equal to the exiled card's power to target creature.
+Set/Rarity:     Innistrad Common
 
 Name:   Corpsehatch
 Cost:   3BB
@@ -4774,7 +4907,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land
 Enchanted land is a 3/3 black Ooze creature. It's still a land.
-When enchanted land is put into a graveyard, return that card to its owner's hand.
+When enchanted land dies, return that card to its owner's hand.
 Set/Rarity:     Worldwake Common
 
 Name:   Corrupting Licid
@@ -4862,7 +4995,7 @@ Cost:   UB
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target noncreature spell. Its controller loses 2 life.
-Set/Rarity:     Conflux Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Conflux Uncommon
 
 Name:   Countryside Crusher
 Cost:   1RR
@@ -4929,9 +5062,9 @@ Name:   Cover of Winter
 Cost:   2W
 Type:   Snow Enchantment
 Pow/Tgh:    
-Rules Text:     Cumulative upkeep {S}i} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S}i} can be paid with one mana from a snow permanent.)
+Rules Text:     Cumulative upkeep {S} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it. {S} can be paid with one mana from a snow permanent.)
 If a creature would deal combat damage to you and/or one or more creatures you control, prevent X of that damage, where X is the number of age counters on Cover of Winter.
-{S}i}: Put an age counter on Cover of Winter.
+{S}: Put an age counter on Cover of Winter.
 Set/Rarity:     Coldsnap Rare
 
 Name:   Covert Operative
@@ -5157,7 +5290,7 @@ Cost:   5B
 Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
-Soulshift 5 (When this is put into a graveyard from the battlefield, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
+Soulshift 5 (When this creature dies, you may return target Spirit card with converted mana cost 5 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Common
 
 Name:   Crawlspace
@@ -5223,7 +5356,7 @@ Cost:   1U
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature is put into a graveyard, Creature Bond deals damage equal to that creature's toughness to the creature's controller.
+When enchanted creature dies, Creature Bond deals damage equal to that creature's toughness to the creature's controller.
 Set/Rarity:     Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Credit Voucher
@@ -5247,6 +5380,14 @@ Pow/Tgh:
 Rules Text:     Destroy target artifact, enchantment, or land.
 Set/Rarity:     Tenth Edition Uncommon, Ninth Edition Uncommon, Mirrodin Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Visions Uncommon
 
+Name:   Creeping Renaissance
+Cost:   3GG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Choose a permanent type. Return all cards of the chosen type from your graveyard to your hand.
+Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Innistrad Rare
+
 Name:   Creeping Tar Pit
 Cost:   
 Type:   Land
@@ -5255,6 +5396,14 @@ Rules Text:     Creeping Tar Pit enters the battlefield tapped.
 {T}: Add {U} or {B} to your mana pool.
 {1}{U}{B}: Until end of turn, Creeping Tar Pit becomes a 3/2 blue and black Elemental creature and is unblockable. It's still a land.
 Set/Rarity:     Worldwake Rare
+
+Name:   Creepy Doll
+Cost:   5
+Type:   Artifact Creature — Construct
+Pow/Tgh:    (1/1)
+Rules Text:     Creepy Doll is indestructible.
+Whenever Creepy Doll deals combat damage to a creature, flip a coin. If you win the flip, destroy that creature.
+Set/Rarity:     Innistrad Rare
 
 Name:   Cremate
 Cost:   B
@@ -5315,8 +5464,7 @@ Name:   Crime // Punishment (Punishment)
 Cost:   XBG
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     
-Destroy each artifact, creature, and enchantment with converted mana cost X.
+Rules Text:     Destroy each artifact, creature, and enchantment with converted mana cost X.
 Set/Rarity:     Dissension Rare
 
 Name:   Crimson Acolyte
@@ -5337,10 +5485,18 @@ Set/Rarity:     Seventh Edition Rare, Classic Sixth Edition Rare, Mirage Rare
 
 Name:   Crimson Kobolds
 Cost:   0
+Color:  Red
 Type:   Creature — Kobold
 Pow/Tgh:    (0/1)
-Rules Text:     Crimson Kobolds is red.
+Rules Text:     
 Set/Rarity:     Masters Edition III Common, Legends Common
+
+Name:   Crimson Mage
+Cost:   1R
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/1)
+Rules Text:     {R}: Target creature you control gains haste until end of turn. (It can attack and {T} this turn.)
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Crimson Manticore
 Cost:   2RR
@@ -5412,9 +5568,10 @@ Set/Rarity:     Mercadian Masques Rare
 
 Name:   Crookshank Kobolds
 Cost:   0
+Color:  Red
 Type:   Creature — Kobold
 Pow/Tgh:    (0/1)
-Rules Text:     Crookshank Kobolds is red.
+Rules Text:     
 Set/Rarity:     Masters Edition Common, Legends Common
 
 Name:   Crop Rotation
@@ -5468,6 +5625,13 @@ Type:   Creature — Human Soldier Archer
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Crossbow Infantry deals 1 damage to target attacking or blocking creature.
 Set/Rarity:     Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Mercadian Masques Common
+
+Name:   Crossway Vampire
+Cost:   1RR
+Type:   Creature — Vampire
+Pow/Tgh:    (3/2)
+Rules Text:     When Crossway Vampire enters the battlefield, target creature can't block this turn.
+Set/Rarity:     Innistrad Common
 
 Name:   Crosswinds
 Cost:   1G
@@ -5536,6 +5700,13 @@ Rules Text:     Play with the top card of your library revealed.
 As long as the top card of your library is a creature card, creatures you control that share a color with that card get +1/+1.
 {G}{W}: Put the top card of your library on the bottom of your library.
 Set/Rarity:     Ravnica: City of Guilds Rare
+
+Name:   Crown of Empires
+Cost:   2
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {3}, {T}: Tap target creature. Gain control of that creature instead if you control artifacts named Scepter of Empires and Throne of Empires.
+Set/Rarity:     Magic 2012 Uncommon
 
 Name:   Crown of Flames
 Cost:   R
@@ -5650,7 +5821,7 @@ Cost:   UUBBBRR
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life.
-Set/Rarity:     Shards of Alara Rare
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Shards of Alara Rare
 
 Name:   Crumble
 Cost:   G
@@ -5666,13 +5837,21 @@ Pow/Tgh:
 Rules Text:     At the beginning of your upkeep, destroy target creature with a -1/-1 counter on it.
 Set/Rarity:     Eventide Uncommon
 
+Name:   Crumbling Colossus
+Cost:   5
+Type:   Artifact Creature — Golem
+Pow/Tgh:    (7/4)
+Rules Text:     Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+When Crumbling Colossus attacks, sacrifice it at end of combat.
+Set/Rarity:     Magic 2012 Uncommon
+
 Name:   Crumbling Necropolis
 Cost:   
 Type:   Land
 Pow/Tgh:    
 Rules Text:     Crumbling Necropolis enters the battlefield tapped.
 {T}: Add {U}, {B}, or {R} to your mana pool.
-Set/Rarity:     Shards of Alara Uncommon
+Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Shards of Alara Uncommon
 
 Name:   Crumbling Sanctuary
 Cost:   5
@@ -5724,7 +5903,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land
 Enchanted land is a 4/2 red Beast creature with trample. It's still a land.
-When enchanted land is put into a graveyard, return that card to its owner's hand.
+When enchanted land dies, return that card to its owner's hand.
 Set/Rarity:     Worldwake Common
 
 Name:   Crushing Pain
@@ -5740,7 +5919,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards a card.
 Haunt (When this spell card is put into a graveyard after resolving, exile it haunting target creature.)
-When the creature Cry of Contrition haunts is put into a graveyard, target player discards a card.
+When the creature Cry of Contrition haunts dies, target player discards a card.
 Set/Rarity:     Guildpact Common
 
 Name:   Cryoclasm
@@ -5937,7 +6116,7 @@ Cost:   2GG
 Type:   Creature — Troll
 Pow/Tgh:    (4/3)
 Rules Text:     {G}: Regenerate Cudgel Troll. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon
+Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon
 
 Name:   Culling Dais
 Cost:   2
@@ -6075,7 +6254,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Whenever enchanted creature deals damage to an opponent, you may draw a card.
-Set/Rarity:     Eighth Edition Uncommon, Exodus Uncommon
+Set/Rarity:     Innistrad Uncommon, Eighth Edition Uncommon, Exodus Uncommon
 
 Name:   Curse Artifact
 Cost:   2BB
@@ -6093,6 +6272,14 @@ Rules Text:     Enchant creature
 At the beginning of each upkeep, tap enchanted creature.
 Set/Rarity:     Shadowmoor Common
 
+Name:   Curse of Death's Hold
+Cost:   3BB
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+Creatures enchanted player controls get -1/-1.
+Set/Rarity:     Innistrad Rare
+
 Name:   Curse of Marit Lage
 Cost:   3RR
 Type:   Enchantment
@@ -6100,6 +6287,22 @@ Pow/Tgh:
 Rules Text:     When Curse of Marit Lage enters the battlefield, tap all Islands.
 Islands don't untap during their controllers' untap steps.
 Set/Rarity:     Ice Age Rare
+
+Name:   Curse of Oblivion
+Cost:   3B
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+At the beginning of enchanted player's upkeep, that player exiles two cards from his or her graveyard.
+Set/Rarity:     Innistrad Common
+
+Name:   Curse of Stalked Prey
+Cost:   1R
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+Whenever a creature deals combat damage to enchanted player, put a +1/+1 counter on that creature.
+Set/Rarity:     Innistrad Rare
 
 Name:   Curse of Wizardry
 Cost:   2BB
@@ -6109,6 +6312,14 @@ Rules Text:     As Curse of Wizardry enters the battlefield, choose a color.
 Whenever a player casts a spell of the chosen color, that player loses 1 life.
 Set/Rarity:     Rise of the Eldrazi Uncommon
 
+Name:   Curse of the Bloody Tome
+Cost:   2U
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+At the beginning of enchanted player's upkeep, that player puts the top two cards of his or her library into his or her graveyard.
+Set/Rarity:     Innistrad Common
+
 Name:   Curse of the Cabal
 Cost:   9B
 Type:   Sorcery
@@ -6117,6 +6328,22 @@ Rules Text:     Target player sacrifices half the permanents he or she controls,
 Suspend 2—{2}{B}{B} (Rather than cast this card from your hand, you may pay {2}{B}{B} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 At the beginning of each player's upkeep, if Curse of the Cabal is suspended, that player may sacrifice a permanent. If he or she does, put two time counters on Curse of the Cabal.
 Set/Rarity:     Time Spiral Rare
+
+Name:   Curse of the Nightly Hunt
+Cost:   2R
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+Creatures enchanted player controls attack each turn if able.
+Set/Rarity:     Innistrad Uncommon
+
+Name:   Curse of the Pierced Heart
+Cost:   1R
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+At the beginning of enchanted player's upkeep, Curse of the Pierced Heart deals 1 damage to that player.
+Set/Rarity:     Innistrad Common
 
 Name:   Cursecatcher
 Cost:   U
@@ -6250,14 +6477,14 @@ Name:   Cyclopean Giant
 Cost:   2BB
 Type:   Creature — Zombie Giant
 Pow/Tgh:    (4/2)
-Rules Text:     When Cyclopean Giant is put into a graveyard from the battlefield, target land becomes a Swamp. Exile Cyclopean Giant.
+Rules Text:     When Cyclopean Giant dies, target land becomes a Swamp. Exile Cyclopean Giant.
 Set/Rarity:     Time Spiral Common
 
 Name:   Cyclopean Mummy
 Cost:   1B
 Type:   Creature — Zombie
 Pow/Tgh:    (2/1)
-Rules Text:     When Cyclopean Mummy is put into a graveyard from the battlefield, exile Cyclopean Mummy.
+Rules Text:     When Cyclopean Mummy dies, exile it.
 Set/Rarity:     Masters Edition IV Common, Fourth Edition Common, Legends Common
 
 Name:   Cyclopean Snare
