@@ -1,23 +1,15 @@
-import difflib
-import os
-import re
-import sys
+import argparse
 import logging
 
 logging.basicConfig(level=logging.DEBUG, filename="LOG", filemode="w")
 plog = logging.getLogger("Parser")
 plog.setLevel(logging.DEBUG)
-ulog = logging.getLogger("Updater")
-ulog.setLevel(logging.INFO)
 
 import antlr3
 
-from . import card
-from .grammar import Demystify
-
-DATADIR = os.path.join(os.path.dirname(__file__), "data/")
-TEXTDIR = DATADIR + "text/"
-TEXTFILES = [TEXTDIR + c for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0']
+import card
+import data
+from grammar import Demystify
 
 # What we don't handle:
 #   - physical interactions like dropping cards onto the table
@@ -30,87 +22,6 @@ BANNED = [
 ]
 def get_cards():
     return [c for c in card.get_cards() if c.name not in BANNED]
-
-nameline = re.compile(r"^Name:", re.M)
-
-def smart_split(cardlist):
-    """ Given a list of cards in gatherer format as a single string,
-        splits them into blocks of single cards, each starting with a
-        'Name:' line. """
-    i = 0
-    c = []
-    for t in nameline.finditer(cardlist):
-        x, _ = t.regs[0]
-        if x > i:
-            c += [cardlist[i:x].strip()]
-            i = x
-    c += [cardlist[i:].strip()]
-    return c
-
-def load():
-    """ Load the cards from the data files. These are stored statically
-        in the card module.
-        
-        Returns the number of cards loaded. """
-    count = 0
-    for filename in TEXTFILES:
-        logging.info("Loading cards from {}...".format(filename))
-        with open(filename) as f:
-            raw_cards = smart_split(f.read())
-            c = len(raw_cards)
-            for cs in raw_cards:
-                _ = card.Card.from_string(cs)
-            logging.debug("Loaded {} cards from {}.".format(c, filename))
-            count += c
-    return count
-
-def update(files):
-    """ Given a list of text files (not the ones in data/) containing card
-        data, update the text files in data/ by adding new card entries or
-        updating existing entries. """
-    alpha = {}
-    # read in the data we already have
-    for tfile in TEXTFILES:
-        with open(tfile) as f:
-            alpha[tfile[-1]] = {}
-            for raw_card in smart_split(f.read()):
-                name = raw_card[5:raw_card.index('\n')].strip()
-                alpha[tfile[-1]][name] = raw_card
-    added = 0
-    updated = 0
-    # Lines with whitespace only are junk
-    differ = difflib.Differ(linejunk=lambda s: not s.strip())
-    def sequencify(s):
-        """ Make a sequence of lines that end in newlines. """
-        return (s + '\n').splitlines(True)
-    # read in the new data
-    for ufile in files:
-        with open(ufile) as f:
-            for raw_card in smart_split(f.read()):
-                name = raw_card[5:raw_card.index('\n')].strip()
-                initial = name[0] if name[0] in alpha else '0'
-                if name in alpha[initial]:
-                    if alpha[initial][name] != raw_card:
-                        updated += 1
-                        diff = differ.compare(sequencify(alpha[initial][name]),
-                                              sequencify(raw_card))
-                        ulog.info("Updating {}:\n{}"
-                                  .format(name, ''.join(diff)))
-                else:
-                    added += 1
-                    ulog.info("Adding {}.".format(name))
-                alpha[initial][name] = raw_card
-    # write out the data
-    for tfile in TEXTFILES:
-        with open(tfile, 'w') as f:
-            f.write('\n\n'.join(sorted(alpha[tfile[-1]].values())))
-            f.write('\n')
-    # The update count might include those with no changes.
-    # But this usually doesn't happen, as reprinted cards get a new expansion.
-    summary = ("Added {} new cards and updated {} old ones."
-               .format(added, updated))
-    print(summary)
-    ulog.info(summary)
 
 ## Lexer / Parser entry points ##
 
@@ -145,14 +56,13 @@ def lex_card(c):
                   '{0.text:{tlen}} {1}'
                   .format(t, Demystify.getTokenName(t.type), tlen=tlen))
 
-def main():
-    if len(sys.argv) > 1:
-        if len(sys.argv) > 2 and sys.argv[-1] == '-q':
-            update(sys.argv[1:-1])
-            return
-        else:
-            update(sys.argv[1:])
-    numcards = load()
+def preprocess(args):
+    raw_cards = []
+    for clist in data.load().values():
+        raw_cards.extend(clist)
+    numcards = len(raw_cards)
+    for rc in raw_cards:
+        _ = card.Card.from_string(rc)
     cards = card.get_cards()
     split = set([c.name for c in cards if c.multitype == "split"])
     xsplit = set([c.multicard for c in cards if c.multitype == "split"])
@@ -175,3 +85,19 @@ def main():
         logging.warning("...but {} banned cards were named."
                         .format(len(BANNED)))
     card.preprocess_all(legalcards)
+    if args.interactive:
+        import code
+        code.interact(local={'card': card})
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='A Magic: the Gathering parser.')
+    subparsers = parser.add_subparsers()
+    data.add_subcommands(subparsers)
+    loader = subparsers.add_parser('load')
+    loader.add_argument('-i', '--interactive', action='store_true',
+                        help='Enter interactive mode instead of exiting.')
+    loader.set_defaults(func=preprocess)
+
+    args = parser.parse_args()
+    args.func(args)
