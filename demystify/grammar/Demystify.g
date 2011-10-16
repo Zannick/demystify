@@ -49,7 +49,7 @@ COLON : ':';
 SEMICOLON : ';';
 PERIOD : '.';
 DQUOTE : '"';
-SQUOTE : '\'';
+SQUOTE : '\'' | '\u2018';
 PLUS_SYM : '+';
 MINUS_SYM : '-';
 STAR_SYM : '*';

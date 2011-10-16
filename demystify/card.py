@@ -15,6 +15,7 @@ nonwords = re.compile(r'\W', flags=re.UNICODE)
 
 all_names = {}
 all_names_inv = {}
+all_shortnames = {}
 _all_cards = {}
 expect_multi = {}
 
@@ -155,8 +156,9 @@ class Card:
                     ftype = flines.pop(0)
                     fpt = flines.pop(0)
                     # This adds the card to the _all_cards dict
-                    fcard = Card(fname, '', ftype, fpt,
-                                 '\n'.join(flines), set_rarity)
+                    fcard = Card(fname, '', ftype, pt=fpt,
+                                 rules='\n'.join(flines),
+                                 set_rarity=set_rarity)
                     self.multicard = fname
                     fcard.multicard = name
                     self.multitype = fcard.multitype = "flip"
@@ -179,6 +181,7 @@ class Card:
             if self.shortname:
                 logger.debug("Shortname for {} set to {}."
                              .format(self.name, self.shortname))
+                all_shortnames[self.shortname] = self.name
 
         uname = construct_uname(self.name)
         all_names[self.name] = uname
@@ -226,6 +229,18 @@ class Card:
 
     def __hash__(self):
         return self.name.__hash__()
+
+    def __repr__(self):
+        return '<{!s} instance {!s}>'.format(self.__class__, vars(self))
+
+    def __str__(self):
+        v = vars(self)
+        s = []
+        for c in ['name', 'shortname', 'cost', 'color', 'typeline', 'pt',
+                  'set_rarity', 'rules', 'multitype', 'multicard']:
+            if v[c]:
+                s.append('{}: {}'.format(c, v[c]))
+        return '\n'.join(s)
 
 def CardProgressBar(cards):
     """ A generator that writes a progress bar to stdout as its elements
@@ -458,7 +473,7 @@ def preprocess_capitals(text):
     ws = text.split(' ')
     vs = []
     for w in ws:
-        if 'SELF' in w or 'PARENT' in w or 'NAME_' in w or w == 'P':
+        if 'SELF' in w or 'PARENT' in w or 'NAME_' in w:
             vs.append(w)
         else:
             vs.append(w.lower())
@@ -492,7 +507,8 @@ def get_cards():
 
 def get_card(cardname):
     """ Returns a specific card by name, or None if no such card exists. """
-    return _all_cards.get(unicode(cardname))
+    cardname = unicode(cardname)
+    return _all_cards.get(all_shortnames.get(cardname, cardname))
 
 def get_name_from_uname(uname):
     """ Returns the English card for an object, given its unique name. """

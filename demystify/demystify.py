@@ -4,6 +4,10 @@ import logging
 logging.basicConfig(level=logging.DEBUG, filename="LOG", filemode="w")
 plog = logging.getLogger("Parser")
 plog.setLevel(logging.DEBUG)
+_stdout = logging.StreamHandler()
+_stdout.setLevel(logging.WARNING)
+_stdout.setFormatter('%(levelname)s: %(message)s')
+plog.addHandler(_stdout)
 
 import antlr3
 
@@ -87,7 +91,7 @@ def preprocess(args):
     card.preprocess_all(legalcards)
     if args.interactive:
         import code
-        code.interact(local={'card': card})
+        code.interact(local=globals())
 
 def main():
     parser = argparse.ArgumentParser(
@@ -101,3 +105,6 @@ def main():
 
     args = parser.parse_args()
     args.func(args)
+
+if __name__ == '__main__':
+    main()

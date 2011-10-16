@@ -33,6 +33,7 @@ _mdash = re.compile(r'\s+(—|--)\s+')
 # Fix up mana symbols.
 # {S}i}? => {S} , {(u/r){ => {(u/r)}{ , {1}0} => {10}, and p => {p}
 _mana = re.compile(r'{S}i}?|{\d}\d}|{\(?\w/\w\)?(?={)| p ')
+_kaboom = re.compile(r'Kaboom(?=[^!])')
 
 _nameline = re.compile(r"^Name:", re.M)
 
@@ -145,6 +146,11 @@ class GathererParser(HTMLParser):
                 s = _mdash.sub(r' \1 ', s)
             elif self._header == 'Rules Text:':
                 s = _mana.sub(partial(_fix_mana, self._name), s)
+                if self._name == 'Kaboom!':
+                    s, c = _kaboom.subn('Kaboom!', s)
+                    if c:
+                        ulog.info("Corrected Kaboom!'s name in {} place(s)."
+                                  .format(c))
                 self._rules_text += s
                 return
             if s:

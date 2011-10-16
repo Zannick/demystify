@@ -29,7 +29,7 @@ tokens {
 // but for reference they are:
 // ,:;."'+-*/
 
-// These seven are the only things exempt from being lowercased.
+// These six are the only things exempt from being lowercased.
 SELF_POSS : 'SELF\'s';
 SELF : 'SELF';
 
@@ -41,15 +41,15 @@ REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' | '\u00c6' | '\u00e6' )+;
 // Basic lands have only one letter as their rules text
 BASIC_MANA_SYM : ('W'|'U'|'B'|'R'|'G');
 
-// Appearance in rules text
-PHYREXIA_SYM : 'P';
-
 // TODO: Need to chop off the '}' from the token values?
 
 MANA_SYM
     : '{(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' WUBRGP ')}'
     | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) ( '}' | '/' WUBRGP '}' )
-    | '(' ( WUBRG | DIGIT_SYM | 's' ) '/' ( WUBRGP | 's' ) ')';
+    | '(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' ( WUBRGP | SNOW_SYM ) ')';
+
+// Appearance in rules text
+PHYREXIA_SYM : '{p}';
 
 VAR_SYM : '{' ('x'..'z') '}';
 
@@ -76,8 +76,7 @@ WALK : 'walk';
 
 WS : ( ' ' | '\t' | '\n' ) {$channel=HIDDEN;} ;
 
-// I have no idea why the snow mana symbol appears as 'S}i' in gatherer.
-fragment SNOW_SYM : 's' '}'? 'i'?;
+fragment SNOW_SYM : 's';
 
 fragment WUBRG : ('w'|'u'|'b'|'r'|'g');
 
