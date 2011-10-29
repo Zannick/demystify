@@ -45,8 +45,11 @@ BASIC_MANA_SYM : ('W'|'U'|'B'|'R'|'G');
 
 MANA_SYM
     : '{(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' WUBRGP ')}'
+      { $text = $text[2:-2].split('/') }
     | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) ( '}' | '/' WUBRGP '}' )
-    | '(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' ( WUBRGP | SNOW_SYM ) ')';
+      { $text = $text[1:-1].split('/') }
+    | '(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' ( WUBRGP | SNOW_SYM ) ')'
+      { $text = $text[1:-1].split('/') };
 
 // Appearance in rules text
 PHYREXIA_SYM : '{p}';
