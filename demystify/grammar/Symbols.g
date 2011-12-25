@@ -6,30 +6,11 @@ options {
     language = Python;
 }
 
-tokens {
-    MANA_SYM;
-    BASIC_MANA_SYM;
-    PHYREXIA_SYM;
-    VAR_SYM;
-    TAP_SYM;
-    UNTAP_SYM;
-    NUMBER_SYM;
-    VAR;
-    MDASH;
-    SELF;
-    SELF_POSS;
-    PARENT;
-    PARENT_POSS;
-    REFBYNAME;
-    WALK;
-    WS;
-}
-
 // Literals used in parsing rules don't have to be declared,
 // but for reference they are:
 // ,:;."'+-*/
 
-// These six are the only things exempt from being lowercased.
+// These six are the only things in rules text exempt from being lowercased.
 SELF_POSS : 'SELF\'s';
 SELF : 'SELF';
 
@@ -39,22 +20,29 @@ PARENT : 'PARENT';
 REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' | '\u00c6' | '\u00e6' )+;
 
 // Basic lands have only one letter as their rules text
-BASIC_MANA_SYM : ('W'|'U'|'B'|'R'|'G');
+BASIC_MANA_SYM : WUBRG_u;
 
-// TODO: Need to chop off the '}' from the token values?
+// Chop off brackets for the symbols whose text we'll need later.
+// Unfortunately we have to do our checking against hybrid alternatives
+// elsewhere.
 
 MANA_SYM
     : '{(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' WUBRGP ')}'
-      { $text = $text[2:-2].split('/') }
+      { $text = $text[2:-2] }
     | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) ( '}' | '/' WUBRGP '}' )
-      { $text = $text[1:-1].split('/') }
-    | '(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' ( WUBRGP | SNOW_SYM ) ')'
-      { $text = $text[1:-1].split('/') };
+      { $text = $text[1:-1] };
+
+// Mana cost symbols are BASIC_MANA_SYM, NUMBER_SYM, and MC_HYBRID_SYM.
+// These use all caps mana symbols and should never be seen in text.
+
+MC_HYBRID_SYM
+    : '(' ( WUBRG_u | DIGIT_SYM | SNOW_u ) '/' ( WUBRGP_u | SNOW_u ) ')'
+      { $text = $text[1:-1] };
 
 // Appearance in rules text
 PHYREXIA_SYM : '{p}';
 
-VAR_SYM : '{' ('x'..'z') '}';
+VAR_SYM : '{' ('x'..'z') '}' { $text = $text[1:-1] };
 
 TAP_SYM : '{t}';
 
@@ -83,6 +71,12 @@ fragment SNOW_SYM : 's';
 
 fragment WUBRG : ('w'|'u'|'b'|'r'|'g');
 
-fragment WUBRGP : ( WUBRG | 'p');
+fragment WUBRGP : ( WUBRG | 'p' );
+
+fragment SNOW_u : 'S';
+
+fragment WUBRG_u : ('W'|'U'|'B'|'R'|'G');
+
+fragment WUBRGP_u : ( WUBRG_u | 'P' );
 
 fragment DIGIT_SYM : ('1'..'9' '0'..'9') | ('0'..'9');
