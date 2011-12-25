@@ -1,10 +1,10 @@
-lexer grammar Demystify;
+grammar Demystify;
 
 options {
     language = Python;
 }
 
-import Keywords, Symbols;
+import Keywords, mana;
 
 @header {
     import logging
@@ -43,6 +43,8 @@ import Keywords, Symbols;
             msg = self.card + ':' + msg
         llog.error(msg)
 }
+
+mana_cost : mc_symbols ;
 
 COMMA : ',';
 COLON : ':';

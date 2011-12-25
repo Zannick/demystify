@@ -13,7 +13,7 @@ import antlr3
 
 import card
 import data
-from grammar import Demystify
+from grammar import DemystifyLexer, DemystifyParser
 
 # What we don't handle:
 #   - physical interactions like dropping cards onto the table
@@ -29,9 +29,19 @@ def get_cards():
 
 ## Lexer / Parser entry points ##
 
+def _fix_lexer():
+    """ Fixes an issue with a broken delegate. """
+    class _Lexer(DemystifyLexer.DemystifyLexer):
+        def __getattribute__(self, a):
+            if a == 'gSymbols':
+                return self.gKeywords.gSymbols
+            else:
+                return super(_Lexer, self).__getattribute__(a)
+    return _Lexer
+
 def test_lex(cards):
     """ Test the lexer against the given cards' text, logging failures. """
-    Lexer = Demystify.Demystify
+    Lexer = _fix_lexer()
     for c in card.CardProgressBar(cards):
         try:
             char_stream = antlr3.ANTLRStringStream(c.rules)
@@ -45,7 +55,7 @@ def test_lex(cards):
 
 def lex_card(c):
     """ Test the lexer against one card's text. """
-    Lexer = Demystify.Demystify
+    Lexer = _fix_lexer()
     if isinstance(c, str):
         c = card.get_card(c)
     char_stream = antlr3.ANTLRStringStream(c.rules)
@@ -55,10 +65,10 @@ def lex_card(c):
     print(c.rules)
     tlen = max(len(t.text) for t in tokens)
     for t in tokens:
-        if t.channel != Demystify.HIDDEN_CHANNEL:
+        if t.channel != antlr3.HIDDEN_CHANNEL:
             print('{0.line:>2} {0.charPositionInLine:>4} {0.index:>3} '
                   '{0.text:{tlen}} {1}'
-                  .format(t, Demystify.getTokenName(t.type), tlen=tlen))
+                  .format(t, DemystifyParser.getTokenName(t.type), tlen=tlen))
 
 def preprocess(args):
     raw_cards = []
