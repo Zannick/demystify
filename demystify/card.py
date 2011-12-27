@@ -535,6 +535,8 @@ def get_cards():
 def get_card(cardname):
     """ Returns a specific card by name, or None if no such card exists. """
     cardname = unicode(cardname)
+    if 'AE' in cardname:
+        cardname = cardname.replace('AE', 'Æ')
     return _all_cards.get(all_shortnames.get(cardname, cardname))
 
 def get_name_from_uname(uname):
