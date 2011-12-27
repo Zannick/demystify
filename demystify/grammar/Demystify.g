@@ -2,6 +2,7 @@ grammar Demystify;
 
 options {
     language = Python;
+    output = AST;
 }
 
 import Keywords, mana;
@@ -44,7 +45,7 @@ import Keywords, mana;
         llog.error(msg)
 }
 
-mana_cost : mc_symbols ;
+mana_cost : mc_symbols -> ^( COST mc_symbols );
 
 COMMA : ',';
 COLON : ':';

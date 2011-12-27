@@ -32,12 +32,15 @@ MANA_SYM
     | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) ( '}' | '/' WUBRGP '}' )
       { $text = $text[1:-1] };
 
-// Mana cost symbols are BASIC_MANA_SYM, NUMBER_SYM, and MC_HYBRID_SYM.
+// Mana cost symbols are BASIC_MANA_SYM, NUMBER_SYM,
+// MC_HYBRID_SYM, and MC_VAR_SYM.
 // These use all caps mana symbols and should never be seen in text.
 
 MC_HYBRID_SYM
     : '(' ( WUBRG_u | DIGIT_SYM | SNOW_u ) '/' ( WUBRGP_u | SNOW_u ) ')'
       { $text = $text[1:-1] };
+
+MC_VAR_SYM : 'X'..'Z' ;
 
 // Appearance in rules text
 PHYREXIA_SYM : '{p}';

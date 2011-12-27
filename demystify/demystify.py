@@ -29,46 +29,54 @@ def get_cards():
 
 ## Lexer / Parser entry points ##
 
-def _fix_lexer():
-    """ Fixes an issue with a broken delegate. """
-    class _Lexer(DemystifyLexer.DemystifyLexer):
-        def __getattribute__(self, a):
-            if a == 'gSymbols':
-                return self.gKeywords.gSymbols
-            else:
-                return super(_Lexer, self).__getattribute__(a)
-    return _Lexer
+def _token_stream(name, text):
+    """ Helper method for generating a token stream from text. """
+    char_stream = antlr3.ANTLRStringStream(text)
+    lexer = DemystifyLexer.DemystifyLexer(char_stream)
+    lexer.card = name
+    # tokenizes completely and logs on errors
+    return antlr3.CommonTokenStream(lexer)
 
 def test_lex(cards):
     """ Test the lexer against the given cards' text, logging failures. """
-    Lexer = _fix_lexer()
     for c in card.CardProgressBar(cards):
         try:
-            char_stream = antlr3.ANTLRStringStream(c.rules)
-            lexer = Lexer(char_stream)
-            lexer.card = c.name
-            # tokenizes completely and logs on errors
-            tokens = antlr3.CommonTokenStream(lexer).getTokens()
+            tokens = _token_stream(c.name, c.rules).getTokens()
         except:
             print('Error lexing {}:\n{}'.format(c.name, c.rules))
             raise
 
 def lex_card(c):
     """ Test the lexer against one card's text. """
-    Lexer = _fix_lexer()
     if isinstance(c, str):
         c = card.get_card(c)
-    char_stream = antlr3.ANTLRStringStream(c.rules)
-    lexer = Lexer(char_stream)
-    lexer.card = c.name
-    tokens = antlr3.CommonTokenStream(lexer).getTokens()
+    tokens = _token_stream(c.name, c.rules).getTokens()
     print(c.rules)
+    pprint_tokens(tokens)
+
+def pprint_tokens(tokens):
+    if not tokens:
+        return
     tlen = max(len(t.text) for t in tokens)
     for t in tokens:
         if t.channel != antlr3.HIDDEN_CHANNEL:
             print('{0.line:>2} {0.charPositionInLine:>4} {0.index:>3} '
                   '{0.text:{tlen}} {1}'
                   .format(t, DemystifyParser.getTokenName(t.type), tlen=tlen))
+
+def parse_card(c):
+    """ Test the parser against a card. """
+    Parser = DemystifyParser.DemystifyParser
+    if isinstance(c, str):
+        c = card.get_card(c)
+    # mana cost
+    ts = _token_stream(c.name, c.cost)
+    ManaCostParser = Parser(ts)
+    parse_result = ManaCostParser.mana_cost()
+    print(c.cost)
+    pprint_tokens(ts.getTokens())
+    print(parse_result.tree.toStringTree())
+    # TODO: rules text
 
 def preprocess(args):
     raw_cards = []
