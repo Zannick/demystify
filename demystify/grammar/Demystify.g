@@ -5,7 +5,12 @@ options {
     output = AST;
 }
 
-import Keywords, mana;
+import Keywords, costs, types;
+
+tokens {
+    TYPELINE;
+    VAR;
+}
 
 @header {
     import logging
@@ -45,7 +50,7 @@ import Keywords, mana;
         llog.error(msg)
 }
 
-mana_cost : mc_symbols -> ^( COST mc_symbols );
+card_mana_cost : mc_symbols -> ^( COST mc_symbols );
 
 COMMA : ',';
 COLON : ':';

@@ -28,9 +28,9 @@ BASIC_MANA_SYM : WUBRG_u;
 
 MANA_SYM
     : '{(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' WUBRGP ')}'
-      { $text = $text[2:-2] }
+      { $text = $text[2:-2].upper() }
     | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) ( '}' | '/' WUBRGP '}' )
-      { $text = $text[1:-1] };
+      { $text = $text[1:-1].upper() };
 
 // Mana cost symbols are BASIC_MANA_SYM, NUMBER_SYM,
 // MC_HYBRID_SYM, and MC_VAR_SYM.
@@ -43,18 +43,18 @@ MC_HYBRID_SYM
 MC_VAR_SYM : 'X'..'Z' ;
 
 // Appearance in rules text
-PHYREXIA_SYM : '{p}';
+PHYREXIA_SYM : '{p}' { $text = 'P' };
 
-VAR_SYM : '{' ('x'..'z') '}' { $text = $text[1:-1] };
+VAR_MANA_SYM : '{' ('x'..'z') '}' { $text = $text[1:-1].upper() };
 
-TAP_SYM : '{t}';
+TAP_SYM : '{t}' { $text = 'T' };
 
-UNTAP_SYM : '{q}';
+UNTAP_SYM : '{q}' { $text = 'Q' };
 
 // TODO: Cast to int
 NUMBER_SYM : DIGIT_SYM;
 
-VAR : 'x'..'z';
+VAR_SYM : 'x'..'z' { $text = $text.upper() };
 
 MDASH : ( '\u2014' | '--' );
 

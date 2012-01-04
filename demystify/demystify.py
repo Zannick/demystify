@@ -72,11 +72,20 @@ def parse_card(c):
     # mana cost
     ts = _token_stream(c.name, c.cost)
     ManaCostParser = Parser(ts)
-    parse_result = ManaCostParser.mana_cost()
+    parse_result = ManaCostParser.card_mana_cost()
     print(c.cost)
     pprint_tokens(ts.getTokens())
     print(parse_result.tree.toStringTree())
     # TODO: rules text
+
+def test_parse(rule, text, name=''):
+    """ Give the starting rule and try to parse text. """
+    ts = _token_stream(name or 'Sample text', text)
+    p = DemystifyParser.DemystifyParser(ts)
+    result = getattr(p, rule)()
+    print(text)
+    pprint_tokens(ts.getTokens())
+    print(result.tree.toStringTree())
 
 def preprocess(args):
     raw_cards = []
