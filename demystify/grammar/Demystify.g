@@ -17,6 +17,11 @@ tokens {
     logging.basicConfig(level=logging.DEBUG, filename="LOG")
     llog = logging.getLogger("Lexer")
     llog.setLevel(logging.DEBUG)
+
+    # hack to allow unicode
+    if sys.getdefaultencoding() != 'utf-8':
+        reload(sys)
+        sys.setdefaultencoding('utf-8')
 }
 
 @parser::header {
@@ -90,7 +95,7 @@ COLON : ':';
 SEMICOLON : ';';
 PERIOD : '.';
 DQUOTE : '"';
-SQUOTE : '\'' | '\u2018';
+SQUOTE : '\'';
 PLUS_SYM : '+';
 MINUS_SYM : '-';
 STAR_SYM : '*';

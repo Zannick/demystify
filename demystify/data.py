@@ -30,6 +30,8 @@ GATHERER = 'http://gatherer.wizards.com/Pages/Search/Default.aspx'
 _parens = re.compile(r'([^/]*) \((.*)\)')
 # Remove unnecessary padding around the mdash.
 _mdash = re.compile(r'\s+(—|--)\s+')
+# Replace unicode quotes with standard ones.
+_quotes = re.compile(r'’|‘')
 # Fix up mana symbols.
 # {S}i}? => {S} , {(u/r){ => {(u/r)}{ , {1}0} => {10}, and p => {p}
 _mana = re.compile(r'{S}i}?|{\d}\d}|{\(?\w/\w\)?(?={)| p ')
@@ -144,6 +146,10 @@ class GathererParser(HTMLParser):
                     self._name = s
             elif self._header == 'Type:':
                 s = _mdash.sub(r' \1 ', s)
+                s, n = _quotes.subn("'", s)
+                if n:
+                    ulog.info("{}: Corrected unicode quotes in the typeline."
+                              .format(self._name))
             elif self._header == 'Rules Text:':
                 s = _mana.sub(partial(_fix_mana, self._name), s)
                 if self._name == 'Kaboom!':
@@ -151,6 +157,10 @@ class GathererParser(HTMLParser):
                     if c:
                         ulog.info("Corrected Kaboom!'s name in {} place(s)."
                                   .format(c))
+                s, n = _quotes.subn("'", s)
+                if n:
+                    ulog.info("{}: Corrected unicode quotes in the rules text."
+                              .format(self._name))
                 self._rules_text += s
                 return
             if s:
