@@ -147,13 +147,13 @@ def make_shortname(name):
             return name[:name.index(' the ')].strip()
     return shortname_exceptions.get(name)
 
-class Card:
+class Card(object):
     """ Stores information about a Magic card, as given by Gatherer. """
     def __init__(self, name, cost, typeline, color=None,
                  pt=None, rules=None, set_rarity=None):
         self.name = unicode(name)
         self.cost = cost
-        self.typeline = unicode(typeline)
+        self.typeline = unicode(typeline.lower())
         self.color = color
         self.pt = pt
         self.rules = unicode(rules)
@@ -258,7 +258,8 @@ class Card:
         return self.name.__hash__()
 
     def __repr__(self):
-        return '<{!s} instance {!s}>'.format(self.__class__, vars(self))
+        return ('<{0.__module__}.{0.__name__} instance {1}>'
+                .format(self.__class__, vars(self)))
 
     def __str__(self):
         v = vars(self)

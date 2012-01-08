@@ -12,19 +12,47 @@ tokens {
     VAR;
 }
 
-@header {
+@lexer::header {
     import logging
     logging.basicConfig(level=logging.DEBUG, filename="LOG")
     llog = logging.getLogger("Lexer")
     llog.setLevel(logging.DEBUG)
+}
+
+@parser::header {
+    import logging
+    logging.basicConfig(level=logging.DEBUG, filename="LOG")
+    plog = logging.getLogger("Parser")
+    plog.setLevel(logging.DEBUG)
 
     # hack to allow unicode
     if sys.getdefaultencoding() != 'utf-8':
         reload(sys)
         sys.setdefaultencoding('utf-8')
+
+    # hack to make all subparsers have the same error logging
+    def log_error(parser, msg):
+        plog.error(msg)
+
+    def _getErrorHeader(self, e):
+        if hasattr(self._state, 'card'):
+            return "{}:{}:{}".format(self._state.card,
+                                     e.line, e.charPositionInLine)
+        else:
+            return "line {}:{}".format(e.line, e.charPositionInLine)
+
+    Parser.emitErrorMessage = log_error
+    Parser.getErrorHeader = _getErrorHeader
+
+    # hack to make __repr__ somewhat meaningful
+    def _tree_repr(self):
+        return ('<{0.__module__}.{0.__name__} instance {1}>'
+                .format(self.__class__, self.toStringTree()))
+
+    CommonTree.__repr__ = _tree_repr
 }
 
-@footer {
+@lexer::footer {
     _token_names = {}
     for name, i in globals().items():
         if (name not in ('HIDDEN', 'HIDDEN_CHANNEL',
@@ -43,11 +71,16 @@ tokens {
         return _token_names.get(i)
 }
 
-@members {
+@lexer::members {
     def emitErrorMessage(self, msg):
         if hasattr(self, 'card'):
             msg = self.card + ':' + msg
         llog.error(msg)
+}
+
+@parser::members {
+    def setCardState(self, name):
+        self._state.card = name
 }
 
 card_mana_cost : mc_symbols -> ^( COST mc_symbols );

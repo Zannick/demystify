@@ -6,7 +6,7 @@ plog = logging.getLogger("Parser")
 plog.setLevel(logging.DEBUG)
 _stdout = logging.StreamHandler()
 _stdout.setLevel(logging.WARNING)
-_stdout.setFormatter('%(levelname)s: %(message)s')
+_stdout.setFormatter(logging.Formatter(fmt='%(levelname)s: %(message)s'))
 plog.addHandler(_stdout)
 
 import antlr3
@@ -62,7 +62,7 @@ def pprint_tokens(tokens):
         if t.channel != antlr3.HIDDEN_CHANNEL:
             print('{0.line:>2} {0.charPositionInLine:>4} {0.index:>3} '
                   '{0.text:{tlen}} {1}'
-                  .format(t, DemystifyParser.getTokenName(t.type), tlen=tlen))
+                  .format(t, DemystifyLexer.getTokenName(t.type), tlen=tlen))
 
 def parse_card(c):
     """ Test the parser against a card. """
@@ -72,6 +72,7 @@ def parse_card(c):
     # mana cost
     ts = _token_stream(c.name, c.cost)
     ManaCostParser = Parser(ts)
+    p.setCardState(c.name)
     parse_result = ManaCostParser.card_mana_cost()
     print(c.cost)
     pprint_tokens(ts.getTokens())
@@ -82,10 +83,29 @@ def test_parse(rule, text, name=''):
     """ Give the starting rule and try to parse text. """
     ts = _token_stream(name or 'Sample text', text)
     p = DemystifyParser.DemystifyParser(ts)
+    p.setCardState(name)
     result = getattr(p, rule)()
     print(text)
     pprint_tokens(ts.getTokens())
     print(result.tree.toStringTree())
+
+def parse_all(cards):
+    """ Run the parser against each card's parseable parts. """
+    # card attribute -> parser rule
+    parts = { 'cost' : 'card_mana_cost',
+              'typeline' : 'typeline' }
+    errors = 0
+    for c in card.CardProgressBar(cards):
+        for part, rule in parts.items():
+            ts = _token_stream(c.name, getattr(c, part))
+            p = DemystifyParser.DemystifyParser(ts)
+            p.setCardState(c.name)
+            parse_result = getattr(p, rule)()
+            setattr(c, 'parsed_' + part, parse_result.tree)
+            if p.getNumberOfSyntaxErrors():
+                plog.debug('result: ' + parse_result.tree.toStringTree())
+                errors += 1
+    print('{} total errors.'.format(errors))
 
 def preprocess(args):
     raw_cards = []
