@@ -1,5 +1,7 @@
 parser grammar types;
 
+import macro;
+
 /* Types, supertypes, subtypes, and other miscellaneous types. */
 
 // For use parsing a full typeline.
@@ -37,7 +39,7 @@ other_type : PLANE | SCHEME | VANGUARD ;
 tribal_type : TRIBAL ;
 
 // subtypes
-subtypes : OBJ_SUBTYPE+ -> ^( SUBTYPES OBJ_SUBTYPE+ );
+subtypes : obj_subtype+ -> ^( SUBTYPES obj_subtype+ );
 
 // Object types
 
