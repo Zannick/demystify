@@ -1,7 +1,5 @@
 parser grammar types;
 
-import macro;
-
 /* Types, supertypes, subtypes, and other miscellaneous types. */
 
 // For use parsing a full typeline.

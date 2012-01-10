@@ -5,7 +5,7 @@ options {
     output = AST;
 }
 
-import Keywords, costs, types;
+import Keywords, macro, misc, costs, types, properties;
 
 tokens {
     TYPELINE;
