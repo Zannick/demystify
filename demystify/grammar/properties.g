@@ -35,8 +35,8 @@ tokens {
  */
 
 properties : a+=adjective*
-             ( adj_list noun+ descriptor*
-               -> ^( PROPERTIES adjective* adj_list noun* descriptor* )
+             ( adj_list? noun+ descriptor*
+               -> ^( PROPERTIES adjective* adj_list? noun* descriptor* )
              | noun_list descriptor*
                -> ^( PROPERTIES adjective* noun_list descriptor* )
              | b+=noun+ 
@@ -70,11 +70,7 @@ noun_list : noun+ ( ','! ( noun+ ','! )+ )? conj^ noun+;
 
 // Adjectives
 
-adjective : supertype
-          | color
-          | color_spec
-          | status
-          ;//| NON adjective -> ^( NOT adjective );
+adjective : NON^? ( supertype | color | color_spec | status );
 
 color : WHITE | BLUE | BLACK | RED | GREEN;
 color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED;
@@ -97,11 +93,7 @@ status : TAPPED
 
 // Nouns
 
-noun : type
-     | obj_subtype
-     | obj_type
-     | player_type
-     ;//| NON noun -> ^( NOT noun );
+noun : NON^? ( type | obj_subtype | obj_type | player_type );
 
 // Descriptors
 
