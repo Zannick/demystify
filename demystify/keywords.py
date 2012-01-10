@@ -1399,7 +1399,7 @@ _misc = [
     Keyword(("MAKE", "make")),
     Keyword(("MUST", "must")),
     Keyword(("NEW", "new")),
-    Keyword(("NON", "non-")),
+    Keyword(("NON", "non", "non-")),
     Keyword(("NOT", "not")),
     Keyword(("OF", "of")),
     Keyword(("OR", "or")),
@@ -1449,20 +1449,33 @@ ordinals = {
 
 all_words = {}
 for d in (actions, abilities, ability_words, types, zones,
-          turn_structure, concepts, misc_words,
-          subtypes, subtypes_poss):
+          turn_structure, concepts, misc_words):
     all_words.update(d)
 
-for w in counter_types + list(number_words) + list(ordinals):
-    all_words[w] = w.upper()
-
-macro_rules = {
-    'number_word'      : [all_words[n] for n in number_words],
-    'obj_counter'      : [all_words[c] for c in counter_types],
-    'obj_subtype'      : set(subtypes.values()),
-    'obj_subtype_poss' : set(subtypes_poss.values()),
-    'ordinal_word'     : [all_words[o] for o in ordinals],
+_macroables = {
+    'NUMBER_WORD'      : set(number_words),
+    'OBJ_COUNTER'      : set(counter_types),
+    'OBJ_SUBTYPE'      : set(subtypes),
+    'OBJ_SUBTYPE_POSS' : set(subtypes_poss),
+    'ORDINAL_WORD'     : set(ordinals),
 }
+
+collisions = set()
+_msets = [set(all_words)] + list(_macroables.values())
+for i, m in enumerate(_msets):
+    for n in _msets[i+1:]:
+        collisions |= (m & n)
+
+# All colliding rules must have their own tokens
+for c in collisions:
+    all_words[c] = c.upper()
+
+macro_rules = {}
+for a, b in _macroables.items():
+    # Everything in b that 
+    col_tokens = [all_words[j] for j in (b & collisions)]
+    macro_rules[a.lower()] = [a] + sorted(col_tokens)
+macro_tokens = dict((a, b - collisions) for a, b in _macroables.items())
 
 def _get_filename(grammar):
     import os
@@ -1493,8 +1506,10 @@ def write_parser():
         f.write(_get_header(grammar, 'parser', desc))
         for rule, options in sorted(macro_rules.items()):
             f.write('\n')
-            f.write(_format_rule(rule, sorted(options)))
-    print('Generated {} macro rules.'.format(len(macro_rules)))
+            # options pre-sorted appropriately
+            f.write(_format_rule(rule, options))
+    print('Generated {} macro rules, including {} token collisions.'
+          .format(len(macro_rules), len(collisions)))
 
 def write_lexer():
     grammar = 'Keywords'
@@ -1513,6 +1528,8 @@ def write_lexer():
             match_cases[stoken] = [(text, token)]
         else:
             match_cases[stoken].append((text, token))
+    for token, words in macro_tokens.items():
+        match_cases[token] = [(word, token) for word in words]
     def reprsinglequote(s):
         if not s:
             return ''
