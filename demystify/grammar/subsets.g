@@ -1,6 +1,6 @@
-parser grammar properties;
+parser grammar subsets;
 
-/* Properties of objects for describing subsets of objects. */
+/* Rules for describing subsets of objects. */
 
 tokens {
     PROPERTIES;
