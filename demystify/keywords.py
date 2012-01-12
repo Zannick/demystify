@@ -1472,9 +1472,10 @@ for c in collisions:
 
 macro_rules = {}
 for a, b in _macroables.items():
-    # Everything in b that 
+    # Everything in b that collided goes in the macro rule
     col_tokens = [all_words[j] for j in (b & collisions)]
     macro_rules[a.lower()] = [a] + sorted(col_tokens)
+# everything in b that didn't collide goes in the macro token def
 macro_tokens = dict((a, b - collisions) for a, b in _macroables.items())
 
 def _get_filename(grammar):

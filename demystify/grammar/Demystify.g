@@ -8,6 +8,9 @@ options {
 import Keywords, macro, misc, costs, types, subsets;
 
 tokens {
+    GEQ;
+    LEQ;
+    PROPERTIES;
     TYPELINE;
     VAR;
 }

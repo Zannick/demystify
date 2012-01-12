@@ -88,6 +88,7 @@ def test_parse(rule, text, name=''):
     print(text)
     pprint_tokens(ts.getTokens())
     print(result.tree.toStringTree())
+    return result
 
 def parse_all(cards):
     """ Run the parser against each card's parseable parts. """

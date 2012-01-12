@@ -51,7 +51,6 @@ TAP_SYM : '{t}' { $text = 'T' };
 
 UNTAP_SYM : '{q}' { $text = 'Q' };
 
-// TODO: Cast to int
 NUMBER_SYM : DIGIT_SYM;
 
 VAR_SYM : 'x'..'z' { $text = $text.upper() };

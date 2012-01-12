@@ -2,9 +2,24 @@ parser grammar subsets;
 
 /* Rules for describing subsets of objects. */
 
-tokens {
-    PROPERTIES;
-}
+/* Numbers and quantities. */
+
+number : a=( NUMBER_SYM | number_word )
+         ( OR MORE -> ^( NUMBER ^( GEQ $a ) )
+         | OR LESS -> ^( NUMBER ^( LEQ $a ) )
+         | -> ^( NUMBER $a )
+         )
+       | b=VAR_SYM ( OR MORE -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
+                   | OR LESS -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
+                   | -> ^( NUMBER ^( VAR $b ) )
+                   )
+       | ALL -> ^( NUMBER ALL )
+       | ANY ( c=number_word -> ^( NUMBER $c )
+             | NUMBER OF -> ^( NUMBER ANY )
+             | -> ^( NUMBER NUMBER[$ANY, 1] )
+             )
+       | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] )
+       ;
 
 /*
  * We divide properties into three categories:
