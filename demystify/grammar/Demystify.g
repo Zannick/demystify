@@ -5,12 +5,13 @@ options {
     output = AST;
 }
 
-import Keywords, macro, misc, costs, types, subsets;
+import Keywords, macro, misc, pt, costs, types, subsets;
 
 tokens {
     GEQ;
     LEQ;
     PROPERTIES;
+    PT;
     SUBSET;
     TYPELINE;
     VAR;
