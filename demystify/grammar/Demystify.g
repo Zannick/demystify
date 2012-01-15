@@ -11,6 +11,7 @@ tokens {
     GEQ;
     LEQ;
     PROPERTIES;
+    SUBSET;
     TYPELINE;
     VAR;
 }
@@ -89,6 +90,9 @@ tokens {
 @parser::members {
     def setCardState(self, name):
         self._state.card = name
+
+    def getCardState(self):
+        return getattr(self._state, 'card', None)
 }
 
 card_mana_cost : mc_symbols -> ^( COST mc_symbols );

@@ -2,15 +2,23 @@ parser grammar subsets;
 
 /* Rules for describing subsets of objects. */
 
+subsets : subset ( ( ','! subset )+ ','! conj^ subset )?;
+
+subset : number properties -> ^( SUBSET number properties )
+       | AMONG properties -> ^( SUBSET ^( NUMBER ANY ) properties )
+       | ANOTHER properties -> ^( SUBSET ^( NOT SELF ) properties )
+       //| spec-zone -> ^( SUBSET spec-zone )
+       | ref_object descriptor* -> ^( SUBSET ref_object descriptor* );
+
 /* Numbers and quantities. */
 
 number : a=( NUMBER_SYM | number_word )
-         ( OR MORE -> ^( NUMBER ^( GEQ $a ) )
-         | OR LESS -> ^( NUMBER ^( LEQ $a ) )
+         ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $a ) )
+         | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ $a ) )
          | -> ^( NUMBER $a )
          )
-       | b=VAR_SYM ( OR MORE -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
-                   | OR LESS -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
+       | b=VAR_SYM ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
+                   | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
                    | -> ^( NUMBER ^( VAR $b ) )
                    )
        | ALL -> ^( NUMBER ALL )
@@ -18,8 +26,7 @@ number : a=( NUMBER_SYM | number_word )
              | NUMBER OF -> ^( NUMBER ANY )
              | -> ^( NUMBER NUMBER[$ANY, 1] )
              )
-       | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] )
-       ;
+       | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] );
 
 /*
  * We divide properties into three categories:
@@ -114,8 +121,8 @@ noun : NON^? ( type | obj_subtype | obj_type | player_type );
 
 descriptor : named
            | control
-           | own;
-           //| other_than
+           | own
+           | other_than;
            //| in_zones;
 
 named : NAMED^ REFBYNAME;
@@ -123,3 +130,15 @@ named : NAMED^ REFBYNAME;
 // TODO: expand
 control : YOU CONTROL;
 own : YOU OWN;
+
+other_than : OTHER THAN ref_object -> ^( NOT ref_object );
+
+/* Special references to related objects. */
+
+ref_object : SELF
+           | PARENT
+           | IT
+           | THEM
+             // We probably don't actually need to remember what the
+             // nouns were here, but keep them in for now.
+           | ( ENCHANTED | EQUIPPED | FORTIFIED | HAUNTED ) noun+;
