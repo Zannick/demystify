@@ -1448,11 +1448,12 @@ ordinals = {
 }
 
 all_words = {}
-for d in (actions, abilities, ability_words, types, zones,
+for d in (actions, abilities, types, zones,
           turn_structure, concepts, misc_words):
     all_words.update(d)
 
 _macroables = {
+    'ABILITY_WORD'     : set(ability_words),
     'NUMBER_WORD'      : set(number_words),
     'OBJ_COUNTER'      : set(counter_types),
     'OBJ_SUBTYPE'      : set(subtypes),
