@@ -131,10 +131,15 @@ named : NAMED^ REFBYNAME;
 control : YOU CONTROL;
 own : YOU OWN;
 
+// TODO: 'other than a basic land card' ie. other than subset_no_descriptors
+// TODO: 'other than a player's hand or library' ie. other than ref_zone
+// TODO: 'choose a creature type other than wall'. This may go elsewhere.
 other_than : OTHER THAN ref_object -> ^( NOT ref_object );
 
 /* Special references to related objects. */
 
+// TODO: target
+// TODO: ref_player
 ref_object : SELF
            | PARENT
            | IT
@@ -142,3 +147,15 @@ ref_object : SELF
              // We probably don't actually need to remember what the
              // nouns were here, but keep them in for now.
            | ( ENCHANTED | EQUIPPED | FORTIFIED | HAUNTED ) noun+;
+
+/* Counter subsets. */
+
+counter_subset : number COUNTER -> ^( COUNTER_SET number )
+               | counter_group
+                 ( ( ',' ( counter_group ',' )+ )? conj counter_group
+                   -> ^( COUNTER_SET ^( conj counter_group+) )
+                 | -> ^( COUNTER_SET counter_group )
+                 );
+ 
+counter_group : number ( OBJ_COUNTER | pt ) COUNTER
+                -> ^( COUNTER_GROUP number OBJ_COUNTER? pt? );

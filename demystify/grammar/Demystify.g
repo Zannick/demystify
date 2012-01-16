@@ -8,6 +8,8 @@ options {
 import Keywords, macro, misc, pt, costs, types, subsets;
 
 tokens {
+    COUNTER_GROUP;
+    COUNTER_SET;
     GEQ;
     LEQ;
     PROPERTIES;
