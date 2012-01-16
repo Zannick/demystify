@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import argparse
 import logging
+import re
 
 logging.basicConfig(level=logging.DEBUG, filename="LOG", filemode="w")
 plog = logging.getLogger("Parser")
@@ -72,7 +75,7 @@ def parse_card(c):
     # mana cost
     ts = _token_stream(c.name, c.cost)
     ManaCostParser = Parser(ts)
-    p.setCardState(c.name)
+    ManaCostParser.setCardState(c.name)
     parse_result = ManaCostParser.card_mana_cost()
     print(c.cost)
     pprint_tokens(ts.getTokens())
@@ -107,6 +110,59 @@ def parse_all(cards):
                 plog.debug('result: ' + parse_result.tree.toStringTree())
                 errors += 1
     print('{} total errors.'.format(errors))
+
+def parse_ability_costs(cards):
+    """ Find all ability costs in the cards and attempt to parse them. """
+    _cost = u'(?:^|— | "| \')([^."\'()—]*?):'
+    ccards = set(card.get_card(c[0])
+                 for c in card.search_text(_cost, cards=cards))
+    cost = re.compile(_cost)
+    errors = 0
+    uerrors = set()
+    merrors = {}
+    plog.removeHandler(_stdout)
+    for c in card.CardProgressBar(ccards):
+        c.parsed_costs = []
+        for lineno, line in enumerate(c.rules.split('\n')):
+            lineno += 1
+            for m in cost.finditer(line):
+                text = m.group(1)
+                ts = _token_stream(c.name, text)
+                ts.line = lineno
+                p = DemystifyParser.DemystifyParser(ts)
+                p.setCardState(c.name)
+                parse_result = p.cost()
+                tree = parse_result.tree
+                c.parsed_costs.append(tree)
+                if p.getNumberOfSyntaxErrors():
+                    plog.debug('{}:{}:text:{}'.format(c.name, lineno, text))
+                    plog.debug('{}:{}:result:{}'
+                               .format(c.name, lineno, tree.toStringTree()))
+                    mstart = tree.trappedException.token.start
+                    mend = text.find(',', mstart)
+                    if mend < 0:
+                        mend = len(text)
+                    mcase = text[mstart:mend]
+                    if not mcase:
+                        plog.warning('{}:{}:Empty case detected!'
+                                     .format(c.name, lineno))
+                    else:
+                        uerrors.add(mcase)
+                        mtoken = mcase.split()[0]
+                        if mtoken not in merrors:
+                            merrors[mtoken] = set([mcase])
+                        else:
+                            merrors[mtoken].add(mcase)
+                    errors += 1
+    plog.addHandler(_stdout)
+    print('{} total errors.'.format(errors))
+    if uerrors:
+        print('{} unique cases missing ({} tokens).'
+              .format(len(uerrors), len(merrors)))
+        plog.debug('Missing cases: ' + '; '.join(sorted(uerrors)))
+        plog.debug('Incomplete tokens (cases): '
+                   + '; '.join('{} ({})'.format(token, len(cases))
+                               for token, cases in sorted(merrors.items())))
 
 def preprocess(args):
     raw_cards = []

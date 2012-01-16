@@ -567,7 +567,7 @@ def preceding_words(text, cards=None, reflags=re.I|re.U):
         the entire set. """
     if not cards:
         cards = get_cards()
-    r = re.compile(r"([\w'-]+) {}".format(text), reflags)
+    r = re.compile(ur"([\w'-—]+) {}".format(text), reflags)
     a = set()
     for c in cards:
         a.update(r.findall(c.rules))
@@ -581,7 +581,7 @@ def following_words(text, cards=None, reflags=re.I|re.U):
         the entire set. """
     if not cards:
         cards = get_cards()
-    r = re.compile(r"{} ([\w'-]+)".format(text), reflags)
+    r = re.compile(ur"{} ([\w'-—]+)".format(text), reflags)
     a = set()
     for c in cards:
         a.update(r.findall(c.rules))
