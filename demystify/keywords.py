@@ -1517,21 +1517,16 @@ def write_lexer():
     grammar = 'Keywords'
     desc = 'Keywords and misc text.'
     filename = _get_filename(grammar)
-    all_tokens = set(all_words.values())
+    all_tokens = set(all_words.values()) | set(macro_tokens)
     # token -> (text, substitute token) list
     match_cases = {}
     for text, token in all_words.items():
-        slen = len(text)
-        for c in " '-/":
-            if c in text:
-                slen = min(slen, text.index(c))
-        stoken = text[:slen].upper()
-        if stoken not in match_cases:
-            match_cases[stoken] = [(text, token)]
+        if token not in match_cases:
+            match_cases[token] = [text]
         else:
-            match_cases[stoken].append((text, token))
+            match_cases[token].append(text)
     for token, words in macro_tokens.items():
-        match_cases[token] = [(word, token) for word in words]
+        match_cases[token] = words
     def reprsinglequote(s):
         if not s:
             return ''
@@ -1546,22 +1541,10 @@ def write_lexer():
                 .format(tokens=';\n    '.join(sorted(all_tokens))))
         for token, tlist in sorted(match_cases.items(),
                                    key=lambda x: (-len(x[0]), x[0])):
-            if len(tlist) == 1:
-                text, rtoken = tlist[0]
-                text = reprsinglequote(text)
-                if rtoken != token:
-                    text += ' {{$type = {}}}'.format(rtoken)
-                f.write(_format_rule(token, [text]))
-            else:
-                lines = []
-                for text, rtoken in sorted(tlist,
-                                           key=lambda x: (-len(x[0]), x[0])):
-                    if rtoken != token:
-                        lines.append('{} {{$type = {}}}'
-                                     .format(reprsinglequote(text), rtoken))
-                    else:
-                        lines.append(reprsinglequote(text))
-                f.write(_format_rule(token, lines))
+            lines = []
+            for text in sorted(tlist, key=lambda x: (-len(x), x)):
+                lines.append(reprsinglequote(text))
+            f.write(_format_rule(token, lines))
     print('Generated {} lexer rules for {} tokens.'
           .format(len(match_cases), len(all_tokens)))
 

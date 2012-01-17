@@ -119,7 +119,6 @@ def parse_ability_costs(cards):
     cost = re.compile(_cost)
     errors = 0
     uerrors = set()
-    merrors = {}
     plog.removeHandler(_stdout)
     for c in card.CardProgressBar(ccards):
         c.parsed_costs = []
@@ -138,31 +137,29 @@ def parse_ability_costs(cards):
                     plog.debug('{}:{}:text:{}'.format(c.name, lineno, text))
                     plog.debug('{}:{}:result:{}'
                                .format(c.name, lineno, tree.toStringTree()))
-                    mstart = tree.trappedException.token.start
-                    mend = text.find(',', mstart)
-                    if mend < 0:
-                        mend = len(text)
-                    mcase = text[mstart:mend]
-                    if not mcase:
-                        plog.warning('{}:{}:Empty case detected!'
-                                     .format(c.name, lineno))
-                    else:
-                        uerrors.add(mcase)
-                        mtoken = mcase.split()[0]
-                        if mtoken not in merrors:
-                            merrors[mtoken] = set([mcase])
-                        else:
-                            merrors[mtoken].add(mcase)
-                    errors += 1
+                    queue = [tree]
+                    while queue:
+                        n = queue.pop(0)
+                        if n.children:
+                            queue.extend(n.children)
+                        if isinstance(n, antlr3.tree.CommonErrorNode):
+                            mstart = n.trappedException.token.start
+                            mend = text.find(',', mstart)
+                            if mend < 0:
+                                mend = len(text)
+                            mcase = text[mstart:mend]
+                            if not mcase:
+                                plog.warning('{}:{}:Empty case detected!'
+                                             .format(c.name, lineno))
+                            else:
+                                uerrors.add(mcase)
+                            errors += 1
+                            break
     plog.addHandler(_stdout)
     print('{} total errors.'.format(errors))
     if uerrors:
-        print('{} unique cases missing ({} tokens).'
-              .format(len(uerrors), len(merrors)))
+        print('{} unique cases missing.'.format(len(uerrors)))
         plog.debug('Missing cases: ' + '; '.join(sorted(uerrors)))
-        plog.debug('Incomplete tokens (cases): '
-                   + '; '.join('{} ({})'.format(token, len(cases))
-                               for token, cases in sorted(merrors.items())))
 
 def preprocess(args):
     raw_cards = []

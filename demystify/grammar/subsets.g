@@ -2,7 +2,7 @@ parser grammar subsets;
 
 /* Rules for describing subsets of objects. */
 
-subsets : subset ( ( ','! subset )+ ','! conj^ subset )?;
+subsets : subset ( ( ( ','! subset )+ ','! )? conj^ subset )?;
 
 subset : number properties -> ^( SUBSET number properties )
        | AMONG properties -> ^( SUBSET ^( NUMBER ANY ) properties )
@@ -12,10 +12,10 @@ subset : number properties -> ^( SUBSET number properties )
 
 /* Numbers and quantities. */
 
-number : a=( NUMBER_SYM | number_word )
-         ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $a ) )
-         | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ $a ) )
-         | -> ^( NUMBER $a )
+number : ( s=NUMBER_SYM | w=number_word )
+         ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $s? $w? ) )
+         | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ $s? $w? ) )
+         | -> ^( NUMBER $s? $w? )
          )
        | b=VAR_SYM ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
                    | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
@@ -98,10 +98,10 @@ color : WHITE | BLUE | BLACK | RED | GREEN;
 color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED;
 status : TAPPED
        | UNTAPPED
-       | ENCHANTED
-       | EQUIPPED
-       | FORTIFIED
-       | HAUNTED
+       //| ENCHANTED
+       //| EQUIPPED
+       //| FORTIFIED
+       //| HAUNTED
        | SUSPENDED
        | ATTACKING
        | BLOCKING
@@ -146,16 +146,19 @@ ref_object : SELF
            | THEM
              // We probably don't actually need to remember what the
              // nouns were here, but keep them in for now.
-           | ( ENCHANTED | EQUIPPED | FORTIFIED | HAUNTED ) noun+;
+           | ( ENCHANTED | EQUIPPED | FORTIFIED | HAUNTED ) noun+
+           | this_guy;
+
+// eg. this creature, this permanent, this spell.
+this_guy : THIS ( type | obj_type ) -> SELF;
 
 /* Counter subsets. */
 
-counter_subset : number COUNTER -> ^( COUNTER_SET number )
-               | counter_group
+counter_subset : counter_group
                  ( ( ',' ( counter_group ',' )+ )? conj counter_group
                    -> ^( COUNTER_SET ^( conj counter_group+) )
                  | -> ^( COUNTER_SET counter_group )
                  );
  
-counter_group : number ( OBJ_COUNTER | pt ) COUNTER
-                -> ^( COUNTER_GROUP number OBJ_COUNTER? pt? );
+counter_group : number ( obj_counter | pt )? COUNTER
+                -> ^( COUNTER_GROUP number obj_counter? pt? );

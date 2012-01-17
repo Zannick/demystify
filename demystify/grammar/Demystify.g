@@ -8,14 +8,19 @@ options {
 import Keywords, macro, misc, pt, costs, types, subsets;
 
 tokens {
+    ADD_COUNTERS;
     COUNTER_GROUP;
     COUNTER_SET;
     GEQ;
     LEQ;
     PROPERTIES;
     PT;
+    REMOVE_COUNTERS;
     SUBSET;
+    SUBTYPES;
+    SUPERTYPES;
     TYPELINE;
+    TYPES;
     VAR;
 }
 

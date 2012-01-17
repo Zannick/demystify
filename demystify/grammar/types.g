@@ -19,9 +19,6 @@ types : tribal_type? spell_type -> ^( TYPES tribal_type? spell_type )
 
 type : permanent_type | spell_type | other_type ;
 
-// TODO: Are all these *_type rules necessary or can I condense them into
-// their respective *_types rules?
-
 permanent_types : permanent_type+ ;
 permanent_type : noncreature_perm_type | creature_type ;
 

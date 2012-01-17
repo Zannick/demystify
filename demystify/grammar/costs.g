@@ -6,8 +6,7 @@ parser grammar costs;
 // either of the methods to pay for the ability,
 // eg. 3, TAP or U, TAP.
 
-cost : cost_list OR cost_list -> ^( OR cost_list+ )
-     | cost_list 
+cost : cost_list ( OR^ cost_list )?
      | loyalty_cost -> ^( COST loyalty_cost );
 
 
@@ -18,8 +17,16 @@ cost : cost_list OR cost_list -> ^( OR cost_list+ )
 cost_list : cost_item ( COMMA cost_item )* ( AND cost_item )?
             -> ^( COST cost_item+ );
 
-cost_item : mana
+cost_item : TAP_SYM
+          | UNTAP_SYM
+          | discard
+          | exile
+          | mana
+          | put_counters
+          | remove_counters
+          | sacrifice
           | tap
+          | unattach
           | untap
           ;
 
@@ -43,6 +50,20 @@ mc_symbols
 mana : (MANA_SYM | VAR_MANA_SYM)+
        -> ^( MANA MANA_SYM* ^( VAR VAR_MANA_SYM )* );
 
-tap : TAP_SYM ;
+discard : DISCARD^ subsets ;
 
-untap : UNTAP_SYM ;
+exile : EXILE^ subsets ;
+
+put_counters : PUT counter_subset ON subsets
+               -> ^( ADD_COUNTERS counter_subset subsets ) ;
+
+remove_counters : REMOVE counter_subset FROM subsets
+                  -> ^( REMOVE_COUNTERS counter_subset subsets ) ;
+
+sacrifice : SACRIFICE^ subsets ;
+
+tap : TAP^ subsets ;
+
+unattach : UNATTACH^ subsets ;
+
+untap : UNTAP^ subsets ;

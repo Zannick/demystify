@@ -5,7 +5,7 @@ parser grammar pt;
 // This rule is used for printed p/t, p/t setting abilities,
 // and p/t modifying abilities.
 
-pt : p=( pt_signed_part | pt_part ) DIV_SYM t=( pt_signed_part | pt_part )
+pt : ( p=pt_signed_part | p=pt_part ) DIV_SYM ( t=pt_signed_part | t=pt_part )
      -> ^( PT $p $t );
 
 pt_signed_part : PLUS_SYM pt_part -> ^( PLUS pt_part )
@@ -14,7 +14,7 @@ pt_signed_part : PLUS_SYM pt_part -> ^( PLUS pt_part )
 pt_part : NUMBER_SYM
         | VAR_SYM -> ^( VAR VAR_SYM )
         | STAR_SYM
-        | a=NUMBER_SYM b=( PLUS_SYM | MINUS_SYM ) c=STAR_SYM
+        | a=NUMBER_SYM ( b=PLUS_SYM | b=MINUS_SYM ) c=STAR_SYM
           { plog.debug('Ignoring p/t value "{} {} {}" in {}; '
                        'deferring actual p/t calculation to rules text.'
                        .format($a.text, $b.text, $c.text,
