@@ -5,7 +5,12 @@ options {
     output = AST;
 }
 
-import Keywords, macro, misc, pt, costs, types, subsets;
+// Order is absurdly relevant. eg. subsets invokes rules in zones,
+// hence zones must be imported after so that antlr can correctly
+// generate lookahead code for it. This is mostly necessary for rules with
+// optional or repeated parts, where LL(1) can't correctly predict which rule
+// to use to parse the next tokens.
+import Keywords, macro, misc, pt, costs, subsets, zones, types;
 
 tokens {
     ADD_COUNTERS;
@@ -13,6 +18,7 @@ tokens {
     COUNTER_SET;
     GEQ;
     LEQ;
+    PAY_LIFE;
     PROPERTIES;
     PT;
     REMOVE_COUNTERS;
@@ -22,6 +28,7 @@ tokens {
     TYPELINE;
     TYPES;
     VAR;
+    ZONE_SET;
 }
 
 @lexer::header {
@@ -48,18 +55,79 @@ tokens {
         sys.setdefaultencoding('utf-8')
 
     # hack to make all subparsers have the same error logging
-    def log_error(parser, msg):
-        plog.error(msg)
+    # header guard to prevent rewrapping some functions below
+    if not hasattr(Parser, 'PARSER_ERRORS_REDEF'):
+        Parser.PARSER_ERRORS_REDEF = True
+        def log_error(parser, msg):
+            plog.error(msg)
 
-    def _getErrorHeader(self, e):
-        if hasattr(self._state, 'card'):
-            return "{}:{}:{}".format(self._state.card,
-                                     e.line, e.charPositionInLine)
-        else:
-            return "line {}:{}".format(e.line, e.charPositionInLine)
+        def _getCardState(self):
+            return getattr(self._state, 'card', None)
 
-    Parser.emitErrorMessage = log_error
-    Parser.getErrorHeader = _getErrorHeader
+        def _emitDebugMessage(self, msg):
+            plog.debug("{}:{}".format(self.getCardState(), msg))
+
+        def _getErrorHeader(self, e):
+            if hasattr(self._state, 'card'):
+                return "{}:{}:{}".format(self._state.card,
+                                         e.line, e.charPositionInLine)
+            else:
+                return "line {}:{}".format(e.line, e.charPositionInLine)
+
+        def __getErrorMessage(supermethod):
+            def _getErrorMessage(self, e, tokenNames):
+                stack = self.getRuleInvocationStack()
+                msg = ""
+                if isinstance(e, NoViableAltException):
+                    msg = ("no viable alt; token={0.token} "
+                           "(decision={0.decisionNumber}"
+                           " state={0.stateNumber})"
+                           .format(e))
+                else:
+                    msg = supermethod(self, e, tokenNames)
+                return "{} {}".format(stack, msg)
+            return _getErrorMessage
+
+        def _getTokenErrorDisplay(self, t):
+            return str(t)
+
+        def _getRuleInvocationStack(cls, ffilter):
+            rules = []
+            mrules = []
+            for frame in reversed(inspect.stack()):
+                code = frame[0].f_code
+                codeMod = inspect.getmodule(code)
+                if codeMod is None:
+                    continue
+                mrules.append((codeMod.__name__, code.co_name))
+                if not ffilter(codeMod.__name__, code.co_name):
+                    continue
+                if code.co_name in ('nextToken', '<module>'):
+                    continue
+                if len(mrules) > 1:
+                    pm, pr = mrules[-2]
+                    if code.co_name == pr and pm != codeMod:
+                        continue
+                rules.append(code.co_name)
+            return rules
+
+        def _ffilter(modulename, funcname):
+            return (modulename.startswith("grammar")
+                    and funcname[0] != '_')
+
+        def __getRuleInvocationStack(ffilter):
+            def _getRuleInvocationStack1(self):
+                return self._getRuleInvocationStack(ffilter)
+            return _getRuleInvocationStack1
+
+        Parser.emitErrorMessage = log_error
+        Parser.getCardState = _getCardState
+        Parser.emitDebugMessage = _emitDebugMessage
+        Parser.getErrorHeader = _getErrorHeader
+        Parser.getErrorMessage = __getErrorMessage(Parser.getErrorMessage)
+        Parser.getTokenErrorDisplay = _getTokenErrorDisplay
+        Parser._getRuleInvocationStack = classmethod(_getRuleInvocationStack)
+        Parser.getRuleInvocationStack = __getRuleInvocationStack(_ffilter)
 
     # hack to make __repr__ somewhat meaningful
     def _tree_repr(self):
@@ -98,9 +166,6 @@ tokens {
 @parser::members {
     def setCardState(self, name):
         self._state.card = name
-
-    def getCardState(self):
-        return getattr(self._state, 'card', None)
 }
 
 card_mana_cost : mc_symbols -> ^( COST mc_symbols );

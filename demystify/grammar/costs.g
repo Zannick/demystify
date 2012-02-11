@@ -22,8 +22,10 @@ cost_item : TAP_SYM
           | discard
           | exile
           | mana
+          | pay_life
           | put_counters
           | remove_counters
+          | reveal
           | sacrifice
           | tap
           | unattach
@@ -54,11 +56,15 @@ discard : DISCARD^ subsets ;
 
 exile : EXILE^ subsets ;
 
+pay_life : PAY number LIFE -> ^( PAY_LIFE number );
+
 put_counters : PUT counter_subset ON subsets
                -> ^( ADD_COUNTERS counter_subset subsets ) ;
 
 remove_counters : REMOVE counter_subset FROM subsets
                   -> ^( REMOVE_COUNTERS counter_subset subsets ) ;
+
+reveal : REVEAL^ subsets ;
 
 sacrifice : SACRIFICE^ subsets ;
 

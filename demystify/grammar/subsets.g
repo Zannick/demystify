@@ -63,7 +63,8 @@ properties : a+=adjective*
                -> ^( PROPERTIES adjective* noun_list descriptor* )
              | b+=noun+ 
                ( j=conj c+=adjective+ d+=noun+ e+=descriptor*
-                 { plog.debug('properties case 3: {}'.format(' '.join(
+                 { self.emitDebugMessage('properties case 3: {}'
+                                         .format(' '.join(
                     [t.text for t in ($a or []) + ($b or [])]
                     + [$j.text]
                     + [t.text for t in ($c or []) + ($d or [])]
@@ -72,7 +73,8 @@ properties : a+=adjective*
                                         ^( PROPERTIES $c+ $d+ ) )
                                      descriptor* )
                | f+=descriptor+ k=conj c+=adjective+ d+=noun+ e+=descriptor*
-                 { plog.debug('properties case 4: {}'.format(' '.join(
+                 { self.emitDebugMessage('properties case 4: {}'
+                                         .format(' '.join(
                     [t.text for t in ($a or []) + ($b or [])]
                     + [t.toStringTree() for t in ($f or [])]
                     + [$k.text]
@@ -98,10 +100,6 @@ color : WHITE | BLUE | BLACK | RED | GREEN;
 color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED;
 status : TAPPED
        | UNTAPPED
-       //| ENCHANTED
-       //| EQUIPPED
-       //| FORTIFIED
-       //| HAUNTED
        | SUSPENDED
        | ATTACKING
        | BLOCKING
@@ -122,8 +120,8 @@ noun : NON^? ( type | obj_subtype | obj_type | player_type );
 descriptor : named
            | control
            | own
-           | other_than;
-           //| in_zones;
+           | other_than
+           | in_zones;
 
 named : NAMED^ REFBYNAME;
 
@@ -151,6 +149,9 @@ ref_object : SELF
 
 // eg. this creature, this permanent, this spell.
 this_guy : THIS ( type | obj_type ) -> SELF;
+
+in_zones : IN zone_subset -> ^( IN[] zone_subset )
+         | FROM zone_subset -> ^( IN zone_subset );
 
 /* Counter subsets. */
 
