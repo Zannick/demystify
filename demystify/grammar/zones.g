@@ -19,7 +19,19 @@ ind_zone : GRAVEYARD -> GRAVEYARD[]
          | LIBRARY -> LIBRARY[] ;
 
 // specific zones
-spec_zone : THE! ( BATTLEFIELD | STACK ) ;
+spec_zone : THE! ( BATTLEFIELD | STACK ) 
+            // we pretend the tops and bottoms of libraries are zones
+          | THE? ( TOP | BOTTOM ) OF player_poss LIBRARY
+            -> ^( ZONE player_poss LIBRARY TOP? BOTTOM? );
+
+// A full zone, for use as a subset
+full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
+          | THE ( TOP | BOTTOM ) number? properties
+            OF player_poss ( LIBRARY | GRAVEYARD )
+            -> {$number.text}? number properties
+               ^( ZONE player_poss LIBRARY? GRAVEYARD? TOP? BOTTOM? )
+            -> ^( NUMBER NUMBER[$THE, "1"] ) properties
+               ^( ZONE player_poss LIBRARY? GRAVEYARD? TOP? BOTTOM? );
 
 // While exile is a zone, cards in it are referred to as exiled cards,
 // and not cards in exile, hence no zone rules are necessary for it.

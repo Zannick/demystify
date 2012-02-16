@@ -23,6 +23,7 @@ cost_item : TAP_SYM
           | exile
           | mana
           | pay_life
+          | put_cards
           | put_counters
           | remove_counters
           | reveal
@@ -49,14 +50,16 @@ mc_symbols
 // The only place an empty mana cost is valid is the mana cost field on a card,
 // which is covered by mc_symbols above.
 
-mana : (MANA_SYM | VAR_MANA_SYM)+
+mana : ( MANA_SYM | VAR_MANA_SYM )+
        -> ^( MANA MANA_SYM* ^( VAR VAR_MANA_SYM )* );
 
-discard : DISCARD^ subsets ;
+discard : DISCARD subsets ( AT RANDOM )? -> ^( DISCARD RANDOM? subsets );
 
 exile : EXILE^ subsets ;
 
 pay_life : PAY number LIFE -> ^( PAY_LIFE number );
+
+put_cards : PUT^ subsets ( ON! | INTO! ) zone_subset;
 
 put_counters : PUT counter_subset ON subsets
                -> ^( ADD_COUNTERS counter_subset subsets ) ;

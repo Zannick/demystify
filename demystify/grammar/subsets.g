@@ -7,7 +7,7 @@ subsets : subset ( ( ( ','! subset )+ ','! )? conj^ subset )?;
 subset : number properties -> ^( SUBSET number properties )
        | AMONG properties -> ^( SUBSET ^( NUMBER ANY ) properties )
        | ANOTHER properties -> ^( SUBSET ^( NOT SELF ) properties )
-       //| spec-zone -> ^( SUBSET spec-zone )
+       | full_zone -> ^( SUBSET full_zone )
        | ref_object descriptor* -> ^( SUBSET ref_object descriptor* );
 
 /* Numbers and quantities. */
@@ -22,9 +22,9 @@ number : ( s=NUMBER_SYM | w=number_word )
                    | -> ^( NUMBER ^( VAR $b ) )
                    )
        | ALL -> ^( NUMBER ALL )
-       | ANY ( c=number_word -> ^( NUMBER $c )
-             | NUMBER OF -> ^( NUMBER ANY )
-             | -> ^( NUMBER NUMBER[$ANY, 1] )
+       | ANY ( c=number_word -> ^( NUMBER[] $c )
+             | NUMBER OF -> ^( NUMBER[] ANY )
+             | -> ^( NUMBER[] NUMBER[$ANY, "1"] )
              )
        | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] );
 
@@ -163,3 +163,5 @@ counter_subset : counter_group
  
 counter_group : number ( obj_counter | pt )? COUNTER
                 -> ^( COUNTER_GROUP number obj_counter? pt? );
+
+/* Special properties of objects, usually led by 'with' or 'if it has' */

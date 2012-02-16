@@ -113,7 +113,7 @@ def parse_all(cards):
 
 def parse_ability_costs(cards):
     """ Find all ability costs in the cards and attempt to parse them. """
-    _cost = u'(?:^|— | "| \')([^."\'()—]*?):'
+    _cost = ur"""(?:^|— | "| ')([^."'()—]*?):"""
     ccards = set(card.get_card(c[0])
                  for c in card.search_text(_cost, cards=cards))
     cost = re.compile(_cost)
