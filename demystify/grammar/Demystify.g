@@ -10,15 +10,19 @@ options {
 // generate lookahead code for it. This is mostly necessary for rules with
 // optional or repeated parts, where LL(1) can't correctly predict which rule
 // to use to parse the next tokens.
-import Keywords, macro, misc, pt, costs, subsets, zones, types;
+import Keywords, misc, costs, subsets, players, pt, zones, types, macro;
 
 tokens {
     ADD_COUNTERS;
+    CMC;
     COUNTER_GROUP;
     COUNTER_SET;
     GEQ;
+    HAS_COUNTERS;
     LEQ;
     PAY_LIFE;
+    PLAYER_GROUP;
+    PLAYER_SET;
     PROPERTIES;
     PT;
     REMOVE_COUNTERS;

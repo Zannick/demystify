@@ -12,21 +12,25 @@ subset : number properties -> ^( SUBSET number properties )
 
 /* Numbers and quantities. */
 
-number : ( s=NUMBER_SYM | w=number_word )
-         ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $s? $w? ) )
-         | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ $s? $w? ) )
-         | -> ^( NUMBER $s? $w? )
-         )
-       | b=VAR_SYM ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
-                   | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
-                   | -> ^( NUMBER ^( VAR $b ) )
-                   )
-       | ALL -> ^( NUMBER ALL )
+integer : ( s=NUMBER_SYM | w=number_word )
+          ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $s? $w? ) )
+          | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ $s? $w? ) )
+          | -> ^( NUMBER $s? $w? )
+          )
+        | b=VAR_SYM ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
+                    | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
+                    | -> ^( NUMBER ^( VAR $b ) )
+                    );
+
+// Separated. number followed by number_word is invalid
+number : integer
+       | ( ALL | EACH | EVERY ) -> ^( NUMBER ALL )
        | ANY ( c=number_word -> ^( NUMBER[] $c )
              | NUMBER OF -> ^( NUMBER[] ANY )
              | -> ^( NUMBER[] NUMBER[$ANY, "1"] )
              )
-       | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] );
+       | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] )
+       | NO -> ^( NUMBER NUMBER[$NO, "0"] );
 
 /*
  * We divide properties into three categories:
@@ -121,13 +125,15 @@ descriptor : named
            | control
            | own
            | other_than
-           | in_zones;
+           | in_zones
+           | WITH! has_counters
+           | WITH! int_prop_with_value
+           | THAT! share_feature;
 
 named : NAMED^ REFBYNAME;
 
-// TODO: expand
-control : YOU CONTROL;
-own : YOU OWN;
+control : player_subset CONTROL^;
+own : player_subset OWN^;
 
 // TODO: 'other than a basic land card' ie. other than subset_no_descriptors
 // TODO: 'other than a player's hand or library' ie. other than ref_zone
@@ -142,6 +148,9 @@ ref_object : SELF
            | PARENT
            | IT
            | THEM
+             // planeswalker pronouns
+           | HIM
+           | HER
              // We probably don't actually need to remember what the
              // nouns were here, but keep them in for now.
            | ( ENCHANTED | EQUIPPED | FORTIFIED | HAUNTED ) noun+
@@ -157,11 +166,16 @@ in_zones : IN zone_subset -> ^( IN[] zone_subset )
 
 counter_subset : counter_group
                  ( ( ',' ( counter_group ',' )+ )? conj counter_group
-                   -> ^( COUNTER_SET ^( conj counter_group+) )
+                   -> ^( COUNTER_SET ^( conj counter_group+ ) )
                  | -> ^( COUNTER_SET counter_group )
                  );
  
 counter_group : number ( obj_counter | pt )? COUNTER
                 -> ^( COUNTER_GROUP number obj_counter? pt? );
 
-/* Special properties of objects, usually led by 'with' or 'if it has' */
+/* Special properties, usually led by 'with', 'that', or 'if it has' */
+
+has_counters : counter_subset ON ref_object
+               -> ^( HAS_COUNTERS ref_object counter_subset );
+
+share_feature : SHARE A prop_type -> ^( SHARE[] prop_type );
