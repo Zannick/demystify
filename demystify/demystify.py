@@ -17,6 +17,7 @@ import antlr3
 import card
 import data
 from grammar import DemystifyLexer, DemystifyParser
+import test
 
 # What we don't handle:
 #   - physical interactions like dropping cards onto the table
@@ -205,6 +206,7 @@ def main():
         description='A Magic: the Gathering parser.')
     subparsers = parser.add_subparsers()
     data.add_subcommands(subparsers)
+    test.add_subcommands(subparsers)
     loader = subparsers.add_parser('load')
     loader.add_argument('-i', '--interactive', action='store_true',
                         help='Enter interactive mode instead of exiting.')

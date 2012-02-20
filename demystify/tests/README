@@ -1,0 +1,34 @@
+The tests in this directory are meant to exercise individual cases of rules.
+
+Each test has three parts:
+The name of the rule being tested
+The string input
+The expected tree result
+
+The rule name is a single word string, as per the format of rule names.
+It does not span multiple lines.
+
+The string input should contain exactly enough text for the rule to
+match the string fully. It may span multiple lines.
+
+The result is a string representation of a tree.
+
+Each part should begin with an '@' symbol.
+
+Each test case should be separated with one or more lines of whitespace.
+
+Comments are single-line and begin with '#'.
+
+For example:
+
+# subset with one descriptor
+@subset
+@three untapped white creatures you control
+@(SUBSET (NUMBER three) (PROPERTIES untapped white
+  creatures (CONTROL (PLAYER_SET you))))
+
+# subset with two descriptors
+@subset
+@two creatures you control that share a color
+@(SUBSET (NUMBER two) (PROPERTIES creatures (CONTROL (PLAYER_SET you))
+ (SHARE color)))
