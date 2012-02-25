@@ -66,17 +66,21 @@ properties : a+=adjective*
              | noun_list descriptor*
                -> ^( PROPERTIES adjective* noun_list descriptor* )
              | b+=noun+ 
-               ( j=conj c+=adjective+ d+=noun+ e+=descriptor*
+               ( ( ',' ( c+=properties_case3_ ',' )+ )?
+                 j=conj g=properties_case3_ e+=descriptor*
                  { self.emitDebugMessage('properties case 3: {}'
                                          .format(' '.join(
                     [t.text for t in ($a or []) + ($b or [])]
+                    + [', ' + t.toStringTree() for t in ($c or [])]
+                    + ($c and [','] or [])
                     + [$j.text]
-                    + [t.text for t in ($c or []) + ($d or [])]
+                    + [$g.text]
                     + [t.toStringTree() for t in ($e or [])]))) }
                  -> ^( PROPERTIES ^( $j ^( PROPERTIES $a* $b+ )
-                                        ^( PROPERTIES $c+ $d+ ) )
+                                        ^( PROPERTIES properties_case3_)+ )
                                      descriptor* )
-               | f+=descriptor+ k=conj c+=adjective+ d+=noun+ e+=descriptor*
+                 // TODO: expand case 4 if necessary?
+               | f+=descriptor+ k=conj c+=adjective* d+=noun+ e+=descriptor*
                  { self.emitDebugMessage('properties case 4: {}'
                                          .format(' '.join(
                     [t.text for t in ($a or []) + ($b or [])]
@@ -85,9 +89,11 @@ properties : a+=adjective*
                     + [t.text for t in ($c or []) + ($d or [])]
                     + [t.toStringTree() for t in ($e or [])]))) }
                  -> ^( PROPERTIES ^( $k ^( PROPERTIES $a* $b+ $f+ )
-                                        ^( PROPERTIES $c+ $d+ $e* ) ) )
+                                        ^( PROPERTIES $c* $d+ $e* ) ) )
                )
              );
+
+properties_case3_ : adjective+ noun+ ;
 
 // Lists
 

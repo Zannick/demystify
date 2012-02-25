@@ -1,0 +1,30 @@
+
+# properties case 1 (no list or adj list)
+@properties
+@red untapped or unblocked creature you control
+@(PROPERTIES red (or untapped unblocked) creature (control (PLAYER_SET you)))
+
+# properties case 2 (noun list)
+@properties
+@creature or land with a time counter on it
+@(PROPERTIES (or creature land) (HAS_COUNTERS it
+ (COUNTER_SET (COUNTER_GROUP (NUMBER 1) time))))
+
+# properties case 3 (adj+noun list)
+@properties
+@white soldier, blue merfolk, black zombie, red goblin, or green elf you control
+@(PROPERTIES (or (PROPERTIES white soldier) (PROPERTIES blue merfolk)
+                 (PROPERTIES black zombie) (PROPERTIES red goblin)
+                 (PROPERTIES green elf))
+             (control (PLAYER_SET you)))
+
+# properties case 4 (adj+noun+desc pair)
+@properties
+@permanent you control or card you own
+@(PROPERTIES (or (PROPERTIES permanent (control (PLAYER_SET you)))
+                 (PROPERTIES card (own (PLAYER_SET you)))))
+
+@subsets
+@all permanents you control and all cards you own
+@(and (SUBSET (NUMBER all) (PROPERTIES permanents (control (PLAYER_SET you))))
+      (SUBSET (NUMBER all) (PROPERTIES cards (own (PLAYER_SET you)))))
