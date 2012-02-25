@@ -10,27 +10,14 @@ subset : number properties -> ^( SUBSET number properties )
        | full_zone -> ^( SUBSET full_zone )
        | ref_object descriptor* -> ^( SUBSET ref_object descriptor* );
 
-/* Numbers and quantities. */
-
-integer : ( s=NUMBER_SYM | w=number_word )
-          ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $s? $w? ) )
-          | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ $s? $w? ) )
-          | -> ^( NUMBER $s? $w? )
-          )
-        | b=VAR_SYM ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
-                    | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
-                    | -> ^( NUMBER ^( VAR $b ) )
-                    );
-
-// Separated. number followed by number_word is invalid
-number : integer
-       | ( ALL | EACH | EVERY ) -> ^( NUMBER ALL )
-       | ANY ( c=number_word -> ^( NUMBER[] $c )
-             | NUMBER OF -> ^( NUMBER[] ANY )
-             | -> ^( NUMBER[] NUMBER[$ANY, "1"] )
-             )
-       | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] )
-       | NO -> ^( NUMBER NUMBER[$NO, "0"] );
+// A full zone, for use as a subset
+full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
+          | THE ( TOP | BOTTOM ) number? properties
+            OF player_poss ( LIBRARY | GRAVEYARD )
+            -> {$number.text}? number properties
+               ^( ZONE player_poss LIBRARY? GRAVEYARD? TOP? BOTTOM? )
+            -> ^( NUMBER NUMBER[$THE, "1"] ) properties
+               ^( ZONE player_poss LIBRARY? GRAVEYARD? TOP? BOTTOM? );
 
 /*
  * We divide properties into three categories:
