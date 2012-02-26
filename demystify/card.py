@@ -3,6 +3,10 @@
 import logging
 logger = logging.getLogger("card")
 logger.setLevel(logging.INFO)
+
+import Queue
+import multiprocessing
+import multiprocessing.queues
 import re
 import string
 
@@ -283,25 +287,100 @@ class Card(object):
                 s.append('{}: {}'.format(c, v[c]))
         return '\n'.join(s)
 
-def CardProgressBar(cards):
-    """ A generator that writes a progress bar to stdout as its elements
-        are accessed. """
-    current_card = ' '
-    class CardWidget(progressbar.ProgressBarWidget):
-        def update(self, pbar):
-            if len(current_card) < 16:
-                return current_card + (16 - len(current_card)) * ' '
+class CardWidget(progressbar.ProgressBarWidget):
+    def __init__(self):
+        self.current_card = ' '
+
+    def update(self, pbar):
+        if len(self.current_card) < 16:
+            return self.current_card + (16 - len(self.current_card)) * ' '
+        else:
+            return self.current_card[:16]
+
+class CardProgressBar(list):
+    """ A list-like object that writes a progress bar to stdout
+        when iterated over. """
+    def __iter__(self):
+        """ A generator that writes a progress bar to stdout as its elements
+            are accessed. """
+        widgets = [CardWidget(), ' ', progressbar.Bar(left='[', right=']'), ' ',
+                   progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
+        pbar = progressbar.ProgressBar(widgets=widgets, maxval=len(self))
+        pbar.start()
+        for i, card in enumerate(super(CardProgressBar, self).__iter__()):
+            widgets[0].current_card = card.name
+            pbar.update(i)
+            yield card
+        pbar.finish()
+
+## Multiprocessing support for card-related tasks
+
+class CardProgressQueue(multiprocessing.queues.JoinableQueue):
+    def __init__(self, cards):
+        super(CardProgressQueue, self).__init__(len(cards))
+        self._cw = CardWidget()
+        widgets = [self._cw, ' ', progressbar.Bar(left='[', right=']'), ' ',
+                   progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
+        self._pbar = progressbar.ProgressBar(widgets=widgets, maxval=len(cards))
+        self._pbar.start()
+        for c in cards:
+            self.put(c)
+
+    def task_done(self, cname=None):
+        with self._cond:
+            if not self._unfinished_tasks.acquire(False):
+                raise ValueError('task_done() called too many times')
+            self._cw.current_card = cname or ' '
+            if self._unfinished_tasks._semlock._is_zero():
+                self._pbar.finish()
+                self._cond.notify_all()
             else:
-                return current_card[:16]
-    widgets = [CardWidget(), ' ', progressbar.Bar(left='[', right=']'), ' ',
-               progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
-    pbar = progressbar.ProgressBar(widgets=widgets, maxval=len(cards))
-    pbar.start()
-    for i, card in enumerate(cards):
-        current_card = card.name
-        pbar.update(i)
-        yield card
-    pbar.finish()
+                self._pbar.update(self._sem._semlock._get_value())
+
+def _card_worker_jq(work_queue, res_queue, func):
+    try:
+        while True:
+            c = work_queue.get(timeout=0.5)
+            try:
+                res = func(c)
+                if res is not None:
+                    res_queue.put(res, block=False)
+            except Queue.Full:
+                logger.error("Result queue full, can't add result for {}."
+                             .format(c.name))
+            except Exception as e:
+                logger.exception('Exception encountered processing {} for '
+                                 '{}: {}'.format(func.__name__, c.name, e))
+            finally:
+                work_queue.task_done(cname=c.name)
+    except Queue.Empty:
+        return
+
+def map_multi(func, cards, processes=None, pool=None, chunksize=1):
+    if not processes and not pool:
+        processes = 2
+    elif pool:
+        p = multiprocessing.Pool(processes=processes)
+        r = p.map(func, CardProgressBar(cards), chunksize=chunksize)
+        p.terminate()
+        del p
+        return r
+    # processes is not None
+    q = CardProgressQueue(cards)
+    rq = Queue.Queue()
+    pr = [multiprocessing.Process(target=_card_worker_jq, args=(q, rq, func))
+          for i in range(processes)]
+    for p in pr:
+        p.start()
+    q.join()
+    for p in pr:
+        p.join()
+    result = []
+    while not rq.empty():
+        result.append(rq.get())
+    return result
+
+## cardname processing ##
 
 def potential_names(words, cardnames):
     """ cardnames is a list of potential names, either SELF or PARENT,

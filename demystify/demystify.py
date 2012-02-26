@@ -41,7 +41,21 @@ def _token_stream(name, text):
     # tokenizes completely and logs on errors
     return antlr3.CommonTokenStream(lexer)
 
+def _lex(c):
+    try:
+        tokens = _token_stream(c.name, c.rules).getTokens()
+    except:
+        print('Error lexing {}:\n{}'.format(c.name, c.rules))
+        raise
+
 def test_lex(cards):
+    """ Test the lexer against the given cards' text, logging failures. """
+    card.map_multi(_lex, cards)
+
+def test_lex_p(cards, chunksize=1):
+    card.map_multi(_lex, cards, pool=True, chunksize=chunksize)
+
+def test_lex_s(cards):
     """ Test the lexer against the given cards' text, logging failures. """
     for c in card.CardProgressBar(cards):
         try:
