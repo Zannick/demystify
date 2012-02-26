@@ -35,6 +35,13 @@ Rules Text:     Flying
 {1}{B}, Sacrifice a creature: Regenerate Wake of Vultures.
 Set/Rarity:     Visions Common
 
+Name:   Wakedancer
+Cost:   2B
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     Morbid — When Wakedancer enters the battlefield, if a creature died this turn, put a 2/2 black Zombie creature token onto the battlefield.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Wakestone Gargoyle
 Cost:   3W
 Type:   Creature — Gargoyle
@@ -821,6 +828,15 @@ Rules Text:     Enchant creature
 {1}{W}: The next 1 damage that would be dealt to enchanted creature this turn is dealt to target creature or player instead.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
+Name:   Warden of the Wall
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     Warden of the Wall enters the battlefield tapped.
+{T}: Add {1} to your mana pool.
+As long as it's not your turn, Warden of the Wall is a 2/3 Gargoyle artifact creature with flying.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Wargate
 Cost:   XGWU
 Type:   Sorcery
@@ -1531,6 +1547,15 @@ Rules Text:     {T}: Add {G} to your mana pool.
 Threshold — Werebear gets +3/+3 as long as seven or more cards are in your graveyard.
 Set/Rarity:     Odyssey Common
 
+Name:   Werewolf Ransacker
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (5/4)
+Rules Text:     Whenever this creature transforms into Werewolf Ransacker, you may destroy target artifact. If that artifact is put into a graveyard this way, Werewolf Ransacker deals 3 damage to that artifact's controller.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Werewolf Ransacker.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Western Paladin
 Cost:   2BB
 Type:   Creature — Zombie Knight
@@ -1997,6 +2022,14 @@ Pow/Tgh:
 Rules Text:     Enchant land
 Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces).
 Set/Rarity:     Seventh Edition Common, Beatdown Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Ice Age Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+
+Name:   Wild Hunger
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +3/+1 and gains trample until end of turn.
+Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Common
 
 Name:   Wild Jhovall
 Cost:   3R
@@ -2545,7 +2578,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Winter's Chill only during combat before blockers are declared.
 X can't be greater than the number of snow lands you control.
-Destroy X target attacking creatures at end of combat. For each attacking creature, its controller may pay {1} or {2} to prevent this effect. If that player pays only {1} for that creature, prevent all combat damage that would be dealt to and dealt by that creature this turn.
+Choose X target attacking creatures. For each of those creatures, its controller may pay {1} or {2}. If that player doesn't, destroy that creature at end of combat. If that player pays only {1}, prevent all combat damage that would be dealt to and dealt by that creature this combat.
 Set/Rarity:     Ice Age Rare
 
 Name:   Winter's Grasp
@@ -2748,6 +2781,15 @@ Pow/Tgh:
 Rules Text:     Return target creature to its owner's hand. Then return another target creature to its owner's hand unless its controller pays {1}.
 Set/Rarity:     Prophecy Common
 
+Name:   Withengar Unbound
+Cost:   
+Color:  Black
+Type:   Legendary Creature — Demon
+Pow/Tgh:    (13/13)
+Rules Text:     Flying, intimidate, trample
+Whenever a player loses the game, put thirteen +1/+1 counters on Withengar Unbound.
+Set/Rarity:     Dark Ascension Mythic Rare
+
 Name:   Withered Wretch
 Cost:   BB
 Type:   Creature — Zombie Cleric
@@ -2909,6 +2951,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Wolf-Skull Shaman, you may reveal it. If you do, put a 2/2 green Wolf creature token onto the battlefield.
 Set/Rarity:     Morningtide Uncommon
 
+Name:   Wolfbitten Captive
+Cost:   G
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (1/1)
+Rules Text:     {1}{G}: Wolfbitten Captive gets +2/+2 until end of turn. Activate this ability only once each turn.
+At the beginning of each upkeep, if no spells were cast last turn, transform Wolfbitten Captive.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Wolfbriar Elemental
 Cost:   2GG
 Type:   Creature — Elemental
@@ -2916,6 +2966,14 @@ Pow/Tgh:    (4/4)
 Rules Text:     Multikicker {G} (You may pay an additional {G} any number of times as you cast this spell.)
 When Wolfbriar Elemental enters the battlefield, put a 2/2 green Wolf creature token onto the battlefield for each time it was kicked.
 Set/Rarity:     Worldwake Rare
+
+Name:   Wolfhunter's Quiver
+Cost:   1
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has "{T}: This creature deals 1 damage to target creature or player" and "{T}: This creature deals 3 damage to target Werewolf creature."
+Equip {5}
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Wolverine Pack
 Cost:   2GG
@@ -3383,6 +3441,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of each end step, each opponent loses life equal to the life he or she lost this turn. (Damage causes loss of life.)
 Set/Rarity:     Shadowmoor Rare
+
+Name:   Wrack with Madness
+Cost:   3R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature deals damage to itself equal to its power.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Wrap in Flames
 Cost:   3R

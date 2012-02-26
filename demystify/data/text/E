@@ -115,7 +115,7 @@ Cost:   G
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land you control
-Enchanted land has "{T}: Target blocking creature gets +1/+2 until end of turn."
+Tap enchanted land: Target blocking creature gets +1/+2 until end of turn. Activate this ability only if enchanted land is untapped.
 Set/Rarity:     Ice Age Common
 
 Name:   Earthquake
@@ -451,6 +451,15 @@ Enchanted creature gets +0/+4.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 Set/Rarity:     Rise of the Eldrazi Common
 
+Name:   Elbrus, the Binding Blade
+Cost:   7
+Type:   Legendary Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +1/+0.
+When equipped creature deals combat damage to a player, unattach Elbrus, the Binding Blade, then transform it.
+Equip {1}
+Set/Rarity:     Dark Ascension Mythic Rare
+
 Name:   Elder Cathar
 Cost:   2W
 Type:   Creature — Human Soldier
@@ -668,6 +677,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, you may search your library for a basic land card, reveal that card, and put it into your hand. If you do, you skip your draw step this turn and shuffle your library.
 Set/Rarity:     Invasion Uncommon
+
+Name:   Elgaud Inquisitor
+Cost:   3W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/2)
+Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+When Elgaud Inquisitor dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Elite Archers
 Cost:   5W
@@ -1475,7 +1492,7 @@ Name:   Endless Whispers
 Cost:   2BB
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Each creature has "When this creature dies, choose target opponent. That player returns this card from that graveyard to the battlefield under his or her control at the beginning of the next end step."
+Rules Text:     Each creature has "When this creature dies, choose target opponent. That player puts this card from its owner's graveyard onto the battlefield under his or her control at the beginning of the next end step."
 Set/Rarity:     Fifth Dawn Rare
 
 Name:   Endless Wurm
@@ -1949,6 +1966,14 @@ Type:   Legendary Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever an opponent casts a spell for the first time in a turn, counter that spell.
 Set/Rarity:     Saviors of Kamigawa Rare
+
+Name:   Erdwal Ripper
+Cost:   1RR
+Type:   Creature — Vampire
+Pow/Tgh:    (2/1)
+Rules Text:     Haste
+Whenever Erdwal Ripper deals combat damage to a player, put a +1/+1 counter on it.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Erg Raiders
 Cost:   1B
@@ -2619,7 +2644,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
+Set/Rarity:     Dark Ascension Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
 
 Name:   Exalted Angel
 Cost:   4WW
@@ -2704,6 +2729,14 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {1}{B}, {T}, Sacrifice Executioner's Capsule: Destroy target nonblack creature.
 Set/Rarity:     Shards of Alara Common
+
+Name:   Executioner's Hood
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has intimidate. (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Dark Ascension Common
 
 Name:   Exhaustion
 Cost:   2U

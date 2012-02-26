@@ -1861,7 +1861,7 @@ Name:   Phyrexian Portal
 Cost:   3
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {3}: Target opponent looks at the top ten cards of your library and separates them into two face-down piles. Exile one of those piles. Search the other pile for a card, put it into your hand, then shuffle the rest of that pile into your library. Activate this ability only if your library has ten or more cards in it.
+Rules Text:     {3}: If your library has ten or more cards in it, target opponent looks at the top ten cards of your library and separates them into two face-down piles. Exile one of those piles. Search the other pile for a card, put it into your hand, then shuffle the rest of that pile into your library.
 Set/Rarity:     Masters Edition II Rare, Alliances Rare
 
 Name:   Phyrexian Processor
@@ -2139,7 +2139,7 @@ Name:   Pillar of the Paruns
 Cost:   
 Type:   Land
 Pow/Tgh:    
-Rules Text:     {T}: Add one mana of any color to your mana pool. Spend this mana only to cast multicolored spells.
+Rules Text:     {T}: Add one mana of any color to your mana pool. Spend this mana only to cast a multicolored spell.
 Set/Rarity:     Dissension Rare
 
 Name:   Pillarfield Ox
@@ -3170,6 +3170,15 @@ Rules Text:     Flying, haste
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 Set/Rarity:     Shards of Alara Rare
 
+Name:   Predator Ooze
+Cost:   GGG
+Type:   Creature — Ooze
+Pow/Tgh:    (1/1)
+Rules Text:     Predator Ooze is indestructible.
+Whenever Predator Ooze attacks, put a +1/+1 counter on it.
+Whenever a creature dealt damage by Predator Ooze this turn dies, put a +1/+1 counter on Predator Ooze.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Predator's Strike
 Cost:   1G
 Type:   Instant
@@ -3405,7 +3414,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     As Primal Beyond enters the battlefield, you may reveal an Elemental card from your hand. If you don't, Primal Beyond enters the battlefield tapped.
 {T}: Add {1} to your mana pool.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast Elemental spells or activate abilities of Elementals.
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast an Elemental spell or activate an ability of an Elemental.
 Set/Rarity:     Morningtide Rare
 
 Name:   Primal Boost
@@ -4319,7 +4328,7 @@ Cost:   UUU
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When enchanted creature dies, return that card to its owner's hand. If that card is returned to its owner's hand this way, you may pay {U}{U}{U}. If you do, return Puppet Master from your graveyard to your hand.
+When enchanted creature dies, return that card to its owner's hand. If that card is returned to its owner's hand this way, you may pay {U}{U}{U}. If you do, return Puppet Master to its owner's hand.
 Set/Rarity:     Chronicles Uncommon, Legends Uncommon
 
 Name:   Puppet Strings
@@ -4614,6 +4623,14 @@ Pow/Tgh:    (2/1)
 Rules Text:     At the beginning of your upkeep, if Pyre Zombie is in your graveyard, you may pay {1}{B}{B}. If you do, return Pyre Zombie to your hand.
 {1}{R}{R}, Sacrifice Pyre Zombie: Pyre Zombie deals 2 damage to target creature or player.
 Set/Rarity:     Invasion Rare
+
+Name:   Pyreheart Wolf
+Cost:   2R
+Type:   Creature — Wolf
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever Pyreheart Wolf attacks, each creature you control can't be blocked this turn except by two or more creatures.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Pyretic Ritual
 Cost:   1R

@@ -169,6 +169,14 @@ When Faith's Fetters enters the battlefield, you gain 4 life.
 Enchanted permanent's activated abilities can't be activated unless they're mana abilities. If enchanted permanent is a creature, it can't attack or block.
 Set/Rarity:     Duel Decks: Divine vs. Demonic Common, Ravnica: City of Guilds Common
 
+Name:   Faith's Shield
+Cost:   W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target permanent you control gains protection from the color of your choice until end of turn.
+Fateful hour — If you have 5 or less life, instead you and each permanent you control gain protection from the color of your choice until end of turn.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Faithful Squire
 Cost:   1WW
 Type:   Creature — Human Soldier
@@ -185,6 +193,22 @@ Rules Text:     Flying
 Remove a ki counter from Kaiso, Memory of Loyalty: Prevent all damage that would be dealt to target creature this turn.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
+Name:   Faithless Looting
+Cost:   R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Draw two cards, then discard two cards.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Common
+
+Name:   Falkenrath Aristocrat
+Cost:   2BR
+Type:   Creature — Vampire
+Pow/Tgh:    (4/1)
+Rules Text:     Flying, haste
+Sacrifice a creature: Falkenrath Aristocrat is indestructible this turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat.
+Set/Rarity:     Dark Ascension Mythic Rare
+
 Name:   Falkenrath Marauders
 Cost:   3RR
 Type:   Creature — Vampire Warrior
@@ -200,6 +224,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flying
 Whenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life.
 Set/Rarity:     Innistrad Uncommon
+
+Name:   Falkenrath Torturer
+Cost:   2B
+Type:   Creature — Vampire
+Pow/Tgh:    (2/1)
+Rules Text:     Sacrifice a creature: Falkenrath Torturer gains flying until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Torturer.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Fallen Angel
 Cost:   3BB
@@ -453,6 +484,13 @@ Rules Text:     Search your library for a basic land card and put that card onto
 Threshold — If seven or more cards are in your graveyard, instead search your library for three basic land cards and put them onto the battlefield tapped. Then shuffle your library.
 Set/Rarity:     Torment Common
 
+Name:   Farbog Boneflinger
+Cost:   4B
+Type:   Creature — Zombie
+Pow/Tgh:    (2/2)
+Rules Text:     When Farbog Boneflinger enters the battlefield, target creature gets -2/-2 until end of turn.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Farhaven Elf
 Cost:   2G
 Type:   Creature — Elf Druid
@@ -473,7 +511,7 @@ Cost:   2W
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Whenever enchanted creature attacks and isn't blocked, its controller may have it deal damage equal to its power plus 2 to target creature. If that player does, the attacking creature assigns no combat damage this turn.
+Whenever enchanted creature attacks and isn't blocked, its controller may have it deal damage equal to its power plus 2 to another target creature. If that player does, the attacking creature assigns no combat damage this turn.
 Set/Rarity:     Masters Edition II Uncommon, Fallen Empires Uncommon
 
 Name:   Farrel's Zealot
@@ -649,6 +687,14 @@ As long as enchanted creature is green, it gets +1/+1 and has vigilance.
 As long as enchanted creature is blue, it gets +1/+1 and has flying.
 Set/Rarity:     Eventide Common
 
+Name:   Favor of the Woods
+Cost:   2G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature blocks, you gain 3 life.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Favorable Destiny
 Cost:   1W
 Type:   Enchantment — Aura
@@ -718,6 +764,13 @@ Rules Text:     Flash (You may cast this spell any time you could cast an instan
 Enchant creature
 Enchanted creature gets -2/-1.
 Set/Rarity:     Time Spiral Common
+
+Name:   Feed the Pack
+Cost:   5G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your end step, you may sacrifice a nontoken creature. If you do, put X 2/2 green Wolf creature tokens onto the battlefield, where X is the sacrificed creature's toughness.
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Feedback
 Cost:   2U
@@ -1197,6 +1250,15 @@ Rules Text:     When Fiend Hunter enters the battlefield, you may exile another 
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 Set/Rarity:     Innistrad Uncommon
 
+Name:   Fiend of the Shadows
+Cost:   3BB
+Type:   Creature — Vampire Wizard
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Whenever Fiend of the Shadows deals combat damage to a player, that player exiles a card from his or her hand. You may play that card for as long as it remains exiled.
+Sacrifice a Human: Regenerate Fiend of the Shadows.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Fierce Empath
 Cost:   2G
 Type:   Creature — Elf
@@ -1643,6 +1705,14 @@ Rules Text:     Echo {5}{R} (At the beginning of your upkeep, if this came under
 When Firemaw Kavu enters the battlefield, it deals 2 damage to target creature.
 When Firemaw Kavu leaves the battlefield, it deals 4 damage to target creature.
 Set/Rarity:     Time Spiral Uncommon
+
+Name:   Fires of Undeath
+Cost:   2R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Fires of Undeath deals 2 damage to target creature or player.
+Flashback {5}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Common
 
 Name:   Fires of Yavimaya
 Cost:   1RG
@@ -2166,6 +2236,14 @@ Equipped creature gets +1/+1.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 Set/Rarity:     Mirrodin Besieged Common
 
+Name:   Flayer of the Hatebound
+Cost:   5R
+Type:   Creature — Devil
+Pow/Tgh:    (4/2)
+Rules Text:     Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Whenever Flayer of the Hatebound or another creature enters the battlefield from your graveyard, that creature deals damage equal to its power to target creature or player.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Fledgling Djinn
 Cost:   1B
 Type:   Creature — Djinn
@@ -2383,7 +2461,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     As an additional cost to cast Fling, sacrifice a creature.
 Fling deals damage equal to the sacrificed creature's power to target creature or player.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Stronghold Common
+Set/Rarity:     Dark Ascension Common, Magic 2012 Common, Magic 2011 Common, Stronghold Common
 
 Name:   Flint Golem
 Cost:   4
@@ -3095,6 +3173,13 @@ Pow/Tgh:
 Rules Text:     As an additional cost to cast Forge Armor, sacrifice an artifact.
 Put X +1/+1 counters on target creature, where X is the sacrificed artifact's converted mana cost.
 Set/Rarity:     Mirrodin Uncommon
+
+Name:   Forge Devil
+Cost:   R
+Type:   Creature — Devil
+Pow/Tgh:    (1/1)
+Rules Text:     When Forge Devil enters the battlefield, it deals 1 damage to target creature and 1 damage to you.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Forget
 Cost:   UU

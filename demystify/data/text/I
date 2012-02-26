@@ -487,6 +487,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     {T}: Put a +1/+1 counter on target creature for each Elf you control.
 Set/Rarity:     Lorwyn Rare
 
+Name:   Immerwolf
+Cost:   1RG
+Type:   Creature — Wolf
+Pow/Tgh:    (2/2)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Other Wolf and Werewolf creatures you control get +1/+1.
+Non-Human Werewolves you control can't transform.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Immobilizing Ink
 Cost:   1U
 Type:   Enchantment — Aura
@@ -769,6 +778,46 @@ Pow/Tgh:
 Rules Text:     Choose one — Creatures target player controls attack this turn if able; or creatures you control gain first strike until end of turn.
 Entwine {2} (Choose both if you pay the entwine cost.)
 Set/Rarity:     Mirrodin Common
+
+Name:   Increasing Ambition
+Cost:   4B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Search your library for a card and put that card into your hand. If Increasing Ambition was cast from a graveyard, instead search your library for two cards and put those cards into your hand. Then shuffle your library.
+Flashback {7}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Rare
+
+Name:   Increasing Confusion
+Cost:   XU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player puts the top X cards of his or her library into his or her graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into his or her graveyard instead.
+Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Rare
+
+Name:   Increasing Devotion
+Cost:   3WW
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put five 1/1 white Human creature tokens onto the battlefield. If Increasing Devotion was cast from a graveyard, put ten of those tokens onto the battlefield instead.
+Flashback {7}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Rare
+
+Name:   Increasing Savagery
+Cost:   2GG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put five +1/+1 counters on target creature. If Increasing Savagery was cast from a graveyard, put ten +1/+1 counters on that creature instead.
+Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Rare
+
+Name:   Increasing Vengeance
+Cost:   RR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Copy target instant or sorcery spell you control. If Increasing Vengeance was cast from a graveyard, copy that spell twice instead. You may choose new targets for the copies.
+Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Incremental Blight
 Cost:   3BB
@@ -1125,7 +1174,7 @@ Cost:   WWW
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Whenever enchanted creature blocks or becomes blocked by a creature with toughness 3 or less, destroy the other creature at end of combat. At the beginning of the next end step, if that creature died this way, put a +1/+1 counter on the first creature.
+Whenever enchanted creature blocks or becomes blocked by a creature with toughness 3 or less, destroy the other creature at end of combat. At the beginning of the next end step, if that creature was destroyed this way, put a +1/+1 counter on the first creature.
 Set/Rarity:     Legends Rare
 
 Name:   Infinite Hourglass
@@ -2120,7 +2169,7 @@ Name:   Ivory Tower
 Cost:   1
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus four.
+Rules Text:     At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus 4.
 Set/Rarity:     From the Vault: Relics Mythic Rare, Masters Edition Rare, Fourth Edition Rare, Revised Edition Rare, Antiquities Uncommon
 
 Name:   Ivy Dancer

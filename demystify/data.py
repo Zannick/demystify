@@ -134,7 +134,8 @@ class GathererParser(HTMLParser):
             s = data.strip()
             if self._header == 'Name:':
                 # Fix up issues with names
-                m = _parens.match(s)
+                t, n = _quotes.subn("'", s)
+                m = _parens.match(t)
                 if m:
                     o, g = m.groups()
                     if o[2:].lower() in g.lower():
@@ -142,6 +143,9 @@ class GathererParser(HTMLParser):
                         s = g
                     else:
                         ulog.info('Not correcting flip card "{}".'.format(s))
+                elif n:
+                    ulog.info('Correcting "{}" to "{}".'.format(s, t))
+                    s = t
                 if s:
                     self._name = s
             elif self._header == 'Type:':

@@ -427,6 +427,14 @@ Pow/Tgh:
 Rules Text:     If a creature would enter the battlefield under an opponent's control this turn, it enters the battlefield under your control instead.
 Set/Rarity:     Shards of Alara Rare
 
+Name:   Gather the Townsfolk
+Cost:   1W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put two 1/1 white Human creature tokens onto the battlefield.
+Fateful hour — If you have 5 or less life, put five of those tokens onto the battlefield instead.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Gatherer of Graces
 Cost:   1G
 Type:   Creature — Human Druid
@@ -475,6 +483,13 @@ Pow/Tgh:
 Rules Text:     {5}, Sacrifice Gauntlets of Chaos: Exchange control of target artifact, creature, or land you control and target permanent an opponent controls that shares one of those types with it. If those permanents are exchanged this way, destroy all Auras attached to them.
 Set/Rarity:     Masters Edition III Rare, Fifth Edition Rare, Chronicles Rare, Legends Rare
 
+Name:   Gavony Ironwright
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/4)
+Rules Text:     Fateful hour — As long as you have 5 or less life, other creatures you control get +1/+4.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Gavony Township
 Cost:   
 Type:   Land
@@ -487,7 +502,7 @@ Name:   Gaze of Adamaro
 Cost:   2RR
 Type:   Instant — Arcane
 Pow/Tgh:    
-Rules Text:     Gaze of Adamaro deals damage equal to the number of cards in target player's hand to that player.
+Rules Text:     Gaze of Adamaro deals damage to target player equal to the number of cards in that player's hand.
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
 Name:   Gaze of Justice
@@ -762,6 +777,23 @@ Rules Text:     Geothermal Crevice enters the battlefield tapped.
 {T}, Sacrifice Geothermal Crevice: Add {B}{G} to your mana pool.
 Set/Rarity:     Invasion Common
 
+Name:   Geralf's Messenger
+Cost:   BBB
+Type:   Creature — Zombie
+Pow/Tgh:    (3/2)
+Rules Text:     Geralf's Messenger enters the battlefield tapped.
+When Geralf's Messenger enters the battlefield, target opponent loses 2 life.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Rare
+
+Name:   Geralf's Mindcrusher
+Cost:   4UU
+Type:   Creature — Zombie Horror
+Pow/Tgh:    (5/5)
+Rules Text:     When Geralf's Mindcrusher enters the battlefield, target player puts the top five cards of his or her library into his or her graveyard.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Gerrard Capashen
 Cost:   3WW
 Type:   Legendary Creature — Human Soldier
@@ -863,6 +895,15 @@ Pow/Tgh:
 Rules Text:     Draw two cards, then discard a card.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it.)
 Set/Rarity:     Shadowmoor Common
+
+Name:   Ghastly Haunting
+Cost:   
+Color:  Blue
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+You control enchanted creature.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Ghastly Remains
 Cost:   BBB
@@ -1164,6 +1205,13 @@ Type:   Creature — Zombie
 Pow/Tgh:    (2/2)
 Rules Text:     When Ghoulraiser enters the battlefield, return a Zombie card at random from your graveyard to your hand.
 Set/Rarity:     Innistrad Common
+
+Name:   Ghoultree
+Cost:   7G
+Type:   Creature — Zombie Treefolk
+Pow/Tgh:    (10/10)
+Rules Text:     Ghoultree costs {1} less to cast for each creature card in your graveyard.
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Giant Albatross
 Cost:   1U
@@ -3439,6 +3487,14 @@ Pow/Tgh:
 Rules Text:     When target creature dies this turn, return that card to the battlefield under its owner's control.
 Set/Rarity:     Morningtide Uncommon
 
+Name:   Grafdigger's Cage
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     Creature cards can't enter the battlefield from graveyards or libraries.
+Players can't cast cards in graveyards or libraries.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Grafted Exoskeleton
 Cost:   4
 Type:   Artifact — Equipment
@@ -3721,6 +3777,14 @@ Pow/Tgh:    (3/3)
 Rules Text:     At the beginning of your upkeep, you draw X cards and you lose X life, where X is the number of Zombies you control.
 Set/Rarity:     Tenth Edition Rare, Legions Rare
 
+Name:   Gravecrawler
+Cost:   B
+Type:   Creature — Zombie
+Pow/Tgh:    (2/1)
+Rules Text:     Gravecrawler can't block.
+You may cast Gravecrawler from your graveyard as long as you control a Zombie.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Gravedigger
 Cost:   3B
 Type:   Creature — Zombie
@@ -3776,6 +3840,14 @@ Haunt (When this creature dies, exile it haunting target creature.)
 When Graven Dominator enters the battlefield or the creature it haunts dies, each other creature becomes 1/1 until end of turn.
 Set/Rarity:     Guildpact Rare
 
+Name:   Gravepurge
+Cost:   2B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put any number of target creature cards from your graveyard on top of your library.
+Draw a card.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Gravespawn Sovereign
 Cost:   4BB
 Type:   Creature — Zombie
@@ -3789,6 +3861,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, target opponent may exile a card from his or her graveyard. If that player doesn't, you may draw a card.
 Set/Rarity:     Odyssey Rare
+
+Name:   Gravetiller Wurm
+Cost:   5G
+Type:   Creature — Wurm
+Pow/Tgh:    (4/4)
+Rules Text:     Trample
+Morbid — Gravetiller Wurm enters the battlefield with four +1/+1 counters on it if a creature died this turn.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Graveyard Shovel
 Cost:   2
@@ -4155,6 +4235,14 @@ Pow/Tgh:
 Rules Text:     Put a -1/-1 counter on target creature, then proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
 Set/Rarity:     New Phyrexia Common
 
+Name:   Grim Backwoods
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{2}{B}{G}, {T}, Sacrifice a creature: Draw a card.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Grim Discovery
 Cost:   1B
 Type:   Sorcery
@@ -4169,6 +4257,13 @@ Pow/Tgh:
 Rules Text:     At the beginning of your upkeep, Grim Feast deals 1 damage to you.
 Whenever a creature is put into an opponent's graveyard from the battlefield, you gain life equal to its toughness.
 Set/Rarity:     Mirage Rare
+
+Name:   Grim Flowering
+Cost:   5G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Draw a card for each creature card in your graveyard.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Grim Harvest
 Cost:   1B
@@ -4312,6 +4407,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a spell or ability is put onto the stack, if it has a single target, reselect its target at random. (Select from among all legal targets.)
 Set/Rarity:     Scourge Rare
+
+Name:   Griptide
+Cost:   3U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put target creature on top of its owner's library.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Gristle Grinner
 Cost:   4B
@@ -4532,6 +4634,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature has intimidate. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Set/Rarity:     Innistrad Common
+
+Name:   Gruesome Discovery
+Cost:   2BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player discards two cards.
+Morbid — If a creature died this turn, instead that player reveals his or her hand, you choose two cards from it, then that player discards those cards.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Gruesome Encore
 Cost:   2B

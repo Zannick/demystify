@@ -328,7 +328,7 @@ Name:   Acidic Dagger
 Cost:   4
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {4}, {T}: Whenever target creature deals combat damage to a non-Wall creature this turn, destroy that non-Wall creature. When the targeted creature leaves the battlefield this turn, sacrifice Acidic Dagger. Activate this ability only during combat before blockers are declared.
+Rules Text:     {4}, {T}: Whenever target creature deals combat damage to a non-Wall creature this turn, destroy that non-Wall creature. When the targeted creature leaves the battlefield this turn, sacrifice Acidic Dagger. Activate this ability only before blockers are declared.
 Set/Rarity:     Mirage Rare
 
 Name:   Acidic Slime
@@ -445,7 +445,7 @@ Name:   Adarkar Unicorn
 Cost:   1WW
 Type:   Creature — Unicorn
 Pow/Tgh:    (2/2)
-Rules Text:     {T}: Add either {U} or {1}{U} to your mana pool. Spend this mana only to pay cumulative upkeep costs.
+Rules Text:     {T}: Add {U} or {1}{U} to your mana pool. Spend this mana only to pay cumulative upkeep costs.
 Set/Rarity:     Ice Age Common
 
 Name:   Adarkar Valkyrie
@@ -626,6 +626,13 @@ Pow/Tgh:
 Rules Text:     Target creature gets -1/-1 until end of turn.
 Draw a card.
 Set/Rarity:     Tenth Edition Common, Odyssey Common
+
+Name:   Afflicted Deserter
+Cost:   3R
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (3/2)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Afflicted Deserter.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Afiya Grove
 Cost:   1G
@@ -1293,6 +1300,13 @@ Pow/Tgh:
 Rules Text:     {1}, Exile the top card of your graveyard: Prevent the next 1 damage that would be dealt to target creature this turn.
 Set/Rarity:     Weatherlight Common
 
+Name:   Alpha Brawl
+Cost:   6RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature an opponent controls deals damage equal to its power to each other creature that player controls, then each of those creatures deals damage equal to its power to that creature.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Alpha Kavu
 Cost:   2G
 Type:   Creature — Kavu
@@ -1354,6 +1368,14 @@ Pow/Tgh:
 Rules Text:     At the beginning of your precombat main phase, add {B} to your mana pool for each charge counter on Altar of Shadows.
 {7}, {T}: Destroy target creature. Then put a charge counter on Altar of Shadows.
 Set/Rarity:     Mirrodin Rare
+
+Name:   Altar of the Lost
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     Altar of the Lost enters the battlefield tapped.
+{T}: Add two mana in any combination of colors to your mana pool. Spend this mana only to cast spells with flashback from a graveyard.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Altar's Light
 Cost:   2WW
@@ -1834,7 +1856,7 @@ Name:   Ancient Ziggurat
 Cost:   
 Type:   Land
 Pow/Tgh:    
-Rules Text:     {T}: Add one mana of any color to your mana pool. Spend this mana only to cast creature spells.
+Rules Text:     {T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell.
 Set/Rarity:     Premium Deck Series: Slivers Uncommon, Conflux Uncommon
 
 Name:   Andradite Leech
@@ -2756,6 +2778,22 @@ Creatures controlled by players who chose war get +3/+0.
 Creatures controlled by players who chose peace get +0/+3.
 Set/Rarity:     Magic: The Gathering-Commander Rare
 
+Name:   Archangel's Light
+Cost:   7W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     You gain 2 life for each card in your graveyard, then shuffle your graveyard into your library.
+Set/Rarity:     Dark Ascension Mythic Rare
+
+Name:   Archdemon of Greed
+Cost:   
+Color:  Black
+Type:   Creature — Demon
+Pow/Tgh:    (9/9)
+Rules Text:     Flying, trample
+At the beginning of your upkeep, sacrifice a Human. If you can't, tap Archdemon of Greed and it deals 9 damage to you.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Archdemon of Unx
 Cost:   5BB
 Type:   Creature — Demon
@@ -3031,7 +3069,7 @@ Name:   Argothian Treefolk
 Cost:   3GG
 Type:   Creature — Treefolk
 Pow/Tgh:    (3/5)
-Rules Text:     Prevent all damage that would be dealt to Argothian Treefolk by artifacts.
+Rules Text:     Prevent all damage that would be dealt to Argothian Treefolk by artifact sources.
 Set/Rarity:     Masters Edition IV Uncommon, Antiquities Common
 
 Name:   Argothian Wurm
@@ -3295,6 +3333,14 @@ Type:   Artifact Creature — Construct
 Pow/Tgh:    (2/2)
 Rules Text:     As Arsenal Thresher enters the battlefield, you may reveal any number of other artifact cards from your hand. Arsenal Thresher enters the battlefield with a +1/+1 counter on it for each card revealed this way.
 Set/Rarity:     Planechase Common, Alara Reborn Common
+
+Name:   Artful Dodge
+Cost:   U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature is unblockable this turn.
+Flashback {U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Common
 
 Name:   Artifact Blast
 Cost:   R
@@ -4029,6 +4075,15 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Spells you control can't be countered by blue or black spells this turn, and creatures you control can't be the targets of blue or black spells this turn.
 Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon
+
+Name:   Avacyn's Collar
+Cost:   1
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +1/+0 and has vigilance.
+Whenever equipped creature dies, if it was a Human, put a 1/1 white Spirit creature token with flying onto the battlefield.
+Equip {2}
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Avacyn's Pilgrim
 Cost:   G

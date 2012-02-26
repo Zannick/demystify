@@ -516,6 +516,13 @@ Rules Text:     As an additional cost to cast Harrow, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.
 Set/Rarity:     Duel Decks: Phyrexia vs. the Coalition Common, Zendikar Common, Invasion Common, Tempest Uncommon
 
+Name:   Harrowing Journey
+Cost:   4B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player draws three cards and loses 3 life.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Harsh Deceiver
 Cost:   3W
 Type:   Creature — Spirit
@@ -658,6 +665,14 @@ Pow/Tgh:
 Rules Text:     {B}: Put target creature card from your graveyard on top of your library.
 Set/Rarity:     Mercadian Masques Uncommon
 
+Name:   Haunted Fengraf
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{3}, {T}, Sacrifice Haunted Fengraf: Return a creature card at random from your graveyard to your hand.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Haunting Apparition
 Cost:   1UB
 Type:   Creature — Spirit
@@ -695,6 +710,20 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever an artifact becomes tapped or a player activates an artifact's ability without {T} in its activation cost, Haunting Wind deals 1 damage to that artifact's controller.
 Set/Rarity:     Antiquities Uncommon
+
+Name:   Havengul Lich
+Cost:   3UB
+Type:   Creature — Zombie Wizard
+Pow/Tgh:    (4/4)
+Rules Text:     {1}: You may cast target creature card in a graveyard this turn. When you cast that card this turn, Havengul Lich gains all activated abilities of that card until end of turn.
+Set/Rarity:     Dark Ascension Mythic Rare
+
+Name:   Havengul Runebinder
+Cost:   2UU
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {2}{U}, {T}, Exile a creature card from your graveyard: Put a 2/2 black Zombie creature token onto the battlefield, then put a +1/+1 counter on each Zombie creature you control.
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Havenwood Battleground
 Cost:   
@@ -811,6 +840,14 @@ Type:   Creature — Zombie Knight
 Pow/Tgh:    (2/2)
 Rules Text:     
 Set/Rarity:     Legends Common
+
+Name:   Headless Skaab
+Cost:   2U
+Type:   Creature — Zombie Warrior
+Pow/Tgh:    (3/6)
+Rules Text:     As an additional cost to cast Headless Skaab, exile a creature card from your graveyard.
+Headless Skaab enters the battlefield tapped.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Headlong Rush
 Cost:   1R
@@ -1124,6 +1161,15 @@ Rules Text:     Cast Heavy Fog only during the declare attackers step and only i
 Prevent all damage that would be dealt to you this turn by attacking creatures.
 Set/Rarity:     Masters Edition III Common, Portal Three Kingdoms Uncommon
 
+Name:   Heavy Mattock
+Cost:   3
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +1/+1.
+As long as equipped creature is a Human, it gets an additional +1/+1.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Dark Ascension Common
+
 Name:   Hecatomb
 Cost:   1BB
 Type:   Enchantment
@@ -1131,6 +1177,13 @@ Pow/Tgh:
 Rules Text:     When Hecatomb enters the battlefield, sacrifice Hecatomb unless you sacrifice four creatures.
 Tap an untapped Swamp you control: Hecatomb deals 1 damage to target creature or player.
 Set/Rarity:     Masters Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Ice Age Rare
+
+Name:   Heckling Fiends
+Cost:   2R
+Type:   Creature — Devil
+Pow/Tgh:    (2/2)
+Rules Text:     {2}{R}: Target creature attacks this turn if able.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Hedge Troll
 Cost:   2G
@@ -1353,6 +1406,14 @@ Rules Text:     Flying, trample, haste
 {B}{G}: Regenerate Hellkite Overlord.
 Set/Rarity:     Shards of Alara Mythic Rare, From the Vault: Dragons Rare
 
+Name:   Hellrider
+Cost:   2RR
+Type:   Creature — Devil
+Pow/Tgh:    (3/3)
+Rules Text:     Haste
+Whenever a creature you control attacks, Hellrider deals 1 damage to defending player.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Hellspark Elemental
 Cost:   1R
 Type:   Creature — Elemental
@@ -1408,6 +1469,15 @@ Rules Text:     Enchant creature
 As long as enchanted creature is blue, it gets +1/+1 and has "Whenever this creature deals damage to an opponent, draw a card."
 As long as enchanted creature is black, it gets +1/+1 and has "Whenever this creature deals damage to an opponent, that player discards a card."
 Set/Rarity:     Shadowmoor Common
+
+Name:   Helvault
+Cost:   3
+Type:   Legendary Artifact
+Pow/Tgh:    
+Rules Text:     {1}, {T}: Exile target creature you control.
+{7}, {T}: Exile target creature you don't control.
+When Helvault is put into a graveyard from the battlefield, return all cards exiled with it to the battlefield under their owners' control.
+Set/Rarity:     Dark Ascension Mythic Rare
 
 Name:   Hematite Golem
 Cost:   4
@@ -1568,14 +1638,14 @@ Name:   Heroism
 Cost:   2W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Sacrifice a white creature: For each attacking red creature, prevent all combat damage that would be dealt by it this turn unless the attacking player pays {2}{R}.
+Rules Text:     Sacrifice a white creature: For each attacking red creature, prevent all combat damage that would be dealt by that creature this turn unless its controller pays {2}{R}.
 Set/Rarity:     Fallen Empires Uncommon
 
 Name:   Hesitation
 Cost:   1U
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     When a player casts a spell, sacrifice Hesitation. If you do, counter that spell.
+Rules Text:     When a player casts a spell, sacrifice Hesitation and counter that spell.
 Set/Rarity:     Stronghold Uncommon
 
 Name:   Hex
@@ -1755,7 +1825,6 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
-
 {T}, Sacrifice a creature: You gain 1 life.
 Set/Rarity:     Mercadian Masques Rare
 
@@ -1772,6 +1841,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Until end of turn, whenever a player taps an Island for mana, that player adds {U} to his or her mana pool (in addition to the mana the land produces).
 Set/Rarity:     Masters Edition Uncommon, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+
+Name:   Highborn Ghoul
+Cost:   BB
+Type:   Creature — Zombie
+Pow/Tgh:    (2/1)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Set/Rarity:     Dark Ascension Common
 
 Name:   Highland Berserker
 Cost:   1R
@@ -1870,6 +1946,22 @@ Pow/Tgh:
 Rules Text:     Hinterland Harbor enters the battlefield tapped unless you control a Forest or an Island.
 {T}: Add {G} or {U} to your mana pool.
 Set/Rarity:     Innistrad Rare
+
+Name:   Hinterland Hermit
+Cost:   1R
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (2/1)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Hinterland Hermit.
+Set/Rarity:     Dark Ascension Common
+
+Name:   Hinterland Scourge
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (3/2)
+Rules Text:     Hinterland Scourge must be blocked if able.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Hinterland Scourge.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Hipparion
 Cost:   1W
@@ -2080,12 +2172,28 @@ Rules Text:     At the beginning of your upkeep, if you have no cards in hand, e
 At the beginning of each opponent's upkeep, if that player has no cards in hand, he or she loses 2 life.
 Set/Rarity:     Shadowmoor Rare
 
+Name:   Hollowhenge Beast
+Cost:   3GG
+Type:   Creature — Beast
+Pow/Tgh:    (5/5)
+Rules Text:     
+Set/Rarity:     Dark Ascension Common
+
 Name:   Hollowhenge Scavenger
 Cost:   3GG
 Type:   Creature — Elemental
 Pow/Tgh:    (4/5)
 Rules Text:     Morbid — When Hollowhenge Scavenger enters the battlefield, if a creature died this turn, you gain 5 life.
 Set/Rarity:     Innistrad Uncommon
+
+Name:   Hollowhenge Spirit
+Cost:   3W
+Type:   Creature — Spirit
+Pow/Tgh:    (2/2)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Flying
+When Hollowhenge Spirit enters the battlefield, remove target attacking or blocking creature from combat.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Hollowsage
 Cost:   3B
@@ -2766,6 +2874,14 @@ Pow/Tgh:    (4/7)
 Rules Text:     Cycling {3} ({3}, Discard this card: Draw a card.)
 Set/Rarity:     Legions Common
 
+Name:   Hunger of the Howlpack
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put a +1/+1 counter on target creature.
+Morbid — Put three +1/+1 counters on that creature instead if a creature died this turn.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Hunger of the Nim
 Cost:   1B
 Type:   Sorcery
@@ -2932,6 +3048,14 @@ Rules Text:     Kicker {3}{G} (You may pay an additional {3}{G} as you cast this
 Search your library for up to two Forest cards and put them onto the battlefield tapped. Then shuffle your library.
 If Hunting Wilds was kicked, untap all Forests put onto the battlefield this way. They become 3/3 green creatures with haste that are still lands.
 Set/Rarity:     Planar Chaos Uncommon
+
+Name:   Huntmaster of the Fells
+Cost:   2RG
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, put a 2/2 green Wolf creature token onto the battlefield and you gain 2 life.
+At the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells.
+Set/Rarity:     Dark Ascension Mythic Rare
 
 Name:   Hurkyl's Recall
 Cost:   1U

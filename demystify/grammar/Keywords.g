@@ -753,6 +753,7 @@ tokens {
     UNBLOCKED;
     UNCHANGED;
     UNDER;
+    UNDYING;
     UNEARTH;
     UNEARTHED;
     UNLESS;
@@ -1313,7 +1314,8 @@ VANGUARD_POSS : 'vanguard\'s'
               | 'vanguards\'';
 ABILITY_POSS : 'abilities\''
              | 'ability\'s';
-ABILITY_WORD : 'join forces'
+ABILITY_WORD : 'fateful hour'
+             | 'join forces'
              | 'metalcraft'
              | 'threshold'
              | 'grandeur'
@@ -1427,6 +1429,7 @@ OBJ_COUNTER : 'intervention'
             | 'vitality'
             | 'bribery'
             | 'carrion'
+            | 'eyeball'
             | 'feather'
             | 'healing'
             | 'javelin'
@@ -2415,6 +2418,7 @@ TRAMPLE : 'tramples'
         | 'trample';
 TRIGGER : 'triggers'
         | 'trigger';
+UNDYING : 'undying';
 UNEARTH : 'unearths'
         | 'unearth';
 WHETHER : 'whether';

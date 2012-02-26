@@ -481,6 +481,13 @@ Pow/Tgh:    (2/1)
 Rules Text:     As long as you control another multicolored permanent, Bant Sureblade gets +1/+1 and has first strike.
 Set/Rarity:     Alara Reborn Common
 
+Name:   Bar the Door
+Cost:   2W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures you control get +0/+4 until end of turn.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Barbarian Bully
 Cost:   2R
 Type:   Creature — Human Barbarian
@@ -1350,6 +1357,13 @@ Pow/Tgh:
 Rules Text:     Destroy target land or nonblack creature. It can't be regenerated.
 Set/Rarity:     Champions of Kamigawa Common, Seventh Edition Uncommon, Urza's Saga Common
 
+Name:   Beguiler of Wills
+Cost:   3UU
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     {T}: Gain control of target creature with power less than or equal to the number of creatures you control.
+Set/Rarity:     Dark Ascension Mythic Rare
+
 Name:   Behemoth Sledge
 Cost:   1GW
 Type:   Artifact — Equipment
@@ -1841,6 +1855,13 @@ Black Carriage doesn't untap during your untap step.
 Sacrifice a creature: Untap Black Carriage. Activate this ability only during your upkeep.
 Set/Rarity:     Homelands Rare
 
+Name:   Black Cat
+Cost:   1B
+Type:   Creature — Zombie Cat
+Pow/Tgh:    (1/1)
+Rules Text:     When Black Cat dies, target opponent discards a card at random.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Black Knight
 Cost:   BB
 Type:   Creature — Human Knight
@@ -2106,7 +2127,7 @@ Name:   Blaze of Glory
 Cost:   W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Cast Blaze of Glory only during the declare attackers step.
+Rules Text:     Cast Blaze of Glory only during combat before blockers are declared.
 Target creature defending player controls can block any number of creatures this turn. It blocks each attacking creature this turn if able.
 Set/Rarity:     Masters Edition IV Uncommon, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
@@ -2596,6 +2617,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     {T}: Blood Cultist deals 1 damage to target creature.
 Whenever a creature dealt damage by Blood Cultist this turn dies, put a +1/+1 counter on Blood Cultist.
 Set/Rarity:     Shards of Alara Uncommon
+
+Name:   Blood Feud
+Cost:   4RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature fights another target creature. (Each deals damage equal to its power to the other.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Blood Frenzy
 Cost:   1R
@@ -3529,6 +3557,14 @@ Rules Text:     As an additional cost to cast Bone Splinters, sacrifice a creatu
 Destroy target creature.
 Set/Rarity:     Shards of Alara Common
 
+Name:   Bone to Ash
+Cost:   2UU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target creature spell.
+Draw a card.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Bonebreaker Giant
 Cost:   4R
 Type:   Creature — Giant
@@ -4201,6 +4237,14 @@ Pow/Tgh:
 Rules Text:     Turn target face-down creature an opponent controls face up.
 Set/Rarity:     Onslaught Common
 
+Name:   Break of Day
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures you control get +1/+1 until end of turn.
+Fateful hour — If you have 5 or less life, those creatures also are indestructible this turn. (Lethal damage and effects that say "destroy" don't destroy them.)
+Set/Rarity:     Dark Ascension Common
+
 Name:   Breaking Point
 Cost:   1RR
 Type:   Sorcery
@@ -4338,6 +4382,14 @@ Type:   Creature — Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, put a +1/+1 counter on target creature.
 Set/Rarity:     Saviors of Kamigawa Uncommon
+
+Name:   Briarpack Alpha
+Cost:   3G
+Type:   Creature — Wolf
+Pow/Tgh:    (3/3)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+When Briarpack Alpha enters the battlefield, target creature gets +2/+2 until end of turn.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Bribery
 Cost:   3UU
@@ -4804,19 +4856,13 @@ Type:   Creature — Human Monk
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Budoka Pupil.
 At the beginning of the end step, if there are two or more ki counters on Budoka Pupil, you may flip it.
-----
-Ichiga, Who Topples Oaks
-Legendary Creature — Spirit
-4/3
-Trample
-Remove a ki counter from Ichiga, Who Topples Oaks: Target creature gets +2/+2 until end of turn.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Builder's Bane
 Cost:   XXR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy X target artifacts. Builder's Bane deals damage to each player equal to the number of artifacts he or she controlled destroyed this way.
+Rules Text:     Destroy X target artifacts. Builder's Bane deals damage to each player equal to the number of artifacts he or she controlled put into a graveyard this way.
 Set/Rarity:     Mirage Common
 
 Name:   Bull Aurochs
@@ -4893,6 +4939,14 @@ Pow/Tgh:
 Rules Text:     Target player loses 1 life for each tapped artifact he or she controls.
 Set/Rarity:     Darksteel Common
 
+Name:   Burden of Guilt
+Cost:   W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+{1}: Tap enchanted creature.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Burgeoning
 Cost:   G
 Type:   Enchantment
@@ -4950,6 +5004,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Each player draws three cards, then discards three cards at random.
 Set/Rarity:     Magic 2010 Common
+
+Name:   Burning Oil
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Burning Oil deals 3 damage to target attacking or blocking creature.
+Flashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Burning Palm Efreet
 Cost:   2RR

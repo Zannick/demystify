@@ -876,6 +876,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     {G}, {T}, Discard a card: Prevent all combat damage that would be dealt this turn.
 Set/Rarity:     Mercadian Masques Rare
 
+Name:   Dawntreader Elk
+Cost:   1G
+Type:   Creature — Elk
+Pow/Tgh:    (2/2)
+Rules Text:     {G}, Sacrifice Dawntreader Elk: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Day of Destiny
 Cost:   3W
 Type:   Legendary Enchantment
@@ -989,6 +996,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures with forestwalk can be blocked as though they didn't have forestwalk.
 Set/Rarity:     Legends Uncommon
+
+Name:   Deadly Allure
+Cost:   B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature gains deathtouch until end of turn and must be blocked this turn if able.
+Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Deadly Grub
 Cost:   2B
@@ -1205,6 +1220,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Separate all creature cards in your graveyard into two piles. Exile the pile of an opponent's choice and return the other to the battlefield.
 Set/Rarity:     Invasion Rare
+
+Name:   Death's Caress
+Cost:   3BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target creature. If that creature was a Human, you gain life equal to its toughness.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Death's Duet
 Cost:   2B
@@ -2140,6 +2162,13 @@ When Deranged Hermit enters the battlefield, put four 1/1 green Squirrel creatur
 Squirrel creatures get +1/+1.
 Set/Rarity:     Urza's Legacy Rare
 
+Name:   Deranged Outcast
+Cost:   1G
+Type:   Creature — Human Rogue
+Pow/Tgh:    (2/1)
+Rules Text:     {1}{G}, Sacrifice a Human: Put two +1/+1 counters on target creature.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Derelor
 Cost:   3B
 Type:   Creature — Thrull
@@ -2793,6 +2822,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     Dire Wolves has banding as long as you control a Plains. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Ice Age Common
 
+Name:   Diregraf Captain
+Cost:   1UB
+Type:   Creature — Zombie Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Deathtouch
+Other Zombie creatures you control get +1/+1.
+Whenever another Zombie you control dies, target opponent loses 1 life.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Diregraf Ghoul
 Cost:   B
 Type:   Creature — Zombie
@@ -3263,7 +3301,7 @@ Cost:   2U
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Draw two cards.
-Set/Rarity:     Magic 2012 Common, Magic 2010 Common
+Set/Rarity:     Dark Ascension Common, Magic 2012 Common, Magic 2010 Common
 
 Name:   Divine Congregation
 Cost:   3W
@@ -3749,9 +3787,7 @@ Cost:   UR
 Type:   Creature — Shapeshifter
 Pow/Tgh:    (0/0)
 Rules Text:     Flying
-
 As Dracoplasm enters the battlefield, sacrifice any number of creatures. Dracoplasm's power becomes the total power of those creatures and its toughness becomes their total toughness.
-
 {R}: Dracoplasm gets +1/+0 until end of turn.
 Set/Rarity:     Tempest Rare
 
@@ -4466,6 +4502,22 @@ Pow/Tgh:    (1/2)
 Rules Text:     When Dripping-Tongue Zubera dies, put a 1/1 colorless Spirit creature token onto the battlefield for each Zubera that died this turn.
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Drogskol Captain
+Cost:   1WU
+Type:   Creature — Spirit Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Other Spirit creatures you control get +1/+1 and have hexproof. (They can't be the targets of spells or abilities your opponents control.)
+Set/Rarity:     Dark Ascension Uncommon
+
+Name:   Drogskol Reaver
+Cost:   5WU
+Type:   Creature — Spirit
+Pow/Tgh:    (3/5)
+Rules Text:     Flying, double strike, lifelink
+Whenever you gain life, draw a card.
+Set/Rarity:     Dark Ascension Mythic Rare
+
 Name:   Dromad Purebred
 Cost:   4W
 Type:   Creature — Camel Beast
@@ -4817,6 +4869,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     Protection from green
 At the beginning of each end step, if Dunerider Outlaw dealt damage to an opponent this turn, put a +1/+1 counter on it.
 Set/Rarity:     Planar Chaos Uncommon
+
+Name:   Dungeon Geists
+Cost:   2UU
+Type:   Creature — Spirit
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+When Dungeon Geists enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Dungeon Geists.
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Dungeon Shade
 Cost:   3B

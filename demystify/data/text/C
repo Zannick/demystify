@@ -330,6 +330,14 @@ Rules Text:     At the beginning of each player's upkeep, that player sacrifices
 At the beginning of the end step, if no creatures are on the battlefield, sacrifice Call to the Grave.
 Set/Rarity:     Magic 2012 Rare, Scourge Rare
 
+Name:   Call to the Kindred
+Cost:   3U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+At the beginning of your upkeep, you may look at the top five cards of your library. If you do, you may put a creature card that shares a creature type with enchanted creature from among them onto the battlefield, then you put the rest of those cards on the bottom of your library in any order.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Call to the Netherworld
 Cost:   B
 Type:   Sorcery
@@ -425,7 +433,7 @@ Cost:   W
 Type:   Creature — Camel
 Pow/Tgh:    (0/1)
 Rules Text:     Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
-Prevent all damage that would be dealt to Camel or to creatures banded with Camel by Deserts.
+As long as Camel is attacking, prevent all damage Deserts would deal to Camel and to creatures banded with Camel.
 Set/Rarity:     Arabian Nights Common
 
 Name:   Camouflage
@@ -1842,6 +1850,20 @@ Pow/Tgh:
 Rules Text:     If a player would draw a card except the first one he or she draws in his or her draw step each turn, that player discards a card instead. If the player discards a card this way, he or she draws a card. If the player doesn't discard a card this way, he or she puts the top card of his or her library into his or her graveyard.
 Set/Rarity:     Masters Edition Rare, Legends Rare
 
+Name:   Chalice of Death
+Cost:   
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Target player loses 5 life.
+Set/Rarity:     Dark Ascension Uncommon
+
+Name:   Chalice of Life
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: You gain 1 life. Then if you have at least 10 life more than your starting life total, transform Chalice of Life.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Chalice of the Void
 Cost:   XX
 Type:   Artifact
@@ -2100,6 +2122,14 @@ Pow/Tgh:
 Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
 Prevent all damage that would be dealt by creatures this turn. You gain life equal to the damage prevented this way.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
+
+Name:   Chant of the Skifsang
+Cost:   2U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -13/-0.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Chaos Charm
 Cost:   R
@@ -2410,6 +2440,14 @@ Rules Text:     As an additional cost to cast Chill Haunting, exile X creature c
 Target creature gets -X/-X until end of turn.
 Set/Rarity:     Scourge Uncommon
 
+Name:   Chill of Foreboding
+Cost:   2U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Each player puts the top five cards of his or her library into his or her graveyard.
+Flashback {7}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Chill to the Bone
 Cost:   3B
 Type:   Instant
@@ -2624,6 +2662,13 @@ Rules Text:     Forestwalk
 As an additional cost to cast creature spells, you may pay any amount of mana. If you do, that creature enters the battlefield with that many additional +1/+1 counters on it.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Ravnica: City of Guilds Rare
 
+Name:   Chosen of Markov
+Cost:   2B
+Type:   Creature — Human
+Pow/Tgh:    (2/2)
+Rules Text:     {T}, Tap an untapped Vampire you control: Transform Chosen of Markov.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Chromatic Armor
 Cost:   1WU
 Type:   Enchantment — Aura
@@ -2631,7 +2676,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 As Chromatic Armor enters the battlefield, choose a color.
 Chromatic Armor enters the battlefield with a sleight counter on it.
-Prevent all damage that would be dealt to enchanted creature by a source of the last chosen color.
+Prevent all damage that would be dealt to enchanted creature by sources of the last chosen color.
 {X}: Put a sleight counter on Chromatic Armor and choose a color. X is the number of sleight counters on Chromatic Armor.
 Set/Rarity:     Ice Age Rare
 
@@ -3220,6 +3265,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets -4/-1.
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Clinging Mists
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent all combat damage that would be dealt this turn.
+Fateful hour — If you have 5 or less life, tap all attacking creatures. Those creatures don't untap during their controller's next untap step.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Cloak and Dagger
 Cost:   2
@@ -4983,6 +5036,13 @@ Pow/Tgh:
 Rules Text:     Return one or two target creatures to their owners' hands.
 Set/Rarity:     Portal Three Kingdoms Uncommon
 
+Name:   Counterlash
+Cost:   4UU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell. You may cast a nonland card in your hand that shares a card type with that spell without paying its mana cost.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Counterspell
 Cost:   UU
 Type:   Instant
@@ -5913,6 +5973,13 @@ Pow/Tgh:
 Rules Text:     Crushing Pain deals 6 damage to target creature that was dealt damage this turn.
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Crushing Vines
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Destroy target creature with flying; or destroy target artifact.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Cry of Contrition
 Cost:   B
 Type:   Sorcery
@@ -6198,11 +6265,6 @@ Type:   Creature — Human Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Cunning Bandit.
 At the beginning of the end step, if there are two or more ki counters on Cunning Bandit, you may flip it.
-----
-Azamuki, Treachery Incarnate
-Legendary Creature — Spirit
-5/2
-Remove a ki counter from Azamuki, Treachery Incarnate: Gain control of target creature until end of turn.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Cunning Giant
@@ -6264,6 +6326,14 @@ Rules Text:     Enchant artifact
 At the beginning of the upkeep of enchanted artifact's controller, Curse Artifact deals 2 damage to that player unless he or she sacrifices that artifact.
 Set/Rarity:     The Dark Uncommon
 
+Name:   Curse of Bloodletting
+Cost:   3RR
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+If a source would deal damage to enchanted player, it deals double that damage to that player instead.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Curse of Chains
 Cost:   1(W/U)
 Type:   Enchantment — Aura
@@ -6280,6 +6350,22 @@ Rules Text:     Enchant player
 Creatures enchanted player controls get -1/-1.
 Set/Rarity:     Innistrad Rare
 
+Name:   Curse of Echoes
+Cost:   4U
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+Whenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy he or she controls.
+Set/Rarity:     Dark Ascension Rare
+
+Name:   Curse of Exhaustion
+Cost:   2WW
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+Enchanted player can't cast more than one spell each turn.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Curse of Marit Lage
 Cost:   3RR
 Type:   Enchantment
@@ -6287,6 +6373,14 @@ Pow/Tgh:
 Rules Text:     When Curse of Marit Lage enters the battlefield, tap all Islands.
 Islands don't untap during their controllers' untap steps.
 Set/Rarity:     Ice Age Rare
+
+Name:   Curse of Misfortunes
+Cost:   4B
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+At the beginning of your upkeep, you may search your library for a Curse card that doesn't have the same name as a Curse attached to enchanted player, put it onto the battlefield attached to that player, then shuffle your library.
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Curse of Oblivion
 Cost:   3B
@@ -6303,6 +6397,14 @@ Pow/Tgh:
 Rules Text:     Enchant player
 Whenever a creature deals combat damage to enchanted player, put a +1/+1 counter on that creature.
 Set/Rarity:     Innistrad Rare
+
+Name:   Curse of Thirst
+Cost:   4B
+Type:   Enchantment — Aura Curse
+Pow/Tgh:    
+Rules Text:     Enchant player
+At the beginning of enchanted player's upkeep, Curse of Thirst deals damage to that player equal to the number of Curses attached to him or her.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Curse of Wizardry
 Cost:   2BB

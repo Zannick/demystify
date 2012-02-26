@@ -363,6 +363,14 @@ Rules Text:     (Vault of Whispers isn't a spell.)
 {T}: Add {B} to your mana pool.
 Set/Rarity:     Planechase Common, Mirrodin Common
 
+Name:   Vault of the Archangel
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Vebulid
 Cost:   B
 Type:   Creature — Horror
@@ -717,6 +725,14 @@ Pow/Tgh:
 Rules Text:     Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card's converted mana cost to target creature or player.
 Exile Vengeful Rebirth.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Alara Reborn Uncommon
+
+Name:   Vengeful Vampire
+Cost:   4BB
+Type:   Creature — Vampire
+Pow/Tgh:    (3/2)
+Rules Text:     Flying
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Vengevine
 Cost:   2GG
@@ -1455,6 +1471,14 @@ Rules Text:     First strike
 At the beginning of each upkeep, if no spells were cast last turn, transform Village Ironsmith.
 Set/Rarity:     Innistrad Common
 
+Name:   Village Survivors
+Cost:   4G
+Type:   Creature — Human
+Pow/Tgh:    (4/5)
+Rules Text:     Vigilance
+Fateful hour — As long as you have 5 or less life, other creatures you control have vigilance.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Villagers of Estwald
 Cost:   2G
 Type:   Creature — Human Werewolf
@@ -2183,7 +2207,7 @@ Name:   Volcanic Eruption
 Cost:   XUUU
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy X target Mountains. Volcanic Eruption deals damage to each creature and each player equal to the number of Mountains destroyed this way.
+Rules Text:     Destroy X target Mountains. Volcanic Eruption deals damage to each creature and each player equal to the number of Mountains put into a graveyard this way.
 Set/Rarity:     Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
 Name:   Volcanic Fallout
@@ -2408,6 +2432,14 @@ Voracious Hatchling enters the battlefield with four -1/-1 counters on it.
 Whenever you cast a white spell, remove a -1/-1 counter from Voracious Hatchling.
 Whenever you cast a black spell, remove a -1/-1 counter from Voracious Hatchling.
 Set/Rarity:     Eventide Uncommon
+
+Name:   Vorapede
+Cost:   2GGG
+Type:   Creature — Insect
+Pow/Tgh:    (5/4)
+Rules Text:     Vigilance, trample
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Mythic Rare
 
 Name:   Vorinclex, Voice of Hunger
 Cost:   6GG

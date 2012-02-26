@@ -143,7 +143,7 @@ Cost:   4(R/P)
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     ({(r/p)} can be paid with either {R} or 2 life.)
-Whenever you cast a spell with {p} in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to target creature or player.
+Whenever you cast a spell with {P} in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to target creature or player.
 Set/Rarity:     New Phyrexia Uncommon
 
 Name:   Rage Forger
@@ -872,6 +872,16 @@ Rules Text:     Ravaged Highlands enters the battlefield tapped.
 {T}, Sacrifice Ravaged Highlands: Add one mana of any color to your mana pool.
 Set/Rarity:     Odyssey Common
 
+Name:   Ravager of the Fells
+Cost:   
+Color:  Red/Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (4/4)
+Rules Text:     Trample
+Whenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent and 2 damage to up to one target creature that player controls.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ravager of the Fells.
+Set/Rarity:     Dark Ascension Mythic Rare
+
 Name:   Ravages of War
 Cost:   3W
 Type:   Sorcery
@@ -948,6 +958,13 @@ Pow/Tgh:    (4/4)
 Rules Text:     Sacrifice a Beast: You gain 4 life.
 Set/Rarity:     Duel Decks: Garruk vs. Liliana Rare, Onslaught Rare
 
+Name:   Ravenous Demon
+Cost:   3BB
+Type:   Creature — Demon
+Pow/Tgh:    (4/4)
+Rules Text:     Sacrifice a Human: Transform Ravenous Demon. Activate this ability only any time you could cast a sorcery.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Ravenous Rats
 Cost:   1B
 Type:   Creature — Rat
@@ -1016,7 +1033,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target enchantment.
 Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Judgment Common
+Set/Rarity:     Dark Ascension Common, Judgment Common
 
 Name:   Rayne, Academy Chancellor
 Cost:   2U
@@ -1290,6 +1307,14 @@ Pow/Tgh:
 Rules Text:     Choose one — Destroy target land; or search your library for a land card, put that card onto the battlefield, then shuffle your library.
 Entwine {1}{G} (Choose both if you pay the entwine cost.)
 Set/Rarity:     Darksteel Common
+
+Name:   Reap the Seagraf
+Cost:   2B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put a 2/2 black Zombie creature token onto the battlefield.
+Flashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Common
 
 Name:   Reaper King
 Cost:   (2/W)(2/U)(2/B)(2/R)(2/G)
@@ -1840,7 +1865,7 @@ Name:   Reincarnation
 Cost:   1GG
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Choose target creature. When that creature dies this turn, return a creature card from that graveyard to the battlefield under the control of that creature's owner.
+Rules Text:     Choose target creature. When that creature dies this turn, return a creature card from its owner's graveyard to the battlefield under the control of that creature's owner.
 Set/Rarity:     Masters Edition III Uncommon, Legends Uncommon
 
 Name:   Reinforced Bulwark
@@ -1963,6 +1988,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.
 A deck can have any number of cards named Relentless Rats.
 Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Fifth Dawn Uncommon
+
+Name:   Relentless Skaabs
+Cost:   3UU
+Type:   Creature — Zombie
+Pow/Tgh:    (4/4)
+Rules Text:     As an additional cost to cast Relentless Skaabs, exile a creature card from your graveyard.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Relic Bane
 Cost:   1BB
@@ -2310,6 +2343,14 @@ Pow/Tgh:
 Rules Text:     Return target creature to its owner's hand.
 Draw a card.
 Set/Rarity:     Magic: The Gathering-Commander Common, Duel Decks: Jace vs. Chandra Common, Invasion Common
+
+Name:   Requiem Angel
+Cost:   5W
+Type:   Creature — Angel
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+Whenever another non-Spirit creature you control dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Reroute
 Cost:   1R
@@ -4793,6 +4834,13 @@ Type:   Creature — Dryad
 Pow/Tgh:    (2/1)
 Rules Text:     If an opponent controls an Island and you control a Forest, you may cast Rushwood Legate without paying its mana cost.
 Set/Rarity:     Mercadian Masques Uncommon
+
+Name:   Russet Wolves
+Cost:   3R
+Type:   Creature — Wolf
+Pow/Tgh:    (3/3)
+Rules Text:     
+Set/Rarity:     Dark Ascension Common
 
 Name:   Rust
 Cost:   G

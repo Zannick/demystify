@@ -309,6 +309,15 @@ Rules Text:     Flying
 {(u/r)}: Talonrend gets +1/-1 until end of turn.
 Set/Rarity:     Eventide Uncommon
 
+Name:   Talons of Falkenrath
+Cost:   1R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
+Enchanted creature has "{1}{R}: This creature gets +2/+0 until end of turn."
+Set/Rarity:     Dark Ascension Common
+
 Name:   Talruum Champion
 Cost:   4R
 Type:   Creature — Minotaur
@@ -1586,6 +1595,14 @@ Pow/Tgh:    (1/2)
 Rules Text:     Shadow (This creature can block or be blocked by only creatures with shadow)
 Set/Rarity:     Tempest Common
 
+Name:   Thalia, Guardian of Thraben
+Cost:   1W
+Type:   Legendary Creature — Human Soldier
+Pow/Tgh:    (2/1)
+Rules Text:     First strike
+Noncreature spells cost {1} more to cast.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Thallid
 Cost:   G
 Type:   Creature — Fungus
@@ -2152,6 +2169,14 @@ Pow/Tgh:
 Rules Text:     If you would draw a card, draw two cards instead.
 Set/Rarity:     Shadowmoor Rare
 
+Name:   Thought Scour
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target player puts the top two cards of his or her library into his or her graveyard.
+Draw a card.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Thoughtbind
 Cost:   2U
 Type:   Instant
@@ -2247,6 +2272,21 @@ Type:   Creature — Spirit
 Pow/Tgh:    (6/6)
 Rules Text:     Soulshift 7 (When this creature dies, you may return target Spirit card with converted mana cost 7 or less from your graveyard to your hand.)
 Set/Rarity:     Champions of Kamigawa Uncommon
+
+Name:   Thraben Doomsayer
+Cost:   1WW
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/2)
+Rules Text:     {T}: Put a 1/1 white Human creature token onto the battlefield.
+Fateful hour — As long as you have 5 or less life, other creatures you control get +2/+2.
+Set/Rarity:     Dark Ascension Rare
+
+Name:   Thraben Heretic
+Cost:   1W
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {T}: Exile target creature card from a graveyard.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Thraben Militia
 Cost:   
@@ -3524,6 +3564,13 @@ Rules Text:     Flying
 {1}{R}: Torch Drake gets +1/+0 until end of turn.
 Set/Rarity:     Guildpact Common
 
+Name:   Torch Fiend
+Cost:   1R
+Type:   Creature — Devil
+Pow/Tgh:    (2/1)
+Rules Text:     {R}, Sacrifice Torch Fiend: Destroy target artifact.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Torch Slinger
 Cost:   2R
 Type:   Creature — Goblin Shaman
@@ -3801,8 +3848,17 @@ Pow/Tgh:
 Rules Text:     Enchant land you control
 Sacrifice a Thrull: Put three time counters on Tourach's Gate.
 At the beginning of your upkeep, remove a time counter from Tourach's Gate. If there are no time counters on Tourach's Gate, sacrifice it.
-Enchanted land has "{T}: Attacking creatures you control get +2/-1 until end of turn."
+Tap enchanted land: Attacking creatures you control get +2/-1 until end of turn. Activate this ability only if enchanted land is untapped.
 Set/Rarity:     Fallen Empires Rare
+
+Name:   Tovolar's Magehunter
+Cost:   
+Color:  Red
+Type:   Creature — Werewolf
+Pow/Tgh:    (5/5)
+Rules Text:     Whenever an opponent casts a spell, Tovolar's Magehunter deals 2 damage to that player.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Tovolar's Magehunter.
+Set/Rarity:     Dark Ascension Rare
 
 Name:   Tower Above
 Cost:   (2/G)(2/G)(2/G)
@@ -3826,6 +3882,14 @@ Type:   Artifact Creature — Gargoyle
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Set/Rarity:     Shards of Alara Uncommon
+
+Name:   Tower Geist
+Cost:   3U
+Type:   Creature — Spirit
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+When Tower Geist enters the battlefield, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Tower of Calamities
 Cost:   4
@@ -3945,6 +4009,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     {G}{G}, {T}: Tracker deals damage equal to its power to target creature. That creature deals damage equal to its power to Tracker.
 Set/Rarity:     Masters Edition III Uncommon, The Dark Rare
 
+Name:   Tracker's Instincts
+Cost:   1G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Reveal the top four cards of your library. Put a creature card from among them into your hand and the rest into your graveyard.
+Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Trade Caravan
 Cost:   W
 Type:   Creature — Human Nomad
@@ -3982,6 +4054,14 @@ Type:   Creature — Human
 Pow/Tgh:    (1/1)
 Rules Text:     {T}, Sacrifice Tragic Poet: Return target enchantment card from your graveyard to your hand.
 Set/Rarity:     Urza's Legacy Common
+
+Name:   Tragic Slip
+Cost:   B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -1/-1 until end of turn.
+Morbid — That creature gets -13/-13 until end of turn instead if a creature died this turn.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Trailblazer
 Cost:   2GG
@@ -4309,7 +4389,7 @@ Name:   Treacherous Urge
 Cost:   4B
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Target opponent reveals his or her hand. You may put a creature card from it onto the battlefield under your control. That creature has haste. Sacrifice it at the beginning of the next end step.
+Rules Text:     Target opponent reveals his or her hand. You may put a creature card from it onto the battlefield under your control. That creature gains haste. Sacrifice it at the beginning of the next end step.
 Set/Rarity:     Planar Chaos Uncommon
 
 Name:   Treacherous Vampire

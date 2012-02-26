@@ -510,6 +510,13 @@ Pow/Tgh:
 Rules Text:     Whenever an opponent taps a Mountain for mana, you may gain 1 life.
 Set/Rarity:     Eighth Edition Uncommon, Seventh Edition Uncommon, Urza's Destiny Uncommon
 
+Name:   Sanctuary Cat
+Cost:   W
+Type:   Creature — Cat
+Pow/Tgh:    (1/2)
+Rules Text:     
+Set/Rarity:     Dark Ascension Common
+
 Name:   Sanctum Custodian
 Cost:   2W
 Type:   Creature — Human Cleric
@@ -1020,6 +1027,14 @@ Pow/Tgh:    (2/1)
 Rules Text:     
 Set/Rarity:     Masters Edition IV Uncommon, Ninth Edition Rare, Eighth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
+Name:   Saving Grasp
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Return target creature you own to your hand.
+Flashback {W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Common
+
 Name:   Savor the Moment
 Cost:   1UU
 Type:   Sorcery
@@ -1485,6 +1500,13 @@ Pow/Tgh:    (*/*)
 Rules Text:     Scion of the Wild's power and toughness are each equal to the number of creatures you control.
 Set/Rarity:     Tenth Edition Rare, Ravnica: City of Guilds Rare
 
+Name:   Scorch the Fields
+Cost:   4R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target land. Scorch the Fields deals 1 damage to each Human creature.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Scorched Earth
 Cost:   XR
 Type:   Sorcery
@@ -1559,6 +1581,14 @@ Type:   Creature — Wurm
 Pow/Tgh:    (7/7)
 Rules Text:     At the beginning of your upkeep, flip a coin. If you lose the flip, return Scoria Wurm to its owner's hand.
 Set/Rarity:     Tenth Edition Rare, Urza's Saga Rare
+
+Name:   Scorned Villager
+Cost:   1G
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (1/1)
+Rules Text:     {T}: Add {G} to your mana pool.
+At the beginning of each upkeep, if no spells were cast last turn, transform Scorned Villager.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Scornful Egotist
 Cost:   7U
@@ -1787,6 +1817,13 @@ Pow/Tgh:    (1/2)
 Rules Text:     Flying
 Metalcraft — Whenever Screeching Silcaw deals combat damage to a player, if you control three or more artifacts, that player puts the top four cards of his or her library into his or her graveyard.
 Set/Rarity:     Scars of Mirrodin Common
+
+Name:   Screeching Skaab
+Cost:   1U
+Type:   Creature — Zombie
+Pow/Tgh:    (2/1)
+Rules Text:     When Screeching Skaab enters the battlefield, put the top two cards of your library into your graveyard.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Screeching Sliver
 Cost:   U
@@ -2321,6 +2358,13 @@ Type:   Creature — Spirit
 Pow/Tgh:    (2/2)
 Rules Text:     As long as you have more cards in hand than each opponent, Secretkeeper gets +2/+2 and has flying.
 Set/Rarity:     Saviors of Kamigawa Uncommon
+
+Name:   Secrets of the Dead
+Cost:   2U
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever you cast a spell from your graveyard, draw a card.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Security Detail
 Cost:   3W
@@ -3401,7 +3445,7 @@ Set/Rarity:     Mirage Rare
 
 Name:   Shaman en-Kor
 Cost:   1W
-Type:   Creature — Kor Shaman Cleric
+Type:   Creature — Kor Cleric Shaman
 Pow/Tgh:    (1/2)
 Rules Text:     {0}: The next 1 damage that would be dealt to Shaman en-Kor this turn is dealt to target creature you control instead.
 {1}{W}: The next time a source of your choice would deal damage to target creature this turn, that damage is dealt to Shaman en-Kor instead.
@@ -3629,6 +3673,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target opponent reveals his or her hand. You choose an artifact card from it. That player discards that card.
 Set/Rarity:     Fifth Dawn Uncommon
+
+Name:   Shattered Perception
+Cost:   2R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Discard all the cards in your hand, then draw that many cards.
+Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Shattering Pulse
 Cost:   1R
@@ -4365,6 +4417,14 @@ Pow/Tgh:
 Rules Text:     Target creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)
 Set/Rarity:     Planeshift Common
 
+Name:   Shriekgeist
+Cost:   1U
+Type:   Creature — Spirit
+Pow/Tgh:    (1/1)
+Rules Text:     Flying
+Whenever Shriekgeist deals combat damage to a player, that player puts the top two cards of his or her library into his or her graveyard.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Shriekhorn
 Cost:   1
 Type:   Artifact
@@ -4715,6 +4775,14 @@ Rules Text:     Exalted (Whenever a creature you control attacks alone, that cre
 {U}: Sighted-Caste Sorcerer gains shroud until end of turn. (It can't be the target of spells or abilities.)
 Set/Rarity:     Shards of Alara Common
 
+Name:   Sightless Ghoul
+Cost:   3B
+Type:   Creature — Zombie Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Sightless Ghoul can't block.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Common
+
 Name:   Sigil Blessing
 Cost:   GW
 Type:   Instant
@@ -5003,6 +5071,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     {1}{W}, Sacrifice Silverchase Fox: Exile target enchantment.
 Set/Rarity:     Innistrad Common
 
+Name:   Silverclaw Griffin
+Cost:   3WW
+Type:   Creature — Griffin
+Pow/Tgh:    (3/2)
+Rules Text:     Flying, first strike
+Set/Rarity:     Dark Ascension Common
+
 Name:   Silvercoat Lion
 Cost:   1W
 Type:   Creature — Cat
@@ -5038,6 +5113,15 @@ Type:   Creature — Dryad Spellshaper
 Pow/Tgh:    (1/1)
 Rules Text:     {1}{G}, {T}, Discard a card: Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.
 Set/Rarity:     Mercadian Masques Uncommon
+
+Name:   Silverpelt Werewolf
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (4/5)
+Rules Text:     Whenever Silverpelt Werewolf deals combat damage to a player, draw a card.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Silverpelt Werewolf.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Silverskin Armor
 Cost:   2
@@ -5493,6 +5577,13 @@ Rules Text:     Play with the top card of your library revealed.
 As long as the top card of your library is an artifact or creature card, Skill Borrower has all activated abilities of that card. (If any of the abilities use that card's name, use this creature's name instead.)
 Set/Rarity:     Shards of Alara Rare
 
+Name:   Skillful Lunge
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +2/+0 and gains first strike until end of turn.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Skinrender
 Cost:   2BB
 Type:   Creature — Zombie
@@ -5613,6 +5704,13 @@ Type:   Creature — Human Shaman
 Pow/Tgh:    (2/2)
 Rules Text:     {R}, {T}, Sacrifice a creature: Skirsdag Cultist deals 2 damage to target creature or player.
 Set/Rarity:     Innistrad Uncommon
+
+Name:   Skirsdag Flayer
+Cost:   1B
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/1)
+Rules Text:     {3}{B}, {T}, Sacrifice a Human: Destroy target creature.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Skirsdag High Priest
 Cost:   1B
@@ -7236,6 +7334,13 @@ Rules Text:     Affinity for artifacts (This spell costs {1} less to cast for ea
 Flying
 Set/Rarity:     Mirrodin Common
 
+Name:   Somberwald Dryad
+Cost:   1G
+Type:   Creature — Dryad
+Pow/Tgh:    (2/2)
+Rules Text:     Forestwalk (This creature is unblockable as long as defending player controls a Forest.)
+Set/Rarity:     Dark Ascension Common
+
 Name:   Somberwald Spider
 Cost:   4G
 Type:   Creature — Spider
@@ -7484,6 +7589,15 @@ Pow/Tgh:
 Rules Text:     Sorin's Vengeance deals 10 damage to target player and you gain 10 life.
 Set/Rarity:     Magic 2012 Rare
 
+Name:   Sorin, Lord of Innistrad
+Cost:   2WB
+Type:   Planeswalker — Sorin
+Loyalty:    (3)
+Rules Text:     +1: Put a 1/1 black Vampire creature token with lifelink onto the battlefield.
+-2: You get an emblem with "Creatures you control get +1/+0."
+-6: Destroy up to three target creatures and/or other planeswalkers. Return each card put into a graveyard this way to the battlefield under your control.
+Set/Rarity:     Dark Ascension Mythic Rare
+
 Name:   Sorrow's Path
 Cost:   
 Type:   Land
@@ -7670,6 +7784,14 @@ Type:   Creature — Human
 Pow/Tgh:    (1/1)
 Rules Text:     {1}{W}, {T}: Target creature becomes an enchantment and loses all abilities until a player casts a creature spell.
 Set/Rarity:     Urza's Saga Rare
+
+Name:   Soul Seizer
+Cost:   3UU
+Type:   Creature — Spirit
+Pow/Tgh:    (1/3)
+Rules Text:     Flying
+When Soul Seizer deals combat damage to a player, you may transform it. If you do, attach it to target creature that player controls.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Soul Shepherd
 Cost:   1W
@@ -9085,6 +9207,14 @@ Pow/Tgh:    (3/3)
 Rules Text:     At the beginning of your upkeep, Spiteful Bully deals 3 damage to target creature you control.
 Set/Rarity:     Nemesis Common
 
+Name:   Spiteful Shadows
+Cost:   1B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature is dealt damage, it deals that much damage to its controller.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Spiteful Visions
 Cost:   2(B/R)(B/R)
 Type:   Enchantment
@@ -10220,7 +10350,7 @@ Name:   Stench of Evil
 Cost:   2BB
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy all Plains. For each land put into a graveyard this way, Stench of Evil deals 1 damage to that land's controller unless he or she pays {2}.
+Rules Text:     Destroy all Plains. For each land destroyed this way, Stench of Evil deals 1 damage to that land's controller unless he or she pays {2}.
 Set/Rarity:     Ice Age Uncommon
 
 Name:   Stenchskipper
@@ -10747,7 +10877,7 @@ Name:   Storm Seeker
 Cost:   3G
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Storm Seeker deals damage equal to the number of cards in target player's hand to that player.
+Rules Text:     Storm Seeker deals damage to target player equal to the number of cards in that player's hand.
 Set/Rarity:     Masters Edition Uncommon, Chronicles Uncommon, Legends Uncommon
 
 Name:   Storm Shaman
@@ -10786,6 +10916,15 @@ Pow/Tgh:    (1/1)
 Rules Text:     Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
 Stormblood Berserker can't be blocked except by two or more creatures.
 Set/Rarity:     Magic 2012 Uncommon
+
+Name:   Stormbound Geist
+Cost:   1UU
+Type:   Creature — Spirit
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Stormbound Geist can block only creatures with flying.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Common
 
 Name:   Stormcaller's Boon
 Cost:   2WU
@@ -10932,6 +11071,14 @@ Pow/Tgh:
 Rules Text:     Your opponents can't search libraries.
 If an opponent would begin an extra turn, that player skips that turn instead.
 Set/Rarity:     Magic: The Gathering-Commander Rare
+
+Name:   Strangleroot Geist
+Cost:   GG
+Type:   Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     Haste
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Strangling Soot
 Cost:   2B
@@ -11169,6 +11316,14 @@ Type:   Creature — Human Rogue
 Pow/Tgh:    (2/4)
 Rules Text:     Whenever Stromgald Spy attacks and isn't blocked, you may have defending player play with his or her hand revealed for as long as Stromgald Spy remains on the battlefield. If you do, Stromgald Spy assigns no combat damage this turn.
 Set/Rarity:     Alliances Uncommon
+
+Name:   Stromkirk Captain
+Cost:   1BR
+Type:   Creature — Vampire Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     First strike
+Other Vampire creatures you control get +1/+1 and have first strike.
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Stromkirk Noble
 Cost:   R
@@ -11429,11 +11584,18 @@ Rules Text:     Split second (As long as this spell is on the stack, players can
 Target creature gets -4/-4 until end of turn.
 Set/Rarity:     Time Spiral Uncommon
 
+Name:   Sudden Disappearance
+Cost:   5W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile all nonland permanents target player controls. Return the exiled cards to the battlefield under their owner's control at the beginning of the next end step.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Sudden Impact
 Cost:   3R
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Sudden Impact deals damage equal to the number of cards in target player's hand to that player.
+Rules Text:     Sudden Impact deals damage to target player equal to the number of cards in that player's hand.
 Set/Rarity:     Premium Deck Series: Fire and Lightning Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Tempest Uncommon
 
 Name:   Sudden Shock
@@ -12487,7 +12649,7 @@ Cost:   6
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Sword of the Ages enters the battlefield tapped.
-{T}, Exile Sword of the Ages and any number of creatures you control: Sword of the Ages deals X damage to target creature or player, where X is the total power of the creatures exiled this way.
+{T}, Sacrifice Sword of the Ages and any number of creatures you control: Sword of the Ages deals X damage to target creature or player, where X is the total power of the creatures sacrificed this way, then exile Sword of the Ages and those creature cards.
 Set/Rarity:     Masters Edition III Rare, Legends Rare
 
 Name:   Sword of the Chosen
@@ -12788,3 +12950,10 @@ Pow/Tgh:    (5/5)
 Rules Text:     Flying
 If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of his or her library into his or her graveyard.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Ravnica: City of Guilds Rare
+
+Name:   Séance
+Cost:   2WW
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of each upkeep, you may exile target creature card from your graveyard. If you do, put a token onto the battlefield that's a copy of that card except it's a Spirit in addition to its other types. Exile it at the beginning of the next end step.
+Set/Rarity:     Dark Ascension Rare

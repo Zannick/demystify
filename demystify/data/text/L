@@ -123,6 +123,13 @@ Rules Text:     If Lake of the Dead would enter the battlefield, sacrifice a Swa
 {T}, Sacrifice a Swamp: Add {B}{B}{B}{B} to your mana pool.
 Set/Rarity:     Masters Edition Rare, Alliances Rare
 
+Name:   Lambholt Elder
+Cost:   2G
+Type:   Creature — Human Werewolf
+Pow/Tgh:    (1/2)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Lambholt Elder.
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Lammastide Weave
 Cost:   1G
 Type:   Instant
@@ -707,7 +714,7 @@ Name:   Leashling
 Cost:   6
 Type:   Artifact Creature — Hound
 Pow/Tgh:    (3/3)
-Rules Text:     Put a card in your hand on top of your library: Return Leashling to its owner's hand.
+Rules Text:     Put a card from your hand on top of your library: Return Leashling to its owner's hand.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
 Name:   Leatherback Baloth
@@ -1730,6 +1737,14 @@ Enchanted land is an Island.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Urza's Saga Uncommon
 
+Name:   Lingering Souls
+Cost:   2W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
+Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Uncommon
+
 Name:   Lingering Tormentor
 Cost:   3B
 Type:   Creature — Spirit
@@ -2390,6 +2405,13 @@ Pow/Tgh:
 Rules Text:     Counter target spell. Return target permanent to its owner's hand.
 Set/Rarity:     Innistrad Common
 
+Name:   Lost in the Woods
+Cost:   3GG
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature attacks you or a planeswalker you control, reveal the top card of your library. If it's a Forest card, remove that creature from combat. Then put the revealed card on the bottom of your library.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Lotus Bloom
 Cost:   
 Type:   Artifact
@@ -2558,6 +2580,14 @@ Type:   Creature — Elephant Monk
 Pow/Tgh:    (1/5)
 Rules Text:     
 Set/Rarity:     Scars of Mirrodin Common
+
+Name:   Loyal Cathar
+Cost:   WW
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Vigilance
+When Loyal Cathar dies, return it to the battlefield transformed under your control at the beginning of the next end step.
+Set/Rarity:     Dark Ascension Common
 
 Name:   Loyal Gyrfalcon
 Cost:   3W

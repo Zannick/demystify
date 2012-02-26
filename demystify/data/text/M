@@ -1190,12 +1190,36 @@ Rules Text:     When Marker Beetles dies, target creature gets +1/+1 until end o
 {2}, Sacrifice Marker Beetles: Draw a card.
 Set/Rarity:     Urza's Destiny Common
 
+Name:   Markov Blademaster
+Cost:   1RR
+Type:   Creature — Vampire Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     Double strike
+Whenever Markov Blademaster deals combat damage to a player, put a +1/+1 counter on it.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Markov Patrician
 Cost:   2B
 Type:   Creature — Vampire
 Pow/Tgh:    (3/1)
 Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Set/Rarity:     Innistrad Common
+
+Name:   Markov Warlord
+Cost:   5R
+Type:   Creature — Vampire Warrior
+Pow/Tgh:    (4/4)
+Rules Text:     Haste
+When Markov Warlord enters the battlefield, up to two target creatures can't block this turn.
+Set/Rarity:     Dark Ascension Uncommon
+
+Name:   Markov's Servant
+Cost:   
+Color:  Black
+Type:   Creature — Vampire
+Pow/Tgh:    (4/4)
+Rules Text:     
+Set/Rarity:     Dark Ascension Common
 
 Name:   Maro
 Cost:   2GG
@@ -1299,7 +1323,7 @@ Name:   Marsh Viper
 Cost:   3G
 Type:   Creature — Snake
 Pow/Tgh:    (1/2)
-Rules Text:     Whenever Marsh Viper deals damage to an opponent, that player gets two poison counters. (A player with ten or more poison counters loses the game.)
+Rules Text:     Whenever Marsh Viper deals damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)
 Set/Rarity:     Fifth Edition Common, Fourth Edition Common, The Dark Common
 
 Name:   Marshal's Anthem
@@ -1589,7 +1613,8 @@ Cost:   2(R/W)(R/W)
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Master Warcraft only before attackers are declared.
-You choose which creatures attack this turn. You choose how each creature blocks this turn.
+You choose which creatures attack this turn.
+You choose which creatures block this turn and how those creatures block.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Ravnica: City of Guilds Rare
 
 Name:   Master of Arms
@@ -1879,8 +1904,8 @@ Cost:   4R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Melee only during your turn and only during combat before blockers are declared.
-Instead of defending player, you choose how each creature blocks this turn.
-Whenever a creature attacks and isn't blocked this turn, untap it and remove it from combat.
+You choose which creatures block this combat and how those creatures block.
+Whenever a creature attacks and isn't blocked this combat, untap it and remove it from combat.
 Set/Rarity:     Ice Age Uncommon
 
 Name:   Melesse Spirit
@@ -2361,7 +2386,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Merseine enters the battlefield with three net counters on it.
-Enchanted creature doesn't untap during its controller's untap step as long as Merseine has a net counter on it.
+Enchanted creature doesn't untap during its controller's untap step if Merseine has a net counter on it.
 Pay enchanted creature's mana cost: Remove a net counter from Merseine. Any player may activate this ability, but only if he or she controls the enchanted creature.
 Set/Rarity:     Fallen Empires Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
 
@@ -2579,6 +2604,13 @@ Rules Text:     Enchant creature
 Enchanted creature has "{B}: This creature gets +1/+1 until end of turn."
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Midnight Guard
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/3)
+Rules Text:     Whenever another creature enters the battlefield, untap Midnight Guard.
+Set/Rarity:     Dark Ascension Common
+
 Name:   Midnight Haunting
 Cost:   2W
 Type:   Instant
@@ -2686,6 +2718,15 @@ Rules Text:     Mikaeus, the Lunarch enters the battlefield with X +1/+1 counter
 {T}: Put a +1/+1 counter on Mikaeus.
 {T}, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.
 Set/Rarity:     Innistrad Mythic Rare, From the Vault: Legends Mythic Rare
+
+Name:   Mikaeus, the Unhallowed
+Cost:   3BBB
+Type:   Legendary Creature — Zombie Cleric
+Pow/Tgh:    (5/5)
+Rules Text:     Intimidate
+Whenever a Human deals damage to you, destroy it.
+Other non-Human creatures you control get +1/+1 and have undying. (When a creature with undying dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Dark Ascension Mythic Rare
 
 Name:   Mikokoro, Center of the Sea
 Cost:   
@@ -3173,9 +3214,9 @@ Name:   Minion of the Wastes
 Cost:   3BBB
 Type:   Creature — Minion
 Pow/Tgh:    (*/*)
-Rules Text:     As an additional cost to cast Minion of the Wastes, pay any amount of life.
-Trample
-Minion of the Wastes's power and toughness are each equal to the life paid as it was cast.
+Rules Text:     Trample
+As Minion of the Wastes enters the battlefield, pay any amount of life.
+Minion of the Wastes's power and toughness are each equal to the life paid as it entered the battlefield.
 Set/Rarity:     Tempest Rare
 
 Name:   Minions' Murmurs
@@ -3921,7 +3962,7 @@ Name:   Mogg Bombers
 Cost:   3R
 Type:   Creature — Goblin
 Pow/Tgh:    (3/4)
-Rules Text:     When another creature enters the battlefield, sacrifice Mogg Bombers. If you do, it deals 3 damage to target player.
+Rules Text:     When another creature enters the battlefield, sacrifice Mogg Bombers and it deals 3 damage to target player.
 Set/Rarity:     Stronghold Common
 
 Name:   Mogg Cannon
@@ -4277,6 +4318,13 @@ Rules Text:     Whenever you cast a green creature spell, you may search your li
 Whenever you cast a blue creature spell, reveal the top card of your library. If it's a creature card, put that card into your hand.
 Set/Rarity:     Dissension Rare
 
+Name:   Mondronen Shaman
+Cost:   3R
+Type:   Creature — Human Werewolf Shaman
+Pow/Tgh:    (3/2)
+Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Mondronen Shaman.
+Set/Rarity:     Dark Ascension Rare
+
 Name:   Mongrel Pack
 Cost:   3G
 Type:   Creature — Hound
@@ -4460,6 +4508,24 @@ Pow/Tgh:
 Rules Text:     Whenever you draw a card, exile the top card of your library face down.
 At the beginning of your upkeep, you may exile all cards from your hand face down. If you do, put all other cards you own exiled with Moonring Mirror into your hand.
 Set/Rarity:     Champions of Kamigawa Rare
+
+Name:   Moonscarred Werewolf
+Cost:   
+Color:  Green
+Type:   Creature — Werewolf
+Pow/Tgh:    (2/2)
+Rules Text:     Vigilance
+{T}: Add {G}{G} to your mana pool.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Moonscarred Werewolf.
+Set/Rarity:     Dark Ascension Common
+
+Name:   Moonveil Dragon
+Cost:   3RRR
+Type:   Creature — Dragon
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+{R}: Each creature you control gets +1/+0 until end of turn.
+Set/Rarity:     Dark Ascension Mythic Rare
 
 Name:   Moonwing Moth
 Cost:   1WW
@@ -5652,6 +5718,14 @@ Enchant creature
 When Mystic Restraints enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.
 Set/Rarity:     Champions of Kamigawa Common
+
+Name:   Mystic Retrieval
+Cost:   3U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target instant or sorcery card from your graveyard to your hand.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Set/Rarity:     Dark Ascension Uncommon
 
 Name:   Mystic Snake
 Cost:   1GUU
