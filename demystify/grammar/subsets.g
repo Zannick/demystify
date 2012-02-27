@@ -7,8 +7,9 @@ subsets : subset ( ( ( ','! subset )+ ','! )? conj^ subset )?;
 subset : number properties -> ^( SUBSET number properties )
        | AMONG properties -> ^( SUBSET ^( NUMBER ANY ) properties )
        | ANOTHER properties -> ^( SUBSET ^( NOT SELF ) properties )
+       | THE LAST properties -> ^( SUBSET ^( LAST properties ) )
        | full_zone -> ^( SUBSET full_zone )
-       | ref_object descriptor* -> ^( SUBSET ref_object descriptor* );
+       | ref_object -> ^( SUBSET ref_object );
 
 // A full zone, for use as a subset
 full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
@@ -50,8 +51,8 @@ full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
 properties : a+=adjective*
              ( adj_list? noun+ descriptor*
                -> ^( PROPERTIES adjective* adj_list? noun* descriptor* )
-             | noun_list descriptor*
-               -> ^( PROPERTIES adjective* noun_list descriptor* )
+             | noun_list noun* descriptor*
+               -> ^( PROPERTIES adjective* noun_list noun* descriptor* )
              | b+=noun+ 
                ( ( ',' ( c+=properties_case3_ ',' )+ )?
                  j=conj g=properties_case3_ e+=descriptor*
@@ -63,8 +64,8 @@ properties : a+=adjective*
                     + [$j.text]
                     + [$g.text]
                     + [t.toStringTree() for t in ($e or [])]))) }
-                 -> ^( PROPERTIES ^( $j ^( PROPERTIES $a* $b+ )
-                                        ^( PROPERTIES properties_case3_)+ )
+                 -> ^( PROPERTIES ^( $j ^( AND $a* $b+ )
+                                        ^( AND properties_case3_)+ )
                                      descriptor* )
                  // TODO: expand case 4 if necessary?
                | f+=descriptor+ k=conj c+=adjective* d+=noun+ e+=descriptor*
@@ -75,8 +76,8 @@ properties : a+=adjective*
                     + [$k.text]
                     + [t.text for t in ($c or []) + ($d or [])]
                     + [t.toStringTree() for t in ($e or [])]))) }
-                 -> ^( PROPERTIES ^( $k ^( PROPERTIES $a* $b+ $f+ )
-                                        ^( PROPERTIES $c* $d+ $e* ) ) )
+                 -> ^( PROPERTIES ^( $k ^( AND $a* $b+ $f+ )
+                                        ^( AND $c* $d+ $e* ) ) )
                )
              );
 
@@ -87,7 +88,7 @@ properties_case3_ : adjective+ noun+ ;
 adj_list : adjective ( ','! ( ( adjective | noun ) ','! )+ )?
            conj^ ( adjective | noun );
 
-noun_list : noun+ ( ','! ( noun+ ','! )+ )? conj^ noun+;
+noun_list : noun ( ','! ( noun ','! )+ )? conj^ noun ;
 
 // Adjectives
 
@@ -121,7 +122,8 @@ descriptor : named
            | in_zones
            | WITH! has_counters
            | WITH! int_prop_with_value
-           | THAT! share_feature;
+           | THAT! share_feature
+           | WITH! total_int_prop ;
 
 named : NAMED^ REFBYNAME;
 
@@ -147,7 +149,8 @@ ref_object : SELF
              // We probably don't actually need to remember what the
              // nouns were here, but keep them in for now.
            | ( ENCHANTED | EQUIPPED | FORTIFIED | HAUNTED ) noun+
-           | this_guy;
+           | this_guy
+           ;
 
 // eg. this creature, this permanent, this spell.
 this_guy : THIS ( type | obj_type ) -> SELF;
@@ -172,3 +175,5 @@ has_counters : counter_subset ON ref_object
                -> ^( HAS_COUNTERS ref_object counter_subset );
 
 share_feature : SHARE A prop_type -> ^( SHARE[] prop_type );
+
+total_int_prop : TOTAL^ int_prop_with_value ;

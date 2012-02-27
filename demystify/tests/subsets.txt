@@ -13,18 +13,36 @@
 # properties case 3 (adj+noun list)
 @properties
 @white soldier, blue merfolk, black zombie, red goblin, or green elf you control
-@(PROPERTIES (or (PROPERTIES white soldier) (PROPERTIES blue merfolk)
-                 (PROPERTIES black zombie) (PROPERTIES red goblin)
-                 (PROPERTIES green elf))
+@(PROPERTIES (or (AND white soldier) (AND blue merfolk)
+                 (AND black zombie) (AND red goblin)
+                 (AND green elf))
              (control (PLAYER_SET you)))
 
 # properties case 4 (adj+noun+desc pair)
 @properties
 @permanent you control or card you own
-@(PROPERTIES (or (PROPERTIES permanent (control (PLAYER_SET you)))
-                 (PROPERTIES card (own (PLAYER_SET you)))))
+@(PROPERTIES (or (AND permanent (control (PLAYER_SET you)))
+                 (AND card (own (PLAYER_SET you)))))
 
 @subsets
 @all permanents you control and all cards you own
 @(and (SUBSET (NUMBER all) (PROPERTIES permanents (control (PLAYER_SET you))))
       (SUBSET (NUMBER all) (PROPERTIES cards (own (PLAYER_SET you)))))
+
+# Suffocation
+@Suffocation
+@subset
+@a red instant or sorcery spell
+@(SUBSET (NUMBER 1) (PROPERTIES red (or instant sorcery) spell))
+
+# Soldevi Adnate
+@SoldeviAdnate
+@properties
+@black or artifact creature
+@(PROPERTIES (or black artifact) creature)
+
+# Purge
+@Purge
+@properties
+@artifact creature or black creature
+@(PROPERTIES (or (AND artifact creature) (AND black creature)))

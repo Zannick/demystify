@@ -60,6 +60,7 @@ def parse_text(name, rule, text):
 def generate_tests(filename):
     errors = 0
     with open(filename) as f:
+        name = None
         rule = None
         text = None
         expected = None
@@ -83,7 +84,7 @@ def generate_tests(filename):
                 if rule:
                     if text:
                         if expected:
-                            yield (rule, text, expected)
+                            yield (name, rule, text, expected)
                         else:
                             print('Line {}: Missing expected tree '
                                   'representation.'.format(i + 1))
@@ -97,7 +98,7 @@ def generate_tests(filename):
                         print('^')
                         errors += 1
                 # In any case here, reset everything
-                rule = text = expected = None
+                name = rule = text = expected = None
                 lbuffer = []
             elif line.startswith('@'):
                 line = line[1:]
@@ -124,31 +125,36 @@ def generate_tests(filename):
                     m = _rule_name.match(line)
                     l = m and m.end() or 0
                     if len(line) != l:
-                        print('Line {}: Rule name must contain only '
+                        print('Line {}: Rule or test name must contain only '
                               'alphanumeric characters.'.format(i + 1))
                         print('\n'.join(lbuffer))
                         print('{caret:>{char}}'.format(caret='^', char=l))
                         errors += 1
                         skip = True
                     else:
-                        rule = line
+                        if line[0].isupper():
+                            name = line
+                        else:
+                            rule = line
+                            if not name:
+                                name = line.title().replace('_', '')
             else:
                 # line is a continuation of the previous line
-                if rule:
+                if rule or name:
                     if text:
                         if expected:
                             expected += ' ' + line
                         else:
                             text += ' ' + line
                     else:
-                        print('Line {}: Rule name is restricted to one line.'
-                              .format(i + 1))
+                        print('Line {}: Rule or test name is restricted to '
+                              'one line.'.format(i + 1))
                         print('\n'.join(lbuffer))
                         print('^')
                         errors += 1
                         skip = True
                 else:
-                    print("Line {}: Rule name must be preceded by '@'."
+                    print("Line {}: Rule or test name must be preceded by '@'."
                           .format(i + 1))
                     print('\n'.join(lbuffer))
                     print('^')
@@ -157,7 +163,7 @@ def generate_tests(filename):
         # EOF
         if rule:
             if text and expected:
-                yield (rule, text, expected)
+                yield (name, rule, text, expected)
             else:
                 print('EOF reached in middle of test case:')
                 print('\n'.join(lbuffer))
@@ -182,12 +188,12 @@ def create_test_case(filename):
         pass
     TestCase.__name__ = canon_name + 'TestCase'
     d = {}
-    for rule, text, exp in generate_tests(filename):
-        if rule not in d:
-            d[rule] = 1
+    for name, rule, text, exp in generate_tests(filename):
+        if name not in d:
+            d[name] = 1
         else:
-            d[rule] += 1
-        name = 'test_{}{}{}'.format(canon_name, rule.capitalize(), d[rule])
+            d[name] += 1
+        name = 'test_{}{}{}'.format(canon_name, name, d[name])
         setattr(TestCase, name, create_test_function(name, rule, text, exp))
     if not d:
         print('No test cases generated for {}.'.format(filename))
