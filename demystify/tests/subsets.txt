@@ -6,9 +6,8 @@
 
 # properties case 2 (noun list)
 @properties
-@creature or land with a time counter on it
-@(PROPERTIES (or creature land) (HAS_COUNTERS it
- (COUNTER_SET (COUNTER_GROUP (NUMBER 1) time))))
+@creature or land you control
+@(PROPERTIES (or creature land) (control (PLAYER_SET you)))
 
 # properties case 3 (adj+noun list)
 @properties

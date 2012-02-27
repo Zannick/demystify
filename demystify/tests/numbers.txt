@@ -1,0 +1,18 @@
+
+# BeseechTheQueen
+@BeseechTheQueen
+@subset
+@a card with converted mana cost less than or equal to
+ the number of lands you control
+@(SUBSET (NUMBER 1) (PROPERTIES card) (CMC (LEQ (COUNT
+ (PROPERTIES lands (control (PLAYER_SET you)))))))
+
+# Mossbridge Troll
+@MossbridgeTroll
+@subset
+@any number of untapped creatures you control other than SELF
+ with total power 10 or greater
+@(SUBSET (NUMBER any) (PROPERTIES untapped creatures
+                       (control (PLAYER_SET you))
+                       (NOT SELF))
+  (TOTAL (POWER (NUMBER (GEQ 10)))))

@@ -68,16 +68,18 @@ def print_graph(files):
     print('  }\n}')
 
 colors = {
+    'Demystify.g': 'gray',
     'misc.g': 'red',
     'players.g': 'blue',
     'zones.g': 'green',
     'macro.g': 'cyan',
     'types.g': 'lightgray',
     'costs.g': 'gold',
-    'Demystify.g': 'plum',
+    'counters.g': 'plum',
     'pt.g': 'seagreen',
-    'subsets.g': 'greenyellow',
+    'properties.g': 'greenyellow',
     'math.g': 'violetred',
+    'subsets.g': 'skyblue',
 }
 
 if __name__ == "__main__":

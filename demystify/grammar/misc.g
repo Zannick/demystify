@@ -4,25 +4,27 @@ parser grammar misc;
 
 conj : AND | OR | AND_OR ;
 
+/* Numbers and quantities. */
+
+number : integer
+       | ( ALL | EACH | EVERY ) -> ^( NUMBER ALL )
+       | ANY ( c=number_word -> ^( NUMBER[] $c )
+             | NUMBER OF -> ^( NUMBER[] ANY )
+             | -> ^( NUMBER[] NUMBER[$ANY, "1"] )
+             )
+       | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] )
+       | NO -> ^( NUMBER NUMBER[$NO, "0"] );
+
+integer : ( s=NUMBER_SYM | w=number_word )
+          ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $s? $w? ) )
+          | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ $s? $w? ) )
+          | -> ^( NUMBER $s? $w? )
+          )
+        | b=VAR_SYM ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
+                    | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
+                    | -> ^( NUMBER ^( VAR $b ) )
+                    );
+
 // TODO: more player stuff.
 player_poss : YOUR ;
 
-// TODO: Move into subsets.
-// Property names.
-prop_type : COLOR
-          | MANA! COST
-          | type TYPE -> ^( SUBTYPE type )
-          | CARD! TYPE
-          | int_prop;
-
-prop_with_value : int_prop_with_value;
-
-int_prop : CONVERTED MANA COST -> CMC
-         | LIFE TOTAL!?
-         | POWER
-         | TOUGHNESS;
-
-int_prop_with_value : CONVERTED MANA COST integer -> ^( CMC integer )
-                    | integer LIFE^
-                    | POWER^ integer
-                    | TOUGHNESS^ integer;
