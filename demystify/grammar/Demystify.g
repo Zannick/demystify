@@ -22,6 +22,7 @@ tokens {
     HAS_COUNTERS;
     LEQ;
     LT;
+    MULT;
     PAY_LIFE;
     PLAYER_GROUP;
     PLAYER_SET;

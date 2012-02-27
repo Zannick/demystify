@@ -23,7 +23,9 @@ integer : ( s=NUMBER_SYM | w=number_word )
         | b=VAR_SYM ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ ^( VAR $b ) ) )
                     | OR ( FEWER | LESS ) -> ^( NUMBER ^( LEQ ^( VAR $b ) ) )
                     | -> ^( NUMBER ^( VAR $b ) )
-                    );
+                    )
+        | ANY AMOUNT OF -> ^( NUMBER ANY )
+        ;
 
 // TODO: more player stuff.
 player_poss : YOUR ;

@@ -57,7 +57,7 @@ discard : DISCARD subsets ( AT RANDOM )? -> ^( DISCARD RANDOM? subsets );
 
 exile : EXILE^ subsets ;
 
-pay_life : PAY number LIFE -> ^( PAY_LIFE number );
+pay_life : PAY magic_life_number -> ^( PAY_LIFE magic_life_number );
 
 put_cards : PUT^ subsets ( ON! | INTO! ) zone_subset;
 
