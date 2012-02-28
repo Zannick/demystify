@@ -45,3 +45,24 @@
 @properties
 @artifact creature or black creature
 @(PROPERTIES (or (AND artifact creature) (AND black creature)))
+
+# Lobotomy
+@Lobotomy
+@subset
+@a card other than a basic land card
+@(SUBSET (NUMBER 1) (PROPERTIES card) (NOT (PROPERTIES basic land card)))
+
+# Elsbeth Tirel
+@Elsbeth
+@subset
+@all other permanents except for lands and tokens
+@(SUBSET (NUMBER ALL) (NOT SELF) (PROPERTIES permanents)
+  (EXCEPT (PROPERTIES (and lands tokens))))
+
+# Umbra Mystic
+@UmbraMystic
+@subsets
+@auras attached to permanents you control
+@(SUBSET (NUMBER ALL) (PROPERTIES auras)
+  (ATTACHED_TO (PROPERTIES permanents (control (PLAYER_SET you)))))
+

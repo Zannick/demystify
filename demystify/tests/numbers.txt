@@ -13,6 +13,6 @@
 @any number of untapped creatures you control other than SELF
  with total power 10 or greater
 @(SUBSET (NUMBER any) (PROPERTIES untapped creatures
-                       (control (PLAYER_SET you))
-                       (NOT SELF))
+                       (control (PLAYER_SET you)))
+  (NOT SELF)
   (TOTAL (POWER (NUMBER (GEQ 10)))))

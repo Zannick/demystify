@@ -100,18 +100,12 @@ noun : NON^? ( type | obj_subtype | obj_type | player_type );
 descriptor : named
            | control
            | own
-           | other_than
            ;
 
 named : NAMED^ REFBYNAME;
 
 control : player_subset CONTROL^;
 own : player_subset OWN^;
-
-// TODO: 'other than a basic land card' ie. other than subset_no_descriptors
-// TODO: 'other than a player's hand or library' ie. other than ref_zone
-// TODO: 'choose a creature type other than wall'. This may go elsewhere.
-other_than : OTHER THAN ref_object -> ^( NOT ref_object );
 
 /* Special references to related objects. */
 

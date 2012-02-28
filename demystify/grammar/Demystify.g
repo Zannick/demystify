@@ -14,6 +14,7 @@ import Keywords, costs, subsets, zones, math, properties, counters, types, playe
 
 tokens {
     ADD_COUNTERS;
+    ATTACHED_TO;
     CMC;
     COUNTER_GROUP;
     COUNTER_SET;
