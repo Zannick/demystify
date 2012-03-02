@@ -74,7 +74,9 @@ noun_list : noun ( COMMA! ( noun COMMA! )+ )? conj^ noun ;
 
 // Adjectives
 
-adjective : NON^? ( supertype | color | color_spec | status );
+adjective : NON? ( supertype | color | color_spec | status )
+            -> {$NON}? ^( NON[] supertype? color? color_spec? status? )
+            -> supertype? color? color_spec? status? ;
 
 color : WHITE | BLUE | BLACK | RED | GREEN;
 color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED;
@@ -93,7 +95,9 @@ status : TAPPED
 
 // Nouns
 
-noun : NON^? ( type | obj_subtype | obj_type | player_type );
+noun : NON? ( type | obj_subtype | obj_type | player_type )
+       -> {$NON}? ^( NON[] type? obj_subtype? obj_type? player_type? )
+       -> type? obj_subtype? obj_type? player_type? ;
 
 // Descriptors
 

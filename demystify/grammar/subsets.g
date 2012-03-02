@@ -39,6 +39,7 @@ restriction : WITH! has_counters
             | except_for
             | attached_to
             | chosen_prop
+            | from_expansion
             ;
 
 // TODO: 'choose a creature type other than wall'. This may go elsewhere.
@@ -58,6 +59,13 @@ attached_to : ATTACHED TO ( ref_object | properties )
               -> ^( ATTACHED_TO ref_object? properties? );
 
 chosen_prop : ( OF | WITH ) THE CHOSEN prop_type -> ^( CHOSEN[] prop_type );
+
+from_expansion : FROM THE expansion EXPANSION -> ^( EXPANSION[] expansion );
+
+expansion : ANTIQUITIES
+          | ARABIAN_NIGHTS
+          | HOMELANDS
+          ;
 
 /* Special properties, usually led by 'with', 'that', or 'if it has' */
 

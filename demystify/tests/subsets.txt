@@ -66,3 +66,8 @@
 @(SUBSET (NUMBER ALL) (PROPERTIES auras)
   (ATTACHED_TO (PROPERTIES permanents (control (PLAYER_SET you)))))
 
+@ApocalypseChime
+@subset
+@all non-token permanents from the homelands expansion
+@(SUBSET (NUMBER ALL) (PROPERTIES (NON token) permanents)
+  (EXPANSION homelands))
