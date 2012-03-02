@@ -2,7 +2,7 @@ parser grammar subsets;
 
 /* Rules for describing subsets of objects. */
 
-subsets : subset ( ( ( ','! subset )+ ','! )? conj^ subset )?
+subsets : subset ( ( COMMA! ( subset COMMA! )+ )? conj^ subset )?
         | properties restriction*
           -> ^( SUBSET ^( NUMBER ALL ) properties restriction* );
 
@@ -38,6 +38,7 @@ restriction : WITH! has_counters
             | other_than
             | except_for
             | attached_to
+            | chosen_prop
             ;
 
 // TODO: 'choose a creature type other than wall'. This may go elsewhere.
@@ -56,6 +57,8 @@ except_for : ','!? EXCEPT^ FOR! ( ref_object | properties );
 attached_to : ATTACHED TO ( ref_object | properties )
               -> ^( ATTACHED_TO ref_object? properties? );
 
+chosen_prop : ( OF | WITH ) THE CHOSEN prop_type -> ^( CHOSEN[] prop_type );
+
 /* Special properties, usually led by 'with', 'that', or 'if it has' */
 
 has_counters : counter_subset ON ref_object
@@ -66,10 +69,12 @@ share_feature : SHARE A prop_type -> ^( SHARE[] prop_type );
 total_int_prop : TOTAL^ int_prop_with_value ;
 
 // Property names.
+prop_types : prop_type ( ( COMMA! ( prop_type COMMA! )+ )? conj^ prop_type )? ;
+
 prop_type : COLOR
           | MANA! COST
           | type TYPE -> ^( SUBTYPE type )
-          | CARD! TYPE
+          | CARD!? TYPE
           | int_prop;
 
 prop_with_value : int_prop_with_value;

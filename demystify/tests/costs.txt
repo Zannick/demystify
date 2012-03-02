@@ -7,3 +7,9 @@
 @cost
 @exile SELF from your hand
 @(COST (EXILE (SUBSET SELF (IN (ZONE_SET your HAND)))))
+
+@DoomCannon
+@cost
+@{3}, {t}, sacrifice a creature of the chosen type
+@(COST (MANA 3) T (sacrifice (SUBSET (NUMBER 1) (PROPERTIES creature)
+                              (CHOSEN type))))

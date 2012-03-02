@@ -36,7 +36,7 @@ properties : a+=adjective*
              | noun_list noun* descriptor*
                -> ^( PROPERTIES adjective* noun_list noun* descriptor* )
              | b+=noun+ 
-               ( ( ',' ( c+=properties_case3_ ',' )+ )?
+               ( ( COMMA ( c+=properties_case3_ COMMA )+ )?
                  j=conj g=properties_case3_ e+=descriptor*
                  { self.emitDebugMessage('properties case 3: {}'
                                          .format(' '.join(
@@ -67,10 +67,10 @@ properties_case3_ : adjective+ noun+ ;
 
 // Lists
 
-adj_list : adjective ( ','! ( ( adjective | noun ) ','! )+ )?
+adj_list : adjective ( COMMA! ( ( adjective | noun ) COMMA! )+ )?
            conj^ ( adjective | noun );
 
-noun_list : noun ( ','! ( noun ','! )+ )? conj^ noun ;
+noun_list : noun ( COMMA! ( noun COMMA! )+ )? conj^ noun ;
 
 // Adjectives
 
