@@ -19,25 +19,32 @@ cost_list : cost_item ( COMMA cost_item )* ( AND cost_item )?
 
 cost_item : TAP_SYM
           | UNTAP_SYM
-          | discard
-          | exile
           | mana
-          | pay_life
-          | put_cards
-          | put_counters
-          | remove_counters
-          | reveal
-          | sacrifice
-          | tap
-          | unattach
-          | untap
+          | repeatable_cost_item_ 
+            ( for_each -> ^( PAY_PER repeatable_cost_item_ for_each )
+            | -> repeatable_cost_item_
+            )
           ;
+
+repeatable_cost_item_ : PAY! mana
+                      | discard
+                      | exile
+                      | pay_life
+                      | put_cards
+                      | put_counters
+                      | remove_counters
+                      | reveal
+                      | sacrifice
+                      | tap
+                      | unattach
+                      | untap
+                      ;
 
 // Loyalty
 
-loyalty_cost : PLUS_SYM? ( NUMBER_SYM | VAR_SYM)
+loyalty_cost : PLUS_SYM? ( NUMBER_SYM | VAR_SYM )
                -> ^( LOYALTY PLUS NUMBER_SYM? ^( VAR VAR_SYM )? )
-             | MINUS_SYM ( NUMBER_SYM | VAR_SYM)
+             | MINUS_SYM ( NUMBER_SYM | VAR_SYM )
                -> ^( LOYALTY MINUS NUMBER_SYM? ^( VAR VAR_SYM )? );
 
 // Mana symbols and mana costs

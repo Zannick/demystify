@@ -16,3 +16,26 @@
                        (control (PLAYER_SET you)))
   (NOT SELF)
   (TOTAL (POWER (NUMBER (GEQ 10)))))
+
+@for_each
+@for each age counter on SELF
+@(PER (COUNTER_SET (COUNTER age)) SELF)
+
+@object_count
+@the number of creature cards in all graveyards
+@(COUNT (PROPERTIES creature cards (IN (ZONE_SET (NUMBER all) GRAVEYARD))))
+
+# Skeleton Scavengers
+@SkeletonScavengers
+@cost
+@pay {1} for each +1/+1 counter on SELF
+@(COST (PAY_PER (MANA 1)
+        (PER (COUNTER_SET (COUNTER (PT (PLUS 1) (PLUS 1)))) SELF)))
+
+# Tornado
+@Tornado
+@cost
+@{2}{g}, pay 3 life for each velocity counter on SELF
+@(COST (MANA 2 G) (PAY_PER (PAY_LIFE (LIFE (NUMBER 3)))
+                   (PER (COUNTER_SET (COUNTER velocity)) SELF)))
+

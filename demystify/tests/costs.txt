@@ -1,0 +1,9 @@
+@BrittleEffigy
+@cost
+@{4}, {t}, exile SELF
+@(COST (MANA 4) T (exile (SUBSET SELF)))
+
+@SimianSpiritGuide
+@cost
+@exile SELF from your hand
+@(COST (EXILE (SUBSET SELF (IN (ZONE_SET your HAND)))))

@@ -18,8 +18,8 @@ subset : number properties restriction*
          -> ^( SUBSET ^( LAST properties restriction* ) )
        | full_zone
          -> ^( SUBSET full_zone )
-       | ref_object
-         -> ^( SUBSET ref_object )
+       | ref_object in_zones?
+         -> ^( SUBSET ref_object in_zones? )
        ;
 
 // A full zone, for use as a subset
@@ -35,14 +35,10 @@ restriction : WITH! has_counters
             | WITH! int_prop_with_value
             | THAT! share_feature
             | WITH! total_int_prop
-            | in_zones
             | other_than
             | except_for
             | attached_to
             ;
-
-in_zones : IN zone_subset -> ^( IN[] zone_subset )
-         | FROM zone_subset -> ^( IN zone_subset );
 
 // TODO: 'choose a creature type other than wall'. This may go elsewhere.
 other_than : OTHER THAN

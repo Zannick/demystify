@@ -100,7 +100,11 @@ noun : NON^? ( type | obj_subtype | obj_type | player_type );
 descriptor : named
            | control
            | own
+           | in_zones
            ;
+
+in_zones : IN zone_subset -> ^( IN[] zone_subset )
+         | FROM zone_subset -> ^( IN zone_subset );
 
 named : NAMED^ REFBYNAME;
 
