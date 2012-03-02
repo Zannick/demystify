@@ -112,8 +112,12 @@ in_zones : IN zone_subset -> ^( IN[] zone_subset )
 
 named : NAMED^ REFBYNAME;
 
-control : player_subset CONTROL^;
-own : player_subset OWN^;
+control : player_subset DONT? CONTROL
+          -> {$DONT}? ^( NOT ^( CONTROL[] player_subset ) )
+          -> ^( CONTROL[] player_subset );
+own : player_subset DONT? OWN
+      -> {$DONT}? ^( NOT ^( OWN[] player_subset ) )
+      -> ^( OWN[] player_subset );
 
 /* Special references to related objects. */
 

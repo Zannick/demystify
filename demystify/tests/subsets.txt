@@ -2,12 +2,12 @@
 # properties case 1 (no list or adj list)
 @properties
 @red untapped or unblocked creature you control
-@(PROPERTIES red (or untapped unblocked) creature (control (PLAYER_SET you)))
+@(PROPERTIES red (or untapped unblocked) creature (CONTROL (PLAYER_SET you)))
 
 # properties case 2 (noun list)
 @properties
 @creature or land you control
-@(PROPERTIES (or creature land) (control (PLAYER_SET you)))
+@(PROPERTIES (or creature land) (CONTROL (PLAYER_SET you)))
 
 # properties case 3 (adj+noun list)
 @properties
@@ -15,17 +15,17 @@
 @(PROPERTIES (or (AND white soldier) (AND blue merfolk)
                  (AND black zombie) (AND red goblin)
                  (AND green elf))
-             (control (PLAYER_SET you)))
+             (CONTROL (PLAYER_SET you)))
 
 # properties case 4 (adj+noun+desc pair)
 @properties
 @permanent you control or card you own
-@(PROPERTIES (or (AND permanent (control (PLAYER_SET you)))
+@(PROPERTIES (or (AND permanent (CONTROL (PLAYER_SET you)))
                  (AND card (own (PLAYER_SET you)))))
 
 @subsets
 @all permanents you control and all cards you own
-@(and (SUBSET (NUMBER all) (PROPERTIES permanents (control (PLAYER_SET you))))
+@(and (SUBSET (NUMBER all) (PROPERTIES permanents (CONTROL (PLAYER_SET you))))
       (SUBSET (NUMBER all) (PROPERTIES cards (own (PLAYER_SET you)))))
 
 # Suffocation
@@ -64,10 +64,15 @@
 @subsets
 @auras attached to permanents you control
 @(SUBSET (NUMBER ALL) (PROPERTIES auras)
-  (ATTACHED_TO (PROPERTIES permanents (control (PLAYER_SET you)))))
+  (ATTACHED_TO (PROPERTIES permanents (CONTROL (PLAYER_SET you)))))
 
 @ApocalypseChime
 @subset
 @all non-token permanents from the homelands expansion
 @(SUBSET (NUMBER ALL) (PROPERTIES (NON token) permanents)
   (EXPANSION homelands))
+
+@Touchstone
+@properties
+@artifact you don't control
+@(PROPERTIES artifact (NOT (CONTROL (PLAYER_SET you))))
