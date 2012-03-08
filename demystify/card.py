@@ -340,44 +340,55 @@ class CardProgressQueue(multiprocessing.queues.JoinableQueue):
 def _card_worker_jq(work_queue, res_queue, func):
     try:
         while True:
-            c = work_queue.get(timeout=0.5)
+            c = work_queue.get(timeout=0.2)
             try:
                 res = func(c)
-                if res is not None:
-                    res_queue.put(res, block=False)
+                res_queue.put(res)
             except Queue.Full:
                 logger.error("Result queue full, can't add result for {}."
                              .format(c.name))
+                res_queue.put(None)
             except Exception as e:
                 logger.exception('Exception encountered processing {} for '
                                  '{}: {}'.format(func.__name__, c.name, e))
+                res_queue.put(None)
             finally:
                 work_queue.task_done(cname=c.name)
     except Queue.Empty:
         return
 
-def map_multi(func, cards, processes=None, pool=None, chunksize=1):
-    if not processes and not pool:
-        processes = 2
-    elif pool:
-        p = multiprocessing.Pool(processes=processes)
-        r = p.map(func, CardProgressBar(cards), chunksize=chunksize)
-        p.terminate()
-        del p
-        return r
-    # processes is not None
+def map_multi(func, cards, processes=None):
+    """ Applies a given function to each card in cards, utilizing
+        multiple processes, and displaying progress with a CardProgressBar.
+        Results are not guaranteed to be in any order relating to the
+        initial order of cards, and all None results and exceptions thrown
+        are stripped out. If correlated results are desired, the function
+        should return the name of the card alongside the result.
+
+        func: A function that takes in a single Card object as an argument.
+            Any modifications this function makes to Card data will be lost
+            when it exits, hence it should return said data and the callee
+            should modify the Card as specified. The only caveat to this is
+            that the data it returns must be pickleable.
+        cards: An iterable of Card objects that supports __len__.
+        processes: The number of processes. If None, defaults to the 
+            number of CPUs. """
+    if not processes:
+        processes = multiprocessing.cpu_count()
     q = CardProgressQueue(cards)
-    rq = Queue.Queue()
+    rq = multiprocessing.Queue()
     pr = [multiprocessing.Process(target=_card_worker_jq, args=(q, rq, func))
           for i in range(processes)]
     for p in pr:
         p.start()
     q.join()
+    result = []
+    for i in range(len(cards)):
+        res = rq.get()
+        if res is not None:
+            result.append(res)
     for p in pr:
         p.join()
-    result = []
-    while not rq.empty():
-        result.append(rq.get())
     return result
 
 ## cardname processing ##
