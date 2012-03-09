@@ -23,6 +23,7 @@ tokens {
     HAS_COUNTERS;
     LEQ;
     LT;
+    MAX;
     MULT;
     PAY_LIFE;
     PAY_PER;

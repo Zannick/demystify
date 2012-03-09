@@ -39,3 +39,10 @@
 @(COST (MANA 2 G) (PAY_PER (PAY_LIFE (LIFE (NUMBER 3)))
                    (PER (COUNTER_SET (COUNTER velocity)) SELF)))
 
+@magic_number
+@the highest converted mana cost among permanents you control
+@(MAX CMC (PROPERTIES permanents (CONTROL (PLAYER_SET you))))
+
+@magic_number
+@the highest life total among all players
+@(MAX LIFE (PLAYER_SET (PLAYER_GROUP (NUMBER ALL) players)))

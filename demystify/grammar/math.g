@@ -14,6 +14,7 @@ comparison : ( EQUAL TO OR )? ( MORE | GREATER ) THAN magic_number
 
 magic_number : integer
              | object_count
+             | max_among
              ;
 
 object_count : THE NUMBER OF 
@@ -21,6 +22,11 @@ object_count : THE NUMBER OF
                | base_counter_set ON ( properties | ref_object )
                  -> ^( COUNT base_counter_set properties? ref_object? )
                );
+
+// ref_object is usually plural in this case
+max_among : THE ( HIGHEST | GREATEST ) int_prop
+            AMONG ( properties | ref_object | player_subset )
+            -> ^( MAX int_prop properties? ref_object? player_subset? );
 
 // TODO: for each basic land type among lands you control. (Draco)
 for_each : FOR EACH

@@ -91,24 +91,22 @@ status : TAPPED
        | FACE_DOWN
        | FLIPPED
        | REVEALED
-       | ACTIVE;
+       ;
 
 // Nouns
 
-noun : NON? ( type | obj_subtype | obj_type | player_type )
-       -> {$NON}? ^( NON[] type? obj_subtype? obj_type? player_type? )
-       -> type? obj_subtype? obj_type? player_type? ;
+noun : NON? ( type | obj_subtype | obj_type )
+       -> {$NON}? ^( NON[] type? obj_subtype? obj_type? )
+       -> type? obj_subtype? obj_type? ;
 
 // Descriptors
 
 descriptor : named
            | control
            | own
+           | cast
            | in_zones
            ;
-
-in_zones : IN zone_subset -> ^( IN[] zone_subset )
-         | FROM zone_subset -> ^( IN zone_subset );
 
 named : NAMED^ REFBYNAME;
 
@@ -118,6 +116,12 @@ control : player_subset DONT? CONTROL
 own : player_subset DONT? OWN
       -> {$DONT}? ^( NOT ^( OWN[] player_subset ) )
       -> ^( OWN[] player_subset );
+cast : player_subset DONT? CAST
+       -> {$DONT}? ^( NOT ^( CAST[] player_subset ) )
+       -> ^( CAST[] player_subset );
+
+in_zones : IN zone_subset -> ^( IN[] zone_subset )
+         | FROM zone_subset -> ^( IN zone_subset );
 
 /* Special references to related objects. */
 
@@ -139,3 +143,17 @@ ref_object : SELF
 // eg. this creature, this permanent, this spell.
 this_guy : THIS ( type | obj_type ) -> SELF;
 
+/* Property names. */
+
+prop_types : prop_type ( ( COMMA! ( prop_type COMMA! )+ )? conj^ prop_type )? ;
+
+prop_type : COLOR
+          | MANA! COST
+          | type TYPE -> ^( SUBTYPE type )
+          | CARD!? TYPE
+          | int_prop;
+
+int_prop : CONVERTED MANA COST -> CMC
+         | LIFE TOTAL!?
+         | POWER
+         | TOUGHNESS;

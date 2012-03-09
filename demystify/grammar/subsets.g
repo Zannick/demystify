@@ -76,21 +76,7 @@ share_feature : SHARE A prop_type -> ^( SHARE[] prop_type );
 
 total_int_prop : TOTAL^ int_prop_with_value ;
 
-// Property names.
-prop_types : prop_type ( ( COMMA! ( prop_type COMMA! )+ )? conj^ prop_type )? ;
-
-prop_type : COLOR
-          | MANA! COST
-          | type TYPE -> ^( SUBTYPE type )
-          | CARD!? TYPE
-          | int_prop;
-
 prop_with_value : int_prop_with_value;
-
-int_prop : CONVERTED MANA COST -> CMC
-         | LIFE TOTAL!?
-         | POWER
-         | TOUGHNESS;
 
 int_prop_with_value : CONVERTED MANA COST comparison -> ^( CMC comparison )
                     | integer LIFE^
