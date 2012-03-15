@@ -76,3 +76,7 @@
 @properties
 @artifact you don't control
 @(PROPERTIES artifact (NOT (CONTROL (PLAYER_SET you))))
+
+@subset
+@three black creatures
+@(SUBSET (NUMBER three) (PROPERTIES black creatures))

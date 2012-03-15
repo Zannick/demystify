@@ -7,6 +7,9 @@ conj : AND | OR | AND_OR ;
 /* Numbers and quantities. */
 
 number : integer
+         ( OR integer -> ^( OR integer+ )
+         | -> integer
+         )
        | ( ALL | EACH | EVERY ) -> ^( NUMBER ALL )
        | ANY ( c=number_word -> ^( NUMBER[] $c )
              | NUMBER OF -> ^( NUMBER[] ANY )
@@ -21,8 +24,6 @@ number : integer
         | NO? ( MORE | GREATER ) THAN ( s=NUMBER_SYM | w=number_word )
           -> {$NO}? ^( NUMBER ^( LEQ $s? $w? ) )
           -> ^( NUMBER ^( GT $s? $w? ) )
-          | OR ( s2=NUMBER_SYM | w2=number_word )
-            -> ^( NUMBER ^( OR ^( EQ $s? $w? ) ^( EQ $s2? $w2? ) ) )
 */
 integer : ( s=NUMBER_SYM | w=number_word )
           ( OR ( MORE | GREATER ) -> ^( NUMBER ^( GEQ $s? $w? ) )

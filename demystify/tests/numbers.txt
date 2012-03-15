@@ -46,3 +46,7 @@
 @magic_number
 @the highest life total among all players
 @(MAX LIFE (PLAYER_SET (PLAYER_GROUP (NUMBER ALL) players)))
+
+@number
+@one or two
+@(or (NUMBER one) (NUMBER two))
