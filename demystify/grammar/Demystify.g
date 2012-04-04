@@ -10,7 +10,7 @@ options {
 // generate lookahead code for it. This is mostly necessary for rules with
 // optional or repeated parts, where LL(1) can't correctly predict which rule
 // to use to parse the next tokens. See the graph output from deps.py.
-import Keywords, costs, subsets, math, properties, counters, zones, types, players, pt, misc, macro;
+import Words, costs, subsets, math, properties, counters, zones, types, players, pt, misc, macro;
 
 tokens {
     ADD_COUNTERS;

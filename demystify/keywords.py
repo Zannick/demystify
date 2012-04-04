@@ -1517,7 +1517,7 @@ def write_parser():
           .format(len(macro_rules), len(collisions)))
 
 def write_lexer():
-    grammar = 'Keywords'
+    grammar = 'Words'
     desc = 'Keywords and misc text.'
     filename = _get_filename(grammar)
     all_tokens = set(all_words.values()) | set(macro_tokens)

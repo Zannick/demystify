@@ -1,4 +1,4 @@
-lexer grammar Keywords;
+lexer grammar Words;
 
 /* Keywords and misc text.
  *
