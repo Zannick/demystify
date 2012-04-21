@@ -400,6 +400,8 @@ _abilities = [
     Keyword(("DEATHTOUCH", "deathtouch")),
     Keyword(("DEFENDER", "defender")),
     # Double strike, first strike
+    Keyword(("DOUBLE", "double")),
+    Keyword(("FIRST", "first")),
     Keyword(("STRIKE", "strike")),
     # We use Verbs to describe keywords that can be used like actions
     # though they aren't officially keyword actions.
@@ -435,6 +437,7 @@ _abilities = [
             ("AMPLIFIED", "amplified")),
     Keyword(("ANNIHILATOR", "annihilator")),
     # Aura swap
+    Keyword(("AURA", "aura")),
     Verb(   ("SWAP", "swap", "swaps"),
             ("SWAPPED", "swapped")),
     Keyword(("BATTLE_CRY", "battle cry")),

@@ -1,0 +1,41 @@
+@keyword_int
+@vanishing 6
+@(vanishing (INT 6))
+
+@keyword_cost
+@flashback {1}{b}{b}
+@(flashback (COST (MANA 1 B B)))
+
+@keyword_int_cost
+@suspend 4 -- pay 5 life
+@(suspend (INT 4) (COST (PAY_LIFE (LIFE (NUMBER 5)))))
+
+@Kicker
+@keyword_kicker
+@kicker {4}{s}
+@(kicker (COST (MANA 4 S)))
+
+@Kicker
+@keyword_kicker
+@kicker {1}{b} and/or {1}{g}
+@(kicker (COST (MANA 1 B)) (COST (MANA 1 G)))
+
+@Typecycling
+@keyword_typecycling
+@plainscycling {2}
+@(TYPECYCLING (PROPERTIES plains) (COST (MANA 2)))
+
+@Typecycling
+@keyword_typecycling
+@basic landcycling {2}
+@(TYPECYCLING (PROPERTIES basic land) (COST (MANA 2)))
+
+@Protection
+@keyword_protection
+@protection from blue, from black, and from red
+@(protection (PROPERTIES blue) (PROPERTIES black) (PROPERTIES red))
+
+@MistmeadowSkulk
+@keywords
+@lifelink, protection from converted mana cost 3 or greater
+@(KEYWORDS lifelink (protection (CMC (NUMBER (GEQ 3)))))

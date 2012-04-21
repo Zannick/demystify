@@ -76,6 +76,7 @@ tokens {
     ATTACKED;
     ATTACKERS;
     ATTACKING;
+    AURA;
     BACK;
     BAND;
     BANDED;
@@ -294,6 +295,7 @@ tokens {
     FIGHT;
     FINISH;
     FINISHED;
+    FIRST;
     FLANKING;
     FLASH;
     FLASHBACK;
@@ -1342,7 +1344,6 @@ LIBRARY_POSS : 'libraries\''
 MULTICOLORED : 'multicolored';
 ORDINAL_WORD : 'fourth'
              | 'second'
-             | 'first'
              | 'third'
              | 'last';
 PLANESWALKED : 'planeswalked';
@@ -1942,7 +1943,6 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'ally'
             | 'apes'
             | 'atog'
-            | 'aura'
             | 'bats'
             | 'bear'
             | 'bird'
@@ -2623,6 +2623,7 @@ EXTRA : 'extra';
 FEWER : 'fewer';
 FIGHT : 'fights'
       | 'fight';
+FIRST : 'first';
 FLASH : 'flash';
 GRAFT : 'grafts'
       | 'graft';
@@ -2719,6 +2720,7 @@ ABLE : 'able';
 ALSO : 'also';
 ANTE : 'antes'
      | 'ante';
+AURA : 'aura';
 BACK : 'back';
 BAND : 'bands'
      | 'band';

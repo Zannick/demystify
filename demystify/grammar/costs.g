@@ -2,13 +2,14 @@ parser grammar costs;
 
 /* Costs and payments */
 
+// TODO: "as an additional cost" items: "you may", "choose" type/number.
+
 // The OR case here is where the player has the option to choose
 // either of the methods to pay for the ability,
 // eg. 3, TAP or U, TAP.
 
 cost : cost_list ( OR^ cost_list )?
      | loyalty_cost -> ^( COST loyalty_cost );
-
 
 // The AND case here is usually for costs where a latter item
 // references a preceding item,

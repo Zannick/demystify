@@ -22,6 +22,7 @@ obj_counter : OBJ_COUNTER
             | TRAP;
 
 obj_subtype : OBJ_SUBTYPE
+            | AURA
             | FUNGUS
             | MINE
             | TOWER
@@ -29,4 +30,5 @@ obj_subtype : OBJ_SUBTYPE
 
 obj_subtype_poss : OBJ_SUBTYPE_POSS;
 
-ordinal_word : ORDINAL_WORD;
+ordinal_word : ORDINAL_WORD
+             | FIRST;

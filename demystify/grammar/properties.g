@@ -65,6 +65,9 @@ properties : a+=adjective*
 
 properties_case3_ : adjective+ noun+ ;
 
+simple_properties : adjective* noun+ -> ^( PROPERTIES adjective* noun+ )
+                  | adjective+ -> ^( PROPERTIES adjective+ );
+
 // Lists
 
 adj_list : adjective ( COMMA! ( ( adjective | noun ) COMMA! )+ )?

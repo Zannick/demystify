@@ -3,7 +3,7 @@ import re
 import sys
 
 rule = re.compile(r"^(?:[a-z_0-9]+\+?=)?([a-z_0-9]+)\+?\*?!?\??$")
-comments = re.compile(r"//.*$|/\*.*\*/", re.M)
+comments = re.compile(r"//.*?$|/\*.*?\*/", re.M|re.S)
 actions = re.compile(r"""{([^'"]|'[^']*'|"[^"]*"|'''.*?'''"""
                      r'''|""".*?""")*}''', re.M)
 full_rule = re.compile(r"^([a-z_0-9]+)\s*:(.*);\s*$", re.M)
@@ -69,17 +69,18 @@ def print_graph(files):
 
 colors = {
     'Demystify.g': 'gray',
-    'misc.g': 'red',
-    'players.g': 'blue',
-    'zones.g': 'green',
-    'macro.g': 'cyan',
-    'types.g': 'lightgray',
     'costs.g': 'gold',
     'counters.g': 'plum',
-    'pt.g': 'seagreen',
-    'properties.g': 'greenyellow',
+    'keywords.g': 'salmon',
+    'macro.g': 'cyan',
     'math.g': 'violetred',
+    'misc.g': 'red',
+    'players.g': 'blue',
+    'properties.g': 'greenyellow',
+    'pt.g': 'seagreen',
     'subsets.g': 'skyblue',
+    'types.g': 'lightgray',
+    'zones.g': 'green',
 }
 
 if __name__ == "__main__":
