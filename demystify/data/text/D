@@ -181,6 +181,13 @@ Rules Text:     Dandân can't attack unless defending player controls an Island.
 When you control no Islands, sacrifice Dandân.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Fifth Edition Common, Chronicles Common, Arabian Nights Common
 
+Name:   Dangerous Wager
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Discard your hand, then draw two cards.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Daraja Griffin
 Cost:   3W
 Type:   Creature — Griffin
@@ -293,6 +300,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Sacrifice a Forest: You gain 3 life.
 Set/Rarity:     Ravnica: City of Guilds Uncommon, The Dark Common
+
+Name:   Dark Impostor
+Cost:   2B
+Type:   Creature — Vampire Assassin
+Pow/Tgh:    (2/2)
+Rules Text:     {4}{B}{B}: Exile target creature and put a +1/+1 counter on Dark Impostor.
+Dark Impostor has all activated abilities of all creature cards exiled with it.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Dark Maze
 Cost:   4U
@@ -990,6 +1005,14 @@ Pow/Tgh:
 Rules Text:     {R}, Sacrifice a Zombie: Deadapult deals 2 damage to target creature or player.
 Set/Rarity:     Planeshift Rare
 
+Name:   Deadeye Navigator
+Cost:   4UU
+Type:   Creature — Spirit
+Pow/Tgh:    (5/5)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Deadeye Navigator is paired with another creature, each of those creatures has "{1}{U}: Exile this creature, then return it to the battlefield under your control."
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Deadfall
 Cost:   2G
 Type:   Enchantment
@@ -1191,6 +1214,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When enchanted creature dies, its controller loses life equal to its power and you gain life equal to its toughness.
 Set/Rarity:     Visions Common
+
+Name:   Death Wind
+Cost:   XB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -X/-X until end of turn.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Death Wish
 Cost:   1BB
@@ -1662,6 +1692,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     Whenever Deepwood Wolverine becomes blocked, it gets +2/+0 until end of turn.
 Set/Rarity:     Mercadian Masques Common
 
+Name:   Defang
+Cost:   1W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Prevent all damage that would be dealt by enchanted creature.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Defender en-Vec
 Cost:   3W
 Type:   Creature — Human Cleric
@@ -1798,6 +1836,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     Provoke (When this attacks, you may have target creature defending player controls untap and block it if able.)
 {1}{W}: Prevent all combat damage that would be dealt to and dealt by Deftblade Elite this turn.
 Set/Rarity:     Legions Common
+
+Name:   Defy Death
+Cost:   3WW
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target creature card from your graveyard to the battlefield. If it's an Angel, put two +1/+1 counters on it.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Defy Gravity
 Cost:   U
@@ -1967,7 +2012,7 @@ Cost:   3R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy target artifact or land.
-Set/Rarity:     Magic 2011 Common, Zendikar Common, Tenth Edition Common, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
+Set/Rarity:     Avacyn Restored Common, Magic 2011 Common, Zendikar Common, Tenth Edition Common, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
 
 Name:   Demon of Death's Gate
 Cost:   6BBB
@@ -2055,6 +2100,21 @@ Rules Text:     {T}: Destroy target land.
 At the beginning of your upkeep, unless you pay {B}{B}{B}, tap Demonic Hordes and sacrifice a land of an opponent's choice.
 Set/Rarity:     Masters Edition IV Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
+Name:   Demonic Rising
+Cost:   3BB
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your end step, if you control exactly one creature, put a 5/5 black Demon creature token with flying onto the battlefield.
+Set/Rarity:     Avacyn Restored Rare
+
+Name:   Demonic Taskmaster
+Cost:   2B
+Type:   Creature — Demon
+Pow/Tgh:    (4/3)
+Rules Text:     Flying
+At the beginning of your upkeep, sacrifice a creature other than Demonic Taskmaster.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Demonic Torment
 Cost:   2B
 Type:   Enchantment — Aura
@@ -2070,6 +2130,15 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for a card and put that card into your hand. Then shuffle your library.
 Set/Rarity:     Masters Edition IV Rare, Duel Decks: Divine vs. Demonic Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+
+Name:   Demonlord of Ashmouth
+Cost:   2BB
+Type:   Creature — Demon
+Pow/Tgh:    (5/4)
+Rules Text:     Flying
+When Demonlord of Ashmouth enters the battlefield, exile it unless you sacrifice another creature.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Demonmail Hauberk
 Cost:   4
@@ -2206,6 +2275,20 @@ Pow/Tgh:    (2/3)
 Rules Text:     {1}{U}: Look at the top X cards of your library, where X is the number of cards in your hand, then put them back in any order.
 Set/Rarity:     Saviors of Kamigawa Common
 
+Name:   Descendants' Path
+Cost:   2G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, reveal the top card of your library. If it's a creature card that shares a creature type with a creature you control, you may cast that card without paying its mana cost. Otherwise, put that card on the bottom of your library.
+Set/Rarity:     Avacyn Restored Rare
+
+Name:   Descent into Madness
+Cost:   3BB
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, put a despair counter on Descent into Madness, then each player exiles X permanents he or she controls and/or cards from his or her hand, where X is the number of despair counters on Descent into Madness.
+Set/Rarity:     Avacyn Restored Mythic Rare
+
 Name:   Desecrated Earth
 Cost:   4B
 Type:   Sorcery
@@ -2280,6 +2363,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.
 Set/Rarity:     Classic Sixth Edition Rare, Visions Rare
+
+Name:   Desolate Lighthouse
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{1}{U}{R}, {T}: Draw a card, then discard a card.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Desolation
 Cost:   1BB
@@ -2457,6 +2548,14 @@ Pow/Tgh:
 Rules Text:     Destroy all creatures and lands.
 Set/Rarity:     Masters Edition IV Rare, Starter 1999 Rare, Portal Rare
 
+Name:   Devastation Tide
+Cost:   3UU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return all nonland permanents to their owners' hands.
+Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Devil's Play
 Cost:   XR
 Type:   Sorcery
@@ -2548,6 +2647,13 @@ Pow/Tgh:    (2/1)
 Rules Text:     Flying
 Sacrifice a creature: Devouring Swarm gets +1/+1 until end of turn.
 Set/Rarity:     Magic 2012 Common
+
+Name:   Devout Chaplain
+Cost:   2W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/2)
+Rules Text:     {T}, Tap two untapped Humans you control: Exile target artifact or enchantment.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Devout Harpist
 Cost:   W
@@ -2830,6 +2936,14 @@ Rules Text:     Deathtouch
 Other Zombie creatures you control get +1/+1.
 Whenever another Zombie you control dies, target opponent loses 1 life.
 Set/Rarity:     Dark Ascension Uncommon
+
+Name:   Diregraf Escort
+Cost:   G
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/1)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Diregraf Escort is paired with another creature, both creatures have protection from Zombies.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Diregraf Ghoul
 Cost:   B
@@ -3310,6 +3424,13 @@ Pow/Tgh:
 Rules Text:     You gain 2 life for each creature target player controls.
 Suspend 5—{1}{W} (Rather than cast this card from your hand, you may pay {1}{W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Set/Rarity:     Time Spiral Common
+
+Name:   Divine Deflection
+Cost:   XW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent the next X damage that would be dealt to you and/or permanents you control this turn. If damage is prevented this way, Divine Deflection deals that much damage to target creature or player.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Divine Favor
 Cost:   1W
@@ -4158,6 +4279,13 @@ Rules Text:     Trample
 Dread Slag gets -4/-4 for each card in your hand.
 Set/Rarity:     Dissension Rare
 
+Name:   Dread Slaver
+Cost:   3BB
+Type:   Creature — Zombie Horror
+Pow/Tgh:    (3/5)
+Rules Text:     Whenever a creature dealt damage by Dread Slaver this turn dies, return it to the battlefield under your control. That creature is a black Zombie in addition to its other colors and types.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Dread Specter
 Cost:   3B
 Type:   Creature — Specter
@@ -4202,6 +4330,13 @@ Rules Text:     {T}: Add {1} to your mana pool.
 {1}, {T}: Put a storage counter on Dreadship Reef.
 {1}, Remove X storage counters from Dreadship Reef: Add X mana in any combination of {U} and/or {B} to your mana pool.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Time Spiral Uncommon
+
+Name:   Dreadwaters
+Cost:   3U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of lands you control.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Dreadwing
 Cost:   B
@@ -4502,6 +4637,13 @@ Pow/Tgh:    (1/2)
 Rules Text:     When Dripping-Tongue Zubera dies, put a 1/1 colorless Spirit creature token onto the battlefield for each Zubera that died this turn.
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Driver of the Dead
+Cost:   3B
+Type:   Creature — Vampire
+Pow/Tgh:    (3/2)
+Rules Text:     When Driver of the Dead dies, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Drogskol Captain
 Cost:   1WU
 Type:   Creature — Spirit Soldier
@@ -4741,12 +4883,28 @@ Rules Text:     Enchant creature
 Whenever enchanted creature is dealt damage, its controller puts that many 1/1 green Squirrel creature tokens onto the battlefield.
 Set/Rarity:     Odyssey Uncommon
 
+Name:   Druid's Familiar
+Cost:   3G
+Type:   Creature — Bear
+Pow/Tgh:    (2/2)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Druid's Familiar is paired with another creature, each of those creatures gets +2/+2.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Druidic Satchel
 Cost:   3
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {2}, {T}: Reveal the top card of your library. If it's a creature card, put a 1/1 green Saproling creature token onto the battlefield. If it's a land card, put that card onto the battlefield under your control. If it's a noncreature, nonland card, you gain 2 life.
 Set/Rarity:     Magic 2012 Rare
+
+Name:   Druids' Repository
+Cost:   1GG
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature you control attacks, put a charge counter on Druids' Repository.
+Remove a charge counter from Druids' Repository: Add one mana of any color to your mana pool.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Drumhunter
 Cost:   3G
@@ -4792,6 +4950,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature has forestwalk. (It's unblockable as long as defending player controls a Forest.)
 Set/Rarity:     Magic 2011 Common
+
+Name:   Dual Casting
+Cost:   1R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "{R}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy."
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Dual Nature
 Cost:   4GG

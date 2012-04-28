@@ -183,6 +183,15 @@ Pow/Tgh:
 Rules Text:     If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.
 Set/Rarity:     Tenth Edition Rare, Urza's Saga Rare
 
+Name:   Abundant Growth
+Cost:   G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+When Abundant Growth enters the battlefield, draw a card.
+Enchanted land has "{T}: Add one mana of any color to your mana pool."
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Abyssal Gatekeeper
 Cost:   1B
 Type:   Creature — Horror
@@ -701,6 +710,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     {R}: Add {B} to your mana pool.
 Set/Rarity:     Alliances Common, Alliances Common
 
+Name:   Aggravate
+Cost:   3RR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Aggravate deals 1 damage to each creature target player controls. Each creature dealt damage this way attacks this turn if able.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Aggravated Assault
 Cost:   2R
 Type:   Enchantment
@@ -1137,6 +1153,21 @@ Rules Text:     Echo {1}{G} (At the beginning of your upkeep, if this came under
 {1}{G}: Regenerate Albino Troll.
 Set/Rarity:     Duel Decks: Garruk vs. Liliana Uncommon, Urza's Saga Uncommon
 
+Name:   Alchemist's Apprentice
+Cost:   1U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     Sacrifice Alchemist's Apprentice: Draw a card.
+Set/Rarity:     Avacyn Restored Common
+
+Name:   Alchemist's Refuge
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{G}{U}, {T}: You may cast nonland cards this turn as though they had flash.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Alchor's Tomb
 Cost:   4
 Type:   Artifact
@@ -1406,6 +1437,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Any player may play creature cards with converted mana cost 3 or less without paying their mana cost and as though they had flash.
 Set/Rarity:     Tempest Rare
+
+Name:   Amass the Components
+Cost:   3U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Draw three cards, then put a card from your hand on the bottom of your library.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Ambassador Laquatus
 Cost:   1UU
@@ -1891,6 +1929,23 @@ Rules Text:     Flying
 When Angel of Fury is put into your graveyard from the battlefield, you may shuffle it into your library.
 Set/Rarity:     Masters Edition II Rare, Portal Second Age Rare
 
+Name:   Angel of Glory's Rise
+Cost:   5WW
+Type:   Creature — Angel
+Pow/Tgh:    (4/6)
+Rules Text:     Flying
+When Angel of Glory's Rise enters the battlefield, exile all Zombies, then return all Human creature cards from your graveyard to the battlefield.
+Set/Rarity:     Avacyn Restored Rare
+
+Name:   Angel of Jubilation
+Cost:   1WWW
+Type:   Creature — Angel
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Other nonblack creatures you control get +1/+1.
+Players can't pay life or sacrifice creatures to cast spells or activate abilities.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Angel of Light
 Cost:   4W
 Type:   Creature — Angel
@@ -1949,7 +2004,14 @@ Cost:   2WW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     You gain 7 life.
-Set/Rarity:     Magic 2012 Common, Magic 2010 Common
+Set/Rarity:     Avacyn Restored Common, Magic 2012 Common, Magic 2010 Common
+
+Name:   Angel's Tomb
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     Whenever a creature enters the battlefield under your control, you may have Angel's Tomb become a 3/3 white Angel artifact creature with flying until end of turn.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Angel's Trumpet
 Cost:   3
@@ -1982,6 +2044,14 @@ Rules Text:     Flying
 Each opponent who cast a spell this turn can't attack with creatures.
 Each opponent who attacked with a creature this turn can't cast spells.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Magic 2011 Rare
+
+Name:   Angelic Armaments
+Cost:   3
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +2/+2, has flying, and is a white Angel in addition to its other colors and types.
+Equip {4}
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Angelic Benediction
 Cost:   3W
@@ -2080,8 +2150,8 @@ Name:   Angelic Wall
 Cost:   1W
 Type:   Creature — Wall
 Pow/Tgh:    (0/4)
-Rules Text:     Defender, flying (This creature can't attack, and it can block creatures with flying.)
-Set/Rarity:     Tenth Edition Common, Odyssey Common, Portal Second Age Common
+Rules Text:     Defender, flying
+Set/Rarity:     Avacyn Restored Common, Tenth Edition Common, Odyssey Common, Portal Second Age Common
 
 Name:   Angelsong
 Cost:   1W
@@ -2427,6 +2497,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 life.
 Set/Rarity:     Shadowmoor Common
 
+Name:   Appetite for Brains
+Cost:   B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target opponent reveals his or her hand. You choose a card from it with converted mana cost 4 or greater and exile that card.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Apprentice Necromancer
 Cost:   1B
 Type:   Creature — Zombie Wizard
@@ -2616,6 +2693,13 @@ Pow/Tgh:
 Rules Text:     Each player can't cast more than one spell each turn.
 Set/Rarity:     Seventh Edition Uncommon, Urza's Saga Uncommon
 
+Name:   Arcane Melee
+Cost:   4U
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Instant and sorcery spells cost {2} less to cast.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Arcane Sanctum
 Cost:   
 Type:   Land
@@ -2766,7 +2850,7 @@ Cost:   5WW
 Type:   Creature — Angel
 Pow/Tgh:    (5/5)
 Rules Text:     Flying, vigilance
-Set/Rarity:     Starter 1999 Rare, Classic Sixth Edition Rare, Portal Second Age Rare, Portal Rare, Visions Rare
+Set/Rarity:     Avacyn Restored Uncommon, Starter 1999 Rare, Classic Sixth Edition Rare, Portal Second Age Rare, Portal Rare, Visions Rare
 
 Name:   Archangel of Strife
 Cost:   5WW
@@ -2857,6 +2941,14 @@ Pow/Tgh:    (3/4)
 Rules Text:     Flying
 Whenever Archon of Redemption or another creature with flying enters the battlefield under your control, you may gain life equal to that creature's power.
 Set/Rarity:     Worldwake Rare
+
+Name:   Archwing Dragon
+Cost:   2RR
+Type:   Creature — Dragon
+Pow/Tgh:    (4/4)
+Rules Text:     Flying, haste
+At the beginning of the end step, return Archwing Dragon to its owner's hand.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Arctic Flats
 Cost:   
@@ -4091,6 +4183,14 @@ Type:   Creature — Human Monk
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Add {W} to your mana pool.
 Set/Rarity:     Innistrad Common
+
+Name:   Avacyn, Angel of Hope
+Cost:   5WWW
+Type:   Legendary Creature — Angel
+Pow/Tgh:    (8/8)
+Rules Text:     Flying, vigilance
+Avacyn, Angel of Hope and other permanents you control are indestructible.
+Set/Rarity:     Avacyn Restored Mythic Rare
 
 Name:   Avacynian Priest
 Cost:   1W

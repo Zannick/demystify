@@ -433,6 +433,7 @@ tokens {
     MINE;
     MINIMUM;
     MINUS;
+    MIRACLE;
     MODULAR;
     MONOCOLORED;
     MORE;
@@ -493,6 +494,8 @@ tokens {
     OWNER_POSS;
     OWNING;
     PAID;
+    PAIR;
+    PAIRED;
     PART;
     PAY;
     PAYING;
@@ -648,6 +651,7 @@ tokens {
     SOME;
     SORCERY;
     SORCERY_POSS;
+    SOULBOND;
     SOULSHIFT;
     SOURCE;
     SOURCE_POSS;
@@ -759,6 +763,7 @@ tokens {
     UNEARTH;
     UNEARTHED;
     UNLESS;
+    UNPAIRED;
     UNTAP;
     UNTAPPED;
     UNTAPPING;
@@ -1430,6 +1435,7 @@ OBJ_COUNTER : 'intervention'
             | 'vitality'
             | 'bribery'
             | 'carrion'
+            | 'despair'
             | 'eyeball'
             | 'feather'
             | 'healing'
@@ -2271,6 +2277,7 @@ SELECTED : 'selected';
 SEPARATE : 'separates'
          | 'separate';
 SHUFFLED : 'shuffled';
+SOULBOND : 'soulbond';
 STARTING : 'starting';
 SUNBURST : 'sunburst';
 SWITCHED : 'switched';
@@ -2284,6 +2291,7 @@ TOP_POSS : 'top\'s'
 TRAMPLED : 'trampled';
 UNATTACH : 'unattaches'
          | 'unattach';
+UNPAIRED : 'unpaired';
 UNTAPPED : 'untapped';
 VANGUARD : 'vanguards'
          | 'vanguard';
@@ -2361,6 +2369,7 @@ LOYALTY : 'loyalty';
 MADNESS : 'madness';
 MAXIMUM : 'maximum';
 MINIMUM : 'minimum';
+MIRACLE : 'miracle';
 MODULAR : 'modular';
 ONGOING : 'ongoing';
 OPENING : 'opening';
@@ -2513,6 +2522,7 @@ NUMBER : 'numbers'
 OBJECT : 'objects'
        | 'object';
 OWNING : 'owning';
+PAIRED : 'paired';
 PAYING : 'paying';
 PHASED : 'phased';
 PLACED : 'placed';
@@ -2814,6 +2824,8 @@ ONLY : 'only';
 ONTO : 'onto';
 OVER : 'over';
 PAID : 'paid';
+PAIR : 'pairs'
+     | 'pair';
 PART : 'part';
 PILE : 'piles'
      | 'pile';

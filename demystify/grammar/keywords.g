@@ -83,6 +83,7 @@ keyword_no_args : DEATHTOUCH
                 | REBOUND
                 | RETRACE
                 | SHADOW
+                | SOULBOND
                 | SPLIT_SECOND
                 | STORM
                 | SUNBURST
@@ -154,6 +155,7 @@ keyword_cost : ( EQUIP
                | FLASHBACK
                | FORTIFY
                | MADNESS
+               | MIRACLE
                | MORPH
                | MULTIKICKER
                | NINJUTSU

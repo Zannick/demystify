@@ -1106,6 +1106,13 @@ Pow/Tgh:
 Rules Text:     Whenever a player taps an Island for mana, Scald deals 1 damage to that player.
 Set/Rarity:     Urza's Saga Uncommon
 
+Name:   Scalding Devil
+Cost:   1R
+Type:   Creature — Devil
+Pow/Tgh:    (1/1)
+Rules Text:     {2}{R}: Scalding Devil deals 1 damage to target player.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Scalding Salamander
 Cost:   2R
 Type:   Creature — Salamander
@@ -1732,6 +1739,14 @@ Pow/Tgh:
 Rules Text:     Whenever an artifact or enchantment is put into your graveyard from the battlefield, you gain 1 life.
 Set/Rarity:     Urza's Legacy Rare
 
+Name:   Scrapskin Drake
+Cost:   2U
+Type:   Creature — Zombie Drake
+Pow/Tgh:    (2/3)
+Rules Text:     Flying
+Scrapskin Drake can block only creatures with flying.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Scrapyard Salvo
 Cost:   1RR
 Type:   Sorcery
@@ -1860,6 +1875,20 @@ Type:   Creature — Merfolk Rogue
 Pow/Tgh:    (1/3)
 Rules Text:     Whenever Scroll Thief deals combat damage to a player, draw a card.
 Set/Rarity:     Magic 2011 Common
+
+Name:   Scroll of Avacyn
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {1}, Sacrifice Scroll of Avacyn: Draw a card. If you control an Angel, you gain 5 life.
+Set/Rarity:     Avacyn Restored Common
+
+Name:   Scroll of Griselbrand
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {1}, Sacrifice Scroll of Griselbrand: Target opponent discards a card. If you control a Demon, that player loses 3 life.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Scroll of Origins
 Cost:   2
@@ -2174,6 +2203,14 @@ Rules Text:     Search your library for a basic land card and put it onto the ba
 Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Set/Rarity:     Planechase Common, Time Spiral Common
 
+Name:   Searchlight Geist
+Cost:   2B
+Type:   Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+{3}{B}: Searchlight Geist gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Searing Blaze
 Cost:   RR
 Type:   Instant
@@ -2319,6 +2356,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, if you have 5 or less life, sacrifice Second Chance and take an extra turn after this one.
 Set/Rarity:     Urza's Legacy Rare
+
+Name:   Second Guess
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell that's the second spell cast this turn.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Second Sight
 Cost:   2U
@@ -2895,6 +2939,23 @@ Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Whenever a creature dealt damage by Seraph this turn dies, put that card onto the battlefield under your control at the beginning of the next end step. Sacrifice the creature when you lose control of Seraph.
 Set/Rarity:     Masters Edition Rare, Fifth Edition Rare, Ice Age Rare
+
+Name:   Seraph Sanctuary
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     When Seraph Sanctuary enters the battlefield, you gain 1 life.
+Whenever an Angel enters the battlefield under your control, you gain 1 life.
+{T}: Add {1} to your mana pool.
+Set/Rarity:     Avacyn Restored Common
+
+Name:   Seraph of Dawn
+Cost:   2WW
+Type:   Creature — Angel
+Pow/Tgh:    (2/4)
+Rules Text:     Flying
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Serendib Djinn
 Cost:   2UU
@@ -3792,6 +3853,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Basic lands each player controls have shroud as long as that player controls three or fewer lands. (They can't be the targets of spells or abilities.)
 Set/Rarity:     Prophecy Rare
+
+Name:   Sheltering Word
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you control gains hexproof until end of turn. You gain life equal to that creature's toughness. (A creature with hexproof can't be the target of spells or abilities opponents control.)
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Sheoldred, Whispering One
 Cost:   5BB
@@ -4767,6 +4835,14 @@ Rules Text:     Draw two cards, then discard a card.
 If you've cast a spell named Peer Through Depths and a spell named Reach Through Mists this turn, you may search your library for a card named The Unspeakable, put it onto the battlefield, then shuffle your library.
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Sigarda, Host of Herons
+Cost:   2GWW
+Type:   Legendary Creature — Angel
+Pow/Tgh:    (5/5)
+Rules Text:     Flying, hexproof
+Spells and abilities your opponents control can't cause you to sacrifice permanents.
+Set/Rarity:     Avacyn Restored Mythic Rare
+
 Name:   Sighted-Caste Sorcerer
 Cost:   1W
 Type:   Creature — Human Wizard
@@ -5063,6 +5139,14 @@ Type:   Creature — Ape
 Pow/Tgh:    (5/5)
 Rules Text:     
 Set/Rarity:     Eighth Edition Uncommon, Starter 1999 Uncommon
+
+Name:   Silverblade Paladin
+Cost:   1WW
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/2)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Silverblade Paladin is paired with another creature, both creatures have double strike.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Silverchase Fox
 Cost:   1W
@@ -6380,6 +6464,14 @@ Pow/Tgh:    (3/2)
 Rules Text:     When Slayer of the Wicked enters the battlefield, you may destroy target Vampire, Werewolf, or Zombie.
 Set/Rarity:     Innistrad Uncommon
 
+Name:   Slayers' Stronghold
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Sleep
 Cost:   2UU
 Type:   Sorcery
@@ -6891,6 +6983,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Metalcraft — Snapsail Glider has flying as long as you control three or more artifacts.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Snare the Skies
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +1/+1 and gains reach until end of turn. (It can block creatures with flying.)
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Snarling Undorak
 Cost:   2GG
 Type:   Creature — Beast
@@ -7341,6 +7440,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Forestwalk (This creature is unblockable as long as defending player controls a Forest.)
 Set/Rarity:     Dark Ascension Common
 
+Name:   Somberwald Sage
+Cost:   2G
+Type:   Creature — Human Druid
+Pow/Tgh:    (0/1)
+Rules Text:     {T}: Add three mana of any one color to your mana pool. Spend this mana only to cast creature spells.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Somberwald Spider
 Cost:   4G
 Type:   Creature — Spider
@@ -7348,6 +7454,13 @@ Pow/Tgh:    (2/4)
 Rules Text:     Reach (This creature can block creatures with flying.)
 Morbid — Somberwald Spider enters the battlefield with two +1/+1 counters on it if a creature died this turn.
 Set/Rarity:     Innistrad Common
+
+Name:   Somberwald Vigilante
+Cost:   R
+Type:   Creature — Human Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever Somberwald Vigilante becomes blocked by a creature, Somberwald Vigilante deals 1 damage to that creature.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Somnomancer
 Cost:   1(W/U)
@@ -7858,6 +7971,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, Soul of Magma deals 1 damage to target creature.
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Soul of the Harvest
+Cost:   4GG
+Type:   Creature — Elemental
+Pow/Tgh:    (6/6)
+Rules Text:     Trample
+Whenever another nontoken creature enters the battlefield under your control, you may draw a card.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Soul's Attendant
 Cost:   W
 Type:   Creature — Human Cleric
@@ -7914,6 +8035,13 @@ Type:   Creature — Elemental Shaman
 Pow/Tgh:    (2/1)
 Rules Text:     {2}: Target creature gains trample until end of turn. If this is the third time this ability has resolved this turn, you may add {R}{R}{R}{R}{R}{R}{R}{R} to your mana pool.
 Set/Rarity:     Duel Decks: Jace vs. Chandra Common, Lorwyn Common
+
+Name:   Soulcage Fiend
+Cost:   1BB
+Type:   Creature — Demon
+Pow/Tgh:    (3/2)
+Rules Text:     When Soulcage Fiend dies, each player loses 3 life.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Soulcatcher
 Cost:   1W
@@ -8244,6 +8372,14 @@ Rules Text:     Trample
 Whenever Spectral Force attacks, if defending player controls no black permanents, it doesn't untap during your next untap step.
 Set/Rarity:     Time Spiral Rare
 
+Name:   Spectral Gateguards
+Cost:   4W
+Type:   Creature — Spirit Soldier
+Pow/Tgh:    (2/5)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Spectral Gateguards is paired with another creature, both creatures have vigilance.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Spectral Guardian
 Cost:   2WW
 Type:   Creature — Spirit
@@ -8258,6 +8394,15 @@ Pow/Tgh:    (2/1)
 Rules Text:     Protection from green
 {B}: Regenerate Spectral Lynx.
 Set/Rarity:     Apocalypse Rare
+
+Name:   Spectral Prison
+Cost:   1U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature doesn't untap during its controller's untap step.
+When enchanted creature becomes the target of a spell, sacrifice Spectral Prison.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Spectral Procession
 Cost:   (2/W)(2/W)(2/W)
@@ -9006,6 +9151,15 @@ Pow/Tgh:    (3/5)
 Rules Text:     Defender
 Metalcraft — As long as you control three or more artifacts, Spire Serpent gets +2/+2 and can attack as though it didn't have defender.
 Set/Rarity:     Mirrodin Besieged Common
+
+Name:   Spirit Away
+Cost:   5UU
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+You control enchanted creature.
+Enchanted creature gets +2/+2 and has flying.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Spirit Cairn
 Cost:   2W
@@ -10398,6 +10552,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     {T}: Target creature gets +2/+2 until end of turn. Activate this ability only during your turn, before attackers are declared.
 Set/Rarity:     Portal Rare
 
+Name:   Stern Mentor
+Cost:   3U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Stern Mentor is paired with another creature, each of those creatures has "{T}: Target player puts the top two cards of his or her library into his or her graveyard."
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Stern Proctor
 Cost:   UU
 Type:   Creature — Human Wizard
@@ -10595,6 +10757,13 @@ Rules Text:     Metalcraft — Stoic Rebuttal costs {1} less to cast if you cont
 Counter target spell.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Stolen Goods
+Cost:   3U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Stolen Grain
 Cost:   4BB
 Type:   Sorcery
@@ -10790,6 +10959,14 @@ Type:   Artifact Creature — Cat Ally
 Pow/Tgh:    (2/2)
 Rules Text:     
 Set/Rarity:     Zendikar Common
+
+Name:   Stonewright
+Cost:   R
+Type:   Creature — Human Shaman
+Pow/Tgh:    (1/1)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Stonewright is paired with another creature, each of those creatures has "{R}: This creature gets +1/+0 until end of turn."
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Stony Silence
 Cost:   1W
@@ -12442,7 +12619,7 @@ Cost:
 Type:   Basic Land — Swamp
 Pow/Tgh:    
 Rules Text:     B
-Set/Rarity:     Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Swamp Mosquito
 Cost:   1B

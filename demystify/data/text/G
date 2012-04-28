@@ -168,6 +168,21 @@ Rules Text:     Flying
 Other Spirit creatures you control get +0/+1.
 Set/Rarity:     Innistrad Uncommon
 
+Name:   Gallows at Willow Hill
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {3}, {T}, Tap three untapped Humans you control: Destroy target creature. Its controller puts a 1/1 white Spirit creature token with flying onto the battlefield.
+Set/Rarity:     Avacyn Restored Rare
+
+Name:   Galvanic Alchemist
+Cost:   2U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/4)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Galvanic Alchemist is paired with another creature, each of those creatures has "{2}{U}: Untap this creature."
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Galvanic Arc
 Cost:   2R
 Type:   Enchantment — Aura
@@ -244,6 +259,13 @@ Type:   Creature — Elf
 Pow/Tgh:    (2/2)
 Rules Text:     When Gamekeeper dies, you may exile it. If you do, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and put all other cards revealed this way into your graveyard.
 Set/Rarity:     Urza's Destiny Uncommon
+
+Name:   Gang of Devils
+Cost:   5R
+Type:   Creature — Devil
+Pow/Tgh:    (3/3)
+Rules Text:     When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Gang of Elk
 Cost:   5G
@@ -528,6 +550,21 @@ Pow/Tgh:
 Rules Text:     ({(b/g)} can be paid with either {B} or {G}.)
 Regenerate target creature. At end of combat, destroy all creatures that blocked or were blocked by that creature this turn.
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Geist Snatch
+Cost:   2UU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target creature spell. Put a 1/1 blue Spirit creature token with flying onto the battlefield.
+Set/Rarity:     Avacyn Restored Common
+
+Name:   Geist Trappers
+Cost:   4G
+Type:   Creature — Human Warrior
+Pow/Tgh:    (3/5)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Geist Trappers is paired with another creature, both creatures have reach.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Geist of Saint Traft
 Cost:   1WU
@@ -1102,6 +1139,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     All Slivers are colorless.
 Set/Rarity:     Time Spiral Uncommon
 
+Name:   Ghostform
+Cost:   1U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Up to two target creatures are unblockable this turn.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Ghosthelm Courier
 Cost:   2U
 Type:   Creature — Human Wizard
@@ -1125,6 +1169,13 @@ Pow/Tgh:
 Rules Text:     Black and/or red permanents and spells are colorless sources of damage.
 Set/Rarity:     Ice Age Rare
 
+Name:   Ghostly Flicker
+Cost:   2U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Exile two target artifacts, creatures, and/or lands you control, then return those cards to the battlefield under your control.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Ghostly Possession
 Cost:   2W
 Type:   Enchantment — Aura
@@ -1140,6 +1191,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Champions of Kamigawa Uncommon
+
+Name:   Ghostly Touch
+Cost:   1U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "Whenever this creature attacks, you may tap or untap target permanent."
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Ghostly Visit
 Cost:   2B
@@ -1198,6 +1257,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Choose one — Return target creature card from your graveyard to your hand; or return two target Zombie cards from your graveyard to your hand.
 Set/Rarity:     Innistrad Common
+
+Name:   Ghoulflesh
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -1/-1 and is a black Zombie in addition to its other colors and types.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Ghoulraiser
 Cost:   1BB
@@ -1584,6 +1651,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 {T}: Destroy target creature that dealt damage to you this turn.
 Set/Rarity:     Conflux Rare
+
+Name:   Gisela, Blade of Goldnight
+Cost:   4RWW
+Type:   Legendary Creature — Angel
+Pow/Tgh:    (5/5)
+Rules Text:     Flying, first strike
+If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
+Set/Rarity:     Avacyn Restored Mythic Rare
 
 Name:   Gitaxian Probe
 Cost:   (U/P)
@@ -1981,6 +2057,13 @@ Rules Text:     White spells cost {3} more to cast.
 Activated abilities of white enchantments cost {3} more to activate.
 Set/Rarity:     Masters Edition IV Rare, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
+Name:   Gloom Surgeon
+Cost:   1B
+Type:   Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     If combat damage would be dealt to Gloom Surgeon, prevent that damage and exile that many cards from the top of your library.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Gloomdrifter
 Cost:   3B
 Type:   Creature — Zombie Minion
@@ -2009,7 +2092,7 @@ Type:   Creature — Spider
 Pow/Tgh:    (3/3)
 Rules Text:     Reach
 Gloomwidow can block only creatures with flying.
-Set/Rarity:     Shadowmoor Uncommon
+Set/Rarity:     Avacyn Restored Uncommon, Shadowmoor Uncommon
 
 Name:   Gloomwidow's Feast
 Cost:   3G
@@ -3189,6 +3272,21 @@ Pow/Tgh:    (2/2)
 Rules Text:     As an additional cost to cast Goldmeadow Stalwart, reveal a Kithkin card from your hand or pay {3}.
 Set/Rarity:     Lorwyn Uncommon
 
+Name:   Goldnight Commander
+Cost:   3W
+Type:   Creature — Human Cleric Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.
+Set/Rarity:     Avacyn Restored Uncommon
+
+Name:   Goldnight Redeemer
+Cost:   4WW
+Type:   Creature — Angel
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+When Goldnight Redeemer enters the battlefield, you gain 2 life for each other creature you control.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Golem Artisan
 Cost:   5
 Type:   Artifact Creature — Golem
@@ -3699,6 +3797,13 @@ Pow/Tgh:    (2/1)
 Rules Text:     When Grave Defiler enters the battlefield, reveal the top four cards of your library. Put all Zombie cards revealed this way into your hand and the rest on the bottom of your library in any order.
 {1}{B}: Regenerate Grave Defiler.
 Set/Rarity:     Apocalypse Uncommon
+
+Name:   Grave Exchange
+Cost:   4BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target creature card from your graveyard to your hand. Target player sacrifices a creature.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Grave Pact
 Cost:   1BBB
@@ -4415,6 +4520,14 @@ Pow/Tgh:
 Rules Text:     Put target creature on top of its owner's library.
 Set/Rarity:     Dark Ascension Common
 
+Name:   Griselbrand
+Cost:   4BBBB
+Type:   Legendary Creature — Demon
+Pow/Tgh:    (7/7)
+Rules Text:     Flying, lifelink
+Pay 7 life: Draw seven cards.
+Set/Rarity:     Avacyn Restored Mythic Rare
+
 Name:   Gristle Grinner
 Cost:   4B
 Type:   Creature — Zombie
@@ -4580,6 +4693,14 @@ Rules Text:     Trample, haste
 At the beginning of the end step, sacrifice Groundbreaker.
 Set/Rarity:     Planar Chaos Rare
 
+Name:   Grounded
+Cost:   1G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature loses flying.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Groundling Pouncer
 Cost:   1(G/U)
 Type:   Creature — Faerie
@@ -4696,6 +4817,14 @@ Pow/Tgh:
 Rules Text:     Creatures you control have trample.
 {1}{R}{G}: Gruul War Plow becomes a 4/4 Juggernaut artifact creature until end of turn.
 Set/Rarity:     Guildpact Rare
+
+Name:   Gryff Vanguard
+Cost:   4U
+Type:   Creature — Human Knight
+Pow/Tgh:    (3/2)
+Rules Text:     Flying
+When Gryff Vanguard enters the battlefield, draw a card.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Guan Yu's 1,000-Li March
 Cost:   4WW
@@ -4885,6 +5014,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Whenever enchanted creature deals damage, Guilty Conscience deals that much damage to that creature.
 Set/Rarity:     Scourge Common
+
+Name:   Guise of Fire
+Cost:   R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +1/-1 and attacks each turn if able.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Gulf Squid
 Cost:   3U

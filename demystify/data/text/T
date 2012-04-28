@@ -354,6 +354,23 @@ Pow/Tgh:    (2/4)
 Rules Text:     Whenever a noncreature source you control deals damage, you gain that much life.
 Set/Rarity:     Coldsnap Rare
 
+Name:   Tamiyo, the Moon Sage
+Cost:   3UU
+Type:   Planeswalker — Tamiyo
+Loyalty:    (4)
+Rules Text:     +1: Tap target permanent. It doesn't untap during its controller's next untap step.
+-2: Draw a card for each tapped creature target player controls.
+-8: You get an emblem with "You have no maximum hand size" and "Whenever a card is put into your graveyard from anywhere, you may return it to your hand."
+Set/Rarity:     Avacyn Restored Mythic Rare
+
+Name:   Tandem Lookout
+Cost:   2U
+Type:   Creature — Human Scout
+Pow/Tgh:    (2/1)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Tandem Lookout is paired with another creature, each of those creatures has "Whenever this creature deals damage to an opponent, draw a card."
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Tangle
 Cost:   1G
 Type:   Instant
@@ -1190,6 +1207,14 @@ Pow/Tgh:
 Rules Text:     Take an extra turn after this one.
 Set/Rarity:     Masters Edition II Rare, Portal Second Age Rare
 
+Name:   Temporal Mastery
+Cost:   5UU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Take an extra turn after this one. Exile Temporal Mastery.
+Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Set/Rarity:     Avacyn Restored Mythic Rare
+
 Name:   Temporal Spring
 Cost:   1GU
 Type:   Sorcery
@@ -1333,6 +1358,14 @@ Pow/Tgh:
 Rules Text:     Destroy target creature. It can't be regenerated.
 Set/Rarity:     Magic: The Gathering-Commander Common, Archenemy Common, Alara Reborn Common, Planeshift Common
 
+Name:   Terminus
+Cost:   4WW
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put all creatures on the bottom of their owners' libraries.
+Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Teroh's Faithful
 Cost:   3W
 Type:   Creature — Human Cleric
@@ -1401,6 +1434,13 @@ Pow/Tgh:    (*/*)
 Rules Text:     Trample
 Terravore's power and toughness are each equal to the number of land cards in all graveyards.
 Set/Rarity:     Odyssey Rare
+
+Name:   Terrifying Presence
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent all combat damage that would be dealt by creatures other than target creature this turn.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Territorial Baloth
 Cost:   4G
@@ -1645,6 +1685,13 @@ Pow/Tgh:
 Rules Text:     {4}, {T}: Put a divinity counter on target permanent other than That Which Was Taken.
 Each permanent with a divinity counter on it is indestructible.
 Set/Rarity:     Betrayers of Kamigawa Rare
+
+Name:   Thatcher Revolt
+Cost:   2R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put three 1/1 red Human creature tokens with haste onto the battlefield. Sacrifice those tokens at the beginning of the next end step.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Thaumatog
 Cost:   1GW
@@ -2311,6 +2358,13 @@ Rules Text:     Vigilance
 Whenever another creature you control dies, you may transform Thraben Sentry.
 Set/Rarity:     Innistrad Common
 
+Name:   Thraben Valiant
+Cost:   1W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/1)
+Rules Text:     Vigilance
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Thran Dynamo
 Cost:   4
 Type:   Artifact
@@ -2655,7 +2709,7 @@ Cost:   1R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Thunderbolt deals 3 damage to target player; or Thunderbolt deals 4 damage to target creature with flying.
-Set/Rarity:     Premium Deck Series: Fire and Lightning Common, Beatdown Box Set Common, Weatherlight Common
+Set/Rarity:     Avacyn Restored Common, Premium Deck Series: Fire and Lightning Common, Beatdown Box Set Common, Weatherlight Common
 
 Name:   Thunderclap
 Cost:   2R
@@ -2720,6 +2774,14 @@ Rules Text:     Haste (This creature can attack the turn it comes under your con
 When Thundermare enters the battlefield, tap all other creatures.
 Set/Rarity:     Ninth Edition Rare, Weatherlight Rare, Portal Rare
 
+Name:   Thunderous Wrath
+Cost:   4RR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Thunderous Wrath deals 5 damage to target creature or player.
+Miracle {R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Thunderscape Apprentice
 Cost:   R
 Type:   Creature — Human Wizard
@@ -2776,6 +2838,15 @@ Rules Text:     You may return three Islands you control to their owner's hand r
 
 Counter target spell.
 Set/Rarity:     Mercadian Masques Uncommon
+
+Name:   Tibalt, the Fiend-Blooded
+Cost:   RR
+Type:   Planeswalker — Tibalt
+Loyalty:    (2)
+Rules Text:     +1: Draw a card, then discard a card at random.
+-4: Tibalt, the Fiend-Blooded deals damage equal to the number of cards in target player's hand to that player.
+-6: Gain control of all creatures until end of turn. Untap them. They gain haste until end of turn.
+Set/Rarity:     Avacyn Restored Mythic Rare
 
 Name:   Tibor and Lumia
 Cost:   2UR
@@ -2979,6 +3050,13 @@ Type:   Creature — Wolf
 Pow/Tgh:    (1/1)
 Rules Text:     Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+
+Name:   Timberland Guide
+Cost:   1G
+Type:   Creature — Human Scout
+Pow/Tgh:    (1/1)
+Rules Text:     When Timberland Guide enters the battlefield, put a +1/+1 counter on target creature.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Timberland Ruins
 Cost:   
@@ -3641,6 +3719,14 @@ Type:   Creature — Cleric
 Pow/Tgh:    (2/2)
 Rules Text:     When Tormentor Exarch enters the battlefield, choose one — Target creature gets +2/+0 until end of turn; or target creature gets -0/-2 until end of turn.
 Set/Rarity:     New Phyrexia Uncommon
+
+Name:   Tormentor's Trident
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +3/+0 and attacks each turn if able.
+Equip {3}
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Tormod's Crypt
 Cost:   0
@@ -4385,6 +4471,14 @@ Rules Text:     Enchant creature
 All damage that would be dealt to enchanted creature is dealt to its controller instead.
 Set/Rarity:     Urza's Legacy Uncommon
 
+Name:   Treacherous Pit-Dweller
+Cost:   BB
+Type:   Creature — Demon
+Pow/Tgh:    (4/3)
+Rules Text:     When Treacherous Pit-Dweller enters the battlefield from a graveyard, target opponent gains control of it.
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Treacherous Urge
 Cost:   4B
 Type:   Instant
@@ -4847,6 +4941,20 @@ Rules Text:     Triskelion enters the battlefield with three +1/+1 counters on i
 Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.
 Set/Rarity:     Magic 2011 Rare, Duel Decks: Elspeth vs. Tezzeret Rare, Mirrodin Rare, Fourth Edition Rare, Antiquities Rare
 
+Name:   Triumph of Cruelty
+Cost:   2B
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, target opponent discards a card if you control the creature with the greatest power or tied for the greatest power.
+Set/Rarity:     Avacyn Restored Uncommon
+
+Name:   Triumph of Ferocity
+Cost:   2G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, draw a card if you control the creature with the greatest power or tied for the greatest power.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Triumph of the Hordes
 Cost:   2GG
 Type:   Sorcery
@@ -4977,6 +5085,14 @@ Pow/Tgh:    (1/2)
 Rules Text:     Your maximum hand size is increased by two.
 At the beginning of your upkeep, return a blue creature you control to its owner's hand.
 Set/Rarity:     Saviors of Kamigawa Uncommon
+
+Name:   Trusted Forcemage
+Cost:   2G
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Trusted Forcemage is paired with another creature, each of those creatures gets +1/+1.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Trusty Machete
 Cost:   1
@@ -5406,6 +5522,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards his or her hand unless he or she pays 7 life.
 Set/Rarity:     Shadowmoor Rare
+
+Name:   Tyrant of Discord
+Cost:   4RRR
+Type:   Creature — Elemental
+Pow/Tgh:    (7/7)
+Rules Text:     When Tyrant of Discord enters the battlefield, target opponent chooses a permanent he or she controls at random and sacrifices it. If a nonland permanent is sacrificed this way, repeat this process.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Tyrranax
 Cost:   4GG

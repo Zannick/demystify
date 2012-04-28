@@ -6,6 +6,13 @@ Rules Text:     Horsemanship (This creature can't be blocked except by creatures
 Whenever Ma Chao, Western Warrior attacks alone, it's unblockable this combat.
 Set/Rarity:     Portal Three Kingdoms Rare
 
+Name:   Maalfeld Twins
+Cost:   5B
+Type:   Creature — Zombie
+Pow/Tgh:    (4/4)
+Rules Text:     When Maalfeld Twins dies, put two 2/2 black Zombie creature tokens onto the battlefield.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Macabre Waltz
 Cost:   1B
 Type:   Sorcery
@@ -42,6 +49,14 @@ Type:   Creature — Hound
 Pow/Tgh:    (2/2)
 Rules Text:     At the beginning of your end step, if Mad Dog didn't attack or come under your control this turn, sacrifice it.
 Set/Rarity:     Odyssey Common
+
+Name:   Mad Prophet
+Cost:   3R
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     Haste
+{T}, Discard a card: Draw a card.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Madblind Mountain
 Cost:   
@@ -618,6 +633,14 @@ Pow/Tgh:
 Rules Text:     Tap X target artifacts, creatures, and/or lands. You lose X life.
 Set/Rarity:     Planeshift Common
 
+Name:   Malicious Intent
+Cost:   1R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "{T}: Target creature can't block this turn."
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Malignant Growth
 Cost:   3GU
 Type:   Enchantment
@@ -626,6 +649,14 @@ Rules Text:     Cumulative upkeep {1} (At the beginning of your upkeep, put an a
 At the beginning of your upkeep, put a growth counter on Malignant Growth.
 At the beginning of each opponent's draw step, that player draws an additional card for each growth counter on Malignant Growth, then Malignant Growth deals damage to the player equal to the number of cards he or she drew this way.
 Set/Rarity:     Mirage Rare
+
+Name:   Malignus
+Cost:   3RR
+Type:   Creature — Elemental Spirit
+Pow/Tgh:    (*/*)
+Rules Text:     Malignus's power and toughness are each equal to half the highest life total among your opponents, rounded up.
+Damage that would be dealt by Malignus can't be prevented.
+Set/Rarity:     Avacyn Restored Mythic Rare
 
 Name:   Mammoth Harness
 Cost:   3G
@@ -1228,6 +1259,14 @@ Pow/Tgh:    (*/*)
 Rules Text:     Maro's power and toughness are each equal to the number of cards in your hand.
 Set/Rarity:     Ninth Edition Rare, Eighth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Mirage Rare
 
+Name:   Marrow Bats
+Cost:   4B
+Type:   Creature — Bat Skeleton
+Pow/Tgh:    (4/1)
+Rules Text:     Flying
+Pay 4 life: Regenerate Marrow Bats.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Marrow Chomper
 Cost:   3BG
 Type:   Creature — Zombie Lizard
@@ -1520,6 +1559,13 @@ Pow/Tgh:    (5/5)
 Rules Text:     Green creatures and white creatures have protection from Gorgons.
 Threshold — Masked Gorgon has protection from green and from white as long as seven or more cards are in your graveyard.
 Set/Rarity:     Judgment Rare
+
+Name:   Mass Appeal
+Cost:   2U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Draw a card for each Human you control.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Mass Calcify
 Cost:   5WW
@@ -2061,6 +2107,13 @@ Type:   Legendary Creature — Human Barbarian Soldier
 Pow/Tgh:    (4/4)
 Rules Text:     Other green creatures you control get +1/+1.
 Set/Rarity:     Masters Edition III Rare, Portal Three Kingdoms Rare
+
+Name:   Mental Agony
+Cost:   3B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player discards two cards and loses 2 life.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Mental Discipline
 Cost:   1UU
@@ -2604,6 +2657,13 @@ Rules Text:     Enchant creature
 Enchanted creature has "{B}: This creature gets +1/+1 until end of turn."
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Midnight Duelist
+Cost:   W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/2)
+Rules Text:     Protection from Vampires
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Midnight Guard
 Cost:   2W
 Type:   Creature — Human Soldier
@@ -2632,6 +2692,13 @@ Pow/Tgh:
 Rules Text:     At the beginning of your upkeep, you may put a verse counter on Midsummer Revel.
 {G}, Sacrifice Midsummer Revel: Put X 3/3 green Beast creature tokens onto the battlefield, where X is the number of verse counters on Midsummer Revel.
 Set/Rarity:     Urza's Saga Rare
+
+Name:   Midvast Protector
+Cost:   3W
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/3)
+Rules Text:     When Midvast Protector enters the battlefield, target creature you control gains protection from the color of your choice until end of turn.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Might Sliver
 Cost:   4G
@@ -3655,6 +3722,14 @@ Pow/Tgh:    (3/2)
 Rules Text:     Shroud (This creature can't be the target of spells or abilities.)
 Set/Rarity:     Magic 2010 Common
 
+Name:   Mist Raven
+Cost:   2UU
+Type:   Creature — Bird
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+When Mist Raven enters the battlefield, return target creature to its owner's hand.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Mist of Stagnation
 Cost:   3UU
 Type:   Enchantment
@@ -3783,6 +3858,14 @@ Pow/Tgh:    (1/3)
 Rules Text:     Creature spells you cast that share a creature type with Mistform Warchief cost {1} less to cast.
 {T}: Mistform Warchief becomes the creature type of your choice until end of turn.
 Set/Rarity:     Scourge Uncommon
+
+Name:   Misthollow Griffin
+Cost:   2UU
+Type:   Creature — Griffin
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+You may cast Misthollow Griffin from exile.
+Set/Rarity:     Avacyn Restored Mythic Rare
 
 Name:   Mistmeadow Skulk
 Cost:   1W
@@ -4470,6 +4553,14 @@ Pow/Tgh:
 Rules Text:     Look at the top five cards of your library. For each card, put that card into your graveyard unless you pay 2 life. Then put the rest into your hand.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
+Name:   Moonlight Geist
+Cost:   2W
+Type:   Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+{3}{W}: Prevent all combat damage that would be dealt to and dealt by Moonlight Geist this turn.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Moonlit Strider
 Cost:   3W
 Type:   Creature — Spirit
@@ -4519,6 +4610,15 @@ Rules Text:     Vigilance
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Moonscarred Werewolf.
 Set/Rarity:     Dark Ascension Common
 
+Name:   Moonsilver Spear
+Cost:   4
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has first strike.
+Whenever equipped creature attacks, put a 4/4 white Angel creature token with flying onto the battlefield.
+Equip {4}
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Moonveil Dragon
 Cost:   3RRR
 Type:   Creature — Dragon
@@ -4556,6 +4656,13 @@ Pow/Tgh:
 Rules Text:     {T}: Add {1} to your mana pool.
 {W}{U}, {T}, Exile a creature card from your graveyard: Put a 1/1 white Spirit creature token with flying onto the battlefield.
 Set/Rarity:     Innistrad Rare
+
+Name:   Moorland Inquisitor
+Cost:   1W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     {2}{W}: Moorland Inquisitor gains first strike until end of turn.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Morale
 Cost:   1WW
@@ -4896,7 +5003,7 @@ Cost:
 Type:   Basic Land — Mountain
 Pow/Tgh:    
 Rules Text:     R
-Set/Rarity:     Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Arabian Nights Common, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Arabian Nights Common, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Mountain Bandit
 Cost:   R

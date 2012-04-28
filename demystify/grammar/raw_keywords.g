@@ -71,6 +71,7 @@ raw_keyword : DEATHTOUCH
             | LEVEL UP -> LEVEL_UP[]
             | LIVING_WEAPON
             | MADNESS
+            | MIRACLE
             | MODULAR
             | MORPH
             | MULTIKICKER
@@ -89,6 +90,7 @@ raw_keyword : DEATHTOUCH
             | RETRACE
             | RIPPLE
             | SHADOW
+            | SOULBOND
             | SOULSHIFT
             | SPLICE
             | SPLIT_SECOND

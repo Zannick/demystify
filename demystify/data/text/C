@@ -322,6 +322,14 @@ Pow/Tgh:
 Rules Text:     Return target instant or sorcery card from your graveyard to your hand.
 Set/Rarity:     Magic 2011 Uncommon
 
+Name:   Call to Serve
+Cost:   1W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant nonblack creature
+Enchanted creature gets +1/+2, has flying, and is an Angel in addition to its other types.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Call to the Grave
 Cost:   4B
 Type:   Enchantment
@@ -646,6 +654,14 @@ Type:   Legendary Creature — Human Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     {T}: Search your library for a legendary card, reveal that card, and put it into your hand. Then shuffle your library.
 Set/Rarity:     From the Vault: Legends Mythic Rare, Invasion Rare
+
+Name:   Captain of the Mists
+Cost:   2U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/3)
+Rules Text:     Whenever another Human enters the battlefield under your control, untap Captain of the Mists.
+{1}{U}, {T}: You may tap or untap target permanent.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Captain of the Watch
 Cost:   4WW
@@ -1151,6 +1167,13 @@ Rules Text:     Each Goblin you control can't be blocked except by two or more c
 Each Elemental you control can't be blocked except by two or more creatures.
 Set/Rarity:     Lorwyn Common
 
+Name:   Cathars' Crusade
+Cost:   3WW
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature enters the battlefield under your control, put a +1/+1 counter on each creature you control.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Cathartic Adept
 Cost:   U
 Type:   Creature — Human Wizard
@@ -1166,6 +1189,13 @@ Rules Text:     ({(w/p)} can be paid with either {W} or 2 life.)
 Defender
 When Cathedral Membrane dies during combat, it deals 6 damage to each creature it blocked this combat.
 Set/Rarity:     New Phyrexia Uncommon
+
+Name:   Cathedral Sanctifier
+Cost:   W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/1)
+Rules Text:     When Cathedral Sanctifier enters the battlefield, you gain 3 life.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Cathedral of Serra
 Cost:   
@@ -1311,6 +1341,15 @@ Type:   Creature — Beast
 Pow/Tgh:    (5/5)
 Rules Text:     {1}{R}: Cavern Thoctar gets +1/+0 until end of turn.
 Set/Rarity:     Shards of Alara Common
+
+Name:   Cavern of Souls
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     As Cavern of Souls enters the battlefield, choose a creature type.
+{T}: Add {1} to your mana pool.
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Caverns of Despair
 Cost:   2RR
@@ -1917,6 +1956,14 @@ Type:   Creature — Human Knight
 Pow/Tgh:    (3/3)
 Rules Text:     Prevent all damage that would be dealt to Champion Lancer by creatures.
 Set/Rarity:     Masters Edition IV Rare, Starter 1999 Rare
+
+Name:   Champion of Lambholt
+Cost:   1GG
+Type:   Creature — Human Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     Creatures with power less than Champion of Lambholt's power can't block creatures you control.
+Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Champion of Lambholt.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Champion of the Parish
 Cost:   W
@@ -3618,6 +3665,13 @@ Rules Text:     Flying
 {U}, {T}, Discard a card: Put a 1/1 blue Faerie creature token named Cloud Sprite onto the battlefield. It has flying and "Cloud Sprite can block only creatures with flying."
 Set/Rarity:     Future Sight Uncommon
 
+Name:   Cloudshift
+Cost:   W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Exile target creature you control, then return that card to the battlefield under your control.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Cloudskate
 Cost:   1U
 Type:   Creature — Illusion
@@ -4060,6 +4114,14 @@ Rules Text:     Fear (This creature can't be blocked except by artifact creature
 When Commander Greven il-Vec enters the battlefield, sacrifice a creature.
 Set/Rarity:     Tempest Rare
 
+Name:   Commander's Authority
+Cost:   4W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "At the beginning of your upkeep, put a 1/1 white Human creature token onto the battlefield."
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Commando Raid
 Cost:   2R
 Type:   Instant
@@ -4283,6 +4345,13 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Conjurer's Bauble: Put up to one target card from your graveyard on the bottom of your library. Draw a card.
 Set/Rarity:     Fifth Dawn Common
+
+Name:   Conjurer's Closet
+Cost:   5
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Conquer
 Cost:   3RR
@@ -4855,6 +4924,13 @@ Rules Text:     As an additional cost to cast Corpse Lunge, exile a creature car
 Corpse Lunge deals damage equal to the exiled card's power to target creature.
 Set/Rarity:     Innistrad Common
 
+Name:   Corpse Traders
+Cost:   3B
+Type:   Creature — Human Rogue
+Pow/Tgh:    (3/3)
+Rules Text:     {2}{B}, Sacrifice a creature: Target opponent reveals his or her hand. You choose a card from it. That player discards that card. Activate this ability only any time you could cast a sorcery.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Corpsehatch
 Cost:   3BB
 Type:   Sorcery
@@ -5316,6 +5392,14 @@ Rules Text:     Echo {4}{R}{R} (At the beginning of your upkeep, if this came un
 When Crater Hellion enters the battlefield, it deals 4 damage to each other creature.
 Set/Rarity:     Urza's Saga Rare
 
+Name:   Craterhoof Behemoth
+Cost:   5GGG
+Type:   Creature — Beast
+Pow/Tgh:    (5/5)
+Rules Text:     Haste
+When Craterhoof Behemoth enters the battlefield, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.
+Set/Rarity:     Avacyn Restored Mythic Rare
+
 Name:   Craven Giant
 Cost:   2R
 Type:   Creature — Giant
@@ -5581,6 +5665,14 @@ Pow/Tgh:
 Rules Text:     Target creature becomes red and gains haste until end of turn.
 Draw a card.
 Set/Rarity:     Shadowmoor Common
+
+Name:   Crippling Chill
+Cost:   2U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Tap target creature. It doesn't untap during its controller's next untap step.
+Draw a card.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Crippling Fatigue
 Cost:   1BB
@@ -6025,7 +6117,7 @@ Cost:   1B
 Type:   Creature — Zombie
 Pow/Tgh:    (2/1)
 Rules Text:     Sacrifice Crypt Creeper: Exile target card from a graveyard.
-Set/Rarity:     Odyssey Common
+Set/Rarity:     Avacyn Restored Common, Odyssey Common
 
 Name:   Crypt Rats
 Cost:   2B
@@ -6446,6 +6538,13 @@ Pow/Tgh:
 Rules Text:     Enchant player
 At the beginning of enchanted player's upkeep, Curse of the Pierced Heart deals 1 damage to that player.
 Set/Rarity:     Innistrad Common
+
+Name:   Cursebreak
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target enchantment. You gain 2 life.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Cursecatcher
 Cost:   U

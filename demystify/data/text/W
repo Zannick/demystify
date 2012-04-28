@@ -660,6 +660,13 @@ Pow/Tgh:
 Rules Text:     Domain — You gain 2 life for each basic land type among lands you control.
 Set/Rarity:     Invasion Common
 
+Name:   Wandering Wolf
+Cost:   1G
+Type:   Creature — Wolf
+Pow/Tgh:    (2/1)
+Rules Text:     Creatures with power less than Wandering Wolf's power can't block it.
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Wanderlust
 Cost:   2G
 Type:   Enchantment — Aura
@@ -1986,6 +1993,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Haste
 Set/Rarity:     Urza's Destiny Common
 
+Name:   Wild Defiance
+Cost:   2G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature you control becomes the target of an instant or sorcery spell, that creature gets +3/+3 until end of turn.
+Set/Rarity:     Avacyn Restored Rare
+
 Name:   Wild Dogs
 Cost:   G
 Type:   Creature — Hound
@@ -2187,6 +2201,13 @@ Type:   Creature — Elf Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     Wither (This deals damage to creatures in the form of -1/-1 counters.)
 Set/Rarity:     Shadowmoor Common
+
+Name:   Wildwood Geist
+Cost:   4G
+Type:   Creature — Spirit
+Pow/Tgh:    (3/3)
+Rules Text:     Wildwood Geist gets +2/+2 as long as it's your turn.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Will-o'-the-Wisp
 Cost:   B
@@ -2487,6 +2508,14 @@ Rules Text:     Flying
 Morph {2}{W} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Wingbeat Warrior is turned face up, target creature gains first strike until end of turn.
 Set/Rarity:     Legions Common
+
+Name:   Wingcrafter
+Cost:   U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Wingcrafter is paired with another creature, both creatures have flying.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Winged Coatl
 Cost:   1GU
@@ -2974,6 +3003,22 @@ Pow/Tgh:
 Rules Text:     Equipped creature has "{T}: This creature deals 1 damage to target creature or player" and "{T}: This creature deals 3 damage to target Werewolf creature."
 Equip {5}
 Set/Rarity:     Dark Ascension Uncommon
+
+Name:   Wolfir Avenger
+Cost:   1GG
+Type:   Creature — Wolf Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+{1}{G}: Regenerate Wolfir Avenger.
+Set/Rarity:     Avacyn Restored Uncommon
+
+Name:   Wolfir Silverheart
+Cost:   3GG
+Type:   Creature — Wolf Warrior
+Pow/Tgh:    (4/4)
+Rules Text:     Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
+As long as Wolfir Silverheart is paired with another creature, each of those creatures gets +4/+4.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Wolverine Pack
 Cost:   2GG

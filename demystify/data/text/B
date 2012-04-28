@@ -420,12 +420,27 @@ Pow/Tgh:
 Rules Text:     Until end of turn, target creature gains "{T}: Return target nonland permanent to its owner's hand."
 Set/Rarity:     Eventide Common
 
+Name:   Banishing Stroke
+Cost:   5W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put target artifact, creature, or enchantment on the bottom of its owner's library.
+Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Banishment Decree
 Cost:   3WW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Put target artifact, creature, or enchantment on top of its owner's library.
 Set/Rarity:     Mirrodin Besieged Common
+
+Name:   Banners Raised
+Cost:   R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures you control get +1/+0 until end of turn.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Banshee
 Cost:   2BB
@@ -798,7 +813,7 @@ Cost:   2BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Each player sacrifices two creatures.
-Set/Rarity:     Duel Decks: Divine vs. Demonic Uncommon, Mirrodin Uncommon
+Set/Rarity:     Avacyn Restored Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Mirrodin Uncommon
 
 Name:   Baru, Fist of Krosa
 Cost:   3GG
@@ -977,6 +992,13 @@ Type:   Creature — Giant
 Pow/Tgh:    (3/3)
 Rules Text:     First strike
 Set/Rarity:     Worldwake Common
+
+Name:   Battle Hymn
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Add {R} to your mana pool for each creature you control.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Battle Mastery
 Cost:   2W
@@ -1993,6 +2015,15 @@ Pow/Tgh:    (3/3)
 Rules Text:     Metalcraft — When Blade-Tribe Berserkers enters the battlefield, if you control three or more artifacts, Blade-Tribe Berserkers gets +3/+3 and gains haste until end of turn.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Bladed Bracers
+Cost:   1
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +1/+1.
+As long as equipped creature is a Human or an Angel, it has vigilance.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Avacyn Restored Common
+
 Name:   Bladed Pinions
 Cost:   2
 Type:   Artifact — Equipment
@@ -2263,6 +2294,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +1/+1 for each of its colors.
 Set/Rarity:     Dissension Uncommon
+
+Name:   Blessings of Nature
+Cost:   4G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Distribute four +1/+1 counters among any number of target creatures.
+Miracle {G} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Blight
 Cost:   BB
@@ -2588,6 +2627,13 @@ Pow/Tgh:
 Rules Text:     {1}{R}, Sacrifice Blockbuster: Blockbuster deals 3 damage to each tapped creature and each player.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
+Name:   Blood Artist
+Cost:   1B
+Type:   Creature — Vampire
+Pow/Tgh:    (0/1)
+Rules Text:     Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
+Set/Rarity:     Avacyn Restored Uncommon
+
 Name:   Blood Celebrant
 Cost:   B
 Type:   Creature — Human Cleric
@@ -2834,6 +2880,13 @@ Type:   Creature — Kavu
 Pow/Tgh:    (2/2)
 Rules Text:     {R}, Sacrifice Bloodfire Kavu: Bloodfire Kavu deals 2 damage to each creature.
 Set/Rarity:     Apocalypse Uncommon
+
+Name:   Bloodflow Connoisseur
+Cost:   2B
+Type:   Creature — Vampire
+Pow/Tgh:    (1/1)
+Rules Text:     Sacrifice a creature: Put a +1/+1 counter on Bloodflow Connoisseur.
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Bloodghast
 Cost:   BB
@@ -3555,7 +3608,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     As an additional cost to cast Bone Splinters, sacrifice a creature.
 Destroy target creature.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Avacyn Restored Common, Shards of Alara Common
 
 Name:   Bone to Ash
 Cost:   2UU
@@ -3625,6 +3678,14 @@ Type:   Creature — Wurm
 Pow/Tgh:    (*/*)
 Rules Text:     Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.
 Set/Rarity:     Innistrad Uncommon
+
+Name:   Bonfire of the Damned
+Cost:   XXR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Bonfire of the Damned deals X damage to target player and each creature he or she controls.
+Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+Set/Rarity:     Avacyn Restored Mythic Rare
 
 Name:   Booby Trap
 Cost:   6
@@ -3712,7 +3773,7 @@ Cost:   2G
 Type:   Creature — Human Scout
 Pow/Tgh:    (2/2)
 Rules Text:     When Borderland Ranger enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Avacyn Restored Common, Magic 2010 Common
 
 Name:   Boreal Centaur
 Cost:   1G
@@ -3933,6 +3994,13 @@ Pow/Tgh:
 Rules Text:     You may exile a green card from your hand rather than pay Bounty of the Hunt's mana cost.
 Distribute three +1/+1 counters among one, two, or three target creatures. For each +1/+1 counter you put on a creature this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step.
 Set/Rarity:     Masters Edition II Rare, Alliances Uncommon
+
+Name:   Bower Passage
+Cost:   1G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Creatures with flying can't block creatures you control.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Brace for Impact
 Cost:   4W
@@ -4756,6 +4824,14 @@ Pow/Tgh:
 Rules Text:     {2}{U}{U}: Look at the top five cards of your library, put one of them into your hand, and exile the rest.
 Set/Rarity:     Masters Edition II Uncommon, Classic Sixth Edition Uncommon, Alliances Uncommon
 
+Name:   Bruna, Light of Alabaster
+Cost:   3WWU
+Type:   Legendary Creature — Angel
+Pow/Tgh:    (5/5)
+Rules Text:     Flying, vigilance
+Whenever Bruna, Light of Alabaster attacks or blocks, you may attach to it any number of Auras on the battlefield and you may put onto the battlefield attached to it any number of Aura cards that could enchant it from your graveyard and/or hand.
+Set/Rarity:     Avacyn Restored Mythic Rare
+
 Name:   Brush with Death
 Cost:   2B
 Type:   Sorcery
@@ -4864,6 +4940,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy X target artifacts. Builder's Bane deals damage to each player equal to the number of artifacts he or she controlled put into a graveyard this way.
 Set/Rarity:     Mirage Common
+
+Name:   Builder's Blessing
+Cost:   3W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Untapped creatures you control get +0/+2.
+Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Bull Aurochs
 Cost:   1G
@@ -4976,6 +5059,14 @@ Pow/Tgh:
 Rules Text:     Burn Trail deals 3 damage to target creature or player.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
 Set/Rarity:     Shadowmoor Common
+
+Name:   Burn at the Stake
+Cost:   2RRR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     As an additional cost to cast Burn at the Stake, tap any number of untapped creatures you control.
+Burn at the Stake deals damage to target creature or player equal to three times the number of creatures tapped this way.
+Set/Rarity:     Avacyn Restored Rare
 
 Name:   Burn the Impure
 Cost:   1R
@@ -5169,6 +5260,13 @@ Type:   Legendary Creature — Human Samurai
 Pow/Tgh:    (3/4)
 Rules Text:     Double strike; bushido 2 (When this blocks or becomes blocked, it gets +2/+2 until end of turn.)
 Set/Rarity:     Champions of Kamigawa Uncommon
+
+Name:   Butcher Ghoul
+Cost:   1B
+Type:   Creature — Zombie
+Pow/Tgh:    (1/1)
+Rules Text:     Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
+Set/Rarity:     Avacyn Restored Common
 
 Name:   Butcher Orgg
 Cost:   4RRR
