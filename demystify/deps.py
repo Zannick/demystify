@@ -78,6 +78,7 @@ colors = {
     'players.g': 'blue',
     'properties.g': 'greenyellow',
     'pt.g': 'seagreen',
+    'raw_keywords.g': 'chocolate',
     'subsets.g': 'skyblue',
     'types.g': 'lightgray',
     'zones.g': 'green',

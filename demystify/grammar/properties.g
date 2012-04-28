@@ -109,9 +109,12 @@ descriptor : named
            | own
            | cast
            | in_zones
+           | with_keywords
            ;
 
-named : NAMED^ REFBYNAME;
+named : NOT? NAMED REFBYNAME
+        -> {$NOT}? ^( NOT ^( NAMED[] REFBYNAME ) )
+        -> ^( NAMED[] REFBYNAME );
 
 control : player_subset DONT? CONTROL
           -> {$DONT}? ^( NOT ^( CONTROL[] player_subset ) )
@@ -125,6 +128,10 @@ cast : player_subset DONT? CAST
 
 in_zones : IN zone_subset -> ^( IN[] zone_subset )
          | FROM zone_subset -> ^( IN zone_subset );
+
+with_keywords : WITH raw_keywords -> ^( KEYWORDS raw_keywords )
+              | WITHOUT raw_keywords -> ^( NOT ^( KEYWORDS raw_keywords ) )
+              ;
 
 /* Special references to related objects. */
 

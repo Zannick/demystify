@@ -39,3 +39,8 @@
 @keywords
 @lifelink, protection from converted mana cost 3 or greater
 @(KEYWORDS lifelink (protection (CMC (NUMBER (GEQ 3)))))
+
+@Roots
+@keywords
+@enchant creature without flying
+@(KEYWORDS (enchant (PROPERTIES creature (NOT (KEYWORDS flying)))))

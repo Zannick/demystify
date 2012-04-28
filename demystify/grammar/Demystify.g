@@ -11,7 +11,7 @@ options {
 // optional or repeated parts, where LL(1) can't correctly predict which rule
 // to use to parse the next tokens. See the graph output from deps.py.
 // Note further that rules in *this* file are handled as if imported last.
-import Words, keywords, costs, subsets, math, properties, counters, zones, types, players, pt, misc, macro;
+import Words, keywords, costs, subsets, math, properties, counters, zones, types, players, pt, raw_keywords, misc, macro;
 
 tokens {
     ADD_COUNTERS;
