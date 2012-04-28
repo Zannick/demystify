@@ -16,10 +16,16 @@ abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
+# We need to try the longer rarities first, so that eg. we don't get
+# 'Rare' when we want 'Mythic Rare'.
+rarities = sorted(['Common', 'Uncommon', 'Rare', 'Mythic Rare', 'Land',
+                   'Promo', 'Special', '"Timeshifted" Special'],
+                  key=len, reverse=True)
 
 all_names = {}
 all_names_inv = {}
 all_shortnames = {}
+cards_by_set = {}
 _all_cards = {}
 expect_multi = {}
 
@@ -174,7 +180,17 @@ class Card(object):
         self.color = color
         self.pt = pt
         self.rules = unicode(rules)
-        self.set_rarity = set_rarity
+        self.sets = set()
+        for s_r in set_rarity.split(', '):
+            for r in rarities:
+                if s_r.endswith(r):
+                    s = s_r[:-len(r) - 1]
+                    self.sets.add(s)
+                    break
+            else:
+                logger.error("Unknown set_rarity entry for {}: {}"
+                             .format(name, s_r))
+        self.sets = sorted(self.sets)
         # Check for split and flip cards
         self.multicard = self.multitype = None
         m = splitname.match(self.name)
@@ -232,6 +248,12 @@ class Card(object):
         all_names[self.name] = uname
         all_names_inv[uname] = self.name
         _all_cards[self.name] = self
+
+        for s in self.sets:
+            if s not in cards_by_set:
+                cards_by_set[s] = set([self.name])
+            else:
+                cards_by_set[s].add(self.name)
 
     @staticmethod
     def from_string(s):
@@ -636,6 +658,12 @@ def get_cards():
     """ Returns a set of all the Cards instantiated with the Card class. """
     return set(_all_cards.values())
 
+def get_card_set(setname):
+    """ Returns a set of all the Cards in the given set. """
+    if setname not in cards_by_set:
+        return set()
+    return set(_all_cards.get(cardname) for cardname in cards_by_set[setname])
+
 def get_card(cardname):
     """ Returns a specific card by name, or None if no such card exists. """
     cardname = unicode(cardname)
@@ -705,3 +733,13 @@ def matching_text(text, cards=None, reflags=re.I|re.U, group=0):
         for m in r.finditer(c.rules):
             a.add(m.group(group))
     return a
+
+def counter_types(cards=None):
+    """ Returns a list of counter types namd in the given cards. """
+    cwords = preceding_words('counter', cards=cards)
+    # Disallow punctuation, common words, and words about countering spells.
+    cwords = set(w for w in cwords if w and w[-1] not in u'—-,.:\'"')
+    common = set(['a', 'all', 'and', 'be', 'control', 'each', 'had', 'have',
+                  'is', 'may', 'more', 'of', 'or', 'spell', 'that', 'those',
+                  'was', 'with', 'would', 'x'])
+    return sorted(cwords - common)
