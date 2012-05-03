@@ -683,7 +683,9 @@ _planeswalker_types = [
     Keyword(("NISSA", "nissa")),
     Keyword(("SARKHAN", "sarkhan")),
     Keyword(("SORIN", "sorin")),
+    Keyword(("TAMIYO", "tamiyo")),
     Keyword(("TEZZERET", "tezzeret")),
+    Keyword(("TIBALT", "tibalt")),
     Keyword(("VENSER", "venser")),
 ]
 
