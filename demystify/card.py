@@ -309,7 +309,7 @@ class Card(object):
                 s.append('{}: {}'.format(c, v[c]))
         return '\n'.join(s)
 
-class CardWidget(progressbar.ProgressBarWidget):
+class CardWidget(progressbar.Widget):
     def __init__(self):
         self.current_card = ' '
 
