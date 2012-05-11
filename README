@@ -1,0 +1,143 @@
+Demystify
+A Magic: The Gathering Parser
+
+1) ABOUT
+
+Demystify is an attempt to make it possible for a computer to understand what
+general Magic: The Gathering cards do. It is currently written in a combination
+of ANTLR 3.4 and Python 2.7 (as unfortunately ANTLRv3 does not have a Python3
+target).
+
+2) INSTALLATION
+
+Demystify depends on the following libraries and/or programs, which you will
+need to have installed in order to build the parser and run Demystify.
+See INSTALL for more specific instructions.
+
+- Java 1.6.0 (or later)
+- ANTLR 3.4.1 (or later 3.4 release)
+- ANTLR 3 Python runtime 3.4 * (requires fix or download from github)
+- jpackage-utils 1.7.5 (or later)
+- Python 2.7
+- python-progressbar 2.3
+
+3) BUILDING
+
+To build the parser generator, you need to have the macro.g and Words.g grammar
+files up-to-date. If they don't exist, or demystify/keywords.py has changed,
+run
+    $ python demystify/keywords.py
+to regenerate them.
+
+Then, you need to run antlr3 on the grammar. If you've followed the instructions
+in INSTALL and gotten yourself an antlr3 script, all you need to do is:
+    $ cd demystify/grammar/
+    $ antlr3 Demystify.g
+If not, your commandline will look something like this (supposing your classpath
+is properly set):
+    $ cd demystify/grammar/
+    $ java org.antlr.Tool Demystify.g
+(Note that cd instruction; if you "antlr3 demystify/grammar/Demystify.g"
+ instead, you'll get the .py output files where they belong, but the .tokens
+ files are put in your working directory.)
+
+This takes a little while.
+
+If it worked (and it worked if all the output you received were of the form
+"warning(138): ... no start rule ...", and not "error(12345)" etc.),
+demystify/grammar/ should now contain a series of Demystify*.py
+files. These will be used by the main demystify.py script.
+
+If it doesn't work, and you're sure you installed antlr3 and java correctly,
+check that you followed instructions in INSTALL again. If antlr3 is actually
+giving grammar errors, please check the Issues tab in github for the issue
+or file a new bug.
+
+4) RUNNING
+
+The main entry point is the demystify.py script in the demystify/ folder.
+It currently offers three modes of running:
+
+load
+
+Loads the card data from demystify/data/text/ and performs preprocessing steps
+necessary before any lexing and parsing is done. With -i, opens an interactive
+prompt afterward, at which functions in demystify.py and card.py can be called.
+This is useful for actually invoking the parser, as well as doing special card
+searches using the utility functions in card.py.
+
+test
+
+Runs the tests (or a specific test) in demystify/tests/.
+
+update
+
+Mainly a convenience function for me, this grabs card data from Gatherer, fixes
+some textual oddities, and saves the results in demystify/data/text/. Please
+don't overrun Wizards's servers. :)
+
+These can be run from within demystify with:
+    $ python demystify.py load -i
+
+Add -h or --help for more information:
+    $ python demystify.py -h
+    $ python demystify.py test -h
+
+5) MISCELLANEOUS
+
+Dependency visualization:
+
+The deps/deps.py script reads the grammar files and outputs to stdout a
+dot format graph file, which describes how parser rules in the grammar call
+other parser rules, as well as how the grammar files reference other grammar
+files. You'll want to use graphviz's dot program to visualize this, e.g. with:
+    $ python deps/deps.py | dot -Tpng -o gdeps.png
+
+graphviz can be installed via your package management tool, or downloaded from
+http://www.graphviz.org.
+
+6) CONTRIBUTIONS
+
+Are welcome! Please use github forks and pull requests. Bugs without fixes can
+be reported as well.
+
+http://github.com/Zannick/demystify/
+
+7) LICENSE AND DISCLAIMER
+
+The files in this repository fall into four categories:
+    A) antlr3/antlr3
+    B) Python code in demystify/ and ANTLRv3 code in demystify/grammar/
+    C) deps/deps.py
+    D) Card data in demystify/data/ and demystify/tests/
+
+(A) is based on the antlr3 script that was installed on one of my machines
+when I installed ANTLRv3 via yum. It is therefore (to the best of my
+knowledge) covered until ANTLRv3's license (BSD),
+which is included as antlr3/LICENSE.
+
+(B) is the Demystify program itself, and the core of this repository. It
+is licensed under the Lesser GNU Public License version 3. See COPYING
+for the GPL v3 and COPYING.LESSER for the LGPL v3.
+
+(C) is also licensed under the LGPL v3 but it is not a part of Demystify
+(though it runs by reading parts of Demystify) which is why I've set it apart.
+
+(D) consists of Magic: The Gathering card data, in the form of full card
+records, slightly modified to fix errors (data/), or in the form of test cases,
+which may include actual card rules or possible card rules. All card
+information is copyrighted by Wizards of the Coast.
+
+Demystify is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+Demystify is not produced, endorsed, supported,
+or affiliated with Wizards of the Coast.
+
+8) THANKS
+
+Thanks go to Terence Parr and the ANTLR project (without which this project
+would be much more difficult), and to Wizards of the Coast (for making
+Magic: The Gathering, without which this project would not exist).

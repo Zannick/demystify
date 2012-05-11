@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# antlr3 script, modified from antlr script from:
+# JPackage Project <http://www.jpackage.org/>
+
+# Source functions library
+if [ -f /usr/share/java-utils/java-functions ] ; then
+  . /usr/share/java-utils/java-functions
+else
+  echo "Can't find functions library, aborting"
+  exit 1
+fi
+
+# Configuration
+MAIN_CLASS="org.antlr.Tool"
+BASE_FLAGS=""
+BASE_JARS="antlr-3.4.1-SNAPSHOT.jar antlr-runtime-3.4.jar ST-4.0.5.jar"
+ANTLR_FLAGS=""
+
+# Set parameters
+set_jvm
+set_classpath $BASE_JARS
+set_flags $BASE_FLAGS
+
+# Let's start
+#run "$@"
+set_javacmd
+exec "$JAVACMD" $FLAGS -classpath "$CLASSPATH" $OPTIONS "$MAIN_CLASS" $ANTLR_FLAGS "$@"

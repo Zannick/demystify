@@ -1,0 +1,210 @@
+Demystify Installation Requirements
+
+This file describes how to setup your Linux environment in order to build
+and run Demystify. The 7 things that need to be installed are:
+
+Java 1.6 or later
+Python 2.7
+jpackage-utils 1.7.5 or later
+ANTLR 3.4.1
+antlr3 script (available in this repo in antlr3/)
+python-progressbar 2.3
+ANTLR Python runtime
+
+The order isn't necessarily fixed but some things are dependent on others.
+
+I ran through this list on a debian squeeze machine and recorded the commands
+I used to install the components.
+
+1) Java 1.6.0 runtime (or later)
+Required to run ANTLR
+
+Install using your package manager.
+
+Installed on a debian squeeze machine:
+    $ sudo apt-get install java-common
+    $ sudo apt-get install openjdk-6-jdk
+
+2) Python 2.7 (not Python 3!)
+Required to run demystify
+
+Install using your package manager or from python.org. Pick one.
+
+a) Package manager
+    Check that your package manager has python2.7. Some (like yum) do.
+    Debian squeeze apt does not, unless you add "testing" to your sources list:
+        Add "deb http://ftp.us.debian.org/debian/ testing main contrib"
+            to /etc/apt/sources.list.
+        $ sudo apt-get update
+        $ sudo apt-get upgrade
+        [This may take a while!]
+        [Had to make sure /sbin and /usr/sbin were in my path for upgrade]
+        [May need to sudo dpkg --configure -a after upgrade]
+        $ sudo apt-get install python2.7
+
+b) From python.org source (building source)
+Note that installing from source will overwrite /usr/bin/python to be a symlink
+to python2.7. For some distros this is bad, and you'll want to change that back
+to python2.6. (E.g. debian squeeze apt relies on using python2.6.)
+    $ wget python.org/ftp/python/2.7.3/Python-2.7.3.tgz
+    $ tar xf Python-2.7.3.tgz
+    $ cd Python-2.7.3/
+    $ ./configure --prefix=/usr
+    $ make
+    $ sudo make install
+    $ ls -l /usr/bin/python*
+    [Theoretically at this point for debian squeeze I could have done:
+        $ sudo rm /usr/bin/python
+        $ sudo ln -s python2.6 /usr/bin/python
+     but instead I backed it out and did (a). Maybe next time!]
+
+3) jpackage-utils 1.7.5 (or later)
+Required to use the antlr3 convenience script (5)
+
+The RPM can be found at:
+http://mirrors.dotsrc.org/jpackage/5.0/generic/free/repoview/jpackage-utils.html
+
+Installed on a debian squeeze machine:
+    $ wget mirrors.dotsrc.org/jpackage/5.0/generic/free/RPMS/jpackage-utils-5.0.0-2.jpp5.noarch.rpm
+    $ sudo alien -k jpackage-utils-5.0.0-2.jpp5.noarch.rpm
+    $ sudo dpkg -i jpackage-utils_5.0.0-2.jpp5_all.deb
+
+On some machines (like the Debian machine I'm installing this on as I write
+these helpful instructions), jpackage-utils will want to use a folder that
+contains a bunch of symlinks, but the folder itself isn't created. Check to
+see if /usr/lib/jvm-exports contains a folder named "java-6-openjdk", and if
+not, create a symlink, via:
+    $ sudo ln -s ../jvm/java-6-openjdk /usr/lib/jvm-exports/java-6-openjdk
+
+(You should also check that /usr/lib/jvm/java-6-openjdk exists.)
+
+4) ANTLR 3.4.1 (or later 3.4 release)
+Required to generate the DemystifyParser
+
+You want to grab a set of three jar files from the ANTLR and StringTemplate
+websites and put them in a location where jpackage will find them, such as
+/usr/share/java.
+
+    antlr-runtime-3.4.jar
+        Contains some of the necessary classes to run ANTLR.
+        Available at http://www.antlr.org/download/
+    antlr-3.4.1-SNAPSHOT.jar
+        Contains a very up-to-date snapshot of ANTLR3, including
+        Python template files necessary for creating Python lexers and parsers.
+        Available at http://www.antlr.org/depot/antlr3/tool/target
+    ST-4.0.5.jar
+        StringTemplate v4 is an ANTLR 3 dependency and is made by the same guy,
+        so all you need is this jar in place as well.
+        Available at http://www.stringtemplate.org/download.html.
+
+Installation:
+    $ wget www.antlr.org/download/antlr-runtime-3.4.jar
+    $ wget www.antlr.org/depot/antlr3/tool/target/antlr-3.4.1-SNAPSHOT.jar
+    $ wget www.stringtemplate.org/download/ST-4.0.5.jar
+    $ sudo mv antlr-3.4.1-SNAPSHOT.jar antlr-runtime-3.4.jar ST-4.0.5.jar /usr/share/java
+
+5) antlr3 script (from this repo, in antlr3/)
+    Note that if any of the filenames in (4) are different, you'll need to
+    edit the antlr3 script to indicate that.
+
+    $ sudo cp antlr3/antlr3 /usr/bin/antlr3
+    $ sudo chown root:root /usr/bin/antlr3
+
+======
+
+At this point you should be able to run "antlr3" on the command line and get:
+ANTLR Parser Generator  Version 3.4
+usage: java org.antlr.Tool [args] file.g [file2.g file3.g ...]
+
+If you don't, there was an issue installing something earlier:
+    Can't find functions library, aborting
+        jpackage-utils didn't install correctly
+    Exception in thread "main" java.lang.NoClassDefFoundError: org/antlr/Tool
+        Likely a classpath error. Change "exec" to "echo" in the antlr3
+        script and run it again; this will output the command trying to be run.
+        If it says "error: JVM_LIBDIR /usr/lib/jvm-exports/java-6-openjdk does
+        not exist or is not a directory" where you'd expect the classpath, then
+        see above for the jvm-exports workaround.
+    Something else?
+        Check that java 6 and jpackage-utils are actually installed?
+        Maybe reinstall openjdk-6-jdk after jpackage-utils is installed.
+
+======
+
+6) python-progressbar 2.3
+
+Download and install from http://code.google.com/p/python-progressbar/,
+rather than using your package manager (which likely has an outdated version).
+
+    $ wget python-progressbar.googlecode.com/files/progressbar-2.3.tar.gz
+    $ tar xf progressbar-2.3.tar.gz
+    $ cd progressbar-2.3/
+    $ sudo python2.7 setup.py install
+
+[I say python2.7 here because it's important that you install these libraries
+ for python2.7 and not any other version of python you might have installed.
+ If python2.7 is what "python" runs, then you may instead use "python" here.]
+
+This (and the ANTLR runtime below) requires setuptools. Some distros may
+already have it as part of python. If running:
+    $ sudo python2.7 setup.py install
+caused complaints about something in setuptools, you need setuptools.
+
+Some distros might be able to just install it:
+    $ sudo apt-get install python-setuptools
+
+For others (like me, apparently), that doesn't quite work;
+you have to download a better setuptools:
+    $ wget pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg
+    $ sudo sh setuptools-0.6c11-py2.7.egg
+
+And then try again:
+    $ sudo python2.7 setup.py install
+
+It works when you can:
+    $ python2.7
+    >>> import progressbar
+    >>>
+(i.e. with no errors)
+
+7) ANTLR 3 Python runtime 3.4 * (requires fix or download from github)
+
+This is probably the most complicated one, because the up-to-date version
+of the runtime is not packaged in a simple enough form. But luckily the
+source contains a setuptools helper script that will do the right things.
+
+Download a tarball or zipball from https://github.com/antlr/antlr3/download
+and untar/unzip it. This should get you a folder named "antlr-antlr3-" plus
+a commit id. Change directory into that, then cd into runtime/Python and
+run "sudo python2.7 setup.py install".
+
+Installing on debian squeeze:
+    $ wget http://github.com/antlr/antlr3/tarball/master -O antlr3.tgz
+    $ tar xf antlr3.tgz
+    $ cd antlr-antlr3-8312471/runtime/Python/
+    $ sudo python2.7 setup.py install
+
+It works when you can:
+    $ python2.7
+    >>> import antlr3
+    >>>
+(i.e. with no errors)
+
+======
+
+At this point, you should be done installing all of Demystify's dependencies.
+To see if it works, change into the grammar directory and run:
+    $ antlr3 Demystify.g
+
+If it works, you will get a bunch of warning(138)s that I haven't figured out
+how to silence, then it will exit silently. If you ls afterwards, you should
+see a lot of Demystify*.py and *.tokens files that weren't there before.
+
+Still with me? Go one directory level up and run:
+    $ python2.7 demystify.py test
+
+It should say "OK" several times as it runs each of the provided unit tests.
+If so, hooray! Demystify is working on your machine, as evidenced by the
+correctly parsing unit tests.
+
+And that's all you need!
