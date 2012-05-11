@@ -2,6 +2,8 @@ import os
 import re
 import sys
 
+basedir = os.path.join(os.path.dirname(__file__), '..', 'demystify', 'grammar')
+
 rule = re.compile(r"^(?:[a-z_0-9]+\+?=)?([a-z_0-9]+)\+?\*?!?\??$")
 comments = re.compile(r"//.*?$|/\*.*?\*/", re.M|re.S)
 actions = re.compile(r"""{([^'"]|'[^']*'|"[^"]*"|'''.*?'''"""
@@ -27,8 +29,6 @@ def print_deps(deps):
     for rname, rdeps in deps.items():
         for d in rdeps:
             print('  "{}" -> "{}";'.format(rname, d))
-
-basedir = os.path.join(os.path.dirname(__file__), 'grammar')
 
 def print_graph(files):
     print('digraph gdeps {\n  truecolor=true;')
