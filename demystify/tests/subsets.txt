@@ -80,3 +80,19 @@
 @subset
 @three black creatures
 @(SUBSET (NUMBER three) (PROPERTIES black creatures))
+
+@WindsOfRath
+@subset
+@all creatures that aren't enchanted
+@(SUBSET (NUMBER all) (PROPERTIES creatures (NOT enchanted)))
+
+@HarshMercy
+@subset
+@all creatures that aren't of a type chosen this way
+@(SUBSET (NUMBER all) (PROPERTIES creatures) (NOT (CHOSEN type)))
+
+@CelestialDawn
+@subset
+@non-land cards you own that aren't on the battlefield
+@(SUBSET (NUMBER ALL) (PROPERTIES (NON land) cards (OWN (PLAYER_SET you))
+                       (NOT battlefield)))

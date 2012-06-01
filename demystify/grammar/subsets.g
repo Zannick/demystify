@@ -49,6 +49,7 @@ full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
             -> ^( NUMBER NUMBER[$THE, "1"] ) properties
                ^( ZONE player_poss LIBRARY? GRAVEYARD? TOP? BOTTOM? );
 
+// Restrictions are very similar to descriptors, but can reference properties.
 restriction : WITH! has_counters
             | WITH! int_prop_with_value
             | THAT! share_feature
@@ -57,6 +58,7 @@ restriction : WITH! has_counters
             | except_for
             | attached_to
             | chosen_prop
+            | not_chosen_prop
             | from_expansion
             ;
 
@@ -69,14 +71,21 @@ other_than : OTHER THAN
 
 // TODO: "except for creatures the player hasn't controlled continuously
 //        since the beginning of the turn".
-// put in descriptors? putting in restriction would require
-// except_for to not be in restriction
+// put in descriptors? putting "...hasn't controlled" in restriction would
+// require except_for to not be in restriction.
 except_for : ','!? EXCEPT^ FOR! ( ref_object | properties );
 
 attached_to : ATTACHED TO ( ref_object | properties )
               -> ^( ATTACHED_TO ref_object? properties? );
 
 chosen_prop : ( OF | WITH ) THE CHOSEN prop_type -> ^( CHOSEN[] prop_type );
+
+not_chosen_prop : THAT ( ISNT | ARENT ) 
+                  ( chosen_prop -> ^( NOT chosen_prop )
+                  | OF A prop_type CHOSEN THIS WAY
+                    -> ^( NOT ^( CHOSEN[] prop_type ) )
+                  | THE NAMED CARD -> ^( NOT ^( CHOSEN[] NAME ) )
+                  );
 
 from_expansion : FROM THE expansion EXPANSION -> ^( EXPANSION[] expansion );
 

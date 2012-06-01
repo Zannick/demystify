@@ -113,6 +113,12 @@ status : TAPPED
        | FLIPPED
        | REVEALED
        ;
+// status that can't be used as an adjective but can be used in descriptors
+desc_status : status
+            | ENCHANTED
+            | EQUIPPED
+            | FORTIFIED
+            ;
 
 // Nouns
 
@@ -128,11 +134,15 @@ descriptor : named
            | cast
            | in_zones
            | with_keywords
+           | THAT ( ISNT | ARENT )
+             ( desc_status | in_zones | ON spec_zone )
+             -> ^( NOT desc_status? in_zones? spec_zone? )
            ;
 
-named : NOT? NAMED REFBYNAME
-        -> {$NOT}? ^( NOT ^( NAMED[] REFBYNAME ) )
-        -> ^( NAMED[] REFBYNAME );
+named : ( NOT -> ^( NOT ^( NAMED[] REFBYNAME ) )
+        | -> ^( NAMED[] REFBYNAME )
+        ) NAMED REFBYNAME
+        ;
 
 control : player_subset DONT? CONTROL
           -> {$DONT}? ^( NOT ^( CONTROL[] player_subset ) )
@@ -144,8 +154,7 @@ cast : player_subset DONT? CAST
        -> {$DONT}? ^( NOT ^( CAST[] player_subset ) )
        -> ^( CAST[] player_subset );
 
-in_zones : IN zone_subset -> ^( IN[] zone_subset )
-         | FROM zone_subset -> ^( IN zone_subset );
+in_zones : ( IN | FROM ) zone_subset -> ^( IN[] zone_subset );
 
 with_keywords : WITH raw_keywords -> ^( KEYWORDS raw_keywords )
               | WITHOUT raw_keywords -> ^( NOT ^( KEYWORDS raw_keywords ) )
