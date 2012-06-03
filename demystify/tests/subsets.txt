@@ -92,7 +92,10 @@
 @(SUBSET (NUMBER all) (PROPERTIES creatures) (NOT (CHOSEN type)))
 
 @CelestialDawn
-@subset
-@non-land cards you own that aren't on the battlefield
-@(SUBSET (NUMBER ALL) (PROPERTIES (NON land) cards (OWN (PLAYER_SET you))
-                       (NOT battlefield)))
+@subsets
+@non-land cards you own that aren't on the battlefield, spells you control,
+ and non-land permanents you control
+@(SUBSET (NUMBER ALL) (PROPERTIES (and
+    (AND (NON land) cards (OWN (PLAYER_SET you)) (NOT battlefield))
+    (AND spells (CONTROL (PLAYER_SET you)))
+    (AND (NON land) permanents (CONTROL (PLAYER_SET you))))))

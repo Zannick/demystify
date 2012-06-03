@@ -35,10 +35,10 @@ parser grammar properties;
  * any nouns. For example, "under your control" and "named X".
  *
  * Some of these items can be written as lists of two or more items joined
- * with a conjunction. However, the top level properties cannot have a list
- * of more than two; this kind of list will be accomplished by subset lists.
- * Furthermore, only one list can exist per properties set: either the
- * adjective list, the noun list, or the properties pair.
+ * with a conjunction. However, only one "level" of a subset can be a list:
+ * either adjectives (which can include nouns), nouns, a combination of
+ * both adjectives and nouns, or all three together; the type of list is
+ * generally determinable from the first item in the list.
  *
  * When a list occurs in either adjectives or nouns, the list is treated
  * as its own set of properties, joined with the other two categories.
@@ -46,16 +46,39 @@ parser grammar properties;
  * of properties. For example, in "white or blue creature", "white or blue"
  * is an adjective list, and creature is a noun. An object must match "white
  * or blue" and "creature" to match this properties set.
+ *
+ * Note that the conjunction is likely to be misleading based on usage here.
+ * Both "sacrifice a white or blue creature" and "white and blue creatures
+ * have flying" reference a set of creatures with color(s) white and/or blue.
+ * To be granted flying from the latter ability, a creature must be at least
+ * one of white and blue; it does not have to be both. In other words, an
+ * "and" in such a situation can be considered equivalent to "union". However,
+ * "sacrifice a white and blue creature" uses it as "intersection"; here the
+ * creature sacrificed must be both white and blue. Context is important.
  */
 
 properties : a+=adjective*
              ( adj_list? noun+ descriptor*
                -> ^( PROPERTIES adjective* adj_list? noun* descriptor* )
-             | noun_list noun* descriptor*
+             | nl=noun_list n+=noun* nd+=descriptor*
+               {
+                if $n:
+                    self.emitDebugMessage('properties case 2a: {}'.format(
+                        ' '.join([t.text for t in ($a or [])]
+                                 + [$nl.tree.toStringTree()]
+                                 + [t.text for t in ($n or [])]
+                                 + [t.toStringTree() for t in ($nd or [])])))
+                elif $a:
+                    self.emitDebugMessage('properties case 2b: {}'.format(
+                        ' '.join([t.text for t in ($a or [])]
+                                 + [$nl.tree.toStringTree()]
+                                 + [t.toStringTree() for t in ($nd or [])])))
+               }
                -> ^( PROPERTIES adjective* noun_list noun* descriptor* )
              | b+=noun+ 
                ( ( COMMA ( c+=properties_case3_ COMMA )+ )?
                  j=conj g=properties_case3_ e+=descriptor*
+                 // Currently only Purge?
                  { self.emitDebugMessage('properties case 3: {}'
                                          .format(' '.join(
                     [t.text for t in ($a or []) + ($b or [])]
@@ -66,30 +89,42 @@ properties : a+=adjective*
                     + [t.toStringTree() for t in ($e or [])]))) }
                  -> ^( PROPERTIES ^( $j ^( AND $a* $b+ )
                                         ^( AND properties_case3_)+ )
-                                     descriptor* )
-                 // TODO: expand case 4 if necessary?
-               | f+=descriptor+ k=conj c+=adjective* d+=noun+ e+=descriptor*
+                                  descriptor* )
+               | f+=descriptor+ ( COMMA ( c+=basic_properties COMMA )+ )?
+                 k=conj d=basic_properties
                  { self.emitDebugMessage('properties case 4: {}'
                                          .format(' '.join(
                     [t.text for t in ($a or []) + ($b or [])]
                     + [t.toStringTree() for t in ($f or [])]
+                    + [', ' + t.toStringTree() for t in ($c or [])]
+                    + ($c and [','] or [])
                     + [$k.text]
-                    + [t.text for t in ($c or []) + ($d or [])]
-                    + [t.toStringTree() for t in ($e or [])]))) }
+                    + [$d.tree.toStringTree()]))) }
                  -> ^( PROPERTIES ^( $k ^( AND $a* $b+ $f+ )
-                                        ^( AND $c* $d+ $e* ) ) )
+                                        ^( AND basic_properties )+ ) )
                )
              );
 
 properties_case3_ : adjective+ noun+ ;
 
-simple_properties : adjective* noun+ -> ^( PROPERTIES adjective* noun+ )
+basic_properties : adjective* noun+ descriptor* ;
+
+// TODO: with descriptors? subsets would like a list of properties
+// that don't have adj_list or noun_list.
+simple_properties : basic_properties -> ^( PROPERTIES basic_properties )
                   | adjective+ -> ^( PROPERTIES adjective+ );
 
 // Lists
 
-adj_list : adjective ( COMMA! ( ( adjective | noun ) COMMA! )+ )?
-           conj^ ( adjective | noun );
+adj_list : a=adjective ( COMMA! ( ( b+=adjective | c+=noun ) COMMA! )+ )?
+           conj^ ( d=adjective | e=noun )
+           // Currently only Soldevi Adnate?
+           { if $e.text or $c:
+                self.emitDebugMessage('Mixed list: {}'.format(
+                    ', '.join([$a.text]
+                              + [adj.text for adj in ($b or []) + ($c or [])]
+                              + [$d.text or $e.text])))
+           };
 
 noun_list : noun ( COMMA! ( noun COMMA! )+ )? conj^ noun ;
 
@@ -139,10 +174,9 @@ descriptor : named
              -> ^( NOT desc_status? in_zones? spec_zone? )
            ;
 
-named : ( NOT -> ^( NOT ^( NAMED[] REFBYNAME ) )
-        | -> ^( NAMED[] REFBYNAME )
-        ) NAMED REFBYNAME
-        ;
+named : NOT? NAMED REFBYNAME
+        -> {$NOT}? ^( NOT ^( NAMED[] REFBYNAME ) )
+        -> ^( NAMED[] REFBYNAME );
 
 control : player_subset DONT? CONTROL
           -> {$DONT}? ^( NOT ^( CONTROL[] player_subset ) )
