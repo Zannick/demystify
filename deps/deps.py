@@ -25,7 +25,7 @@ basedir = os.path.join(os.path.dirname(__file__), '..', 'demystify', 'grammar')
 rule = re.compile(r"^(?:[a-z_0-9]+\+?=)?([a-z_0-9]+)\+?\*?!?\??$")
 comments = re.compile(r"//.*?$|/\*.*?\*/", re.M|re.S)
 actions = re.compile(r"""{([^'"]|'[^']*'|"[^"]*"|'''.*?'''"""
-                     r'''|""".*?""")*}''', re.M)
+                     r'''|""".*?""")*?}''', re.M)
 full_rule = re.compile(r"^([a-z_0-9]+)\s*:(.*);\s*$", re.M)
 
 def find_rules(fulltext):
