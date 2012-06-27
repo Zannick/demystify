@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # This file is part of Demystify.
 # 
 # Demystify: a Magic: The Gathering parser
@@ -96,8 +94,8 @@ def pprint_tokens(tokens):
     for t in tokens:
         if t.channel != antlr3.HIDDEN_CHANNEL:
             print('{0.line:>2} {0.charPositionInLine:>4} {0.index:>3} '
-                  '{0.text:{tlen}} {1}'
-                  .format(t, DemystifyLexer.getTokenName(t.type), tlen=tlen))
+                  '{0.text:{tlen}} {0.typeName}'
+                  .format(t, tlen=tlen))
 
 def parse_card(c):
     """ Test the parser against a card. """
@@ -148,7 +146,7 @@ def parse_all(cards):
                 errors += 1
     print('{} total errors.'.format(errors))
 
-_cost = ur"""(?:^|— | "| ')([^."'()—]*?):"""
+_cost = r"""(?:^|— | "| ')([^."'()—]*?):"""
 costregex = re.compile(_cost)
 
 def _crawl_tree_for_errors(name, lineno, text, tree):

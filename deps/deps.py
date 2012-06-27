@@ -103,4 +103,4 @@ colors = {
 }
 
 if __name__ == "__main__":
-    print_graph(colors.keys())
+    print_graph(list(colors.keys()))

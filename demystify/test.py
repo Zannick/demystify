@@ -33,11 +33,11 @@ _rule_name = re.compile(r'\w+')
 class IgnoreCaseDiffer(difflib.Differ, object):
     """ Compares two string sequences but ignores case. """
     def compare(self, a, b):
-        if isinstance(a, basestring):
+        if isinstance(a, str):
             a = [a]
         else:
             a = list(a)
-        if isinstance(b, basestring):
+        if isinstance(b, str):
             b = [b]
         else:
             b = list(b)

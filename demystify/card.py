@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # This file is part of Demystify.
 # 
 # Demystify: a Magic: The Gathering parser
@@ -24,7 +22,7 @@ import logging
 logger = logging.getLogger("card")
 logger.setLevel(logging.INFO)
 
-import Queue
+import queue
 import multiprocessing
 import multiprocessing.queues
 import re
@@ -178,7 +176,7 @@ def construct_uname(name):
         character (as in \W) replaced with an underscore. This is intended
         to be a unique mapping of the card name to one which contains only
         alphanumerics and underscores. """
-    return nonwords.sub(r'_', unicode("NAME_" + name))
+    return nonwords.sub(r'_', str("NAME_" + name))
 
 def make_shortname(name):
     if ', ' in name:
@@ -194,12 +192,12 @@ class Card(object):
     """ Stores information about a Magic card, as given by Gatherer. """
     def __init__(self, name, cost, typeline, color=None,
                  pt=None, rules=None, set_rarity=None):
-        self.name = unicode(name)
+        self.name = str(name)
         self.cost = cost
-        self.typeline = unicode(typeline.lower())
+        self.typeline = str(typeline.lower())
         self.color = color
         self.pt = pt
-        self.rules = unicode(rules)
+        self.rules = str(rules)
         self.sets = set()
         for s_r in set_rarity.split(', '):
             for r in rarities:
@@ -258,7 +256,7 @@ class Card(object):
         
         self.shortname = None
         if 'Legendary' in typeline:
-            self.shortname = unicode(make_shortname(self.name))
+            self.shortname = str(make_shortname(self.name))
             if self.shortname:
                 logger.debug("Shortname for {} set to {}."
                              .format(self.name, self.shortname))
@@ -282,7 +280,7 @@ class Card(object):
         # Gatherer is pretty inconsistent, especially wrt split and flip cards
         for l in t:
             if l.startswith("Name:"):
-                name = unicode(l[5:].strip())
+                name = str(l[5:].strip())
                 if name in _all_cards:
                     logger.debug("Previously saw {}.".format(name))
                     return _all_cards[name]
@@ -386,7 +384,7 @@ def _card_worker_jq(work_queue, res_queue, func):
             try:
                 res = func(c)
                 res_queue.put(res)
-            except Queue.Full:
+            except queue.Full:
                 logger.error("Result queue full, can't add result for {}."
                              .format(c.name))
                 res_queue.put(None)
@@ -396,7 +394,7 @@ def _card_worker_jq(work_queue, res_queue, func):
                 res_queue.put(None)
             finally:
                 work_queue.task_done(cname=c.name)
-    except Queue.Empty:
+    except queue.Empty:
         return
 
 def map_multi(func, cards, processes=None):
@@ -539,7 +537,7 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
     change = False
     for cardname in selfnames:
         if cardname in line:
-            line, count = re.subn(ur"\b{}(?!\w)".format(cardname),
+            line, count = re.subn(r"\b{}(?!\w)".format(cardname),
                                   "SELF", line, flags=re.UNICODE)
             if count > 0:
                 change = True
@@ -548,7 +546,7 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
                                 .format(parentnames[0]))
     for cardname in parentnames:
         if cardname in line:
-            line, count = re.subn(ur"\b{}(?!\w)".format(cardname),
+            line, count = re.subn(r"\b{}(?!\w)".format(cardname),
                                   "PARENT", line, flags=re.UNICODE)
             if count > 0:
                 change = True
@@ -686,7 +684,7 @@ def get_card_set(setname):
 
 def get_card(cardname):
     """ Returns a specific card by name, or None if no such card exists. """
-    cardname = unicode(cardname)
+    cardname = str(cardname)
     if 'AE' in cardname:
         cardname = cardname.replace('AE', 'Æ')
     return _all_cards.get(all_shortnames.get(cardname, cardname))
@@ -718,7 +716,7 @@ def preceding_words(text, cards=None, reflags=re.I|re.U):
         the entire set. """
     if not cards:
         cards = get_cards()
-    r = re.compile(ur"([\w'-—]+)(?: | ?—){}".format(text), reflags)
+    r = re.compile(r"([\w'-—]+)(?: | ?—){}".format(text), reflags)
     a = set()
     for c in cards:
         a.update(r.findall(c.rules))
@@ -732,7 +730,7 @@ def following_words(text, cards=None, reflags=re.I|re.U):
         the entire set. """
     if not cards:
         cards = get_cards()
-    r = re.compile(ur"{}(?: |— ?)([\w'-—]+)".format(text), reflags)
+    r = re.compile(r"{}(?: |— ?)([\w'-—]+)".format(text), reflags)
     a = set()
     for c in cards:
         a.update(r.findall(c.rules))
@@ -758,7 +756,7 @@ def counter_types(cards=None):
     """ Returns a list of counter types namd in the given cards. """
     cwords = preceding_words('counter', cards=cards)
     # Disallow punctuation, common words, and words about countering spells.
-    cwords = set(w for w in cwords if w and w[-1] not in u'—-,.:\'"')
+    cwords = set(w for w in cwords if w and w[-1] not in '—-,.:\'"')
     common = set(['a', 'all', 'and', 'be', 'control', 'each', 'had', 'have',
                   'is', 'may', 'more', 'of', 'or', 'spell', 'that', 'those',
                   'was', 'with', 'would', 'x'])

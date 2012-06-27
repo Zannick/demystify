@@ -21,7 +21,7 @@ grammar Demystify;
 /* Top-level grammar for Demystify. */
 
 options {
-    language = Python;
+    language = Python3;
     output = AST;
 }
 
@@ -76,11 +76,6 @@ tokens {
     logging.basicConfig(level=logging.DEBUG, filename="LOG")
     llog = logging.getLogger("Lexer")
     llog.setLevel(logging.DEBUG)
-
-    # hack to allow unicode
-    if sys.getdefaultencoding() != 'utf-8':
-        reload(sys)
-        sys.setdefaultencoding('utf-8')
 }
 
 @parser::header {
@@ -88,11 +83,6 @@ tokens {
     logging.basicConfig(level=logging.DEBUG, filename="LOG")
     plog = logging.getLogger("Parser")
     plog.setLevel(logging.DEBUG)
-
-    # hack to allow unicode
-    if sys.getdefaultencoding() != 'utf-8':
-        reload(sys)
-        sys.setdefaultencoding('utf-8')
 
     # hack to make all subparsers have the same error logging
     # header guard to prevent rewrapping some functions below
@@ -115,7 +105,7 @@ tokens {
                 return "line {}:{}".format(e.line, e.charPositionInLine)
 
         def __getErrorMessage(supermethod):
-            def _getErrorMessage(self, e, tokenNames):
+            def _getErrorMessage(self, e):
                 stack = self.getRuleInvocationStack()
                 msg = ""
                 if isinstance(e, NoViableAltException):
@@ -124,7 +114,7 @@ tokens {
                            " state={0.stateNumber})"
                            .format(e))
                 else:
-                    msg = supermethod(self, e, tokenNames)
+                    msg = supermethod(self, e)
                 return "{} {}".format(stack, msg)
             return _getErrorMessage
 
@@ -175,25 +165,6 @@ tokens {
                 .format(self.__class__, self.toStringTree()))
 
     CommonTree.__repr__ = _tree_repr
-}
-
-@lexer::footer {
-    _token_names = {}
-    for name, i in globals().items():
-        if (name not in ('HIDDEN', 'HIDDEN_CHANNEL',
-                         'INVALID_TOKEN_TYPE', 'MIN_TOKEN_TYPE')
-            and isinstance(i, int)):
-            if i in _token_names:
-                sys.stderr.write('Token collision at {}: {} and {}.'
-                                 .format(i, _token_names[i], name))
-            else:
-                _token_names[i] = name
-
-    def getTokenName(i):
-        """ Use a reverse lookup to get the name of the token rule
-            for the given raw token (an integer).
-            Returns None if nothing matches. """
-        return _token_names.get(i)
 }
 
 @lexer::members {

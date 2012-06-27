@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-#
 # This file is part of Demystify.
 # 
 # Demystify: a Magic: The Gathering parser
@@ -25,10 +23,9 @@ import difflib
 import logging
 import os
 import re
-import urllib
-import urllib2
+import urllib.request, urllib.parse
 from functools import partial
-from HTMLParser import HTMLParser
+from html.parser import HTMLParser
 
 llog = logging.getLogger('Loader')
 llog.setLevel(logging.INFO)
@@ -114,7 +111,7 @@ class ListCards(argparse.Action):
     def __call__(self, parser, namespace, values, option_string=None):
         names = []
         with values as f:
-            names = [line.strip().replace(' ', r'\s').replace('AE', u'Æ')
+            names = [line.strip().replace(' ', r'\s').replace('AE', 'Æ')
                      for line in f]
         setattr(namespace, self.dest, names)
 
@@ -222,11 +219,10 @@ class GathererParser(HTMLParser):
 def _send_request(params):
     """ Build the actual request and send it. Returns the full html
         of the result. """
-    opener = urllib2.build_opener(urllib2.HTTPHandler())
-    f = opener.open(GATHERER + '?' + urllib.urlencode(params))
-    html = f.read()
-    f.close()
-    return html
+    opener = urllib.request.build_opener(urllib.request.HTTPHandler())
+    with opener.open(GATHERER + '?' + urllib.parse.urlencode(params)) as f:
+        html_bytes = f.read()
+        return html_bytes.decode('utf-8')
 
 def _request(alpha=False, format=None, cardset=None, cards=None):
     """ Construct and send requests to Gatherer.
