@@ -5,8 +5,7 @@ A Magic: The Gathering Parser
 
 Demystify is an attempt to make it possible for a computer to understand what
 general Magic: The Gathering cards do. It is currently written in a combination
-of ANTLR 3.4 and Python 2.7 (as unfortunately ANTLRv3 does not have a Python3
-target).
+of ANTLR 3.4 and Python 3.2.
 
 2) INSTALLATION
 
@@ -16,9 +15,9 @@ See INSTALL for more specific instructions.
 
 - Java 1.6.0 (or later)
 - ANTLR 3.4.1 (or later 3.4 release)
-- ANTLR 3 Python runtime 3.4 * (requires fix or download from github)
+- ANTLR 3 Python3 runtime [experimental, available at github.com/Zannick/antlr3]
 - jpackage-utils 1.7.5 (or later)
-- Python 2.7
+- Python 3.2
 - python-progressbar 2.3
 
 3) BUILDING
@@ -26,7 +25,7 @@ See INSTALL for more specific instructions.
 To build the parser generator, you need to have the macro.g and Words.g grammar
 files up-to-date. If they don't exist, or demystify/keywords.py has changed,
 run
-    $ python demystify/keywords.py
+    $ python3 demystify/keywords.py
 to regenerate them.
 
 Then, you need to run antlr3 on the grammar. If you've followed the instructions
@@ -77,11 +76,11 @@ some textual oddities, and saves the results in demystify/data/text/. Please
 don't overrun Wizards's servers. :)
 
 These can be run from within demystify with:
-    $ python demystify.py load -i
+    $ python3 demystify.py load -i
 
 Add -h or --help for more information:
-    $ python demystify.py -h
-    $ python demystify.py test -h
+    $ python3 demystify.py -h
+    $ python3 demystify.py test -h
 
 5) MISCELLANEOUS
 
@@ -91,7 +90,7 @@ The deps/deps.py script reads the grammar files and outputs to stdout a
 dot format graph file, which describes how parser rules in the grammar call
 other parser rules, as well as how the grammar files reference other grammar
 files. You'll want to use graphviz's dot program to visualize this, e.g. with:
-    $ python deps/deps.py | dot -Tpng -o gdeps.png
+    $ python3 deps/deps.py | dot -Tpng -o gdeps.png
 
 graphviz can be installed via your package management tool, or downloaded from
 http://www.graphviz.org.

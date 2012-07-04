@@ -1,15 +1,23 @@
 Demystify Installation Requirements
 
 This file describes how to setup your Linux environment in order to build
-and run Demystify. The 7 things that need to be installed are:
+and run Demystify under Python3. The 7 things that need to be installed are:
 
 Java 1.6 or later
-Python 2.7
+Python 3.2
 jpackage-utils 1.7.5 or later
-ANTLR 3.4.1
+ANTLR 3.4.1 *
 antlr3 script (available in this repo in antlr3/)
 python-progressbar 2.3
-ANTLR Python runtime
+ANTLR Python3 runtime *
+
+============================================================================
+* These items require some special setup due to the Python3 target for ANTLR
+being not yet accepted into the main ANTLR project.
+If you don't want to use this *experimental, beta* code, then stop, go back
+and check out or download the "master" branch of Demystify rather than the
+"python3" branch this snapshot came from.
+============================================================================
 
 The order isn't necessarily fixed but some things are dependent on others.
 
@@ -25,38 +33,33 @@ Installed on a debian squeeze machine:
     $ sudo apt-get install java-common
     $ sudo apt-get install openjdk-6-jdk
 
-2) Python 2.7 (not Python 3!)
+2) Python 3.2 or later (not Python 3.1!)
 Required to run demystify
 
 Install using your package manager or from python.org. Pick one.
+I recommend using the package manager if possible.
 
 a) Package manager
-    Check that your package manager has python2.7. Some (like yum) do.
-    Debian squeeze apt does not, unless you add "testing" to your sources list:
-        Add "deb http://ftp.us.debian.org/debian/ testing main contrib"
-            to /etc/apt/sources.list.
-        $ sudo apt-get update
-        $ sudo apt-get upgrade
-        [This may take a while!]
-        [Had to make sure /sbin and /usr/sbin were in my path for upgrade]
-        [May need to sudo dpkg --configure -a after upgrade]
-        $ sudo apt-get install python2.7
+    Check that your package manager has python3.2.
+        $ sudo apt-get install python3.2
+        $ python3 --version
+        Python 3.2.3
+    If the python3 symlink points at an older version than python3.2,
+    you may wish to update that to point to python3.2, and use "python3"
+    in place of python3.2.
+        $ sudo rm /usr/bin/python3
+        $ sudo ln -s python3.2 /usr/bin/python3.2
 
 b) From python.org source (building source)
-Note that installing from source will overwrite /usr/bin/python to be a symlink
-to python2.7. For some distros this is bad, and you'll want to change that back
-to python2.6. (E.g. debian squeeze apt relies on using python2.6.)
-    $ wget python.org/ftp/python/2.7.3/Python-2.7.3.tgz
-    $ tar xf Python-2.7.3.tgz
-    $ cd Python-2.7.3/
+Note that installing from source will overwrite /usr/bin/python3 to be a symlink
+to python3.2.
+    $ wget python.org/ftp/python/3.2.3/Python-3.2.3.tgz
+    $ tar xf Python-3.2.3.tgz
+    $ cd Python-3.2.3/
     $ ./configure --prefix=/usr
     $ make
     $ sudo make install
-    $ ls -l /usr/bin/python*
-    [Theoretically at this point for debian squeeze I could have done:
-        $ sudo rm /usr/bin/python
-        $ sudo ln -s python2.6 /usr/bin/python
-     but instead I backed it out and did (a). Maybe next time!]
+    $ ls -l /usr/bin/python3*
 
 3) jpackage-utils 1.7.5 (or later)
 Required to use the antlr3 convenience script (5)
@@ -103,6 +106,29 @@ Installation:
     $ wget www.stringtemplate.org/download/ST-4.0.5.jar
     $ sudo mv antlr-3.4.1-SNAPSHOT.jar antlr-runtime-3.4.jar ST-4.0.5.jar /usr/share/java
 
+At the time of writing this file, the Python3 target is not yet incorporated
+into ANTLR and so you will need to check out or download the target directly
+from github.com/Zannick/antlr3 (python3 branch). Whichever you do, you'll
+need to update the antlr-3.4.1-SNAPSHOT.jar you downloaded earlier with some
+files from the new target: a pair of updated class files, and the Python3
+templates ANTLR uses to output Python3 code.
+    (download or check out the antlr3 repo)
+    $ cd antlr3/tool/src/main/java
+    $ javac -cp /usr/share/antlr-3.4.1-SNAPSHOT.jar:/usr/share/java/antlr-runtime-3.4.jar:/usr/share/java/ST-4.0.5.jar -sourcepath . org/antlr/codegen/*.java
+    (check the class files exist)
+    $ ls org/antlr/codegen/CodeGenerator.class org/antlr/codegen/Python3Target.class
+    (update the jar file)
+    $ cp /usr/share/java/antlr-3.4.1-SNAPSHOT.jar .
+    $ zip -u antlr-3.4.1-SNAPSHOT.jar org/antlr/codegen/CodeGenerator.class org/antlr/codegen/Python3Target.class
+    $ sudo mv antlr-3.4.1-SNAPSHOT.jar /usr/share/java
+
+    (or, from the toplevel, cd antlr3/tool/src/main/resources
+    $ cd ../resources
+    $ cp /usr/share/java/antlr-3.4.1-SNAPSHOT.jar .
+    $ zip -u antlr-3.4.1-SNAPSHOT.jar org/antlr/codegen/templates/Python3/*.stg
+    $ sudo mv antlr-3.4.1-SNAPSHOT.jar /usr/share/java
+
+
 5) antlr3 script (from this repo, in antlr3/)
     Note that if any of the filenames in (4) are different, you'll need to
     edit the antlr3 script to indicate that.
@@ -139,53 +165,45 @@ rather than using your package manager (which likely has an outdated version).
     $ wget python-progressbar.googlecode.com/files/progressbar-2.3.tar.gz
     $ tar xf progressbar-2.3.tar.gz
     $ cd progressbar-2.3/
-    $ sudo python2.7 setup.py install
-
-[I say python2.7 here because it's important that you install these libraries
- for python2.7 and not any other version of python you might have installed.
- If python2.7 is what "python" runs, then you may instead use "python" here.]
+    $ sudo python3.2 setup.py install
 
 This (and the ANTLR runtime below) requires setuptools. Some distros may
 already have it as part of python. If running:
-    $ sudo python2.7 setup.py install
+    $ sudo python3.2 setup.py install
 caused complaints about something in setuptools, you need setuptools.
 
 Some distros might be able to just install it:
-    $ sudo apt-get install python-setuptools
+    $ sudo apt-get install python3-setuptools
 
-For others (like me, apparently), that doesn't quite work;
-you have to download a better setuptools:
-    $ wget pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg
-    $ sudo sh setuptools-0.6c11-py2.7.egg
+For others, that may not work; you have to download a better setuptools:
+    $ wget http://python-distribute.org/distribute_setup.py
+    $ sudo python3.2 distribute_setup.py
 
 And then try again:
-    $ sudo python2.7 setup.py install
+    $ sudo python3 setup.py install
 
 It works when you can:
-    $ python2.7
+    $ python3.2
     >>> import progressbar
     >>>
 (i.e. with no errors)
 
-7) ANTLR 3 Python runtime 3.4 * (requires fix or download from github)
+7) ANTLR 3 Python3 runtime (requires download from github)
 
-This is probably the most complicated one, because the up-to-date version
-of the runtime is not packaged in a simple enough form. But luckily the
-source contains a setuptools helper script that will do the right things.
-
-Download a tarball or zipball from https://github.com/antlr/antlr3/download
-and untar/unzip it. This should get you a folder named "antlr-antlr3-" plus
-a commit id. Change directory into that, then cd into runtime/Python and
-run "sudo python2.7 setup.py install".
+Assuming you downloaded or checked out the Zannick/antlr3 github earlier,
+you already have a copy of the runtime ready to be installed. From wherever
+you put the repo:
+    $ cd antlr3/runtime/Python3
+    $ sudo python3.2 setup.py install
 
 Installing on debian squeeze:
     $ wget http://github.com/antlr/antlr3/tarball/master -O antlr3.tgz
     $ tar xf antlr3.tgz
-    $ cd antlr-antlr3-8312471/runtime/Python/
-    $ sudo python2.7 setup.py install
+    $ cd antlr-antlr3-8312471/runtime/Python3/
+    $ sudo python3.2 setup.py install
 
 It works when you can:
-    $ python2.7
+    $ python3.2
     >>> import antlr3
     >>>
 (i.e. with no errors)
@@ -201,7 +219,7 @@ how to silence, then it will exit silently. If you ls afterwards, you should
 see a lot of Demystify*.py and *.tokens files that weren't there before.
 
 Still with me? Go one directory level up and run:
-    $ python2.7 demystify.py test
+    $ python3.2 demystify.py test
 
 It should say "OK" several times as it runs each of the provided unit tests.
 If so, hooray! Demystify is working on your machine, as evidenced by the
