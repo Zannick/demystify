@@ -205,6 +205,7 @@ def create_test_case(filename):
     canon_name = fname.replace('.', '_').capitalize()
     class TestCase(unittest.TestCase):
         pass
+    TestCase.canon_name = canon_name
     TestCase.__name__ = canon_name + 'TestCase'
     d = {}
     for name, rule, text, exp in generate_tests(filename):
@@ -225,7 +226,7 @@ def add_subcommands(subparsers):
         called on the main parser. """
     subparser = subparsers.add_parser('test',
         description='Run Demystify unittests.')
-    subparser.add_argument('-v', '--verbosity', type=int, default=2,
+    subparser.add_argument('-v', '--verbosity', type=int, default=1,
         help='Verbosity level for running unittests.')
     subparser.add_argument('--test_dir',
         default=os.path.join(os.path.dirname(__file__), 'tests'),
@@ -268,4 +269,5 @@ def run_tests(args):
     for tc in test_cases:
         if tc:
             suite = unittest.TestLoader().loadTestsFromTestCase(tc)
+            print('Test suite: {}'.format(tc.canon_name))
             unittest.TextTestRunner(verbosity=args.verbosity).run(suite)

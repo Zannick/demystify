@@ -146,9 +146,6 @@ def parse_all(cards):
                 errors += 1
     print('{} total errors.'.format(errors))
 
-_cost = r"""(?:^|— | "| ')([^."'()—]*?):"""
-costregex = re.compile(_cost)
-
 def _crawl_tree_for_errors(name, lineno, text, tree):
     """ Common helper function for gathering errors.
         Logs error text and returns a unique error case for the
@@ -170,91 +167,97 @@ def _crawl_tree_for_errors(name, lineno, text, tree):
                 plog.warning('{}:{}:Empty case detected!'.format(name, lineno))
             return mcase
 
-def _parse_ability_costs(c):
-    """ Parse all ability costs of a single card, and list them
-        in c.parsed_costs.
-        Returns a pair (number of errors, set of unique errors). """
-    c.parsed_costs = []
+def parse_helper(cards, name, rulename, yesregex=None, noregex=None):
+    """ Parse a given subset of text on a given subset of cards.
+
+        This function may override some re flags on the
+        provided regex objects.
+
+        cards: An iterable of cards to search for matching text. To save time,
+            the provided regexes will be used to pare down this list to just
+            those that will actually have text to attempt to parse.
+        name: The function will be named _parse_{name} and the results for
+            card c will be saved to c.parsed_{name}.
+        rulename: The name of the parser rule to run.
+        yesregex: If provided, run the parser rule on each match within each
+            line of the card. The text selected is group 1 if it exists, or
+            group 0 (the entire match) otherwise. If not provided, use each
+            line in its entirety.
+        noregex: Any text found after considering yesregex (or its absence)
+            is skipped if it matches this regex. """
+    def _parse_helper(c):
+        """ Returns a pair (number of errors, set of unique errors). """
+        results = []
+        errors = 0
+        uerrors = set()
+        for lineno, line in enumerate(c.rules.split('\n')):
+            lineno += 1
+            if yesregex:
+                texts = [m.group(1) if m.groups() else m.group(0)
+                         for m in yesregex.finditer(line)]
+            else:
+                texts = [line]
+            if noregex:
+                texts = [text for text in texts if not noregex.match(text)]
+            for text in texts:
+                p, parse_result = _parse(rulename, text, c.name, lineno)
+                tree = parse_result.tree
+                results.append(tree)
+                if p.getNumberOfSyntaxErrors():
+                    mcase = _crawl_tree_for_errors(c.name, lineno, line, tree)
+                    if mcase:
+                        uerrors.add(mcase)
+                    errors += 1
+        return (c.name, [t.toStringTree() for t in results], errors, uerrors)
+    _parse_helper.__name__ = '_parse_{}'.format(name)
+
+    if yesregex:
+        pattern = yesregex.pattern
+        if noregex:
+            ccards = set(card.get_card(c[0])
+                         for c in card.search_text(pattern, cards=cards)
+                         if not noregex.match(c[1]))
+        else:
+            ccards = set(card.get_card(c[0])
+                         for c in card.search_text(pattern, cards=cards))
+    elif noregex:
+        ccards = set(c for c in cards
+                     if not all(noregex.match(line)
+                                for line in c.rules.split('\n')))
+    else:
+        ccards = set(cards)
+
     errors = 0
     uerrors = set()
-    for lineno, line in enumerate(c.rules.split('\n')):
-        lineno += 1
-        for m in costregex.finditer(line):
-            text = m.group(1)
-            p, parse_result = _parse('cost', text, c.name, lineno)
-            tree = parse_result.tree
-            c.parsed_costs.append(tree)
-            if p.getNumberOfSyntaxErrors():
-                mcase = _crawl_tree_for_errors(c.name, lineno, text, tree)
-                if mcase:
-                    uerrors.add(mcase)
-                errors += 1
-    return c.name, [t.toStringTree() for t in c.parsed_costs], errors, uerrors
+    plog.removeHandler(_stdout)
+    # list of (cardname, parsed result trees, number of errors, set of errors)
+    results = card.map_multi(_parse_helper, ccards)
+    cprop = 'parsed_{}'.format(name)
+    for cname, pc, e, u in results:
+        setattr(card.get_card(cname), cprop, pc)
+        errors += e
+        uerrors |= u
+    plog.addHandler(_stdout)
+    print('{} total errors.'.format(errors))
+    if uerrors:
+        print('{} unique cases missing.'.format(len(uerrors)))
+        plog.debug('Missing cases: ' + '; '.join(sorted(uerrors)))
+
+# All costs come before a colon, but these may occur at the start of a line,
+# after an mdash, or after an opening quote for an ability.
+costregex = re.compile(r"""(?:^|— | "| ')([^."'()—]*?):""")
+
+# Skip lines that end in . or ", lines that are LEVEL \d,
+# lines that have fewer than 2 characters, and lines that are just p/t.
+keywordskipregex = re.compile(r'^.*[."]$|level \d|^.?$|\d+/\d+')
 
 def parse_ability_costs(cards):
     """ Find all ability costs in the cards and attempt to parse them. """
-    ccards = set(card.get_card(c[0])
-                 for c in card.search_text(_cost, cards=cards))
-    errors = 0
-    uerrors = set()
-    plog.removeHandler(_stdout)
-    # list of (cardname, parsed costs, number of errors, set of errors)
-    results = card.map_multi(_parse_ability_costs, ccards)
-    for cname, pc, e, u in results:
-        card.get_card(cname).parsed_costs = pc
-        errors += e
-        uerrors |= u
-    plog.addHandler(_stdout)
-    print('{} total errors.'.format(errors))
-    if uerrors:
-        print('{} unique cases missing.'.format(len(uerrors)))
-        plog.debug('Missing cases: ' + '; '.join(sorted(uerrors)))
-
-# require two characters
-_keyword_line = r'.[^."]$'
-kwregex = re.compile(_keyword_line)
-lvlptregex = re.compile(r'level \d|\d+/\d+')
-
-def _parse_keywords(c):
-    """ Parse all keyword lines of a single card, and list them
-        in c.parsed_keywords.
-        Returns a pair (number of errors, set of unique errors). """
-    c.parsed_keywords = []
-    errors = 0
-    uerrors = set()
-    for lineno, line in enumerate(c.rules.split('\n')):
-        lineno += 1
-        if kwregex.search(line) and not lvlptregex.match(line):
-            p, parse_result = _parse('keywords', line, c.name, lineno)
-            tree = parse_result.tree
-            c.parsed_keywords.append(tree)
-            if p.getNumberOfSyntaxErrors():
-                mcase = _crawl_tree_for_errors(c.name, lineno, line, tree)
-                if mcase:
-                    uerrors.add(mcase)
-                errors += 1
-    return (c.name, [t.toStringTree() for t in c.parsed_keywords],
-            errors, uerrors)
+    parse_helper(cards, 'costs', 'cost', yesregex=costregex)
 
 def parse_keyword_lines(cards):
     """ Parse all lines in the cards that are lists of keywords. """
-    ccards = set(card.get_card(c[0])
-                 for c in card.search_text(_keyword_line, cards=cards)
-                 if not lvlptregex.match(c[1]))
-    errors = 0
-    uerrors = set()
-    plog.removeHandler(_stdout)
-    # list of (cardname, parsed_keywords, number of errors, set of errors)
-    results = card.map_multi(_parse_keywords, ccards)
-    for cname, pc, e, u in results:
-        card.get_card(cname).parsed_keywords = pc
-        errors += e
-        uerrors |= u
-    plog.addHandler(_stdout)
-    print('{} total errors.'.format(errors))
-    if uerrors:
-        print('{} unique cases missing.'.format(len(uerrors)))
-        plog.debug('Missing cases: ' + '; '.join(sorted(uerrors)))
+    parse_helper(cards, 'keywords', 'keywords', noregex=keywordskipregex)
 
 def preprocess(args):
     raw_cards = []

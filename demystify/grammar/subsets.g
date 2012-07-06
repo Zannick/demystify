@@ -96,8 +96,9 @@ expansion : ANTIQUITIES
 
 /* Special properties, usually led by 'with', 'that', or 'if it has' */
 
+// Do we need to remember ref_object?
 has_counters : counter_subset ON ref_object
-               -> ^( HAS_COUNTERS ref_object counter_subset );
+               -> ^( HAS_COUNTERS counter_subset );
 
 share_feature : SHARE A prop_type -> ^( SHARE[] prop_type );
 
