@@ -379,7 +379,7 @@ class CardProgressQueue(multiprocessing.queues.JoinableQueue):
             else:
                 self._pbar.update(self._sem._semlock._get_value())
 
-def _card_worker_jq(work_queue, res_queue, func):
+def _card_worker(work_queue, res_queue, func):
     try:
         while True:
             c = work_queue.get(timeout=0.2)
@@ -419,7 +419,7 @@ def map_multi(func, cards, processes=None):
         processes = multiprocessing.cpu_count()
     q = CardProgressQueue(cards)
     rq = multiprocessing.Queue()
-    pr = [multiprocessing.Process(target=_card_worker_jq, args=(q, rq, func))
+    pr = [multiprocessing.Process(target=_card_worker, args=(q, rq, func))
           for i in range(processes)]
     for p in pr:
         p.start()
