@@ -20,8 +20,6 @@ import os
 import re
 import sys
 
-basedir = os.path.join(os.path.dirname(__file__), '..', 'demystify', 'grammar')
-
 rule = re.compile(r"^(?:[a-z_0-9]+\+?=)?([a-z_0-9]+)\+?\*?!?\??$")
 comments = re.compile(r"//.*?$|/\*.*?\*/", re.M|re.S)
 actions = re.compile(r"""{([^'"]|'[^']*'|"[^"]*"|'''.*?'''"""
@@ -43,12 +41,13 @@ def find_rules(fulltext):
                 deps[rname].add(m.group(1))
     return deps
 
-def print_deps(deps):
+def print_deps(deps, indent_level=1):
+    indent = '  ' * indent_level
     for rname, rdeps in deps.items():
         for d in rdeps:
-            print('  "{}" -> "{}";'.format(rname, d))
+            print('{}"{}" -> "{}";'.format(indent, rname, d))
 
-def print_graph(files):
+def print_graph(basedir, colors):
     print('digraph gdeps {\n  truecolor=true;')
     # filename -> list of deps
     fdeps = {}
@@ -56,7 +55,7 @@ def print_graph(files):
     dep_file = {}
     # filename -> filename it depends on
     file_deps = {}
-    for f in files:
+    for f in colors:
         with open(os.path.join(basedir, f)) as g:
             s = g.read()
         f = os.path.basename(f)
@@ -78,30 +77,50 @@ def print_graph(files):
         print('  }')
     for deps in fdeps.values():
         print_deps(deps)
-    print('  subgraph "files" {')
+    print('  subgraph "filedeps" {')
     for fname, fdeps in file_deps.items():
         print('    "{}" [shape=box,style=filled,color={}];'
               .format(fname, colors[fname]))
-    print_deps(file_deps)
+    print_deps(file_deps, indent_level=2)
     print('  }\n}')
 
-colors = {
-    'Demystify.g': 'gray',
-    'costs.g': 'gold',
-    'counters.g': 'plum',
-    'events.g': 'orange',
-    'keywords.g': 'salmon',
-    'macro.g': 'cyan',
-    'math.g': 'violetred',
-    'misc.g': 'red',
-    'players.g': 'blue',
-    'properties.g': 'greenyellow',
-    'pt.g': 'seagreen',
-    'raw_keywords.g': 'chocolate',
-    'subsets.g': 'skyblue',
-    'types.g': 'lightgray',
-    'zones.g': 'green',
-}
+def read_config(filename):
+    """ Gets basedir and color mapping information from the given config. """
+    basedir = None
+    colors = {}
+    with open(filename, 'r') as f:
+        for lineno, line in enumerate(f):
+            line = line.strip()
+            if not line or line[0] == '#':
+                continue
+            if ':' not in line:
+                sys.stderr.write('Error reading {} at line {}: Expected ":".\n'
+                                 .format(filename, lineno + 1))
+                sys.exit(1)
+            arg0, arg1 = line.split(':', 1)
+            arg0 = arg0.strip()
+            arg1 = arg1.strip()
+            if basedir is None:
+                if arg0 == 'rel_path':
+                    basedir = os.path.join(os.path.dirname(filename), arg1)
+                elif arg0 == 'abs_path':
+                    basedir = os.path.abs_path(os.path.join('/', arg1))
+                else:
+                    sys.stderr.write('Error reading {} at line {}: Unknown '
+                                     'path spec {!r}.\n'
+                                     .format(filename, lineno + 1, arg0))
+                    sys.exit(1)
+                if not os.path.exists(basedir):
+                    sys.stderr.write('Error: Specified location {!r} does not '
+                                     'exist.'.format(basedir))
+                    sys.exit(1)
+            else:
+                colors[arg0] = arg1
+    return basedir, colors
 
 if __name__ == "__main__":
-    print_graph(colors.keys())
+    if len(sys.argv) < 2:
+        sys.stderr.write('Usage:\n  {} configfile\n'.format(sys.argv[0]))
+        sys.exit(1)
+    basedir, colors = read_config(sys.argv[1])
+    print_graph(basedir, colors)
