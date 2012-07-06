@@ -1,18 +1,18 @@
 # deps -- ANTLR v3 parser rule dependency graph generation
 # Copyright (C) 2012 Benjamin S Wolf
 # 
-# Demystify is free software; you can redistribute it and/or modify
+# deps.py is free software; you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License as published
 # by the Free Software Foundation; either version 3 of the License,
 # or (at your option) any later version.
 # 
-# Demystify is distributed in the hope that it will be useful,
+# deps.py is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU Lesser General Public License for more details.
 # 
 # You should have received a copy of the GNU Lesser General Public License
-# along with Demystify.  If not, see <http://www.gnu.org/licenses/>.
+# along with deps.py.  If not, see <http://www.gnu.org/licenses/>.
 
 """deps -- ANTLR v3 parser rule dependency graph generation."""
 
@@ -89,6 +89,7 @@ colors = {
     'Demystify.g': 'gray',
     'costs.g': 'gold',
     'counters.g': 'plum',
+    'events.g': 'orange',
     'keywords.g': 'salmon',
     'macro.g': 'cyan',
     'math.g': 'violetred',
