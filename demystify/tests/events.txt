@@ -1,0 +1,28 @@
+
+@BasicEvent
+@trigger
+@a creature enters the battlefield
+@(EVENT (SUBSET (NUMBER 1) (PROPERTIES creature)) (ENTER battlefield))
+
+@Dies
+@trigger
+@a creature dies
+@(EVENT (SUBSET (NUMBER 1) (PROPERTIES creature))
+  (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD)))
+
+@Narcomoeba
+@trigger
+@SELF is put into your graveyard from your library
+@(EVENT (SUBSET SELF)
+  (ENTER (ZONE_SET your GRAVEYARD) (FROM (ZONE_SET your LIBRARY))))
+
+@Floodgadte
+@trigger
+@SELF has flying
+@(CONDITION (SUBSET SELF) (HAS flying))
+
+@DarksteelReactor
+@trigger
+@SELF has twenty or more charge counters on it
+@(CONDITION (SUBSET SELF)
+  (HAS_COUNTERS (COUNTER_SET (COUNTER_GROUP (NUMBER (GEQ twenty)) charge))))
