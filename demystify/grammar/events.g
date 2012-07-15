@@ -24,9 +24,10 @@ parser grammar events;
 // of the event and condition rules. It's a bad idea to leave it unfactored
 // since ANTLR will run itself out of memory (presumably trying to generate
 // lookahead tables).
-trigger : subset
-          ( event -> ^( EVENT subset event )
-          | condition -> ^( CONDITION subset condition )
+// TODO: trigger descriptors (eg. "during combat")
+trigger : subsets
+          ( event -> ^( EVENT subsets event )
+          | condition -> ^( CONDITION subsets condition )
           );
 
 // An event is something that happens, usually an object taking an action
@@ -34,6 +35,7 @@ trigger : subset
 
 event : zone_transfer
       | phases_in_out
+      | state_change
       ;
 
 /* Events. */
@@ -49,6 +51,16 @@ zone_transfer : ( ENTER | ( IS | ARE ) PUT ( INTO | ONTO ) ) a=zone_subset
               ;
 
 phases_in_out : PHASE^ ( IN | OUT );
+
+state_change : BECOME ( BLOCKED BY subset
+                         -> ^( BECOME[] BLOCKED ^( BY[] subset ) )
+                       | status -> ^( BECOME[] status )
+                       | THE TARGET OF subset -> ^( TARGETED subset )
+                       | UNATTACHED FROM subset
+                         -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
+                       )
+             | IS TURNED status -> ^( BECOME[] status )
+             ;
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will

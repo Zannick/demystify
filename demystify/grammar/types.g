@@ -35,7 +35,7 @@ types : tribal_type? spell_type -> ^( TYPES tribal_type? spell_type )
       | permanent_types -> ^( TYPES permanent_types )
       | other_type -> ^( TYPES other_type );
 
-type : permanent_type | spell_type | other_type ;
+type : permanent_type | spell_type | other_type | tribal_type ;
 
 permanent_types : permanent_type+ ;
 permanent_type : noncreature_perm_type | creature_type ;
@@ -56,7 +56,7 @@ subtypes : obj_subtype+ -> ^( SUBTYPES obj_subtype+ );
 
 // Object types
 
-obj_type : OBJECT | CARD | PERMANENT | SOURCE | SPELL | TOKEN ;
+obj_type : OBJECT | ABILITY | CARD | PERMANENT | SOURCE | SPELL | TOKEN ;
 
 // Player types
 
