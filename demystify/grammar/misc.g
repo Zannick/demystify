@@ -62,3 +62,6 @@ integer : ( s=NUMBER_SYM | w=number_word )
 // TODO: more player stuff.
 player_poss : YOUR ;
 
+// Unfortunately we can't have the lexer rule POSS match just a single quote
+// in some cases but not others, so we use a parser rule to handle this.
+poss : POSS | SQUOTE ;

@@ -24,15 +24,9 @@ options {
     language = Python;
 }
 
-// Literals used in parsing rules don't have to be declared,
-// but for reference they are:
-// ,:;."'+-*/
-
-// These six are the only things in rules text exempt from being lowercased.
-SELF_POSS : 'SELF\'s';
+// These four are the only things in rules text exempt from being lowercased.
 SELF : 'SELF';
 
-PARENT_POSS : 'PARENT\'s';
 PARENT : 'PARENT';
 
 REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' | '\u00c6' | '\u00e6' )+;
@@ -75,15 +69,7 @@ VAR_SYM : 'x'..'z' { $text = $text.upper() };
 
 MDASH : ( '\u2014' | '--' );
 
-// TODO: Determine landwalk type.
-// TODO: Avoid collision with "planeswalk" keyword.
-// TODO: landwalk as a parser rule instead of a token
-//LANDWALK : '\w' ('\w' | ' ')* '\w' 'walk' 's'? '\b';
-WALK : 'walk';
-
-// TODO: Determine cycling type or make this a parser rule.
-//TYPECYCLING : '\w' ('\w' | ' ')* '\w' 'cycling';
-
+POSS : '\'s' | 's\'' ;
 
 WS : ( ' ' | '\t' | '\n' ) {$channel=HIDDEN;} ;
 

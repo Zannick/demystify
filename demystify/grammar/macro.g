@@ -46,7 +46,5 @@ obj_subtype : OBJ_SUBTYPE
             | TOWER
             | TRAP;
 
-obj_subtype_poss : OBJ_SUBTYPE_POSS;
-
 ordinal_word : ORDINAL_WORD
              | FIRST;

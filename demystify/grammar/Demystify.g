@@ -211,6 +211,10 @@ tokens {
 
 card_mana_cost : mc_symbols -> ^( COST mc_symbols );
 
+// Literals used in parsing rules don't have to be declared,
+// but for reference they are:
+// ,:;."'+-*/
+
 COMMA : ',';
 COLON : ':';
 SEMICOLON : ';';
