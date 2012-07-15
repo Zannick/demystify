@@ -16,7 +16,7 @@
 @(EVENT (SUBSET SELF)
   (ENTER (ZONE_SET your GRAVEYARD) (FROM (ZONE_SET your LIBRARY))))
 
-@Floodgadte
+@Floodgate
 @trigger
 @SELF has flying
 @(CONDITION (SUBSET SELF) (HAS flying))
@@ -26,3 +26,13 @@
 @SELF has twenty or more charge counters on it
 @(CONDITION (SUBSET SELF)
   (HAS_COUNTERS (COUNTER_SET (COUNTER_GROUP (NUMBER (GEQ twenty)) charge))))
+
+@Rayne
+@trigger
+@you or a permanent you control becomes the target of a spell or ability
+ an opponent controls
+@(EVENT (or (SUBSET you)
+            (SUBSET (NUMBER 1) (PROPERTIES permanent (CONTROL you))))
+        (TARGETED (SUBSET (NUMBER 1)
+                          (PROPERTIES (or spell ability)
+                           (CONTROL (PLAYER_GROUP (NUMBER 1) opponent))))))

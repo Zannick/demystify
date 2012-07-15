@@ -43,8 +43,8 @@ object_count : THE NUMBER OF
 
 // ref_object is usually plural in this case
 max_among : THE ( HIGHEST | GREATEST ) int_prop
-            AMONG ( properties | ref_object | player_subset )
-            -> ^( MAX int_prop properties? ref_object? player_subset? );
+            AMONG ( properties | ref_object | player_group )
+            -> ^( MAX int_prop properties? ref_object? player_group? );
 
 // TODO: for each basic land type among lands you control. (Draco)
 for_each : FOR EACH

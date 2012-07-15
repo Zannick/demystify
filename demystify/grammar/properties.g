@@ -148,6 +148,7 @@ status : TAPPED
        | FLIPPED
        | REVEALED
        ;
+
 // status that can't be used as an adjective but can be used in descriptors
 desc_status : status
             | ENCHANTED
@@ -222,9 +223,11 @@ prop_type : COLOR
           | MANA! COST
           | type TYPE -> ^( SUBTYPE type )
           | CARD!? TYPE
-          | int_prop;
+          | int_prop
+          ;
 
 int_prop : CONVERTED MANA COST -> CMC
          | LIFE TOTAL!?
          | POWER
-         | TOUGHNESS;
+         | TOUGHNESS
+         ;

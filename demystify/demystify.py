@@ -251,6 +251,10 @@ costregex = re.compile(r"""(?:^|— | "| ')([^."'()—]*?):""")
 # lines that have fewer than 2 characters, and lines that are just p/t.
 keywordskipregex = re.compile(r'^.*[."]$|level \d|^.?$|\d+/\d+')
 
+# Triggers. Similar to costregex, these can occur at the start of an ability
+# or sentence.
+triggerregex = re.compile(ur"""(?:^|— | "| '|\. )when(?:ever)? ([^,]*),""")
+
 def parse_ability_costs(cards):
     """ Find all ability costs in the cards and attempt to parse them. """
     parse_helper(cards, 'costs', 'cost', yesregex=costregex)
@@ -258,6 +262,10 @@ def parse_ability_costs(cards):
 def parse_keyword_lines(cards):
     """ Parse all lines in the cards that are lists of keywords. """
     parse_helper(cards, 'keywords', 'keywords', noregex=keywordskipregex)
+
+def parse_triggers(cards):
+    """ Parse all trigger conditions in the cards. """
+    parse_helper(cards, 'triggers', 'trigger', yesregex=triggerregex)
 
 def preprocess(args):
     raw_cards = []

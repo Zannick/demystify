@@ -38,6 +38,8 @@ subset : number properties restriction*
          -> ^( SUBSET full_zone )
        | ref_object in_zones?
          -> ^( SUBSET ref_object in_zones? )
+       | player_group
+         -> ^( SUBSET player_group )
        ;
 
 // A full zone, for use as a subset

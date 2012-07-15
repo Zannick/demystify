@@ -20,10 +20,7 @@ parser grammar players;
 
 /* Players, controllers, and owners. */
 
-player_subset : player_group
-                ( conj player_group -> ^( PLAYER_SET ^( conj player_group+ ) )
-                | -> ^( PLAYER_SET player_group )
-                );
+player_subset : player_group ( conj^ player_group )? ;
 
 // TODO: other players can have opponents and teammates
 // TODO: objects can have controllers and/or owners
