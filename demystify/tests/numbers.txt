@@ -5,7 +5,7 @@
 @a card with converted mana cost less than or equal to
  the number of lands you control
 @(SUBSET (NUMBER 1) (PROPERTIES card) (CMC (LEQ (COUNT
- (PROPERTIES lands (CONTROL (PLAYER_SET you)))))))
+ (PROPERTIES lands (CONTROL you))))))
 
 # Mossbridge Troll
 @MossbridgeTroll
@@ -13,7 +13,7 @@
 @any number of untapped creatures you control other than SELF
  with total power 10 or greater
 @(SUBSET (NUMBER any) (PROPERTIES untapped creatures
-                       (CONTROL (PLAYER_SET you)))
+                       (CONTROL you))
   (NOT SELF)
   (TOTAL (POWER (NUMBER (GEQ 10)))))
 
@@ -41,11 +41,11 @@
 
 @magic_number
 @the highest converted mana cost among permanents you control
-@(MAX CMC (PROPERTIES permanents (CONTROL (PLAYER_SET you))))
+@(MAX CMC (PROPERTIES permanents (CONTROL you)))
 
 @magic_number
 @the highest life total among all players
-@(MAX LIFE (PLAYER_SET (PLAYER_GROUP (NUMBER ALL) players)))
+@(MAX LIFE (PLAYER_GROUP (NUMBER ALL) players))
 
 @number
 @one or two

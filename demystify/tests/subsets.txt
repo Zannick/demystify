@@ -2,12 +2,12 @@
 # properties case 1 (no list or adj list)
 @properties
 @red untapped or unblocked creature you control
-@(PROPERTIES red (or untapped unblocked) creature (CONTROL (PLAYER_SET you)))
+@(PROPERTIES red (or untapped unblocked) creature (CONTROL you))
 
 # properties case 2 (noun list)
 @properties
 @creature or land you control
-@(PROPERTIES (or creature land) (CONTROL (PLAYER_SET you)))
+@(PROPERTIES (or creature land) (CONTROL you))
 
 # properties case 3 (adj+noun list)
 @properties
@@ -15,18 +15,18 @@
 @(PROPERTIES (or (AND white soldier) (AND blue merfolk)
                  (AND black zombie) (AND red goblin)
                  (AND green elf))
-             (CONTROL (PLAYER_SET you)))
+             (CONTROL you))
 
 # properties case 4 (adj+noun+desc pair)
 @properties
 @permanent you control or card you own
-@(PROPERTIES (or (AND permanent (CONTROL (PLAYER_SET you)))
-                 (AND card (own (PLAYER_SET you)))))
+@(PROPERTIES (or (AND permanent (CONTROL you))
+                 (AND card (own you))))
 
 @subsets
 @all permanents you control and all cards you own
-@(and (SUBSET (NUMBER all) (PROPERTIES permanents (CONTROL (PLAYER_SET you))))
-      (SUBSET (NUMBER all) (PROPERTIES cards (own (PLAYER_SET you)))))
+@(and (SUBSET (NUMBER all) (PROPERTIES permanents (CONTROL you)))
+      (SUBSET (NUMBER all) (PROPERTIES cards (own you))))
 
 # Suffocation
 @Suffocation
@@ -64,7 +64,7 @@
 @subsets
 @auras attached to permanents you control
 @(SUBSET (NUMBER ALL) (PROPERTIES auras)
-  (ATTACHED_TO (PROPERTIES permanents (CONTROL (PLAYER_SET you)))))
+  (ATTACHED_TO (PROPERTIES permanents (CONTROL you))))
 
 @ApocalypseChime
 @subset
@@ -75,7 +75,7 @@
 @Touchstone
 @properties
 @artifact you don't control
-@(PROPERTIES artifact (NOT (CONTROL (PLAYER_SET you))))
+@(PROPERTIES artifact (NOT (CONTROL you)))
 
 @subset
 @three black creatures
@@ -96,6 +96,6 @@
 @non-land cards you own that aren't on the battlefield, spells you control,
  and non-land permanents you control
 @(SUBSET (NUMBER ALL) (PROPERTIES (and
-    (AND (NON land) cards (OWN (PLAYER_SET you)) (NOT battlefield))
-    (AND spells (CONTROL (PLAYER_SET you)))
-    (AND (NON land) permanents (CONTROL (PLAYER_SET you))))))
+    (AND (NON land) cards (OWN you) (NOT battlefield))
+    (AND spells (CONTROL you))
+    (AND (NON land) permanents (CONTROL you)))))
