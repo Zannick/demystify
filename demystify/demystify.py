@@ -253,7 +253,7 @@ keywordskipregex = re.compile(r'^.*[."]$|level \d|^.?$|\d+/\d+')
 
 # Triggers. Similar to costregex, these can occur at the start of an ability
 # or sentence.
-triggerregex = re.compile(ur"""(?:^|— | "| '|\. )when(?:ever)? ([^,]*),""")
+triggerregex = re.compile(r"""(?:^|— | "| '|\. )when(?:ever)? ([^,]*),""")
 
 def parse_ability_costs(cards):
     """ Find all ability costs in the cards and attempt to parse them. """
