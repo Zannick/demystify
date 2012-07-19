@@ -6,7 +6,7 @@
 @SimianSpiritGuide
 @cost
 @exile SELF from your hand
-@(COST (EXILE (SUBSET SELF (IN (ZONE_SET your HAND)))))
+@(COST (EXILE (SUBSET SELF (IN (ZONE_SET (POSS YOU) HAND)))))
 
 @DoomCannon
 @cost

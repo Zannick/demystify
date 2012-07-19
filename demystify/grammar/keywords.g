@@ -145,6 +145,8 @@ keyword_typecycling : keyword_arg_quality CYCLING keyword_arg_cost
 
 /* Keywords with arguments in a generic form. */
 
+// TODO: Put subrules in raw_keywords in separate categories so that we can
+// reference keywords that have a cost?
 keyword_int : ( ABSORB
               | AMPLIFY
               | ANNIHILATOR

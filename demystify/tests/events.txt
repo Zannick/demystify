@@ -14,7 +14,7 @@
 @trigger
 @SELF is put into your graveyard from your library
 @(EVENT (SUBSET SELF)
-  (ENTER (ZONE_SET your GRAVEYARD) (FROM (ZONE_SET your LIBRARY))))
+  (ENTER (ZONE_SET (POSS YOU) GRAVEYARD) (FROM (ZONE_SET (POSS YOU) LIBRARY))))
 
 @Floodgate
 @trigger

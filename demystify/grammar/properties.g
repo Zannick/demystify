@@ -219,15 +219,15 @@ this_guy : THIS ( type | obj_type ) -> SELF;
 
 prop_types : prop_type ( ( COMMA! ( prop_type COMMA! )+ )? conj^ prop_type )? ;
 
-prop_type : COLOR
-          | MANA! COST
+prop_type : COLOR -> COLOR[]
+          | MANA COST -> COST[]
           | type TYPE -> ^( SUBTYPE type )
-          | CARD!? TYPE
+          | CARD? TYPE -> TYPE[]
           | int_prop
           ;
 
 int_prop : CONVERTED MANA COST -> CMC
-         | LIFE TOTAL!?
-         | POWER
-         | TOUGHNESS
+         | LIFE TOTAL? -> LIFE[]
+         | POWER -> POWER[]
+         | TOUGHNESS -> TOUGHNESS[]
          ;
