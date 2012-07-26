@@ -20,14 +20,18 @@ parser grammar events;
 
 /* Events and conditions. */
 
+triggers : trigger ( OR^ trigger )? ;
+
 // Although it doesn't look great, it was necessary to factor 'subset' out
 // of the event and condition rules. It's a bad idea to leave it unfactored
 // since ANTLR will run itself out of memory (presumably trying to generate
 // lookahead tables).
-// TODO: trigger descriptors (eg. "during combat")
-trigger : subsets
-          ( event -> ^( EVENT subsets event )
-          | condition -> ^( CONDITION subsets condition )
+// TODO: event descriptors (eg. "during combat")
+trigger : subset_list
+          ( event ( OR event )?
+            -> {$OR}? ^( EVENT subset_list ^( OR[] event+ ) )
+            -> ^( EVENT subset_list event )
+          | condition -> ^( CONDITION subset_list condition )
           );
 
 // An event is something that happens, usually an object taking an action

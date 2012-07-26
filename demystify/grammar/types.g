@@ -26,14 +26,15 @@ typeline : supertypes? types ( MDASH subtypes )?
 
 supertypes : supertype+ -> ^( SUPERTYPES supertype+ );
 
-supertype : ( BASIC | LEGENDARY | SNOW | WORLD );
+supertype : BASIC | LEGENDARY | SNOW | WORLD | ONGOING ;
 
 // Card types
 
 types : tribal_type? spell_type -> ^( TYPES tribal_type? spell_type )
       | tribal_type n=noncreature_perm_types -> ^( TYPES tribal_type $n )
       | permanent_types -> ^( TYPES permanent_types )
-      | other_type -> ^( TYPES other_type );
+      | other_type -> ^( TYPES other_type )
+      ;
 
 type : permanent_type | spell_type | other_type | tribal_type ;
 

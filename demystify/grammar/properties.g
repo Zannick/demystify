@@ -134,8 +134,8 @@ adjective : NON? ( supertype | color | color_spec | status )
             -> {$NON}? ^( NON[] supertype? color? color_spec? status? )
             -> supertype? color? color_spec? status? ;
 
-color : WHITE | BLUE | BLACK | RED | GREEN;
-color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED;
+color : WHITE | BLUE | BLACK | RED | GREEN ;
+color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED ;
 status : TAPPED
        | UNTAPPED
        | SUSPENDED
@@ -154,6 +154,7 @@ desc_status : status
             | ENCHANTED
             | EQUIPPED
             | FORTIFIED
+            | HAUNTED
             ;
 
 // Nouns
@@ -197,6 +198,9 @@ with_keywords : WITH raw_keywords -> ^( KEYWORDS raw_keywords )
 
 /* Special references to related objects. */
 
+haunted_object : THE ( type | obj_type ) ref_object HAUNT
+                 -> ^( HAUNTED ref_object );
+
 // TODO: target
 // TODO: ref_player
 ref_object : SELF
@@ -208,7 +212,7 @@ ref_object : SELF
            | HER
              // We probably don't actually need to remember what the
              // nouns were here, but keep them in for now.
-           | ( ENCHANTED | EQUIPPED | FORTIFIED | HAUNTED ) noun+
+           | ( ENCHANTED | EQUIPPED | FORTIFIED ) noun+
            | this_guy
            ;
 

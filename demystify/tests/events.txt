@@ -10,6 +10,20 @@
 @(EVENT (SUBSET (NUMBER 1) (PROPERTIES creature))
   (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD)))
 
+@LivesOrDies
+@triggers
+@SELF enters the battlefield or is put into a graveyard from the battlefield
+@(EVENT (SUBSET SELF)
+        (OR (ENTER BATTLEFIELD)
+            (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD))))
+
+@OrHaunt
+@triggers
+@SELF enters the battlefield or the creature it haunts dies
+@(or (EVENT (SUBSET SELF) (ENTER BATTLEFIELD))
+     (EVENT (SUBSET (HAUNTED it))
+            (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD))))
+
 @Narcomoeba
 @trigger
 @SELF is put into your graveyard from your library
