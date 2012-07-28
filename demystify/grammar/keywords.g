@@ -56,7 +56,7 @@ keyword_one_line : keyword_int_cost
 keyword : keyword_int
         | keyword_cost
         | keyword_no_args
-        | keyword_multiword
+        | keyword_quality
         | keyword_landwalk
         | keyword_protection
         | keyword_affinity
@@ -64,53 +64,6 @@ keyword : keyword_int
         | keyword_offering
         | keyword_typecycling
         ;
-
-// core first, then expert.
-keyword_no_args : DEATHTOUCH
-                | DEFENDER
-                | FLASH
-                | FLYING
-                | HASTE
-                | HEXPROOF
-                | INTIMIDATE
-                | LIFELINK
-                | REACH
-                | SHROUD
-                | TRAMPLE
-                | VIGILANCE
-                | BANDING
-                | BATTLE_CRY
-                | CASCADE
-                | CHANGELING
-                | CONSPIRE
-                | CONVOKE
-                | DELVE
-                | EPIC
-                | EXALTED
-                | FEAR
-                | FLANKING
-                | GRAVESTORM
-                | HAUNT
-                | HIDEAWAY
-                | HORSEMANSHIP
-                | INFECT
-                | LIVING_WEAPON
-                | PERSIST
-                | PHASING
-                | PROVOKE
-                | REBOUND
-                | RETRACE
-                | SHADOW
-                | SOULBOND
-                | SPLIT_SECOND
-                | STORM
-                | SUNBURST
-                | TOTEM_ARMOR
-                | UNDYING
-                // Vanishing can appear with or without an argument.
-                | VANISHING
-                | WITHER
-                ;
 
 /* Special case keywords. */
 
@@ -145,68 +98,23 @@ keyword_typecycling : keyword_arg_quality CYCLING keyword_arg_cost
 
 /* Keywords with arguments in a generic form. */
 
-// TODO: Put subrules in raw_keywords in separate categories so that we can
-// reference keywords that have a cost?
-keyword_int : ( ABSORB
-              | AMPLIFY
-              | ANNIHILATOR
-              | BLOODTHIRST
-              | BUSHIDO
-              | DEVOUR
-              | DREDGE
-              | FADING
-              | FRENZY
-              | GRAFT
-              | MODULAR
-              | POISONOUS
-              | RAMPAGE
-              | RIPPLE
-              | SOULSHIFT
-              | VANISHING
-              )^ keyword_arg_int ;
+keyword_int : raw_keyword_int^ keyword_arg_int ;
 
-keyword_cost : ( EQUIP
-               | BUYBACK
-               | CUMULATIVE_UPKEEP
-               | CYCLING
-               | ECHO
-               | ENTWINE
-               | EVOKE
-               | FLASHBACK
-               | FORTIFY
-               | MADNESS
-               | MIRACLE
-               | MORPH
-               | MULTIKICKER
-               | NINJUTSU
-               | PROWL 
-               | RECOVER
-               | REPLICATE
-               | TRANSFIGURE
-               | TRANSMUTE
-               | UNEARTH
-               )^ keyword_arg_cost ;
+keyword_cost : raw_keyword_cost^ keyword_arg_cost ;
 
-keyword_int_cost : ( REINFORCE
-                   | SUSPEND
-                   )^ keyword_arg_int MDASH! keyword_arg_cost ;
+keyword_no_args : raw_keywords_with_no_args ;
 
-// Multiword keywords here, to cut down on rewrite rule spam.
-keyword_multiword : FIRST STRIKE -> FIRST_STRIKE
-                  | DOUBLE STRIKE -> DOUBLE_STRIKE
-                  | AURA SWAP keyword_arg_cost -> AURA_SWAP keyword_arg_cost
-                  | BAND WITH OTHER keyword_arg_quality
-                    -> ^( BANDS_WITH_OTHER keyword_arg_quality )
-                  | LEVEL UP keyword_arg_cost -> LEVEL_UP keyword_arg_cost
-                  ;
+keyword_int_cost : raw_keyword_int_cost^ keyword_arg_int
+                   MDASH! keyword_arg_cost ;
+
+keyword_quality : raw_keyword_quality^ keyword_arg_quality ;
 
 /* Argument rules. */
 
-// TODO: the values of this can be referred to as "points of keyword",
-// eg. "for each point of bushido it has"
 keyword_arg_int : NUMBER_SYM -> ^( INT NUMBER_SYM )
                 | VAR_SYM -> ^( INT ^( VAR VAR_SYM ) )
-                | MDASH SUNBURST -> ^( INT SUNBURST );
+                | MDASH SUNBURST -> ^( INT SUNBURST[] )
+                ;
 
 // Costs can include standard cost items, plus some new ones:
 // "Gain control of a land you don't control"
@@ -224,7 +132,7 @@ keyword_arg_int : NUMBER_SYM -> ^( INT NUMBER_SYM )
 keyword_arg_cost : cost ;
 
 // TODO: better distinguish quality args.
-//       (eg. typecyclying takes only simple_properties,
+//       (eg. typecycling takes only simple_properties,
 //            protection takes this, and enchant takes properties)
 keyword_arg_prot : keyword_arg_quality
                  | int_prop_with_value
