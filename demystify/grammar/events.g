@@ -57,12 +57,18 @@ zone_transfer : ( ENTER | ( IS | ARE ) PUT ( INTO | ONTO ) ) a=zone_subset
 phases_in_out : PHASE^ ( IN | OUT );
 
 state_change : BECOME ( BLOCKED BY subset
-                         -> ^( BECOME[] BLOCKED ^( BY[] subset ) )
-                       | status -> ^( BECOME[] status )
-                       | THE TARGET OF subset -> ^( TARGETED subset )
-                       | UNATTACHED FROM subset
-                         -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
-                       )
+                        -> ^( BECOME[] BLOCKED ^( BY[] subset ) )
+                      | status -> ^( BECOME[] status )
+                      | THE TARGET OF subset -> ^( TARGETED subset )
+                      | UNATTACHED FROM subset
+                        -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
+                      )
+             | ATTACK ( (pl_subset)=> pl_subset )?
+               ( AND ( ISNT | ARENT ) BLOCKED
+                 -> ^( BECOME UNBLOCKED pl_subset? )
+               | -> ^( BECOME ATTACKING pl_subset? )
+               )
+             | BLOCK subset? -> ^( BECOME BLOCKING subset? )
              | IS TURNED status -> ^( BECOME[] status )
              ;
 

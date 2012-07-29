@@ -47,6 +47,18 @@ subset : number properties restriction*
          -> ^( SUBSET player_group )
        ;
 
+pl_subset : player_or_walker
+            ( COMMA! ( player_or_walker COMMA! )+ conj^ player_or_walker
+            | (conj player_or_walker)=> conj^ player_or_walker 
+            |
+            );
+
+player_or_walker
+    : player_group -> ^( SUBSET player_group )
+    | number PLANESWALKER descriptor*
+      -> ^( SUBSET number ^( PROPERTIES PLANESWALKER descriptor* ) )
+    ;
+
 // A full zone, for use as a subset
 full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
           | THE ( TOP | BOTTOM ) number? properties

@@ -50,3 +50,25 @@
         (TARGETED (SUBSET (NUMBER 1)
                           (PROPERTIES (or spell ability)
                            (CONTROL (PLAYER_GROUP (NUMBER 1) opponent))))))
+
+@AllyAttacked
+@trigger
+@a creature attacks you, a teammate, or a planeswalker you or a teammate control
+@(EVENT (SUBSET (NUMBER 1) (PROPERTIES creature))
+  (BECOME ATTACKING
+   (or (SUBSET you) (SUBSET (PLAYER_GROUP (NUMBER 1) teammate))
+    (SUBSET (NUMBER 1)
+     (PROPERTIES planeswalker
+      (CONTROL (or you (PLAYER_GROUP (NUMBER 1) teammate))))))))
+
+@Unblocked
+@trigger
+@SELF attacks and isn't blocked
+@(EVENT (SUBSET SELF) (BECOME UNBLOCKED))
+
+@Blocks
+@trigger
+@SELF attacks a player or blocks a creature
+@(EVENT (SUBSET SELF)
+        (OR (BECOME ATTACKING (SUBSET (PLAYER_GROUP (NUMBER 1) player)))
+            (BECOME BLOCKING (SUBSET (NUMBER 1) (PROPERTIES creature)))))
