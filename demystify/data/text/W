@@ -73,7 +73,7 @@ Pow/Tgh:    (1/2)
 Rules Text:     Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Walker of Secret Ways deals combat damage to a player, look at that player's hand.
 {1}{U}: Return target Ninja you control to its owner's hand. Activate this ability only during your turn.
-Set/Rarity:     Betrayers of Kamigawa Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Betrayers of Kamigawa Uncommon
 
 Name:   Walker of the Grove
 Cost:   6GG
@@ -105,7 +105,7 @@ Cost:   1B
 Type:   Creature — Zombie
 Pow/Tgh:    (2/2)
 Rules Text:     
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Magic 2013 Common, Innistrad Common
 
 Name:   Walking Dead
 Cost:   1B
@@ -164,9 +164,9 @@ Name:   Wall of Blossoms
 Cost:   1G
 Type:   Creature — Plant Wall
 Pow/Tgh:    (0/4)
-Rules Text:     Defender (This creature can't attack.)
+Rules Text:     Defender
 When Wall of Blossoms enters the battlefield, draw a card.
-Set/Rarity:     Stronghold Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Stronghold Uncommon
 
 Name:   Wall of Bone
 Cost:   2B
@@ -189,7 +189,7 @@ Cost:   1W
 Type:   Creature — Wall
 Pow/Tgh:    (2/1)
 Rules Text:     Defender (This creature can't attack.)
-Whenever Wall of Caltrops blocks a creature, if no non-Wall creatures are blocking that creature, Wall of Caltrops gains banding until end of turn. (If any creatures with banding you control are blocking a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by.)
+Whenever Wall of Caltrops blocks a creature, if at least one other Wall creature is blocking that creature and no non-Wall creatures are blocking that creature, Wall of Caltrops gains banding until end of turn. (If any creatures with banding you control are blocking a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by.)
 Set/Rarity:     Legends Common
 
 Name:   Wall of Corpses
@@ -270,15 +270,15 @@ Type:   Creature — Wall
 Pow/Tgh:    (0/5)
 Rules Text:     Defender (This creature can't attack.)
 {R}: Wall of Fire gets +1/+0 until end of turn.
-Set/Rarity:     Magic 2010 Uncommon, Tenth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+Set/Rarity:     Magic 2013 Common, Magic 2010 Uncommon, Tenth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Wall of Frost
 Cost:   1UU
 Type:   Creature — Wall
 Pow/Tgh:    (0/7)
-Rules Text:     Defender (This creature can't attack.)
+Rules Text:     Defender
 Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step.
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon
 
 Name:   Wall of Glare
 Cost:   1W
@@ -743,6 +743,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Trample; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Chronicles Common, Arabian Nights Common, Arabian Nights Common
 
+Name:   War Falcon
+Cost:   W
+Type:   Creature — Bird
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+War Falcon can't attack unless you control a Knight or a Soldier.
+Set/Rarity:     Magic 2013 Common
+
 Name:   War Mammoth
 Cost:   3G
 Type:   Creature — Elephant
@@ -755,7 +763,7 @@ Cost:   1W
 Type:   Creature — Human Cleric
 Pow/Tgh:    (2/2)
 Rules Text:     When War Priest of Thune enters the battlefield, you may destroy target enchantment.
-Set/Rarity:     Magic 2011 Uncommon
+Set/Rarity:     Magic 2013 Uncommon, Magic 2011 Uncommon
 
 Name:   War Report
 Cost:   3W
@@ -801,6 +809,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     Morph {X}{X}{R} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Warbreak Trumpeter is turned face up, put X 1/1 red Goblin creature tokens onto the battlefield.
 Set/Rarity:     Legions Uncommon
+
+Name:   Warclamp Mastiff
+Cost:   W
+Type:   Creature — Hound
+Pow/Tgh:    (1/1)
+Rules Text:     First strike (This creature deals combat damage before creatures without first strike.)
+Set/Rarity:     Magic 2013 Common
 
 Name:   Ward Sliver
 Cost:   4W
@@ -1019,7 +1034,7 @@ Cost:   5R
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a creature enters the battlefield under your control, it deals damage equal to its power to target creature or player.
-Set/Rarity:     Magic 2012 Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Magic 2012 Rare
 
 Name:   Warthog
 Cost:   1GG
@@ -1110,6 +1125,13 @@ Type:   Creature — Wurm
 Pow/Tgh:    (1/1)
 Rules Text:     Water Wurm gets +0/+1 as long as an opponent controls an Island.
 Set/Rarity:     The Dark Common
+
+Name:   Watercourser
+Cost:   2U
+Type:   Creature — Elemental
+Pow/Tgh:    (2/3)
+Rules Text:     {U}: Watercourser gets +1/-1 until end of turn.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Waterfront Bouncer
 Cost:   1U
@@ -1486,7 +1508,7 @@ Type:   Creature — Bird
 Pow/Tgh:    (2/1)
 Rules Text:     Flying
 Welkin Tern can block only creatures with flying.
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Magic 2013 Common, Zendikar Common
 
 Name:   Well of Discovery
 Cost:   6
@@ -1795,7 +1817,7 @@ Type:   Creature — Merfolk Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     When Whirlpool Warrior enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.
 {R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from his or her hand into his or her library, then draws that many cards.
-Set/Rarity:     Apocalypse Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Apocalypse Rare
 
 Name:   Whirlpool Whelm
 Cost:   1U
@@ -1840,10 +1862,9 @@ Name:   Whispersilk Cloak
 Cost:   3
 Type:   Artifact — Equipment
 Pow/Tgh:    
-Rules Text:     Equipped creature is unblockable.
-Equipped creature has shroud. (It can't be the target of spells or abilities.)
-Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
-Set/Rarity:     Magic 2011 Uncommon, Duel Decks: Phyrexia vs. the Coalition Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Darksteel Common
+Rules Text:     Equipped creature is unblockable and has shroud.
+Equip {2}
+Set/Rarity:     Planechase 2012 Edition Uncommon, Magic 2011 Uncommon, Duel Decks: Phyrexia vs. the Coalition Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Darksteel Common
 
 Name:   White Knight
 Cost:   WW
@@ -2036,6 +2057,14 @@ Pow/Tgh:
 Rules Text:     Enchant land
 Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces).
 Set/Rarity:     Seventh Edition Common, Beatdown Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Ice Age Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+
+Name:   Wild Guess
+Cost:   RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     As an additional cost to cast Wild Guess, discard a card.
+Draw two cards.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Wild Hunger
 Cost:   2G
@@ -2292,7 +2321,7 @@ Cost:   2U
 Type:   Creature — Drake
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
-Set/Rarity:     Magic 2010 Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Starter 2000 Common, Battle Royale Box Set Common, Starter 1999 Common, Classic Sixth Edition Common, Tempest Common, Portal Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Starter 2000 Common, Battle Royale Box Set Common, Starter 1999 Common, Classic Sixth Edition Common, Tempest Common, Portal Common
 
 Name:   Wind Sail
 Cost:   1U
@@ -2762,7 +2791,7 @@ Cost:   5BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards his or her hand.
-Set/Rarity:     Dissension Rare
+Set/Rarity:     Magic 2013 Rare, Dissension Rare
 
 Name:   Witch Engine
 Cost:   5B
@@ -3302,6 +3331,13 @@ Pow/Tgh:
 Rules Text:     After the first postcombat main phase this turn, there's an additional combat phase followed by an additional main phase. At the beginning of that combat, untap all creatures that attacked this turn.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 Set/Rarity:     Rise of the Eldrazi Rare
+
+Name:   Worldfire
+Cost:   6RRR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile all permanents. Exile all cards from all hands and graveyards. Each player's life total becomes 1.
+Set/Rarity:     Magic 2013 Mythic Rare
 
 Name:   Worldgorger Dragon
 Cost:   3RRR

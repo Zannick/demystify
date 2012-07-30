@@ -521,6 +521,24 @@ Pow/Tgh:    (2/3)
 Rules Text:     {3}{G}: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.
 Set/Rarity:     Innistrad Rare
 
+Name:   Elderscale Wurm
+Cost:   4GGG
+Type:   Creature — Wurm
+Pow/Tgh:    (7/7)
+Rules Text:     Trample
+When Elderscale Wurm enters the battlefield, if your life total is less than 7, your life total becomes 7.
+As long as you have 7 or more life, damage that would reduce your life total to less than 7 reduces it to 7 instead.
+Set/Rarity:     Magic 2013 Mythic Rare
+
+Name:   Elderwood Scion
+Cost:   3GW
+Type:   Creature — Elemental
+Pow/Tgh:    (4/4)
+Rules Text:     Trample, lifelink
+Spells you cast that target Elderwood Scion cost {2} less to cast.
+Spells your opponents cast that target Elderwood Scion cost {2} more to cast.
+Set/Rarity:     Planechase 2012 Edition Rare
+
 Name:   Eldrazi Conscription
 Cost:   8
 Type:   Tribal Enchantment — Eldrazi Aura
@@ -742,7 +760,7 @@ Cost:   1
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your graveyard into their owner's library.
-Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon
+Set/Rarity:     Magic 2013 Uncommon, Magic 2012 Uncommon, Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon
 
 Name:   Elixir of Vitality
 Cost:   4
@@ -863,7 +881,7 @@ Type:   Creature — Elf Druid
 Pow/Tgh:    (2/2)
 Rules Text:     Other Elf creatures you control get +1/+1.
 {T}: Add {G} to your mana pool for each Elf you control.
-Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2013 Rare, Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Elvish Archers
 Cost:   1G
@@ -1071,7 +1089,7 @@ Cost:   1G
 Type:   Creature — Elf Shaman
 Pow/Tgh:    (1/1)
 Rules Text:     When Elvish Visionary enters the battlefield, draw a card.
-Set/Rarity:     Magic 2010 Common, Shards of Alara Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common, Shards of Alara Common
 
 Name:   Elvish Warrior
 Cost:   GG
@@ -1450,6 +1468,14 @@ Pow/Tgh:
 Rules Text:     Target player reveals his or her hand. You choose a nonbasic land card from it. That player discards that card.
 Set/Rarity:     Urza's Destiny Uncommon
 
+Name:   Encrust
+Cost:   1UU
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant artifact or creature
+Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Endangered Armodon
 Cost:   2GG
 Type:   Creature — Elephant
@@ -1706,7 +1732,7 @@ Pow/Tgh:    (5/4)
 Rules Text:     Flying
 When Enigma Sphinx is put into your graveyard from the battlefield, put it into your library third from the top.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
-Set/Rarity:     Alara Reborn Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Alara Reborn Rare
 
 Name:   Enlightened Tutor
 Cost:   W
@@ -1720,7 +1746,7 @@ Cost:   4GW
 Type:   Creature — Wurm
 Pow/Tgh:    (5/5)
 Rules Text:     Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
-Set/Rarity:     Alara Reborn Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Alara Reborn Uncommon
 
 Name:   Enlistment Officer
 Cost:   3W
@@ -1981,7 +2007,7 @@ Cost:   W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Exile target enchantment.
-Set/Rarity:     Urza's Legacy Common
+Set/Rarity:     Magic 2013 Common, Urza's Legacy Common
 
 Name:   Erayo, Soratami Ascendant
 Cost:   1U
@@ -2086,7 +2112,7 @@ Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Choose target creature or player. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's converted mana cost to that creature or player. Put the revealed cards on the bottom of your library in any order.
-Set/Rarity:     Onslaught Common
+Set/Rarity:     Planechase 2012 Edition Common, Onslaught Common
 
 Name:   Erratic Mutation
 Cost:   2U
@@ -2245,7 +2271,7 @@ Cost:   4B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Essence Drain deals 3 damage to target creature or player and you gain 3 life.
-Set/Rarity:     Tenth Edition Common, Darksteel Common
+Set/Rarity:     Magic 2013 Common, Tenth Edition Common, Darksteel Common
 
 Name:   Essence Feed
 Cost:   5B
@@ -2298,7 +2324,7 @@ Cost:   1U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target creature spell.
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common
 
 Name:   Essence Sliver
 Cost:   3W
@@ -2472,6 +2498,14 @@ Type:   Artifact Creature — Vedalken Artificer
 Pow/Tgh:    (1/2)
 Rules Text:     Artifact spells you cast cost {1} less to cast.
 Set/Rarity:     Shards of Alara Common
+
+Name:   Etherium-Horn Sorcerer
+Cost:   4UR
+Type:   Artifact Creature — Minotaur Wizard
+Pow/Tgh:    (3/6)
+Rules Text:     {1}{U}{R}: Return Etherium-Horn Sorcerer to its owner's hand.
+Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Set/Rarity:     Planechase 2012 Edition Rare
 
 Name:   Ethersworn Adjudicator
 Cost:   4U
@@ -2690,7 +2724,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Dark Ascension Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
+Set/Rarity:     Magic 2013 Common, Dark Ascension Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
 
 Name:   Exalted Angel
 Cost:   4WW
@@ -2870,7 +2904,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
-Set/Rarity:     Conflux Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Conflux Rare
 
 Name:   Expedition Map
 Cost:   1

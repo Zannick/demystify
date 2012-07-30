@@ -542,7 +542,7 @@ Pow/Tgh:    (0/1)
 Rules Text:     Flying
 {B}: Regenerate Kathari Remnant.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
-Set/Rarity:     Alara Reborn Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Alara Reborn Uncommon
 
 Name:   Kathari Screecher
 Cost:   2U
@@ -682,7 +682,7 @@ Pow/Tgh:
 Rules Text:     Kazandu Refuge enters the battlefield tapped.
 When Kazandu Refuge enters the battlefield, you gain 1 life.
 {T}: Add {R} or {G} to your mana pool.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Magic: The Gathering-Commander Uncommon, Archenemy Uncommon, Zendikar Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Duel Decks: Ajani vs. Nicol Bolas Uncommon, Magic: The Gathering-Commander Uncommon, Archenemy Uncommon, Zendikar Uncommon
 
 Name:   Kazandu Tuskcaller
 Cost:   1G
@@ -1083,7 +1083,7 @@ Pow/Tgh:
 Rules Text:     Khalni Garden enters the battlefield tapped.
 When Khalni Garden enters the battlefield, put a 0/1 green Plant creature token onto the battlefield.
 {T}: Add {G} to your mana pool.
-Set/Rarity:     Archenemy Common, Worldwake Common
+Set/Rarity:     Planechase 2012 Edition Common, Archenemy Common, Worldwake Common
 
 Name:   Khalni Gem
 Cost:   4
@@ -1232,7 +1232,7 @@ Cost:   R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +1/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)
-Set/Rarity:     Magic 2010 Common, Morningtide Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common, Morningtide Common
 
 Name:   King Cheetah
 Cost:   3G
@@ -1391,7 +1391,7 @@ Type:   Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature gets +1/+0 and has flying.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
-Set/Rarity:     Worldwake Common
+Set/Rarity:     Magic 2013 Uncommon, Worldwake Common
 
 Name:   Kitesail Apprentice
 Cost:   W
@@ -1749,6 +1749,22 @@ Type:   Creature — Human Knight
 Pow/Tgh:    (2/2)
 Rules Text:     {B}{B}: Destroy target creature blocking Knight of Dusk.
 Set/Rarity:     Tenth Edition Uncommon, Tempest Uncommon
+
+Name:   Knight of Glory
+Cost:   1W
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/1)
+Rules Text:     Protection from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.)
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Set/Rarity:     Magic 2013 Uncommon
+
+Name:   Knight of Infamy
+Cost:   1B
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/1)
+Rules Text:     Protection from white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything white.)
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Knight of Meadowgrain
 Cost:   WW
@@ -2135,7 +2151,7 @@ Type:   Creature — Kor Wizard
 Pow/Tgh:    (0/2)
 Rules Text:     Kor Spiritdancer gets +2/+2 for each Aura attached to it.
 Whenever you cast an Aura spell, you may draw a card.
-Set/Rarity:     Rise of the Eldrazi Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Rise of the Eldrazi Rare
 
 Name:   Korlash, Heir to Blackblade
 Cost:   2BB
@@ -2209,7 +2225,7 @@ Cost:   U
 Type:   Creature — Kraken
 Pow/Tgh:    (0/4)
 Rules Text:     
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Magic 2013 Common, Zendikar Common
 
 Name:   Kraken's Eye
 Cost:   2
@@ -2299,6 +2315,20 @@ Pow/Tgh:    (2/2)
 Rules Text:     {T}, Sacrifice an artifact: Add {R}{R} to your mana pool.
 Set/Rarity:     Darksteel Common
 
+Name:   Krenko's Command
+Cost:   1R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put two 1/1 red Goblin creature tokens onto the battlefield.
+Set/Rarity:     Magic 2013 Common
+
+Name:   Krenko, Mob Boss
+Cost:   2RR
+Type:   Legendary Creature — Goblin Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     {T}: Put X 1/1 red Goblin creature tokens onto the battlefield, where X is the number of Goblins you control.
+Set/Rarity:     Magic 2013 Rare
+
 Name:   Kresh the Bloodbraided
 Cost:   2BRG
 Type:   Legendary Creature — Human Warrior
@@ -2312,6 +2342,14 @@ Type:   Creature — Human Spellshaper
 Pow/Tgh:    (1/1)
 Rules Text:     {R}, {T}, Discard a card: Kris Mage deals 1 damage to target creature or player.
 Set/Rarity:     Mercadian Masques Common
+
+Name:   Krond the Dawn-Clad
+Cost:   GGGWWW
+Type:   Legendary Creature — Archon
+Pow/Tgh:    (6/6)
+Rules Text:     Flying, vigilance
+Whenever Krond the Dawn-Clad attacks, if it's enchanted, exile target permanent.
+Set/Rarity:     Planechase 2012 Edition Mythic Rare
 
 Name:   Krosan Archer
 Cost:   3G
@@ -2412,7 +2450,7 @@ Pow/Tgh:
 Rules Text:     Krosan Verge enters the battlefield tapped.
 {T}: Add {1} to your mana pool.
 {2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card and put them onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Archenemy Uncommon, Judgment Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Archenemy Uncommon, Judgment Uncommon
 
 Name:   Krosan Vorine
 Cost:   3G

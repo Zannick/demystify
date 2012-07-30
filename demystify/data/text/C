@@ -160,7 +160,7 @@ Type:   Creature — Imp
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
 When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.
-Set/Rarity:     Rise of the Eldrazi Common
+Set/Rarity:     Planechase 2012 Edition Common, Rise of the Eldrazi Common
 
 Name:   Cadaverous Bloom
 Cost:   3BG
@@ -184,7 +184,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block.
 {1}{W}: Return Cage of Hands to its owner's hand.
-Set/Rarity:     Champions of Kamigawa Common
+Set/Rarity:     Planechase 2012 Edition Common, Champions of Kamigawa Common
 
 Name:   Caged Sun
 Cost:   6
@@ -457,7 +457,7 @@ Cost:   1UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Zendikar Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Time Spiral Common
+Set/Rarity:     Planechase 2012 Edition Common, Magic 2012 Common, Magic 2011 Common, Zendikar Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Time Spiral Common
 
 Name:   Candelabra of Tawnos
 Cost:   1
@@ -571,7 +571,7 @@ Cost:   3R
 Type:   Creature — Minotaur Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Conflux Common
+Set/Rarity:     Magic 2013 Common, Magic 2011 Common, Magic 2010 Common, Conflux Common
 
 Name:   Canyon Wildcat
 Cost:   1R
@@ -670,7 +670,14 @@ Pow/Tgh:    (3/3)
 Rules Text:     Vigilance (Attacking doesn't cause this creature to tap.)
 Other Soldier creatures you control get +1/+1 and have vigilance.
 When Captain of the Watch enters the battlefield, put three 1/1 white Soldier creature tokens onto the battlefield.
-Set/Rarity:     Magic 2010 Rare
+Set/Rarity:     Magic 2013 Rare, Magic 2010 Rare
+
+Name:   Captain's Call
+Cost:   3W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put three 1/1 white Soldier creature tokens onto the battlefield.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Captain's Maneuver
 Cost:   XRW
@@ -1204,6 +1211,15 @@ Pow/Tgh:
 Rules Text:     White legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Legends Uncommon
 
+Name:   Cathedral of War
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Cathedral of War enters the battlefield tapped.
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+{T}: Add {1} to your mana pool.
+Set/Rarity:     Magic 2013 Rare
+
 Name:   Cathodion
 Cost:   3
 Type:   Artifact Creature — Construct
@@ -1388,7 +1404,7 @@ Type:   Creature — Elemental
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
 Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you control.
-Set/Rarity:     Dissension Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Dissension Rare
 
 Name:   Celestial Colonnade
 Cost:   
@@ -1552,7 +1568,7 @@ Cost:   2G
 Type:   Creature — Centaur Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common
 
 Name:   Centaur Garden
 Cost:   
@@ -2073,6 +2089,13 @@ Rules Text:     +1: Chandra Nalaar deals 1 damage to target player.
 -8: Chandra Nalaar deals 10 damage to target player and each creature he or she controls.
 Set/Rarity:     Magic 2011 Mythic Rare, Magic 2010 Mythic Rare, Duel Decks: Jace vs. Chandra Mythic Rare, Lorwyn Rare
 
+Name:   Chandra's Fury
+Cost:   4R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Chandra's Fury deals 4 damage to target player and 1 damage to each creature that player controls.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Chandra's Outrage
 Cost:   2RR
 Type:   Instant
@@ -2104,7 +2127,7 @@ Loyalty:    (3)
 Rules Text:     +1: Chandra, the Firebrand deals 1 damage to target creature or player.
 -2: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
 -6: Chandra, the Firebrand deals 6 damage to each of up to six target creatures and/or players.
-Set/Rarity:     Magic 2012 Mythic Rare
+Set/Rarity:     Magic 2013 Mythic Rare, Magic 2012 Mythic Rare
 
 Name:   Change of Heart
 Cost:   W
@@ -2807,6 +2830,13 @@ Rules Text:     Until your next turn, creatures can't attack you. Exile Chronoma
 Suspend 3—{2}{W} (Rather than cast this card from your hand, you may pay {2}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Set/Rarity:     Future Sight Uncommon
 
+Name:   Chronomaton
+Cost:   1
+Type:   Artifact Creature — Golem
+Pow/Tgh:    (1/1)
+Rules Text:     {1}, {T}: Put a +1/+1 counter on Chronomaton.
+Set/Rarity:     Magic 2013 Uncommon
+
 Name:   Chronosavant
 Cost:   5W
 Type:   Creature — Giant
@@ -3259,6 +3289,13 @@ Rules Text:     Sunburst (This enters the battlefield with a charge counter on i
 At the beginning of your upkeep, you may gain life equal to the number of charge counters on Clearwater Goblet.
 Set/Rarity:     Fifth Dawn Rare
 
+Name:   Cleaver Riot
+Cost:   4R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Creatures you control gain double strike until end of turn. (They deal both first-strike and regular combat damage.)
+Set/Rarity:     Magic 2013 Uncommon
+
 Name:   Clergy en-Vec
 Cost:   1W
 Type:   Creature — Human Cleric
@@ -3368,7 +3405,7 @@ Cost:   4
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Tap two untapped artifacts you control: Untap target artifact.
-Set/Rarity:     Fifth Dawn Uncommon
+Set/Rarity:     Magic 2013 Uncommon, Fifth Dawn Uncommon
 
 Name:   Clockspinning
 Cost:   U
@@ -3482,7 +3519,7 @@ Cost:   3U
 Type:   Creature — Shapeshifter
 Pow/Tgh:    (0/0)
 Rules Text:     You may have Clone enter the battlefield as a copy of any creature on the battlefield.
-Set/Rarity:     Duel Decks: Venser vs. Koth Rare, Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Onslaught Rare, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+Set/Rarity:     Magic 2013 Rare, Duel Decks: Venser vs. Koth Rare, Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Onslaught Rare, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Clone Shell
 Cost:   5
@@ -4193,7 +4230,7 @@ Cost:   2UU
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Draw three cards.
-Set/Rarity:     Eighth Edition Uncommon, Odyssey Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
 
 Name:   Concerted Effort
 Cost:   2WW
@@ -5179,6 +5216,14 @@ When Court Hussar enters the battlefield, look at the top three cards of your li
 When Court Hussar enters the battlefield, sacrifice it unless {W} was spent to cast it.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Dissension Uncommon
 
+Name:   Courtly Provocateur
+Cost:   2U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     {T}: Target creature attacks this turn if able.
+{T}: Target creature blocks this turn if able.
+Set/Rarity:     Magic 2013 Uncommon
+
 Name:   Covenant of Minds
 Cost:   4U
 Type:   Sorcery
@@ -5232,6 +5277,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block unless its controller pays {1} for each card in your hand.
 Set/Rarity:     Saviors of Kamigawa Common
+
+Name:   Cower in Fear
+Cost:   1BB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures your opponents control get -1/-1 until end of turn.
+Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Crab Umbra
 Cost:   U
@@ -5399,6 +5451,13 @@ Pow/Tgh:    (5/5)
 Rules Text:     Haste
 When Craterhoof Behemoth enters the battlefield, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.
 Set/Rarity:     Avacyn Restored Mythic Rare
+
+Name:   Craterize
+Cost:   3R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target land.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Craven Giant
 Cost:   2R
@@ -5650,6 +5709,14 @@ Rules Text:     Flying
 {R}, {T}: Crimson Manticore deals 1 damage to target attacking or blocking creature.
 Set/Rarity:     Masters Edition III Uncommon, Fifth Edition Rare, Fourth Edition Rare, Legends Rare
 
+Name:   Crimson Muckwader
+Cost:   1R
+Type:   Creature — Lizard
+Pow/Tgh:    (2/1)
+Rules Text:     Crimson Muckwader gets +1/+1 as long as you control a Swamp.
+{2}{B}: Regenerate Crimson Muckwader. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+Set/Rarity:     Magic 2013 Uncommon
+
 Name:   Crimson Roc
 Cost:   4R
 Type:   Creature — Bird
@@ -5665,6 +5732,14 @@ Pow/Tgh:
 Rules Text:     Target creature becomes red and gains haste until end of turn.
 Draw a card.
 Set/Rarity:     Shadowmoor Common
+
+Name:   Crippling Blight
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -1/-1 and can't block.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Crippling Chill
 Cost:   2U
@@ -6019,6 +6094,13 @@ Pow/Tgh:
 Rules Text:     White creatures get +1/+1.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Rare, Masters Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
+Name:   Crusader of Odric
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (*/*)
+Rules Text:     Crusader of Odric's power and toughness are each equal to the number of creatures you control.
+Set/Rarity:     Magic 2013 Uncommon
+
 Name:   Crusading Knight
 Cost:   2WW
 Type:   Creature — Human Knight
@@ -6319,7 +6401,7 @@ Cost:   2G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.
-Set/Rarity:     Magic: The Gathering-Commander Common, Magic 2011 Common
+Set/Rarity:     Planechase 2012 Edition Common, Magic: The Gathering-Commander Common, Magic 2011 Common
 
 Name:   Cultural Exchange
 Cost:   4UU

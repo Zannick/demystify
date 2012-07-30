@@ -387,7 +387,7 @@ Cost:   WUBRG
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target opponent loses 2 life for each Swamp you control. Last Stand deals damage equal to the number of Mountains you control to target creature. Put a 1/1 green Saproling creature token onto the battlefield for each Forest you control. You gain 2 life for each Plains you control. Draw a card for each Island you control, then discard that many cards.
-Set/Rarity:     Apocalypse Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Apocalypse Rare
 
 Name:   Last Word
 Cost:   2UU
@@ -1647,6 +1647,15 @@ Rules Text:     +1: Target player discards a card.
 -8: Put all creature cards from all graveyards onto the battlefield under your control.
 Set/Rarity:     Magic 2011 Mythic Rare, Duel Decks: Garruk vs. Liliana Mythic Rare, Magic 2010 Mythic Rare, Lorwyn Rare
 
+Name:   Liliana of the Dark Realms
+Cost:   2BB
+Type:   Planeswalker — Liliana
+Loyalty:    (3)
+Rules Text:     +1: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.
+-3: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control.
+-6: You get an emblem with "Swamps you control have '{T}: Add {B}{B}{B}{B} to your mana pool.'"
+Set/Rarity:     Magic 2013 Mythic Rare
+
 Name:   Liliana of the Veil
 Cost:   1BB
 Type:   Planeswalker — Liliana
@@ -1663,13 +1672,21 @@ Pow/Tgh:
 Rules Text:     Whenever an opponent discards a card, that player loses 2 life.
 Set/Rarity:     Magic 2011 Uncommon
 
+Name:   Liliana's Shade
+Cost:   2BB
+Type:   Creature — Shade
+Pow/Tgh:    (1/1)
+Rules Text:     When Liliana's Shade enters the battlefield, you may search your library for a Swamp card, reveal it, put it into your hand, then shuffle your library.
+{B}: Liliana's Shade gets +1/+1 until end of turn.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Liliana's Specter
 Cost:   1BB
 Type:   Creature — Specter
 Pow/Tgh:    (2/1)
 Rules Text:     Flying
 When Liliana's Specter enters the battlefield, each opponent discards a card.
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Planechase 2012 Edition Common, Magic 2011 Common
 
 Name:   Lilting Refrain
 Cost:   1U
@@ -2737,7 +2754,7 @@ Type:   Creature — Treefolk
 Pow/Tgh:    (1/1)
 Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 Whenever a creature dies, put a +1/+1 counter on Lumberknot.
-Set/Rarity:     Innistrad Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Innistrad Uncommon
 
 Name:   Lumengrid Augur
 Cost:   3U

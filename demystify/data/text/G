@@ -110,7 +110,6 @@ Cost:   GG
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     You may play an additional land during your turn if that land is a basic Forest.
-
 Sacrifice Gaea's Touch: Add {G}{G} to your mana pool.
 Set/Rarity:     Masters Edition III Uncommon, The Dark Common
 
@@ -351,7 +350,7 @@ Cost:   4G
 Type:   Creature — Beast
 Pow/Tgh:    (4/4)
 Rules Text:     Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card.
-Set/Rarity:     Magic 2011 Uncommon
+Set/Rarity:     Magic 2013 Uncommon, Magic 2011 Uncommon
 
 Name:   Garruk, Primal Hunter
 Cost:   2GGG
@@ -360,7 +359,7 @@ Loyalty:    (3)
 Rules Text:     +1: Put a 3/3 green Beast creature token onto the battlefield.
 -3: Draw cards equal to the greatest power among creatures you control.
 -6: Put a 6/6 green Wurm creature token onto the battlefield for each land you control.
-Set/Rarity:     Magic 2012 Mythic Rare
+Set/Rarity:     Magic 2013 Mythic Rare, Magic 2012 Mythic Rare
 
 Name:   Garruk, the Veil-Cursed
 Cost:   
@@ -621,6 +620,13 @@ Rules Text:     Enchant creature
 Enchanted creature can't block, and its activated abilities can't be activated.
 {S}: Enchanted creature gains defender until end of turn. ({S} can be paid with one mana from a snow permanent.)
 Set/Rarity:     Coldsnap Common
+
+Name:   Gem of Becoming
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {3}, {T}, Sacrifice Gem of Becoming: Search your library for an Island card, a Swamp card, and a Mountain card. Reveal those cards and put them into your hand. Then shuffle your library.
+Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Gemhide Sliver
 Cost:   1G
@@ -1190,7 +1196,7 @@ Cost:   2W
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Champions of Kamigawa Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Magic: The Gathering-Commander Uncommon, Champions of Kamigawa Uncommon
 
 Name:   Ghostly Touch
 Cost:   1U
@@ -1373,7 +1379,7 @@ Cost:   2B
 Type:   Creature — Scorpion
 Pow/Tgh:    (1/3)
 Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Magic 2013 Common, Zendikar Common
 
 Name:   Giant Shark
 Cost:   5U
@@ -1605,7 +1611,7 @@ Cost:   5
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {T}: Add three mana of any one color to your mana pool.
-Set/Rarity:     Mirrodin Rare
+Set/Rarity:     Magic 2013 Rare, Mirrodin Rare
 
 Name:   Gilder Bairn
 Cost:   1(G/U)(G/U)
@@ -1693,7 +1699,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
 {T}: Add {W} or {U} to your mana pool.
-Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2013 Rare, Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Glacial Plating
 Cost:   2WW
@@ -1861,7 +1867,7 @@ Pow/Tgh:    (2/3)
 Rules Text:     Flying
 Other blue creatures you control get +1/+1.
 Other black creatures you control get +1/+1.
-Set/Rarity:     Shadowmoor Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Shadowmoor Rare
 
 Name:   Glen Elendra Pranksters
 Cost:   3U
@@ -2113,7 +2119,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Creatures you control get +1/+1 until end of turn.
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common
 
 Name:   Glory
 Cost:   3WW
@@ -2172,7 +2178,7 @@ Type:   Creature — Ooze
 Pow/Tgh:    (2/2)
 Rules Text:     Flash
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
-Set/Rarity:     Conflux Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Conflux Uncommon
 
 Name:   Gluttonous Zombie
 Cost:   4B
@@ -2301,7 +2307,7 @@ Cost:   R
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (1/1)
 Rules Text:     When Goblin Arsonist dies, you may have it deal 1 damage to target creature or player.
-Set/Rarity:     Magic 2012 Common, Rise of the Eldrazi Common
+Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Rise of the Eldrazi Common
 
 Name:   Goblin Artillery
 Cost:   1RR
@@ -2345,6 +2351,13 @@ Type:   Creature — Goblin Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     {T}: Flip a coin. If you win the flip, Goblin Bangchuckers deals 2 damage to target creature or player. If you lose the flip, Goblin Bangchuckers deals 2 damage to itself.
 Set/Rarity:     Magic 2012 Uncommon
+
+Name:   Goblin Battle Jester
+Cost:   3R
+Type:   Creature — Goblin
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever you cast a red spell, target creature can't block this turn.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Goblin Berserker
 Cost:   3R
@@ -2572,7 +2585,7 @@ Cost:   2R
 Type:   Creature — Goblin
 Pow/Tgh:    (2/2)
 Rules Text:     Islandwalk
-At the beginning of combat, unless you pay {R}, whenever Goblin Flotilla blocks or becomes blocked by a creature this combat, that creature gains first strike until end of turn.
+At the beginning of each combat, unless you pay {R}, whenever Goblin Flotilla blocks or becomes blocked by a creature this combat, that creature gains first strike until end of turn.
 Set/Rarity:     Fallen Empires Rare
 
 Name:   Goblin Furrier
@@ -4033,7 +4046,7 @@ Pow/Tgh:
 Rules Text:     Graypelt Refuge enters the battlefield tapped.
 When Graypelt Refuge enters the battlefield, you gain 1 life.
 {T}: Add {G} or {W} to your mana pool.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Archenemy Uncommon, Zendikar Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Duel Decks: Ajani vs. Nicol Bolas Uncommon, Archenemy Uncommon, Zendikar Uncommon
 
 Name:   Grayscaled Gharial
 Cost:   U
@@ -4307,6 +4320,14 @@ Rules Text:     Enchant creature
 Enchanted creature gets +2/+2 and has flying.
 When enchanted creature dies, put a 2/2 white Griffin creature token with flying onto the battlefield.
 Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Duel Decks: Knights vs. Dragons Uncommon, Time Spiral Uncommon
+
+Name:   Griffin Protector
+Cost:   3W
+Type:   Creature — Griffin
+Pow/Tgh:    (2/3)
+Rules Text:     Flying
+Whenever another creature enters the battlefield under your control, Griffin Protector gets +1/+1 until end of turn.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Griffin Rider
 Cost:   1W
@@ -4614,7 +4635,7 @@ Name:   Grizzled Wolverine
 Cost:   1RR
 Type:   Creature — Wolverine
 Pow/Tgh:    (2/2)
-Rules Text:     Whenever Grizzled Wolverine becomes blocked, you may pay {R}. If you do, Grizzled Wolverine gets +2/+0 until end of turn.
+Rules Text:     {R}: Grizzled Wolverine gets +2/+0 until end of turn. Activate this ability only during the declare blockers step, only if at least one creature is blocking Grizzled Wolverine, and only once each turn.
 Set/Rarity:     Ice Age Common
 
 Name:   Grizzly Bears
@@ -4683,7 +4704,7 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     When Ground Seal enters the battlefield, draw a card.
 Cards in graveyards can't be the targets of spells or abilities.
-Set/Rarity:     Odyssey Rare
+Set/Rarity:     Magic 2013 Rare, Odyssey Rare
 
 Name:   Groundbreaker
 Cost:   GGG
@@ -4808,7 +4829,7 @@ Pow/Tgh:
 Rules Text:     Gruul Turf enters the battlefield tapped.
 When Gruul Turf enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {R}{G} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Planechase Common, Guildpact Common
+Set/Rarity:     Planechase 2012 Edition Common, Magic: The Gathering-Commander Common, Planechase Common, Guildpact Common
 
 Name:   Gruul War Plow
 Cost:   4
@@ -4862,7 +4883,7 @@ Type:   Creature — Jellyfish
 Pow/Tgh:    (1/3)
 Rules Text:     Defender, flying
 Prevent all combat damage that would be dealt to Guard Gomazoa.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Rise of the Eldrazi Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Magic: The Gathering-Commander Uncommon, Rise of the Eldrazi Uncommon
 
 Name:   Guardian Angel
 Cost:   XW
@@ -4886,6 +4907,13 @@ Rules Text:     Guardian Idol enters the battlefield tapped.
 {T}: Add {1} to your mana pool.
 {2}: Guardian Idol becomes a 2/2 Golem artifact creature until end of turn.
 Set/Rarity:     Fifth Dawn Uncommon
+
+Name:   Guardian Lions
+Cost:   4W
+Type:   Creature — Cat
+Pow/Tgh:    (1/6)
+Rules Text:     Vigilance (Attacking doesn't cause this creature to tap.)
+Set/Rarity:     Magic 2013 Common
 
 Name:   Guardian Seraph
 Cost:   2WW
@@ -4947,9 +4975,9 @@ Name:   Guardians of Akrasa
 Cost:   2W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (0/4)
-Rules Text:     Defender
+Rules Text:     Defender (This creature can't attack.)
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Magic 2013 Common, Shards of Alara Common
 
 Name:   Guardians' Pledge
 Cost:   1WW

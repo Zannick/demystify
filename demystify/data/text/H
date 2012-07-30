@@ -242,7 +242,7 @@ Cost:   6R
 Type:   Creature — Giant Warrior
 Pow/Tgh:    (6/6)
 Rules Text:     Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature's power.
-Set/Rarity:     Lorwyn Rare
+Set/Rarity:     Magic 2013 Rare, Lorwyn Rare
 
 Name:   Hammer Mage
 Cost:   1R
@@ -434,6 +434,14 @@ Rules Text:     Protection from non-Spirit creatures
 Soulshift 4 (When this creature dies, you may return target Spirit card with converted mana cost 4 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Common
 
+Name:   Harbor Bandit
+Cost:   2B
+Type:   Creature — Human Rogue
+Pow/Tgh:    (2/2)
+Rules Text:     Harbor Bandit gets +1/+1 as long as you control an Island.
+{1}{U}: Harbor Bandit is unblockable this turn.
+Set/Rarity:     Magic 2013 Uncommon
+
 Name:   Harbor Guardian
 Cost:   2WU
 Type:   Creature — Gargoyle
@@ -448,7 +456,7 @@ Type:   Creature — Serpent
 Pow/Tgh:    (5/5)
 Rules Text:     Islandwalk (This creature is unblockable as long as defending player controls an Island.)
 Harbor Serpent can't attack unless there are five or more Islands on the battlefield.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common
+Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Magic 2011 Common
 
 Name:   Harm's Way
 Cost:   W
@@ -917,6 +925,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Regenerate target creature. You gain life equal to that creature's toughness.
 Set/Rarity:     Lorwyn Common
+
+Name:   Healer of the Pride
+Cost:   3W
+Type:   Creature — Cat Cleric
+Pow/Tgh:    (2/3)
+Rules Text:     Whenever another creature enters the battlefield under your control, you gain 2 life.
+Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Healer's Headdress
 Cost:   2
@@ -1412,12 +1427,21 @@ Rules Text:     Haste
 When Hellhole Rats enters the battlefield, target player discards a card. Hellhole Rats deals damage to that player equal to that card's converted mana cost.
 Set/Rarity:     Dissension Uncommon
 
+Name:   Hellion Crucible
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{1}{R}, {T}: Put a pressure counter on Hellion Crucible.
+{1}{R}, {T}, Remove two pressure counters from Hellion Crucible and sacrifice it: Put a 4/4 red Hellion creature token with haste onto the battlefield. (It can attack and {T} as soon as it comes under your control.)
+Set/Rarity:     Magic 2013 Rare
+
 Name:   Hellion Eruption
 Cost:   5R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Sacrifice all creatures you control, then put that many 4/4 red Hellion creature tokens onto the battlefield.
-Set/Rarity:     Rise of the Eldrazi Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Rise of the Eldrazi Rare
 
 Name:   Hellkite Charger
 Cost:   4RR
@@ -1433,7 +1457,7 @@ Type:   Creature — Dragon
 Pow/Tgh:    (2/2)
 Rules Text:     Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
 Hellkite Hatchling has flying and trample if it devoured a creature.
-Set/Rarity:     Conflux Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Conflux Uncommon
 
 Name:   Hellkite Igniter
 Cost:   5RR
@@ -1940,7 +1964,7 @@ Pow/Tgh:    (3/4)
 Rules Text:     Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.
 {2}: Target Ninja creature is unblockable this turn.
-Set/Rarity:     Betrayers of Kamigawa Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Betrayers of Kamigawa Rare
 
 Name:   Hikari, Twilight Guardian
 Cost:   3WW
@@ -2072,7 +2096,7 @@ Cost:   2R
 Type:   Creature — Lizard
 Pow/Tgh:    (3/1)
 Rules Text:     Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Planechase 2012 Edition Common, Shards of Alara Common
 
 Name:   Hissing Miasma
 Cost:   1BB
@@ -3242,6 +3266,13 @@ Rules Text:     Flying
 {U}, Sacrifice Hydromorph Gull: Counter target spell that targets one or more creatures you control.
 Set/Rarity:     Torment Uncommon
 
+Name:   Hydrosurge
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -5/-0 until end of turn.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Hyena Umbra
 Cost:   W
 Type:   Enchantment — Aura
@@ -3249,7 +3280,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +1/+1 and has first strike.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
-Set/Rarity:     Rise of the Eldrazi Common
+Set/Rarity:     Planechase 2012 Edition Common, Rise of the Eldrazi Common
 
 Name:   Hymn of Rebirth
 Cost:   3GW
