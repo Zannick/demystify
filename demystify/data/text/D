@@ -284,7 +284,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When Dark Favor enters the battlefield, you lose 1 life.
 Enchanted creature gets +3/+1.
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Magic 2013 Common, Magic 2012 Common
 
 Name:   Dark Hatchling
 Cost:   4BB
@@ -292,7 +292,7 @@ Type:   Creature — Horror
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
 When Dark Hatchling enters the battlefield, destroy target nonblack creature. It can't be regenerated.
-Set/Rarity:     Magic: The Gathering-Commander Rare, Urza's Saga Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Magic: The Gathering-Commander Rare, Urza's Saga Rare
 
 Name:   Dark Heart of the Wood
 Cost:   BG
@@ -344,7 +344,7 @@ Name:   Dark Sphere
 Cost:   0
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {T}, Sacrifice Dark Sphere: The next time a source of your choice would deal damage to you this turn, it deals half that damage, rounded up, to you instead.
+Rules Text:     {T}, Sacrifice Dark Sphere: The next time a source of your choice would deal damage to you this turn, prevent half that damage, rounded down.
 Set/Rarity:     The Dark Uncommon
 
 Name:   Dark Supplicant
@@ -1049,7 +1049,7 @@ Type:   Creature — Spider
 Pow/Tgh:    (1/2)
 Rules Text:     Reach (This creature can block creatures with flying.)
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-Set/Rarity:     Magic: The Gathering-Commander Common, Magic 2010 Common
+Set/Rarity:     Magic 2013 Common, Magic: The Gathering-Commander Common, Magic 2010 Common
 
 Name:   Deadshot
 Cost:   3R
@@ -1912,7 +1912,6 @@ Cost:   3W
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     If damage would be dealt to you, put that many delay counters on Delaying Shield instead.
-
 At the beginning of your upkeep, remove all delay counters from Delaying Shield. For each delay counter removed this way, you lose 1 life unless you pay {1}{W}.
 Set/Rarity:     Odyssey Rare
 
@@ -2198,7 +2197,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 Return target permanent to its owner's hand.
-Set/Rarity:     Alara Reborn Common
+Set/Rarity:     Planechase 2012 Edition Common, Alara Reborn Common
 
 Name:   Denying Wind
 Cost:   7UU
@@ -2715,6 +2714,13 @@ Pow/Tgh:    (4/4)
 Rules Text:     {3}: Regenerate Diabolic Machine.
 Set/Rarity:     Masters Edition IV Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, The Dark Uncommon
 
+Name:   Diabolic Revelation
+Cost:   X3BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Search your library for up to X cards and put those cards into your hand. Then shuffle your library.
+Set/Rarity:     Magic 2013 Rare
+
 Name:   Diabolic Servitude
 Cost:   3B
 Type:   Enchantment
@@ -2819,7 +2825,7 @@ Pow/Tgh:
 Rules Text:     Dimir Aqueduct enters the battlefield tapped.
 When Dimir Aqueduct enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {U}{B} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
+Set/Rarity:     Planechase 2012 Edition Common, Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
 
 Name:   Dimir Cutpurse
 Cost:   1UB
@@ -2859,7 +2865,7 @@ Type:   Creature — Spirit
 Pow/Tgh:    (1/3)
 Rules Text:     Dimir Infiltrator is unblockable.
 Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
-Set/Rarity:     Ravnica: City of Guilds Common
+Set/Rarity:     Planechase 2012 Edition Common, Ravnica: City of Guilds Common
 
 Name:   Dimir Machinations
 Cost:   2B
@@ -3008,6 +3014,13 @@ Rules Text:     As an additional cost to cast Disaster Radius, reveal a creature
 Disaster Radius deals X damage to each creature your opponents control, where X is the revealed card's converted mana cost.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Rise of the Eldrazi Rare
 
+Name:   Disciple of Bolas
+Cost:   3B
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/1)
+Rules Text:     When Disciple of Bolas enters the battlefield, sacrifice another creature. You gain X life and draw X cards, where X is that creature's power.
+Set/Rarity:     Magic 2013 Rare
+
 Name:   Disciple of Grace
 Cost:   1W
 Type:   Creature — Human Cleric
@@ -3125,7 +3138,7 @@ Cost:   B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return target creature card from your graveyard to your hand.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Disfigure
 Cost:   B
@@ -3415,7 +3428,7 @@ Cost:   2U
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Draw two cards.
-Set/Rarity:     Dark Ascension Common, Magic 2012 Common, Magic 2010 Common
+Set/Rarity:     Magic 2013 Common, Dark Ascension Common, Magic 2012 Common, Magic 2010 Common
 
 Name:   Divine Congregation
 Cost:   3W
@@ -3439,7 +3452,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When Divine Favor enters the battlefield, you gain 3 life.
 Enchanted creature gets +1/+3.
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Magic 2013 Common, Magic 2012 Common
 
 Name:   Divine Intervention
 Cost:   6WW
@@ -3507,7 +3520,7 @@ Cost:   3W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target attacking or blocking creature.
-Set/Rarity:     Magic 2010 Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common
 
 Name:   Diviner's Wand
 Cost:   3
@@ -3745,7 +3758,7 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Door to Nothingness enters the battlefield tapped.
 {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice Door to Nothingness: Target player loses the game.
-Set/Rarity:     Planechase Rare, Fifth Dawn Rare
+Set/Rarity:     Magic 2013 Rare, Planechase Rare, Fifth Dawn Rare
 
 Name:   Doran, the Siege Tower
 Cost:   BGW
@@ -3880,12 +3893,19 @@ Rules Text:     You may sacrifice a Mountain rather than pay Downhill Charge's m
 Target creature gets +X/+0 until end of turn, where X is the number of Mountains you control.
 Set/Rarity:     Duel Decks: Venser vs. Koth Common, Nemesis Common
 
+Name:   Downpour
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Tap up to three target creatures.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Dowsing Shaman
 Cost:   4G
 Type:   Creature — Centaur Shaman
 Pow/Tgh:    (3/4)
 Rules Text:     {2}{G}, {T}: Return target enchantment card from your graveyard to your hand.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Draco
 Cost:   16
@@ -3989,6 +4009,14 @@ Pow/Tgh:
 Rules Text:     Put two 1/1 red Goblin creature tokens onto the battlefield.
 Set/Rarity:     Duel Decks: Knights vs. Dragons Common, Archenemy Common, Shards of Alara Common
 
+Name:   Dragon Hatchling
+Cost:   1R
+Type:   Creature — Dragon
+Pow/Tgh:    (0/1)
+Rules Text:     Flying
+{R}: Dragon Hatchling gets +1/+0 until end of turn.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Dragon Mage
 Cost:   5RR
 Type:   Creature — Dragon Wizard
@@ -4071,6 +4099,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {2}{R}, {T}, Sacrifice a black creature, a red creature, and a green creature: Search your library for a card named Hellkite Overlord and put it onto the battlefield. Then shuffle your library.
 Set/Rarity:     Shards of Alara Uncommon
 
+Name:   Dragonlair Spider
+Cost:   2RRGG
+Type:   Creature — Spider
+Pow/Tgh:    (5/6)
+Rules Text:     Reach
+Whenever an opponent casts a spell, put a 1/1 green Insect creature token onto the battlefield.
+Set/Rarity:     Planechase 2012 Edition Rare
+
 Name:   Dragonmaster Outcast
 Cost:   R
 Type:   Creature — Human Shaman
@@ -4084,7 +4120,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
 {T}: Add {B} or {R} to your mana pool.
-Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2013 Rare, Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Dragonsoul Knight
 Cost:   2R
@@ -4473,6 +4509,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, you may sacrifice Dreamcatcher. If you do, draw a card.
 Set/Rarity:     Saviors of Kamigawa Common
 
+Name:   Dreampod Druid
+Cost:   1G
+Type:   Creature — Human Druid
+Pow/Tgh:    (2/2)
+Rules Text:     At the beginning of each upkeep, if Dreampod Druid is enchanted, put a 1/1 green Saproling creature token onto the battlefield.
+Set/Rarity:     Planechase 2012 Edition Uncommon
+
 Name:   Dreams of the Dead
 Cost:   3U
 Type:   Enchantment
@@ -4815,7 +4858,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
 {T}: Add {U} or {B} to your mana pool.
-Set/Rarity:     Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
+Set/Rarity:     Magic 2013 Rare, Magic 2012 Rare, Magic 2011 Rare, Magic 2010 Rare
 
 Name:   Drowned Rusalka
 Cost:   U
@@ -5083,7 +5126,7 @@ Cost:   B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.
-Set/Rarity:     Premium Deck Series: Graveborn Common, Magic 2011 Common, Magic 2010 Common, Duel Decks: Divine vs. Demonic Common, Seventh Edition Common, Urza's Saga Common
+Set/Rarity:     Magic 2013 Common, Premium Deck Series: Graveborn Common, Magic 2011 Common, Magic 2010 Common, Duel Decks: Divine vs. Demonic Common, Seventh Edition Common, Urza's Saga Common
 
 Name:   Durkwood Baloth
 Cost:   4GG
@@ -5126,7 +5169,7 @@ Cost:   5GG
 Type:   Creature — Wurm
 Pow/Tgh:    (7/7)
 Rules Text:     Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
-Set/Rarity:     Magic 2011 Uncommon, Eventide Uncommon
+Set/Rarity:     Magic 2013 Uncommon, Magic 2011 Uncommon, Eventide Uncommon
 
 Name:   Duskhunter Bat
 Cost:   1B
@@ -5135,6 +5178,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
 Flying
 Set/Rarity:     Magic 2012 Common
+
+Name:   Duskmantle Prowler
+Cost:   3B
+Type:   Creature — Vampire Rogue
+Pow/Tgh:    (2/2)
+Rules Text:     Haste (This creature can attack and {T} as soon as it comes under your control.)
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Duskmantle, House of Shadow
 Cost:   
@@ -5214,6 +5265,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Exile two target artifacts.
 Set/Rarity:     Masters Edition IV Uncommon, Masters Edition Common, Fifth Edition Uncommon, The Dark Common
+
+Name:   Duty-Bound Dead
+Cost:   B
+Type:   Creature — Skeleton
+Pow/Tgh:    (0/2)
+Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+{3}{B}: Regenerate Duty-Bound Dead. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+Set/Rarity:     Magic 2013 Common
 
 Name:   Dwarven Armorer
 Cost:   R

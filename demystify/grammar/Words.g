@@ -33,7 +33,6 @@ tokens {
     ABANDONING;
     ABANDONMENT;
     ABILITY;
-    ABILITY_POSS;
     ABILITY_WORD;
     ABLE;
     ABOVE;
@@ -78,7 +77,6 @@ tokens {
     ARE;
     ARENT;
     ARTIFACT;
-    ARTIFACT_POSS;
     AS;
     ASSEMBLE;
     ASSEMBLED;
@@ -95,10 +93,12 @@ tokens {
     ATTACKERS;
     ATTACKING;
     AURA;
+    AURA_SWAP;
     BACK;
     BAND;
     BANDED;
     BANDING;
+    BANDS_WITH_OTHER;
     BASIC;
     BATTLEFIELD;
     BATTLE_CRY;
@@ -116,7 +116,6 @@ tokens {
     BEYOND;
     BID;
     BIDDER;
-    BIDDER_POSS;
     BIDDING;
     BLACK;
     BLOCK;
@@ -125,9 +124,10 @@ tokens {
     BLOCKING;
     BLOODTHIRST;
     BLUE;
+    BOLAS;
+    BOLASS_MEDITATION_REALM;
     BOTH;
     BOTTOM;
-    BOTTOM_POSS;
     BROKEN;
     BUSHIDO;
     BUT;
@@ -137,7 +137,6 @@ tokens {
     CAN;
     CANT;
     CARD;
-    CARD_POSS;
     CASCADE;
     CAST;
     CASTING;
@@ -159,17 +158,14 @@ tokens {
     CLASHING;
     CLEANUP;
     COIN;
-    COIN_POSS;
     COLOR;
     COLORED;
     COLORLESS;
-    COLOR_POSS;
     COMBAT;
     COMBINATION;
     COME;
     COMMAND;
     COMMANDER;
-    COMMANDER_POSS;
     COMMON;
     CONSPIRE;
     CONSPIRED;
@@ -181,14 +177,11 @@ tokens {
     CONTROL;
     CONTROLLED;
     CONTROLLER;
-    CONTROLLER_POSS;
     CONTROLLING;
     CONVERTED;
     CONVOKE;
     COPY;
-    COPY_POSS;
     COST;
-    COST_POSS;
     COULD;
     COULDNT;
     COUNT;
@@ -196,9 +189,7 @@ tokens {
     COUNTER;
     COUNTERED;
     COUNTERING;
-    COUNTER_POSS;
     CREATURE;
-    CREATURE_POSS;
     CUMULATIVE_UPKEEP;
     CYCLE;
     CYCLED;
@@ -213,7 +204,6 @@ tokens {
     DECIDING;
     DECISION;
     DECK;
-    DECK_POSS;
     DECLARATION;
     DECLARE;
     DECLARED;
@@ -249,6 +239,7 @@ tokens {
     DONT;
     DOUBLE;
     DOUBLED;
+    DOUBLE_STRIKE;
     DOWN;
     DRAW;
     DRAWN;
@@ -258,18 +249,15 @@ tokens {
     EACH;
     ECHO;
     EFFECT;
-    EFFECT_POSS;
     EITHER;
     ELSE;
     EMBLEM;
-    EMBLEM_POSS;
     EMPTIED;
     EMPTY;
     ENCHANT;
     ENCHANTED;
     ENCHANTING;
     ENCHANTMENT;
-    ENCHANTMENT_POSS;
     END;
     ENDED;
     ENDING;
@@ -314,6 +302,7 @@ tokens {
     FINISH;
     FINISHED;
     FIRST;
+    FIRST_STRIKE;
     FLANKING;
     FLASH;
     FLASHBACK;
@@ -334,14 +323,12 @@ tokens {
     GAIN;
     GAINED;
     GAME;
-    GAME_POSS;
     GET;
     GOT;
     GRAFT;
     GRAFTED;
     GRAVESTORM;
     GRAVEYARD;
-    GRAVEYARD_POSS;
     GREATER;
     GREATEST;
     GREEN;
@@ -352,7 +339,6 @@ tokens {
     HADNT;
     HALF;
     HAND;
-    HAND_POSS;
     HAS;
     HASNT;
     HASTE;
@@ -387,9 +373,7 @@ tokens {
     INDESTRUCTIBLE;
     INFECT;
     INSTANCE;
-    INSTANCE_POSS;
     INSTANT;
-    INSTANT_POSS;
     INSTEAD;
     INTIMIDATE;
     INTO;
@@ -397,7 +381,6 @@ tokens {
     ISNT;
     IT;
     ITEM;
-    ITEM_POSS;
     ITS;
     ITSELF;
     IT_IS;
@@ -408,7 +391,6 @@ tokens {
     LABEL;
     LAND;
     LANDWALK;
-    LAND_POSS;
     LEAST;
     LEAVE;
     LEAVING;
@@ -420,8 +402,8 @@ tokens {
     LESSER;
     LETHAL;
     LEVEL;
+    LEVEL_UP;
     LIBRARY;
-    LIBRARY_POSS;
     LIFE;
     LIFELINK;
     LIKEWISE;
@@ -443,11 +425,11 @@ tokens {
     MAIN;
     MAKE;
     MANA;
-    MANA_POSS;
     MANY;
     MARKED;
     MAXIMUM;
     MAY;
+    MEDITATION;
     MINE;
     MINIMUM;
     MINUS;
@@ -468,6 +450,7 @@ tokens {
     NAME;
     NAMED;
     NEW;
+    NEW_PHYREXIA;
     NEXT;
     NINJUTSU;
     NO;
@@ -477,13 +460,10 @@ tokens {
     NOTE;
     NOTED;
     NUMBER;
-    NUMBER_POSS;
     NUMBER_WORD;
     OBJECT;
-    OBJECT_POSS;
     OBJ_COUNTER;
     OBJ_SUBTYPE;
-    OBJ_SUBTYPE_POSS;
     ODD;
     OF;
     OFFERING;
@@ -494,7 +474,6 @@ tokens {
     ONTO;
     OPENING;
     OPPONENT;
-    OPPONENT_POSS;
     OR;
     ORDER;
     ORDERED;
@@ -509,7 +488,6 @@ tokens {
     OWNED;
     OWNER;
     OWNERSHIP;
-    OWNER_POSS;
     OWNING;
     PAID;
     PAIR;
@@ -520,28 +498,25 @@ tokens {
     PAYMENT;
     PEACE;
     PERMANENT;
-    PERMANENT_POSS;
     PERSIST;
     PHASE;
     PHASED;
     PHASED_OUT;
-    PHASE_POSS;
     PHASING;
+    PHENOMENON;
+    PHYREXIA;
     PILE;
-    PILE_POSS;
     PLACE;
     PLACED;
+    PLANAR_DIE;
     PLANE;
     PLANESWALK;
     PLANESWALKED;
     PLANESWALKER;
-    PLANESWALKER_POSS;
     PLANESWALKING;
-    PLANE_POSS;
     PLAY;
     PLAYED;
     PLAYER;
-    PLAYER_POSS;
     PLAYING;
     PLUS;
     POINT;
@@ -549,7 +524,6 @@ tokens {
     POISONED;
     POISONOUS;
     POOL;
-    POOL_POSS;
     POSTCOMBAT;
     POWER;
     PRECOMBAT;
@@ -573,6 +547,7 @@ tokens {
     RANDOM;
     RATHER;
     REACH;
+    REALM;
     REBOUND;
     RECENT;
     RECENTLY;
@@ -624,6 +599,9 @@ tokens {
     REVEALING;
     RIGHT;
     RIPPLE;
+    ROLL;
+    ROLLED;
+    ROLLING;
     ROUND;
     ROUNDED;
     SACRIFICE;
@@ -631,7 +609,6 @@ tokens {
     SACRIFICING;
     SAME;
     SCHEME;
-    SCHEME_POSS;
     SCRIED;
     SCRY;
     SCRYING;
@@ -656,7 +633,6 @@ tokens {
     SHUFFLED;
     SHUFFLING;
     SIDEBOARD;
-    SIDEBOARD_POSS;
     SIMULTANEOUSLY;
     SINCE;
     SINGLE;
@@ -668,13 +644,10 @@ tokens {
     SO;
     SOME;
     SORCERY;
-    SORCERY_POSS;
     SOULBOND;
     SOULSHIFT;
     SOURCE;
-    SOURCE_POSS;
     SPELL;
-    SPELL_POSS;
     SPEND;
     SPENT;
     SPLICE;
@@ -687,7 +660,6 @@ tokens {
     STARTED;
     STARTING;
     STEP;
-    STEP_POSS;
     STILL;
     STOOD;
     STOP;
@@ -695,12 +667,9 @@ tokens {
     STORM;
     STRIKE;
     SUBGAME;
-    SUBGAME_POSS;
     SUBTYPE;
-    SUBTYPE_POSS;
     SUNBURST;
     SUPERTYPE;
-    SUPERTYPE_POSS;
     SUSPEND;
     SUSPENDED;
     SWAP;
@@ -708,7 +677,6 @@ tokens {
     SWITCH;
     SWITCHED;
     SYMBOL;
-    SYMBOL_POSS;
     TAILS;
     TAKE;
     TAP;
@@ -716,9 +684,7 @@ tokens {
     TAPPING;
     TARGET;
     TARGETED;
-    TARGET_POSS;
     TEAMMATE;
-    TEAMMATE_POSS;
     TEXT;
     THAN;
     THAT;
@@ -740,10 +706,8 @@ tokens {
     TIMES;
     TO;
     TOKEN;
-    TOKEN_POSS;
     TOOK;
     TOP;
-    TOP_POSS;
     TOTAL;
     TOTEM_ARMOR;
     TOUGHNESS;
@@ -758,18 +722,15 @@ tokens {
     TRANSMUTED;
     TRAP;
     TRIBAL;
-    TRIBAL_POSS;
     TRIGGER;
     TRIGGERED;
     TRUE;
     TURN;
     TURNED;
-    TURN_POSS;
     TWICE;
     TYING;
     TYPE;
     TYPECYCLING;
-    TYPE_POSS;
     UNATTACH;
     UNATTACHED;
     UNATTACHING;
@@ -788,15 +749,14 @@ tokens {
     UNTIL;
     UP;
     UPKEEP;
-    UPKEEP_POSS;
     USE;
     USED;
     USING;
     VALUE;
     VANGUARD;
-    VANGUARD_POSS;
     VANISHING;
     VIGILANCE;
+    WALK;
     WAR;
     WAS;
     WASNT;
@@ -819,7 +779,6 @@ tokens {
     WITHOUT;
     WON;
     WORD;
-    WORD_POSS;
     WORLD;
     WOULD;
     WRONG;
@@ -828,517 +787,22 @@ tokens {
     YOU_ARE;
     YOU_HAVE;
     ZONE;
-    ZONE_POSS;
 }
 
 CUMULATIVE_UPKEEP : 'cumulative upkeep';
-PLANESWALKER_POSS : 'planeswalker\'s'
-                  | 'planeswalkers\'';
 SETTING_IN_MOTION : 'setting in motion';
-ENCHANTMENT_POSS : 'enchantment\'s'
-                 | 'enchantments\'';
-OBJ_SUBTYPE_POSS : 'assembly-worker\'s'
-                 | 'assembly-workers\''
-                 | 'fortification\'s'
-                 | 'fortifications\''
-                 | 'nightstalker\'s'
-                 | 'nightstalkers\''
-                 | 'shapeshifter\'s'
-                 | 'shapeshifters\''
-                 | 'triskelavite\'s'
-                 | 'triskelavites\''
-                 | 'contraption\'s'
-                 | 'contraptions\''
-                 | 'dreadnought\'s'
-                 | 'dreadnoughts\''
-                 | 'incarnation\'s'
-                 | 'incarnations\''
-                 | 'phelddagrif\'s'
-                 | 'phelddagrifs\''
-                 | 'power-plant\'s'
-                 | 'power-plants\''
-                 | 'spellshaper\'s'
-                 | 'spellshapers\''
-                 | 'cockatrice\'s'
-                 | 'cockatrices\''
-                 | 'flagbearer\'s'
-                 | 'flagbearers\''
-                 | 'hippogriff\'s'
-                 | 'hippogriffs\''
-                 | 'homunculus\'s'
-                 | 'juggernaut\'s'
-                 | 'juggernauts\''
-                 | 'mercenaries\''
-                 | 'reflection\'s'
-                 | 'reflections\''
-                 | 'salamander\'s'
-                 | 'salamanders\''
-                 | 'artificer\'s'
-                 | 'artificers\''
-                 | 'barbarian\'s'
-                 | 'barbarians\''
-                 | 'berserker\'s'
-                 | 'berserkers\''
-                 | 'blinkmoth\'s'
-                 | 'blinkmoths\''
-                 | 'brushwagg\'s'
-                 | 'brushwaggs\''
-                 | 'construct\'s'
-                 | 'constructs\''
-                 | 'crocodile\'s'
-                 | 'crocodiles\''
-                 | 'elemental\'s'
-                 | 'elementals\''
-                 | 'equipment\'s'
-                 | 'graveborn\'s'
-                 | 'graveborns\''
-                 | 'homunculi\'s'
-                 | 'jellyfish\'s'
-                 | 'leviathan\'s'
-                 | 'leviathans\''
-                 | 'lhurgoyfu\'s'
-                 | 'manticore\'s'
-                 | 'manticores\''
-                 | 'masticore\'s'
-                 | 'masticores\''
-                 | 'mercenary\'s'
-                 | 'metathran\'s'
-                 | 'metathrans\''
-                 | 'nautiluses\''
-                 | 'nightmare\'s'
-                 | 'nightmares\''
-                 | 'pentavite\'s'
-                 | 'pentavites\''
-                 | 'saproling\'s'
-                 | 'saprolings\''
-                 | 'scarecrow\'s'
-                 | 'scarecrows\''
-                 | 'tetravite\'s'
-                 | 'tetravites\''
-                 | 'werewolves\''
-                 | 'wolverine\'s'
-                 | 'wolverines\''
-                 | 'anteater\'s'
-                 | 'anteaters\''
-                 | 'antelope\'s'
-                 | 'antelopes\''
-                 | 'assassin\'s'
-                 | 'assassins\''
-                 | 'basilisk\'s'
-                 | 'basilisks\''
-                 | 'cephalid\'s'
-                 | 'cephalids\''
-                 | 'deserter\'s'
-                 | 'deserters\''
-                 | 'elephant\'s'
-                 | 'elephants\''
-                 | 'gargoyle\'s'
-                 | 'gargoyles\''
-                 | 'illusion\'s'
-                 | 'illusions\''
-                 | 'lhurgoyf\'s'
-                 | 'minotaur\'s'
-                 | 'minotaurs\''
-                 | 'mongoose\'s'
-                 | 'mongooses\''
-                 | 'moonfolk\'s'
-                 | 'mountain\'s'
-                 | 'mountains\''
-                 | 'nautilus\'s'
-                 | 'nephilim\'s'
-                 | 'nephilims\''
-                 | 'scorpion\'s'
-                 | 'scorpions\''
-                 | 'skeleton\'s'
-                 | 'skeletons\''
-                 | 'splinter\'s'
-                 | 'splinters\''
-                 | 'squirrel\'s'
-                 | 'squirrels\''
-                 | 'starfish\'s'
-                 | 'surrakar\'s'
-                 | 'surrakars\''
-                 | 'survivor\'s'
-                 | 'survivors\''
-                 | 'thalakos\'s'
-                 | 'treefolk\'s'
-                 | 'vedalken\'s'
-                 | 'vedalkens\''
-                 | 'viashino\'s'
-                 | 'viashinos\''
-                 | 'werewolf\'s'
-                 | 'advisor\'s'
-                 | 'advisors\''
-                 | 'aurochs\'s'
-                 | 'bringer\'s'
-                 | 'bringers\''
-                 | 'camarid\'s'
-                 | 'camarids\''
-                 | 'caribou\'s'
-                 | 'carrier\'s'
-                 | 'carriers\''
-                 | 'centaur\'s'
-                 | 'centaurs\''
-                 | 'chimera\'s'
-                 | 'chimeras\''
-                 | 'citizen\'s'
-                 | 'citizens\''
-                 | 'cyclops\'s'
-                 | 'eldrazi\'s'
-                 | 'eldrazis\''
-                 | 'gremlin\'s'
-                 | 'gremlins\''
-                 | 'griffin\'s'
-                 | 'griffins\''
-                 | 'hellion\'s'
-                 | 'hellions\''
-                 | 'homarid\'s'
-                 | 'homarids\''
-                 | 'kithkin\'s'
-                 | 'kithkins\''
-                 | 'lammasu\'s'
-                 | 'merfolk\'s'
-                 | 'octopus\'s'
-                 | 'pegasus\'s'
-                 | 'phoenix\'s'
-                 | 'pincher\'s'
-                 | 'pinchers\''
-                 | 'praetor\'s'
-                 | 'praetors\''
-                 | 'samurai\'s'
-                 | 'serpent\'s'
-                 | 'serpents\''
-                 | 'soldier\'s'
-                 | 'soldiers\''
-                 | 'soltari\'s'
-                 | 'specter\'s'
-                 | 'specters\''
-                 | 'thalakos\''
-                 | 'thopter\'s'
-                 | 'thopters\''
-                 | 'unicorn\'s'
-                 | 'unicorns\''
-                 | 'vampire\'s'
-                 | 'vampires\''
-                 | 'warrior\'s'
-                 | 'warriors\''
-                 | 'archer\'s'
-                 | 'archers\''
-                 | 'archon\'s'
-                 | 'archons\''
-                 | 'aurochs\''
-                 | 'avatar\'s'
-                 | 'avatars\''
-                 | 'badger\'s'
-                 | 'badgers\''
-                 | 'beeble\'s'
-                 | 'beebles\''
-                 | 'cleric\'s'
-                 | 'clerics\''
-                 | 'coward\'s'
-                 | 'cowards\''
-                 | 'cyclops\''
-                 | 'dauthi\'s'
-                 | 'dauthis\''
-                 | 'desert\'s'
-                 | 'deserts\''
-                 | 'dragon\'s'
-                 | 'dragons\''
-                 | 'dwarves\''
-                 | 'efreet\'s'
-                 | 'efreets\''
-                 | 'faerie\'s'
-                 | 'faeries\''
-                 | 'ferret\'s'
-                 | 'ferrets\''
-                 | 'forest\'s'
-                 | 'forests\''
-                 | 'fungus\'s'
-                 | 'goblin\'s'
-                 | 'goblins\''
-                 | 'gorgon\'s'
-                 | 'gorgons\''
-                 | 'harpies\''
-                 | 'horror\'s'
-                 | 'horrors\''
-                 | 'insect\'s'
-                 | 'insects\''
-                 | 'island\'s'
-                 | 'islands\''
-                 | 'knight\'s'
-                 | 'knights\''
-                 | 'kobold\'s'
-                 | 'kobolds\''
-                 | 'kraken\'s'
-                 | 'leeches\''
-                 | 'lizard\'s'
-                 | 'lizards\''
-                 | 'minion\'s'
-                 | 'minions\''
-                 | 'monger\'s'
-                 | 'mongers\''
-                 | 'mutant\'s'
-                 | 'mutants\''
-                 | 'mystic\'s'
-                 | 'mystics\''
-                 | 'noggle\'s'
-                 | 'noggles\''
-                 | 'octopi\'s'
-                 | 'oyster\'s'
-                 | 'oysters\''
-                 | 'pirate\'s'
-                 | 'pirates\''
-                 | 'plains\'s'
-                 | 'rabbit\'s'
-                 | 'rabbits\''
-                 | 'rigger\'s'
-                 | 'riggers\''
-                 | 'shaman\'s'
-                 | 'shamans\''
-                 | 'shrine\'s'
-                 | 'shrines\''
-                 | 'sliver\'s'
-                 | 'slivers\''
-                 | 'sphinx\'s'
-                 | 'spider\'s'
-                 | 'spiders\''
-                 | 'spirit\'s'
-                 | 'spirits\''
-                 | 'sponge\'s'
-                 | 'sponges\''
-                 | 'thrull\'s'
-                 | 'thrulls\''
-                 | 'turtle\'s'
-                 | 'turtles\''
-                 | 'volver\'s'
-                 | 'volvers\''
-                 | 'wizard\'s'
-                 | 'wizards\''
-                 | 'wombat\'s'
-                 | 'wombats\''
-                 | 'wraith\'s'
-                 | 'wraiths\''
-                 | 'zombie\'s'
-                 | 'zombies\''
-                 | 'zubera\'s'
-                 | 'allies\''
-                 | 'angel\'s'
-                 | 'angels\''
-                 | 'beast\'s'
-                 | 'beasts\''
-                 | 'camel\'s'
-                 | 'camels\''
-                 | 'curse\'s'
-                 | 'curses\''
-                 | 'demon\'s'
-                 | 'demons\''
-                 | 'devil\'s'
-                 | 'devils\''
-                 | 'djinn\'s'
-                 | 'djinns\''
-                 | 'drake\'s'
-                 | 'drakes\''
-                 | 'drone\'s'
-                 | 'drones\''
-                 | 'druid\'s'
-                 | 'druids\''
-                 | 'dryad\'s'
-                 | 'dryads\''
-                 | 'dwarf\'s'
-                 | 'elder\'s'
-                 | 'elders\''
-                 | 'fungi\'s'
-                 | 'giant\'s'
-                 | 'giants\''
-                 | 'gnome\'s'
-                 | 'gnomes\''
-                 | 'golem\'s'
-                 | 'golems\''
-                 | 'harpy\'s'
-                 | 'hippo\'s'
-                 | 'hippos\''
-                 | 'horse\'s'
-                 | 'horses\''
-                 | 'hound\'s'
-                 | 'hounds\''
-                 | 'human\'s'
-                 | 'humans\''
-                 | 'hydra\'s'
-                 | 'hydras\''
-                 | 'hyena\'s'
-                 | 'hyenas\''
-                 | 'kirin\'s'
-                 | 'kirins\''
-                 | 'leech\'s'
-                 | 'licid\'s'
-                 | 'licids\''
-                 | 'locus\'s'
-                 | 'ninja\'s'
-                 | 'ninjas\''
-                 | 'nomad\'s'
-                 | 'nomads\''
-                 | 'ouphe\'s'
-                 | 'ouphes\''
-                 | 'plains\''
-                 | 'plant\'s'
-                 | 'plants\''
-                 | 'prism\'s'
-                 | 'prisms\''
-                 | 'rebel\'s'
-                 | 'rebels\''
-                 | 'rhino\'s'
-                 | 'rhinos\''
-                 | 'rogue\'s'
-                 | 'rogues\''
-                 | 'satyr\'s'
-                 | 'satyrs\''
-                 | 'scout\'s'
-                 | 'scouts\''
-                 | 'shade\'s'
-                 | 'shades\''
-                 | 'sheep\'s'
-                 | 'siren\'s'
-                 | 'sirens\''
-                 | 'slith\'s'
-                 | 'sliths\''
-                 | 'snake\'s'
-                 | 'snakes\''
-                 | 'spawn\'s'
-                 | 'spike\'s'
-                 | 'spikes\''
-                 | 'squid\'s'
-                 | 'squids\''
-                 | 'swamp\'s'
-                 | 'swamps\''
-                 | 'tower\'s'
-                 | 'towers\''
-                 | 'troll\'s'
-                 | 'trolls\''
-                 | 'weird\'s'
-                 | 'weirds\''
-                 | 'whale\'s'
-                 | 'whales\''
-                 | 'wolves\''
-                 | 'ally\'s'
-                 | 'atog\'s'
-                 | 'atogs\''
-                 | 'aura\'s'
-                 | 'auras\''
-                 | 'bear\'s'
-                 | 'bears\''
-                 | 'bird\'s'
-                 | 'birds\''
-                 | 'boar\'s'
-                 | 'boars\''
-                 | 'crab\'s'
-                 | 'crabs\''
-                 | 'elves\''
-                 | 'fish\'s'
-                 | 'foxes\''
-                 | 'frog\'s'
-                 | 'frogs\''
-                 | 'germ\'s'
-                 | 'germs\''
-                 | 'goat\'s'
-                 | 'goats\''
-                 | 'kavu\'s'
-                 | 'kavus\''
-                 | 'lair\'s'
-                 | 'lairs\''
-                 | 'loci\'s'
-                 | 'mine\'s'
-                 | 'mines\''
-                 | 'monk\'s'
-                 | 'monks\''
-                 | 'ogre\'s'
-                 | 'ogres\''
-                 | 'ooze\'s'
-                 | 'oozes\''
-                 | 'orgg\'s'
-                 | 'orggs\''
-                 | 'oxen\'s'
-                 | 'pest\'s'
-                 | 'pests\''
-                 | 'sand\'s'
-                 | 'serf\'s'
-                 | 'serfs\''
-                 | 'slug\'s'
-                 | 'slugs\''
-                 | 'trap\'s'
-                 | 'traps\''
-                 | 'wall\'s'
-                 | 'walls\''
-                 | 'wolf\'s'
-                 | 'worm\'s'
-                 | 'worms\''
-                 | 'wurm\'s'
-                 | 'wurms\''
-                 | 'yeti\'s'
-                 | 'ape\'s'
-                 | 'apes\''
-                 | 'bat\'s'
-                 | 'bats\''
-                 | 'cat\'s'
-                 | 'cats\''
-                 | 'elf\'s'
-                 | 'elk\'s'
-                 | 'elks\''
-                 | 'eye\'s'
-                 | 'eyes\''
-                 | 'fox\'s'
-                 | 'hag\'s'
-                 | 'hags\''
-                 | 'imp\'s'
-                 | 'imps\''
-                 | 'kor\'s'
-                 | 'kors\''
-                 | 'myr\'s'
-                 | 'myrs\''
-                 | 'orb\'s'
-                 | 'orbs\''
-                 | 'orc\'s'
-                 | 'orcs\''
-                 | 'rat\'s'
-                 | 'rats\''
-                 | 'ox\'s';
-CONTROLLER_POSS : 'controller\'s'
-                | 'controllers\'';
 ARABIAN_NIGHTS : 'arabian nights';
-COMMANDER_POSS : 'commander\'s'
-               | 'commanders\'';
-GRAVEYARD_POSS : 'graveyard\'s'
-               | 'graveyards\'';
 INDESTRUCTIBLE : 'indestructible';
-PERMANENT_POSS : 'permanent\'s'
-               | 'permanents\'';
 REDISTRIBUTING : 'redistributing';
 REDISTRIBUTION : 'redistribution';
-SIDEBOARD_POSS : 'sideboard\'s'
-               | 'sideboards\'';
 SIMULTANEOUSLY : 'simultaneously';
-SUPERTYPE_POSS : 'supertype\'s'
-               | 'supertypes\'';
-ARTIFACT_POSS : 'artifact\'s'
-              | 'artifacts\'';
-CREATURE_POSS : 'creature\'s'
-              | 'creatures\'';
-INSTANCE_POSS : 'instance\'s'
-              | 'instances\'';
 LIVING_WEAPON : 'living weapon';
-OPPONENT_POSS : 'opponent\'s'
-              | 'opponents\'';
 PLANESWALKING : 'planeswalking';
 PROLIFERATING : 'proliferating';
 PROLIFERATION : 'proliferation';
 REDISTRIBUTED : 'redistributed';
 SET_IN_MOTION : 'sets in motion'
               | 'set in motion';
-TEAMMATE_POSS : 'teammate\'s'
-              | 'teammates\'';
-VANGUARD_POSS : 'vanguard\'s'
-              | 'vanguards\'';
-ABILITY_POSS : 'abilities\''
-             | 'ability\'s';
 ABILITY_WORD : 'fateful hour'
              | 'join forces'
              | 'metalcraft'
@@ -1355,15 +819,9 @@ ABILITY_WORD : 'fateful hour'
              | 'morbid'
              | 'sweep';
 CONTINUOUSLY : 'continuously';
-COUNTER_POSS : 'counter\'s'
-             | 'counters\'';
 DISTRIBUTING : 'distributing';
 DISTRIBUTION : 'distribution';
 HORSEMANSHIP : 'horsemanship';
-INSTANT_POSS : 'instant\'s'
-             | 'instants\'';
-LIBRARY_POSS : 'libraries\''
-             | 'library\'s';
 MULTICOLORED : 'multicolored';
 ORDINAL_WORD : 'fourth'
              | 'second'
@@ -1377,38 +835,22 @@ REDISTRIBUTE : 'redistributes'
              | 'redistribute';
 REGENERATING : 'regenerating';
 REGENERATION : 'regeneration';
-SORCERY_POSS : 'sorceries\''
-             | 'sorcery\'s';
 SPLIT_SECOND : 'split second';
-SUBGAME_POSS : 'subgame\'s'
-             | 'subgames';
-SUBTYPE_POSS : 'subtype\'s'
-             | 'subtypes\'';
 ABANDONMENT : 'abandonment';
 ANNIHILATOR : 'annihilator';
 ANTIQUITIES : 'antiquities';
 BATTLEFIELD : 'battlefield';
-BIDDER_POSS : 'bidder\'s'
-            | 'bidders\'';
 BLOODTHIRST : 'bloodthirst';
-BOTTOM_POSS : 'bottom\'s'
-            | 'bottoms\'';
 COMBINATION : 'combination';
 CONTROLLING : 'controlling';
 DECLARATION : 'declaration';
 DISTRIBUTED : 'distributed';
-EFFECT_POSS : 'effect\'s'
-            | 'effects\'';
-EMBLEM_POSS : 'emblem\'s'
-            | 'emblems\'';
 ENCHANTMENT : 'enchantments'
             | 'enchantment';
 FATESEALING : 'fatesealing';
 LEGEND_RULE : 'legend rule';
 MONOCOLORED : 'monocolored';
 MULTIKICKER : 'multikicker';
-NUMBER_POSS : 'number\'s'
-            | 'numbers\'';
 NUMBER_WORD : 'seventeen'
             | 'eighteen'
             | 'fourteen'
@@ -1430,9 +872,8 @@ NUMBER_WORD : 'seventeen'
             | 'six'
             | 'ten'
             | 'two';
-OBJECT_POSS : 'object\'s'
-            | 'objects\'';
-OBJ_COUNTER : 'intervention'
+OBJ_COUNTER : 'petrification'
+            | 'intervention'
             | 'paralyzation'
             | 'phylactery'
             | 'arrowhead'
@@ -1523,8 +964,7 @@ OBJ_COUNTER : 'intervention'
             | 'ore'
             | 'pin'
             | 'ki';
-OBJ_SUBTYPE : 'bolas\'s meditation realm'
-            | 'assembly-workers'
+OBJ_SUBTYPE : 'assembly-workers'
             | 'assembly-worker'
             | 'fortifications'
             | 'fortification'
@@ -1604,6 +1044,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'graveborn'
             | 'homunculi'
             | 'illusions'
+            | 'innistrad'
             | 'jellyfish'
             | 'leviathan'
             | 'lhurgoyfu'
@@ -1655,17 +1096,20 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'iquatana'
             | 'kaldheim'
             | 'kamigawa'
+            | 'kephalai'
+            | 'kinshala'
             | 'kithkins'
+            | 'kolbahan'
             | 'lhurgoyf'
             | 'mercadia'
             | 'minotaur'
             | 'mirrodin'
             | 'mongoose'
+            | 'mongseng'
             | 'moonfolk'
             | 'mountain'
             | 'nautilus'
             | 'nephilim'
-            | 'phyrexia'
             | 'pinchers'
             | 'praetors'
             | 'scorpion'
@@ -1698,6 +1142,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'avatars'
             | 'badgers'
             | 'beebles'
+            | 'belenon'
             | 'bringer'
             | 'camarid'
             | 'caribou'
@@ -1717,6 +1162,8 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'eldrazi'
             | 'elspeth'
             | 'equilor'
+            | 'ergamon'
+            | 'fabacin'
             | 'faeries'
             | 'ferrets'
             | 'forests'
@@ -1753,6 +1200,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'pyrulea'
             | 'rabbits'
             | 'ravnica'
+            | 'regatha'
             | 'riggers'
             | 'samurai'
             | 'sarkhan'
@@ -1828,6 +1276,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'knight'
             | 'kobold'
             | 'kraken'
+            | 'kyneth'
             | 'licids'
             | 'lizard'
             | 'lorwyn'
@@ -1890,11 +1339,11 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'angel'
             | 'atogs'
             | 'auras'
+            | 'azgol'
             | 'bears'
             | 'beast'
             | 'birds'
             | 'boars'
-            | 'bolas'
             | 'camel'
             | 'crabs'
             | 'curse'
@@ -1966,6 +1415,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'whale'
             | 'worms'
             | 'wurms'
+            | 'xerex'
             | 'ally'
             | 'apes'
             | 'atog'
@@ -2005,6 +1455,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'sand'
             | 'serf'
             | 'slug'
+            | 'vryn'
             | 'wall'
             | 'wolf'
             | 'worm'
@@ -2026,30 +1477,16 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'rat'
             | 'ir'
             | 'ox';
-PLAYER_POSS : 'player\'s'
-            | 'players\'';
 PROLIFERATE : 'proliferates'
             | 'proliferate';
 REGENERATED : 'regenerated';
 SACRIFICING : 'sacrificing';
-SCHEME_POSS : 'scheme\'s'
-            | 'schemes\'';
-SOURCE_POSS : 'source\'s'
-            | 'sources\'';
-SYMBOL_POSS : 'symbol\'s'
-            | 'symbols\'';
-TARGET_POSS : 'target\'s'
-            | 'targets\'';
 TOTEM_ARMOR : 'totem armor';
 TRANSFIGURE : 'transfigure';
 TRANSFORMED : 'transformed';
-TRIBAL_POSS : 'tribal\'s'
-            | 'tribals\'';
 TYPECYCLING : 'typecycling';
 UNATTACHING : 'unattaching';
 UNBLOCKABLE : 'unblockable';
-UPKEEP_POSS : 'upkeep\'s'
-            | 'upkeeps\'';
 ABANDONING : 'abandoning';
 ACTIVATING : 'activating';
 ACTIVATION : 'activations'
@@ -2059,8 +1496,6 @@ ASSIGNMENT : 'assignment';
 BATTLE_CRY : 'battle cry';
 CHAMPIONED : 'championed';
 CHANGELING : 'changeling';
-COLOR_POSS : 'color\'s'
-           | 'colors\'';
 CONTROLLED : 'controlled';
 CONTROLLER : 'controllers'
            | 'controller';
@@ -2077,15 +1512,13 @@ EXCHANGING : 'exchanging';
 FATESEALED : 'fatesealed';
 GRAVESTORM : 'gravestorm';
 INTIMIDATE : 'intimidate';
-OWNER_POSS : 'owner\'s'
-           | 'owners\'';
+MEDITATION : 'meditation';
 PHASED_OUT : 'phased-out';
-PHASE_POSS : 'phase\'s'
-           | 'phases\'';
+PHENOMENON : 'phenomenon'
+           | 'phenomena';
+PLANAR_DIE : 'planar die';
 PLANESWALK : 'planeswalks'
            | 'planeswalk';
-PLANE_POSS : 'plane\'s'
-           | 'planes\'';
 POSTCOMBAT : 'postcombat';
 PREVIOUSLY : 'previously';
 PROTECTION : 'protection';
@@ -2097,10 +1530,6 @@ RESELECTED : 'reselected';
 RESOLUTION : 'resolution';
 RESTARTING : 'restarting';
 SACRIFICED : 'sacrificed';
-SPELL_POSS : 'spell\'s'
-           | 'spells\'';
-TOKEN_POSS : 'token\'s'
-           | 'tokens\'';
 TRANSMUTED : 'transmuted';
 UNATTACHED : 'unattached';
 ABANDONED : 'abandoned';
@@ -2113,10 +1542,6 @@ ATTACHING : 'attaching';
 ATTACKERS : 'attackers';
 ATTACKING : 'attacking';
 BEGINNING : 'beginning';
-CARD_POSS : 'card\'s'
-          | 'cards\'';
-COIN_POSS : 'coin\'s'
-          | 'coins\'';
 COLORLESS : 'colorless';
 COMMANDER : 'commanders'
           | 'commander';
@@ -2124,13 +1549,7 @@ CONSPIRED : 'conspired';
 CONTAINED : 'contained';
 CONTINUED : 'continued';
 CONVERTED : 'converted';
-COPY_POSS : 'copies\''
-          | 'copy\'s';
-COST_POSS : 'cost\'s'
-          | 'costs\'';
 COUNTERED : 'countered';
-DECK_POSS : 'deck\'s'
-          | 'decks\'';
 DECLARING : 'declaring';
 DEFENDING : 'defending';
 DESTROYED : 'destroyed';
@@ -2144,29 +1563,16 @@ FACE_DOWN : 'face down'
           | 'face-down';
 FLASHBACK : 'flashback';
 FORTIFIED : 'fortified';
-GAME_POSS : 'game\'s'
-          | 'games\'';
 GRAVEYARD : 'graveyards'
           | 'graveyard';
-HAND_POSS : 'hand\'s'
-          | 'hands\'';
 HOMELANDS : 'homelands';
 INCREASED : 'increased';
-ITEM_POSS : 'item\'s'
-          | 'items\'';
-LAND_POSS : 'land\'s'
-          | 'lands\'';
 LEGENDARY : 'legendary';
-MANA_POSS : 'mana\'s';
 OTHERWISE : 'otherwise';
 OWNERSHIP : 'ownership';
 PERMANENT : 'permanents'
           | 'permanent';
-PILE_POSS : 'pile\'s'
-          | 'piles\'';
 POISONOUS : 'poisonous';
-POOL_POSS : 'pool\'s'
-          | 'pools\'';
 PRECOMBAT : 'precombat';
 PREVENTED : 'prevented';
 RECOVERED : 'recovered';
@@ -2187,8 +1593,6 @@ SHUFFLING : 'shuffling';
 SIDEBOARD : 'sideboards'
           | 'sideboard';
 SOULSHIFT : 'soulshift';
-STEP_POSS : 'step\'s'
-          | 'steps\'';
 SUPERTYPE : 'supertypes'
           | 'supertype';
 SUSPENDED : 'suspended';
@@ -2199,20 +1603,12 @@ TRANSFORM : 'transforms'
 TRANSMUTE : 'transmutes'
           | 'transmute';
 TRIGGERED : 'triggered';
-TURN_POSS : 'turn\'s'
-          | 'turns\'';
-TYPE_POSS : 'type\'s'
-          | 'types\'';
 UNBLOCKED : 'unblocked';
 UNCHANGED : 'unchanged';
 UNEARTHED : 'unearthed';
 UNTAPPING : 'untapping';
 VANISHING : 'vanishing';
 VIGILANCE : 'vigilance';
-WORD_POSS : 'word\'s'
-          | 'words\'';
-ZONE_POSS : 'zone\'s'
-          | 'zones\'';
 ABSORBED : 'absorbed';
 ACTIVATE : 'activates'
          | 'activate';
@@ -2278,6 +1674,7 @@ OFFERING : 'offering';
 OPPONENT : 'opponents'
          | 'opponent';
 ORIGINAL : 'original';
+PHYREXIA : 'phyrexia';
 POISONED : 'poisoned';
 PRODUCED : 'produced';
 PROVOKED : 'provoked';
@@ -2306,8 +1703,6 @@ TEAMMATE : 'teammates'
          | 'teammate';
 THERE_IS : 'there\'s';
 THEY_ARE : 'they\'re';
-TOP_POSS : 'top\'s'
-         | 'tops\'';
 TRAMPLED : 'trampled';
 UNATTACH : 'unattaches'
          | 'unattach';
@@ -2423,6 +1818,7 @@ RESOLVE : 'resolves'
 RESTART : 'restarts'
         | 'restart';
 RETRACE : 'retrace';
+ROLLING : 'rolling';
 ROUNDED : 'rounded';
 SCRYING : 'scrying';
 SHORTER : 'shorter';
@@ -2435,7 +1831,8 @@ SORCERY : 'sorceries'
 SPLICED : 'spliced';
 STARTED : 'started';
 STOPPED : 'stopped';
-SUBGAME : 'subgame';
+SUBGAME : 'subgames'
+        | 'subgame';
 SUBTYPE : 'subtypes'
         | 'subtype';
 SUSPEND : 'suspends'
@@ -2566,6 +1963,7 @@ RETURN : 'returns'
 REVEAL : 'reveals'
        | 'reveal';
 RIPPLE : 'ripple';
+ROLLED : 'rolled';
 SCHEME : 'schemes'
        | 'scheme';
 SCRIED : 'scried';
@@ -2618,6 +2016,7 @@ BELOW : 'below';
 BLACK : 'black';
 BLOCK : 'blocks'
       | 'block';
+BOLAS : 'bolas';
 CAUSE : 'causes'
       | 'cause';
 CHOSE : 'chose';
@@ -2698,6 +2097,7 @@ POINT : 'point';
 POWER : 'power';
 PROWL : 'prowl';
 REACH : 'reach';
+REALM : 'realm';
 RIGHT : 'right';
 ROUND : 'rounds'
       | 'round';
@@ -2855,6 +2255,8 @@ PLUS : 'plus';
 POOL : 'pools'
      | 'pool';
 REST : 'rest';
+ROLL : 'rolls'
+     | 'roll';
 SAME : 'same';
 SCRY : 'scries'
      | 'scry';
@@ -2888,6 +2290,7 @@ TURN : 'turns'
 TYPE : 'types'
      | 'type';
 USED : 'used';
+WALK : 'walk';
 WERE : 'were';
 WHEN : 'whenever'
      | 'when';

@@ -20,14 +20,18 @@ parser grammar events;
 
 /* Events and conditions. */
 
+triggers : trigger ( OR^ trigger )? ;
+
 // Although it doesn't look great, it was necessary to factor 'subset' out
 // of the event and condition rules. It's a bad idea to leave it unfactored
 // since ANTLR will run itself out of memory (presumably trying to generate
 // lookahead tables).
-// TODO: trigger descriptors (eg. "during combat")
-trigger : subsets
-          ( event -> ^( EVENT subsets event )
-          | condition -> ^( CONDITION subsets condition )
+// TODO: event descriptors (eg. "during combat")
+trigger : subset_list
+          ( event ( OR event )?
+            -> {$OR}? ^( EVENT subset_list ^( OR[] event+ ) )
+            -> ^( EVENT subset_list event )
+          | condition -> ^( CONDITION subset_list condition )
           );
 
 // An event is something that happens, usually an object taking an action
@@ -36,6 +40,7 @@ trigger : subsets
 event : zone_transfer
       | phases_in_out
       | state_change
+      | cost_paid
       ;
 
 /* Events. */
@@ -53,14 +58,24 @@ zone_transfer : ( ENTER | ( IS | ARE ) PUT ( INTO | ONTO ) ) a=zone_subset
 phases_in_out : PHASE^ ( IN | OUT );
 
 state_change : BECOME ( BLOCKED BY subset
-                         -> ^( BECOME[] BLOCKED ^( BY[] subset ) )
-                       | status -> ^( BECOME[] status )
-                       | THE TARGET OF subset -> ^( TARGETED subset )
-                       | UNATTACHED FROM subset
-                         -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
-                       )
+                        -> ^( BECOME[] BLOCKED ^( BY[] subset ) )
+                      | status -> ^( BECOME[] status )
+                      | THE TARGET OF subset -> ^( TARGETED subset )
+                      | UNATTACHED FROM subset
+                        -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
+                      )
+             | ATTACK ( (pl_subset)=> pl_subset )?
+               ( AND ( ISNT | ARENT ) BLOCKED
+                 -> ^( BECOME UNBLOCKED pl_subset? )
+               | -> ^( BECOME ATTACKING pl_subset? )
+               )
+             | BLOCK subset? -> ^( BECOME BLOCKING subset? )
              | IS TURNED status -> ^( BECOME[] status )
              ;
+
+cost_paid : POSS cost_prop IS PAID -> ^( PAID[] cost_prop )
+          | PAY ( A | subset POSS ) cost_prop -> ^( PAY[] cost_prop subset )
+          ;
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will

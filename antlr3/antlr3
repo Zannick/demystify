@@ -13,7 +13,7 @@ fi
 
 # Configuration
 MAIN_CLASS="org.antlr.Tool"
-BASE_FLAGS=""
+BASE_FLAGS="-Xmx1536m"
 BASE_JARS="antlr-3.4.1-SNAPSHOT.jar antlr-runtime-3.4.jar ST-4.0.5.jar"
 ANTLR_FLAGS=""
 

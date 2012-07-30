@@ -23,103 +23,144 @@ parser grammar raw_keywords;
 raw_keywords : raw_keyword
                ( ( COMMA! ( raw_keyword COMMA! )+ )? conj^ raw_keyword )? ;
 
-// TODO: split these out so I can reference only the correct subsets
-// for eg. equip costs?
-raw_keyword : DEATHTOUCH
-            | DEFENDER
-              // Separate tokens for first and double strike.
-            | DOUBLE STRIKE -> DOUBLE_STRIKE[]
-            | FIRST STRIKE -> FIRST_STRIKE[]
+raw_keyword : raw_keyword_no_args
+            | raw_keyword_int
+            | raw_keyword_cost
+            | raw_keyword_int_cost
+            | raw_keyword_quality
             | ENCHANT
-            | EQUIP
-            | FLASH
-            | FLYING
-            | HASTE
-            | HEXPROOF
-            | INTIMIDATE
-            | LIFELINK
             | PROTECTION
-            | REACH
-            | SHROUD
-            | TRAMPLE
-            | VIGILANCE
-            | ABSORB
             | AFFINITY
-            | AMPLIFY
-            | ANNIHILATOR
-              // Separate tokens for aura swap and bands with other.
-            | AURA SWAP -> AURA_SWAP[]
-            | BAND WITH OTHER -> BANDS_WITH_OTHER[]
-            | BANDING
-            | BATTLE_CRY
-            | BLOODTHIRST
-            | BUSHIDO
-            | BUYBACK
-            | CASCADE
             | CHAMPION
-            | CHANGELING
-            | CONSPIRE
-            | CONVOKE
-            | CUMULATIVE_UPKEEP
-            | CYCLING
-            | DEVOUR
-            | DELVE
-            | DREDGE
-            | ECHO
-            | ENTWINE
-            | EPIC
-            | EVOKE
-            | EXALTED
-            | FADING
-            | FEAR
-            | FLANKING
-            | FLASHBACK
-            | FORECAST
-            | FORTIFY
-            | FRENZY
-            | GRAFT
-            | GRAVESTORM
-            | HAUNT
-            | HIDEAWAY
-            | HORSEMANSHIP
-            | INFECT
             | KICKER
             | LANDWALK
-              // Separate tokens for level up.
-            | LEVEL UP -> LEVEL_UP[]
-            | LIVING_WEAPON
-            | MADNESS
-            | MIRACLE
-            | MODULAR
-            | MORPH
-            | MULTIKICKER
-            | NINJUTSU
-            | OFFERING
-            | PERSIST
-            | PHASING
-            | POISONOUS
-            | PROVOKE
-            | PROWL
-            | RAMPAGE
-            | REBOUND
-            | RECOVER
-            | REINFORCE
-            | REPLICATE
-            | RETRACE
-            | RIPPLE
-            | SHADOW
-            | SOULBOND
-            | SOULSHIFT
             | SPLICE
-            | SPLIT_SECOND
-            | STORM
-            | SUNBURST
-            | SUSPEND
-            | TOTEM_ARMOR
-            | TRANSFIGURE
-            | TRANSMUTE
-            | UNDYING
-            | UNEARTH
-            | VANISHING
-            | WITHER
             ;
+
+raw_keyword_with_no_args : raw_keyword_no_args
+                         | VANISHING
+                         ;
+
+raw_keyword_with_cost : raw_keyword_cost
+                      | raw_keyword_int_cost
+                      | KICKER
+                      | SPLICE
+                      ;
+
+// TODO: the values of this can be referred to as "points of keyword",
+// eg. "for each point of bushido it has"
+raw_keyword_with_int : raw_keyword_int
+                     | raw_keyword_int_cost
+                     ;
+
+// This happens to include things that use more specialized quality args.
+raw_keyword_with_quality : raw_keyword_quality
+                         | ENCHANT
+                         | PROTECTION
+                         | AFFINITY
+                         | CHAMPION
+                         | LANDWALK
+                         | SPLICE
+                         ;
+
+// The lists of raw_keyword_(.*) below are for the generic keyword rules
+// keyword_\1 in keywords.g. Each keyword should appear in at most one of
+// these lists. For keywords that have a particular type of argument, use
+// the raw_keyword_with_\1 rules above.
+
+// core first, then expert.
+raw_keyword_no_args : DEATHTOUCH
+                    | DEFENDER
+                      // Some keywords e.g. double strike use macro rules.
+                    | double_strike
+                    | first_strike
+                    | FLASH
+                    | FLYING
+                    | HASTE
+                    | HEXPROOF
+                    | INTIMIDATE
+                    | LIFELINK
+                    | REACH
+                    | SHROUD
+                    | TRAMPLE
+                    | VIGILANCE
+                    | BANDING
+                    | BATTLE_CRY
+                    | CASCADE
+                    | CHANGELING
+                    | CONSPIRE
+                    | CONVOKE
+                    | DELVE
+                    | EPIC
+                    | EXALTED
+                    | FEAR
+                    | FLANKING
+                    | GRAVESTORM
+                    | HAUNT
+                    | HIDEAWAY
+                    | HORSEMANSHIP
+                    | INFECT
+                    | LIVING_WEAPON
+                    | PERSIST
+                    | PHASING
+                    | PROVOKE
+                    | REBOUND
+                    | RETRACE
+                    | SHADOW
+                    | SOULBOND
+                    | SPLIT_SECOND
+                    | STORM
+                    | SUNBURST
+                    | TOTEM_ARMOR
+                    | UNDYING
+                    | WITHER
+                    ;
+
+raw_keyword_cost : EQUIP
+                 | aura_swap
+                 | BUYBACK
+                 | CUMULATIVE_UPKEEP
+                 | CYCLING
+                 | ECHO
+                 | ENTWINE
+                 | EVOKE
+                 | FLASHBACK
+                 | FORTIFY
+                 | level_up
+                 | MADNESS
+                 | MIRACLE
+                 | MORPH
+                 | MULTIKICKER
+                 | NINJUTSU
+                 | PROWL 
+                 | RECOVER
+                 | REPLICATE
+                 | TRANSFIGURE
+                 | TRANSMUTE
+                 | UNEARTH
+                 ;
+
+raw_keyword_int : ABSORB
+                | AMPLIFY
+                | ANNIHILATOR
+                | BLOODTHIRST
+                | BUSHIDO
+                | DEVOUR
+                | DREDGE
+                | FADING
+                | FRENZY
+                | GRAFT
+                | MODULAR
+                | POISONOUS
+                | RAMPAGE
+                | RIPPLE
+                | SOULSHIFT
+                | VANISHING
+                ;
+
+raw_keyword_int_cost : REINFORCE
+                     | SUSPEND
+                     ;
+
+raw_keyword_quality : bands_with_other
+                    ;

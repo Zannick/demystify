@@ -49,7 +49,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Add {U} or {B} to your mana pool. Activate this ability only if you control a Swamp.
-Set/Rarity:     Torment Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Torment Uncommon
 
 Name:   Tainted Pact
 Cost:   1B
@@ -317,6 +317,20 @@ Rules Text:     Flash (You may cast this spell any time you could cast an instan
 Enchant creature
 Enchanted creature has "{1}{R}: This creature gets +2/+0 until end of turn."
 Set/Rarity:     Dark Ascension Common
+
+Name:   Talrand's Invocation
+Cost:   2UU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put two 2/2 blue Drake creature tokens with flying onto the battlefield.
+Set/Rarity:     Magic 2013 Uncommon
+
+Name:   Talrand, Sky Summoner
+Cost:   2UU
+Type:   Legendary Creature — Merfolk Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever you cast an instant or sorcery spell, put a 2/2 blue Drake creature token with flying onto the battlefield.
+Set/Rarity:     Magic 2013 Rare
 
 Name:   Talruum Champion
 Cost:   4R
@@ -1416,7 +1430,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Archenemy Common, Duel Decks: Phyrexia vs. the Coalition Common, Premium Deck Series: Slivers Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Time Spiral Common
+Set/Rarity:     Planechase 2012 Edition Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Archenemy Common, Duel Decks: Phyrexia vs. the Coalition Common, Premium Deck Series: Slivers Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Time Spiral Common
 
 Name:   Terrarion
 Cost:   1
@@ -2053,7 +2067,7 @@ Type:   Creature — Viashino Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 {G}: Thorn-Thrash Viashino gains trample until end of turn.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Planechase 2012 Edition Common, Shards of Alara Common
 
 Name:   Thornbite Staff
 Cost:   2
@@ -2365,6 +2379,14 @@ Pow/Tgh:    (2/1)
 Rules Text:     Vigilance
 Set/Rarity:     Avacyn Restored Common
 
+Name:   Thragtusk
+Cost:   4G
+Type:   Creature — Beast
+Pow/Tgh:    (5/3)
+Rules Text:     When Thragtusk enters the battlefield, you gain 5 life.
+When Thragtusk leaves the battlefield, put a 3/3 green Beast creature token onto the battlefield.
+Set/Rarity:     Magic 2013 Rare
+
 Name:   Thran Dynamo
 Cost:   4
 Type:   Artifact
@@ -2391,7 +2413,7 @@ Cost:   5
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (3/3)
 Rules Text:     As long as Thran Golem is enchanted, it gets +2/+2 and has flying, first strike, and trample.
-Set/Rarity:     Magic 2012 Uncommon, Ninth Edition Rare, Urza's Destiny Rare
+Set/Rarity:     Planechase 2012 Edition Uncommon, Magic 2012 Uncommon, Ninth Edition Rare, Urza's Destiny Rare
 
 Name:   Thran Lens
 Cost:   2
@@ -2483,7 +2505,7 @@ Cost:   4W
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for up to three Aura cards with different names, reveal them, and put them into your hand. Then shuffle your library.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Ravnica: City of Guilds Rare
 
 Name:   Three Tragedies
 Cost:   3BB
@@ -2541,7 +2563,14 @@ Type:   Creature — Rat Ninja
 Pow/Tgh:    (2/2)
 Rules Text:     Ninjutsu {2}{B} ({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Throat Slitter deals combat damage to a player, destroy target nonblack creature that player controls.
-Set/Rarity:     Betrayers of Kamigawa Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Betrayers of Kamigawa Uncommon
+
+Name:   Thromok the Insatiable
+Cost:   3RG
+Type:   Legendary Creature — Hellion
+Pow/Tgh:    (0/0)
+Rules Text:     Devour X, where X is the number of creatures devoured this way (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with X +1/+1 counters on it for each of those creatures.)
+Set/Rarity:     Planechase 2012 Edition Mythic Rare
 
 Name:   Throne of Bone
 Cost:   1
@@ -2685,7 +2714,7 @@ Cost:   2R
 Type:   Creature — Viashino Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)
-Set/Rarity:     Shards of Alara Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Shards of Alara Uncommon
 
 Name:   Thunderblade Charge
 Cost:   1RR
@@ -2773,6 +2802,15 @@ Pow/Tgh:    (5/5)
 Rules Text:     Haste (This creature can attack the turn it comes under your control.)
 When Thundermare enters the battlefield, tap all other creatures.
 Set/Rarity:     Ninth Edition Rare, Weatherlight Rare, Portal Rare
+
+Name:   Thundermaw Hellkite
+Cost:   3RR
+Type:   Creature — Dragon
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+Haste (This creature can attack and {T} as soon as it comes under your control.)
+When Thundermaw Hellkite enters the battlefield, it deals 1 damage to each creature with flying your opponents control. Tap those creatures.
+Set/Rarity:     Magic 2013 Mythic Rare
 
 Name:   Thunderous Wrath
 Cost:   4RR
@@ -3092,6 +3130,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Whenever Timbermaw Larva attacks, it gets +1/+1 until end of turn for each Forest you control.
 Set/Rarity:     Zendikar Common
 
+Name:   Timberpack Wolf
+Cost:   1G
+Type:   Creature — Wolf
+Pow/Tgh:    (2/2)
+Rules Text:     Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Timberwatch Elf
 Cost:   2G
 Type:   Creature — Elf
@@ -3366,7 +3411,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +4/+4 until end of turn.
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Magic 2013 Common, Magic 2012 Common
 
 Name:   Titanic Ultimatum
 Cost:   RRGGGWW
@@ -3647,7 +3692,7 @@ Cost:   1R
 Type:   Creature — Devil
 Pow/Tgh:    (2/1)
 Rules Text:     {R}, Sacrifice Torch Fiend: Destroy target artifact.
-Set/Rarity:     Dark Ascension Common
+Set/Rarity:     Magic 2013 Uncommon, Dark Ascension Common
 
 Name:   Torch Slinger
 Cost:   2R
@@ -3711,7 +3756,7 @@ Cost:   B
 Type:   Creature — Spirit
 Pow/Tgh:    (1/1)
 Rules Text:     Tormented Soul can't block and is unblockable.
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Magic 2013 Common, Planechase 2012 Edition Common, Magic 2012 Common
 
 Name:   Tormentor Exarch
 Cost:   3R
@@ -3733,7 +3778,7 @@ Cost:   0
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Tormod's Crypt: Exile all cards from target player's graveyard.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Chronicles Common, The Dark Uncommon
+Set/Rarity:     Magic 2013 Uncommon, Time Spiral "Timeshifted" Special, Chronicles Common, The Dark Uncommon
 
 Name:   Tornado
 Cost:   4G
@@ -3911,6 +3956,13 @@ Pow/Tgh:
 Rules Text:     Until end of turn, target creature gains haste and "{0}: Untap this creature. Activate this ability only once."
 Draw a card at the beginning of the next turn's upkeep.
 Set/Rarity:     Ice Age Uncommon
+
+Name:   Touch of the Eternal
+Cost:   5WW
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.
+Set/Rarity:     Magic 2013 Rare
 
 Name:   Touchstone
 Cost:   2
@@ -4133,6 +4185,16 @@ Pow/Tgh:    (1/4)
 Rules Text:     Flying
 {T}, Tap two untapped creatures you control: Return target permanent to its owner's hand.
 Set/Rarity:     Tempest Rare
+
+Name:   Trading Post
+Cost:   4
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {1}, {T}, Discard a card: You gain 4 life.
+{1}, {T}, Pay 1 life: Put a 0/1 white Goat creature token onto the battlefield.
+{1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand.
+{1}, {T}, Sacrifice an artifact: Draw a card.
+Set/Rarity:     Magic 2013 Rare
 
 Name:   Tragic Poet
 Cost:   W
@@ -4834,6 +4896,14 @@ Pow/Tgh:
 Rules Text:     Choose one — Target creature gains flying until end of turn; or target creature becomes the creature type of your choice until end of turn; or look at the top four cards of your library, then put them back in any order.
 Set/Rarity:     Onslaught Common
 
+Name:   Tricks of the Trade
+Cost:   3U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+0 and is unblockable.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Trickster Mage
 Cost:   U
 Type:   Creature — Human Spellshaper
@@ -5069,7 +5139,7 @@ Cost:   2R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Attacking creatures get +2/+0 until end of turn.
-Set/Rarity:     Magic 2010 Common, Urza's Destiny Common
+Set/Rarity:     Magic 2013 Common, Magic 2010 Common, Urza's Destiny Common
 
 Name:   Trumpeting Armodon
 Cost:   3G
@@ -5159,7 +5229,7 @@ Cost:   G
 Type:   Creature — Fungus
 Pow/Tgh:    (1/1)
 Rules Text:     When Tukatongue Thallid dies, put a 1/1 green Saproling creature token onto the battlefield.
-Set/Rarity:     Conflux Common
+Set/Rarity:     Planechase 2012 Edition Common, Conflux Common
 
 Name:   Tuknir Deathlock
 Cost:   RRGG
@@ -5313,7 +5383,7 @@ Cost:   3RR
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.
-Set/Rarity:     Scars of Mirrodin Common
+Set/Rarity:     Magic 2013 Common, Scars of Mirrodin Common
 
 Name:   Turnabout
 Cost:   2UU

@@ -26,6 +26,16 @@ parser grammar macro;
 
 ability_word : ABILITY_WORD;
 
+aura_swap : AURA SWAP -> AURA_SWAP;
+
+bands_with_other : BAND WITH OTHER -> BANDS_WITH_OTHER;
+
+double_strike : DOUBLE STRIKE -> DOUBLE_STRIKE;
+
+first_strike : FIRST STRIKE -> FIRST_STRIKE;
+
+level_up : LEVEL UP -> LEVEL_UP;
+
 number_word : NUMBER_WORD;
 
 obj_counter : OBJ_COUNTER
@@ -41,12 +51,14 @@ obj_counter : OBJ_COUNTER
 
 obj_subtype : OBJ_SUBTYPE
             | AURA
+            | BOLAS
             | FUNGUS
             | MINE
+            | PHYREXIA
             | TOWER
-            | TRAP;
-
-obj_subtype_poss : OBJ_SUBTYPE_POSS;
+            | TRAP
+            | BOLAS POSS MEDITATION REALM -> BOLASS_MEDITATION_REALM
+            | NEW PHYREXIA -> NEW_PHYREXIA;
 
 ordinal_word : ORDINAL_WORD
              | FIRST;

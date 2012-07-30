@@ -20,9 +20,12 @@ parser grammar subsets;
 
 /* Rules for describing subsets of objects. */
 
-subsets : subset ( ( COMMA! ( subset COMMA! )+ )? conj^ subset )?
+subsets : subset_list
         | properties restriction*
-          -> ^( SUBSET ^( NUMBER ALL ) properties restriction* );
+          -> ^( SUBSET ^( NUMBER ALL ) properties restriction* )
+        ;
+
+subset_list : subset ( ( COMMA! ( subset COMMA! )+ )? conj^ subset )? ;
 
 subset : number properties restriction*
          -> ^( SUBSET number properties restriction* )
@@ -36,11 +39,25 @@ subset : number properties restriction*
          -> ^( SUBSET ^( LAST properties restriction* ) )
        | full_zone
          -> ^( SUBSET full_zone )
+       | haunted_object
+         -> ^( SUBSET haunted_object )
        | ref_object in_zones?
          -> ^( SUBSET ref_object in_zones? )
        | player_group
          -> ^( SUBSET player_group )
        ;
+
+pl_subset : player_or_walker
+            ( COMMA! ( player_or_walker COMMA! )+ conj^ player_or_walker
+            | (conj player_or_walker)=> conj^ player_or_walker 
+            |
+            );
+
+player_or_walker
+    : player_group -> ^( SUBSET player_group )
+    | number PLANESWALKER descriptor*
+      -> ^( SUBSET number ^( PROPERTIES PLANESWALKER descriptor* ) )
+    ;
 
 // A full zone, for use as a subset
 full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )

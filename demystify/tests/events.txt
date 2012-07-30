@@ -10,11 +10,25 @@
 @(EVENT (SUBSET (NUMBER 1) (PROPERTIES creature))
   (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD)))
 
+@LivesOrDies
+@triggers
+@SELF enters the battlefield or is put into a graveyard from the battlefield
+@(EVENT (SUBSET SELF)
+        (OR (ENTER BATTLEFIELD)
+            (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD))))
+
+@OrHaunt
+@triggers
+@SELF enters the battlefield or the creature it haunts dies
+@(or (EVENT (SUBSET SELF) (ENTER BATTLEFIELD))
+     (EVENT (SUBSET (HAUNTED it))
+            (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD))))
+
 @Narcomoeba
 @trigger
 @SELF is put into your graveyard from your library
 @(EVENT (SUBSET SELF)
-  (ENTER (ZONE_SET your GRAVEYARD) (FROM (ZONE_SET your LIBRARY))))
+  (ENTER (ZONE_SET (POSS YOU) GRAVEYARD) (FROM (ZONE_SET (POSS YOU) LIBRARY))))
 
 @Floodgate
 @trigger
@@ -36,3 +50,35 @@
         (TARGETED (SUBSET (NUMBER 1)
                           (PROPERTIES (or spell ability)
                            (CONTROL (PLAYER_GROUP (NUMBER 1) opponent))))))
+
+@AllyAttacked
+@trigger
+@a creature attacks you, a teammate, or a planeswalker you or a teammate control
+@(EVENT (SUBSET (NUMBER 1) (PROPERTIES creature))
+  (BECOME ATTACKING
+   (or (SUBSET you) (SUBSET (PLAYER_GROUP (NUMBER 1) teammate))
+    (SUBSET (NUMBER 1)
+     (PROPERTIES planeswalker
+      (CONTROL (or you (PLAYER_GROUP (NUMBER 1) teammate))))))))
+
+@Unblocked
+@trigger
+@SELF attacks and isn't blocked
+@(EVENT (SUBSET SELF) (BECOME UNBLOCKED))
+
+@Blocks
+@trigger
+@SELF attacks a player or blocks a creature
+@(EVENT (SUBSET SELF)
+        (OR (BECOME ATTACKING (SUBSET (PLAYER_GROUP (NUMBER 1) player)))
+            (BECOME BLOCKING (SUBSET (NUMBER 1) (PROPERTIES creature)))))
+
+@ShahOfNaarIsle
+@trigger
+@SELF's echo cost is paid
+@(EVENT (SUBSET SELF) (PAID (COST echo)))
+
+@HiberationsEnd
+@trigger
+@you pay SELF's cumulative upkeep
+@(EVENT (SUBSET you) (PAY (COST cumulative upkeep) (SUBSET SELF)))

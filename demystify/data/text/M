@@ -122,6 +122,14 @@ Pow/Tgh:
 Rules Text:     Destroy target nonland permanent and all other permanents with the same name as that permanent.
 Set/Rarity:     Alara Reborn Rare
 
+Name:   Maelstrom Wanderer
+Cost:   5URG
+Type:   Legendary Creature — Elemental
+Pow/Tgh:    (7/5)
+Rules Text:     Creatures you control have haste.
+Cascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order. Then do it again.)
+Set/Rarity:     Planechase 2012 Edition Mythic Rare
+
 Name:   Maga, Traitor to Mortals
 Cost:   XBBB
 Type:   Legendary Creature — Human Wizard
@@ -314,6 +322,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     {R}, Sacrifice a land: Magma Vein deals 1 damage to each creature without flying.
 Set/Rarity:     Odyssey Uncommon
+
+Name:   Magmaquake
+Cost:   XRR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Magmaquake deals X damage to each creature without flying and each planeswalker.
+Set/Rarity:     Magic 2013 Rare
 
 Name:   Magmasaur
 Cost:   3RR
@@ -674,7 +689,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +3/+3 and has vigilance.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
-Set/Rarity:     Rise of the Eldrazi Uncommon
+Set/Rarity:     Planechase 2012 Edition Uncommon, Rise of the Eldrazi Uncommon
 
 Name:   Man-o'-War
 Cost:   2U
@@ -1193,8 +1208,8 @@ Name:   Mark of Mutiny
 Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.
-Set/Rarity:     Zendikar Uncommon
+Rules Text:     Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn. (It can attack and {T} this turn.)
+Set/Rarity:     Magic 2013 Uncommon, Planechase 2012 Edition Uncommon, Zendikar Uncommon
 
 Name:   Mark of Sakiko
 Cost:   1G
@@ -1212,6 +1227,14 @@ Rules Text:     Enchant creature
 You control enchanted creature.
 At the beginning of the end step, if you control no Demons, sacrifice Mark of the Oni.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
+
+Name:   Mark of the Vampire
+Cost:   3B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+2 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)
+Set/Rarity:     Magic 2013 Common
 
 Name:   Marker Beetles
 Cost:   1GG
@@ -1581,6 +1604,13 @@ Pow/Tgh:
 Rules Text:     All creatures have haste.
 Set/Rarity:     Mirrodin Rare
 
+Name:   Mass Mutiny
+Cost:   3RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn.
+Set/Rarity:     Planechase 2012 Edition Rare
+
 Name:   Mass Polymorph
 Cost:   5U
 Type:   Sorcery
@@ -1685,6 +1715,13 @@ Type:   Creature — Human
 Pow/Tgh:    (2/2)
 Rules Text:     {2}{G}{G}: Put a 1/1 green Wolf creature token named Wolves of the Hunt onto the battlefield. It has "bands with other creatures named Wolves of the Hunt." (Any creatures named Wolves of the Hunt can attack in a band as long as at least one has "bands with other creatures named Wolves of the Hunt." Bands are blocked as a group. If at least two creatures named Wolves of the Hunt you control, one of which has "bands with other creatures named Wolves of the Hunt," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Legends Rare
+
+Name:   Master of the Pearl Trident
+Cost:   UU
+Type:   Creature — Merfolk
+Pow/Tgh:    (2/2)
+Rules Text:     Other Merfolk creatures you control get +1/+1 and have islandwalk. (They are unblockable as long as defending player controls an Island.)
+Set/Rarity:     Magic 2013 Rare
 
 Name:   Master of the Veil
 Cost:   2UU
@@ -2363,7 +2400,7 @@ Cost:   U
 Type:   Creature — Merfolk
 Pow/Tgh:    (1/1)
 Rules Text:     
-Set/Rarity:     Seventh Edition Common, Starter 2000 Common, Starter 1999 Common, Classic Sixth Edition Common, Portal Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Magic 2013 Common, Seventh Edition Common, Starter 2000 Common, Starter 1999 Common, Classic Sixth Edition Common, Portal Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Merieke Ri Berit
 Cost:   WUB
@@ -2981,7 +3018,14 @@ Cost:   2B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards two cards.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Starter 1999 Common, Portal Second Age Common, Portal Common
+Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Starter 1999 Common, Portal Second Age Common, Portal Common
+
+Name:   Mind Sculpt
+Cost:   1U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target opponent puts the top seven cards of his or her library into his or her graveyard.
+Set/Rarity:     Magic 2013 Common
 
 Name:   Mind Shatter
 Cost:   XBB
@@ -3094,6 +3138,13 @@ Pow/Tgh:
 Rules Text:     If an opponent cast three or more spells this turn, you may pay {0} rather than pay Mindbreak Trap's mana cost.
 Exile any number of target spells.
 Set/Rarity:     Zendikar Mythic Rare
+
+Name:   Mindclaw Shaman
+Cost:   4R
+Type:   Creature — Viashino Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     When Mindclaw Shaman enters the battlefield, target opponent reveals his or her hand. You may cast an instant or sorcery card from it without paying its mana cost.
+Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Mindcrank
 Cost:   2
@@ -3668,7 +3719,7 @@ Cost:   7
 Type:   Artifact Creature — Juggernaut
 Pow/Tgh:    (5/5)
 Rules Text:     Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
-At the beginning of your upkeep, unless you discard a card, tap Mishra's War Machine and it deals 3 damage to you.
+At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unless you discard a card. If Mishra's War Machine deals damage to you this way, tap it.
 Set/Rarity:     Fourth Edition Rare, Revised Edition Rare, Antiquities Rare
 
 Name:   Mishra's Workshop
@@ -3754,7 +3805,7 @@ Type:   Creature — Human Ninja
 Pow/Tgh:    (1/1)
 Rules Text:     Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Mistblade Shinobi deals combat damage to a player, you may return target creature that player controls to its owner's hand.
-Set/Rarity:     Betrayers of Kamigawa Common
+Set/Rarity:     Planechase 2012 Edition Common, Betrayers of Kamigawa Common
 
 Name:   Mistfolk
 Cost:   UU
@@ -3933,7 +3984,7 @@ Cost:   4G
 Type:   Creature — Ooze
 Pow/Tgh:    (4/4)
 Rules Text:     When Mitotic Slime dies, put two 2/2 green Ooze creature tokens onto the battlefield. They have "When this creature dies, put two 1/1 green Ooze creature tokens onto the battlefield."
-Set/Rarity:     Magic 2011 Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Magic 2011 Rare
 
 Name:   Mizzium Transreliquat
 Cost:   3
@@ -4074,7 +4125,7 @@ Cost:   1R
 Type:   Creature — Goblin
 Pow/Tgh:    (3/3)
 Rules Text:     Mogg Flunkies can't attack or block alone.
-Set/Rarity:     Premium Deck Series: Fire and Lightning Common, Stronghold Common
+Set/Rarity:     Magic 2013 Common, Premium Deck Series: Fire and Lightning Common, Stronghold Common
 
 Name:   Mogg Hollows
 Cost:   
@@ -5003,7 +5054,7 @@ Cost:
 Type:   Basic Land — Mountain
 Pow/Tgh:    
 Rules Text:     R
-Set/Rarity:     Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Arabian Nights Common, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Arabian Nights Common, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Mountain Bandit
 Cost:   R
@@ -5220,7 +5271,7 @@ Cost:   2R
 Type:   Creature — Goblin Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player.
-Set/Rarity:     Duel Decks: Knights vs. Dragons Common, Duel Decks: Elves vs. Goblins Common, Lorwyn Common
+Set/Rarity:     Planechase 2012 Edition Common, Duel Decks: Knights vs. Dragons Common, Duel Decks: Elves vs. Goblins Common, Lorwyn Common
 
 Name:   Muddle the Mixture
 Cost:   UU
@@ -5336,6 +5387,13 @@ Pow/Tgh:    (3/2)
 Rules Text:     Whenever Murasa Pyromancer or another Ally enters the battlefield under your control, you may have Murasa Pyromancer deal damage to target creature equal to the number of Allies you control.
 Set/Rarity:     Zendikar Uncommon
 
+Name:   Murder
+Cost:   1BB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target creature.
+Set/Rarity:     Magic 2013 Common
+
 Name:   Murder of Crows
 Cost:   3UU
 Type:   Creature — Bird
@@ -5449,7 +5507,7 @@ Cost:   2BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     All creatures get -1/-1 until end of turn for each Swamp you control.
-Set/Rarity:     Duel Decks: Garruk vs. Liliana Rare, Torment Rare
+Set/Rarity:     Magic 2013 Rare, Duel Decks: Garruk vs. Liliana Rare, Torment Rare
 
 Name:   Muzzle
 Cost:   1W
@@ -5465,6 +5523,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy target land. Search your library for a Forest card and put that card onto the battlefield tapped. Then shuffle your library.
 Set/Rarity:     Time Spiral Common
+
+Name:   Mwonvuli Beast Tracker
+Cost:   1GG
+Type:   Creature — Human Scout
+Pow/Tgh:    (2/1)
+Rules Text:     When Mwonvuli Beast Tracker enters the battlefield, search your library for a creature card with deathtouch, hexproof, reach, or trample and reveal it. Shuffle your library and put that card on top of it.
+Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Mwonvuli Ooze
 Cost:   G
@@ -5496,7 +5561,7 @@ Type:   Creature — Fungus
 Pow/Tgh:    (4/4)
 Rules Text:     Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 At the beginning of your upkeep, put a 1/1 green Saproling creature token onto the battlefield for each +1/+1 counter on Mycoloth.
-Set/Rarity:     Shards of Alara Rare
+Set/Rarity:     Planechase 2012 Edition Rare, Shards of Alara Rare
 
 Name:   Mycosynth Fiend
 Cost:   2G
