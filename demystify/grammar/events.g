@@ -40,6 +40,7 @@ trigger : subset_list
 event : zone_transfer
       | phases_in_out
       | state_change
+      | cost_paid
       ;
 
 /* Events. */
@@ -71,6 +72,10 @@ state_change : BECOME ( BLOCKED BY subset
              | BLOCK subset? -> ^( BECOME BLOCKING subset? )
              | IS TURNED status -> ^( BECOME[] status )
              ;
+
+cost_paid : POSS cost_prop IS PAID -> ^( PAID[] cost_prop )
+          | PAY ( A | subset POSS ) cost_prop -> ^( PAY[] cost_prop subset )
+          ;
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will

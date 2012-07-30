@@ -72,3 +72,13 @@
 @(EVENT (SUBSET SELF)
         (OR (BECOME ATTACKING (SUBSET (PLAYER_GROUP (NUMBER 1) player)))
             (BECOME BLOCKING (SUBSET (NUMBER 1) (PROPERTIES creature)))))
+
+@ShahOfNaarIsle
+@trigger
+@SELF's echo cost is paid
+@(EVENT (SUBSET SELF) (PAID (COST echo)))
+
+@HiberationsEnd
+@trigger
+@you pay SELF's cumulative upkeep
+@(EVENT (SUBSET you) (PAY (COST cumulative upkeep) (SUBSET SELF)))

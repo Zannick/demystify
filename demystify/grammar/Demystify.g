@@ -36,22 +36,17 @@ import Words, events, keywords, costs, subsets, math, properties, counters, zone
 tokens {
     ADD_COUNTERS;
     ATTACHED_TO;
-    AURA_SWAP;
-    BANDS_WITH_OTHER;
     CMC;
     CONDITION;
     COUNTER_GROUP;
     COUNTER_SET;
-    DOUBLE_STRIKE;
     EVENT;
-    FIRST_STRIKE;
     GEQ;
     GT;
     HAS_COUNTERS;
     INT;
     KEYWORDS;
     LEQ;
-    LEVEL_UP;
     LT;
     MAX;
     MULT;
