@@ -1511,17 +1511,21 @@ def _get_collision(s, force_token=False):
     t = None
     if s[-2:] == "'s":
         t = _check_collision(s[:-2])
-    elif s[-2:] == "s'":
-        t = _check_collision(s[:-2]) or _check_collision(s[:-1])
-    if t:
-        return [t, 'POSS']
-    else:
-        t = _check_collision(s)
         if t:
-            return [t]
-        elif force_token:
-            all_words[s] = make_token_name(s)
-            return [all_words[s]]
+            return [t, 'POSS']
+    elif s[-2:] == "s'":
+        t = _check_collision(s[:-2])
+        if t:
+            return [t, 'POSS']
+        t = _check_collision(s[:-1])
+        if t:
+            return [t, 'SQUOTE']
+    t = _check_collision(s)
+    if t:
+        return [t]
+    elif force_token:
+        all_words[s] = make_token_name(s)
+        return [all_words[s]]
 
 collisions = set()
 partial_collisions = {}
