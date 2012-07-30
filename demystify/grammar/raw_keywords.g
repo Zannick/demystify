@@ -37,43 +37,43 @@ raw_keyword : raw_keyword_no_args
             | SPLICE
             ;
 
-raw_keywords_with_no_args : raw_keyword_no_args
-                          | VANISHING
-                          ;
+raw_keyword_with_no_args : raw_keyword_no_args
+                         | VANISHING
+                         ;
 
-raw_keywords_with_cost : raw_keyword_cost
-                       | raw_keyword_int_cost
-                       | KICKER
-                       | SPLICE
-                       ;
+raw_keyword_with_cost : raw_keyword_cost
+                      | raw_keyword_int_cost
+                      | KICKER
+                      | SPLICE
+                      ;
 
 // TODO: the values of this can be referred to as "points of keyword",
 // eg. "for each point of bushido it has"
-raw_keywords_with_int : raw_keyword_int
-                      | raw_keyword_int_cost
-                      ;
+raw_keyword_with_int : raw_keyword_int
+                     | raw_keyword_int_cost
+                     ;
 
 // This happens to include things that use more specialized quality args.
-raw_keywords_with_quality : raw_keyword_quality
-                          | ENCHANT
-                          | PROTECTION
-                          | AFFINITY
-                          | CHAMPION
-                          | LANDWALK
-                          | SPLICE
-                          ;
+raw_keyword_with_quality : raw_keyword_quality
+                         | ENCHANT
+                         | PROTECTION
+                         | AFFINITY
+                         | CHAMPION
+                         | LANDWALK
+                         | SPLICE
+                         ;
 
 // The lists of raw_keyword_(.*) below are for the generic keyword rules
 // keyword_\1 in keywords.g. Each keyword should appear in at most one of
 // these lists. For keywords that have a particular type of argument, use
-// the raw_keywords_with_\1 rules above.
+// the raw_keyword_with_\1 rules above.
 
 // core first, then expert.
 raw_keyword_no_args : DEATHTOUCH
                     | DEFENDER
-                      // Separate tokens for first and double strike.
-                    | DOUBLE STRIKE -> DOUBLE_STRIKE[]
-                    | FIRST STRIKE -> FIRST_STRIKE[]
+                      // Some keywords e.g. double strike use macro rules.
+                    | double_strike
+                    | first_strike
                     | FLASH
                     | FLYING
                     | HASTE
@@ -117,8 +117,7 @@ raw_keyword_no_args : DEATHTOUCH
                     ;
 
 raw_keyword_cost : EQUIP
-                   // Separate tokens for aura swap.
-                 | AURA SWAP -> AURA_SWAP[]
+                 | aura_swap
                  | BUYBACK
                  | CUMULATIVE_UPKEEP
                  | CYCLING
@@ -127,8 +126,7 @@ raw_keyword_cost : EQUIP
                  | EVOKE
                  | FLASHBACK
                  | FORTIFY
-                   // Separate tokens for level up.
-                 | LEVEL UP -> LEVEL_UP[]
+                 | level_up
                  | MADNESS
                  | MIRACLE
                  | MORPH
@@ -164,6 +162,5 @@ raw_keyword_int_cost : REINFORCE
                      | SUSPEND
                      ;
 
-// Separate tokens for bands with other.
-raw_keyword_quality : BAND WITH OTHER -> BANDS_WITH_OTHER[]
+raw_keyword_quality : bands_with_other
                     ;

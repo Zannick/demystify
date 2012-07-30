@@ -216,6 +216,9 @@ _actions = [
             ("RESTARTING", "restarting")),
     Verb(   ("RETURN", "return", "returns"),
             ("RETURNED", "returned")),
+    Verb(   ("ROLL", "roll", "rolls"),
+            ("ROLLED", "rolled"),
+            ("ROLLING", "rolling")),
     Verb(   ("SELECT", "select", "selects"),
             ("SELECTED", "selected")),
     Verb(   ("SEPARATE", "separate", "separates"),
@@ -422,10 +425,7 @@ _abilities = [
     # core
     Keyword(("DEATHTOUCH", "deathtouch")),
     Keyword(("DEFENDER", "defender")),
-    # Double strike, first strike
-    Keyword(("DOUBLE", "double")),
-    Keyword(("FIRST", "first")),
-    Keyword(("STRIKE", "strike")),
+    Keyword(("DOUBLE_STRIKE", "double strike")),
     # We use Verbs to describe keywords that can be used like actions
     # though they aren't officially keyword actions.
     # This allows us to define words like "kicked" here with the
@@ -436,6 +436,7 @@ _abilities = [
     Verb(   ("EQUIP", "equip", "equips"),
             ("EQUIPPED", "equipped"),
             ("EQUIPPING", "equipping")),
+    Keyword(("FIRST_STRIKE", "first strike")),
     Keyword(("FLASH", "flash")),
     Keyword(("FLYING", "flying")),
     Keyword(("HASTE", "haste")),
@@ -460,8 +461,7 @@ _abilities = [
     Verb(   ("AMPLIFY", "amplify", "amplifies"),
             ("AMPLIFIED", "amplified")),
     Keyword(("ANNIHILATOR", "annihilator")),
-    # Aura swap
-    Keyword(("AURA", "aura")),
+    Keyword(("AURA_SWAP", "aura swap")),
     Verb(   ("SWAP", "swap", "swaps"),
             ("SWAPPED", "swapped")),
     Keyword(("BATTLE_CRY", "battle cry")),
@@ -508,8 +508,7 @@ _abilities = [
     Keyword(("KICKER", "kicker")),
     Verb(   ("KICK", "kick", "kicks"),
             ("KICKED", "kicked")),
-    # Level up
-    Keyword(("LEVEL", "level")),
+    Keyword(("LEVEL_UP", "level up")),
     Keyword(("LIVING_WEAPON", "living weapon")),
     Keyword(("MADNESS", "madness")),
     Keyword(("MIRACLE", "miracle")),
@@ -562,6 +561,7 @@ _abilities = [
     Verb(   ("BAND", "band", "bands"),
             ("BANDED", "banded"),
             ("BANDING", "banding")),
+    Keyword(("BANDS_WITH_OTHER", "bands with other")),
     Keyword(("FEAR", "fear")),
 ]
 for ability in _abilities:
@@ -573,7 +573,7 @@ _ability_words = [
     Keyword(("CHANNEL", "channel")),
     Keyword(("CHROMA", "chroma")),
     Keyword(("DOMAIN", "domain")),
-    Keyword(("FATEFUL HOUR", "fateful hour")),
+    Keyword(("FATEFUL_HOUR", "fateful hour")),
     Keyword(("GRANDEUR", "grandeur")),
     Keyword(("HELLBENT", "hellbent")),
     Keyword(("IMPRINT", "imprint")),
@@ -643,6 +643,7 @@ _types = [
     # Other Types
     Noun("COMMANDER", "commander", "commanders"),
     Noun("EMBLEM", "emblem", "emblems"),
+    Noun("PHENOMENON", "phenomenon", "phenomena"),
     Noun("PLANE", "plane", "planes"),
     Noun("SCHEME", "scheme", "schemes"),
     Noun("VANGUARD", "vanguard", "vanguards"),
@@ -941,32 +942,47 @@ _creature_types = [
 _plane_types = [
     Keyword(("ALARA", "alara")),
     Keyword(("ARKHOS", "arkhos")),
+    Keyword(("AZGOL", "azgol")),
+    Keyword(("BELENON", "belenon")),
     Keyword(("BOLASS_MEDITATION_REALM", "bolas's meditation realm")),
     Keyword(("DOMINARIA", "dominaria")),
     Keyword(("EQUILOR", "equilor")),
+    Keyword(("ERGAMON", "ergamon")),
+    Keyword(("FABACIN", "fabacin")),
+    Keyword(("INNISTRAD", "innistrad")),
     Keyword(("IQUATANA", "iquatana")),
     Keyword(("IR", "ir")),
     Keyword(("KALDHEIM", "kaldheim")),
     Keyword(("KAMIGAWA", "kamigawa")),
     Keyword(("KARSUS", "karsus")),
+    Keyword(("KEPHALAI", "kephalai")),
+    Keyword(("KINSHALA", "kinshala")),
+    Keyword(("KOLBAHAN", "kolbahan")),
+    Keyword(("KYNETH", "kyneth")),
     Keyword(("LORWYN", "lorwyn")),
     Keyword(("LUVION", "luvion")),
     Keyword(("MERCADIA", "mercadia")),
     Keyword(("MIRRODIN", "mirrodin")),
     Keyword(("MOAG", "moag")),
+    Keyword(("MONGSENG", "mongseng")),
     Keyword(("MURAGANDA", "muraganda")),
+    # New Phyrexia
+    Keyword(("NEW_PHYREXIA", "new phyrexia")),
     Keyword(("PHYREXIA", "phyrexia")),
     Keyword(("PYRULEA", "pyrulea")),
     Keyword(("RABIAH", "rabiah")),
     Keyword(("RATH", "rath")),
     Keyword(("RAVNICA", "ravnica")),
+    Keyword(("REGATHA", "regatha")),
     Keyword(("SEGOVIA", "segovia")),
     Keyword(("SERRAS_REALM", "serra's realm")),
     Keyword(("SHADOWMOOR", "shadowmoor")),
     Keyword(("SHANDALAR", "shandalar")),
     Keyword(("ULGROTHA", "ulgrotha")),
     Keyword(("VALLA", "valla")),
+    Keyword(("VRYN", "vryn")),
     Keyword(("WILDFIRE", "wildfire")),
+    Keyword(("XEREX", "xerex")),
     Keyword(("ZENDIKAR", "zendikar")),
 ]
 
@@ -1036,6 +1052,7 @@ counter_types = [
     "pain",
     "paralyzation",
     "petal",
+    "petrification",
     "phylactery",
     "pin",
     "plague",
@@ -1302,6 +1319,8 @@ _concepts = [
     Keyword(("TAILS", "tails")),
     Keyword(("RANDOM", "random")),
     Keyword(("WRONG", "wrong")),
+    # The planar die
+    Keyword(("PLANAR_DIE", "planar die")),
 
     # Special bidding
     Keyword(("BROKEN", "broken")),
@@ -1462,14 +1481,81 @@ for d in (actions, abilities, types, zones,
     all_words.update(d)
 
 _macroables = {
-    'ABILITY_WORD'     : set(ability_words),
-    'NUMBER_WORD'      : set(number_words),
-    'OBJ_COUNTER'      : set(counter_types),
-    'OBJ_SUBTYPE'      : set(subtypes),
-    'ORDINAL_WORD'     : set(ordinals),
+    'ABILITY_WORD'  : set(ability_words),
+    'NUMBER_WORD'   : set(number_words),
+    'OBJ_COUNTER'   : set(counter_types),
+    'OBJ_SUBTYPE'   : set(subtypes),
+    'ORDINAL_WORD'  : set(ordinals),
 }
+macro_words = set()
+for mwords in _macroables.values():
+    macro_words.update(mwords)
+
+def make_token_name(s):
+    return s.replace("'", '').replace(' ', '_').upper()
+
+def _check_collision(w):
+    """ If w is in all_words or macro_words, return a token for it
+        and put it in all_words if it's not there already. """
+    if w in all_words:
+        return all_words[w]
+    elif w in macro_words:
+        all_words[w] = make_token_name(w)
+        return all_words[w]
+
+def _get_collision(s, force_token=False):
+    """ Check whether s collides with an existing token followed by POSS,
+        or simply an existing token. If so, return a list of that token
+        (and POSS if applicable). If not, and force_token is True,
+        create a token and return that. """
+    t = None
+    if s[-2:] == "'s":
+        t = _check_collision(s[:-2])
+    elif s[-2:] == "s'":
+        t = _check_collision(s[:-2]) or _check_collision(s[:-1])
+    if t:
+        return [t, 'POSS']
+    else:
+        t = _check_collision(s)
+        if t:
+            return [t]
+        elif force_token:
+            all_words[s] = make_token_name(s)
+            return [all_words[s]]
 
 collisions = set()
+partial_collisions = {}
+
+def get_partial_collisions(s):
+    """ If s is multi-word and the first word collides with another token,
+        returns a list of tokens to be used as a macro rule to match s. """
+    if ' ' in s:
+        words = s.split(' ')
+        pt = _get_collision(words[0])
+        if pt:
+            for w in words[1:]:
+                # Make all remaining words tokens at the all_words level.
+                wt = _get_collision(w, force_token=True)
+                pt.extend(wt)
+            return pt
+
+# Find partial collisions within nonmacroable tokens.
+# A partial collision would be eg. "first strike" and "first".
+for s, t in all_words.items():
+    pt = get_partial_collisions(s)
+    if pt:
+        if t not in partial_collisions:
+            partial_collisions[t] = {s: pt}
+        else:
+            partial_collisions[t][s] = pt
+
+for t, mwords in _macroables.items():
+    partial_collisions[t] = {}
+    for s in mwords:
+        pt = get_partial_collisions(s)
+        if pt:
+            partial_collisions[t][s] = pt
+
 _msets = [set(all_words)] + list(_macroables.values())
 for i, m in enumerate(_msets):
     for n in _msets[i+1:]:
@@ -1477,15 +1563,37 @@ for i, m in enumerate(_msets):
 
 # All colliding rules must have their own tokens
 for c in collisions:
-    all_words[c] = c.upper()
+    all_words[c] = make_token_name(c)
 
 macro_rules = {}
+replaced = {}
+
+for t, spt in partial_collisions.items():
+    opt = []
+    for s, pt in sorted(spt.items()):
+        ft = make_token_name(s)
+        replaced[s] = ft
+        opt.append('{} -> {}'.format(' '.join(pt), ft))
+        if s in all_words:
+            del all_words[s]
+    tr = t.lower()
+    if tr in macro_rules:
+        macro_rules[tr].extend(opt)
+    else:
+        macro_rules[tr] = opt
+
 for a, b in _macroables.items():
-    # Everything in b that collided goes in the macro rule
-    col_tokens = [all_words[j] for j in (b & collisions)]
-    macro_rules[a.lower()] = [a] + sorted(col_tokens)
-# everything in b that didn't collide goes in the macro token def
-macro_tokens = dict((a, b - collisions) for a, b in _macroables.items())
+    # Everything in b that collided (but not partially) goes in the macro rule
+    col_tokens = [all_words[j] for j in ((b & collisions) - set(replaced))]
+    at = a.lower()
+    if at in macro_rules:
+        macro_rules[at] = [a] + sorted(col_tokens) + macro_rules[at]
+    else:
+        macro_rules[at] = [a] + sorted(col_tokens)
+
+# everything in b that didn't collide (at all) goes in the macro token def
+macro_tokens = dict((a, b - collisions - set(replaced))
+                    for a, b in _macroables.items())
 
 def _get_filename(grammar):
     import os
@@ -1540,13 +1648,14 @@ def write_parser():
             # options pre-sorted appropriately
             f.write(_format_rule(rule, options))
     print('Generated {} macro rules, including {} token collisions.'
-          .format(len(macro_rules), len(collisions)))
+          .format(len(macro_rules), len(collisions) + len(replaced)))
 
 def write_lexer():
     grammar = 'Words'
     desc = 'Keywords and misc text.'
     filename = _get_filename(grammar)
-    all_tokens = set(all_words.values()) | set(macro_tokens)
+    all_tokens = (set(all_words.values()) | set(macro_tokens)
+                  | set(replaced.values()))
     # token -> (text, substitute token) list
     match_cases = {}
     for text, token in all_words.items():

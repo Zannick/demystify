@@ -102,7 +102,7 @@ keyword_int : raw_keyword_int^ keyword_arg_int ;
 
 keyword_cost : raw_keyword_cost^ keyword_arg_cost ;
 
-keyword_no_args : raw_keywords_with_no_args ;
+keyword_no_args : raw_keyword_with_no_args ;
 
 keyword_int_cost : raw_keyword_int_cost^ keyword_arg_int
                    MDASH! keyword_arg_cost ;

@@ -93,10 +93,12 @@ tokens {
     ATTACKERS;
     ATTACKING;
     AURA;
+    AURA_SWAP;
     BACK;
     BAND;
     BANDED;
     BANDING;
+    BANDS_WITH_OTHER;
     BASIC;
     BATTLEFIELD;
     BATTLE_CRY;
@@ -122,6 +124,8 @@ tokens {
     BLOCKING;
     BLOODTHIRST;
     BLUE;
+    BOLAS;
+    BOLASS_MEDITATION_REALM;
     BOTH;
     BOTTOM;
     BROKEN;
@@ -235,6 +239,7 @@ tokens {
     DONT;
     DOUBLE;
     DOUBLED;
+    DOUBLE_STRIKE;
     DOWN;
     DRAW;
     DRAWN;
@@ -297,6 +302,7 @@ tokens {
     FINISH;
     FINISHED;
     FIRST;
+    FIRST_STRIKE;
     FLANKING;
     FLASH;
     FLASHBACK;
@@ -396,6 +402,7 @@ tokens {
     LESSER;
     LETHAL;
     LEVEL;
+    LEVEL_UP;
     LIBRARY;
     LIFE;
     LIFELINK;
@@ -422,6 +429,7 @@ tokens {
     MARKED;
     MAXIMUM;
     MAY;
+    MEDITATION;
     MINE;
     MINIMUM;
     MINUS;
@@ -442,6 +450,7 @@ tokens {
     NAME;
     NAMED;
     NEW;
+    NEW_PHYREXIA;
     NEXT;
     NINJUTSU;
     NO;
@@ -494,9 +503,12 @@ tokens {
     PHASED;
     PHASED_OUT;
     PHASING;
+    PHENOMENON;
+    PHYREXIA;
     PILE;
     PLACE;
     PLACED;
+    PLANAR_DIE;
     PLANE;
     PLANESWALK;
     PLANESWALKED;
@@ -535,6 +547,7 @@ tokens {
     RANDOM;
     RATHER;
     REACH;
+    REALM;
     REBOUND;
     RECENT;
     RECENTLY;
@@ -586,6 +599,9 @@ tokens {
     REVEALING;
     RIGHT;
     RIPPLE;
+    ROLL;
+    ROLLED;
+    ROLLING;
     ROUND;
     ROUNDED;
     SACRIFICE;
@@ -856,7 +872,8 @@ NUMBER_WORD : 'seventeen'
             | 'six'
             | 'ten'
             | 'two';
-OBJ_COUNTER : 'intervention'
+OBJ_COUNTER : 'petrification'
+            | 'intervention'
             | 'paralyzation'
             | 'phylactery'
             | 'arrowhead'
@@ -947,8 +964,7 @@ OBJ_COUNTER : 'intervention'
             | 'ore'
             | 'pin'
             | 'ki';
-OBJ_SUBTYPE : 'bolas\'s meditation realm'
-            | 'assembly-workers'
+OBJ_SUBTYPE : 'assembly-workers'
             | 'assembly-worker'
             | 'fortifications'
             | 'fortification'
@@ -1028,6 +1044,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'graveborn'
             | 'homunculi'
             | 'illusions'
+            | 'innistrad'
             | 'jellyfish'
             | 'leviathan'
             | 'lhurgoyfu'
@@ -1079,17 +1096,20 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'iquatana'
             | 'kaldheim'
             | 'kamigawa'
+            | 'kephalai'
+            | 'kinshala'
             | 'kithkins'
+            | 'kolbahan'
             | 'lhurgoyf'
             | 'mercadia'
             | 'minotaur'
             | 'mirrodin'
             | 'mongoose'
+            | 'mongseng'
             | 'moonfolk'
             | 'mountain'
             | 'nautilus'
             | 'nephilim'
-            | 'phyrexia'
             | 'pinchers'
             | 'praetors'
             | 'scorpion'
@@ -1122,6 +1142,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'avatars'
             | 'badgers'
             | 'beebles'
+            | 'belenon'
             | 'bringer'
             | 'camarid'
             | 'caribou'
@@ -1141,6 +1162,8 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'eldrazi'
             | 'elspeth'
             | 'equilor'
+            | 'ergamon'
+            | 'fabacin'
             | 'faeries'
             | 'ferrets'
             | 'forests'
@@ -1177,6 +1200,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'pyrulea'
             | 'rabbits'
             | 'ravnica'
+            | 'regatha'
             | 'riggers'
             | 'samurai'
             | 'sarkhan'
@@ -1252,6 +1276,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'knight'
             | 'kobold'
             | 'kraken'
+            | 'kyneth'
             | 'licids'
             | 'lizard'
             | 'lorwyn'
@@ -1314,11 +1339,11 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'angel'
             | 'atogs'
             | 'auras'
+            | 'azgol'
             | 'bears'
             | 'beast'
             | 'birds'
             | 'boars'
-            | 'bolas'
             | 'camel'
             | 'crabs'
             | 'curse'
@@ -1390,6 +1415,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'whale'
             | 'worms'
             | 'wurms'
+            | 'xerex'
             | 'ally'
             | 'apes'
             | 'atog'
@@ -1429,6 +1455,7 @@ OBJ_SUBTYPE : 'bolas\'s meditation realm'
             | 'sand'
             | 'serf'
             | 'slug'
+            | 'vryn'
             | 'wall'
             | 'wolf'
             | 'worm'
@@ -1485,7 +1512,11 @@ EXCHANGING : 'exchanging';
 FATESEALED : 'fatesealed';
 GRAVESTORM : 'gravestorm';
 INTIMIDATE : 'intimidate';
+MEDITATION : 'meditation';
 PHASED_OUT : 'phased-out';
+PHENOMENON : 'phenomenon'
+           | 'phenomena';
+PLANAR_DIE : 'planar die';
 PLANESWALK : 'planeswalks'
            | 'planeswalk';
 POSTCOMBAT : 'postcombat';
@@ -1643,6 +1674,7 @@ OFFERING : 'offering';
 OPPONENT : 'opponents'
          | 'opponent';
 ORIGINAL : 'original';
+PHYREXIA : 'phyrexia';
 POISONED : 'poisoned';
 PRODUCED : 'produced';
 PROVOKED : 'provoked';
@@ -1786,6 +1818,7 @@ RESOLVE : 'resolves'
 RESTART : 'restarts'
         | 'restart';
 RETRACE : 'retrace';
+ROLLING : 'rolling';
 ROUNDED : 'rounded';
 SCRYING : 'scrying';
 SHORTER : 'shorter';
@@ -1930,6 +1963,7 @@ RETURN : 'returns'
 REVEAL : 'reveals'
        | 'reveal';
 RIPPLE : 'ripple';
+ROLLED : 'rolled';
 SCHEME : 'schemes'
        | 'scheme';
 SCRIED : 'scried';
@@ -1982,6 +2016,7 @@ BELOW : 'below';
 BLACK : 'black';
 BLOCK : 'blocks'
       | 'block';
+BOLAS : 'bolas';
 CAUSE : 'causes'
       | 'cause';
 CHOSE : 'chose';
@@ -2062,6 +2097,7 @@ POINT : 'point';
 POWER : 'power';
 PROWL : 'prowl';
 REACH : 'reach';
+REALM : 'realm';
 RIGHT : 'right';
 ROUND : 'rounds'
       | 'round';
@@ -2219,6 +2255,8 @@ PLUS : 'plus';
 POOL : 'pools'
      | 'pool';
 REST : 'rest';
+ROLL : 'rolls'
+     | 'roll';
 SAME : 'same';
 SCRY : 'scries'
      | 'scry';
