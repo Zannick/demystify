@@ -82,3 +82,13 @@
 @trigger
 @you pay SELF's cumulative upkeep
 @(EVENT (SUBSET you) (PAY (COST cumulative upkeep) (SUBSET SELF)))
+
+@ControlNoLands
+@trigger
+@you control no lands
+@(CONDITION (SUBSET YOU) (CONTROL (SUBSET (NUMBER 0) (PROPERTIES lands))))
+
+@EnoughPower
+@trigger
+@SELF's power is 7 or greater
+@(CONDITION (SUBSET SELF) (VALUE POWER (NUMBER (GEQ 7))))

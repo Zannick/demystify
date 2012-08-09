@@ -73,8 +73,12 @@ state_change : BECOME ( BLOCKED BY subset
              | IS TURNED status -> ^( BECOME[] status )
              ;
 
-cost_paid : POSS cost_prop IS PAID -> ^( PAID[] cost_prop )
-          | PAY ( A | subset POSS ) cost_prop -> ^( PAY[] cost_prop subset )
+cost_paid : POSS cost_prop IS NOT? PAID
+            -> {$NOT}? ^( NOT ^( PAID[] cost_prop ) )
+            -> ^( PAID[] cost_prop )
+          | DONT? PAY ( A | subset POSS ) cost_prop
+            -> {$DONT}? ^( NOT ^( PAY[] cost_prop subset? ) )
+            -> ^( PAY[] cost_prop subset? )
           ;
 
 // A condition is a true-or-false statement about the game state. These
@@ -86,8 +90,15 @@ cost_paid : POSS cost_prop IS PAID -> ^( PAID[] cost_prop )
 
 condition : has_ability
           | HAS! has_counters
+          | int_prop_is
+          | control_stuff
           ;
 
 /* Conditions. */
 
 has_ability : HAS raw_keyword -> ^( HAS[] raw_keyword );
+
+int_prop_is : POSS int_prop IS magic_number
+              -> ^( VALUE int_prop magic_number );
+
+control_stuff : CONTROL subset -> ^( CONTROL[] subset );

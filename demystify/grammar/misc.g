@@ -34,7 +34,8 @@ number : integer
              | -> ^( NUMBER[] NUMBER[$ANY, "1"] )
              )
        | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] )
-       | NO -> ^( NUMBER NUMBER[$NO, "0"] );
+       | NO -> ^( NUMBER NUMBER[$NO, "0"] )
+       ;
 
 /* Not sure whether this should go in integer, or number, or somewhere else.
    Most references to "no more than" or "more than" are setting a maximum
