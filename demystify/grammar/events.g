@@ -41,6 +41,8 @@ event : zone_transfer
       | phases_in_out
       | state_change
       | cost_paid
+      | cast_spell
+      | deal_damage
       ;
 
 /* Events. */
@@ -80,6 +82,12 @@ cost_paid : POSS cost_prop IS NOT? PAID
             -> {$DONT}? ^( NOT ^( PAY[] cost_prop subset? ) )
             -> ^( PAY[] cost_prop subset? )
           ;
+
+cast_spell : CAST subset -> ^( CAST[] subset )
+           ;
+
+deal_damage : DEAL COMBAT? DAMAGE ( TO subset )?
+              -> ^( DAMAGE[] COMBAT[]? subset? );
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will
