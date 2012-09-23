@@ -28,13 +28,19 @@ player_group : player_poss ( OPPONENT | TEAMMATE )
                -> ^( PLAYER_GROUP player_poss OPPONENT? TEAMMATE? )
              | number player_base -> ^( PLAYER_GROUP number player_base )
              | THAT player_base -> ^( PLAYER_GROUP THAT player_base )
-             | player_base -> ^( PLAYER_GROUP player_base )
+             | ENCHANTED? player_base
+               -> ^( PLAYER_GROUP ENCHANTED? player_base )
              | YOU
              ;
 
 player_poss : YOUR -> ^( POSS YOU )
             | ( number | THAT )? player_base poss
               -> ^( POSS ^( PLAYER_GROUP number? THAT? player_base ) )
+            | ref_player_poss
             ;
+
+ref_player_poss : HIS OR HER -> THEIR
+                | THEIR -> THEIR[]
+                ;
 
 player_base : OPPONENT | TEAMMATE | PLAYER ;

@@ -214,10 +214,13 @@ ref_object : SELF
              // nouns were here, but keep them in for now.
            | ( ENCHANTED | EQUIPPED | FORTIFIED ) noun+
            | this_guy
+           | that_guy
            ;
 
 // eg. this creature, this permanent, this spell.
 this_guy : THIS ( type | obj_type ) -> SELF;
+
+that_guy : THAT^ ( type | obj_type );
 
 /* Property names. */
 

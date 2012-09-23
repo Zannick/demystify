@@ -42,7 +42,15 @@ event : zone_transfer
       | state_change
       | cost_paid
       | cast_spell
+      | cycle_card
       | deal_damage
+      | dealt_damage
+      | discard_card
+      | draw_card
+      | gain_life
+      | lose_life
+      | tap_stuff
+      | is_tapped
       ;
 
 /* Events. */
@@ -66,12 +74,12 @@ state_change : BECOME ( BLOCKED BY subset
                       | UNATTACHED FROM subset
                         -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
                       )
-             | ATTACK ( (pl_subset)=> pl_subset )?
+             | ATTACK ( (pl_subset)=> pl_subset | ALONE )?
                ( AND ( ISNT | ARENT ) BLOCKED
-                 -> ^( BECOME UNBLOCKED pl_subset? )
-               | -> ^( BECOME ATTACKING pl_subset? )
+                 -> ^( BECOME UNBLOCKED ALONE? pl_subset? )
+               | -> ^( BECOME ATTACKING ALONE? pl_subset? )
                )
-             | BLOCK subset? -> ^( BECOME BLOCKING subset? )
+             | BLOCK ( subset | ALONE )? -> ^( BECOME BLOCKING ALONE? subset? )
              | IS TURNED status -> ^( BECOME[] status )
              ;
 
@@ -83,11 +91,30 @@ cost_paid : POSS cost_prop IS NOT? PAID
             -> ^( PAY[] cost_prop subset? )
           ;
 
-cast_spell : CAST subset -> ^( CAST[] subset )
-           ;
+// TODO: Collect alike verbs together into one rule?
+cast_spell : CAST^ subset ;
+
+cycle_card : CYCLE^ subset ;
 
 deal_damage : DEAL COMBAT? DAMAGE ( TO subset )?
               -> ^( DAMAGE[] COMBAT[]? subset? );
+
+dealt_damage : ( POSS | IS | ARE ) DEALT integer? COMBAT? DAMAGE ( BY subset )?
+               -> ^( DEALT[] integer? COMBAT? DAMAGE[] subset? );
+
+discard_card : DISCARD^ subset ;
+
+draw_card : DRAW^ A! CARD! ;
+
+gain_life : GAIN^ integer? LIFE ;
+
+lose_life : LOSE^ integer? LIFE ;
+
+tap_stuff : TAP subset ( FOR MANA )? -> ^( TAP[] subset MANA[]? );
+
+is_tapped : ( IS | ARE ) TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] )
+          | BECOME TAPPED -> ^( BECOME[] TAPPED )
+          ;
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will
@@ -97,6 +124,7 @@ deal_damage : DEAL COMBAT? DAMAGE ( TO subset )?
 // state (e.g. 'when SELF has flying, sacrifice it').
 
 condition : has_ability
+          | have_life
           | HAS! has_counters
           | int_prop_is
           | control_stuff
@@ -104,7 +132,9 @@ condition : has_ability
 
 /* Conditions. */
 
-has_ability : HAS raw_keyword -> ^( HAS[] raw_keyword );
+has_ability : ( HAS | HAVE ) raw_keyword -> ^( HAS[] raw_keyword );
+
+have_life : ( HAS | HAVE ) integer LIFE -> ^( VALUE LIFE[] integer );
 
 int_prop_is : POSS int_prop IS magic_number
               -> ^( VALUE int_prop magic_number );
