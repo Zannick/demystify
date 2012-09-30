@@ -451,6 +451,7 @@ tokens {
     MUST;
     NAME;
     NAMED;
+    NEITHER;
     NEW;
     NEW_PHYREXIA;
     NEXT;
@@ -458,6 +459,7 @@ tokens {
     NO;
     NON;
     NONE;
+    NOR;
     NOT;
     NOTE;
     NOTED;
@@ -1813,6 +1815,7 @@ MAXIMUM : 'maximum';
 MINIMUM : 'minimum';
 MIRACLE : 'miracle';
 MODULAR : 'modular';
+NEITHER : 'neither';
 ONGOING : 'ongoing';
 OPENING : 'opening';
 ORDERED : 'ordered';
@@ -2367,6 +2370,7 @@ MAY : 'may';
 NEW : 'new';
 NON : 'non-'
     | 'non';
+NOR : 'nor';
 NOT : 'not';
 ODD : 'odd';
 OUT : 'out';
