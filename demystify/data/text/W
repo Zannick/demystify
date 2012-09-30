@@ -1261,6 +1261,14 @@ Pow/Tgh:    (1/3)
 Rules Text:     Domain — Wayfaring Giant gets +1/+1 for each basic land type among lands you control.
 Set/Rarity:     Invasion Uncommon
 
+Name:   Wayfaring Temple
+Cost:   1GW
+Type:   Creature — Elemental
+Pow/Tgh:    (*/*)
+Rules Text:     Wayfaring Temple's power and toughness are each equal to the number of creatures you control.
+Whenever Wayfaring Temple deals combat damage to a player, populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Waylay
 Cost:   2W
 Type:   Instant
@@ -1383,7 +1391,7 @@ Type:   Creature — Faerie Wizard
 Pow/Tgh:    (1/3)
 Rules Text:     Flying
 Whenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until end of turn.
-Set/Rarity:     Guildpact Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Guildpact Common
 
 Name:   Weed Strangle
 Cost:   3BB
@@ -1665,7 +1673,7 @@ Cost:   U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Buyback {2} (You may pay an additional {2} as you cast this spell. If you do, put this card into your hand as it resolves.)
-Change the text of target permanent by replacing all instances of one color word or basic land type with another until end of turn. (For example, you may change "nonred creature" to "nongreen creature" or "plainswalk" to "swampwalk.")
+Change the text of target permanent by replacing all instances of one color word with another or one basic land type with another until end of turn. (For example, you may change "nonred creature" to "nongreen creature" or "plainswalk" to "swampwalk.")
 Set/Rarity:     Tempest Rare
 
 Name:   Whimwader
@@ -1998,6 +2006,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     Flying, first strike
 {W}{W}: Wild Aesthir gets +2/+0 until end of turn. Activate this ability only once each turn.
 Set/Rarity:     Masters Edition IV Common, Alliances Common, Alliances Common
+
+Name:   Wild Beastmaster
+Cost:   2G
+Type:   Creature — Human Shaman
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever Wild Beastmaster attacks, each other creature you control gets +X/+X until end of turn, where X is Wild Beastmaster's power.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Wild Cantor
 Cost:   (R/G)
@@ -2376,7 +2391,7 @@ Pow/Tgh:
 Rules Text:     Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
 {T}: Add {W} to your mana pool.
 {W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.
-Set/Rarity:     Lorwyn Rare
+Set/Rarity:     From the Vault: Realms Mythic Rare, Lorwyn Rare
 
 Name:   Windbrisk Raptor
 Cost:   5WW
@@ -3384,6 +3399,15 @@ Pow/Tgh:
 Rules Text:     Whenever equipped creature deals combat damage to a player, destroy all permanents other than Worldslayer.
 Equip {5} ({5}: Attach to target creature you control. Equip only as a sorcery.)
 Set/Rarity:     Magic 2012 Rare, Mirrodin Rare
+
+Name:   Worldspine Wurm
+Cost:   8GGG
+Type:   Creature — Wurm
+Pow/Tgh:    (15/15)
+Rules Text:     Trample
+When Worldspine Wurm dies, put three 5/5 green Wurm creature tokens with trample onto the battlefield.
+When Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner's library.
+Set/Rarity:     Return to Ravnica Mythic Rare
 
 Name:   Worm Harvest
 Cost:   2(B/G)(B/G)(B/G)

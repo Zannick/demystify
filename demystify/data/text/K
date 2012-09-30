@@ -757,6 +757,13 @@ Rules Text:     Flying
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Legions Common
 
+Name:   Keening Apparition
+Cost:   1W
+Type:   Creature — Spirit
+Pow/Tgh:    (2/2)
+Rules Text:     Sacrifice Keening Apparition: Destroy target enchantment.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Keening Banshee
 Cost:   2BB
 Type:   Creature — Spirit
@@ -1188,7 +1195,7 @@ Cost:   1R
 Type:   Creature — Elemental Beast
 Pow/Tgh:    (1/2)
 Rules Text:     Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.
-Set/Rarity:     Rise of the Eldrazi Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Rise of the Eldrazi Common
 
 Name:   Kiln Walker
 Cost:   3
@@ -1861,6 +1868,15 @@ Pow/Tgh:
 Rules Text:     Creatures you control have first strike.
 Set/Rarity:     Seventh Edition Uncommon, Urza's Legacy Uncommon
 
+Name:   Knightly Valor
+Cost:   4W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Knightly Valor enters the battlefield, put a 2/2 white Knight creature token with vigilance onto the battlefield.
+Enchanted creature gets +2/+2 and has vigilance.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Knights of Thorn
 Cost:   3W
 Type:   Creature — Human Knight
@@ -2168,6 +2184,22 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     All Swamps are 1/1 black creatures that are still lands.
 Set/Rarity:     Masters Edition IV Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+
+Name:   Korozda Guildmage
+Cost:   BG
+Type:   Creature — Elf Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     {1}{B}{G}: Target creature gets +1/+1 and gains intimidate until end of turn.
+{2}{B}{G}, Sacrifice a nontoken creature: Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the sacrificed creature's toughness.
+Set/Rarity:     Return to Ravnica Uncommon, Duel Decks: Izzet vs. Golgari Uncommon
+
+Name:   Korozda Monitor
+Cost:   2GG
+Type:   Creature — Lizard
+Pow/Tgh:    (3/3)
+Rules Text:     Trample
+Scavenge {5}{G}{G} ({5}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Koskun Falls
 Cost:   2BB

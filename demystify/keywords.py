@@ -308,9 +308,14 @@ _actions = [
             ("CLASHED", "clashed"),
             ("CLASHING", "clashing"),
             ("CLASH", "clash")),
+    Verb(   ("DETAIN", "detain", "detains"),
+            ("DETAINED", "detained")),
     Verb(   ("FATESEAL", "fateseal", "fateseals"),
             ("FATESEALED", "fatesealed"),
             ("FATESEALING", "fatesealing")),
+    Verb(   ("POPULATE", "populate", "populates"),
+            ("POPULATED", "populated"),
+            ("POPULATING", "populating")),
     Verb(   ("PROLIFERATE", "proliferate", "proliferates"),
             ("PROLIFERATED", "proliferated"),
             ("PROLIFERATING", "proliferating"),
@@ -517,6 +522,8 @@ _abilities = [
     Keyword(("MULTIKICKER", "multikicker")),
     Keyword(("NINJUTSU", "ninjutsu")),
     Keyword(("OFFERING", "offering")),
+    Verb(   ("OVERLOAD", "overload", "overloads"),
+            ("OVERLOADED", "OVERLOADED")),
     Keyword(("PERSIST", "persist")),
     # Phasing
     Verb(   ("PHASE", "phase", "phases"),
@@ -536,6 +543,8 @@ _abilities = [
             ("REPLICATED", "replicated")),
     Keyword(("RETRACE", "retrace")),
     Keyword(("RIPPLE", "ripple")),
+    Verb(   ("SCAVENGE", "scavenge", "scavenges"),
+            ("SCAVENGED", "scavenged")),
     Keyword(("SHADOW", "shadow")),
     Keyword(("SOULBOND", "soulbond")),
     Keyword(("SOULSHIFT", "soulshift")),
@@ -554,6 +563,8 @@ _abilities = [
     Keyword(("UNDYING", "undying")),
     Verb(   ("UNEARTH", "unearth", "unearths"),
             ("UNEARTHED", "unearthed")),
+    Verb(   ("UNLEASH", "unleash", "unleashes"),
+            ("UNLEASHED", "unleashed")),
     Keyword(("VANISHING", "vanishing")),
     Keyword(("WITHER", "wither")),
     # Dead
@@ -674,6 +685,7 @@ _enchantment_types = [
 _land_types = [
     Noun("DESERT", "desert", "deserts"),
     Noun("FOREST", "forest", "forests"),
+    Noun("GATE", "gate", "gates"),
     Noun("ISLAND", "island", "islands"),
     Noun("LAIR", "lair", "lairs"),
     Noun("LOCUS", "locus", "loci"),
@@ -704,6 +716,7 @@ _planeswalker_types = [
     Keyword(("TEZZERET", "tezzeret")),
     Keyword(("TIBALT", "tibalt")),
     Keyword(("VENSER", "venser")),
+    Keyword(("VRASKA", "vraska")),
 ]
 
 _spell_types = [
@@ -1018,6 +1031,7 @@ counter_types = [
     "fade",
     "fate",
     "feather",
+    "filibuster",
     "flood",
     "fungus",
     "fuse",

@@ -170,7 +170,7 @@ Cost:   3BB
 Type:   Creature — Human Minion
 Pow/Tgh:    (2/2)
 Rules Text:     Sacrifice a creature: Target player discards two cards. Activate this ability only any time you could cast a sorcery.
-Set/Rarity:     Odyssey Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Odyssey Uncommon
 
 Name:   Sadistic Sacrament
 Cost:   BBB
@@ -1020,6 +1020,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +2/+2 and has "{1}{G}: Regenerate this creature."
 Set/Rarity:     Zendikar Common
+
+Name:   Savage Surge
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +2/+2 until end of turn. Untap that creature.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Savage Thallid
 Cost:   3GG
@@ -2212,6 +2219,13 @@ Pow/Tgh:
 Rules Text:     Look at the top X cards of target opponent's library. Exile one of those cards and put the rest back on top of that player's library in any order.
 Set/Rarity:     Mirage Uncommon
 
+Name:   Search Warrant
+Cost:   WU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player reveals his or her hand. You gain life equal to the number of cards in that player's hand.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Search for Survivors
 Cost:   2R
 Type:   Sorcery
@@ -2226,6 +2240,14 @@ Pow/Tgh:
 Rules Text:     Search your library for a basic land card and put it onto the battlefield. Then shuffle your library.
 Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Set/Rarity:     Planechase Common, Time Spiral Common
+
+Name:   Search the City
+Cost:   4U
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     When Search the City enters the battlefield, exile the top five cards of your library.
+Whenever you play a card with the same name as one of the exiled cards, you may put one of those cards with that name into its owner's hand. Then if there are no cards exiled with Search the City, sacrifice it. If you do, take an extra turn after this one.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Searchlight Geist
 Cost:   2B
@@ -2441,6 +2463,15 @@ Pow/Tgh:
 Rules Text:     Whenever you cast a spell from your graveyard, draw a card.
 Set/Rarity:     Dark Ascension Uncommon
 
+Name:   Security Blockade
+Cost:   2W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+When Security Blockade enters the battlefield, put a 2/2 white Knight creature token with vigilance onto the battlefield.
+Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to you this turn."
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Security Detail
 Cost:   3W
 Type:   Enchantment
@@ -2540,7 +2571,7 @@ Name:   Seeds of Innocence
 Cost:   1GG
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Destroy all artifacts. They can't be regenerated. The controller of each artifact destroyed this way gains life equal to its converted mana cost.
+Rules Text:     Destroy all artifacts. They can't be regenerated. The controller of each of those artifacts gains life equal to its converted mana cost.
 Set/Rarity:     Mirage Rare
 
 Name:   Seeds of Strength
@@ -2565,7 +2596,7 @@ Cost:   3G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for up to three basic land cards, reveal them, and put them into your hand. Then shuffle your library.
-Set/Rarity:     Saviors of Kamigawa Uncommon
+Set/Rarity:     Return to Ravnica Uncommon, Saviors of Kamigawa Uncommon
 
 Name:   Seeker
 Cost:   2WW
@@ -2771,12 +2802,27 @@ Rules Text:     Flying
 Pay 2 life: Return Selenia, Dark Angel to its owner's hand.
 Set/Rarity:     Tempest Rare
 
+Name:   Selesnya Charm
+Cost:   GW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Target creature gets +2/+2 and gains trample until end of turn; or exile target creature with power 5 or greater; or put a 2/2 white Knight creature token with vigilance onto the battlefield.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Selesnya Evangel
 Cost:   GW
 Type:   Creature — Elf Shaman
 Pow/Tgh:    (1/2)
 Rules Text:     {1}, {T}, Tap an untapped creature you control: Put a 1/1 green Saproling creature token onto the battlefield.
 Set/Rarity:     Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
+
+Name:   Selesnya Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Selesnya Guildgate enters the battlefield tapped.
+{T}: Add {G} or {W} to your mana pool.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Selesnya Guildmage
 Cost:   (G/W)(G/W)
@@ -2785,6 +2831,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     {3}{G}: Put a 1/1 green Saproling creature token onto the battlefield.
 {3}{W}: Creatures you control get +1/+1 until end of turn.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Archenemy Uncommon, Ravnica: City of Guilds Uncommon
+
+Name:   Selesnya Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {G} or {W} to your mana pool.
+{G}{W}: Selesnya Keyrune becomes a 3/3 green and white Wolf artifact creature until end of turn.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Selesnya Sagittars
 Cost:   3GW
@@ -2802,6 +2856,13 @@ Rules Text:     Selesnya Sanctuary enters the battlefield tapped.
 When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {G}{W} to your mana pool.
 Set/Rarity:     Planechase 2012 Edition Common, Magic: The Gathering-Commander Common, Duel Decks: Knights vs. Dragons Common, Ravnica: City of Guilds Common
+
+Name:   Selesnya Sentry
+Cost:   2W
+Type:   Creature — Elephant Soldier
+Pow/Tgh:    (3/2)
+Rules Text:     {5}{G}: Regenerate Selesnya Sentry.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Selesnya Signet
 Cost:   2
@@ -2845,6 +2906,13 @@ Type:   Creature — Human Mercenary
 Pow/Tgh:    (2/2)
 Rules Text:     When Sell-Sword Brute dies, it deals 2 damage to you.
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Seller of Songbirds
+Cost:   2W
+Type:   Creature — Human
+Pow/Tgh:    (1/2)
+Rules Text:     When Seller of Songbirds enters the battlefield, put a 1/1 white Bird creature token with flying onto the battlefield.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Semblance Anvil
 Cost:   3
@@ -3373,6 +3441,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {B}, Pay 1 life: Sewer Rats gets +1/+0 until end of turn. Activate this ability no more than three times each turn.
 Set/Rarity:     Battle Royale Box Set Common, Mirage Common
 
+Name:   Sewer Shambler
+Cost:   2B
+Type:   Creature — Zombie
+Pow/Tgh:    (2/1)
+Rules Text:     Swampwalk (This creature is unblockable as long as defending player controls a Swamp.)
+Scavenge {2}{B} ({2}{B}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Sewerdreg
 Cost:   3BB
 Type:   Creature — Spirit
@@ -3587,7 +3663,7 @@ Type:   Creature — Plant Zombie
 Pow/Tgh:    (3/1)
 Rules Text:     Sacrifice Shambling Shell: Put a +1/+1 counter on target creature.
 Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Ravnica: City of Guilds Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Ravnica: City of Guilds Common
 
 Name:   Shambling Strider
 Cost:   4GG
@@ -4308,7 +4384,7 @@ Type:   Legendary Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {2}{R}, {T}: Shivan Gorge deals 1 damage to each opponent.
-Set/Rarity:     Urza's Saga Rare
+Set/Rarity:     From the Vault: Realms Mythic Rare, Urza's Saga Rare
 
 Name:   Shivan Harvest
 Cost:   1R
@@ -4536,7 +4612,7 @@ Rules Text:     Shrewd Hatchling enters the battlefield with four -1/-1 counters
 {(u/r)}: Target creature can't block Shrewd Hatchling this turn.
 Whenever you cast a blue spell, remove a -1/-1 counter from Shrewd Hatchling.
 Whenever you cast a red spell, remove a -1/-1 counter from Shrewd Hatchling.
-Set/Rarity:     Eventide Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Eventide Uncommon
 
 Name:   Shriek Raptor
 Cost:   3WW
@@ -4569,6 +4645,13 @@ Rules Text:     Shriekhorn enters the battlefield with three charge counters on 
 {T}, Remove a charge counter from Shriekhorn: Target player puts the top two cards of his or her library into his or her graveyard.
 Set/Rarity:     Mirrodin Besieged Common
 
+Name:   Shrieking Affliction
+Cost:   B
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, he or she loses 3 life.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Shrieking Drake
 Cost:   U
 Type:   Creature — Drake
@@ -4582,7 +4665,7 @@ Cost:   2W
 Type:   Creature — Gargoyle
 Pow/Tgh:    (2/1)
 Rules Text:     Flying
-When Shrieking Grotesque enters the battlefield, if {B} was spent to cast Shrieking Grotesque, target player discards a card.
+When Shrieking Grotesque enters the battlefield, if {B} was spent to cast it, target player discards a card.
 Set/Rarity:     Guildpact Common
 
 Name:   Shrieking Mogg
@@ -6012,6 +6095,13 @@ Rules Text:     Target player discards a card.
 Flashback {3}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Odyssey Uncommon
 
+Name:   Skull Rend
+Cost:   3BR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Skull Rend deals 2 damage to each opponent. Those players each discard two cards at random.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Skull of Orm
 Cost:   3
 Type:   Artifact
@@ -6217,6 +6307,22 @@ Type:   Creature — Human Knight
 Pow/Tgh:    (2/2)
 Rules Text:     Flying, haste
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Skyline Predator
+Cost:   4UU
+Type:   Creature — Drake
+Pow/Tgh:    (3/4)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Flying
+Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Skymark Roc
+Cost:   2WU
+Type:   Creature — Bird
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Whenever Skymark Roc attacks, you may return target creature defending player controls with toughness 2 or less to its owner's hand.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Skyreach Manta
 Cost:   5
@@ -6495,6 +6601,14 @@ Pow/Tgh:
 Rules Text:     Target creature gets +3/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)
 Set/Rarity:     Magic 2012 Common, Zendikar Common
 
+Name:   Slaughter Games
+Cost:   2BR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Slaughter Games can't be countered by spells or abilities.
+Name a nonland card. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Slaughter Pact
 Cost:   0
 Color:  Black
@@ -6622,6 +6736,13 @@ Rules Text:     Destroy target artifact or enchantment.
 Draw a card.
 Set/Rarity:     Scars of Mirrodin Uncommon
 
+Name:   Slime Molding
+Cost:   XG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put an X/X green Ooze creature token onto the battlefield.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Slimy Kavu
 Cost:   2R
 Type:   Creature — Kavu
@@ -6747,6 +6868,13 @@ Rules Text:     Whenever Slith Strider becomes blocked, draw a card.
 Whenever Slith Strider deals combat damage to a player, put a +1/+1 counter on it.
 Set/Rarity:     Duel Decks: Venser vs. Koth Uncommon, Mirrodin Uncommon
 
+Name:   Slitherhead
+Cost:   (B/G)
+Type:   Creature — Plant Zombie
+Pow/Tgh:    (1/1)
+Rules Text:     Scavenge {0} ({0}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Slithering Shade
 Cost:   B
 Type:   Creature — Shade
@@ -6833,6 +6961,21 @@ Rules Text:     Enchant creature
 Enchanted creature can't block.
 When Sluggishness is put into a graveyard from the battlefield, return Sluggishness to its owner's hand.
 Set/Rarity:     Urza's Legacy Common
+
+Name:   Sluiceway Scorpion
+Cost:   2BG
+Type:   Creature — Scorpion
+Pow/Tgh:    (2/2)
+Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Scavenge {1}{B}{G} ({1}{B}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Common
+
+Name:   Slum Reaper
+Cost:   3B
+Type:   Creature — Horror
+Pow/Tgh:    (4/2)
+Rules Text:     When Slum Reaper enters the battlefield, each player sacrifices a creature.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Slumbering Dragon
 Cost:   R
@@ -8049,6 +8192,14 @@ Pow/Tgh:
 Rules Text:     Return two target creature cards from your graveyard to your hand unless any player pays {X}.
 Set/Rarity:     Prophecy Common
 
+Name:   Soul Tithe
+Cost:   1W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant nonland permanent
+At the beginning of the upkeep of enchanted permanent's controller, that player sacrifices it unless he or she pays {X}, where X is its converted mana cost.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Soul Warden
 Cost:   W
 Type:   Creature — Human Cleric
@@ -8227,6 +8378,14 @@ Rules Text:     Defender (This creature can't attack.)
 {1}{U}, Sacrifice Soulsworn Jury: Counter target creature spell.
 Set/Rarity:     Dissension Common
 
+Name:   Soulsworn Spirit
+Cost:   3U
+Type:   Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     Soulsworn Spirit is unblockable.
+When Soulsworn Spirit enters the battlefield, detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Soultether Golem
 Cost:   2
 Type:   Artifact Creature — Golem
@@ -8360,6 +8519,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Pay 1 life: Until your next upkeep, target permanent can't phase out.
 Set/Rarity:     Mirage Uncommon
+
+Name:   Spawn of Rix Maadi
+Cost:   3BR
+Type:   Creature — Horror
+Pow/Tgh:    (5/3)
+Rules Text:     Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Spawnbroker
 Cost:   2U
@@ -8763,6 +8929,13 @@ Pow/Tgh:
 Rules Text:     Spells cost {1} more to cast.
 Set/Rarity:     Exodus Rare
 
+Name:   Sphere of Safety
+Cost:   4W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Creatures can't attack you or a planeswalker you control unless their controller pays {X} for each of those creatures, where X is the number of enchantments you control.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Sphere of Truth
 Cost:   3W
 Type:   Enchantment
@@ -8835,6 +9008,14 @@ Rules Text:     Flying
 When Sphinx of Uthuun enters the battlefield, reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
 Set/Rarity:     Magic 2013 Rare, Duel Decks: Venser vs. Koth Rare, Magic 2012 Rare
 
+Name:   Sphinx of the Chimes
+Cost:   4UU
+Type:   Creature — Sphinx
+Pow/Tgh:    (5/6)
+Rules Text:     Flying
+Discard two nonland cards with the same name: Draw four cards.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Sphinx of the Steel Wind
 Cost:   5WUB
 Type:   Artifact Creature — Sphinx
@@ -8849,12 +9030,19 @@ Pow/Tgh:    (1/1)
 Rules Text:     {2}{U}, {T}, Sacrifice a white creature, a blue creature, and a black creature: Search your library for a card named Sphinx Sovereign and put it onto the battlefield. Then shuffle your library.
 Set/Rarity:     Shards of Alara Uncommon
 
+Name:   Sphinx's Revelation
+Cost:   XWUU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     You gain X life and draw X cards.
+Set/Rarity:     Return to Ravnica Mythic Rare
+
 Name:   Sphinx-Bone Wand
 Cost:   7
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to target creature or player.
-Set/Rarity:     Rise of the Eldrazi Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Rise of the Eldrazi Rare
 
 Name:   Spider Climb
 Cost:   G
@@ -9559,6 +9747,14 @@ Rules Text:     Reach (This creature can block creatures with flying.)
 Sacrifice a land: Spitting Spider deals 1 damage to each creature with flying.
 Set/Rarity:     Eighth Edition Uncommon, Prophecy Uncommon
 
+Name:   Splatter Thug
+Cost:   2R
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     First strike
+Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Splinter
 Cost:   2GG
 Type:   Sorcery
@@ -10033,6 +10229,15 @@ Rules Text:     {1}{G}, Sacrifice a land: Put two 1/1 green Squirrel creature to
 {1}{G}, Sacrifice a land: Squirrel creatures get +1/+1 until end of turn.
 Set/Rarity:     Prophecy Rare
 
+Name:   Stab Wound
+Cost:   2B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -2/-2.
+At the beginning of the upkeep of enchanted creature's controller, that player loses 2 life.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Stabbing Pain
 Cost:   B
 Type:   Instant
@@ -10448,6 +10653,13 @@ Pow/Tgh:
 Rules Text:     Target creature gets +1/+1 until end of turn. Another target creature gets -1/-1 until end of turn.
 Set/Rarity:     Prophecy Common
 
+Name:   Stealer of Secrets
+Cost:   2U
+Type:   Creature — Human Rogue
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever Stealer of Secrets deals combat damage to a player, draw a card.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Steam Blast
 Cost:   2R
 Type:   Sorcery
@@ -10483,7 +10695,7 @@ Type:   Land — Island Mountain
 Pow/Tgh:    
 Rules Text:     ({T}: Add {U} or {R} to your mana pool.)
 As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped.
-Set/Rarity:     Guildpact Rare
+Set/Rarity:     Return to Ravnica Rare, Guildpact Rare
 
 Name:   Steam Vines
 Cost:   1RR
@@ -10506,7 +10718,7 @@ Cost:   3U
 Type:   Creature — Weird
 Pow/Tgh:    (1/3)
 Rules Text:     When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to target creature or player.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Guildpact Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Duel Decks: Ajani vs. Nicol Bolas Common, Guildpact Common
 
 Name:   Steamflogger Boss
 Cost:   3R
@@ -10727,7 +10939,7 @@ Type:   Creature — Spider
 Pow/Tgh:    (2/5)
 Rules Text:     Reach (This creature can block creatures with flying.)
 When Stingerfling Spider enters the battlefield, you may destroy target creature with flying.
-Set/Rarity:     Magic 2012 Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Magic 2012 Uncommon
 
 Name:   Stinging Barrier
 Cost:   2UU
@@ -10783,7 +10995,7 @@ Pow/Tgh:    (1/2)
 Rules Text:     Flying
 Whenever Stinkweed Imp deals combat damage to a creature, destroy that creature.
 Dredge 5 (If you would draw a card, instead you may put exactly five cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Duel Decks: Divine vs. Demonic Common, Ravnica: City of Guilds Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Duel Decks: Divine vs. Demonic Common, Ravnica: City of Guilds Common
 
 Name:   Stir the Grave
 Cost:   XB
@@ -11012,6 +11224,13 @@ Flying
 When Stonecloaker enters the battlefield, return a creature you control to its owner's hand.
 When Stonecloaker enters the battlefield, exile target card from a graveyard.
 Set/Rarity:     Planar Chaos Uncommon
+
+Name:   Stonefare Crocodile
+Cost:   2G
+Type:   Creature — Crocodile
+Pow/Tgh:    (3/2)
+Rules Text:     {2}{B}: Stonefare Crocodile gains lifelink until end of turn. (Damage dealt by this creature also causes you to gain that much life.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Stoneforge Mystic
 Cost:   1W
@@ -11475,6 +11694,21 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +0/+2 and can block creatures with landwalk abilities as though they didn't have those abilities.
 Set/Rarity:     Dissension Common
+
+Name:   Street Spasm
+Cost:   XR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Street Spasm deals X damage to target creature without flying you don't control.
+Overload {X}{X}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Return to Ravnica Uncommon, Duel Decks: Izzet vs. Golgari Uncommon
+
+Name:   Street Sweeper
+Cost:   6
+Type:   Artifact Creature — Construct
+Pow/Tgh:    (4/6)
+Rules Text:     Whenever Street Sweeper attacks, destroy all Auras attached to target land.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Street Wraith
 Cost:   3BB
@@ -12181,6 +12415,13 @@ Pow/Tgh:
 Rules Text:     Destroy target artifact or land.
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
+Name:   Sundering Growth
+Cost:   (G/W)(G/W)
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target artifact or enchantment, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Sundering Titan
 Cost:   8
 Type:   Artifact Creature — Golem
@@ -12374,6 +12615,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     As long as Sunspear Shikari is equipped, it has first strike and lifelink.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Sunspire Griffin
+Cost:   1WW
+Type:   Creature — Griffin
+Pow/Tgh:    (2/3)
+Rules Text:     Flying
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Sunspring Expedition
 Cost:   W
 Type:   Enchantment
@@ -12470,6 +12718,14 @@ Type:   Creature — Human Wizard
 Pow/Tgh:    (1/3)
 Rules Text:     Tap five untapped Wizards you control: Search target player's library for up to five cards and exile them. Then that player shuffles his or her library.
 Set/Rarity:     Onslaught Rare
+
+Name:   Supreme Verdict
+Cost:   1WWU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Supreme Verdict can't be countered.
+Destroy all creatures.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Suq'Ata Assassin
 Cost:   1BB
@@ -12635,6 +12891,13 @@ Rules Text:     Flying
 When Surveilling Sprite dies, you may draw a card.
 Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Ravnica: City of Guilds Common
 
+Name:   Survey the Wreckage
+Cost:   4R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target land. Put a 1/1 red Goblin creature token onto the battlefield.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Survival Cache
 Cost:   2W
 Type:   Sorcery
@@ -12712,7 +12975,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {3}{B}{G}: Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with "This creature's power and toughness are each equal to the number of creature cards in your graveyard." It's still a land.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Magic: The Gathering-Commander Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Svyelunite Priest
 Cost:   1U
@@ -12742,7 +13005,7 @@ Cost:
 Type:   Basic Land — Swamp
 Pow/Tgh:    
 Rules Text:     B
-Set/Rarity:     Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Swamp Mosquito
 Cost:   1B
@@ -12820,6 +13083,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Change the target of target spell with a single target.
 Set/Rarity:     Shards of Alara Uncommon
+
+Name:   Swift Justice
+Cost:   W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Until end of turn, target creature gets +1/+0 and gains first strike and lifelink.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Swift Maneuver
 Cost:   1W
@@ -13196,7 +13466,7 @@ Cost:   XU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
-Set/Rarity:     Odyssey Common
+Set/Rarity:     Return to Ravnica Uncommon, Odyssey Common
 
 Name:   Synod Artificer
 Cost:   2U

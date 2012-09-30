@@ -214,6 +214,8 @@ tokens {
     DESTROY;
     DESTROYED;
     DESTROYING;
+    DETAIN;
+    DETAINED;
     DEVOUR;
     DEVOURED;
     DID;
@@ -484,6 +486,8 @@ tokens {
     OUT;
     OUTSIDE;
     OVER;
+    OVERLOAD;
+    OVERLOADED;
     OWN;
     OWNED;
     OWNER;
@@ -524,6 +528,9 @@ tokens {
     POISONED;
     POISONOUS;
     POOL;
+    POPULATE;
+    POPULATED;
+    POPULATING;
     POSTCOMBAT;
     POWER;
     PRECOMBAT;
@@ -608,6 +615,8 @@ tokens {
     SACRIFICED;
     SACRIFICING;
     SAME;
+    SCAVENGE;
+    SCAVENGED;
     SCHEME;
     SCRIED;
     SCRY;
@@ -741,6 +750,8 @@ tokens {
     UNDYING;
     UNEARTH;
     UNEARTHED;
+    UNLEASH;
+    UNLEASHED;
     UNLESS;
     UNPAIRED;
     UNTAP;
@@ -875,6 +886,7 @@ NUMBER_WORD : 'seventeen'
 OBJ_COUNTER : 'petrification'
             | 'intervention'
             | 'paralyzation'
+            | 'filibuster'
             | 'phylactery'
             | 'arrowhead'
             | 'awakening'
@@ -1326,6 +1338,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'urza\'s'
             | 'venser'
             | 'volver'
+            | 'vraska'
             | 'weirds'
             | 'whales'
             | 'wizard'
@@ -1360,6 +1373,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'foxes'
             | 'frogs'
             | 'fungi'
+            | 'gates'
             | 'germs'
             | 'giant'
             | 'gnome'
@@ -1429,6 +1443,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'eyes'
             | 'fish'
             | 'frog'
+            | 'gate'
             | 'germ'
             | 'goat'
             | 'hags'
@@ -1513,12 +1528,14 @@ FATESEALED : 'fatesealed';
 GRAVESTORM : 'gravestorm';
 INTIMIDATE : 'intimidate';
 MEDITATION : 'meditation';
+OVERLOADED : 'OVERLOADED';
 PHASED_OUT : 'phased-out';
 PHENOMENON : 'phenomenon'
            | 'phenomena';
 PLANAR_DIE : 'planar die';
 PLANESWALK : 'planeswalks'
            | 'planeswalk';
+POPULATING : 'populating';
 POSTCOMBAT : 'postcombat';
 PREVIOUSLY : 'previously';
 PROTECTION : 'protection';
@@ -1573,6 +1590,7 @@ OWNERSHIP : 'ownership';
 PERMANENT : 'permanents'
           | 'permanent';
 POISONOUS : 'poisonous';
+POPULATED : 'populated';
 PRECOMBAT : 'precombat';
 PREVENTED : 'prevented';
 RECOVERED : 'recovered';
@@ -1587,6 +1605,7 @@ RESTARTED : 'restarted';
 REVEALING : 'revealing';
 SACRIFICE : 'sacrifices'
           | 'sacrifice';
+SCAVENGED : 'scavenged';
 SEARCHING : 'searching';
 SEPARATED : 'separated';
 SHUFFLING : 'shuffling';
@@ -1606,6 +1625,7 @@ TRIGGERED : 'triggered';
 UNBLOCKED : 'unblocked';
 UNCHANGED : 'unchanged';
 UNEARTHED : 'unearthed';
+UNLEASHED : 'unleashed';
 UNTAPPING : 'untapping';
 VANISHING : 'vanishing';
 VIGILANCE : 'vigilance';
@@ -1640,6 +1660,7 @@ DECIDING : 'deciding';
 DECISION : 'decision';
 DECLARED : 'declared';
 DEFENDER : 'defender';
+DETAINED : 'detained';
 DEVOURED : 'devoured';
 DIRECTLY : 'directly';
 DIVIDING : 'dividing';
@@ -1674,8 +1695,12 @@ OFFERING : 'offering';
 OPPONENT : 'opponents'
          | 'opponent';
 ORIGINAL : 'original';
+OVERLOAD : 'overloads'
+         | 'overload';
 PHYREXIA : 'phyrexia';
 POISONED : 'poisoned';
+POPULATE : 'populates'
+         | 'populate';
 PRODUCED : 'produced';
 PROVOKED : 'provoked';
 RECENTLY : 'recently';
@@ -1688,6 +1713,8 @@ RESELECT : 'reselects'
 RESOLVED : 'resolved';
 RETURNED : 'returned';
 REVEALED : 'revealed';
+SCAVENGE : 'scavenges'
+         | 'scavenge';
 SEARCHED : 'searched';
 SECRETLY : 'secretly';
 SELECTED : 'selected';
@@ -1847,6 +1874,8 @@ TRIGGER : 'triggers'
 UNDYING : 'undying';
 UNEARTH : 'unearths'
         | 'unearth';
+UNLEASH : 'unleashes'
+        | 'unleash';
 WHETHER : 'whether';
 WINNING : 'winning';
 WITHOUT : 'without';
@@ -1890,6 +1919,8 @@ CYCLED : 'cycled';
 DAMAGE : 'damage';
 DECIDE : 'decides'
        | 'decide';
+DETAIN : 'detains'
+       | 'detain';
 DEVOUR : 'devours'
        | 'devour';
 DIVIDE : 'divides'

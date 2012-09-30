@@ -5,6 +5,14 @@ Pow/Tgh:
 Rules Text:     Whenever an artifact you control is put into a graveyard from the battlefield, you may pay {1}. If you do, you gain 1 life.
 Set/Rarity:     Masters Edition IV Common, Antiquities Common
 
+Name:   Tablet of the Guilds
+Cost:   2
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     As Tablet of the Guilds enters the battlefield, choose two colors.
+Whenever you cast a spell, if it's at least one of the chosen colors, you gain 1 life for each of the chosen colors it is.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Tahngarth's Glare
 Cost:   R
 Type:   Sorcery
@@ -704,6 +712,13 @@ Rules Text:     Changeling (This card is every creature type at all times.)
 Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.
 Set/Rarity:     Archenemy Rare, Planechase Rare, Morningtide Rare
 
+Name:   Tavern Swindler
+Cost:   1B
+Type:   Creature — Human Rogue
+Pow/Tgh:    (2/2)
+Rules Text:     {T}, Pay 3 life: Flip a coin. If you win the flip, you gain 6 life.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Tawnos's Coffin
 Cost:   4
 Type:   Artifact
@@ -1024,6 +1039,14 @@ Rules Text:     Cast Teleport only during the declare attackers step.
 Target creature is unblockable this turn.
 Set/Rarity:     Chronicles Rare, Legends Rare
 
+Name:   Teleportal
+Cost:   UR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature you control gets +1/+0 until end of turn and is unblockable this turn.
+Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Telethopter
 Cost:   4
 Type:   Artifact Creature — Thopter
@@ -1141,7 +1164,7 @@ Type:   Land — Forest Plains
 Pow/Tgh:    
 Rules Text:     ({T}: Add {G} or {W} to your mana pool.)
 As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Return to Ravnica Rare, Ravnica: City of Guilds Rare
 
 Name:   Temple of the False God
 Cost:   
@@ -1304,6 +1327,13 @@ Pow/Tgh:    (6/6)
 Rules Text:     Flying
 Whenever Teneb, the Harvester deals combat damage to a player, you may pay {2}{B}. If you do, put target creature card from a graveyard onto the battlefield under your control.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Planar Chaos Rare
+
+Name:   Tenement Crasher
+Cost:   5R
+Type:   Creature — Beast
+Pow/Tgh:    (5/4)
+Rules Text:     Haste
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Tenza, Godo's Maul
 Cost:   3
@@ -1487,6 +1517,13 @@ Rules Text:     Double strike
 Each Werewolf you control can't be blocked except by two or more creatures.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Terror of Kruin Pass.
 Set/Rarity:     Innistrad Rare
+
+Name:   Terrus Wurm
+Cost:   6B
+Type:   Creature — Zombie Wurm
+Pow/Tgh:    (5/5)
+Rules Text:     Scavenge {6}{B} ({6}{B}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Test of Endurance
 Cost:   2WW
@@ -2268,6 +2305,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     {U}{B}, {T}: Target player loses 1 life and reveals his or her hand.
 Set/Rarity:     Shards of Alara Uncommon
 
+Name:   Thoughtflare
+Cost:   3UR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Draw four cards, then discard two cards.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Thoughtlace
 Cost:   U
 Type:   Instant
@@ -2543,6 +2587,14 @@ Rules Text:     Target creature gets +1/+2 until end of turn.
 Flashback {W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Time Spiral Common
 
+Name:   Thrill-Kill Assassin
+Cost:   1B
+Type:   Creature — Human Assassin
+Pow/Tgh:    (1/2)
+Rules Text:     Deathtouch
+Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Thriss, Nantuko Primus
 Cost:   5GG
 Type:   Legendary Creature — Insect Druid
@@ -2771,7 +2823,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)
 Put a 3/3 blue Weird creature token with defender and flying onto the battlefield. Exile it at the beginning of the next end step.
-Set/Rarity:     Guildpact Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Guildpact Uncommon
 
 Name:   Thundering Giant
 Cost:   3RR
@@ -4012,7 +4064,7 @@ Type:   Creature — Drake
 Pow/Tgh:    (2/1)
 Rules Text:     Flying
 {W}: Tower Drake gets +0/+1 until end of turn.
-Set/Rarity:     Invasion Common
+Set/Rarity:     Return to Ravnica Common, Invasion Common
 
 Name:   Tower Gargoyle
 Cost:   1WUB
@@ -4086,6 +4138,13 @@ Type:   Creature — Beast
 Pow/Tgh:    (7/6)
 Rules Text:     Morph {6}{G} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Set/Rarity:     Onslaught Uncommon
+
+Name:   Towering Indrik
+Cost:   3G
+Type:   Creature — Beast
+Pow/Tgh:    (2/4)
+Rules Text:     Reach (This creature can block creatures with flying.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Town Sentry
 Cost:   2W
@@ -4232,7 +4291,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Replicate {1}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)
 Draw a card.
-Set/Rarity:     Guildpact Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Guildpact Common
 
 Name:   Trained Armodon
 Cost:   1GG
@@ -4240,6 +4299,13 @@ Type:   Creature — Elephant
 Pow/Tgh:    (3/3)
 Rules Text:     
 Set/Rarity:     Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Tempest Common
+
+Name:   Trained Caracal
+Cost:   W
+Type:   Creature — Cat
+Pow/Tgh:    (1/1)
+Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Trained Cheetah
 Cost:   2G
@@ -4311,7 +4377,7 @@ Cost:   3R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Gain control of target creature until end of turn. Untap that creature. Until end of turn, it gets +2/+0 and gains haste.
-Set/Rarity:     Rise of the Eldrazi Uncommon
+Set/Rarity:     Return to Ravnica Common, Rise of the Eldrazi Uncommon
 
 Name:   Tranquil Domain
 Cost:   1G
@@ -4351,7 +4417,7 @@ Pow/Tgh:
 Rules Text:     Tranquil Thicket enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 Cycling {G} ({G}, Discard this card: Draw a card.)
-Set/Rarity:     Magic: The Gathering-Commander Common, Archenemy Common, Duel Decks: Elves vs. Goblins Common, Onslaught Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Magic: The Gathering-Commander Common, Archenemy Common, Duel Decks: Elves vs. Goblins Common, Onslaught Common
 
 Name:   Tranquility
 Cost:   2G
@@ -4392,6 +4458,15 @@ Type:   Artifact Creature — Golem
 Pow/Tgh:    (3/3)
 Rules Text:     
 Set/Rarity:     Dissension Uncommon
+
+Name:   Transguild Promenade
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Transguild Promenade enters the battlefield tapped.
+When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1}.
+{T}: Add one mana of any color to your mana pool.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Transluminant
 Cost:   1G
@@ -4601,6 +4676,13 @@ Pow/Tgh:
 Rules Text:     {2}{U}{U}: Draw a card.
 Set/Rarity:     Ninth Edition Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Exodus Uncommon
 
+Name:   Treasured Find
+Cost:   BG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target card from your graveyard to your hand. Exile Treasured Find.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Tree Monkey
 Cost:   G
 Type:   Creature — Ape
@@ -4778,6 +4860,15 @@ Pow/Tgh:    (5/3)
 Rules Text:     Flying
 Prevent all damage that would be dealt to Tresserhorn Skyknight by creatures with first strike.
 Set/Rarity:     Coldsnap Uncommon
+
+Name:   Trestle Troll
+Cost:   1BG
+Type:   Creature — Troll
+Pow/Tgh:    (1/4)
+Rules Text:     Defender
+Reach (This creature can block creatures with flying.)
+{1}{B}{G}: Regenerate Trestle Troll.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Treva's Attendant
 Cost:   5
@@ -5097,6 +5188,21 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Tropical Storm deals X damage to each creature with flying and 1 additional damage to each blue creature.
 Set/Rarity:     Mirage Uncommon
+
+Name:   Trostani's Judgment
+Cost:   5W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Exile target creature, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Common
+
+Name:   Trostani, Selesnya's Voice
+Cost:   GGWW
+Type:   Legendary Creature — Dryad
+Pow/Tgh:    (2/5)
+Rules Text:     Whenever another creature enters the battlefield under your control, you gain life equal to that creature's toughness.
+{1}{G}{W}, {T}: Populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Mythic Rare
 
 Name:   Troubled Healer
 Cost:   2W
@@ -5469,7 +5575,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     You may cast Twilight's Call any time you could cast an instant if you pay {2} more to cast it.
 Each player returns all creature cards from his or her graveyard to the battlefield.
-Set/Rarity:     Invasion Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Invasion Rare
 
 Name:   Twinblade Slasher
 Cost:   G

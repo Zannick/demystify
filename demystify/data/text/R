@@ -35,6 +35,14 @@ Rules Text:     Vigilance
 Rabid Wombat gets +2/+2 for each Aura attached to it.
 Set/Rarity:     Masters Edition Uncommon, Fifth Edition Uncommon, Chronicles Uncommon, Legends Uncommon
 
+Name:   Racecourse Fury
+Cost:   R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+Enchanted land has "{T}: Target creature gains haste until end of turn."
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Rack and Ruin
 Cost:   2R
 Type:   Instant
@@ -436,6 +444,13 @@ Rules Text:     First strike
 {T}: Reveal your hand and discard a card of target opponent's choice. Then that player reveals his or her hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery.
 Set/Rarity:     Dissension Rare
 
+Name:   Rakdos Cackler
+Cost:   (B/R)
+Type:   Creature — Devil
+Pow/Tgh:    (1/1)
+Rules Text:     Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Rakdos Carnarium
 Cost:   
 Type:   Land
@@ -444,6 +459,21 @@ Rules Text:     Rakdos Carnarium enters the battlefield tapped.
 When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {B}{R} to your mana pool.
 Set/Rarity:     Magic: The Gathering-Commander Common, Archenemy Common, Dissension Common
+
+Name:   Rakdos Charm
+Cost:   BR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Exile all cards from target player's graveyard; or destroy target artifact; or each creature deals 1 damage to its controller.
+Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Rakdos Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Rakdos Guildgate enters the battlefield tapped.
+{T}: Add {B} or {R} to your mana pool.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Rakdos Guildmage
 Cost:   (B/R)(B/R)
@@ -461,6 +491,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {T}: Rakdos Ickspitter deals 1 damage to target creature and that creature's controller loses 1 life.
 Set/Rarity:     Dissension Common
 
+Name:   Rakdos Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {B} or {R} to your mana pool.
+{B}{R}: Rakdos Keyrune becomes a 3/1 black and red Devil artifact creature with first strike until end of turn.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Rakdos Pit Dragon
 Cost:   2RR
 Type:   Creature — Dragon
@@ -470,6 +508,22 @@ Rules Text:     {R}{R}: Rakdos Pit Dragon gains flying until end of turn.
 Hellbent — Rakdos Pit Dragon has double strike as long as you have no cards in hand.
 Set/Rarity:     Duel Decks: Jace vs. Chandra Rare, Dissension Rare
 
+Name:   Rakdos Ragemutt
+Cost:   3BR
+Type:   Creature — Elemental Hound
+Pow/Tgh:    (3/3)
+Rules Text:     Lifelink, haste
+Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Rakdos Ringleader
+Cost:   4BR
+Type:   Creature — Skeleton Warrior
+Pow/Tgh:    (3/1)
+Rules Text:     First strike
+Whenever Rakdos Ringleader deals combat damage to a player, that player discards a card at random.
+{B}: Regenerate Rakdos Ringleader.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Rakdos Riteknife
 Cost:   2
 Type:   Artifact — Equipment
@@ -478,6 +532,13 @@ Rules Text:     Equipped creature gets +1/+0 for each blood counter on Rakdos Ri
 {B}{R}, Sacrifice Rakdos Riteknife: Target player sacrifices a permanent for each blood counter on Rakdos Riteknife.
 Equip {2}
 Set/Rarity:     Dissension Rare
+
+Name:   Rakdos Shred-Freak
+Cost:   (B/R)(B/R)
+Type:   Creature — Human Berserker
+Pow/Tgh:    (2/1)
+Rules Text:     Haste
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Rakdos Signet
 Cost:   2
@@ -494,6 +555,22 @@ Rules Text:     Flying, trample
 Whenever Rakdos the Defiler attacks, sacrifice half the non-Demon permanents you control, rounded up.
 Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents he or she controls, rounded up.
 Set/Rarity:     Dissension Rare
+
+Name:   Rakdos's Return
+Cost:   XBR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Rakdos's Return deals X damage to target opponent. That player discards X cards.
+Set/Rarity:     Return to Ravnica Mythic Rare
+
+Name:   Rakdos, Lord of Riots
+Cost:   BBRR
+Type:   Legendary Creature — Demon
+Pow/Tgh:    (6/6)
+Rules Text:     You can't cast Rakdos, Lord of Riots unless an opponent lost life this turn.
+Flying, trample
+Creature spells you cast cost {1} less to cast for each 1 life your opponents have lost this turn.
+Set/Rarity:     Return to Ravnica Mythic Rare
 
 Name:   Rakeclaw Gargantuan
 Cost:   2RGW
@@ -991,7 +1068,7 @@ Cost:   1B
 Type:   Creature — Rat
 Pow/Tgh:    (1/1)
 Rules Text:     When Ravenous Rats enters the battlefield, target opponent discards a card.
-Set/Rarity:     Magic 2013 Common, Duel Decks: Garruk vs. Liliana Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Invasion Common, Starter 1999 Uncommon, Urza's Destiny Common, Portal Second Age Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Magic 2013 Common, Duel Decks: Garruk vs. Liliana Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Invasion Common, Starter 1999 Uncommon, Urza's Destiny Common, Portal Second Age Common
 
 Name:   Ravenous Skirge
 Cost:   2B
@@ -1383,7 +1460,7 @@ Cost:   1B
 Type:   Creature — Skeleton Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     {1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped.
-Set/Rarity:     Magic 2012 Uncommon, Magic 2011 Uncommon, Archenemy Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Magic 2012 Uncommon, Magic 2011 Uncommon, Archenemy Uncommon
 
 Name:   Rebel Informer
 Cost:   2B
@@ -2137,7 +2214,7 @@ Cost:   2U
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player shuffles his or her graveyard into his or her library.
-Set/Rarity:     Tenth Edition Uncommon, Ninth Edition Uncommon, Onslaught Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Onslaught Uncommon
 
 Name:   Remote Farm
 Cost:   
@@ -2545,6 +2622,14 @@ Rules Text:     Target player gains 4 life.
 Landfall — If you had a land enter the battlefield under your control this turn, that player gains 8 life instead.
 Set/Rarity:     Worldwake Common
 
+Name:   Rest in Peace
+Cost:   1W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     When Rest in Peace enters the battlefield, exile all cards from all graveyards.
+If a card or token would be put into a graveyard from anywhere, exile it instead.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Restless Apparition
 Cost:   (W/B)(W/B)(W/B)
 Type:   Creature — Spirit
@@ -2765,7 +2850,7 @@ Name:   Revenant Patriarch
 Cost:   4B
 Type:   Creature — Spirit
 Pow/Tgh:    (4/3)
-Rules Text:     When Revenant Patriarch enters the battlefield, if {W} was spent to cast Revenant Patriarch, target player skips his or her next combat phase.
+Rules Text:     When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips his or her next combat phase.
 Revenant Patriarch can't block.
 Set/Rarity:     Guildpact Uncommon
 
@@ -3242,6 +3327,15 @@ Pow/Tgh:
 Rules Text:     {W}, Pay 2 life: The next time a source of your choice would deal damage to you this turn, prevent that damage.
 Set/Rarity:     Mercadian Masques Uncommon, Visions Common
 
+Name:   Righteous Authority
+Cost:   3WU
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +1/+1 for each card in its controller's hand.
+At the beginning of the draw step of enchanted creature's controller, that player draws an additional card.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Righteous Avengers
 Cost:   4W
 Type:   Creature — Human Soldier
@@ -3611,6 +3705,13 @@ Rules Text:     When Rise of the Hobgoblins enters the battlefield, you may pay 
 {(r/w)}: Red creatures and white creatures you control gain first strike until end of turn.
 Set/Rarity:     Eventide Rare
 
+Name:   Risen Sanctuary
+Cost:   5GW
+Type:   Creature — Elemental
+Pow/Tgh:    (8/8)
+Rules Text:     Vigilance
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Rishadan Airship
 Cost:   2U
 Type:   Creature — Human Pirate
@@ -3727,6 +3828,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Discard any number of cards at random. Creatures you control get +1/+0 until end of turn for each card discarded this way.
 Set/Rarity:     Odyssey Common
+
+Name:   Rites of Reaping
+Cost:   4BG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature gets +3/+3 until end of turn. Another target creature gets -3/-3 until end of turn.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Rites of Refusal
 Cost:   1U
@@ -3892,6 +4000,14 @@ Type:   Creature — Shapeshifter
 Pow/Tgh:    (2/1)
 Rules Text:     Whenever you cast a spell that's both blue and red, Riverfall Mimic becomes 3/3 and is unblockable until end of turn.
 Set/Rarity:     Eventide Common
+
+Name:   Rix Maadi Guildmage
+Cost:   BR
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     {B}{R}: Target blocking creature gets -1/-1 until end of turn.
+{B}{R}: Target player who lost life this turn loses 1 life.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Rix Maadi, Dungeon Palace
 Cost:   
@@ -4120,6 +4236,14 @@ Rules Text:     Flying
 At the beginning of your upkeep, put a wage counter on Rogue Skycaptain. You may pay {2} for each wage counter on it. If you don't, remove all wage counters from Rogue Skycaptain and an opponent gains control of it.
 Set/Rarity:     Masters Edition II Rare, Alliances Rare
 
+Name:   Rogue's Passage
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{4}, {T}: Target creature is unblockable this turn.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Rohgahh of Kher Keep
 Cost:   2BBRR
 Type:   Legendary Creature — Kobold
@@ -4309,6 +4433,13 @@ Rules Text:     Convoke (Each creature you tap while casting this spell reduces 
 Tap two untapped creatures you control: Root-Kin Ally gets +2/+2 until end of turn.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
+Name:   Rootborn Defenses
+Cost:   2W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Populate. Creatures you control are indestructible this turn. (To populate, put a token onto the battlefield that's a copy of a creature token you control. Damage and effects that say "destroy" don't destroy indestructible creatures.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Rootbound Crag
 Cost:   
 Type:   Land
@@ -4359,7 +4490,7 @@ Name:   Roots of Life
 Cost:   1GG
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     As Roots of Life enters the battlefield, choose Islands or Swamps.
+Rules Text:     As Roots of Life enters the battlefield, choose Island or Swamp.
 Whenever a land of the chosen type an opponent controls becomes tapped, you gain 1 life.
 Set/Rarity:     Mirage Uncommon
 
@@ -4602,6 +4733,13 @@ Type:   Creature — Human Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever Royal Trooper blocks, it gets +2/+2 until end of turn.
 Set/Rarity:     Masters Edition II Common, Starter 1999 Uncommon
+
+Name:   Rubbleback Rhino
+Cost:   4G
+Type:   Creature — Rhino
+Pow/Tgh:    (3/4)
+Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Rubinia Soulsinger
 Cost:   2GWU
@@ -4915,6 +5053,14 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {3}, {T}: Target attacking creature gets +2/+0 until end of turn. When that creature leaves the battlefield this turn, sacrifice Runesword. If the creature deals damage to a creature this turn, the creature dealt damage can't be regenerated this turn. If a creature dealt damage by the targeted creature would die this turn, exile that creature instead.
 Set/Rarity:     Chronicles Common, The Dark Uncommon
+
+Name:   Runewing
+Cost:   3U
+Type:   Creature — Bird
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+When Runewing dies, draw a card.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Runic Repetition
 Cost:   2U

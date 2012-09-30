@@ -116,6 +116,14 @@ Pow/Tgh:
 Rules Text:     Switch target creature's power and toughness until end of turn.
 Set/Rarity:     Urza's Legacy Common
 
+Name:   Abrupt Decay
+Cost:   BG
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Abrupt Decay can't be countered by spells or abilities.
+Destroy target nonland permanent with converted mana cost 3 or less.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Absolute Grace
 Cost:   1W
 Type:   Enchantment
@@ -595,6 +603,13 @@ Pow/Tgh:    (4/3)
 Rules Text:     Flying
 {1}{U}{U}: Exile the top card of your library. Until end of turn, you may play that card. (Reveal the card as you exile it.)
 Set/Rarity:     Mercadian Masques Rare
+
+Name:   Aerial Predation
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target creature with flying. You gain 2 life.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Aerie Mystics
 Cost:   4W
@@ -1904,7 +1919,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {2} to your mana pool. Ancient Tomb deals 2 damage to you.
-Set/Rarity:     Tempest Uncommon
+Set/Rarity:     From the Vault: Realms Mythic Rare, Tempest Uncommon
 
 Name:   Ancient Ziggurat
 Cost:   
@@ -1992,6 +2007,15 @@ Rules Text:     Flash; convoke (Each creature you tap while casting this spell r
 Flying
 When Angel of Salvation enters the battlefield, prevent the next 5 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Rare, Future Sight Rare
+
+Name:   Angel of Serenity
+Cost:   4WWW
+Type:   Creature — Angel
+Pow/Tgh:    (5/6)
+Rules Text:     Flying
+When Angel of Serenity enters the battlefield, you may exile up to three other target creatures from the battlefield and/or creature cards from graveyards.
+When Angel of Serenity leaves the battlefield, return the exiled cards to their owners' hands.
+Set/Rarity:     Return to Ravnica Mythic Rare
 
 Name:   Angel's Feather
 Cost:   2
@@ -2278,6 +2302,13 @@ Pow/Tgh:
 Rules Text:     Destroy target nonblack creature. It can't be regenerated.
 Draw a card.
 Set/Rarity:     Invasion Uncommon
+
+Name:   Annihilating Fire
+Cost:   1RR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Annihilating Fire deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Annul
 Cost:   U
@@ -2570,6 +2601,13 @@ Type:   Tribal Sorcery — Merfolk
 Pow/Tgh:    
 Rules Text:     Put a flood counter on target land. That land is an Island in addition to its other types for as long as it has a flood counter on it. If you control a Merfolk, draw a card.
 Set/Rarity:     Lorwyn Common
+
+Name:   Aquus Steed
+Cost:   3U
+Type:   Creature — Beast
+Pow/Tgh:    (1/3)
+Rules Text:     {2}{U}, {T}: Target creature gets -2/-0 until end of turn.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Araba Mothrider
 Cost:   1W
@@ -2965,6 +3003,21 @@ Rules Text:     Flying
 Whenever Archon of Redemption or another creature with flying enters the battlefield under your control, you may gain life equal to that creature's power.
 Set/Rarity:     Worldwake Rare
 
+Name:   Archon of the Triumvirate
+Cost:   5WU
+Type:   Creature — Archon
+Pow/Tgh:    (4/5)
+Rules Text:     Flying
+Whenever Archon of the Triumvirate attacks, detain up to two target nonland permanents your opponents control. (Until your next turn, those permanents can't attack or block and their activated abilities can't be activated.)
+Set/Rarity:     Return to Ravnica Rare
+
+Name:   Archweaver
+Cost:   5GG
+Type:   Creature — Spider
+Pow/Tgh:    (5/5)
+Rules Text:     Reach, trample
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Archwing Dragon
 Cost:   2RR
 Type:   Creature — Dragon
@@ -3225,6 +3278,14 @@ Pow/Tgh:
 Rules Text:     Until end of turn, creatures you control gain "Whenever this creature deals damage to an opponent, you may return target creature that player controls to its owner's hand."
 Set/Rarity:     New Phyrexia Uncommon
 
+Name:   Armada Wurm
+Cost:   2GGWW
+Type:   Creature — Wurm
+Pow/Tgh:    (5/5)
+Rules Text:     Trample
+When Armada Wurm enters the battlefield, put a 5/5 green Wurm creature token with trample onto the battlefield.
+Set/Rarity:     Return to Ravnica Mythic Rare
+
 Name:   Armadillo Cloak
 Cost:   1GW
 Type:   Enchantment — Aura
@@ -3376,6 +3437,13 @@ Rules Text:     {B}, {T}: Target creature gets +1/+0 until end of turn.
 {G}, {T}: Target creature gets +0/+1 until end of turn.
 Set/Rarity:     Mirage Common
 
+Name:   Armory Guard
+Cost:   3W
+Type:   Creature — Giant Soldier
+Pow/Tgh:    (2/5)
+Rules Text:     Armory Guard has vigilance as long as you control a Gate.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Arms Dealer
 Cost:   2R
 Type:   Creature — Goblin Rogue
@@ -3419,7 +3487,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated.
-Set/Rarity:     Scars of Mirrodin Common, Mirrodin Common, Mercadian Masques Uncommon
+Set/Rarity:     Return to Ravnica Uncommon, Scars of Mirrodin Common, Mirrodin Common, Mercadian Masques Uncommon
 
 Name:   Arrogant Bloodlord
 Cost:   1BB
@@ -3553,6 +3621,14 @@ Pow/Tgh:
 Rules Text:     Creatures you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)
 {1}{G}: Regenerate target creature.
 Set/Rarity:     Scars of Mirrodin Rare
+
+Name:   Ash Zealot
+Cost:   RR
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     First strike, haste
+Whenever a player casts a spell from a graveyard, Ash Zealot deals 3 damage to that player.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Asha's Favor
 Cost:   2W
@@ -3736,6 +3812,13 @@ Rules Text:     Cast Assassin's Blade only during the declare attackers step and
 Destroy target nonblack attacking creature.
 Set/Rarity:     Portal Uncommon
 
+Name:   Assassin's Strike
+Cost:   4BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target creature. Its controller discards a card.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Assassinate
 Cost:   2B
 Type:   Sorcery
@@ -3864,6 +3947,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Return Attunement to its owner's hand: Draw three cards, then discard four cards.
 Set/Rarity:     Urza's Saga Rare
+
+Name:   Auger Spree
+Cost:   1BR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +4/-4 until end of turn.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Augur il-Vec
 Cost:   1W
@@ -4562,6 +4652,13 @@ Rules Text:     Flying
 When Avenging Angel dies, you may put it on top of its owner's library.
 Set/Rarity:     Tempest Rare
 
+Name:   Avenging Arrow
+Cost:   2W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target creature that dealt damage this turn.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Avenging Druid
 Cost:   2G
 Type:   Creature — Human Druid
@@ -4627,6 +4724,21 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature can't be blocked unless defending player pays {3} for each creature he or she controls that's blocking it.
 Set/Rarity:     Alliances Common, Alliances Common
+
+Name:   Axebane Guardian
+Cost:   2G
+Type:   Creature — Human Druid
+Pow/Tgh:    (0/3)
+Rules Text:     Defender
+{T}: Add X mana in any combination of colors to your mana pool, where X is the number of creatures with defender you control.
+Set/Rarity:     Return to Ravnica Common
+
+Name:   Axebane Stag
+Cost:   6G
+Type:   Creature — Elk
+Pow/Tgh:    (6/7)
+Rules Text:     
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Axegrinder Giant
 Cost:   4RR
@@ -4705,6 +4817,21 @@ Rules Text:     Flying
 {U}: Azimaet Drake gets +1/+0 until end of turn. Activate this ability only once each turn.
 Set/Rarity:     Mirage Common
 
+Name:   Azor's Elocutors
+Cost:   3(W/U)(W/U)
+Type:   Creature — Human Advisor
+Pow/Tgh:    (3/5)
+Rules Text:     At the beginning of your upkeep, put a filibuster counter on Azor's Elocutors. Then if Azor's Elocutors has five or more filibuster counters on it, you win the game.
+Whenever a source deals damage to you, remove a filibuster counter from Azor's Elocutors.
+Set/Rarity:     Return to Ravnica Rare
+
+Name:   Azorius Arrester
+Cost:   1W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/1)
+Rules Text:     When Azorius Arrester enters the battlefield, detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Azorius Chancery
 Cost:   
 Type:   Land
@@ -4714,12 +4841,27 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 {T}: Add {W}{U} to your mana pool.
 Set/Rarity:     Duel Decks: Venser vs. Koth Common, Magic: The Gathering-Commander Common, Dissension Common
 
+Name:   Azorius Charm
+Cost:   WU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Creatures you control gain lifelink until end of turn; or draw a card; or put target attacking or blocking creature on top of its owner's library.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Azorius First-Wing
 Cost:   WU
 Type:   Creature — Griffin
 Pow/Tgh:    (2/2)
 Rules Text:     Flying, protection from enchantments
 Set/Rarity:     Dissension Common
+
+Name:   Azorius Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Azorius Guildgate enters the battlefield tapped.
+{T}: Add {W} or {U} to your mana pool.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Azorius Guildmage
 Cost:   (W/U)(W/U)
@@ -4737,6 +4879,21 @@ Rules Text:     Azorius Herald is unblockable.
 When Azorius Herald enters the battlefield, you gain 4 life.
 When Azorius Herald enters the battlefield, sacrifice it unless {U} was spent to cast it.
 Set/Rarity:     Dissension Uncommon
+
+Name:   Azorius Justiciar
+Cost:   2WW
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     When Azorius Justiciar enters the battlefield, detain up to two target creatures your opponents control. (Until your next turn, those creatures can't attack or block and their activated abilities can't be activated.)
+Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Azorius Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {W} or {U} to your mana pool.
+{W}{U}: Azorius Keyrune becomes a 2/2 white and blue Bird artifact creature with flying until end of turn.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Azorius Ploy
 Cost:   1WWU

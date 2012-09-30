@@ -571,6 +571,14 @@ Rules Text:     When Electric Eel enters the battlefield, it deals 1 damage to y
 {R}{R}: Electric Eel gets +2/+0 until end of turn and deals 1 damage to you.
 Set/Rarity:     The Dark Uncommon
 
+Name:   Electrickery
+Cost:   R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Electrickery deals 1 damage to target creature you don't control.
+Overload {1}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Electrolyze
 Cost:   1UR
 Type:   Instant
@@ -865,7 +873,7 @@ Cost:   G
 Type:   Creature — Elf Druid
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you.
-Set/Rarity:     Masters Edition III Common, Ravnica: City of Guilds Common, The Dark Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Masters Edition III Common, Ravnica: City of Guilds Common, The Dark Uncommon
 
 Name:   Elvish Aberration
 Cost:   5G
@@ -1932,6 +1940,13 @@ Rules Text:     Flying
 Discard a card: Return Ephemeron to its owner's hand.
 Set/Rarity:     Exodus Rare
 
+Name:   Epic Experiment
+Cost:   XUR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile the top X cards of your library. For each instant and sorcery card with converted mana cost X or less among them, you may cast that card without paying its mana cost. Then put all cards exiled this way that weren't cast into your graveyard.
+Set/Rarity:     Return to Ravnica Mythic Rare
+
 Name:   Epic Proportions
 Cost:   4GG
 Type:   Enchantment — Aura
@@ -2258,6 +2273,13 @@ Rules Text:     Flying
 At the beginning of your upkeep, return an artifact you control to its owner's hand.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Uncommon, Conflux Uncommon
 
+Name:   Essence Backlash
+Cost:   2UR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target creature spell. Essence Backlash deals damage equal to that spell's power to its controller.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Essence Bottle
 Cost:   2
 Type:   Artifact
@@ -2414,7 +2436,7 @@ Cost:   1GG
 Type:   Creature — Human Shaman
 Pow/Tgh:    (2/1)
 Rules Text:     When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Fifth Dawn Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Magic: The Gathering-Commander Uncommon, Fifth Dawn Uncommon
 
 Name:   Eternity Snare
 Cost:   5U
@@ -2446,6 +2468,14 @@ Type:   Artifact Creature — Human Knight
 Pow/Tgh:    (1/3)
 Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Set/Rarity:     Alara Reborn Common
+
+Name:   Ethereal Armor
+Cost:   W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +1/+1 for each enchantment you control and has first strike.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Ethereal Champion
 Cost:   2WWW
@@ -2966,6 +2996,13 @@ Rules Text:     Kicker {5} (You may pay an additional {5} as you cast this spell
 Target creature gets +2/+2 until end of turn. If Explosive Growth was kicked, that creature gets +5/+5 until end of turn instead.
 Set/Rarity:     Invasion Common
 
+Name:   Explosive Impact
+Cost:   5R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Explosive Impact deals 5 damage to target creature or player.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Explosive Revelation
 Cost:   3RR
 Type:   Sorcery
@@ -3153,6 +3190,13 @@ Type:   Tribal Instant — Elf
 Pow/Tgh:    
 Rules Text:     Destroy target non-Elf creature.
 Set/Rarity:     Lorwyn Common
+
+Name:   Eyes in the Skies
+Cost:   3W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put a 1/1 white Bird creature token with flying onto the battlefield, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Eyes of the Watcher
 Cost:   2U
