@@ -29,12 +29,12 @@ subset_list : subset ( ( COMMA! ( subset COMMA! )+ )? conj^ subset )? ;
 
 subset : number properties restriction*
          -> ^( SUBSET number properties restriction* )
+       | number OTHER properties restriction*
+         -> ^( SUBSET number ^( NOT SELF ) properties restriction* )
        | AMONG properties restriction*
          -> ^( SUBSET ^( NUMBER ANY ) properties restriction* )
        | ANOTHER properties restriction*
          -> ^( SUBSET ^( NOT SELF ) properties restriction* )
-       | ALL OTHER properties restriction*
-         -> ^( SUBSET ^( NUMBER ALL ) ^( NOT SELF ) properties restriction* )
        | THE LAST properties restriction*
          -> ^( SUBSET ^( LAST properties restriction* ) )
        | full_zone

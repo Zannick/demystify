@@ -51,6 +51,7 @@ event : zone_transfer
       | lose_life
       | tap_stuff
       | is_tapped
+      | sacrifice_stuff
       ;
 
 /* Events. */
@@ -112,9 +113,9 @@ lose_life : LOSE^ integer? LIFE ;
 
 tap_stuff : TAP subset ( FOR MANA )? -> ^( TAP[] subset MANA[]? );
 
-is_tapped : ( IS | ARE ) TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] )
-          | BECOME TAPPED -> ^( BECOME[] TAPPED )
-          ;
+is_tapped : ( IS | ARE ) TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
+
+sacrifice_stuff : SACRIFICE^ subset ;
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will
@@ -128,6 +129,7 @@ condition : has_ability
           | HAS! has_counters
           | int_prop_is
           | control_stuff
+          | is_somewhere
           ;
 
 /* Conditions. */
@@ -140,3 +142,5 @@ int_prop_is : POSS int_prop IS magic_number
               -> ^( VALUE int_prop magic_number );
 
 control_stuff : CONTROL subset -> ^( CONTROL[] subset );
+
+is_somewhere : ( IS | ARE ) ( IN | ON ) zone_subset -> ^( IN[] zone_subset );
