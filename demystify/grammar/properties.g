@@ -171,23 +171,23 @@ descriptor : named
            | cast
            | in_zones
            | with_keywords
-           | THAT ( ISNT | ARENT )
+           | THAT IS NOT
              ( desc_status | in_zones | ON spec_zone )
-             -> ^( NOT desc_status? in_zones? spec_zone? )
+             -> ^( NOT[] desc_status? in_zones? spec_zone? )
            ;
 
 named : NOT? NAMED REFBYNAME
-        -> {$NOT}? ^( NOT ^( NAMED[] REFBYNAME ) )
+        -> {$NOT}? ^( NOT[] ^( NAMED[] REFBYNAME ) )
         -> ^( NAMED[] REFBYNAME );
 
-control : player_subset DONT? CONTROL
-          -> {$DONT}? ^( NOT ^( CONTROL[] player_subset ) )
+control : player_subset ( DO NOT )? CONTROL
+          -> {$NOT}? ^( NOT[] ^( CONTROL[] player_subset ) )
           -> ^( CONTROL[] player_subset );
-own : player_subset DONT? OWN
-      -> {$DONT}? ^( NOT ^( OWN[] player_subset ) )
+own : player_subset ( DO NOT )? OWN
+      -> {$NOT}? ^( NOT[] ^( OWN[] player_subset ) )
       -> ^( OWN[] player_subset );
-cast : player_subset DONT? CAST
-       -> {$DONT}? ^( NOT ^( CAST[] player_subset ) )
+cast : player_subset ( DO NOT )? CAST
+       -> {$NOT}? ^( NOT[] ^( CAST[] player_subset ) )
        -> ^( CAST[] player_subset );
 
 in_zones : ( IN | FROM ) zone_subset -> ^( IN[] zone_subset );

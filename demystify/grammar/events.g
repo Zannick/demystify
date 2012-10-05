@@ -56,7 +56,7 @@ event : zone_transfer
 
 /* Events. */
 
-zone_transfer : ( ENTER | ( IS | ARE ) PUT ( INTO | ONTO ) ) a=zone_subset
+zone_transfer : ( ENTER | is_ PUT ( INTO | ONTO ) ) a=zone_subset
                 ( FROM ( b=zone_subset | ANYWHERE ) )?
                 -> ^( ENTER[] $a ^( FROM[] $b? ANYWHERE[]? )? )
               | LEAVE zone_subset
@@ -76,19 +76,19 @@ state_change : BECOME ( BLOCKED BY subset
                         -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
                       )
              | ATTACK ( (pl_subset)=> pl_subset | ALONE )?
-               ( AND ( ISNT | ARENT ) BLOCKED
+               ( AND IS NOT BLOCKED
                  -> ^( BECOME UNBLOCKED ALONE? pl_subset? )
                | -> ^( BECOME ATTACKING ALONE? pl_subset? )
                )
              | BLOCK ( subset | ALONE )? -> ^( BECOME BLOCKING ALONE? subset? )
-             | IS TURNED status -> ^( BECOME[] status )
+             | is_ TURNED status -> ^( BECOME[] status )
              ;
 
-cost_paid : POSS cost_prop IS NOT? PAID
-            -> {$NOT}? ^( NOT ^( PAID[] cost_prop ) )
+cost_paid : poss cost_prop IS NOT? PAID
+            -> {$NOT}? ^( NOT[] ^( PAID[] cost_prop ) )
             -> ^( PAID[] cost_prop )
-          | DONT? PAY ( A | subset POSS ) cost_prop
-            -> {$DONT}? ^( NOT ^( PAY[] cost_prop subset? ) )
+          | ( DO NOT )? PAY ( A | subset poss ) cost_prop
+            -> {$NOT}? ^( NOT[] ^( PAY[] cost_prop subset? ) )
             -> ^( PAY[] cost_prop subset? )
           ;
 
@@ -100,7 +100,7 @@ cycle_card : CYCLE^ subset ;
 deal_damage : DEAL COMBAT? DAMAGE ( TO subset )?
               -> ^( DAMAGE[] COMBAT[]? subset? );
 
-dealt_damage : ( POSS | IS | ARE ) DEALT integer? COMBAT? DAMAGE ( BY subset )?
+dealt_damage : is_ DEALT integer? COMBAT? DAMAGE ( BY subset )?
                -> ^( DEALT[] integer? COMBAT? DAMAGE[] subset? );
 
 discard_card : DISCARD^ subset ;
@@ -113,7 +113,7 @@ lose_life : LOSE^ integer? LIFE ;
 
 tap_stuff : TAP subset ( FOR MANA )? -> ^( TAP[] subset MANA[]? );
 
-is_tapped : ( IS | ARE ) TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
+is_tapped : is_ TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
 
 sacrifice_stuff : SACRIFICE^ subset ;
 
@@ -134,13 +134,13 @@ condition : has_ability
 
 /* Conditions. */
 
-has_ability : ( HAS | HAVE ) raw_keyword -> ^( HAS[] raw_keyword );
+has_ability : HAS raw_keyword -> ^( HAS[] raw_keyword );
 
-have_life : ( HAS | HAVE ) integer LIFE -> ^( VALUE LIFE[] integer );
+have_life : HAS integer LIFE -> ^( VALUE LIFE[] integer );
 
-int_prop_is : POSS int_prop IS magic_number
+int_prop_is : poss int_prop IS magic_number
               -> ^( VALUE int_prop magic_number );
 
 control_stuff : CONTROL subset -> ^( CONTROL[] subset );
 
-is_somewhere : ( IS | ARE ) ( IN | ON ) zone_subset -> ^( IN[] zone_subset );
+is_somewhere : is_ ( IN | ON ) zone_subset -> ^( IN[] zone_subset );

@@ -60,6 +60,9 @@ integer : ( s=NUMBER_SYM | w=number_word )
         | ANY AMOUNT OF -> ^( NUMBER ANY )
         ;
 
-// Unfortunately we can't have the lexer rule POSS match just a single quote
+// Unfortunately we can't have the lexer rule match just a single quote
 // in some cases but not others, so we use a parser rule to handle this.
-poss : POSS | SQUOTE ;
+poss : APOS_S | S_APOS | SQUOTE ;
+
+// Similarly, APOS_S sometimes means "is".
+is_ : IS | APOS_S ;

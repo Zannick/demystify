@@ -77,7 +77,7 @@ class Verb(Keyword):
 class Noun(Keyword):
     """ Nouns are different from verbs in that only one form of a token
         is provided, and the rest are generated.
-        A noun must have all both forms given as strings:
+        A noun must have both forms given as strings:
             singular, plural.
         Since we no longer generate possessive tokens based on nouns,
         Nouns are now simply Keywords that take exactly two words. """
@@ -142,8 +142,6 @@ _actions = [
     Verb(   ("DO", "do", "does"),
             ("DID", "did"),
             ("DOING", "doing")),
-    Verb(   ("DONT", "don't", "doesn't"),
-            ("DIDNT", "didn't")),
     Verb(   ("DOUBLE", "double", "doubles"),
             ("DOUBLED", "doubled")),
     Verb(   ("DRAW", "draw", "draws"),
@@ -405,21 +403,11 @@ _actions = [
             ("BEING", "being")),
     Verb(   ("CAN", "can"),
             ("COULD", "could")),
-    Verb(   ("CANT", "can't", "cannot"),
-            ("COULDNT", "couldn't")),
-    Verb(   ("IS", "is"),
-            ("WAS", "was")),
-    Verb(   ("ISNT", "isn't"),
-            ("WASNT", "wasn't")),
-    Verb(   ("ARE", "are"),
-            ("WERE", "were")),
-    Verb(   ("ARENT", "aren't"),
-            ("WERENT", "weren't")),
-    Verb(   ("HAS", "has", "have"),
+    Verb(   ("IS", "is", "are", "'re"),
+            ("WAS", "was", "were")),
+    Verb(   ("HAS", "has", "have", "'ve"),
             ("HAD", "had"),
             ("HAVING", "having")),
-    Verb(   ("HASNT", "hasn't", "haven't"),
-            ("HADNT", "hadn't")),
     Keyword(("MAY", "may")),
 ]
 for action in _actions:
@@ -1299,15 +1287,12 @@ _concepts = [
     # Pronouns
     Keyword(("YOU", "you")),
     Keyword(("YOUR", "your", "yours")),
-    Keyword(("YOU_ARE", "you're")),
-    Keyword(("YOU_HAVE", "you've")),
     # Their, or his or her
     Keyword(("THEIR", "their")),
     # Them, or him or her
     Keyword(("THEM", "them")),
     # They, or he or she
     Keyword(("THEY", "they")),
-    Keyword(("THEY_ARE", "they're")),
     Keyword(("ITSELF", "itself")),
     # Planeswalkers use these
     Keyword(("HE", "he")),
@@ -1387,7 +1372,6 @@ _concepts = [
     Keyword(("INSTEAD", "instead")),
     Keyword(("INTO", "into")),
     Keyword(("IT", "it")),
-    Keyword(("IT_IS", "it's")),
     Keyword(("ITS", "its")),
     Keyword(("LIKEWISE", "likewise")),
     Keyword(("ON", "on")),
@@ -1398,9 +1382,7 @@ _concepts = [
     Keyword(("RATHER", "rather")),
     Keyword(("STILL", "still")),
     Keyword(("THAT", "that")),
-    Keyword(("THAT_IS", "that's")),
     Keyword(("THERE", "there")),
-    Keyword(("THERE_IS", "there's")),
     Keyword(("THIS", "this")),
     Keyword(("THOSE", "those")),
     Keyword(("THOUGH", "though")),
@@ -1444,7 +1426,7 @@ _misc = [
     Keyword(("NEW", "new")),
     Keyword(("NON", "non", "non-")),
     Keyword(("NOR", "nor")),
-    Keyword(("NOT", "not")),
+    Keyword(("NOT", "not", "n't", "'t")),
     Keyword(("OF", "of")),
     Keyword(("OR", "or")),
     Keyword(("PART", "part")),
@@ -1520,19 +1502,20 @@ def _check_collision(w):
         return all_words[w]
 
 def _get_collision(s, force_token=False):
-    """ Check whether s collides with an existing token followed by POSS,
+    """ Check whether s collides with an existing token followed by one of
+        the three POSS tokens (APOS_S, S_APOS, or SQUOTE),
         or simply an existing token. If so, return a list of that token
-        (and POSS if applicable). If not, and force_token is True,
+        (and the POSS token if applicable). If not, and force_token is True,
         create a token and return that. """
     t = None
     if s[-2:] == "'s":
         t = _check_collision(s[:-2])
         if t:
-            return [t, 'POSS']
+            return [t, 'APOS_S']
     elif s[-2:] == "s'":
         t = _check_collision(s[:-2])
         if t:
-            return [t, 'POSS']
+            return [t, 'S_APOS']
         t = _check_collision(s[:-1])
         if t:
             return [t, 'SQUOTE']

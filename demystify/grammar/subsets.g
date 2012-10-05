@@ -99,11 +99,11 @@ attached_to : ATTACHED TO ( ref_object | properties )
 
 chosen_prop : ( OF | WITH ) THE CHOSEN prop_type -> ^( CHOSEN[] prop_type );
 
-not_chosen_prop : THAT ( ISNT | ARENT ) 
-                  ( chosen_prop -> ^( NOT chosen_prop )
+not_chosen_prop : THAT IS NOT
+                  ( chosen_prop -> ^( NOT[] chosen_prop )
                   | OF A prop_type CHOSEN THIS WAY
-                    -> ^( NOT ^( CHOSEN[] prop_type ) )
-                  | THE NAMED CARD -> ^( NOT ^( CHOSEN[] NAME ) )
+                    -> ^( NOT[] ^( CHOSEN[] prop_type ) )
+                  | THE NAMED CARD -> ^( NOT[] ^( CHOSEN[] NAME ) )
                   );
 
 from_expansion : FROM THE expansion EXPANSION -> ^( EXPANSION[] expansion );

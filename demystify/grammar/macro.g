@@ -57,7 +57,7 @@ obj_subtype : OBJ_SUBTYPE
             | PHYREXIA
             | TOWER
             | TRAP
-            | BOLAS POSS MEDITATION REALM -> BOLASS_MEDITATION_REALM
+            | BOLAS APOS_S MEDITATION REALM -> BOLASS_MEDITATION_REALM
             | NEW PHYREXIA -> NEW_PHYREXIA;
 
 ordinal_word : ORDINAL_WORD

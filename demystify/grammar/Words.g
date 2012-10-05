@@ -74,8 +74,6 @@ tokens {
     APPLIED;
     APPLY;
     ARABIAN_NIGHTS;
-    ARE;
-    ARENT;
     ARTIFACT;
     AS;
     ASSEMBLE;
@@ -135,7 +133,6 @@ tokens {
     BY;
     CAME;
     CAN;
-    CANT;
     CARD;
     CASCADE;
     CAST;
@@ -183,7 +180,6 @@ tokens {
     COPY;
     COST;
     COULD;
-    COULDNT;
     COUNT;
     COUNTED;
     COUNTER;
@@ -219,7 +215,6 @@ tokens {
     DEVOUR;
     DEVOURED;
     DID;
-    DIDNT;
     DIE;
     DIED;
     DIFFERENCE;
@@ -238,7 +233,6 @@ tokens {
     DIVISION;
     DO;
     DOING;
-    DONT;
     DOUBLE;
     DOUBLED;
     DOUBLE_STRIKE;
@@ -338,11 +332,9 @@ tokens {
     GUESSED;
     GUESSING;
     HAD;
-    HADNT;
     HALF;
     HAND;
     HAS;
-    HASNT;
     HASTE;
     HAUNT;
     HAUNTED;
@@ -380,12 +372,10 @@ tokens {
     INTIMIDATE;
     INTO;
     IS;
-    ISNT;
     IT;
     ITEM;
     ITS;
     ITSELF;
-    IT_IS;
     KICK;
     KICKED;
     KICKER;
@@ -699,15 +689,12 @@ tokens {
     TEXT;
     THAN;
     THAT;
-    THAT_IS;
     THE;
     THEIR;
     THEM;
     THEN;
     THERE;
-    THERE_IS;
     THEY;
-    THEY_ARE;
     THIS;
     THOSE;
     THOUGH;
@@ -772,10 +759,7 @@ tokens {
     WALK;
     WAR;
     WAS;
-    WASNT;
     WAY;
-    WERE;
-    WERENT;
     WHEN;
     WHERE;
     WHETHER;
@@ -797,8 +781,6 @@ tokens {
     WRONG;
     YOU;
     YOUR;
-    YOU_ARE;
-    YOU_HAVE;
     ZONE;
 }
 
@@ -1730,8 +1712,6 @@ SWITCHED : 'switched';
 TARGETED : 'targeted';
 TEAMMATE : 'teammates'
          | 'teammate';
-THERE_IS : 'there\'s';
-THEY_ARE : 'they\'re';
 TRAMPLED : 'trampled';
 UNATTACH : 'unattaches'
          | 'unattach';
@@ -1739,7 +1719,6 @@ UNPAIRED : 'unpaired';
 UNTAPPED : 'untapped';
 VANGUARD : 'vanguards'
          | 'vanguard';
-YOU_HAVE : 'you\'ve';
 ABANDON : 'abandons'
         | 'abandon';
 ABILITY : 'abilities'
@@ -1767,7 +1746,6 @@ CONTAIN : 'contains'
 CONTROL : 'controls'
         | 'control';
 CONVOKE : 'convoke';
-COULDNT : 'couldn\'t';
 COUNTED : 'counted';
 COUNTER : 'counters'
         | 'counter';
@@ -1869,7 +1847,6 @@ SUSPEND : 'suspends'
         | 'suspend';
 SWAPPED : 'swapped';
 TAPPING : 'tapping';
-THAT_IS : 'that\'s';
 TRAMPLE : 'tramples'
         | 'trample';
 TRIGGER : 'triggers'
@@ -1882,7 +1859,6 @@ UNLEASH : 'unleashes'
 WHETHER : 'whether';
 WINNING : 'winning';
 WITHOUT : 'without';
-YOU_ARE : 'you\'re';
 ABSORB : 'absorbs'
        | 'absorb';
 ACTIVE : 'active';
@@ -2029,7 +2005,6 @@ TURNED : 'turned';
 UNLESS : 'unless';
 UPKEEP : 'upkeeps'
        | 'upkeep';
-WERENT : 'weren\'t';
 WITHER : 'wither';
 ABOVE : 'above';
 ADDED : 'added';
@@ -2040,7 +2015,6 @@ AMONG : 'among';
 ANTED : 'anted';
 APPLY : 'applies'
       | 'apply';
-ARENT : 'aren\'t';
 BASIC : 'basic';
 BEGAN : 'began';
 BEGIN : 'begins'
@@ -2065,7 +2039,6 @@ CYCLE : 'cycles'
       | 'cycle';
 DEALT : 'dealt';
 DELVE : 'delve';
-DIDNT : 'didn\'t';
 DOING : 'doing';
 DRAWN : 'drawn';
 EMPTY : 'empties'
@@ -2093,14 +2066,10 @@ GRAFT : 'grafts'
 GREEN : 'green';
 GUESS : 'guesses'
       | 'guess';
-HADNT : 'hadn\'t';
-HASNT : 'haven\'t'
-      | 'hasn\'t';
 HASTE : 'haste';
 HAUNT : 'haunts'
       | 'haunt';
 HEADS : 'heads';
-IT_IS : 'it\'s';
 LABEL : 'label';
 LEAST : 'least';
 LEAVE : 'leaves'
@@ -2170,7 +2139,6 @@ UNTAP : 'untaps'
 UNTIL : 'until';
 USING : 'using';
 VALUE : 'value';
-WASNT : 'wasn\'t';
 WHERE : 'where';
 WHICH : 'whichever'
       | 'which';
@@ -2192,8 +2160,6 @@ BEEN : 'been';
 BLUE : 'blue';
 BOTH : 'both';
 CAME : 'came';
-CANT : 'cannot'
-     | 'can\'t';
 CARD : 'cards'
      | 'card';
 CAST : 'casts'
@@ -2211,8 +2177,6 @@ DEAL : 'deals'
 DECK : 'decks'
      | 'deck';
 DIED : 'died';
-DONT : 'doesn\'t'
-     | 'don\'t';
 DOWN : 'down';
 DRAW : 'draws'
      | 'draw';
@@ -2238,7 +2202,6 @@ HIDE : 'hides'
      | 'hide';
 HIGH : 'high';
 INTO : 'into';
-ISNT : 'isn\'t';
 ITEM : 'items'
      | 'item';
 KICK : 'kicks'
@@ -2325,7 +2288,6 @@ TYPE : 'types'
      | 'type';
 USED : 'used';
 WALK : 'walk';
-WERE : 'were';
 WHEN : 'whenever'
      | 'when';
 WHOM : 'whom';
@@ -2341,7 +2303,6 @@ ADD : 'adds'
 ALL : 'all';
 AND : 'and';
 ANY : 'any';
-ARE : 'are';
 BID : 'bids'
     | 'bid';
 BUT : 'but';
@@ -2358,6 +2319,7 @@ GET : 'gets'
 GOT : 'got';
 HAD : 'had';
 HAS : 'have'
+    | '\'ve'
     | 'has';
 HER : 'her';
 HID : 'hid';
@@ -2371,7 +2333,9 @@ NEW : 'new';
 NON : 'non-'
     | 'non';
 NOR : 'nor';
-NOT : 'not';
+NOT : 'n\'t'
+    | 'not'
+    | '\'t';
 ODD : 'odd';
 OUT : 'out';
 OWN : 'owns'
@@ -2392,7 +2356,8 @@ TOP : 'tops'
 USE : 'uses'
     | 'use';
 WAR : 'war';
-WAS : 'was';
+WAS : 'were'
+    | 'was';
 WAY : 'way';
 WHO : 'who';
 WIN : 'wins'
@@ -2408,7 +2373,9 @@ DO : 'does'
 HE : 'he';
 IF : 'if';
 IN : 'in';
-IS : 'is';
+IS : '\'re'
+   | 'are'
+   | 'is';
 IT : 'it';
 NO : 'no';
 OF : 'of';
