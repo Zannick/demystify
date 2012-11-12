@@ -52,12 +52,13 @@ event : zone_transfer
       | tap_stuff
       | is_tapped
       | sacrifice_stuff
+      | shuffle_library
       ;
 
 /* Events. */
 
-zone_transfer : ( ENTER | is_ PUT ( INTO | ONTO ) ) a=zone_subset
-                ( FROM ( b=zone_subset | ANYWHERE ) )?
+zone_transfer : ( ENTER | is_ ( PUT ( INTO | ONTO ) | RETURNED TO ) )
+                a=zone_subset ( FROM ( b=zone_subset | ANYWHERE ) )?
                 -> ^( ENTER[] $a ^( FROM[] $b? ANYWHERE[]? )? )
               | LEAVE zone_subset
                 -> ^( LEAVE[] zone_subset )
@@ -116,6 +117,8 @@ tap_stuff : TAP subset ( FOR MANA )? -> ^( TAP[] subset MANA[]? );
 is_tapped : is_ TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
 
 sacrifice_stuff : SACRIFICE^ subset ;
+
+shuffle_library : SHUFFLE^ player_poss LIBRARY ;
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will

@@ -55,6 +55,8 @@ parser grammar properties;
  * "and" in such a situation can be considered equivalent to "union". However,
  * "sacrifice a white and blue creature" uses it as "intersection"; here the
  * creature sacrificed must be both white and blue. Context is important.
+ * In some cases, the text may instead read "a creature that's both white and
+ * blue".
  */
 
 properties : a+=adjective*
@@ -171,9 +173,12 @@ descriptor : named
            | cast
            | in_zones
            | with_keywords
-           | THAT IS NOT
-             ( desc_status | in_zones | ON spec_zone )
-             -> ^( NOT[] desc_status? in_zones? spec_zone? )
+           | THAT is_
+             ( desc_status -> desc_status
+             | BOTH adjective AND adjective -> adjective+
+             | NOT ( desc_status | in_zones | ON spec_zone )
+               -> ^( NOT[] desc_status? in_zones? spec_zone? )
+             )
            ;
 
 named : NOT? NAMED REFBYNAME
