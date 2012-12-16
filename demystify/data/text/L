@@ -452,6 +452,14 @@ Enchanted creature has flying.
 When Launch is put into a graveyard from the battlefield, return Launch to its owner's hand.
 Set/Rarity:     Urza's Saga Common
 
+Name:   Launch Party
+Cost:   3B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     As an additional cost to cast Launch Party, sacrifice a creature.
+Destroy target creature. Its controller loses 2 life.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Lava Axe
 Cost:   4R
 Type:   Sorcery
@@ -1252,14 +1260,14 @@ Cost:   1B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.
-Set/Rarity:     Apocalypse Uncommon, Apocalypse Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Apocalypse Uncommon, Apocalypse Uncommon
 
 Name:   Life // Death (Life)
 Cost:   G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     All lands you control become 1/1 creatures until end of turn. They're still lands.
-Set/Rarity:     Apocalypse Uncommon, Apocalypse Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Apocalypse Uncommon, Apocalypse Uncommon
 
 Name:   Life Burst
 Cost:   1W
@@ -1295,7 +1303,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return up to three target land cards from your graveyard to your hand.
 Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Ravnica: City of Guilds Rare
 
 Name:   Life's Finale
 Cost:   4BB
@@ -2151,6 +2159,15 @@ Pow/Tgh:    (3/2)
 Rules Text:     When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from his or her graveyard into his or her library.
 Set/Rarity:     Dissension Rare
 
+Name:   Lobber Crew
+Cost:   2R
+Type:   Creature — Goblin Warrior
+Pow/Tgh:    (0/4)
+Rules Text:     Defender
+{T}: Lobber Crew deals 1 damage to each opponent.
+Whenever you cast a multicolored spell, untap Lobber Crew.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Lobotomy
 Cost:   2UB
 Type:   Sorcery
@@ -2255,7 +2272,7 @@ Pow/Tgh:
 Rules Text:     Lonely Sandbar enters the battlefield tapped.
 {T}: Add {U} to your mana pool.
 Cycling {U} ({U}, Discard this card: Draw a card.)
-Set/Rarity:     Magic: The Gathering-Commander Common, Onslaught Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Magic: The Gathering-Commander Common, Onslaught Common
 
 Name:   Long-Forgotten Gohei
 Cost:   3
@@ -2474,6 +2491,15 @@ Pow/Tgh:
 Rules Text:     Whenever a creature attacks you or a planeswalker you control, reveal the top card of your library. If it's a Forest card, remove that creature from combat. Then put the revealed card on the bottom of your library.
 Set/Rarity:     Dark Ascension Rare
 
+Name:   Lotleth Troll
+Cost:   BG
+Type:   Creature — Zombie Troll
+Pow/Tgh:    (2/1)
+Rules Text:     Trample
+Discard a creature card: Put a +1/+1 counter on Lotleth Troll.
+{B}: Regenerate Lotleth Troll.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Lotus Bloom
 Cost:   
 Type:   Artifact
@@ -2619,6 +2645,14 @@ Type:   Creature — Elephant Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     Loxodon Punisher gets +2/+2 for each Equipment attached to it.
 Set/Rarity:     Mirrodin Rare
+
+Name:   Loxodon Smiter
+Cost:   1GW
+Type:   Creature — Elephant Soldier
+Pow/Tgh:    (4/4)
+Rules Text:     Loxodon Smiter can't be countered.
+If a spell or ability an opponent controls causes you to discard Loxodon Smiter, put it onto the battlefield instead of putting it into your graveyard.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Loxodon Stalwart
 Cost:   3WW
@@ -2982,6 +3016,14 @@ Pow/Tgh:
 Rules Text:     {T}: Put a charge counter on Lux Cannon.
 {T}, Remove three charge counters from Lux Cannon: Destroy target permanent.
 Set/Rarity:     Scars of Mirrodin Mythic Rare
+
+Name:   Lyev Skyknight
+Cost:   1WU
+Type:   Creature — Human Knight
+Pow/Tgh:    (3/1)
+Rules Text:     Flying
+When Lyev Skyknight enters the battlefield, detain target nonland permanent an opponent controls. (Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.)
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Lymph Sliver
 Cost:   4W

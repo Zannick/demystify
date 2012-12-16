@@ -204,7 +204,7 @@ def parse_helper(cards, name, rulename, yesregex=None, noregex=None):
                 tree = parse_result.tree
                 results.append(tree)
                 if p.getNumberOfSyntaxErrors():
-                    mcase = _crawl_tree_for_errors(c.name, lineno, line, tree)
+                    mcase = _crawl_tree_for_errors(c.name, lineno, text, tree)
                     if mcase:
                         uerrors.add(mcase)
                     errors += 1

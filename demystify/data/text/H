@@ -189,7 +189,7 @@ Type:   Land — Plains Island
 Pow/Tgh:    
 Rules Text:     ({T}: Add {W} or {U} to your mana pool.)
 As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.
-Set/Rarity:     Dissension Rare
+Set/Rarity:     Return to Ravnica Rare, Dissension Rare
 
 Name:   Hallowed Ground
 Cost:   1W
@@ -802,6 +802,14 @@ Pow/Tgh:    (5/5)
 Rules Text:     Flying
 When Havoc Demon dies, all creatures get -5/-5 until end of turn.
 Set/Rarity:     Legions Rare
+
+Name:   Havoc Festival
+Cost:   4BR
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Players can't gain life.
+At the beginning of each player's upkeep, that player loses half his or her life, rounded up.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Hawkeater Moth
 Cost:   3G
@@ -1419,6 +1427,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her.
 Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Zendikar Uncommon
 
+Name:   Hellhole Flailer
+Cost:   1BR
+Type:   Creature — Ogre Warrior
+Pow/Tgh:    (3/2)
+Rules Text:     Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+{2}{B}{R}, Sacrifice Hellhole Flailer: Hellhole Flailer deals damage equal to its power to target player.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Hellhole Rats
 Cost:   2BR
 Type:   Creature — Rat
@@ -1703,7 +1719,7 @@ Cost:   GW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target player gains 7 life.
-Set/Rarity:     Duel Decks: Knights vs. Dragons Uncommon, Archenemy Uncommon, Invasion Uncommon
+Set/Rarity:     Return to Ravnica Uncommon, Duel Decks: Knights vs. Dragons Uncommon, Archenemy Uncommon, Invasion Uncommon
 
 Name:   Heroic Defiance
 Cost:   1W
@@ -1905,7 +1921,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}, Sacrifice a creature: You gain 1 life.
-Set/Rarity:     Mercadian Masques Rare
+Set/Rarity:     From the Vault: Realms Mythic Rare, Mercadian Masques Rare
 
 Name:   High Seas
 Cost:   2U
@@ -2601,6 +2617,13 @@ Rules Text:     {T}: Add {G} to your mana pool.
 Sacrifice Horn of Ramos: Add {G} to your mana pool.
 Set/Rarity:     Mercadian Masques Rare
 
+Name:   Horncaller's Chant
+Cost:   7G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put a 4/4 green Rhino creature token with trample onto the battlefield, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Horned Cheetah
 Cost:   2GW
 Type:   Creature — Cat
@@ -2773,6 +2796,13 @@ Pow/Tgh:
 Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
 Destroy all nontoken creatures.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Ravnica: City of Guilds Rare
+
+Name:   Hover Barrier
+Cost:   2U
+Type:   Creature — Illusion Wall
+Pow/Tgh:    (0/6)
+Rules Text:     Defender, flying
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Hoverguard Observer
 Cost:   2UU
@@ -3230,6 +3260,14 @@ Rules Text:     Destroy all enchantments.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Urza's Saga Common
 
+Name:   Hussar Patrol
+Cost:   2WU
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/4)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Vigilance
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Hyalopterous Lemure
 Cost:   4B
 Type:   Creature — Spirit
@@ -3311,6 +3349,14 @@ Type:   Creature — Human Artificer
 Pow/Tgh:    (2/2)
 Rules Text:     {T}: You may tap or untap target artifact an opponent controls.
 Set/Rarity:     Legends Uncommon
+
+Name:   Hypersonic Dragon
+Cost:   3UR
+Type:   Creature — Dragon
+Pow/Tgh:    (4/4)
+Rules Text:     Flying, haste
+You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Hypervolt Grasp
 Cost:   2R

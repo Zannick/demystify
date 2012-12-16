@@ -29,12 +29,12 @@ subset_list : subset ( ( COMMA! ( subset COMMA! )+ )? conj^ subset )? ;
 
 subset : number properties restriction*
          -> ^( SUBSET number properties restriction* )
+       | number OTHER properties restriction*
+         -> ^( SUBSET number ^( NOT SELF ) properties restriction* )
        | AMONG properties restriction*
          -> ^( SUBSET ^( NUMBER ANY ) properties restriction* )
        | ANOTHER properties restriction*
          -> ^( SUBSET ^( NOT SELF ) properties restriction* )
-       | ALL OTHER properties restriction*
-         -> ^( SUBSET ^( NUMBER ALL ) ^( NOT SELF ) properties restriction* )
        | THE LAST properties restriction*
          -> ^( SUBSET ^( LAST properties restriction* ) )
        | full_zone
@@ -99,11 +99,11 @@ attached_to : ATTACHED TO ( ref_object | properties )
 
 chosen_prop : ( OF | WITH ) THE CHOSEN prop_type -> ^( CHOSEN[] prop_type );
 
-not_chosen_prop : THAT ( ISNT | ARENT ) 
-                  ( chosen_prop -> ^( NOT chosen_prop )
+not_chosen_prop : THAT IS NOT
+                  ( chosen_prop -> ^( NOT[] chosen_prop )
                   | OF A prop_type CHOSEN THIS WAY
-                    -> ^( NOT ^( CHOSEN[] prop_type ) )
-                  | THE NAMED CARD -> ^( NOT ^( CHOSEN[] NAME ) )
+                    -> ^( NOT[] ^( CHOSEN[] prop_type ) )
+                  | THE NAMED CARD -> ^( NOT[] ^( CHOSEN[] NAME ) )
                   );
 
 from_expansion : FROM THE expansion EXPANSION -> ^( EXPANSION[] expansion );

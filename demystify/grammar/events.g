@@ -41,12 +41,24 @@ event : zone_transfer
       | phases_in_out
       | state_change
       | cost_paid
+      | cast_spell
+      | cycle_card
+      | deal_damage
+      | dealt_damage
+      | discard_card
+      | draw_card
+      | gain_life
+      | lose_life
+      | tap_stuff
+      | is_tapped
+      | sacrifice_stuff
+      | shuffle_library
       ;
 
 /* Events. */
 
-zone_transfer : ( ENTER | ( IS | ARE ) PUT ( INTO | ONTO ) ) a=zone_subset
-                ( FROM ( b=zone_subset | ANYWHERE ) )?
+zone_transfer : ( ENTER | is_ ( PUT ( INTO | ONTO ) | RETURNED TO ) )
+                a=zone_subset ( FROM ( b=zone_subset | ANYWHERE ) )?
                 -> ^( ENTER[] $a ^( FROM[] $b? ANYWHERE[]? )? )
               | LEAVE zone_subset
                 -> ^( LEAVE[] zone_subset )
@@ -64,18 +76,49 @@ state_change : BECOME ( BLOCKED BY subset
                       | UNATTACHED FROM subset
                         -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
                       )
-             | ATTACK ( (pl_subset)=> pl_subset )?
-               ( AND ( ISNT | ARENT ) BLOCKED
-                 -> ^( BECOME UNBLOCKED pl_subset? )
-               | -> ^( BECOME ATTACKING pl_subset? )
+             | ATTACK ( (pl_subset)=> pl_subset | ALONE )?
+               ( AND IS NOT BLOCKED
+                 -> ^( BECOME UNBLOCKED ALONE? pl_subset? )
+               | -> ^( BECOME ATTACKING ALONE? pl_subset? )
                )
-             | BLOCK subset? -> ^( BECOME BLOCKING subset? )
-             | IS TURNED status -> ^( BECOME[] status )
+             | BLOCK ( subset | ALONE )? -> ^( BECOME BLOCKING ALONE? subset? )
+             | is_ TURNED status -> ^( BECOME[] status )
              ;
 
-cost_paid : POSS cost_prop IS PAID -> ^( PAID[] cost_prop )
-          | PAY ( A | subset POSS ) cost_prop -> ^( PAY[] cost_prop subset )
+cost_paid : poss cost_prop IS NOT? PAID
+            -> {$NOT}? ^( NOT[] ^( PAID[] cost_prop ) )
+            -> ^( PAID[] cost_prop )
+          | ( DO NOT )? PAY ( A | subset poss ) cost_prop
+            -> {$NOT}? ^( NOT[] ^( PAY[] cost_prop subset? ) )
+            -> ^( PAY[] cost_prop subset? )
           ;
+
+// TODO: Collect alike verbs together into one rule?
+cast_spell : CAST^ subset ;
+
+cycle_card : CYCLE^ subset ;
+
+deal_damage : DEAL COMBAT? DAMAGE ( TO subset )?
+              -> ^( DAMAGE[] COMBAT[]? subset? );
+
+dealt_damage : is_ DEALT integer? COMBAT? DAMAGE ( BY subset )?
+               -> ^( DEALT[] integer? COMBAT? DAMAGE[] subset? );
+
+discard_card : DISCARD^ subset ;
+
+draw_card : DRAW^ A! CARD! ;
+
+gain_life : GAIN^ integer? LIFE ;
+
+lose_life : LOSE^ integer? LIFE ;
+
+tap_stuff : TAP subset ( FOR MANA )? -> ^( TAP[] subset MANA[]? );
+
+is_tapped : is_ TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
+
+sacrifice_stuff : SACRIFICE^ subset ;
+
+shuffle_library : SHUFFLE^ player_poss LIBRARY ;
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will
@@ -85,9 +128,22 @@ cost_paid : POSS cost_prop IS PAID -> ^( PAID[] cost_prop )
 // state (e.g. 'when SELF has flying, sacrifice it').
 
 condition : has_ability
+          | have_life
           | HAS! has_counters
+          | int_prop_is
+          | control_stuff
+          | is_somewhere
           ;
 
 /* Conditions. */
 
 has_ability : HAS raw_keyword -> ^( HAS[] raw_keyword );
+
+have_life : HAS integer LIFE -> ^( VALUE LIFE[] integer );
+
+int_prop_is : poss int_prop IS magic_number
+              -> ^( VALUE int_prop magic_number );
+
+control_stuff : CONTROL subset -> ^( CONTROL[] subset );
+
+is_somewhere : is_ ( IN | ON ) zone_subset -> ^( IN[] zone_subset );

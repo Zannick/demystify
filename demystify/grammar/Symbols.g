@@ -69,9 +69,11 @@ VAR_SYM : 'x'..'z' { $text = $text.upper() };
 
 MDASH : ( '\u2014' | '--' );
 
-POSS : '\'s' | 's\'' ;
+APOS_S : '\'s' ;
 
-WS : ( ' ' | '\t' | '\n' ) {$channel=HIDDEN;} ;
+S_APOS : 's\'' ;
+
+WS : ( ' ' | '\t' | '\n' ) { $channel=HIDDEN };
 
 fragment SNOW_SYM : 's';
 

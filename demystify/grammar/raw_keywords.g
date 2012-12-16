@@ -113,6 +113,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | SUNBURST
                     | TOTEM_ARMOR
                     | UNDYING
+                    | UNLEASH
                     | WITHER
                     ;
 
@@ -132,9 +133,11 @@ raw_keyword_cost : EQUIP
                  | MORPH
                  | MULTIKICKER
                  | NINJUTSU
+                 | OVERLOAD
                  | PROWL 
                  | RECOVER
                  | REPLICATE
+                 | SCAVENGE
                  | TRANSFIGURE
                  | TRANSMUTE
                  | UNEARTH

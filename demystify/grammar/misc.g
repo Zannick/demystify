@@ -34,7 +34,8 @@ number : integer
              | -> ^( NUMBER[] NUMBER[$ANY, "1"] )
              )
        | A SINGLE? -> ^( NUMBER NUMBER[$A, "1"] )
-       | NO -> ^( NUMBER NUMBER[$NO, "0"] );
+       | NO -> ^( NUMBER NUMBER[$NO, "0"] )
+       ;
 
 /* Not sure whether this should go in integer, or number, or somewhere else.
    Most references to "no more than" or "more than" are setting a maximum
@@ -59,6 +60,9 @@ integer : ( s=NUMBER_SYM | w=number_word )
         | ANY AMOUNT OF -> ^( NUMBER ANY )
         ;
 
-// Unfortunately we can't have the lexer rule POSS match just a single quote
+// Unfortunately we can't have the lexer rule match just a single quote
 // in some cases but not others, so we use a parser rule to handle this.
-poss : POSS | SQUOTE ;
+poss : APOS_S | S_APOS | SQUOTE ;
+
+// Similarly, APOS_S sometimes means "is".
+is_ : IS | APOS_S ;

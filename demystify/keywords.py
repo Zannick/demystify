@@ -77,7 +77,7 @@ class Verb(Keyword):
 class Noun(Keyword):
     """ Nouns are different from verbs in that only one form of a token
         is provided, and the rest are generated.
-        A noun must have all both forms given as strings:
+        A noun must have both forms given as strings:
             singular, plural.
         Since we no longer generate possessive tokens based on nouns,
         Nouns are now simply Keywords that take exactly two words. """
@@ -142,8 +142,6 @@ _actions = [
     Verb(   ("DO", "do", "does"),
             ("DID", "did"),
             ("DOING", "doing")),
-    Verb(   ("DONT", "don't", "doesn't"),
-            ("DIDNT", "didn't")),
     Verb(   ("DOUBLE", "double", "doubles"),
             ("DOUBLED", "doubled")),
     Verb(   ("DRAW", "draw", "draws"),
@@ -308,9 +306,14 @@ _actions = [
             ("CLASHED", "clashed"),
             ("CLASHING", "clashing"),
             ("CLASH", "clash")),
+    Verb(   ("DETAIN", "detain", "detains"),
+            ("DETAINED", "detained")),
     Verb(   ("FATESEAL", "fateseal", "fateseals"),
             ("FATESEALED", "fatesealed"),
             ("FATESEALING", "fatesealing")),
+    Verb(   ("POPULATE", "populate", "populates"),
+            ("POPULATED", "populated"),
+            ("POPULATING", "populating")),
     Verb(   ("PROLIFERATE", "proliferate", "proliferates"),
             ("PROLIFERATED", "proliferated"),
             ("PROLIFERATING", "proliferating"),
@@ -400,21 +403,11 @@ _actions = [
             ("BEING", "being")),
     Verb(   ("CAN", "can"),
             ("COULD", "could")),
-    Verb(   ("CANT", "can't", "cannot"),
-            ("COULDNT", "couldn't")),
-    Verb(   ("IS", "is"),
-            ("WAS", "was")),
-    Verb(   ("ISNT", "isn't"),
-            ("WASNT", "wasn't")),
-    Verb(   ("ARE", "are"),
-            ("WERE", "were")),
-    Verb(   ("ARENT", "aren't"),
-            ("WERENT", "weren't")),
-    Verb(   ("HAS", "has", "have"),
+    Verb(   ("IS", "is", "are", "'re"),
+            ("WAS", "was", "were")),
+    Verb(   ("HAS", "has", "have", "'ve"),
             ("HAD", "had"),
             ("HAVING", "having")),
-    Verb(   ("HASNT", "hasn't", "haven't"),
-            ("HADNT", "hadn't")),
     Keyword(("MAY", "may")),
 ]
 for action in _actions:
@@ -517,6 +510,8 @@ _abilities = [
     Keyword(("MULTIKICKER", "multikicker")),
     Keyword(("NINJUTSU", "ninjutsu")),
     Keyword(("OFFERING", "offering")),
+    Verb(   ("OVERLOAD", "overload", "overloads"),
+            ("OVERLOADED", "OVERLOADED")),
     Keyword(("PERSIST", "persist")),
     # Phasing
     Verb(   ("PHASE", "phase", "phases"),
@@ -536,6 +531,8 @@ _abilities = [
             ("REPLICATED", "replicated")),
     Keyword(("RETRACE", "retrace")),
     Keyword(("RIPPLE", "ripple")),
+    Verb(   ("SCAVENGE", "scavenge", "scavenges"),
+            ("SCAVENGED", "scavenged")),
     Keyword(("SHADOW", "shadow")),
     Keyword(("SOULBOND", "soulbond")),
     Keyword(("SOULSHIFT", "soulshift")),
@@ -554,6 +551,8 @@ _abilities = [
     Keyword(("UNDYING", "undying")),
     Verb(   ("UNEARTH", "unearth", "unearths"),
             ("UNEARTHED", "unearthed")),
+    Verb(   ("UNLEASH", "unleash", "unleashes"),
+            ("UNLEASHED", "unleashed")),
     Keyword(("VANISHING", "vanishing")),
     Keyword(("WITHER", "wither")),
     # Dead
@@ -674,6 +673,7 @@ _enchantment_types = [
 _land_types = [
     Noun("DESERT", "desert", "deserts"),
     Noun("FOREST", "forest", "forests"),
+    Noun("GATE", "gate", "gates"),
     Noun("ISLAND", "island", "islands"),
     Noun("LAIR", "lair", "lairs"),
     Noun("LOCUS", "locus", "loci"),
@@ -704,6 +704,7 @@ _planeswalker_types = [
     Keyword(("TEZZERET", "tezzeret")),
     Keyword(("TIBALT", "tibalt")),
     Keyword(("VENSER", "venser")),
+    Keyword(("VRASKA", "vraska")),
 ]
 
 _spell_types = [
@@ -1018,6 +1019,7 @@ counter_types = [
     "fade",
     "fate",
     "feather",
+    "filibuster",
     "flood",
     "fungus",
     "fuse",
@@ -1285,15 +1287,12 @@ _concepts = [
     # Pronouns
     Keyword(("YOU", "you")),
     Keyword(("YOUR", "your", "yours")),
-    Keyword(("YOU_ARE", "you're")),
-    Keyword(("YOU_HAVE", "you've")),
     # Their, or his or her
     Keyword(("THEIR", "their")),
     # Them, or him or her
     Keyword(("THEM", "them")),
     # They, or he or she
     Keyword(("THEY", "they")),
-    Keyword(("THEY_ARE", "they're")),
     Keyword(("ITSELF", "itself")),
     # Planeswalkers use these
     Keyword(("HE", "he")),
@@ -1373,7 +1372,6 @@ _concepts = [
     Keyword(("INSTEAD", "instead")),
     Keyword(("INTO", "into")),
     Keyword(("IT", "it")),
-    Keyword(("IT_IS", "it's")),
     Keyword(("ITS", "its")),
     Keyword(("LIKEWISE", "likewise")),
     Keyword(("ON", "on")),
@@ -1384,9 +1382,7 @@ _concepts = [
     Keyword(("RATHER", "rather")),
     Keyword(("STILL", "still")),
     Keyword(("THAT", "that")),
-    Keyword(("THAT_IS", "that's")),
     Keyword(("THERE", "there")),
-    Keyword(("THERE_IS", "there's")),
     Keyword(("THIS", "this")),
     Keyword(("THOSE", "those")),
     Keyword(("THOUGH", "though")),
@@ -1426,9 +1422,11 @@ _misc = [
     Keyword(("HOW", "how")),
     Keyword(("MAKE", "make")),
     Keyword(("MUST", "must")),
+    Keyword(("NEITHER", "neither")),
     Keyword(("NEW", "new")),
     Keyword(("NON", "non", "non-")),
-    Keyword(("NOT", "not")),
+    Keyword(("NOR", "nor")),
+    Keyword(("NOT", "not", "n't", "'t")),
     Keyword(("OF", "of")),
     Keyword(("OR", "or")),
     Keyword(("PART", "part")),
@@ -1504,24 +1502,29 @@ def _check_collision(w):
         return all_words[w]
 
 def _get_collision(s, force_token=False):
-    """ Check whether s collides with an existing token followed by POSS,
+    """ Check whether s collides with an existing token followed by one of
+        the three POSS tokens (APOS_S, S_APOS, or SQUOTE),
         or simply an existing token. If so, return a list of that token
-        (and POSS if applicable). If not, and force_token is True,
+        (and the POSS token if applicable). If not, and force_token is True,
         create a token and return that. """
     t = None
     if s[-2:] == "'s":
         t = _check_collision(s[:-2])
-    elif s[-2:] == "s'":
-        t = _check_collision(s[:-2]) or _check_collision(s[:-1])
-    if t:
-        return [t, 'POSS']
-    else:
-        t = _check_collision(s)
         if t:
-            return [t]
-        elif force_token:
-            all_words[s] = make_token_name(s)
-            return [all_words[s]]
+            return [t, 'APOS_S']
+    elif s[-2:] == "s'":
+        t = _check_collision(s[:-2])
+        if t:
+            return [t, 'S_APOS']
+        t = _check_collision(s[:-1])
+        if t:
+            return [t, 'SQUOTE']
+    t = _check_collision(s)
+    if t:
+        return [t]
+    elif force_token:
+        all_words[s] = make_token_name(s)
+        return [all_words[s]]
 
 collisions = set()
 partial_collisions = {}

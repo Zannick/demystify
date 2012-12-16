@@ -74,8 +74,6 @@ tokens {
     APPLIED;
     APPLY;
     ARABIAN_NIGHTS;
-    ARE;
-    ARENT;
     ARTIFACT;
     AS;
     ASSEMBLE;
@@ -135,7 +133,6 @@ tokens {
     BY;
     CAME;
     CAN;
-    CANT;
     CARD;
     CASCADE;
     CAST;
@@ -183,7 +180,6 @@ tokens {
     COPY;
     COST;
     COULD;
-    COULDNT;
     COUNT;
     COUNTED;
     COUNTER;
@@ -214,10 +210,11 @@ tokens {
     DESTROY;
     DESTROYED;
     DESTROYING;
+    DETAIN;
+    DETAINED;
     DEVOUR;
     DEVOURED;
     DID;
-    DIDNT;
     DIE;
     DIED;
     DIFFERENCE;
@@ -236,7 +233,6 @@ tokens {
     DIVISION;
     DO;
     DOING;
-    DONT;
     DOUBLE;
     DOUBLED;
     DOUBLE_STRIKE;
@@ -336,11 +332,9 @@ tokens {
     GUESSED;
     GUESSING;
     HAD;
-    HADNT;
     HALF;
     HAND;
     HAS;
-    HASNT;
     HASTE;
     HAUNT;
     HAUNTED;
@@ -378,12 +372,10 @@ tokens {
     INTIMIDATE;
     INTO;
     IS;
-    ISNT;
     IT;
     ITEM;
     ITS;
     ITSELF;
-    IT_IS;
     KICK;
     KICKED;
     KICKER;
@@ -449,6 +441,7 @@ tokens {
     MUST;
     NAME;
     NAMED;
+    NEITHER;
     NEW;
     NEW_PHYREXIA;
     NEXT;
@@ -456,6 +449,7 @@ tokens {
     NO;
     NON;
     NONE;
+    NOR;
     NOT;
     NOTE;
     NOTED;
@@ -484,6 +478,8 @@ tokens {
     OUT;
     OUTSIDE;
     OVER;
+    OVERLOAD;
+    OVERLOADED;
     OWN;
     OWNED;
     OWNER;
@@ -524,6 +520,9 @@ tokens {
     POISONED;
     POISONOUS;
     POOL;
+    POPULATE;
+    POPULATED;
+    POPULATING;
     POSTCOMBAT;
     POWER;
     PRECOMBAT;
@@ -608,6 +607,8 @@ tokens {
     SACRIFICED;
     SACRIFICING;
     SAME;
+    SCAVENGE;
+    SCAVENGED;
     SCHEME;
     SCRIED;
     SCRY;
@@ -688,15 +689,12 @@ tokens {
     TEXT;
     THAN;
     THAT;
-    THAT_IS;
     THE;
     THEIR;
     THEM;
     THEN;
     THERE;
-    THERE_IS;
     THEY;
-    THEY_ARE;
     THIS;
     THOSE;
     THOUGH;
@@ -741,6 +739,8 @@ tokens {
     UNDYING;
     UNEARTH;
     UNEARTHED;
+    UNLEASH;
+    UNLEASHED;
     UNLESS;
     UNPAIRED;
     UNTAP;
@@ -759,10 +759,7 @@ tokens {
     WALK;
     WAR;
     WAS;
-    WASNT;
     WAY;
-    WERE;
-    WERENT;
     WHEN;
     WHERE;
     WHETHER;
@@ -784,8 +781,6 @@ tokens {
     WRONG;
     YOU;
     YOUR;
-    YOU_ARE;
-    YOU_HAVE;
     ZONE;
 }
 
@@ -875,6 +870,7 @@ NUMBER_WORD : 'seventeen'
 OBJ_COUNTER : 'petrification'
             | 'intervention'
             | 'paralyzation'
+            | 'filibuster'
             | 'phylactery'
             | 'arrowhead'
             | 'awakening'
@@ -1326,6 +1322,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'urza\'s'
             | 'venser'
             | 'volver'
+            | 'vraska'
             | 'weirds'
             | 'whales'
             | 'wizard'
@@ -1360,6 +1357,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'foxes'
             | 'frogs'
             | 'fungi'
+            | 'gates'
             | 'germs'
             | 'giant'
             | 'gnome'
@@ -1429,6 +1427,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'eyes'
             | 'fish'
             | 'frog'
+            | 'gate'
             | 'germ'
             | 'goat'
             | 'hags'
@@ -1513,12 +1512,14 @@ FATESEALED : 'fatesealed';
 GRAVESTORM : 'gravestorm';
 INTIMIDATE : 'intimidate';
 MEDITATION : 'meditation';
+OVERLOADED : 'OVERLOADED';
 PHASED_OUT : 'phased-out';
 PHENOMENON : 'phenomenon'
            | 'phenomena';
 PLANAR_DIE : 'planar die';
 PLANESWALK : 'planeswalks'
            | 'planeswalk';
+POPULATING : 'populating';
 POSTCOMBAT : 'postcombat';
 PREVIOUSLY : 'previously';
 PROTECTION : 'protection';
@@ -1573,6 +1574,7 @@ OWNERSHIP : 'ownership';
 PERMANENT : 'permanents'
           | 'permanent';
 POISONOUS : 'poisonous';
+POPULATED : 'populated';
 PRECOMBAT : 'precombat';
 PREVENTED : 'prevented';
 RECOVERED : 'recovered';
@@ -1587,6 +1589,7 @@ RESTARTED : 'restarted';
 REVEALING : 'revealing';
 SACRIFICE : 'sacrifices'
           | 'sacrifice';
+SCAVENGED : 'scavenged';
 SEARCHING : 'searching';
 SEPARATED : 'separated';
 SHUFFLING : 'shuffling';
@@ -1606,6 +1609,7 @@ TRIGGERED : 'triggered';
 UNBLOCKED : 'unblocked';
 UNCHANGED : 'unchanged';
 UNEARTHED : 'unearthed';
+UNLEASHED : 'unleashed';
 UNTAPPING : 'untapping';
 VANISHING : 'vanishing';
 VIGILANCE : 'vigilance';
@@ -1640,6 +1644,7 @@ DECIDING : 'deciding';
 DECISION : 'decision';
 DECLARED : 'declared';
 DEFENDER : 'defender';
+DETAINED : 'detained';
 DEVOURED : 'devoured';
 DIRECTLY : 'directly';
 DIVIDING : 'dividing';
@@ -1674,8 +1679,12 @@ OFFERING : 'offering';
 OPPONENT : 'opponents'
          | 'opponent';
 ORIGINAL : 'original';
+OVERLOAD : 'overloads'
+         | 'overload';
 PHYREXIA : 'phyrexia';
 POISONED : 'poisoned';
+POPULATE : 'populates'
+         | 'populate';
 PRODUCED : 'produced';
 PROVOKED : 'provoked';
 RECENTLY : 'recently';
@@ -1688,6 +1697,8 @@ RESELECT : 'reselects'
 RESOLVED : 'resolved';
 RETURNED : 'returned';
 REVEALED : 'revealed';
+SCAVENGE : 'scavenges'
+         | 'scavenge';
 SEARCHED : 'searched';
 SECRETLY : 'secretly';
 SELECTED : 'selected';
@@ -1701,8 +1712,6 @@ SWITCHED : 'switched';
 TARGETED : 'targeted';
 TEAMMATE : 'teammates'
          | 'teammate';
-THERE_IS : 'there\'s';
-THEY_ARE : 'they\'re';
 TRAMPLED : 'trampled';
 UNATTACH : 'unattaches'
          | 'unattach';
@@ -1710,7 +1719,6 @@ UNPAIRED : 'unpaired';
 UNTAPPED : 'untapped';
 VANGUARD : 'vanguards'
          | 'vanguard';
-YOU_HAVE : 'you\'ve';
 ABANDON : 'abandons'
         | 'abandon';
 ABILITY : 'abilities'
@@ -1738,7 +1746,6 @@ CONTAIN : 'contains'
 CONTROL : 'controls'
         | 'control';
 CONVOKE : 'convoke';
-COULDNT : 'couldn\'t';
 COUNTED : 'counted';
 COUNTER : 'counters'
         | 'counter';
@@ -1786,6 +1793,7 @@ MAXIMUM : 'maximum';
 MINIMUM : 'minimum';
 MIRACLE : 'miracle';
 MODULAR : 'modular';
+NEITHER : 'neither';
 ONGOING : 'ongoing';
 OPENING : 'opening';
 ORDERED : 'ordered';
@@ -1839,7 +1847,6 @@ SUSPEND : 'suspends'
         | 'suspend';
 SWAPPED : 'swapped';
 TAPPING : 'tapping';
-THAT_IS : 'that\'s';
 TRAMPLE : 'tramples'
         | 'trample';
 TRIGGER : 'triggers'
@@ -1847,10 +1854,11 @@ TRIGGER : 'triggers'
 UNDYING : 'undying';
 UNEARTH : 'unearths'
         | 'unearth';
+UNLEASH : 'unleashes'
+        | 'unleash';
 WHETHER : 'whether';
 WINNING : 'winning';
 WITHOUT : 'without';
-YOU_ARE : 'you\'re';
 ABSORB : 'absorbs'
        | 'absorb';
 ACTIVE : 'active';
@@ -1890,6 +1898,8 @@ CYCLED : 'cycled';
 DAMAGE : 'damage';
 DECIDE : 'decides'
        | 'decide';
+DETAIN : 'detains'
+       | 'detain';
 DEVOUR : 'devours'
        | 'devour';
 DIVIDE : 'divides'
@@ -1995,7 +2005,6 @@ TURNED : 'turned';
 UNLESS : 'unless';
 UPKEEP : 'upkeeps'
        | 'upkeep';
-WERENT : 'weren\'t';
 WITHER : 'wither';
 ABOVE : 'above';
 ADDED : 'added';
@@ -2006,7 +2015,6 @@ AMONG : 'among';
 ANTED : 'anted';
 APPLY : 'applies'
       | 'apply';
-ARENT : 'aren\'t';
 BASIC : 'basic';
 BEGAN : 'began';
 BEGIN : 'begins'
@@ -2031,7 +2039,6 @@ CYCLE : 'cycles'
       | 'cycle';
 DEALT : 'dealt';
 DELVE : 'delve';
-DIDNT : 'didn\'t';
 DOING : 'doing';
 DRAWN : 'drawn';
 EMPTY : 'empties'
@@ -2059,14 +2066,10 @@ GRAFT : 'grafts'
 GREEN : 'green';
 GUESS : 'guesses'
       | 'guess';
-HADNT : 'hadn\'t';
-HASNT : 'haven\'t'
-      | 'hasn\'t';
 HASTE : 'haste';
 HAUNT : 'haunts'
       | 'haunt';
 HEADS : 'heads';
-IT_IS : 'it\'s';
 LABEL : 'label';
 LEAST : 'least';
 LEAVE : 'leaves'
@@ -2136,7 +2139,6 @@ UNTAP : 'untaps'
 UNTIL : 'until';
 USING : 'using';
 VALUE : 'value';
-WASNT : 'wasn\'t';
 WHERE : 'where';
 WHICH : 'whichever'
       | 'which';
@@ -2158,8 +2160,6 @@ BEEN : 'been';
 BLUE : 'blue';
 BOTH : 'both';
 CAME : 'came';
-CANT : 'cannot'
-     | 'can\'t';
 CARD : 'cards'
      | 'card';
 CAST : 'casts'
@@ -2177,8 +2177,6 @@ DEAL : 'deals'
 DECK : 'decks'
      | 'deck';
 DIED : 'died';
-DONT : 'doesn\'t'
-     | 'don\'t';
 DOWN : 'down';
 DRAW : 'draws'
      | 'draw';
@@ -2204,7 +2202,6 @@ HIDE : 'hides'
      | 'hide';
 HIGH : 'high';
 INTO : 'into';
-ISNT : 'isn\'t';
 ITEM : 'items'
      | 'item';
 KICK : 'kicks'
@@ -2291,7 +2288,6 @@ TYPE : 'types'
      | 'type';
 USED : 'used';
 WALK : 'walk';
-WERE : 'were';
 WHEN : 'whenever'
      | 'when';
 WHOM : 'whom';
@@ -2307,7 +2303,6 @@ ADD : 'adds'
 ALL : 'all';
 AND : 'and';
 ANY : 'any';
-ARE : 'are';
 BID : 'bids'
     | 'bid';
 BUT : 'but';
@@ -2324,6 +2319,7 @@ GET : 'gets'
 GOT : 'got';
 HAD : 'had';
 HAS : 'have'
+    | '\'ve'
     | 'has';
 HER : 'her';
 HID : 'hid';
@@ -2336,7 +2332,10 @@ MAY : 'may';
 NEW : 'new';
 NON : 'non-'
     | 'non';
-NOT : 'not';
+NOR : 'nor';
+NOT : 'n\'t'
+    | 'not'
+    | '\'t';
 ODD : 'odd';
 OUT : 'out';
 OWN : 'owns'
@@ -2357,7 +2356,8 @@ TOP : 'tops'
 USE : 'uses'
     | 'use';
 WAR : 'war';
-WAS : 'was';
+WAS : 'were'
+    | 'was';
 WAY : 'way';
 WHO : 'who';
 WIN : 'wins'
@@ -2373,7 +2373,9 @@ DO : 'does'
 HE : 'he';
 IF : 'if';
 IN : 'in';
-IS : 'is';
+IS : '\'re'
+   | 'are'
+   | 'is';
 IT : 'it';
 NO : 'no';
 OF : 'of';

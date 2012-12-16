@@ -755,7 +755,7 @@ Pow/Tgh:
 Rules Text:     Barren Moor enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 Cycling {B} ({B}, Discard this card: Draw a card.)
-Set/Rarity:     Magic: The Gathering-Commander Common, Archenemy Common, Duel Decks: Divine vs. Demonic Common, Onslaught Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Magic: The Gathering-Commander Common, Archenemy Common, Duel Decks: Divine vs. Demonic Common, Onslaught Common
 
 Name:   Barrenton Cragtreads
 Cost:   2(W/U)(W/U)
@@ -934,6 +934,13 @@ Pow/Tgh:    (3/2)
 Rules Text:     Battered Golem doesn't untap during your untap step.
 Whenever an artifact enters the battlefield, you may untap Battered Golem.
 Set/Rarity:     Fifth Dawn Common
+
+Name:   Batterhorn
+Cost:   4R
+Type:   Creature — Beast
+Pow/Tgh:    (4/3)
+Rules Text:     When Batterhorn enters the battlefield, you may destroy target artifact.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Battering Craghorn
 Cost:   2RR
@@ -1189,6 +1196,13 @@ Type:   Creature — Insect
 Pow/Tgh:    (1/1)
 Rules Text:     Flying, swampwalk
 Set/Rarity:     Tempest Common
+
+Name:   Bazaar Krovod
+Cost:   4W
+Type:   Creature — Beast
+Pow/Tgh:    (2/5)
+Rules Text:     Whenever Bazaar Krovod attacks, another target attacking creature gets +0/+2 until end of turn. Untap that creature.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Bazaar Trader
 Cost:   1R
@@ -1482,6 +1496,13 @@ Pow/Tgh:    (4/4)
 Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Other green creatures you control have intimidate.
 Set/Rarity:     Scars of Mirrodin Uncommon
+
+Name:   Bellows Lizard
+Cost:   R
+Type:   Creature — Lizard
+Pow/Tgh:    (1/1)
+Rules Text:     {1}{R}: Bellows Lizard gets +1/+0 until end of turn.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Belltower Sphinx
 Cost:   4U
@@ -2556,6 +2577,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     When Blister Beetle enters the battlefield, target creature gets -1/-1 until end of turn.
 Set/Rarity:     Shards of Alara Common
 
+Name:   Blistercoil Weird
+Cost:   (U/R)
+Type:   Creature — Weird
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever you cast an instant or sorcery spell, Blistercoil Weird gets +1/+1 until end of turn. Untap it.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Blistergrub
 Cost:   2B
 Type:   Creature — Horror
@@ -2677,7 +2705,7 @@ Type:   Land — Swamp Mountain
 Pow/Tgh:    
 Rules Text:     ({T}: Add {B} or {R} to your mana pool.)
 As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.
-Set/Rarity:     Dissension Rare
+Set/Rarity:     Return to Ravnica Rare, Dissension Rare
 
 Name:   Blood Cultist
 Cost:   1BR
@@ -2917,6 +2945,14 @@ Type:   Creature — Vampire
 Pow/Tgh:    (1/1)
 Rules Text:     Sacrifice a creature: Put a +1/+1 counter on Bloodflow Connoisseur.
 Set/Rarity:     Avacyn Restored Common
+
+Name:   Bloodfray Giant
+Cost:   2RR
+Type:   Creature — Giant
+Pow/Tgh:    (4/3)
+Rules Text:     Trample
+Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Bloodghast
 Cost:   BB
@@ -3198,6 +3234,14 @@ Pow/Tgh:    (2/1)
 Rules Text:     Blurred Mongoose can't be countered.
 Shroud (This permanent can't be the target of spells or abilities.)
 Set/Rarity:     Invasion Rare
+
+Name:   Blustersquall
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Tap target creature you don't control.
+Overload {3}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Boa Constrictor
 Cost:   4G
@@ -3722,7 +3766,7 @@ Cost:   1G
 Type:   Creature — Wurm
 Pow/Tgh:    (*/*)
 Rules Text:     Boneyard Wurm's power and toughness are each equal to the number of creature cards in your graveyard.
-Set/Rarity:     Innistrad Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Innistrad Uncommon
 
 Name:   Bonfire of the Damned
 Cost:   XXR
@@ -3745,7 +3789,7 @@ Name:   Book Burning
 Cost:   1R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Any player may have Book Burning deal 6 damage to him or her. If no one does, put the top six cards of target player's library into his or her graveyard.
+Rules Text:     Any player may have Book Burning deal 6 damage to him or her. If no one does, target player puts the top six cards of his or her library into his or her graveyard.
 Set/Rarity:     Judgment Common
 
 Name:   Book of Rass
@@ -3923,7 +3967,7 @@ Type:   Legendary Land
 Pow/Tgh:    
 Rules Text:     Boseiju, Who Shelters All enters the battlefield tapped.
 {T}, Pay 2 life: Add {1} to your mana pool. If that mana is spent on an instant or sorcery spell, that spell can't be countered by spells or abilities.
-Set/Rarity:     Champions of Kamigawa Rare
+Set/Rarity:     From the Vault: Realms Mythic Rare, Champions of Kamigawa Rare
 
 Name:   Bosh, Iron Golem
 Cost:   8
@@ -4133,7 +4177,7 @@ Type:   Creature — Insect
 Pow/Tgh:    (1/1)
 Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Sacrifice Brain Weevil: Target player discards two cards. Activate this ability only any time you could cast a sorcery.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Innistrad Common
 
 Name:   Brainbite
 Cost:   2UB
@@ -4163,7 +4207,7 @@ Cost:   U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Draw three cards, then put two cards from your hand on top of your library in any order.
-Set/Rarity:     Magic: The Gathering-Commander Common, Masters Edition II Common, Beatdown Box Set Common, Mercadian Masques Common, Fifth Edition Common, Ice Age Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Magic: The Gathering-Commander Common, Masters Edition II Common, Beatdown Box Set Common, Mercadian Masques Common, Fifth Edition Common, Ice Age Common
 
 Name:   Brainwash
 Cost:   W
@@ -4184,7 +4228,7 @@ Name:   Bramble Elemental
 Cost:   3GG
 Type:   Creature — Elemental
 Pow/Tgh:    (4/4)
-Rules Text:     Whenever an Aura becomes attached to Bramble Elemental or enters the battlefield attached to Bramble Elemental, put two 1/1 green Saproling creature tokens onto the battlefield.
+Rules Text:     Whenever an Aura becomes attached to Bramble Elemental, put two 1/1 green Saproling creature tokens onto the battlefield.
 Set/Rarity:     Planechase 2012 Edition Common, Ravnica: City of Guilds Common
 
 Name:   Bramblecrush
@@ -4369,7 +4413,7 @@ Name:   Breaking Point
 Cost:   1RR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Any player may have Breaking Point deal 6 damage to him or her. If no one does, destroy all creatures and they can't be regenerated.
+Rules Text:     Any player may have Breaking Point deal 6 damage to him or her. If no one does, destroy all creatures. Creatures destroyed this way can't be regenerated.
 Set/Rarity:     Judgment Rare
 
 Name:   Breaking Wave
@@ -4906,6 +4950,13 @@ Pow/Tgh:
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Add {G} or {W} to your mana pool. Brushland deals 1 damage to you.
 Set/Rarity:     Tenth Edition Rare, Ninth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Ice Age Rare
+
+Name:   Brushstrider
+Cost:   1G
+Type:   Creature — Beast
+Pow/Tgh:    (3/1)
+Rules Text:     Vigilance
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Brushwagg
 Cost:   1GG

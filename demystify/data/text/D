@@ -28,6 +28,14 @@ Rules Text:     Flying
 Daggerclaw Imp can't block.
 Set/Rarity:     Duel Decks: Divine vs. Demonic Uncommon, Guildpact Uncommon
 
+Name:   Daggerdrome Imp
+Cost:   1B
+Type:   Creature — Imp
+Pow/Tgh:    (1/1)
+Rules Text:     Flying
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Daily Regimen
 Cost:   W
 Type:   Enchantment — Aura
@@ -78,7 +86,7 @@ Pow/Tgh:
 Rules Text:     Dakmor Salvage enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Future Sight Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Future Sight Uncommon
 
 Name:   Dakmor Scorpion
 Cost:   1B
@@ -332,6 +340,14 @@ Rules Text:     Enchant creature
 Enchanted creature gets +1/+1.
 Sacrifice a creature: Regenerate enchanted creature.
 Set/Rarity:     Visions Common
+
+Name:   Dark Revenant
+Cost:   3B
+Type:   Creature — Spirit
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+When Dark Revenant dies, put it on top of its owner's library.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Dark Ritual
 Cost:   B
@@ -975,6 +991,13 @@ Pow/Tgh:
 Rules Text:     You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card's power to target creature.
 Set/Rarity:     Worldwake Common
 
+Name:   Dead Reveler
+Cost:   2B
+Type:   Creature — Zombie
+Pow/Tgh:    (2/3)
+Rules Text:     Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Dead Ringers
 Cost:   4B
 Type:   Sorcery
@@ -1004,6 +1027,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     {R}, Sacrifice a Zombie: Deadapult deals 2 damage to target creature or player.
 Set/Rarity:     Planeshift Rare
+
+Name:   Deadbridge Goliath
+Cost:   2GG
+Type:   Creature — Insect
+Pow/Tgh:    (5/5)
+Rules Text:     Scavenge {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Deadeye Navigator
 Cost:   4UU
@@ -1108,7 +1138,7 @@ Name:   Death Cloud
 Cost:   XBBB
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Each player loses X life, then discards X cards, then sacrifices X creatures, then sacrifices X lands.
+Rules Text:     Each player loses X life, discards X cards, sacrifices X creatures, then sacrifices X lands.
 Set/Rarity:     Darksteel Rare
 
 Name:   Death Cultist
@@ -1265,6 +1295,13 @@ Pow/Tgh:
 Rules Text:     Return two target creature cards from your graveyard to your hand.
 Set/Rarity:     Exodus Common
 
+Name:   Death's Presence
+Cost:   5G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature you control dies, put X +1/+1 counters on target creature you control, where X is the power of the creature that died.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Death's Shadow
 Cost:   B
 Type:   Creature — Avatar
@@ -1410,6 +1447,15 @@ Rules Text:     Equipped creature gets +2/+2.
 Whenever equipped creature dies, you may put a creature card from your hand onto the battlefield and attach Deathrender to it.
 Equip {2}
 Set/Rarity:     Lorwyn Rare
+
+Name:   Deathrite Shaman
+Cost:   (B/G)
+Type:   Creature — Elf Shaman
+Pow/Tgh:    (1/2)
+Rules Text:     {T}: Exile target land card from a graveyard. Add one mana of any color to your mana pool.
+{B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.
+{G}, {T}: Exile target creature card from a graveyard. You gain 2 life.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Deathspore Thallid
 Cost:   1B
@@ -2295,6 +2341,14 @@ Pow/Tgh:
 Rules Text:     Destroy target land. Its controller discards a card.
 Set/Rarity:     Zendikar Common
 
+Name:   Desecration Demon
+Cost:   2BB
+Type:   Creature — Demon
+Pow/Tgh:    (6/6)
+Rules Text:     Flying
+At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Desecration Elemental
 Cost:   3B
 Type:   Creature — Elemental
@@ -2316,7 +2370,7 @@ Type:   Land — Desert
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Desert deals 1 damage to target attacking creature. Activate this ability only during the end of combat step.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Arabian Nights Common
+Set/Rarity:     From the Vault: Realms Mythic Rare, Time Spiral "Timeshifted" Special, Arabian Nights Common
 
 Name:   Desert Drake
 Cost:   3R
@@ -2462,6 +2516,13 @@ Pow/Tgh:
 Rules Text:     {T}: Destroy target permanent you own. It can't be regenerated.
 Set/Rarity:     Masters Edition II Rare, Ice Age Rare
 
+Name:   Destroy the Evidence
+Cost:   4B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target land. Its controller reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Destructive Flow
 Cost:   BRG
 Type:   Enchantment
@@ -2492,6 +2553,14 @@ Rules Text:     Enchant creature
 Enchanted creature's activated abilities can't be activated.
 {1}{W}: Attach Detainment Spell to target creature.
 Set/Rarity:     Time Spiral Common
+
+Name:   Detention Sphere
+Cost:   1WU
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     When Detention Sphere enters the battlefield, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.
+When Detention Sphere leaves the battlefield, return the exiled cards to the battlefield under their owner's control.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Detonate
 Cost:   XR
@@ -2554,6 +2623,14 @@ Pow/Tgh:
 Rules Text:     Return all nonland permanents to their owners' hands.
 Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 Set/Rarity:     Avacyn Restored Rare
+
+Name:   Deviant Glee
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+1 and has "{R}: This creature gains trample until end of turn."
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Devil's Play
 Cost:   XR
@@ -3228,7 +3305,7 @@ Cost:   U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target instant spell.
-Set/Rarity:     Worldwake Common
+Set/Rarity:     Return to Ravnica Common, Worldwake Common
 
 Name:   Dispeller's Capsule
 Cost:   W
@@ -3318,7 +3395,7 @@ Cost:   1UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
-Set/Rarity:     Innistrad Uncommon, Mirage Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Innistrad Uncommon, Mirage Uncommon
 
 Name:   Dissipation Field
 Cost:   2UU
@@ -3576,7 +3653,7 @@ Pow/Tgh:    (3/5)
 Rules Text:     ({(u/r)} can be paid with either {U} or {R}.)
 Flying
 Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
-Set/Rarity:     Guildpact Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Guildpact Rare
 
 Name:   Djinn of Wishes
 Cost:   3UU
@@ -3725,7 +3802,7 @@ Type:   Creature — Elemental
 Pow/Tgh:    (10/10)
 Rules Text:     Trample
 At the beginning of your upkeep, sacrifice a creature. You gain life equal to that creature's toughness.
-Set/Rarity:     Eventide Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Eventide Rare
 
 Name:   Doomsday
 Cost:   BBB
@@ -3759,6 +3836,14 @@ Pow/Tgh:
 Rules Text:     Door to Nothingness enters the battlefield tapped.
 {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice Door to Nothingness: Target player loses the game.
 Set/Rarity:     Magic 2013 Rare, Planechase Rare, Fifth Dawn Rare
+
+Name:   Doorkeeper
+Cost:   1U
+Type:   Creature — Homunculus
+Pow/Tgh:    (0/4)
+Rules Text:     Defender
+{2}{U}, {T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of creatures with defender you control.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Doran, the Siege Tower
 Cost:   BGW
@@ -3899,6 +3984,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Tap up to three target creatures.
 Set/Rarity:     Magic 2013 Common
+
+Name:   Downsize
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you don't control gets -4/-0 until end of turn.
+Overload {2}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Dowsing Shaman
 Cost:   4G
@@ -4183,6 +4276,13 @@ Flying
 When Draining Whelk enters the battlefield, counter target spell. Put X +1/+1 counters on Draining Whelk, where X is that spell's converted mana cost.
 Set/Rarity:     Time Spiral Rare
 
+Name:   Drainpipe Vermin
+Cost:   B
+Type:   Creature — Rat
+Pow/Tgh:    (1/1)
+Rules Text:     When Drainpipe Vermin dies, you may pay {B}. If you do, target player discards a card.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Drake Familiar
 Cost:   1U
 Type:   Creature — Drake
@@ -4245,6 +4345,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     You may put a green creature card from your hand onto the battlefield.
 Set/Rarity:     Shadowmoor Rare
+
+Name:   Dramatic Rescue
+Cost:   WU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Return target creature to its owner's hand. You gain 2 life.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Drana, Kalastria Bloodchief
 Cost:   3BB
@@ -4357,6 +4464,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     White creatures get -1/-1.
 Set/Rarity:     Classic Sixth Edition Uncommon, Tempest Uncommon
+
+Name:   Dreadbore
+Cost:   BR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target creature or planeswalker.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Dreadship Reef
 Cost:   
@@ -4562,6 +4676,14 @@ Rules Text:     Sacrifice a creature or land.
 
 Draw a card.
 Set/Rarity:     Invasion Uncommon
+
+Name:   Dreg Mangler
+Cost:   1BG
+Type:   Creature — Plant Zombie
+Pow/Tgh:    (3/3)
+Rules Text:     Haste
+Scavenge {3}{B}{G} ({3}{B}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Uncommon, Duel Decks: Izzet vs. Golgari Uncommon
 
 Name:   Dreg Reaver
 Cost:   4B
@@ -4881,6 +5003,13 @@ Pow/Tgh:    (1/3)
 Rules Text:     Tap an untapped Merfolk you control: Target player puts the top card of his or her library into his or her graveyard.
 Set/Rarity:     Lorwyn Uncommon
 
+Name:   Drudge Beetle
+Cost:   1G
+Type:   Creature — Insect
+Pow/Tgh:    (2/2)
+Rules Text:     Scavenge {5}{G} ({5}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Drudge Reavers
 Cost:   3B
 Type:   Creature — Skeleton
@@ -4926,6 +5055,13 @@ Rules Text:     Enchant creature
 Whenever enchanted creature is dealt damage, its controller puts that many 1/1 green Squirrel creature tokens onto the battlefield.
 Set/Rarity:     Odyssey Uncommon
 
+Name:   Druid's Deliverance
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent all combat damage that would be dealt to you this turn. Populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Druid's Familiar
 Cost:   3G
 Type:   Creature — Bear
@@ -4970,7 +5106,14 @@ Color:  Green
 Type:   Land Creature — Forest Dryad
 Pow/Tgh:    (1/1)
 Rules Text:     (Dryad Arbor isn't a spell, it's affected by summoning sickness, and it has "{T}: Add {G} to your mana pool.")
-Set/Rarity:     Future Sight Uncommon
+Set/Rarity:     From the Vault: Realms Mythic Rare, Future Sight Uncommon
+
+Name:   Dryad Militant
+Cost:   (G/W)
+Type:   Creature — Dryad Soldier
+Pow/Tgh:    (2/1)
+Rules Text:     If an instant or sorcery card would be put into a graveyard from anywhere, exile it instead.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Dryad Sophisticate
 Cost:   1G
@@ -5499,6 +5642,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When enchanted creature dies, target player discards two cards.
 Set/Rarity:     Urza's Destiny Common
+
+Name:   Dynacharge
+Cost:   R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you control gets +2/+0 until end of turn.
+Overload {2}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Dystopia
 Cost:   1BB

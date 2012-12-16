@@ -641,6 +641,14 @@ Rules Text:     Defender (This creature can't attack.)
 Exile a creature card from your graveyard: Put X +0/+1 counters on Necropolis, where X is the exiled card's converted mana cost.
 Set/Rarity:     The Dark Uncommon
 
+Name:   Necropolis Regent
+Cost:   3BBB
+Type:   Creature — Vampire
+Pow/Tgh:    (6/5)
+Rules Text:     Flying
+Whenever a creature you control deals combat damage to a player, put that many +1/+1 counters on it.
+Set/Rarity:     Return to Ravnica Mythic Rare
+
 Name:   Necropotence
 Cost:   BBB
 Type:   Enchantment
@@ -1124,6 +1132,14 @@ Pow/Tgh:
 Rules Text:     Each player may search his or her library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it.
 Set/Rarity:     Odyssey Rare
 
+Name:   New Prahv Guildmage
+Cost:   WU
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {W}{U}: Target creature gains flying until end of turn.
+{3}{W}{U}: Detain target nonland permanent an opponent controls. (Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.)
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Nezumi Bone-Reader
 Cost:   1B
 Type:   Creature — Rat Shaman
@@ -1355,7 +1371,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player reveals his or her hand. You choose a card from it. That player discards that card.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Nightscape Apprentice
 Cost:   B
@@ -1658,6 +1674,15 @@ Pow/Tgh:    (2/3)
 Rules Text:     If Nissa's Chosen would die, put it on the bottom of its owner's library instead.
 Set/Rarity:     Zendikar Common
 
+Name:   Niv-Mizzet, Dracogenius
+Cost:   2UURR
+Type:   Legendary Creature — Dragon Wizard
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+Whenever Niv-Mizzet, Dracogenius deals damage to a player, you may draw a card.
+{U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to target creature or player.
+Set/Rarity:     Return to Ravnica Mythic Rare
+
 Name:   Niv-Mizzet, the Firemind
 Cost:   2UURR
 Type:   Legendary Creature — Dragon Wizard
@@ -1665,7 +1690,7 @@ Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.
 {T}: Draw a card.
-Set/Rarity:     From the Vault: Dragons Rare, Guildpact Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Mythic Rare, From the Vault: Dragons Rare, Guildpact Rare
 
 Name:   Niveous Wisps
 Cost:   W
@@ -1675,13 +1700,28 @@ Rules Text:     Target creature becomes white until end of turn. Tap that creatu
 Draw a card.
 Set/Rarity:     Shadowmoor Common
 
+Name:   Nivix Guildmage
+Cost:   UR
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {1}{U}{R}: Draw a card, then discard a card.
+{2}{U}{R}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Nivix, Aerie of the Firemind
 Cost:   
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast that card if it's an instant or sorcery.
-Set/Rarity:     Guildpact Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Guildpact Uncommon
+
+Name:   Nivmagus Elemental
+Cost:   (U/R)
+Type:   Creature — Elemental
+Pow/Tgh:    (1/2)
+Rules Text:     Exile an instant or sorcery spell you control: Put two +1/+1 counters on Nivmagus Elemental. (That spell won't resolve.)
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Nix
 Cost:   U

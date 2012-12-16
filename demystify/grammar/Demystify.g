@@ -54,6 +54,7 @@ tokens {
     PAY_PER;
     PER;
     PLAYER_GROUP;
+    POSS;
     PROPERTIES;
     PT;
     REMOVE_COUNTERS;

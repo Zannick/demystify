@@ -4,7 +4,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
 Return target creature to its owner's hand.
-Set/Rarity:     Guildpact Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Guildpact Uncommon
 
 Name:   Vaevictis Asmadi
 Cost:   2BBRRGG
@@ -248,6 +248,14 @@ Enchanted creature gets +1/+1 for each other creature you control.
 Other creatures you control get -1/-1.
 Set/Rarity:     Visions Uncommon
 
+Name:   Vandalblast
+Cost:   R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target artifact you don't control.
+Overload {4}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Vanguard's Shield
 Cost:   2
 Type:   Artifact — Equipment
@@ -324,6 +332,13 @@ Pow/Tgh:    (3/4)
 Rules Text:     Cumulative upkeep—Put a 1/1 red Survivor creature token onto the battlefield under an opponent's control. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 Trample; rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)
 Set/Rarity:     Masters Edition Rare, Alliances Rare
+
+Name:   Vassal Soul
+Cost:   1(W/U)(W/U)
+Type:   Creature — Spirit
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Vassal's Duty
 Cost:   3W
@@ -1016,7 +1031,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     You may have Vesuva enter the battlefield tapped as a copy of any land on the battlefield.
-Set/Rarity:     Time Spiral Rare
+Set/Rarity:     From the Vault: Realms Mythic Rare, Time Spiral Rare
 
 Name:   Vesuvan Doppelganger
 Cost:   3UU
@@ -1217,6 +1232,13 @@ Type:   Creature — Viashino
 Pow/Tgh:    (4/3)
 Rules Text:     Echo {2}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 Set/Rarity:     Urza's Saga Common
+
+Name:   Viashino Racketeer
+Cost:   2R
+Type:   Creature — Viashino Rogue
+Pow/Tgh:    (2/1)
+Rules Text:     When Viashino Racketeer enters the battlefield, you may discard a card. If you do, draw a card.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Viashino Runner
 Cost:   3R
@@ -1463,7 +1485,7 @@ Cost:   2BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return target creature card from your graveyard to the battlefield. If {G} was spent to cast Vigor Mortis, that creature enters the battlefield with an additional +1/+1 counter on it.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Vigorous Charge
 Cost:   G
@@ -1971,6 +1993,14 @@ Rules Text:     {T}: Vithian Stinger deals 1 damage to target creature or player
 Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 Set/Rarity:     Shards of Alara Common
 
+Name:   Vitu-Ghazi Guildmage
+Cost:   GW
+Type:   Creature — Dryad Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     {4}{G}{W}: Put a 3/3 green Centaur creature token onto the battlefield.
+{2}{G}{W}: Populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Vitu-Ghazi, the City-Tree
 Cost:   
 Type:   Land
@@ -2263,6 +2293,23 @@ As Voidstone Gargoyle enters the battlefield, name a nonland card.
 The named card can't be cast.
 Activated abilities of sources with the chosen name can't be activated.
 Set/Rarity:     Planar Chaos Rare
+
+Name:   Voidwielder
+Cost:   4U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/4)
+Rules Text:     When Voidwielder enters the battlefield, you may return target creature to its owner's hand.
+Set/Rarity:     Return to Ravnica Common
+
+Name:   Volatile Rig
+Cost:   4
+Type:   Artifact Creature — Construct
+Pow/Tgh:    (4/4)
+Rules Text:     Trample
+Volatile Rig attacks each turn if able.
+Whenever Volatile Rig is dealt damage, flip a coin. If you lose the flip, sacrifice Volatile Rig.
+When Volatile Rig dies, flip a coin. If you lose the flip, it deals 4 damage to each creature and each player.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Volcanic Awakening
 Cost:   4RR
@@ -2612,6 +2659,15 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {2}, Sacrifice Voyager Staff: Exile target creature. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
+
+Name:   Vraska the Unseen
+Cost:   3BG
+Type:   Planeswalker — Vraska
+Loyalty:    (5)
+Rules Text:     +1: Until your next turn, whenever a creature deals combat damage to Vraska the Unseen, destroy that creature.
+-3: Destroy target nonland permanent.
+-7: Put three 1/1 black Assassin creature tokens onto the battlefield with "Whenever this creature deals combat damage to a player, that player loses the game."
+Set/Rarity:     Return to Ravnica Mythic Rare
 
 Name:   Vug Lizard
 Cost:   1RR

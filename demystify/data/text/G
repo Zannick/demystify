@@ -221,7 +221,7 @@ Cost:   3RR
 Type:   Creature — Beast
 Pow/Tgh:    (3/3)
 Rules Text:     At the beginning of your upkeep, you may look at the top card of your library. If it's an instant or sorcery card, you may cast it without paying its mana cost.
-Set/Rarity:     Mirrodin Besieged Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Mirrodin Besieged Rare
 
 Name:   Gamble
 Cost:   R
@@ -417,6 +417,14 @@ Pow/Tgh:
 Rules Text:     At the beginning of each player's upkeep, that player reveals the top card of his or her library. If it's an artifact, creature, enchantment, or land card, the player may put it onto the battlefield.
 Set/Rarity:     Mirrodin Rare
 
+Name:   Gatecreeper Vine
+Cost:   1G
+Type:   Creature — Plant
+Pow/Tgh:    (0/2)
+Rules Text:     Defender
+When Gatecreeper Vine enters the battlefield, you may search your library for a basic land card or a Gate card, reveal it, put it into your hand, then shuffle your library.
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Gatekeeper of Malakir
 Cost:   BB
 Type:   Creature — Vampire Warrior
@@ -610,7 +618,7 @@ Type:   Creature — Weird
 Pow/Tgh:    (0/1)
 Rules Text:     {T}: Gelectrode deals 1 damage to target creature or player.
 Whenever you cast an instant or sorcery spell, you may untap Gelectrode.
-Set/Rarity:     Guildpact Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Guildpact Uncommon
 
 Name:   Gelid Shackles
 Cost:   W
@@ -1248,7 +1256,7 @@ Cost:   1B
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +X/+0 until end of turn, where X is the number of creature cards in your graveyard.
-Set/Rarity:     Mercadian Masques Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Mercadian Masques Uncommon
 
 Name:   Ghoulcaller's Bell
 Cost:   1
@@ -1343,7 +1351,7 @@ Cost:   G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +3/+3 until end of turn.
-Set/Rarity:     Masters Edition IV Common, Magic 2011 Common, Duel Decks: Garruk vs. Liliana Common, Masters Edition III Common, Magic 2010 Common, Masters Edition II Common, Duel Decks: Elves vs. Goblins Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Ice Age Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Return to Ravnica Common, Masters Edition IV Common, Magic 2011 Common, Duel Decks: Garruk vs. Liliana Common, Masters Edition III Common, Magic 2010 Common, Masters Edition II Common, Duel Decks: Elves vs. Goblins Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Ice Age Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Giant Harbinger
 Cost:   4R
@@ -1684,7 +1692,7 @@ Rules Text:     Cumulative upkeep—Pay 2 life. (At the beginning of your upkeep
 When Glacial Chasm enters the battlefield, sacrifice a land.
 Creatures you control can't attack.
 Prevent all damage that would be dealt to you.
-Set/Rarity:     Masters Edition II Rare, Ice Age Uncommon
+Set/Rarity:     From the Vault: Realms Mythic Rare, Masters Edition II Rare, Ice Age Uncommon
 
 Name:   Glacial Crevasses
 Cost:   2R
@@ -1841,7 +1849,7 @@ Pow/Tgh:    (6/6)
 Rules Text:     ({(b/g)} can be paid with either {B} or {G}.)
 Trample
 At the beginning of your end step, return to your hand all creature cards in your graveyard that were put there from the battlefield this turn.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Ravnica: City of Guilds Rare
 
 Name:   Gleeful Sabotage
 Cost:   1G
@@ -2288,6 +2296,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     When Goatnapper enters the battlefield, untap target Goat and gain control of it until end of turn. It gains haste until end of turn.
 Set/Rarity:     Lorwyn Uncommon
 
+Name:   Gobbling Ooze
+Cost:   4G
+Type:   Creature — Ooze
+Pow/Tgh:    (3/3)
+Rules Text:     {G}, Sacrifice another creature: Put a +1/+1 counter on Gobbling Ooze.
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Gobhobbler Rats
 Cost:   BR
 Type:   Creature — Rat
@@ -2528,6 +2543,13 @@ Pow/Tgh:    (4/4)
 Rules Text:     {T}: Goblin Dynamo deals 1 damage to target creature or player.
 {X}{R}, {T}, Sacrifice Goblin Dynamo: Goblin Dynamo deals X damage to target creature or player.
 Set/Rarity:     Legions Uncommon
+
+Name:   Goblin Electromancer
+Cost:   UR
+Type:   Creature — Goblin Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     Instant and sorcery spells you cast cost {1} less to cast.
+Set/Rarity:     Return to Ravnica Common, Duel Decks: Izzet vs. Golgari Common
 
 Name:   Goblin Elite Infantry
 Cost:   1R
@@ -2836,6 +2858,13 @@ Type:   Creature — Goblin Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     Goblin Raider can't block.
 Set/Rarity:     Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Urza's Saga Common, Portal Second Age Common
+
+Name:   Goblin Rally
+Cost:   3RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put four 1/1 red Goblin creature tokens onto the battlefield.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Goblin Razerunners
 Cost:   2RR
@@ -3339,12 +3368,27 @@ Rules Text:     When Golgari Brownscale is put into your hand from your graveyar
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
 Set/Rarity:     Ravnica: City of Guilds Common
 
+Name:   Golgari Charm
+Cost:   BG
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — All creatures get -1/-1 until end of turn; or destroy target enchantment; or regenerate each creature you control.
+Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Golgari Decoy
+Cost:   3G
+Type:   Creature — Elf Rogue
+Pow/Tgh:    (2/2)
+Rules Text:     All creatures able to block Golgari Decoy do so.
+Scavenge {3}{G}{G} ({3}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Return to Ravnica Uncommon
+
 Name:   Golgari Germination
 Cost:   1BG
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a nontoken creature you control dies, put a 1/1 green Saproling creature token onto the battlefield.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Golgari Grave-Troll
 Cost:   4G
@@ -3353,7 +3397,15 @@ Pow/Tgh:    (0/0)
 Rules Text:     Golgari Grave-Troll enters the battlefield with a +1/+1 counter on it for each creature card in your graveyard.
 {1}, Remove a +1/+1 counter from Golgari Grave-Troll: Regenerate Golgari Grave-Troll.
 Dredge 6 (If you would draw a card, instead you may put exactly six cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Ravnica: City of Guilds Rare
+
+Name:   Golgari Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Golgari Guildgate enters the battlefield tapped.
+{T}: Add {B} or {G} to your mana pool.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Golgari Guildmage
 Cost:   (B/G)(B/G)
@@ -3363,6 +3415,21 @@ Rules Text:     {4}{B}, Sacrifice a creature: Return target creature card from y
 {4}{G}: Put a +1/+1 counter on target creature.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Ravnica: City of Guilds Uncommon
 
+Name:   Golgari Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {B} or {G} to your mana pool.
+{B}{G}: Golgari Keyrune becomes a 2/2 black and green Insect artifact creature with deathtouch until end of turn.
+Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Golgari Longlegs
+Cost:   3(B/G)(B/G)
+Type:   Creature — Insect
+Pow/Tgh:    (5/4)
+Rules Text:     
+Set/Rarity:     Return to Ravnica Common
+
 Name:   Golgari Rot Farm
 Cost:   
 Type:   Land
@@ -3370,21 +3437,21 @@ Pow/Tgh:
 Rules Text:     Golgari Rot Farm enters the battlefield tapped.
 When Golgari Rot Farm enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {B}{G} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
 
 Name:   Golgari Rotwurm
 Cost:   3BG
 Type:   Creature — Zombie Wurm
 Pow/Tgh:    (5/4)
 Rules Text:     {B}, Sacrifice a creature: Target player loses 1 life.
-Set/Rarity:     Ravnica: City of Guilds Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Ravnica: City of Guilds Common
 
 Name:   Golgari Signet
 Cost:   2
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {1}, {T}: Add {B}{G} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
 
 Name:   Golgari Thug
 Cost:   1B
@@ -3392,7 +3459,7 @@ Type:   Creature — Human Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     When Golgari Thug dies, put target creature card from your graveyard on top of your library.
 Dredge 4 (If you would draw a card, instead you may put exactly four cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Golgothian Sylex
 Cost:   4
@@ -3436,6 +3503,13 @@ Type:   Creature — Hound
 Pow/Tgh:    (2/1)
 Rules Text:     Sacrifice Gore Vassal: Put a -1/-1 counter on target creature. Then if that creature's toughness is 1 or greater, regenerate it.
 Set/Rarity:     Mirrodin Besieged Uncommon
+
+Name:   Gore-House Chainwalker
+Cost:   1R
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/1)
+Rules Text:     Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Gorehorn Minotaurs
 Cost:   2RR
@@ -3787,6 +3861,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     If a creature you control would deal damage to a creature or player, it deals double that damage to that creature or player instead.
 Set/Rarity:     Onslaught Rare
+
+Name:   Grave Betrayal
+Cost:   5BB
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature you don't control dies, return it to the battlefield under your control with an additional +1/+1 counter on it at the beginning of the next end step. That creature is a black Zombie in addition to its other colors and types.
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Grave Bramble
 Cost:   1GG
@@ -4165,7 +4246,7 @@ Cost:   3G
 Type:   Creature — Plant Hound
 Pow/Tgh:    (3/3)
 Rules Text:     Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Ravnica: City of Guilds Common
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Ravnica: City of Guilds Common
 
 Name:   Greater Realm of Preservation
 Cost:   1W
@@ -4389,7 +4470,7 @@ Cost:   5G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Draw a card for each creature card in your graveyard.
-Set/Rarity:     Dark Ascension Uncommon
+Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Dark Ascension Uncommon
 
 Name:   Grim Harvest
 Cost:   1B
@@ -4432,6 +4513,14 @@ Pow/Tgh:
 Rules Text:     Search your library for a nonland card and reveal it. Each opponent who cast a card this turn with the same name as that card loses 6 life. Then shuffle your library.
 {B}{B}: Return Grim Reminder from your graveyard to your hand. Activate this ability only during your upkeep.
 Set/Rarity:     Mirrodin Rare
+
+Name:   Grim Roustabout
+Cost:   1B
+Type:   Creature — Skeleton Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
+{1}{B}: Regenerate Grim Roustabout.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Grim Tutor
 Cost:   1BB
@@ -4494,7 +4583,7 @@ Name:   Grindstone
 Cost:   1
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {3}, {T}: Put the top two cards of target player's library into that player's graveyard. If both cards share a color, repeat this process.
+Rules Text:     {3}, {T}: Target player puts the top two cards of his or her library into his or her graveyard. If both cards share a color, repeat this process.
 Set/Rarity:     Tempest Rare
 
 Name:   Grinning Demon
@@ -4548,6 +4637,13 @@ Pow/Tgh:    (7/7)
 Rules Text:     Flying, lifelink
 Pay 7 life: Draw seven cards.
 Set/Rarity:     Avacyn Restored Mythic Rare
+
+Name:   Grisly Salvage
+Cost:   BG
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Reveal the top five cards of your library. You may put a creature or land card from among them into your hand. Put the rest into your graveyard.
+Set/Rarity:     Return to Ravnica Common
 
 Name:   Gristle Grinner
 Cost:   4B
@@ -4750,7 +4846,22 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Add {R} or {G} to your mana pool. Each opponent gains 1 life.
-Set/Rarity:     Future Sight Rare
+Set/Rarity:     From the Vault: Realms Mythic Rare, Future Sight Rare
+
+Name:   Grove of the Guardian
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{3}{G}{W}, {T}, Tap two untapped creatures you control, Sacrifice Grove of the Guardian: Put an 8/8 green and white Elemental creature token with vigilance onto the battlefield.
+Set/Rarity:     Return to Ravnica Rare
+
+Name:   Growing Ranks
+Cost:   2(G/W)(G/W)
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Return to Ravnica Rare
 
 Name:   Growth Spasm
 Cost:   2G
@@ -5018,6 +5129,13 @@ Rules Text:     Flying
 {T}: If the top card of target player's graveyard is a creature card, put that card on top of that player's library.
 Set/Rarity:     Visions Rare
 
+Name:   Guild Feud
+Cost:   5R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, target opponent reveals the top three cards of his or her library, may put a creature card from among them onto the battlefield, then puts the rest into his or her graveyard. You do the same with the top three cards of your library. If two creatures are put onto the battlefield this way, those creatures fight each other.
+Set/Rarity:     Return to Ravnica Rare
+
 Name:   Guile
 Cost:   3UUU
 Type:   Creature — Elemental Incarnation
@@ -5174,6 +5292,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then put a green Ooze creature token onto the battlefield with "This creature's power and toughness are each equal to the number of slime counters on Gutter Grime."
 Set/Rarity:     Innistrad Rare
+
+Name:   Guttersnipe
+Cost:   2R
+Type:   Creature — Goblin Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent.
+Set/Rarity:     Return to Ravnica Uncommon
 
 Name:   Guttural Response
 Cost:   (R/G)
