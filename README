@@ -5,7 +5,7 @@ A Magic: The Gathering Parser
 
 Demystify is an attempt to make it possible for a computer to understand what
 general Magic: The Gathering cards do. It is currently written in a combination
-of ANTLR 3.4 and Python 3.2.
+of ANTLR 3.5 and Python 3.2.
 
 2) INSTALLATION
 
@@ -14,8 +14,8 @@ need to have installed in order to build the parser and run Demystify.
 See INSTALL for more specific instructions.
 
 - Java 1.6.0 (or later)
-- ANTLR 3.4.1 (or later 3.4 release)
-- ANTLR 3 Python3 runtime [experimental, available at github.com/Zannick/antlr3]
+- ANTLR 3.5 (or later 3.5 release)
+- ANTLR 3 Python3 runtime [available at github.com/antlr/antlr3]
 - jpackage-utils 1.7.5 (or later)
 - Python 3.2
 - python-progressbar 2.3

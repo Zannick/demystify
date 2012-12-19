@@ -6,18 +6,10 @@ and run Demystify under Python3. The 7 things that need to be installed are:
 Java 1.6 or later
 Python 3.2
 jpackage-utils 1.7.5 or later
-ANTLR 3.4.1 *
+ANTLR 3.5
 antlr3 script (available in this repo in antlr3/)
 python-progressbar 2.3
-ANTLR Python3 runtime *
-
-============================================================================
-* These items require some special setup due to the Python3 target for ANTLR
-being not yet accepted into the main ANTLR project.
-If you don't want to use this *experimental, beta* code, then stop, go back
-and check out or download the "master" branch of Demystify rather than the
-"python3" branch this snapshot came from.
-============================================================================
+ANTLR Python3 runtime
 
 The order isn't necessarily fixed but some things are dependent on others.
 
@@ -81,53 +73,19 @@ not, create a symlink, via:
 
 (You should also check that /usr/lib/jvm/java-6-openjdk exists.)
 
-4) ANTLR 3.4.1 (or later 3.4 release)
+4) ANTLR 3.5
 Required to generate the DemystifyParser
 
-You want to grab a set of three jar files from the ANTLR and StringTemplate
-websites and put them in a location where jpackage will find them, such as
-/usr/share/java.
+You will need a jar file from the ANTLR website. The jar files with "complete"
+in the name contain everything you need. Put it in a location where jpackage
+will find it, such as /usr/share/java.
 
-    antlr-runtime-3.4.jar
-        Contains some of the necessary classes to run ANTLR.
+    antlr-3.5-rc-1-complete.jar
         Available at http://www.antlr.org/download/
-    antlr-3.4.1-SNAPSHOT.jar
-        Contains a very up-to-date snapshot of ANTLR3, including
-        Python template files necessary for creating Python lexers and parsers.
-        Available at http://www.antlr.org/depot/antlr3/tool/target
-    ST-4.0.5.jar
-        StringTemplate v4 is an ANTLR 3 dependency and is made by the same guy,
-        so all you need is this jar in place as well.
-        Available at http://www.stringtemplate.org/download.html.
 
 Installation:
-    $ wget www.antlr.org/download/antlr-runtime-3.4.jar
-    $ wget www.antlr.org/depot/antlr3/tool/target/antlr-3.4.1-SNAPSHOT.jar
-    $ wget www.stringtemplate.org/download/ST-4.0.5.jar
-    $ sudo mv antlr-3.4.1-SNAPSHOT.jar antlr-runtime-3.4.jar ST-4.0.5.jar /usr/share/java
-
-At the time of writing this file, the Python3 target is not yet incorporated
-into ANTLR and so you will need to check out or download the target directly
-from github.com/Zannick/antlr3 (python3 branch). Whichever you do, you'll
-need to update the antlr-3.4.1-SNAPSHOT.jar you downloaded earlier with some
-files from the new target: a pair of updated class files, and the Python3
-templates ANTLR uses to output Python3 code.
-    (download or check out the antlr3 repo)
-    $ cd antlr3/tool/src/main/java
-    $ javac -cp /usr/share/antlr-3.4.1-SNAPSHOT.jar:/usr/share/java/antlr-runtime-3.4.jar:/usr/share/java/ST-4.0.5.jar -sourcepath . org/antlr/codegen/*.java
-    (check the class files exist)
-    $ ls org/antlr/codegen/CodeGenerator.class org/antlr/codegen/Python3Target.class
-    (update the jar file)
-    $ cp /usr/share/java/antlr-3.4.1-SNAPSHOT.jar .
-    $ zip -u antlr-3.4.1-SNAPSHOT.jar org/antlr/codegen/CodeGenerator.class org/antlr/codegen/Python3Target.class
-    $ sudo mv antlr-3.4.1-SNAPSHOT.jar /usr/share/java
-
-    (or, from the toplevel, cd antlr3/tool/src/main/resources
-    $ cd ../resources
-    $ cp /usr/share/java/antlr-3.4.1-SNAPSHOT.jar .
-    $ zip -u antlr-3.4.1-SNAPSHOT.jar org/antlr/codegen/templates/Python3/*.stg
-    $ sudo mv antlr-3.4.1-SNAPSHOT.jar /usr/share/java
-
+    $ wget www.antlr.org/download/antlr-3.5-rc-1-complete.jar
+    $ sudo mv antlr-3.5-rc-1-complete.jar /usr/share/java
 
 5) antlr3 script (from this repo, in antlr3/)
     Note that if any of the filenames in (4) are different, you'll need to
@@ -136,10 +94,14 @@ templates ANTLR uses to output Python3 code.
     $ sudo cp antlr3/antlr3 /usr/bin/antlr3
     $ sudo chown root:root /usr/bin/antlr3
 
+You can, instead of installing the antlr3 script in /usr/bin, copy it or put
+a symlink to it in $HOME/bin, where it will work just as well (if $HOME/bin
+is in your PATH).
+
 ======
 
 At this point you should be able to run "antlr3" on the command line and get:
-ANTLR Parser Generator  Version 3.4
+ANTLR Parser Generator  Version 3.5
 usage: java org.antlr.Tool [args] file.g [file2.g file3.g ...]
 
 If you don't, there was an issue installing something earlier:
@@ -190,9 +152,8 @@ It works when you can:
 
 7) ANTLR 3 Python3 runtime (requires download from github)
 
-Assuming you downloaded or checked out the Zannick/antlr3 github earlier,
-you already have a copy of the runtime ready to be installed. From wherever
-you put the repo:
+Download or check out the github repo http://github.com/antlr/antlr3. Then,
+from wherever you put the repo:
     $ cd antlr3/runtime/Python3
     $ sudo python3.2 setup.py install
 
@@ -215,8 +176,9 @@ To see if it works, change into the grammar directory and run:
     $ antlr3 Demystify.g
 
 If it works, you will get a bunch of warning(138)s that I haven't figured out
-how to silence, then it will exit silently. If you ls afterwards, you should
-see a lot of Demystify*.py and *.tokens files that weren't there before.
+how to silence, then it will exit silently (this takes some time). If you ls
+afterwards, you should see a lot of Demystify*.py and *.tokens files that
+weren't there before.
 
 Still with me? Go one directory level up and run:
     $ python3.2 demystify.py test
