@@ -40,7 +40,7 @@ a) Package manager
     you may wish to update that to point to python3.2, and use "python3"
     in place of python3.2.
         $ sudo rm /usr/bin/python3
-        $ sudo ln -s python3.2 /usr/bin/python3.2
+        $ sudo ln -s python3.2 /usr/bin/python3
 
 b) From python.org source (building source)
 Note that installing from source will overwrite /usr/bin/python3 to be a symlink
