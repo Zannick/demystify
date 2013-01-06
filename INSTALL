@@ -80,12 +80,12 @@ You will need a jar file from the ANTLR website. The jar files with "complete"
 in the name contain everything you need. Put it in a location where jpackage
 will find it, such as /usr/share/java.
 
-    antlr-3.5-rc-1-complete.jar
+    antlr-3.5-complete.jar
         Available at http://www.antlr.org/download/
 
 Installation:
-    $ wget www.antlr.org/download/antlr-3.5-rc-1-complete.jar
-    $ sudo mv antlr-3.5-rc-1-complete.jar /usr/share/java
+    $ wget www.antlr.org/download/antlr-3.5-complete.jar
+    $ sudo mv antlr-3.5-complete.jar /usr/share/java
 
 5) antlr3 script (from this repo, in antlr3/)
     Note that if any of the filenames in (4) are different, you'll need to
@@ -144,14 +144,26 @@ For others, that may not work; you have to download a better setuptools:
 And then try again:
     $ sudo python3 setup.py install
 
-It works when you can:
+It works when you can run:
     $ python3.2
     >>> import progressbar
     >>>
 (i.e. with no errors)
 
-7) ANTLR 3 Python3 runtime (requires download from github)
+7) ANTLR 3 Python3 runtime
 
+This can be acquired either through the antlr.org website or through github.
+
+a) From the website:
+Download http://www.antlr.org/download/antlr-3.5.tar.gz and unpack it.
+The Python3 runtime is in the runtime/Python3 directory, and can be installed
+much like any other Python3 library.
+    $ wget http://www.antlr.org/download/antlr-3.5.tar.gz
+    $ tar xf antlr-3.5.tar.gz
+    $ cd antlr3-antlr-3.5/runtime/Python3
+    $ sudo python3.2 setup.py install
+
+b) From github (this may be more up-to-date):
 Download or check out the github repo http://github.com/antlr/antlr3. Then,
 from wherever you put the repo:
     $ cd antlr3/runtime/Python3
@@ -163,7 +175,7 @@ Installing on debian squeeze:
     $ cd antlr-antlr3-8312471/runtime/Python3/
     $ sudo python3.2 setup.py install
 
-It works when you can:
+Regardless of whether you did (a) or (b), it works when you can run:
     $ python3.2
     >>> import antlr3
     >>>
