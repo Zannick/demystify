@@ -1512,7 +1512,7 @@ FATESEALED : 'fatesealed';
 GRAVESTORM : 'gravestorm';
 INTIMIDATE : 'intimidate';
 MEDITATION : 'meditation';
-OVERLOADED : 'OVERLOADED';
+OVERLOADED : 'overloaded';
 PHASED_OUT : 'phased-out';
 PHENOMENON : 'phenomenon'
            | 'phenomena';

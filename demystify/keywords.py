@@ -510,7 +510,7 @@ _abilities = [
     Keyword(("NINJUTSU", "ninjutsu")),
     Keyword(("OFFERING", "offering")),
     Verb(   ("OVERLOAD", "overload", "overloads"),
-            ("OVERLOADED", "OVERLOADED")),
+            ("OVERLOADED", "overloaded")),
     Keyword(("PERSIST", "persist")),
     # Phasing
     Verb(   ("PHASE", "phase", "phases"),
@@ -1543,7 +1543,8 @@ def get_partial_collisions(s):
 
 # Find partial collisions within nonmacroable tokens.
 # A partial collision would be eg. "first strike" and "first".
-for s, t in all_words.items():
+# Wrap with list() as get_partial_collisions modifies all_words.
+for s, t in list(all_words.items()):
     pt = get_partial_collisions(s)
     if pt:
         if t not in partial_collisions:
