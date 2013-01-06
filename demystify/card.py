@@ -269,7 +269,7 @@ class Card(object):
 
         for s in self.sets:
             if s not in cards_by_set:
-                cards_by_set[s] = set([self.name])
+                cards_by_set[s] = {self.name}
             else:
                 cards_by_set[s].add(self.name)
 
@@ -680,7 +680,7 @@ def get_card_set(setname):
     """ Returns a set of all the Cards in the given set. """
     if setname not in cards_by_set:
         return set()
-    return set(_all_cards.get(cardname) for cardname in cards_by_set[setname])
+    return {_all_cards.get(cardname) for cardname in cards_by_set[setname]}
 
 def get_card(cardname):
     """ Returns a specific card by name, or None if no such card exists. """
@@ -756,8 +756,8 @@ def counter_types(cards=None):
     """ Returns a list of counter types namd in the given cards. """
     cwords = preceding_words('counter', cards=cards)
     # Disallow punctuation, common words, and words about countering spells.
-    cwords = set(w for w in cwords if w and w[-1] not in '—-,.:\'"')
-    common = set(['a', 'all', 'and', 'be', 'control', 'each', 'had', 'have',
-                  'is', 'may', 'more', 'of', 'or', 'spell', 'that', 'those',
-                  'was', 'with', 'would', 'x'])
+    cwords = {w for w in cwords if w and w[-1] not in '—-,.:\'"'}
+    common = {'a', 'all', 'and', 'be', 'control', 'each', 'had', 'have',
+              'is', 'may', 'more', 'of', 'or', 'spell', 'that', 'those',
+              'was', 'with', 'would', 'x'}
     return sorted(cwords - common)

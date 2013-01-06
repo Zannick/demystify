@@ -53,8 +53,7 @@ class Keyword(object):
         """ Each element of tokenlists should be a list of strings
             (token, *ids) where token is a string, eg. "ACTION",
             and the rest of the list are ids, eg. ("action", "actions"). """
-        self.dict = dict([(w, ts[0])
-                          for ts in tokenlists if ts for w in ts[1:]])
+        self.dict = {w: ts[0] for ts in tokenlists if ts for w in ts[1:]}
 
 class Verb(Keyword):
     """ All verbs must have present and past tenses.
@@ -1595,8 +1594,8 @@ for a, b in _macroables.items():
         macro_rules[at] = [a] + sorted(col_tokens)
 
 # everything in b that didn't collide (at all) goes in the macro token def
-macro_tokens = dict((a, b - collisions - set(replaced))
-                    for a, b in _macroables.items())
+macro_tokens = {a: b - collisions - set(replaced)
+                for a, b in _macroables.items()}
 
 def _get_filename(grammar):
     import os

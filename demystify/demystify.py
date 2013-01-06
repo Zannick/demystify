@@ -214,16 +214,16 @@ def parse_helper(cards, name, rulename, yesregex=None, noregex=None):
     if yesregex:
         pattern = yesregex.pattern
         if noregex:
-            ccards = set(card.get_card(c[0])
-                         for c in card.search_text(pattern, cards=cards)
-                         if not noregex.match(c[1]))
+            ccards = {card.get_card(c[0])
+                      for c in card.search_text(pattern, cards=cards)
+                      if not noregex.match(c[1])}
         else:
-            ccards = set(card.get_card(c[0])
-                         for c in card.search_text(pattern, cards=cards))
+            ccards = {card.get_card(c[0])
+                      for c in card.search_text(pattern, cards=cards)}
     elif noregex:
-        ccards = set(c for c in cards
-                     if not all(noregex.match(line)
-                                for line in c.rules.split('\n')))
+        ccards = {c for c in cards
+                  if not all(noregex.match(line)
+                             for line in c.rules.split('\n'))}
     else:
         ccards = set(cards)
 
@@ -275,18 +275,18 @@ def preprocess(args):
     for rc in raw_cards:
         _ = card.Card.from_string(rc)
     cards = card.get_cards()
-    split = set([c.name for c in cards if c.multitype == "split"])
-    xsplit = set([c.multicard for c in cards if c.multitype == "split"])
+    split = {c.name for c in cards if c.multitype == "split"}
+    xsplit = {c.multicard for c in cards if c.multitype == "split"}
     logging.debug("Split cards: " + "; ".join(sorted(split)))
     if split != xsplit:
         logging.error("Difference: " + "; ".join(split ^ xsplit))
-    flip = set([c.name for c in cards if c.multitype == "flip"])
-    xflip = set([c.multicard for c in cards if c.multitype == "flip"])
+    flip = {c.name for c in cards if c.multitype == "flip"}
+    xflip = {c.multicard for c in cards if c.multitype == "flip"}
     logging.debug("Flip cards: " + "; ".join(sorted(flip)))
     if flip != xflip:
         logging.error("Difference: " + "; ".join(flip ^ xflip))
-    trans = set([c.name for c in cards if c.multitype == "transform"])
-    xtrans = set([c.multicard for c in cards if c.multitype == "transform"])
+    trans = {c.name for c in cards if c.multitype == "transform"}
+    xtrans = {c.multicard for c in cards if c.multitype == "transform"}
     logging.debug("Transform cards: " + "; ".join(sorted(trans)))
     if trans != xtrans:
         logging.error("Difference: " + "; ".join(trans ^ xtrans))
