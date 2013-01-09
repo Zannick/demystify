@@ -140,6 +140,7 @@ color : WHITE | BLUE | BLACK | RED | GREEN ;
 color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED ;
 status : TAPPED
        | UNTAPPED
+       | KICKED
        | SUSPENDED
        | ATTACKING
        | BLOCKING
