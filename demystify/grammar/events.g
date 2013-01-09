@@ -32,7 +32,10 @@ trigger : subset_list
             -> {$OR}? ^( EVENT subset_list ^( OR[] event+ ) )
             -> ^( EVENT subset_list event )
           | condition -> ^( CONDITION subset_list condition )
-          );
+          )
+        | non_subset_event -> ^( EVENT non_subset_event )
+        | non_subset_condition -> ^( CONDITION non_subset_condition )
+        ;
 
 // An event is something that happens, usually an object taking an action
 // or having an action done to it.
@@ -49,10 +52,10 @@ event : zone_transfer
       | draw_card
       | gain_life
       | lose_life
-      | tap_stuff
-      | is_tapped
       | sacrifice_stuff
       | shuffle_library
+      | tap_stuff
+      | is_tapped
       ;
 
 /* Events. */
@@ -98,11 +101,11 @@ cast_spell : CAST^ subset ;
 
 cycle_card : CYCLE^ subset ;
 
-deal_damage : DEAL COMBAT? DAMAGE ( TO subset )?
-              -> ^( DAMAGE[] COMBAT[]? subset? );
+deal_damage : DEAL integer? COMBAT? DAMAGE ( TO subset )?
+              -> ^( DAMAGE[] integer? COMBAT[]? subset? );
 
 dealt_damage : is_ DEALT integer? COMBAT? DAMAGE ( BY subset )?
-               -> ^( DEALT[] integer? COMBAT? DAMAGE[] subset? );
+               -> ^( DEALT[] integer? COMBAT[]? DAMAGE[] subset? );
 
 discard_card : DISCARD^ subset ;
 
@@ -112,13 +115,13 @@ gain_life : GAIN^ integer? LIFE ;
 
 lose_life : LOSE^ integer? LIFE ;
 
-tap_stuff : TAP subset ( FOR MANA )? -> ^( TAP[] subset MANA[]? );
-
-is_tapped : is_ TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
-
 sacrifice_stuff : SACRIFICE^ subset ;
 
 shuffle_library : SHUFFLE^ player_poss LIBRARY ;
+
+tap_stuff : TAP subset ( FOR MANA )? -> ^( TAP[] subset MANA[]? );
+
+is_tapped : is_ TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
 
 // A condition is a true-or-false statement about the game state. These
 // types of triggered abilities (sometimes called "state triggers") will
@@ -147,3 +150,30 @@ int_prop_is : poss int_prop IS magic_number
 control_stuff : CONTROL subset -> ^( CONTROL[] subset );
 
 is_somewhere : is_ ( IN | ON ) zone_subset -> ^( IN[] zone_subset );
+
+// Some triggers do not start with subsets, eg. "there are",
+// "a counter is" or "the chosen color is".
+non_subset_event : counter_removed
+                 | damage_dealt
+                 ;
+
+non_subset_condition : there_are
+                     | there_counters
+                     ;
+
+/* Non-subset events. */
+
+counter_removed : ( THE ordinal_word | number )
+                  base_counter is_ REMOVED FROM subset
+                  -> ^( REMOVED ordinal_word? number? base_counter subset );
+
+damage_dealt : COMBAT? DAMAGE is_ DEALT TO subset
+               -> ^( DEAL COMBAT[]? DAMAGE[] subset );
+
+/* Non-subset conditions. */
+
+there_are : THERE is_ number properties restriction*
+            -> ^( EQUAL number ^( SIZE properties restriction* ) );
+
+there_counters : THERE is_ counter_subset ON subset
+                 -> ^( HAS_COUNTERS counter_subset subset );
