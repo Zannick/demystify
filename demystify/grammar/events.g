@@ -41,17 +41,25 @@ trigger : subset_list
 // or having an action done to it.
 
 event : zone_transfer
+      | cause_transfer
       | phases_in_out
       | state_change
       | cost_paid
+      | attack_with_stuff
       | cast_spell
+      | clash_happens
+      | counter_spell
       | cycle_card
       | deal_damage
       | dealt_damage
       | discard_card
       | draw_card
       | gain_life
+      | kick_stuff
+      | lose_control
       | lose_life
+      | lose_the_game
+      | play_stuff
       | sacrifice_stuff
       | shuffle_library
       | tap_stuff
@@ -69,6 +77,10 @@ zone_transfer : ( ENTER | is_ ( PUT ( INTO | ONTO ) | RETURNED TO ) )
                 -> ^( ENTER[] ^( ZONE_SET ^( NUMBER NUMBER[$DIE, "1"] ) GRAVEYARD )
                               ^( FROM[] BATTLEFIELD ) )
               ;
+
+cause_transfer : PUT subset ( INTO | ONTO )
+                 a=zone_subset ( FROM ( b=zone_subset | ANYWHERE ) )?
+                 -> ^( PUT[] subset $a ^( FROM[] $b? ANYWHERE[]? )? );
 
 phases_in_out : PHASE^ ( IN | OUT );
 
@@ -96,8 +108,16 @@ cost_paid : poss cost_prop IS NOT? PAID
             -> ^( PAY[] cost_prop subset? )
           ;
 
+attack_with_stuff : ATTACK^ WITH! subset ;
+
 // TODO: Collect alike verbs together into one rule?
 cast_spell : CAST^ subset ;
+
+clash_happens : CLASH AND ( WIN | LOSE ) -> ^( CLASH[] WIN[]? LOSE[]? )
+              | CLASH -> CLASH[]
+              ;
+
+counter_spell : COUNTER^ subset ;
 
 cycle_card : CYCLE^ subset ;
 
@@ -113,7 +133,15 @@ draw_card : DRAW^ A! CARD! ;
 
 gain_life : GAIN^ integer? LIFE ;
 
+kick_stuff : KICK^ subset ;
+
+lose_control : LOSE CONTROL OF subset -> ^( LOSE[] CONTROL[] subset );
+
 lose_life : LOSE^ integer? LIFE ;
+
+lose_the_game : LOSE^ THE! GAME ;
+
+play_stuff : PLAY^ subset ;
 
 sacrifice_stuff : SACRIFICE^ subset ;
 
@@ -131,6 +159,7 @@ is_tapped : is_ TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
 // state (e.g. 'when SELF has flying, sacrifice it').
 
 condition : has_ability
+          | has_cards
           | have_life
           | HAS! has_counters
           | int_prop_is
@@ -141,6 +170,8 @@ condition : has_ability
 /* Conditions. */
 
 has_ability : HAS raw_keyword -> ^( HAS[] raw_keyword );
+
+has_cards : HAS number CARD IN HAND -> ^( HAND[] number );
 
 have_life : HAS integer LIFE -> ^( VALUE LIFE[] integer );
 
