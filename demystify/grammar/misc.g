@@ -22,6 +22,8 @@ parser grammar misc;
 
 conj : AND | OR | AND_OR ;
 
+this_turn : THIS TURN -> ^( THIS[] TURN[] );
+
 /* Numbers and quantities. */
 
 number : integer

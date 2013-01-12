@@ -20,13 +20,14 @@ parser grammar events;
 
 /* Events and conditions. */
 
-triggers : trigger ( OR^ trigger )? ;
+triggers : trigger ( OR trigger )? trigger_descriptor?
+           -> {$OR}? ^( TRIGGER ^( OR[] trigger+ ) trigger_descriptor? )
+           -> ^( TRIGGER trigger trigger_descriptor? );
 
 // Although it doesn't look great, it was necessary to factor 'subset' out
 // of the event and condition rules. It's a bad idea to leave it unfactored
 // since ANTLR will run itself out of memory (presumably trying to generate
 // lookahead tables).
-// TODO: event descriptors (eg. "during combat")
 trigger : subset_list
           ( event ( OR event )?
             -> {$OR}? ^( EVENT subset_list ^( OR[] event+ ) )
@@ -212,3 +213,27 @@ there_are : THERE is_ number properties restriction*
 
 there_counters : THERE is_ counter_subset ON subset
                  -> ^( HAS_COUNTERS counter_subset subset );
+
+// A trigger descriptor is an additional check that comes after the event
+// triggers and conditions. Some of these may be (or include) conditions.
+trigger_descriptor : while_condition
+                   | during_turn
+                   | during_step
+                   | nth_time_per_turn
+                   | this_turn
+                   ;
+
+while_condition : WHILE ref_object ( condition | is_ status )
+                  -> ^( CONDITION ref_object condition? status? )
+                | WHILE non_subset_condition
+                  -> ^( CONDITION non_subset_condition )
+                ;
+
+during_turn : DURING player_poss TURN
+              -> ^( DURING[] ^( TURN[] player_poss ) );
+
+// TODO: Other steps.
+during_step : DURING^ COMBAT ;
+
+nth_time_per_turn : FOR THE ordinal_word TIME THIS TURN
+                    -> ^( NTH ordinal_word ^( PER TURN[] ) );

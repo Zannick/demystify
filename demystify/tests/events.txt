@@ -11,7 +11,7 @@
   (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD)))
 
 @LivesOrDies
-@triggers
+@trigger
 @SELF enters the battlefield or is put into a graveyard from the battlefield
 @(EVENT (SUBSET SELF)
         (OR (ENTER BATTLEFIELD)
@@ -20,9 +20,10 @@
 @OrHaunt
 @triggers
 @SELF enters the battlefield or the creature it haunts dies
-@(or (EVENT (SUBSET SELF) (ENTER BATTLEFIELD))
-     (EVENT (SUBSET (HAUNTED it))
-            (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD) (FROM BATTLEFIELD))))
+@(TRIGGER (OR (EVENT (SUBSET SELF) (ENTER BATTLEFIELD))
+              (EVENT (SUBSET (HAUNTED it))
+                     (ENTER (ZONE_SET (NUMBER 1) GRAVEYARD)
+                            (FROM BATTLEFIELD)))))
 
 @Narcomoeba
 @trigger
@@ -55,11 +56,11 @@
 @trigger
 @a creature attacks you, a teammate, or a planeswalker you or a teammate control
 @(EVENT (SUBSET (NUMBER 1) (PROPERTIES creature))
-  (BECOME ATTACKING
-   (or (SUBSET you) (SUBSET (PLAYER_GROUP (NUMBER 1) teammate))
-    (SUBSET (NUMBER 1)
-     (PROPERTIES planeswalker
-      (CONTROL (or you (PLAYER_GROUP (NUMBER 1) teammate))))))))
+        (BECOME ATTACKING
+         (or (SUBSET you) (SUBSET (PLAYER_GROUP (NUMBER 1) teammate))
+          (SUBSET (NUMBER 1)
+           (PROPERTIES planeswalker
+            (CONTROL (or you (PLAYER_GROUP (NUMBER 1) teammate))))))))
 
 @Unblocked
 @trigger
@@ -92,3 +93,21 @@
 @trigger
 @SELF's power is 7 or greater
 @(CONDITION (SUBSET SELF) (VALUE POWER (NUMBER (GEQ 7))))
+
+@DuringYourTurn
+@triggers
+@a creature attacks you during your turn
+@(TRIGGER (EVENT (SUBSET (NUMBER 1) (PROPERTIES creature))
+                 (BECOME ATTACKING (SUBSET you)))
+          (DURING (TURN (POSS YOU))))
+
+@PyromancerAscension
+@triggers
+@you cast an instant or sorcery spell while SELF has two or more
+ quest counters on it
+@(TRIGGER (EVENT (SUBSET you)
+                 (cast (SUBSET (NUMBER 1)
+                               (PROPERTIES (OR instant sorcery) spell))))
+          (CONDITION SELF (HAS_COUNTERS
+                           (COUNTER_SET
+                            (COUNTER_GROUP (NUMBER (GEQ two)) quest)))))

@@ -265,7 +265,7 @@ def parse_keyword_lines(cards):
 
 def parse_triggers(cards):
     """ Parse all trigger conditions in the cards. """
-    parse_helper(cards, 'triggers', 'trigger', yesregex=triggerregex)
+    parse_helper(cards, 'triggers', 'triggers', yesregex=triggerregex)
 
 def preprocess(args):
     raw_cards = []
