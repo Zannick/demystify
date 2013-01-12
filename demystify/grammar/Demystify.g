@@ -37,6 +37,7 @@ tokens {
     ADD_COUNTERS;
     ATTACHED_TO;
     CMC;
+    COINFLIP;
     CONDITION;
     COUNTER_GROUP;
     COUNTER_SET;

@@ -48,6 +48,7 @@ event : zone_transfer
       | attack_with_stuff
       | cast_spell
       | clash_happens
+      | coin_flip
       | counter_spell
       | cycle_card
       | deal_damage
@@ -116,6 +117,9 @@ cast_spell : CAST^ subset ;
 clash_happens : CLASH AND ( WIN | LOSE ) -> ^( CLASH[] WIN[]? LOSE[]? )
               | CLASH -> CLASH[]
               ;
+
+coin_flip : FLIP A COIN -> COINFLIP
+          | ( LOSE | WIN ) A COIN FLIP -> ^( COINFLIP LOSE[]? WIN[]? );
 
 counter_spell : COUNTER^ subset ;
 
