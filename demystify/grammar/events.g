@@ -203,8 +203,8 @@ counter_removed : ( THE ordinal_word | number )
                   base_counter is_ REMOVED FROM subset
                   -> ^( REMOVED ordinal_word? number? base_counter subset );
 
-damage_dealt : COMBAT? DAMAGE is_ DEALT TO subset
-               -> ^( DEAL COMBAT[]? DAMAGE[] subset );
+damage_dealt : COMBAT? DAMAGE is_ DEALT TO pl_subset
+               -> ^( DEAL COMBAT[]? DAMAGE[] pl_subset );
 
 /* Non-subset conditions. */
 

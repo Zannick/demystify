@@ -47,16 +47,18 @@ subset : number properties restriction*
          -> ^( SUBSET player_group )
        ;
 
-pl_subset : player_or_walker
-            ( COMMA! ( player_or_walker COMMA! )+ conj^ player_or_walker
-            | (conj player_or_walker)=> conj^ player_or_walker 
+// A sad hack to keep complexity (ie. ANTLR memory usage) within reason,
+// this pair of rules allows "you or a planeswalker you control" and
+// "you or a creature you control".
+pl_subset : player_or_object
+            ( COMMA! ( player_or_object COMMA! )+ conj^ player_or_object
+            | (conj player_or_object)=> conj^ player_or_object 
             |
             );
 
-player_or_walker
+player_or_object
     : player_group -> ^( SUBSET player_group )
-    | number PLANESWALKER descriptor*
-      -> ^( SUBSET number ^( PROPERTIES PLANESWALKER descriptor* ) )
+    | number noun descriptor* -> ^( SUBSET number noun descriptor* )
     ;
 
 // A full zone, for use as a subset
