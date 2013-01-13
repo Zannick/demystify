@@ -27,6 +27,7 @@ import multiprocessing
 import multiprocessing.queues
 import re
 import string
+import sys
 
 import progressbar
 
@@ -378,6 +379,7 @@ class CardProgressQueue(multiprocessing.queues.JoinableQueue):
                 self._pbar.update(self._sem._semlock._get_value())
 
 def _card_worker(work_queue, res_queue, func):
+    logger.debug("Card worker starting up - Python {}".format(sys.version))
     try:
         while True:
             c = work_queue.get(timeout=0.2)
@@ -396,6 +398,9 @@ def _card_worker(work_queue, res_queue, func):
                 work_queue.task_done(cname=c.name)
     except queue.Empty:
         return
+    except Exception as e:
+        logger.fatal('Fatal exception processing {}: {}'
+                     .format(func.__name__, e))
 
 def map_multi(func, cards, processes=None):
     """ Applies a given function to each card in cards, utilizing
