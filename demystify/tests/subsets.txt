@@ -17,11 +17,11 @@
                  (AND green elf))
              (CONTROL you))
 
-# properties case 4 (adj+noun+desc pair)
-@properties
-@permanent you control or card you own
-@(PROPERTIES (or (AND permanent (CONTROL you))
-                 (AND card (own you))))
+# subsets (adj+noun+desc pair)
+@subset
+@a permanent you control or card you own
+@(SUBSET (NUMBER 1) (or (SUBSET (PROPERTIES permanent (CONTROL you)))
+                        (SUBSET (PROPERTIES card (OWN you)))))
 
 @subsets
 @all permanents you control and all cards you own
@@ -95,7 +95,7 @@
 @subsets
 @non-land cards you own that aren't on the battlefield, spells you control,
  and non-land permanents you control
-@(SUBSET (NUMBER ALL) (PROPERTIES (and
-    (AND (NON land) cards (OWN you) (NOT battlefield))
-    (AND spells (CONTROL you))
-    (AND (NON land) permanents (CONTROL you)))))
+@(SUBSET (NUMBER ALL)
+         (and (SUBSET (PROPERTIES (NON land) cards (OWN you) (NOT battlefield)))
+              (SUBSET (PROPERTIES spells (CONTROL you)))
+              (SUBSET (PROPERTIES (NON land) permanents (CONTROL you)))))

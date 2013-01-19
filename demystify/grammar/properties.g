@@ -60,8 +60,10 @@ parser grammar properties;
  */
 
 properties : a+=adjective*
-             ( adj_list? noun+ descriptor*
-               -> ^( PROPERTIES adjective* adj_list? noun* descriptor* )
+             // Greedily match noun_list rather than split across the conj
+             // in subset rules.
+             ( options {greedy=true;}: adj_list noun+ descriptor*
+               -> ^( PROPERTIES adjective* adj_list noun* descriptor* )
              | nl=noun_list n+=noun* nd+=descriptor*
                {
                 if $n:
@@ -78,9 +80,10 @@ properties : a+=adjective*
                }
                -> ^( PROPERTIES adjective* noun_list noun* descriptor* )
              | b+=noun+ 
-               ( ( COMMA ( c+=properties_case3_ COMMA )+ )?
+               // Greedily match the conj rule here rather than in subset.
+               ( options {greedy=true;}:
+                 ( COMMA ( c+=properties_case3_ COMMA )+ )?
                  j=conj g=properties_case3_ e+=descriptor*
-                 // Currently only Purge?
                  { self.emitDebugMessage('properties case 3: {}'
                                          .format(' '.join(
                     [t.text for t in ($a or []) + ($b or [])]
@@ -92,18 +95,8 @@ properties : a+=adjective*
                  -> ^( PROPERTIES ^( $j ^( AND $a* $b+ )
                                         ^( AND properties_case3_)+ )
                                   descriptor* )
-               | f+=descriptor+ ( COMMA ( c+=basic_properties COMMA )+ )?
-                 k=conj d=basic_properties
-                 { self.emitDebugMessage('properties case 4: {}'
-                                         .format(' '.join(
-                    [t.text for t in ($a or []) + ($b or [])]
-                    + [t.toStringTree() for t in ($f or [])]
-                    + [', ' + t.toStringTree() for t in ($c or [])]
-                    + ($c and [','] or [])
-                    + [$k.text]
-                    + [$d.tree.toStringTree()]))) }
-                 -> ^( PROPERTIES ^( $k ^( AND $a* $b+ $f+ )
-                                        ^( AND basic_properties )+ ) )
+               | descriptor*
+                 -> ^( PROPERTIES adjective* noun+ descriptor* )
                )
              );
 

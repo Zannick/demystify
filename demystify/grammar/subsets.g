@@ -21,22 +21,26 @@ parser grammar subsets;
 /* Rules for describing subsets of objects. */
 
 subsets : subset_list
-        | properties restriction*
-          -> ^( SUBSET ^( NUMBER ALL ) properties restriction* )
+        | mini_sub ( ( COMMA ( mini_sub COMMA )+ )? conj mini_sub )?
+          -> {$conj.text}? ^( SUBSET ^( NUMBER ALL )
+                                     ^( conj ^( SUBSET mini_sub)+ ) )
+          -> ^( SUBSET ^( NUMBER ALL ) mini_sub )
         ;
 
-subset_list : subset ( ( COMMA! ( subset COMMA! )+ )? conj^ subset )? ;
+subset_list : subset ( options {greedy=true;}:
+                       ( COMMA! ( subset COMMA! )+ )? conj^ subset )? ;
 
-subset : number properties restriction*
-         -> ^( SUBSET number properties restriction* )
-       | number OTHER properties restriction*
-         -> ^( SUBSET number ^( NOT SELF ) properties restriction* )
-       | AMONG properties restriction*
-         -> ^( SUBSET ^( NUMBER ANY ) properties restriction* )
-       | ANOTHER properties restriction*
-         -> ^( SUBSET ^( NOT SELF ) properties restriction* )
-       | THE LAST properties restriction*
-         -> ^( SUBSET ^( LAST properties restriction* ) )
+subset : number mini_sub ( ( COMMA ( mini_sub COMMA )+ )? conj mini_sub )?
+         -> {$conj.text}? ^( SUBSET number ^( conj ^( SUBSET mini_sub)+ ) )
+         -> ^( SUBSET number mini_sub )
+       | number OTHER mini_sub
+         -> ^( SUBSET number ^( NOT SELF ) mini_sub )
+       | AMONG mini_sub
+         -> ^( SUBSET ^( NUMBER ANY ) mini_sub )
+       | ANOTHER mini_sub
+         -> ^( SUBSET ^( NOT SELF ) mini_sub )
+       | THE LAST mini_sub
+         -> ^( SUBSET ^( LAST mini_sub ) )
        | full_zone
          -> ^( SUBSET full_zone )
        | haunted_object
@@ -47,19 +51,7 @@ subset : number properties restriction*
          -> ^( SUBSET player_group )
        ;
 
-// A sad hack to keep complexity (ie. ANTLR memory usage) within reason,
-// this pair of rules allows "you or a planeswalker you control" and
-// "you or a creature you control".
-pl_subset : player_or_object
-            ( COMMA! ( player_or_object COMMA! )+ conj^ player_or_object
-            | (conj player_or_object)=> conj^ player_or_object 
-            |
-            );
-
-player_or_object
-    : player_group -> ^( SUBSET player_group )
-    | number noun descriptor* -> ^( SUBSET number noun descriptor* )
-    ;
+mini_sub : properties restriction* ;
 
 // A full zone, for use as a subset
 full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )

@@ -93,10 +93,10 @@ state_change : BECOME ( BLOCKED BY subset
                       | UNATTACHED FROM subset
                         -> ^( BECOME UNATTACHED ^( FROM[] subset ) )
                       )
-             | ATTACK ( (pl_subset)=> pl_subset | ALONE )?
+             | ATTACK ( subset_list | ALONE )?
                ( AND IS NOT BLOCKED
-                 -> ^( BECOME UNBLOCKED ALONE? pl_subset? )
-               | -> ^( BECOME ATTACKING ALONE? pl_subset? )
+                 -> ^( BECOME UNBLOCKED ALONE? subset_list? )
+               | -> ^( BECOME ATTACKING ALONE? subset_list? )
                )
              | BLOCK ( subset | ALONE )? -> ^( BECOME BLOCKING ALONE? subset? )
              | is_ TURNED status -> ^( BECOME[] status )
@@ -126,8 +126,8 @@ counter_spell : COUNTER^ subset ;
 
 cycle_card : CYCLE^ subset ;
 
-deal_damage : DEAL integer? COMBAT? DAMAGE ( TO subset )?
-              -> ^( DAMAGE[] integer? COMBAT[]? subset? );
+deal_damage : DEAL integer? COMBAT? DAMAGE ( TO subset_list )?
+              -> ^( DAMAGE[] integer? COMBAT[]? subset_list? );
 
 dealt_damage : is_ DEALT integer? COMBAT? DAMAGE ( BY subset )?
                -> ^( DEALT[] integer? COMBAT[]? DAMAGE[] subset? );
@@ -203,8 +203,8 @@ counter_removed : ( THE ordinal_word | number )
                   base_counter is_ REMOVED FROM subset
                   -> ^( REMOVED ordinal_word? number? base_counter subset );
 
-damage_dealt : COMBAT? DAMAGE is_ DEALT TO pl_subset
-               -> ^( DEAL COMBAT[]? DAMAGE[] pl_subset );
+damage_dealt : COMBAT? DAMAGE is_ DEALT TO subset_list
+               -> ^( DEAL COMBAT[]? DAMAGE[] subset_list );
 
 /* Non-subset conditions. */
 
