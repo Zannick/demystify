@@ -227,7 +227,7 @@ ref_object : SELF
 // eg. this creature, this permanent, this spell.
 this_guy : THIS ( type | obj_type ) -> SELF;
 
-that_guy : THAT^ ( type | obj_type );
+that_guy : THAT^ ( type | obj_type | obj_subtype );
 
 /* Property names. */
 
