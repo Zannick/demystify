@@ -35,6 +35,7 @@ abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
+name_ref = re.compile(r'named |name is still ')
 # We need to try the longer rarities first, so that eg. we don't get
 # 'Rare' when we want 'Mythic Rare'.
 rarities = sorted(['Common', 'Uncommon', 'Rare', 'Mythic Rare', 'Land',
@@ -563,10 +564,12 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
 def preprocess_names(line, selfnames=(), parentnames=()):
     """ This requires that each card was instantiated as a Card and their names
         added to the all_names dicts as appropriate. """
-    i = line.find("named ")
     change = False
-    while i > -1:
-        words = line[i + 6:].split()
+    match = name_ref.search(line)
+    while match:
+        # Examine the words after the name_ref indicator
+        i, j = match.regs[0]
+        words = line[j:].split()
         if not words[0][0].islower():
             good = []
             bad = []
@@ -581,25 +584,25 @@ def preprocess_names(line, selfnames=(), parentnames=()):
             res = good and good[0] or bad and bad[-1] or None
             if res:
                 logger.debug("Selected name(s) at position {} "
-                              "as: {}".format(i + 6, "; ".join(res)))
-                line = (line[:i + 6] + format_by_name(res, words))
+                              "as: {}".format(j, "; ".join(res)))
+                line = (line[:j] + format_by_name(res, words))
                 if len(res) == 1 and '"' not in line[:i] and not parentnames:
                     # Check for abilities granted
-                    t = abil.search(line[i + 6:])
+                    t = abil.search(line[j:])
                     if t:
                         m, n = t.regs[0]
                         # Created tokens don't get shortnames
-                        line = (line[:m + i + 6]
+                        line = (line[:m + j]
                                 + preprocess_names(t.group(), (res[0],),
                                                    selfnames)
-                                + line[n + i + 6:])
-                        i += n
+                                + line[n + j:])
+                        j += n
                 change = True
             else:
                 logger.warning("Unable to interpret name(s) "
                                "at position {}: {}."
-                               .format(i + 6, words[0]))
-        i = line.find("named ", i + 6)
+                               .format(j, words[0]))
+        match = name_ref.search(line, j)
     # Check for abilities granted to things that aren't named tokens
     if not parentnames:
         i = 0
