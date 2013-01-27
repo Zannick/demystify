@@ -262,6 +262,13 @@ Pow/Tgh:
 Rules Text:     Target creature gets +1/+1 and gains flying and first strike until end of turn.
 Set/Rarity:     Planeshift Common
 
+Name:   Daring Skyjek
+Cost:   1W
+Type:   Creature — Human Knight
+Pow/Tgh:    (3/1)
+Rules Text:     Battalion — Whenever Daring Skyjek and at least two other creatures attack, Daring Skyjek gains flying until end of turn.
+Set/Rarity:     Gatecrash Common
+
 Name:   Dark Banishing
 Cost:   2B
 Type:   Instant
@@ -1281,6 +1288,14 @@ Pow/Tgh:
 Rules Text:     Separate all creature cards in your graveyard into two piles. Exile the pile of an opponent's choice and return the other to the battlefield.
 Set/Rarity:     Invasion Rare
 
+Name:   Death's Approach
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -X/-X, where X is the number of creature cards in its controller's graveyard.
+Set/Rarity:     Gatecrash Common
+
 Name:   Death's Caress
 Cost:   3BB
 Type:   Sorcery
@@ -1357,6 +1372,13 @@ Type:   Creature — Wurm
 Pow/Tgh:    (7/6)
 Rules Text:     You may have Deathcoil Wurm assign its combat damage as though it weren't blocked.
 Set/Rarity:     Masters Edition IV Rare, Portal Second Age Rare
+
+Name:   Deathcult Rogue
+Cost:   1(U/B)(U/B)
+Type:   Creature — Human Rogue
+Pow/Tgh:    (2/2)
+Rules Text:     Deathcult Rogue can't be blocked except by Rogues.
+Set/Rarity:     Gatecrash Common
 
 Name:   Deathcurse Ogre
 Cost:   5B
@@ -1439,6 +1461,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     As long as you have seven or more cards in hand, Deathmask Nezumi gets +2/+1 and has fear. (It can't be blocked except by artifact creatures and/or black creatures.)
 Set/Rarity:     Saviors of Kamigawa Common
 
+Name:   Deathpact Angel
+Cost:   3WBB
+Type:   Creature — Angel
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+When Deathpact Angel dies, put a 1/1 white and black Cleric creature token onto the battlefield. It has "{3}{W}{B}{B}, {T}, Sacrifice this creature: Return a card named Deathpact Angel from your graveyard to the battlefield."
+Set/Rarity:     Gatecrash Mythic Rare
+
 Name:   Deathrender
 Cost:   4
 Type:   Artifact — Equipment
@@ -1472,6 +1502,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Regenerate target creature. You gain control of that creature if it regenerates this way.
 Set/Rarity:     Weatherlight Rare
+
+Name:   Debtor's Pulpit
+Cost:   4W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+Enchanted land has "{T}: Tap target creature."
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Debtors' Knell
 Cost:   4(W/B)(W/B)(W/B)
@@ -2669,6 +2707,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
 Set/Rarity:     Champions of Kamigawa Common
 
+Name:   Devour Flesh
+Cost:   1B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target player sacrifices a creature, then gains life equal to that creature's toughness.
+Set/Rarity:     Gatecrash Common
+
 Name:   Devour in Shadow
 Cost:   BB
 Type:   Instant
@@ -2874,6 +2919,14 @@ Rules Text:     {1}{G}, Sacrifice Diligent Farmhand: Search your library for a b
 If Diligent Farmhand is in a graveyard, effects from spells named Muscle Burst count it as a card named Muscle Burst.
 Set/Rarity:     Odyssey Common
 
+Name:   Diluvian Primordial
+Cost:   5UU
+Type:   Creature — Avatar
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+When Diluvian Primordial enters the battlefield, for each opponent, you may cast up to one target instant or sorcery card from that player's graveyard without paying its mana cost. If a card cast this way would be put into a graveyard this turn, exile it instead.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Dimensional Breach
 Cost:   5WW
 Type:   Sorcery
@@ -2904,6 +2957,13 @@ When Dimir Aqueduct enters the battlefield, return a land you control to its own
 {T}: Add {U}{B} to your mana pool.
 Set/Rarity:     Planechase 2012 Edition Common, Magic: The Gathering-Commander Common, Ravnica: City of Guilds Common
 
+Name:   Dimir Charm
+Cost:   UB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Counter target sorcery spell; or destroy target creature with power 2 or less; or look at the top three cards of target player's library, then put one back and the rest into that player's graveyard.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Dimir Cutpurse
 Cost:   1UB
 Type:   Creature — Spirit
@@ -2917,6 +2977,14 @@ Type:   Creature — Shapeshifter
 Pow/Tgh:    (0/2)
 Rules Text:     {1}{U}{B}: Exile target creature card from a graveyard. Dimir Doppelganger becomes a copy of that card and gains this ability.
 Set/Rarity:     Ravnica: City of Guilds Rare
+
+Name:   Dimir Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Dimir Guildgate enters the battlefield tapped.
+{T}: Add {U} or {B} to your mana pool.
+Set/Rarity:     Gatecrash Common
 
 Name:   Dimir Guildmage
 Cost:   (U/B)(U/B)
@@ -2943,6 +3011,14 @@ Pow/Tgh:    (1/3)
 Rules Text:     Dimir Infiltrator is unblockable.
 Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 Set/Rarity:     Planechase 2012 Edition Common, Ravnica: City of Guilds Common
+
+Name:   Dimir Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {U} or {B} to your mana pool.
+{U}{B}: Dimir Keyrune becomes a 2/2 blue and black Horror artifact creature until end of turn and is unblockable this turn.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Dimir Machinations
 Cost:   2B
@@ -2979,6 +3055,13 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Whenever a creature dies, Dingus Staff deals 2 damage to that creature's controller.
 Set/Rarity:     Weatherlight Uncommon
+
+Name:   Dinrova Horror
+Cost:   4UB
+Type:   Creature — Horror
+Pow/Tgh:    (4/4)
+Rules Text:     When Dinrova Horror enters the battlefield, return target permanent to its owner's hand, then that player discards a card.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Diplomatic Escort
 Cost:   1U
@@ -3143,6 +3226,13 @@ Pow/Tgh:    (3/1)
 Rules Text:     {T}: Target creature gets -1/-1 until end of turn.
 {4}{B}{B}, {T}, Sacrifice Disciple of Tevesh Szat: Target creature gets -6/-6 until end of turn.
 Set/Rarity:     Coldsnap Common
+
+Name:   Disciple of the Old Ways
+Cost:   1G
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     {R}: Disciple of the Old Ways gains first strike until end of turn.
+Set/Rarity:     Gatecrash Common
 
 Name:   Disciple of the Vault
 Cost:   B
@@ -3753,6 +3843,15 @@ Rules Text:     Flying
 At the beginning of your upkeep, you may gain control of target permanent until end of turn. If you do, untap it and it gains haste until end of turn.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Eventide Rare
 
+Name:   Domri Rade
+Cost:   1RG
+Type:   Planeswalker — Domri
+Loyalty:    (3)
+Rules Text:     +1: Look at the top card of your library. If it's a creature card, you may reveal it and put it into your hand.
+-2: Target creature you control fights another target creature.
+-7: You get an emblem with "Creatures you control have double strike, trample, hexproof, and haste."
+Set/Rarity:     Gatecrash Mythic Rare
+
 Name:   Donate
 Cost:   2U
 Type:   Sorcery
@@ -4314,6 +4413,13 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {T}: Add {U} or {B} to your mana pool.
 Set/Rarity:     Invasion Uncommon
+
+Name:   Drakewing Krasis
+Cost:   1GU
+Type:   Creature — Lizard Drake
+Pow/Tgh:    (3/1)
+Rules Text:     Flying, trample
+Set/Rarity:     Gatecrash Common
 
 Name:   Dralnu's Crusade
 Cost:   1BR
@@ -5322,6 +5428,14 @@ Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this c
 Flying
 Set/Rarity:     Magic 2012 Common
 
+Name:   Duskmantle Guildmage
+Cost:   UB
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {1}{U}{B}: Whenever a card is put into an opponent's graveyard from anywhere this turn, that player loses 1 life.
+{2}{U}{B}: Target player puts the top two cards of his or her library into his or her graveyard.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Duskmantle Prowler
 Cost:   3B
 Type:   Creature — Vampire Rogue
@@ -5329,6 +5443,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Haste (This creature can attack and {T} as soon as it comes under your control.)
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Set/Rarity:     Magic 2013 Uncommon
+
+Name:   Duskmantle Seer
+Cost:   2UB
+Type:   Creature — Vampire Wizard
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+At the beginning of your upkeep, each player reveals the top card of his or her library, loses life equal to that card's converted mana cost, then puts it into his or her hand.
+Set/Rarity:     Gatecrash Mythic Rare
 
 Name:   Duskmantle, House of Shadow
 Cost:   
@@ -5408,6 +5530,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Exile two target artifacts.
 Set/Rarity:     Masters Edition IV Uncommon, Masters Edition Common, Fifth Edition Uncommon, The Dark Common
+
+Name:   Dutiful Thrull
+Cost:   W
+Type:   Creature — Thrull
+Pow/Tgh:    (1/1)
+Rules Text:     {B}: Regenerate Dutiful Thrull.
+Set/Rarity:     Gatecrash Common
 
 Name:   Duty-Bound Dead
 Cost:   B
@@ -5642,6 +5771,14 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When enchanted creature dies, target player discards two cards.
 Set/Rarity:     Urza's Destiny Common
+
+Name:   Dying Wish
+Cost:   1B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature you control
+When enchanted creature dies, target player loses X life and you gain X life, where X is its power.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Dynacharge
 Cost:   R

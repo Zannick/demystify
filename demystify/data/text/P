@@ -453,6 +453,14 @@ Rules Text:     Enchant creature
 Enchanted creature doesn't untap during its controller's untap step.
 Set/Rarity:     Return to Ravnica Common, Zendikar Common
 
+Name:   Paranoid Delusions
+Cost:   UB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player puts the top three cards of his or her library into his or her graveyard.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Parapet
 Cost:   1W
 Type:   Enchantment
@@ -2312,6 +2320,13 @@ Pow/Tgh:
 Rules Text:     Destroy target creature with flying. Its controller gets a poison counter.
 Set/Rarity:     Mirrodin Besieged Common
 
+Name:   Pit Fight
+Cost:   1(R/G)
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Pit Imp
 Cost:   B
 Type:   Creature — Imp
@@ -3247,6 +3262,13 @@ Enchanted creature gets +2/+1.
 Enchanted creature has intimidate as long as its controller controls no other creatures. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Set/Rarity:     Avacyn Restored Common
 
+Name:   Predator's Rapport
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose target creature you control. You gain life equal to that creature's power plus its toughness.
+Set/Rarity:     Gatecrash Common
+
 Name:   Predator's Strike
 Cost:   1G
 Type:   Instant
@@ -3591,6 +3613,14 @@ Pow/Tgh:
 Rules Text:     Exile the top card of your library. If it's a permanent card, you may put it onto the battlefield. If you do, repeat this process.
 Set/Rarity:     Avacyn Restored Mythic Rare
 
+Name:   Primal Visitation
+Cost:   3RG
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +3/+3 and has haste.
+Set/Rarity:     Gatecrash Common
+
 Name:   Primal Whisperer
 Cost:   4G
 Type:   Creature — Elf Soldier
@@ -3606,6 +3636,14 @@ Pow/Tgh:    (*/*)
 Rules Text:     Trample
 Chroma — Primalcrux's power and toughness are each equal to the number of green mana symbols in the mana costs of permanents you control.
 Set/Rarity:     Eventide Rare
+
+Name:   Prime Speaker Zegana
+Cost:   2GGUU
+Type:   Legendary Creature — Merfolk Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     Prime Speaker Zegana enters the battlefield with X +1/+1 counters on it, where X is the greatest power among other creatures you control.
+When Prime Speaker Zegana enters the battlefield, draw cards equal to its power.
+Set/Rarity:     Gatecrash Mythic Rare
 
 Name:   Primeval Force
 Cost:   2GGG
@@ -3944,7 +3982,7 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     When Prophetic Prism enters the battlefield, draw a card.
 {1}, {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
+Set/Rarity:     Gatecrash Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
 
 Name:   Prosperity
 Cost:   XU
@@ -4174,6 +4212,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Shuffle all cards from your graveyard into your library. Target player puts that many cards from the top of his or her library into his or her graveyard.
 Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Psychic Strike
+Cost:   1UB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell. Its controller puts the top two cards of his or her library into his or her graveyard.
+Set/Rarity:     Gatecrash Common
 
 Name:   Psychic Surgery
 Cost:   1U
@@ -4546,6 +4591,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target artifact creature or black creature. It can't be regenerated.
 Set/Rarity:     Darksteel Uncommon
+
+Name:   Purge the Profane
+Cost:   2WB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target opponent discards two cards and you gain 2 life.
+Set/Rarity:     Gatecrash Common
 
 Name:   Purging Scythe
 Cost:   5

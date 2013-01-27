@@ -1933,6 +1933,14 @@ Rules Text:     {S}: Thermopod gains haste until end of turn. ({S} can be paid w
 Sacrifice a creature: Add {R} to your mana pool.
 Set/Rarity:     Coldsnap Common
 
+Name:   Thespian's Stage
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{2}, {T}: Thespian's Stage becomes a copy of target land and gains this ability.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Thick-Skinned Goblin
 Cost:   1R
 Type:   Creature — Goblin Shaman
@@ -2661,6 +2669,14 @@ Rules Text:     Thrull creatures get +1/+1.
 {T}: Gain control of target Thrull for as long as you control Thrull Champion.
 Set/Rarity:     Masters Edition Rare, Fallen Empires Rare
 
+Name:   Thrull Parasite
+Cost:   B
+Type:   Creature — Thrull
+Pow/Tgh:    (1/1)
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+{T}, Pay 2 life: Remove a counter from target nonland permanent.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Thrull Retainer
 Cost:   B
 Type:   Enchantment — Aura
@@ -3358,6 +3374,14 @@ Pow/Tgh:    (2/1)
 Rules Text:     When Tin Street Hooligan enters the battlefield, if {G} was spent to cast Tin Street Hooligan, destroy target artifact.
 Set/Rarity:     Guildpact Common
 
+Name:   Tin Street Market
+Cost:   4R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+Enchanted land has "{T}, Discard a card: Draw a card."
+Set/Rarity:     Gatecrash Common
+
 Name:   Tin-Wing Chimera
 Cost:   4
 Type:   Artifact Creature — Chimera
@@ -3955,6 +3979,13 @@ Pow/Tgh:
 Rules Text:     Whenever a player attacks with one or more creatures, destroy all untapped non-Wall creatures that player controls that didn't attack, except for creatures the player hasn't controlled continuously since the beginning of the turn.
 Set/Rarity:     Ice Age Rare
 
+Name:   Totally Lost
+Cost:   4U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put target nonland permanent on top of its owner's library.
+Set/Rarity:     Gatecrash Common
+
 Name:   Totem Speaker
 Cost:   4G
 Type:   Creature — Elf Druid
@@ -4058,6 +4089,13 @@ Rules Text:     ({(2/g)} can be paid with any two mana or with {G}. This card's 
 Until end of turn, target creature gets +4/+4 and gains trample, wither, and "When this creature attacks, target creature blocks it this turn if able." (It deals damage to creatures in the form of -1/-1 counters.)
 Set/Rarity:     Shadowmoor Uncommon
 
+Name:   Tower Defense
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures you control get +0/+5 and gain reach until end of turn.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Tower Drake
 Cost:   2U
 Type:   Creature — Drake
@@ -4145,6 +4183,13 @@ Type:   Creature — Beast
 Pow/Tgh:    (2/4)
 Rules Text:     Reach (This creature can block creatures with flying.)
 Set/Rarity:     Return to Ravnica Common
+
+Name:   Towering Thunderfist
+Cost:   4R
+Type:   Creature — Giant Soldier
+Pow/Tgh:    (4/4)
+Rules Text:     {W}: Towering Thunderfist gains vigilance until end of turn.
+Set/Rarity:     Gatecrash Common
 
 Name:   Town Sentry
 Cost:   2W
@@ -4682,6 +4727,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return target card from your graveyard to your hand. Exile Treasured Find.
 Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Treasury Thrull
+Cost:   4WB
+Type:   Creature — Thrull
+Pow/Tgh:    (4/4)
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Whenever Treasury Thrull attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Tree Monkey
 Cost:   G
@@ -5239,6 +5292,15 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures you control have double strike and lifelink.
 Set/Rarity:     Scars of Mirrodin Rare
+
+Name:   Truefire Paladin
+Cost:   RW
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/2)
+Rules Text:     Vigilance
+{R}{W}: Truefire Paladin gets +2/+0 until end of turn.
+{R}{W}: Truefire Paladin gains first strike until end of turn.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Trumpet Blast
 Cost:   2R

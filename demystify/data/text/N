@@ -319,7 +319,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target artifact or enchantment.
-Set/Rarity:     Magic 2013 Common, Innistrad Common, Magic 2012 Common, Magic 2011 Common, Rise of the Eldrazi Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common
+Set/Rarity:     Gatecrash Common, Magic 2013 Common, Innistrad Common, Magic 2012 Common, Magic 2011 Common, Rise of the Eldrazi Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Onslaught Common
 
 Name:   Nature's Blessing
 Cost:   2GW
@@ -416,6 +416,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     All creatures get -1/-1 until end of turn.
 Set/Rarity:     Eighth Edition Common, Seventh Edition Common, Exodus Common
+
+Name:   Nav Squad Commandos
+Cost:   4W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (3/5)
+Rules Text:     Battalion — Whenever Nav Squad Commandos and at least two other creatures attack, Nav Squad Commandos gets +1/+1 until end of turn. Untap it.
+Set/Rarity:     Gatecrash Common
 
 Name:   Naya Battlemage
 Cost:   2G
@@ -1467,6 +1474,15 @@ Pow/Tgh:    (*/3)
 Rules Text:     Nightstalker Engine's power is equal to the number of creature cards in your graveyard.
 Set/Rarity:     Portal Second Age Rare
 
+Name:   Nightveil Specter
+Cost:   (U/B)(U/B)(U/B)
+Type:   Creature — Specter
+Pow/Tgh:    (2/3)
+Rules Text:     Flying
+Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of his or her library.
+You may play cards exiled with Nightveil Specter.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Nightwind Glider
 Cost:   2W
 Type:   Creature — Human Rebel
@@ -1599,6 +1615,14 @@ Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Add {W} to your mana pool. Activate this ability only if you control an Island.
 {T}: Add {U} to your mana pool. Activate this ability only if you control a Plains.
 Set/Rarity:     Future Sight Rare
+
+Name:   Nimbus Swimmer
+Cost:   XGU
+Type:   Creature — Leviathan
+Pow/Tgh:    (0/0)
+Rules Text:     Flying
+Nimbus Swimmer enters the battlefield with X +1/+1 counters on it.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Nimbus Wings
 Cost:   1W

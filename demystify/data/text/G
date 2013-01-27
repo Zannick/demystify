@@ -433,6 +433,14 @@ Rules Text:     Kicker {B} (You may pay an additional {B} as you cast this spell
 When Gatekeeper of Malakir enters the battlefield, if it was kicked, target player sacrifices a creature.
 Set/Rarity:     Zendikar Uncommon
 
+Name:   Gateway Shade
+Cost:   2B
+Type:   Creature — Shade
+Pow/Tgh:    (1/1)
+Rules Text:     {B}: Gateway Shade gets +1/+1 until end of turn.
+Tap an untapped Gate you control: Gateway Shade gets +2/+2 until end of turn.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Gathan Raiders
 Cost:   3RR
 Type:   Creature — Human Warrior
@@ -1037,6 +1045,14 @@ Rules Text:     First strike
 {3}{G}: Ghor-Clan Bloodscale gets +2/+2 until end of turn. Activate this ability only once each turn.
 Set/Rarity:     Guildpact Uncommon
 
+Name:   Ghor-Clan Rampager
+Cost:   2RG
+Type:   Creature — Beast
+Pow/Tgh:    (4/4)
+Rules Text:     Trample
+Bloodrush — {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets +4/+4 and gains trample until end of turn.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Ghor-Clan Savage
 Cost:   3GG
 Type:   Creature — Centaur Berserker
@@ -1294,6 +1310,14 @@ Pow/Tgh:    (10/10)
 Rules Text:     Ghoultree costs {1} less to cast for each creature card in your graveyard.
 Set/Rarity:     Dark Ascension Rare
 
+Name:   Giant Adephage
+Cost:   5GG
+Type:   Creature — Insect
+Pow/Tgh:    (7/7)
+Rules Text:     Trample
+Whenever Giant Adephage deals combat damage to a player, put a token onto the battlefield that's a copy of Giant Adephage.
+Set/Rarity:     Gatecrash Mythic Rare
+
 Name:   Giant Albatross
 Cost:   1U
 Type:   Creature — Bird
@@ -1518,6 +1542,15 @@ Pow/Tgh:    (1/1)
 Rules Text:     {W}, {T}: Tap target creature.
 Set/Rarity:     Magic 2012 Common
 
+Name:   Gideon, Champion of Justice
+Cost:   2WW
+Type:   Planeswalker — Gideon
+Loyalty:    (4)
+Rules Text:     +1: Put a loyalty counter on Gideon, Champion of Justice for each creature target opponent controls.
+0: Until end of turn, Gideon, Champion of Justice becomes an indestructible Human Soldier creature with power and toughness each equal to the number of loyalty counters on him. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+-15: Exile all other permanents.
+Set/Rarity:     Gatecrash Mythic Rare
+
 Name:   Gift of Estates
 Cost:   1W
 Type:   Sorcery
@@ -1533,6 +1566,14 @@ Rules Text:     Flash (You may cast this spell any time you could cast an instan
 Enchant creature
 Enchanted creature gets +0/+2.
 Set/Rarity:     Future Sight Common
+
+Name:   Gift of Orzhova
+Cost:   1(W/B)(W/B)
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +1/+1 and has flying and lifelink.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Gift of the Deity
 Cost:   4(B/G)
@@ -1796,6 +1837,14 @@ Rules Text:     Haste
 When Glarewielder enters the battlefield, up to two target creatures can't block this turn.
 Evoke {1}{R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
 Set/Rarity:     Lorwyn Uncommon
+
+Name:   Glaring Spotlight
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     Creatures your opponents control with hexproof can be the targets of spells and abilities you control as though they didn't have hexproof.
+{3}, Sacrifice Glaring Spotlight: Creatures you control gain hexproof until end of turn and are unblockable this turn.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Glass Asp
 Cost:   1GG
@@ -3194,7 +3243,7 @@ Type:   Land — Plains Swamp
 Pow/Tgh:    
 Rules Text:     ({T}: Add {W} or {B} to your mana pool.)
 As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped.
-Set/Rarity:     Guildpact Rare
+Set/Rarity:     Gatecrash Rare, Guildpact Rare
 
 Name:   Godo's Irregulars
 Cost:   R
@@ -4355,6 +4404,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     {G}, {T}, Discard a card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.
 Set/Rarity:     Time Spiral Common
 
+Name:   Greenside Watcher
+Cost:   1G
+Type:   Creature — Elf Druid
+Pow/Tgh:    (2/1)
+Rules Text:     {T}: Untap target Gate.
+Set/Rarity:     Gatecrash Common
+
 Name:   Greenweaver Druid
 Cost:   2G
 Type:   Creature — Elf Druid
@@ -4376,6 +4432,13 @@ Type:   Artifact Creature — Construct
 Pow/Tgh:    (4/6)
 Rules Text:     You can't cast creature spells.
 Set/Rarity:     Mirrodin Rare
+
+Name:   Gridlock
+Cost:   XU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Tap X target nonland permanents.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Grief Tyrant
 Cost:   5(B/R)
@@ -4645,6 +4708,13 @@ Pow/Tgh:
 Rules Text:     Reveal the top five cards of your library. You may put a creature or land card from among them into your hand. Put the rest into your graveyard.
 Set/Rarity:     Return to Ravnica Common
 
+Name:   Grisly Spectacle
+Cost:   2BB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard.
+Set/Rarity:     Gatecrash Common
+
 Name:   Gristle Grinner
 Cost:   4B
 Type:   Creature — Zombie
@@ -4786,6 +4856,13 @@ Rules Text:     Whenever Grotesque Hybrid deals combat damage to a creature, des
 Discard a card: Grotesque Hybrid gains flying and protection from green and from white until end of turn.
 Set/Rarity:     Torment Uncommon
 
+Name:   Ground Assault
+Cost:   RG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Ground Assault deals damage to target creature equal to the number of lands you control.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Ground Rift
 Cost:   R
 Type:   Sorcery
@@ -4903,6 +4980,21 @@ Pow/Tgh:
 Rules Text:     Put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. Exile it at the beginning of the next end step. If that creature would leave the battlefield, exile it instead of putting it anywhere else.
 Set/Rarity:     Mirrodin Besieged Uncommon
 
+Name:   Gruul Charm
+Cost:   RG
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Creatures without flying can't block this turn; or gain control of all permanents you own; or Gruul Charm deals 3 damage to each creature with flying.
+Set/Rarity:     Gatecrash Uncommon
+
+Name:   Gruul Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Gruul Guildgate enters the battlefield tapped.
+{T}: Add {R} or {G} to your mana pool.
+Set/Rarity:     Gatecrash Common
+
 Name:   Gruul Guildmage
 Cost:   (R/G)(R/G)
 Type:   Creature — Human Shaman
@@ -4912,12 +5004,27 @@ Rules Text:     ({(r/g)} can be paid with either {R} or {G}.)
 {3}{G}: Target creature gets +2/+2 until end of turn.
 Set/Rarity:     Guildpact Uncommon
 
+Name:   Gruul Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {R} or {G} to your mana pool.
+{R}{G}: Gruul Keyrune becomes a 3/2 red and green Beast artifact creature with trample until end of turn.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Gruul Nodorog
 Cost:   4GG
 Type:   Creature — Beast
 Pow/Tgh:    (4/4)
 Rules Text:     {R}: Gruul Nodorog can't be blocked this turn except by two or more creatures.
 Set/Rarity:     Guildpact Common
+
+Name:   Gruul Ragebeast
+Cost:   5RG
+Type:   Creature — Beast
+Pow/Tgh:    (6/6)
+Rules Text:     Whenever Gruul Ragebeast or another creature enters the battlefield under your control, that creature fights target creature an opponent controls.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Gruul Scrapper
 Cost:   3G
@@ -5066,6 +5173,15 @@ Rules Text:     Convoke (Each creature you tap while casting this spell reduces 
 Vigilance
 Set/Rarity:     Ravnica: City of Guilds Common
 
+Name:   Guardian of the Gateless
+Cost:   4W
+Type:   Creature — Angel
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Guardian of the Gateless can block any number of creatures.
+Whenever Guardian of the Gateless blocks, it gets +1/+1 until end of turn for each creature it's blocking.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Guardian of the Guildpact
 Cost:   3W
 Type:   Creature — Spirit
@@ -5135,6 +5251,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, target opponent reveals the top three cards of his or her library, may put a creature card from among them onto the battlefield, then puts the rest into his or her graveyard. You do the same with the top three cards of your library. If two creatures are put onto the battlefield this way, those creatures fight each other.
 Set/Rarity:     Return to Ravnica Rare
+
+Name:   Guildscorn Ward
+Cost:   W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has protection from multicolored.
+Set/Rarity:     Gatecrash Common
 
 Name:   Guile
 Cost:   3UUU
@@ -5293,6 +5417,13 @@ Pow/Tgh:
 Rules Text:     Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then put a green Ooze creature token onto the battlefield with "This creature's power and toughness are each equal to the number of slime counters on Gutter Grime."
 Set/Rarity:     Innistrad Rare
 
+Name:   Gutter Skulk
+Cost:   1B
+Type:   Creature — Zombie Rat
+Pow/Tgh:    (2/2)
+Rules Text:     
+Set/Rarity:     Gatecrash Common
+
 Name:   Guttersnipe
 Cost:   2R
 Type:   Creature — Goblin Shaman
@@ -5366,3 +5497,11 @@ Pow/Tgh:    (2/2)
 Rules Text:     When Gwyllion Hedge-Mage enters the battlefield, if you control two or more Plains, you may put a 1/1 white Kithkin Soldier creature token onto the battlefield.
 When Gwyllion Hedge-Mage enters the battlefield, if you control two or more Swamps, you may put a -1/-1 counter on target creature.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Eventide Uncommon
+
+Name:   Gyre Sage
+Cost:   1G
+Type:   Creature — Elf Druid
+Pow/Tgh:    (1/2)
+Rules Text:     Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+{T}: Add {G} to your mana pool for each +1/+1 counter on Gyre Sage.
+Set/Rarity:     Gatecrash Rare

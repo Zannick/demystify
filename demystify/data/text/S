@@ -83,7 +83,7 @@ Type:   Land — Mountain Plains
 Pow/Tgh:    
 Rules Text:     ({T}: Add {R} or {W} to your mana pool.)
 As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Gatecrash Rare, Ravnica: City of Guilds Rare
 
 Name:   Sacred Ground
 Cost:   1W
@@ -289,6 +289,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return target sorcery card from your graveyard to your hand.
 Set/Rarity:     Portal Three Kingdoms Common
+
+Name:   Sage's Row Denizen
+Cost:   2U
+Type:   Creature — Vedalken Wizard
+Pow/Tgh:    (2/3)
+Rules Text:     Whenever another blue creature enters the battlefield under your control, target player puts the top two cards of his or her library into his or her graveyard.
+Set/Rarity:     Gatecrash Common
 
 Name:   Sages of the Anima
 Cost:   3GU
@@ -768,6 +775,14 @@ Pow/Tgh:
 Rules Text:     Choose one — Target player draws a card at the beginning of the next turn's upkeep; or target creature gains flying until end of turn; or target creature an opponent controls phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during his or her next untap step.)
 Set/Rarity:     Mirage Common
 
+Name:   Sapphire Drake
+Cost:   5U
+Type:   Creature — Drake
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+Each creature you control with a +1/+1 counter on it has flying.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Sapphire Leech
 Cost:   1U
 Type:   Creature — Leech
@@ -1113,6 +1128,13 @@ Rules Text:     Sunburst (This enters the battlefield with a +1/+1 counter on it
 Remove two +1/+1 counters from Sawtooth Thresher: Sawtooth Thresher gets +4/+4 until end of turn.
 Set/Rarity:     Fifth Dawn Common
 
+Name:   Scab-Clan Charger
+Cost:   3G
+Type:   Creature — Centaur Warrior
+Pow/Tgh:    (2/4)
+Rules Text:     Bloodrush — {1}{G}, Discard Scab-Clan Charger: Target attacking creature gets +2/+4 until end of turn.
+Set/Rarity:     Gatecrash Common
+
 Name:   Scab-Clan Mauler
 Cost:   RG
 Type:   Creature — Human Berserker
@@ -1341,6 +1363,14 @@ Type:   Creature — Zombie
 Pow/Tgh:    (2/2)
 Rules Text:     
 Set/Rarity:     Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Starter 2000 Common, Starter 1999 Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+
+Name:   Scatter Arc
+Cost:   3U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target noncreature spell.
+Draw a card.
+Set/Rarity:     Gatecrash Common
 
 Name:   Scatter the Seeds
 Cost:   3GG
@@ -1598,6 +1628,13 @@ Pow/Tgh:
 Rules Text:     Cast Scorching Winds only during the declare attackers step and only if you've been attacked this step.
 Scorching Winds deals 1 damage to each attacking creature.
 Set/Rarity:     Portal Uncommon
+
+Name:   Scorchwalker
+Cost:   3R
+Type:   Creature — Elemental
+Pow/Tgh:    (5/1)
+Rules Text:     Bloodrush — {1}{R}{R}, Discard Scorchwalker: Target attacking creature gets +5/+1 until end of turn.
+Set/Rarity:     Gatecrash Common
 
 Name:   Scoria Cat
 Cost:   3RR
@@ -3039,6 +3076,14 @@ Rules Text:     Infect (This creature deals damage to creatures in the form of -
 Whenever Septic Rats attacks, if defending player is poisoned, it gets +1/+1 until end of turn.
 Set/Rarity:     Mirrodin Besieged Uncommon
 
+Name:   Sepulchral Primordial
+Cost:   5BB
+Type:   Creature — Avatar
+Pow/Tgh:    (5/4)
+Rules Text:     Intimidate
+When Sepulchral Primordial enters the battlefield, for each opponent, you may put up to one target creature card from that player's graveyard onto the battlefield under your control.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Seraph
 Cost:   6W
 Type:   Creature — Angel
@@ -3101,6 +3146,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target enchantment. You gain life equal to its converted mana cost.
 Set/Rarity:     Tempest Uncommon
+
+Name:   Serene Remembrance
+Cost:   G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Shuffle Serene Remembrance and up to three target cards from a single graveyard into their owners' libraries.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Serene Sunset
 Cost:   XG
@@ -3504,6 +3556,13 @@ Enchanted creature has "{B}: This creature gets +1/+1 until end of turn."
 When enchanted creature dies, return that card to the battlefield under your control.
 Set/Rarity:     Torment Common
 
+Name:   Shadow Alley Denizen
+Cost:   B
+Type:   Creature — Vampire Rogue
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever another black creature enters the battlefield under your control, target creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Shadow Guildmage
 Cost:   B
 Type:   Creature — Human Wizard
@@ -3535,6 +3594,14 @@ Pow/Tgh:
 Rules Text:     Target creature gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)
 Draw a card.
 Set/Rarity:     Tempest Common
+
+Name:   Shadow Slice
+Cost:   4B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target opponent loses 3 life.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Gatecrash Common
 
 Name:   Shadow Sliver
 Cost:   2U
@@ -3648,6 +3715,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Until end of turn, other players can't play cards from their graveyards, and you may play cards from other players' graveyards as though they were in your graveyard.
 Set/Rarity:     Judgment Rare
+
+Name:   Shambleshark
+Cost:   GU
+Type:   Creature — Fish Crab
+Pow/Tgh:    (2/1)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+Set/Rarity:     Gatecrash Common
 
 Name:   Shambling Remains
 Cost:   1BR
@@ -3880,6 +3955,13 @@ Rules Text:     Discard all the cards in your hand, then draw that many cards.
 Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Dark Ascension Uncommon
 
+Name:   Shattering Blow
+Cost:   1(R/W)
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Exile target artifact.
+Set/Rarity:     Gatecrash Common
+
 Name:   Shattering Pulse
 Cost:   1R
 Type:   Instant
@@ -4098,6 +4180,13 @@ Rules Text:     Equipped creature gets +0/+2 and has vigilance.
 Whenever equipped creature blocks a creature, that creature doesn't untap during its controller's next untap step.
 Equip {2}
 Set/Rarity:     Alara Reborn Uncommon
+
+Name:   Shielded Passage
+Cost:   W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent all damage that would be dealt to target creature this turn.
+Set/Rarity:     Gatecrash Common
 
 Name:   Shielding Plax
 Cost:   2(G/U)
@@ -5101,6 +5190,13 @@ Rules Text:     Battle cry (Whenever this creature attacks, each other attacking
 Signal Pest can't be blocked except by creatures with flying or reach.
 Set/Rarity:     Mirrodin Besieged Uncommon
 
+Name:   Signal the Clans
+Cost:   RG
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Search your library for three creature cards and reveal them. If you reveal three cards with different names, choose one of them at random and put that card into your hand. Shuffle the rest into your library.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Silence
 Cost:   W
 Type:   Instant
@@ -5427,6 +5523,21 @@ Rules Text:     Graft 3 (This creature enters the battlefield with three +1/+1 c
 {1}{G}: Until end of turn, target creature with a +1/+1 counter on it gains "Whenever this creature deals combat damage to a creature, destroy that creature at end of combat."
 Set/Rarity:     Dissension Uncommon
 
+Name:   Simic Charm
+Cost:   GU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Target creature gets +3/+3 until end of turn; or permanents you control gain hexproof until end of turn; or return target creature to its owner's hand.
+Set/Rarity:     Gatecrash Uncommon
+
+Name:   Simic Fluxmage
+Cost:   2U
+Type:   Creature — Merfolk Wizard
+Pow/Tgh:    (1/2)
+Rules Text:     Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+{1}{U}, {T}: Move a +1/+1 counter from Simic Fluxmage onto target creature.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Simic Growth Chamber
 Cost:   
 Type:   Land
@@ -5435,6 +5546,14 @@ Rules Text:     Simic Growth Chamber enters the battlefield tapped.
 When Simic Growth Chamber enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {G}{U} to your mana pool.
 Set/Rarity:     Magic: The Gathering-Commander Common, Dissension Common
+
+Name:   Simic Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Simic Guildgate enters the battlefield tapped.
+{T}: Add {G} or {U} to your mana pool.
+Set/Rarity:     Gatecrash Common
 
 Name:   Simic Guildmage
 Cost:   (G/U)(G/U)
@@ -5451,6 +5570,22 @@ Type:   Creature — Human Mutant
 Pow/Tgh:    (0/0)
 Rules Text:     Graft 1 (This creature enters the battlefield with a +1/+1 counter on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)
 Set/Rarity:     Dissension Common
+
+Name:   Simic Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {G} or {U} to your mana pool.
+{G}{U}: Simic Keyrune becomes a 2/3 green and blue Crab artifact creature with hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+Set/Rarity:     Gatecrash Uncommon
+
+Name:   Simic Manipulator
+Cost:   1UU
+Type:   Creature — Mutant Wizard
+Pow/Tgh:    (0/1)
+Rules Text:     Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+{T}, Remove one or more +1/+1 counters from Simic Manipulator: Gain control of target creature with power less than or equal to the number of +1/+1 counters removed this way.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Simic Ragworm
 Cost:   3G
@@ -5686,6 +5821,22 @@ Flying
 You may cast Skaab Ruinator from your graveyard.
 Set/Rarity:     Innistrad Mythic Rare
 
+Name:   Skarrg Goliath
+Cost:   6GG
+Type:   Creature — Beast
+Pow/Tgh:    (9/9)
+Rules Text:     Trample
+Bloodrush — {5}{G}{G}, Discard Skarrg Goliath: Target attacking creature gets +9/+9 and gains trample until end of turn.
+Set/Rarity:     Gatecrash Rare
+
+Name:   Skarrg Guildmage
+Cost:   RG
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     {R}{G}: Creatures you control gain trample until end of turn.
+{1}{R}{G}: Target land you control becomes a 4/4 Elemental creature until end of turn. It's still a land.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Skarrg, the Rage Pits
 Cost:   
 Type:   Land
@@ -5826,6 +5977,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +2/+0 and gains first strike until end of turn.
 Set/Rarity:     Dark Ascension Common
+
+Name:   Skinbrand Goblin
+Cost:   1R
+Type:   Creature — Goblin Warrior
+Pow/Tgh:    (2/1)
+Rules Text:     Bloodrush — {R}, Discard Skinbrand Goblin: Target attacking creature gets +2/+1 until end of turn.
+Set/Rarity:     Gatecrash Common
 
 Name:   Skinrender
 Cost:   2BB
@@ -6143,6 +6301,13 @@ Whenever equipped creature dies, draw two cards.
 Equip {1}
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, From the Vault: Exiled Mythic Rare, Darksteel Uncommon
 
+Name:   Skullcrack
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Players can't gain life this turn. Damage can't be prevented this turn. Skullcrack deals 3 damage to target player.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Skullmane Baku
 Cost:   3BB
 Type:   Creature — Spirit
@@ -6244,6 +6409,14 @@ Rules Text:     Flying
 When Sky-Eel School enters the battlefield, draw a card, then discard a card.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Skyblinder Staff
+Cost:   1
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +1/+0 and can't be blocked by creatures with flying.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Skyclaw Thrash
 Cost:   3UR
 Type:   Artifact Creature — Viashino Warrior
@@ -6272,6 +6445,14 @@ Pow/Tgh:    (3/3)
 Rules Text:     Flying
 Whenever you cast a Spirit or Arcane spell, you may gain control of target creature with that spell's converted mana cost until end of turn.
 Set/Rarity:     Saviors of Kamigawa Rare
+
+Name:   Skygames
+Cost:   1U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+Enchanted land has "{T}: Target creature gains flying until end of turn. Activate this ability only any time you could cast a sorcery."
+Set/Rarity:     Gatecrash Common
 
 Name:   Skyhunter Cub
 Cost:   2W
@@ -6306,7 +6487,7 @@ Cost:   1RW
 Type:   Creature — Human Knight
 Pow/Tgh:    (2/2)
 Rules Text:     Flying, haste
-Set/Rarity:     Ravnica: City of Guilds Common
+Set/Rarity:     Gatecrash Common, Ravnica: City of Guilds Common
 
 Name:   Skyline Predator
 Cost:   4UU
@@ -6579,6 +6760,13 @@ Pow/Tgh:    (3/3)
 Rules Text:     Whenever Slashing Tiger becomes blocked, it gets +2/+2 until end of turn.
 Set/Rarity:     Masters Edition III Common, Portal Three Kingdoms Rare
 
+Name:   Slate Street Ruffian
+Cost:   2B
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever Slate Street Ruffian becomes blocked, defending player discards a card.
+Set/Rarity:     Gatecrash Common
+
 Name:   Slate of Ancestry
 Cost:   4
 Type:   Artifact
@@ -6617,6 +6805,13 @@ Pow/Tgh:
 Rules Text:     Destroy target nonblack creature.
 At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the game.
 Set/Rarity:     Future Sight Rare
+
+Name:   Slaughterhorn
+Cost:   2G
+Type:   Creature — Beast
+Pow/Tgh:    (3/2)
+Rules Text:     Bloodrush — {G}, Discard Slaughterhorn: Target attacking creature gets +3/+2 until end of turn.
+Set/Rarity:     Gatecrash Common
 
 Name:   Slaughterhouse Bouncer
 Cost:   4B
@@ -7027,7 +7222,7 @@ Cost:   W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target blocked creature.
-Set/Rarity:     Rise of the Eldrazi Common, Stronghold Common
+Set/Rarity:     Gatecrash Common, Rise of the Eldrazi Common, Stronghold Common
 
 Name:   Smite the Monstrous
 Cost:   3W
@@ -7035,6 +7230,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target creature with power 4 or greater.
 Set/Rarity:     Innistrad Common
+
+Name:   Smog Elemental
+Cost:   4BB
+Type:   Creature — Elemental
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Creatures with flying your opponents control get -1/-1.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Smogsteed Rider
 Cost:   2BB
@@ -8101,6 +8304,15 @@ Pow/Tgh:
 Rules Text:     Prevent all damage one or two target creatures would deal this turn.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Soul Ransom
+Cost:   2UB
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+You control enchanted creature.
+Discard two cards: Soul Ransom's controller sacrifices it, then draws two cards. Only any opponent may activate this ability.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Soul Reap
 Cost:   1B
 Type:   Sorcery
@@ -8468,6 +8680,14 @@ Rules Text:     Spark Spray deals 1 damage to target creature or player.
 Cycling {R} ({R}, Discard this card: Draw a card.)
 Set/Rarity:     Scourge Common
 
+Name:   Spark Trooper
+Cost:   1RRW
+Type:   Creature — Elemental Soldier
+Pow/Tgh:    (6/1)
+Rules Text:     Trample, lifelink, haste
+At the beginning of the end step, sacrifice Spark Trooper.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Sparkcaster
 Cost:   2RG
 Type:   Creature — Kavu
@@ -8743,6 +8963,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target noncreature spell unless its controller pays {2}.
 Set/Rarity:     Zendikar Common
+
+Name:   Spell Rupture
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell unless its controller pays {X}, where X is the greatest power among creatures you control.
+Set/Rarity:     Gatecrash Common
 
 Name:   Spell Snare
 Cost:   U
@@ -9445,6 +9672,13 @@ Pow/Tgh:    (3/5)
 Rules Text:     Defender
 Metalcraft — As long as you control three or more artifacts, Spire Serpent gets +2/+2 and can attack as though it didn't have defender.
 Set/Rarity:     Mirrodin Besieged Common
+
+Name:   Spire Tracer
+Cost:   G
+Type:   Creature — Elf Scout
+Pow/Tgh:    (1/1)
+Rules Text:     Spire Tracer can't be blocked except by creatures with flying or reach.
+Set/Rarity:     Gatecrash Common
 
 Name:   Spirit Away
 Cost:   5UU
@@ -11097,6 +11331,14 @@ Pow/Tgh:
 Rules Text:     Stolen Grain deals 5 damage to target opponent. You gain 5 life.
 Set/Rarity:     Masters Edition III Uncommon, Portal Three Kingdoms Uncommon
 
+Name:   Stolen Identity
+Cost:   4UU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put a token onto the battlefield that's a copy of target artifact or creature.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Gatecrash Rare
+
 Name:   Stomp and Howl
 Cost:   2G
 Type:   Sorcery
@@ -11117,7 +11359,7 @@ Type:   Land — Mountain Forest
 Pow/Tgh:    
 Rules Text:     ({T}: Add {R} or {G} to your mana pool.)
 As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Stomping Ground enters the battlefield tapped.
-Set/Rarity:     Guildpact Rare
+Set/Rarity:     Gatecrash Rare, Guildpact Rare
 
 Name:   Stomping Slabs
 Cost:   2R
@@ -11946,6 +12188,13 @@ Rules Text:     Flying
 Stronghold Zeppelin can block only creatures with flying.
 Set/Rarity:     Nemesis Uncommon
 
+Name:   Structural Collapse
+Cost:   5R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player sacrifices an artifact and a land. Structural Collapse deals 2 damage to that player.
+Set/Rarity:     Gatecrash Common
+
 Name:   Struggle for Sanity
 Cost:   2BB
 Type:   Sorcery
@@ -12497,6 +12746,14 @@ Pow/Tgh:    (2/4)
 Rules Text:     Whenever Sunhome Enforcer deals combat damage, you gain that much life.
 {1}{R}: Sunhome Enforcer gets +1/+0 until end of turn.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
+
+Name:   Sunhome Guildmage
+Cost:   RW
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {1}{R}{W}: Creatures you control get +1/+0 until end of turn.
+{2}{R}{W}: Put a 1/1 red and white Soldier creature token with haste onto the battlefield.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Sunhome, Fortress of the Legion
 Cost:   
@@ -13343,6 +13600,14 @@ Pow/Tgh:
 Rules Text:     Any number of target creatures become green until end of turn.
 Set/Rarity:     Legends Uncommon
 
+Name:   Sylvan Primordial
+Cost:   5GG
+Type:   Creature — Avatar
+Pow/Tgh:    (6/8)
+Rules Text:     Reach
+When Sylvan Primordial enters the battlefield, for each opponent, destroy target noncreature permanent that player controls. For each permanent destroyed this way, search your library for a Forest card and put that card onto the battlefield tapped. Then shuffle your library.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Sylvan Ranger
 Cost:   1G
 Type:   Creature — Elf Scout
@@ -13467,6 +13732,20 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
 Set/Rarity:     Return to Ravnica Uncommon, Odyssey Common
+
+Name:   Syndic of Tithes
+Cost:   1W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/2)
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Set/Rarity:     Gatecrash Common
+
+Name:   Syndicate Enforcer
+Cost:   3B
+Type:   Creature — Human Rogue
+Pow/Tgh:    (3/2)
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Set/Rarity:     Gatecrash Common
 
 Name:   Synod Artificer
 Cost:   2U

@@ -1068,6 +1068,14 @@ Rules Text:     {T}: Add {1} to your mana pool.
 {X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn.
 Set/Rarity:     Innistrad Rare
 
+Name:   Keymaster Rogue
+Cost:   3U
+Type:   Creature — Human Rogue
+Pow/Tgh:    (3/2)
+Rules Text:     Keymaster Rogue is unblockable.
+When Keymaster Rogue enters the battlefield, return a creature you control to its owner's hand.
+Set/Rarity:     Gatecrash Common
+
 Name:   Kezzerdrix
 Cost:   2BB
 Type:   Creature — Rabbit Beast
@@ -1183,6 +1191,13 @@ Pow/Tgh:    (3/5)
 Rules Text:     {U}: Killer Whale gains flying until end of turn.
 Set/Rarity:     Beatdown Box Set Uncommon, Exodus Uncommon
 
+Name:   Killing Glare
+Cost:   XB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target creature with power X or less.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Killing Wave
 Cost:   XB
 Type:   Sorcery
@@ -1276,6 +1291,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flying
 When Kingfisher dies, draw a card.
 Set/Rarity:     Urza's Destiny Common
+
+Name:   Kingpin's Pet
+Cost:   1WB
+Type:   Creature — Thrull
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Set/Rarity:     Gatecrash Common
 
 Name:   Kinsbaile Balloonist
 Cost:   3W
@@ -1729,6 +1752,13 @@ Rules Text:     First strike (This creature deals combat damage before creatures
 Other Knight creatures you control get +1/+1 and are indestructible. (Lethal damage and effects that say "destroy" don't destroy them.)
 Set/Rarity:     Duel Decks: Knights vs. Dragons Rare, Magic 2011 Rare
 
+Name:   Knight Watch
+Cost:   4W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put two 2/2 white Knight creature tokens with vigilance onto the battlefield.
+Set/Rarity:     Gatecrash Common
+
 Name:   Knight of Cliffhaven
 Cost:   1W
 Type:   Creature — Kor Knight
@@ -1787,6 +1817,14 @@ Type:   Creature — Human Knight
 Pow/Tgh:    (2/2)
 Rules Text:     Each other multicolored creature you control gets +1/+1 for each of its colors.
 Set/Rarity:     Alara Reborn Rare
+
+Name:   Knight of Obligation
+Cost:   3W
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/4)
+Rules Text:     Vigilance
+Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Knight of Stromgald
 Cost:   BB

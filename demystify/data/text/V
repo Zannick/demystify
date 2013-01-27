@@ -929,6 +929,15 @@ Pow/Tgh:    (7/7)
 Rules Text:     At the beginning of each upkeep, put a 1/1 green Saproling creature token onto the battlefield.
 Set/Rarity:     Premium Deck Series: Graveborn Rare, Planechase Rare, Tenth Edition Rare, Ninth Edition Rare, Tempest Rare
 
+Name:   Verdant Haven
+Cost:   2G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+When Verdant Haven enters the battlefield, you gain 2 life.
+Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).
+Set/Rarity:     Gatecrash Common
+
 Name:   Verdant Succession
 Cost:   4G
 Type:   Enchantment
@@ -1269,6 +1278,14 @@ Type:   Creature — Viashino
 Pow/Tgh:    (3/2)
 Rules Text:     {R}: Flip a coin. If you win the flip, return Viashino Sandswimmer to its owner's hand. If you lose the flip, sacrifice Viashino Sandswimmer.
 Set/Rarity:     Urza's Saga Rare
+
+Name:   Viashino Shanktail
+Cost:   3R
+Type:   Creature — Viashino Warrior
+Pow/Tgh:    (3/1)
+Rules Text:     First strike
+Bloodrush — {2}{R}, Discard Viashino Shanktail: Target attacking creature gets +3/+1 and gains first strike until end of turn.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Viashino Skeleton
 Cost:   3R
@@ -2071,6 +2088,22 @@ Rules Text:     As an additional cost to cast Vivisection, sacrifice a creature.
 Draw three cards.
 Set/Rarity:     Mirrodin Besieged Common
 
+Name:   Vizkopa Confessor
+Cost:   3WB
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/3)
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+When Vizkopa Confessor enters the battlefield, pay any amount of life. Target opponent reveals that many cards from his or her hand. You choose one of them and exile it.
+Set/Rarity:     Gatecrash Uncommon
+
+Name:   Vizkopa Guildmage
+Cost:   WB
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {1}{W}{B}: Target creature gains lifelink until end of turn.
+{1}{W}{B}: Whenever you gain life this turn, each opponent loses that much life.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Vizzerdrix
 Cost:   6U
 Type:   Creature — Rabbit Beast
@@ -2293,6 +2326,14 @@ As Voidstone Gargoyle enters the battlefield, name a nonland card.
 The named card can't be cast.
 Activated abilities of sources with the chosen name can't be activated.
 Set/Rarity:     Planar Chaos Rare
+
+Name:   Voidwalk
+Cost:   3U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Voidwielder
 Cost:   4U

@@ -289,6 +289,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     If you would draw a card, you may skip that draw instead.
 Set/Rarity:     Odyssey Rare
 
+Name:   Obzedat, Ghost Council
+Cost:   1WWBB
+Type:   Legendary Creature — Spirit Advisor
+Pow/Tgh:    (5/5)
+Rules Text:     When Obzedat, Ghost Council enters the battlefield, target opponent loses 2 life and you gain 2 life.
+At the beginning of your end step, you may exile Obzedat. If you do, return it to the battlefield under its owner's control at the beginning of your next upkeep. It gains haste.
+Set/Rarity:     Gatecrash Mythic Rare
+
 Name:   Ocular Halo
 Cost:   3U
 Type:   Enchantment — Aura
@@ -465,6 +473,14 @@ Pow/Tgh:    (3/3)
 Rules Text:     {2}, Discard a card at random: Ogre Shaman deals 2 damage to target creature or player.
 Set/Rarity:     Exodus Rare
 
+Name:   Ogre Slumlord
+Cost:   3BB
+Type:   Creature — Ogre Rogue
+Pow/Tgh:    (3/3)
+Rules Text:     Whenever another nontoken creature dies, you may put a 1/1 black Rat creature token onto the battlefield.
+Rats you control have deathtouch.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Ogre Taskmaster
 Cost:   3R
 Type:   Creature — Ogre
@@ -633,6 +649,15 @@ Rules Text:     Choose one — Put a 5/5 green Beast creature token onto the bat
 Entwine {G}{G}{G} (Choose both if you pay the entwine cost.)
 Set/Rarity:     Mirrodin Uncommon
 
+Name:   One Thousand Lashes
+Cost:   2WB
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature can't attack or block, and its activated abilities can't be activated.
+At the beginning of the upkeep of enchanted creature's controller, that player loses 1 life.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   One with Nature
 Cost:   G
 Type:   Enchantment — Aura
@@ -749,6 +774,13 @@ Pow/Tgh:    (5/5)
 Rules Text:     Flying
 {X}{(u/b)}: Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, put a 1/1 blue and black Faerie Rogue creature token with flying onto the battlefield.
 Set/Rarity:     From the Vault: Legends Mythic Rare, Shadowmoor Rare
+
+Name:   Ooze Flux
+Cost:   3G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     {1}{G}, Remove one or more +1/+1 counters from among creatures you control: Put an X/X green Ooze creature token onto the battlefield, where X is the number of +1/+1 counters removed this way.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Ooze Garden
 Cost:   1G
@@ -1240,6 +1272,13 @@ Pow/Tgh:    (4/1)
 Rules Text:     {W}: Prevent the next 1 damage that would be dealt to Ordruun Commando this turn.
 Set/Rarity:     Ravnica: City of Guilds Common
 
+Name:   Ordruun Veteran
+Cost:   2RW
+Type:   Creature — Minotaur Soldier
+Pow/Tgh:    (3/1)
+Rules Text:     Battalion — Whenever Ordruun Veteran and at least two other creatures attack, Ordruun Veteran gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Ore Gorger
 Cost:   3RR
 Type:   Creature — Spirit
@@ -1400,6 +1439,13 @@ When Orzhov Basilica enters the battlefield, return a land you control to its ow
 {T}: Add {W}{B} to your mana pool.
 Set/Rarity:     Magic: The Gathering-Commander Common, Guildpact Common
 
+Name:   Orzhov Charm
+Cost:   WB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Return target creature you control and all Auras you control attached to it to their owner's hand; or destroy target creature and you lose life equal to its toughness; or return target creature card with converted mana cost 1 or less from your graveyard to the battlefield.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Orzhov Euthanist
 Cost:   2B
 Type:   Creature — Human Assassin
@@ -1408,6 +1454,14 @@ Rules Text:     Haunt (When this creature dies, exile it haunting target creatur
 When Orzhov Euthanist enters the battlefield or the creature it haunts dies, destroy target creature that was dealt damage this turn.
 Set/Rarity:     Guildpact Common
 
+Name:   Orzhov Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Orzhov Guildgate enters the battlefield tapped.
+{T}: Add {W} or {B} to your mana pool.
+Set/Rarity:     Gatecrash Common
+
 Name:   Orzhov Guildmage
 Cost:   (W/B)(W/B)
 Type:   Creature — Human Wizard
@@ -1415,6 +1469,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     {2}{W}: Target player gains 1 life.
 {2}{B}: Each player loses 1 life.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Guildpact Uncommon
+
+Name:   Orzhov Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {W} or {B} to your mana pool.
+{W}{B}: Orzhov Keyrune becomes a 1/4 white and black Thrull artifact creature with lifelink until end of turn.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Orzhov Pontiff
 Cost:   1WB

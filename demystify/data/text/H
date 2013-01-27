@@ -367,6 +367,14 @@ Pow/Tgh:
 Rules Text:     During combat, players can't cast instant spells or activate abilities that aren't mana abilities.
 Set/Rarity:     Tempest Rare
 
+Name:   Hands of Binding
+Cost:   1U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Hankyu
 Cost:   1
 Type:   Artifact — Equipment
@@ -1492,6 +1500,22 @@ Rules Text:     Flying, trample, haste
 {B}{G}: Regenerate Hellkite Overlord.
 Set/Rarity:     Shards of Alara Mythic Rare, From the Vault: Dragons Rare
 
+Name:   Hellkite Tyrant
+Cost:   4RR
+Type:   Creature — Dragon
+Pow/Tgh:    (6/5)
+Rules Text:     Flying, trample
+Whenever Hellkite Tyrant deals combat damage to a player, gain control of all artifacts that player controls.
+At the beginning of your upkeep, if you control twenty or more artifacts, you win the game.
+Set/Rarity:     Gatecrash Mythic Rare
+
+Name:   Hellraiser Goblin
+Cost:   2R
+Type:   Creature — Goblin Berserker
+Pow/Tgh:    (2/2)
+Rules Text:     Creatures you control have haste and attack each combat if able.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Hellrider
 Cost:   2RR
 Type:   Creature — Devil
@@ -1923,6 +1947,13 @@ Rules Text:     {T}: Add {1} to your mana pool.
 {T}, Sacrifice a creature: You gain 1 life.
 Set/Rarity:     From the Vault: Realms Mythic Rare, Mercadian Masques Rare
 
+Name:   High Priest of Penance
+Cost:   WB
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/1)
+Rules Text:     Whenever High Priest of Penance is dealt damage, you may destroy target nonland permanent.
+Set/Rarity:     Gatecrash Rare
+
 Name:   High Seas
 Cost:   2U
 Type:   Enchantment
@@ -2026,6 +2057,13 @@ Pow/Tgh:
 Rules Text:     Counter target spell unless its controller pays {2}.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 Set/Rarity:     Scourge Common
+
+Name:   Hindervines
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent all combat damage that would be dealt this turn by creatures with no +1/+1 counters on them.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Hint of Insanity
 Cost:   2B
@@ -2213,6 +2251,13 @@ Rules Text:     Lands don't untap during their controllers' untap steps.
 At the beginning of each player's upkeep, that player untaps a land he or she controls.
 Set/Rarity:     Betrayers of Kamigawa Rare
 
+Name:   Hold the Gates
+Cost:   2W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Creatures you control get +0/+1 for each Gate you control and have vigilance.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Hold the Line
 Cost:   1WW
 Type:   Instant
@@ -2327,6 +2372,14 @@ Pow/Tgh:
 Rules Text:     Nonwhite creatures get -1/-1 until end of turn.
 Set/Rarity:     Masters Edition Common, The Dark Common
 
+Name:   Holy Mantle
+Cost:   2WW
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+2 and has protection from creatures.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Holy Strength
 Cost:   W
 Type:   Enchantment — Aura
@@ -2389,6 +2442,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     As long as you control exactly one creature, that creature gets +3/+1 and has lifelink.
 Set/Rarity:     Avacyn Restored Uncommon
+
+Name:   Homing Lightning
+Cost:   2RR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Homing Lightning deals 4 damage to target creature and each other creature with the same name as that creature.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Homing Sliver
 Cost:   2R
@@ -2740,6 +2800,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Sacrifice a Swamp: Regenerate target black creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
 Set/Rarity:     Ninth Edition Uncommon, Legends Uncommon
+
+Name:   Horror of the Dim
+Cost:   4B
+Type:   Creature — Horror
+Pow/Tgh:    (3/4)
+Rules Text:     {U}: Horror of the Dim gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+Set/Rarity:     Gatecrash Common
 
 Name:   Horseshoe Crab
 Cost:   2U
@@ -3288,6 +3355,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Counter target spell if it's red; or destroy target permanent if it's red.
 Set/Rarity:     Masters Edition Common, Fifth Edition Uncommon, Ice Age Common
+
+Name:   Hydroform
+Cost:   GU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target land becomes a 3/3 Elemental creature with flying until end of turn. It's still a land.
+Set/Rarity:     Gatecrash Common
 
 Name:   Hydromorph Guardian
 Cost:   2U

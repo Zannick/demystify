@@ -284,6 +284,14 @@ Rules Text:     Put a 3/3 green Elephant creature token onto the battlefield.
 Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Odyssey Rare, Time Spiral "Timeshifted" Special
 
+Name:   Call of the Nightwing
+Cost:   2UB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put a 1/1 blue and black Horror creature token with flying onto the battlefield.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Call of the Wild
 Cost:   2GG
 Type:   Enchantment
@@ -992,6 +1000,13 @@ Rules Text:     Enchant Equipment
 When Carry Away enters the battlefield, unattach enchanted Equipment.
 You control enchanted Equipment.
 Set/Rarity:     Darksteel Uncommon
+
+Name:   Cartel Aristocrat
+Cost:   WB
+Type:   Creature — Human Advisor
+Pow/Tgh:    (2/2)
+Rules Text:     Sacrifice another creature: Cartel Aristocrat gains protection from the color of your choice until end of turn.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Cartographer
 Cost:   2G
@@ -2962,7 +2977,7 @@ Cost:   3R
 Type:   Creature — Elemental
 Pow/Tgh:    (2/2)
 Rules Text:     {X}{R}, {T}, Sacrifice Cinder Elemental: Cinder Elemental deals X damage to target creature or player.
-Set/Rarity:     Planechase Uncommon, Mercadian Masques Uncommon
+Set/Rarity:     Gatecrash Uncommon, Planechase Uncommon, Mercadian Masques Uncommon
 
 Name:   Cinder Giant
 Cost:   3R
@@ -3260,6 +3275,13 @@ Rules Text:     Look at target player's hand.
 Draw a card at the beginning of the next turn's upkeep.
 Set/Rarity:     Ice Age Common
 
+Name:   Clan Defiance
+Cost:   XRG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Choose one or more — Clan Defiance deals X damage to target creature with flying; Clan Defiance deals X damage to target creature without flying; and/or Clan Defiance deals X damage to target player.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Clarion Ultimatum
 Cost:   GGWWWUU
 Type:   Sorcery
@@ -3425,6 +3447,14 @@ Pow/Tgh:
 Rules Text:     Clifftop Retreat enters the battlefield tapped unless you control a Mountain or a Plains.
 {T}: Add {R} or {W} to your mana pool.
 Set/Rarity:     Innistrad Rare
+
+Name:   Clinging Anemones
+Cost:   3U
+Type:   Creature — Jellyfish
+Pow/Tgh:    (1/4)
+Rules Text:     Defender
+Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+Set/Rarity:     Gatecrash Common
 
 Name:   Clinging Darkness
 Cost:   1B
@@ -3739,6 +3769,14 @@ Pow/Tgh:    (3/4)
 Rules Text:     Reach (This can block creatures with flying.)
 Set/Rarity:     Lorwyn Common
 
+Name:   Cloudfin Raptor
+Cost:   U
+Type:   Creature — Bird Mutant
+Pow/Tgh:    (0/1)
+Rules Text:     Flying
+Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Cloudgoat Ranger
 Cost:   3WW
 Type:   Creature — Giant Warrior
@@ -4009,6 +4047,13 @@ Pow/Tgh:
 Rules Text:     {T}: Target player puts the top card of his or her library into his or her graveyard.
 {5}, {T}, Sacrifice Codex Shredder: Return target card from your graveyard to your hand.
 Set/Rarity:     Return to Ravnica Uncommon
+
+Name:   Coerced Confession
+Cost:   4(U/B)
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player puts the top four cards of his or her library into his or her graveyard. You draw a card for each creature card put into that graveyard this way.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Coercion
 Cost:   2B
@@ -4625,6 +4670,14 @@ Pow/Tgh:
 Rules Text:     Destroy each creature with converted mana cost 3 or less. They can't be regenerated.
 Set/Rarity:     Rise of the Eldrazi Rare
 
+Name:   Consuming Aberration
+Cost:   3UB
+Type:   Creature — Horror
+Pow/Tgh:    (*/*)
+Rules Text:     Consuming Aberration's power and toughness are each equal to the number of cards in your opponents' graveyards.
+Whenever you cast a spell, each opponent reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Consuming Bonfire
 Cost:   3RR
 Type:   Tribal Sorcery — Elemental
@@ -4710,7 +4763,7 @@ Pow/Tgh:
 Rules Text:     Enchant land
 Enchanted land is a Swamp.
 Whenever enchanted land becomes tapped, its controller loses 2 life.
-Set/Rarity:     Rise of the Eldrazi Common
+Set/Rarity:     Gatecrash Common, Rise of the Eldrazi Common
 
 Name:   Contamination
 Cost:   2B
@@ -5050,6 +5103,14 @@ Rules Text:     Players can't cast spells with the same name as a nontoken perma
 Players can't play nonbasic lands with the same name as a nontoken permanent.
 Set/Rarity:     Mercadian Masques Rare
 
+Name:   Corpse Blockade
+Cost:   2B
+Type:   Creature — Zombie
+Pow/Tgh:    (1/4)
+Rules Text:     Defender
+Sacrifice another creature: Corpse Blockade gains deathtouch until end of turn.
+Set/Rarity:     Gatecrash Common
+
 Name:   Corpse Connoisseur
 Cost:   4B
 Type:   Creature — Zombie Wizard
@@ -5367,6 +5428,13 @@ When Court Hussar enters the battlefield, look at the top three cards of your li
 When Court Hussar enters the battlefield, sacrifice it unless {W} was spent to cast it.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Dissension Uncommon
 
+Name:   Court Street Denizen
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever another white creature enters the battlefield under your control, tap target creature an opponent controls.
+Set/Rarity:     Gatecrash Common
+
 Name:   Courtly Provocateur
 Cost:   2U
 Type:   Creature — Human Wizard
@@ -5482,6 +5550,13 @@ Rules Text:     Enchant creature
 Enchanted creature gets +1/+0.
 Sacrifice Crackling Club: Crackling Club deals 1 damage to target creature.
 Set/Rarity:     Torment Common
+
+Name:   Crackling Perimeter
+Cost:   1R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Tap an untapped Gate you control: Crackling Perimeter deals 1 damage to each opponent.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Cradle Guard
 Cost:   1GG
@@ -5908,6 +5983,14 @@ Rules Text:     Target creature gets -2/-2 until end of turn.
 Flashback—{1}{B}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Torment Common
 
+Name:   Crocanura
+Cost:   2G
+Type:   Creature — Crocodile Frog
+Pow/Tgh:    (1/3)
+Rules Text:     Reach (This creature can block creatures with flying.)
+Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Cromat
 Cost:   WUBRG
 Type:   Legendary Creature — Illusion
@@ -6136,6 +6219,14 @@ Pow/Tgh:
 Rules Text:     {4}, {T}: Attach target Aura attached to a creature to another creature.
 Set/Rarity:     Fifth Edition Rare, Ice Age Rare
 
+Name:   Crowned Ceratok
+Cost:   3G
+Type:   Creature — Rhino
+Pow/Tgh:    (4/3)
+Rules Text:     Trample
+Each creature you control with a +1/+1 counter on it has trample.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Crucible of Fire
 Cost:   3R
 Type:   Enchantment
@@ -6358,6 +6449,14 @@ Type:   Creature — Zombie
 Pow/Tgh:    (2/1)
 Rules Text:     Sacrifice Crypt Creeper: Exile target card from a graveyard.
 Set/Rarity:     Avacyn Restored Common, Odyssey Common
+
+Name:   Crypt Ghast
+Cost:   3B
+Type:   Creature — Spirit
+Pow/Tgh:    (2/2)
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Whenever you tap a Swamp for mana, add {B} to your mana pool (in addition to the mana the land produces).
+Set/Rarity:     Gatecrash Rare
 
 Name:   Crypt Rats
 Cost:   2B

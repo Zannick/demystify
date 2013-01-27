@@ -418,8 +418,8 @@ Name:   Act of Treason
 Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Uncommon
+Rules Text:     Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+Set/Rarity:     Gatecrash Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Uncommon
 
 Name:   Active Volcano
 Cost:   R
@@ -450,6 +450,13 @@ Rules Text:     As Adaptive Automaton enters the battlefield, choose a creature 
 Adaptive Automaton is the chosen type in addition to its other types.
 Other creatures you control of the chosen type get +1/+1.
 Set/Rarity:     Magic 2012 Rare
+
+Name:   Adaptive Snapjaw
+Cost:   4G
+Type:   Creature — Lizard Beast
+Pow/Tgh:    (6/2)
+Rules Text:     Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+Set/Rarity:     Gatecrash Common
 
 Name:   Adarkar Sentinel
 Cost:   5
@@ -603,6 +610,13 @@ Pow/Tgh:    (4/3)
 Rules Text:     Flying
 {1}{U}{U}: Exile the top card of your library. Until end of turn, you may play that card. (Reveal the card as you exile it.)
 Set/Rarity:     Mercadian Masques Rare
+
+Name:   Aerial Maneuver
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +1/+1 and gains flying and first strike until end of turn.
+Set/Rarity:     Gatecrash Common
 
 Name:   Aerial Predation
 Cost:   2G
@@ -786,6 +800,15 @@ Pow/Tgh:
 Rules Text:     Target creature gets -3/-0 until end of turn.
 Target creature gets -0/-3 until end of turn.
 Set/Rarity:     Archenemy Common, Shards of Alara Common
+
+Name:   Agoraphobia
+Cost:   1U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -5/-0.
+{2}{U}: Return Agoraphobia to its owner's hand.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Agrus Kos, Wojek Veteran
 Cost:   3RW
@@ -1361,6 +1384,21 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     {1}, Exile the top card of your graveyard: Prevent the next 1 damage that would be dealt to target creature this turn.
 Set/Rarity:     Weatherlight Common
+
+Name:   Alms Beast
+Cost:   2WB
+Type:   Creature — Beast
+Pow/Tgh:    (6/6)
+Rules Text:     Creatures blocking or blocked by Alms Beast have lifelink.
+Set/Rarity:     Gatecrash Rare
+
+Name:   Alpha Authority
+Cost:   1G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has hexproof and can't be blocked by more than one creature.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Alpha Brawl
 Cost:   6RR
@@ -2131,6 +2169,13 @@ Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in a
 When enchanted creature dies, return Angelic Destiny to its owner's hand.
 Set/Rarity:     Magic 2012 Mythic Rare
 
+Name:   Angelic Edict
+Cost:   4W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile target creature or enchantment.
+Set/Rarity:     Gatecrash Common
+
 Name:   Angelic Favor
 Cost:   3W
 Type:   Instant
@@ -2178,6 +2223,14 @@ Pow/Tgh:
 Rules Text:     Creatures you control get +0/+1.
 Sacrifice Angelic Shield: Return target creature to its owner's hand.
 Set/Rarity:     Duel Decks: Venser vs. Koth Uncommon, Invasion Uncommon
+
+Name:   Angelic Skirmisher
+Cost:   4WW
+Type:   Creature — Angel
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+At the beginning of each combat, choose first strike, vigilance, or lifelink. Creatures you control gain that ability until end of turn.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Angelic Voices
 Cost:   2WW
@@ -3422,6 +3475,13 @@ Pow/Tgh:    (1/4)
 Rules Text:     When Armored Skaab enters the battlefield, put the top four cards of your library into your graveyard.
 Set/Rarity:     Innistrad Common
 
+Name:   Armored Transport
+Cost:   3
+Type:   Artifact Creature — Construct
+Pow/Tgh:    (2/1)
+Rules Text:     Prevent all combat damage that would be dealt to Armored Transport by creatures blocking it.
+Set/Rarity:     Gatecrash Common
+
 Name:   Armored Warhorse
 Cost:   WW
 Type:   Creature — Horse
@@ -3518,6 +3578,13 @@ Pow/Tgh:
 Rules Text:     If four or more creatures are attacking, you may pay {1}{W} rather than pay Arrow Volley Trap's mana cost.
 Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures.
 Set/Rarity:     Zendikar Uncommon
+
+Name:   Arrows of Justice
+Cost:   2(R/W)
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Arrows of Justice deals 4 damage to target attacking or blocking creature.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Arsenal Thresher
 Cost:   2(W/B)U
@@ -3845,7 +3912,7 @@ Cost:   3W
 Type:   Creature — Griffin
 Pow/Tgh:    (3/2)
 Rules Text:     Flying
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common
+Set/Rarity:     Gatecrash Common, Magic 2012 Common, Magic 2011 Common
 
 Name:   Assault Strobe
 Cost:   R
@@ -3860,6 +3927,13 @@ Type:   Creature — Beast
 Pow/Tgh:    (3/3)
 Rules Text:     Flying, trample
 Set/Rarity:     Dissension Common
+
+Name:   Assemble the Legion
+Cost:   3RW
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, put a muster counter on Assemble the Legion. Then put a 1/1 red and white Soldier creature token with haste onto the battlefield for each muster counter on Assemble the Legion.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Assembly Hall
 Cost:   5
@@ -4136,6 +4210,21 @@ Type:   Creature — Human Wizard
 Pow/Tgh:    (3/3)
 Rules Text:     When Auratouched Mage enters the battlefield, search your library for an Aura card that could enchant it. If Auratouched Mage is still on the battlefield, put that Aura card onto the battlefield attached to it. Otherwise, reveal the Aura card and put it into your hand. Then shuffle your library.
 Set/Rarity:     Planechase 2012 Edition Uncommon, Ravnica: City of Guilds Uncommon
+
+Name:   Aurelia's Fury
+Cost:   XRW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Aurelia's Fury deals X damage divided as you choose among any number of target creatures and/or players. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn.
+Set/Rarity:     Gatecrash Mythic Rare
+
+Name:   Aurelia, the Warleader
+Cost:   2RRWW
+Type:   Legendary Creature — Angel
+Pow/Tgh:    (3/4)
+Rules Text:     Flying, vigilance, haste
+Whenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.
+Set/Rarity:     Gatecrash Mythic Rare
 
 Name:   Aurification
 Cost:   2WW

@@ -874,6 +874,13 @@ Rules Text:     Equipped creature gets +3/+1.
 Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 Set/Rarity:     Magic 2011 Uncommon
 
+Name:   Warmind Infantry
+Cost:   2R
+Type:   Creature — Elemental Soldier
+Pow/Tgh:    (2/3)
+Rules Text:     Battalion — Whenever Warmind Infantry and at least two other creatures attack, Warmind Infantry gets +2/+0 until end of turn.
+Set/Rarity:     Gatecrash Common
+
 Name:   Warmonger
 Cost:   3R
 Type:   Creature — Minotaur Monger
@@ -1074,6 +1081,14 @@ Rules Text:     {T}: Add {1} to your mana pool.
 {T}, Sacrifice Wasteland: Destroy target nonbasic land.
 Set/Rarity:     Tempest Uncommon
 
+Name:   Wasteland Viper
+Cost:   G
+Type:   Creature — Snake
+Pow/Tgh:    (1/2)
+Rules Text:     Deathtouch
+Bloodrush — {G}, Discard Wasteland Viper: Target attacking creature gets +1/+2 and gains deathtouch until end of turn.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Watchdog
 Cost:   3
 Type:   Artifact Creature — Hound
@@ -1178,7 +1193,7 @@ Type:   Land — Island Swamp
 Pow/Tgh:    
 Rules Text:     ({T}: Add {U} or {B} to your mana pool.)
 As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Gatecrash Rare, Ravnica: City of Guilds Rare
 
 Name:   Wave Elemental
 Cost:   2UU
@@ -1246,6 +1261,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Waxmane Baku.
 {1}, Remove X ki counters from Waxmane Baku: Tap X target creatures.
 Set/Rarity:     Betrayers of Kamigawa Common
+
+Name:   Way of the Thief
+Cost:   3U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+2.
+Enchanted creature is unblockable as long as you control a Gate.
+Set/Rarity:     Gatecrash Common
 
 Name:   Wayfarer's Bauble
 Cost:   1
@@ -1841,6 +1865,14 @@ Pow/Tgh:
 Rules Text:     Destroy all creatures with flying.
 Set/Rarity:     Starter 1999 Rare, Urza's Saga Rare
 
+Name:   Whispering Madness
+Cost:   2UB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Gatecrash Rare
+
 Name:   Whispering Shade
 Cost:   3B
 Type:   Creature — Shade
@@ -1990,6 +2022,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target creature gets +4/+4 until end of turn.
 Set/Rarity:     Portal Three Kingdoms Common
+
+Name:   Wight of Precinct Six
+Cost:   1B
+Type:   Creature — Zombie
+Pow/Tgh:    (1/1)
+Rules Text:     Wight of Precinct Six gets +1/+1 for each creature card in your opponents' graveyards.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Wiitigo
 Cost:   3GGG
@@ -2252,6 +2291,13 @@ Type:   Creature — Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     Wildwood Geist gets +2/+2 as long as it's your turn.
 Set/Rarity:     Avacyn Restored Common
+
+Name:   Wildwood Rebirth
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Return target creature card from your graveyard to your hand.
+Set/Rarity:     Gatecrash Common
 
 Name:   Will-o'-the-Wisp
 Cost:   B
@@ -3003,6 +3049,13 @@ Pow/Tgh:    (1/2)
 Rules Text:     Radiance — {T}: Wojek Embermage deals 1 damage to target creature and each other creature that shares a color with it.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
+Name:   Wojek Halberdiers
+Cost:   RW
+Type:   Creature — Human Soldier
+Pow/Tgh:    (3/2)
+Rules Text:     Battalion — Whenever Wojek Halberdiers and at least two other creatures attack, Wojek Halberdiers gains first strike until end of turn.
+Set/Rarity:     Gatecrash Common
+
 Name:   Wojek Siren
 Cost:   W
 Type:   Instant
@@ -3605,6 +3658,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target creature or land.
 Set/Rarity:     Magic: The Gathering-Commander Common, Dissension Common
+
+Name:   Wrecking Ogre
+Cost:   4R
+Type:   Creature — Ogre Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Double strike
+Bloodrush — {3}{R}{R}, Discard Wrecking Ogre: Target attacking creature gets +3/+3 and gains double strike until end of turn.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Wren's Run Packmaster
 Cost:   3G

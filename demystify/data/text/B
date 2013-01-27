@@ -359,6 +359,14 @@ Rules Text:     Other Barbarian creatures get +1/+1.
 {R}: Another target Barbarian creature gets +1/+0 until end of turn.
 Set/Rarity:     Torment Rare
 
+Name:   Balustrade Spy
+Cost:   3B
+Type:   Creature — Vampire Rogue
+Pow/Tgh:    (2/3)
+Rules Text:     Flying
+When Balustrade Spy enters the battlefield, target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
+Set/Rarity:     Gatecrash Common
+
 Name:   Bamboozle
 Cost:   2U
 Type:   Sorcery
@@ -373,6 +381,15 @@ Pow/Tgh:
 Rules Text:     Prevent the next 1 damage that would be dealt to target creature or player this turn.
 Draw a card.
 Set/Rarity:     Tenth Edition Common, Stronghold Common
+
+Name:   Bane Alley Broker
+Cost:   1UB
+Type:   Creature — Human Rogue
+Pow/Tgh:    (0/3)
+Rules Text:     {T}: Draw a card, then exile a card from your hand face down.
+You may look at cards exiled with Bane Alley Broker.
+{U}{B}, {T}: Return a card exiled with Bane Alley Broker to its owner's hand.
+Set/Rarity:     Gatecrash Uncommon
 
 Name:   Bane of Hanweir
 Cost:   
@@ -888,6 +905,22 @@ Rules Text:     Destroy target artifact.
 Flashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Odyssey Uncommon
 
+Name:   Basilica Guards
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/4)
+Rules Text:     Defender
+Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Set/Rarity:     Gatecrash Common
+
+Name:   Basilica Screecher
+Cost:   1B
+Type:   Creature — Bat
+Pow/Tgh:    (1/2)
+Rules Text:     Flying
+Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Set/Rarity:     Gatecrash Common
+
 Name:   Basilisk Collar
 Cost:   1
 Type:   Artifact — Equipment
@@ -1386,7 +1419,7 @@ Cost:   (W/B)
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Exile target card from a graveyard. Put a 1/1 white and black Spirit creature token with flying onto the battlefield.
-Set/Rarity:     Eventide Common
+Set/Rarity:     Gatecrash Common, Eventide Common
 
 Name:   Bedlam
 Cost:   2RR
@@ -1827,6 +1860,13 @@ Rules Text:     ({(g/u)} can be paid with either {G} or {U}.)
 Draw a card for each creature target player controls, then draw a card for each creature another target player controls.
 Set/Rarity:     Dissension Rare
 
+Name:   Biomass Mutation
+Cost:   X(G/U)(G/U)
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures you control become X/X until end of turn.
+Set/Rarity:     Gatecrash Rare
+
 Name:   Bioplasm
 Cost:   3GG
 Type:   Creature — Ooze
@@ -1840,6 +1880,20 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Each player's life total becomes the number of creatures he or she controls.
 Set/Rarity:     Ninth Edition Rare, Onslaught Rare
+
+Name:   Bioshift
+Cost:   (G/U)
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Move any number of +1/+1 counters from target creature onto another target creature with the same controller.
+Set/Rarity:     Gatecrash Common
+
+Name:   Biovisionary
+Cost:   1GU
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/3)
+Rules Text:     At the beginning of the end step, if you control four or more creatures named Biovisionary, you win the game.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Birchlore Rangers
 Cost:   G
@@ -2449,6 +2503,14 @@ Rules Text:     Flying
 Haunt (When this creature dies, exile it haunting target creature.)
 When Blind Hunter enters the battlefield or the creature it haunts dies, target player loses 2 life and you gain 2 life.
 Set/Rarity:     Guildpact Common
+
+Name:   Blind Obedience
+Cost:   1W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Artifacts and creatures your opponents control enter the battlefield tapped.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Blind Phantasm
 Cost:   2U
@@ -3598,6 +3660,13 @@ At the beginning of your upkeep, put a fuse counter on each creature with a fuse
 Whenever a creature has four or more fuse counters on it, remove all fuse counters from it and destroy it. That creature deals 4 damage to its controller.
 Set/Rarity:     Odyssey Rare
 
+Name:   Bomber Corps
+Cost:   1R
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/2)
+Rules Text:     Battalion — Whenever Bomber Corps and at least two other creatures attack, Bomber Corps deals 1 damage to target creature or player.
+Set/Rarity:     Gatecrash Common
+
 Name:   Bond Beetle
 Cost:   G
 Type:   Creature — Insect
@@ -3835,6 +3904,15 @@ Rules Text:     Trample
 Whenever Borborygmos deals combat damage to a player, put a +1/+1 counter on each creature you control.
 Set/Rarity:     Guildpact Rare
 
+Name:   Borborygmos Enraged
+Cost:   4RRGG
+Type:   Legendary Creature — Cyclops
+Pow/Tgh:    (7/6)
+Rules Text:     Trample
+Whenever Borborygmos Enraged deals combat damage to a player, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.
+Discard a land card: Borborygmos Enraged deals 3 damage to target creature or player.
+Set/Rarity:     Gatecrash Mythic Rare
+
 Name:   Border Guard
 Cost:   2W
 Type:   Creature — Human Soldier
@@ -3901,6 +3979,20 @@ Pow/Tgh:    (2/2)
 Rules Text:     {2}{B}{R}, {T}: Put a 1/1 black and red Demon creature token named Minor Demon onto the battlefield.
 Set/Rarity:     Masters Edition III Uncommon, Legends Rare
 
+Name:   Boros Charm
+Cost:   RW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose one — Boros Charm deals 4 damage to target player; or permanents you control are indestructible this turn; or target creature gains double strike until end of turn.
+Set/Rarity:     Gatecrash Uncommon
+
+Name:   Boros Elite
+Cost:   W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     Battalion — Whenever Boros Elite and at least two other creatures attack, Boros Elite gets +2/+2 until end of turn.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Boros Fury-Shield
 Cost:   2W
 Type:   Instant
@@ -3917,6 +4009,14 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 {T}: Add {R}{W} to your mana pool.
 Set/Rarity:     Magic: The Gathering-Commander Common, Planechase Common, Ravnica: City of Guilds Common
 
+Name:   Boros Guildgate
+Cost:   
+Type:   Land — Gate
+Pow/Tgh:    
+Rules Text:     Boros Guildgate enters the battlefield tapped.
+{T}: Add {R} or {W} to your mana pool.
+Set/Rarity:     Gatecrash Common
+
 Name:   Boros Guildmage
 Cost:   (R/W)(R/W)
 Type:   Creature — Human Wizard
@@ -3924,6 +4024,22 @@ Pow/Tgh:    (2/2)
 Rules Text:     {1}{R}: Target creature gains haste until end of turn.
 {1}{W}: Target creature gains first strike until end of turn.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Planechase Uncommon, Ravnica: City of Guilds Uncommon
+
+Name:   Boros Keyrune
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {R} or {W} to your mana pool.
+{R}{W}: Boros Keyrune becomes a 1/1 red and white Soldier artifact creature with double strike until end of turn. (It deals both first-strike and regular combat damage.)
+Set/Rarity:     Gatecrash Uncommon
+
+Name:   Boros Reckoner
+Cost:   (R/W)(R/W)(R/W)
+Type:   Creature — Minotaur Wizard
+Pow/Tgh:    (3/3)
+Rules Text:     Whenever Boros Reckoner is dealt damage, it deals that much damage to target creature or player.
+{(r/w)}: Boros Reckoner gains first strike until end of turn.
+Set/Rarity:     Gatecrash Rare
 
 Name:   Boros Recruit
 Cost:   (R/W)
@@ -4497,7 +4613,7 @@ Type:   Land — Forest Island
 Pow/Tgh:    
 Rules Text:     ({T}: Add {G} or {U} to your mana pool.)
 As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.
-Set/Rarity:     Dissension Rare
+Set/Rarity:     Gatecrash Rare, Dissension Rare
 
 Name:   Breezekeeper
 Cost:   3U
@@ -5273,6 +5389,13 @@ Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this c
 {2}{G}: Target creature blocks Burning-Tree Bloodscale this turn if able.
 Set/Rarity:     Guildpact Common
 
+Name:   Burning-Tree Emissary
+Cost:   (R/G)(R/G)
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/2)
+Rules Text:     When Burning-Tree Emissary enters the battlefield, add {R}{G} to your mana pool.
+Set/Rarity:     Gatecrash Uncommon
+
 Name:   Burning-Tree Shaman
 Cost:   1RG
 Type:   Creature — Centaur Shaman
@@ -5356,6 +5479,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Creatures you control gain haste until end of turn. (They can attack and {T} even if they just came under your control.)
 Set/Rarity:     Magic 2010 Common
+
+Name:   Burst of Strength
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put a +1/+1 counter on target creature and untap it.
+Set/Rarity:     Gatecrash Common
 
 Name:   Bushi Tenderfoot
 Cost:   W
