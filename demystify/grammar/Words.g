@@ -150,6 +150,7 @@ tokens {
     CHOOSING;
     CHOSE;
     CHOSEN;
+    CIPHER;
     CLASH;
     CLASHED;
     CLASHING;
@@ -254,6 +255,8 @@ tokens {
     ENCHANTED;
     ENCHANTING;
     ENCHANTMENT;
+    ENCODE;
+    ENCODED;
     END;
     ENDED;
     ENDING;
@@ -272,6 +275,8 @@ tokens {
     EVERYTHING;
     EVOKE;
     EVOKED;
+    EVOLVE;
+    EVOLVED;
     EXACTLY;
     EXALTED;
     EXCEPT;
@@ -283,6 +288,8 @@ tokens {
     EXILED;
     EXILING;
     EXPANSION;
+    EXTORT;
+    EXTORTED;
     EXTRA;
     FACE_DOWN;
     FACE_UP;
@@ -801,6 +808,8 @@ SET_IN_MOTION : 'sets in motion'
 ABILITY_WORD : 'fateful hour'
              | 'join forces'
              | 'metalcraft'
+             | 'battalion'
+             | 'bloodrush'
              | 'threshold'
              | 'grandeur'
              | 'hellbent'
@@ -908,6 +917,7 @@ OBJ_COUNTER : 'petrification'
             | 'magnet'
             | 'matrix'
             | 'mining'
+            | 'muster'
             | 'plague'
             | 'scream'
             | 'shield'
@@ -1347,6 +1357,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'demon'
             | 'devil'
             | 'djinn'
+            | 'domri'
             | 'drake'
             | 'drone'
             | 'druid'
@@ -1653,6 +1664,7 @@ ENTERING : 'entering';
 EQUIPPED : 'equipped';
 EXCHANGE : 'exchanges'
          | 'exchange';
+EXTORTED : 'extorted';
 FATESEAL : 'fateseals'
          | 'fateseal';
 FINISHED : 'finished';
@@ -1763,8 +1775,10 @@ DOUBLED : 'doubled';
 EMPTIED : 'emptied';
 ENCHANT : 'enchants'
         | 'enchant';
+ENCODED : 'encoded';
 ENTERED : 'entered';
 ENTWINE : 'entwine';
+EVOLVED : 'evolved';
 EXACTLY : 'exactly';
 EXALTED : 'exalted';
 EXILING : 'exiling';
@@ -1892,6 +1906,7 @@ CHOICE : 'choices'
 CHOOSE : 'chooses'
        | 'choose';
 CHOSEN : 'chosen';
+CIPHER : 'cipher';
 COMBAT : 'combat';
 COMMON : 'common';
 CYCLED : 'cycled';
@@ -1913,12 +1928,18 @@ EFFECT : 'effects'
 EITHER : 'either';
 EMBLEM : 'emblems'
        | 'emblem';
+ENCODE : 'encodes'
+       | 'encode';
 ENDING : 'ending';
 EVENLY : 'evenly';
 EVOKED : 'evoked';
+EVOLVE : 'evolves'
+       | 'evolve';
 EXCEPT : 'except';
 EXCESS : 'excess';
 EXILED : 'exiled';
+EXTORT : 'extorts'
+       | 'extort';
 FADING : 'fading';
 FEWEST : 'fewest';
 FINISH : 'finishes'

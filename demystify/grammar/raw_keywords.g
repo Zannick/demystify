@@ -88,11 +88,14 @@ raw_keyword_no_args : DEATHTOUCH
                     | BATTLE_CRY
                     | CASCADE
                     | CHANGELING
+                    | CIPHER
                     | CONSPIRE
                     | CONVOKE
                     | DELVE
                     | EPIC
+                    | EVOLVE
                     | EXALTED
+                    | EXTORT
                     | FEAR
                     | FLANKING
                     | GRAVESTORM
