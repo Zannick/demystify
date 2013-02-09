@@ -22,6 +22,11 @@ parser grammar misc;
 
 conj : AND | OR | AND_OR ;
 
+damage : NON COMBAT DAMAGE -> ^( DAMAGE[] NONCOMBAT )
+       | COMBAT DAMAGE -> ^( DAMAGE[] COMBAT[] )
+       | DAMAGE -> DAMAGE[]
+       ;
+
 this_turn : THIS TURN -> ^( THIS[] TURN[] );
 
 /* Numbers and quantities. */

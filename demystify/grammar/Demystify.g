@@ -51,6 +51,7 @@ tokens {
     LT;
     MAX;
     MULT;
+    NONCOMBAT;
     NTH;
     PAY_LIFE;
     PAY_PER;

@@ -126,11 +126,11 @@ counter_spell : COUNTER^ subset ;
 
 cycle_card : CYCLE^ subset ;
 
-deal_damage : DEAL integer? COMBAT? DAMAGE ( TO subset_list )?
-              -> ^( DAMAGE[] integer? COMBAT[]? subset_list? );
+deal_damage : DEAL integer? damage ( TO subset_list )?
+              -> ^( DEAL[] integer? damage subset_list? );
 
-dealt_damage : is_ DEALT integer? COMBAT? DAMAGE ( BY subset )?
-               -> ^( DEALT[] integer? COMBAT[]? DAMAGE[] subset? );
+dealt_damage : is_ DEALT integer? damage ( BY subset )?
+               -> ^( DEALT[] integer? damage subset? );
 
 discard_card : DISCARD^ subset ;
 
@@ -203,8 +203,8 @@ counter_removed : ( THE ordinal_word | number )
                   base_counter is_ REMOVED FROM subset
                   -> ^( REMOVED ordinal_word? number? base_counter subset );
 
-damage_dealt : COMBAT? DAMAGE is_ DEALT TO subset_list
-               -> ^( DEAL COMBAT[]? DAMAGE[] subset_list );
+damage_dealt : integer? damage is_ DEALT TO subset_list
+               -> ^( DEAL integer? damage subset_list );
 
 /* Non-subset conditions. */
 
