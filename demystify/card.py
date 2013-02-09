@@ -35,7 +35,7 @@ abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
-name_ref = re.compile(r'named |name is still ')
+name_ref = re.compile(r'named |name is still |transforms into ')
 # We need to try the longer rarities first, so that eg. we don't get
 # 'Rare' when we want 'Mythic Rare'.
 rarities = sorted(['Common', 'Uncommon', 'Rare', 'Mythic Rare', 'Land',
