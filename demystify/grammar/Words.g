@@ -323,6 +323,8 @@ tokens {
     FROM;
     FULL;
     FUNGUS;
+    FUSE;
+    FUSED;
     GAIN;
     GAINED;
     GAME;
@@ -947,7 +949,6 @@ OBJ_COUNTER : 'petrification'
             | 'doom'
             | 'fade'
             | 'fate'
-            | 'fuse'
             | 'gold'
             | 'lore'
             | 'luck'
@@ -2082,6 +2083,7 @@ FIGHT : 'fights'
       | 'fight';
 FIRST : 'first';
 FLASH : 'flash';
+FUSED : 'fused';
 GRAFT : 'grafts'
       | 'graft';
 GREEN : 'green';
@@ -2212,6 +2214,8 @@ FLIP : 'flips'
      | 'flip';
 FROM : 'from';
 FULL : 'full';
+FUSE : 'fuses'
+     | 'fuse';
 GAIN : 'gains'
      | 'gain';
 GAME : 'games'

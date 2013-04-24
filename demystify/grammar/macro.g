@@ -41,6 +41,7 @@ number_word : NUMBER_WORD;
 obj_counter : OBJ_COUNTER
             | ECHO
             | FUNGUS
+            | FUSE
             | LEVEL
             | LOYALTY
             | MINE

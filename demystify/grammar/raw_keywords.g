@@ -98,6 +98,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | EXTORT
                     | FEAR
                     | FLANKING
+                    | FUSE
                     | GRAVESTORM
                     | HAUNT
                     | HIDEAWAY

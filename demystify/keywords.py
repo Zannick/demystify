@@ -495,6 +495,8 @@ _abilities = [
     Verb(   ("FORTIFY", "fortify", "fortifies"),
             ("FORTIFIED", "fortified")),
     Keyword(("FRENZY", "frenzy")),
+    Verb(   ("FUSE", "fuse", "fuses"),
+            ("FUSED", "fused")),
     Verb(   ("GRAFT", "graft", "grafts"),
             ("GRAFTED", "grafted")),
     Keyword(("GRAVESTORM", "gravestorm")),
