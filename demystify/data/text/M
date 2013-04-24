@@ -1754,6 +1754,15 @@ Rules Text:     First strike
 {1}{W}: Tap target creature blocking Master of Arms.
 Set/Rarity:     Weatherlight Uncommon
 
+Name:   Master of Cruelties
+Cost:   3BR
+Type:   Creature — Demon
+Pow/Tgh:    (1/4)
+Rules Text:     First strike, deathtouch
+Master of Cruelties can only attack alone.
+Whenever Master of Cruelties attacks a player and isn't blocked, that player's life total becomes 1. Master of Cruelties assigns no combat damage this combat.
+Set/Rarity:     Dragon's Maze Mythic Rare
+
 Name:   Master of Etherium
 Cost:   2U
 Type:   Artifact Creature — Vedalken Wizard
@@ -1882,6 +1891,13 @@ Pow/Tgh:
 Rules Text:     Destroy target land. You gain 4 life.
 Set/Rarity:     Innistrad Common
 
+Name:   Maw of the Obzedat
+Cost:   3WB
+Type:   Creature — Thrull
+Pow/Tgh:    (3/3)
+Rules Text:     Sacrifice a creature: Creatures you control get +1/+1 until end of turn.
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Mawcor
 Cost:   3UU
 Type:   Creature — Beast
@@ -1913,6 +1929,46 @@ Rules Text:     Other Human creatures you control get +1/+1.
 At the beginning of each upkeep, if no spells were cast last turn, transform Mayor of Avabruck.
 Set/Rarity:     Innistrad Rare
 
+Name:   Maze Abomination
+Cost:   5B
+Type:   Creature — Elemental
+Pow/Tgh:    (4/5)
+Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Multicolored creatures you control have deathtouch.
+Set/Rarity:     Dragon's Maze Common
+
+Name:   Maze Behemoth
+Cost:   5G
+Type:   Creature — Elemental
+Pow/Tgh:    (5/4)
+Rules Text:     Trample
+Multicolored creatures you control have trample.
+Set/Rarity:     Dragon's Maze Common
+
+Name:   Maze Glider
+Cost:   5U
+Type:   Creature — Elemental
+Pow/Tgh:    (3/5)
+Rules Text:     Flying
+Multicolored creatures you control have flying.
+Set/Rarity:     Dragon's Maze Common
+
+Name:   Maze Rusher
+Cost:   5R
+Type:   Creature — Elemental
+Pow/Tgh:    (6/3)
+Rules Text:     Haste
+Multicolored creatures you control have haste.
+Set/Rarity:     Dragon's Maze Common
+
+Name:   Maze Sentinel
+Cost:   5W
+Type:   Creature — Elemental
+Pow/Tgh:    (3/6)
+Rules Text:     Vigilance
+Multicolored creatures you control have vigilance.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Maze of Ith
 Cost:   
 Type:   Land
@@ -1928,6 +1984,15 @@ Rules Text:     {T}: Add {1} to your mana pool.
 
 {T}: Untap target attacking creature with shadow. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
 Set/Rarity:     Tempest Uncommon
+
+Name:   Maze's End
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Maze's End enters the battlefield tapped.
+{T}: Add {1} to your mana pool.
+{3}, {T}, Return Maze's End to its owner's hand: Search your library for a Gate card, put it onto the battlefield, then shuffle your library. If you control ten or more Gates with different names, you win the game.
+Set/Rarity:     Dragon's Maze Mythic Rare
 
 Name:   Meadowboon
 Cost:   2WW
@@ -2043,6 +2108,15 @@ Rules Text:     Cast Melee only during your turn and only during combat before b
 You choose which creatures block this combat and how those creatures block.
 Whenever a creature attacks and isn't blocked this combat, untap it and remove it from combat.
 Set/Rarity:     Ice Age Uncommon
+
+Name:   Melek, Izzet Paragon
+Cost:   4UR
+Type:   Legendary Creature — Weird Wizard
+Pow/Tgh:    (2/4)
+Rules Text:     Play with the top card of your library revealed.
+You may cast the top card of your library if it's an instant or sorcery card.
+Whenever you cast an instant or sorcery spell from your library, copy it. You may choose new targets for the copy.
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Melesse Spirit
 Cost:   3WW
@@ -2183,6 +2257,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Prevent the next 4 damage that would be dealt to target creature or player this turn.
 Set/Rarity:     Ninth Edition Common, Betrayers of Kamigawa Common
+
+Name:   Mending Touch
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Regenerate target creature.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Meng Huo's Horde
 Cost:   4G
@@ -3377,6 +3458,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Whenever Mindstab Thrull attacks and isn't blocked, you may sacrifice it. If you do, defending player discards three cards.
 Set/Rarity:     Masters Edition Common, Fifth Edition Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
 
+Name:   Mindstatic
+Cost:   3U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell unless its controller pays {6}.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Mindstorm Crown
 Cost:   3
 Type:   Artifact
@@ -3592,6 +3680,14 @@ Pow/Tgh:
 Rules Text:     {T}: Add {1} to your mana pool.
 {3}, {T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.
 Set/Rarity:     Saviors of Kamigawa Rare
+
+Name:   Mirko Vosk, Mind Drinker
+Cost:   3UB
+Type:   Legendary Creature — Vampire
+Pow/Tgh:    (2/4)
+Rules Text:     Flying
+Whenever Mirko Vosk, Mind Drinker deals combat damage to a player, that player reveals cards from the top of his or her library until he or she reveals four land cards, then puts those cards into his or her graveyard.
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Mirozel
 Cost:   3U
@@ -4927,6 +5023,13 @@ Rules Text:     Flying
 Whenever Mordant Dragon deals combat damage to a player, you may have it deal that much damage to target creature that player controls.
 Set/Rarity:     Duel Decks: Knights vs. Dragons Rare, Worldwake Rare
 
+Name:   Morgue Burst
+Cost:   4BR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target creature card from your graveyard to your hand. Morgue Burst deals damage to target creature or player equal to the power of the card returned this way.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Morgue Theft
 Cost:   1B
 Type:   Sorcery
@@ -5630,6 +5733,13 @@ As Murmuring Bosk enters the battlefield, you may reveal a Treefolk card from yo
 {T}: Add {W} or {B} to your mana pool. Murmuring Bosk deals 1 damage to you.
 Set/Rarity:     From the Vault: Realms Mythic Rare, Morningtide Rare
 
+Name:   Murmuring Phantasm
+Cost:   1U
+Type:   Creature — Spirit
+Pow/Tgh:    (0/5)
+Rules Text:     Defender
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Murmurs from Beyond
 Cost:   2U
 Type:   Instant — Arcane
@@ -5674,6 +5784,13 @@ Pow/Tgh:
 Rules Text:     ({(g/p)} can be paid with either {G} or 2 life.)
 Target creature gets +2/+2 until end of turn.
 Set/Rarity:     New Phyrexia Common
+
+Name:   Mutant's Prey
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you control with a +1/+1 counter on it fights target creature an opponent controls. (Each deals damage equal to its power to the other.)
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Mutavault
 Cost:   

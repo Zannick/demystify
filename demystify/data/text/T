@@ -127,6 +127,14 @@ Pow/Tgh:    (2/3)
 Rules Text:     When Taj-Nar Swordsmith enters the battlefield, you may pay {X}. If you do, search your library for an Equipment card with converted mana cost X or less and put that card onto the battlefield. Then shuffle your library.
 Set/Rarity:     Mirrodin Uncommon
 
+Name:   Tajic, Blade of the Legion
+Cost:   2RW
+Type:   Legendary Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Tajic, Blade of the Legion is indestructible.
+Battalion — Whenever Tajic and at least two other creatures attack, Tajic gets +5/+5 until end of turn.
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Tajuru Archer
 Cost:   2G
 Type:   Creature — Elf Archer Ally
@@ -1581,6 +1589,14 @@ Rules Text:     Tetsuo Umezawa can't be the target of Aura spells.
 {U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.
 Set/Rarity:     Masters Edition III Rare, Legends Rare
 
+Name:   Teysa, Envoy of Ghosts
+Cost:   5WB
+Type:   Legendary Creature — Human Advisor
+Pow/Tgh:    (4/4)
+Rules Text:     Vigilance, protection from creatures
+Whenever a creature deals combat damage to you, destroy that creature. Put a 1/1 white and black Spirit creature token with flying onto the battlefield.
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Teysa, Orzhov Scion
 Cost:   1WB
 Type:   Legendary Creature — Human Advisor
@@ -2512,6 +2528,14 @@ Rules Text:     Echo {4} (At the beginning of your upkeep, if this came under yo
 You may choose not to untap Thran Weaponry during your untap step.
 {2}, {T}: All creatures get +2/+2 for as long as Thran Weaponry remains tapped.
 Set/Rarity:     Urza's Legacy Rare
+
+Name:   Thrashing Mossdog
+Cost:   3G
+Type:   Creature — Plant Hound
+Pow/Tgh:    (3/3)
+Rules Text:     Reach (This creature can block creatures with flying.)
+Scavenge {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Thrashing Mudspawn
 Cost:   3BB
@@ -3510,6 +3534,14 @@ Pow/Tgh:
 Rules Text:     Search your library for a Plains card. If target opponent controls more lands than you, you may search your library for an additional Plains card. Reveal those cards and put them into your hand. Then shuffle your library.
 Set/Rarity:     Visions Rare
 
+Name:   Tithe Drinker
+Cost:   WB
+Type:   Creature — Vampire
+Pow/Tgh:    (2/1)
+Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Tivadar of Thorn
 Cost:   1WW
 Type:   Legendary Creature — Human Knight
@@ -3539,6 +3571,22 @@ Type:   Legendary Creature — Human Advisor
 Pow/Tgh:    (4/4)
 Rules Text:     
 Set/Rarity:     Masters Edition III Common, Chronicles Uncommon, Legends Uncommon
+
+Name:   Toil // Trouble (Toil)
+Cost:   2B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player draws two cards and loses 2 life.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Toil // Trouble (Trouble)
+Cost:   2R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Trouble deals damage to target player equal to the number of cards in that player's hand.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Toil to Renown
 Cost:   1G
@@ -4393,6 +4441,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Activated abilities of creatures you control cost up to {2} less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.
 Set/Rarity:     Rise of the Eldrazi Rare
+
+Name:   Trait Doctoring
+Cost:   U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Change the text of target permanent by replacing all instances of one color word with another or one basic land type with another until end of turn.
+Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Traitor's Clutch
 Cost:   4B
@@ -5249,6 +5305,13 @@ Pow/Tgh:
 Rules Text:     Exile target creature, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
 Set/Rarity:     Return to Ravnica Common
 
+Name:   Trostani's Summoner
+Cost:   5GW
+Type:   Creature — Elf Shaman
+Pow/Tgh:    (1/1)
+Rules Text:     When Trostani's Summoner enters the battlefield, put a 2/2 white Knight creature token with vigilance, a 3/3 green Centaur creature token, and a 4/4 green Rhino creature token with trample onto the battlefield.
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Trostani, Selesnya's Voice
 Cost:   GGWW
 Type:   Legendary Creature — Dryad
@@ -5503,6 +5566,22 @@ Rules Text:     Target player can't play land cards this turn.
 
 Draw a card.
 Set/Rarity:     Invasion Common
+
+Name:   Turn // Burn (Burn)
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Burn deals 2 damage to target creature or player.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Turn // Burn (Turn)
+Cost:   2U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature loses all abilities and becomes a 0/1 red Weird until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Turn Aside
 Cost:   U

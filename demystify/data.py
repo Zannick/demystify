@@ -185,6 +185,9 @@ class GathererParser(HTMLParser):
                 self._rules_text += s
                 return
             if s:
+                # Hack because gatherer dropped the : in the Name header.
+                if s == 'Name':
+                    s = 'Name:'
                 if s[-1] == ':':
                     self._header = s
                     spacing = ' ' * (4 - (len(s) % 4))

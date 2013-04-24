@@ -949,6 +949,13 @@ Rules Text:     As Sarpadian Empires, Vol. VII enters the battlefield, choose wh
 {3}, {T}: Put a 1/1 creature token of the chosen color and type onto the battlefield.
 Set/Rarity:     Time Spiral Rare
 
+Name:   Saruli Gatekeepers
+Cost:   3G
+Type:   Creature — Elf Warrior
+Pow/Tgh:    (2/4)
+Rules Text:     When Saruli Gatekeepers enters the battlefield, if you control two or more Gates, you gain 7 life.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Sasaya, Orochi Ascendant
 Cost:   1GG
 Type:   Legendary Creature — Snake Monk
@@ -1059,6 +1066,15 @@ Pow/Tgh:
 Rules Text:     Savage Twister deals X damage to each creature.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Archenemy Uncommon, Planechase Uncommon, Guildpact Uncommon, Mirage Uncommon
 
+Name:   Savageborn Hydra
+Cost:   XRG
+Type:   Creature — Hydra
+Pow/Tgh:    (0/0)
+Rules Text:     Double strike
+Savageborn Hydra enters the battlefield with X +1/+1 counters on it.
+{1}{(r/g)}: Put a +1/+1 counter on Savageborn Hydra. Activate this ability only any time you could cast a sorcery.
+Set/Rarity:     Dragon's Maze Mythic Rare
+
 Name:   Savannah
 Cost:   
 Type:   Land — Forest Plains
@@ -1134,6 +1150,13 @@ Type:   Creature — Centaur Warrior
 Pow/Tgh:    (2/4)
 Rules Text:     Bloodrush — {1}{G}, Discard Scab-Clan Charger: Target attacking creature gets +2/+4 until end of turn.
 Set/Rarity:     Gatecrash Common
+
+Name:   Scab-Clan Giant
+Cost:   4RG
+Type:   Creature — Giant Warrior
+Pow/Tgh:    (4/5)
+Rules Text:     When Scab-Clan Giant enters the battlefield, it fights target creature an opponent controls chosen at random.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Scab-Clan Mauler
 Cost:   RG
@@ -1552,6 +1575,13 @@ Flying
 Other Faerie creatures you control get +1/+1.
 Other Faeries you control have shroud. (A permanent with shroud can't be the target of spells or abilities.)
 Set/Rarity:     Lorwyn Rare
+
+Name:   Scion of Vitu-Ghazi
+Cost:   3WW
+Type:   Creature — Elemental
+Pow/Tgh:    (4/4)
+Rules Text:     When Scion of Vitu-Ghazi enters the battlefield, if you cast it from your hand, put a 1/1 white Bird creature token with flying onto the battlefield, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Scion of the Ur-Dragon
 Cost:   WUBRG
@@ -2846,6 +2876,14 @@ Pow/Tgh:
 Rules Text:     Choose one — Target creature gets +2/+2 and gains trample until end of turn; or exile target creature with power 5 or greater; or put a 2/2 white Knight creature token with vigilance onto the battlefield.
 Set/Rarity:     Return to Ravnica Uncommon
 
+Name:   Selesnya Cluestone
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {G} or {W} to your mana pool.
+{G}{W}, {T}, Sacrifice Selesnya Cluestone: Draw a card.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Selesnya Evangel
 Cost:   GW
 Type:   Creature — Elf Shaman
@@ -2859,7 +2897,7 @@ Type:   Land — Gate
 Pow/Tgh:    
 Rules Text:     Selesnya Guildgate enters the battlefield tapped.
 {T}: Add {G} or {W} to your mana pool.
-Set/Rarity:     Return to Ravnica Common
+Set/Rarity:     Dragon's Maze Common, Return to Ravnica Common
 
 Name:   Selesnya Guildmage
 Cost:   (G/W)(G/W)
@@ -4677,6 +4715,13 @@ Pow/Tgh:
 Rules Text:     Shower of Sparks deals 1 damage to target creature and 1 damage to target player.
 Set/Rarity:     Battle Royale Box Set Common, Urza's Saga Common
 
+Name:   Showstopper
+Cost:   1BR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Until end of turn, creatures you control gain "When this creature dies, it deals 2 damage to target creature an opponent controls."
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Shrapnel Blast
 Cost:   1R
 Type:   Instant
@@ -5530,6 +5575,14 @@ Pow/Tgh:
 Rules Text:     Choose one — Target creature gets +3/+3 until end of turn; or permanents you control gain hexproof until end of turn; or return target creature to its owner's hand.
 Set/Rarity:     Gatecrash Uncommon
 
+Name:   Simic Cluestone
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {G} or {U} to your mana pool.
+{G}{U}, {T}, Sacrifice Simic Cluestone: Draw a card.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Simic Fluxmage
 Cost:   2U
 Type:   Creature — Merfolk Wizard
@@ -5553,7 +5606,7 @@ Type:   Land — Gate
 Pow/Tgh:    
 Rules Text:     Simic Guildgate enters the battlefield tapped.
 {T}: Add {G} or {U} to your mana pool.
-Set/Rarity:     Gatecrash Common
+Set/Rarity:     Dragon's Maze Common, Gatecrash Common
 
 Name:   Simic Guildmage
 Cost:   (G/U)(G/U)
@@ -5630,6 +5683,13 @@ Pow/Tgh:
 Rules Text:     You gain life equal to the damage dealt to you this turn. Simulacrum deals damage to target creature you control equal to the damage dealt to you this turn.
 Set/Rarity:     Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
+Name:   Sin Collector
+Cost:   1WB
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/1)
+Rules Text:     When Sin Collector enters the battlefield, target opponent reveals his or her hand. You choose an instant or sorcery card from it and exile that card.
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Sindbad
 Cost:   1U
 Type:   Creature — Human
@@ -5664,6 +5724,14 @@ Type:   Creature — Plant
 Pow/Tgh:    (0/3)
 Rules Text:     {T}: Target attacking creature's power becomes 0 until end of turn.
 Set/Rarity:     Masters Edition Uncommon, Arabian Nights Rare
+
+Name:   Sinister Possession
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature attacks or blocks, its controller loses 2 life.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Sinister Strength
 Cost:   1B
@@ -5717,6 +5785,13 @@ Type:   Legendary Creature — Human Knight
 Pow/Tgh:    (4/7)
 Rules Text:     
 Set/Rarity:     Masters Edition III Common, Legends Uncommon
+
+Name:   Sire of Insanity
+Cost:   4BR
+Type:   Creature — Demon
+Pow/Tgh:    (6/4)
+Rules Text:     At the beginning of each end step, each player discards his or her hand.
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Sire of the Storm
 Cost:   4UU
@@ -6489,6 +6564,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flying, haste
 Set/Rarity:     Gatecrash Common, Ravnica: City of Guilds Common
 
+Name:   Skylasher
+Cost:   1G
+Type:   Creature — Insect
+Pow/Tgh:    (2/2)
+Rules Text:     Flash
+Skylasher can't be countered.
+Reach, protection from blue
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Skyline Predator
 Cost:   4UU
 Type:   Creature — Drake
@@ -7216,6 +7300,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target artifact.
 Set/Rarity:     Magic 2013 Common
+
+Name:   Smelt-Ward Gatekeepers
+Cost:   3R
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/4)
+Rules Text:     When Smelt-Ward Gatekeepers enters the battlefield, if you control two or more Gates, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Smite
 Cost:   W
@@ -8803,6 +8894,13 @@ Rules Text:     Spearbreaker Behemoth is indestructible.
 {1}: Target creature with power 5 or greater is indestructible this turn.
 Set/Rarity:     Shards of Alara Rare
 
+Name:   Species Gorger
+Cost:   3GU
+Type:   Creature — Frog Beast
+Pow/Tgh:    (6/6)
+Rules Text:     At the beginning of your upkeep, return a creature you control to its owner's hand.
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Specter's Shroud
 Cost:   2
 Type:   Artifact — Equipment
@@ -9376,6 +9474,13 @@ Rules Text:     Spike Hatcher enters the battlefield with six +1/+1 counters on 
 {2}, Remove a +1/+1 counter from Spike Hatcher: Put a +1/+1 counter on target creature.
 {1}, Remove a +1/+1 counter from Spike Hatcher: Regenerate Spike Hatcher.
 Set/Rarity:     Exodus Rare
+
+Name:   Spike Jester
+Cost:   BR
+Type:   Creature — Goblin Warrior
+Pow/Tgh:    (3/1)
+Rules Text:     Haste
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Spike Rogue
 Cost:   1GG
@@ -11052,6 +11157,13 @@ Pow/Tgh:
 Rules Text:     As Steely Resolve enters the battlefield, choose a creature type.
 Creatures of the chosen type have shroud. (They can't be the targets of spells or abilities.)
 Set/Rarity:     Onslaught Rare
+
+Name:   Steeple Roc
+Cost:   4W
+Type:   Creature — Bird
+Pow/Tgh:    (3/1)
+Rules Text:     Flying, first strike
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Stench of Decay
 Cost:   1BB
@@ -12871,6 +12983,13 @@ Type:   Creature — Cat Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     As long as Sunspear Shikari is equipped, it has first strike and lifelink.
 Set/Rarity:     Scars of Mirrodin Common
+
+Name:   Sunspire Gatekeepers
+Cost:   3W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/4)
+Rules Text:     When Sunspire Gatekeepers enters the battlefield, if you control two or more Gates, put a 2/2 white Knight creature token with vigilance onto the battlefield.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Sunspire Griffin
 Cost:   1WW

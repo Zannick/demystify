@@ -542,6 +542,13 @@ Pow/Tgh:
 Rules Text:     Gaze of Adamaro deals damage to target player equal to the number of cards in that player's hand.
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
+Name:   Gaze of Granite
+Cost:   XBBG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy each nonland permanent with converted mana cost X or less.
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Gaze of Justice
 Cost:   W
 Type:   Sorcery
@@ -1725,6 +1732,22 @@ Look at target player's hand.
 Draw a card.
 Set/Rarity:     New Phyrexia Common
 
+Name:   Give // Take (Give)
+Cost:   2G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put three +1/+1 counters on target creature.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Give // Take (Take)
+Cost:   2U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Remove all +1/+1 counters from target creature you control. Draw that many cards.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Glacial Chasm
 Cost:   
 Type:   Land
@@ -1882,6 +1905,13 @@ Pow/Tgh:    (0/1)
 Rules Text:     Flying
 Whenever another artifact enters the battlefield under your control, Glaze Fiend gets +2/+2 until end of turn.
 Set/Rarity:     Shards of Alara Common
+
+Name:   Gleam of Battle
+Cost:   4RW
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature you control attacks, put a +1/+1 counter on it.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Gleam of Resistance
 Cost:   4W
@@ -3104,6 +3134,14 @@ Rules Text:     {1}{R}: Target Goblin creature gets +1/+0 until end of turn.
 Morph {R} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Set/Rarity:     Onslaught Common
 
+Name:   Goblin Test Pilot
+Cost:   1UR
+Type:   Creature — Goblin Wizard
+Pow/Tgh:    (0/2)
+Rules Text:     Flying
+{T}: Goblin Test Pilot deals 2 damage to target creature or player chosen at random.
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Goblin Tinkerer
 Cost:   1R
 Type:   Creature — Goblin Artificer
@@ -3424,6 +3462,14 @@ Pow/Tgh:
 Rules Text:     Choose one — All creatures get -1/-1 until end of turn; or destroy target enchantment; or regenerate each creature you control.
 Set/Rarity:     Return to Ravnica Uncommon
 
+Name:   Golgari Cluestone
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {B} or {G} to your mana pool.
+{B}{G}, {T}, Sacrifice Golgari Cluestone: Draw a card.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Golgari Decoy
 Cost:   3G
 Type:   Creature — Elf Rogue
@@ -3454,7 +3500,7 @@ Type:   Land — Gate
 Pow/Tgh:    
 Rules Text:     Golgari Guildgate enters the battlefield tapped.
 {T}: Add {B} or {G} to your mana pool.
-Set/Rarity:     Return to Ravnica Common
+Set/Rarity:     Dragon's Maze Common, Return to Ravnica Common
 
 Name:   Golgari Guildmage
 Cost:   (B/G)(B/G)
@@ -4987,13 +5033,21 @@ Pow/Tgh:
 Rules Text:     Choose one — Creatures without flying can't block this turn; or gain control of all permanents you own; or Gruul Charm deals 3 damage to each creature with flying.
 Set/Rarity:     Gatecrash Uncommon
 
+Name:   Gruul Cluestone
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {R} or {G} to your mana pool.
+{R}{G}, {T}, Sacrifice Gruul Cluestone: Draw a card.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Gruul Guildgate
 Cost:   
 Type:   Land — Gate
 Pow/Tgh:    
 Rules Text:     Gruul Guildgate enters the battlefield tapped.
 {T}: Add {R} or {G} to your mana pool.
-Set/Rarity:     Gatecrash Common
+Set/Rarity:     Dragon's Maze Common, Gatecrash Common
 
 Name:   Gruul Guildmage
 Cost:   (R/G)(R/G)
@@ -5048,6 +5102,13 @@ Rules Text:     Gruul Turf enters the battlefield tapped.
 When Gruul Turf enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {R}{G} to your mana pool.
 Set/Rarity:     Planechase 2012 Edition Common, Magic: The Gathering-Commander Common, Planechase Common, Guildpact Common
+
+Name:   Gruul War Chant
+Cost:   2RG
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Each attacking creature you control gets +1/+0 and can't be blocked except by two or more creatures.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Gruul War Plow
 Cost:   4

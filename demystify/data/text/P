@@ -2085,6 +2085,13 @@ Pow/Tgh:    (3/4)
 Rules Text:     When Phyrexian War Beast leaves the battlefield, sacrifice a land and Phyrexian War Beast deals 1 damage to you.
 Set/Rarity:     Masters Edition Uncommon, Alliances Common, Alliances Common
 
+Name:   Phytoburst
+Cost:   1G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature gets +5/+5 until end of turn.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Phytohydra
 Cost:   2GWW
 Type:   Creature — Plant Hydra
@@ -2126,6 +2133,13 @@ Type:   Creature — Human Soldier
 Pow/Tgh:    (1/1)
 Rules Text:     First strike; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Fifth Edition Common, Fourth Edition Common, The Dark Common
+
+Name:   Pilfered Plans
+Cost:   1UB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player puts the top two cards of his or her library into his or her graveyard. Draw two cards.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Pilgrim of Justice
 Cost:   2W
@@ -2665,6 +2679,13 @@ Pow/Tgh:    (3/4)
 Rules Text:     When Plant Elemental enters the battlefield, sacrifice it unless you sacrifice a Forest.
 Set/Rarity:     Portal Uncommon
 
+Name:   Plasm Capture
+Cost:   GGUU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors to your mana pool, where X is that spell's converted mana cost.
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Plasma Elemental
 Cost:   5U
 Type:   Creature — Elemental
@@ -2952,6 +2973,14 @@ Pow/Tgh:
 Rules Text:     Destroy target creature. It can't be regenerated. That creature's controller puts a 3/3 green Ape creature token onto the battlefield.
 Set/Rarity:     Planar Chaos Uncommon
 
+Name:   Pontiff of Blight
+Cost:   4BB
+Type:   Creature — Zombie Cleric
+Pow/Tgh:    (2/7)
+Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
+Other creatures you control have extort. (If a creature has multiple instances of extort, each triggers separately.)
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Pooling Venom
 Cost:   1B
 Type:   Enchantment — Aura
@@ -3038,6 +3067,13 @@ Pow/Tgh:
 Rules Text:     If a player would draw a card, that player skips that draw instead.
 At the beginning of each end step, each player sacrifices a permanent unless he or she discards a card.
 Set/Rarity:     Fifth Dawn Rare
+
+Name:   Possibility Storm
+Cost:   3RR
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a player casts a spell from his or her hand, that player exiles it, then exiles cards from the top of his or her library until he or she exiles a card that shares a card type with it. That player may cast that card without paying its mana cost. Then he or she puts all cards exiled with Possibility Storm on the bottom of his or her library in a random order.
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Postmortem Lunge
 Cost:   X(B/P)
@@ -3909,6 +3945,29 @@ Pow/Tgh:
 Rules Text:     Profane Prayers deals X damage to target creature or player and you gain X life, where X is the number of Clerics on the battlefield.
 Set/Rarity:     Onslaught Common
 
+Name:   Profit // Loss (Loss)
+Cost:   2B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures your opponents control get -1/-1 until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Profit // Loss (Profit)
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Creatures you control get +1/+1 until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Progenitor Mimic
+Cost:   4GU
+Type:   Creature — Shapeshifter
+Pow/Tgh:    (0/0)
+Rules Text:     You may have Progenitor Mimic enter the battlefield as a copy of any creature on the battlefield except it gains "At the beginning of your upkeep, if this creature isn't a token, put a token onto the battlefield that's a copy of this creature."
+Set/Rarity:     Dragon's Maze Mythic Rare
+
 Name:   Progenitus
 Cost:   WWUUBBRRGG
 Type:   Legendary Creature — Hydra Avatar
@@ -4006,6 +4065,22 @@ Rules Text:     Protean Hydra enters the battlefield with X +1/+1 counters on it
 If damage would be dealt to Protean Hydra, prevent that damage and remove that many +1/+1 counters from it.
 Whenever a +1/+1 counter is removed from Protean Hydra, put two +1/+1 counters on it at the beginning of the next end step.
 Set/Rarity:     Magic 2011 Rare, Magic 2010 Mythic Rare
+
+Name:   Protect // Serve (Protect)
+Cost:   2W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +2/+4 until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Protect // Serve (Serve)
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -6/-0 until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Protective Bubble
 Cost:   3U
@@ -4472,6 +4547,13 @@ Pow/Tgh:
 Rules Text:     Counter target spell. Its controller loses 3 life and you gain 3 life.
 Set/Rarity:     Shards of Alara Rare
 
+Name:   Punish the Enemy
+Cost:   4R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Punish the Enemy deals 3 damage to target player and 3 damage to target creature.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Punishing Fire
 Cost:   1R
 Type:   Instant
@@ -4691,7 +4773,7 @@ Cost:   1BG
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target artifact or creature. It can't be regenerated.
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Ravnica: City of Guilds Uncommon
+Set/Rarity:     Dragon's Maze Uncommon, Duel Decks: Izzet vs. Golgari Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Putrid Cyclops
 Cost:   2B
@@ -4818,6 +4900,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Add {R}{R}{R} to your mana pool.
 Set/Rarity:     Magic 2011 Common
+
+Name:   Pyrewild Shaman
+Cost:   2R
+Type:   Creature — Goblin Shaman
+Pow/Tgh:    (3/1)
+Rules Text:     Bloodrush — {1}{R}, Discard Pyrewild Shaman: Target attacking creature gets +3/+1 until end of turn.
+Whenever one or more creatures you control deal combat damage to a player, if Pyrewild Shaman is in your graveyard, you may pay {3}. If you do, return Pyrewild Shaman to your hand.
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Pyric Salamander
 Cost:   1R

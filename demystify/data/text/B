@@ -382,6 +382,13 @@ Rules Text:     Prevent the next 1 damage that would be dealt to target creature
 Draw a card.
 Set/Rarity:     Tenth Edition Common, Stronghold Common
 
+Name:   Bane Alley Blackguard
+Cost:   1B
+Type:   Creature — Human Rogue
+Pow/Tgh:    (1/3)
+Rules Text:     
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Bane Alley Broker
 Cost:   1UB
 Type:   Creature — Human Rogue
@@ -983,6 +990,14 @@ Rules Text:     First strike
 Morph {1}{R}{R} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Set/Rarity:     Archenemy Common, Onslaught Common
 
+Name:   Battering Krasis
+Cost:   2G
+Type:   Creature — Fish Beast
+Pow/Tgh:    (2/1)
+Rules Text:     Trample
+Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Battering Ram
 Cost:   2
 Type:   Artifact Creature — Construct
@@ -1414,6 +1429,22 @@ Rules Text:     Protection from red
 Beasts of Bogardan gets +1/+1 as long as an opponent controls a white permanent.
 Set/Rarity:     Chronicles Uncommon, Legends Uncommon
 
+Name:   Beck // Call (Beck)
+Cost:   GU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Whenever a creature enters the battlefield this turn, you may draw a card.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
+
+Name:   Beck // Call (Call)
+Cost:   4WU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put four 1/1 white Bird creature tokens with flying onto the battlefield.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Beckon Apparition
 Cost:   (W/B)
 Type:   Instant
@@ -1441,6 +1472,13 @@ Type:   Creature — Goblin Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     When Beetleback Chief enters the battlefield, put two 1/1 red Goblin creature tokens onto the battlefield.
 Set/Rarity:     Planechase 2012 Edition Uncommon
+
+Name:   Beetleform Mage
+Cost:   1GU
+Type:   Creature — Human Insect Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     {G}{U}: Beetleform Mage gets +2/+2 and gains flying until end of turn. Activate this ability only once each turn.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Befoul
 Cost:   2BB
@@ -2207,6 +2245,13 @@ Rules Text:     Blasphemous Act costs {1} less to cast for each creature on the 
 Blasphemous Act deals 13 damage to each creature.
 Set/Rarity:     Innistrad Rare
 
+Name:   Blast of Genius
+Cost:   4UR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Choose target creature or player. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that creature or player.
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Blasted Landscape
 Cost:   
 Type:   Land
@@ -2251,6 +2296,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Blaze deals X damage to target creature or player.
 Set/Rarity:     Planechase Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Portal Three Kingdoms Uncommon, Classic Sixth Edition Uncommon, Portal Second Age Uncommon, Portal Uncommon, Portal Uncommon
+
+Name:   Blaze Commando
+Cost:   3RW
+Type:   Creature — Minotaur Soldier
+Pow/Tgh:    (5/3)
+Rules Text:     Whenever an instant or sorcery spell you control deals damage, put two 1/1 red and white Soldier creature tokens with haste onto the battlefield.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Blaze of Glory
 Cost:   W
@@ -2747,6 +2799,14 @@ Pow/Tgh:    (0/1)
 Rules Text:     Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
 Set/Rarity:     Avacyn Restored Uncommon
 
+Name:   Blood Baron of Vizkopa
+Cost:   3WB
+Type:   Creature — Vampire
+Pow/Tgh:    (4/4)
+Rules Text:     Lifelink, protection from white and from black
+As long as you have 30 or more life and an opponent has 10 or less life, Blood Baron of Vizkopa gets +6/+6 and has flying.
+Set/Rarity:     Dragon's Maze Mythic Rare
+
 Name:   Blood Celebrant
 Cost:   B
 Type:   Creature — Human Cleric
@@ -2864,6 +2924,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     {1}{R}, Sacrifice a creature: Blood Rites deals 2 damage to target creature or player.
 Set/Rarity:     Champions of Kamigawa Uncommon
+
+Name:   Blood Scrivener
+Cost:   1B
+Type:   Creature — Zombie Wizard
+Pow/Tgh:    (2/1)
+Rules Text:     If you would draw a card while you have no cards in hand, instead draw two cards and lose 1 life.
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Blood Seeker
 Cost:   1B
@@ -3979,12 +4046,27 @@ Pow/Tgh:    (2/2)
 Rules Text:     {2}{B}{R}, {T}: Put a 1/1 black and red Demon creature token named Minor Demon onto the battlefield.
 Set/Rarity:     Masters Edition III Uncommon, Legends Rare
 
+Name:   Boros Battleshaper
+Cost:   5RW
+Type:   Creature — Minotaur Soldier
+Pow/Tgh:    (5/5)
+Rules Text:     At the beginning of each combat, up to one target creature attacks or blocks this combat if able and up to one target creature can't attack or block this combat.
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Boros Charm
 Cost:   RW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Boros Charm deals 4 damage to target player; or permanents you control are indestructible this turn; or target creature gains double strike until end of turn.
 Set/Rarity:     Gatecrash Uncommon
+
+Name:   Boros Cluestone
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {R} or {W} to your mana pool.
+{R}{W}, {T}, Sacrifice Boros Cluestone: Draw a card.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Boros Elite
 Cost:   W
@@ -4015,7 +4097,7 @@ Type:   Land — Gate
 Pow/Tgh:    
 Rules Text:     Boros Guildgate enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
-Set/Rarity:     Gatecrash Common
+Set/Rarity:     Dragon's Maze Common, Gatecrash Common
 
 Name:   Boros Guildmage
 Cost:   (R/W)(R/W)
@@ -4032,6 +4114,13 @@ Pow/Tgh:
 Rules Text:     {T}: Add {R} or {W} to your mana pool.
 {R}{W}: Boros Keyrune becomes a 1/1 red and white Soldier artifact creature with double strike until end of turn. (It deals both first-strike and regular combat damage.)
 Set/Rarity:     Gatecrash Uncommon
+
+Name:   Boros Mastiff
+Cost:   1W
+Type:   Creature — Hound
+Pow/Tgh:    (2/2)
+Rules Text:     Battalion — Whenever Boros Mastiff and at least two other creatures attack, Boros Mastiff gains lifelink until end of turn. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Boros Reckoner
 Cost:   (R/W)(R/W)(R/W)
@@ -4525,6 +4614,22 @@ Rules Text:     Creatures you control get +1/+1 until end of turn.
 Fateful hour — If you have 5 or less life, those creatures also are indestructible this turn. (Lethal damage and effects that say "destroy" don't destroy them.)
 Set/Rarity:     Dark Ascension Common
 
+Name:   Breaking // Entering (Breaking)
+Cost:   UB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player puts the top eight cards of his or her library into his or her graveyard.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
+
+Name:   Breaking // Entering (Entering)
+Cost:   4UB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put a creature card from a graveyard onto the battlefield under your control. It gains haste until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Breaking Point
 Cost:   1RR
 Type:   Sorcery
@@ -4598,6 +4703,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     If a player would draw a card, instead he or she draws a card and reveals it. If it's a creature card, that player discards it unless he or she pays 3 life.
 Set/Rarity:     Visions Rare
+
+Name:   Bred for the Hunt
+Cost:   1GU
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, you may draw a card.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Breeding Pit
 Cost:   3B
@@ -4945,6 +5057,13 @@ Rules Text:     Remove Bronze Tablet from your deck before playing if you're not
 Bronze Tablet enters the battlefield tapped.
 {4}, {T}: Exile Bronze Tablet and target nontoken permanent an opponent owns. That player may pay 10 life. If he or she does, put Bronze Tablet into its owner's graveyard. Otherwise, that player owns Bronze Tablet and you own the other exiled card.
 Set/Rarity:     Fourth Edition Rare, Antiquities Rare
+
+Name:   Bronzebeak Moa
+Cost:   2GW
+Type:   Creature — Bird
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever another creature enters the battlefield under your control, Bronzebeak Moa gets +3/+3 until end of turn.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Brood Birthing
 Cost:   1R

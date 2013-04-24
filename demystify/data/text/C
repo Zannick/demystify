@@ -834,6 +834,14 @@ Pow/Tgh:
 Rules Text:     {3}, Sacrifice a creature: Draw a card.
 Set/Rarity:     Zendikar Uncommon
 
+Name:   Carnage Gladiator
+Cost:   2BR
+Type:   Creature — Skeleton Warrior
+Pow/Tgh:    (4/2)
+Rules Text:     Whenever a creature blocks, that creature's controller loses 1 life.
+{1}{B}{R}: Regenerate Carnage Gladiator.
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Carnage Wurm
 Cost:   6G
 Type:   Creature — Wurm
@@ -1150,6 +1158,22 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy all lands or all creatures. Creatures destroyed this way can't be regenerated.
 Set/Rarity:     Battle Royale Box Set Rare, Urza's Saga Rare
+
+Name:   Catch // Release (Catch)
+Cost:   1UR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Gain control of target permanent until end of turn. Untap it. It gains haste until end of turn.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
+
+Name:   Catch // Release (Release)
+Cost:   4RW
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Each player sacrifices an artifact, a creature, an enchantment, a land, and a planeswalker.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Cateran Brute
 Cost:   2B
@@ -3380,6 +3404,13 @@ Rules Text:     Destroy target enchantment.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Urza's Saga Uncommon
 
+Name:   Clear a Path
+Cost:   R
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target creature with defender.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Clear the Land
 Cost:   2G
 Type:   Sorcery
@@ -5317,6 +5348,15 @@ Pow/Tgh:    (1/1)
 Rules Text:     When Council of Advisors enters the battlefield, draw a card.
 Set/Rarity:     Portal Three Kingdoms Uncommon
 
+Name:   Council of the Absolute
+Cost:   2WU
+Type:   Creature — Human Advisor
+Pow/Tgh:    (2/4)
+Rules Text:     As Council of the Absolute enters the battlefield, name a card other than a creature or land card.
+Your opponents can't cast cards with the chosen name.
+Spells with the chosen name you cast cost {2} less to cast.
+Set/Rarity:     Dragon's Maze Mythic Rare
+
 Name:   Counsel of the Soratami
 Cost:   2U
 Type:   Sorcery
@@ -6457,6 +6497,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
 Whenever you tap a Swamp for mana, add {B} to your mana pool (in addition to the mana the land produces).
 Set/Rarity:     Gatecrash Rare
+
+Name:   Crypt Incursion
+Cost:   2B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Exile all creature cards from target player's graveyard. You gain 3 life for each card exiled this way.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Crypt Rats
 Cost:   2B

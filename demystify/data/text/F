@@ -514,6 +514,22 @@ Rules Text:     Buyback {3} (You may pay an additional {3} as you cast this spel
 Fanning the Flames deals X damage to target creature or player.
 Set/Rarity:     Stronghold Uncommon
 
+Name:   Far // Away (Away)
+Cost:   2B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target player sacrifices a creature.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Far // Away (Far)
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Return target creature to its owner's hand.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Far Wanderings
 Cost:   2G
 Type:   Sorcery
@@ -626,6 +642,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Until end of turn, target creature you control gains trample and gets +X/+0, where X is its power. Sacrifice it at the beginning of the next end step.
 Set/Rarity:     Planar Chaos Rare
+
+Name:   Fatal Fumes
+Cost:   3B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -4/-2 until end of turn.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Fatal Lore
 Cost:   2BB
@@ -987,7 +1010,7 @@ Cost:   1RG
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (2/1)
 Rules Text:     {3}: Feral Animist gets +X/+0 until end of turn, where X is its power.
-Set/Rarity:     Guildpact Uncommon
+Set/Rarity:     Dragon's Maze Uncommon, Guildpact Uncommon
 
 Name:   Feral Contest
 Cost:   3G
@@ -2475,6 +2498,22 @@ Rules Text:     Infect (This creature deals damage to creatures in the form of -
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Set/Rarity:     Mirrodin Besieged Common
 
+Name:   Flesh // Blood (Blood)
+Cost:   RG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature you control deals damage equal to its power to target creature or player.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
+
+Name:   Flesh // Blood (Flesh)
+Cost:   3BG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile target creature card from a graveyard. Put X +1/+1 counters on target creature, where X is the power of the card you exiled.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Rare
+
 Name:   Flesh Allergy
 Cost:   2BB
 Type:   Sorcery
@@ -2931,6 +2970,14 @@ Pow/Tgh:
 Rules Text:     Each player discards any number of cards, then draws that many cards.
 Draw a card.
 Set/Rarity:     Weatherlight Common, Portal Uncommon
+
+Name:   Fluxcharger
+Cost:   2UR
+Type:   Creature — Weird
+Pow/Tgh:    (1/5)
+Rules Text:     Flying
+Whenever you cast an instant or sorcery spell, you may switch Fluxcharger's power and toughness until end of turn.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Flying Carpet
 Cost:   4

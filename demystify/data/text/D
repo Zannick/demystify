@@ -1035,6 +1035,14 @@ Pow/Tgh:
 Rules Text:     {R}, Sacrifice a Zombie: Deadapult deals 2 damage to target creature or player.
 Set/Rarity:     Planeshift Rare
 
+Name:   Deadbridge Chant
+Cost:   4BG
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     When Deadbridge Chant enters the battlefield, put the top ten cards of your library into your graveyard.
+At the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand.
+Set/Rarity:     Dragon's Maze Mythic Rare
+
 Name:   Deadbridge Goliath
 Cost:   2GG
 Type:   Creature — Insect
@@ -1502,6 +1510,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Regenerate target creature. You gain control of that creature if it regenerates this way.
 Set/Rarity:     Weatherlight Rare
+
+Name:   Debt to the Deathless
+Cost:   XWWBB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Each opponent loses two times X life. You gain life equal to the life lost this way.
+Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Debtor's Pulpit
 Cost:   4W
@@ -2298,6 +2313,14 @@ Rules Text:     As an additional cost to cast Deprive, return a land you control
 Counter target spell.
 Set/Rarity:     Rise of the Eldrazi Common
 
+Name:   Deputy of Acquittals
+Cost:   WU
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+When Deputy of Acquittals enters the battlefield, you may return another target creature you control to its owner's hand.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Deranged Assistant
 Cost:   1U
 Type:   Creature — Human Wizard
@@ -2964,6 +2987,14 @@ Pow/Tgh:
 Rules Text:     Choose one — Counter target sorcery spell; or destroy target creature with power 2 or less; or look at the top three cards of target player's library, then put one back and the rest into that player's graveyard.
 Set/Rarity:     Gatecrash Uncommon
 
+Name:   Dimir Cluestone
+Cost:   3
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {T}: Add {U} or {B} to your mana pool.
+{U}{B}, {T}, Sacrifice Dimir Cluestone: Draw a card.
+Set/Rarity:     Dragon's Maze Common
+
 Name:   Dimir Cutpurse
 Cost:   1UB
 Type:   Creature — Spirit
@@ -2984,7 +3015,7 @@ Type:   Land — Gate
 Pow/Tgh:    
 Rules Text:     Dimir Guildgate enters the battlefield tapped.
 {T}: Add {U} or {B} to your mana pool.
-Set/Rarity:     Gatecrash Common
+Set/Rarity:     Dragon's Maze Common, Gatecrash Common
 
 Name:   Dimir Guildmage
 Cost:   (U/B)(U/B)
@@ -4059,6 +4090,22 @@ Rules Text:     ({(w/u)} can be paid with either {W} or {U}.)
 Whenever a player casts a noncreature spell, counter that spell. That player puts X 1/1 white and blue Bird creature tokens with flying onto the battlefield, where X is the spell's converted mana cost.
 Set/Rarity:     Dissension Rare
 
+Name:   Down // Dirty (Dirty)
+Cost:   2G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return target card from your graveyard to your hand.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
+Name:   Down // Dirty (Down)
+Cost:   3B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target player discards two cards.
+Fuse (You may cast one or both halves of this card from your hand.)
+Set/Rarity:     Dragon's Maze Uncommon
+
 Name:   Downdraft
 Cost:   2G
 Type:   Enchantment
@@ -4305,6 +4352,14 @@ Type:   Creature — Human Shaman
 Pow/Tgh:    (1/1)
 Rules Text:     At the beginning of your upkeep, if you control six or more lands, put a 5/5 red Dragon creature token with flying onto the battlefield.
 Set/Rarity:     Worldwake Mythic Rare
+
+Name:   Dragonshift
+Cost:   1UR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Until end of turn, target creature you control becomes a 4/4 blue and red Dragon, loses all abilities, and gains flying.
+Overload {3}{U}{U}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+Set/Rarity:     Dragon's Maze Rare
 
 Name:   Dragonskull Summit
 Cost:   
@@ -5072,6 +5127,13 @@ Pow/Tgh:    (*/*)
 Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 Drove of Elves's power and toughness are each equal to the number of green permanents you control.
 Set/Rarity:     Shadowmoor Uncommon
+
+Name:   Drown in Filth
+Cost:   BG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Choose target creature. Put the top four cards of your library into your graveyard, then that creature gets -1/-1 until end of turn for each land card in your graveyard.
+Set/Rarity:     Dragon's Maze Common
 
 Name:   Drowned
 Cost:   1U
