@@ -81,10 +81,10 @@ in the name contain everything you need. Put it in a location where jpackage
 will find it, such as /usr/share/java.
 
     antlr-3.5-complete.jar
-        Available at http://www.antlr.org/download/
+        Available at http://www.antlr3.org/download/
 
 Installation:
-    $ wget www.antlr.org/download/antlr-3.5-complete.jar
+    $ wget www.antlr3.org/download/antlr-3.5-complete.jar
     $ sudo mv antlr-3.5-complete.jar /usr/share/java
 
 5) antlr3 script (from this repo, in antlr3/)
