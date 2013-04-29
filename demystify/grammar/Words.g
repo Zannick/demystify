@@ -1485,6 +1485,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'myr'
             | 'orb'
             | 'orc'
+            | 'ral'
             | 'rat'
             | 'ir'
             | 'ox';

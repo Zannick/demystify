@@ -709,6 +709,7 @@ _planeswalker_types = [
     Keyword(("KOTH", "koth")),
     Keyword(("LILIANA", "liliana")),
     Keyword(("NISSA", "nissa")),
+    Keyword(("RAL", "ral")),
     Keyword(("SARKHAN", "sarkhan")),
     Keyword(("SORIN", "sorin")),
     Keyword(("TAMIYO", "tamiyo")),
