@@ -24,18 +24,21 @@ player_subset : player_group ( conj^ player_group )? ;
 
 // TODO: objects can have controllers and/or owners
 // TODO: Handle 'that player' etc refs differently?
-player_group : player_poss ( OPPONENT | TEAMMATE )
-               -> ^( PLAYER_GROUP player_poss OPPONENT? TEAMMATE? )
+player_group : ( number OF )? player_poss ( OPPONENT | TEAMMATE )
+               -> ^( PLAYER_GROUP number? player_poss OPPONENT[]? TEAMMATE[]? )
              | number player_base -> ^( PLAYER_GROUP number player_base )
-             | THAT player_base -> ^( PLAYER_GROUP THAT player_base )
-             | ENCHANTED? player_base
-               -> ^( PLAYER_GROUP ENCHANTED? player_base )
+             | THAT player_base -> ^( PLAYER_GROUP THAT[] player_base )
+             | ( CHOSEN | ENCHANTED )? player_base
+               -> ^( PLAYER_GROUP CHOSEN[]? ENCHANTED[]? player_base )
+             | ( ACTIVE | DEFENDING ) PLAYER
+               -> ^( PLAYER_GROUP ACTIVE[]? DEFENDING[]? PLAYER[] )
+             | ANOTHER PLAYER -> ^( PLAYER_GROUP NOT YOU )
              | YOU
              ;
 
 player_poss : YOUR -> ^( POSS YOU )
             | ( number | THAT )? player_base poss
-              -> ^( POSS ^( PLAYER_GROUP number? THAT? player_base ) )
+              -> ^( POSS ^( PLAYER_GROUP number? THAT[]? player_base ) )
             | ref_player_poss
             ;
 
