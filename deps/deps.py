@@ -22,7 +22,7 @@ import sys
 
 rule = re.compile(r"^(?:[a-z_0-9]+\+?=)?([a-z_0-9]+)\+?\*?!?\??$")
 comments = re.compile(r"//.*?$|/\*.*?\*/", re.M|re.S)
-actions = re.compile(r"""{([^'"]|'[^']*'|"[^"]*"|'''.*?'''"""
+actions = re.compile(r"""(options\s)?{([^'"]|'[^']*'|"[^"]*"|'''.*?'''"""
                      r'''|""".*?""")*?}''', re.M)
 full_rule = re.compile(r"^([a-z_0-9]+)\s*:(.*);\s*$", re.M)
 
