@@ -1,8 +1,8 @@
 
 @player_group
 @your opponents
-@(PLAYER_GROUP (POSS YOU) opponents)
+@(PLAYER_GROUP (POSS YOU) OPPONENT)
 
 @player_group
 @that player's teammates
-@(PLAYER_GROUP (POSS (PLAYER_GROUP THAT player)) teammates)
+@(PLAYER_GROUP (POSS (PLAYER_GROUP THAT player)) TEAMMATE)

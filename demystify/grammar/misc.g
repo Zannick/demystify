@@ -20,14 +20,30 @@ parser grammar misc;
 
 /* Miscellaneous rules. */
 
-conj : AND | OR | AND_OR ;
+/* Special references to related objects. */
 
-damage : NON COMBAT DAMAGE -> ^( DAMAGE[] NONCOMBAT )
-       | COMBAT DAMAGE -> ^( DAMAGE[] COMBAT[] )
-       | DAMAGE -> DAMAGE[]
-       ;
+haunted_object : THE ( type | obj_type ) ref_object HAUNT
+                 -> ^( HAUNTED ref_object );
 
-this_turn : THIS TURN -> ^( THIS[] TURN[] );
+// TODO: target
+ref_object : SELF
+           | PARENT
+           | IT
+           | THEM
+             // planeswalker pronouns
+           | HIM
+           | HER
+             // We probably don't actually need to remember what the
+             // nouns were here, but keep them in for now.
+           | ( ENCHANTED | EQUIPPED | FORTIFIED ) noun+
+           | this_guy
+           | that_guy
+           ;
+
+// eg. this creature, this permanent, this spell.
+this_guy : THIS ( type | obj_type ) -> SELF;
+
+that_guy : THAT^ ( type | obj_type | obj_subtype );
 
 /* Numbers and quantities. */
 
@@ -66,6 +82,17 @@ integer : ( s=NUMBER_SYM | w=number_word )
                     )
         | ANY AMOUNT OF -> ^( NUMBER ANY )
         ;
+
+/* Others */
+
+conj : AND | OR | AND_OR ;
+
+damage : NON COMBAT DAMAGE -> ^( DAMAGE[] NONCOMBAT )
+       | COMBAT DAMAGE -> ^( DAMAGE[] COMBAT[] )
+       | DAMAGE -> DAMAGE[]
+       ;
+
+this_turn : THIS TURN -> ^( THIS[] TURN[] );
 
 // Unfortunately we can't have the lexer rule match just a single quote
 // in some cases but not others, so we use a parser rule to handle this.

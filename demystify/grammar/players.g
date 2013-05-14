@@ -34,7 +34,13 @@ player_group : ( number OF )? player_poss ( OPPONENT | TEAMMATE )
                -> ^( PLAYER_GROUP ACTIVE[]? DEFENDING[]? PLAYER[] )
              | ANOTHER PLAYER -> ^( PLAYER_GROUP NOT YOU )
              | YOU
+             | ref_player
              ;
+
+ref_player : ref_object POSS ( OWNER -> ^( OWNER[] ref_object )
+                             | CONTROLLER -> ^( CONTROLLER[] ref_object )
+                             )
+           ;
 
 player_poss : YOUR -> ^( POSS YOU )
             | ( number | THAT )? player_base poss

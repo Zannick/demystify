@@ -109,43 +109,6 @@ basic_properties : adjective* noun+ descriptor* ;
 simple_properties : basic_properties -> ^( PROPERTIES basic_properties )
                   | adjective+ -> ^( PROPERTIES adjective+ );
 
-// Lists
-
-adj_list : a=adjective ( COMMA! ( ( b+=adjective | c+=noun ) COMMA! )+ )?
-           conj^ ( d=adjective | e=noun )
-           // Currently only Soldevi Adnate?
-           { if $e.text or $c:
-                self.emitDebugMessage('Mixed list: {}'.format(
-                    ', '.join([$a.text]
-                              + [adj.text for adj in ($b or []) + ($c or [])]
-                              + [$d.text or $e.text])))
-           };
-
-noun_list : noun ( COMMA! ( noun COMMA! )+ )? conj^ noun ;
-
-// Adjectives
-
-adjective : NON? ( supertype | color | color_spec | status )
-            -> {$NON}? ^( NON[] supertype? color? color_spec? status? )
-            -> supertype? color? color_spec? status? ;
-
-color : WHITE | BLUE | BLACK | RED | GREEN ;
-color_spec : COLORED | COLORLESS | MONOCOLORED | MULTICOLORED ;
-status : TAPPED
-       | UNTAPPED
-       | EXILED
-       | KICKED
-       | SUSPENDED
-       | ATTACKING
-       | BLOCKING
-       | BLOCKED
-       | UNBLOCKED
-       | FACE_UP
-       | FACE_DOWN
-       | FLIPPED
-       | REVEALED
-       ;
-
 // status that can't be used as an adjective but can be used in descriptors
 desc_status : status
             | ENCHANTED
@@ -153,12 +116,6 @@ desc_status : status
             | FORTIFIED
             | HAUNTED
             ;
-
-// Nouns
-
-noun : NON? ( type | obj_subtype | obj_type )
-       -> {$NON}? ^( NON[] type? obj_subtype? obj_type? )
-       -> type? obj_subtype? obj_type? ;
 
 // Descriptors
 
@@ -195,32 +152,6 @@ in_zones : ( IN | FROM ) zone_subset -> ^( IN[] zone_subset );
 with_keywords : WITH raw_keywords -> ^( KEYWORDS raw_keywords )
               | WITHOUT raw_keywords -> ^( NOT ^( KEYWORDS raw_keywords ) )
               ;
-
-/* Special references to related objects. */
-
-haunted_object : THE ( type | obj_type ) ref_object HAUNT
-                 -> ^( HAUNTED ref_object );
-
-// TODO: target
-// TODO: ref_player
-ref_object : SELF
-           | PARENT
-           | IT
-           | THEM
-             // planeswalker pronouns
-           | HIM
-           | HER
-             // We probably don't actually need to remember what the
-             // nouns were here, but keep them in for now.
-           | ( ENCHANTED | EQUIPPED | FORTIFIED ) noun+
-           | this_guy
-           | that_guy
-           ;
-
-// eg. this creature, this permanent, this spell.
-this_guy : THIS ( type | obj_type ) -> SELF;
-
-that_guy : THAT^ ( type | obj_type | obj_subtype );
 
 /* Property names. */
 
