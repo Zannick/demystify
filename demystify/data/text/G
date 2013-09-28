@@ -109,7 +109,7 @@ Name:   Gaea's Touch
 Cost:   GG
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     You may play an additional land during your turn if that land is a basic Forest.
+Rules Text:     {0}: You may put a basic Forest card from your hand onto the battlefield. Activate this ability only any time you could cast a sorcery and only once each turn.
 Sacrifice Gaea's Touch: Add {G}{G} to your mana pool.
 Set/Rarity:     Masters Edition III Uncommon, The Dark Common
 
@@ -134,6 +134,13 @@ Pow/Tgh:    (3/3)
 Rules Text:     Flying
 Whenever Galepowder Mage attacks, exile another target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 Set/Rarity:     Duel Decks: Venser vs. Koth Rare, Lorwyn Rare
+
+Name:   Galerider Sliver
+Cost:   U
+Type:   Creature — Sliver
+Pow/Tgh:    (1/1)
+Rules Text:     Sliver creatures you control have flying.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Galina's Knight
 Cost:   WU
@@ -264,7 +271,7 @@ Cost:   5R
 Type:   Creature — Devil
 Pow/Tgh:    (3/3)
 Rules Text:     When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
-Set/Rarity:     Avacyn Restored Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Avacyn Restored Uncommon
 
 Name:   Gang of Elk
 Cost:   5G
@@ -343,7 +350,7 @@ Pow/Tgh:    (7/7)
 Rules Text:     Trample
 Play with the top card of your library revealed.
 You may cast the top card of your library if it's a creature card. (Do this only any time you could cast that creature card. You still pay the spell's costs.)
-Set/Rarity:     Magic 2012 Rare
+Set/Rarity:     Magic 2014 Core Set Rare, Magic 2012 Rare
 
 Name:   Garruk's Packleader
 Cost:   4G
@@ -351,6 +358,15 @@ Type:   Creature — Beast
 Pow/Tgh:    (4/4)
 Rules Text:     Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card.
 Set/Rarity:     Magic 2013 Uncommon, Magic 2011 Uncommon
+
+Name:   Garruk, Caller of Beasts
+Cost:   4GG
+Type:   Planeswalker — Garruk
+Loyalty:    (4)
+Rules Text:     +1: Reveal the top five cards of your library. Put all creature cards revealed this way into your hand and the rest on the bottom of your library in any order.
+-3: You may put a green creature card from your hand onto the battlefield.
+-7: You get an emblem with "Whenever you cast a creature spell, you may search your library for a creature card, put it onto the battlefield, then shuffle your library."
+Set/Rarity:     Magic 2014 Core Set Mythic Rare
 
 Name:   Garruk, Primal Hunter
 Cost:   2GGG
@@ -431,7 +447,7 @@ Type:   Creature — Vampire Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     Kicker {B} (You may pay an additional {B} as you cast this spell.)
 When Gatekeeper of Malakir enters the battlefield, if it was kicked, target player sacrifices a creature.
-Set/Rarity:     Zendikar Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Zendikar Uncommon
 
 Name:   Gateway Shade
 Cost:   2B
@@ -453,7 +469,7 @@ Name:   Gather Courage
 Cost:   G
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Target creature gets +2/+2 until end of turn.
 Set/Rarity:     Ravnica: City of Guilds Common
 
@@ -570,7 +586,7 @@ Cost:   3(B/G)
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     ({(b/g)} can be paid with either {B} or {G}.)
-Regenerate target creature. At end of combat, destroy all creatures that blocked or were blocked by that creature this turn.
+Regenerate target creature. At this turn's next end of combat, destroy all creatures that blocked or were blocked by it this turn.
 Set/Rarity:     Ravnica: City of Guilds Common
 
 Name:   Geist Snatch
@@ -618,7 +634,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Geistflame deals 1 damage to target creature or player.
 Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Innistrad Common
 
 Name:   Gelatinous Genesis
 Cost:   XXG
@@ -943,7 +959,7 @@ Name:   Ghastlord of Fugue
 Cost:   (U/B)(U/B)(U/B)(U/B)(U/B)
 Type:   Creature — Spirit Avatar
 Pow/Tgh:    (4/4)
-Rules Text:     Ghastlord of Fugue is unblockable.
+Rules Text:     Ghastlord of Fugue can't be blocked.
 Whenever Ghastlord of Fugue deals combat damage to a player, that player reveals his or her hand. You choose a card from it. That player exiles that card.
 Set/Rarity:     Shadowmoor Rare
 
@@ -1180,7 +1196,7 @@ Name:   Ghostform
 Cost:   1U
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Up to two target creatures are unblockable this turn.
+Rules Text:     Up to two target creatures can't be blocked this turn.
 Set/Rarity:     Avacyn Restored Common
 
 Name:   Ghosthelm Courier
@@ -1375,14 +1391,14 @@ Type:   Creature — Insect
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
 Suspend 4—{1}{G} (Rather than cast this card from your hand, you may pay {1}{G} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
-Set/Rarity:     Planar Chaos Common
+Set/Rarity:     Modern Masters Common, Planar Chaos Common
 
 Name:   Giant Growth
 Cost:   G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +3/+3 until end of turn.
-Set/Rarity:     Return to Ravnica Common, Masters Edition IV Common, Magic 2011 Common, Duel Decks: Garruk vs. Liliana Common, Masters Edition III Common, Magic 2010 Common, Masters Edition II Common, Duel Decks: Elves vs. Goblins Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Ice Age Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Magic 2014 Core Set Common, Return to Ravnica Common, Masters Edition IV Common, Magic 2011 Common, Duel Decks: Garruk vs. Liliana Common, Masters Edition III Common, Magic 2010 Common, Masters Edition II Common, Duel Decks: Elves vs. Goblins Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Battle Royale Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Ice Age Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Giant Harbinger
 Cost:   4R
@@ -1449,7 +1465,7 @@ Cost:   3G
 Type:   Creature — Spider
 Pow/Tgh:    (2/4)
 Rules Text:     Reach (This creature can block creatures with flying.)
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Portal Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Portal Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Giant Strength
 Cost:   RR
@@ -1554,7 +1570,7 @@ Cost:   2WW
 Type:   Planeswalker — Gideon
 Loyalty:    (4)
 Rules Text:     +1: Put a loyalty counter on Gideon, Champion of Justice for each creature target opponent controls.
-0: Until end of turn, Gideon, Champion of Justice becomes an indestructible Human Soldier creature with power and toughness each equal to the number of loyalty counters on him. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+0: Until end of turn, Gideon, Champion of Justice becomes a Human Soldier creature with power and toughness each equal to the number of loyalty counters on him and gains indestructible. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.
 -15: Exile all other permanents.
 Set/Rarity:     Gatecrash Mythic Rare
 
@@ -1788,7 +1804,7 @@ Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Glacial Ray deals 2 damage to target creature or player.
 Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
-Set/Rarity:     Champions of Kamigawa Common
+Set/Rarity:     Modern Masters Common, Champions of Kamigawa Common
 
 Name:   Glacial Wall
 Cost:   2U
@@ -1818,7 +1834,7 @@ Cost:   G
 Type:   Creature — Elf Scout
 Pow/Tgh:    (1/1)
 Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common
 
 Name:   Glamer Spinners
 Cost:   4(W/U)
@@ -1866,7 +1882,7 @@ Cost:   1
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Creatures your opponents control with hexproof can be the targets of spells and abilities you control as though they didn't have hexproof.
-{3}, Sacrifice Glaring Spotlight: Creatures you control gain hexproof until end of turn and are unblockable this turn.
+{3}, Sacrifice Glaring Spotlight: Creatures you control gain hexproof until end of turn and can't be blocked this turn.
 Set/Rarity:     Gatecrash Rare
 
 Name:   Glass Asp
@@ -1887,7 +1903,7 @@ Name:   Glassdust Hulk
 Cost:   3WU
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (3/4)
-Rules Text:     Whenever another artifact enters the battlefield under your control, Glassdust Hulk gets +1/+1 until end of turn and is unblockable this turn.
+Rules Text:     Whenever another artifact enters the battlefield under your control, Glassdust Hulk gets +1/+1 until end of turn and can't be blocked this turn.
 Cycling {(w/u)} ({(w/u)}, Discard this card: Draw a card.)
 Set/Rarity:     Alara Reborn Common
 
@@ -1919,7 +1935,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Creatures you control get +1/+2 until end of turn. Untap those creatures.
 Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
-Set/Rarity:     Conflux Common
+Set/Rarity:     Modern Masters Common, Conflux Common
 
 Name:   Gleancrawler
 Cost:   3(B/G)(B/G)(B/G)
@@ -1945,7 +1961,7 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flying
 {U}, Sacrifice Glen Elendra Archmage: Counter target noncreature spell.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
-Set/Rarity:     Eventide Rare
+Set/Rarity:     Modern Masters Rare, Eventide Rare
 
 Name:   Glen Elendra Liege
 Cost:   1(U/B)(U/B)(U/B)
@@ -2010,7 +2026,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     At the beginning of the end step, if you control no artifacts, sacrifice Glimmervoid.
 {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Mirrodin Rare
+Set/Rarity:     Modern Masters Rare, Mirrodin Rare
 
 Name:   Glimpse of Nature
 Cost:   G
@@ -2018,6 +2034,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Whenever you cast a creature spell this turn, draw a card.
 Set/Rarity:     Champions of Kamigawa Rare
+
+Name:   Glimpse the Future
+Cost:   2U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Glimpse the Unthinkable
 Cost:   UB
@@ -2292,14 +2315,14 @@ Name:   Glyph of Doom
 Cost:   B
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     At end of combat, destroy all creatures that were blocked by target Wall this turn.
+Rules Text:     Choose target Wall creature. At this turn's next end of combat, destroy all creatures that were blocked by that creature this turn.
 Set/Rarity:     Legends Common
 
 Name:   Glyph of Life
 Cost:   W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Until end of turn, whenever an attacking creature deals damage to target Wall creature, you gain that much life.
+Rules Text:     Choose target Wall creature. Whenever that creature is dealt damage by an attacking creature this turn, you gain that much life.
 Set/Rarity:     Legends Common
 
 Name:   Glyph of Reincarnation
@@ -2361,6 +2384,13 @@ Rules Text:     You gain 2 life for each creature card in your graveyard.
 Flashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Innistrad Common
 
+Name:   Gnawing Zombie
+Cost:   1B
+Type:   Creature — Zombie
+Pow/Tgh:    (1/3)
+Rules Text:     {1}{B}, Sacrifice a creature: Target player loses 1 life and you gain 1 life.
+Set/Rarity:     Magic 2014 Core Set Uncommon
+
 Name:   Go for the Throat
 Cost:   1B
 Type:   Instant
@@ -2401,7 +2431,7 @@ Cost:   R
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (1/1)
 Rules Text:     When Goblin Arsonist dies, you may have it deal 1 damage to target creature or player.
-Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Rise of the Eldrazi Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Magic 2013 Common, Magic 2012 Common, Rise of the Eldrazi Common
 
 Name:   Goblin Artillery
 Cost:   1RR
@@ -2606,6 +2636,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     {T}, Sacrifice Goblin Digging Team: Destroy target Wall.
 Set/Rarity:     Seventh Edition Common, Classic Sixth Edition Common, Fifth Edition Common, Chronicles Common, The Dark Common
 
+Name:   Goblin Diplomats
+Cost:   1R
+Type:   Creature — Goblin
+Pow/Tgh:    (2/1)
+Rules Text:     {T}: Each creature attacks this turn if able.
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Goblin Dirigible
 Cost:   6
 Type:   Artifact Creature — Construct
@@ -2782,7 +2819,7 @@ Name:   Goblin King
 Cost:   1RR
 Type:   Creature — Goblin
 Pow/Tgh:    (2/2)
-Rules Text:     Other Goblin creatures get +1/+1 and have mountainwalk. (They're unblockable as long as defending player controls a Mountain.)
+Rules Text:     Other Goblin creatures get +1/+1 and have mountainwalk. (They can't be blocked as long as defending player controls a Mountain.)
 Set/Rarity:     Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
 Name:   Goblin Kites
@@ -3012,8 +3049,8 @@ Name:   Goblin Sappers
 Cost:   1R
 Type:   Creature — Goblin
 Pow/Tgh:    (1/1)
-Rules Text:     {R}{R}, {T}: Target creature you control is unblockable this turn. Destroy it and Goblin Sappers at end of combat.
-{R}{R}{R}{R}, {T}: Target creature you control is unblockable this turn. Destroy it at end of combat.
+Rules Text:     {R}{R}, {T}: Target creature you control can't be blocked this turn. Destroy it and Goblin Sappers at end of combat.
+{R}{R}{R}{R}, {T}: Target creature you control can't be blocked this turn. Destroy it at end of combat.
 Set/Rarity:     Ice Age Common
 
 Name:   Goblin Scouts
@@ -3044,7 +3081,7 @@ Cost:   1R
 Type:   Creature — Goblin Scout
 Pow/Tgh:    (2/1)
 Rules Text:     When Goblin Shortcutter enters the battlefield, target creature can't block this turn.
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Magic 2014 Core Set Common, Zendikar Common
 
 Name:   Goblin Shrine
 Cost:   1RR
@@ -3160,7 +3197,7 @@ Name:   Goblin Tunneler
 Cost:   1R
 Type:   Creature — Goblin Rogue
 Pow/Tgh:    (1/1)
-Rules Text:     {T}: Target creature with power 2 or less is unblockable this turn.
+Rules Text:     {T}: Target creature with power 2 or less can't be blocked this turn.
 Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Rise of the Eldrazi Common
 
 Name:   Goblin Turncoat
@@ -3815,7 +3852,7 @@ Pow/Tgh:    (2/3)
 Rules Text:     White spells you cast cost {1} less to cast.
 Blue spells you cast cost {1} less to cast.
 Spells your opponents cast cost {1} more to cast.
-Set/Rarity:     Dissension Rare
+Set/Rarity:     Modern Masters Rare, Dissension Rare
 
 Name:   Grand Architect
 Cost:   1UU
@@ -3895,7 +3932,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Grapeshot deals 1 damage to target creature or player.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   Grapeshot Catapult
 Cost:   4
@@ -4197,7 +4234,7 @@ Name:   Graxiplon
 Cost:   5U
 Type:   Creature — Beast
 Pow/Tgh:    (3/4)
-Rules Text:     Graxiplon is unblockable unless defending player controls three or more creatures that share a creature type.
+Rules Text:     Graxiplon can't be blocked unless defending player controls three or more creatures that share a creature type.
 Set/Rarity:     Onslaught Uncommon
 
 Name:   Gray Ogre
@@ -4317,9 +4354,9 @@ Name:   Greater Gargadon
 Cost:   9R
 Type:   Creature — Beast
 Pow/Tgh:    (9/7)
-Rules Text:     Suspend 10—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with ten time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
+Rules Text:     Suspend 10—{R}
 Sacrifice an artifact, creature, or land: Remove a time counter from Greater Gargadon. Activate this ability only if Greater Gargadon is suspended.
-Set/Rarity:     Time Spiral Rare
+Set/Rarity:     Modern Masters Rare, Time Spiral Rare
 
 Name:   Greater Good
 Cost:   2GG
@@ -4341,7 +4378,7 @@ Cost:   3G
 Type:   Creature — Plant Hound
 Pow/Tgh:    (3/3)
 Rules Text:     Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Ravnica: City of Guilds Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Izzet vs. Golgari Common, Ravnica: City of Guilds Common
 
 Name:   Greater Realm of Preservation
 Cost:   1W
@@ -4532,7 +4569,7 @@ Type:   Creature — Griffin
 Pow/Tgh:    (1/3)
 Rules Text:     Flying
 Vigilance (Attacking doesn't cause this creature to tap.)
-Set/Rarity:     Magic 2012 Common, Magic 2010 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common, Magic 2010 Common
 
 Name:   Grifter's Blade
 Cost:   3
@@ -4623,6 +4660,13 @@ Rules Text:     Search your library for a nonland card and reveal it. Each oppon
 {B}{B}: Return Grim Reminder from your graveyard to your hand. Activate this ability only during your upkeep.
 Set/Rarity:     Mirrodin Rare
 
+Name:   Grim Return
+Cost:   2B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Choose target creature card in a graveyard that was put there from the battlefield this turn. Put that card onto the battlefield under your control.
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Grim Roustabout
 Cost:   1B
 Type:   Creature — Skeleton Warrior
@@ -4708,7 +4752,7 @@ Cost:   2R
 Type:   Creature — Elemental
 Pow/Tgh:    (2/2)
 Rules Text:     {R}, Return Grinning Ignus to its owner's hand: Add {2}{R} to your mana pool. Activate this ability only any time you could cast a sorcery.
-Set/Rarity:     Future Sight Common
+Set/Rarity:     Modern Masters Uncommon, Future Sight Common
 
 Name:   Grinning Totem
 Cost:   4
@@ -4948,6 +4992,13 @@ Pow/Tgh:    (2/1)
 Rules Text:     {(g/u)}: Groundling Pouncer gets +1/+3 and gains flying until end of turn. Activate this ability only once each turn and only if an opponent controls a creature with flying.
 Set/Rarity:     Eventide Uncommon
 
+Name:   Groundshaker Sliver
+Cost:   6G
+Type:   Creature — Sliver
+Pow/Tgh:    (5/5)
+Rules Text:     Sliver creatures you control have trample. (If a Sliver you control would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Groundskeeper
 Cost:   G
 Type:   Creature — Human Druid
@@ -5175,7 +5226,7 @@ Name:   Guardian Beast
 Cost:   3B
 Type:   Creature — Beast
 Pow/Tgh:    (2/4)
-Rules Text:     As long as Guardian Beast is untapped, noncreature artifacts you control can't be enchanted, they're indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts.
+Rules Text:     As long as Guardian Beast is untapped, noncreature artifacts you control can't be enchanted, they have indestructible, and other players can't gain control of them. This effect doesn't remove Auras already attached to those artifacts.
 Set/Rarity:     Masters Edition IV Rare, Arabian Nights Rare
 
 Name:   Guardian Idol
@@ -5230,9 +5281,17 @@ Name:   Guardian of Vitu-Ghazi
 Cost:   6GW
 Type:   Creature — Elemental
 Pow/Tgh:    (4/7)
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Vigilance
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Guardian of the Ages
+Cost:   7
+Type:   Artifact Creature — Golem
+Pow/Tgh:    (7/7)
+Rules Text:     Defender (This creature can't attack.)
+When a creature attacks you or a planeswalker you control, if Guardian of the Ages has defender, it loses defender and gains trample.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Guardian of the Gateless
 Cost:   4W

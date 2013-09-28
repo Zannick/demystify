@@ -401,6 +401,15 @@ Pow/Tgh:
 Rules Text:     Destroy target artifact.
 Set/Rarity:     Apocalypse Uncommon, Apocalypse Uncommon
 
+Name:   Illusionary Armor
+Cost:   4U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +4/+4.
+When enchanted creature becomes the target of a spell or ability, sacrifice Illusionary Armor.
+Set/Rarity:     Magic 2014 Core Set Uncommon
+
 Name:   Illusionary Forces
 Cost:   3U
 Type:   Creature — Illusion
@@ -515,7 +524,7 @@ Cost:   1RG
 Type:   Creature — Wolf
 Pow/Tgh:    (2/2)
 Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
-Other Wolf and Werewolf creatures you control get +1/+1.
+Each other creature you control that's a Wolf or a Werewolf gets +1/+1.
 Non-Human Werewolves you control can't transform.
 Set/Rarity:     Dark Ascension Uncommon
 
@@ -639,7 +648,7 @@ Cost:   2GG
 Type:   Creature — Lizard
 Pow/Tgh:    (5/5)
 Rules Text:     Spend only mana produced by basic lands to cast Imperiosaur.
-Set/Rarity:     Future Sight Uncommon
+Set/Rarity:     Modern Masters Common, Future Sight Uncommon
 
 Name:   Imperious Perfect
 Cost:   2G
@@ -664,6 +673,13 @@ Rules Text:     Destroy target land.
 
 Draw a card.
 Set/Rarity:     Planeshift Uncommon
+
+Name:   Imposing Sovereign
+Cost:   1W
+Type:   Creature — Human
+Pow/Tgh:    (2/1)
+Rules Text:     Creatures your opponents control enter the battlefield tapped.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Imposing Visage
 Cost:   R
@@ -869,7 +885,7 @@ Cost:   3GG
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put a +1/+1 counter on target creature, two +1/+1 counters on another target creature, and three +1/+1 counters on a third target creature.
-Set/Rarity:     Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Lorwyn Uncommon
 
 Name:   Incurable Ogre
 Cost:   3R
@@ -882,7 +898,7 @@ Name:   Incursion Specialist
 Cost:   1U
 Type:   Creature — Human Wizard
 Pow/Tgh:    (1/3)
-Rules Text:     Whenever you cast your second spell each turn, Incursion Specialist gets +2/+0 until end of turn and is unblockable this turn.
+Rules Text:     Whenever you cast your second spell each turn, Incursion Specialist gets +2/+0 until end of turn and can't be blocked this turn.
 Set/Rarity:     Gatecrash Uncommon
 
 Name:   Indebted Samurai
@@ -920,8 +936,8 @@ Cost:   3W
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant permanent
-Enchanted permanent is indestructible. (Effects that say "destroy" don't destroy that permanent. An indestructible creature can't be destroyed by damage.)
-Set/Rarity:     Magic 2010 Rare
+Enchanted permanent has indestructible. (Effects that say "destroy" don't destroy that permanent. A creature with indestructible can't be destroyed by damage.)
+Set/Rarity:     Magic 2014 Core Set Rare, Magic 2010 Rare
 
 Name:   Indestructible Aura
 Cost:   W
@@ -1196,7 +1212,7 @@ Name:   Infiltrate
 Cost:   U
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Target creature is unblockable this turn.
+Rules Text:     Target creature can't be blocked this turn.
 Set/Rarity:     Nemesis Common
 
 Name:   Infiltration Lens
@@ -1344,7 +1360,7 @@ Name:   Ink-Treader Nephilim
 Cost:   RGWU
 Type:   Creature — Nephilim
 Pow/Tgh:    (3/3)
-Rules Text:     Whenever a player casts an instant or sorcery spell, if Ink-Treader Nephilim is the only target of that spell, copy the spell for each other creature that spell could target. Each copy targets a different one of those creatures.
+Rules Text:     Whenever a player casts an instant or sorcery spell, if that spell targets only Ink-Treader Nephilim, copy the spell for each other creature that spell could target. Each copy targets a different one of those creatures.
 Set/Rarity:     Guildpact Rare
 
 Name:   Inkfathom Divers
@@ -1359,7 +1375,7 @@ Name:   Inkfathom Infiltrator
 Cost:   (U/B)(U/B)
 Type:   Creature — Merfolk Rogue
 Pow/Tgh:    (2/1)
-Rules Text:     Inkfathom Infiltrator can't block and is unblockable.
+Rules Text:     Inkfathom Infiltrator can't block and can't be blocked.
 Set/Rarity:     Shadowmoor Uncommon
 
 Name:   Inkfathom Witch
@@ -1740,6 +1756,13 @@ Pow/Tgh:
 Rules Text:     Return up to two target creatures to their owners' hands.
 Set/Rarity:     Avacyn Restored Uncommon
 
+Name:   Into the Wilds
+Cost:   3G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of your upkeep, look at the top card of your library. If it's a land card, you may put it onto the battlefield.
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Intrepid Hero
 Cost:   2W
 Type:   Creature — Human Soldier
@@ -1842,7 +1865,7 @@ Cost:   1U
 Type:   Creature — Human Rogue
 Pow/Tgh:    (1/1)
 Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
-Invisible Stalker is unblockable.
+Invisible Stalker can't be blocked.
 Set/Rarity:     Innistrad Uncommon
 
 Name:   Invoke Prejudice
@@ -2100,7 +2123,7 @@ Cost:
 Type:   Basic Land — Island
 Pow/Tgh:    
 Rules Text:     U
-Set/Rarity:     Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Duel Decks: Elspeth vs. Tezzeret Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Island Fish Jasconius
 Cost:   4UUU
@@ -2234,7 +2257,7 @@ Type:   Creature — Giant
 Pow/Tgh:    (3/4)
 Rules Text:     When Ivory Giant enters the battlefield, tap all nonwhite creatures.
 Suspend 5—{W} (Rather than cast this card from your hand, you may pay {W} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   Ivory Guardians
 Cost:   4WW

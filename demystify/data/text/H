@@ -43,11 +43,11 @@ Pow/Tgh:    (1/1)
 Rules Text:     Level up {2}{U} ({2}{U}: Put a level counter on this. Level up only as a sorcery.)
 LEVEL 1-2
 2/2
-Hada Spy Patrol is unblockable.
+Hada Spy Patrol can't be blocked.
 LEVEL 3+
 3/3
 Shroud
-Hada Spy Patrol is unblockable.
+Hada Spy Patrol can't be blocked.
 Set/Rarity:     Rise of the Eldrazi Uncommon
 
 Name:   Hag Hedge-Mage
@@ -304,14 +304,14 @@ Type:   Creature — Giant Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     Echo {5}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Hammerheim Deadeye enters the battlefield, destroy target creature with flying.
-Set/Rarity:     Planar Chaos Uncommon
+Set/Rarity:     Modern Masters Common, Planar Chaos Uncommon
 
 Name:   Hana Kami
 Cost:   G
 Type:   Creature — Spirit
 Pow/Tgh:    (1/1)
 Rules Text:     {1}{G}, Sacrifice Hana Kami: Return target Arcane card from your graveyard to your hand.
-Set/Rarity:     Champions of Kamigawa Uncommon
+Set/Rarity:     Modern Masters Common, Champions of Kamigawa Uncommon
 
 Name:   Hanabi Blast
 Cost:   1RR
@@ -454,7 +454,7 @@ Cost:   2B
 Type:   Creature — Human Rogue
 Pow/Tgh:    (2/2)
 Rules Text:     Harbor Bandit gets +1/+1 as long as you control an Island.
-{1}{U}: Harbor Bandit is unblockable this turn.
+{1}{U}: Harbor Bandit can't be blocked this turn.
 Set/Rarity:     Magic 2013 Uncommon
 
 Name:   Harbor Guardian
@@ -469,7 +469,7 @@ Name:   Harbor Serpent
 Cost:   4UU
 Type:   Creature — Serpent
 Pow/Tgh:    (5/5)
-Rules Text:     Islandwalk (This creature is unblockable as long as defending player controls an Island.)
+Rules Text:     Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 Harbor Serpent can't attack unless there are five or more Islands on the battlefield.
 Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Magic 2011 Common
 
@@ -719,6 +719,15 @@ Pow/Tgh:    (2/1)
 Rules Text:     Defender, first strike
 Set/Rarity:     Avacyn Restored Uncommon
 
+Name:   Haunted Plate Mail
+Cost:   4
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature gets +4/+4.
+{0}: Until end of turn, Haunted Plate Mail becomes a 4/4 Spirit artifact creature that's no longer an Equipment. Activate this ability only if you control no creatures.
+Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Haunter of Nightveil
 Cost:   3UB
 Type:   Creature — Spirit
@@ -883,7 +892,7 @@ Name:   Hazy Homunculus
 Cost:   1U
 Type:   Creature — Homunculus Illusion
 Pow/Tgh:    (1/1)
-Rules Text:     Hazy Homunculus is unblockable as long as defending player controls an untapped land.
+Rules Text:     Hazy Homunculus can't be blocked as long as defending player controls an untapped land.
 Set/Rarity:     Prophecy Common
 
 Name:   He Who Hungers
@@ -1061,7 +1070,7 @@ Name:   Hearth Charm
 Cost:   R
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Choose one — Destroy target artifact creature; or attacking creatures get +1/+0 until end of turn; or target creature with power 2 or less is unblockable this turn.
+Rules Text:     Choose one — Destroy target artifact creature; or attacking creatures get +1/+0 until end of turn; or target creature with power 2 or less can't be blocked this turn.
 Set/Rarity:     Visions Common
 
 Name:   Hearth Kami
@@ -1536,7 +1545,7 @@ Type:   Creature — Devil
 Pow/Tgh:    (3/3)
 Rules Text:     Haste
 Whenever a creature you control attacks, Hellrider deals 1 damage to defending player.
-Set/Rarity:     Dark Ascension Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Dark Ascension Rare
 
 Name:   Hellspark Elemental
 Cost:   1R
@@ -1545,7 +1554,7 @@ Pow/Tgh:    (3/1)
 Rules Text:     Trample, haste
 At the beginning of the end step, sacrifice Hellspark Elemental.
 Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
-Set/Rarity:     Premium Deck Series: Fire and Lightning Uncommon, Conflux Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Premium Deck Series: Fire and Lightning Uncommon, Conflux Uncommon
 
 Name:   Helm of Awakening
 Cost:   2
@@ -2032,7 +2041,7 @@ Type:   Legendary Creature — Human Ninja
 Pow/Tgh:    (3/4)
 Rules Text:     Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.
-{2}: Target Ninja creature is unblockable this turn.
+{2}: Target Ninja creature can't be blocked this turn.
 Set/Rarity:     Planechase 2012 Edition Rare, Betrayers of Kamigawa Rare
 
 Name:   Hikari, Twilight Guardian
@@ -2055,7 +2064,7 @@ Cost:   2WW
 Type:   Creature — Giant Scout
 Pow/Tgh:    (3/3)
 Rules Text:     Mountainwalk
-Set/Rarity:     Lorwyn Common
+Set/Rarity:     Modern Masters Common, Lorwyn Common
 
 Name:   Hinder
 Cost:   1UU
@@ -2210,6 +2219,13 @@ Pow/Tgh:
 Rules Text:     Whenever a player casts an instant or sorcery spell, each other player copies that spell. Each of those players may choose new targets for his or her copy.
 Set/Rarity:     Magic 2010 Rare
 
+Name:   Hive Stirrings
+Cost:   2W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put two 1/1 colorless Sliver creature tokens onto the battlefield.
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Hivestone
 Cost:   2
 Type:   Artifact
@@ -2331,7 +2347,7 @@ Name:   Hollow Warrior
 Cost:   4
 Type:   Artifact Creature — Golem Warrior
 Pow/Tgh:    (4/4)
-Rules Text:     Hollow Warrior can't attack or block unless you tap an untapped creature you control not declared as an attacking or blocking creature this combat.
+Rules Text:     Hollow Warrior can't attack or block unless you tap an untapped creature you control not declared as an attacking or blocking creature this combat. (This cost is paid as attackers or blockers are declared.)
 Set/Rarity:     Prophecy Uncommon
 
 Name:   Hollowborn Barghest
@@ -2499,8 +2515,8 @@ Set/Rarity:     Saviors of Kamigawa Rare
 Name:   Homura, Human Ascendant (Homura's Essence)
 Cost:   4RR
 Type:   Legendary Enchantment
-Pow/Tgh:    (2/2)
-Rules Text:     
+Pow/Tgh:    
+Rules Text:     Creatures you control get +2/+2 and have flying and "{R}: This creature gets +1/+0 until end of turn."
 Set/Rarity:     Saviors of Kamigawa Rare
 
 Name:   Honden of Cleansing Fire
@@ -2800,7 +2816,7 @@ Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     If you control a Swamp, destroy target nonblack creature.
 Splice onto Arcane—Exile four cards from your graveyard. (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
-Set/Rarity:     Betrayers of Kamigawa Common
+Set/Rarity:     Modern Masters Uncommon, Betrayers of Kamigawa Common
 
 Name:   Horobi, Death's Wail
 Cost:   2BB
@@ -2890,7 +2906,7 @@ Name:   Hour of Reckoning
 Cost:   4WWW
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Destroy all nontoken creatures.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Ravnica: City of Guilds Rare
 
@@ -2936,7 +2952,7 @@ Cost:   6G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put a 2/2 green Wolf creature token onto the battlefield for each Forest you control.
-Set/Rarity:     Magic 2010 Uncommon, Shadowmoor Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2010 Uncommon, Shadowmoor Uncommon
 
 Name:   Howlgeist
 Cost:   5G
@@ -2988,7 +3004,7 @@ Cost:
 Color:  Green
 Type:   Creature — Werewolf
 Pow/Tgh:    (3/3)
-Rules Text:     Other Werewolf and Wolf creatures you control get +1/+1.
+Rules Text:     Each other creature you control that's a Werewolf or a Wolf gets +1/+1.
 At the beginning of your end step, put a 2/2 green Wolf creature token onto the battlefield.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Howlpack Alpha.
 Set/Rarity:     Innistrad Rare
@@ -3154,12 +3170,19 @@ Pow/Tgh:
 Rules Text:     Target creature blocks target creature this turn if able.
 Set/Rarity:     Lorwyn Common
 
+Name:   Hunt the Weak
+Cost:   3G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Hunted Dragon
 Cost:   3RR
 Type:   Creature — Dragon
 Pow/Tgh:    (6/6)
 Rules Text:     Flying, haste
-When Hunted Dragon enters the battlefield, put three 2/2 white Knight creature tokens with first strike onto the battlefield under target opponent's control.
+When Hunted Dragon enters the battlefield, target opponent puts three 2/2 white Knight creature tokens with first strike onto the battlefield.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
 Name:   Hunted Ghoul
@@ -3174,7 +3197,7 @@ Cost:   BB
 Type:   Creature — Horror
 Pow/Tgh:    (7/7)
 Rules Text:     Trample
-When Hunted Horror enters the battlefield, put two 3/3 green Centaur creature tokens with protection from black onto the battlefield under target opponent's control.
+When Hunted Horror enters the battlefield, target opponent puts two 3/3 green Centaur creature tokens with protection from black onto the battlefield.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
 Name:   Hunted Lammasu
@@ -3182,22 +3205,22 @@ Cost:   2WW
 Type:   Creature — Lammasu
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Hunted Lammasu enters the battlefield, put a 4/4 black Horror creature token onto the battlefield under target opponent's control.
+When Hunted Lammasu enters the battlefield, target opponent puts a 4/4 black Horror creature token onto the battlefield.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
 Name:   Hunted Phantasm
 Cost:   1UU
 Type:   Creature — Spirit
 Pow/Tgh:    (4/6)
-Rules Text:     Hunted Phantasm is unblockable.
-When Hunted Phantasm enters the battlefield, put five 1/1 red Goblin creature tokens onto the battlefield under target opponent's control.
+Rules Text:     Hunted Phantasm can't be blocked.
+When Hunted Phantasm enters the battlefield, target opponent puts five 1/1 red Goblin creature tokens onto the battlefield.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
 Name:   Hunted Troll
 Cost:   2GG
 Type:   Creature — Troll Warrior
 Pow/Tgh:    (8/4)
-Rules Text:     When Hunted Troll enters the battlefield, put four 1/1 blue Faerie creature tokens with flying onto the battlefield under target opponent's control.
+Rules Text:     When Hunted Troll enters the battlefield, target opponent puts four 1/1 blue Faerie creature tokens with flying onto the battlefield.
 {G}: Regenerate Hunted Troll.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
@@ -3459,7 +3482,7 @@ Cost:   3UR
 Type:   Creature — Dragon
 Pow/Tgh:    (4/4)
 Rules Text:     Flying, haste
-You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)
+You may cast sorcery cards as though they had flash. (You may cast them any time you could cast an instant.)
 Set/Rarity:     Return to Ravnica Rare
 
 Name:   Hypervolt Grasp

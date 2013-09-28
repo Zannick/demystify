@@ -134,7 +134,7 @@ Cost:   B
 Type:   Creature — Vampire Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Zendikar Common
 
 Name:   Vampire Nighthawk
 Cost:   1BB
@@ -143,7 +143,7 @@ Pow/Tgh:    (2/3)
 Rules Text:     Flying
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
-Set/Rarity:     Magic 2013 Uncommon, Magic: The Gathering-Commander Uncommon, Zendikar Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Magic 2013 Uncommon, Magic: The Gathering-Commander Uncommon, Zendikar Uncommon
 
 Name:   Vampire Nocturnus
 Cost:   1BBB
@@ -159,7 +159,14 @@ Type:   Creature — Vampire
 Pow/Tgh:    (2/2)
 Rules Text:     Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
-Set/Rarity:     Magic 2012 Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Magic 2012 Uncommon
+
+Name:   Vampire Warlord
+Cost:   4B
+Type:   Creature — Vampire Warrior
+Pow/Tgh:    (4/2)
+Rules Text:     Sacrifice another creature: Regenerate Vampire Warlord. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Vampire's Bite
 Cost:   B
@@ -167,7 +174,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)
 Target creature gets +3/+0 until end of turn. If Vampire's Bite was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
-Set/Rarity:     Zendikar Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Zendikar Common
 
 Name:   Vampiric Dragon
 Cost:   6BR
@@ -268,7 +275,7 @@ Name:   Vanish into Memory
 Cost:   2WU
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Exile target creature. You draw cards equal to that creature's power. At the beginning of your next upkeep, return that card to the battlefield under its owner's control. If you do, discard cards equal to its toughness.
+Rules Text:     Exile target creature. You draw cards equal to that creature's power. At the beginning of your next upkeep, return that card to the battlefield under its owner's control. If you do, discard cards equal to that creature's toughness.
 Set/Rarity:     Duel Decks: Venser vs. Koth Uncommon, Coldsnap Uncommon
 
 Name:   Vanishing
@@ -329,7 +336,7 @@ Name:   Varchild's War-Riders
 Cost:   1R
 Type:   Creature — Human Warrior
 Pow/Tgh:    (3/4)
-Rules Text:     Cumulative upkeep—Put a 1/1 red Survivor creature token onto the battlefield under an opponent's control. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
+Rules Text:     Cumulative upkeep—Have an opponent put a 1/1 red Survivor creature token onto the battlefield. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 Trample; rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)
 Set/Rarity:     Masters Edition Rare, Alliances Rare
 
@@ -368,6 +375,14 @@ Type:   Creature — Wurm
 Pow/Tgh:    (5/6)
 Rules Text:     
 Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Zendikar Common
+
+Name:   Vastwood Hydra
+Cost:   XGG
+Type:   Creature — Hydra
+Pow/Tgh:    (0/0)
+Rules Text:     Vastwood Hydra enters the battlefield with X +1/+1 counters on it.
+When Vastwood Hydra dies, you may distribute a number of +1/+1 counters equal to the number of +1/+1 counters on Vastwood Hydra among any number of creatures you control.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Vastwood Zendikon
 Cost:   4G
@@ -431,7 +446,7 @@ Name:   Vectis Agents
 Cost:   3UB
 Type:   Artifact Creature — Human Rogue
 Pow/Tgh:    (4/3)
-Rules Text:     {U}{B}: Vectis Agents gets -2/-0 until end of turn and is unblockable this turn.
+Rules Text:     {U}{B}: Vectis Agents gets -2/-0 until end of turn and can't be blocked this turn.
 Set/Rarity:     Conflux Common
 
 Name:   Vectis Dominator
@@ -481,7 +496,7 @@ Cost:   5U
 Type:   Creature — Vedalken Wizard
 Pow/Tgh:    (2/2)
 Rules Text:     When Vedalken Dismisser enters the battlefield, put target creature on top of its owner's library.
-Set/Rarity:     Ravnica: City of Guilds Common
+Set/Rarity:     Modern Masters Common, Ravnica: City of Guilds Common
 
 Name:   Vedalken Engineer
 Cost:   1U
@@ -552,7 +567,7 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     You may choose not to untap Vedalken Shackles during your untap step.
 {2}, {T}: Gain control of target creature with power less than or equal to the number of Islands you control for as long as Vedalken Shackles remains tapped.
-Set/Rarity:     Fifth Dawn Rare
+Set/Rarity:     Modern Masters Mythic Rare, Fifth Dawn Rare
 
 Name:   Vedalken Æthermage
 Cost:   1U
@@ -574,7 +589,7 @@ Name:   Veil of Secrecy
 Cost:   1U
 Type:   Instant — Arcane
 Pow/Tgh:    
-Rules Text:     Target creature gains shroud until end of turn and is unblockable this turn.
+Rules Text:     Target creature gains shroud until end of turn and can't be blocked this turn.
 Splice onto Arcane—Return a blue creature you control to its owner's hand. (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 Set/Rarity:     Betrayers of Kamigawa Common
 
@@ -620,7 +635,7 @@ Cost:   3U
 Type:   Creature — Illusion
 Pow/Tgh:    (2/3)
 Rules Text:     Suspend 4—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
-When the last time counter is removed from Veiling Oddity while it's exiled, creatures are unblockable this turn.
+When the last time counter is removed from Veiling Oddity while it's exiled, creatures can't be blocked this turn.
 Set/Rarity:     Planar Chaos Common
 
 Name:   Veilstone Amulet
@@ -655,7 +670,7 @@ Pow/Tgh:    (4/4)
 Rules Text:     Intimidate
 Other creatures you control have intimidate.
 Whenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.
-Set/Rarity:     Planechase 2012 Edition Mythic Rare
+Set/Rarity:     Commander's Arsenal Mythic Rare, Planechase 2012 Edition Mythic Rare
 
 Name:   Veldrane of Sengir
 Cost:   5BB
@@ -685,7 +700,7 @@ Cost:   XUU
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-When Venarian Gold enters the battlefield, tap enchanted creature and put X sleep counters on it.
+When Venarian Gold enters the battlefield, tap enchanted creature and put a number of sleep counters on it equal to the value of X as you cast Venarian Gold.
 Enchanted creature doesn't untap during its controller's untap step if it has a sleep counter on it.
 At the beginning of the upkeep of enchanted creature's controller, remove a sleep counter from that creature.
 Set/Rarity:     Legends Common
@@ -704,7 +719,7 @@ Pow/Tgh:    (3/1)
 Rules Text:     Flash
 Flying
 When Vendilion Clique enters the battlefield, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of his or her library, then draws a card.
-Set/Rarity:     Morningtide Rare
+Set/Rarity:     Modern Masters Mythic Rare, Morningtide Rare
 
 Name:   Venerable Kumo
 Cost:   4G
@@ -810,7 +825,7 @@ Name:   Venomous Breath
 Cost:   3G
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Choose target creature. At end of combat, destroy all creatures that blocked or were blocked by it this turn.
+Rules Text:     Choose target creature. At this turn's next end of combat, destroy all creatures that blocked or were blocked by it this turn.
 Set/Rarity:     Mercadian Masques Uncommon, Ice Age Uncommon
 
 Name:   Venomous Dragonfly
@@ -879,7 +894,7 @@ Cost:   3WU
 Type:   Planeswalker — Venser
 Loyalty:    (3)
 Rules Text:     +2: Exile target permanent you own. Return it to the battlefield under your control at the beginning of the next end step.
--1: Creatures are unblockable this turn.
+-1: Creatures can't be blocked this turn.
 -8: You get an emblem with "Whenever you cast a spell, exile target permanent."
 Set/Rarity:     Duel Decks: Venser vs. Koth Mythic Rare, Scars of Mirrodin Mythic Rare
 
@@ -944,7 +959,7 @@ Pow/Tgh:
 Rules Text:     Enchant land
 When Verdant Haven enters the battlefield, you gain 2 life.
 Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).
-Set/Rarity:     Gatecrash Common
+Set/Rarity:     Magic 2014 Core Set Common, Gatecrash Common
 
 Name:   Verdant Succession
 Cost:   4G
@@ -968,7 +983,7 @@ Pow/Tgh:    (4/7)
 Rules Text:     Kicker {X} (You may pay an additional {X} as you cast this spell.)
 Saproling creatures and other Treefolk creatures get +1/+1.
 When Verdeloth the Ancient enters the battlefield, if it was kicked, put X 1/1 green Saproling creature tokens onto the battlefield.
-Set/Rarity:     Archenemy Rare, Time Spiral "Timeshifted" Special, Invasion Rare
+Set/Rarity:     Modern Masters Rare, Archenemy Rare, Time Spiral "Timeshifted" Special, Invasion Rare
 
 Name:   Verdigris
 Cost:   2G
@@ -1070,7 +1085,7 @@ Cost:   1W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     Other creatures you control get +0/+1.
-Set/Rarity:     Ravnica: City of Guilds Common
+Set/Rarity:     Modern Masters Common, Ravnica: City of Guilds Common
 
 Name:   Veteran Armorsmith
 Cost:   WW
@@ -1198,6 +1213,13 @@ Type:   Legendary Creature — Human Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     {T}: Target creature's power or toughness becomes 1 until end of turn.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Tempest Rare
+
+Name:   Vial of Poison
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {1}, Sacrifice Vial of Poison: Target creature gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Viashino Bey
 Cost:   2RR
@@ -1547,14 +1569,13 @@ Cost:   B
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Exile target creature card from a graveyard. Put a 2/2 black Zombie creature token onto the battlefield.
-Set/Rarity:     Magic 2013 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common
 
 Name:   Vile Requiem
 Cost:   2BB
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of your upkeep, you may put a verse counter on Vile Requiem.
-
 {1}{B}, Sacrifice Vile Requiem: Destroy up to X target nonblack creatures, where X is the number of verse counters on Vile Requiem. They can't be regenerated.
 Set/Rarity:     Urza's Saga Uncommon
 
@@ -2024,7 +2045,7 @@ Type:   Creature — Human Shaman
 Pow/Tgh:    (0/1)
 Rules Text:     {T}: Vithian Stinger deals 1 damage to target creature or player.
 Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Shards of Alara Common
 
 Name:   Vitu-Ghazi Guildmage
 Cost:   GW
@@ -2049,7 +2070,7 @@ Pow/Tgh:
 Rules Text:     Vivid Crag enters the battlefield tapped with two charge counters on it.
 {T}: Add {R} to your mana pool.
 {T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Magic: The Gathering-Commander Uncommon, Lorwyn Uncommon
 
 Name:   Vivid Creek
 Cost:   
@@ -2058,7 +2079,7 @@ Pow/Tgh:
 Rules Text:     Vivid Creek enters the battlefield tapped with two charge counters on it.
 {T}: Add {U} to your mana pool.
 {T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.
-Set/Rarity:     Planechase 2012 Edition Uncommon, Magic: The Gathering-Commander Uncommon, Premium Deck Series: Slivers Uncommon, Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Planechase 2012 Edition Uncommon, Magic: The Gathering-Commander Uncommon, Premium Deck Series: Slivers Uncommon, Lorwyn Uncommon
 
 Name:   Vivid Grove
 Cost:   
@@ -2067,7 +2088,7 @@ Pow/Tgh:
 Rules Text:     Vivid Grove enters the battlefield tapped with two charge counters on it.
 {T}: Add {G} to your mana pool.
 {T}, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Premium Deck Series: Slivers Uncommon, Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Magic: The Gathering-Commander Uncommon, Premium Deck Series: Slivers Uncommon, Lorwyn Uncommon
 
 Name:   Vivid Marsh
 Cost:   
@@ -2076,7 +2097,7 @@ Pow/Tgh:
 Rules Text:     Vivid Marsh enters the battlefield tapped with two charge counters on it.
 {T}: Add {B} to your mana pool.
 {T}, Remove a charge counter from Vivid Marsh: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Magic: The Gathering-Commander Uncommon, Lorwyn Uncommon
 
 Name:   Vivid Meadow
 Cost:   
@@ -2085,7 +2106,7 @@ Pow/Tgh:
 Rules Text:     Vivid Meadow enters the battlefield tapped with two charge counters on it.
 {T}: Add {W} to your mana pool.
 {T}, Remove a charge counter from Vivid Meadow: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Magic: The Gathering-Commander Uncommon, Lorwyn Uncommon
 
 Name:   Vivify
 Cost:   2G
@@ -2411,7 +2432,7 @@ Cost:   XRR
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Volcanic Geyser deals X damage to target creature or player.
-Set/Rarity:     Magic 2013 Uncommon, Classic Sixth Edition Uncommon, Mirage Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2013 Uncommon, Classic Sixth Edition Uncommon, Mirage Uncommon
 
 Name:   Volcanic Hammer
 Cost:   1R
@@ -2440,7 +2461,7 @@ Cost:   1R
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature gets +2/+2 and has mountainwalk. (It's unblockable as long as defending player controls a Mountain.)
+Enchanted creature gets +2/+2 and has mountainwalk. (It can't be blocked as long as defending player controls a Mountain.)
 Set/Rarity:     Magic 2013 Common, Magic 2011 Common
 
 Name:   Volcanic Submersion
@@ -2620,6 +2641,13 @@ Voracious Hatchling enters the battlefield with four -1/-1 counters on it.
 Whenever you cast a white spell, remove a -1/-1 counter from Voracious Hatchling.
 Whenever you cast a black spell, remove a -1/-1 counter from Voracious Hatchling.
 Set/Rarity:     Eventide Uncommon
+
+Name:   Voracious Wurm
+Cost:   1G
+Type:   Creature — Wurm
+Pow/Tgh:    (2/2)
+Rules Text:     Voracious Wurm enters the battlefield with X +1/+1 counters on it, where X is the amount of life you've gained this turn.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Vorapede
 Cost:   2GGG

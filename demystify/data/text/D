@@ -86,7 +86,7 @@ Pow/Tgh:
 Rules Text:     Dakmor Salvage enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Future Sight Uncommon
+Set/Rarity:     Modern Masters Uncommon, Duel Decks: Izzet vs. Golgari Uncommon, Future Sight Uncommon
 
 Name:   Dakmor Scorpion
 Cost:   1B
@@ -124,7 +124,7 @@ Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Target player puts the top four cards of his or her library into his or her graveyard.
 Splice onto Arcane {1}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
-Set/Rarity:     Champions of Kamigawa Uncommon
+Set/Rarity:     Modern Masters Common, Champions of Kamigawa Uncommon
 
 Name:   Damping Engine
 Cost:   4
@@ -281,7 +281,7 @@ Cost:   1B
 Type:   Creature — Human Wizard
 Pow/Tgh:    (2/1)
 Rules Text:     At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Modern Masters Mythic Rare, Ravnica: City of Guilds Rare
 
 Name:   Dark Depths
 Cost:   
@@ -289,7 +289,7 @@ Type:   Legendary Snow Land
 Pow/Tgh:    
 Rules Text:     Dark Depths enters the battlefield with ten ice counters on it.
 {3}: Remove an ice counter from Dark Depths.
-When Dark Depths has no ice counters on it, sacrifice it. If you do, put a legendary 20/20 black Avatar creature token with flying and "This creature is indestructible" named Marit Lage onto the battlefield.
+When Dark Depths has no ice counters on it, sacrifice it. If you do, put a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage onto the battlefield.
 Set/Rarity:     Coldsnap Rare
 
 Name:   Dark Favor
@@ -299,7 +299,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When Dark Favor enters the battlefield, you lose 1 life.
 Enchanted creature gets +3/+1.
-Set/Rarity:     Magic 2013 Common, Magic 2012 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Magic 2012 Common
 
 Name:   Dark Hatchling
 Cost:   4BB
@@ -347,6 +347,13 @@ Rules Text:     Enchant creature
 Enchanted creature gets +1/+1.
 Sacrifice a creature: Regenerate enchanted creature.
 Set/Rarity:     Visions Common
+
+Name:   Dark Prophecy
+Cost:   BBB
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a creature you control dies, you draw a card and lose 1 life.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Dark Revenant
 Cost:   3B
@@ -488,7 +495,7 @@ Name:   Darksteel Axe
 Cost:   1
 Type:   Artifact — Equipment
 Pow/Tgh:    
-Rules Text:     Darksteel Axe is indestructible. (Effects that say "destroy" don't destroy it.)
+Rules Text:     Indestructible (Effects that say "destroy" don't destroy this artifact.)
 Equipped creature gets +2/+0.
 Equip {2}
 Set/Rarity:     Scars of Mirrodin Uncommon
@@ -497,7 +504,7 @@ Name:   Darksteel Brute
 Cost:   2
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Darksteel Brute is indestructible. ("Destroy" effects and lethal damage don't destroy it.)
+Rules Text:     Indestructible (Damage and effects that say "destroy" don't destroy this artifact.)
 {3}: Darksteel Brute becomes a 2/2 Beast artifact creature until end of turn.
 Set/Rarity:     Darksteel Uncommon
 
@@ -505,7 +512,7 @@ Name:   Darksteel Citadel
 Cost:   
 Type:   Artifact Land
 Pow/Tgh:    
-Rules Text:     Darksteel Citadel is indestructible. ("Destroy" effects and lethal damage don't destroy it.)
+Rules Text:     Indestructible (Effects that say "destroy" don't destroy this permanent.)
 {T}: Add {1} to your mana pool.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Darksteel Common
 
@@ -513,8 +520,7 @@ Name:   Darksteel Colossus
 Cost:   11
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (11/11)
-Rules Text:     Trample
-Darksteel Colossus is indestructible.
+Rules Text:     Trample, indestructible
 If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead.
 Set/Rarity:     Magic 2010 Mythic Rare, Darksteel Rare
 
@@ -522,22 +528,22 @@ Name:   Darksteel Forge
 Cost:   9
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Artifacts you control are indestructible. ("Destroy" effects and lethal damage don't destroy them.)
-Set/Rarity:     Planechase Rare, Darksteel Rare
+Rules Text:     Artifacts you control have indestructible. (Effects that say "destroy" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage.)
+Set/Rarity:     Magic 2014 Core Set Mythic Rare, Planechase Rare, Darksteel Rare
 
 Name:   Darksteel Gargoyle
 Cost:   7
 Type:   Artifact Creature — Gargoyle
 Pow/Tgh:    (3/3)
 Rules Text:     Flying
-Darksteel Gargoyle is indestructible. ("Destroy" effects and lethal damage don't destroy it.)
+Indestructible (Damage and effects that say "destroy" don't destroy this creature.)
 Set/Rarity:     Darksteel Uncommon
 
 Name:   Darksteel Garrison
 Cost:   2
 Type:   Artifact — Fortification
 Pow/Tgh:    
-Rules Text:     Fortified land is indestructible.
+Rules Text:     Fortified land has indestructible.
 Whenever fortified land becomes tapped, target creature gets +1/+1 until end of turn.
 Fortify {3} ({3}: Attach to target land you control. Fortify only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the land leaves.)
 Set/Rarity:     Future Sight Rare
@@ -546,30 +552,31 @@ Name:   Darksteel Ingot
 Cost:   3
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Darksteel Ingot is indestructible. ("Destroy" effects and lethal damage don't destroy it.)
+Rules Text:     Indestructible (Effects that say "destroy" don't destroy this artifact.)
 {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Darksteel Common
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic: The Gathering-Commander Common, Darksteel Common
 
 Name:   Darksteel Juggernaut
 Cost:   5
 Type:   Artifact Creature — Juggernaut
 Pow/Tgh:    (*/*)
-Rules Text:     Darksteel Juggernaut's power and toughness are each equal to the number of artifacts you control.
-Darksteel Juggernaut is indestructible and attacks each turn if able.
+Rules Text:     Indestructible
+Darksteel Juggernaut's power and toughness are each equal to the number of artifacts you control.
+Darksteel Juggernaut attacks each turn if able.
 Set/Rarity:     Scars of Mirrodin Rare
 
 Name:   Darksteel Myr
 Cost:   3
 Type:   Artifact Creature — Myr
 Pow/Tgh:    (0/1)
-Rules Text:     Darksteel Myr is indestructible. (Lethal damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)
+Rules Text:     Indestructible (Damage and effects that say "destroy" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard.)
 Set/Rarity:     Scars of Mirrodin Uncommon
 
 Name:   Darksteel Pendant
 Cost:   2
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Darksteel Pendant is indestructible. ("Destroy" effects and lethal damage don't destroy it.)
+Rules Text:     Indestructible (Effects that say "destroy" don't destroy this artifact.)
 {1}, {T}: Look at the top card of your library. You may put that card on the bottom of your library.
 Set/Rarity:     Darksteel Common
 
@@ -577,8 +584,8 @@ Name:   Darksteel Plate
 Cost:   3
 Type:   Artifact — Equipment
 Pow/Tgh:    
-Rules Text:     Darksteel Plate is indestructible.
-Equipped creature is indestructible.
+Rules Text:     Indestructible
+Equipped creature has indestructible.
 Equip {2}
 Set/Rarity:     Mirrodin Besieged Rare
 
@@ -586,7 +593,7 @@ Name:   Darksteel Reactor
 Cost:   4
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Darksteel Reactor is indestructible. ("Destroy" effects and lethal damage don't destroy it.)
+Rules Text:     Indestructible (Effects that say "destroy" don't destroy this artifact.)
 At the beginning of your upkeep, you may put a charge counter on Darksteel Reactor.
 When Darksteel Reactor has twenty or more charge counters on it, you win the game.
 Set/Rarity:     Darksteel Rare
@@ -595,7 +602,7 @@ Name:   Darksteel Relic
 Cost:   0
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Darksteel Relic is indestructible. (Effects that say "destroy" don't destroy it.)
+Rules Text:     Indestructible (Effects that say "destroy" don't destroy this artifact.)
 Set/Rarity:     New Phyrexia Uncommon
 
 Name:   Darksteel Sentinel
@@ -604,7 +611,7 @@ Type:   Artifact Creature — Golem
 Pow/Tgh:    (3/3)
 Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
 Vigilance
-Darksteel Sentinel is indestructible. (Lethal damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)
+Indestructible (Damage and effects that say "destroy" don't destroy this creature. If its toughness is 0 or less, it's still put into its owner's graveyard.)
 Set/Rarity:     Scars of Mirrodin Uncommon
 
 Name:   Darkthicket Wolf
@@ -748,7 +755,7 @@ Name:   Dauntless Escort
 Cost:   1GW
 Type:   Creature — Rhino Soldier
 Pow/Tgh:    (3/3)
-Rules Text:     Sacrifice Dauntless Escort: Creatures you control are indestructible this turn.
+Rules Text:     Sacrifice Dauntless Escort: Creatures you control gain indestructible until end of turn.
 Set/Rarity:     Alara Reborn Rare
 
 Name:   Dauthi Cutthroat
@@ -914,6 +921,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {G}, {T}, Discard a card: Prevent all combat damage that would be dealt this turn.
 Set/Rarity:     Mercadian Masques Rare
 
+Name:   Dawnstrike Paladin
+Cost:   3WW
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/4)
+Rules Text:     Vigilance (Attacking doesn't cause this creature to tap.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Dawntreader Elk
 Cost:   1G
 Type:   Creature — Elk
@@ -973,7 +988,7 @@ Cost:   2W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Dazzling Beauty only during the declare blockers step.
-Target unblocked attacking creature becomes blocked. (This spell works on unblockable creatures.)
+Target unblocked attacking creature becomes blocked. (This spell works on creatures that can't be blocked.)
 Draw a card at the beginning of the next turn's upkeep.
 Set/Rarity:     Mirage Common
 
@@ -1094,7 +1109,7 @@ Type:   Creature — Spider
 Pow/Tgh:    (1/2)
 Rules Text:     Reach (This creature can block creatures with flying.)
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-Set/Rarity:     Magic 2013 Common, Magic: The Gathering-Commander Common, Magic 2010 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Magic: The Gathering-Commander Common, Magic 2010 Common
 
 Name:   Deadshot
 Cost:   3R
@@ -1154,7 +1169,7 @@ Cost:   XBBB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Each player loses X life, discards X cards, sacrifices X creatures, then sacrifices X lands.
-Set/Rarity:     Darksteel Rare
+Set/Rarity:     Modern Masters Rare, Darksteel Rare
 
 Name:   Death Cultist
 Cost:   B
@@ -1168,14 +1183,14 @@ Cost:   XBB
 Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Return X target creature cards from your graveyard to your hand.
-Set/Rarity:     Saviors of Kamigawa Common
+Set/Rarity:     Modern Masters Common, Saviors of Kamigawa Common
 
 Name:   Death Grasp
 Cost:   XWB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Death Grasp deals X damage to target creature or player. You gain X life.
-Set/Rarity:     Apocalypse Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Apocalypse Rare
 
 Name:   Death Match
 Cost:   3B
@@ -1219,9 +1234,9 @@ Name:   Death Rattle
 Cost:   5B
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Delve (You may exile any number of cards from your graveyard as you cast this spell. It costs {1} less to cast for each card exiled this way.)
+Rules Text:     Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Destroy target nongreen creature. It can't be regenerated.
-Set/Rarity:     Future Sight Common
+Set/Rarity:     Modern Masters Uncommon, Future Sight Common
 
 Name:   Death Spark
 Cost:   R
@@ -1403,6 +1418,14 @@ Rules Text:     Multikicker {R} (You may pay an additional {R} any number of tim
 When Deathforge Shaman enters the battlefield, it deals damage to target player equal to twice the number of times it was kicked.
 Set/Rarity:     Worldwake Uncommon
 
+Name:   Deathgaze Cockatrice
+Cost:   2BB
+Type:   Creature — Cockatrice
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Deathgazer
 Cost:   3B
 Type:   Creature — Lizard
@@ -1445,7 +1468,7 @@ Cost:   4WW
 Type:   Creature — Angel
 Pow/Tgh:    (5/7)
 Rules Text:     Flying
-{W}{W}: Target creature is indestructible this turn.
+{W}{W}: Target creature gains indestructible until end of turn.
 Set/Rarity:     Rise of the Eldrazi Rare
 
 Name:   Deathmark
@@ -1584,7 +1607,7 @@ Cost:   1B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Exile up to three target cards from a single graveyard.
-Set/Rarity:     Odyssey Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Odyssey Uncommon
 
 Name:   Decomposition
 Cost:   1G
@@ -1627,7 +1650,7 @@ Pow/Tgh:
 Rules Text:     Destroy all creatures. They can't be regenerated. Draw a card for each creature destroyed this way.
 Cycling {3}{B}{B} ({3}{B}{B}, Discard this card: Draw a card.)
 When you cycle Decree of Pain, all creatures get -2/-2 until end of turn.
-Set/Rarity:     Scourge Rare
+Set/Rarity:     Commander's Arsenal Rare, Scourge Rare
 
 Name:   Decree of Savagery
 Cost:   7GG
@@ -1698,7 +1721,7 @@ Name:   Deep-Sea Kraken
 Cost:   7UUU
 Type:   Creature — Kraken
 Pow/Tgh:    (6/6)
-Rules Text:     Deep-Sea Kraken is unblockable.
+Rules Text:     Deep-Sea Kraken can't be blocked.
 Suspend 9—{2}{U} (Rather than cast this card from your hand, you may pay {2}{U} and exile it with nine time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 Whenever an opponent casts a spell, if Deep-Sea Kraken is suspended, remove a time counter from it.
 Set/Rarity:     Time Spiral Rare
@@ -1725,13 +1748,13 @@ Type:   Creature — Imp Rebel
 Pow/Tgh:    (2/2)
 Rules Text:     Flying, haste
 Echo—Discard a card. (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-Set/Rarity:     Future Sight Common
+Set/Rarity:     Modern Masters Common, Future Sight Common
 
 Name:   Deepchannel Mentor
 Cost:   5U
 Type:   Creature — Merfolk Rogue
 Pow/Tgh:    (2/2)
-Rules Text:     Blue creatures you control are unblockable.
+Rules Text:     Blue creatures you control can't be blocked.
 Set/Rarity:     Shadowmoor Uncommon
 
 Name:   Deepfire Elemental
@@ -2103,14 +2126,14 @@ Type:   Creature — Spirit Avatar
 Pow/Tgh:    (5/4)
 Rules Text:     Flying, haste
 When you cast Demigod of Revenge, return all cards named Demigod of Revenge from your graveyard to the battlefield.
-Set/Rarity:     Shadowmoor Rare
+Set/Rarity:     Modern Masters Rare, Shadowmoor Rare
 
 Name:   Demolish
 Cost:   3R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy target artifact or land.
-Set/Rarity:     Avacyn Restored Common, Magic 2011 Common, Zendikar Common, Tenth Edition Common, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
+Set/Rarity:     Magic 2014 Core Set Common, Avacyn Restored Common, Magic 2011 Common, Zendikar Common, Tenth Edition Common, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
 
 Name:   Demon of Death's Gate
 Cost:   6BBB
@@ -2476,7 +2499,7 @@ Cost:   3UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.
-Set/Rarity:     Classic Sixth Edition Rare, Visions Rare
+Set/Rarity:     Commander's Arsenal Rare, Classic Sixth Edition Rare, Visions Rare
 
 Name:   Desolate Lighthouse
 Cost:   
@@ -2545,7 +2568,7 @@ Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Add {R}{R}{R} to your mana pool.
 Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
-Set/Rarity:     Champions of Kamigawa Common
+Set/Rarity:     Modern Masters Uncommon, Champions of Kamigawa Common
 
 Name:   Despise
 Cost:   B
@@ -2699,7 +2722,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Devil's Play deals X damage to target creature or player.
 Flashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Innistrad Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Innistrad Rare
 
 Name:   Devoted Caretaker
 Cost:   W
@@ -2763,7 +2786,7 @@ Name:   Devouring Light
 Cost:   1WW
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Exile target attacking or blocking creature.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
@@ -2805,6 +2828,13 @@ Type:   Creature — Human
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Destroy target Aura attached to a creature.
 Set/Rarity:     Urza's Legacy Common
+
+Name:   Devout Invocation
+Cost:   6W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Tap any number of untapped creatures you control. Put a 4/4 white Angel creature token with flying onto the battlefield for each creature tapped this way.
+Set/Rarity:     Magic 2014 Core Set Mythic Rare
 
 Name:   Devout Lightcaster
 Cost:   WWW
@@ -2880,7 +2910,7 @@ Cost:   2BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for a card and put that card into your hand. Then shuffle your library.
-Set/Rarity:     Magic 2012 Uncommon, Magic: The Gathering-Commander Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2012 Uncommon, Magic: The Gathering-Commander Uncommon, Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Odyssey Uncommon
 
 Name:   Diabolic Vision
 Cost:   UB
@@ -2917,7 +2947,7 @@ Cost:   3R
 Type:   Legendary Creature — Human Advisor
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Destroy target creature of your choice, then destroy target creature of an opponent's choice. Activate this ability only during your turn, before attackers are declared.
-Set/Rarity:     Portal Three Kingdoms Rare
+Set/Rarity:     Commander's Arsenal Rare, Portal Three Kingdoms Rare
 
 Name:   Dichotomancy
 Cost:   7UU
@@ -3039,7 +3069,7 @@ Name:   Dimir Infiltrator
 Cost:   UB
 Type:   Creature — Spirit
 Pow/Tgh:    (1/3)
-Rules Text:     Dimir Infiltrator is unblockable.
+Rules Text:     Dimir Infiltrator can't be blocked.
 Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 Set/Rarity:     Planechase 2012 Edition Common, Ravnica: City of Guilds Common
 
@@ -3048,7 +3078,7 @@ Cost:   3
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {T}: Add {U} or {B} to your mana pool.
-{U}{B}: Dimir Keyrune becomes a 2/2 blue and black Horror artifact creature until end of turn and is unblockable this turn.
+{U}{B}: Dimir Keyrune becomes a 2/2 blue and black Horror artifact creature until end of turn and can't be blocked this turn.
 Set/Rarity:     Gatecrash Uncommon
 
 Name:   Dimir Machinations
@@ -3399,6 +3429,13 @@ Rules Text:     Counter target spell.
 Draw a card.
 Set/Rarity:     Tempest Uncommon
 
+Name:   Dismiss into Dream
+Cost:   6U
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Each creature your opponents control is an Illusion in addition to its other types and has "When this creature becomes the target of a spell or ability, sacrifice it."
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Disorder
 Cost:   1R
 Type:   Sorcery
@@ -3433,7 +3470,7 @@ Cost:   W
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {2}{W}, {T}, Sacrifice Dispeller's Capsule: Destroy target artifact or enchantment.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Modern Masters Common, Shards of Alara Common
 
 Name:   Dispense Justice
 Cost:   2W
@@ -3455,7 +3492,7 @@ Cost:   1U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return target nonland permanent to its owner's hand.
-Set/Rarity:     Scars of Mirrodin Common, Morningtide Common
+Set/Rarity:     Magic 2014 Core Set Common, Scars of Mirrodin Common, Morningtide Common
 
 Name:   Dispersing Orb
 Cost:   3UU
@@ -3557,7 +3594,7 @@ Name:   Distortion Strike
 Cost:   U
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Target creature gets +1/+0 until end of turn and is unblockable this turn.
+Rules Text:     Target creature gets +1/+0 until end of turn and can't be blocked this turn.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 Set/Rarity:     Rise of the Eldrazi Common
 
@@ -3626,7 +3663,7 @@ Cost:   2U
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Draw two cards.
-Set/Rarity:     Magic 2013 Common, Dark Ascension Common, Magic 2012 Common, Magic 2010 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Dark Ascension Common, Magic 2012 Common, Magic 2010 Common
 
 Name:   Divine Congregation
 Cost:   3W
@@ -3650,7 +3687,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When Divine Favor enters the battlefield, you gain 3 life.
 Enchanted creature gets +1/+3.
-Set/Rarity:     Magic 2013 Common, Magic 2012 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Magic 2012 Common
 
 Name:   Divine Intervention
 Cost:   6WW
@@ -3749,7 +3786,7 @@ Type:   Creature — Spirit Avatar
 Pow/Tgh:    (4/4)
 Rules Text:     Flying, lifelink
 Divinity of Pride gets +4/+4 as long as you have 25 or more life.
-Set/Rarity:     Eventide Rare
+Set/Rarity:     Modern Masters Rare, Eventide Rare
 
 Name:   Dizzy Spell
 Cost:   U
@@ -3834,7 +3871,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 You control enchanted creature.
 At the beginning of your end step, if enchanted creature's power is 4 or greater, sacrifice Domestication.
-Set/Rarity:     Rise of the Eldrazi Uncommon
+Set/Rarity:     Magic 2014 Core Set Rare, Rise of the Eldrazi Uncommon
 
 Name:   Dominaria's Judgment
 Cost:   2W
@@ -3902,7 +3939,7 @@ Cost:   1B
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target nonblack creature.
-Set/Rarity:     Magic 2012 Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2012 Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Doom Cannon
 Cost:   6
@@ -3924,7 +3961,7 @@ Cost:   W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (1/1)
 Rules Text:     When Doomed Traveler dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Innistrad Common
 
 Name:   Doomgape
 Cost:   4(B/G)(B/G)(B/G)
@@ -3957,7 +3994,7 @@ Pow/Tgh:
 Rules Text:     As Door of Destinies enters the battlefield, choose a creature type.
 Whenever you cast a spell of the chosen type, put a charge counter on Door of Destinies.
 Creatures you control of the chosen type get +1/+1 for each charge counter on Door of Destinies.
-Set/Rarity:     Morningtide Rare
+Set/Rarity:     Magic 2014 Core Set Rare, Morningtide Rare
 
 Name:   Door to Nothingness
 Cost:   5
@@ -4058,7 +4095,7 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     If an effect would put one or more tokens onto the battlefield under your control, it puts twice that many of those tokens onto the battlefield instead.
 If an effect would place one or more counters on a permanent you control, it places twice that many of those counters on that permanent instead.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Modern Masters Rare, Ravnica: City of Guilds Rare
 
 Name:   Doubtless One
 Cost:   3W
@@ -4183,7 +4220,7 @@ Cost:   2B
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Domain — Target creature gets -1/-1 until end of turn for each basic land type among lands you control.
-Set/Rarity:     Conflux Common
+Set/Rarity:     Modern Masters Common, Conflux Common
 
 Name:   Dragon Appeasement
 Cost:   3BRG
@@ -4225,6 +4262,14 @@ Rules Text:     Flying
 At the beginning of each upkeep, put a 1/1 red and green Dragon creature token with flying and devour 2 onto the battlefield. (As the token enters the battlefield, you may sacrifice any number of creatures. It enters the battlefield with twice that many +1/+1 counters on it.)
 Set/Rarity:     Alara Reborn Mythic Rare
 
+Name:   Dragon Egg
+Cost:   2R
+Type:   Creature — Dragon
+Pow/Tgh:    (0/2)
+Rules Text:     Defender (This creature can't attack.)
+When Dragon Egg dies, put a 2/2 red Dragon creature token with flying onto the battlefield. It has "{R}: This creature gets +1/+0 until end of turn."
+Set/Rarity:     Magic 2014 Core Set Uncommon
+
 Name:   Dragon Engine
 Cost:   3
 Type:   Artifact Creature — Construct
@@ -4254,7 +4299,7 @@ Type:   Creature — Dragon
 Pow/Tgh:    (0/1)
 Rules Text:     Flying
 {R}: Dragon Hatchling gets +1/+0 until end of turn.
-Set/Rarity:     Magic 2013 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common
 
 Name:   Dragon Mage
 Cost:   5RR
@@ -4344,7 +4389,7 @@ Type:   Creature — Spider
 Pow/Tgh:    (5/6)
 Rules Text:     Reach
 Whenever an opponent casts a spell, put a 1/1 green Insect creature token onto the battlefield.
-Set/Rarity:     Planechase 2012 Edition Rare
+Set/Rarity:     Commander's Arsenal Rare, Planechase 2012 Edition Rare
 
 Name:   Dragonmaster Outcast
 Cost:   R
@@ -4397,7 +4442,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Search your library for a Dragon permanent card and put it onto the battlefield. Then shuffle your library.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)
-Set/Rarity:     From the Vault: Dragons Rare, Time Spiral "Timeshifted" Special, Scourge Rare
+Set/Rarity:     Modern Masters Rare, From the Vault: Dragons Rare, Time Spiral "Timeshifted" Special, Scourge Rare
 
 Name:   Drain Life
 Cost:   X1B
@@ -4549,7 +4594,7 @@ Name:   Dread Charge
 Cost:   3B
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Until end of turn, black creatures you control can be blocked only by black creatures.
+Rules Text:     Black creatures you control can't be blocked this turn except by black creatures.
 Set/Rarity:     Portal Rare
 
 Name:   Dread Drone
@@ -4713,7 +4758,7 @@ Name:   Dream Prowler
 Cost:   2UU
 Type:   Creature — Illusion
 Pow/Tgh:    (1/5)
-Rules Text:     Dream Prowler is unblockable as long as it's attacking alone.
+Rules Text:     Dream Prowler can't be blocked as long as it's attacking alone.
 Set/Rarity:     Ninth Edition Uncommon, Stronghold Common
 
 Name:   Dream Salvage
@@ -4811,7 +4856,7 @@ Type:   Creature — Faerie Wizard
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
 Whenever you cast a spell during an opponent's turn, you may have target creature get -1/-1 until end of turn.
-Set/Rarity:     Lorwyn Common
+Set/Rarity:     Modern Masters Common, Lorwyn Common
 
 Name:   Dreamstone Hedron
 Cost:   6
@@ -5302,7 +5347,7 @@ Cost:   G
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature has forestwalk. (It's unblockable as long as defending player controls a Forest.)
+Enchanted creature has forestwalk. (It can't be blocked as long as defending player controls a Forest.)
 Set/Rarity:     Magic 2011 Common
 
 Name:   Dual Casting
@@ -5419,8 +5464,8 @@ Cost:   6
 Type:   Artifact Creature — Shapeshifter
 Pow/Tgh:    (2/4)
 Rules Text:     Imprint — When Duplicant enters the battlefield, you may exile target nontoken creature.
-As long as the exiled card is a creature card, Duplicant has that card's power, toughness, and creature types. It's still a Shapeshifter.
-Set/Rarity:     Archenemy Rare, Mirrodin Rare
+As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.
+Set/Rarity:     Commander's Arsenal Rare, Archenemy Rare, Mirrodin Rare
 
 Name:   Duplicity
 Cost:   3UU
@@ -5437,14 +5482,14 @@ Cost:   B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.
-Set/Rarity:     Magic 2013 Common, Premium Deck Series: Graveborn Common, Magic 2011 Common, Magic 2010 Common, Duel Decks: Divine vs. Demonic Common, Seventh Edition Common, Urza's Saga Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Premium Deck Series: Graveborn Common, Magic 2011 Common, Magic 2010 Common, Duel Decks: Divine vs. Demonic Common, Seventh Edition Common, Urza's Saga Common
 
 Name:   Durkwood Baloth
 Cost:   4GG
 Type:   Creature — Beast
 Pow/Tgh:    (5/5)
 Rules Text:     Suspend 5—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   Durkwood Boars
 Cost:   4G
@@ -5488,7 +5533,7 @@ Type:   Creature — Bat
 Pow/Tgh:    (1/1)
 Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
 Flying
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Magic 2012 Common
 
 Name:   Duskmantle Guildmage
 Cost:   UB
@@ -5708,7 +5753,7 @@ Name:   Dwarven Nomad
 Cost:   2R
 Type:   Creature — Dwarf Nomad
 Pow/Tgh:    (1/1)
-Rules Text:     {T}: Target creature with power 2 or less is unblockable this turn.
+Rules Text:     {T}: Target creature with power 2 or less can't be blocked this turn.
 Set/Rarity:     Mirage Common
 
 Name:   Dwarven Patrol
@@ -5809,7 +5854,7 @@ Name:   Dwarven Warriors
 Cost:   2R
 Type:   Creature — Dwarf Warrior
 Pow/Tgh:    (1/1)
-Rules Text:     {T}: Target creature with power 2 or less is unblockable this turn.
+Rules Text:     {T}: Target creature with power 2 or less can't be blocked this turn.
 Set/Rarity:     Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Dwarven Weaponsmith

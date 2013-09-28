@@ -49,7 +49,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Add {W} or {B} to your mana pool. Activate this ability only if you control a Swamp.
-Set/Rarity:     Torment Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Torment Uncommon
 
 Name:   Tainted Isle
 Cost:   
@@ -131,8 +131,8 @@ Name:   Tajic, Blade of the Legion
 Cost:   2RW
 Type:   Legendary Creature — Human Soldier
 Pow/Tgh:    (2/2)
-Rules Text:     Tajic, Blade of the Legion is indestructible.
-Battalion — Whenever Tajic and at least two other creatures attack, Tajic gets +5/+5 until end of turn.
+Rules Text:     Indestructible
+Battalion — Whenever Tajic, Blade of the Legion and at least two other creatures attack, Tajic gets +5/+5 until end of turn.
 Set/Rarity:     Dragon's Maze Rare
 
 Name:   Tajuru Archer
@@ -156,7 +156,7 @@ Pow/Tgh:
 Rules Text:     Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 Enchant permanent
 You control enchanted permanent.
-Set/Rarity:     Future Sight Rare
+Set/Rarity:     Modern Masters Uncommon, Future Sight Rare
 
 Name:   Takeno's Cavalry
 Cost:   3W
@@ -245,7 +245,7 @@ Name:   Talas Warrior
 Cost:   1UU
 Type:   Creature — Human Pirate Warrior
 Pow/Tgh:    (2/2)
-Rules Text:     Talas Warrior is unblockable.
+Rules Text:     Talas Warrior can't be blocked.
 Set/Rarity:     Portal Second Age Rare
 
 Name:   Talisman of Dominance
@@ -495,7 +495,7 @@ Name:   Tanglewalker
 Cost:   2G
 Type:   Creature — Dryad
 Pow/Tgh:    (2/2)
-Rules Text:     Each creature you control is unblockable as long as defending player controls an artifact land.
+Rules Text:     Each creature you control can't be blocked as long as defending player controls an artifact land.
 Set/Rarity:     Darksteel Uncommon
 
 Name:   Taniwha
@@ -541,7 +541,7 @@ Cost:   3R
 Type:   Creature — Goblin Shaman
 Pow/Tgh:    (2/2)
 Rules Text:     {T}, Sacrifice a Goblin: Tar Pitcher deals 2 damage to target creature or player.
-Set/Rarity:     Duel Decks: Elves vs. Goblins Uncommon, Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Duel Decks: Elves vs. Goblins Uncommon, Lorwyn Uncommon
 
 Name:   Tarfire
 Cost:   R
@@ -569,8 +569,8 @@ Name:   Tarmogoyf
 Cost:   1G
 Type:   Creature — Lhurgoyf
 Pow/Tgh:    (*/1+*)
-Rules Text:     Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)
-Set/Rarity:     Future Sight Rare
+Rules Text:     Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.
+Set/Rarity:     Modern Masters Mythic Rare, Future Sight Rare
 
 Name:   Tarnished Citadel
 Cost:   
@@ -732,14 +732,14 @@ Cost:   4
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     You may choose not to untap Tawnos's Coffin during your untap step.
-{3}, {T}: Exile target creature and all Auras attached to it. Note the number and kind of counters that were on that creature. When Tawnos's Coffin leaves the battlefield or becomes untapped, return the exiled card to the battlefield under its owner's control tapped with the noted number and kind of counters on it, and if you do, return the exiled Aura cards to the battlefield under their owner's control attached to that permanent.
+{3}, {T}: Exile target creature and all Auras attached to it. Note the number and kind of counters that were on that creature. When Tawnos's Coffin leaves the battlefield or becomes untapped, return that exiled card to the battlefield under its owner's control tapped with the noted number and kind of counters on it. If you do, return the other exiled cards to the battlefield under their owner's control attached to that permanent.
 Set/Rarity:     Masters Edition Rare, Antiquities Rare
 
 Name:   Tawnos's Wand
 Cost:   4
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {2}, {T}: Target creature with power 2 or less is unblockable this turn.
+Rules Text:     {2}, {T}: Target creature with power 2 or less can't be blocked this turn.
 Set/Rarity:     Masters Edition IV Common, Fourth Edition Uncommon, Antiquities Uncommon
 
 Name:   Tawnos's Weaponry
@@ -1044,14 +1044,14 @@ Cost:   UUU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Teleport only during the declare attackers step.
-Target creature is unblockable this turn.
+Target creature can't be blocked this turn.
 Set/Rarity:     Chronicles Rare, Legends Rare
 
 Name:   Teleportal
 Cost:   UR
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Target creature you control gets +1/+0 until end of turn and is unblockable this turn.
+Rules Text:     Target creature you control gets +1/+0 until end of turn and can't be blocked this turn.
 Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
 Set/Rarity:     Return to Ravnica Uncommon
 
@@ -1208,7 +1208,7 @@ Cost:   3UU
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a creature or land becomes tapped, put an hourglass counter on it.
-Permanents with hourglass counters on them don't untap during their controllers' untap steps.
+Each permanent with an hourglass counter on it doesn't untap during its controller's untap step.
 At the beginning of each player's upkeep, remove all hourglass counters from permanents that player controls.
 Set/Rarity:     Invasion Rare
 
@@ -1296,6 +1296,13 @@ Pow/Tgh:    (5/5)
 Rules Text:     When Tempting Wurm enters the battlefield, each opponent may put any number of artifact, creature, enchantment, and/or land cards from his or her hand onto the battlefield.
 Set/Rarity:     Onslaught Rare
 
+Name:   Tenacious Dead
+Cost:   B
+Type:   Creature — Skeleton Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner's control.
+Set/Rarity:     Magic 2014 Core Set Uncommon
+
 Name:   Tendo Ice Bridge
 Cost:   
 Type:   Land
@@ -1372,7 +1379,7 @@ Cost:   2W
 Type:   Sorcery — Arcane
 Pow/Tgh:    
 Rules Text:     Destroy target artifact or enchantment. You gain life equal to its converted mana cost.
-Set/Rarity:     Betrayers of Kamigawa Common
+Set/Rarity:     Modern Masters Uncommon, Betrayers of Kamigawa Common
 
 Name:   Terashi's Verdict
 Cost:   1W
@@ -1408,7 +1415,7 @@ Cost:   BR
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target creature. It can't be regenerated.
-Set/Rarity:     Magic: The Gathering-Commander Common, Archenemy Common, Alara Reborn Common, Planeshift Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Magic: The Gathering-Commander Common, Archenemy Common, Alara Reborn Common, Planeshift Common
 
 Name:   Terminus
 Cost:   4WW
@@ -1437,7 +1444,7 @@ Name:   Terra Eternal
 Cost:   2W
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     All lands are indestructible.
+Rules Text:     All lands have indestructible.
 Set/Rarity:     Worldwake Rare
 
 Name:   Terra Stomper
@@ -1468,7 +1475,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Planechase 2012 Edition Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Archenemy Common, Duel Decks: Phyrexia vs. the Coalition Common, Premium Deck Series: Slivers Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Time Spiral Common
+Set/Rarity:     Modern Masters Common, Planechase 2012 Edition Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Magic 2011 Common, Archenemy Common, Duel Decks: Phyrexia vs. the Coalition Common, Premium Deck Series: Slivers Common, Planechase Common, Magic 2010 Common, Tenth Edition Common, Time Spiral Common
 
 Name:   Terrarion
 Cost:   1
@@ -1545,7 +1552,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Prevent the next 3 damage that would be dealt to target creature this turn, and put a +1/+1 counter on that creature for each 1 damage prevented this way.
-Set/Rarity:     Duel Decks: Knights vs. Dragons Uncommon, Darksteel Uncommon
+Set/Rarity:     Modern Masters Common, Duel Decks: Knights vs. Dragons Uncommon, Darksteel Uncommon
 
 Name:   Testament of Faith
 Cost:   W
@@ -1716,7 +1723,7 @@ Type:   Creature — Fungus
 Pow/Tgh:    (1/1)
 Rules Text:     At the beginning of your upkeep, put a spore counter on Thallid.
 Remove three spore counters from Thallid: Put a 1/1 green Saproling creature token onto the battlefield.
-Set/Rarity:     Masters Edition II Common, Time Spiral "Timeshifted" Special, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+Set/Rarity:     Modern Masters Common, Masters Edition II Common, Time Spiral "Timeshifted" Special, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
 
 Name:   Thallid Devourer
 Cost:   1GG
@@ -1734,7 +1741,7 @@ Pow/Tgh:    (2/2)
 Rules Text:     At the beginning of your upkeep, put a spore counter on Thallid Germinator.
 Remove three spore counters from Thallid Germinator: Put a 1/1 green Saproling creature token onto the battlefield.
 Sacrifice a Saproling: Target creature gets +1/+1 until end of turn.
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   Thallid Shell-Dweller
 Cost:   1G
@@ -1743,14 +1750,14 @@ Pow/Tgh:    (0/5)
 Rules Text:     Defender
 At the beginning of your upkeep, put a spore counter on Thallid Shell-Dweller.
 Remove three spore counters from Thallid Shell-Dweller: Put a 1/1 green Saproling creature token onto the battlefield.
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   That Which Was Taken
 Cost:   5
 Type:   Legendary Artifact
 Pow/Tgh:    
 Rules Text:     {4}, {T}: Put a divinity counter on target permanent other than That Which Was Taken.
-Each permanent with a divinity counter on it is indestructible.
+Each permanent with a divinity counter on it has indestructible.
 Set/Rarity:     Betrayers of Kamigawa Rare
 
 Name:   Thatcher Revolt
@@ -1818,7 +1825,7 @@ Cost:   2GUB
 Type:   Legendary Creature — Ooze
 Pow/Tgh:    (0/0)
 Rules Text:     As The Mimeoplasm enters the battlefield, you may exile two creature cards from graveyards. If you do, it enters the battlefield as a copy of one of those cards with a number of additional +1/+1 counters on it equal to the power of the other card.
-Set/Rarity:     Magic: The Gathering-Commander Mythic Rare
+Set/Rarity:     Commander's Arsenal Mythic Rare, Magic: The Gathering-Commander Mythic Rare
 
 Name:   The Rack
 Cost:   1
@@ -2017,7 +2024,7 @@ Type:   Creature — Faerie Rogue
 Pow/Tgh:    (1/1)
 Rules Text:     Flying
 When Thieving Sprite enters the battlefield, target player reveals X cards from his or her hand, where X is the number of Faeries you control. You choose one of those cards. That player discards that card.
-Set/Rarity:     Lorwyn Common
+Set/Rarity:     Modern Masters Common, Lorwyn Common
 
 Name:   Thing from the Deep
 Cost:   6UUU
@@ -2139,13 +2146,20 @@ Whenever a Shaman creature enters the battlefield, you may attach Thornbite Staf
 Equip {4}
 Set/Rarity:     Morningtide Uncommon
 
+Name:   Thorncaster Sliver
+Cost:   4R
+Type:   Creature — Sliver
+Pow/Tgh:    (2/2)
+Rules Text:     Sliver creatures you control have "Whenever this creature attacks, it deals 1 damage to target creature or player."
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Thornling
 Cost:   3GG
 Type:   Creature — Elemental Shapeshifter
 Pow/Tgh:    (4/4)
 Rules Text:     {G}: Thornling gains haste until end of turn.
 {G}: Thornling gains trample until end of turn.
-{G}: Thornling is indestructible this turn.
+{G}: Thornling gains indestructible until end of turn.
 {1}: Thornling gets +1/-1 until end of turn.
 {1}: Thornling gets -1/+1 until end of turn.
 Set/Rarity:     Conflux Mythic Rare
@@ -2775,7 +2789,7 @@ Cost:   1R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +2/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.)
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2011 Common
 
 Name:   Thunder Totem
 Cost:   3
@@ -2855,7 +2869,7 @@ Cost:   3RR
 Type:   Creature — Giant Shaman
 Pow/Tgh:    (4/4)
 Rules Text:     When Thundercloud Shaman enters the battlefield, it deals damage equal to the number of Giants you control to each non-Giant creature.
-Set/Rarity:     Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Lorwyn Uncommon
 
 Name:   Thunderheads
 Cost:   2U
@@ -2869,8 +2883,8 @@ Name:   Thundering Giant
 Cost:   3RR
 Type:   Creature — Giant
 Pow/Tgh:    (4/3)
-Rules Text:     Haste (This creature can attack and {T} as soon as it comes under your control.)
-Set/Rarity:     Tenth Edition Uncommon, Beatdown Box Set Uncommon, Urza's Saga Uncommon
+Rules Text:     Haste
+Set/Rarity:     Modern Masters Common, Tenth Edition Uncommon, Beatdown Box Set Uncommon, Urza's Saga Uncommon
 
 Name:   Thundering Tanadon
 Cost:   4(G/P)(G/P)
@@ -2976,7 +2990,7 @@ Loyalty:    (2)
 Rules Text:     +1: Draw a card, then discard a card at random.
 -4: Tibalt, the Fiend-Blooded deals damage equal to the number of cards in target player's hand to that player.
 -6: Gain control of all creatures until end of turn. Untap them. They gain haste until end of turn.
-Set/Rarity:     Avacyn Restored Mythic Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Mythic Rare, Avacyn Restored Mythic Rare
 
 Name:   Tibor and Lumia
 Cost:   2UR
@@ -3041,7 +3055,7 @@ Name:   Tidal Kraken
 Cost:   5UUU
 Type:   Creature — Kraken
 Pow/Tgh:    (6/6)
-Rules Text:     Tidal Kraken is unblockable.
+Rules Text:     Tidal Kraken can't be blocked.
 Set/Rarity:     Ninth Edition Rare, Eighth Edition Rare, Mercadian Masques Rare
 
 Name:   Tidal Surge
@@ -3079,6 +3093,13 @@ Pow/Tgh:
 Rules Text:     Whenever one or more creatures block, flip a coin. If you win the flip, each blocking creature is sacrificed by its controller. If you lose the flip, each blocked creature is sacrificed by its controller.
 Set/Rarity:     Champions of Kamigawa Rare
 
+Name:   Tidebinder Mage
+Cost:   UU
+Type:   Creature — Merfolk Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     When Tidebinder Mage enters the battlefield, tap target red or green creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Tidebinder Mage.
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Tideforce Elemental
 Cost:   2U
 Type:   Creature — Elemental
@@ -3093,7 +3114,7 @@ Type:   Artifact Creature — Zombie
 Pow/Tgh:    (2/2)
 Rules Text:     When Tidehollow Sculler enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card.
 When Tidehollow Sculler leaves the battlefield, return the exiled card to its owner's hand.
-Set/Rarity:     Shards of Alara Uncommon
+Set/Rarity:     Modern Masters Uncommon, Shards of Alara Uncommon
 
 Name:   Tidehollow Strix
 Cost:   UB
@@ -3171,7 +3192,7 @@ Cost:   4G
 Type:   Creature — Treefolk Warrior
 Pow/Tgh:    (4/6)
 Rules Text:     Other Treefolk creatures you control get +1/+1.
-Other Treefolk and Forests you control are indestructible.
+Other Treefolk and Forests you control have indestructible.
 Set/Rarity:     Lorwyn Rare
 
 Name:   Timber Wolves
@@ -3249,7 +3270,7 @@ Cost:   2U
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put target creature on top of its owner's library.
-Set/Rarity:     Ninth Edition Common, Starter 2000 Common, Starter 1999 Common, Portal Second Age Common, Tempest Common, Portal Common
+Set/Rarity:     Magic 2014 Core Set Common, Ninth Edition Common, Starter 2000 Common, Starter 1999 Common, Portal Second Age Common, Tempest Common, Portal Common
 
 Name:   Time Elemental
 Cost:   2U
@@ -3709,8 +3730,8 @@ Cost:   6BB
 Type:   Creature — Demon
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-Delve (You may exile any number of cards from your graveyard as you cast this spell. It costs {1} less to cast for each card exiled this way.)
-Set/Rarity:     Future Sight Rare
+Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Set/Rarity:     Modern Masters Rare, Future Sight Rare
 
 Name:   Tombstone Stairwell
 Cost:   2BB
@@ -3726,7 +3747,7 @@ Cost:   U
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player puts the top five cards of his or her library into his or her graveyard.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Tomorrow, Azami's Familiar
 Cost:   5U
@@ -3755,7 +3776,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Choose one — Search your library for up to two creature cards, reveal them, put them into your hand, then shuffle your library; or put up to two creature cards from your hand onto the battlefield.
 Entwine {2} (Choose both if you pay the entwine cost.)
-Set/Rarity:     Mirrodin Rare
+Set/Rarity:     Modern Masters Rare, Mirrodin Rare
 
 Name:   Tooth of Chiss-Goria
 Cost:   3
@@ -3879,7 +3900,7 @@ Name:   Tormented Soul
 Cost:   B
 Type:   Creature — Spirit
 Pow/Tgh:    (1/1)
-Rules Text:     Tormented Soul can't block and is unblockable.
+Rules Text:     Tormented Soul can't block and can't be blocked.
 Set/Rarity:     Magic 2013 Common, Planechase 2012 Edition Common, Magic 2012 Common
 
 Name:   Tormentor Exarch
@@ -3964,7 +3985,7 @@ Cost:   4(B/R)
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast Torrent of Souls. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast Torrent of Souls. (Do both if {B}{R} was spent.)
-Set/Rarity:     Archenemy Uncommon, Shadowmoor Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Archenemy Uncommon, Shadowmoor Uncommon
 
 Name:   Torrent of Stone
 Cost:   3R
@@ -3972,7 +3993,7 @@ Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Torrent of Stone deals 4 damage to target creature.
 Splice onto Arcane—Sacrifice two Mountains. (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
-Set/Rarity:     Betrayers of Kamigawa Common
+Set/Rarity:     Modern Masters Common, Betrayers of Kamigawa Common
 
 Name:   Torsten Von Ursus
 Cost:   3GGW
@@ -4075,8 +4096,7 @@ Name:   Touch of Invisibility
 Cost:   3U
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Target creature is unblockable this turn.
-
+Rules Text:     Target creature can't be blocked this turn.
 Draw a card.
 Set/Rarity:     Odyssey Common
 
@@ -4214,7 +4234,6 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
-
 {1}, {T}: Target creature gains protection from artifacts until end of turn.
 Set/Rarity:     Mercadian Masques Rare
 
@@ -4346,7 +4365,7 @@ Rules Text:     {1}, {T}, Discard a card: You gain 4 life.
 {1}, {T}, Pay 1 life: Put a 0/1 white Goat creature token onto the battlefield.
 {1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand.
 {1}, {T}, Sacrifice an artifact: Draw a card.
-Set/Rarity:     Magic 2013 Rare
+Set/Rarity:     Magic 2014 Core Set Rare, Magic 2013 Rare
 
 Name:   Tragic Poet
 Cost:   W
@@ -4367,14 +4386,14 @@ Name:   Trailblazer
 Cost:   2GG
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Target creature is unblockable this turn.
+Rules Text:     Target creature can't be blocked this turn.
 Set/Rarity:     Ice Age Rare
 
 Name:   Trailblazer's Boots
 Cost:   2
 Type:   Artifact — Equipment
 Pow/Tgh:    
-Rules Text:     Equipped creature has nonbasic landwalk. (It's unblockable as long as defending player controls a nonbasic land.)
+Rules Text:     Equipped creature has nonbasic landwalk. (It can't be blocked as long as defending player controls a nonbasic land.)
 Equip {2}
 Set/Rarity:     Zendikar Uncommon
 
@@ -4406,6 +4425,14 @@ Type:   Creature — Cat
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever Trained Cheetah becomes blocked, it gets +1/+1 until end of turn.
 Set/Rarity:     Portal Three Kingdoms Uncommon
+
+Name:   Trained Condor
+Cost:   2U
+Type:   Creature — Bird
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+Whenever Trained Condor attacks, another target creature you control gains flying until end of turn.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Trained Jackal
 Cost:   G
@@ -4548,8 +4575,7 @@ LEVEL 6-11
 Lifelink
 LEVEL 12+
 9/9
-Lifelink
-Transcendent Master is indestructible.
+Lifelink, indestructible
 Set/Rarity:     Rise of the Eldrazi Mythic Rare
 
 Name:   Transguild Courier
@@ -4610,7 +4636,7 @@ Name:   Trap Runner
 Cost:   2WW
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/3)
-Rules Text:     {T}: Target unblocked attacking creature becomes blocked. Activate this ability only during combat after blockers are declared. (This ability works on unblockable creatures.)
+Rules Text:     {T}: Target unblocked attacking creature becomes blocked. Activate this ability only during combat after blockers are declared. (This ability works on creatures that can't be blocked.)
 Set/Rarity:     Mercadian Masques Uncommon
 
 Name:   Trapfinder's Trick
@@ -4657,14 +4683,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell.
 Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
-Set/Rarity:     Conflux Common
+Set/Rarity:     Modern Masters Common, Conflux Common
 
 Name:   Traumatize
 Cost:   3UU
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player puts the top half of his or her library, rounded down, into his or her graveyard.
-Set/Rarity:     Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Odyssey Rare
+Set/Rarity:     Magic 2014 Core Set Rare, Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Odyssey Rare
 
 Name:   Travel Preparations
 Cost:   1G
@@ -4951,7 +4977,7 @@ Name:   Trespassing Souleater
 Cost:   3
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (2/2)
-Rules Text:     {(u/p)}: Trespassing Souleater is unblockable this turn. ({(u/p)} can be paid with either {U} or 2 life.)
+Rules Text:     {(u/p)}: Trespassing Souleater can't be blocked this turn. ({(u/p)} can be paid with either {U} or 2 life.)
 Set/Rarity:     New Phyrexia Common
 
 Name:   Tresserhorn Sinks
@@ -5027,7 +5053,7 @@ Name:   Triangle of War
 Cost:   1
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {2}, Sacrifice Triangle of War: Choose target creature you control and target creature an opponent controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
+Rules Text:     {2}, Sacrifice Triangle of War: Target creature you control fights target creature an opponent controls. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Visions Rare
 
 Name:   Triassic Egg
@@ -5043,7 +5069,7 @@ Cost:   1R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Domain — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control.
-Set/Rarity:     Duel Decks: Phyrexia vs. the Coalition Common, Time Spiral "Timeshifted" Special, Invasion Common
+Set/Rarity:     Modern Masters Uncommon, Duel Decks: Phyrexia vs. the Coalition Common, Time Spiral "Timeshifted" Special, Invasion Common
 
 Name:   Tribal Forcemage
 Cost:   1G
@@ -5101,7 +5127,7 @@ Cost:   3U
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature gets +2/+0 and is unblockable.
+Enchanted creature gets +2/+0 and can't be blocked.
 Set/Rarity:     Magic 2013 Common
 
 Name:   Trickster Mage
@@ -5260,7 +5286,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature gets +2/+2 and has "{1}{G}: Regenerate this creature." (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common
 
 Name:   Trolls of Tel-Jilad
 Cost:   5GG
@@ -5274,7 +5300,7 @@ Cost:   5G
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Domain — Until end of turn, creatures you control gain trample and get +1/+1 for each basic land type among lands you control.
-Set/Rarity:     Time Spiral Uncommon
+Set/Rarity:     Modern Masters Uncommon, Time Spiral Uncommon
 
 Name:   Trophy Hunter
 Cost:   2G
@@ -5416,7 +5442,7 @@ Type:   Creature — Beast
 Pow/Tgh:    (2/3)
 Rules Text:     Flying
 Whenever Trygon Predator deals combat damage to a player, you may destroy target artifact or enchantment that player controls.
-Set/Rarity:     Dissension Uncommon
+Set/Rarity:     Modern Masters Uncommon, Dissension Uncommon
 
 Name:   Tsabo Tavoc
 Cost:   5BR
@@ -5691,7 +5717,7 @@ Type:   Creature — Spirit
 Pow/Tgh:    (1/1)
 Rules Text:     Whenever a creature token leaves the battlefield, put a +1/+1 counter on Twilight Drover.
 {2}{W}, Remove a +1/+1 counter from Twilight Drover: Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Ravnica: City of Guilds Rare
 
 Name:   Twilight Mire
 Cost:   

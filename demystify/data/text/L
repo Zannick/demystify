@@ -240,7 +240,7 @@ Name:   Lantern of Insight
 Cost:   1
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Each player plays with the top card of his or her library revealed.
+Rules Text:     Players play with the top card of their libraries revealed.
 {T}, Sacrifice Lantern of Insight: Target player shuffles his or her library.
 Set/Rarity:     Fifth Dawn Uncommon
 
@@ -423,7 +423,7 @@ Name:   Latch Seeker
 Cost:   1UU
 Type:   Creature — Spirit
 Pow/Tgh:    (3/1)
-Rules Text:     Latch Seeker is unblockable.
+Rules Text:     Latch Seeker can't be blocked.
 Set/Rarity:     Avacyn Restored Uncommon
 
 Name:   Latchkey Faerie
@@ -433,7 +433,7 @@ Pow/Tgh:    (3/1)
 Rules Text:     Flying
 Prowl {2}{U} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Faerie or Rogue.)
 When Latchkey Faerie enters the battlefield, if its prowl cost was paid, draw a card.
-Set/Rarity:     Morningtide Common
+Set/Rarity:     Modern Masters Common, Morningtide Common
 
 Name:   Latulla's Orders
 Cost:   1R
@@ -473,7 +473,7 @@ Cost:   4R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Lava Axe deals 5 damage to target player.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Starter 1999 Common, Urza's Legacy Common, Portal Second Age Common, Portal Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Beatdown Box Set Common, Starter 2000 Common, Starter 1999 Common, Urza's Legacy Common, Portal Second Age Common, Portal Common
 
 Name:   Lava Blister
 Cost:   1R
@@ -525,7 +525,7 @@ Cost:   R
 Type:   Sorcery — Arcane
 Pow/Tgh:    
 Rules Text:     Lava Spike deals 3 damage to target player.
-Set/Rarity:     Champions of Kamigawa Common
+Set/Rarity:     Modern Masters Common, Champions of Kamigawa Common
 
 Name:   Lava Storm
 Cost:   3RR
@@ -564,7 +564,7 @@ Cost:   3R
 Type:   Creature — Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to him or her.
-Set/Rarity:     Tenth Edition Rare, Legions Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Tenth Edition Rare, Legions Rare
 
 Name:   Lavaclaw Reaches
 Cost:   
@@ -640,8 +640,8 @@ Name:   Lay of the Land
 Cost:   G
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Search your library for a basic land card, reveal that card, and put it into your hand. Then shuffle your library.
-Set/Rarity:     Apocalypse Common
+Rules Text:     Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+Set/Rarity:     Magic 2014 Core Set Common, Apocalypse Common
 
 Name:   Lazav, Dimir Mastermind
 Cost:   UUBB
@@ -1057,7 +1057,7 @@ Pow/Tgh:    (10/10)
 Rules Text:     Trample
 Leviathan enters the battlefield tapped and doesn't untap during your untap step.
 At the beginning of your upkeep, you may sacrifice two Islands. If you do, untap Leviathan.
-Leviathan can't attack unless you sacrifice two Islands.
+Leviathan can't attack unless you sacrifice two Islands. (This cost is paid as attackers are declared.)
 Set/Rarity:     Time Spiral "Timeshifted" Special, Beatdown Box Set Rare, Fifth Edition Rare, Fourth Edition Rare, The Dark Rare
 
 Name:   Levitation
@@ -1351,7 +1351,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Return up to three target land cards from your graveyard to your hand.
 Dredge 3 (If you would draw a card, instead you may put exactly three cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Rare, Ravnica: City of Guilds Rare
+Set/Rarity:     Modern Masters Rare, Duel Decks: Izzet vs. Golgari Rare, Ravnica: City of Guilds Rare
 
 Name:   Life's Finale
 Cost:   4BB
@@ -1359,6 +1359,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy all creatures, then search target opponent's library for up to three creature cards and put them into his or her graveyard. Then that player shuffles his or her library.
 Set/Rarity:     New Phyrexia Rare
+
+Name:   Lifebane Zombie
+Cost:   1BB
+Type:   Creature — Zombie Warrior
+Pow/Tgh:    (3/1)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+When Lifebane Zombie enters the battlefield, target opponent reveals his or her hand. You choose a green or white creature card from it and exile that card.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Lifeblood
 Cost:   2WW
@@ -1594,7 +1602,7 @@ Cost:   RW
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Lightning Helix deals 3 damage to target creature or player and you gain 3 life.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Planechase Uncommon, Ravnica: City of Guilds Uncommon
+Set/Rarity:     Modern Masters Uncommon, Duel Decks: Ajani vs. Nicol Bolas Uncommon, Planechase Uncommon, Ravnica: City of Guilds Uncommon
 
 Name:   Lightning Hounds
 Cost:   2RR
@@ -1675,8 +1683,8 @@ Cost:   2R
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature gets +3/+0 and has first strike.
-Set/Rarity:     Shards of Alara Common
+Enchanted creature gets +3/+0 and has first strike. (It deals combat damage before creatures without first strike.)
+Set/Rarity:     Magic 2014 Core Set Common, Shards of Alara Common
 
 Name:   Lightwielder Paladin
 Cost:   3WW
@@ -1710,7 +1718,7 @@ Loyalty:    (3)
 Rules Text:     +1: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.
 -3: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control.
 -6: You get an emblem with "Swamps you control have '{T}: Add {B}{B}{B}{B} to your mana pool.'"
-Set/Rarity:     Magic 2013 Mythic Rare
+Set/Rarity:     Magic 2014 Core Set Mythic Rare, Magic 2013 Mythic Rare
 
 Name:   Liliana of the Veil
 Cost:   1BB
@@ -1727,6 +1735,14 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever an opponent discards a card, that player loses 2 life.
 Set/Rarity:     Magic 2011 Uncommon
+
+Name:   Liliana's Reaver
+Cost:   2BB
+Type:   Creature — Zombie
+Pow/Tgh:    (4/3)
+Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Whenever Liliana's Reaver deals combat damage to a player, that player discards a card and you put a 2/2 black Zombie creature token onto the battlefield tapped.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Liliana's Shade
 Cost:   2BB
@@ -1853,7 +1869,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put two 1/1 white Spirit creature tokens with flying onto the battlefield.
 Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Dark Ascension Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Dark Ascension Uncommon
 
 Name:   Lingering Tormentor
 Cost:   3B
@@ -1922,6 +1938,13 @@ Type:   Creature — Insect
 Pow/Tgh:    (7/7)
 Rules Text:     At the beginning of your upkeep, sacrifice Lithophage unless you sacrifice a Mountain.
 Set/Rarity:     Duel Decks: Venser vs. Koth Rare, Mercadian Masques Rare
+
+Name:   Liturgy of Blood
+Cost:   3BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target creature. Add {B}{B}{B} to your mana pool.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Liu Bei, Lord of Shu
 Cost:   3WW
@@ -2287,9 +2310,9 @@ Name:   Logic Knot
 Cost:   XUU
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Delve (You may exile any number of cards from your graveyard as you cast this spell. It costs {1} less to cast for each card exiled this way.)
+Rules Text:     Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Counter target spell unless its controller pays {X}.
-Set/Rarity:     Future Sight Common
+Set/Rarity:     Modern Masters Common, Future Sight Common
 
 Name:   Lone Missionary
 Cost:   1W
@@ -2562,7 +2585,7 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Suspend 3—{0} (Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 {T}, Sacrifice Lotus Bloom: Add three mana of any one color to your mana pool.
-Set/Rarity:     Time Spiral Rare
+Set/Rarity:     Modern Masters Rare, Time Spiral Rare
 
 Name:   Lotus Blossom
 Cost:   2
@@ -2604,9 +2627,9 @@ Set/Rarity:     Weatherlight Rare
 
 Name:   Lovisa Coldeyes
 Cost:   3RR
-Type:   Legendary Creature — Human Barbarian
+Type:   Legendary Creature — Human
 Pow/Tgh:    (3/3)
-Rules Text:     Warrior, Berserker, and/or other Barbarian creatures get +2/+2 and have haste.
+Rules Text:     Each creature that's a Barbarian, a Warrior, or a Berserker gets +2/+2 and has haste.
 Set/Rarity:     Coldsnap Rare
 
 Name:   Lowland Basilisk
@@ -2754,7 +2777,7 @@ Cost:   2W
 Type:   Creature — Human Advisor
 Pow/Tgh:    (1/1)
 Rules Text:     Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate this ability only during your turn, before attackers are declared.
-Set/Rarity:     Masters Edition III Uncommon, Portal Three Kingdoms Uncommon
+Set/Rarity:     Commander's Arsenal Uncommon, Masters Edition III Uncommon, Portal Three Kingdoms Uncommon
 
 Name:   Loyal Sentry
 Cost:   W
@@ -3010,7 +3033,7 @@ Cost:   2G
 Type:   Creature — Crocodile
 Pow/Tgh:    (2/2)
 Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
-Islandwalk (This creature is unblockable as long as defending player controls an Island.)
+Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 Set/Rarity:     Magic 2012 Common
 
 Name:   Lurking Evil

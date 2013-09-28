@@ -2,7 +2,7 @@ Name:   O-Naginata
 Cost:   1
 Type:   Artifact — Equipment
 Pow/Tgh:    
-Rules Text:     O-Naginata can be attached only to a creature with 3 or more power.
+Rules Text:     O-Naginata can be attached only to a creature with power 3 or greater.
 Equipped creature gets +3/+0 and has trample.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 Set/Rarity:     Saviors of Kamigawa Uncommon
@@ -85,6 +85,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     At the beginning of each player's upkeep, that player chooses target player who has more cards in hand than he or she does and is his or her opponent. The first player may discard his or her hand and draw three cards.
 Set/Rarity:     Exodus Rare
+
+Name:   Oath of the Ancient Wood
+Cost:   2G
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever Oath of the Ancient Wood or another enchantment enters the battlefield under your control, you may put a +1/+1 counter on target creature.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Oathkeeper, Takeno's Daisho
 Cost:   3
@@ -387,6 +394,13 @@ Pow/Tgh:    (3/3)
 Rules Text:     When Ogre Arsonist enters the battlefield, destroy target land.
 Set/Rarity:     Portal Second Age Uncommon
 
+Name:   Ogre Battledriver
+Cost:   2RR
+Type:   Creature — Ogre Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Whenever another creature enters the battlefield under your control, that creature gets +2/+0 and gains haste until end of turn. (It can attack and {T} this turn.)
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Ogre Berserker
 Cost:   4R
 Type:   Creature — Ogre Berserker
@@ -434,7 +448,7 @@ Name:   Ogre Marauder
 Cost:   1BB
 Type:   Creature — Ogre Warrior
 Pow/Tgh:    (3/1)
-Rules Text:     Whenever Ogre Marauder attacks, it gains "Ogre Marauder is unblockable" until end of turn unless defending player sacrifices a creature.
+Rules Text:     Whenever Ogre Marauder attacks, it gains "Ogre Marauder can't be blocked" until end of turn unless defending player sacrifices a creature.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Ogre Menial
@@ -780,7 +794,7 @@ Type:   Legendary Creature — Faerie Wizard
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
 {X}{(u/b)}: Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, put a 1/1 blue and black Faerie Rogue creature token with flying onto the battlefield.
-Set/Rarity:     From the Vault: Legends Mythic Rare, Shadowmoor Rare
+Set/Rarity:     Modern Masters Rare, From the Vault: Legends Mythic Rare, Shadowmoor Rare
 
 Name:   Ooze Flux
 Cost:   3G
@@ -928,7 +942,7 @@ Cost:   4UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target player draws four cards.
-Set/Rarity:     Seventh Edition Uncommon, Battle Royale Box Set Uncommon, Urza's Legacy Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Seventh Edition Uncommon, Battle Royale Box Set Uncommon, Urza's Legacy Uncommon
 
 Name:   Opposition
 Cost:   2UU
@@ -1567,14 +1581,14 @@ Cost:   1W
 Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.
-Set/Rarity:     Duel Decks: Divine vs. Demonic Uncommon, Champions of Kamigawa Uncommon
+Set/Rarity:     Modern Masters Common, Duel Decks: Divine vs. Demonic Uncommon, Champions of Kamigawa Uncommon
 
 Name:   Oubliette
 Cost:   1BB
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     When Oubliette enters the battlefield, exile target creature and all Auras attached to it. Note the number and kind of counters that were on that creature.
-When Oubliette leaves the battlefield, return the exiled card to the battlefield under its owner's control tapped with the noted number and kind of counters on it. If you do, return the exiled Aura cards to the battlefield under their owner's control attached to that permanent.
+When Oubliette leaves the battlefield, return that exiled card to the battlefield under its owner's control tapped with the noted number and kind of counters on it. If you do, return the other exiled cards to the battlefield under their owner's control attached to that permanent.
 Set/Rarity:     Masters Edition Common, Arabian Nights Common, Arabian Nights Common
 
 Name:   Ouphe Vandals
@@ -1773,7 +1787,7 @@ Name:   Overwhelm
 Cost:   5GG
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Creatures you control get +3/+3 until end of turn.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 

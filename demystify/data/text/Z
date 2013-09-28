@@ -80,7 +80,7 @@ Cost:   WB
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.
-Set/Rarity:     Alara Reborn Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Alara Reborn Uncommon
 
 Name:   Zealous Strike
 Cost:   1W
@@ -141,6 +141,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +2/+2 and has flying and shroud. (It can't be the target of spells or abilities.)
 Set/Rarity:     Urza's Saga Uncommon
+
+Name:   Zephyr Charge
+Cost:   1U
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     {1}{U}: Target creature gains flying until end of turn.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Zephyr Falcon
 Cost:   1U
@@ -244,7 +251,7 @@ Name:   Zhuge Jin, Wu Strategist
 Cost:   1UU
 Type:   Legendary Creature — Human Advisor
 Pow/Tgh:    (1/1)
-Rules Text:     {T}: Target creature is unblockable this turn. Activate this ability only during your turn, before attackers are declared.
+Rules Text:     {T}: Target creature can't be blocked this turn. Activate this ability only during your turn, before attackers are declared.
 Set/Rarity:     Portal Three Kingdoms Rare
 
 Name:   Zhur-Taa Ancient
@@ -315,7 +322,7 @@ Name:   Zodiac Monkey
 Cost:   1G
 Type:   Creature — Ape
 Pow/Tgh:    (2/1)
-Rules Text:     Forestwalk (This creature is unblockable as long as defending player controls a Forest.)
+Rules Text:     Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 Set/Rarity:     Ninth Edition Common, Portal Three Kingdoms Common
 
 Name:   Zodiac Ox

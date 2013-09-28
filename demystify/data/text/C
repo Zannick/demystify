@@ -472,7 +472,7 @@ Cost:   1UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target spell.
-Set/Rarity:     Return to Ravnica Common, Planechase 2012 Edition Common, Magic 2012 Common, Magic 2011 Common, Zendikar Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Time Spiral Common
+Set/Rarity:     Magic 2014 Core Set Common, Return to Ravnica Common, Planechase 2012 Edition Common, Magic 2012 Common, Magic 2011 Common, Zendikar Common, Magic 2010 Common, Shards of Alara Common, Tenth Edition Common, Time Spiral Common
 
 Name:   Candelabra of Tawnos
 Cost:   1
@@ -586,7 +586,7 @@ Cost:   3R
 Type:   Creature — Minotaur Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     
-Set/Rarity:     Magic 2013 Common, Magic 2011 Common, Magic 2010 Common, Conflux Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Magic 2011 Common, Magic 2010 Common, Conflux Common
 
 Name:   Canyon Wildcat
 Cost:   1R
@@ -614,9 +614,9 @@ Name:   Capashen Knight
 Cost:   1W
 Type:   Creature — Human Knight
 Pow/Tgh:    (1/1)
-Rules Text:     First strike
+Rules Text:     First strike (This creature deals combat damage before creatures without first strike.)
 {1}{W}: Capashen Knight gets +1/+0 until end of turn.
-Set/Rarity:     Urza's Destiny Common
+Set/Rarity:     Magic 2014 Core Set Common, Urza's Destiny Common
 
 Name:   Capashen Standard
 Cost:   W
@@ -795,7 +795,7 @@ Cost:   2UU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target player draws four cards, then discards three cards. If you cast this spell during your main phase, instead that player draws four cards, then discards two cards.
-Set/Rarity:     Time Spiral Uncommon
+Set/Rarity:     Modern Masters Uncommon, Time Spiral Uncommon
 
 Name:   Careful Study
 Cost:   U
@@ -1503,6 +1503,13 @@ Nonland cards you own that aren't on the battlefield, spells you control, and no
 You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Classic Sixth Edition Rare, Mirage Rare
 
+Name:   Celestial Flare
+Cost:   WW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target player sacrifices an attacking or blocking creature.
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Celestial Force
 Cost:   5WWW
 Type:   Creature — Elemental
@@ -1592,7 +1599,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put two 1/1 white Kithkin Soldier creature tokens onto the battlefield.
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
-Set/Rarity:     Eventide Common
+Set/Rarity:     Modern Masters Common, Eventide Common
 
 Name:   Cenn's Heir
 Cost:   1W
@@ -1731,7 +1738,7 @@ Name:   Cephalid Inkshrouder
 Cost:   2U
 Type:   Creature — Cephalid
 Pow/Tgh:    (2/1)
-Rules Text:     Discard a card: Cephalid Inkshrouder gains shroud until end of turn and is unblockable this turn. (A permanent with shroud can't be the target of spells or abilities.)
+Rules Text:     Discard a card: Cephalid Inkshrouder gains shroud until end of turn and can't be blocked this turn. (A permanent with shroud can't be the target of spells or abilities.)
 Set/Rarity:     Judgment Uncommon
 
 Name:   Cephalid Looter
@@ -1745,8 +1752,8 @@ Name:   Cephalid Pathmage
 Cost:   2U
 Type:   Creature — Cephalid Wizard
 Pow/Tgh:    (1/2)
-Rules Text:     Cephalid Pathmage is unblockable.
-{T}, Sacrifice Cephalid Pathmage: Target creature is unblockable this turn.
+Rules Text:     Cephalid Pathmage can't be blocked.
+{T}, Sacrifice Cephalid Pathmage: Target creature can't be blocked this turn.
 Set/Rarity:     Legions Common
 
 Name:   Cephalid Retainer
@@ -2000,7 +2007,7 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Chalice of the Void enters the battlefield with X charge counters on it.
 Whenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.
-Set/Rarity:     Mirrodin Rare
+Set/Rarity:     Modern Masters Rare, Mirrodin Rare
 
 Name:   Chamber of Manipulation
 Cost:   2UU
@@ -2176,7 +2183,7 @@ Cost:   2RR
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Archenemy Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common, Magic 2011 Common, Archenemy Common
 
 Name:   Chandra's Phoenix
 Cost:   1RR
@@ -2185,7 +2192,7 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flying
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 Whenever an opponent is dealt damage by a red instant or sorcery spell you control or by a red planeswalker you control, return Chandra's Phoenix from your graveyard to your hand.
-Set/Rarity:     Magic 2012 Rare
+Set/Rarity:     Magic 2014 Core Set Rare, Magic 2012 Rare
 
 Name:   Chandra's Spitfire
 Cost:   2R
@@ -2194,6 +2201,15 @@ Pow/Tgh:    (1/3)
 Rules Text:     Flying
 Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 until end of turn.
 Set/Rarity:     Magic 2011 Uncommon
+
+Name:   Chandra, Pyromaster
+Cost:   2RR
+Type:   Planeswalker — Chandra
+Loyalty:    (4)
+Rules Text:     +1: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.
+0: Exile the top card of your library. You may play it this turn.
+-7: Exile the top ten cards of your library. Choose an instant or sorcery card exiled this way and copy it three times. You may cast the copies without paying their mana costs.
+Set/Rarity:     Magic 2014 Core Set Mythic Rare
 
 Name:   Chandra, the Firebrand
 Cost:   3R
@@ -2264,7 +2280,7 @@ Name:   Chant of Vitu-Ghazi
 Cost:   6WW
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Prevent all damage that would be dealt by creatures this turn. You gain life equal to the damage prevented this way.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
@@ -2327,7 +2343,7 @@ Cost:   2R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     The owner of target permanent shuffles it into his or her library, then reveals the top card of his or her library. If it's a permanent card, he or she puts it onto the battlefield.
-Set/Rarity:     Magic: The Gathering-Commander Rare
+Set/Rarity:     Commander's Arsenal Rare, Magic: The Gathering-Commander Rare
 
 Name:   Chaoslace
 Cost:   R
@@ -2411,6 +2427,14 @@ Type:   Creature — Human Rogue
 Pow/Tgh:    (3/3)
 Rules Text:     Whenever Charging Bandits attacks, it gets +2/+0 until end of turn.
 Set/Rarity:     Portal Uncommon
+
+Name:   Charging Griffin
+Cost:   3W
+Type:   Creature — Griffin
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Whenever Charging Griffin attacks, it gets +1/+1 until end of turn.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Charging Paladin
 Cost:   2W
@@ -2563,7 +2587,7 @@ Cost:   1B
 Type:   Creature — Vampire
 Pow/Tgh:    (2/1)
 Rules Text:     Lifelink (Damage dealt by this creature also causes you to gain that much life.)
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
+Set/Rarity:     Magic 2014 Core Set Common, Duel Decks: Sorin vs. Tibalt Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Common
 
 Name:   Child of Thorns
 Cost:   G
@@ -2798,14 +2822,14 @@ Cost:   XG
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Choking Vines only during the declare blockers step.
-X target attacking creatures become blocked. Choking Vines deals 1 damage to each of those creatures. (This spell works on unblockable creatures.)
+X target attacking creatures become blocked. Choking Vines deals 1 damage to each of those creatures. (This spell works on creatures that can't be blocked.)
 Set/Rarity:     Weatherlight Common
 
 Name:   Chord of Calling
 Cost:   XGGG
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Search your library for a creature card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
@@ -3219,7 +3243,7 @@ Type:   Creature — Human Druid
 Pow/Tgh:    (1/4)
 Rules Text:     Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 When Citanul Woodreaders enters the battlefield, if it was kicked, draw two cards.
-Set/Rarity:     Planar Chaos Common
+Set/Rarity:     Modern Masters Common, Planar Chaos Common
 
 Name:   City in a Bottle
 Cost:   2
@@ -3235,7 +3259,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Whenever City of Brass becomes tapped, it deals 1 damage to you.
 {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Masters Edition IV Rare, Eighth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Chronicles Rare, Arabian Nights Uncommon
+Set/Rarity:     Modern Masters Rare, Masters Edition IV Rare, Eighth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Chronicles Rare, Arabian Nights Uncommon
 
 Name:   City of Shadows
 Cost:   
@@ -3328,7 +3352,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When Claustrophobia enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Magic 2014 Core Set Common, Innistrad Common
 
 Name:   Claws of Gix
 Cost:   0
@@ -3542,7 +3566,7 @@ Cost:   1U
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature is unblockable.
+Enchanted creature can't be blocked.
 Set/Rarity:     Urza's Saga Common
 
 Name:   Clock of Omens
@@ -3664,7 +3688,7 @@ Cost:   3U
 Type:   Creature — Shapeshifter
 Pow/Tgh:    (0/0)
 Rules Text:     You may have Clone enter the battlefield as a copy of any creature on the battlefield.
-Set/Rarity:     Magic 2013 Rare, Duel Decks: Venser vs. Koth Rare, Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Onslaught Rare, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+Set/Rarity:     Magic 2014 Core Set Rare, Magic 2013 Rare, Duel Decks: Venser vs. Koth Rare, Magic 2011 Rare, Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Onslaught Rare, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Clone Shell
 Cost:   5
@@ -3814,7 +3838,7 @@ Type:   Creature — Giant Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     When Cloudgoat Ranger enters the battlefield, put three 1/1 white Kithkin Soldier creature tokens onto the battlefield.
 Tap three untapped Kithkin you control: Cloudgoat Ranger gets +2/+0 and gains flying until end of turn.
-Set/Rarity:     Lorwyn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Lorwyn Uncommon
 
 Name:   Cloudheath Drake
 Cost:   4U
@@ -3931,7 +3955,7 @@ Cost:   3R
 Type:   Creature — Elemental
 Pow/Tgh:    (3/3)
 Rules Text:     When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R} to your mana pool.
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Time Spiral Common
 
 Name:   Coalhauler Swine
 Cost:   4RR
@@ -4176,7 +4200,7 @@ Type:   Creature — Merfolk Rogue
 Pow/Tgh:    (1/1)
 Rules Text:     Islandwalk
 Whenever Cold-Eyed Selkie deals combat damage to a player, you may draw that many cards.
-Set/Rarity:     Eventide Rare
+Set/Rarity:     Modern Masters Rare, Eventide Rare
 
 Name:   Coldsteel Heart
 Cost:   2
@@ -4255,6 +4279,14 @@ Pow/Tgh:
 Rules Text:     Target creature gets +4/+2 and gains trample until end of turn.
 Set/Rarity:     Magic: The Gathering-Commander Common, Archenemy Common, Alara Reborn Common
 
+Name:   Colossal Whale
+Cost:   5UU
+Type:   Creature — Whale
+Pow/Tgh:    (5/5)
+Rules Text:     Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
+Whenever Colossal Whale attacks, you may exile target creature defending player controls until Colossal Whale leaves the battlefield. (That creature returns under its owner's control.)
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Colossus of Sardia
 Cost:   9
 Type:   Artifact Creature — Golem
@@ -4300,7 +4332,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add to your mana pool one mana of any color in your commander's color identity.
-Set/Rarity:     Magic: The Gathering-Commander Common
+Set/Rarity:     Commander's Arsenal Common, Magic: The Gathering-Commander Common
 
 Name:   Command of Unsummoning
 Cost:   2U
@@ -4440,7 +4472,7 @@ Name:   Conclave Equenaut
 Cost:   4WW
 Type:   Creature — Human Soldier
 Pow/Tgh:    (3/3)
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Flying
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Ravnica: City of Guilds Common
 
@@ -4448,7 +4480,7 @@ Name:   Conclave Phalanx
 Cost:   4W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/4)
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 When Conclave Phalanx enters the battlefield, you gain 1 life for each creature you control.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Uncommon, Ravnica: City of Guilds Uncommon
 
@@ -4456,7 +4488,7 @@ Name:   Conclave's Blessing
 Cost:   3W
 Type:   Enchantment — Aura
 Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Enchant creature
 Enchanted creature gets +0/+2 for each other creature you control.
 Set/Rarity:     Ravnica: City of Guilds Common
@@ -4556,7 +4588,7 @@ Cost:   3W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target player gains 2 life for each creature on the battlefield.
-Set/Rarity:     Magic: The Gathering-Commander Common, Planechase Common, Urza's Saga Common
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic: The Gathering-Commander Common, Planechase Common, Urza's Saga Common
 
 Name:   Congregation at Dawn
 Cost:   GGW
@@ -4623,7 +4655,7 @@ Cost:   W
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land
-Enchanted land is indestructible and can't be enchanted by other Auras.
+Enchanted land has indestructible and can't be enchanted by other Auras.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Consecrated Sphinx
@@ -4824,7 +4856,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
-{R}{G}, {T}: Choose target Beast creature you control and target creature an opponent controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
+{R}{G}, {T}: Target Beast creature you control fights target creature an opponent controls. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Onslaught Rare
 
 Name:   Contested War Zone
@@ -5069,7 +5101,7 @@ Cost:   1U
 Type:   Creature — Merfolk
 Pow/Tgh:    (2/1)
 Rules Text:     
-Set/Rarity:     Magic 2012 Common, Magic 2010 Common, Seventh Edition Common, Urza's Saga Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common, Magic 2010 Common, Seventh Edition Common, Urza's Saga Common
 
 Name:   Coral Net
 Cost:   U
@@ -5148,7 +5180,7 @@ Type:   Creature — Zombie Wizard
 Pow/Tgh:    (3/3)
 Rules Text:     When Corpse Connoisseur enters the battlefield, you may search your library for a creature card and put that card into your graveyard. If you do, shuffle your library.
 Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
-Set/Rarity:     Archenemy Uncommon, Shards of Alara Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Archenemy Uncommon, Shards of Alara Uncommon
 
 Name:   Corpse Cur
 Cost:   4
@@ -5172,6 +5204,13 @@ Type:   Creature — Zombie Wizard
 Pow/Tgh:    (3/3)
 Rules Text:     {1}{B}, {T}, Sacrifice a creature: Search your library for a Zombie card and a Swamp card, reveal them, and put them into your hand. Then shuffle your library.
 Set/Rarity:     Planechase Uncommon, Legions Uncommon
+
+Name:   Corpse Hauler
+Cost:   1B
+Type:   Creature — Human Rogue
+Pow/Tgh:    (2/1)
+Rules Text:     {2}{B}, Sacrifice Corpse Hauler: Return another target creature card from your graveyard to your hand.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Corpse Lunge
 Cost:   2B
@@ -5239,7 +5278,7 @@ Cost:   5B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Corrupt deals damage equal to the number of Swamps you control to target creature or player. You gain life equal to the damage dealt this way.
-Set/Rarity:     Magic 2011 Uncommon, Duel Decks: Garruk vs. Liliana Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Shadowmoor Uncommon, Seventh Edition Common, Urza's Saga Common
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2011 Uncommon, Duel Decks: Garruk vs. Liliana Uncommon, Duel Decks: Divine vs. Demonic Uncommon, Shadowmoor Uncommon, Seventh Edition Common, Urza's Saga Common
 
 Name:   Corrupt Court Official
 Cost:   1B
@@ -5421,7 +5460,7 @@ Type:   Creature — Giant Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     At the beginning of your upkeep, reveal the top card of your library. If it's a land card, put it into your graveyard and repeat this process.
 Whenever a land card is put into your graveyard from anywhere, put a +1/+1 counter on Countryside Crusher.
-Set/Rarity:     Morningtide Rare
+Set/Rarity:     Modern Masters Rare, Morningtide Rare
 
 Name:   Courier Hawk
 Cost:   1W
@@ -5457,7 +5496,7 @@ Cost:   W
 Type:   Artifact Creature — Homunculus
 Pow/Tgh:    (1/1)
 Rules Text:     Court Homunculus gets +1/+1 as long as you control another artifact.
-Set/Rarity:     Conflux Common
+Set/Rarity:     Modern Masters Common, Conflux Common
 
 Name:   Court Hussar
 Cost:   2U
@@ -5511,7 +5550,7 @@ Name:   Covert Operative
 Cost:   4U
 Type:   Creature — Human Wizard
 Pow/Tgh:    (3/2)
-Rules Text:     Covert Operative is unblockable.
+Rules Text:     Covert Operative can't be blocked.
 Set/Rarity:     Legions Common
 
 Name:   Covetous Dragon
@@ -5624,7 +5663,7 @@ Name:   Crafty Pathmage
 Cost:   2U
 Type:   Creature — Human Wizard
 Pow/Tgh:    (1/1)
-Rules Text:     {T}: Target creature with power 2 or less is unblockable this turn.
+Rules Text:     {T}: Target creature with power 2 or less can't be blocked this turn.
 Set/Rarity:     Tenth Edition Common, Ninth Edition Common, Onslaught Common
 
 Name:   Crag Puca
@@ -5863,14 +5902,14 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     Creeping Tar Pit enters the battlefield tapped.
 {T}: Add {U} or {B} to your mana pool.
-{1}{U}{B}: Until end of turn, Creeping Tar Pit becomes a 3/2 blue and black Elemental creature and is unblockable. It's still a land.
+{1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land.
 Set/Rarity:     Worldwake Rare
 
 Name:   Creepy Doll
 Cost:   5
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (1/1)
-Rules Text:     Creepy Doll is indestructible.
+Rules Text:     Indestructible
 Whenever Creepy Doll deals combat damage to a creature, flip a coin. If you win the flip, destroy that creature.
 Set/Rarity:     Innistrad Rare
 
@@ -6315,7 +6354,7 @@ Name:   Cruel Fate
 Cost:   4U
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Look at the top five cards of target opponent's library. Put one of those cards into that player's graveyard, and the rest on top of his or her library in any order.
+Rules Text:     Look at the top five cards of target opponent's library. Put one of those cards into that player's graveyard and the rest on top of his or her library in any order.
 Set/Rarity:     Portal Rare
 
 Name:   Cruel Revival
@@ -6410,7 +6449,7 @@ Cost:   1R
 Type:   Tribal Instant — Giant
 Pow/Tgh:    
 Rules Text:     Choose a Giant creature you control. It deals damage equal to its power to target creature.
-Set/Rarity:     Lorwyn Uncommon
+Set/Rarity:     Modern Masters Common, Lorwyn Uncommon
 
 Name:   Crush of Wurms
 Cost:   6GGG
@@ -6556,7 +6595,7 @@ Cost:   1UUU
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose two — Counter target spell; or return target permanent to its owner's hand; or tap all creatures your opponents control; or draw a card.
-Set/Rarity:     Lorwyn Rare
+Set/Rarity:     Modern Masters Rare, Lorwyn Rare
 
 Name:   Cryptic Gateway
 Cost:   5
@@ -6750,6 +6789,13 @@ Type:   Creature — Human Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Cunning Bandit.
 At the beginning of the end step, if there are two or more ki counters on Cunning Bandit, you may flip it.
+Set/Rarity:     Betrayers of Kamigawa Uncommon
+
+Name:   Cunning Bandit (Azamuki, Treachery Incarnate)
+Cost:   1RR
+Type:   Legendary Creature — Spirit
+Pow/Tgh:    (5/2)
+Rules Text:     Remove a ki counter from Azamuki, Treachery Incarnate: Gain control of target creature until end of turn.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Cunning Giant
@@ -7005,7 +7051,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Curtain of Light only during combat after blockers are declared.
-Target unblocked attacking creature becomes blocked. (This spell works on unblockable creatures.)
+Target unblocked attacking creature becomes blocked. (This spell works on creatures that can't be blocked.)
 Draw a card.
 Set/Rarity:     Saviors of Kamigawa Common
 
@@ -7110,6 +7156,14 @@ Type:   Creature — Cyclops Warrior
 Pow/Tgh:    (4/4)
 Rules Text:     Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.
 Set/Rarity:     Magic 2011 Rare
+
+Name:   Cyclops Tyrant
+Cost:   5R
+Type:   Creature — Cyclops
+Pow/Tgh:    (3/4)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Cyclops Tyrant can't block creatures with power 2 or less.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Cylian Elf
 Cost:   1G

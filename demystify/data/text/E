@@ -138,7 +138,7 @@ Type:   Creature — Goblin Rogue
 Pow/Tgh:    (5/3)
 Rules Text:     Prowl {2}{B} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue.)
 When Earwig Squad enters the battlefield, if its prowl cost was paid, search target opponent's library for three cards and exile them. Then that player shuffles his or her library.
-Set/Rarity:     Morningtide Rare
+Set/Rarity:     Modern Masters Rare, Morningtide Rare
 
 Name:   Eastern Paladin
 Cost:   2BB
@@ -295,7 +295,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature and all other creatures with the same name as that creature get +2/+2 until end of turn.
-Set/Rarity:     Darksteel Common
+Set/Rarity:     Modern Masters Common, Darksteel Common
 
 Name:   Echoing Decay
 Cost:   1B
@@ -316,7 +316,7 @@ Cost:   1U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return target nonland permanent and all other permanents with the same name as that permanent to their owners' hands.
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Darksteel Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Elspeth vs. Tezzeret Common, Darksteel Common
 
 Name:   Edge of Autumn
 Cost:   1G
@@ -347,7 +347,7 @@ Cost:   1GU
 Type:   Legendary Creature — Elf Rogue
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.
-Set/Rarity:     Magic: The Gathering-Commander Rare
+Set/Rarity:     Commander's Arsenal Rare, Magic: The Gathering-Commander Rare
 
 Name:   Eel Umbra
 Cost:   1U
@@ -551,7 +551,7 @@ Name:   Eldrazi Monument
 Cost:   5
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Creatures you control get +1/+1, have flying, and are indestructible.
+Rules Text:     Creatures you control get +1/+1 and have flying and indestructible.
 At the beginning of your upkeep, sacrifice a creature. If you can't, sacrifice Eldrazi Monument.
 Set/Rarity:     Zendikar Mythic Rare
 
@@ -585,7 +585,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Electrolyze deals 2 damage divided as you choose among one or two target creatures and/or players.
 Draw a card.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Guildpact Uncommon
+Set/Rarity:     Modern Masters Uncommon, Magic: The Gathering-Commander Uncommon, Guildpact Uncommon
 
 Name:   Electropotence
 Cost:   2R
@@ -727,6 +727,14 @@ Rules Text:     Soulbond (You may pair this creature with another unpaired creat
 As long as Elgaud Shieldmate is paired with another creature, both creatures have hexproof. (They can't be the targets of spells or abilities your opponents control.)
 Set/Rarity:     Avacyn Restored Common
 
+Name:   Elite Arcanist
+Cost:   3U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     When Elite Arcanist enters the battlefield, you may exile an instant card from your hand.
+{X}, {T}: Copy the exiled card. You may cast the copy without paying its mana cost. X is the converted mana cost of the exiled card.
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Elite Archers
 Cost:   5W
 Type:   Creature — Human Soldier Archer
@@ -768,7 +776,7 @@ Cost:   1
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your graveyard into their owner's library.
-Set/Rarity:     Magic 2013 Uncommon, Magic 2012 Uncommon, Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2013 Uncommon, Magic 2012 Uncommon, Magic 2011 Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon
 
 Name:   Elixir of Vitality
 Cost:   4
@@ -816,14 +824,14 @@ Type:   Planeswalker — Elspeth
 Loyalty:    (4)
 Rules Text:     +1: Put a 1/1 white Soldier creature token onto the battlefield.
 +1: Target creature gets +3/+3 and gains flying until end of turn.
--8: You get an emblem with "Artifacts, creatures, enchantments, and lands you control are indestructible."
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Mythic Rare, Shards of Alara Mythic Rare
+-8: You get an emblem with "Artifacts, creatures, enchantments, and lands you control have indestructible."
+Set/Rarity:     Modern Masters Mythic Rare, Duel Decks: Elspeth vs. Tezzeret Mythic Rare, Shards of Alara Mythic Rare
 
 Name:   Elusive Krasis
 Cost:   1GU
 Type:   Creature — Fish Mutant
 Pow/Tgh:    (0/4)
-Rules Text:     Elusive Krasis is unblockable.
+Rules Text:     Elusive Krasis can't be blocked.
 Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
 Set/Rarity:     Gatecrash Uncommon
 
@@ -931,7 +939,7 @@ Name:   Elvish Champion
 Cost:   1GG
 Type:   Creature — Elf
 Pow/Tgh:    (2/2)
-Rules Text:     Other Elf creatures get +1/+1 and have forestwalk. (They're unblockable as long as defending player controls a Forest.)
+Rules Text:     Other Elf creatures get +1/+1 and have forestwalk. (They can't be blocked as long as defending player controls a Forest.)
 Set/Rarity:     Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Seventh Edition Rare, Invasion Rare
 
 Name:   Elvish Eulogist
@@ -1022,6 +1030,13 @@ Type:   Creature — Elf
 Pow/Tgh:    (1/1)
 Rules Text:     {G}, {T}, Sacrifice Elvish Lyrist: Destroy target enchantment.
 Set/Rarity:     Eighth Edition Uncommon, Seventh Edition Uncommon, Battle Royale Box Set Uncommon, Urza's Saga Common
+
+Name:   Elvish Mystic
+Cost:   G
+Type:   Creature — Elf Druid
+Pow/Tgh:    (1/1)
+Rules Text:     {T}: Add {G} to your mana pool.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Elvish Pathcutter
 Cost:   3G
@@ -1285,7 +1300,7 @@ Name:   Emerald Oryx
 Cost:   3G
 Type:   Creature — Antelope
 Pow/Tgh:    (2/3)
-Rules Text:     Forestwalk (This creature is unblockable as long as defending player controls a Forest.)
+Rules Text:     Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 Set/Rarity:     Magic 2010 Common
 
 Name:   Emerge Unscathed
@@ -1377,7 +1392,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put two 1/1 red Goblin creature tokens onto the battlefield.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   Empty-Shrine Kannushi
 Cost:   W
@@ -1490,6 +1505,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player reveals his or her hand. You choose a nonbasic land card from it. That player discards that card.
 Set/Rarity:     Urza's Destiny Uncommon
+
+Name:   Encroaching Wastes
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{4}, {T}, Sacrifice Encroaching Wastes: Destroy target nonbasic land.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Encrust
 Cost:   1UU
@@ -1714,7 +1737,7 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
 {2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.
-Set/Rarity:     Fifth Dawn Rare
+Set/Rarity:     Modern Masters Rare, Fifth Dawn Rare
 
 Name:   Engineered Plague
 Cost:   2B
@@ -1756,6 +1779,13 @@ Rules Text:     Flying
 When Enigma Sphinx is put into your graveyard from the battlefield, put it into your library third from the top.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 Set/Rarity:     Planechase 2012 Edition Rare, Alara Reborn Rare
+
+Name:   Enlarge
+Cost:   3GG
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (If a creature with trample would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Enlightened Tutor
 Cost:   W
@@ -1999,7 +2029,7 @@ Type:   Artifact Creature — Construct
 Pow/Tgh:    (1/1)
 Rules Text:     Epochrasite enters the battlefield with three +1/+1 counters on it if you didn't cast it from your hand.
 When Epochrasite dies, exile it with three time counters on it and it gains suspend. (At the beginning of your upkeep, remove a time counter. When the last is removed, cast this card without paying its mana cost. It has haste.)
-Set/Rarity:     Future Sight Rare
+Set/Rarity:     Modern Masters Uncommon, Future Sight Rare
 
 Name:   Equal Treatment
 Cost:   1W
@@ -2126,7 +2156,7 @@ Type:   Creature — Illusion
 Pow/Tgh:    (4/4)
 Rules Text:     Flying
 Suspend 4—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
-Set/Rarity:     Duel Decks: Jace vs. Chandra Common, Time Spiral Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Jace vs. Chandra Common, Time Spiral Common
 
 Name:   Errant Minion
 Cost:   2U
@@ -2156,7 +2186,7 @@ Cost:   2U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose target creature. Reveal cards from the top of your library until you reveal a nonland card. That creature gets +X/-X until end of turn, where X is that card's converted mana cost. Put all cards revealed this way on the bottom of your library in any order.
-Set/Rarity:     Planar Chaos Common
+Set/Rarity:     Modern Masters Common, Planar Chaos Common
 
 Name:   Erratic Portal
 Cost:   4
@@ -2216,7 +2246,7 @@ Name:   Escape Artist
 Cost:   1U
 Type:   Creature — Human Wizard
 Pow/Tgh:    (1/1)
-Rules Text:     Escape Artist is unblockable.
+Rules Text:     Escape Artist can't be blocked.
 {U}, Discard a card: Return Escape Artist to its owner's hand.
 Set/Rarity:     Odyssey Common
 
@@ -2293,7 +2323,7 @@ Type:   Artifact Creature — Jellyfish
 Pow/Tgh:    (4/3)
 Rules Text:     Flying
 At the beginning of your upkeep, return an artifact you control to its owner's hand.
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Uncommon, Conflux Uncommon
+Set/Rarity:     Modern Masters Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon, Conflux Uncommon
 
 Name:   Essence Backlash
 Cost:   2UR
@@ -2368,7 +2398,7 @@ Cost:   1U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target creature spell.
-Set/Rarity:     Magic 2013 Common, Magic 2010 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Magic 2010 Common
 
 Name:   Essence Sliver
 Cost:   3W
@@ -2419,7 +2449,7 @@ Type:   Artifact Creature — Wizard
 Pow/Tgh:    (0/0)
 Rules Text:     Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.)
 {1}, Remove four +1/+1 counters from Etched Oracle: Target player draws three cards.
-Set/Rarity:     Planechase Uncommon, Fifth Dawn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Planechase Uncommon, Fifth Dawn Uncommon
 
 Name:   Eternal Dominion
 Cost:   7UUU
@@ -2458,7 +2488,7 @@ Cost:   1GG
 Type:   Creature — Human Shaman
 Pow/Tgh:    (2/1)
 Rules Text:     When Eternal Witness enters the battlefield, you may return target card from your graveyard to your hand.
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Magic: The Gathering-Commander Uncommon, Fifth Dawn Uncommon
+Set/Rarity:     Modern Masters Uncommon, Duel Decks: Izzet vs. Golgari Uncommon, Magic: The Gathering-Commander Uncommon, Fifth Dawn Uncommon
 
 Name:   Eternity Snare
 Cost:   5U
@@ -2517,7 +2547,7 @@ Name:   Ethereal Usher
 Cost:   5U
 Type:   Creature — Spirit
 Pow/Tgh:    (2/3)
-Rules Text:     {U}, {T}: Target creature is unblockable this turn.
+Rules Text:     {U}, {T}: Target creature can't be blocked this turn.
 Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
@@ -2549,7 +2579,7 @@ Cost:   1U
 Type:   Artifact Creature — Vedalken Artificer
 Pow/Tgh:    (1/2)
 Rules Text:     Artifact spells you cast cost {1} less to cast.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Modern Masters Common, Shards of Alara Common
 
 Name:   Etherium-Horn Sorcerer
 Cost:   4UR
@@ -2573,7 +2603,7 @@ Cost:   1W
 Type:   Artifact Creature — Human Cleric
 Pow/Tgh:    (2/2)
 Rules Text:     Each player who has cast a nonartifact spell this turn can't cast additional nonartifact spells.
-Set/Rarity:     Shards of Alara Rare
+Set/Rarity:     Modern Masters Rare, Shards of Alara Rare
 
 Name:   Ethersworn Shieldmage
 Cost:   1WU
@@ -2616,7 +2646,7 @@ Cost:   4W
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Buyback {2}{W}{W} (You may pay an additional {2}{W}{W} as you cast this spell. If you do, put this card into your hand as it resolves.)
-Gain control of target creature of an opponent's choice that he or she controls.
+Gain control of target creature of an opponent's choice he or she controls.
 Set/Rarity:     Time Spiral Rare
 
 Name:   Evaporate
@@ -2645,7 +2675,7 @@ Name:   Everbark Shaman
 Cost:   4G
 Type:   Creature — Treefolk Shaman
 Pow/Tgh:    (3/5)
-Rules Text:     {T}, Exile a Treefolk card from your graveyard: Search your library for two Forest cards and put them onto the battlefield tapped. Then shuffle your library.
+Rules Text:     {T}, Exile a Treefolk card from your graveyard: Search your library for up to two Forest cards and put them onto the battlefield tapped. Then shuffle your library.
 Set/Rarity:     Morningtide Common
 
 Name:   Everflowing Chalice
@@ -2776,7 +2806,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-Set/Rarity:     Magic 2013 Common, Dark Ascension Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Magic 2013 Common, Dark Ascension Common, Duel Decks: Ajani vs. Nicol Bolas Common, Magic: The Gathering-Commander Common, Rise of the Eldrazi Common
 
 Name:   Exalted Angel
 Cost:   4WW
@@ -2792,7 +2822,7 @@ Cost:   4WW
 Type:   Creature — Dragon
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-Exalted Dragon can't attack unless you sacrifice a land.
+Exalted Dragon can't attack unless you sacrifice a land. (This cost is paid as attackers are declared.)
 Set/Rarity:     Exodus Rare
 
 Name:   Exava, Rakdos Blood Witch
@@ -2869,7 +2899,7 @@ Cost:   B
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {1}{B}, {T}, Sacrifice Executioner's Capsule: Destroy target nonblack creature.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Modern Masters Uncommon, Shards of Alara Common
 
 Name:   Executioner's Hood
 Cost:   2
@@ -3105,7 +3135,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for all cards with the same name as that card and exile them. Then that player shuffles his or her library.
-Set/Rarity:     Planar Chaos Rare
+Set/Rarity:     Modern Masters Rare, Planar Chaos Rare
 
 Name:   Extortion
 Cost:   3BB

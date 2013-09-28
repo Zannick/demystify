@@ -56,7 +56,7 @@ Cost:   B
 Type:   Creature — Goblin Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     {B}, Sacrifice a Goblin: Facevaulter gets +2/+2 until end of turn.
-Set/Rarity:     Lorwyn Common
+Set/Rarity:     Modern Masters Common, Lorwyn Common
 
 Name:   Fact or Fiction
 Cost:   3U
@@ -120,7 +120,7 @@ Type:   Creature — Faerie Rogue
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
 Discard Faerie Macabre: Exile up to two target cards from graveyards.
-Set/Rarity:     Duel Decks: Garruk vs. Liliana Common, Shadowmoor Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Garruk vs. Liliana Common, Shadowmoor Common
 
 Name:   Faerie Mechanist
 Cost:   3U
@@ -128,7 +128,7 @@ Type:   Artifact Creature — Faerie Artificer
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
 When Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Conflux Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Elspeth vs. Tezzeret Common, Conflux Common
 
 Name:   Faerie Noble
 Cost:   2G
@@ -222,14 +222,14 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Draw two cards, then discard two cards.
 Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Dark Ascension Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Dark Ascension Common
 
 Name:   Falkenrath Aristocrat
 Cost:   2BR
 Type:   Creature — Vampire
 Pow/Tgh:    (4/1)
 Rules Text:     Flying, haste
-Sacrifice a creature: Falkenrath Aristocrat is indestructible this turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat.
+Sacrifice a creature: Falkenrath Aristocrat gains indestructible until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat.
 Set/Rarity:     Dark Ascension Mythic Rare
 
 Name:   Falkenrath Exterminator
@@ -534,8 +534,8 @@ Name:   Far Wanderings
 Cost:   2G
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.
-Threshold — If seven or more cards are in your graveyard, instead search your library for three basic land cards and put them onto the battlefield tapped. Then shuffle your library.
+Rules Text:     Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.
+Threshold — If seven or more cards are in your graveyard, instead search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle your library.
 Set/Rarity:     Torment Common
 
 Name:   Farbog Boneflinger
@@ -549,7 +549,7 @@ Name:   Farbog Explorer
 Cost:   2W
 Type:   Creature — Human Scout
 Pow/Tgh:    (2/3)
-Rules Text:     Swampwalk (This creature is unblockable as long as defending player controls a Swamp.)
+Rules Text:     Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 Set/Rarity:     Avacyn Restored Common
 
 Name:   Farhaven Elf
@@ -1109,7 +1109,7 @@ Name:   Ferropede
 Cost:   3
 Type:   Artifact Creature — Insect
 Pow/Tgh:    (1/1)
-Rules Text:     Ferropede is unblockable.
+Rules Text:     Ferropede can't be blocked.
 Whenever Ferropede deals combat damage to a player, you may remove a counter from target permanent.
 Set/Rarity:     Fifth Dawn Uncommon
 
@@ -1203,7 +1203,7 @@ Cost:   B
 Type:   Creature — Zombie Goblin
 Pow/Tgh:    (1/1)
 Rules Text:     When Festering Goblin dies, target creature gets -1/-1 until end of turn.
-Set/Rarity:     Archenemy Common, Planechase Common, Tenth Edition Common, Ninth Edition Common, Onslaught Common
+Set/Rarity:     Modern Masters Common, Archenemy Common, Planechase Common, Tenth Edition Common, Ninth Edition Common, Onslaught Common
 
 Name:   Festering March
 Cost:   3BB
@@ -1212,6 +1212,13 @@ Pow/Tgh:
 Rules Text:     Creatures your opponents control get -1/-1 until end of turn. Exile Festering March with three time counters on it.
 Suspend 3—{2}{B} (Rather than cast this card from your hand, you may pay {2}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Set/Rarity:     Future Sight Uncommon
+
+Name:   Festering Newt
+Cost:   B
+Type:   Creature — Salamander
+Pow/Tgh:    (1/1)
+Rules Text:     When Festering Newt dies, target creature an opponent controls gets -1/-1 until end of turn. That creature gets -4/-4 instead if you control a creature named Bogbrew Witch.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Festering Wound
 Cost:   1B
@@ -1273,7 +1280,7 @@ Cost:   4WW
 Type:   Tribal Sorcery — Giant
 Pow/Tgh:    
 Rules Text:     You gain 10 life. Then if you have more life than an opponent, put a 5/5 white Giant Warrior creature token onto the battlefield.
-Set/Rarity:     Morningtide Rare
+Set/Rarity:     Modern Masters Uncommon, Morningtide Rare
 
 Name:   Fever Charm
 Cost:   R
@@ -1347,7 +1354,7 @@ Cost:   2WW
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.
-Set/Rarity:     Tempest Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Tempest Rare
 
 Name:   Fieldmist Borderpost
 Cost:   1WU
@@ -1364,7 +1371,7 @@ Type:   Creature — Human Cleric
 Pow/Tgh:    (1/3)
 Rules Text:     When Fiend Hunter enters the battlefield, you may exile another target creature.
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
-Set/Rarity:     Innistrad Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Innistrad Uncommon
 
 Name:   Fiend of the Shadows
 Cost:   3BB
@@ -1374,6 +1381,15 @@ Rules Text:     Flying
 Whenever Fiend of the Shadows deals combat damage to a player, that player exiles a card from his or her hand. You may play that card for as long as it remains exiled.
 Sacrifice a Human: Regenerate Fiend of the Shadows.
 Set/Rarity:     Dark Ascension Rare
+
+Name:   Fiendslayer Paladin
+Cost:   1WW
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/2)
+Rules Text:     First strike (This creature deals combat damage before creatures without first strike.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Fiendslayer Paladin can't be the target of black or red spells your opponents control.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Fierce Empath
 Cost:   2G
@@ -1403,7 +1419,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Fiery Fall deals 5 damage to target creature.
 Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
-Set/Rarity:     Planechase 2012 Edition Common, Duel Decks: Knights vs. Dragons Common, Conflux Common
+Set/Rarity:     Modern Masters Common, Planechase 2012 Edition Common, Duel Decks: Knights vs. Dragons Common, Conflux Common
 
 Name:   Fiery Gambit
 Cost:   2R
@@ -1478,7 +1494,7 @@ Pow/Tgh:    (1/1)
 Rules Text:     {(r/w)}: Figure of Destiny becomes a 2/2 Kithkin Spirit.
 {(r/w)}{(r/w)}{(r/w)}: If Figure of Destiny is a Spirit, it becomes a 4/4 Kithkin Spirit Warrior.
 {(r/w)}{(r/w)}{(r/w)}{(r/w)}{(r/w)}{(r/w)}: If Figure of Destiny is a Warrior, it becomes an 8/8 Kithkin Spirit Warrior Avatar with flying and first strike.
-Set/Rarity:     Premium Deck Series: Fire and Lightning Rare, Eventide Rare
+Set/Rarity:     Modern Masters Rare, Premium Deck Series: Fire and Lightning Rare, Eventide Rare
 
 Name:   Filigree Angel
 Cost:   5WWU
@@ -1634,7 +1650,7 @@ Cost:   6RRR
 Type:   Creature — Dragon
 Pow/Tgh:    (6/6)
 Rules Text:     Flying
-When Fire Dragon enters the battlefield, it deals damage equal to the number of Mountains you control to target creature.
+When Fire Dragon enters the battlefield, it deals damage to target creature equal to the number of Mountains you control.
 Set/Rarity:     Masters Edition II Rare, Portal Rare
 
 Name:   Fire Drake
@@ -1872,8 +1888,8 @@ Cost:   3
 Type:   Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature has double strike. (It deals both first-strike and regular combat damage.)
-Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)
-Set/Rarity:     Mirrodin Uncommon
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Magic 2014 Core Set Uncommon, Mirrodin Uncommon
 
 Name:   Fireslinger
 Cost:   1R
@@ -1950,7 +1966,7 @@ Cost:   1U
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
-Enchanted creature has islandwalk. (This creature is unblockable as long as defending player controls an Island.)
+Enchanted creature has islandwalk. (It can't be blocked as long as defending player controls an Island.)
 Set/Rarity:     Ninth Edition Common, Chronicles Common, Arabian Nights Common, Arabian Nights Common
 
 Name:   Fissure
@@ -2097,7 +2113,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     ({(2/r)} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)
 Flame Javelin deals 4 damage to target creature or player.
-Set/Rarity:     Duel Decks: Jace vs. Chandra Uncommon, Shadowmoor Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Duel Decks: Jace vs. Chandra Uncommon, Shadowmoor Uncommon
 
 Name:   Flame Jet
 Cost:   1R
@@ -2119,7 +2135,7 @@ Cost:   R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Flame Slash deals 4 damage to target creature.
-Set/Rarity:     Rise of the Eldrazi Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Rise of the Eldrazi Common
 
 Name:   Flame Spirit
 Cost:   4R
@@ -2226,7 +2242,7 @@ Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Flames of the Firebrand deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
-Set/Rarity:     Magic 2013 Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2013 Uncommon
 
 Name:   Flameshot
 Cost:   3R
@@ -2559,6 +2575,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Discard an artifact card: Fleshgrafter gets +2/+2 until end of turn.
 Set/Rarity:     Fifth Dawn Common
 
+Name:   Fleshpulper Giant
+Cost:   5RR
+Type:   Creature — Giant
+Pow/Tgh:    (4/4)
+Rules Text:     When Fleshpulper Giant enters the battlefield, you may destroy target creature with toughness 2 or less.
+Set/Rarity:     Magic 2014 Core Set Uncommon
+
 Name:   Fleshwrither
 Cost:   2BB
 Type:   Creature — Horror
@@ -2605,7 +2628,7 @@ Type:   Creature — Elemental
 Pow/Tgh:    (3/1)
 Rules Text:     Flying
 When Flickerwisp enters the battlefield, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.
-Set/Rarity:     Eventide Uncommon
+Set/Rarity:     Modern Masters Uncommon, Eventide Uncommon
 
 Name:   Flight
 Cost:   U
@@ -2730,7 +2753,7 @@ Name:   Flooded Woodlands
 Cost:   2UB
 Type:   Enchantment
 Pow/Tgh:    
-Rules Text:     Green creatures can't attack unless their controller sacrifices a land for each green creature he or she controls that's attacking.
+Rules Text:     Green creatures can't attack unless their controller sacrifices a land for each green creature he or she controls that's attacking. (This cost is paid as attackers are declared.)
 Set/Rarity:     Ice Age Rare
 
 Name:   Floodgate
@@ -3013,7 +3036,7 @@ Cost:   G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Prevent all combat damage that would be dealt this turn.
-Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Masters Edition IV Common, Magic 2011 Common, Archenemy Common, Magic 2010 Common, Seventh Edition Common, Beatdown Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Mirage Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common, Magic 2012 Common, Masters Edition IV Common, Magic 2011 Common, Archenemy Common, Magic 2010 Common, Seventh Edition Common, Beatdown Box Set Common, Classic Sixth Edition Common, Fifth Edition Common, Mirage Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Fog Bank
 Cost:   1U
@@ -3037,7 +3060,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Cast Fog Patch only during the declare blockers step.
-Attacking creatures become blocked. (This spell works on unblockable creatures.)
+Attacking creatures become blocked. (This spell works on creatures that can't be blocked.)
 Set/Rarity:     Nemesis Common
 
 Name:   Fog of Gnats
@@ -3204,7 +3227,7 @@ Cost:
 Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add one mana of any color to your mana pool.
-Whenever you tap Forbidden Orchard for mana, put a 1/1 colorless Spirit creature token onto the battlefield under target opponent's control.
+Whenever you tap Forbidden Orchard for mana, target opponent puts a 1/1 colorless Spirit creature token onto the battlefield.
 Set/Rarity:     From the Vault: Realms Mythic Rare, Champions of Kamigawa Rare
 
 Name:   Forbidden Ritual
@@ -3351,7 +3374,7 @@ Cost:
 Type:   Basic Land — Forest
 Pow/Tgh:    
 Rules Text:     G
-Set/Rarity:     Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
 
 Name:   Forest Bear
 Cost:   1G
@@ -3528,7 +3551,7 @@ Cost:   2W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Creatures you control get +2/+0 until end of turn; or creatures you control get +0/+2 until end of turn.
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Magic 2014 Core Set Common, Time Spiral Common
 
 Name:   Fortitude
 Cost:   1G
@@ -3885,7 +3908,7 @@ Cost:   4
 Type:   Artifact Creature — Frog
 Pow/Tgh:    (2/2)
 Rules Text:     Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Mirrodin Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Elspeth vs. Tezzeret Common, Mirrodin Common
 
 Name:   Frogtosser Banneret
 Cost:   1B
@@ -3906,7 +3929,7 @@ Name:   Frontline Medic
 Cost:   2W
 Type:   Creature — Human Cleric
 Pow/Tgh:    (3/3)
-Rules Text:     Battalion — Whenever Frontline Medic and at least two other creatures attack, creatures you control are indestructible this turn.
+Rules Text:     Battalion — Whenever Frontline Medic and at least two other creatures attack, creatures you control gain indestructible until end of turn.
 Sacrifice Frontline Medic: Counter target spell with {X} in its mana cost unless its controller pays {3}.
 Set/Rarity:     Gatecrash Rare
 
@@ -3931,7 +3954,7 @@ Cost:   2U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common
 
 Name:   Frost Giant
 Cost:   3RRR
@@ -4275,7 +4298,7 @@ Cost:   1R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Destroy target artifact; or target creature gets +1/+1 and gains trample until end of turn; or remove two time counters from target permanent or suspended card.
-Set/Rarity:     Planar Chaos Common
+Set/Rarity:     Modern Masters Common, Planar Chaos Common
 
 Name:   Fury Sliver
 Cost:   5R

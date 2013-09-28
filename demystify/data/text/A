@@ -159,7 +159,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player loses 4 life and you gain 4 life.
 Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
-Set/Rarity:     Conflux Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Sorin vs. Tibalt Common, Conflux Common
 
 Name:   Abu Ja'far
 Cost:   W
@@ -252,6 +252,14 @@ Rules Text:     Flying
 Whenever Abyssal Specter deals damage to a player, that player discards a card.
 Set/Rarity:     Duel Decks: Divine vs. Demonic Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Battle Royale Box Set Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Ice Age Uncommon
 
+Name:   Academy Raider
+Cost:   2R
+Type:   Creature — Human Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Whenever Academy Raider deals combat damage to a player, you may discard a card. If you do, draw a card.
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Academy Rector
 Cost:   3W
 Type:   Creature — Human Cleric
@@ -272,7 +280,7 @@ Type:   Legendary Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {1}{U}, {T}: Put target artifact card from your graveyard on top of your library.
-Set/Rarity:     Time Spiral Rare
+Set/Rarity:     Modern Masters Rare, Time Spiral Rare
 
 Name:   Accelerate
 Cost:   1R
@@ -308,9 +316,9 @@ Name:   Accorder's Shield
 Cost:   0
 Type:   Artifact — Equipment
 Pow/Tgh:    
-Rules Text:     Equipped creature gets +0/+3 and has vigilance.
-Equip {3}
-Set/Rarity:     Scars of Mirrodin Common
+Rules Text:     Equipped creature gets +0/+3 and has vigilance. (Attacking doesn't cause it to tap.)
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Magic 2014 Core Set Uncommon, Scars of Mirrodin Common
 
 Name:   Accumulated Knowledge
 Cost:   1U
@@ -325,6 +333,13 @@ Type:   Creature — Zombie Centaur
 Pow/Tgh:    (2/2)
 Rules Text:     When Accursed Centaur enters the battlefield, sacrifice a creature.
 Set/Rarity:     Onslaught Common
+
+Name:   Accursed Spirit
+Cost:   3B
+Type:   Creature — Spirit
+Pow/Tgh:    (3/2)
+Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Acid Rain
 Cost:   3U
@@ -418,8 +433,8 @@ Name:   Act of Treason
 Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
-Set/Rarity:     Gatecrash Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Uncommon
+Rules Text:     Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)
+Set/Rarity:     Magic 2014 Core Set Common, Gatecrash Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Uncommon
 
 Name:   Active Volcano
 Cost:   R
@@ -478,7 +493,7 @@ Type:   Snow Creature — Angel
 Pow/Tgh:    (4/5)
 Rules Text:     Flying, vigilance
 {T}: When target creature other than Adarkar Valkyrie dies this turn, return that card to the battlefield under your control.
-Set/Rarity:     Coldsnap Rare
+Set/Rarity:     Modern Masters Rare, Coldsnap Rare
 
 Name:   Adarkar Wastes
 Cost:   
@@ -572,12 +587,19 @@ Rules Text:     ({(2/u)} can be paid with any two mana or with {U}. This card's 
 Look at the top five cards of your library. If you control more creatures than each other player, put two of those cards into your hand. Otherwise, put one of them into your hand. Then put the rest on the bottom of your library in any order.
 Set/Rarity:     Shadowmoor Uncommon
 
+Name:   Advocate of the Beast
+Cost:   2G
+Type:   Creature — Elf Shaman
+Pow/Tgh:    (2/3)
+Rules Text:     At the beginning of your end step, put a +1/+1 counter on target Beast creature you control.
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Aegis Angel
 Cost:   4WW
 Type:   Creature — Angel
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
-When Aegis Angel enters the battlefield, another target permanent is indestructible for as long as you control Aegis Angel. (Effects that say "destroy" don't destroy that permanent. An indestructible creature can't be destroyed by damage.)
+When Aegis Angel enters the battlefield, another target permanent gains indestructible for as long as you control Aegis Angel. (Effects that say "destroy" don't destroy it. A creature with indestructible can't be destroyed by damage.)
 Set/Rarity:     Magic 2012 Rare
 
 Name:   Aegis of Honor
@@ -846,7 +868,7 @@ Type:   Creature — Elemental
 Pow/Tgh:    (4/3)
 Rules Text:     Flying
 {2}{U}: Tap target creature with flying.
-Set/Rarity:     Magic 2011 Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Magic 2011 Uncommon
 
 Name:   Airborne Aid
 Cost:   3U
@@ -888,6 +910,13 @@ Rules Text:     +1: Target permanent doesn't untap during its controller's next 
 -7: Destroy all lands target player controls.
 Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Mythic Rare, Shards of Alara Mythic Rare
 
+Name:   Ajani's Chosen
+Cost:   2WW
+Type:   Creature — Cat Soldier
+Pow/Tgh:    (3/3)
+Rules Text:     Whenever an enchantment enters the battlefield under your control, put a 2/2 white Cat creature token onto the battlefield. If that enchantment is an Aura, you may attach it to the token.
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Ajani's Mantra
 Cost:   1W
 Type:   Enchantment
@@ -916,7 +945,7 @@ Loyalty:    (4)
 Rules Text:     +1: Put a +1/+1 counter on up to one target creature.
 -3: Target creature gains flying and double strike until end of turn.
 -8: Put X 2/2 white Cat creature tokens onto the battlefield, where X is your life total.
-Set/Rarity:     Magic 2013 Mythic Rare
+Set/Rarity:     Magic 2014 Core Set Mythic Rare, Magic 2013 Mythic Rare
 
 Name:   Akki Avalanchers
 Cost:   R
@@ -1013,7 +1042,7 @@ Pow/Tgh:
 Rules Text:     Akoum Refuge enters the battlefield tapped.
 When Akoum Refuge enters the battlefield, you gain 1 life.
 {T}: Add {B} or {R} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Zendikar Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Magic: The Gathering-Commander Uncommon, Zendikar Uncommon
 
 Name:   Akrasan Squire
 Cost:   W
@@ -1513,7 +1542,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     As an additional cost to cast Altar's Reap, sacrifice a creature.
 Draw two cards.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Magic 2014 Core Set Common, Innistrad Common
 
 Name:   Alter Reality
 Cost:   1U
@@ -1645,14 +1674,14 @@ Cost:   1W
 Type:   Creature — Kithkin Rebel Scout
 Pow/Tgh:    (2/1)
 Rules Text:     {4}, {T}: Search your library for a Rebel permanent card with converted mana cost 3 or less and put it onto the battlefield. Then shuffle your library.
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   Amrou Seekers
 Cost:   2W
 Type:   Creature — Kithkin Rebel
 Pow/Tgh:    (2/2)
 Rules Text:     Amrou Seekers can't be blocked except by artifact creatures and/or white creatures.
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Modern Masters Common, Time Spiral Common
 
 Name:   Amugaba
 Cost:   5UU
@@ -1780,7 +1809,7 @@ Name:   Anaconda
 Cost:   3G
 Type:   Creature — Snake
 Pow/Tgh:    (3/3)
-Rules Text:     Swampwalk (This creature is unblockable as long as defending player controls a Swamp.)
+Rules Text:     Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 Set/Rarity:     Ninth Edition Uncommon, Seventh Edition Uncommon, Urza's Saga Uncommon, Portal Uncommon, Portal Uncommon
 
 Name:   Anarchist
@@ -1890,7 +1919,7 @@ Cost:   3B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     You draw three cards and you lose 3 life.
-Set/Rarity:     Starter 1999 Rare, Portal Second Age Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Starter 1999 Rare, Portal Second Age Rare
 
 Name:   Ancient Den
 Cost:   
@@ -2064,7 +2093,7 @@ Name:   Angel of Salvation
 Cost:   6WW
 Type:   Creature — Angel
 Pow/Tgh:    (5/5)
-Rules Text:     Flash; convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Flash; convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Flying
 When Angel of Salvation enters the battlefield, prevent the next 5 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Rare, Future Sight Rare
@@ -2091,7 +2120,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 You can't lose the game this turn and your opponents can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead.
-Set/Rarity:     Time Spiral Rare
+Set/Rarity:     Modern Masters Rare, Time Spiral Rare
 
 Name:   Angel's Herald
 Cost:   W
@@ -2136,6 +2165,13 @@ Pow/Tgh:
 Rules Text:     Whenever you're dealt damage, you may put that many charge counters on Angelheart Vial.
 {2}, {T}, Remove four charge counters from Angelheart Vial: You gain 2 life and draw a card.
 Set/Rarity:     Rise of the Eldrazi Rare
+
+Name:   Angelic Accord
+Cost:   3W
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     At the beginning of each end step, if you gained 4 or more life this turn, put a 4/4 white Angel creature token with flying onto the battlefield.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Angelic Arbiter
 Cost:   5WW
@@ -2213,7 +2249,7 @@ Cost:   3WW
 Type:   Creature — Angel
 Pow/Tgh:    (5/3)
 Rules Text:     Flying
-As long as you control a Human, Angelic Overseer has hexproof and is indestructible.
+As long as you control a Human, Angelic Overseer has hexproof and indestructible.
 Set/Rarity:     Innistrad Mythic Rare
 
 Name:   Angelic Page
@@ -2266,8 +2302,9 @@ Name:   Angelic Wall
 Cost:   1W
 Type:   Creature — Wall
 Pow/Tgh:    (0/4)
-Rules Text:     Defender, flying
-Set/Rarity:     Avacyn Restored Common, Tenth Edition Common, Odyssey Common, Portal Second Age Common
+Rules Text:     Defender (This creature can't attack.)
+Flying
+Set/Rarity:     Magic 2014 Core Set Common, Avacyn Restored Common, Tenth Edition Common, Odyssey Common, Portal Second Age Common
 
 Name:   Angelsong
 Cost:   1W
@@ -2450,7 +2487,7 @@ Cost:   2U
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-Enchanted creature can't be the target of spells and can't be enchanted. This effect doesn't remove Anti-Magic Aura.
+Enchanted creature can't be the target of spells and can't be enchanted by other Auras.
 Set/Rarity:     Fifth Edition Uncommon, Legends Common
 
 Name:   Antler Skulkin
@@ -2926,7 +2963,7 @@ Type:   Artifact Creature — Beast
 Pow/Tgh:    (0/0)
 Rules Text:     Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.
 Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
-Set/Rarity:     Darksteel Rare
+Set/Rarity:     Modern Masters Rare, Darksteel Rare
 
 Name:   Arcbound Reclaimer
 Cost:   4
@@ -2950,21 +2987,21 @@ Type:   Artifact Creature — Insect
 Pow/Tgh:    (0/0)
 Rules Text:     Flying
 Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
-Set/Rarity:     Darksteel Common
+Set/Rarity:     Modern Masters Common, Darksteel Common
 
 Name:   Arcbound Wanderer
 Cost:   6
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (0/0)
 Rules Text:     Modular—Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. When it dies, you may put its +1/+1 counters on target artifact creature.)
-Set/Rarity:     Fifth Dawn Uncommon
+Set/Rarity:     Modern Masters Common, Fifth Dawn Uncommon
 
 Name:   Arcbound Worker
 Cost:   1
 Type:   Artifact Creature — Construct
 Pow/Tgh:    (0/0)
 Rules Text:     Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Darksteel Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Elspeth vs. Tezzeret Common, Darksteel Common
 
 Name:   Archaeological Dig
 Cost:   
@@ -2980,7 +3017,7 @@ Cost:   2UU
 Type:   Creature — Human Wizard
 Pow/Tgh:    (1/2)
 Rules Text:     When Archaeomancer enters the battlefield, return target instant or sorcery card from your graveyard to your hand.
-Set/Rarity:     Magic 2013 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2013 Common
 
 Name:   Archangel
 Cost:   5WW
@@ -2998,6 +3035,15 @@ As Archangel of Strife enters the battlefield, each player chooses war or peace.
 Creatures controlled by players who chose war get +3/+0.
 Creatures controlled by players who chose peace get +0/+3.
 Set/Rarity:     Magic: The Gathering-Commander Rare
+
+Name:   Archangel of Thune
+Cost:   3WW
+Type:   Creature — Angel
+Pow/Tgh:    (3/4)
+Rules Text:     Flying
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Whenever you gain life, put a +1/+1 counter on each creature you control.
+Set/Rarity:     Magic 2014 Core Set Mythic Rare
 
 Name:   Archangel's Light
 Cost:   7W
@@ -3476,7 +3522,7 @@ Cost:   4U
 Type:   Creature — Crab
 Pow/Tgh:    (2/5)
 Rules Text:     
-Set/Rarity:     Magic 2011 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2011 Common
 
 Name:   Armored Galleon
 Cost:   4U
@@ -3643,7 +3689,7 @@ Name:   Artful Dodge
 Cost:   U
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Target creature is unblockable this turn.
+Rules Text:     Target creature can't be blocked this turn.
 Flashback {U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Dark Ascension Common
 
@@ -3678,6 +3724,14 @@ Enchanted creature can't be blocked by artifact creatures.
 Prevent all damage that would be dealt to enchanted creature by artifact sources.
 Enchanted creature can't be the target of abilities from artifact sources.
 Set/Rarity:     Antiquities Common
+
+Name:   Artificer's Hex
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant Equipment
+At the beginning of your upkeep, if enchanted Equipment is attached to a creature, destroy that creature.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Artificer's Intuition
 Cost:   1U
@@ -3868,7 +3922,7 @@ Cost:   1R
 Type:   Creature — Elemental Hound
 Pow/Tgh:    (2/1)
 Rules Text:     Whenever Ashmouth Hound blocks or becomes blocked by a creature, Ashmouth Hound deals 1 damage to that creature.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Innistrad Common
 
 Name:   Ashnod's Altar
 Cost:   3
@@ -4135,7 +4189,7 @@ Pow/Tgh:    (3/1)
 Rules Text:     Auntie's Snitch can't block.
 Prowl {1}{B} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue.)
 Whenever a Goblin or Rogue you control deals combat damage to a player, if Auntie's Snitch is in your graveyard, you may return Auntie's Snitch to your hand.
-Set/Rarity:     Morningtide Rare
+Set/Rarity:     Modern Masters Uncommon, Morningtide Rare
 
 Name:   Aura Barbs
 Cost:   2R
@@ -4240,7 +4294,7 @@ Cost:   2W
 Type:   Creature — Human Wizard
 Pow/Tgh:    (2/2)
 Rules Text:     When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.
-Set/Rarity:     Planechase 2012 Edition Common, Magic 2012 Common, Odyssey Common
+Set/Rarity:     Magic 2014 Core Set Common, Planechase 2012 Edition Common, Magic 2012 Common, Odyssey Common
 
 Name:   Auramancer's Guise
 Cost:   2UU
@@ -4329,7 +4383,7 @@ Cost:   3W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/4)
 Rules Text:     {1}{W}: Return target artifact card with converted mana cost 1 or less from your graveyard to your hand.
-Set/Rarity:     Fifth Dawn Uncommon
+Set/Rarity:     Modern Masters Rare, Fifth Dawn Uncommon
 
 Name:   Auriok Siege Sled
 Cost:   6
@@ -4344,7 +4398,7 @@ Cost:   1W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (1/1)
 Rules Text:     Equip costs you pay cost {1} less.
-As long as Auriok Steelshaper is equipped, Soldier and/or Knight creatures you control get +1/+1.
+As long as Auriok Steelshaper is equipped, each creature you control that's a Soldier or a Knight gets +1/+1.
 Set/Rarity:     Mirrodin Rare
 
 Name:   Auriok Sunchaser
@@ -4428,7 +4482,7 @@ Name:   Autochthon Wurm
 Cost:   10GGGWW
 Type:   Creature — Wurm
 Pow/Tgh:    (9/14)
-Rules Text:     Convoke (Each creature you tap while casting this spell reduces its cost by {1} or by one mana of that creature's color.)
+Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Trample
 Set/Rarity:     Ravnica: City of Guilds Rare
 
@@ -4467,8 +4521,8 @@ Name:   Avacyn, Angel of Hope
 Cost:   5WWW
 Type:   Legendary Creature — Angel
 Pow/Tgh:    (8/8)
-Rules Text:     Flying, vigilance
-Avacyn, Angel of Hope and other permanents you control are indestructible.
+Rules Text:     Flying, vigilance, indestructible
+Other permanents you control have indestructible.
 Set/Rarity:     Avacyn Restored Mythic Rare
 
 Name:   Avacynian Priest
@@ -4814,7 +4868,7 @@ Type:   Creature — Shapeshifter
 Pow/Tgh:    (2/2)
 Rules Text:     Changeling (This card is every creature type at all times.)
 Flying
-Set/Rarity:     Lorwyn Common
+Set/Rarity:     Modern Masters Common, Lorwyn Common
 
 Name:   Avizoa
 Cost:   3U
@@ -4830,6 +4884,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target instant or Aura spell that targets a permanent you control.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Legends Common
+
+Name:   Awaken the Ancient
+Cost:   1RRR
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant Mountain
+Enchanted Mountain is a 7/7 red Giant creature with haste. It's still a land.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Awakener Druid
 Cost:   2G
@@ -5032,7 +5094,7 @@ Name:   Azorius Herald
 Cost:   2W
 Type:   Creature — Spirit
 Pow/Tgh:    (2/1)
-Rules Text:     Azorius Herald is unblockable.
+Rules Text:     Azorius Herald can't be blocked.
 When Azorius Herald enters the battlefield, you gain 4 life.
 When Azorius Herald enters the battlefield, sacrifice it unless {U} was spent to cast it.
 Set/Rarity:     Dissension Uncommon

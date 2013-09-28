@@ -445,6 +445,13 @@ Rules Text:     Enchant creature
 When enchanted creature dies, that creature's controller loses life equal to its toughness.
 Set/Rarity:     Shards of Alara Common
 
+Name:   Banisher Priest
+Cost:   1WW
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/2)
+Rules Text:     When Banisher Priest enters the battlefield, exile target creature an opponent controls until Banisher Priest leaves the battlefield. (That creature returns under its owner's control.)
+Set/Rarity:     Magic 2014 Core Set Uncommon
+
 Name:   Banishing Knack
 Cost:   U
 Type:   Instant
@@ -750,6 +757,13 @@ Type:   Creature — Ogre Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     {T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to target creature or player.
 Set/Rarity:     Scars of Mirrodin Uncommon
+
+Name:   Barrage of Expendables
+Cost:   R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     {R}, Sacrifice a creature: Barrage of Expendables deals 1 damage to target creature or player.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Barrel Down Sokenzan
 Cost:   2R
@@ -1086,6 +1100,13 @@ Pow/Tgh:
 Rules Text:     Put two 1/1 white Bird creature tokens with flying onto the battlefield.
 Flashback—Tap three untapped white creatures you control. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Judgment Uncommon
+
+Name:   Battle Sliver
+Cost:   4R
+Type:   Creature — Sliver
+Pow/Tgh:    (3/3)
+Rules Text:     Sliver creatures you control get +2/+0.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Battle Squadron
 Cost:   3RR
@@ -2348,7 +2369,7 @@ Cost:   R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to him or her.
-Set/Rarity:     Odyssey Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Odyssey Common
 
 Name:   Blazing Shoal
 Cost:   XRR
@@ -2425,7 +2446,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 {W}: Enchanted creature gets +1/+1 until end of turn.
-Set/Rarity:     Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+Set/Rarity:     Magic 2014 Core Set Uncommon, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
 
 Name:   Blessing of Leeches
 Cost:   2B
@@ -2477,12 +2498,19 @@ Rules Text:     Equipped creature gets +1/+0 and has wither. (It deals damage to
 Equip {2}
 Set/Rarity:     Shadowmoor Common
 
+Name:   Blightcaster
+Cost:   3B
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/3)
+Rules Text:     Whenever you cast an enchantment spell, you may have target creature get -2/-2 until end of turn.
+Set/Rarity:     Magic 2014 Core Set Uncommon
+
 Name:   Blighted Agent
 Cost:   1U
 Type:   Creature — Human Rogue
 Pow/Tgh:    (1/1)
 Rules Text:     Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-Blighted Agent is unblockable.
+Blighted Agent can't be blocked.
 Set/Rarity:     New Phyrexia Common
 
 Name:   Blighted Shaman
@@ -2498,7 +2526,7 @@ Cost:   1BR
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Blightning deals 3 damage to target player. That player discards two cards.
-Set/Rarity:     Shards of Alara Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Shards of Alara Common
 
 Name:   Blightsoil Druid
 Cost:   1B
@@ -2513,14 +2541,13 @@ Type:   Creature — Human Rebel Cleric
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Target player loses 1 life.
 {4}, {T}: Search your library for a Rebel permanent card with converted mana cost 3 or less and put it onto the battlefield. Then shuffle your library.
-Set/Rarity:     Planar Chaos Common
+Set/Rarity:     Modern Masters Common, Planar Chaos Common
 
 Name:   Blightsteel Colossus
 Cost:   12
 Type:   Artifact Creature — Golem
 Pow/Tgh:    (11/11)
-Rules Text:     Trample, infect
-Blightsteel Colossus is indestructible.
+Rules Text:     Trample, infect, indestructible
 If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner's library instead.
 Set/Rarity:     Mirrodin Besieged Mythic Rare
 
@@ -2598,7 +2625,7 @@ Cost:   2R
 Type:   Creature — Giant Warrior
 Pow/Tgh:    (4/3)
 Rules Text:     Blind-Spot Giant can't attack or block unless you control another Giant.
-Set/Rarity:     Lorwyn Common
+Set/Rarity:     Modern Masters Common, Lorwyn Common
 
 Name:   Blinding Angel
 Cost:   3WW
@@ -2614,7 +2641,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose one — Tap two target creatures; or creatures don't untap during target player's next untap step.
 Entwine {1} (Choose both if you pay the entwine cost.)
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Mirrodin Common
+Set/Rarity:     Modern Masters Common, Duel Decks: Elspeth vs. Tezzeret Common, Mirrodin Common
 
 Name:   Blinding Light
 Cost:   2W
@@ -2667,7 +2694,7 @@ Pow/Tgh:
 Rules Text:     {T}: Add {1} to your mana pool.
 {1}: Blinkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying until end of turn. It's still a land.
 {1}, {T}: Target Blinkmoth creature gets +1/+1 until end of turn.
-Set/Rarity:     Darksteel Rare
+Set/Rarity:     Modern Masters Rare, Darksteel Rare
 
 Name:   Blinkmoth Urn
 Cost:   5
@@ -2782,7 +2809,7 @@ Name:   Blockade Runner
 Cost:   3U
 Type:   Creature — Merfolk
 Pow/Tgh:    (2/2)
-Rules Text:     {U}: Blockade Runner is unblockable this turn.
+Rules Text:     {U}: Blockade Runner can't be blocked this turn.
 Set/Rarity:     Mercadian Masques Common
 
 Name:   Blockbuster
@@ -2798,6 +2825,13 @@ Type:   Creature — Vampire
 Pow/Tgh:    (0/1)
 Rules Text:     Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
 Set/Rarity:     Avacyn Restored Uncommon
+
+Name:   Blood Bairn
+Cost:   2B
+Type:   Creature — Vampire
+Pow/Tgh:    (2/2)
+Rules Text:     Sacrifice another creature: Blood Bairn gets +2/+2 until end of turn.
+Set/Rarity:     Magic 2014 Core Set Common
 
 Name:   Blood Baron of Vizkopa
 Cost:   3WB
@@ -2887,7 +2921,7 @@ Cost:   2R
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Nonbasic lands are Mountains.
-Set/Rarity:     Ninth Edition Rare, Eighth Edition Rare, Chronicles Rare, The Dark Rare
+Set/Rarity:     Modern Masters Rare, Ninth Edition Rare, Eighth Edition Rare, Chronicles Rare, The Dark Rare
 
 Name:   Blood Oath
 Cost:   3R
@@ -3184,7 +3218,7 @@ Cost:   2B
 Type:   Creature — Vampire
 Pow/Tgh:    (3/1)
 Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Magic 2012 Common
 
 Name:   Bloodrite Invoker
 Cost:   2B
@@ -3356,6 +3390,13 @@ Pow/Tgh:
 Rules Text:     You gain 1 life for each creature on the battlefield. Prevent all combat damage that would be dealt this turn.
 Set/Rarity:     Scars of Mirrodin Common
 
+Name:   Blur Sliver
+Cost:   2R
+Type:   Creature — Sliver
+Pow/Tgh:    (2/2)
+Rules Text:     Sliver creatures you control have haste. (They can attack and {T} as soon as they come under your control.)
+Set/Rarity:     Magic 2014 Core Set Common
+
 Name:   Blurred Mongoose
 Cost:   1G
 Type:   Creature — Mongoose
@@ -3477,7 +3518,7 @@ Name:   Bog Raiders
 Cost:   2B
 Type:   Creature — Zombie
 Pow/Tgh:    (2/2)
-Rules Text:     Swampwalk (This creature is unblockable as long as defending player controls a Swamp.)
+Rules Text:     Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 Set/Rarity:     Magic 2011 Common, Starter 1999 Common, Urza's Saga Common, Portal Common
 
 Name:   Bog Rats
@@ -3520,7 +3561,7 @@ Name:   Bog Wraith
 Cost:   3B
 Type:   Creature — Wraith
 Pow/Tgh:    (3/3)
-Rules Text:     Swampwalk (This creature is unblockable as long as defending player controls a Swamp.)
+Rules Text:     Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 Set/Rarity:     Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Starter 1999 Uncommon, Classic Sixth Edition Uncommon, Portal Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Bog Wreckage
@@ -3580,6 +3621,13 @@ Rules Text:     Flash (You may cast this spell any time you could cast an instan
 When Bogardan Rager enters the battlefield, target creature gets +4/+0 until end of turn.
 Set/Rarity:     Duel Decks: Knights vs. Dragons Common, Planechase Common, Time Spiral Common
 
+Name:   Bogbrew Witch
+Cost:   3B
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/3)
+Rules Text:     {2}, {T}: Search your library for a card named Festering Newt or Bubbling Cauldron, put it onto the battlefield tapped, then shuffle your library.
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Boggart Arsonists
 Cost:   2R
 Type:   Creature — Goblin Rogue
@@ -3637,7 +3685,7 @@ Name:   Boggart Shenanigans
 Cost:   2R
 Type:   Tribal Enchantment — Goblin
 Pow/Tgh:    
-Rules Text:     Whenever another Goblin you control dies, you may have Boggart Shenanigans deal 1 damage to target player.
+Rules Text:     Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player.
 Set/Rarity:     Duel Decks: Elves vs. Goblins Uncommon, Lorwyn Uncommon
 
 Name:   Boggart Sprite-Chaser
@@ -3867,6 +3915,13 @@ Rules Text:     {1}{B}: Regenerate target Zombie.
 Morph {2}{B} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Set/Rarity:     Onslaught Uncommon
 
+Name:   Bonescythe Sliver
+Cost:   3W
+Type:   Creature — Sliver
+Pow/Tgh:    (2/2)
+Rules Text:     Sliver creatures you control have double strike. (They deal both first-strike and regular combat damage.)
+Set/Rarity:     Magic 2014 Core Set Rare
+
 Name:   Boneshard Slasher
 Cost:   1B
 Type:   Creature — Horror
@@ -3880,8 +3935,8 @@ Cost:   1
 Type:   Artifact — Equipment
 Pow/Tgh:    
 Rules Text:     Equipped creature gets +2/+0.
-Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)
-Set/Rarity:     Mirrodin Common
+Equip {1}
+Set/Rarity:     Modern Masters Common, Mirrodin Common
 
 Name:   Bonesplitter Sliver
 Cost:   3R
@@ -4057,7 +4112,7 @@ Name:   Boros Charm
 Cost:   RW
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Choose one — Boros Charm deals 4 damage to target player; or permanents you control are indestructible this turn; or target creature gains double strike until end of turn.
+Rules Text:     Choose one — Boros Charm deals 4 damage to target player; or permanents you control gain indestructible until end of turn; or target creature gains double strike until end of turn.
 Set/Rarity:     Gatecrash Uncommon
 
 Name:   Boros Cluestone
@@ -4232,7 +4287,7 @@ Name:   Bouncing Beebles
 Cost:   2U
 Type:   Creature — Beeble
 Pow/Tgh:    (2/2)
-Rules Text:     Bouncing Beebles is unblockable as long as defending player controls an artifact.
+Rules Text:     Bouncing Beebles can't be blocked as long as defending player controls an artifact.
 Set/Rarity:     Urza's Legacy Common
 
 Name:   Bound // Determined (Bound)
@@ -4256,7 +4311,7 @@ Type:   Tribal Enchantment — Rebel Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block.
-Set/Rarity:     Future Sight Uncommon
+Set/Rarity:     Modern Masters Common, Future Sight Uncommon
 
 Name:   Boundless Realms
 Cost:   6G
@@ -4441,7 +4496,7 @@ Cost:   2GG
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy target noncreature permanent.
-Set/Rarity:     Innistrad Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Innistrad Uncommon
 
 Name:   Bramblesnap
 Cost:   1G
@@ -4566,8 +4621,8 @@ Name:   Brave the Elements
 Cost:   W
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Choose a color. White creatures you control gain protection from the chosen color until end of turn.
-Set/Rarity:     Zendikar Uncommon
+Rules Text:     Choose a color. White creatures you control gain protection from the chosen color until end of turn. (They can't be blocked, targeted, dealt damage, or enchanted by anything of that color.)
+Set/Rarity:     Magic 2014 Core Set Uncommon, Zendikar Uncommon
 
 Name:   Brawl
 Cost:   3RR
@@ -4611,7 +4666,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Creatures you control get +1/+1 until end of turn.
-Fateful hour — If you have 5 or less life, those creatures also are indestructible this turn. (Lethal damage and effects that say "destroy" don't destroy them.)
+Fateful hour — If you have 5 or less life, those creatures gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
 Set/Rarity:     Dark Ascension Common
 
 Name:   Breaking // Entering (Breaking)
@@ -4623,7 +4678,7 @@ Fuse (You may cast one or both halves of this card from your hand.)
 Set/Rarity:     Dragon's Maze Rare
 
 Name:   Breaking // Entering (Entering)
-Cost:   4UB
+Cost:   4BR
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put a creature card from a graveyard onto the battlefield under your control. It gains haste until end of turn.
@@ -4635,7 +4690,7 @@ Cost:   1RR
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Any player may have Breaking Point deal 6 damage to him or her. If no one does, destroy all creatures. Creatures destroyed this way can't be regenerated.
-Set/Rarity:     Judgment Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Judgment Rare
 
 Name:   Breaking Wave
 Cost:   2UU
@@ -4781,7 +4836,7 @@ Type:   Creature — Wolf
 Pow/Tgh:    (3/3)
 Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
 When Briarpack Alpha enters the battlefield, target creature gets +2/+2 until end of turn.
-Set/Rarity:     Dark Ascension Uncommon
+Set/Rarity:     Magic 2014 Core Set Uncommon, Dark Ascension Uncommon
 
 Name:   Bribery
 Cost:   3UU
@@ -4796,7 +4851,7 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Whenever a nontoken creature is put into your graveyard from the battlefield, if Bridge from Below is in your graveyard, put a 2/2 black Zombie creature token onto the battlefield.
 When a creature is put into an opponent's graveyard from the battlefield, if Bridge from Below is in your graveyard, exile Bridge from Below.
-Set/Rarity:     Future Sight Rare
+Set/Rarity:     Modern Masters Rare, Future Sight Rare
 
 Name:   Brightflame
 Cost:   XRRWW
@@ -4884,7 +4939,7 @@ Cost:   2G
 Type:   Creature — Boar
 Pow/Tgh:    (2/2)
 Rules Text:     Sacrifice Brindle Boar: You gain 4 life.
-Set/Rarity:     Magic 2012 Common, Magic 2011 Common
+Set/Rarity:     Magic 2014 Core Set Common, Magic 2012 Common, Magic 2011 Common
 
 Name:   Brindle Shoat
 Cost:   1G
@@ -5146,7 +5201,7 @@ Cost:   2R
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.
-Set/Rarity:     Premium Deck Series: Fire and Lightning Uncommon, Planechase Uncommon, Time Spiral "Timeshifted" Special, Judgment Uncommon
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Premium Deck Series: Fire and Lightning Uncommon, Planechase Uncommon, Time Spiral "Timeshifted" Special, Judgment Uncommon
 
 Name:   Brown Ouphe
 Cost:   G
@@ -5234,7 +5289,7 @@ Cost:   R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +3/+3 until end of turn.
-Set/Rarity:     Planar Chaos Common
+Set/Rarity:     Modern Masters Common, Planar Chaos Common
 
 Name:   Bubble Matrix
 Cost:   4
@@ -5247,8 +5302,16 @@ Name:   Bubbling Beebles
 Cost:   4U
 Type:   Creature — Beeble
 Pow/Tgh:    (3/3)
-Rules Text:     Bubbling Beebles is unblockable as long as defending player controls an enchantment.
+Rules Text:     Bubbling Beebles can't be blocked as long as defending player controls an enchantment.
 Set/Rarity:     Urza's Destiny Common
+
+Name:   Bubbling Cauldron
+Cost:   2
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {1}, {T}, Sacrifice a creature: You gain 4 life.
+{1}, {T}, Sacrifice a creature named Festering Newt: Each opponent loses 4 life. You gain life equal to the life lost this way.
+Set/Rarity:     Magic 2014 Core Set Uncommon
 
 Name:   Bubbling Muck
 Cost:   B
@@ -5277,6 +5340,14 @@ Type:   Creature — Human Monk
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Budoka Pupil.
 At the beginning of the end step, if there are two or more ki counters on Budoka Pupil, you may flip it.
+Set/Rarity:     Betrayers of Kamigawa Uncommon
+
+Name:   Budoka Pupil (Ichiga, Who Topples Oaks)
+Cost:   1GG
+Type:   Legendary Creature — Spirit
+Pow/Tgh:    (4/3)
+Rules Text:     Trample
+Remove a ki counter from Ichiga, Who Topples Oaks: Target creature gets +2/+2 until end of turn.
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Builder's Bane
@@ -5349,7 +5420,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target opponent loses 3 life.
 Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Innistrad Common
 
 Name:   Buoyancy
 Cost:   1U
@@ -5426,6 +5497,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target creature gets +2/+0 until end of turn. Burning Cloak deals 2 damage to that creature.
 Set/Rarity:     Portal Common
+
+Name:   Burning Earth
+Cost:   3R
+Type:   Enchantment
+Pow/Tgh:    
+Rules Text:     Whenever a player taps a nonbasic land for mana, Burning Earth deals 1 damage to that player.
+Set/Rarity:     Magic 2014 Core Set Rare
 
 Name:   Burning Fields
 Cost:   4R
@@ -5640,7 +5718,7 @@ Type:   Creature — Vampire Warrior
 Pow/Tgh:    (5/4)
 Rules Text:     Flying
 Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature.
-Set/Rarity:     Magic: The Gathering-Commander Rare, Worldwake Rare
+Set/Rarity:     Duel Decks: Sorin vs. Tibalt Rare, Magic: The Gathering-Commander Rare, Worldwake Rare
 
 Name:   Butcher's Cleaver
 Cost:   3
