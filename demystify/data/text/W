@@ -172,7 +172,7 @@ Type:   Creature — Plant Wall
 Pow/Tgh:    (0/4)
 Rules Text:     Defender
 When Wall of Blossoms enters the battlefield, draw a card.
-Set/Rarity:     Planechase 2012 Edition Uncommon, Stronghold Uncommon
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Planechase 2012 Edition Uncommon, Stronghold Uncommon
 
 Name:   Wall of Bone
 Cost:   2B
@@ -490,7 +490,7 @@ Name:   Wall of Swords
 Cost:   3W
 Type:   Creature — Wall
 Pow/Tgh:    (3/5)
-Rules Text:     Defender (This creature can't attack)
+Rules Text:     Defender (This creature can't attack.)
 Flying
 Set/Rarity:     Magic 2014 Core Set Uncommon, Tenth Edition Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Portal Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
@@ -1064,6 +1064,13 @@ Rules Text:     Cast Warrior's Stand only during the declare attackers step and 
 Creatures you control get +2/+2 until end of turn.
 Set/Rarity:     Portal Three Kingdoms Uncommon, Portal Second Age Uncommon
 
+Name:   Warriors' Lesson
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Until end of turn, up to two target creatures you control each gain "Whenever this creature deals combat damage to a player, draw a card."
+Set/Rarity:     Theros Uncommon
+
 Name:   Warstorm Surge
 Cost:   5R
 Type:   Enchantment
@@ -1250,6 +1257,13 @@ Pow/Tgh:
 Rules Text:     Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 At the beginning of your draw step, destroy each creature with converted mana cost equal to the number of age counters on Wave of Terror. They can't be regenerated.
 Set/Rarity:     Weatherlight Rare
+
+Name:   Wavecrash Triton
+Cost:   2U
+Type:   Creature — Merfolk Wizard
+Pow/Tgh:    (1/4)
+Rules Text:     Heroic — Whenever you cast a spell that targets Wavecrash Triton, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
+Set/Rarity:     Theros Common
 
 Name:   Waves of Aggression
 Cost:   3(R/W)(R/W)
@@ -1783,6 +1797,14 @@ You may choose not to untap Whip Vine during your untap step.
 {T}: Tap target creature with flying blocked by Whip Vine. That creature doesn't untap during its controller's untap step for as long as Whip Vine remains tapped.
 Set/Rarity:     Alliances Common, Alliances Common
 
+Name:   Whip of Erebos
+Cost:   2BB
+Type:   Legendary Enchantment Artifact
+Pow/Tgh:    
+Rules Text:     Creatures you control have lifelink.
+{2}{B}{B}, {T}: Return target creature card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step. If it would leave the battlefield, exile it instead of putting it anywhere else. Activate this ability only any time you could cast a sorcery.
+Set/Rarity:     Theros Rare
+
 Name:   Whip-Spine Drake
 Cost:   3UU
 Type:   Creature — Drake
@@ -2110,6 +2132,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     ({(r/g)} can be paid with either {R} or {G}.)
 Sacrifice Wild Cantor: Add one mana of any color to your mana pool.
 Set/Rarity:     Guildpact Common
+
+Name:   Wild Celebrants
+Cost:   3RR
+Type:   Creature — Satyr
+Pow/Tgh:    (5/3)
+Rules Text:     When Wild Celebrants enters the battlefield, you may destroy target artifact.
+Set/Rarity:     Theros Common
 
 Name:   Wild Colos
 Cost:   2R
@@ -2565,7 +2594,7 @@ Cost:   3WW
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy all creatures that aren't enchanted. They can't be regenerated.
-Set/Rarity:     Tempest Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Rare, Tempest Rare
 
 Name:   Windscouter
 Cost:   3U
@@ -2712,6 +2741,14 @@ Pow/Tgh:
 Rules Text:     Changeling (This card is every creature type at all times.)
 Target creature becomes 4/4, gains all creature types, and gains flying until end of turn.
 Set/Rarity:     Lorwyn Common
+
+Name:   Wingsteed Rider
+Cost:   1WW
+Type:   Creature — Human Knight
+Pow/Tgh:    (2/2)
+Rules Text:     Flying
+Heroic — Whenever you cast a spell that targets Wingsteed Rider, put a +1/+1 counter on Wingsteed Rider.
+Set/Rarity:     Theros Common
 
 Name:   Winnow
 Cost:   1W
@@ -2950,6 +2987,14 @@ Pow/Tgh:
 Rules Text:     When Witchbane Orb enters the battlefield, destroy all Curses attached to you.
 You have hexproof. (You can't be the target of spells or abilities your opponents control, including Aura spells.)
 Set/Rarity:     Innistrad Rare
+
+Name:   Witches' Eye
+Cost:   1
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has "{1}, {T}: Scry 1." (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)
+Equip {1}
+Set/Rarity:     Theros Uncommon
 
 Name:   Witchstalker
 Cost:   1GG

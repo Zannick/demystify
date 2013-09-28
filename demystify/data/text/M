@@ -281,9 +281,8 @@ Name:   Magma Jet
 Cost:   1R
 Type:   Instant
 Pow/Tgh:    
-Rules Text:     Magma Jet deals 2 damage to target creature or player.
-Scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
-Set/Rarity:     Duel Decks: Jace vs. Chandra Uncommon, Fifth Dawn Uncommon
+Rules Text:     Magma Jet deals 2 damage to target creature or player. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Theros Uncommon
 
 Name:   Magma Mine
 Cost:   1
@@ -1179,6 +1178,13 @@ Pow/Tgh:
 Rules Text:     Each noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost. (Equipment that's a creature can't equip a creature.)
 Set/Rarity:     Archenemy Rare, Tenth Edition Rare, Mirrodin Rare
 
+Name:   March of the Returned
+Cost:   3B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return up to two target creature cards from your graveyard to your hand.
+Set/Rarity:     Theros Common
+
 Name:   Marhault Elsdragon
 Cost:   3RRG
 Type:   Legendary Creature — Elf Warrior
@@ -1792,6 +1798,15 @@ Rules Text:     Master of Etherium's power and toughness are each equal to the n
 Other artifact creatures you control get +1/+1.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Rare, Planechase Rare, Shards of Alara Rare
 
+Name:   Master of Waves
+Cost:   3U
+Type:   Creature — Merfolk Wizard
+Pow/Tgh:    (2/1)
+Rules Text:     Protection from red
+Elemental creatures you control get +1/+1.
+When Master of Waves enters the battlefield, put a number of 1/0 blue Elemental creature tokens onto the battlefield equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)
+Set/Rarity:     Theros Mythic Rare
+
 Name:   Master of the Hunt
 Cost:   2GG
 Type:   Creature — Human
@@ -2067,6 +2082,15 @@ Pow/Tgh:
 Rules Text:     Draw four cards. You skip your next turn.
 Set/Rarity:     Tempest Rare
 
+Name:   Medomai the Ageless
+Cost:   4WU
+Type:   Legendary Creature — Sphinx
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+Whenever Medomai the Ageless deals combat damage to a player, take an extra turn after this one.
+Medomai the Ageless can't attack during extra turns.
+Set/Rarity:     Theros Mythic Rare
+
 Name:   Meekstone
 Cost:   1
 Type:   Artifact
@@ -2152,6 +2176,13 @@ Type:   Creature — Angel Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     Flying, protection from black
 Set/Rarity:     Mirage Uncommon
+
+Name:   Meletis Charlatan
+Cost:   2U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/3)
+Rules Text:     {2}{U}, {T}: The controller of target instant or sorcery spell copies it. That player may choose new targets for the copy.
+Set/Rarity:     Theros Rare
 
 Name:   Melira's Keepers
 Cost:   4G
@@ -2739,6 +2770,14 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flying
 When Messenger Falcons enters the battlefield, draw a card.
 Set/Rarity:     Alara Reborn Uncommon
+
+Name:   Messenger's Speed
+Cost:   R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has trample and haste.
+Set/Rarity:     Theros Common
 
 Name:   Metal Fatigue
 Cost:   2W
@@ -3641,6 +3680,14 @@ Rules Text:     {1}{U}: Minotaur Illusionist gains shroud until end of turn. (It
 {R}, Sacrifice Minotaur Illusionist: Minotaur Illusionist deals damage equal to its power to target creature.
 Set/Rarity:     Apocalypse Uncommon
 
+Name:   Minotaur Skullcleaver
+Cost:   2R
+Type:   Creature — Minotaur Berserker
+Pow/Tgh:    (2/2)
+Rules Text:     Haste
+When Minotaur Skullcleaver enters the battlefield, it gets +2/+0 until end of turn.
+Set/Rarity:     Theros Common
+
 Name:   Minotaur Tactician
 Cost:   3R
 Type:   Creature — Minotaur
@@ -3669,7 +3716,7 @@ Cost:   4W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return target creature card from your graveyard to the battlefield. Put a +1/+1 counter on it.
-Set/Rarity:     Visions Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Visions Uncommon
 
 Name:   Mirari
 Cost:   5
@@ -3683,7 +3730,6 @@ Cost:   3GW
 Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures you control get +1/+1.
-
 Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.
 Set/Rarity:     Commander's Arsenal Rare, Judgment Rare
 
@@ -4089,6 +4135,15 @@ Rules Text:     Ninjutsu {U} ({U}, Return an unblocked attacker you control to h
 Whenever Mistblade Shinobi deals combat damage to a player, you may return target creature that player controls to its owner's hand.
 Set/Rarity:     Planechase 2012 Edition Common, Betrayers of Kamigawa Common
 
+Name:   Mistcutter Hydra
+Cost:   XG
+Type:   Creature — Hydra
+Pow/Tgh:    (0/0)
+Rules Text:     Mistcutter Hydra can't be countered.
+Haste, protection from blue
+Mistcutter Hydra enters the battlefield with X +1/+1 counters on it.
+Set/Rarity:     Theros Rare
+
 Name:   Mistfolk
 Cost:   UU
 Type:   Creature — Illusion
@@ -4312,7 +4367,7 @@ Type:   Creature — Wall
 Pow/Tgh:    (0/4)
 Rules Text:     Defender
 When Mnemonic Wall enters the battlefield, you may return target instant or sorcery card from your graveyard to your hand.
-Set/Rarity:     Rise of the Eldrazi Common
+Set/Rarity:     Theros Common
 
 Name:   Moan of the Unhallowed
 Cost:   2BB
@@ -4505,6 +4560,13 @@ Type:   Creature — Human Mercenary
 Pow/Tgh:    (2/2)
 Rules Text:     {3}, {T}: Search your library for a Goblin permanent card and put it onto the battlefield. Then shuffle your library.
 Set/Rarity:     Nemesis Rare
+
+Name:   Mogis's Marauder
+Cost:   2B
+Type:   Creature — Human Berserker
+Pow/Tgh:    (2/2)
+Rules Text:     When Mogis's Marauder enters the battlefield, up to X target creatures each gain intimidate and haste until end of turn, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
+Set/Rarity:     Theros Uncommon
 
 Name:   Mold Adder
 Cost:   G
@@ -4715,7 +4777,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +2/+2 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Innistrad Common
 
 Name:   Moment of Silence
 Cost:   W
@@ -5381,7 +5443,7 @@ Cost:
 Type:   Basic Land — Mountain
 Pow/Tgh:    
 Rules Text:     R
-Set/Rarity:     Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Duel Decks: Sorin vs. Tibalt Land, Duel Decks: Sorin vs. Tibalt Land, Duel Decks: Sorin vs. Tibalt Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Duel Decks: Venser vs. Koth Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Premium Deck Series: Fire and Lightning Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Duel Decks: Jace vs. Chandra Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Arabian Nights Common, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Theros Land, Theros Land, Theros Land, Theros Land
 
 Name:   Mountain Bandit
 Cost:   R

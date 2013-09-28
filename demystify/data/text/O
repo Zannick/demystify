@@ -235,6 +235,15 @@ Rules Text:     {T}: Add {U} to your mana pool.
 {1}: Return Oboro, Palace in the Clouds to its owner's hand.
 Set/Rarity:     Saviors of Kamigawa Rare
 
+Name:   Observant Alseid
+Cost:   2W
+Type:   Enchantment Creature — Nymph
+Pow/Tgh:    (2/2)
+Rules Text:     Bestow {4}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Vigilance
+Enchanted creature gets +2/+2 and has vigilance.
+Set/Rarity:     Theros Common
+
 Name:   Obsessive Search
 Cost:   U
 Type:   Instant
@@ -626,6 +635,13 @@ Rules Text:     Return all Islands to their owners' hands.
 Each player sacrifices a Plains or a white permanent for each white permanent he or she controls.
 Set/Rarity:     Alliances Rare
 
+Name:   Omenspeaker
+Cost:   1U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/3)
+Rules Text:     When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Theros Common
+
 Name:   Omnath, Locus of Mana
 Cost:   2G
 Type:   Legendary Creature — Elemental
@@ -907,6 +923,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     All Slivers have "Whenever this permanent becomes the target of a spell an opponent controls, you may draw a card."
 Set/Rarity:     Time Spiral Uncommon
 
+Name:   Opaline Unicorn
+Cost:   3
+Type:   Artifact Creature — Unicorn
+Pow/Tgh:    (1/2)
+Rules Text:     {T}: Add one mana of any color to your mana pool.
+Set/Rarity:     Theros Common
+
 Name:   Open the Vaults
 Cost:   4WW
 Type:   Sorcery
@@ -1145,7 +1168,7 @@ Cost:   R
 Type:   Creature — Orc
 Pow/Tgh:    (1/1)
 Rules Text:     {T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G} to your mana pool.
-Set/Rarity:     Masters Edition II Common, Ice Age Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Masters Edition II Common, Ice Age Common
 
 Name:   Orcish Mechanics
 Cost:   2R
@@ -1199,6 +1222,51 @@ Pow/Tgh:    (2/2)
 Rules Text:     Orcish Veteran can't block white creatures with power 2 or greater.
 {R}: Orcish Veteran gains first strike until end of turn.
 Set/Rarity:     Masters Edition II Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+
+Name:   Ordeal of Erebos
+Cost:   1B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Erebos.
+When you sacrifice Ordeal of Erebos, target player discards two cards.
+Set/Rarity:     Theros Uncommon
+
+Name:   Ordeal of Heliod
+Cost:   1W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Heliod.
+When you sacrifice Ordeal of Heliod, you gain 10 life.
+Set/Rarity:     Theros Uncommon
+
+Name:   Ordeal of Nylea
+Cost:   1G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Nylea.
+When you sacrifice Ordeal of Nylea, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
+Set/Rarity:     Theros Uncommon
+
+Name:   Ordeal of Purphoros
+Cost:   1R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Purphoros.
+When you sacrifice Ordeal of Purphoros, it deals 3 damage to target creature or player.
+Set/Rarity:     Theros Uncommon
+
+Name:   Ordeal of Thassa
+Cost:   1U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Thassa.
+When you sacrifice Ordeal of Thassa, draw two cards.
+Set/Rarity:     Theros Uncommon
 
 Name:   Order // Chaos (Chaos)
 Cost:   2R

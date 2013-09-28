@@ -13,6 +13,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     If you would draw a card while your library has no cards in it, you win the game instead.
 Set/Rarity:     Innistrad Rare
 
+Name:   Labyrinth Champion
+Cost:   3R
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     Heroic — Whenever you cast a spell that targets Labyrinth Champion, Labyrinth Champion deals 2 damage to target creature or player.
+Set/Rarity:     Theros Rare
+
 Name:   Labyrinth Minotaur
 Cost:   3U
 Type:   Creature — Minotaur
@@ -105,6 +112,13 @@ Type:   Creature — Lizard
 Pow/Tgh:    (3/3)
 Rules Text:     
 Set/Rarity:     Rise of the Eldrazi Common
+
+Name:   Lagonna-Band Elder
+Cost:   2W
+Type:   Creature — Centaur Advisor
+Pow/Tgh:    (3/2)
+Rules Text:     When Lagonna-Band Elder enters the battlefield, if you control an enchantment, you gain 3 life.
+Set/Rarity:     Theros Common
 
 Name:   Lair Delve
 Cost:   2G
@@ -304,6 +318,13 @@ Pow/Tgh:
 Rules Text:     Lash Out deals 3 damage to target creature. Clash with an opponent. If you win, Lash Out deals 3 damage to that creature's controller. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 Set/Rarity:     Magic: The Gathering-Commander Common, Lorwyn Common
 
+Name:   Lash of the Whip
+Cost:   4B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -4/-4 until end of turn.
+Set/Rarity:     Theros Common
+
 Name:   Lashknife
 Cost:   1W
 Type:   Enchantment — Aura
@@ -335,7 +356,7 @@ Cost:   1W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Exile target creature with power 2 or less. Its controller gains 4 life.
-Set/Rarity:     Shadowmoor Common, Mercadian Masques Uncommon
+Set/Rarity:     Theros Common
 
 Name:   Last Caress
 Cost:   2B
@@ -724,6 +745,15 @@ Pow/Tgh:    (3/5)
 Rules Text:     Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Leaf-Crowned Elder, you may reveal it. If you do, you may play that card without paying its mana cost.
 Set/Rarity:     Morningtide Rare
 
+Name:   Leafcrown Dryad
+Cost:   1G
+Type:   Enchantment Creature — Nymph Dryad
+Pow/Tgh:    (2/2)
+Rules Text:     Bestow {3}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Reach
+Enchanted creature gets +2/+2 and has reach.
+Set/Rarity:     Theros Common
+
 Name:   Leafdrake Roost
 Cost:   3GU
 Type:   Enchantment — Aura
@@ -982,6 +1012,13 @@ Type:   Creature — Cat Knight
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
 Set/Rarity:     Duel Decks: Knights vs. Dragons Uncommon, Mirrodin Besieged Common, Ninth Edition Uncommon, Mirrodin Uncommon
+
+Name:   Leonin Snarecaster
+Cost:   1W
+Type:   Creature — Cat Soldier
+Pow/Tgh:    (2/1)
+Rules Text:     When Leonin Snarecaster enters the battlefield, you may tap target creature.
+Set/Rarity:     Theros Common
 
 Name:   Leonin Squire
 Cost:   1W
@@ -1669,6 +1706,13 @@ Rules Text:     Lightning Storm deals X damage to target creature or player, whe
 Discard a land card: Put two charge counters on Lightning Storm. You may choose a new target for it. Any player may activate this ability but only if Lightning Storm is on the stack.
 Set/Rarity:     Coldsnap Uncommon
 
+Name:   Lightning Strike
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Lightning Strike deals 3 damage to target creature or player.
+Set/Rarity:     Theros Common
+
 Name:   Lightning Surge
 Cost:   3RR
 Type:   Sorcery
@@ -2163,7 +2207,7 @@ Pow/Tgh:
 Rules Text:     Llanowar Reborn enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a creature enters the battlefield, you may move a +1/+1 counter from this land onto it.)
-Set/Rarity:     Archenemy Uncommon, Future Sight Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Archenemy Uncommon, Future Sight Uncommon
 
 Name:   Llanowar Sentinel
 Cost:   2G
@@ -2229,6 +2273,14 @@ Type:   Creature — Centaur Shaman
 Pow/Tgh:    (3/2)
 Rules Text:     When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from his or her graveyard into his or her library.
 Set/Rarity:     Dissension Rare
+
+Name:   Loathsome Catoblepas
+Cost:   5B
+Type:   Creature — Beast
+Pow/Tgh:    (3/3)
+Rules Text:     {2}{G}: Loathsome Catoblepas must be blocked this turn if able.
+When Loathsome Catoblepas dies, target creature an opponent controls gets -3/-3 until end of turn.
+Set/Rarity:     Theros Common
 
 Name:   Lobber Crew
 Cost:   2R
@@ -2555,6 +2607,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated. Its controller may exile three cards from his or her graveyard for that player to ignore this effect until end of turn.
 Set/Rarity:     Judgment Common
+
+Name:   Lost in a Labyrinth
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -3/-0 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Common
 
 Name:   Lost in the Mist
 Cost:   3UU

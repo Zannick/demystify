@@ -110,6 +110,8 @@ tokens {
     BEGINNING;
     BEING;
     BELOW;
+    BESTOW;
+    BESTOWED;
     BETWEEN;
     BEYOND;
     BID;
@@ -213,6 +215,7 @@ tokens {
     DESTROYING;
     DETAIN;
     DETAINED;
+    DEVOTION;
     DEVOUR;
     DEVOURED;
     DID;
@@ -437,6 +440,8 @@ tokens {
     MIRACLE;
     MODULAR;
     MONOCOLORED;
+    MONSTROSITY;
+    MONSTROUS;
     MORE;
     MORPH;
     MOST;
@@ -482,6 +487,7 @@ tokens {
     ORDERED;
     ORDINAL_WORD;
     ORIGINAL;
+    ORIGINALLY;
     OTHER;
     OTHERWISE;
     OUT;
@@ -538,6 +544,7 @@ tokens {
     PREVENT;
     PREVENTED;
     PREVIOUSLY;
+    PRINTED;
     PROCESS;
     PRODUCE;
     PRODUCED;
@@ -741,7 +748,6 @@ tokens {
     UNATTACH;
     UNATTACHED;
     UNATTACHING;
-    UNBLOCKABLE;
     UNBLOCKED;
     UNCHANGED;
     UNDER;
@@ -822,6 +828,7 @@ ABILITY_WORD : 'fateful hour'
              | 'kinship'
              | 'chroma'
              | 'domain'
+             | 'heroic'
              | 'morbid'
              | 'sweep';
 CONTINUOUSLY : 'continuously';
@@ -856,8 +863,10 @@ ENCHANTMENT : 'enchantments'
 FATESEALING : 'fatesealing';
 LEGEND_RULE : 'legend rule';
 MONOCOLORED : 'monocolored';
+MONSTROSITY : 'monstrosity';
 MULTIKICKER : 'multikicker';
-NUMBER_WORD : 'seventeen'
+NUMBER_WORD : 'ninety-nine'
+            | 'seventeen'
             | 'eighteen'
             | 'fourteen'
             | 'nineteen'
@@ -892,7 +901,6 @@ OBJ_COUNTER : 'petrification'
             | 'infection'
             | 'mannequin'
             | 'currency'
-            | 'devotion'
             | 'divinity'
             | 'pressure'
             | 'training'
@@ -1232,6 +1240,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'wizards'
             | 'wombats'
             | 'wraiths'
+            | 'xenagos'
             | 'zombies'
             | 'allies'
             | 'angels'
@@ -1239,6 +1248,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'archer'
             | 'archon'
             | 'arkhos'
+            | 'ashiok'
             | 'avatar'
             | 'badger'
             | 'beasts'
@@ -1295,6 +1305,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'ninjas'
             | 'noggle'
             | 'nomads'
+            | 'nymphs'
             | 'octopi'
             | 'ouphes'
             | 'oyster'
@@ -1308,6 +1319,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'rhinos'
             | 'rigger'
             | 'rogues'
+            | 'sables'
             | 'satyrs'
             | 'scouts'
             | 'shades'
@@ -1393,6 +1405,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'ninja'
             | 'nissa'
             | 'nomad'
+            | 'nymph'
             | 'ogres'
             | 'oozes'
             | 'orggs'
@@ -1403,6 +1416,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'rebel'
             | 'rhino'
             | 'rogue'
+            | 'sable'
             | 'satyr'
             | 'scout'
             | 'serfs'
@@ -1442,6 +1456,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'gate'
             | 'germ'
             | 'goat'
+            | 'gods'
             | 'hags'
             | 'imps'
             | 'jace'
@@ -1479,6 +1494,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'elk'
             | 'eye'
             | 'fox'
+            | 'god'
             | 'hag'
             | 'imp'
             | 'kor'
@@ -1498,7 +1514,6 @@ TRANSFIGURE : 'transfigure';
 TRANSFORMED : 'transformed';
 TYPECYCLING : 'typecycling';
 UNATTACHING : 'unattaching';
-UNBLOCKABLE : 'unblockable';
 ABANDONING : 'abandoning';
 ACTIVATING : 'activating';
 ACTIVATION : 'activations'
@@ -1525,6 +1540,7 @@ FATESEALED : 'fatesealed';
 GRAVESTORM : 'gravestorm';
 INTIMIDATE : 'intimidate';
 MEDITATION : 'meditation';
+ORIGINALLY : 'originally';
 OVERLOADED : 'overloaded';
 PHASED_OUT : 'phased-out';
 PHENOMENON : 'phenomenon'
@@ -1582,6 +1598,7 @@ GRAVEYARD : 'graveyards'
 HOMELANDS : 'homelands';
 INCREASED : 'increased';
 LEGENDARY : 'legendary';
+MONSTROUS : 'monstrous';
 OTHERWISE : 'otherwise';
 OWNERSHIP : 'ownership';
 PERMANENT : 'permanents'
@@ -1640,6 +1657,7 @@ ASSEMBLE : 'assembles'
 ASSIGNED : 'assigned';
 ATTACHED : 'attached';
 ATTACKED : 'attacked';
+BESTOWED : 'bestowed';
 BLOCKERS : 'blockers';
 BLOCKING : 'blocking';
 CHAMPION : 'champions'
@@ -1658,6 +1676,7 @@ DECISION : 'decision';
 DECLARED : 'declared';
 DEFENDER : 'defender';
 DETAINED : 'detained';
+DEVOTION : 'devotion';
 DEVOURED : 'devoured';
 DIRECTLY : 'directly';
 DIVIDING : 'dividing';
@@ -1820,6 +1839,7 @@ PHASING : 'phasing';
 PLAYING : 'playing';
 PREVENT : 'prevents'
         | 'prevent';
+PRINTED : 'printed';
 PROCESS : 'process';
 PRODUCE : 'produces'
         | 'produce';
@@ -1894,6 +1914,7 @@ BECAME : 'became';
 BECOME : 'becomes'
        | 'become';
 BEFORE : 'before';
+BESTOW : 'bestow';
 BEYOND : 'beyond';
 BIDDER : 'bidders'
        | 'bidder';

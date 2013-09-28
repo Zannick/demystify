@@ -861,6 +861,14 @@ Rules Text:     If a white creature is attacking, you may pay {B}{B} rather than
 Exile target attacking creature. Put a token that's a copy of that creature onto the battlefield. Exile it at the beginning of the next end step.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Worldwake Uncommon
 
+Name:   Nemesis of Mortals
+Cost:   4GG
+Type:   Creature — Snake
+Pow/Tgh:    (5/5)
+Rules Text:     Nemesis of Mortals costs {1} less to cast for each creature card in your graveyard.
+{7}{G}{G}: Monstrosity 5. This ability costs {1} less to activate for each creature card in your graveyard. (If this creature isn't monstrous, put five +1/+1 counters on it and it becomes monstrous.)
+Set/Rarity:     Theros Uncommon
+
 Name:   Nemesis of Reason
 Cost:   3UB
 Type:   Creature — Leviathan Horror
@@ -891,12 +899,20 @@ Pow/Tgh:    (1/1)
 Rules Text:     {3}{U}, {T}: Exile another target creature you control, then return that card to the battlefield under your control.
 Set/Rarity:     Avacyn Restored Uncommon
 
+Name:   Nessian Asp
+Cost:   4G
+Type:   Creature — Snake
+Pow/Tgh:    (4/5)
+Rules Text:     Reach
+{6}{G}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)
+Set/Rarity:     Theros Common
+
 Name:   Nessian Courser
 Cost:   2G
 Type:   Creature — Centaur Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     
-Set/Rarity:     Future Sight Common
+Set/Rarity:     Theros Common
 
 Name:   Nest Invader
 Cost:   1G
@@ -1130,7 +1146,7 @@ Pow/Tgh:
 Rules Text:     New Benalia enters the battlefield tapped.
 When New Benalia enters the battlefield, scry 1. (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)
 {T}: Add {W} to your mana pool.
-Set/Rarity:     Duel Decks: Venser vs. Koth Uncommon, Future Sight Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Duel Decks: Venser vs. Koth Uncommon, Future Sight Uncommon
 
 Name:   New Frontiers
 Cost:   XG
@@ -1348,6 +1364,14 @@ Pow/Tgh:
 Rules Text:     Target creature gains swampwalk until end of turn.
 Draw a card.
 Set/Rarity:     Rise of the Eldrazi Common
+
+Name:   Nighthowler
+Cost:   1BB
+Type:   Enchantment Creature — Horror
+Pow/Tgh:    (0/0)
+Rules Text:     Bestow {2}{B}{B} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Nighthowler and enchanted creature each get +X/+X, where X is the number of creature cards in all graveyards.
+Set/Rarity:     Theros Rare
 
 Name:   Nightmare
 Cost:   5B
@@ -1616,6 +1640,15 @@ Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Add {U} to your mana pool. Activate this ability only if you control a Plains.
 Set/Rarity:     Future Sight Rare
 
+Name:   Nimbus Naiad
+Cost:   2U
+Type:   Enchantment Creature — Nymph
+Pow/Tgh:    (2/2)
+Rules Text:     Bestow {4}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Flying
+Enchanted creature gets +2/+2 and has flying.
+Set/Rarity:     Theros Common
+
 Name:   Nimbus Swimmer
 Cost:   XGU
 Type:   Creature — Leviathan
@@ -1799,7 +1832,7 @@ Type:   Creature — Spirit Avatar
 Pow/Tgh:    (3/4)
 Rules Text:     Flying
 Attacking creatures you control get +2/+0.
-Set/Rarity:     Eventide Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Rare, Eventide Rare
 
 Name:   Noble Benefactor
 Cost:   2U
@@ -2323,6 +2356,49 @@ Pow/Tgh:    (1/1)
 Rules Text:     At the beginning of your upkeep, you may put a 1/1 green Squirrel creature token onto the battlefield.
 Threshold — Squirrel creatures get +2/+2 as long as seven or more cards are in your graveyard.
 Set/Rarity:     Odyssey Rare
+
+Name:   Nykthos, Shrine to Nyx
+Cost:   
+Type:   Legendary Land
+Pow/Tgh:    
+Rules Text:     {T}: Add {1} to your mana pool.
+{2}, {T}: Choose a color. Add to your mana pool an amount of mana of that color equal to your devotion to that color. (Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.)
+Set/Rarity:     Theros Rare
+
+Name:   Nylea's Disciple
+Cost:   2GG
+Type:   Creature — Centaur Archer
+Pow/Tgh:    (3/3)
+Rules Text:     When Nylea's Disciple enters the battlefield, you gain life equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)
+Set/Rarity:     Theros Common
+
+Name:   Nylea's Emissary
+Cost:   3G
+Type:   Enchantment Creature — Cat
+Pow/Tgh:    (3/3)
+Rules Text:     Bestow {5}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Trample
+Enchanted creature gets +3/+3 and has trample.
+Set/Rarity:     Theros Uncommon
+
+Name:   Nylea's Presence
+Cost:   1G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant land
+When Nylea's Presence enters the battlefield, draw a card.
+Enchanted land is every basic land type in addition to its other types.
+Set/Rarity:     Theros Common
+
+Name:   Nylea, God of the Hunt
+Cost:   3G
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (6/6)
+Rules Text:     Indestructible
+As long as your devotion to green is less than five, Nylea isn't a creature. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)
+Other creatures you control have trample.
+{3}{G}: Target creature gets +2/+2 until end of turn.
+Set/Rarity:     Theros Mythic Rare
 
 Name:   Nyxathid
 Cost:   1BB

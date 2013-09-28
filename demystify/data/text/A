@@ -62,6 +62,15 @@ Rules Text:     Until end of turn, target player can't cast instant or sorcery s
 Draw a card.
 Set/Rarity:     Weatherlight Rare
 
+Name:   Abhorrent Overlord
+Cost:   5BB
+Type:   Creature — Demon
+Pow/Tgh:    (6/6)
+Rules Text:     Flying
+When Abhorrent Overlord enters the battlefield, put a number of 1/1 black Harpy creature tokens with flying onto the battlefield equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
+At the beginning of your upkeep, sacrifice a creature.
+Set/Rarity:     Theros Rare
+
 Name:   Abjure
 Cost:   U
 Type:   Instant
@@ -747,6 +756,13 @@ Flying
 When Ageless Sentinels blocks, it becomes a Bird Giant, and it loses defender. (It's no longer a Wall. This effect lasts indefinitely.)
 Set/Rarity:     Scourge Rare
 
+Name:   Agent of Horizons
+Cost:   2G
+Type:   Creature — Human Rogue
+Pow/Tgh:    (3/2)
+Rules Text:     {2}{U}: Agent of Horizons can't be blocked this turn.
+Set/Rarity:     Theros Common
+
 Name:   Agent of Masks
 Cost:   3WB
 Type:   Creature — Human Advisor
@@ -767,6 +783,14 @@ Type:   Creature — Human Knight
 Pow/Tgh:    (1/1)
 Rules Text:     {R}: Add {B} to your mana pool.
 Set/Rarity:     Alliances Common, Alliances Common
+
+Name:   Agent of the Fates
+Cost:   1BB
+Type:   Creature — Human Assassin
+Pow/Tgh:    (3/2)
+Rules Text:     Deathtouch
+Heroic — Whenever you cast a spell that targets Agent of the Fates, each opponent sacrifices a creature.
+Set/Rarity:     Theros Rare
 
 Name:   Aggravate
 Cost:   3RR
@@ -1051,6 +1075,29 @@ Pow/Tgh:    (1/1)
 Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Set/Rarity:     Shards of Alara Common
 
+Name:   Akroan Crusader
+Cost:   R
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     Heroic — Whenever you cast a spell that targets Akroan Crusader, put a 1/1 red Soldier creature token with haste onto the battlefield.
+Set/Rarity:     Theros Common
+
+Name:   Akroan Hoplite
+Cost:   RW
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/2)
+Rules Text:     Whenever Akroan Hoplite attacks, it gets +X/+0 until end of turn, where X is the number of attacking creatures you control.
+Set/Rarity:     Theros Uncommon
+
+Name:   Akroan Horse
+Cost:   4
+Type:   Artifact Creature — Horse
+Pow/Tgh:    (0/4)
+Rules Text:     Defender
+When Akroan Horse enters the battlefield, an opponent gains control of it.
+At the beginning of your upkeep, each opponent puts a 1/1 white Soldier creature token onto the battlefield.
+Set/Rarity:     Theros Rare
+
 Name:   Akroma's Blessing
 Cost:   2W
 Type:   Instant
@@ -1079,7 +1126,7 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Destroy all artifacts, creatures, and enchantments.
 Cycling {3} ({3}, Discard this card: Draw a card.)
-Set/Rarity:     Magic: The Gathering-Commander Rare, Planechase Rare, Onslaught Rare
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Magic: The Gathering-Commander Rare, Planechase Rare, Onslaught Rare
 
 Name:   Akroma, Angel of Fury
 Cost:   5RRR
@@ -1843,6 +1890,14 @@ If Anavolver was kicked with its {1}{U} kicker, it enters the battlefield with t
 If Anavolver was kicked with its {B} kicker, it enters the battlefield with a +1/+1 counter on it and with "Pay 3 life: Regenerate Anavolver."
 Set/Rarity:     Apocalypse Rare
 
+Name:   Anax and Cymede
+Cost:   1RW
+Type:   Legendary Creature — Human Soldier
+Pow/Tgh:    (3/2)
+Rules Text:     First strike, vigilance
+Heroic — Whenever you cast a spell that targets Anax and Cymede, creatures you control get +1/+1 and gain trample until end of turn.
+Set/Rarity:     Theros Rare
+
 Name:   Ancestor's Chosen
 Cost:   5WW
 Type:   Creature — Human Cleric
@@ -2322,6 +2377,13 @@ Rules Text:     Haste
 As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.
 Set/Rarity:     Duel Decks: Venser vs. Koth Uncommon, Magic: The Gathering-Commander Uncommon, Judgment Uncommon
 
+Name:   Anger of the Gods
+Cost:   1RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Anger of the Gods deals 3 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
+Set/Rarity:     Theros Rare
+
 Name:   Angry Mob
 Cost:   2WW
 Type:   Creature — Human
@@ -2342,7 +2404,7 @@ Cost:   2W
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant land
-Enchanted land has "{T}, Sacrifice a creature: You gain life equal to that creature's toughness."
+Enchanted land has "{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness."
 Set/Rarity:     Odyssey Uncommon
 
 Name:   Animal Magnetism
@@ -2428,7 +2490,7 @@ Cost:   U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Counter target artifact or enchantment spell.
-Set/Rarity:     Mirrodin Common, Urza's Saga Common
+Set/Rarity:     Theros Common
 
 Name:   Anodet Lurker
 Cost:   5
@@ -2473,6 +2535,13 @@ Pow/Tgh:
 Rules Text:     Whenever a creature you control attacks, it gets +2/+0 until end of turn and Anthem of Rakdos deals 1 damage to you.
 Hellbent — As long as you have no cards in hand, if a source you control would deal damage to a creature or player, it deals double that damage to that creature or player instead.
 Set/Rarity:     Dissension Rare
+
+Name:   Anthousa, Setessan Hero
+Cost:   3GG
+Type:   Legendary Creature — Human Warrior
+Pow/Tgh:    (4/5)
+Rules Text:     Heroic — Whenever you cast a spell that targets Anthousa, Setessan Hero, up to three target lands you control each become 2/2 Warrior creatures until end of turn. They're still lands.
+Set/Rarity:     Theros Rare
 
 Name:   Anthroplasm
 Cost:   2UU
@@ -2541,6 +2610,13 @@ Pow/Tgh:
 Rules Text:     Players have no maximum hand size.
 At the beginning of each player's draw step, that player draws an additional card, then discards a card.
 Set/Rarity:     Visions Rare
+
+Name:   Anvilwrought Raptor
+Cost:   4
+Type:   Artifact Creature — Bird
+Pow/Tgh:    (2/1)
+Rules Text:     Flying, first strike
+Set/Rarity:     Theros Uncommon
 
 Name:   Apathy
 Cost:   U
@@ -2631,7 +2707,7 @@ Name:   Apocalypse Chime
 Cost:   2
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     {2}, {T}, Sacrifice Apocalypse Chime: Destroy all nontoken permanents from the Homelands expansion. They can't be regenerated.
+Rules Text:     {2}, {T}, Sacrifice Apocalypse Chime: Destroy all nontoken permanents originally printed in the Homelands expansion. They can't be regenerated.
 Set/Rarity:     Homelands Rare
 
 Name:   Apocalypse Hydra
@@ -2708,6 +2784,15 @@ Rules Text:     Graft 2 (This creature enters the battlefield with two +1/+1 cou
 {G}: Target creature with a +1/+1 counter on it gains reach until end of turn. (It can block creatures with flying.)
 Set/Rarity:     Magic: The Gathering-Commander Common, Dissension Common
 
+Name:   Aqueous Form
+Cost:   U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature can't be blocked.
+Whenever enchanted creature attacks, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Common
+
 Name:   Aquitect's Will
 Cost:   U
 Type:   Tribal Sorcery — Merfolk
@@ -2776,6 +2861,15 @@ Pow/Tgh:    (5/5)
 Rules Text:     Vigilance
 When Arbiter of Knollridge enters the battlefield, each player's life total becomes the highest life total among all players.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Lorwyn Rare
+
+Name:   Arbor Colossus
+Cost:   2GGG
+Type:   Creature — Giant
+Pow/Tgh:    (6/6)
+Rules Text:     Reach
+{3}{G}{G}{G}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Arbor Colossus becomes monstrous, destroy target creature with flying an opponent controls.
+Set/Rarity:     Theros Rare
 
 Name:   Arbor Elf
 Cost:   G
@@ -3264,6 +3358,13 @@ Pow/Tgh:
 Rules Text:     {3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 Set/Rarity:     Time Spiral "Timeshifted" Special, Promo set for Gatherer Special
 
+Name:   Arena Athlete
+Cost:   1R
+Type:   Creature — Human
+Pow/Tgh:    (2/1)
+Rules Text:     Heroic — Whenever you cast a spell that targets Arena Athlete, target creature an opponent controls can't block this turn.
+Set/Rarity:     Theros Uncommon
+
 Name:   Arena of the Ancients
 Cost:   3
 Type:   Artifact
@@ -3594,7 +3695,7 @@ Cost:   3W
 Type:   Creature — Giant Soldier
 Pow/Tgh:    (2/5)
 Rules Text:     Armory Guard has vigilance as long as you control a Gate.
-Set/Rarity:     Return to Ravnica Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Return to Ravnica Common
 
 Name:   Arms Dealer
 Cost:   2R
@@ -3755,6 +3856,13 @@ Rules Text:     As an additional cost to cast Artillerize, sacrifice an artifact
 Artillerize deals 5 damage to target creature or player.
 Set/Rarity:     New Phyrexia Common
 
+Name:   Artisan of Forms
+Cost:   1U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/1)
+Rules Text:     Heroic — Whenever you cast a spell that targets Artisan of Forms, you may have Artisan of Forms become a copy of target creature and gain this ability.
+Set/Rarity:     Theros Rare
+
 Name:   Artisan of Kozilek
 Cost:   9
 Type:   Creature — Eldrazi
@@ -3762,6 +3870,13 @@ Pow/Tgh:    (10/9)
 Rules Text:     When you cast Artisan of Kozilek, you may return target creature card from your graveyard to the battlefield.
 Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
 Set/Rarity:     Magic: The Gathering-Commander Uncommon, Archenemy Uncommon, Rise of the Eldrazi Uncommon
+
+Name:   Artisan's Sorrow
+Cost:   3G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target artifact or enchantment. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Theros Uncommon
 
 Name:   Ascendant Evincar
 Cost:   4BB
@@ -3849,6 +3964,14 @@ Pow/Tgh:
 Rules Text:     Put target creature card from an opponent's graveyard onto the battlefield under your control.
 Set/Rarity:     Classic Sixth Edition Rare, Mirage Rare
 
+Name:   Ashen Rider
+Cost:   4WWBB
+Type:   Creature — Archon
+Pow/Tgh:    (5/5)
+Rules Text:     Flying
+When Ashen Rider enters the battlefield or dies, exile target permanent.
+Set/Rarity:     Theros Mythic Rare
+
 Name:   Ashen-Skin Zubera
 Cost:   1B
 Type:   Creature — Zubera Spirit
@@ -3893,6 +4016,15 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Exile two target nonartifact creatures. Ashes to Ashes deals 5 damage to you.
 Set/Rarity:     Masters Edition III Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, The Dark Common
+
+Name:   Ashiok, Nightmare Weaver
+Cost:   1UB
+Type:   Planeswalker — Ashiok
+Loyalty:    (3)
+Rules Text:     +2: Exile the top three cards of target opponent's library.
+-X: Put a creature card with converted mana cost X exiled with Ashiok, Nightmare Weaver onto the battlefield under your control. That creature is a Nightmare in addition to its other types.
+-10: Exile all cards from all opponents' hands and graveyards.
+Set/Rarity:     Theros Mythic Rare
 
 Name:   Ashling the Pilgrim
 Cost:   1R
@@ -3977,6 +4109,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature gets +X/+Y, where X is half the number of Forests you control, rounded down, and Y is half the number of Forests you control, rounded up.
 Set/Rarity:     Fifth Edition Rare, Fourth Edition Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+
+Name:   Asphodel Wanderer
+Cost:   B
+Type:   Creature — Skeleton Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     {2}{B}: Regenerate Asphodel Wanderer.
+Set/Rarity:     Theros Common
 
 Name:   Assassin's Blade
 Cost:   1B
@@ -4294,7 +4433,7 @@ Cost:   2W
 Type:   Creature — Human Wizard
 Pow/Tgh:    (2/2)
 Rules Text:     When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.
-Set/Rarity:     Magic 2014 Core Set Common, Planechase 2012 Edition Common, Magic 2012 Common, Odyssey Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Magic 2014 Core Set Common, Planechase 2012 Edition Common, Magic 2012 Common, Odyssey Common
 
 Name:   Auramancer's Guise
 Cost:   2UU

@@ -237,6 +237,15 @@ Whenever you cast a red spell, Balefire Liege deals 3 damage to target player.
 Whenever you cast a white spell, you gain 3 life.
 Set/Rarity:     Planechase Rare, Eventide Rare
 
+Name:   Baleful Eidolon
+Cost:   1B
+Type:   Enchantment Creature — Spirit
+Pow/Tgh:    (1/1)
+Rules Text:     Bestow {4}{B} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Enchanted creature gets +1/+1 and has deathtouch.
+Set/Rarity:     Theros Common
+
 Name:   Baleful Stare
 Cost:   2U
 Type:   Sorcery
@@ -1083,7 +1092,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature has double strike.
-Set/Rarity:     Lorwyn Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Lorwyn Uncommon
 
 Name:   Battle Rampart
 Cost:   2R
@@ -1237,6 +1246,20 @@ Pow/Tgh:    (2/2)
 Rules Text:     Flying
 Threshold — As long as seven or more cards are in your graveyard, Battlewise Aven gets +1/+1 and has first strike.
 Set/Rarity:     Judgment Common
+
+Name:   Battlewise Hoplite
+Cost:   WU
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Heroic — Whenever you cast a spell that targets Battlewise Hoplite, put a +1/+1 counter on Battlewise Hoplite, then scry 1. (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)
+Set/Rarity:     Theros Uncommon
+
+Name:   Battlewise Valor
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +2/+2 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Common
 
 Name:   Batwing Brume
 Cost:   1(W/B)
@@ -1403,7 +1426,7 @@ Cost:   2G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target permanent. Its controller puts a 3/3 green Beast creature token onto the battlefield.
-Set/Rarity:     Planechase 2012 Edition Uncommon, New Phyrexia Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Planechase 2012 Edition Uncommon, New Phyrexia Uncommon
 
 Name:   Beast of Burden
 Cost:   6
@@ -1761,6 +1784,13 @@ Pow/Tgh:    (2/4)
 Rules Text:     {T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce to your mana pool.
 Set/Rarity:     Masters Edition III Common, Alliances Common, Alliances Common
 
+Name:   Benthic Giant
+Cost:   5U
+Type:   Creature — Giant
+Pow/Tgh:    (4/5)
+Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Set/Rarity:     Theros Common
+
 Name:   Benthicore
 Cost:   6U
 Type:   Creature — Elemental
@@ -1862,6 +1892,14 @@ Pow/Tgh:
 Rules Text:     Target creature gets -3/-0 until end of turn.
 Draw a card.
 Set/Rarity:     Time Spiral Common
+
+Name:   Bident of Thassa
+Cost:   2UU
+Type:   Legendary Enchantment Artifact
+Pow/Tgh:    
+Rules Text:     Whenever a creature you control deals combat damage to a player, you may draw a card.
+{1}{U}, {T}: Creatures your opponents control attack this turn if able.
+Set/Rarity:     Theros Rare
 
 Name:   Bifurcate
 Cost:   3G
@@ -2936,7 +2974,7 @@ Type:   Creature — Ogre Warrior
 Pow/Tgh:    (2/2)
 Rules Text:     Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
 First strike (This creature deals combat damage before creatures without first strike.)
-Set/Rarity:     Magic 2012 Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Magic 2012 Common
 
 Name:   Blood Pet
 Cost:   B
@@ -2977,7 +3015,7 @@ Name:   Blood Speaker
 Cost:   3B
 Type:   Creature — Ogre Shaman
 Pow/Tgh:    (3/2)
-Rules Text:     At the beginning of your upkeep, you may sacrifice Blood Speaker. If you do, search your library for a Demon card, reveal that card, and put it into your hand. Then shuffle your library.
+Rules Text:     At the beginning of your upkeep, you may sacrifice Blood Speaker. If you do, search your library for a Demon card, reveal that card, put it into your hand, then shuffle your library.
 Whenever a Demon enters the battlefield under your control, return Blood Speaker from your graveyard to your hand.
 Set/Rarity:     Champions of Kamigawa Uncommon
 
@@ -3018,6 +3056,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Until end of turn, if damage would be dealt to any creature, you may have that damage dealt to you instead.
 Set/Rarity:     Chronicles Uncommon, The Dark Uncommon
+
+Name:   Blood-Toll Harpy
+Cost:   2B
+Type:   Creature — Harpy
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+When Blood-Toll Harpy enters the battlefield, each player loses 1 life.
+Set/Rarity:     Theros Common
 
 Name:   Bloodbond March
 Cost:   2BG
@@ -3811,7 +3857,7 @@ Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
 Enchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Innistrad Common
 
 Name:   Bonds of Quicksilver
 Cost:   3U
@@ -4018,6 +4064,22 @@ Pow/Tgh:
 Rules Text:     If you would gain life, you gain twice that much life instead.
 Set/Rarity:     Shadowmoor Rare
 
+Name:   Boon Satyr
+Cost:   1GG
+Type:   Enchantment Creature — Satyr
+Pow/Tgh:    (4/2)
+Rules Text:     Flash
+Bestow {3}{G}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Enchanted creature gets +4/+2.
+Set/Rarity:     Theros Rare
+
+Name:   Boon of Erebos
+Cost:   B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +2/+0 until end of turn. Regenerate it. You lose 2 life.
+Set/Rarity:     Theros Common
+
 Name:   Borborygmos
 Cost:   3RRGG
 Type:   Legendary Creature — Cyclops
@@ -4056,6 +4118,13 @@ Pow/Tgh:    (4/4)
 Rules Text:     Trample
 Borderland Behemoth gets +4/+4 for each other Giant you control.
 Set/Rarity:     Morningtide Rare
+
+Name:   Borderland Minotaur
+Cost:   2RR
+Type:   Creature — Minotaur Warrior
+Pow/Tgh:    (4/3)
+Rules Text:     
+Set/Rarity:     Theros Common
 
 Name:   Borderland Ranger
 Cost:   2G
@@ -4152,7 +4221,7 @@ Type:   Land — Gate
 Pow/Tgh:    
 Rules Text:     Boros Guildgate enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
-Set/Rarity:     Dragon's Maze Common, Gatecrash Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Dragon's Maze Common, Gatecrash Common
 
 Name:   Boros Guildmage
 Cost:   (R/W)(R/W)
@@ -4283,6 +4352,13 @@ At the beginning of your upkeep, if Bottomless Vault is tapped, put a storage co
 {T}, Remove any number of storage counters from Bottomless Vault: Add {B} to your mana pool for each storage counter removed this way.
 Set/Rarity:     Fifth Edition Rare, Fallen Empires Rare
 
+Name:   Boulderfall
+Cost:   6RR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Boulderfall deals 5 damage divided as you choose among any number of target creatures and/or players.
+Set/Rarity:     Theros Common
+
 Name:   Bouncing Beebles
 Cost:   2U
 Type:   Creature — Beeble
@@ -4350,6 +4426,14 @@ Pow/Tgh:
 Rules Text:     You may exile a green card from your hand rather than pay Bounty of the Hunt's mana cost.
 Distribute three +1/+1 counters among one, two, or three target creatures. For each +1/+1 counter you put on a creature this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step.
 Set/Rarity:     Masters Edition II Rare, Alliances Uncommon
+
+Name:   Bow of Nylea
+Cost:   1GG
+Type:   Legendary Enchantment Artifact
+Pow/Tgh:    
+Rules Text:     Attacking creatures you control have deathtouch.
+{1}{G}, {T}: Choose one — Put a +1/+1 counter on target creature; or Bow of Nylea deals 2 damage to target creature with flying; or you gain 3 life; or put up to four target cards from your graveyard on the bottom of your library in any order.
+Set/Rarity:     Theros Rare
 
 Name:   Bower Passage
 Cost:   1G
@@ -4645,6 +4729,14 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +2/+0 and gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)
 Set/Rarity:     Urza's Saga Common
+
+Name:   Breaching Hippocamp
+Cost:   3U
+Type:   Creature — Horse Fish
+Pow/Tgh:    (3/2)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+When Breaching Hippocamp enters the battlefield, untap another target creature you control.
+Set/Rarity:     Theros Common
 
 Name:   Break Asunder
 Cost:   2GG
@@ -5103,6 +5195,13 @@ Pow/Tgh:    (4/4)
 Rules Text:     Trample
 As long as you control another creature, prevent all damage that would be dealt to Bronze Horse by spells that target it.
 Set/Rarity:     Masters Edition IV Uncommon, Chronicles Rare, Legends Rare
+
+Name:   Bronze Sable
+Cost:   2
+Type:   Artifact Creature — Sable
+Pow/Tgh:    (2/1)
+Rules Text:     
+Set/Rarity:     Theros Common
 
 Name:   Bronze Tablet
 Cost:   6
@@ -5599,6 +5698,13 @@ Type:   Creature — Centaur Shaman
 Pow/Tgh:    (3/4)
 Rules Text:     Whenever a player activates an ability that isn't a mana ability, Burning-Tree Shaman deals 1 damage to that player.
 Set/Rarity:     Guildpact Rare
+
+Name:   Burnished Hart
+Cost:   3
+Type:   Artifact Creature — Elk
+Pow/Tgh:    (2/2)
+Rules Text:     {3}, Sacrifice Burnished Hart: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
+Set/Rarity:     Theros Uncommon
 
 Name:   Burnout
 Cost:   1R

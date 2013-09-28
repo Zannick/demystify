@@ -194,7 +194,7 @@ Name:   Talara's Bane
 Cost:   1B
 Type:   Sorcery
 Pow/Tgh:    
-Rules Text:     Target opponent reveals his or her hand. You choose a green or white creature card from it. You gain life equal that creature card's toughness, then that player discards that card.
+Rules Text:     Target opponent reveals his or her hand. You choose a green or white creature card from it. You gain life equal to that creature card's toughness, then that player discards that card.
 Set/Rarity:     Eventide Common
 
 Name:   Talara's Battalion
@@ -468,7 +468,7 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     Fading 4 (This artifact enters the battlefield with four fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
 At the beginning of each player's upkeep, that player taps an untapped artifact, creature, or land he or she controls for each fade counter on Tangle Wire.
-Set/Rarity:     Nemesis Rare
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Nemesis Rare
 
 Name:   Tanglebloom
 Cost:   1
@@ -1174,6 +1174,51 @@ Rules Text:     ({T}: Add {G} or {W} to your mana pool.)
 As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.
 Set/Rarity:     Return to Ravnica Rare, Ravnica: City of Guilds Rare
 
+Name:   Temple of Abandon
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Abandon enters the battlefield tapped.
+When Temple of Abandon enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {R} or {G} to your mana pool.
+Set/Rarity:     Theros Rare
+
+Name:   Temple of Deceit
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Deceit enters the battlefield tapped.
+When Temple of Deceit enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {U} or {B} to your mana pool.
+Set/Rarity:     Theros Rare
+
+Name:   Temple of Mystery
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Mystery enters the battlefield tapped.
+When Temple of Mystery enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {G} or {U} to your mana pool.
+Set/Rarity:     Theros Rare
+
+Name:   Temple of Silence
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Silence enters the battlefield tapped.
+When Temple of Silence enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {W} or {B} to your mana pool.
+Set/Rarity:     Theros Rare
+
+Name:   Temple of Triumph
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Triumph enters the battlefield tapped.
+When Temple of Triumph enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {R} or {W} to your mana pool.
+Set/Rarity:     Theros Rare
+
 Name:   Temple of the False God
 Cost:   
 Type:   Land
@@ -1499,7 +1544,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Prevent all combat damage that would be dealt by creatures other than target creature this turn.
-Set/Rarity:     Avacyn Restored Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Avacyn Restored Common
 
 Name:   Territorial Baloth
 Cost:   4G
@@ -1751,6 +1796,32 @@ Rules Text:     Defender
 At the beginning of your upkeep, put a spore counter on Thallid Shell-Dweller.
 Remove three spore counters from Thallid Shell-Dweller: Put a 1/1 green Saproling creature token onto the battlefield.
 Set/Rarity:     Modern Masters Common, Time Spiral Common
+
+Name:   Thassa's Bounty
+Cost:   5U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Draw three cards. Target player puts the top three cards of his or her library into his or her graveyard.
+Set/Rarity:     Theros Common
+
+Name:   Thassa's Emissary
+Cost:   3U
+Type:   Enchantment Creature — Crab
+Pow/Tgh:    (3/3)
+Rules Text:     Bestow {5}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Whenever Thassa's Emissary or enchanted creature deals combat damage to a player, draw a card.
+Enchanted creature gets +3/+3.
+Set/Rarity:     Theros Uncommon
+
+Name:   Thassa, God of the Sea
+Cost:   2U
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (5/5)
+Rules Text:     Indestructible
+As long as your devotion to blue is less than five, Thassa isn't a creature. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)
+At the beginning of your upkeep, scry 1.
+{1}{U}: Target creature you control can't be blocked this turn.
+Set/Rarity:     Theros Mythic Rare
 
 Name:   That Which Was Taken
 Cost:   5
@@ -2383,7 +2454,7 @@ Cost:   B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.
-Set/Rarity:     Lorwyn Rare
+Set/Rarity:     Theros Rare
 
 Name:   Thoughtweft Gambit
 Cost:   4(W/U)(W/U)
@@ -2459,7 +2530,7 @@ Cost:   1W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (2/1)
 Rules Text:     Vigilance
-Set/Rarity:     Avacyn Restored Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Avacyn Restored Common
 
 Name:   Thragtusk
 Cost:   4G
@@ -2474,7 +2545,7 @@ Cost:   4
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {T}: Add {3} to your mana pool.
-Set/Rarity:     Archenemy Uncommon, Urza's Destiny Uncommon
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Archenemy Uncommon, Urza's Destiny Uncommon
 
 Name:   Thran Forge
 Cost:   3
@@ -3360,6 +3431,14 @@ Pow/Tgh:
 Rules Text:     Search your library for a legendary creature card, reveal it, and put it into your hand. Then shuffle your library.
 Set/Rarity:     Champions of Kamigawa Uncommon
 
+Name:   Time to Feed
+Cost:   2G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that
+creature. (Each deals damage equal to its power to the other.)
+Set/Rarity:     Theros Common
+
 Name:   Timebender
 Cost:   U
 Type:   Creature — Human Wizard
@@ -3491,12 +3570,26 @@ Rules Text:     {3}, {T}: Put a charge counter on Titan Forge.
 {T}, Remove three charge counters from Titan Forge: Put a 9/9 colorless Golem artifact creature token onto the battlefield.
 Set/Rarity:     Mirrodin Besieged Rare
 
+Name:   Titan of Eternal Fire
+Cost:   5R
+Type:   Creature — Giant
+Pow/Tgh:    (5/6)
+Rules Text:     Each Human creature you control has "{R}, {T}: This creature deals 1 damage to target creature or player."
+Set/Rarity:     Theros Rare
+
 Name:   Titan's Revenge
 Cost:   XRR
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Titan's Revenge deals X damage to target creature or player. Clash with an opponent. If you win, return Titan's Revenge to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 Set/Rarity:     Morningtide Rare
+
+Name:   Titan's Strength
+Cost:   R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +3/+1 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Common
 
 Name:   Titania's Boon
 Cost:   3G
@@ -3888,6 +3981,14 @@ Type:   Creature — Angel
 Pow/Tgh:    (1/5)
 Rules Text:     Flying
 Set/Rarity:     Urza's Destiny Common
+
+Name:   Tormented Hero
+Cost:   B
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/1)
+Rules Text:     Tormented Hero enters the battlefield tapped.
+Heroic — Whenever you cast a spell that targets Tormented Hero, each opponent loses 1 life. You gain life equal to the life lost this way.
+Set/Rarity:     Theros Uncommon
 
 Name:   Tormented Pariah
 Cost:   3R
@@ -4705,7 +4806,7 @@ Cost:   1
 Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Theros Common
 
 Name:   Traveler's Cloak
 Cost:   2U
@@ -4716,6 +4817,13 @@ As Traveler's Cloak enters the battlefield, choose a land type.
 When Traveler's Cloak enters the battlefield, draw a card.
 Enchanted creature has landwalk of the chosen type.
 Set/Rarity:     Invasion Common
+
+Name:   Traveling Philosopher
+Cost:   1W
+Type:   Creature — Human Advisor
+Pow/Tgh:    (2/2)
+Rules Text:     
+Set/Rarity:     Theros Common
 
 Name:   Traveling Plague
 Cost:   3BB
@@ -5035,6 +5143,15 @@ Rules Text:     Flying
 Whenever Treva, the Renewer deals combat damage to a player, you may pay {2}{W}. If you do, choose a color, then you gain 1 life for each permanent of that color.
 Set/Rarity:     Duel Decks: Phyrexia vs. the Coalition Rare, Invasion Rare
 
+Name:   Triad of Fates
+Cost:   2WB
+Type:   Legendary Creature — Human Wizard
+Pow/Tgh:    (3/3)
+Rules Text:     {1}, {T}: Put a fate counter on another target creature.
+{W}, {T}: Exile target creature that has a fate counter on it, then return it to the battlefield under its owner's control.
+{B}, {T}: Exile target creature that has a fate counter on it. Its controller draws two cards.
+Set/Rarity:     Theros Rare
+
 Name:   Trial // Error (Error)
 Cost:   UB
 Type:   Instant
@@ -5237,6 +5354,27 @@ Rules Text:     Triskelion enters the battlefield with three +1/+1 counters on i
 Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.
 Set/Rarity:     Magic 2011 Rare, Duel Decks: Elspeth vs. Tezzeret Rare, Mirrodin Rare, Fourth Edition Rare, Antiquities Rare
 
+Name:   Triton Fortune Hunter
+Cost:   2U
+Type:   Creature — Merfolk Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Heroic — Whenever you cast a spell that targets Triton Fortune Hunter, draw a card.
+Set/Rarity:     Theros Uncommon
+
+Name:   Triton Shorethief
+Cost:   U
+Type:   Creature — Merfolk Rogue
+Pow/Tgh:    (1/2)
+Rules Text:     
+Set/Rarity:     Theros Common
+
+Name:   Triton Tactics
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Up to two target creatures each get +0/+3 until end of turn. Untap those creatures. At this turn's next end of combat, tap each creature that was blocked by one of those creatures this turn and it doesn't untap during its controller's next untap step.
+Set/Rarity:     Theros Uncommon
+
 Name:   Triumph of Cruelty
 Cost:   2B
 Type:   Enchantment
@@ -5271,7 +5409,7 @@ Type:   Creature — Troll Shaman
 Pow/Tgh:    (3/2)
 Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 {1}{G}: Regenerate Troll Ascetic.
-Set/Rarity:     Magic: The Gathering-Commander Rare, Tenth Edition Rare, Mirrodin Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Rare, Magic: The Gathering-Commander Rare, Tenth Edition Rare, Mirrodin Rare
 
 Name:   Troll-Horn Cameo
 Cost:   3
@@ -5389,7 +5527,7 @@ Pow/Tgh:    (2/2)
 Rules Text:     Vigilance
 {R}{W}: Truefire Paladin gets +2/+0 until end of turn.
 {R}{W}: Truefire Paladin gains first strike until end of turn.
-Set/Rarity:     Gatecrash Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Gatecrash Uncommon
 
 Name:   Trumpet Blast
 Cost:   2R
@@ -5820,6 +5958,13 @@ Rules Text:     You may tap or untap target artifact, creature, or land.
 Draw a card.
 Set/Rarity:     Worldwake Common, Tenth Edition Common, Tempest Common
 
+Name:   Two-Headed Cerberus
+Cost:   1RR
+Type:   Creature — Hound
+Pow/Tgh:    (1/2)
+Rules Text:     Double strike (This creature deals both first-strike and regular combat damage.)
+Set/Rarity:     Theros Common
+
 Name:   Two-Headed Dragon
 Cost:   4RR
 Type:   Creature — Dragon
@@ -5844,6 +5989,14 @@ Type:   Creature — Sliver
 Pow/Tgh:    (1/1)
 Rules Text:     All Sliver creatures have "This creature can't be blocked except by two or more creatures."
 Set/Rarity:     Time Spiral Common
+
+Name:   Tymaret, the Murder King
+Cost:   BR
+Type:   Legendary Creature — Zombie Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     {1}{R}, Sacrifice another creature: Tymaret, the Murder King deals 2 damage to target player.
+{1}{B}, Sacrifice a creature: Return Tymaret from your graveyard to your hand.
+Set/Rarity:     Theros Rare
 
 Name:   Typhoid Rats
 Cost:   B

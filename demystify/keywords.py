@@ -457,6 +457,8 @@ _abilities = [
     Verb(   ("SWAP", "swap", "swaps"),
             ("SWAPPED", "swapped")),
     Keyword(("BATTLE_CRY", "battle cry")),
+    Verb(   ("BESTOW", "bestow"),
+            ("BESTOWED", "bestowed")),
     Keyword(("BLOODTHIRST", "bloodthirst")),
     Keyword(("BUSHIDO", "bushido")),
     Keyword(("BUYBACK", "buyback")),
@@ -505,6 +507,7 @@ _abilities = [
             ("HAUNTING", "haunting")),
     Keyword(("HIDEAWAY", "hideaway")),
     Keyword(("HORSEMANSHIP", "horsemanship")),
+    Keyword(("INDESTRUCTIBLE", "indestructible")),
     Keyword(("INFECT", "infect")),
     Keyword(("KICKER", "kicker")),
     Verb(   ("KICK", "kick", "kicks"),
@@ -514,6 +517,7 @@ _abilities = [
     Keyword(("MADNESS", "madness")),
     Keyword(("MIRACLE", "miracle")),
     Keyword(("MODULAR", "modular")),
+    Keyword(("MONSTROSITY", "monstrosity")),
     Keyword(("MORPH", "morph")),
     Keyword(("MULTIKICKER", "multikicker")),
     Keyword(("NINJUTSU", "ninjutsu")),
@@ -585,6 +589,7 @@ _ability_words = [
     Keyword(("FATEFUL_HOUR", "fateful hour")),
     Keyword(("GRANDEUR", "grandeur")),
     Keyword(("HELLBENT", "hellbent")),
+    Keyword(("HEROIC", "heroic")),
     Keyword(("IMPRINT", "imprint")),
     Keyword(("JOIN_FORCES", "join forces")),
     Keyword(("KINSHIP", "kinship")),
@@ -698,6 +703,7 @@ _land_types = [
 
 _planeswalker_types = [
     Keyword(("AJANI", "ajani")),
+    Keyword(("ASHIOK", "ashiok")),
     Keyword(("BOLAS", "bolas")),
     Keyword(("CHANDRA", "chandra")),
     Keyword(("DOMRI", "domri")),
@@ -717,6 +723,7 @@ _planeswalker_types = [
     Keyword(("TIBALT", "tibalt")),
     Keyword(("VENSER", "venser")),
     Keyword(("VRASKA", "vraska")),
+    Keyword(("XENAGOS", "xenagos")),
 ]
 
 _spell_types = [
@@ -801,6 +808,7 @@ _creature_types = [
     Noun("GNOME", "gnome", "gnomes"),
     Noun("GOAT", "goat", "goats"),
     Noun("GOBLIN", "goblin", "goblins"),
+    Noun("GOD", "god", "gods"),
     Noun("GOLEM", "golem", "golems"),
     Noun("GORGON", "gorgon", "gorgons"),
     Noun("GRAVEBORN", "graveborn", "graveborns"),
@@ -860,6 +868,7 @@ _creature_types = [
     Noun("NINJA", "ninja", "ninjas"),
     Noun("NOGGLE", "noggle", "noggles"),
     Noun("NOMAD", "nomad", "nomads"),
+    Noun("NYMPH", "nymph", "nymphs"),
     Noun("OCTOPUS", "octopus", "octopi"),
     Noun("OGRE", "ogre", "ogres"),
     Noun("OOZE", "ooze", "oozes"),
@@ -886,6 +895,7 @@ _creature_types = [
     Noun("RHINO", "rhino", "rhinos"),
     Noun("RIGGER", "rigger", "riggers"),
     Noun("ROGUE", "rogue", "rogues"),
+    Noun("SABLE", "sable", "sables"),
     Noun("SALAMANDER", "salamander", "salamanders"),
     Noun("SAMURAI", "samurai", "samurai"),
     Noun("SAND", "sand", "sand"),
@@ -1287,12 +1297,11 @@ _concepts = [
     Keyword(("LABEL", "label")),
     Keyword(("LEVEL", "level")),
     Keyword(("MARKED", "marked")),
+    Keyword(("MONSTROUS", "monstrous")),
     Keyword(("ORIGINAL", "original")),
     Keyword(("PHASED_OUT", "phased-out")),
     Keyword(("POISONED", "poisoned")),
-    Keyword(("INDESTRUCTIBLE", "indestructible")),
     Keyword(("TARGETED", "targeted")),
-    Keyword(("UNBLOCKABLE", "unblockable")),
     Keyword(("UNBLOCKED", "unblocked")),
     Keyword(("UNCHANGED", "unchanged")),
     Keyword(("UNPAIRED", "unpaired")),
@@ -1353,6 +1362,9 @@ _concepts = [
 
     # Color identity (Commander)
     Keyword(("IDENTITY", "identity")),
+
+    # Number of mana symbols of a particular color.
+    Keyword(("DEVOTION", "devotion")),
 
     # Timing
     Keyword(("AFTER", "after")),
@@ -1415,6 +1427,8 @@ _concepts = [
     Keyword(("ARABIAN_NIGHTS", "arabian nights")),
     Keyword(("ANTIQUITIES", "antiquities")),
     Keyword(("HOMELANDS", "homelands")),
+    Keyword(("ORIGINALLY", "originally")),
+    Keyword(("PRINTED", "printed")),
 ]
 for c in _concepts:
     concepts.update(c.dict)
@@ -1476,6 +1490,7 @@ number_words = {
     "eighteen" : 18,
     "nineteen" : 19,
     "twenty" : 20,
+    "ninety-nine": 99,
 }
 
 ordinals = {

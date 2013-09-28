@@ -1364,6 +1364,14 @@ Rules Text:     Flanking (Whenever a creature without flanking blocks this creat
 Other creatures you control with flanking have flanking. (Each instance of flanking triggers separately.)
 Set/Rarity:     Time Spiral Uncommon
 
+Name:   Cavalry Pegasus
+Cost:   1W
+Type:   Creature — Pegasus
+Pow/Tgh:    (1/1)
+Rules Text:     Flying
+Whenever Cavalry Pegasus attacks, each attacking Human gains flying until end of turn.
+Set/Rarity:     Theros Common
+
 Name:   Cave People
 Cost:   1RR
 Type:   Creature — Human
@@ -1411,6 +1419,15 @@ Rules Text:     Flying
 When Cavern Harpy enters the battlefield, return a blue or black creature you control to its owner's hand.
 Pay 1 life: Return Cavern Harpy to its owner's hand.
 Set/Rarity:     Planeshift Common
+
+Name:   Cavern Lampad
+Cost:   3B
+Type:   Enchantment Creature — Nymph
+Pow/Tgh:    (2/2)
+Rules Text:     Bestow {5}{B} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Intimidate
+Enchanted creature gets +2/+2 and has intimidate.
+Set/Rarity:     Theros Common
 
 Name:   Cavern Thoctar
 Cost:   5G
@@ -1466,6 +1483,15 @@ Pow/Tgh:    (3/3)
 Rules Text:     Flying
 Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you control.
 Set/Rarity:     Planechase 2012 Edition Rare, Dissension Rare
+
+Name:   Celestial Archon
+Cost:   3WW
+Type:   Enchantment Creature — Archon
+Pow/Tgh:    (4/4)
+Rules Text:     Bestow {5}{W}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Flying, first strike
+Enchanted creature gets +4/+4 and has flying and first strike.
+Set/Rarity:     Theros Rare
 
 Name:   Celestial Colonnade
 Cost:   
@@ -1622,6 +1648,13 @@ Type:   Creature — Centaur Archer
 Pow/Tgh:    (3/2)
 Rules Text:     {T}: Centaur Archer deals 1 damage to target creature with flying.
 Set/Rarity:     Masters Edition Uncommon, Ice Age Uncommon
+
+Name:   Centaur Battlemaster
+Cost:   3GG
+Type:   Creature — Centaur Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Heroic — Whenever you cast a spell that targets Centaur Battlemaster, put three +1/+1 counters on Centaur Battlemaster.
+Set/Rarity:     Theros Uncommon
 
 Name:   Centaur Chieftain
 Cost:   3G
@@ -1955,13 +1988,21 @@ Rules Text:     Infect (This creature deals damage to creatures in the form of -
 Chained Throatseeker can't attack unless defending player is poisoned.
 Set/Rarity:     New Phyrexia Common
 
+Name:   Chained to the Rocks
+Cost:   W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant Mountain you control
+When Chained to the Rocks enters the battlefield, exile target creature an opponent controls until Chained to the Rocks leaves the battlefield. (That creature returns under its owner's control.)
+Set/Rarity:     Theros Rare
+
 Name:   Chainer's Edict
 Cost:   1B
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player sacrifices a creature.
 Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Torment Uncommon
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Torment Uncommon
 
 Name:   Chainer, Dementia Master
 Cost:   3BB
@@ -2038,7 +2079,7 @@ Pow/Tgh:    (4/4)
 Rules Text:     Changeling (This card is every creature type at all times.)
 Protection from black
 {2}{G}{G}: Chameleon Colossus gets +X/+X until end of turn, where X is its power.
-Set/Rarity:     Archenemy Rare, Morningtide Rare
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Archenemy Rare, Morningtide Rare
 
 Name:   Chameleon Spirit
 Cost:   3U
@@ -2396,7 +2437,7 @@ Cost:   2R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Char deals 4 damage to target creature or player and 2 damage to you.
-Set/Rarity:     Ravnica: City of Guilds Rare
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Ravnica: City of Guilds Rare
 
 Name:   Char-Rumbler
 Cost:   2RR
@@ -2855,6 +2896,15 @@ Rules Text:     Forestwalk
 As an additional cost to cast creature spells, you may pay any amount of mana. If you do, that creature enters the battlefield with that many additional +1/+1 counters on it.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Ravnica: City of Guilds Rare
 
+Name:   Chosen by Heliod
+Cost:   1W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Chosen by Heliod enters the battlefield, draw a card.
+Enchanted creature gets +0/+2.
+Set/Rarity:     Theros Common
+
 Name:   Chosen of Markov
 Cost:   2B
 Type:   Creature — Human
@@ -2960,6 +3010,13 @@ Pow/Tgh:
 Rules Text:     Enchant land
 Whenever enchanted land becomes tapped, its controller puts the top three cards of his or her library into his or her graveyard.
 Set/Rarity:     Return to Ravnica Common
+
+Name:   Chronicler of Heroes
+Cost:   1GW
+Type:   Creature — Centaur Wizard
+Pow/Tgh:    (3/3)
+Rules Text:     When Chronicler of Heroes enters the battlefield, draw a card if you control a creature with a +1/+1 counter on it.
+Set/Rarity:     Theros Uncommon
 
 Name:   Chronomantic Escape
 Cost:   4WW
@@ -3249,8 +3306,8 @@ Name:   City in a Bottle
 Cost:   2
 Type:   Artifact
 Pow/Tgh:    
-Rules Text:     Whenever a nontoken permanent from the Arabian Nights expansion other than City in a Bottle is on the battlefield, its controller sacrifices it.
-Players can't play cards from the Arabian Nights expansion.
+Rules Text:     Whenever a nontoken permanent originally printed in the Arabian Nights expansion other than City in a Bottle is on the battlefield, its controller sacrifices it.
+Players can't play cards originally printed in the Arabian Nights expansion.
 Set/Rarity:     Arabian Nights Rare
 
 Name:   City of Brass
@@ -4040,6 +4097,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {T}: Return Coastal Wizard and another target creature to their owners' hands. Activate this ability only during your turn, before attackers are declared.
 Set/Rarity:     Portal Second Age Rare
 
+Name:   Coastline Chimera
+Cost:   3U
+Type:   Creature — Chimera
+Pow/Tgh:    (1/5)
+Rules Text:     Flying
+{1}{W}: Coastline Chimera can block an additional creature this turn.
+Set/Rarity:     Theros Common
+
 Name:   Coat of Arms
 Cost:   5
 Type:   Artifact
@@ -4287,6 +4352,15 @@ Rules Text:     Islandwalk (This creature can't be blocked as long as defending 
 Whenever Colossal Whale attacks, you may exile target creature defending player controls until Colossal Whale leaves the battlefield. (That creature returns under its owner's control.)
 Set/Rarity:     Magic 2014 Core Set Rare
 
+Name:   Colossus of Akros
+Cost:   8
+Type:   Artifact Creature — Golem
+Pow/Tgh:    (10/10)
+Rules Text:     Defender, indestructible
+{10}: Monstrosity 10. (If this creature isn't monstrous, put ten +1/+1 counters on it and it becomes monstrous.)
+As long as Colossus of Akros is monstrous, it has trample and can attack as though it didn't have defender.
+Set/Rarity:     Theros Rare
+
 Name:   Colossus of Sardia
 Cost:   9
 Type:   Artifact Creature — Golem
@@ -4401,6 +4475,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 Set/Rarity:     Tenth Edition Common, Champions of Kamigawa Common
+
+Name:   Commune with the Gods
+Cost:   1G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Reveal the top five cards of your library. You may put a creature or enchantment card from among them into your hand. Put the rest into your graveyard.
+Set/Rarity:     Theros Common
 
 Name:   Complex Automaton
 Cost:   4
@@ -4520,7 +4601,7 @@ Cost:   W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.
-Set/Rarity:     Magic 2011 Uncommon, Tenth Edition Uncommon, Dissension Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Magic 2011 Uncommon, Tenth Edition Uncommon, Dissension Uncommon
 
 Name:   Condescend
 Cost:   XU
@@ -4640,7 +4721,7 @@ Type:   Creature — Manticore
 Pow/Tgh:    (5/5)
 Rules Text:     Flying
 When Conquering Manticore enters the battlefield, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.
-Set/Rarity:     Rise of the Eldrazi Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Rare, Rise of the Eldrazi Rare
 
 Name:   Conqueror's Pledge
 Cost:   2WWW
@@ -4985,6 +5066,13 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 Enchanted creature has banding. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding a player controls are blocking or being blocked by a creature, that player divides that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Set/Rarity:     Ice Age Common
+
+Name:   Coordinated Assault
+Cost:   R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Up to two target creatures each get +1/+0 and gain first strike until end of turn.
+Set/Rarity:     Theros Uncommon
 
 Name:   Coordinated Barrage
 Cost:   W
@@ -5637,6 +5725,13 @@ Pow/Tgh:
 Rules Text:     Tap an untapped Gate you control: Crackling Perimeter deals 1 damage to each opponent.
 Set/Rarity:     Gatecrash Uncommon
 
+Name:   Crackling Triton
+Cost:   2U
+Type:   Creature — Merfolk Wizard
+Pow/Tgh:    (2/3)
+Rules Text:     {2}{R}, Sacrifice Crackling Triton: Crackling Triton deals 2 damage to target creature or player.
+Set/Rarity:     Theros Common
+
 Name:   Cradle Guard
 Cost:   1GG
 Type:   Creature — Treefolk
@@ -5747,7 +5842,7 @@ Type:   Creature — Hellion Beast
 Pow/Tgh:    (6/6)
 Rules Text:     Echo {4}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Crater Hellion enters the battlefield, it deals 4 damage to each other creature.
-Set/Rarity:     Urza's Saga Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Rare, Urza's Saga Rare
 
 Name:   Craterhoof Behemoth
 Cost:   5GGG
@@ -6304,7 +6399,7 @@ Type:   Creature — Rhino
 Pow/Tgh:    (4/3)
 Rules Text:     Trample
 Each creature you control with a +1/+1 counter on it has trample.
-Set/Rarity:     Gatecrash Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Gatecrash Uncommon
 
 Name:   Crucible of Fire
 Cost:   3R
@@ -6376,7 +6471,7 @@ Cost:   UUBBBRR
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Shards of Alara Rare
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Duel Decks: Ajani vs. Nicol Bolas Rare, Shards of Alara Rare
 
 Name:   Crumble
 Cost:   G
@@ -6978,6 +7073,13 @@ Rules Text:     Enchant player
 At the beginning of enchanted player's upkeep, Curse of the Pierced Heart deals 1 damage to that player.
 Set/Rarity:     Innistrad Common
 
+Name:   Curse of the Swine
+Cost:   XUU
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile X target creatures. For each creature exiled this way, its controller puts a 2/2 green Boar creature token onto the battlefield.
+Set/Rarity:     Theros Rare
+
 Name:   Cursebreak
 Cost:   1W
 Type:   Instant
@@ -7083,6 +7185,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     For each Spirit, return it to its owner's hand unless that player pays {3}.
 Set/Rarity:     Champions of Kamigawa Uncommon
+
+Name:   Cutthroat Maneuver
+Cost:   3B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Up to two target creatures each get +1/+1 and gain lifelink until end of turn.
+Set/Rarity:     Theros Uncommon
 
 Name:   Cutthroat il-Dal
 Cost:   3B

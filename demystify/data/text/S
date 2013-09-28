@@ -970,6 +970,27 @@ Pow/Tgh:
 Rules Text:     Whenever a land you control is tapped for mana, for each other land you control with the same name, add one mana to your mana pool of any type that land produced.
 Set/Rarity:     Saviors of Kamigawa Rare
 
+Name:   Satyr Hedonist
+Cost:   1G
+Type:   Creature — Satyr
+Pow/Tgh:    (2/1)
+Rules Text:     {R}, Sacrifice Satyr Hedonist: Add {R}{R}{R} to your mana pool.
+Set/Rarity:     Theros Common
+
+Name:   Satyr Piper
+Cost:   2G
+Type:   Creature — Satyr Rogue
+Pow/Tgh:    (2/1)
+Rules Text:     {3}{G}: Target creature must be blocked this turn if able.
+Set/Rarity:     Theros Uncommon
+
+Name:   Satyr Rambler
+Cost:   1R
+Type:   Creature — Satyr
+Pow/Tgh:    (2/1)
+Rules Text:     Trample
+Set/Rarity:     Theros Common
+
 Name:   Savaen Elves
 Cost:   G
 Type:   Creature — Elf
@@ -1056,7 +1077,7 @@ Cost:   1G
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +2/+2 until end of turn. Untap that creature.
-Set/Rarity:     Return to Ravnica Uncommon
+Set/Rarity:     Theros Common
 
 Name:   Savage Thallid
 Cost:   3GG
@@ -1549,6 +1570,13 @@ Pow/Tgh:
 Rules Text:     Target creature gets +4/+0 until end of turn. Another target creature gets -4/-0 until end of turn.
 Set/Rarity:     Guildpact Uncommon
 
+Name:   Scholar of Athreos
+Cost:   2W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/4)
+Rules Text:     {2}{B}: Each opponent loses 1 life. You gain life equal to the life lost this way.
+Set/Rarity:     Theros Common
+
 Name:   School of Piranha
 Cost:   1U
 Type:   Creature — Fish
@@ -1779,6 +1807,15 @@ Rules Text:     Enchant creature
 As long as enchanted creature is red, it gets +1/+1 and has "{(r/w)}: This creature gets +1/+0 until end of turn."
 As long as enchanted creature is white, it gets +1/+1 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)
 Set/Rarity:     Eventide Common
+
+Name:   Scourgemark
+Cost:   1B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Scourgemark enters the battlefield, draw a card.
+Enchanted creature gets +1/+0.
+Set/Rarity:     Theros Common
 
 Name:   Scourglass
 Cost:   3WW
@@ -2156,6 +2193,13 @@ Pow/Tgh:    (1/3)
 Rules Text:     When Sea Gate Oracle enters the battlefield, look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
 Set/Rarity:     Rise of the Eldrazi Common
 
+Name:   Sea God's Revenge
+Cost:   5U
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Return up to three target creatures your opponents control to their owners' hands. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Uncommon
+
 Name:   Sea Kings' Blessing
 Cost:   U
 Type:   Instant
@@ -2309,6 +2353,15 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Look at the top X cards of target opponent's library. Exile one of those cards and put the rest back on top of that player's library in any order.
 Set/Rarity:     Mirage Uncommon
+
+Name:   Sealock Monster
+Cost:   3UU
+Type:   Creature — Octopus
+Pow/Tgh:    (5/5)
+Rules Text:     Sealock Monster can't attack unless defending player controls an Island.
+{5}{U}{U}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Sealock Monster becomes monstrous, target land becomes an Island in addition to its other types.
+Set/Rarity:     Theros Uncommon
 
 Name:   Search Warrant
 Cost:   WU
@@ -2569,6 +2622,13 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     {W}{W}: Put a 1/1 white Soldier creature token onto the battlefield. Activate this ability only if you control no creatures and only once each turn.
 Set/Rarity:     Mercadian Masques Rare
+
+Name:   Sedge Scorpion
+Cost:   G
+Type:   Creature — Scorpion
+Pow/Tgh:    (1/1)
+Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Set/Rarity:     Theros Common
 
 Name:   Sedge Sliver
 Cost:   2R
@@ -3144,6 +3204,14 @@ Rules Text:     Defender
 At the beginning of combat on your turn, you may clash with an opponent. If you win, Sentry Oak gets +2/+0 and loses defender until end of turn. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 Set/Rarity:     Lorwyn Uncommon
 
+Name:   Sentry of the Underworld
+Cost:   3WB
+Type:   Creature — Griffin Skeleton
+Pow/Tgh:    (3/3)
+Rules Text:     Flying, vigilance
+{W}{B}, Pay 3 life: Regenerate Sentry of the Underworld.
+Set/Rarity:     Theros Uncommon
+
 Name:   Septic Rats
 Cost:   1BB
 Type:   Creature — Rat
@@ -3515,6 +3583,21 @@ Rules Text:     Other Snake creatures you control get +2/+2.
 Whenever a Snake you control deals combat damage to a player, you may draw a card.
 Set/Rarity:     Champions of Kamigawa Rare
 
+Name:   Setessan Battle Priest
+Cost:   1W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/3)
+Rules Text:     Heroic — Whenever you cast a spell that targets Setessan Battle Priest, you gain 2 life.
+Set/Rarity:     Theros Common
+
+Name:   Setessan Griffin
+Cost:   4W
+Type:   Creature — Griffin
+Pow/Tgh:    (3/2)
+Rules Text:     Flying
+{2}{G}{G}: Setessan Griffin gets +2/+2 until end of turn. Activate this ability only once each turn.
+Set/Rarity:     Theros Common
+
 Name:   Seton's Desire
 Cost:   2G
 Type:   Enchantment — Aura
@@ -3857,7 +3940,7 @@ Set/Rarity:     Torment Rare
 
 Name:   Shanodin Dryads
 Cost:   G
-Type:   Creature — Dryad
+Type:   Creature — Nymph Dryad
 Pow/Tgh:    (1/1)
 Rules Text:     Forestwalk
 Set/Rarity:     Seventh Edition Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
@@ -4528,6 +4611,23 @@ Rules Text:     {T}: Add {R} to your mana pool.
 {R}, {T}: Target legendary creature gains first strike until end of turn.
 Set/Rarity:     Champions of Kamigawa Rare
 
+Name:   Shipbreaker Kraken
+Cost:   4UU
+Type:   Creature — Kraken
+Pow/Tgh:    (6/6)
+Rules Text:     {6}{U}{U}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)
+When Shipbreaker Kraken becomes monstrous, tap up to four target creatures. Those creatures don't untap during their controllers' untap steps for as long as you control Shipbreaker Kraken.
+Set/Rarity:     Theros Rare
+
+Name:   Shipwreck Singer
+Cost:   UB
+Type:   Creature — Siren
+Pow/Tgh:    (1/2)
+Rules Text:     Flying
+{1}{U}: Target creature an opponent controls attacks this turn if able.
+{1}{B}, {T}: Attacking creatures get -1/-1 until end of turn.
+Set/Rarity:     Theros Uncommon
+
 Name:   Shirei, Shizo's Caretaker
 Cost:   4B
 Type:   Legendary Creature — Spirit
@@ -4776,7 +4876,7 @@ Cost:   R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Shower of Sparks deals 1 damage to target creature and 1 damage to target player.
-Set/Rarity:     Battle Royale Box Set Common, Urza's Saga Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Battle Royale Box Set Common, Urza's Saga Common
 
 Name:   Showstopper
 Cost:   1BR
@@ -4800,6 +4900,13 @@ Pow/Tgh:
 Rules Text:     Exile up to four target cards from a single graveyard.
 Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Shredding Winds
+Cost:   2G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Shredding Winds deals 7 damage to target creature with flying.
+Set/Rarity:     Theros Common
 
 Name:   Shrewd Hatchling
 Cost:   3(U/R)
@@ -5319,6 +5426,13 @@ Pow/Tgh:    (1/5)
 Rules Text:     No more than one creature can attack each combat.
 No more than one creature can block each combat.
 Set/Rarity:     Fifth Dawn Rare
+
+Name:   Silent Artisan
+Cost:   3WW
+Type:   Creature — Giant
+Pow/Tgh:    (3/5)
+Rules Text:     
+Set/Rarity:     Theros Common
 
 Name:   Silent Assassin
 Cost:   BB
@@ -5842,6 +5956,13 @@ Rules Text:     Enchant creature
 Enchanted creature has "{T}: This creature deals damage equal to its power to target attacking or blocking creature."
 Set/Rarity:     Guildpact Uncommon
 
+Name:   Sip of Hemlock
+Cost:   4BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target creature. Its controller loses 2 life.
+Set/Rarity:     Theros Common
+
 Name:   Sir Shandlar of Eberyn
 Cost:   4GW
 Type:   Legendary Creature — Human Knight
@@ -5981,7 +6102,7 @@ Type:   Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
 {R}{G}, {T}: Target creature gets +1/+1 and gains trample until end of turn.
-Set/Rarity:     Planechase 2012 Edition Uncommon, Guildpact Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Planechase 2012 Edition Uncommon, Guildpact Uncommon
 
 Name:   Skarrgan Firebird
 Cost:   4RR
@@ -5990,7 +6111,7 @@ Pow/Tgh:    (3/3)
 Rules Text:     Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)
 Flying
 {R}{R}{R}: Return Skarrgan Firebird from your graveyard to your hand. Activate this ability only if an opponent was dealt damage this turn.
-Set/Rarity:     Guildpact Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Rare, Guildpact Rare
 
 Name:   Skarrgan Pit-Skulk
 Cost:   G
@@ -6006,7 +6127,7 @@ Type:   Creature — Giant Shaman
 Pow/Tgh:    (3/3)
 Rules Text:     Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)
 {1}, Sacrifice Skarrgan Skybreaker: Skarrgan Skybreaker deals damage equal to its power to target creature or player.
-Set/Rarity:     Guildpact Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Guildpact Uncommon
 
 Name:   Skeletal Changeling
 Cost:   1B
@@ -7390,7 +7511,7 @@ Cost:   3W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target creature with power 4 or greater.
-Set/Rarity:     Innistrad Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Innistrad Common
 
 Name:   Smog Elemental
 Cost:   4BB
@@ -7898,6 +8019,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     {R}, {T}: Target player shuffles his or her library.
 Set/Rarity:     Alliances Uncommon
 
+Name:   Soldier of the Pantheon
+Cost:   W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/1)
+Rules Text:     Protection from multicolored
+Whenever an opponent casts a multicolored spell, you gain 1 life.
+Set/Rarity:     Theros Rare
+
 Name:   Solemn Offering
 Cost:   2W
 Type:   Sorcery
@@ -8058,7 +8187,7 @@ Cost:   R
 Type:   Creature — Human Warrior
 Pow/Tgh:    (1/1)
 Rules Text:     Whenever Somberwald Vigilante becomes blocked by a creature, Somberwald Vigilante deals 1 damage to that creature.
-Set/Rarity:     Avacyn Restored Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Avacyn Restored Common
 
 Name:   Somnomancer
 Cost:   1(W/U)
@@ -8832,6 +8961,13 @@ Rules Text:     Trample, haste (If this creature would assign enough damage to i
 At the beginning of the end step, sacrifice Spark Elemental.
 Set/Rarity:     Premium Deck Series: Fire and Lightning Uncommon, Tenth Edition Uncommon, Fifth Dawn Common
 
+Name:   Spark Jolt
+Cost:   R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Spark Jolt deals 1 damage to target creature or player. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Common
+
 Name:   Spark Mage
 Cost:   R
 Type:   Creature — Dwarf Wizard
@@ -8962,6 +9098,14 @@ Rules Text:     Trample
 Whenever Spawnwrithe deals combat damage to a player, put a token that's a copy of Spawnwrithe onto the battlefield.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Shadowmoor Rare
 
+Name:   Spear of Heliod
+Cost:   1WW
+Type:   Legendary Enchantment Artifact
+Pow/Tgh:    
+Rules Text:     Creatures you control get +1/+1.
+{1}{W}{W}, {T}: Destroy target creature that dealt damage to you this turn.
+Set/Rarity:     Theros Rare
+
 Name:   Spearbreaker Behemoth
 Cost:   5GG
 Type:   Creature — Beast
@@ -8969,6 +9113,15 @@ Pow/Tgh:    (5/5)
 Rules Text:     Indestructible
 {1}: Target creature with power 5 or greater gains indestructible until end of turn.
 Set/Rarity:     Shards of Alara Rare
+
+Name:   Spearpoint Oread
+Cost:   2R
+Type:   Enchantment Creature — Nymph
+Pow/Tgh:    (2/2)
+Rules Text:     Bestow {5}{R} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+First strike
+Enchanted creature gets +2/+2 and has first strike.
+Set/Rarity:     Theros Common
 
 Name:   Species Gorger
 Cost:   3GU
@@ -9213,6 +9366,14 @@ Pow/Tgh:    (3/1)
 Rules Text:     When Spellgorger Barbarian enters the battlefield, discard a card at random.
 When Spellgorger Barbarian leaves the battlefield, draw a card.
 Set/Rarity:     Judgment Common
+
+Name:   Spellheart Chimera
+Cost:   1UR
+Type:   Creature — Chimera
+Pow/Tgh:    (*/3)
+Rules Text:     Flying, trample
+Spellheart Chimera's power is equal to the number of instant and sorcery cards in your graveyard.
+Set/Rarity:     Theros Uncommon
 
 Name:   Spelljack
 Cost:   3UUU
@@ -10893,7 +11054,7 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gets +1/+1 until end of turn.
 Scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
-Set/Rarity:     Fifth Dawn Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Fifth Dawn Common
 
 Name:   Stand Together
 Cost:   3GG
@@ -11058,6 +11219,13 @@ Pow/Tgh:    (3/4)
 Rules Text:     When Staunch Defenders enters the battlefield, you gain 4 life.
 Set/Rarity:     Eighth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Tempest Uncommon
 
+Name:   Staunch-Hearted Warrior
+Cost:   3G
+Type:   Creature — Human Warrior
+Pow/Tgh:    (2/2)
+Rules Text:     Heroic — Whenever you cast a spell that targets Staunch-Hearted Warrior, put two +1/+1 counters on Staunch-Hearted Warrior.
+Set/Rarity:     Theros Common
+
 Name:   Stave Off
 Cost:   W
 Type:   Instant
@@ -11116,6 +11284,13 @@ Type:   Creature — Human Rogue
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever Stealer of Secrets deals combat damage to a player, draw a card.
 Set/Rarity:     Return to Ravnica Common
+
+Name:   Steam Augury
+Cost:   2UR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Reveal the top five cards of your library and separate them into two piles. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard.
+Set/Rarity:     Theros Rare
 
 Name:   Steam Blast
 Cost:   2R
@@ -11757,6 +11932,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     At the beginning of each player's end step, that player sacrifices an untapped land.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
+Name:   Stoneshock Giant
+Cost:   3RR
+Type:   Creature — Giant
+Pow/Tgh:    (5/4)
+Rules Text:     {6}{R}{R}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Stoneshock Giant becomes monstrous, creatures without flying your opponents control can't block this turn.
+Set/Rarity:     Theros Uncommon
+
 Name:   Stonewood Invocation
 Cost:   3G
 Type:   Instant
@@ -11921,6 +12104,15 @@ Rules Text:     Flying
 Stormbound Geist can block only creatures with flying.
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 Set/Rarity:     Dark Ascension Common
+
+Name:   Stormbreath Dragon
+Cost:   3RR
+Type:   Creature — Dragon
+Pow/Tgh:    (4/4)
+Rules Text:     Flying, haste, protection from white
+{5}{R}{R}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Stormbreath Dragon becomes monstrous, it deals damage to each opponent equal to the number of cards in that player's hand.
+Set/Rarity:     Theros Mythic Rare
 
 Name:   Stormcaller's Boon
 Cost:   2WU
@@ -12510,7 +12702,7 @@ Cost:   RW
 Type:   Creature — Human Archer
 Pow/Tgh:    (1/1)
 Rules Text:     {1}, {T}: Stun Sniper deals 1 damage to target creature. Tap that creature.
-Set/Rarity:     Alara Reborn Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Alara Reborn Uncommon
 
 Name:   Stunted Growth
 Cost:   3GG
@@ -12553,6 +12745,13 @@ Rules Text:     Flying
 Sturmgeist's power and toughness are each equal to the number of cards in your hand.
 Whenever Sturmgeist deals combat damage to a player, draw a card.
 Set/Rarity:     Innistrad Rare
+
+Name:   Stymied Hopes
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell unless its controller pays {1}. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Common
 
 Name:   Su-Chi
 Cost:   4
@@ -12866,7 +13065,7 @@ Type:   Creature — Giant
 Pow/Tgh:    (6/6)
 Rules Text:     Vigilance
 Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with converted mana cost 3 or less from your graveyard to the battlefield.
-Set/Rarity:     Magic 2012 Mythic Rare, Magic 2011 Mythic Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Mythic Rare, Magic 2012 Mythic Rare, Magic 2011 Mythic Rare
 
 Name:   Sun's Bounty
 Cost:   1W
@@ -13527,7 +13726,7 @@ Cost:
 Type:   Basic Land — Swamp
 Pow/Tgh:    
 Rules Text:     B
-Set/Rarity:     Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Duel Decks: Sorin vs. Tibalt Land, Duel Decks: Sorin vs. Tibalt Land, Duel Decks: Sorin vs. Tibalt Land, Duel Decks: Sorin vs. Tibalt Land, Duel Decks: Sorin vs. Tibalt Land, Duel Decks: Sorin vs. Tibalt Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Premium Deck Series: Graveborn Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Duel Decks: Divine vs. Demonic Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Theros Land, Theros Land, Theros Land, Theros Land
 
 Name:   Swamp Mosquito
 Cost:   1B
@@ -13536,6 +13735,13 @@ Pow/Tgh:    (0/1)
 Rules Text:     Flying
 Whenever Swamp Mosquito attacks and isn't blocked, defending player gets a poison counter. (A player with ten or more poison counters loses the game.)
 Set/Rarity:     Time Spiral "Timeshifted" Special, Alliances Common, Alliances Common
+
+Name:   Swan Song
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target enchantment, instant, or sorcery spell. Its controller puts a 2/2 blue Bird creature token with flying onto the battlefield.
+Set/Rarity:     Theros Rare
 
 Name:   Swans of Bryn Argoll
 Cost:   2(W/U)(W/U)
@@ -13782,7 +13988,7 @@ Cost:   W
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Exile target creature. Its controller gains life equal to its power.
-Set/Rarity:     Masters Edition IV Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon, Masters Edition II Uncommon, Battle Royale Box Set Uncommon, Ice Age Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Masters Edition IV Uncommon, Duel Decks: Elspeth vs. Tezzeret Uncommon, Masters Edition II Uncommon, Battle Royale Box Set Uncommon, Ice Age Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
 
 Name:   Sworn Defender
 Cost:   2WW
@@ -13820,6 +14026,14 @@ Pow/Tgh:
 Rules Text:     Target player gains 8 life.
 Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
 Set/Rarity:     Modern Masters Common, Duel Decks: Ajani vs. Nicol Bolas Common, Conflux Common
+
+Name:   Sylvan Caryatid
+Cost:   1G
+Type:   Creature — Plant
+Pow/Tgh:    (0/3)
+Rules Text:     Defender, hexproof
+{T}: Add one mana of any color to your mana pool.
+Set/Rarity:     Theros Rare
 
 Name:   Sylvan Echoes
 Cost:   G

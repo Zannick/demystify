@@ -827,6 +827,15 @@ Rules Text:     +1: Put a 1/1 white Soldier creature token onto the battlefield.
 -8: You get an emblem with "Artifacts, creatures, enchantments, and lands you control have indestructible."
 Set/Rarity:     Modern Masters Mythic Rare, Duel Decks: Elspeth vs. Tezzeret Mythic Rare, Shards of Alara Mythic Rare
 
+Name:   Elspeth, Sun's Champion
+Cost:   4WW
+Type:   Planeswalker — Elspeth
+Loyalty:    (4)
+Rules Text:     +1: Put three 1/1 white Soldier creature tokens onto the battlefield.
+-3: Destroy all creatures with power 4 or greater.
+-7: You get an emblem with "Creatures you control get +2/+2 and have flying."
+Set/Rarity:     Theros Mythic Rare
+
 Name:   Elusive Krasis
 Cost:   1GU
 Type:   Creature — Fish Mutant
@@ -1183,6 +1192,14 @@ Rules Text:     Ember Shot deals 3 damage to target creature or player.
 
 Draw a card.
 Set/Rarity:     Judgment Common
+
+Name:   Ember Swallower
+Cost:   2RR
+Type:   Creature — Elemental
+Pow/Tgh:    (4/5)
+Rules Text:     {5}{R}{R}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Ember Swallower becomes monstrous, each player sacrifices three lands.
+Set/Rarity:     Theros Rare
 
 Name:   Ember Weaver
 Cost:   2G
@@ -1984,6 +2001,13 @@ Pow/Tgh:
 Rules Text:     Players skip their upkeep steps.
 Set/Rarity:     Fifth Dawn Rare
 
+Name:   Ephara's Warden
+Cost:   3W
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/2)
+Rules Text:     {T}: Tap target creature with power 3 or less.
+Set/Rarity:     Theros Common
+
 Name:   Ephemeron
 Cost:   4UU
 Type:   Creature — Illusion
@@ -2098,6 +2122,25 @@ Pow/Tgh:    (2/1)
 Rules Text:     Haste
 Whenever Erdwal Ripper deals combat damage to a player, put a +1/+1 counter on it.
 Set/Rarity:     Dark Ascension Common
+
+Name:   Erebos's Emissary
+Cost:   3B
+Type:   Enchantment Creature — Snake
+Pow/Tgh:    (3/3)
+Rules Text:     Bestow {5}{B} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Discard a creature card: Erebos's Emissary gets +2/+2 until end of turn. If Erebos's Emissary is an Aura, enchanted creature gets +2/+2 until end of turn instead.
+Enchanted creature gets +3/+3.
+Set/Rarity:     Theros Uncommon
+
+Name:   Erebos, God of the Dead
+Cost:   3B
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (5/7)
+Rules Text:     Indestructible
+As long as your devotion to black is less than five, Erebos isn't a creature. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
+Your opponents can't gain life.
+{1}{B}, Pay 2 life: Draw a card.
+Set/Rarity:     Theros Mythic Rare
 
 Name:   Erg Raiders
 Cost:   1B
@@ -2640,6 +2683,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Return all creatures to their owners' hands.
 Set/Rarity:     Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Seventh Edition Rare, Stronghold Rare
+
+Name:   Evangel of Heliod
+Cost:   4WW
+Type:   Creature — Human Cleric
+Pow/Tgh:    (1/3)
+Rules Text:     When Evangel of Heliod enters the battlefield, put a number of 1/1 white Soldier creature tokens onto the battlefield equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)
+Set/Rarity:     Theros Uncommon
 
 Name:   Evangelize
 Cost:   4W

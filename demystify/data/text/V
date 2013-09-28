@@ -59,7 +59,7 @@ Cost:   4RG
 Type:   Creature — Beast
 Pow/Tgh:    (6/3)
 Rules Text:     Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, and put it into your hand. Then shuffle your library.)
-Set/Rarity:     Magic: The Gathering-Commander Common, Alara Reborn Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Magic: The Gathering-Commander Common, Alara Reborn Common
 
 Name:   Valleymaker
 Cost:   5(R/G)
@@ -301,6 +301,13 @@ Pow/Tgh:
 Rules Text:     Destroy target blocking creature.
 Set/Rarity:     Fifth Dawn Uncommon
 
+Name:   Vanquish the Foul
+Cost:   5W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target creature with power 4 or greater. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Uncommon
+
 Name:   Vapor Snag
 Cost:   U
 Type:   Instant
@@ -316,6 +323,14 @@ Rules Text:     Enchant creature
 You control enchanted creature.
 At the beginning of your upkeep, sacrifice Vapor Snare unless you return a land you control to its owner's hand.
 Set/Rarity:     Worldwake Uncommon
+
+Name:   Vaporkin
+Cost:   1U
+Type:   Creature — Elemental
+Pow/Tgh:    (2/1)
+Rules Text:     Flying
+Vaporkin can block only creatures with flying.
+Set/Rarity:     Theros Common
 
 Name:   Vaporous Djinn
 Cost:   2UU
@@ -887,7 +902,7 @@ Type:   Legendary Creature — Human Wizard
 Pow/Tgh:    (2/2)
 Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
 When Venser, Shaper Savant enters the battlefield, return target spell or permanent to its owner's hand.
-Set/Rarity:     Future Sight Rare
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Future Sight Rare
 
 Name:   Venser, the Sojourner
 Cost:   3WU
@@ -1732,6 +1747,14 @@ Pow/Tgh:
 Rules Text:     Destroy target nonblack creature. Put a 1/1 black Faerie Rogue creature token with flying onto the battlefield.
 Set/Rarity:     Morningtide Common
 
+Name:   Viper's Kiss
+Cost:   B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets -1/-1, and its activated abilities can't be activated.
+Set/Rarity:     Theros Common
+
 Name:   Viral Drake
 Cost:   3U
 Type:   Creature — Drake
@@ -2565,7 +2588,6 @@ Cost:
 Type:   Legendary Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {1} to your mana pool.
-
 {1}{B}, {T}: Put target creature card from your graveyard on top of your library.
 Set/Rarity:     Stronghold Rare
 
@@ -2574,7 +2596,7 @@ Cost:   2R
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Volt Charge deals 3 damage to target creature or player. Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
-Set/Rarity:     New Phyrexia Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, New Phyrexia Common
 
 Name:   Voltaic Construct
 Cost:   4
@@ -2743,6 +2765,13 @@ Rules Text:     Enchant creature
 Enchanted creature gets +3/+3, has trample, and can't attack you or a planeswalker you control.
 Set/Rarity:     Magic: The Gathering-Commander Uncommon
 
+Name:   Voyage's End
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Return target creature to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Theros Common
+
 Name:   Voyager Drake
 Cost:   3U
 Type:   Creature — Drake
@@ -2758,6 +2787,13 @@ Type:   Artifact
 Pow/Tgh:    
 Rules Text:     {2}, Sacrifice Voyager Staff: Exile target creature. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
+
+Name:   Voyaging Satyr
+Cost:   1G
+Type:   Creature — Satyr Druid
+Pow/Tgh:    (1/2)
+Rules Text:     {T}: Untap target land.
+Set/Rarity:     Theros Common
 
 Name:   Vraska the Unseen
 Cost:   3BG
@@ -2775,6 +2811,13 @@ Pow/Tgh:    (3/4)
 Rules Text:     Mountainwalk
 Echo {1}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 Set/Rarity:     Urza's Saga Uncommon
+
+Name:   Vulpine Goliath
+Cost:   4GG
+Type:   Creature — Fox
+Pow/Tgh:    (6/5)
+Rules Text:     Trample
+Set/Rarity:     Theros Common
 
 Name:   Vulshok Battlegear
 Cost:   3

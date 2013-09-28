@@ -39,6 +39,7 @@ level_up : LEVEL UP -> LEVEL_UP;
 number_word : NUMBER_WORD;
 
 obj_counter : OBJ_COUNTER
+            | DEVOTION
             | ECHO
             | FUNGUS
             | FUSE

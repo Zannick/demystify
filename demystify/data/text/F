@@ -13,6 +13,14 @@ Rules Text:     Whenever you cast a green spell, you may put a 2/2 green Wolf cr
 Whenever you cast a blue spell, you may put a 1/1 blue Bird creature token with flying onto the battlefield.
 Set/Rarity:     Eventide Rare
 
+Name:   Fabled Hero
+Cost:   1WW
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Double strike
+Heroic — Whenever you cast a spell that targets Fabled Hero, put a +1/+1 counter on Fabled Hero.
+Set/Rarity:     Theros Rare
+
 Name:   Fabricate
 Cost:   2U
 Type:   Sorcery
@@ -63,7 +71,7 @@ Cost:   3U
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Duel Decks: Jace vs. Chandra Uncommon, Invasion Uncommon
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Magic: The Gathering-Commander Uncommon, Duel Decks: Jace vs. Chandra Uncommon, Invasion Uncommon
 
 Name:   Fade Away
 Cost:   2U
@@ -79,6 +87,13 @@ Pow/Tgh:
 Rules Text:     Exile target card from a graveyard.
 Cycling {B} ({B}, Discard this card: Draw a card.)
 Set/Rarity:     Onslaught Uncommon
+
+Name:   Fade into Antiquity
+Cost:   2G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile target artifact or enchantment.
+Set/Rarity:     Theros Common
 
 Name:   Faerie Conclave
 Cost:   
@@ -457,6 +472,13 @@ Pow/Tgh:    (3/2)
 Rules Text:     {1}{B}, Sacrifice Famished Ghoul: Exile up to two target cards from a single graveyard.
 Set/Rarity:     Odyssey Uncommon
 
+Name:   Fanatic of Mogis
+Cost:   3R
+Type:   Creature — Minotaur Shaman
+Pow/Tgh:    (4/2)
+Rules Text:     When Fanatic of Mogis enters the battlefield, it deals damage to each opponent equal to your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)
+Set/Rarity:     Theros Uncommon
+
 Name:   Fanatical Devotion
 Cost:   2W
 Type:   Enchantment
@@ -665,6 +687,15 @@ Rules Text:     Enchant creature
 When enchanted creature is turned face up, destroy it. It can't be regenerated.
 Set/Rarity:     Scourge Uncommon
 
+Name:   Fate Foretold
+Cost:   1U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Fate Foretold enters the battlefield, draw a card.
+When enchanted creature dies, its controller draws a card.
+Set/Rarity:     Theros Common
+
 Name:   Fate Transfer
 Cost:   1(U/B)
 Type:   Instant
@@ -787,6 +818,13 @@ Pow/Tgh:
 Rules Text:     Creatures you control with flying get +1/+1.
 Set/Rarity:     Avacyn Restored Uncommon
 
+Name:   Favored Hoplite
+Cost:   W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/2)
+Rules Text:     Heroic — Whenever you cast a spell that targets Favored Hoplite, put a +1/+1 counter on Favored Hoplite and prevent all damage that would be dealt to it this turn.
+Set/Rarity:     Theros Uncommon
+
 Name:   Fear
 Cost:   BB
 Type:   Enchantment — Aura
@@ -899,6 +937,13 @@ Pow/Tgh:
 Rules Text:     {T}, Exile Feldon's Cane: Shuffle your graveyard into your library.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Fifth Edition Uncommon, Chronicles Common, Antiquities Uncommon
 
+Name:   Felhide Minotaur
+Cost:   2B
+Type:   Creature — Minotaur
+Pow/Tgh:    (2/3)
+Rules Text:     
+Set/Rarity:     Theros Common
+
 Name:   Felidar Sovereign
 Cost:   4WW
 Type:   Creature — Cat Beast
@@ -988,7 +1033,7 @@ Cost:   1W
 Type:   Creature — Human Soldier
 Pow/Tgh:    (1/1)
 Rules Text:     Double strike (This creature deals both first-strike and regular combat damage.)
-Set/Rarity:     Return to Ravnica Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Return to Ravnica Uncommon
 
 Name:   Fend Off
 Cost:   1W
@@ -1042,6 +1087,15 @@ Pow/Tgh:
 Rules Text:     Target creature gets +1/+1 until end of turn.
 Draw a card at the beginning of the next turn's upkeep.
 Set/Rarity:     Visions Common
+
+Name:   Feral Invocation
+Cost:   2G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
+Enchanted creature gets +2/+2.
+Set/Rarity:     Theros Common
 
 Name:   Feral Lightning
 Cost:   3RRR
@@ -1494,7 +1548,7 @@ Pow/Tgh:    (1/1)
 Rules Text:     {(r/w)}: Figure of Destiny becomes a 2/2 Kithkin Spirit.
 {(r/w)}{(r/w)}{(r/w)}: If Figure of Destiny is a Spirit, it becomes a 4/4 Kithkin Spirit Warrior.
 {(r/w)}{(r/w)}{(r/w)}{(r/w)}{(r/w)}{(r/w)}: If Figure of Destiny is a Warrior, it becomes an 8/8 Kithkin Spirit Warrior Avatar with flying and first strike.
-Set/Rarity:     Modern Masters Rare, Premium Deck Series: Fire and Lightning Rare, Eventide Rare
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Rare, Modern Masters Rare, Premium Deck Series: Fire and Lightning Rare, Eventide Rare
 
 Name:   Filigree Angel
 Cost:   5WWU
@@ -1805,6 +1859,14 @@ Rules Text:     Put X 1/1 red Elemental Cat creature tokens with haste onto the 
 Flashback—{R}{R}, Sacrifice X Mountains. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 Set/Rarity:     Judgment Uncommon
 
+Name:   Firedrinker Satyr
+Cost:   R
+Type:   Creature — Satyr Shaman
+Pow/Tgh:    (2/1)
+Rules Text:     Whenever Firedrinker Satyr is dealt damage, it deals that much damage to you.
+{1}{R}: Firedrinker Satyr gets +1/+0 until end of turn and deals 1 damage to you.
+Set/Rarity:     Theros Rare
+
 Name:   Firefist Striker
 Cost:   1R
 Type:   Creature — Human Soldier
@@ -1874,7 +1936,7 @@ Type:   Enchantment
 Pow/Tgh:    
 Rules Text:     Creatures you control have haste.
 Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.
-Set/Rarity:     Planechase 2012 Edition Uncommon, Archenemy Uncommon, Planechase Uncommon, Invasion Uncommon
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Planechase 2012 Edition Uncommon, Archenemy Uncommon, Planechase Uncommon, Invasion Uncommon
 
 Name:   Firescreamer
 Cost:   3B
@@ -2195,6 +2257,13 @@ Pow/Tgh:
 Rules Text:     Flamebreak deals 3 damage to each creature without flying and each player. Creatures dealt damage this way can't be regenerated this turn.
 Set/Rarity:     Darksteel Rare
 
+Name:   Flamecast Wheel
+Cost:   1
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     {5}, {T}, Sacrifice Flamecast Wheel: Flamecast Wheel deals 3 damage to target creature.
+Set/Rarity:     Theros Uncommon
+
 Name:   Flamecore Elemental
 Cost:   2RR
 Type:   Creature — Elemental
@@ -2251,6 +2320,13 @@ Pow/Tgh:
 Rules Text:     You may discard a Mountain card rather than pay Flameshot's mana cost.
 Flameshot deals 3 damage divided as you choose among one, two, or three target creatures.
 Set/Rarity:     Prophecy Uncommon
+
+Name:   Flamespeaker Adept
+Cost:   2R
+Type:   Creature — Human Shaman
+Pow/Tgh:    (2/3)
+Rules Text:     Whenever you scry, Flamespeaker Adept gets +2/+0 and gains first strike until end of turn.
+Set/Rarity:     Theros Uncommon
 
 Name:   Flamestick Courier
 Cost:   2R
@@ -2467,12 +2543,28 @@ Pow/Tgh:    (1/1)
 Rules Text:     Fledgling Osprey has flying as long as it's enchanted.
 Set/Rarity:     Urza's Destiny Common
 
+Name:   Fleecemane Lion
+Cost:   GW
+Type:   Creature — Cat
+Pow/Tgh:    (3/3)
+Rules Text:     {3}{G}{W}: Monstrosity 1. (If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)
+As long as Fleecemane Lion is monstrous, it has hexproof and indestructible.
+Set/Rarity:     Theros Rare
+
 Name:   Fleet-Footed Monk
 Cost:   1W
 Type:   Creature — Human Monk
 Pow/Tgh:    (1/1)
 Rules Text:     Fleet-Footed Monk can't be blocked by creatures with power 2 or greater.
 Set/Rarity:     Portal Common
+
+Name:   Fleetfeather Sandals
+Cost:   2
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has flying and haste.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+Set/Rarity:     Theros Common
 
 Name:   Fleetfoot Panther
 Cost:   1GW
@@ -2575,6 +2667,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Discard an artifact card: Fleshgrafter gets +2/+2 until end of turn.
 Set/Rarity:     Fifth Dawn Common
 
+Name:   Fleshmad Steed
+Cost:   1B
+Type:   Creature — Horse
+Pow/Tgh:    (2/2)
+Rules Text:     Whenever another creature dies, tap Fleshmad Steed.
+Set/Rarity:     Theros Common
+
 Name:   Fleshpulper Giant
 Cost:   5RR
 Type:   Creature — Giant
@@ -2601,7 +2700,7 @@ Cost:   1W
 Type:   Enchantment — Aura
 Pow/Tgh:    
 Rules Text:     Enchant creature
-{2}{W}{W}: Exile enchanted creature and all Auras attached to it. At the beginning of the next end step, return that card to the battlefield under its owner's control. If you do, return those Auras to the battlefield under their owners' control attached to that creature.
+{2}{W}{W}: Exile enchanted creature and all Auras attached to it. At the beginning of the next end step, return that card to the battlefield under its owner's control. If you do, return the other cards exiled this way to the battlefield under their owners' control attached to that creature.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
 Name:   Flickering Spirit
@@ -3374,7 +3473,7 @@ Cost:
 Type:   Basic Land — Forest
 Pow/Tgh:    
 Rules Text:     G
-Set/Rarity:     Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Magic 2014 Core Set Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Return to Ravnica Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Duel Decks: Izzet vs. Golgari Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Magic 2013 Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Planechase 2012 Edition Land, Avacyn Restored Land, Avacyn Restored Land, Avacyn Restored Land, Innistrad Land, Innistrad Land, Innistrad Land, Duel Decks: Ajani vs. Nicol Bolas Land, Duel Decks: Ajani vs. Nicol Bolas Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic 2012 Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, Magic: The Gathering-Commander Land, New Phyrexia Land, New Phyrexia Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Duel Decks: Knights vs. Dragons Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Scars of Mirrodin Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Magic 2011 Land, Archenemy Land, Archenemy Land, Archenemy Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Rise of the Eldrazi Land, Duel Decks: Phyrexia vs. the Coalition Land, Duel Decks: Phyrexia vs. the Coalition Land, Mirrodin Besieged Land, Mirrodin Besieged Land, Premium Deck Series: Slivers Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Duel Decks: Garruk vs. Liliana Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Zendikar Land, Masters Edition III Land, Masters Edition III Land, Masters Edition III Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Planechase Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Magic 2010 Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shards of Alara Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Shadowmoor Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Duel Decks: Elves vs. Goblins Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Lorwyn Land, Masters Edition Land, Masters Edition Land, Masters Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Tenth Edition Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Time Spiral Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ravnica: City of Guilds Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Ninth Edition Land, Unhinged Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Champions of Kamigawa Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Mirrodin Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Eighth Edition Land, Onslaught Land, Onslaught Land, Onslaught Land, Onslaught Land, Odyssey Land, Odyssey Land, Odyssey Land, Odyssey Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Seventh Edition Land, Beatdown Box Set Land, Beatdown Box Set Land, Beatdown Box Set Land, Invasion Land, Invasion Land, Invasion Land, Invasion Land, Starter 2000 Land, Starter 2000 Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Battle Royale Box Set Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Mercadian Masques Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Starter 1999 Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Portal Three Kingdoms Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Classic Sixth Edition Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Urza's Saga Land, Unglued Common, Portal Second Age Land, Portal Second Age Land, Portal Second Age Land, Tempest Land, Tempest Land, Tempest Land, Tempest Land, Portal Land, Portal Land, Portal Land, Portal Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Fifth Edition Land, Mirage Land, Mirage Land, Mirage Land, Mirage Land, Ice Age Land, Ice Age Land, Ice Age Land, Fourth Edition Land, Fourth Edition Land, Fourth Edition Land, Revised Edition Land, Revised Edition Land, Revised Edition Land, Unlimited Edition Land, Unlimited Edition Land, Unlimited Edition Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Beta Land, Limited Edition Alpha Land, Limited Edition Alpha Land
+Set/Rarity:     Theros Land, Theros Land, Theros Land, Theros Land
 
 Name:   Forest Bear
 Cost:   1G
@@ -3760,7 +3859,7 @@ Type:   Creature — Human Archer
 Pow/Tgh:    (2/2)
 Rules Text:     Flying
 As long as Freewind Equenaut is enchanted, it has "{T}: Freewind Equenaut deals 2 damage to target attacking or blocking creature."
-Set/Rarity:     Dissension Common
+Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Dissension Common
 
 Name:   Freewind Falcon
 Cost:   1W
@@ -4398,7 +4497,7 @@ Cost:   G
 Type:   Creature — Elf Druid
 Pow/Tgh:    (1/1)
 Rules Text:     {T}: Add {G} to your mana pool.
-Set/Rarity:     Masters Edition Common, Ice Age Common
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Masters Edition Common, Ice Age Common
 
 Name:   Fyndhorn Pollen
 Cost:   2G

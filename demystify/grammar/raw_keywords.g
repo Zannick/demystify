@@ -78,6 +78,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | FLYING
                     | HASTE
                     | HEXPROOF
+                    | INDESTRUCTIBLE
                     | INTIMIDATE
                     | LIFELINK
                     | REACH
@@ -123,6 +124,7 @@ raw_keyword_no_args : DEATHTOUCH
 
 raw_keyword_cost : EQUIP
                  | aura_swap
+                 | BESTOW
                  | BUYBACK
                  | CUMULATIVE_UPKEEP
                  | CYCLING

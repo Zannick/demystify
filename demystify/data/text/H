@@ -266,6 +266,14 @@ Rules Text:     Hammer of Bogardan deals 3 damage to target creature or player.
 {2}{R}{R}{R}: Return Hammer of Bogardan from your graveyard to your hand. Activate this ability only during your upkeep.
 Set/Rarity:     Premium Deck Series: Fire and Lightning Rare, Eighth Edition Rare, Classic Sixth Edition Rare, Mirage Rare
 
+Name:   Hammer of Purphoros
+Cost:   1RR
+Type:   Legendary Enchantment Artifact
+Pow/Tgh:    
+Rules Text:     Creatures you control have haste.
+{2}{R}, {T}, Sacrifice a land: Put a 3/3 colorless Golem enchantment artifact creature token onto the battlefield.
+Set/Rarity:     Theros Rare
+
 Name:   Hammer of Ruin
 Cost:   2
 Type:   Artifact — Equipment
@@ -294,7 +302,6 @@ Cost:
 Type:   Legendary Land
 Pow/Tgh:    
 Rules Text:     {T}: Add {R} to your mana pool.
-
 {T}: Target creature loses all landwalk abilities until end of turn.
 Set/Rarity:     Masters Edition III Uncommon, Legends Uncommon
 
@@ -1365,6 +1372,25 @@ Rules Text:     Intimidate (This creature can't be blocked except by artifact cr
 Whenever Heirs of Stromkirk deals combat damage to a player, put a +1/+1 counter on it.
 Set/Rarity:     Avacyn Restored Common
 
+Name:   Heliod's Emissary
+Cost:   3W
+Type:   Enchantment Creature — Elk
+Pow/Tgh:    (3/3)
+Rules Text:     Bestow {6}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Whenever Heliod's Emissary or enchanted creature attacks, tap target creature an opponent controls.
+Enchanted creature gets +3/+3.
+Set/Rarity:     Theros Uncommon
+
+Name:   Heliod, God of the Sun
+Cost:   3W
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (5/6)
+Rules Text:     Indestructible
+As long as your devotion to white is less than five, Heliod isn't a creature. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)
+Other creatures you control have vigilance.
+{2}{W}{W}: Put a 2/1 white Cleric enchantment creature token onto the battlefield.
+Set/Rarity:     Theros Mythic Rare
+
 Name:   Helionaut
 Cost:   2W
 Type:   Creature — Human Soldier
@@ -1745,6 +1771,13 @@ Pow/Tgh:
 Rules Text:     Destroy target legendary creature.
 Set/Rarity:     Betrayers of Kamigawa Rare
 
+Name:   Hero's Downfall
+Cost:   1BB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy target creature or planeswalker.
+Set/Rarity:     Theros Rare
+
 Name:   Hero's Resolve
 Cost:   1W
 Type:   Enchantment — Aura
@@ -2030,7 +2063,7 @@ Set/Rarity:     Coldsnap Uncommon
 
 Name:   Highway Robber
 Cost:   2BB
-Type:   Creature — Human Rogue Mercenary
+Type:   Creature — Human Mercenary
 Pow/Tgh:    (2/2)
 Rules Text:     When Highway Robber enters the battlefield, target opponent loses 2 life and you gain 2 life.
 Set/Rarity:     Tenth Edition Common, Ninth Edition Common, Mercadian Masques Common
@@ -2640,6 +2673,15 @@ Pow/Tgh:
 Rules Text:     Untap two target creatures. Each of them gets +1/+1 until end of turn.
 Set/Rarity:     Urza's Legacy Uncommon
 
+Name:   Hopeful Eidolon
+Cost:   W
+Type:   Enchantment Creature — Spirit
+Pow/Tgh:    (1/1)
+Rules Text:     Bestow {3}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Enchanted creature gets +1/+1 and has lifelink.
+Set/Rarity:     Theros Common
+
 Name:   Hopping Automaton
 Cost:   3
 Type:   Artifact Creature — Construct
@@ -2671,12 +2713,29 @@ Rules Text:     {T}, Pay 1 life: Add {G} or {W} to your mana pool.
 {1}, {T}, Sacrifice Horizon Canopy: Draw a card.
 Set/Rarity:     Future Sight Rare
 
+Name:   Horizon Chimera
+Cost:   2GU
+Type:   Creature — Chimera
+Pow/Tgh:    (3/2)
+Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+Flying, trample
+Whenever you draw a card, you gain 1 life.
+Set/Rarity:     Theros Uncommon
+
 Name:   Horizon Drake
 Cost:   1UU
 Type:   Creature — Drake
 Pow/Tgh:    (3/1)
 Rules Text:     Flying, protection from lands
 Set/Rarity:     Worldwake Uncommon
+
+Name:   Horizon Scholar
+Cost:   5U
+Type:   Creature — Sphinx
+Pow/Tgh:    (4/4)
+Rules Text:     Flying
+When Horizon Scholar enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Theros Uncommon
 
 Name:   Horizon Seed
 Cost:   4W
@@ -3110,6 +3169,15 @@ Pow/Tgh:    (5/4)
 Rules Text:     Rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)
 Set/Rarity:     Masters Edition III Uncommon, Legends Uncommon
 
+Name:   Hundred-Handed One
+Cost:   2WW
+Type:   Creature — Giant
+Pow/Tgh:    (3/5)
+Rules Text:     Vigilance
+{3}{W}{W}{W}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+As long as Hundred-Handed One is monstrous, it has reach and can block an additional ninety-nine creatures each combat.
+Set/Rarity:     Theros Rare
+
 Name:   Hundred-Talon Kami
 Cost:   4W
 Type:   Creature — Spirit
@@ -3169,6 +3237,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target creature blocks target creature this turn if able.
 Set/Rarity:     Lorwyn Common
+
+Name:   Hunt the Hunter
+Cost:   G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target green creature you control gets +2/+2 until end of turn. It fights target green creature an opponent controls.
+Set/Rarity:     Theros Uncommon
 
 Name:   Hunt the Weak
 Cost:   3G
@@ -3459,7 +3534,7 @@ Cost:   BB
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Target player discards two cards at random.
-Set/Rarity:     Masters Edition Uncommon, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+Set/Rarity:     From the Vault: Twenty Mythic Rare, Masters Edition Uncommon, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
 
 Name:   Hypergenesis
 Cost:   
@@ -3542,3 +3617,12 @@ Rules Text:     Trample
 Whenever Hystrodon deals combat damage to a player, you may draw a card.
 Morph {1}{G}{G} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Set/Rarity:     Onslaught Rare
+
+Name:   Hythonia the Cruel
+Cost:   4BB
+Type:   Legendary Creature — Gorgon
+Pow/Tgh:    (4/6)
+Rules Text:     Deathtouch
+{6}{B}{B}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Hythonia the Cruel becomes monstrous, destroy all non-Gorgon creatures.
+Set/Rarity:     Theros Mythic Rare
