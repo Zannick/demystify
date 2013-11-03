@@ -53,6 +53,7 @@ status : TAPPED
        | FACE_DOWN
        | FLIPPED
        | REVEALED
+       | MONSTROUS
        ;
 
 // Nouns

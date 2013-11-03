@@ -173,3 +173,18 @@ raw_keyword_int_cost : REINFORCE
 
 raw_keyword_quality : bands_with_other
                     ;
+
+/* Keyword actions. */
+
+raw_keyword_action : raw_keyword_action_no_args
+                   | raw_keyword_action_int
+                   ;
+
+raw_keyword_action_no_args : POPULATE
+                           | PROLIFERATE
+                           ;
+
+raw_keyword_action_int : FATESEAL
+                       | MONSTROSITY
+                       | SCRY
+                       ;
