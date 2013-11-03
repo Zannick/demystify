@@ -73,6 +73,11 @@ not, create a symlink, via:
 
 (You should also check that /usr/lib/jvm/java-6-openjdk exists.)
 
+In my most recent attempt to install this (with java 1.7, fedora 19), the
+jpackage scripts gave errors because the folders /usr/share/java-1.7.0 and
+/usr/lib/java-1.7.0 didn't exist. These can be empty, it'll still find the jars
+place in /usr/share/java in the next step.
+
 4) ANTLR 3.5
 Required to generate the DemystifyParser
 
@@ -113,6 +118,9 @@ If you don't, there was an issue installing something earlier:
         If it says "error: JVM_LIBDIR /usr/lib/jvm-exports/java-6-openjdk does
         not exist or is not a directory" where you'd expect the classpath, then
         see above for the jvm-exports workaround.
+        If it says "JAVAVER_LIBDIR /usr/share/java-1.7.0 does not exist or is
+        not a directory" then you also need to create that folder (and probably
+        /usr/lib/java-1.7.0 as well). They can be empty folders, as above.
     Something else?
         Check that java 6 and jpackage-utils are actually installed?
         Maybe reinstall openjdk-6-jdk after jpackage-utils is installed.
@@ -122,11 +130,24 @@ If you don't, there was an issue installing something earlier:
 6) python-progressbar 2.3
 
 Download and install from http://code.google.com/p/python-progressbar/,
-rather than using your package manager (which likely has an outdated version).
+rather than using your package manager (which likely has an outdated version
+or installs it to python2).
 
     $ wget python-progressbar.googlecode.com/files/progressbar-2.3.tar.gz
     $ tar xf progressbar-2.3.tar.gz
     $ cd progressbar-2.3/
+    $ sudo python3.2 setup.py install
+
+(Note that if you're using Python 3.3 you'll need to download the source
+directly, since the progressbar-2.3 tarball is missing a necessary bugfix.
+And then you'll need to muck with the imports to make them relative... and
+touch any files that don't need to be mucked with, because code.google.com
+marks them as edited in 1979 and setuptools doesn't like that...)
+
+    $ wget https://python-progressbar.googlecode.com/archive/235f632a9c86d7a84c607151d5127652102549ab.zip
+    $ unzip 235<TAB>
+    $ cd python-progressbar-235f632a9c86/
+    $ vim progressbar/*
     $ sudo python3.2 setup.py install
 
 This (and the ANTLR runtime below) requires setuptools. Some distros may
