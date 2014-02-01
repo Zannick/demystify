@@ -1916,6 +1916,13 @@ Rules Text:     When Big Game Hunter enters the battlefield, destroy target crea
 Madness {B} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)
 Set/Rarity:     Planar Chaos Uncommon
 
+Name:   Bile Blight
+Cost:   BB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature and all other creatures with the same name as that creature get -3/-3 until end of turn.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Bile Urchin
 Cost:   B
 Type:   Creature — Spirit
@@ -2110,6 +2117,14 @@ Pow/Tgh:
 Rules Text:     Whenever a creature dies, put a charge counter on Black Market.
 At the beginning of your precombat main phase, add {B} to your mana pool for each charge counter on Black Market.
 Set/Rarity:     Mercadian Masques Rare
+
+Name:   Black Oak of Odunos
+Cost:   2B
+Type:   Creature — Zombie Treefolk
+Pow/Tgh:    (0/5)
+Rules Text:     Defender
+{B}, Tap another untapped creature you control: Black Oak of Odunos gets +1/+1 until end of turn.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Black Poplar Shaman
 Cost:   2B
@@ -3812,6 +3827,13 @@ Rules Text:     Cowards can't block Warriors.
 {2}{R}: Target creature becomes a Warrior until end of turn.
 Set/Rarity:     Morningtide Uncommon, Future Sight Uncommon
 
+Name:   Bolt of Keranos
+Cost:   1RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Bolt of Keranos deals 3 damage to target creature or player. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Born of the Gods Common
+
 Name:   Bomb Squad
 Cost:   3R
 Type:   Creature — Dwarf
@@ -4997,6 +5019,15 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Exile the top five cards of your library. An opponent separates those cards into two piles. You may play any number of cards from one of those piles without paying their mana costs.
 Set/Rarity:     Shards of Alara Rare
+
+Name:   Brimaz, King of Oreskos
+Cost:   1WW
+Type:   Legendary Creature — Cat Soldier
+Pow/Tgh:    (3/4)
+Rules Text:     Vigilance
+Whenever Brimaz, King of Oreskos attacks, put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield attacking.
+Whenever Brimaz blocks a creature, put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield blocking that creature.
+Set/Rarity:     Born of the Gods Mythic Rare
 
 Name:   Brimstone Dragon
 Cost:   6RR

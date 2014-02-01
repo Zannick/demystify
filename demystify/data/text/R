@@ -206,6 +206,13 @@ Rules Text:     Trample
 Other Minotaur creatures you control get +1/+1 and have trample.
 Set/Rarity:     Theros Rare
 
+Name:   Ragemonger
+Cost:   1BR
+Type:   Creature — Minotaur Shaman
+Pow/Tgh:    (2/3)
+Rules Text:     Minotaur spells you cast cost {B}{R} less to cast. This effect reduces only the amount of colored mana you pay. (For example, if you cast a Minotaur spell with mana cost {2}{R}, it costs {2} to cast.)
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Ragged Veins
 Cost:   1B
 Type:   Enchantment — Aura
@@ -419,6 +426,15 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Put two 1/1 white Soldier creature tokens onto the battlefield.
 Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Common, Mirrodin Common
+
+Name:   Raised by Wolves
+Cost:   3GG
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Raised by Wolves enters the battlefield, put two 2/2 green Wolf creature tokens onto the battlefield.
+Enchanted creature gets +1/+1 for each Wolf you control.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Raka Disciple
 Cost:   R
@@ -1496,6 +1512,13 @@ Pow/Tgh:
 Rules Text:     Target opponent reveals his or her hand. You choose up to X nonland cards from it and exile them. For each card exiled this way, search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library.
 Set/Rarity:     Dragon's Maze Mythic Rare
 
+Name:   Reap What Is Sown
+Cost:   1GW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put a +1/+1 counter on each of up to three target creatures.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Reap and Sow
 Cost:   3G
 Type:   Sorcery
@@ -1718,6 +1741,13 @@ Pow/Tgh:    (*/*)
 Rules Text:     Haste
 Reckless One's power and toughness are each equal to the number of Goblins on the battlefield.
 Set/Rarity:     Duel Decks: Elves vs. Goblins Uncommon, Onslaught Uncommon
+
+Name:   Reckless Reveler
+Cost:   1R
+Type:   Creature — Satyr
+Pow/Tgh:    (2/1)
+Rules Text:     {R}, Sacrifice Reckless Reveler: Destroy target artifact.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Reckless Scholar
 Cost:   2U
@@ -2910,6 +2940,13 @@ Pow/Tgh:
 Rules Text:     Return all artifacts you control to their owner's hand.
 Set/Rarity:     Darksteel Rare
 
+Name:   Retraction Helix
+Cost:   U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Until end of turn, target creature gains "{T}: Return target nonland permanent to its owner's hand."
+Set/Rarity:     Born of the Gods Common
+
 Name:   Retribution
 Cost:   2RR
 Type:   Sorcery
@@ -3156,7 +3193,7 @@ Cost:   1W
 Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Exile target artifact or enchantment.
-Set/Rarity:     Duel Decks: Venser vs. Koth Common, Scars of Mirrodin Common
+Set/Rarity:     Born of the Gods Common
 
 Name:   Reward the Faithful
 Cost:   W
@@ -3922,6 +3959,13 @@ Pow/Tgh:
 Rules Text:     When Rise of the Hobgoblins enters the battlefield, you may pay {X}. If you do, put X 1/1 red and white Goblin Soldier creature tokens onto the battlefield.
 {(r/w)}: Red creatures and white creatures you control gain first strike until end of turn.
 Set/Rarity:     Eventide Rare
+
+Name:   Rise to the Challenge
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +2/+0 and gains first strike until end of turn.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Risen Sanctuary
 Cost:   5GW

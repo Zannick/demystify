@@ -348,6 +348,24 @@ Pow/Tgh:    (1/4)
 Rules Text:     {T}: Add an amount of {G} to your mana pool equal to your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)
 Set/Rarity:     Theros Uncommon
 
+Name:   Karametra's Favor
+Cost:   1G
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Karametra's Favor enters the battlefield, draw a card.
+Enchanted creature has "{T}: Add one mana of any color to your mana pool."
+Set/Rarity:     Born of the Gods Common
+
+Name:   Karametra, God of Harvests
+Cost:   3GW
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (6/7)
+Rules Text:     Indestructible
+As long as your devotion to green and white is less than seven, Karametra isn't a creature.
+Whenever you cast a creature spell, you may search your library for a Forest or Plains card, put it onto the battlefield tapped, then shuffle your library.
+Set/Rarity:     Born of the Gods Mythic Rare
+
 Name:   Kargan Dragonlord
 Cost:   RR
 Type:   Creature — Human Warrior
@@ -1369,6 +1387,22 @@ Rules Text:     Flying
 Whenever Kinscaer Harpoonist attacks, you may have target creature lose flying until end of turn.
 Set/Rarity:     Shadowmoor Common
 
+Name:   Kiora's Follower
+Cost:   GU
+Type:   Creature — Merfolk
+Pow/Tgh:    (2/2)
+Rules Text:     {T}: Untap another target permanent.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Kiora, the Crashing Wave
+Cost:   2GU
+Type:   Planeswalker — Kiora
+Loyalty:    (2)
+Rules Text:     +1: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.
+-1: Draw a card. You may play an additional land this turn.
+-5: You get an emblem with "At the beginning of your end step, put a 9/9 blue Kraken creature token onto the battlefield."
+Set/Rarity:     Born of the Gods Mythic Rare
+
 Name:   Kira, Great Glass-Spinner
 Cost:   1UU
 Type:   Legendary Creature — Spirit
@@ -2328,6 +2362,13 @@ Annihilator 4 (Whenever this creature attacks, defending player sacrifices four 
 When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.
 Set/Rarity:     Rise of the Eldrazi Mythic Rare
 
+Name:   Kragma Butcher
+Cost:   2R
+Type:   Creature — Minotaur Warrior
+Pow/Tgh:    (2/3)
+Rules Text:     Inspired — Whenever Kragma Butcher becomes untapped, it gets +2/+0 until end of turn.
+Set/Rarity:     Born of the Gods Common
+
 Name:   Kragma Warcaller
 Cost:   3BR
 Type:   Creature — Minotaur Warrior
@@ -2342,6 +2383,13 @@ Type:   Creature — Kraken
 Pow/Tgh:    (0/4)
 Rules Text:     
 Set/Rarity:     Magic 2013 Common, Zendikar Common
+
+Name:   Kraken of the Straits
+Cost:   5UU
+Type:   Creature — Kraken
+Pow/Tgh:    (6/6)
+Rules Text:     Creatures with power less than the number of Islands you control can't block Kraken of the Straits.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Kraken's Eye
 Cost:   2

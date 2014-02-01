@@ -164,6 +164,7 @@ raw_keyword_int : ABSORB
                 | RAMPAGE
                 | RIPPLE
                 | SOULSHIFT
+                | TRIBUTE
                 | VANISHING
                 ;
 

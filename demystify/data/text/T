@@ -1192,6 +1192,24 @@ When Temple of Deceit enters the battlefield, scry 1. (Look at the top card of y
 {T}: Add {U} or {B} to your mana pool.
 Set/Rarity:     Theros Rare
 
+Name:   Temple of Enlightenment
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Enlightenment enters the battlefield tapped.
+When Temple of Enlightenment enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {W} or {U} to your mana pool.
+Set/Rarity:     Born of the Gods Rare
+
+Name:   Temple of Malice
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Malice enters the battlefield tapped.
+When Temple of Malice enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {B} or {R} to your mana pool.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Temple of Mystery
 Cost:   
 Type:   Land
@@ -1200,6 +1218,15 @@ Rules Text:     Temple of Mystery enters the battlefield tapped.
 When Temple of Mystery enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 {T}: Add {G} or {U} to your mana pool.
 Set/Rarity:     Theros Rare
+
+Name:   Temple of Plenty
+Cost:   
+Type:   Land
+Pow/Tgh:    
+Rules Text:     Temple of Plenty enters the battlefield tapped.
+When Temple of Plenty enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {G} or {W} to your mana pool.
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Temple of Silence
 Cost:   
@@ -1812,6 +1839,13 @@ Rules Text:     Bestow {5}{U} (If you cast this card for its bestow cost, it's a
 Whenever Thassa's Emissary or enchanted creature deals combat damage to a player, draw a card.
 Enchanted creature gets +3/+3.
 Set/Rarity:     Theros Uncommon
+
+Name:   Thassa's Rebuff
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target spell unless its controller pays {X}, where X is your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Thassa, God of the Sea
 Cost:   2U
@@ -2840,6 +2874,15 @@ Pow/Tgh:
 Rules Text:     At the beginning of your upkeep, if you have five or more cards in hand, Thumbscrews deals 1 damage to target opponent.
 Set/Rarity:     Tempest Rare
 
+Name:   Thunder Brute
+Cost:   4RR
+Type:   Creature — Cyclops
+Pow/Tgh:    (5/5)
+Rules Text:     Trample
+Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)
+When Thunder Brute enters the battlefield, if tribute wasn't paid, it gains haste until end of turn.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Thunder Dragon
 Cost:   5RR
 Type:   Creature — Dragon
@@ -2988,6 +3031,14 @@ Rules Text:     Flying
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 When Thundermaw Hellkite enters the battlefield, it deals 1 damage to each creature with flying your opponents control. Tap those creatures.
 Set/Rarity:     Magic 2013 Mythic Rare
+
+Name:   Thunderous Might
+Cost:   1R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Whenever enchanted creature attacks, it gets +X/+0 until end of turn, where X is your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Thunderous Wrath
 Cost:   4RR
@@ -5432,6 +5483,14 @@ Type:   Creature — Troll Shaman
 Pow/Tgh:    (5/6)
 Rules Text:     {1}{G}: Regenerate target green creature.
 Set/Rarity:     Mirrodin Uncommon
+
+Name:   Tromokratis
+Cost:   5UU
+Type:   Legendary Creature — Kraken
+Pow/Tgh:    (8/8)
+Rules Text:     Tromokratis has hexproof unless it's attacking or blocking.
+Tromokratis can't be blocked unless all creatures defending player controls block it. (If any creature that player controls doesn't block this creature, it can't be blocked.)
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Tromp the Domains
 Cost:   5G

@@ -2104,6 +2104,14 @@ Rules Text:     Creatures with power less than Champion of Lambholt's power can'
 Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Champion of Lambholt.
 Set/Rarity:     Avacyn Restored Rare
 
+Name:   Champion of Stray Souls
+Cost:   4BB
+Type:   Creature — Skeleton Warrior
+Pow/Tgh:    (4/4)
+Rules Text:     {3}{B}{B}, {T}, Sacrifice X other creatures: Return X target creature cards from your graveyard to the battlefield.
+{5}{B}{B}: Put Champion of Stray Souls on top of your library from your graveyard.
+Set/Rarity:     Born of the Gods Mythic Rare
+
 Name:   Champion of the Parish
 Cost:   W
 Type:   Creature — Human Soldier
@@ -2461,6 +2469,13 @@ Type:   Instant — Arcane
 Pow/Tgh:    
 Rules Text:     Sweep — Return any number of Plains you control to their owner's hand. Creatures you control get +1/+1 until end of turn for each Plains returned this way.
 Set/Rarity:     Saviors of Kamigawa Uncommon
+
+Name:   Charging Badger
+Cost:   G
+Type:   Creature — Badger
+Pow/Tgh:    (1/1)
+Rules Text:     Trample
+Set/Rarity:     Born of the Gods Common
 
 Name:   Charging Bandits
 Cost:   4B
@@ -2896,6 +2911,14 @@ Rules Text:     Forestwalk
 As an additional cost to cast creature spells, you may pay any amount of mana. If you do, that creature enters the battlefield with that many additional +1/+1 counters on it.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Ravnica: City of Guilds Rare
 
+Name:   Chorus of the Tides
+Cost:   3U
+Type:   Creature — Siren
+Pow/Tgh:    (3/2)
+Rules Text:     Flying
+Heroic — Whenever you cast a spell that targets Chorus of the Tides, scry 1. (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)
+Set/Rarity:     Born of the Gods Common
+
 Name:   Chosen by Heliod
 Cost:   1W
 Type:   Enchantment — Aura
@@ -2911,6 +2934,15 @@ Type:   Creature — Human
 Pow/Tgh:    (2/2)
 Rules Text:     {T}, Tap an untapped Vampire you control: Transform Chosen of Markov.
 Set/Rarity:     Dark Ascension Common
+
+Name:   Chromanticore
+Cost:   WUBRG
+Type:   Enchantment Creature — Manticore
+Pow/Tgh:    (4/4)
+Rules Text:     Bestow {2}{W}{U}{B}{R}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Flying, first strike, vigilance, trample, lifelink
+Enchanted creature gets +4/+4 and has flying, first strike, vigilance, trample, and lifelink.
+Set/Rarity:     Born of the Gods Mythic Rare
 
 Name:   Chromatic Armor
 Cost:   1WU
@@ -3370,6 +3402,14 @@ Type:   Creature — Human Advisor
 Pow/Tgh:    (0/1)
 Rules Text:     {T}: Draw a card, then discard a card. If a creature card is discarded this way, untap Civilized Scholar, then transform it.
 Set/Rarity:     Innistrad Uncommon
+
+Name:   Claim of Erebos
+Cost:   1B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "{1}{B}, {T}: Target player loses 2 life."
+Set/Rarity:     Born of the Gods Common
 
 Name:   Clairvoyance
 Cost:   U
@@ -5564,6 +5604,15 @@ Pow/Tgh:
 Rules Text:     {1}{U}, {T}, Sacrifice Courier's Capsule: Draw two cards.
 Set/Rarity:     Shards of Alara Common
 
+Name:   Courser of Kruphix
+Cost:   1GG
+Type:   Enchantment Creature — Centaur
+Pow/Tgh:    (2/4)
+Rules Text:     Play with the top card of your library revealed.
+You may play the top card of your library if it's a land card.
+Whenever a land enters the battlefield under your control, you gain 1 life.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Coursers' Accord
 Cost:   4GW
 Type:   Sorcery
@@ -6593,6 +6642,13 @@ Pow/Tgh:
 Rules Text:     Destroy target Plains or Island. Cryoclasm deals 3 damage to that land's controller.
 Set/Rarity:     Tenth Edition Uncommon, Coldsnap Uncommon
 
+Name:   Crypsis
+Cost:   1U
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you control gains protection from creatures your opponents control until end of turn. Untap it.
+Set/Rarity:     Born of the Gods Common
+
 Name:   Crypt Angel
 Cost:   4B
 Type:   Creature — Angel
@@ -6811,6 +6867,13 @@ Pow/Tgh:
 Rules Text:     {T}, Sacrifice a creature: Put a charge counter on Culling Dais.
 {1}, Sacrifice Culling Dais: Draw a card for each charge counter on Culling Dais.
 Set/Rarity:     Scars of Mirrodin Uncommon
+
+Name:   Culling Mark
+Cost:   2G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Target creature blocks this turn if able.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Culling Scales
 Cost:   3
@@ -7273,6 +7336,13 @@ Pow/Tgh:    (3/4)
 Rules Text:     Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Cyclops Tyrant can't block creatures with power 2 or less.
 Set/Rarity:     Magic 2014 Core Set Common
+
+Name:   Cyclops of One-Eyed Pass
+Cost:   2RR
+Type:   Creature — Cyclops
+Pow/Tgh:    (5/2)
+Rules Text:     
+Set/Rarity:     Born of the Gods Common
 
 Name:   Cylian Elf
 Cost:   1G

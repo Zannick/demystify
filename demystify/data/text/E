@@ -162,6 +162,15 @@ Rules Text:     Flying, trample
 When Eater of Days enters the battlefield, you skip your next two turns.
 Set/Rarity:     Darksteel Rare
 
+Name:   Eater of Hope
+Cost:   5BB
+Type:   Creature — Demon
+Pow/Tgh:    (6/4)
+Rules Text:     Flying
+{B}, Sacrifice another creature: Regenerate Eater of Hope.
+{2}{B}, Sacrifice two other creatures: Destroy target creature.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Eater of the Dead
 Cost:   4B
 Type:   Creature — Horror
@@ -373,6 +382,14 @@ Pow/Tgh:
 Rules Text:     Changeling (This card is every creature type at all times.)
 Creatures target player controls get -2/-0 and lose all creature types until end of turn.
 Set/Rarity:     Lorwyn Uncommon
+
+Name:   Eidolon of Countless Battles
+Cost:   1WW
+Type:   Enchantment Creature — Spirit
+Pow/Tgh:    (0/0)
+Rules Text:     Bestow {2}{W}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Eidolon of Countless Battles and enchanted creature each get +1/+1 for each creature you control and +1/+1 for each Aura you control.
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Eiganjo Castle
 Cost:   
@@ -763,6 +780,13 @@ Type:   Creature — Human Soldier
 Pow/Tgh:    (2/2)
 Rules Text:     Whenever Elite Javelineer blocks, it deals 1 damage to target attacking creature.
 Set/Rarity:     Eighth Edition Uncommon, Tempest Common
+
+Name:   Elite Skirmisher
+Cost:   2W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (3/1)
+Rules Text:     Heroic — Whenever you cast a spell that targets Elite Skirmisher, you may tap target creature.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Elite Vanguard
 Cost:   W
@@ -2001,12 +2025,39 @@ Pow/Tgh:
 Rules Text:     Players skip their upkeep steps.
 Set/Rarity:     Fifth Dawn Rare
 
+Name:   Ephara's Enlightenment
+Cost:   1WU
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Ephara's Enlightenment enters the battlefield, put a +1/+1 counter on enchanted creature.
+Enchanted creature has flying.
+Whenever a creature enters the battlefield under your control, you may return Ephara's Enlightenment to its owner's hand.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Ephara's Radiance
+Cost:   W
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "{1}{W}, {T}: You gain 3 life."
+Set/Rarity:     Born of the Gods Common
+
 Name:   Ephara's Warden
 Cost:   3W
 Type:   Creature — Human Cleric
 Pow/Tgh:    (1/2)
 Rules Text:     {T}: Tap target creature with power 3 or less.
 Set/Rarity:     Theros Common
+
+Name:   Ephara, God of the Polis
+Cost:   2WU
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (6/5)
+Rules Text:     Indestructible
+As long as your devotion to white and blue is less than seven, Ephara isn't a creature.
+At the beginning of each upkeep, if you had another creature enter the battlefield under your control last turn, draw a card.
+Set/Rarity:     Born of the Gods Mythic Rare
 
 Name:   Ephemeron
 Cost:   4UU
@@ -2046,6 +2097,14 @@ Pow/Tgh:
 Rules Text:     Target player sacrifices a land.
 Threshold — Each player sacrifices all lands he or she controls instead if seven or more cards are in your graveyard.
 Set/Rarity:     Odyssey Rare
+
+Name:   Epiphany Storm
+Cost:   R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "{R}, {T}, Discard a card: Draw a card."
+Set/Rarity:     Born of the Gods Common
 
 Name:   Epochrasite
 Cost:   2
@@ -2540,7 +2599,7 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When Eternity Snare enters the battlefield, draw a card.
 Enchanted creature doesn't untap during its controller's untap step.
-Set/Rarity:     Time Spiral Common
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Eternity Vessel
 Cost:   6
@@ -2684,6 +2743,14 @@ Pow/Tgh:
 Rules Text:     Return all creatures to their owners' hands.
 Set/Rarity:     Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Seventh Edition Rare, Stronghold Rare
 
+Name:   Evanescent Intellect
+Cost:   U
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature has "{1}{U}, {T}: Target player puts the top three cards of his or her library into his or her graveyard."
+Set/Rarity:     Born of the Gods Common
+
 Name:   Evangel of Heliod
 Cost:   4WW
 Type:   Creature — Human Cleric
@@ -2727,6 +2794,15 @@ Type:   Creature — Treefolk Shaman
 Pow/Tgh:    (3/5)
 Rules Text:     {T}, Exile a Treefolk card from your graveyard: Search your library for up to two Forest cards and put them onto the battlefield tapped. Then shuffle your library.
 Set/Rarity:     Morningtide Common
+
+Name:   Everflame Eidolon
+Cost:   1R
+Type:   Enchantment Creature — Spirit
+Pow/Tgh:    (1/1)
+Rules Text:     Bestow {2}{R} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+{R}: Everflame Eidolon gets +1/+0 until end of turn. If it's an Aura, enchanted creature gets +1/+0 until end of turn instead.
+Enchanted creature gets +1/+1.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Everflowing Chalice
 Cost:   0
@@ -2928,6 +3004,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Put target creature on top of its owner's library.
 Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Shards of Alara Common
+
+Name:   Excoriate
+Cost:   3W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile target tapped creature.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Excruciator
 Cost:   6RR
@@ -3249,6 +3332,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     At the beginning of your end step, if you control a creature with power 5 or greater, you may have Exuberant Firestoker deal 2 damage to target player.
 {T}: Add {1} to your mana pool.
 Set/Rarity:     Shards of Alara Uncommon
+
+Name:   Eye Gouge
+Cost:   B
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets -1/-1 until end of turn. If it's a Cyclops, destroy it.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Eye Spy
 Cost:   U

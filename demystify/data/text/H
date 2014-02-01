@@ -1695,6 +1695,16 @@ Rules Text:     Flying, vigilance
 Echo {2}{W}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 Set/Rarity:     Urza's Saga Rare
 
+Name:   Herald of Torment
+Cost:   1BB
+Type:   Enchantment Creature — Demon
+Pow/Tgh:    (3/3)
+Rules Text:     Bestow {3}{B}{B} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Flying
+At the beginning of your upkeep, you lose 1 life.
+Enchanted creature gets +3/+3 and has flying.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Herald of War
 Cost:   3WW
 Type:   Creature — Angel
@@ -1755,6 +1765,21 @@ Rules Text:     Battle cry (Whenever this creature attacks, each other attacking
 Whenever Hero of Bladehold attacks, put two 1/1 white Soldier creature tokens onto the battlefield tapped and attacking.
 Set/Rarity:     Mirrodin Besieged Mythic Rare
 
+Name:   Hero of Iroas
+Cost:   1W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Aura spells you cast cost {1} less to cast.
+Heroic — Whenever you cast a spell that targets Hero of Iroas, put a +1/+1 counter on Hero of Iroas.
+Set/Rarity:     Born of the Gods Rare
+
+Name:   Hero of Leina Tower
+Cost:   G
+Type:   Creature — Human Warrior
+Pow/Tgh:    (1/1)
+Rules Text:     Heroic — Whenever you cast a spell that targets Hero of Leina Tower, you may pay {X}. If you do, put X +1/+1 counters on Hero of Leina Tower.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Hero of Oxid Ridge
 Cost:   2RR
 Type:   Creature — Human Knight
@@ -1793,6 +1818,14 @@ Pow/Tgh:
 Rules Text:     You gain 20 life.
 Suspend 10—{W} (Rather than cast this card from your hand, you may pay {W} and exile it with ten time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Set/Rarity:     Planar Chaos Rare
+
+Name:   Heroes' Podium
+Cost:   5
+Type:   Legendary Artifact
+Pow/Tgh:    
+Rules Text:     Each legendary creature you control gets +1/+1 for each other legendary creature you control.
+{X}, {T}: Look at the top X cards of your library. You may reveal a legendary creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Heroes' Reunion
 Cost:   GW
@@ -2329,6 +2362,13 @@ Pow/Tgh:    (2/2)
 Rules Text:     Lands don't untap during their controllers' untap steps.
 At the beginning of each player's upkeep, that player untaps a land he or she controls.
 Set/Rarity:     Betrayers of Kamigawa Rare
+
+Name:   Hold at Bay
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent the next 7 damage that would be dealt to target creature or player this turn.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Hold the Gates
 Cost:   2W
@@ -3327,6 +3367,13 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Choose target creature you control. Whenever that creature deals combat damage to a player or planeswalker this turn, draw that many cards.
 Set/Rarity:     Magic 2012 Uncommon
+
+Name:   Hunter's Prowess
+Cost:   4G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Until end of turn, target creature gets +3/+3 and gains trample and "Whenever this creature deals combat damage to a player, draw that many cards."
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Hunters' Feast
 Cost:   3G

@@ -401,6 +401,13 @@ Pow/Tgh:    (0/1)
 Rules Text:     {1}{B}, {T}: Target player loses 1 life.
 Set/Rarity:     Magic 2010 Common
 
+Name:   Acolyte's Reward
+Cost:   1W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Prevent the next X damage that would be dealt to target creature this turn, where X is your devotion to white. If damage is prevented this way, Acolyte's Reward deals that much damage to target creature or player. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Acorn Catapult
 Cost:   4
 Type:   Artifact
@@ -678,6 +685,13 @@ Pow/Tgh:    (3/3)
 Rules Text:     Sacrifice Aerie Ouphes: Aerie Ouphes deals damage equal to its power to target creature with flying.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 Set/Rarity:     Eventide Common
+
+Name:   Aerie Worshippers
+Cost:   3U
+Type:   Creature — Human Cleric
+Pow/Tgh:    (2/4)
+Rules Text:     Inspired — Whenever Aerie Worshippers becomes untapped, you may pay {2}{U}. If you do, put a 2/2 blue Bird enchantment creature token with flying onto the battlefield.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Aesthir Glider
 Cost:   3
@@ -1075,6 +1089,13 @@ Pow/Tgh:    (1/1)
 Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Set/Rarity:     Shards of Alara Common
 
+Name:   Akroan Conscriptor
+Cost:   4R
+Type:   Creature — Human Shaman
+Pow/Tgh:    (3/2)
+Rules Text:     Heroic — Whenever you cast a spell that targets Akroan Conscriptor, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Akroan Crusader
 Cost:   R
 Type:   Creature — Human Soldier
@@ -1097,6 +1118,22 @@ Rules Text:     Defender
 When Akroan Horse enters the battlefield, an opponent gains control of it.
 At the beginning of your upkeep, each opponent puts a 1/1 white Soldier creature token onto the battlefield.
 Set/Rarity:     Theros Rare
+
+Name:   Akroan Phalanx
+Cost:   3W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (3/3)
+Rules Text:     Vigilance
+{2}{R}: Creatures you control get +1/+0 until end of turn.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Akroan Skyguard
+Cost:   1W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     Flying
+Heroic — Whenever you cast a spell that targets Akroan Skyguard, put a +1/+1 counter on Akroan Skyguard.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Akroma's Blessing
 Cost:   2W
@@ -2862,6 +2899,14 @@ Rules Text:     Vigilance
 When Arbiter of Knollridge enters the battlefield, each player's life total becomes the highest life total among all players.
 Set/Rarity:     Magic: The Gathering-Commander Rare, Lorwyn Rare
 
+Name:   Arbiter of the Ideal
+Cost:   4UU
+Type:   Creature — Sphinx
+Pow/Tgh:    (4/5)
+Rules Text:     Flying
+Inspired — Whenever Arbiter of the Ideal becomes untapped, reveal the top card of your library. If it's an artifact, creature, or land card, you may put it onto the battlefield with a manifestation counter on it. That permanent is an enchantment in addition to its other types.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Arbor Colossus
 Cost:   2GGG
 Type:   Creature — Giant
@@ -3171,6 +3216,46 @@ Rules Text:     Enchant creature
 At the beginning of your upkeep, you may put an arrow counter on Archery Training.
 Enchanted creature has "{T}: This creature deals X damage to target attacking or blocking creature, where X is the number of arrow counters on Archery Training."
 Set/Rarity:     Urza's Destiny Uncommon
+
+Name:   Archetype of Aggression
+Cost:   1RR
+Type:   Enchantment Creature — Human Warrior
+Pow/Tgh:    (3/2)
+Rules Text:     Creatures you control have trample.
+Creatures your opponents control lose trample and can't have or gain trample.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Archetype of Courage
+Cost:   1WW
+Type:   Enchantment Creature — Human Soldier
+Pow/Tgh:    (2/2)
+Rules Text:     Creatures you control have first strike.
+Creatures your opponents control lose first strike and can't have or gain first strike.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Archetype of Endurance
+Cost:   6GG
+Type:   Enchantment Creature — Boar
+Pow/Tgh:    (6/5)
+Rules Text:     Creatures you control have hexproof.
+Creatures your opponents control lose hexproof and can't have or gain hexproof.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Archetype of Finality
+Cost:   4BB
+Type:   Enchantment Creature — Gorgon
+Pow/Tgh:    (2/3)
+Rules Text:     Creatures you control have deathtouch.
+Creatures your opponents control lose deathtouch and can't have or gain deathtouch.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Archetype of Imagination
+Cost:   4UU
+Type:   Enchantment Creature — Human Wizard
+Pow/Tgh:    (3/2)
+Rules Text:     Creatures you control have flying.
+Creatures your opponents control lose flying and can't have or gain flying.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Architects of Will
 Cost:   2UB
@@ -4017,6 +4102,13 @@ Pow/Tgh:
 Rules Text:     Exile two target nonartifact creatures. Ashes to Ashes deals 5 damage to you.
 Set/Rarity:     Masters Edition III Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, The Dark Common
 
+Name:   Ashiok's Adept
+Cost:   2B
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/3)
+Rules Text:     Heroic — Whenever you cast a spell that targets Ashiok's Adept, each opponent discards a card.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Ashiok, Nightmare Weaver
 Cost:   1UB
 Type:   Planeswalker — Ashiok
@@ -4093,6 +4185,13 @@ Rules Text:     Flying
 At the beginning of each end step, put a +1/+1 counter on Asmira, Holy Avenger for each creature put into your graveyard from the battlefield this turn.
 Set/Rarity:     Mirage Rare
 
+Name:   Aspect of Hydra
+Cost:   G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +X/+X until end of turn, where X is your devotion to green. (Each {G} in the mana costs of permanents you control counts toward your devotion to green.)
+Set/Rarity:     Born of the Gods Common
+
 Name:   Aspect of Mongoose
 Cost:   1G
 Type:   Enchantment — Aura
@@ -4116,6 +4215,13 @@ Type:   Creature — Skeleton Soldier
 Pow/Tgh:    (1/1)
 Rules Text:     {2}{B}: Regenerate Asphodel Wanderer.
 Set/Rarity:     Theros Common
+
+Name:   Asphyxiate
+Cost:   1BB
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Destroy target untapped creature.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Assassin's Blade
 Cost:   1B
@@ -4202,6 +4308,14 @@ Pow/Tgh:
 Rules Text:     Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
 Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
 Set/Rarity:     Mirrodin Uncommon
+
+Name:   Astral Cornucopia
+Cost:   XXX
+Type:   Artifact
+Pow/Tgh:    
+Rules Text:     Astral Cornucopia enters the battlefield with X charge counters on it.
+{T}: Choose a color. Add one mana of that color to your mana pool for each charge counter on Astral Cornucopia.
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Astral Slide
 Cost:   2W

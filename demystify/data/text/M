@@ -1464,6 +1464,13 @@ Pow/Tgh:    (4/3)
 Rules Text:     When Marshdrinker Giant enters the battlefield, destroy target Island or Swamp an opponent controls.
 Set/Rarity:     Eventide Uncommon
 
+Name:   Marshmist Titan
+Cost:   6B
+Type:   Creature — Giant
+Pow/Tgh:    (4/5)
+Rules Text:     Marshmist Titan costs {X} less to cast, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
+Set/Rarity:     Born of the Gods Common
+
 Name:   Martial Coup
 Cost:   XWW
 Type:   Sorcery
@@ -2176,6 +2183,13 @@ Type:   Creature — Angel Spirit
 Pow/Tgh:    (3/3)
 Rules Text:     Flying, protection from black
 Set/Rarity:     Mirage Uncommon
+
+Name:   Meletis Astronomer
+Cost:   1U
+Type:   Creature — Human Wizard
+Pow/Tgh:    (1/3)
+Rules Text:     Heroic — Whenever you cast a spell that targets Meletis Astronomer, look at the top three cards of your library. You may reveal an enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Meletis Charlatan
 Cost:   2U
@@ -3489,6 +3503,14 @@ Pow/Tgh:
 Rules Text:     Whenever you cast a spell, put the cards in your hand on the bottom of your library in any order, then draw that many cards.
 Set/Rarity:     Ravnica: City of Guilds Rare
 
+Name:   Mindreaver
+Cost:   UU
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/1)
+Rules Text:     Heroic — Whenever you cast a spell that targets Mindreaver, exile the top three cards of target player's library.
+{U}{U}, Sacrifice Mindreaver: Counter target spell with the same name as a card exiled with Mindreaver.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Minds Aglow
 Cost:   U
 Type:   Sorcery
@@ -3951,6 +3973,13 @@ Pow/Tgh:
 Rules Text:     Counter target spell unless its controller pays {2}.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 Set/Rarity:     Urza's Legacy Common
+
+Name:   Mischief and Mayhem
+Cost:   4G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Up to two target creatures each get +4/+4 until end of turn.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Mischievous Poltergeist
 Cost:   2B
@@ -4567,6 +4596,15 @@ Type:   Creature — Human Berserker
 Pow/Tgh:    (2/2)
 Rules Text:     When Mogis's Marauder enters the battlefield, up to X target creatures each gain intimidate and haste until end of turn, where X is your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
 Set/Rarity:     Theros Uncommon
+
+Name:   Mogis, God of Slaughter
+Cost:   2BR
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (7/5)
+Rules Text:     Indestructible
+As long as your devotion to black and red is less than seven, Mogis isn't a creature.
+At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless he or she sacrifices a creature.
+Set/Rarity:     Born of the Gods Mythic Rare
 
 Name:   Mold Adder
 Cost:   G
@@ -5271,6 +5309,20 @@ Pow/Tgh:
 Rules Text:     Enchant creature
 When enchanted creature is dealt damage, destroy it.
 Set/Rarity:     Visions Common
+
+Name:   Mortal's Ardor
+Cost:   W
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +1/+1 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
+Set/Rarity:     Born of the Gods Common
+
+Name:   Mortal's Resolve
+Cost:   1G
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature gets +1/+1 and gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
+Set/Rarity:     Born of the Gods Common
 
 Name:   Mortarpod
 Cost:   2

@@ -74,6 +74,13 @@ Pow/Tgh:
 Rules Text:     Whenever an opponent is dealt 3 or more damage by a single source, that player discards a card.
 Set/Rarity:     Dissension Uncommon
 
+Name:   Pain Seer
+Cost:   1B
+Type:   Creature — Human Wizard
+Pow/Tgh:    (2/2)
+Rules Text:     Inspired — Whenever Pain Seer becomes untapped, reveal the top card of your library and put that card into your hand. You lose life equal to that card's converted mana cost.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Pain's Reward
 Cost:   2B
 Type:   Sorcery
@@ -1126,6 +1133,13 @@ Pow/Tgh:
 Rules Text:     Target creature gets -1/-1 until end of turn. If you control a Faerie, draw a card.
 Set/Rarity:     Modern Masters Common, Lorwyn Common
 
+Name:   Peregrination
+Cost:   3G
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Shuffle your library, then scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Peregrine Drake
 Cost:   4U
 Type:   Creature — Drake
@@ -1222,6 +1236,13 @@ Pow/Tgh:
 Rules Text:     Counter target spell unless its controller discards his or her hand.
 Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 Set/Rarity:     Ravnica: City of Guilds Common
+
+Name:   Perplexing Chimera
+Cost:   4U
+Type:   Enchantment Creature — Chimera
+Pow/Tgh:    (3/3)
+Rules Text:     Whenever an opponent casts a spell, you may exchange control of Perplexing Chimera and that spell. If you do, you may choose new targets for the spell. (If the spell becomes a permanent, you control that permanent.)
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Persecute
 Cost:   2BB
@@ -1599,6 +1620,14 @@ Rules Text:     Phantom Wurm enters the battlefield with four +1/+1 counters on 
 If damage would be dealt to Phantom Wurm, prevent that damage. Remove a +1/+1 counter from Phantom Wurm.
 Set/Rarity:     Time Spiral Uncommon
 
+Name:   Pharagax Giant
+Cost:   4R
+Type:   Creature — Giant
+Pow/Tgh:    (3/3)
+Rules Text:     Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
+When Pharagax Giant enters the battlefield, if tribute wasn't paid, Pharagax Giant deals 5 damage to each opponent.
+Set/Rarity:     Born of the Gods Common
+
 Name:   Pharika's Cure
 Cost:   BB
 Type:   Instant
@@ -1622,12 +1651,35 @@ Rules Text:     {G}: Phelddagrif gains trample until end of turn. Target opponen
 {U}: Return Phelddagrif to its owner's hand. Target opponent may draw a card.
 Set/Rarity:     Masters Edition Rare, Alliances Rare
 
+Name:   Phenax, God of Deception
+Cost:   3UB
+Type:   Legendary Enchantment Creature — God
+Pow/Tgh:    (4/7)
+Rules Text:     Indestructible
+As long as your devotion to blue and black is less than seven, Phenax isn't a creature.
+Creatures you control have "{T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is this creature's toughness."
+Set/Rarity:     Born of the Gods Mythic Rare
+
 Name:   Pheres-Band Centaurs
 Cost:   4G
 Type:   Creature — Centaur Warrior
 Pow/Tgh:    (3/7)
 Rules Text:     
 Set/Rarity:     Theros Common
+
+Name:   Pheres-Band Raiders
+Cost:   5G
+Type:   Creature — Centaur Warrior
+Pow/Tgh:    (5/5)
+Rules Text:     Inspired — Whenever Pheres-Band Raiders becomes untapped, you may pay {2}{G}. If you do, put a 3/3 green Centaur enchantment creature token onto the battlefield.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Pheres-Band Tromper
+Cost:   3G
+Type:   Creature — Centaur Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Inspired — Whenever Pheres-Band Tromper becomes untapped, put a +1/+1 counter on it.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Phobian Phantasm
 Cost:   1BB
@@ -2244,6 +2296,14 @@ Pow/Tgh:
 Rules Text:     Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
 Set/Rarity:     Avacyn Restored Common
 
+Name:   Pillar of War
+Cost:   3
+Type:   Artifact Creature — Golem
+Pow/Tgh:    (3/3)
+Rules Text:     Defender
+As long as Pillar of War is enchanted, it can attack as though it didn't have defender.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Pillar of the Paruns
 Cost:   
 Type:   Land
@@ -2299,6 +2359,13 @@ Pow/Tgh:
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Add {R} or {G} to your mana pool. Pinecrest Ridge doesn't untap during your next untap step.
 Set/Rarity:     Champions of Kamigawa Uncommon
+
+Name:   Pinnacle of Rage
+Cost:   4RR
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Pinnacle of Rage deals 3 damage to each of two target creatures and/or players.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Pinpoint Avalanche
 Cost:   3RR
@@ -2833,6 +2900,13 @@ Rules Text:     Flash
 When Plaxmanta enters the battlefield, creatures you control gain shroud until end of turn. (They can't be the targets of spells or abilities.)
 When Plaxmanta enters the battlefield, sacrifice it unless {G} was spent to cast it.
 Set/Rarity:     Dissension Uncommon
+
+Name:   Plea for Guidance
+Cost:   5W
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Search your library for up to two enchantment cards, reveal them, and put them into your hand. Then shuffle your library.
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Pledge of Loyalty
 Cost:   1W

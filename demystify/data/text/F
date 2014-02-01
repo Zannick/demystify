@@ -285,6 +285,13 @@ Pow/Tgh:
 Rules Text:     Counter target spell. You gain 5 life.
 Set/Rarity:     Return to Ravnica Uncommon
 
+Name:   Fall of the Hammer
+Cost:   1R
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Target creature you control deals damage equal to its power to another target creature.
+Set/Rarity:     Born of the Gods Common
+
 Name:   Fallen Angel
 Cost:   3BB
 Type:   Creature — Angel
@@ -478,6 +485,15 @@ Type:   Creature — Minotaur Shaman
 Pow/Tgh:    (4/2)
 Rules Text:     When Fanatic of Mogis enters the battlefield, it deals damage to each opponent equal to your devotion to red. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)
 Set/Rarity:     Theros Uncommon
+
+Name:   Fanatic of Xenagos
+Cost:   1RG
+Type:   Creature — Centaur Warrior
+Pow/Tgh:    (3/3)
+Rules Text:     Trample
+Tribute 1 (As this creature enters the battlefield, an opponent of your choice may place a +1/+1 counter on it.)
+When Fanatic of Xenagos enters the battlefield, if tribute wasn't paid, it gets +1/+1 and gains haste until end of turn.
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Fanatical Devotion
 Cost:   2W
@@ -703,6 +719,48 @@ Pow/Tgh:
 Rules Text:     Move all counters from target creature onto another target creature.
 Set/Rarity:     Shadowmoor Common
 
+Name:   Fate Unraveler
+Cost:   3B
+Type:   Enchantment Creature — Hag
+Pow/Tgh:    (3/4)
+Rules Text:     Whenever an opponent draws a card, Fate Unraveler deals 1 damage to that player.
+Set/Rarity:     Born of the Gods Rare
+
+Name:   Fated Conflagration
+Cost:   1RRR
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Fated Conflagration deals 5 damage to target creature or planeswalker. If it's your turn, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Born of the Gods Rare
+
+Name:   Fated Infatuation
+Cost:   UUU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put a token onto the battlefield that's a copy of target creature you control. If it's your turn, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Born of the Gods Rare
+
+Name:   Fated Intervention
+Cost:   2GGG
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put two 3/3 green Centaur enchantment creature tokens onto the battlefield. If it's your turn, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Born of the Gods Rare
+
+Name:   Fated Retribution
+Cost:   4WWW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Destroy all creatures and planeswalkers. If it's your turn, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Born of the Gods Rare
+
+Name:   Fated Return
+Cost:   4BBB
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Put target creature card from a graveyard onto the battlefield under your control. It gains indestructible. If it's your turn, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Fatespinner
 Cost:   1UU
 Type:   Creature — Human Wizard
@@ -833,6 +891,14 @@ Rules Text:     Enchant creature (Target a creature as you cast this. This card 
 Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)
 Set/Rarity:     Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Fifth Edition Common, Ice Age Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
+Name:   Fearsome Temper
+Cost:   2R
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+Enchanted creature gets +2/+2 and has "{2}{R}: Target creature can't block this creature this turn."
+Set/Rarity:     Born of the Gods Common
+
 Name:   Feast of Blood
 Cost:   1B
 Type:   Sorcery
@@ -937,12 +1003,26 @@ Pow/Tgh:
 Rules Text:     {T}, Exile Feldon's Cane: Shuffle your graveyard into your library.
 Set/Rarity:     Time Spiral "Timeshifted" Special, Fifth Edition Uncommon, Chronicles Common, Antiquities Uncommon
 
+Name:   Felhide Brawler
+Cost:   1B
+Type:   Creature — Minotaur
+Pow/Tgh:    (2/2)
+Rules Text:     Felhide Brawler can't block unless you control another Minotaur.
+Set/Rarity:     Born of the Gods Common
+
 Name:   Felhide Minotaur
 Cost:   2B
 Type:   Creature — Minotaur
 Pow/Tgh:    (2/3)
 Rules Text:     
 Set/Rarity:     Theros Common
+
+Name:   Felhide Spiritbinder
+Cost:   3R
+Type:   Creature — Minotaur Shaman
+Pow/Tgh:    (3/4)
+Rules Text:     Inspired — Whenever Felhide Spiritbinder becomes untapped, you may pay {1}{R}. If you do, put a token onto the battlefield that's a copy of another target creature except it's an enchantment in addition to its other types. It gains haste. Exile it at the beginning of the next end step.
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Felidar Sovereign
 Cost:   4WW
@@ -2227,6 +2307,15 @@ Pow/Tgh:    (2/2)
 Rules Text:     When Flame-Kin Zealot enters the battlefield, creatures you control get +1/+1 and gain haste until end of turn.
 Set/Rarity:     Ravnica: City of Guilds Uncommon
 
+Name:   Flame-Wreathed Phoenix
+Cost:   2RR
+Type:   Creature — Phoenix
+Pow/Tgh:    (3/3)
+Rules Text:     Flying
+Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
+When Flame-Wreathed Phoenix enters the battlefield, if tribute wasn't paid, it gains haste and "When this creature dies, return it to its owner's hand."
+Set/Rarity:     Born of the Gods Mythic Rare
+
 Name:   Flameblast Dragon
 Cost:   4RR
 Type:   Creature — Dragon
@@ -2777,6 +2866,15 @@ Rules Text:     Flinthoof Boar gets +1/+1 as long as you control a Mountain.
 {R}: Flinthoof Boar gains haste until end of turn. (It can attack and {T} this turn.)
 Set/Rarity:     Magic 2013 Uncommon
 
+Name:   Flitterstep Eidolon
+Cost:   1U
+Type:   Enchantment Creature — Spirit
+Pow/Tgh:    (1/1)
+Rules Text:     Bestow {5}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Flitterstep Eidolon can't be blocked.
+Enchanted creature gets +1/+1 and can't be blocked.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Floating Shield
 Cost:   2W
 Type:   Enchantment — Aura
@@ -2863,6 +2961,13 @@ Rules Text:     Defender (This creature can't attack.)
 When Floodgate has flying, sacrifice it.
 When Floodgate leaves the battlefield, it deals damage equal to half the number of Islands you control, rounded down, to each nonblue creature without flying.
 Set/Rarity:     Mirage Uncommon
+
+Name:   Floodtide Serpent
+Cost:   4U
+Type:   Creature — Serpent
+Pow/Tgh:    (4/4)
+Rules Text:     Floodtide Serpent can't attack unless you return an enchantment you control to its owner's hand. (This cost is paid as attackers are declared.)
+Set/Rarity:     Born of the Gods Common
 
 Name:   Floodwater Dam
 Cost:   3
@@ -3512,6 +3617,14 @@ Pow/Tgh:    (1/1)
 Rules Text:     When Forge Devil enters the battlefield, it deals 1 damage to target creature and 1 damage to you.
 Set/Rarity:     Dark Ascension Common
 
+Name:   Forgestoker Dragon
+Cost:   4RR
+Type:   Creature — Dragon
+Pow/Tgh:    (5/4)
+Rules Text:     Flying
+{1}{R}: Forgestoker Dragon deals 1 damage to target creature. That creature can't block this combat. Activate this ability only if Forgestoker Dragon is attacking.
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Forget
 Cost:   UU
 Type:   Sorcery
@@ -3603,6 +3716,14 @@ Pow/Tgh:    (4/4)
 Rules Text:     Soulshift 4, soulshift 4 (When this creature dies, you may return up to two target Spirit cards with converted mana cost 4 or less from your graveyard to your hand.)
 Set/Rarity:     Betrayers of Kamigawa Uncommon
 
+Name:   Forlorn Pseudamma
+Cost:   3B
+Type:   Creature — Zombie
+Pow/Tgh:    (2/1)
+Rules Text:     Intimidate
+Inspired — Whenever Forlorn Pseudamma becomes untapped, you may pay {2}{B}. If you do, put a 2/2 black Zombie enchantment creature token onto the battlefield.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Form of the Dragon
 Cost:   4RRR
 Type:   Enchantment
@@ -3628,6 +3749,13 @@ Rules Text:     Forsaken City doesn't untap during your untap step.
 At the beginning of your upkeep, you may exile a card from your hand. If you do, untap Forsaken City.
 {T}: Add one mana of any color to your mana pool.
 Set/Rarity:     Planeshift Rare
+
+Name:   Forsaken Drifters
+Cost:   3B
+Type:   Creature — Zombie
+Pow/Tgh:    (4/2)
+Rules Text:     When Forsaken Drifters dies, put the top four cards of your library into your graveyard.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Forsaken Wastes
 Cost:   2B

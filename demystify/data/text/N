@@ -541,7 +541,7 @@ Cost:   2B
 Type:   Instant
 Pow/Tgh:    
 Rules Text:     Target creature gains deathtouch until end of turn. Regenerate it.
-Set/Rarity:     Avacyn Restored Common
+Set/Rarity:     Born of the Gods Common
 
 Name:   Necrogen Censer
 Cost:   3
@@ -913,6 +913,22 @@ Type:   Creature — Centaur Warrior
 Pow/Tgh:    (3/3)
 Rules Text:     
 Set/Rarity:     Theros Common
+
+Name:   Nessian Demolok
+Cost:   3GG
+Type:   Creature — Beast
+Pow/Tgh:    (3/3)
+Rules Text:     Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)
+When Nessian Demolok enters the battlefield, if tribute wasn't paid, destroy target noncreature permanent.
+Set/Rarity:     Born of the Gods Uncommon
+
+Name:   Nessian Wilds Ravager
+Cost:   4GG
+Type:   Creature — Hydra
+Pow/Tgh:    (6/6)
+Rules Text:     Tribute 6 (As this creature enters the battlefield, an opponent of your choice may place six +1/+1 counters on it.)
+When Nessian Wilds Ravager enters the battlefield, if tribute wasn't paid, you may have Nessian Wilds Ravager fight another target creature. (Each deals damage equal to its power to the other.)
+Set/Rarity:     Born of the Gods Rare
 
 Name:   Nest Invader
 Cost:   1G
@@ -1870,6 +1886,15 @@ Pow/Tgh:
 Rules Text:     Whenever a creature you control deals combat damage, you gain that much life.
 Set/Rarity:     Eighth Edition Rare, Mercadian Masques Uncommon
 
+Name:   Noble Quarry
+Cost:   2G
+Type:   Enchantment Creature — Unicorn
+Pow/Tgh:    (1/1)
+Rules Text:     Bestow {5}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+All creatures able to block Noble Quarry or enchanted creature do so.
+Enchanted creature gets +1/+1.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Noble Stand
 Cost:   4W
 Type:   Enchantment
@@ -2280,6 +2305,13 @@ Pow/Tgh:
 Rules Text:     Activated abilities of artifacts can't be activated.
 Set/Rarity:     Weatherlight Rare
 
+Name:   Nullify
+Cost:   UU
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Counter target creature or Aura spell.
+Set/Rarity:     Born of the Gods Common
+
 Name:   Nullmage Advocate
 Cost:   2G
 Type:   Creature — Insect Druid
@@ -2407,3 +2439,43 @@ Pow/Tgh:    (7/7)
 Rules Text:     As Nyxathid enters the battlefield, choose an opponent.
 Nyxathid gets -1/-1 for each card in the chosen player's hand.
 Set/Rarity:     Conflux Rare
+
+Name:   Nyxborn Eidolon
+Cost:   1B
+Type:   Enchantment Creature — Spirit
+Pow/Tgh:    (2/1)
+Rules Text:     Bestow {4}{B} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Enchanted creature gets +2/+1.
+Set/Rarity:     Born of the Gods Common
+
+Name:   Nyxborn Rollicker
+Cost:   R
+Type:   Enchantment Creature — Satyr
+Pow/Tgh:    (1/1)
+Rules Text:     Bestow {1}{R} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Enchanted creature gets +1/+1.
+Set/Rarity:     Born of the Gods Common
+
+Name:   Nyxborn Shieldmate
+Cost:   W
+Type:   Enchantment Creature — Human Soldier
+Pow/Tgh:    (1/2)
+Rules Text:     Bestow {2}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Enchanted creature gets +1/+2.
+Set/Rarity:     Born of the Gods Common
+
+Name:   Nyxborn Triton
+Cost:   2U
+Type:   Enchantment Creature — Merfolk
+Pow/Tgh:    (2/3)
+Rules Text:     Bestow {4}{U} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Enchanted creature gets +2/+3.
+Set/Rarity:     Born of the Gods Common
+
+Name:   Nyxborn Wolf
+Cost:   2G
+Type:   Enchantment Creature — Wolf
+Pow/Tgh:    (3/1)
+Rules Text:     Bestow {4}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Enchanted creature gets +3/+1.
+Set/Rarity:     Born of the Gods Common

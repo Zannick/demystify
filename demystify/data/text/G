@@ -1177,6 +1177,15 @@ Rules Text:     {3}{U}, {T}: Counter target spell unless its controller pays {2}
 Channel — {3}{U}, Discard Ghost-Lit Warder: Counter target spell unless its controller pays {4}.
 Set/Rarity:     Saviors of Kamigawa Uncommon
 
+Name:   Ghostblade Eidolon
+Cost:   2W
+Type:   Enchantment Creature — Spirit
+Pow/Tgh:    (1/1)
+Rules Text:     Bestow {5}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+Double strike (This creature deals both first-strike and regular combat damage.)
+Enchanted creature gets +1/+1 and has double strike.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Ghostfire
 Cost:   2R
 Type:   Instant
@@ -1670,6 +1679,13 @@ Rules Text:     Shroud (This permanent can't be the target of spells or abilitie
 At the beginning of your upkeep, if Gigapede is in your graveyard, you may discard a card. If you do, return Gigapede to your hand.
 Set/Rarity:     Onslaught Rare
 
+Name:   Gild
+Cost:   3B
+Type:   Sorcery
+Pow/Tgh:    
+Rules Text:     Exile target creature. Put a colorless artifact token named Gold onto the battlefield. It has "Sacrifice this artifact: Add one mana of any color to your mana pool."
+Set/Rarity:     Born of the Gods Rare
+
 Name:   Gilded Drake
 Cost:   1U
 Type:   Creature — Drake
@@ -2056,6 +2072,13 @@ Type:   Sorcery
 Pow/Tgh:    
 Rules Text:     Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
 Set/Rarity:     Magic 2014 Core Set Uncommon
+
+Name:   Glimpse the Sun God
+Cost:   XW
+Type:   Instant
+Pow/Tgh:    
+Rules Text:     Tap X target creatures. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Glimpse the Unthinkable
 Cost:   UB
@@ -3319,6 +3342,13 @@ Rules Text:     Mountainwalk
 When you control a Dwarf, sacrifice Goblins of the Flarg.
 Set/Rarity:     Masters Edition Common, Chronicles Common, The Dark Common
 
+Name:   God-Favored General
+Cost:   1W
+Type:   Creature — Human Soldier
+Pow/Tgh:    (1/1)
+Rules Text:     Inspired — Whenever God-Favored General becomes untapped, you may pay {2}{W}. If you do, put two 1/1 white Soldier enchantment creature tokens onto the battlefield.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Godhead of Awe
 Cost:   (W/U)(W/U)(W/U)(W/U)(W/U)
 Type:   Creature — Spirit Avatar
@@ -3701,6 +3731,14 @@ Pow/Tgh:    (2/4)
 Rules Text:     Whenever Gorgon Recluse blocks or becomes blocked by a nonblack creature, destroy that creature at end of combat.
 Madness {B}{B} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)
 Set/Rarity:     Time Spiral Common
+
+Name:   Gorgon's Head
+Cost:   1
+Type:   Artifact — Equipment
+Pow/Tgh:    
+Rules Text:     Equipped creature has deathtouch.
+Equip {2}
+Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Gorilla Berserkers
 Cost:   3GG
@@ -4201,6 +4239,14 @@ Rules Text:     Put any number of target creature cards from your graveyard on t
 Draw a card.
 Set/Rarity:     Dark Ascension Common
 
+Name:   Graverobber Spider
+Cost:   3G
+Type:   Creature — Spider
+Pow/Tgh:    (2/4)
+Rules Text:     Reach
+{3}{B}: Graverobber Spider gets +X/+X until end of turn, where X is the number of creature cards in your graveyard. Activate this ability only once each turn.
+Set/Rarity:     Born of the Gods Uncommon
+
 Name:   Gravespawn Sovereign
 Cost:   4BB
 Type:   Creature — Zombie
@@ -4326,6 +4372,13 @@ Pow/Tgh:
 Rules Text:     (Great Furnace isn't a spell.)
 {T}: Add {R} to your mana pool.
 Set/Rarity:     Planechase Common, Mirrodin Common
+
+Name:   Great Hart
+Cost:   3W
+Type:   Creature — Elk
+Pow/Tgh:    (2/4)
+Rules Text:     
+Set/Rarity:     Born of the Gods Common
 
 Name:   Great Sable Stag
 Cost:   1GG
@@ -4567,6 +4620,14 @@ Pow/Tgh:
 Rules Text:     {T}: Add {1} to your mana pool.
 {T}: Untap target Griffin. If it's a creature, it gets +1/+1 until end of turn.
 Set/Rarity:     Visions Rare
+
+Name:   Griffin Dreamfinder
+Cost:   3WW
+Type:   Creature — Griffin
+Pow/Tgh:    (1/4)
+Rules Text:     Flying
+When Griffin Dreamfinder enters the battlefield, return target enchantment card from your graveyard to your hand.
+Set/Rarity:     Born of the Gods Common
 
 Name:   Griffin Guide
 Cost:   2W
@@ -4833,6 +4894,15 @@ Type:   Instant
 Pow/Tgh:    
 Rules Text:     Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard.
 Set/Rarity:     Gatecrash Common
+
+Name:   Grisly Transformation
+Cost:   2B
+Type:   Enchantment — Aura
+Pow/Tgh:    
+Rules Text:     Enchant creature
+When Grisly Transformation enters the battlefield, draw a card.
+Enchanted creature has intimidate. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+Set/Rarity:     Born of the Gods Common
 
 Name:   Gristle Grinner
 Cost:   4B

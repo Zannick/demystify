@@ -736,6 +736,7 @@ tokens {
     TRANSMUTED;
     TRAP;
     TRIBAL;
+    TRIBUTE;
     TRIGGER;
     TRIGGERED;
     TRUE;
@@ -821,6 +822,7 @@ ABILITY_WORD : 'fateful hour'
              | 'threshold'
              | 'grandeur'
              | 'hellbent'
+             | 'inspired'
              | 'landfall'
              | 'radiance'
              | 'channel'
@@ -887,7 +889,8 @@ NUMBER_WORD : 'ninety-nine'
             | 'six'
             | 'ten'
             | 'two';
-OBJ_COUNTER : 'petrification'
+OBJ_COUNTER : 'manifestation'
+            | 'petrification'
             | 'intervention'
             | 'paralyzation'
             | 'filibuster'
@@ -1073,6 +1076,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'muraganda'
             | 'nephilims'
             | 'nightmare'
+            | 'octopuses'
             | 'pentavite'
             | 'saproling'
             | 'scarecrow'
@@ -1195,6 +1199,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'kithkin'
             | 'knights'
             | 'kobolds'
+            | 'krakens'
             | 'lammasu'
             | 'leeches'
             | 'liliana'
@@ -1306,7 +1311,6 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'noggle'
             | 'nomads'
             | 'nymphs'
-            | 'octopi'
             | 'ouphes'
             | 'oyster'
             | 'pirate'
@@ -1885,6 +1889,7 @@ SWAPPED : 'swapped';
 TAPPING : 'tapping';
 TRAMPLE : 'tramples'
         | 'trample';
+TRIBUTE : 'tribute';
 TRIGGER : 'triggers'
         | 'trigger';
 UNDYING : 'undying';
