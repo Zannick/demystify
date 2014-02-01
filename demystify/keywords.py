@@ -714,6 +714,7 @@ _planeswalker_types = [
     Keyword(("GIDEON", "gideon")),
     Keyword(("JACE", "jace")),
     Keyword(("KARN", "karn")),
+    Keyword(("KIORA", "kiora")),
     Keyword(("KOTH", "koth")),
     Keyword(("LILIANA", "liliana")),
     Keyword(("NISSA", "nissa")),
