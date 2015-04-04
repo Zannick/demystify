@@ -30,9 +30,11 @@ Required to run demystify
 
 Install using your package manager or from python.org. Pick one.
 I recommend using the package manager if possible.
+(Since it's at least 2015, 3.4 might be your default.
+ Don't install 3.2 in that case.)
 
 a) Package manager
-    Check that your package manager has python3.2.
+    Check that your package manager has python3.2 or later.
         $ sudo apt-get install python3.2
         $ python3 --version
         Python 3.2.3
@@ -127,46 +129,36 @@ If you don't, there was an issue installing something earlier:
 
 ======
 
-6) python-progressbar 2.3
+6) python-progressbar2 (currently 2.7.3)
 
-Download and install from http://code.google.com/p/python-progressbar/,
-rather than using your package manager (which likely has an outdated version
-or installs it to python2).
+$ sudo apt-get install python3-pip
+$ sudo pip3 install progressbar2
 
-    $ wget python-progressbar.googlecode.com/files/progressbar-2.3.tar.gz
-    $ tar xf progressbar-2.3.tar.gz
-    $ cd progressbar-2.3/
-    $ sudo python3.2 setup.py install
+"progressbar" is the old version hosted on Google Code; "progressbar2" is
+maintained on Github now: http://github.com/WoLpH/python-progressbar.
 
-(Note that if you're using Python 3.3 you'll need to download the source
-directly, since the progressbar-2.3 tarball is missing a necessary bugfix.
-And then you'll need to muck with the imports to make them relative... and
-touch any files that don't need to be mucked with, because code.google.com
-marks them as edited in 1979 and setuptools doesn't like that...)
-
-    $ wget https://python-progressbar.googlecode.com/archive/235f632a9c86d7a84c607151d5127652102549ab.zip
-    $ unzip 235<TAB>
-    $ cd python-progressbar-235f632a9c86/
-    $ vim progressbar/*
-    $ sudo python3.2 setup.py install
+You can probably set it up by downloading from Github and running
+    $ sudo python3 setup.py install
 
 This (and the ANTLR runtime below) requires setuptools. Some distros may
 already have it as part of python. If running:
-    $ sudo python3.2 setup.py install
+    $ sudo python3 setup.py install
 caused complaints about something in setuptools, you need setuptools.
 
 Some distros might be able to just install it:
     $ sudo apt-get install python3-setuptools
 
-For others, that may not work; you have to download a better setuptools:
-    $ wget http://python-distribute.org/distribute_setup.py
-    $ sudo python3.2 distribute_setup.py
-
 And then try again:
     $ sudo python3 setup.py install
 
+If that still doesn't work, remove distribute, setuptools, and easy_install
+from your system: https://pypi.python.org/pypi/setuptools/0.9.8#uninstalling
+and download https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
+and run it:
+    $ sudo python3 ez_setup.py
+
 It works when you can run:
-    $ python3.2
+    $ python3
     >>> import progressbar
     >>>
 (i.e. with no errors)
@@ -179,25 +171,25 @@ a) From the website:
 Download http://www.antlr.org/download/antlr-3.5.tar.gz and unpack it.
 The Python3 runtime is in the runtime/Python3 directory, and can be installed
 much like any other Python3 library.
-    $ wget http://www.antlr.org/download/antlr-3.5.tar.gz
+    $ wget http://www.antlr3.org/download/antlr-3.5.tar.gz
     $ tar xf antlr-3.5.tar.gz
     $ cd antlr3-antlr-3.5/runtime/Python3
-    $ sudo python3.2 setup.py install
+    $ sudo python3 setup.py install
 
 b) From github (this may be more up-to-date):
 Download or check out the github repo http://github.com/antlr/antlr3. Then,
 from wherever you put the repo:
     $ cd antlr3/runtime/Python3
-    $ sudo python3.2 setup.py install
+    $ sudo python3 setup.py install
 
 Installing on debian squeeze:
     $ wget http://github.com/antlr/antlr3/tarball/master -O antlr3.tgz
     $ tar xf antlr3.tgz
     $ cd antlr-antlr3-8312471/runtime/Python3/
-    $ sudo python3.2 setup.py install
+    $ sudo python3 setup.py install
 
 Regardless of whether you did (a) or (b), it works when you can run:
-    $ python3.2
+    $ python3
     >>> import antlr3
     >>>
 (i.e. with no errors)
@@ -214,7 +206,7 @@ afterwards, you should see a lot of Demystify*.py and *.tokens files that
 weren't there before.
 
 Still with me? Go one directory level up and run:
-    $ python3.2 demystify.py test
+    $ python3 demystify.py test
 
 It should say "OK" several times as it runs each of the provided unit tests.
 If so, hooray! Demystify is working on your machine, as evidenced by the
