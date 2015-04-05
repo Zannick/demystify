@@ -120,13 +120,6 @@ S/R:    TOR-U
 {T}: Add {1} to your mana pool.
 {T}: Add {B} or {G} to your mana pool. Activate this ability only if you control a Swamp.
 
-Name:   Tainted Æther
-Cost:   2BB
-Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a creature enters the battlefield, its controller sacrifices a creature or land.
-Set/Rarity:     Seventh Edition Rare, Urza's Saga Rare
-
 Name:   Taj-Nar Swordsmith
 Cost:   3W
 Type:   Creature — Cat Soldier
@@ -1108,14 +1101,6 @@ Type:   Creature — Drake
 P/T:    2/2
 S/R:    VI-U
 Flying, vigilance
-
-Name:   Tempest Efreet
-Cost:   1RRR
-Type:   Creature — Efreet
-Pow/Tgh:    (3/3)
-Rules Text:     Remove Tempest Efreet from your deck before playing if you're not playing for ante.
-{T}, Sacrifice Tempest Efreet: Target opponent may pay 10 life. If that player doesn't, he or she reveals a card at random from his or her hand. Exchange ownership of the revealed card and Tempest Efreet. Put the revealed card into your hand and Tempest Efreet from anywhere into that player's graveyard.
-Set/Rarity:     Fourth Edition Rare, Legends Rare
 
 Name:   Tempest Owl
 Cost:   1U
@@ -3559,14 +3544,6 @@ S/R:    WL-U, MM-U
 Flying
 When another creature enters the battlefield, return Timid Drake to its owner's hand.
 
-Name:   Timmerian Fiends
-Cost:   1BB
-Type:   Creature — Horror
-Pow/Tgh:    (1/1)
-Rules Text:     Remove Timmerian Fiends from your deck before playing if you're not playing for ante.
-{B}{B}{B}, Sacrifice Timmerian Fiends: The owner of target artifact may ante the top card of his or her library. If that player doesn't, exchange ownership of that artifact and Timmerian Fiends. Put the artifact card into your graveyard and Timmerian Fiends from anywhere into that player's graveyard. This change in ownership is permanent.
-Set/Rarity:     Homelands Rare
-
 Name:   Tin Street Hooligan
 Cost:   1R
 Type:   Creature — Goblin Rogue
@@ -3772,22 +3749,6 @@ M-card: Trouble
 S/R:    DGM-U
 Target player draws two cards and loses 2 life.
 Fuse (You may cast one or both halves of this card from your hand.)
-
-Name:   Toil // Trouble (Toil)
-Cost:   2B
-Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Target player draws two cards and loses 2 life.
-Fuse (You may cast one or both halves of this card from your hand.)
-Set/Rarity:     Dragon's Maze Uncommon
-
-Name:   Toil // Trouble (Trouble)
-Cost:   2R
-Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Trouble deals damage to target player equal to the number of cards in that player's hand.
-Fuse (You may cast one or both halves of this card from your hand.)
-Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Toil to Renown
 Cost:   1G
@@ -5223,20 +5184,6 @@ M-card: Error
 S/R:    DIS-U
 Return all creatures blocking or blocked by target creature to their owner's hand.
 
-Name:   Trial // Error (Error)
-Cost:   UB
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target multicolored spell.
-Set/Rarity:     Dissension Uncommon
-
-Name:   Trial // Error (Trial)
-Cost:   WU
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Return all creatures blocking or blocked by target creature to their owner's hand.
-Set/Rarity:     Dissension Uncommon
-
 Name:   Triangle of War
 Cost:   1
 Type:   Artifact
@@ -5822,22 +5769,6 @@ M-card: Burn
 S/R:    DGM-U
 Until end of turn, target creature loses all abilities and becomes a red Weird with base power and toughness 0/1.
 Fuse (You may cast one or both halves of this card from your hand.)
-
-Name:   Turn // Burn (Burn)
-Cost:   1R
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Burn deals 2 damage to target creature or player.
-Fuse (You may cast one or both halves of this card from your hand.)
-Set/Rarity:     Dragon's Maze Uncommon
-
-Name:   Turn // Burn (Turn)
-Cost:   2U
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature loses all abilities and becomes a 0/1 red Weird until end of turn.
-Fuse (You may cast one or both halves of this card from your hand.)
-Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Turn Aside
 Cost:   U

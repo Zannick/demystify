@@ -875,13 +875,6 @@ P/T:    2/3
 S/R:    IA-C
 Snow swampwalk
 
-Name:   Legions of Lim-Dûl
-Cost:   1BB
-Type:   Creature — Zombie
-Pow/Tgh:    (2/3)
-Rules Text:     Snow swampwalk
-Set/Rarity:     Ice Age Common
-
 Name:   Lens of Clarity
 Cost:   1
 Type:   Artifact
@@ -1291,20 +1284,6 @@ M-type: Split
 M-card: Death
 S/R:    AP-U
 All lands you control become 1/1 creatures until end of turn. They're still lands.
-
-Name:   Life // Death (Death)
-Cost:   1B
-Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Apocalypse Uncommon, Apocalypse Uncommon
-
-Name:   Life // Death (Life)
-Cost:   G
-Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     All lands you control become 1/1 creatures until end of turn. They're still lands.
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Apocalypse Uncommon, Apocalypse Uncommon
 
 Name:   Life Burst
 Cost:   1W
@@ -1816,53 +1795,6 @@ Cost:   UB
 Type:   Instant
 S/R:    AI-U, C13-U
 Look at the top five cards of your library. As many times as you choose, you may pay 1 life, put those cards on the bottom of your library in any order, then look at the top five cards of your library. Then shuffle your library and put the last cards you looked at this way on top of it in any order.
-
-Name:   Lim-Dûl the Necromancer
-Cost:   5BB
-Type:   Legendary Creature — Human Wizard
-Pow/Tgh:    (4/4)
-Rules Text:     Whenever a creature an opponent controls dies, you may pay {1}{B}. If you do, return that card to the battlefield under your control. If it's a creature, it's a Zombie in addition to its other creature types.
-{1}{B}: Regenerate target Zombie.
-Set/Rarity:     Time Spiral Rare
-
-Name:   Lim-Dûl's Cohort
-Cost:   1BB
-Type:   Creature — Zombie
-Pow/Tgh:    (2/3)
-Rules Text:     Whenever Lim-Dûl's Cohort blocks or becomes blocked by a creature, that creature can't be regenerated this turn.
-Set/Rarity:     Masters Edition IV Common, Ice Age Common
-
-Name:   Lim-Dûl's Hex
-Cost:   1B
-Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of your upkeep, for each player, Lim-Dûl's Hex deals 1 damage to that player unless he or she pays {B} or {3}.
-Set/Rarity:     Ice Age Uncommon
-
-Name:   Lim-Dûl's High Guard
-Cost:   1BB
-Type:   Creature — Skeleton
-Pow/Tgh:    (2/1)
-Rules Text:     First strike
-{1}{B}: Regenerate Lim-Dûl's High Guard.
-Set/Rarity:     Masters Edition II Uncommon, Alliances Common, Alliances Common
-
-Name:   Lim-Dûl's Paladin
-Cost:   2BR
-Type:   Creature — Human Knight
-Pow/Tgh:    (0/3)
-Rules Text:     Trample
-At the beginning of your upkeep, you may discard a card. If you don't, sacrifice Lim-Dûl's Paladin and draw a card.
-Whenever Lim-Dûl's Paladin becomes blocked, it gets +6/+3 until end of turn.
-Whenever Lim-Dûl's Paladin attacks and isn't blocked, it assigns no combat damage to defending player this turn and that player loses 4 life.
-Set/Rarity:     Alliances Uncommon
-
-Name:   Lim-Dûl's Vault
-Cost:   UB
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Look at the top five cards of your library. As many times as you choose, you may pay 1 life, put those cards on the bottom of your library in any order, then look at the top five cards of your library. Then shuffle your library and put the last cards you looked at this way on top of it in any order.
-Set/Rarity:     Masters Edition Uncommon, Alliances Uncommon
 
 Name:   Limestone Golem
 Cost:   6

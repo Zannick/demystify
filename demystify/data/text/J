@@ -494,14 +494,6 @@ S/R:    IA-U
 {1}, {T}: Put a charge counter on Jeweled Amulet. Note the type of mana spent to pay this activation cost. Activate this ability only if there are no charge counters on Jeweled Amulet.
 {T}, Remove a charge counter from Jeweled Amulet: Add one mana of Jeweled Amulet's last noted type to your mana pool.
 
-Name:   Jeweled Bird
-Cost:   1
-Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Remove Jeweled Bird from your deck before playing if you're not playing for ante.
-{T}: Put Jeweled Bird into the ante. If you do, put all other cards you own from the ante into your graveyard, then draw a card.
-Set/Rarity:     Chronicles Rare, Arabian Nights Uncommon
-
 Name:   Jeweled Spirit
 Cost:   3WW
 Type:   Creature — Spirit
@@ -1076,14 +1068,6 @@ S/R:    AN-R, 4E-U
 Flying
 At the beginning of your upkeep, sacrifice Junun Efreet unless you pay {B}{B}.
 
-Name:   Junún Efreet
-Cost:   1BB
-Type:   Creature — Efreet
-Pow/Tgh:    (3/3)
-Rules Text:     Flying
-At the beginning of your upkeep, sacrifice Junún Efreet unless you pay {B}{B}.
-Set/Rarity:     Masters Edition IV Uncommon, Fourth Edition Uncommon, Arabian Nights Rare
-
 Name:   Jushi Apprentice
 Cost:   1U
 Type:   Creature — Human Wizard
@@ -1092,13 +1076,6 @@ M-type: Flip
 M-card: Tomoya the Revealer
 S/R:    CHK-R
 {2}{U}, {T}: Draw a card. If you have nine or more cards in hand, flip Jushi Apprentice.
-
-Name:   Jushi Apprentice (Tomoya the Revealer)
-Cost:   1U
-Type:   Legendary Creature — Human Wizard
-Pow/Tgh:    (2/3)
-Rules Text:     {3}{U}{U}, {T}: Target player draws X cards, where X is the number of cards in your hand.
-Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Just Fate
 Cost:   2W
@@ -1135,13 +1112,6 @@ P/T:    5/5
 S/R:    AN-R
 At the beginning of your upkeep, Juzam Djinn deals 1 damage to you.
 
-Name:   Juzám Djinn
-Cost:   2BB
-Type:   Creature — Djinn
-Pow/Tgh:    (5/5)
-Rules Text:     At the beginning of your upkeep, Juzám Djinn deals 1 damage to you.
-Set/Rarity:     Masters Edition Rare, Arabian Nights Rare
-
 Name:   Jwar Isle Refuge
 Type:   Land
 S/R:    ZEN-U, CMD-U, PC2-U, C13-U
@@ -1161,18 +1131,3 @@ Type:   Creature — Shapeshifter Ally
 P/T:    0/0
 S/R:    WWK-R
 You may have Jwari Shapeshifter enter the battlefield as a copy of any Ally creature on the battlefield.
-
-Name:   Jötun Grunt
-Cost:   1W
-Type:   Creature — Giant Soldier
-Pow/Tgh:    (4/4)
-Rules Text:     Cumulative upkeep—Put two cards from a single graveyard on the bottom of their owner's library. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Coldsnap Uncommon
-
-Name:   Jötun Owl Keeper
-Cost:   2W
-Type:   Creature — Giant
-Pow/Tgh:    (3/3)
-Rules Text:     Cumulative upkeep {W} or {U} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-When Jötun Owl Keeper dies, put a 1/1 white Bird creature token with flying onto the battlefield for each age counter on it.
-Set/Rarity:     Coldsnap Uncommon

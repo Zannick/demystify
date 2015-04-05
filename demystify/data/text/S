@@ -1089,13 +1089,6 @@ M-card: Sasaya's Essence
 S/R:    SOK-R
 Reveal your hand: If you have seven or more land cards in your hand, flip Sasaya, Orochi Ascendant.
 
-Name:   Sasaya, Orochi Ascendant (Sasaya's Essence)
-Cost:   1GG
-Type:   Legendary Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a land you control is tapped for mana, for each other land you control with the same name, add one mana to your mana pool of any type that land produced.
-Set/Rarity:     Saviors of Kamigawa Rare
-
 Name:   Satyr Firedancer
 Cost:   1R
 Type:   Enchantment Creature — Satyr
@@ -1920,13 +1913,6 @@ Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    SCG-C
 Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-
-Name:   Scornful Æther-Lich
-Cost:   3U
-Type:   Artifact Creature — Zombie Wizard
-Pow/Tgh:    (2/4)
-Rules Text:     {W}{B}: Scornful Æther-Lich gains fear and vigilance until end of turn. (Attacking doesn't cause it to tap, and it can't be blocked except by artifact creatures and/or black creatures.)
-Set/Rarity:     Conflux Uncommon
 
 Name:   Scour
 Cost:   2WW
@@ -4134,13 +4120,6 @@ S/R:    FUT-R
 Trample
 Echo {0} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Shah of Naar Isle's echo cost is paid, each opponent may draw up to three cards.
-
-Name:   Shahrazad
-Cost:   WW
-Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Players play a MAGIC subgame, using their libraries as their decks. Each player who doesn't win the subgame loses half his or her life, rounded up.
-Set/Rarity:     Arabian Nights Rare
 
 Name:   Shaleskin Bruiser
 Cost:   6R
@@ -10700,20 +10679,6 @@ M-card: Malice
 S/R:    IN-U
 Counter target noncreature spell.
 
-Name:   Spite // Malice (Malice)
-Cost:   3B
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Destroy target nonblack creature. It can't be regenerated.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Invasion Uncommon, Invasion Uncommon
-
-Name:   Spite // Malice (Spite)
-Cost:   3U
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target noncreature spell.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Uncommon, Invasion Uncommon, Invasion Uncommon
-
 Name:   Spite of Mogis
 Cost:   R
 Type:   Sorcery
@@ -11563,20 +11528,6 @@ M-type: Split
 M-card: Deliver
 S/R:    IN-U
 Prevent the next 2 damage that would be dealt to target creature this turn.
-
-Name:   Stand // Deliver (Deliver)
-Cost:   2U
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Return target permanent to its owner's hand.
-Set/Rarity:     Invasion Uncommon, Invasion Uncommon
-
-Name:   Stand // Deliver (Stand)
-Cost:   W
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Prevent the next 2 damage that would be dealt to target creature this turn.
-Set/Rarity:     Invasion Uncommon, Invasion Uncommon
 
 Name:   Stand Firm
 Cost:   W
@@ -13206,13 +13157,6 @@ M-card: Tobita, Master of Winds
 S/R:    CHK-U
 When Student of Elements has flying, flip it.
 
-Name:   Student of Elements (Tobita, Master of Winds)
-Cost:   1U
-Type:   Legendary Creature — Human Wizard
-Pow/Tgh:    (3/3)
-Rules Text:     Creatures you control have flying.
-Set/Rarity:     Champions of Kamigawa Uncommon
-
 Name:   Student of Ojutai
 Cost:   3W
 Type:   Creature — Human Monk
@@ -14030,20 +13974,6 @@ M-card: Demand
 S/R:    DIS-U
 Put X 1/1 green Saproling creature tokens onto the battlefield.
 
-Name:   Supply // Demand (Demand)
-Cost:   1WU
-Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Search your library for a multicolored card, reveal it, and put it into your hand. Then shuffle your library.
-Set/Rarity:     Dissension Uncommon
-
-Name:   Supply // Demand (Supply)
-Cost:   XGW
-Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Put X 1/1 green Saproling creature tokens onto the battlefield.
-Set/Rarity:     Dissension Uncommon
-
 Name:   Supply-Line Cranes
 Cost:   3WW
 Type:   Creature — Bird
@@ -14199,14 +14129,6 @@ P/T:    2/1
 S/R:    CSP-C
 First strike
 Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)
-
-Name:   Surging Æther
-Cost:   3U
-Type:   Instant
-Pow/Tgh:    
-Rules Text:     Ripple 4 (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.)
-Return target permanent to its owner's hand.
-Set/Rarity:     Coldsnap Common
 
 Name:   Surprise Deployment
 Cost:   3W
@@ -14961,10 +14883,3 @@ P/T:    5/5
 S/R:    RAV-R, CMD-R
 Flying
 If Szadek, Lord of Secrets would deal combat damage to a player, instead put that many +1/+1 counters on Szadek and that player puts that many cards from the top of his or her library into his or her graveyard.
-
-Name:   Séance
-Cost:   2WW
-Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of each upkeep, you may exile target creature card from your graveyard. If you do, put a token onto the battlefield that's a copy of that card except it's a Spirit in addition to its other types. Exile it at the beginning of the next end step.
-Set/Rarity:     Dark Ascension Rare

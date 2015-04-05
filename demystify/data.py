@@ -83,21 +83,7 @@ _cost = re.compile(r'^([0-9WUBRGX]|\([0-9WUBRGPS]/[0-9WUBRGPS]\))+$', re.I)
 _pt = re.compile(r'^[0-9*+-]+(/[0-9*+-]+)?$')
 _sr = re.compile(r'^[0-9A-Z, -]+$')
 _color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')
-_multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) ([^.]+).')
-
-def _fix_mana(name, m):
-    sym = m.group(0)
-    if sym[1] == 'S':
-        f = '{S}'
-    elif sym[1] in '0123456789':
-        f = sym.replace('}', '', 1)
-    elif sym[1] == 'p':
-        f = ' {p} '
-    else:
-        f = sym + '}'
-    ulog.info("{}: Replacing bad mana symbol '{}' with '{}'."
-              .format(name, sym, f))
-    return f
+_multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) (.+).]$')
 
 class BasicTextParser:
     """ A parser for the text Oracle wordings as provided by
