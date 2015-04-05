@@ -292,7 +292,7 @@ S/R:    WL-R, 6E-R, 8ED-R
 {2}{G}{G}: Reveal the top card of your library. If it's a creature card, put it onto the battlefield. Otherwise, put it into your graveyard.
 
 Name:   Call the Skybreaker
-Cost:   5(u/r)(u/r)
+Cost:   5(U/R)(U/R)
 Type:   Sorcery
 S/R:    EVE-R, CMD-R
 Put a 5/5 blue and red Elemental creature token with flying onto the battlefield.
@@ -478,14 +478,14 @@ Prevent the next 3 damage that would be dealt to target creature or player this 
 Splice onto Arcane {1}{W} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 
 Name:   Canker Abomination
-Cost:   2(b/g)(b/g)
+Cost:   2(B/G)(B/G)
 Type:   Creature — Treefolk Horror
 P/T:    6/6
 S/R:    EVE-U
 As Canker Abomination enters the battlefield, choose an opponent. Canker Abomination enters the battlefield with a -1/-1 counter on it for each creature that player controls.
 
 Name:   Cankerous Thirst
-Cost:   3(b/g)
+Cost:   3(B/G)
 Type:   Instant
 S/R:    EVE-U
 If {B} was spent to cast Cankerous Thirst, you may have target creature get -3/-3 until end of turn. If {G} was spent to cast Cankerous Thirst, you may have target creature get +3/+3 until end of turn. (Do both if {B}{G} was spent.)
@@ -1219,7 +1219,7 @@ S/R:    ALA-C
 {T}: Target player puts the top card of his or her library into his or her graveyard.
 
 Name:   Cathedral Membrane
-Cost:   1(w/p)
+Cost:   1(W/P)
 Type:   Artifact Creature — Wall
 P/T:    0/3
 S/R:    NPH-U
@@ -1262,7 +1262,7 @@ Return target creature card from your graveyard to the battlefield. That creatur
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Its controller sacrifices it at the beginning of the next end step.
 
 Name:   Cauldron Haze
-Cost:   1(w/b)
+Cost:   1(W/B)
 Type:   Instant
 S/R:    EVE-U
 Choose any number of target creatures. Each of those creatures gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
@@ -1547,7 +1547,7 @@ Defender (This creature can't attack.)
 Protection from black
 
 Name:   Cemetery Puca
-Cost:   1(u/b)(u/b)
+Cost:   1(U/B)(U/B)
 Type:   Creature — Shapeshifter
 P/T:    1/2
 S/R:    SHM-R
@@ -1645,7 +1645,7 @@ S/R:    JUD-C
 Whenever Centaur Rootcaster deals combat damage to a player, you may search your library for a basic land card and put that card onto the battlefield tapped. If you do, shuffle your library.
 
 Name:   Centaur Safeguard
-Cost:   2(g/w)
+Cost:   2(G/W)
 Type:   Creature — Centaur Warrior
 P/T:    3/1
 S/R:    RAV-C
@@ -2129,13 +2129,13 @@ S/R:    HL-C
 Name:   Chandra Ablaze
 Cost:   4RR
 Type:   Planeswalker — Chandra
-Cost:   5
+P/T:    5
 S/R:    ZEN-M
 
 Name:   Chandra Nalaar
 Cost:   3RR
 Type:   Planeswalker — Chandra
-Cost:   6
+P/T:    6
 S/R:    LRW-R, M10-M, M11-M
 
 Name:   Chandra's Fury
@@ -2170,13 +2170,13 @@ Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 un
 Name:   Chandra, Pyromaster
 Cost:   2RR
 Type:   Planeswalker — Chandra
-Cost:   4
+P/T:    4
 S/R:    M14-M, M15-M
 
 Name:   Chandra, the Firebrand
 Cost:   3R
 Type:   Planeswalker — Chandra
-Cost:   3
+P/T:    3
 S/R:    M12-M, M13-M
 
 Name:   Change of Heart
@@ -3908,7 +3908,7 @@ When Cloudthresher enters the battlefield, it deals 2 damage to each creature wi
 Evoke {2}{G}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
 
 Name:   Clout of the Dominus
-Cost:   (u/r)
+Cost:   (U/R)
 Type:   Enchantment — Aura
 S/R:    EVE-C
 Enchant creature
@@ -4098,7 +4098,7 @@ S/R:    RTR-U
 {5}, {T}, Sacrifice Codex Shredder: Return target card from your graveyard to your hand.
 
 Name:   Coerced Confession
-Cost:   4(u/b)
+Cost:   4(U/B)
 Type:   Sorcery
 S/R:    GTC-U
 Target player puts the top four cards of his or her library into his or her graveyard. You draw a card for each creature card put into that graveyard this way.
@@ -4223,7 +4223,7 @@ S/R:    TE-R
 Sacrifice Cold Storage: Return each creature card exiled with Cold Storage to the battlefield under your control.
 
 Name:   Cold-Eyed Selkie
-Cost:   1(g/u)(g/u)
+Cost:   1(G/U)(G/U)
 Type:   Creature — Merfolk Rogue
 P/T:    1/1
 S/R:    EVE-R
@@ -5297,7 +5297,7 @@ At the beginning of your upkeep, put a rust counter on each artifact target oppo
 When Corrosion leaves the battlefield, remove all rust counters from all permanents.
 
 Name:   Corrosive Gale
-Cost:   X(g/p)
+Cost:   X(G/P)
 Type:   Sorcery
 S/R:    NPH-U
 ({(g/p)} can be paid with either {G} or 2 life.)
@@ -5662,7 +5662,7 @@ S/R:    MM-R
 Nonwhite creatures with power 3 or greater don't untap during their controllers' untap steps.
 
 Name:   Crackleburr
-Cost:   1(u/r)(u/r)
+Cost:   1(U/R)(U/R)
 Type:   Creature — Elemental
 P/T:    2/2
 S/R:    EVE-R
@@ -5724,7 +5724,7 @@ S/R:    ONS-C, 9ED-C, 10E-C
 {T}: Target creature with power 2 or less can't be blocked this turn.
 
 Name:   Crag Puca
-Cost:   (u/r)(u/r)(u/r)
+Cost:   (U/R)(U/R)(U/R)
 Type:   Creature — Shapeshifter
 P/T:    2/4
 S/R:    EVE-U
@@ -5914,7 +5914,7 @@ S/R:    EVE-U
 {(b/g)}{(b/g)}: Exile target card from a graveyard. You gain 1 life.
 
 Name:   Creakwood Liege
-Cost:   1(b/g)(b/g)(b/g)
+Cost:   1(B/G)(B/G)(B/G)
 Type:   Creature — Horror
 P/T:    2/2
 S/R:    EVE-R
@@ -6658,7 +6658,7 @@ Crypt of Agadeem enters the battlefield tapped.
 {2}, {T}: Add {B} to your mana pool for each black creature card in your graveyard.
 
 Name:   Cryptborn Horror
-Cost:   1(b/r)(b/r)
+Cost:   1(B/R)(B/R)
 Type:   Creature — Horror
 P/T:    0/0
 S/R:    RTR-R
@@ -6776,7 +6776,7 @@ S/R:    ST-U
 All Slivers have shroud. (They can't be the targets of spells or abilities.)
 
 Name:   Crystallization
-Cost:   (g/u)W
+Cost:   (G/U)W
 Type:   Enchantment — Aura
 S/R:    ARB-C
 Enchant creature
@@ -6823,7 +6823,7 @@ As an additional cost to cast Culling the Weak, sacrifice a creature.
 Add {B}{B}{B}{B} to your mana pool.
 
 Name:   Cultbrand Cinder
-Cost:   4(b/r)
+Cost:   4(B/R)
 Type:   Creature — Elemental Shaman
 P/T:    3/3
 S/R:    SHM-C
@@ -6956,7 +6956,7 @@ Enchant player
 If a source would deal damage to enchanted player, it deals double that damage to that player instead.
 
 Name:   Curse of Chains
-Cost:   1(w/u)
+Cost:   1(W/U)
 Type:   Enchantment — Aura
 S/R:    SHM-C
 Enchant creature

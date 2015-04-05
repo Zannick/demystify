@@ -194,7 +194,7 @@ S/R:    M15-R
 For each attacking creature, its owner puts it on the top or bottom of his or her library.
 
 Name:   AEthertow
-Cost:   3(w/u)
+Cost:   3(W/U)
 Type:   Instant
 S/R:    SHM-C
 Put target attacking or blocking creature on top of its owner's library.
@@ -720,7 +720,7 @@ S/R:    US-C
 Echo {1}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 
 Name:   Act of Aggression
-Cost:   3(r/p)(r/p)
+Cost:   3(R/P)(R/P)
 Type:   Instant
 S/R:    NPH-U
 ({(r/p)} can be paid with either {R} or 2 life.)
@@ -882,7 +882,7 @@ Landfall — Whenever a land enters the battlefield under your control, equipped
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 
 Name:   Advice from the Fae
-Cost:   (2/u)(2/u)(2/u)
+Cost:   (2/U)(2/U)(2/U)
 Type:   Sorcery
 S/R:    SHM-U
 ({(2/u)} can be paid with any two mana or with {U}. This card's converted mana cost is 6.)
@@ -1290,19 +1290,19 @@ Whenever Aisling Leprechaun blocks or becomes blocked by a creature, that creatu
 Name:   Ajani Goldmane
 Cost:   2WW
 Type:   Planeswalker — Ajani
-Cost:   4
+P/T:    4
 S/R:    LRW-R, M10-M, M11-M
 
 Name:   Ajani Steadfast
 Cost:   3W
 Type:   Planeswalker — Ajani
-Cost:   4
+P/T:    4
 S/R:    M15-M
 
 Name:   Ajani Vengeant
 Cost:   2RW
 Type:   Planeswalker — Ajani
-Cost:   3
+P/T:    3
 S/R:    ALA-M
 
 Name:   Ajani's Chosen
@@ -1342,13 +1342,13 @@ Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Name:   Ajani, Caller of the Pride
 Cost:   1WW
 Type:   Planeswalker — Ajani
-Cost:   4
+P/T:    4
 S/R:    M13-M, M14-M
 
 Name:   Ajani, Mentor of Heroes
 Cost:   3GW
 Type:   Planeswalker — Ajani
-Cost:   4
+P/T:    4
 S/R:    JOU-M
 
 Name:   Akki Avalanchers
@@ -3170,7 +3170,7 @@ Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 o
 {1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to target creature or player.
 
 Name:   Apostle's Blessing
-Cost:   1(w/p)
+Cost:   1(W/P)
 Type:   Instant
 S/R:    NPH-C
 ({(w/p)} can be paid with either {W} or 2 life.)
@@ -4322,13 +4322,13 @@ If four or more creatures are attacking, you may pay {1}{W} rather than pay Arro
 Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures.
 
 Name:   Arrows of Justice
-Cost:   2(r/w)
+Cost:   2(R/W)
 Type:   Instant
 S/R:    GTC-U
 Arrows of Justice deals 4 damage to target attacking or blocking creature.
 
 Name:   Arsenal Thresher
-Cost:   2(w/b)U
+Cost:   2(W/B)U
 Type:   Artifact Creature — Construct
 P/T:    2/2
 S/R:    ARB-C, HOP-C
@@ -4539,14 +4539,14 @@ S/R:    SHM-C
 Ashenmoor Cohort gets +1/+1 as long as you control another black creature.
 
 Name:   Ashenmoor Gouger
-Cost:   (b/r)(b/r)(b/r)
+Cost:   (B/R)(B/R)(B/R)
 Type:   Creature — Elemental Warrior
 P/T:    4/4
 S/R:    SHM-U
 Ashenmoor Gouger can't block.
 
 Name:   Ashenmoor Liege
-Cost:   1(b/r)(b/r)(b/r)
+Cost:   1(B/R)(B/R)(B/R)
 Type:   Creature — Elemental Knight
 P/T:    4/1
 S/R:    SHM-R
@@ -4577,7 +4577,7 @@ Heroic — Whenever you cast a spell that targets Ashiok's Adept, each opponent 
 Name:   Ashiok, Nightmare Weaver
 Cost:   1UB
 Type:   Planeswalker — Ashiok
-Cost:   3
+P/T:    3
 S/R:    THS-M
 
 Name:   Ashling the Pilgrim
@@ -4941,7 +4941,7 @@ S/R:    FUT-C
 Sacrifice Augur of Skulls: Target player discards two cards. Activate this ability only during your upkeep.
 
 Name:   Augury Adept
-Cost:   1(w/u)(w/u)
+Cost:   1(W/U)(W/U)
 Type:   Creature — Kithkin Wizard
 P/T:    2/2
 S/R:    SHM-R, C13-R
@@ -5361,7 +5361,7 @@ S/R:    5DN-U
 {5}: Exchange control of Avarice Totem and target nonland permanent.
 
 Name:   Avatar of Discord
-Cost:   (b/r)(b/r)(b/r)
+Cost:   (B/R)(B/R)(B/R)
 Type:   Creature — Avatar
 P/T:    5/3
 S/R:    DIS-R, ARC-R
@@ -5873,7 +5873,7 @@ Flying
 {U}: Azimaet Drake gets +1/+0 until end of turn. Activate this ability only once each turn.
 
 Name:   Azor's Elocutors
-Cost:   3(w/u)(w/u)
+Cost:   3(W/U)(W/U)
 Type:   Creature — Human Advisor
 P/T:    3/5
 S/R:    RTR-R
@@ -5931,7 +5931,7 @@ Azorius Guildgate enters the battlefield tapped.
 {T}: Add {W} or {U} to your mana pool.
 
 Name:   Azorius Guildmage
-Cost:   (w/u)(w/u)
+Cost:   (W/U)(W/U)
 Type:   Creature — Vedalken Wizard
 P/T:    2/2
 S/R:    DIS-U, CMD-U

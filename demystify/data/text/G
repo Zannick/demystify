@@ -306,7 +306,7 @@ Defender (This creature can't attack.)
 Name:   Garruk Relentless
 Cost:   3G
 Type:   Planeswalker — Garruk
-Cost:   3
+P/T:    3
 M-type: Transform
 S/R:    ISD-M
 When Garruk Relentless has two or fewer loyalty counters on him, transform him.
@@ -314,7 +314,7 @@ When Garruk Relentless has two or fewer loyalty counters on him, transform him.
 Name:   Garruk Wildspeaker
 Cost:   2GG
 Type:   Planeswalker — Garruk
-Cost:   3
+P/T:    3
 S/R:    LRW-R, M10-M, M11-M, CMD-M
 
 Name:   Garruk's Companion
@@ -343,19 +343,19 @@ Whenever another creature with power 3 or greater enters the battlefield under y
 Name:   Garruk, Apex Predator
 Cost:   5BG
 Type:   Planeswalker — Garruk
-Cost:   5
+P/T:    5
 S/R:    M15-M
 
 Name:   Garruk, Caller of Beasts
 Cost:   4GG
 Type:   Planeswalker — Garruk
-Cost:   4
+P/T:    4
 S/R:    M14-M
 
 Name:   Garruk, Primal Hunter
 Cost:   2GGG
 Type:   Planeswalker — Garruk
-Cost:   3
+P/T:    3
 S/R:    M12-M, M13-M
 
 Name:   Garruk, the Veil-Cursed
@@ -560,7 +560,7 @@ S/R:    IA-C
 Until end of turn, whenever a creature you control attacks and isn't blocked, you may choose to have it deal damage equal to its power to a target creature. If you do, it assigns no combat damage this turn.
 
 Name:   Gaze of the Gorgon
-Cost:   3(b/g)
+Cost:   3(B/G)
 Type:   Instant
 S/R:    RAV-C
 ({(b/g)} can be paid with either {B} or {G}.)
@@ -926,7 +926,7 @@ S/R:    SOM-C
 Metalcraft — Ghalma's Warden gets +2/+2 as long as you control three or more artifacts.
 
 Name:   Ghastlord of Fugue
-Cost:   (u/b)(u/b)(u/b)(u/b)(u/b)
+Cost:   (U/B)(U/B)(U/B)(U/B)(U/B)
 Type:   Creature — Spirit Avatar
 P/T:    4/4
 S/R:    SHM-R
@@ -1333,7 +1333,7 @@ Flying
 When Giant Albatross dies, you may pay {1}{U}. If you do, for each creature that dealt damage to Giant Albatross this turn, destroy that creature unless its controller pays 2 life. A creature destroyed this way can't be regenerated.
 
 Name:   Giant Ambush Beetle
-Cost:   3(b/g)R
+Cost:   3(B/G)R
 Type:   Creature — Insect
 P/T:    4/3
 S/R:    ARB-U
@@ -1433,7 +1433,7 @@ S/R:    LE-C, CH-C
 {5}: At the beginning of your next upkeep, choose a basic land type. Giant Slug gains landwalk of the chosen type until the end of that turn.
 
 Name:   Giant Solifuge
-Cost:   2(r/g)(r/g)
+Cost:   2(R/G)(R/G)
 Type:   Creature — Insect
 P/T:    4/1
 S/R:    GPT-R
@@ -1489,7 +1489,7 @@ S/R:    LRW-C
 Giant's Ire deals 4 damage to target player. If you control a Giant, draw a card.
 
 Name:   Giantbaiting
-Cost:   2(r/g)
+Cost:   2(R/G)
 Type:   Sorcery
 S/R:    SHM-C
 Put a 4/4 red and green Giant Warrior creature token with haste onto the battlefield. Exile it at the beginning of the next end step.
@@ -1521,7 +1521,7 @@ Soulshift 3 (When this creature dies, you may return target Spirit card with con
 Name:   Gideon Jura
 Cost:   3WW
 Type:   Planeswalker — Gideon
-Cost:   6
+P/T:    6
 S/R:    ROE-M, M12-M
 
 Name:   Gideon's Avenger
@@ -1541,7 +1541,7 @@ S/R:    M12-C
 Name:   Gideon, Champion of Justice
 Cost:   2WW
 Type:   Planeswalker — Gideon
-Cost:   4
+P/T:    4
 S/R:    GTC-M
 
 Name:   Gift of Estates
@@ -1566,14 +1566,14 @@ Enchant creature
 When enchanted creature dies, return that card to the battlefield under its owner's control. Return Gift of Immortality to the battlefield attached to that creature at the beginning of the next end step.
 
 Name:   Gift of Orzhova
-Cost:   1(w/b)(w/b)
+Cost:   1(W/B)(W/B)
 Type:   Enchantment — Aura
 S/R:    GTC-U
 Enchant creature
 Enchanted creature gets +1/+1 and has flying and lifelink.
 
 Name:   Gift of the Deity
-Cost:   4(b/g)
+Cost:   4(B/G)
 Type:   Enchantment — Aura
 S/R:    EVE-C
 Enchant creature
@@ -1658,7 +1658,7 @@ S/R:    MRD-R, M13-R
 {T}: Add three mana of any one color to your mana pool.
 
 Name:   Gilder Bairn
-Cost:   1(g/u)(g/u)
+Cost:   1(G/U)(G/U)
 Type:   Creature — Ouphe
 P/T:    1/3
 S/R:    EVE-U
@@ -1709,7 +1709,7 @@ If a source would deal damage to an opponent or a permanent an opponent controls
 If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.
 
 Name:   Gitaxian Probe
-Cost:   (u/p)
+Cost:   (U/P)
 Type:   Sorcery
 S/R:    NPH-C
 ({(u/p)} can be paid with either {U} or 2 life.)
@@ -1828,7 +1828,7 @@ S/R:    M12-C, M14-C
 Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 
 Name:   Glamer Spinners
-Cost:   4(w/u)
+Cost:   4(W/U)
 Type:   Creature — Faerie Wizard
 P/T:    2/4
 S/R:    SHM-U
@@ -1944,7 +1944,7 @@ Creatures you control get +1/+2 until end of turn. Untap those creatures.
 Basic landcycling {1}{W} ({1}{W}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
 
 Name:   Gleancrawler
-Cost:   3(b/g)(b/g)(b/g)
+Cost:   3(B/G)(B/G)(B/G)
 Type:   Creature — Insect Horror
 P/T:    6/6
 S/R:    RAV-R
@@ -1969,7 +1969,7 @@ Flying
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 
 Name:   Glen Elendra Liege
-Cost:   1(u/b)(u/b)(u/b)
+Cost:   1(U/B)(U/B)(U/B)
 Type:   Creature — Faerie Knight
 P/T:    2/3
 S/R:    SHM-R, PC2-R
@@ -3324,7 +3324,7 @@ S/R:    BNG-U
 Inspired — Whenever God-Favored General becomes untapped, you may pay {2}{W}. If you do, put two 1/1 white Soldier enchantment creature tokens onto the battlefield.
 
 Name:   Godhead of Awe
-Cost:   (w/u)(w/u)(w/u)(w/u)(w/u)
+Cost:   (W/U)(W/U)(W/U)(W/U)(W/U)
 Type:   Creature — Spirit Avatar
 P/T:    4/4
 S/R:    SHM-R
@@ -3598,7 +3598,7 @@ Golgari Guildgate enters the battlefield tapped.
 {T}: Add {B} or {G} to your mana pool.
 
 Name:   Golgari Guildmage
-Cost:   (b/g)(b/g)
+Cost:   (B/G)(B/G)
 Type:   Creature — Elf Shaman
 P/T:    2/2
 S/R:    RAV-U, CMD-U, C13-U
@@ -3613,7 +3613,7 @@ S/R:    RTR-U
 {B}{G}: Golgari Keyrune becomes a 2/2 black and green Insect artifact creature with deathtouch until end of turn.
 
 Name:   Golgari Longlegs
-Cost:   3(b/g)(b/g)
+Cost:   3(B/G)(B/G)
 Type:   Creature — Insect
 P/T:    5/4
 S/R:    RTR-C
@@ -4200,14 +4200,14 @@ S/R:    ONS-C
 Morph {1}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Gravelgill Axeshark
-Cost:   4(u/b)
+Cost:   4(U/B)
 Type:   Creature — Merfolk Soldier
 P/T:    3/3
 S/R:    SHM-C
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 
 Name:   Gravelgill Duo
-Cost:   2(u/b)
+Cost:   2(U/B)
 Type:   Creature — Merfolk Rogue Warrior
 P/T:    2/1
 S/R:    SHM-C
@@ -4340,7 +4340,7 @@ S/R:    ZEN-C, C13-C
 Landfall — Whenever a land enters the battlefield under your control, you may gain 2 life.
 
 Name:   Grazing Kelpie
-Cost:   3(g/u)
+Cost:   3(G/U)
 Type:   Creature — Beast
 P/T:    2/3
 S/R:    EVE-C
@@ -4610,7 +4610,7 @@ S/R:    GTC-U
 Tap X target nonland permanents.
 
 Name:   Grief Tyrant
-Cost:   5(b/r)
+Cost:   5(B/R)
 Type:   Creature — Horror
 P/T:    8/8
 S/R:    SHM-U
@@ -4936,7 +4936,7 @@ Choose one —
 • Creatures you control get +2/+0 until end of turn.
 
 Name:   Grixis Grimblade
-Cost:   (u/r)B
+Cost:   (U/R)B
 Type:   Creature — Zombie Warrior
 P/T:    2/1
 S/R:    ARB-C
@@ -5078,7 +5078,7 @@ Enchant creature
 Enchanted creature loses flying.
 
 Name:   Groundling Pouncer
-Cost:   1(g/u)
+Cost:   1(G/U)
 Type:   Creature — Faerie
 P/T:    2/1
 S/R:    EVE-U
@@ -5118,7 +5118,7 @@ S/R:    RTR-R
 {3}{G}{W}, {T}, Tap two untapped creatures you control, Sacrifice Grove of the Guardian: Put an 8/8 green and white Elemental creature token with vigilance onto the battlefield.
 
 Name:   Growing Ranks
-Cost:   2(g/w)(g/w)
+Cost:   2(G/W)(G/W)
 Type:   Enchantment
 S/R:    RTR-R
 At the beginning of your upkeep, populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
@@ -5189,7 +5189,7 @@ Gruul Guildgate enters the battlefield tapped.
 {T}: Add {R} or {G} to your mana pool.
 
 Name:   Gruul Guildmage
-Cost:   (r/g)(r/g)
+Cost:   (R/G)(R/G)
 Type:   Creature — Human Shaman
 P/T:    2/2
 S/R:    GPT-U
@@ -5625,7 +5625,7 @@ Flying
 Sacrifice Gustrider Exuberant: Creatures you control with power 5 or greater gain flying until end of turn.
 
 Name:   Gut Shot
-Cost:   (r/p)
+Cost:   (R/P)
 Type:   Instant
 S/R:    NPH-U
 ({(r/p)} can be paid with either {R} or 2 life.)
@@ -5658,7 +5658,7 @@ S/R:    RTR-U, C13-U
 Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent.
 
 Name:   Guttural Response
-Cost:   (r/g)
+Cost:   (R/G)
 Type:   Instant
 S/R:    SHM-U
 Counter target blue instant spell.
@@ -5712,7 +5712,7 @@ S/R:    LE-R
 {T}: Target player discards a card at random. Activate this ability only during your turn.
 
 Name:   Gwyllion Hedge-Mage
-Cost:   2(w/b)
+Cost:   2(W/B)
 Type:   Creature — Hag Wizard
 P/T:    2/2
 S/R:    EVE-U, CMD-U

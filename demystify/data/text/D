@@ -16,7 +16,7 @@ S/R:    TSP-C
 Name:   Dack Fayden
 Cost:   1UR
 Type:   Planeswalker — Dack
-Cost:   3
+P/T:    3
 S/R:    CNS-M
 
 Name:   Dack's Duplicate
@@ -258,7 +258,7 @@ At the beginning of your upkeep, sacrifice Darba unless you pay {G}{G}.
 Name:   Daretti, Scrap Savant
 Cost:   3R
 Type:   Planeswalker — Daretti
-Cost:   3
+P/T:    3
 S/R:    C14-M
 Daretti, Scrap Savant can be your commander.
 
@@ -959,7 +959,7 @@ Flying
 {8}: Tap all creatures target player controls.
 
 Name:   Dawnglow Infusion
-Cost:   X(g/w)
+Cost:   X(G/W)
 Type:   Sorcery
 S/R:    SHM-U
 You gain X life if {G} was spent to cast Dawnglow Infusion and X life if {W} was spent to cast it. (Do both if {G}{W} was spent.)
@@ -1476,7 +1476,7 @@ Deathbellow Raider attacks each turn if able.
 {2}{B}: Regenerate Deathbellow Raider.
 
 Name:   Deathbringer Liege
-Cost:   2(w/b)(w/b)(w/b)
+Cost:   2(W/B)(W/B)(W/B)
 Type:   Creature — Horror
 P/T:    3/4
 S/R:    EVE-R
@@ -1509,7 +1509,7 @@ S/R:    P2-R
 You may have Deathcoil Wurm assign its combat damage as though it weren't blocked.
 
 Name:   Deathcult Rogue
-Cost:   1(u/b)(u/b)
+Cost:   1(U/B)(U/B)
 Type:   Creature — Human Rogue
 P/T:    2/2
 S/R:    GTC-C
@@ -1633,7 +1633,7 @@ Whenever equipped creature dies, you may put a creature card from your hand onto
 Equip {2}
 
 Name:   Deathrite Shaman
-Cost:   (b/g)
+Cost:   (B/G)
 Type:   Creature — Elf Shaman
 P/T:    1/2
 S/R:    RTR-R
@@ -1677,7 +1677,7 @@ Enchant land
 Enchanted land has "{T}: Tap target creature."
 
 Name:   Debtors' Knell
-Cost:   4(w/b)(w/b)(w/b)
+Cost:   4(W/B)(W/B)(W/B)
 Type:   Enchantment
 S/R:    GPT-R
 ({(w/b)} can be paid with either {W} or {B}.)
@@ -2166,7 +2166,7 @@ S/R:    JOU-R
 Exile target enchantment. If the exiled card is a God card, search its controller's graveyard, hand, and library for any number of cards with the same name as that card and exile them, then that player shuffles his or her library.
 
 Name:   Deity of Scars
-Cost:   (b/g)(b/g)(b/g)(b/g)(b/g)
+Cost:   (B/G)(B/G)(B/G)(B/G)(B/G)
 Type:   Creature — Spirit Avatar
 P/T:    7/7
 S/R:    EVE-R
@@ -2287,7 +2287,7 @@ S/R:    TSP-U
 All Slivers have "{T}: Name a card. Target opponent reveals a card at random from his or her hand. If it's the named card, that player discards it. Activate this ability only during your turn."
 
 Name:   Demigod of Revenge
-Cost:   (b/r)(b/r)(b/r)(b/r)(b/r)
+Cost:   (B/R)(B/R)(B/R)(B/R)(B/R)
 Type:   Creature — Spirit Avatar
 P/T:    5/4
 S/R:    SHM-R
@@ -2630,7 +2630,7 @@ S/R:    JOU-C
 Destroy target enchantment or land.
 
 Name:   Desecrator Hag
-Cost:   2(b/g)(b/g)
+Cost:   2(B/G)(B/G)
 Type:   Creature — Hag
 P/T:    2/2
 S/R:    EVE-C, CMD-C
@@ -2861,7 +2861,7 @@ Suspend X—{X}{3}{R}. X can't be 0. (Rather than cast this card from your hand,
 Whenever a time counter is removed from Detritivore while it's exiled, destroy target nonbasic land.
 
 Name:   Deus of Calamity
-Cost:   (r/g)(r/g)(r/g)(r/g)(r/g)
+Cost:   (R/G)(R/G)(R/G)(R/G)(R/G)
 Type:   Creature — Spirit Avatar
 P/T:    6/6
 S/R:    SHM-R
@@ -3272,7 +3272,7 @@ Dimir Guildgate enters the battlefield tapped.
 {T}: Add {U} or {B} to your mana pool.
 
 Name:   Dimir Guildmage
-Cost:   (u/b)(u/b)
+Cost:   (U/B)(U/B)
 Type:   Creature — Human Wizard
 P/T:    2/2
 S/R:    RAV-U
@@ -3318,7 +3318,7 @@ S/R:    RAV-C, CMD-C, ARC-C
 {1}, {T}: Add {U}{B} to your mana pool.
 
 Name:   Din of the Fireherd
-Cost:   5(b/r)(b/r)(b/r)
+Cost:   5(B/R)(B/R)(B/R)
 Type:   Sorcery
 S/R:    SHM-R
 Put a 5/5 black and red Elemental creature token onto the battlefield. Target opponent sacrifices a creature for each black creature you control, then sacrifices a land for each red creature you control.
@@ -3364,7 +3364,7 @@ Shroud (A permanent with shroud can't be the target of spells or abilities.)
 Enchanted creature has shroud.
 
 Name:   Dire Undercurrents
-Cost:   3(u/b)(u/b)
+Cost:   3(U/B)(U/B)
 Type:   Enchantment
 S/R:    SHM-R
 Whenever a blue creature enters the battlefield under your control, you may have target player draw a card.
@@ -3663,7 +3663,7 @@ Destroy target artifact or enchantment.
 If Dismantling Blow was kicked, draw two cards.
 
 Name:   Dismember
-Cost:   1(b/p)(b/p)
+Cost:   1(B/P)(B/P)
 Type:   Instant
 S/R:    NPH-U
 ({(b/p)} can be paid with either {B} or 2 life.)
@@ -4014,7 +4014,7 @@ S/R:    NE-R
 {1}{B}, {T}, Discard a card: Name a card. Exile the top six cards of your library. Reveal cards from the top of your library until you reveal the named card, then put that card into your hand. Exile all other cards revealed this way.
 
 Name:   Divinity of Pride
-Cost:   (w/b)(w/b)(w/b)(w/b)(w/b)
+Cost:   (W/B)(W/B)(W/B)(W/B)(W/B)
 Type:   Creature — Spirit Avatar
 P/T:    4/4
 S/R:    EVE-R, C13-R
@@ -4036,7 +4036,7 @@ Enchant creature you control
 {R}: Enchanted creature deals 1 damage to target creature with flying.
 
 Name:   Djinn Illuminatus
-Cost:   5(u/r)(u/r)
+Cost:   5(U/R)(U/R)
 Type:   Creature — Djinn
 P/T:    3/5
 S/R:    GPT-R
@@ -4150,7 +4150,7 @@ S/R:    C14-R
 Target player gains control of up to three target nonattacking creatures until end of turn. Untap those creatures. They block this turn if able.
 
 Name:   Dominus of Fealty
-Cost:   (u/r)(u/r)(u/r)(u/r)(u/r)
+Cost:   (U/R)(U/R)(U/R)(U/R)(U/R)
 Type:   Creature — Spirit Avatar
 P/T:    4/4
 S/R:    EVE-R, CMD-R
@@ -4160,7 +4160,7 @@ At the beginning of your upkeep, you may gain control of target permanent until 
 Name:   Domri Rade
 Cost:   1RG
 Type:   Planeswalker — Domri
-Cost:   3
+P/T:    3
 S/R:    GTC-M
 
 Name:   Donate
@@ -4204,7 +4204,7 @@ S/R:    ISD-C, CNS-C
 When Doomed Traveler dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
 
 Name:   Doomgape
-Cost:   4(b/g)(b/g)(b/g)
+Cost:   4(B/G)(B/G)(B/G)
 Type:   Creature — Elemental
 P/T:    10/10
 S/R:    EVE-R
@@ -4303,7 +4303,7 @@ You gain 6 life.
 Draw a card.
 
 Name:   Double Cleave
-Cost:   1(r/w)
+Cost:   1(R/W)
 Type:   Instant
 S/R:    EVE-C, HOP-C
 Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
@@ -4354,7 +4354,7 @@ S/R:    GPT-C, FRF-C
 Douse in Gloom deals 2 damage to target creature and you gain 2 life.
 
 Name:   Dovescape
-Cost:   3(w/u)(w/u)(w/u)
+Cost:   3(W/U)(W/U)(W/U)
 Type:   Enchantment
 S/R:    DIS-R
 ({(w/u)} can be paid with either {W} or {U}.)
@@ -4851,7 +4851,7 @@ S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R
 Target player activates a mana ability of each land he or she controls. Then put all mana from that player's mana pool into yours.
 
 Name:   Drain the Well
-Cost:   2(b/g)(b/g)
+Cost:   2(B/G)(B/G)
 Type:   Sorcery
 S/R:    EVE-C
 Destroy target land. You gain 2 life.
@@ -5146,7 +5146,7 @@ S/R:    ST-C, 9ED-U
 Dream Prowler can't be blocked as long as it's attacking alone.
 
 Name:   Dream Salvage
-Cost:   (u/b)
+Cost:   (U/B)
 Type:   Instant
 S/R:    SHM-U
 Draw cards equal to the number of cards target opponent discarded this turn.
@@ -5741,7 +5741,7 @@ S/R:    FUT-U
 (Dryad Arbor isn't a spell, it's affected by summoning sickness, and it has "{T}: Add {G} to your mana pool.")
 
 Name:   Dryad Militant
-Cost:   (g/w)
+Cost:   (G/W)
 Type:   Creature — Dryad Soldier
 P/T:    2/1
 S/R:    RTR-U
@@ -5812,7 +5812,7 @@ No more than one creature can attack each turn.
 No more than one creature can block each turn.
 
 Name:   Duergar Assailant
-Cost:   (r/w)
+Cost:   (R/W)
 Type:   Creature — Dwarf Soldier
 P/T:    1/1
 S/R:    EVE-C
@@ -5827,7 +5827,7 @@ Wither (This deals damage to creatures in the form of -1/-1 counters.)
 {(r/w)}: Duergar Cave-Guard gets +1/+0 until end of turn.
 
 Name:   Duergar Hedge-Mage
-Cost:   2(r/w)
+Cost:   2(R/W)
 Type:   Creature — Dwarf Shaman
 P/T:    2/2
 S/R:    EVE-U, CMD-U, HOP-U
@@ -5835,7 +5835,7 @@ When Duergar Hedge-Mage enters the battlefield, if you control two or more Mount
 When Duergar Hedge-Mage enters the battlefield, if you control two or more Plains, you may destroy target enchantment.
 
 Name:   Duergar Mine-Captain
-Cost:   2(r/w)
+Cost:   2(R/W)
 Type:   Creature — Dwarf Soldier
 P/T:    2/1
 S/R:    EVE-U

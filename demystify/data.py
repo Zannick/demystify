@@ -53,7 +53,9 @@ def _smart_split(cardlist):
         if x > i:
             c += [cardlist[i:x].strip()]
             i = x
-    c += [cardlist[i:].strip()]
+    rem = cardlist[i:].strip()
+    if rem.startswith('Name:'):
+        c += [rem]
     return c
 
 def load(files=None):
@@ -78,7 +80,7 @@ def load(files=None):
 ## Updater ##
 
 _cost = re.compile(r'^([0-9WUBRGX]|\([0-9WUBRGPS]/[0-9WUBRGPS]\))+$', re.I)
-_pt = re.compile(r'^[0-9*+-]+/[0-9*+-]+')
+_pt = re.compile(r'^[0-9*+-]+(/[0-9*+-]+)?$')
 _sr = re.compile(r'^[0-9A-Z, -]+$')
 _color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')
 _multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) ([^.]+).')
@@ -158,7 +160,7 @@ class BasicTextParser:
             if not self._current_card:
                 self._current_card.append('Name:   ' + s)
                 self._name = s
-            elif _cost.match(s):
+            elif not self._has_type and _cost.match(s):
                 self._current_card.append('Cost:   ' + s.upper())
             elif _pt.match(s):
                 self._current_card.append('P/T:    ' + s)

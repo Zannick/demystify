@@ -203,7 +203,7 @@ S/R:    TE-R
 {2}{W}: Prevent all combat damage that would be dealt by target creature this turn.
 
 Name:   Safehold Duo
-Cost:   3(g/w)
+Cost:   3(G/W)
 Type:   Creature — Elf Warrior Shaman
 P/T:    2/4
 S/R:    SHM-C
@@ -211,7 +211,7 @@ Whenever you cast a green spell, Safehold Duo gets +1/+1 until end of turn.
 Whenever you cast a white spell, Safehold Duo gains vigilance until end of turn.
 
 Name:   Safehold Elite
-Cost:   1(g/w)
+Cost:   1(G/W)
 Type:   Creature — Elf Scout
 P/T:    2/2
 S/R:    SHM-C
@@ -225,7 +225,7 @@ S/R:    SHM-C
 {2}{W}, {Q}: Safehold Sentry gets +0/+2 until end of turn. ({Q} is the untap symbol.)
 
 Name:   Safewright Quest
-Cost:   (g/w)
+Cost:   (G/W)
 Type:   Sorcery
 S/R:    SHM-C
 Search your library for a Forest or Plains card, reveal it, and put it into your hand. Then shuffle your library.
@@ -801,7 +801,7 @@ S/R:    DIS-C
 Whenever you cast a multicolored spell, you may return Sandstorm Eidolon from your graveyard to your hand.
 
 Name:   Sangrite Backlash
-Cost:   (b/g)R
+Cost:   (B/G)R
 Type:   Enchantment — Aura
 S/R:    ARB-C
 Enchant creature
@@ -870,7 +870,7 @@ S/R:    EVE-R
 Chroma — Reveal the top ten cards of your library. For each blue mana symbol in the mana costs of the revealed cards, target opponent puts the top card of his or her library into his or her graveyard. Then put the cards you revealed this way on the bottom of your library in any order.
 
 Name:   Sapling of Colfenor
-Cost:   3(b/g)(b/g)
+Cost:   3(B/G)(B/G)
 Type:   Legendary Creature — Treefolk Shaman
 P/T:    2/5
 S/R:    EVE-R
@@ -1025,19 +1025,19 @@ S/R:    FUT-C, HOP-C
 Name:   Sarkhan Unbroken
 Cost:   2GUR
 Type:   Planeswalker — Sarkhan
-Cost:   4
+P/T:    4
 S/R:    DTK-M
 
 Name:   Sarkhan Vol
 Cost:   2RG
 Type:   Planeswalker — Sarkhan
-Cost:   4
+P/T:    4
 S/R:    ALA-M
 
 Name:   Sarkhan the Mad
 Cost:   3BR
 Type:   Planeswalker — Sarkhan
-Cost:   7
+P/T:    7
 S/R:    ROE-M
 
 Name:   Sarkhan's Rage
@@ -1055,7 +1055,7 @@ Search your library for a Dragon creature card, reveal it, put it into your hand
 Name:   Sarkhan, the Dragonspeaker
 Cost:   3RR
 Type:   Planeswalker — Sarkhan
-Cost:   4
+P/T:    4
 S/R:    KTK-M
 
 Name:   Sarpadian Empires, Vol. VII
@@ -1483,7 +1483,7 @@ S/R:    MOR-R
 Sacrifice any number of lands. Search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle your library.
 
 Name:   Scar
-Cost:   (b/r)
+Cost:   (B/R)
 Type:   Instant
 S/R:    SHM-C
 Put a -1/-1 counter on target creature.
@@ -1559,7 +1559,7 @@ You may exile a white card from your hand rather than pay Scars of the Veteran's
 Prevent the next 7 damage that would be dealt to target creature or player this turn. At the beginning of the next end step, put a +0/+1 counter on that creature for each 1 damage prevented this way.
 
 Name:   Scarscale Ritual
-Cost:   1(u/b)
+Cost:   1(U/B)
 Type:   Sorcery
 S/R:    SHM-C
 As an additional cost to cast Scarscale Ritual, put a -1/-1 counter on a creature you control.
@@ -2001,7 +2001,7 @@ Whenever Scourge of Valkas or another Dragon enters the battlefield under your c
 {R}: Scourge of Valkas gets +1/+0 until end of turn.
 
 Name:   Scourge of the Nobilis
-Cost:   2(r/w)
+Cost:   2(R/W)
 Type:   Enchantment — Aura
 S/R:    EVE-C
 Enchant creature
@@ -2359,7 +2359,7 @@ Scuttling Doom Engine can't be blocked by creatures with power 2 or less.
 When Scuttling Doom Engine dies, it deals 6 damage to target opponent.
 
 Name:   Scuzzback Marauders
-Cost:   4(r/g)
+Cost:   4(R/G)
 Type:   Creature — Goblin Warrior
 P/T:    5/2
 S/R:    SHM-C
@@ -2367,7 +2367,7 @@ Trample
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 
 Name:   Scuzzback Scrapper
-Cost:   (r/g)
+Cost:   (R/G)
 Type:   Creature — Goblin Warrior
 P/T:    1/1
 S/R:    SHM-C
@@ -2912,7 +2912,7 @@ S/R:    LGN-R, 9ED-R, 10E-R
 Untap all permanents you control during each other player's untap step.
 
 Name:   Seedcradle Witch
-Cost:   (g/w)
+Cost:   (G/W)
 Type:   Creature — Elf Shaman
 P/T:    1/1
 S/R:    SHM-U
@@ -3212,7 +3212,7 @@ Selesnya Guildgate enters the battlefield tapped.
 {T}: Add {G} or {W} to your mana pool.
 
 Name:   Selesnya Guildmage
-Cost:   (g/w)(g/w)
+Cost:   (G/W)(G/W)
 Type:   Creature — Elf Wizard
 P/T:    2/2
 S/R:    RAV-U, CMD-U, C13-U, ARC-U
@@ -3282,7 +3282,7 @@ S/R:    ISD-C
 Whenever Selhoff Occultist or another creature dies, target player puts the top card of his or her library into his or her graveyard.
 
 Name:   Selkie Hedge-Mage
-Cost:   2(g/u)
+Cost:   2(G/U)
 Type:   Creature — Merfolk Wizard
 P/T:    2/2
 S/R:    EVE-U
@@ -3965,7 +3965,7 @@ S/R:    PROMO-S
 Choose target creature. If it's attacking, it can't be blocked this turn. If it's blocking, prevent all combat damage that would be dealt this combat by it and each creature it's blocking.
 
 Name:   Sewn-Eye Drake
-Cost:   2(u/r)B
+Cost:   2(U/R)B
 Type:   Creature — Zombie Drake
 P/T:    3/1
 S/R:    ARB-C
@@ -4053,7 +4053,7 @@ S/R:    TSP-C
 All Sliver creatures have shadow. (They can block or be blocked by only creatures with shadow.)
 
 Name:   Shadow of Doubt
-Cost:   (u/b)(u/b)
+Cost:   (U/B)(U/B)
 Type:   Instant
 S/R:    RAV-R
 ({(u/b)} can be paid with either {U} or {B}.)
@@ -4459,7 +4459,7 @@ S/R:    C13-M
 {2}{G}, Sacrifice an enchantment: Each other player sacrifices an enchantment.
 
 Name:   Shattering Blow
-Cost:   1(r/w)
+Cost:   1(R/W)
 Type:   Instant
 S/R:    GTC-C
 Exile target artifact.
@@ -4671,7 +4671,7 @@ If a source would deal damage to equipped creature, prevent X of that damage, wh
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
 Name:   Shield of the Oversoul
-Cost:   2(g/w)
+Cost:   2(G/W)
 Type:   Enchantment — Aura
 S/R:    SHM-C
 Enchant creature
@@ -4702,7 +4702,7 @@ Megamorph {5}{W}{W} (You may cast this card face down as a 2/2 creature for {3}.
 When Shieldhide Dragon is turned face up, put a +1/+1 counter on each other Dragon creature you control.
 
 Name:   Shielding Plax
-Cost:   2(g/u)
+Cost:   2(G/U)
 Type:   Enchantment — Aura
 S/R:    DIS-C
 ({(g/u)} can be paid with either {G} or {U}.)
@@ -5143,7 +5143,7 @@ S/R:    DTK-M
 Megamorph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)
 
 Name:   Shorecrasher Mimic
-Cost:   1(g/u)
+Cost:   1(G/U)
 Type:   Creature — Shapeshifter
 P/T:    2/1
 S/R:    EVE-C
@@ -5229,7 +5229,7 @@ S/R:    THS-C
 Shredding Winds deals 7 damage to target creature with flying.
 
 Name:   Shrewd Hatchling
-Cost:   3(u/r)
+Cost:   3(U/R)
 Type:   Creature — Elemental
 P/T:    6/6
 S/R:    EVE-U
@@ -5949,7 +5949,7 @@ S/R:    UL-C
 Target creature gets +1/+1 and gains reach until end of turn. (It can block creatures with flying.)
 
 Name:   Silkbind Faerie
-Cost:   2(w/u)
+Cost:   2(W/U)
 Type:   Creature — Faerie Rogue
 P/T:    1/3
 S/R:    SHM-C
@@ -6289,7 +6289,7 @@ Simic Guildgate enters the battlefield tapped.
 {T}: Add {G} or {U} to your mana pool.
 
 Name:   Simic Guildmage
-Cost:   (g/u)(g/u)
+Cost:   (G/U)(G/U)
 Type:   Creature — Elf Wizard
 P/T:    2/2
 S/R:    DIS-U
@@ -7523,7 +7523,7 @@ Equipped creature gets +0/+6.
 Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)
 
 Name:   Slash Panther
-Cost:   4(r/p)
+Cost:   4(R/P)
 Type:   Artifact Creature — Cat
 P/T:    4/2
 S/R:    NPH-C
@@ -7593,7 +7593,7 @@ S/R:    DIS-C
 Hellbent — When Slaughterhouse Bouncer dies, if you have no cards in hand, target creature gets -3/-3 until end of turn.
 
 Name:   Slave of Bolas
-Cost:   3(u/r)B
+Cost:   3(U/R)B
 Type:   Sorcery
 S/R:    ARB-U
 Gain control of target creature. Untap that creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.
@@ -7742,7 +7742,7 @@ Flying
 {2}, Sacrifice Slinking Skirge: Draw a card.
 
 Name:   Slippery Bogle
-Cost:   (g/u)
+Cost:   (G/U)
 Type:   Creature — Beast
 P/T:    1/1
 S/R:    EVE-C
@@ -7820,7 +7820,7 @@ Whenever Slith Strider becomes blocked, draw a card.
 Whenever Slith Strider deals combat damage to a player, put a +1/+1 counter on it.
 
 Name:   Slitherhead
-Cost:   (b/g)
+Cost:   (B/G)
 Type:   Creature — Plant Zombie
 P/T:    1/1
 S/R:    RTR-U
@@ -8145,7 +8145,7 @@ Tribute 3 (As this creature enters the battlefield, an opponent of your choice m
 When Snake of the Golden Grove enters the battlefield, if tribute wasn't paid, you gain 4 life.
 
 Name:   Snakeform
-Cost:   2(g/u)
+Cost:   2(G/U)
 Type:   Instant
 S/R:    EVE-C
 Until end of turn, target creature loses all abilities and becomes a green Snake with base power and toughness 1/1.
@@ -8669,7 +8669,7 @@ S/R:    AVR-C
 Whenever Somberwald Vigilante becomes blocked by a creature, Somberwald Vigilante deals 1 damage to that creature.
 
 Name:   Somnomancer
-Cost:   1(w/u)
+Cost:   1(W/U)
 Type:   Creature — Kithkin Wizard
 P/T:    2/1
 S/R:    SHM-C
@@ -8760,7 +8760,7 @@ S/R:    MM-U
 {X}: Look at the top X cards of your library, then put them back in any order.
 
 Name:   Sootstoke Kindler
-Cost:   1(b/r)
+Cost:   1(B/R)
 Type:   Creature — Elemental Shaman
 P/T:    1/1
 S/R:    SHM-C
@@ -8768,7 +8768,7 @@ Haste
 {T}: Target black or red creature gains haste until end of turn.
 
 Name:   Sootwalkers
-Cost:   2(b/r)(b/r)
+Cost:   2(B/R)(B/R)
 Type:   Creature — Elemental Rogue
 P/T:    3/3
 S/R:    SHM-C
@@ -8884,7 +8884,7 @@ Draw a card.
 Name:   Sorin Markov
 Cost:   3BBB
 Type:   Planeswalker — Sorin
-Cost:   4
+P/T:    4
 S/R:    ZEN-M, M12-M
 
 Name:   Sorin's Thirst
@@ -8902,13 +8902,13 @@ Sorin's Vengeance deals 10 damage to target player and you gain 10 life.
 Name:   Sorin, Lord of Innistrad
 Cost:   2WB
 Type:   Planeswalker — Sorin
-Cost:   3
+P/T:    3
 S/R:    DKA-M
 
 Name:   Sorin, Solemn Visitor
 Cost:   2WB
 Type:   Planeswalker — Sorin
-Cost:   4
+P/T:    4
 S/R:    KTK-M
 
 Name:   Sorrow's Path
@@ -9729,7 +9729,7 @@ Enchanted creature doesn't untap during its controller's untap step.
 When enchanted creature becomes the target of a spell, sacrifice Spectral Prison.
 
 Name:   Spectral Procession
-Cost:   (2/w)(2/w)(2/w)
+Cost:   (2/W)(2/W)(2/W)
 Type:   Sorcery
 S/R:    SHM-U, C14-U
 Put three 1/1 white Spirit creature tokens with flying onto the battlefield.
@@ -10396,7 +10396,7 @@ S/R:    ST-U, TSP-S
 Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.
 
 Name:   Spined Thopter
-Cost:   2(u/p)
+Cost:   2(U/P)
 Type:   Artifact Creature — Thopter
 P/T:    2/1
 S/R:    NPH-C
@@ -10721,7 +10721,7 @@ When Spitebellows leaves the battlefield, it deals 6 damage to target creature.
 Evoke {1}{R}{R} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
 
 Name:   Spiteflame Witch
-Cost:   1(b/r)
+Cost:   1(B/R)
 Type:   Creature — Elemental Shaman
 P/T:    2/1
 S/R:    SHM-U
@@ -10757,14 +10757,14 @@ Enchant creature
 Whenever enchanted creature is dealt damage, it deals that much damage to its controller.
 
 Name:   Spiteful Visions
-Cost:   2(b/r)(b/r)
+Cost:   2(B/R)(B/R)
 Type:   Enchantment
 S/R:    SHM-R, C13-R
 At the beginning of each player's draw step, that player draws an additional card.
 Whenever a player draws a card, Spiteful Visions deals 1 damage to that player.
 
 Name:   Spitemare
-Cost:   2(r/w)(r/w)
+Cost:   2(R/W)(R/W)
 Type:   Creature — Elemental
 P/T:    3/3
 S/R:    EVE-U
@@ -10809,7 +10809,7 @@ Spitting Hydra enters the battlefield with four +1/+1 counters on it.
 {1}{R}, Remove a +1/+1 counter from Spitting Hydra: Spitting Hydra deals 1 damage to target creature.
 
 Name:   Spitting Image
-Cost:   4(g/u)(g/u)
+Cost:   4(G/U)(G/U)
 Type:   Sorcery
 S/R:    EVE-R
 Put a token that's a copy of target creature onto the battlefield.
@@ -11428,7 +11428,7 @@ Convoke (Your creatures can help cast this spell. Each creature you tap while ca
 Name a nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.
 
 Name:   Stalker Hag
-Cost:   (b/g)(b/g)(b/g)
+Cost:   (B/G)(B/G)(B/G)
 Type:   Creature — Hag
 P/T:    3/2
 S/R:    EVE-U
@@ -11909,7 +11909,7 @@ S/R:    MRD-C
 Defender (This creature can't attack.)
 
 Name:   Steel of the Godhead
-Cost:   2(w/u)
+Cost:   2(W/U)
 Type:   Enchantment — Aura
 S/R:    SHM-C
 Enchant creature
@@ -12062,7 +12062,7 @@ S/R:    OD-U
 {G}{G}: Still Life becomes a 4/3 Centaur creature in addition to its other types until end of turn.
 
 Name:   Stillmoon Cavalier
-Cost:   1(w/b)(w/b)
+Cost:   1(W/B)(W/B)
 Type:   Creature — Zombie Knight
 P/T:    2/1
 S/R:    EVE-R
@@ -12864,7 +12864,7 @@ P/T:    1/3
 S/R:    P3K-C
 
 Name:   Stream Hopper
-Cost:   (u/r)
+Cost:   (U/R)
 Type:   Creature — Goblin
 P/T:    1/1
 S/R:    EVE-C
@@ -13263,7 +13263,7 @@ S/R:    MI-U, 6E-U, TSP-S
 Target opponent discards a card at random, then discards a card.
 
 Name:   Sturdy Hatchling
-Cost:   3(g/u)
+Cost:   3(G/U)
 Type:   Creature — Elemental
 P/T:    6/6
 S/R:    EVE-U
@@ -13737,7 +13737,7 @@ S/R:    SOK-U
 Destroy target artifact or land.
 
 Name:   Sundering Growth
-Cost:   (g/w)(g/w)
+Cost:   (G/W)(G/W)
 Type:   Instant
 S/R:    RTR-C
 Destroy target artifact or enchantment, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
@@ -14146,7 +14146,7 @@ S/R:    LRW-R
 Whenever Surgespanner becomes tapped, you may pay {1}{U}. If you do, return target permanent to its owner's hand.
 
 Name:   Surgical Extraction
-Cost:   (b/p)
+Cost:   (B/P)
 Type:   Instant
 S/R:    NPH-R
 ({(b/p)} can be paid with either {B} or 2 life.)
@@ -14389,7 +14389,7 @@ S/R:    THS-R
 Counter target enchantment, instant, or sorcery spell. Its controller puts a 2/2 blue Bird creature token with flying onto the battlefield.
 
 Name:   Swans of Bryn Argoll
-Cost:   2(w/u)(w/u)
+Cost:   2(W/U)(W/U)
 Type:   Creature — Bird Spirit
 P/T:    4/3
 S/R:    SHM-R
@@ -14668,7 +14668,7 @@ S/R:    C13-M
 {W}{B}: Target artifact creature gains deathtouch and lifelink until end of turn.
 
 Name:   Sygg, River Cutthroat
-Cost:   (u/b)(u/b)
+Cost:   (U/B)(U/B)
 Type:   Legendary Creature — Merfolk Rogue
 P/T:    1/3
 S/R:    SHM-R
