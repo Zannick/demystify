@@ -36,11 +36,7 @@ splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
 name_ref = re.compile(r'named |name is still |transforms into ')
-# We need to try the longer rarities first, so that eg. we don't get
-# 'Rare' when we want 'Mythic Rare'.
-rarities = sorted(['Common', 'Uncommon', 'Rare', 'Mythic Rare', 'Land',
-                   'Promo', 'Special', '"Timeshifted" Special'],
-                  key=len, reverse=True)
+rarities = {'C', 'U', 'R', 'M', 'L', 'S'}
 
 all_names = {}
 all_names_inv = {}
@@ -48,44 +44,6 @@ all_shortnames = {}
 cards_by_set = {}
 _all_cards = {}
 expect_multi = {}
-
-# Transform cards aren't linked in gatherer as flip and split cards are.
-# These are listed as front card (the one you'd play) -> back card.
-transforms = {
-    "Afflicted Deserter"        : "Werewolf Ransacker",
-    "Bloodline Keeper"          : "Lord of Lineage",
-    "Chalice of Life"           : "Chalice of Death",
-    "Chosen of Markov"          : "Markov's Servant",
-    "Civilized Scholar"         : "Homicidal Brute",
-    "Cloistered Youth"          : "Unholy Fiend",
-    "Daybreak Ranger"           : "Nightfall Predator",
-    "Delver of Secrets"         : "Insectile Aberration",
-    "Elbrus, the Binding Blade" : "Withengar Unbound",
-    "Garruk Relentless"         : "Garruk, the Veil-Cursed",
-    "Gatstaf Shepherd"          : "Gatstaf Howler",
-    "Grizzled Outcasts"         : "Krallenhorde Wantons",
-    "Hanweir Watchkeep"         : "Bane of Hanweir",
-    "Hinterland Hermit"         : "Hinterland Scourge",
-    "Huntmaster of the Fells"   : "Ravager of the Fells",
-    "Instigator Gang"           : "Wildblood Pack",
-    "Kruin Outlaw"              : "Terror of Kruin Pass",
-    "Lambholt Elder"            : "Silverpelt Werewolf",
-    "Loyal Cathar"              : "Unhallowed Cathar",
-    "Ludevic's Test Subject"    : "Ludevic's Abomination",
-    "Mayor of Avabruck"         : "Howlpack Alpha",
-    "Mondronen Shaman"          : "Tovolar's Magehunter",
-    "Ravenous Demon"            : "Archdemon of Greed",
-    "Reckless Waif"             : "Merciless Predator",
-    "Scorned Villager"          : "Moonscarred Werewolf",
-    "Screeching Bat"            : "Stalking Vampire",
-    "Soul Seizer"               : "Ghastly Haunting",
-    "Thraben Sentry"            : "Thraben Militia",
-    "Tormented Pariah"          : "Rampaging Werewolf",
-    "Ulvenwald Mystics"         : "Ulvenwald Primordials",
-    "Village Ironsmith"         : "Ironfang",
-    "Villagers of Estwald"      : "Howlpack of Estwald",
-    "Wolfbitten Captive"        : "Krallenhorde Killer",
-}
 
 # Handle any Legendary names we couldn't get with ", " or " the ", most of
 # which have two words only, eg. Arcades Sabboth, or "of the".
@@ -192,70 +150,44 @@ def make_shortname(name):
 
 class Card(object):
     """ Stores information about a Magic card, as given by Gatherer. """
-    def __init__(self, name, cost, typeline, color=None,
-                 pt=None, rules=None, set_rarity=None):
+    def __init__(self, name, typeline, cost=None, color=None,
+                 pt=None, rules=None, set_rarity=None,
+                 multitype=None, multicard=None):
         self.name = str(name)
-        self.cost = cost
         self.typeline = str(typeline.lower())
+        self.cost = cost
         self.color = color
         self.pt = pt
         self.rules = str(rules)
         self.sets = set()
         for s_r in set_rarity.split(', '):
-            for r in rarities:
-                if s_r.endswith(r):
-                    s = s_r[:-len(r) - 1]
-                    self.sets.add(s)
-                    break
-            else:
+            s, r = s_r.split('-', 1)
+            self.sets.add(s)
+            if r not in rarities:
                 logger.error("Unknown set_rarity entry for {}: {}"
                              .format(name, s_r))
         self.sets = sorted(self.sets)
-        # Check for split and flip cards
-        self.multicard = self.multitype = None
-        m = splitname.match(self.name)
-        if m:
-            first, second, self.name = m.groups()
-            self.multicard = (self.name == first) and second or first
-            self.multitype = "split"
-        else:
-            n = flipname.match(self.name)
-            if n:
-                self.multicard, self.name = n.groups()
-                self.multitype = "flip"
-            elif "----" in rules:
-                flines = rules[rules.index("----") + 4:].strip().split("\n")
-                if len(flines) < 3:
-                    logger.error("Expected flip card for {} but only {} lines"
-                                 " found.".format(name, len(flines)))
-                else:
-                    self.rules = rules[:rules.index("----")].strip()
-                    fname = flines.pop(0)
-                    ftype = flines.pop(0)
-                    fpt = flines.pop(0)
-                    # This adds the card to the _all_cards dict
-                    fcard = Card(fname, '', ftype, pt=fpt,
-                                 rules='\n'.join(flines),
-                                 set_rarity=set_rarity)
-                    self.multicard = fname
-                    fcard.multicard = self.name
-                    self.multitype = fcard.multitype = "flip"
-            elif self.name in transforms:
-                self.multicard = transforms[self.name]
-                self.multitype = "transform"
+        self.multitype = multitype
+        self.multicard = multicard
+        if (self.multitype and not self.multicard
+            or self.multicard and not self.multitype):
+            logger.error('Malformed multicard: {} is a {} card to {}.'
+                         .format(self.name, self.multitype, self.multicard))
+
         # The other card should have multicard and multitype set
-        if self.multicard:
-            if self.multicard in _all_cards:
-                _all_cards[self.multicard].multicard = self.name
-                _all_cards[self.multicard].multitype = self.multitype
-            else:
-                # We'll note that we have to set the multi values later
-                expect_multi[self.multicard] = self.name
-        elif self.name in expect_multi:
-            self.multicard = expect_multi[self.name]
-            self.multitype = _all_cards[self.multicard].multitype
-            del expect_multi[self.name]
-        
+        # We only need to do this once, so if the other card isn't defined yet,
+        # we can just wait for it to be created.
+        if self.multicard and self.multicard in _all_cards:
+            mc = _all_cards[self.multicard]
+            if mc.multitype != self.multitype:
+                logger.error('Multitype mismatch: {} ({}) vs {} ({})'
+                             .format(self.name, self.multitype,
+                                     mc.name, mc.multitype))
+            if mc.multicard != self.name:
+                logger.error('Multicard discrepancy: {} ({}) vs {} ({})'
+                             .format(self.name, self.multicard,
+                                     mc.name, mc.multicard))
+
         self.shortname = None
         if 'Legendary' in typeline:
             self.shortname = str(make_shortname(self.name))
@@ -278,7 +210,9 @@ class Card(object):
     @staticmethod
     def from_string(s):
         t = s.split('\n')
-        name = cost = typeline = color = pt = rules = set_rarity = ""
+        kwargs = {}
+        name = typeline = ""
+        rules = []
         # Gatherer is pretty inconsistent, especially wrt split and flip cards
         for l in t:
             if l.startswith("Name:"):
@@ -287,25 +221,26 @@ class Card(object):
                     logger.debug("Previously saw {}.".format(name))
                     return _all_cards[name]
             elif l.startswith("Cost:"):
-                cost = l[5:].strip()
+                kwargs['cost'] = l[5:].strip()
             elif l.startswith("Color:"):
-                color = l[6:].strip()
+                kwargs['color'] = l[6:].strip()
             elif l.startswith("Type:"):
                 typeline = l[5:].strip()
-            elif l.startswith("Pow/Tgh:"):
-                pt = l[8:].strip()
-            elif l.startswith("Loyalty:"):
-                pt = l[8:].strip()
-            elif l.startswith("Rules Text:"):
-                rules = l[11:].strip()
-            elif l.startswith("Set/Rarity:"):
-                set_rarity = l[11:].strip()
-            else:
-                if l.strip():
-                    rules += '\n' + l.strip()
+            elif l.startswith("P/T:"):
+                kwargs['pt'] = l[4:].strip()
+            elif l.startswith("S/R:"):
+                kwargs['set_rarity'] = l[4:].strip()
+            elif l.startswith("M-type:"):
+                kwargs['multitype'] = l[7:].strip()
+            elif l.startswith("M-card:"):
+                kwargs['multicard'] = l[7:].strip()
+            elif l.strip():
+                rules.append(l.strip())
         assert name is not None
+        assert typeline is not None
+        kwargs['rules'] = '\n'.join(rules)
         logger.debug("Loaded {}.".format(name))
-        return Card(name, cost, typeline, color, pt, rules, set_rarity)
+        return Card(name, typeline, **kwargs)
 
     def __eq__(self, c):
         return type(self) == type(c) and self.name == c.name
