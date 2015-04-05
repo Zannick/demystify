@@ -1027,18 +1027,27 @@ Cost:   2GUR
 Type:   Planeswalker — Sarkhan
 P/T:    4
 S/R:    DTK-M
+[+1]: Draw a card, then add one mana of any color to your mana pool.
+[-2]: Put a 4/4 red Dragon creature token with flying onto the battlefield.
+[-8]: Search your library for any number of Dragon creature cards and put them onto the battlefield. Then shuffle your library.
 
 Name:   Sarkhan Vol
 Cost:   2RG
 Type:   Planeswalker — Sarkhan
 P/T:    4
 S/R:    ALA-M
+[+1]: Creatures you control get +1/+1 and gain haste until end of turn.
+[-2]: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+[-6]: Put five 4/4 red Dragon creature tokens with flying onto the battlefield.
 
 Name:   Sarkhan the Mad
 Cost:   3BR
 Type:   Planeswalker — Sarkhan
 P/T:    7
 S/R:    ROE-M
+[0]: Reveal the top card of your library and put it into your hand. Sarkhan the Mad deals damage to himself equal to that card's converted mana cost.
+[-2]: Target creature's controller sacrifices it, then that player puts a 5/5 red Dragon creature token with flying onto the battlefield.
+[-4]: Each Dragon creature you control deals damage equal to its power to target player.
 
 Name:   Sarkhan's Rage
 Cost:   4R
@@ -1057,6 +1066,9 @@ Cost:   3RR
 Type:   Planeswalker — Sarkhan
 P/T:    4
 S/R:    KTK-M
+[+1]: Until end of turn, Sarkhan, the Dragonspeaker becomes a legendary 4/4 red Dragon creature with flying, indestructible, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
+[-3]: Sarkhan, the Dragonspeaker deals 4 damage to target creature.
+[-6]: You get an emblem with "At the beginning of your draw step, draw two additional cards" and "At the beginning of your end step, discard your hand."
 
 Name:   Sarpadian Empires, Vol. VII
 Cost:   3
@@ -8872,6 +8884,9 @@ Cost:   3BBB
 Type:   Planeswalker — Sorin
 P/T:    4
 S/R:    ZEN-M, M12-M
+[+2]: Sorin Markov deals 2 damage to target creature or player and you gain 2 life.
+[-3]: Target opponent's life total becomes 10.
+[-7]: You control target player during that player's next turn.
 
 Name:   Sorin's Thirst
 Cost:   BB
@@ -8890,12 +8905,18 @@ Cost:   2WB
 Type:   Planeswalker — Sorin
 P/T:    3
 S/R:    DKA-M
+[+1]: Put a 1/1 black Vampire creature token with lifelink onto the battlefield.
+[-2]: You get an emblem with "Creatures you control get +1/+0."
+[-6]: Destroy up to three target creatures and/or other planeswalkers. Return each card put into a graveyard this way to the battlefield under your control.
 
 Name:   Sorin, Solemn Visitor
 Cost:   2WB
 Type:   Planeswalker — Sorin
 P/T:    4
 S/R:    KTK-M
+[+1]: Until your next turn, creatures you control get +1/+0 and gain lifelink.
+[-2]: Put a 2/2 black Vampire creature token with flying onto the battlefield.
+[-6]: You get an emblem with "At the beginning of each opponent's upkeep, that player sacrifices a creature."
 
 Name:   Sorrow's Path
 Type:   Land

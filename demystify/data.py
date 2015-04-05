@@ -84,6 +84,7 @@ _pt = re.compile(r'^[0-9*+-]+(/[0-9*+-]+)?$')
 _sr = re.compile(r'^[0-9A-Z, -]+$')
 _color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')
 _multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) (.+).]$')
+_abil = re.compile(r'^\[[+-]?\d+\]')
 
 class BasicTextParser:
     """ A parser for the text Oracle wordings as provided by
@@ -152,7 +153,7 @@ class BasicTextParser:
                 self._current_card.append('P/T:    ' + s)
             elif _sr.match(s):
                 self._current_card.append('S/R:    ' + s)
-            elif s.startswith('['):
+            elif s.startswith('[') and not _abil.match(s):
                 # Color indicator and multicard metadata.
                 n = s.find(' color indicator')
                 if n > -1:

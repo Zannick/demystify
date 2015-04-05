@@ -1293,18 +1293,27 @@ Cost:   2WW
 Type:   Planeswalker — Ajani
 P/T:    4
 S/R:    LRW-R, M10-M, M11-M
+[+1]: You gain 2 life.
+[-1]: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.
+[-6]: Put a white Avatar creature token onto the battlefield. It has "This creature's power and toughness are each equal to your life total."
 
 Name:   Ajani Steadfast
 Cost:   3W
 Type:   Planeswalker — Ajani
 P/T:    4
 S/R:    M15-M
+[+1]: Until end of turn, up to one target creature gets +1/+1 and gains first strike, vigilance, and lifelink.
+[-2]: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.
+[-7]: You get an emblem with "If a source would deal damage to you or a planeswalker you control, prevent all but 1 of that damage."
 
 Name:   Ajani Vengeant
 Cost:   2RW
 Type:   Planeswalker — Ajani
 P/T:    3
 S/R:    ALA-M
+[+1]: Target permanent doesn't untap during its controller's next untap step.
+[-2]: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
+[-7]: Destroy all lands target player controls.
 
 Name:   Ajani's Chosen
 Cost:   2WW
@@ -1345,12 +1354,18 @@ Cost:   1WW
 Type:   Planeswalker — Ajani
 P/T:    4
 S/R:    M13-M, M14-M
+[+1]: Put a +1/+1 counter on up to one target creature.
+[-3]: Target creature gains flying and double strike until end of turn.
+[-8]: Put X 2/2 white Cat creature tokens onto the battlefield, where X is your life total.
 
 Name:   Ajani, Mentor of Heroes
 Cost:   3GW
 Type:   Planeswalker — Ajani
 P/T:    4
 S/R:    JOU-M
+[+1]: Distribute three +1/+1 counters among one, two, or three target creatures you control.
+[+1]: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+[-8]: You gain 100 life.
 
 Name:   Akki Avalanchers
 Cost:   R
@@ -4527,6 +4542,8 @@ Cost:   1UB
 Type:   Planeswalker — Ashiok
 P/T:    3
 S/R:    THS-M
+[+2]: Exile the top three cards of target opponent's library.
+[-10]: Exile all cards from all opponents' hands and graveyards.
 
 Name:   Ashling the Pilgrim
 Cost:   1R

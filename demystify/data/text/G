@@ -311,12 +311,17 @@ M-type: Transform
 M-card: Garruk, the Veil-Cursed
 S/R:    ISD-M
 When Garruk Relentless has two or fewer loyalty counters on him, transform him.
+[0]: Garruk Relentless deals 3 damage to target creature. That creature deals damage equal to its power to him.
+[0]: Put a 2/2 green Wolf creature token onto the battlefield.
 
 Name:   Garruk Wildspeaker
 Cost:   2GG
 Type:   Planeswalker — Garruk
 P/T:    3
 S/R:    LRW-R, M10-M, M11-M, CMD-M
+[+1]: Untap two target lands.
+[-1]: Put a 3/3 green Beast creature token onto the battlefield.
+[-4]: Creatures you control get +3/+3 and gain trample until end of turn.
 
 Name:   Garruk's Companion
 Cost:   GG
@@ -346,18 +351,28 @@ Cost:   5BG
 Type:   Planeswalker — Garruk
 P/T:    5
 S/R:    M15-M
+[+1]: Destroy another target planeswalker.
+[+1]: Put a 3/3 black Beast creature token with deathtouch onto the battlefield.
+[-3]: Destroy target creature. You gain life equal to its toughness.
+[-8]: Target opponent gets an emblem with "Whenever a creature attacks you, it gets +5/+5 and gains trample until end of turn."
 
 Name:   Garruk, Caller of Beasts
 Cost:   4GG
 Type:   Planeswalker — Garruk
 P/T:    4
 S/R:    M14-M
+[+1]: Reveal the top five cards of your library. Put all creature cards revealed this way into your hand and the rest on the bottom of your library in any order.
+[-3]: You may put a green creature card from your hand onto the battlefield.
+[-7]: You get an emblem with "Whenever you cast a creature spell, you may search your library for a creature card, put it onto the battlefield, then shuffle your library."
 
 Name:   Garruk, Primal Hunter
 Cost:   2GGG
 Type:   Planeswalker — Garruk
 P/T:    3
 S/R:    M12-M, M13-M
+[+1]: Put a 3/3 green Beast creature token onto the battlefield.
+[-3]: Draw cards equal to the greatest power among creatures you control.
+[-6]: Put a 6/6 green Wurm creature token onto the battlefield for each land you control.
 
 Name:   Garruk, the Veil-Cursed
 Type:   Planeswalker — Garruk
@@ -365,6 +380,9 @@ Color:  Black/Green
 M-type: Transform
 M-card: Garruk Relentless
 S/R:    ISD-M
+[+1]: Put a 1/1 black Wolf creature token with deathtouch onto the battlefield.
+[-1]: Sacrifice a creature. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle your library.
+[-3]: Creatures you control gain trample and get +X/+X until end of turn, where X is the number of creature cards in your graveyard.
 
 Name:   Garza Zol, Plague Queen
 Cost:   4UBR
@@ -1514,6 +1532,9 @@ Cost:   3WW
 Type:   Planeswalker — Gideon
 P/T:    6
 S/R:    ROE-M, M12-M
+[+2]: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.
+[-2]: Destroy target tapped creature.
+[0]: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
 
 Name:   Gideon's Avenger
 Cost:   1WW
@@ -1534,6 +1555,9 @@ Cost:   2WW
 Type:   Planeswalker — Gideon
 P/T:    4
 S/R:    GTC-M
+[+1]: Put a loyalty counter on Gideon, Champion of Justice for each creature target opponent controls.
+[0]: Until end of turn, Gideon, Champion of Justice becomes a Human Soldier creature with power and toughness each equal to the number of loyalty counters on him and gains indestructible. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+[-15]: Exile all other permanents.
 
 Name:   Gift of Estates
 Cost:   1W
