@@ -40,9 +40,12 @@ import test
 # What we don't handle:
 #   - physical interactions like dropping cards onto the table
 #   - ownership changes
+#   - subgames
+# These aren't in Vintage anyway...
 BANNED = [
     "Chaos Orb",
     "Falling Star",
+    "Shahrazad",
     "Tempest Efreet",
     "Timmerian Fiends",
 ]

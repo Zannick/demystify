@@ -171,10 +171,11 @@ class BasicTextParser:
                         if len(cards) != 2:
                             ulog.error('{}: Unrecognized split card {!r}'
                                        .format(self._name, c))
-                        else:
-                            self._current_card.append('M-card: ' + cards[1])
-                    else:
-                        self._current_card.append('M-card: ' + c)
+                        elif self._name not in cards:
+                            ulog.error('{}: Name not in split cardname {!r}'
+                                       .format(self._name, c))
+                        c = cards[1] if self._name == cards[0] else cards[0]
+                    self._current_card.append('M-card: ' + c)
             else:
                 s = s.replace('--', '—')
                 if not self._has_type:

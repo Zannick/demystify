@@ -294,7 +294,8 @@ class CardProgressBar(list):
 
 class CardProgressQueue(multiprocessing.queues.JoinableQueue):
     def __init__(self, cards):
-        super(CardProgressQueue, self).__init__(len(cards))
+        super(CardProgressQueue, self).__init__(
+                len(cards), ctx=multiprocessing.get_context())
         self._cw = CardWidget()
         widgets = [self._cw, ' ', progressbar.Bar(left='[', right=']'), ' ',
                    progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
@@ -700,7 +701,7 @@ def counter_types(cards=None):
     cwords = preceding_words('counter', cards=cards)
     # Disallow punctuation, common words, and words about countering spells.
     cwords = {w for w in cwords if w and w[-1] not in '—-,.:\'"'}
-    common = {'a', 'all', 'and', 'be', 'control', 'each', 'had', 'have',
-              'is', 'may', 'more', 'of', 'or', 'spell', 'that', 'those',
-              'was', 'with', 'would', 'x'}
+    common = {'a', 'all', 'and', 'be', 'control', 'each', 'five', 'had',
+              'have', 'is', 'may', 'more', 'of', 'or', 'spell', 'that',
+              'those', 'was', 'with', 'would', 'x'}
     return sorted(cwords - common)

@@ -2950,7 +2950,7 @@ Name:   Seek
 Cost:   WB
 Type:   Instant
 M-type: Split
-M-card: Seek
+M-card: Hide
 S/R:    DIS-R
 Search target opponent's library for a card and exile it. You gain life equal to its converted mana cost. Then that player shuffles his or her library.
 
@@ -3818,7 +3818,7 @@ Name:   Serve
 Cost:   1U
 Type:   Instant
 M-type: Split
-M-card: Serve
+M-card: Protect
 S/R:    DGM-U
 Target creature gets -6/-0 until end of turn.
 Fuse (You may cast one or both halves of this card from your hand.)
@@ -6336,7 +6336,7 @@ Name:   Simple
 Cost:   1GW
 Type:   Sorcery
 M-type: Split
-M-card: Simple
+M-card: Pure
 S/R:    DIS-U
 Destroy all Auras and Equipment.
 
@@ -13368,7 +13368,7 @@ Name:   Suffering
 Cost:   3R
 Type:   Sorcery
 M-type: Split
-M-card: Suffering
+M-card: Pain
 S/R:    IN-U
 Destroy target land.
 
