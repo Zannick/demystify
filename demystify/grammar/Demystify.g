@@ -195,3 +195,5 @@ PLUS_SYM : '+';
 MINUS_SYM : '-';
 STAR_SYM : '*';
 DIV_SYM : '/';
+LBRACKET : '[';
+RBRACKET : ']';

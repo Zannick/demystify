@@ -61,9 +61,9 @@ repeatable_cost_item_ : PAY! mana
 
 // Loyalty
 
-loyalty_cost : PLUS_SYM? ( NUMBER_SYM | VAR_SYM )
+loyalty_cost : LBRACKET PLUS_SYM? ( NUMBER_SYM | VAR_SYM ) RBRACKET
                -> ^( LOYALTY PLUS NUMBER_SYM? ^( VAR VAR_SYM )? )
-             | MINUS_SYM ( NUMBER_SYM | VAR_SYM )
+             | LBRACKET MINUS_SYM ( NUMBER_SYM | VAR_SYM ) RBRACKET
                -> ^( LOYALTY MINUS NUMBER_SYM? ^( VAR VAR_SYM )? );
 
 // Mana symbols and mana costs

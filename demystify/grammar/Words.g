@@ -39,6 +39,8 @@ tokens {
     ABSORB;
     ABSORBED;
     ABSORBING;
+    ACCEPT;
+    ACCEPTED;
     ACTIVATE;
     ACTIVATED;
     ACTIVATING;
@@ -74,6 +76,7 @@ tokens {
     APPLIED;
     APPLY;
     ARABIAN_NIGHTS;
+    ARB_CHOICE;
     ARTIFACT;
     AS;
     ASSEMBLE;
@@ -97,6 +100,7 @@ tokens {
     BANDED;
     BANDING;
     BANDS_WITH_OTHER;
+    BASE;
     BASIC;
     BATTLEFIELD;
     BATTLE_CRY;
@@ -126,6 +130,9 @@ tokens {
     BLUE;
     BOLAS;
     BOLASS_MEDITATION_REALM;
+    BOLSTER;
+    BOLSTERED;
+    BOOSTER_PACK;
     BOTH;
     BOTTOM;
     BROKEN;
@@ -194,9 +201,11 @@ tokens {
     CYCLED;
     CYCLING;
     DAMAGE;
+    DASH;
     DEAL;
     DEALING;
     DEALT;
+    DEATH;
     DEATHTOUCH;
     DECIDE;
     DECIDED;
@@ -215,6 +224,7 @@ tokens {
     DESTROYING;
     DETAIN;
     DETAINED;
+    DETHRONE;
     DEVOTION;
     DEVOUR;
     DEVOURED;
@@ -223,6 +233,7 @@ tokens {
     DIED;
     DIFFERENCE;
     DIFFERENT;
+    DIRECTION;
     DIRECTLY;
     DISCARD;
     DISCARDED;
@@ -241,6 +252,10 @@ tokens {
     DOUBLED;
     DOUBLE_STRIKE;
     DOWN;
+    DRAFT;
+    DRAFTED;
+    DRAFTING;
+    DRAGONS;
     DRAW;
     DRAWN;
     DREDGE;
@@ -291,6 +306,8 @@ tokens {
     EXILED;
     EXILING;
     EXPANSION;
+    EXPLOIT;
+    EXPLOITED;
     EXTORT;
     EXTORTED;
     EXTRA;
@@ -373,7 +390,9 @@ tokens {
     IF;
     IGNORE;
     IGNORED;
+    IMMEDIATELY;
     IN;
+    INCLUDING;
     INCREASE;
     INCREASED;
     INDESTRUCTIBLE;
@@ -388,6 +407,7 @@ tokens {
     ITEM;
     ITS;
     ITSELF;
+    JUST_BENEATH;
     KICK;
     KICKED;
     KICKER;
@@ -429,11 +449,14 @@ tokens {
     MAIN;
     MAKE;
     MANA;
+    MANIFEST;
+    MANIFESTED;
     MANY;
     MARKED;
     MAXIMUM;
     MAY;
     MEDITATION;
+    MEGAMORPH;
     MINE;
     MINIMUM;
     MINUS;
@@ -455,6 +478,7 @@ tokens {
     MUST;
     NAME;
     NAMED;
+    NEAREST;
     NEITHER;
     NEW;
     NEW_PHYREXIA;
@@ -474,6 +498,8 @@ tokens {
     OBJ_SUBTYPE;
     ODD;
     OF;
+    OFFER;
+    OFFERED;
     OFFERING;
     ON;
     ONCE;
@@ -491,6 +517,7 @@ tokens {
     OTHER;
     OTHERWISE;
     OUT;
+    OUTLAST;
     OUTSIDE;
     OVER;
     OVERLOAD;
@@ -504,10 +531,11 @@ tokens {
     PAIR;
     PAIRED;
     PART;
+    PASS;
+    PASSED;
     PAY;
     PAYING;
     PAYMENT;
-    PEACE;
     PERMANENT;
     PERSIST;
     PHASE;
@@ -545,6 +573,7 @@ tokens {
     PREVENTED;
     PREVIOUSLY;
     PRINTED;
+    PROCEEDING;
     PROCESS;
     PRODUCE;
     PRODUCED;
@@ -555,6 +584,7 @@ tokens {
     PROTECTION;
     PROVOKE;
     PROVOKED;
+    PROWESS;
     PROWL;
     PUT;
     PUTTING;
@@ -632,6 +662,7 @@ tokens {
     SEARCH;
     SEARCHED;
     SEARCHING;
+    SEATED;
     SECRETLY;
     SELECT;
     SELECTED;
@@ -758,11 +789,13 @@ tokens {
     UNLEASH;
     UNLEASHED;
     UNLESS;
+    UNOPENED;
     UNPAIRED;
     UNTAP;
     UNTAPPED;
     UNTAPPING;
     UNTIL;
+    UNUSED;
     UP;
     UPKEEP;
     USE;
@@ -772,8 +805,10 @@ tokens {
     VANGUARD;
     VANISHING;
     VIGILANCE;
+    VOTE;
+    VOTED;
+    VOTING;
     WALK;
-    WAR;
     WAS;
     WAY;
     WHEN;
@@ -814,11 +849,17 @@ PROLIFERATION : 'proliferation';
 REDISTRIBUTED : 'redistributed';
 SET_IN_MOTION : 'sets in motion'
               | 'set in motion';
-ABILITY_WORD : 'fateful hour'
+ABILITY_WORD : 'will of the council'
+             | 'tempting offer'
+             | 'constellation'
+             | 'fateful hour'
              | 'join forces'
+             | 'formidable'
+             | 'lieutenant'
              | 'metalcraft'
              | 'battalion'
              | 'bloodrush'
+             | 'ferocious'
              | 'threshold'
              | 'grandeur'
              | 'hellbent'
@@ -832,11 +873,16 @@ ABILITY_WORD : 'fateful hour'
              | 'domain'
              | 'heroic'
              | 'morbid'
-             | 'sweep';
+             | 'parley'
+             | 'strive'
+             | 'sweep'
+             | 'raid';
+BOOSTER_PACK : 'booster pack';
 CONTINUOUSLY : 'continuously';
 DISTRIBUTING : 'distributing';
 DISTRIBUTION : 'distribution';
 HORSEMANSHIP : 'horsemanship';
+JUST_BENEATH : 'just beneath';
 MULTICOLORED : 'multicolored';
 ORDINAL_WORD : 'fourth'
              | 'second'
@@ -863,6 +909,7 @@ DISTRIBUTED : 'distributed';
 ENCHANTMENT : 'enchantments'
             | 'enchantment';
 FATESEALING : 'fatesealing';
+IMMEDIATELY : 'immediately';
 LEGEND_RULE : 'legend rule';
 MONOCOLORED : 'monocolored';
 MONSTROSITY : 'monstrosity';
@@ -938,7 +985,6 @@ OBJ_COUNTER : 'manifestation'
             | 'arrow'
             | 'blaze'
             | 'blood'
-            | 'death'
             | 'delay'
             | 'dream'
             | 'flood'
@@ -977,6 +1023,7 @@ OBJ_COUNTER : 'manifestation'
             | 'age'
             | 'aim'
             | 'eon'
+            | 'gem'
             | 'ice'
             | 'net'
             | 'ore'
@@ -1058,6 +1105,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'elemental'
             | 'elephants'
             | 'equipment'
+            | 'freyalise'
             | 'gargoyles'
             | 'graveborn'
             | 'homunculi'
@@ -1173,9 +1221,9 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'clerics'
             | 'cowards'
             | 'cyclops'
+            | 'daretti'
             | 'dauthis'
             | 'deserts'
-            | 'dragons'
             | 'dwarves'
             | 'efreets'
             | 'eldrazi'
@@ -1209,6 +1257,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'mongers'
             | 'mutants'
             | 'mystics'
+            | 'nixilis'
             | 'noggles'
             | 'octopus'
             | 'oysters'
@@ -1299,6 +1348,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'kobold'
             | 'kraken'
             | 'kyneth'
+            | 'lamias'
             | 'licids'
             | 'lizard'
             | 'lorwyn'
@@ -1307,6 +1357,8 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'monger'
             | 'mutant'
             | 'mystic'
+            | 'nahiri'
+            | 'narset'
             | 'ninjas'
             | 'noggle'
             | 'nomads'
@@ -1341,6 +1393,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'squids'
             | 'swamps'
             | 'tamiyo'
+            | 'teferi'
             | 'thrull'
             | 'tibalt'
             | 'towers'
@@ -1399,13 +1452,16 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'hydra'
             | 'hyena'
             | 'kavus'
+            | 'kiora'
             | 'kirin'
             | 'lairs'
+            | 'lamia'
             | 'leech'
             | 'licid'
             | 'locus'
             | 'mines'
             | 'monks'
+            | 'nagas'
             | 'ninja'
             | 'nissa'
             | 'nomad'
@@ -1453,6 +1509,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'boar'
             | 'cats'
             | 'crab'
+            | 'dack'
             | 'elks'
             | 'eyes'
             | 'fish'
@@ -1473,6 +1530,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'moag'
             | 'monk'
             | 'myrs'
+            | 'naga'
             | 'ogre'
             | 'ooze'
             | 'orbs'
@@ -1485,6 +1543,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'sand'
             | 'serf'
             | 'slug'
+            | 'ugin'
             | 'vryn'
             | 'wall'
             | 'wolf'
@@ -1523,6 +1582,19 @@ ACTIVATING : 'activating';
 ACTIVATION : 'activations'
            | 'activation';
 ADDITIONAL : 'additional';
+ARB_CHOICE : 'condemnation'
+           | 'duplication'
+           | 'knowledge'
+           | 'psychosis'
+           | 'sickness'
+           | 'carnage'
+           | 'torture'
+           | 'denial'
+           | 'homage'
+           | 'grace'
+           | 'khans'
+           | 'peace'
+           | 'war';
 ASSIGNMENT : 'assignment';
 BATTLE_CRY : 'battle cry';
 CHAMPIONED : 'championed';
@@ -1543,6 +1615,7 @@ EXCHANGING : 'exchanging';
 FATESEALED : 'fatesealed';
 GRAVESTORM : 'gravestorm';
 INTIMIDATE : 'intimidate';
+MANIFESTED : 'manifested';
 MEDITATION : 'meditation';
 ORIGINALLY : 'originally';
 OVERLOADED : 'overloaded';
@@ -1555,6 +1628,7 @@ PLANESWALK : 'planeswalks'
 POPULATING : 'populating';
 POSTCOMBAT : 'postcombat';
 PREVIOUSLY : 'previously';
+PROCEEDING : 'proceeding';
 PROTECTION : 'protection';
 REGENERATE : 'regenerates'
            | 'regenerate';
@@ -1576,6 +1650,7 @@ ATTACHING : 'attaching';
 ATTACKERS : 'attackers';
 ATTACKING : 'attacking';
 BEGINNING : 'beginning';
+BOLSTERED : 'bolstered';
 COLORLESS : 'colorless';
 COMMANDER : 'commanders'
           | 'commander';
@@ -1588,11 +1663,13 @@ DECLARING : 'declaring';
 DEFENDING : 'defending';
 DESTROYED : 'destroyed';
 DIFFERENT : 'different';
+DIRECTION : 'direction';
 DISCARDED : 'discarded';
 ENCHANTED : 'enchanted';
 EQUIPPING : 'equipping';
 EXCHANGED : 'exchanged';
 EXPANSION : 'expansion';
+EXPLOITED : 'exploited';
 FACE_DOWN : 'face down'
           | 'face-down';
 FLASHBACK : 'flashback';
@@ -1600,8 +1677,10 @@ FORTIFIED : 'fortified';
 GRAVEYARD : 'graveyards'
           | 'graveyard';
 HOMELANDS : 'homelands';
+INCLUDING : 'including';
 INCREASED : 'increased';
 LEGENDARY : 'legendary';
+MEGAMORPH : 'megamorph';
 MONSTROUS : 'monstrous';
 OTHERWISE : 'otherwise';
 OWNERSHIP : 'ownership';
@@ -1648,6 +1727,7 @@ UNTAPPING : 'untapping';
 VANISHING : 'vanishing';
 VIGILANCE : 'vigilance';
 ABSORBED : 'absorbed';
+ACCEPTED : 'accepted';
 ACTIVATE : 'activates'
          | 'activate';
 ADDITION : 'addition';
@@ -1680,11 +1760,13 @@ DECISION : 'decision';
 DECLARED : 'declared';
 DEFENDER : 'defender';
 DETAINED : 'detained';
+DETHRONE : 'dethrone';
 DEVOTION : 'devotion';
 DEVOURED : 'devoured';
 DIRECTLY : 'directly';
 DIVIDING : 'dividing';
 DIVISION : 'division';
+DRAFTING : 'drafting';
 ENTERING : 'entering';
 EQUIPPED : 'equipped';
 EXCHANGE : 'exchanges'
@@ -1710,6 +1792,8 @@ INSTANCE : 'instances'
 LANDWALK : 'landwalk';
 LIFELINK : 'lifelink';
 LIKEWISE : 'likewise';
+MANIFEST : 'manifests'
+         | 'manifest';
 MULLIGAN : 'mulligan';
 NINJUTSU : 'ninjutsu';
 OFFERING : 'offering';
@@ -1752,6 +1836,7 @@ TEAMMATE : 'teammates'
 TRAMPLED : 'trampled';
 UNATTACH : 'unattaches'
          | 'unattach';
+UNOPENED : 'unopened';
 UNPAIRED : 'unpaired';
 UNTAPPED : 'untapped';
 VANGUARD : 'vanguards'
@@ -1769,6 +1854,8 @@ BANDING : 'banding';
 BETWEEN : 'between';
 BIDDING : 'bidding';
 BLOCKED : 'blocked';
+BOLSTER : 'bolsters'
+        | 'bolster';
 BUSHIDO : 'bushido';
 BUYBACK : 'buyback';
 CASCADE : 'cascade';
@@ -1797,6 +1884,8 @@ DISCARD : 'discards'
         | 'discard';
 DIVIDED : 'divided';
 DOUBLED : 'doubled';
+DRAFTED : 'drafted';
+DRAGONS : 'dragons';
 EMPTIED : 'emptied';
 ENCHANT : 'enchants'
         | 'enchant';
@@ -1807,6 +1896,8 @@ EVOLVED : 'evolved';
 EXACTLY : 'exactly';
 EXALTED : 'exalted';
 EXILING : 'exiling';
+EXPLOIT : 'exploits'
+        | 'exploit';
 FACE_UP : 'face up'
         | 'face-up';
 FLIPPED : 'flipped';
@@ -1832,10 +1923,13 @@ MAXIMUM : 'maximum';
 MINIMUM : 'minimum';
 MIRACLE : 'miracle';
 MODULAR : 'modular';
+NEAREST : 'nearest';
 NEITHER : 'neither';
+OFFERED : 'offered';
 ONGOING : 'ongoing';
 OPENING : 'opening';
 ORDERED : 'ordered';
+OUTLAST : 'outlast';
 OUTSIDE : 'outside';
 PAYMENT : 'payment';
 PERSIST : 'persist';
@@ -1849,6 +1943,7 @@ PRODUCE : 'produces'
         | 'produce';
 PROVOKE : 'provokes'
         | 'provoke';
+PROWESS : 'prowess';
 PUTTING : 'putting';
 RAMPAGE : 'rampage';
 REBOUND : 'rebound';
@@ -1902,6 +1997,8 @@ WINNING : 'winning';
 WITHOUT : 'without';
 ABSORB : 'absorbs'
        | 'absorb';
+ACCEPT : 'accepts'
+       | 'accept';
 ACTIVE : 'active';
 ADDING : 'adding';
 AFFECT : 'affects'
@@ -1999,6 +2096,7 @@ OBJECT : 'objects'
        | 'object';
 OWNING : 'owning';
 PAIRED : 'paired';
+PASSED : 'passed';
 PAYING : 'paying';
 PHASED : 'phased';
 PLACED : 'placed';
@@ -2028,6 +2126,7 @@ SCHEME : 'schemes'
 SCRIED : 'scried';
 SEARCH : 'searches'
        | 'search';
+SEATED : 'seated';
 SELECT : 'selects'
        | 'select';
 SHADOW : 'shadow';
@@ -2052,8 +2151,10 @@ TRIBAL : 'tribals'
        | 'tribal';
 TURNED : 'turned';
 UNLESS : 'unless';
+UNUSED : 'unused';
 UPKEEP : 'upkeeps'
        | 'upkeep';
+VOTING : 'voting';
 WITHER : 'wither';
 ABOVE : 'above';
 ADDED : 'added';
@@ -2087,8 +2188,11 @@ COUNT : 'counts'
 CYCLE : 'cycles'
       | 'cycle';
 DEALT : 'dealt';
+DEATH : 'death';
 DELVE : 'delve';
 DOING : 'doing';
+DRAFT : 'drafts'
+      | 'draft';
 DRAWN : 'drawn';
 EMPTY : 'empties'
       | 'empty';
@@ -2133,13 +2237,14 @@ MORPH : 'morph';
 MOVED : 'moved';
 NAMED : 'named';
 NOTED : 'noted';
+OFFER : 'offers'
+      | 'offer';
 ORDER : 'orders'
       | 'order';
 OTHER : 'other';
 OWNED : 'owned';
 OWNER : 'owners'
       | 'owner';
-PEACE : 'peace';
 PHASE : 'phases'
       | 'phase';
 PLACE : 'places'
@@ -2189,6 +2294,7 @@ UNTAP : 'untaps'
 UNTIL : 'until';
 USING : 'using';
 VALUE : 'value';
+VOTED : 'voted';
 WHERE : 'where';
 WHICH : 'whichever'
       | 'which';
@@ -2206,6 +2312,7 @@ AURA : 'aura';
 BACK : 'back';
 BAND : 'bands'
      | 'band';
+BASE : 'base';
 BEEN : 'been';
 BLUE : 'blue';
 BOTH : 'both';
@@ -2222,6 +2329,7 @@ COPY : 'copies'
      | 'copy';
 COST : 'costs'
      | 'cost';
+DASH : 'dash';
 DEAL : 'deals'
      | 'deal';
 DECK : 'decks'
@@ -2296,6 +2404,8 @@ PAID : 'paid';
 PAIR : 'pairs'
      | 'pair';
 PART : 'part';
+PASS : 'passes'
+     | 'pass';
 PILE : 'piles'
      | 'pile';
 PLAY : 'plays'
@@ -2339,6 +2449,8 @@ TURN : 'turns'
 TYPE : 'types'
      | 'type';
 USED : 'used';
+VOTE : 'votes'
+     | 'vote';
 WALK : 'walk';
 WHEN : 'whenever'
      | 'when';
@@ -2407,7 +2519,6 @@ TOP : 'tops'
     | 'top';
 USE : 'uses'
     | 'use';
-WAR : 'war';
 WAS : 'were'
     | 'was';
 WAY : 'way';

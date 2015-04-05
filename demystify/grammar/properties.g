@@ -158,6 +158,7 @@ with_keywords : WITH raw_keywords -> ^( KEYWORDS raw_keywords )
 prop_types : prop_type ( ( COMMA! ( prop_type COMMA! )+ )? conj^ prop_type )? ;
 
 prop_type : COLOR -> COLOR[]
+          | NAME -> NAME[]
           | type TYPE -> ^( SUBTYPE type )
           | CARD? TYPE -> TYPE[]
           | int_prop

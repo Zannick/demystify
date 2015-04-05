@@ -93,9 +93,11 @@ raw_keyword_no_args : DEATHTOUCH
                     | CONSPIRE
                     | CONVOKE
                     | DELVE
+                    | DETHRONE
                     | EPIC
                     | EVOLVE
                     | EXALTED
+                    | EXPLOIT
                     | EXTORT
                     | FEAR
                     | FLANKING
@@ -109,6 +111,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | PERSIST
                     | PHASING
                     | PROVOKE
+                    | PROWESS
                     | REBOUND
                     | RETRACE
                     | SHADOW
@@ -128,6 +131,7 @@ raw_keyword_cost : EQUIP
                  | BUYBACK
                  | CUMULATIVE_UPKEEP
                  | CYCLING
+                 | DASH
                  | ECHO
                  | ENTWINE
                  | EVOKE
@@ -135,10 +139,12 @@ raw_keyword_cost : EQUIP
                  | FORTIFY
                  | level_up
                  | MADNESS
+                 | MEGAMORPH
                  | MIRACLE
                  | MORPH
                  | MULTIKICKER
                  | NINJUTSU
+                 | OUTLAST
                  | OVERLOAD
                  | PROWL 
                  | RECOVER
@@ -181,11 +187,13 @@ raw_keyword_action : raw_keyword_action_no_args
                    | raw_keyword_action_int
                    ;
 
-raw_keyword_action_no_args : POPULATE
+raw_keyword_action_no_args : MANIFEST
+                           | POPULATE
                            | PROLIFERATE
                            ;
 
-raw_keyword_action_int : FATESEAL
+raw_keyword_action_int : BOLSTER
+                       | FATESEAL
                        | MONSTROSITY
                        | SCRY
                        ;

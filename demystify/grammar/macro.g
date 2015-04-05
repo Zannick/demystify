@@ -26,6 +26,11 @@ parser grammar macro;
 
 ability_word : ABILITY_WORD;
 
+arb_choice : ARB_CHOICE
+           | DEATH
+           | DRAGONS
+           | TIME;
+
 aura_swap : AURA SWAP -> AURA_SWAP;
 
 bands_with_other : BAND WITH OTHER -> BANDS_WITH_OTHER;
@@ -39,6 +44,7 @@ level_up : LEVEL UP -> LEVEL_UP;
 number_word : NUMBER_WORD;
 
 obj_counter : OBJ_COUNTER
+            | DEATH
             | DEVOTION
             | ECHO
             | FUNGUS
@@ -54,6 +60,7 @@ obj_counter : OBJ_COUNTER
 obj_subtype : OBJ_SUBTYPE
             | AURA
             | BOLAS
+            | DRAGONS
             | FUNGUS
             | MINE
             | PHYREXIA

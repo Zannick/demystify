@@ -65,7 +65,7 @@ full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
 // Restrictions are very similar to descriptors, but can reference properties.
 restriction : WITH! has_counters
             | WITH! int_prop_with_value
-            | THAT! share_feature
+            | share_feature
             | WITH! total_int_prop
             | other_than
             | except_for
@@ -113,7 +113,8 @@ expansion : ANTIQUITIES
 has_counters : counter_subset ON ref_object
                -> ^( HAS_COUNTERS counter_subset );
 
-share_feature : SHARE A prop_type -> ^( SHARE[] prop_type );
+share_feature : THAT SHARE A prop_type -> ^( SHARE[] prop_type )
+              | WITH THE SAME prop_type -> ^( SHARE[] prop_type );
 
 total_int_prop : TOTAL^ int_prop_with_value ;
 

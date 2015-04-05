@@ -20,10 +20,6 @@ lexer grammar Symbols;
 
 /* Symbols and punctuation */
 
-options {
-    language = Python;
-}
-
 // These four are the only things in rules text exempt from being lowercased.
 SELF : 'SELF';
 
@@ -39,9 +35,9 @@ BASIC_MANA_SYM : WUBRG_u;
 // elsewhere.
 
 MANA_SYM
-    : '{(' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '/' WUBRGP ')}'
+    : '{(' ( WUBRG | DIGIT_SYM ) '/' ( WUBRGP | SNOW_SYM ) ')}'
       { $text = $text[2:-2].upper() }
-    | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) ( '}' | '/' WUBRGP '}' )
+    | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '}'
       { $text = $text[1:-1].upper() };
 
 // Mana cost symbols are BASIC_MANA_SYM, NUMBER_SYM,
@@ -49,7 +45,7 @@ MANA_SYM
 // These use all caps mana symbols and should never be seen in text.
 
 MC_HYBRID_SYM
-    : '(' ( WUBRG_u | DIGIT_SYM | SNOW_u ) '/' ( WUBRGP_u | SNOW_u ) ')'
+    : '(' ( WUBRG_u | DIGIT_SYM ) '/' ( WUBRGP_u | SNOW_u ) ')'
       { $text = $text[1:-1] };
 
 MC_VAR_SYM : 'X'..'Z' ;
@@ -63,11 +59,17 @@ TAP_SYM : '{t}' { $text = 'T' };
 
 UNTAP_SYM : '{q}' { $text = 'Q' };
 
-NUMBER_SYM : DIGIT_SYM;
-
 VAR_SYM : 'x'..'z' { $text = $text.upper() };
 
+// Level up
+LEVEL_SYM : '{level ' ( NUMBER_SYM '-' NUMBER_SYM | NUMBER_SYM '+' ) '}'
+            { $text = $text[6:-1].strip() };
+
+NUMBER_SYM : DIGIT_SYM;
+
 MDASH : ( '\u2014' | '--' );
+
+BULLET : '\u2022';
 
 APOS_S : '\'s' ;
 

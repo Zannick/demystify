@@ -252,9 +252,11 @@ def parse_helper(cards, name, rulename, yesregex=None, noregex=None):
 # after an mdash, or after an opening quote for an ability.
 costregex = re.compile(r"""(?:^|— | "| ')([^."'()—]*?):""")
 
-# Skip lines that end in . or ", lines that are LEVEL \d,
-# lines that have fewer than 2 characters, and lines that are just p/t.
-keywordskipregex = re.compile(r'^.*[."]$|level \d|^.?$|\d+/\d+')
+# Skip lines that end in . or " or —, lines that are LEVEL dependent,
+# and lines that have fewer than 2 characters.
+keywordskipregex = re.compile(r'^.*[."—]$|{level |^.?$')
+
+levels = re.compile(r'^{level')
 
 # Triggers. Similar to costregex, these can occur at the start of an ability
 # or sentence.
@@ -262,7 +264,7 @@ triggerregex = re.compile(r"""(?:^|— | "| '|\. )when(?:ever)? ([^,]*),""")
 
 def parse_ability_costs(cards):
     """ Find all ability costs in the cards and attempt to parse them. """
-    parse_helper(cards, 'costs', 'cost', yesregex=costregex)
+    parse_helper(cards, 'costs', 'cost', yesregex=costregex, noregex=levels)
 
 def parse_keyword_lines(cards):
     """ Parse all lines in the cards that are lists of keywords. """
@@ -270,7 +272,8 @@ def parse_keyword_lines(cards):
 
 def parse_triggers(cards):
     """ Parse all trigger conditions in the cards. """
-    parse_helper(cards, 'triggers', 'triggers', yesregex=triggerregex)
+    parse_helper(cards, 'triggers', 'triggers', yesregex=triggerregex,
+                 noregex=levels)
 
 def preprocess(args):
     raw_cards = []

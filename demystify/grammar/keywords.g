@@ -111,6 +111,8 @@ keyword_quality : raw_keyword_quality^ keyword_arg_quality ;
 
 /* Argument rules. */
 
+// TODO: This could have VAR_SYM followed by the respective var_def,
+// eg. Thromok's "Devour X, where X is the number of creatures devoured".
 keyword_arg_int : NUMBER_SYM -> ^( INT NUMBER_SYM )
                 | VAR_SYM -> ^( INT ^( VAR VAR_SYM ) )
                 | MDASH SUNBURST -> ^( INT SUNBURST[] )
