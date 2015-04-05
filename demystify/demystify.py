@@ -142,11 +142,13 @@ def parse_all(cards):
     errors = 0
     for c in card.CardProgressBar(cards):
         for part, rule in parts.items():
-            p, parse_result = _parse(rule, getattr(c, part), c.name)
-            setattr(c, 'parsed_' + part, parse_result.tree)
-            if p.getNumberOfSyntaxErrors():
-                plog.debug('result: ' + parse_result.tree.toStringTree())
-                errors += 1
+            a = getattr(c, part)
+            if a:
+                p, parse_result = _parse(rule, a, c.name)
+                setattr(c, 'parsed_' + part, parse_result.tree)
+                if p.getNumberOfSyntaxErrors():
+                    plog.debug('result: ' + parse_result.tree.toStringTree())
+                    errors += 1
     print('{} total errors.'.format(errors))
 
 def _crawl_tree_for_errors(name, lineno, text, tree):
