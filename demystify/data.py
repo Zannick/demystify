@@ -187,6 +187,8 @@ class BasicTextParser:
                                        .format(self._name, c))
                         else:
                             self._current_card.append('M-card: ' + cards[1])
+                    else:
+                        self._current_card.append('M-card: ' + c)
             else:
                 s = s.replace('--', '—')
                 if not self._has_type:

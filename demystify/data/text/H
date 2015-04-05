@@ -418,6 +418,7 @@ Cost:   2R
 Type:   Creature — Human Warrior Werewolf
 P/T:    1/5
 M-type: Transform
+M-card: Bane of Hanweir
 S/R:    ISD-U
 Defender
 At the beginning of each upkeep, if no spells were cast last turn, transform Hanweir Watchkeep.
@@ -2220,6 +2221,7 @@ Cost:   1R
 Type:   Creature — Human Werewolf
 P/T:    2/1
 M-type: Transform
+M-card: Hinterland Scourge
 S/R:    DKA-C
 At the beginning of each upkeep, if no spells were cast last turn, transform Hinterland Hermit.
 
@@ -2228,6 +2230,7 @@ Type:   Creature — Werewolf
 P/T:    3/2
 Color:  Red
 M-type: Transform
+M-card: Hinterland Hermit
 S/R:    DKA-C
 Hinterland Scourge must be blocked if able.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Hinterland Scourge.
@@ -2251,6 +2254,7 @@ Cost:   1BB
 Type:   Creature — Human Warrior
 P/T:    2/2
 M-type: Flip
+M-card: Scarmaker
 S/R:    BOK-U
 Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Hired Muscle.
 At the beginning of the end step, if there are two or more ki counters on Hired Muscle, you may flip it.
@@ -2573,6 +2577,7 @@ Type:   Creature — Human Mutant
 P/T:    5/1
 Color:  Red
 M-type: Transform
+M-card: Civilized Scholar
 S/R:    ISD-U
 At the beginning of your end step, if Homicidal Brute didn't attack this turn, tap Homicidal Brute, then transform it.
 
@@ -2600,6 +2605,7 @@ Name:   Homura's Essence
 Cost:   4RR
 Type:   Legendary Enchantment
 M-type: Flip
+M-card: Homura, Human Ascendant
 S/R:    SOK-R
 Creatures you control get +2/+2 and have flying and "{R}: This creature gets +1/+0 until end of turn."
 
@@ -2608,6 +2614,7 @@ Cost:   4RR
 Type:   Legendary Creature — Human Monk
 P/T:    4/4
 M-type: Flip
+M-card: Homura's Essence
 S/R:    SOK-R
 Homura, Human Ascendant can't block.
 When Homura dies, return it to the battlefield flipped.
@@ -3182,6 +3189,7 @@ Type:   Creature — Werewolf
 P/T:    3/3
 Color:  Green
 M-type: Transform
+M-card: Mayor of Avabruck
 S/R:    ISD-R
 Each other creature you control that's a Werewolf or a Wolf gets +1/+1.
 At the beginning of your end step, put a 2/2 green Wolf creature token onto the battlefield.
@@ -3192,6 +3200,7 @@ Type:   Creature — Werewolf
 P/T:    4/6
 Color:  Green
 M-type: Transform
+M-card: Villagers of Estwald
 S/R:    ISD-C
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Howlpack of Estwald.
 
@@ -3544,6 +3553,7 @@ Cost:   2RG
 Type:   Creature — Human Werewolf
 P/T:    2/2
 M-type: Transform
+M-card: Ravager of the Fells
 S/R:    DKA-M
 Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, put a 2/2 green Wolf creature token onto the battlefield and you gain 2 life.
 At the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells.

@@ -404,6 +404,7 @@ Cost:   1UU
 Type:   Creature — Human Wizard
 P/T:    2/2
 M-type: Flip
+M-card: Jaraku the Interloper
 S/R:    BOK-U
 Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Callow Jushi.
 At the beginning of the end step, if there are two or more ki counters on Callow Jushi, you may flip it.
@@ -1956,6 +1957,7 @@ If a player would draw a card except the first one he or she draws in his or her
 Name:   Chalice of Death
 Type:   Artifact
 M-type: Transform
+M-card: Chalice of Life
 S/R:    DKA-U
 {T}: Target player loses 5 life.
 
@@ -1963,6 +1965,7 @@ Name:   Chalice of Life
 Cost:   3
 Type:   Artifact
 M-type: Transform
+M-card: Chalice of Death
 S/R:    DKA-U
 {T}: You gain 1 life. Then if you have at least 10 life more than your starting life total, transform Chalice of Life.
 
@@ -2853,6 +2856,7 @@ Cost:   2B
 Type:   Creature — Human
 P/T:    2/2
 M-type: Transform
+M-card: Markov's Servant
 S/R:    DKA-C
 {T}, Tap an untapped Vampire you control: Transform Chosen of Markov.
 
@@ -3308,6 +3312,7 @@ Cost:   2U
 Type:   Creature — Human Advisor
 P/T:    0/1
 M-type: Transform
+M-card: Homicidal Brute
 S/R:    ISD-U
 {T}: Draw a card, then discard a card. If a creature card is discarded this way, untap Civilized Scholar, then transform it.
 
@@ -3672,6 +3677,7 @@ Cost:   1W
 Type:   Creature — Human
 P/T:    1/1
 M-type: Transform
+M-card: Unholy Fiend
 S/R:    ISD-U
 At the beginning of your upkeep, you may transform Cloistered Youth.
 
@@ -6867,6 +6873,7 @@ Cost:   1RR
 Type:   Creature — Human Warrior
 P/T:    2/2
 M-type: Flip
+M-card: Azamuki, Treachery Incarnate
 S/R:    BOK-U
 Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Cunning Bandit.
 At the beginning of the end step, if there are two or more ki counters on Cunning Bandit, you may flip it.
