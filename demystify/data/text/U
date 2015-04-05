@@ -1,654 +1,668 @@
 Name:   Uba Mask
 Cost:   4
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     If a player would draw a card, that player exiles that card face up instead.
+S/R:    CHK-R
+If a player would draw a card, that player exiles that card face up instead.
 Each player may play cards he or she exiled with Uba Mask this turn.
-Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Ubul Sar Gatekeepers
 Cost:   3B
 Type:   Creature — Zombie Soldier
-Pow/Tgh:    (2/4)
-Rules Text:     When Ubul Sar Gatekeepers enters the battlefield, if you control two or more Gates, target creature an opponent controls gets -2/-2 until end of turn.
-Set/Rarity:     Dragon's Maze Common
+P/T:    2/4
+S/R:    DGM-C
+When Ubul Sar Gatekeepers enters the battlefield, if you control two or more Gates, target creature an opponent controls gets -2/-2 until end of turn.
+
+Name:   Ugin's Construct
+Cost:   4
+Type:   Artifact Creature — Construct
+P/T:    4/5
+S/R:    FRF-U
+When Ugin's Construct enters the battlefield, sacrifice a permanent that's one or more colors.
+
+Name:   Ugin's Nexus
+Cost:   5
+Type:   Legendary Artifact
+S/R:    KTK-M
+If a player would begin an extra turn, that player skips that turn instead.
+If Ugin's Nexus would be put into a graveyard from the battlefield, instead exile it and take an extra turn after this one.
+
+Name:   Ugin, the Spirit Dragon
+Cost:   8
+Type:   Planeswalker — Ugin
+Cost:   7
+S/R:    FRF-M
 
 Name:   Uktabi Drake
 Cost:   G
 Type:   Creature — Drake
-Pow/Tgh:    (2/1)
-Rules Text:     Flying, haste
+P/T:    2/1
+S/R:    PLC-C
+Flying, haste
 Echo {1}{G}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-Set/Rarity:     Planar Chaos Common
 
 Name:   Uktabi Efreet
 Cost:   2GG
 Type:   Creature — Efreet
-Pow/Tgh:    (5/4)
-Rules Text:     Cumulative upkeep {G} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
-Set/Rarity:     Weatherlight Common
+P/T:    5/4
+S/R:    WL-C
+Cumulative upkeep {G} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 
 Name:   Uktabi Faerie
 Cost:   1G
 Type:   Creature — Faerie
-Pow/Tgh:    (1/1)
-Rules Text:     Flying
+P/T:    1/1
+S/R:    MI-C
+Flying
 {3}{G}, Sacrifice Uktabi Faerie: Destroy target artifact.
-Set/Rarity:     Mirage Common
 
 Name:   Uktabi Orangutan
 Cost:   2G
 Type:   Creature — Ape
-Pow/Tgh:    (2/2)
-Rules Text:     When Uktabi Orangutan enters the battlefield, destroy target artifact.
-Set/Rarity:     Classic Sixth Edition Uncommon, Visions Uncommon
+P/T:    2/2
+S/R:    VI-U, 6E-U
+When Uktabi Orangutan enters the battlefield, destroy target artifact.
 
 Name:   Uktabi Wildcats
 Cost:   4G
 Type:   Creature — Cat
-Pow/Tgh:    (*/*)
-Rules Text:     Uktabi Wildcats's power and toughness are each equal to the number of Forests you control.
+P/T:    */*
+S/R:    MI-R, 6E-R, 7E-R
+Uktabi Wildcats's power and toughness are each equal to the number of Forests you control.
 {G}, Sacrifice a Forest: Regenerate Uktabi Wildcats.
-Set/Rarity:     Seventh Edition Rare, Classic Sixth Edition Rare, Mirage Rare
+
+Name:   Ukud Cobra
+Cost:   3B
+Type:   Creature — Snake
+P/T:    2/5
+S/R:    DTK-U
+Deathtouch
 
 Name:   Ulamog's Crusher
 Cost:   8
 Type:   Creature — Eldrazi
-Pow/Tgh:    (8/8)
-Rules Text:     Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
+P/T:    8/8
+S/R:    ROE-C
+Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
 Ulamog's Crusher attacks each turn if able.
-Set/Rarity:     Rise of the Eldrazi Common
 
 Name:   Ulamog, the Infinite Gyre
 Cost:   11
 Type:   Legendary Creature — Eldrazi
-Pow/Tgh:    (10/10)
-Rules Text:     When you cast Ulamog, the Infinite Gyre, destroy target permanent.
+P/T:    10/10
+S/R:    ROE-M
+When you cast Ulamog, the Infinite Gyre, destroy target permanent.
 Indestructible
 Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
 When Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.
-Set/Rarity:     From the Vault: Legends Mythic Rare, Rise of the Eldrazi Mythic Rare
 
 Name:   Ulasht, the Hate Seed
 Cost:   2RG
 Type:   Legendary Creature — Hellion Hydra
-Pow/Tgh:    (0/0)
-Rules Text:     Ulasht, the Hate Seed enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.
-{1}, Remove a +1/+1 counter from Ulasht: Choose one — Ulasht deals 1 damage to target creature; or put a 1/1 green Saproling creature token onto the battlefield.
-Set/Rarity:     Guildpact Rare
+P/T:    0/0
+S/R:    GPT-R
+Ulasht, the Hate Seed enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.
+{1}, Remove a +1/+1 counter from Ulasht: Choose one —
+• Ulasht deals 1 damage to target creature.
+• Put a 1/1 green Saproling creature token onto the battlefield.
+
+Name:   Ulcerate
+Cost:   B
+Type:   Instant
+S/R:    M15-U
+Target creature gets -3/-3 until end of turn. You lose 3 life.
 
 Name:   Ultimate Price
 Cost:   1B
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Destroy target monocolored creature.
-Set/Rarity:     Return to Ravnica Uncommon
+S/R:    RTR-U, DTK-U
+Destroy target monocolored creature.
 
 Name:   Ulvenwald Bear
 Cost:   2G
 Type:   Creature — Bear
-Pow/Tgh:    (2/2)
-Rules Text:     Morbid — When Ulvenwald Bear enters the battlefield, if a creature died this turn, put two +1/+1 counters on target creature.
-Set/Rarity:     Dark Ascension Common
+P/T:    2/2
+S/R:    DKA-C
+Morbid — When Ulvenwald Bear enters the battlefield, if a creature died this turn, put two +1/+1 counters on target creature.
 
 Name:   Ulvenwald Mystics
 Cost:   2GG
 Type:   Creature — Human Shaman Werewolf
-Pow/Tgh:    (3/3)
-Rules Text:     At the beginning of each upkeep, if no spells were cast last turn, transform Ulvenwald Mystics.
-Set/Rarity:     Innistrad Uncommon
+P/T:    3/3
+M-type: Transform
+S/R:    ISD-U
+At the beginning of each upkeep, if no spells were cast last turn, transform Ulvenwald Mystics.
 
 Name:   Ulvenwald Primordials
-Cost:   
-Color:  Green
 Type:   Creature — Werewolf
-Pow/Tgh:    (5/5)
-Rules Text:     {G}: Regenerate Ulvenwald Primordials.
+P/T:    5/5
+Color:  Green
+M-type: Transform
+S/R:    ISD-U
+{G}: Regenerate Ulvenwald Primordials.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ulvenwald Primordials.
-Set/Rarity:     Innistrad Uncommon
 
 Name:   Ulvenwald Tracker
 Cost:   G
 Type:   Creature — Human Shaman
-Pow/Tgh:    (1/1)
-Rules Text:     {1}{G}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
-Set/Rarity:     Avacyn Restored Rare
+P/T:    1/1
+S/R:    AVR-R
+{1}{G}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
 
 Name:   Umara Raptor
 Cost:   2U
 Type:   Creature — Bird Ally
-Pow/Tgh:    (1/1)
-Rules Text:     Flying
+P/T:    1/1
+S/R:    ZEN-C
+Flying
 Whenever Umara Raptor or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Umara Raptor.
-Set/Rarity:     Zendikar Common
 
 Name:   Umbilicus
 Cost:   4
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life.
-Set/Rarity:     Urza's Saga Rare
+S/R:    US-R
+At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life.
 
 Name:   Umbra Mystic
 Cost:   2W
 Type:   Creature — Human Wizard
-Pow/Tgh:    (2/2)
-Rules Text:     Auras attached to permanents you control have totem armor. (If an enchanted permanent you control would be destroyed, instead remove all damage from it and destroy an Aura attached to it.)
-Set/Rarity:     Rise of the Eldrazi Rare
+P/T:    2/2
+S/R:    ROE-R
+Auras attached to permanents you control have totem armor. (If an enchanted permanent you control would be destroyed, instead remove all damage from it and destroy an Aura attached to it.)
 
 Name:   Umbra Stalker
 Cost:   4BBB
 Type:   Creature — Elemental
-Pow/Tgh:    (*/*)
-Rules Text:     Chroma — Umbra Stalker's power and toughness are each equal to the number of black mana symbols in the mana costs of cards in your graveyard.
-Set/Rarity:     Eventide Rare
+P/T:    */*
+S/R:    EVE-R
+Chroma — Umbra Stalker's power and toughness are each equal to the number of black mana symbols in the mana costs of cards in your graveyard.
 
 Name:   Umbral Mantle
 Cost:   3
 Type:   Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     Equipped creature has "{3}, {Q}: This creature gets +2/+2 until end of turn." ({Q} is the untap symbol.)
+S/R:    SHM-U
+Equipped creature has "{3}, {Q}: This creature gets +2/+2 until end of turn." ({Q} is the untap symbol.)
 Equip {0}
-Set/Rarity:     Shadowmoor Uncommon
 
 Name:   Umezawa's Jitte
 Cost:   2
 Type:   Legendary Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.
-Remove a charge counter from Umezawa's Jitte: Choose one —  Equipped creature gets +2/+2 until end of turn; or target creature gets -1/-1 until end of turn; or you gain 2 life.
+S/R:    BOK-R
+Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.
+Remove a charge counter from Umezawa's Jitte: Choose one —
+• Equipped creature gets +2/+2 until end of turn.
+• Target creature gets -1/-1 until end of turn.
+• You gain 2 life.
 Equip {2}
-Set/Rarity:     Betrayers of Kamigawa Rare
 
 Name:   Unbender Tine
 Cost:   2WU
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Untap another target permanent.
-Set/Rarity:     Archenemy Uncommon, Alara Reborn Uncommon
+S/R:    ARB-U, ARC-U
+{T}: Untap another target permanent.
 
 Name:   Unblinking Bleb
 Cost:   3U
 Type:   Creature — Illusion
-Pow/Tgh:    (1/3)
-Rules Text:     Morph {2}{U} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-Whenever Unblinking Bleb or another permanent is turned face up, you may scry 2. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
-Set/Rarity:     Future Sight Common
+P/T:    1/3
+S/R:    FUT-C
+Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+Whenever Unblinking Bleb or another permanent is turned face up, you may scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
 
 Name:   Unbreathing Horde
 Cost:   2B
 Type:   Creature — Zombie
-Pow/Tgh:    (0/0)
-Rules Text:     Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.
+P/T:    0/0
+S/R:    ISD-R
+Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.
 If Unbreathing Horde would be dealt damage, prevent that damage and remove a +1/+1 counter from it.
-Set/Rarity:     Innistrad Rare
 
 Name:   Unburden
 Cost:   1BB
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Target player discards two cards.
+S/R:    SCG-C
+Target player discards two cards.
 Cycling {2} ({2}, Discard this card: Draw a card.)
-Set/Rarity:     Scourge Common
 
 Name:   Unburial Rites
 Cost:   4B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return target creature card from your graveyard to the battlefield.
+S/R:    ISD-U
+Return target creature card from your graveyard to the battlefield.
 Flashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-Set/Rarity:     Innistrad Uncommon
 
 Name:   Uncanny Speed
 Cost:   1R
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature gets +3/+0 and gains haste until end of turn.
-Set/Rarity:     Avacyn Restored Common
+S/R:    AVR-C
+Target creature gets +3/+0 and gains haste until end of turn.
 
 Name:   Unchecked Growth
 Cost:   2G
 Type:   Instant — Arcane
-Pow/Tgh:    
-Rules Text:     Target creature gets +4/+4 until end of turn. If it's a Spirit, it gains trample until end of turn.
-Set/Rarity:     Betrayers of Kamigawa Uncommon
+S/R:    BOK-U
+Target creature gets +4/+4 until end of turn. If it's a Spirit, it gains trample until end of turn.
 
 Name:   Uncle Istvan
 Cost:   1BBB
 Type:   Creature — Human
-Pow/Tgh:    (1/3)
-Rules Text:     Prevent all damage that would be dealt to Uncle Istvan by creatures.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Fourth Edition Uncommon, The Dark Uncommon
+P/T:    1/3
+S/R:    DK-U, 4E-U, TSP-S
+Prevent all damage that would be dealt to Uncle Istvan by creatures.
 
 Name:   Uncontrollable Anger
 Cost:   2RR
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
-Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)
+S/R:    CHK-C, 10E-C, CNS-U
+Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
 Enchanted creature gets +2/+2 and attacks each turn if able.
-Set/Rarity:     Tenth Edition Common, Champions of Kamigawa Common
 
 Name:   Uncontrolled Infestation
 Cost:   1R
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant nonbasic land
+S/R:    SCG-C
+Enchant nonbasic land
 When enchanted land becomes tapped, destroy it.
-Set/Rarity:     Scourge Common
 
 Name:   Uncovered Clues
 Cost:   2U
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Look at the top four cards of your library. You may reveal up to two instant and/or sorcery cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.
-Set/Rarity:     Dragon's Maze Common
+S/R:    DGM-C
+Look at the top four cards of your library. You may reveal up to two instant and/or sorcery cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.
 
 Name:   Undead Alchemist
 Cost:   3U
 Type:   Creature — Zombie
-Pow/Tgh:    (4/2)
-Rules Text:     If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of his or her library into his or her graveyard.
+P/T:    4/2
+S/R:    ISD-R
+If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of his or her library into his or her graveyard.
 Whenever a creature card is put into an opponent's graveyard from his or her library, exile that card and put a 2/2 black Zombie creature token onto the battlefield.
-Set/Rarity:     Innistrad Rare
 
 Name:   Undead Executioner
 Cost:   3B
 Type:   Creature — Zombie
-Pow/Tgh:    (2/2)
-Rules Text:     When Undead Executioner dies, you may have target creature get -2/-2 until end of turn.
-Set/Rarity:     Avacyn Restored Common
+P/T:    2/2
+S/R:    AVR-C
+When Undead Executioner dies, you may have target creature get -2/-2 until end of turn.
 
 Name:   Undead Gladiator
 Cost:   1BB
 Type:   Creature — Zombie Barbarian
-Pow/Tgh:    (3/1)
-Rules Text:     {1}{B}, Discard a card: Return Undead Gladiator from your graveyard to your hand. Activate this ability only during your upkeep.
+P/T:    3/1
+S/R:    ONS-R
+{1}{B}, Discard a card: Return Undead Gladiator from your graveyard to your hand. Activate this ability only during your upkeep.
 Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)
-Set/Rarity:     Onslaught Rare
 
 Name:   Undead Leotau
 Cost:   5B
 Type:   Creature — Zombie Cat
-Pow/Tgh:    (3/4)
-Rules Text:     {R}: Undead Leotau gets +1/-1 until end of turn.
+P/T:    3/4
+S/R:    ALA-C
+{R}: Undead Leotau gets +1/-1 until end of turn.
 Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
-Set/Rarity:     Shards of Alara Common
 
 Name:   Undead Minotaur
 Cost:   2B
 Type:   Creature — Zombie Minotaur
-Pow/Tgh:    (2/3)
-Rules Text:     
-Set/Rarity:     Magic 2014 Core Set Common
+P/T:    2/3
+S/R:    M14-C
 
 Name:   Undead Slayer
 Cost:   2W
 Type:   Creature — Human Cleric
-Pow/Tgh:    (2/2)
-Rules Text:     {W}, {T}: Exile target Skeleton, Vampire, or Zombie.
-Set/Rarity:     Magic 2010 Uncommon
+P/T:    2/2
+S/R:    M10-U
+{W}, {T}: Exile target Skeleton, Vampire, or Zombie.
 
 Name:   Undead Warchief
 Cost:   2BB
 Type:   Creature — Zombie
-Pow/Tgh:    (1/1)
-Rules Text:     Zombie spells you cast cost {1} less to cast.
+P/T:    1/1
+S/R:    SCG-U, TSP-S, HOP-U
+Zombie spells you cast cost {1} less to cast.
 Zombie creatures you control get +2/+1.
-Set/Rarity:     Planechase Uncommon, Time Spiral "Timeshifted" Special, Scourge Uncommon
 
 Name:   Undercity Informer
 Cost:   2B
 Type:   Creature — Human Rogue
-Pow/Tgh:    (2/3)
-Rules Text:     {1}, Sacrifice a creature: Target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
-Set/Rarity:     Gatecrash Uncommon
+P/T:    2/3
+S/R:    GTC-U
+{1}, Sacrifice a creature: Target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
 
 Name:   Undercity Plague
 Cost:   4BB
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Target player loses 1 life, discards a card, then sacrifices a permanent.
+S/R:    GTC-R
+Target player loses 1 life, discards a card, then sacrifices a permanent.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
-Set/Rarity:     Gatecrash Rare
 
 Name:   Undercity Shade
 Cost:   4B
 Type:   Creature — Shade
-Pow/Tgh:    (1/1)
-Rules Text:     Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
+P/T:    1/1
+S/R:    RAV-U
+Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 {B}: Undercity Shade gets +1/+1 until end of turn.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
 
 Name:   Underground River
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool.
+S/R:    IA-R, 5E-R, 6E-R, 7E-R, 9ED-R, 10E-R
+{T}: Add {1} to your mana pool.
 {T}: Add {U} or {B} to your mana pool. Underground River deals 1 damage to you.
-Set/Rarity:     Tenth Edition Rare, Ninth Edition Rare, Seventh Edition Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Ice Age Rare
 
 Name:   Underground Sea
-Cost:   
 Type:   Land — Island Swamp
-Pow/Tgh:    
-Rules Text:     
-Set/Rarity:     Masters Edition IV Rare, Masters Edition II Rare, Revised Edition Rare, Unlimited Edition Rare, Limited Edition Beta Rare, Limited Edition Alpha Rare
+S/R:    A-R, B-R, U-R, RV-R
+({T}: Add {U} or {B} to your mana pool.)
 
 Name:   Undergrowth
 Cost:   G
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     As an additional cost to cast Undergrowth, you may pay {2}{R}.
+S/R:    AI-C
+As an additional cost to cast Undergrowth, you may pay {2}{R}.
 Prevent all combat damage that would be dealt this turn. If its additional cost was paid, Undergrowth doesn't affect combat damage that would be dealt by red creatures.
-Set/Rarity:     Alliances Common, Alliances Common
+
+Name:   Undergrowth Scavenger
+Cost:   3G
+Type:   Creature — Fungus Horror
+P/T:    0/0
+S/R:    M15-C
+Undergrowth Scavenger enters the battlefield with a number of +1/+1 counters on it equal to the number of creature cards in all graveyards.
 
 Name:   Undermine
 Cost:   UUB
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target spell. Its controller loses 3 life.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Rare, Invasion Rare
+S/R:    IN-R
+Counter target spell. Its controller loses 3 life.
 
 Name:   Undertaker
 Cost:   1B
 Type:   Creature — Human Spellshaper
-Pow/Tgh:    (1/1)
-Rules Text:     {B}, {T}, Discard a card: Return target creature card from your graveyard to your hand.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Mercadian Masques Common
+P/T:    1/1
+S/R:    MM-C, TSP-S
+{B}, {T}, Discard a card: Return target creature card from your graveyard to your hand.
 
 Name:   Undertow
 Cost:   2U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Creatures with islandwalk can be blocked as though they didn't have islandwalk.
-Set/Rarity:     Legends Uncommon
+S/R:    LE-U
+Creatures with islandwalk can be blocked as though they didn't have islandwalk.
 
 Name:   Underworld Cerberus
 Cost:   3BR
 Type:   Creature — Hound
-Pow/Tgh:    (6/6)
-Rules Text:     Underworld Cerberus can't be blocked except by three or more creatures.
+P/T:    6/6
+S/R:    THS-M
+Underworld Cerberus can't be blocked except by three or more creatures.
 Cards in graveyards can't be the targets of spells or abilities.
 When Underworld Cerberus dies, exile it and each player returns all creature cards from his or her graveyard to his or her hand.
-Set/Rarity:     Theros Mythic Rare
+
+Name:   Underworld Coinsmith
+Cost:   WB
+Type:   Enchantment Creature — Human Cleric
+P/T:    2/2
+S/R:    JOU-U
+Constellation — Whenever Underworld Coinsmith or another enchantment enters the battlefield under your control, you gain 1 life.
+{W}{B}, Pay 1 life: Each opponent loses 1 life.
 
 Name:   Underworld Connections
 Cost:   1BB
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant land
+S/R:    RTR-R
+Enchant land
 Enchanted land has "{T}, Pay 1 life: Draw a card."
-Set/Rarity:     Return to Ravnica Rare
 
 Name:   Underworld Dreams
 Cost:   BBB
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever an opponent draws a card, Underworld Dreams deals 1 damage to him or her.
-Set/Rarity:     Magic 2010 Rare, Tenth Edition Rare, Ninth Edition Rare, Eighth Edition Rare, Legends Uncommon
+S/R:    LE-U, 8ED-R, 9ED-R, 10E-R, M10-R
+Whenever an opponent draws a card, Underworld Dreams deals 1 damage to him or her.
 
 Name:   Undiscovered Paradise
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Add one mana of any color to your mana pool. During your next untap step, as you untap your permanents, return Undiscovered Paradise to its owner's hand.
-Set/Rarity:     Visions Rare
+S/R:    VI-R
+{T}: Add one mana of any color to your mana pool. During your next untap step, as you untap your permanents, return Undiscovered Paradise to its owner's hand.
 
 Name:   Undo
 Cost:   1UU
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return two target creatures to their owners' hands.
-Set/Rarity:     Starter 1999 Uncommon, Portal Second Age Uncommon, Visions Common
+S/R:    VI-C, P2-U, S99-U
+Return two target creatures to their owners' hands.
 
 Name:   Undying Beast
 Cost:   3B
 Type:   Creature — Beast
-Pow/Tgh:    (3/2)
-Rules Text:     When Undying Beast dies, put it on top of its owner's library.
-Set/Rarity:     Portal Common
+P/T:    3/2
+S/R:    P1-C
+When Undying Beast dies, put it on top of its owner's library.
 
 Name:   Undying Evil
 Cost:   B
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature gains undying until end of turn. (When it dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
-Set/Rarity:     Dark Ascension Common
+S/R:    DKA-C
+Target creature gains undying until end of turn. (When it dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 
 Name:   Undying Flames
 Cost:   4RR
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to target creature or player equal to that card's converted mana cost.
+S/R:    SOK-R
+Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to target creature or player equal to that card's converted mana cost.
 Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)
-Set/Rarity:     Saviors of Kamigawa Rare
 
 Name:   Undying Rage
 Cost:   2R
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    TSP-U
+Enchant creature
 Enchanted creature gets +2/+2 and can't block.
 When Undying Rage is put into a graveyard from the battlefield, return Undying Rage to its owner's hand.
-Set/Rarity:     Duel Decks: Heroes vs. Monsters Uncommon, Time Spiral Uncommon
 
 Name:   Unearth
 Cost:   B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
+S/R:    UL-C
+Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
 Cycling {2} ({2}, Discard this card: Draw a card.)
-Set/Rarity:     Urza's Legacy Common
 
 Name:   Unearthly Blizzard
 Cost:   2R
 Type:   Sorcery — Arcane
-Pow/Tgh:    
-Rules Text:     Up to three target creatures can't block this turn.
-Set/Rarity:     Champions of Kamigawa Common
+S/R:    CHK-C
+Up to three target creatures can't block this turn.
 
 Name:   Unerring Sling
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {3}, {T}, Tap an untapped creature you control: Unerring Sling deals damage equal to the tapped creature's power to target attacking or blocking creature with flying.
-Set/Rarity:     Mirage Uncommon
+S/R:    MI-U
+{3}, {T}, Tap an untapped creature you control: Unerring Sling deals damage equal to the tapped creature's power to target attacking or blocking creature with flying.
 
 Name:   Unexpected Results
 Cost:   2GU
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Shuffle your library, then reveal the top card. If it's a nonland card, you may cast it without paying its mana cost. If it's a land card, you may put it onto the battlefield and return Unexpected Results to its owner's hand.
-Set/Rarity:     Gatecrash Rare
+S/R:    GTC-R
+Shuffle your library, then reveal the top card. If it's a nonland card, you may cast it without paying its mana cost. If it's a land card, you may put it onto the battlefield and return Unexpected Results to its owner's hand.
+
+Name:   Unexpectedly Absent
+Cost:   XWW
+Type:   Instant
+S/R:    C13-R
+Put target nonland permanent into its owner's library just beneath the top X cards of that library.
 
 Name:   Unflinching Courage
 Cost:   1GW
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    DGM-U
+Enchant creature
 Enchanted creature gets +2/+2 and has trample and lifelink.
-Set/Rarity:     Dragon's Maze Uncommon
 
 Name:   Unforge
 Cost:   2R
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Destroy target Equipment. If that Equipment was attached to a creature, Unforge deals 2 damage to that creature.
-Set/Rarity:     Darksteel Common
+S/R:    DST-C
+Destroy target Equipment. If that Equipment was attached to a creature, Unforge deals 2 damage to that creature.
 
 Name:   Unfulfilled Desires
 Cost:   1UB
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     {1}, Pay 1 life: Draw a card, then discard a card.
-Set/Rarity:     Mirage Rare
+S/R:    MI-R
+{1}, Pay 1 life: Draw a card, then discard a card.
 
 Name:   Unhallowed Cathar
-Cost:   
-Color:  Black
 Type:   Creature — Zombie Soldier
-Pow/Tgh:    (2/1)
-Rules Text:     Unhallowed Cathar can't block.
-Set/Rarity:     Dark Ascension Common
+P/T:    2/1
+Color:  Black
+M-type: Transform
+S/R:    DKA-C
+Unhallowed Cathar can't block.
 
 Name:   Unhallowed Pact
 Cost:   2B
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    AVR-C, CNS-C
+Enchant creature
 When enchanted creature dies, return that card to the battlefield under your control.
-Set/Rarity:     Avacyn Restored Common
 
 Name:   Unhinge
 Cost:   2B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Target player discards a card.
+S/R:    TOR-C
+Target player discards a card.
 Draw a card.
-Set/Rarity:     Torment Common
 
 Name:   Unholy Citadel
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     Black legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
-Set/Rarity:     Legends Uncommon
+S/R:    LE-U
+Black legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 
 Name:   Unholy Fiend
-Cost:   
-Color:  Black
 Type:   Creature — Horror
-Pow/Tgh:    (3/3)
-Rules Text:     At the beginning of your end step, you lose 1 life.
-Set/Rarity:     Innistrad Uncommon
+P/T:    3/3
+Color:  Black
+M-type: Transform
+S/R:    ISD-U
+At the beginning of your end step, you lose 1 life.
 
 Name:   Unholy Grotto
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool.
+S/R:    ONS-R
+{T}: Add {1} to your mana pool.
 {B}, {T}: Put target Zombie card from your graveyard on top of your library.
-Set/Rarity:     Onslaught Rare
 
 Name:   Unholy Strength
 Cost:   B
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 7E-C, 8ED-C, 9ED-C, 10E-C, M10-C, M11-C
+Enchant creature
 Enchanted creature gets +2/+1.
-Set/Rarity:     Magic 2011 Common, Magic 2010 Common, Duel Decks: Divine vs. Demonic Common, Tenth Edition Common, Ninth Edition Common, Eighth Edition Common, Seventh Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
 
 Name:   Unified Strike
 Cost:   W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Exile target attacking creature if its power is less than or equal to the number of Soldiers on the battlefield.
-Set/Rarity:     Onslaught Common
+S/R:    ONS-C
+Exile target attacking creature if its power is less than or equal to the number of Soldiers on the battlefield.
 
 Name:   Unified Will
 Cost:   1U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target spell if you control more creatures than that spell's controller.
-Set/Rarity:     Rise of the Eldrazi Uncommon
+S/R:    ROE-U
+Counter target spell if you control more creatures than that spell's controller.
 
 Name:   Unifying Theory
 Cost:   1U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a player casts a spell, that player may pay {2}. If the player does, he or she draws a card.
-Set/Rarity:     Odyssey Rare
+S/R:    OD-R
+Whenever a player casts a spell, that player may pay {2}. If the player does, he or she draws a card.
 
 Name:   Unknown Shores
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool.
+S/R:    THS-C
+{T}: Add {1} to your mana pool.
 {1}, {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Theros Common
 
 Name:   Unlikely Alliance
 Cost:   1W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     {1}{W}: Target nonattacking, nonblocking creature gets +0/+2 until end of turn.
-Set/Rarity:     Alliances Uncommon
+S/R:    AI-U
+{1}{W}: Target nonattacking, nonblocking creature gets +0/+2 until end of turn.
 
 Name:   Unliving Psychopath
 Cost:   2BB
 Type:   Creature — Zombie Assassin
-Pow/Tgh:    (0/4)
-Rules Text:     {B}: Unliving Psychopath gets +1/-1 until end of turn.
+P/T:    0/4
+S/R:    DIS-R
+{B}: Unliving Psychopath gets +1/-1 until end of turn.
 {B}, {T}: Destroy target creature with power less than Unliving Psychopath's power.
-Set/Rarity:     Dissension Rare
 
 Name:   Unmake
-Cost:   (W/B)(W/B)(W/B)
+Cost:   (w/b)(w/b)(w/b)
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Exile target creature.
-Set/Rarity:     Duel Decks: Sorin vs. Tibalt Common, Archenemy Common, Eventide Common
+S/R:    EVE-C, ARC-C
+Exile target creature.
+
+Name:   Unmake the Graves
+Cost:   4B
+Type:   Instant
+S/R:    M15-C
+Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Return up to two target creature cards from your graveyard to your hand.
 
 Name:   Unmask
 Cost:   3B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     You may exile a black card from your hand rather than pay Unmask's mana cost.
+S/R:    MM-R
+You may exile a black card from your hand rather than pay Unmask's mana cost.
 Target player reveals his or her hand. You choose a nonland card from it. That player discards that card.
-Set/Rarity:     Mercadian Masques Rare
 
 Name:   Unnatural Hunger
 Cost:   3BB
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    MM-R
+Enchant creature
 At the beginning of the upkeep of enchanted creature's controller, Unnatural Hunger deals damage to that player equal to that creature's power unless he or she sacrifices another creature.
-Set/Rarity:     Mercadian Masques Rare
 
 Name:   Unnatural Predation
 Cost:   G
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature gets +1/+1 and gains trample until end of turn.
-Set/Rarity:     Mirrodin Besieged Common
+S/R:    MBS-C
+Target creature gets +1/+1 and gains trample until end of turn.
 
 Name:   Unnatural Selection
 Cost:   1U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     {1}: Choose a creature type other than Wall. Target creature becomes that type until end of turn.
-Set/Rarity:     Apocalypse Rare
+S/R:    AP-R
+{1}: Choose a creature type other than Wall. Target creature becomes that type until end of turn.
 
 Name:   Unnatural Speed
 Cost:   R
 Type:   Instant — Arcane
-Pow/Tgh:    
-Rules Text:     Target creature gains haste until end of turn.
-Set/Rarity:     Champions of Kamigawa Common
+S/R:    CHK-C
+Target creature gains haste until end of turn.
 
 Name:   Unnerve
 Cost:   3B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Each opponent discards two cards.
-Set/Rarity:     Magic: The Gathering-Commander Common, Battle Royale Box Set Common, Urza's Saga Common
+S/R:    US-C, CMD-C
+Each opponent discards two cards.
 
 Name:   Unnerving Assault
-Cost:   2(U/R)
+Cost:   2(u/r)
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Creatures your opponents control get -1/-0 until end of turn if {U} was spent to cast Unnerving Assault, and creatures you control get +1/+0 until end of turn if {R} was spent to cast it. (Do both if {U}{R} was spent.)
-Set/Rarity:     Eventide Uncommon
+S/R:    EVE-U
+Creatures your opponents control get -1/-0 until end of turn if {U} was spent to cast Unnerving Assault, and creatures you control get +1/+0 until end of turn if {R} was spent to cast it. (Do both if {U}{R} was spent.)
 
 Name:   Unquestioned Authority
 Cost:   2W
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    JUD-U, CNS-U
+Enchant creature
 When Unquestioned Authority enters the battlefield, draw a card.
 Enchanted creature has protection from creatures.
-Set/Rarity:     Judgment Uncommon
+
+Name:   Unravel the AEther
+Cost:   1G
+Type:   Instant
+S/R:    BNG-U
+Choose target artifact or enchantment. Its owner shuffles it into his or her library.
 
 Name:   Unravel the Æther
 Cost:   1G
@@ -660,567 +674,539 @@ Set/Rarity:     Born of the Gods Uncommon
 Name:   Unruly Mob
 Cost:   1W
 Type:   Creature — Human
-Pow/Tgh:    (1/1)
-Rules Text:     Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
-Set/Rarity:     Innistrad Common
+P/T:    1/1
+S/R:    ISD-C
+Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.
 
 Name:   Unscythe, Killer of Kings
 Cost:   UBBR
 Type:   Legendary Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     Equipped creature gets +3/+3 and has first strike.
+S/R:    ARB-R
+Equipped creature gets +3/+3 and has first strike.
 Whenever a creature dealt damage by equipped creature this turn dies, you may exile that card. If you do, put a 2/2 black Zombie creature token onto the battlefield.
 Equip {2}
-Set/Rarity:     Alara Reborn Rare
 
 Name:   Unseen Walker
 Cost:   1G
 Type:   Creature — Dryad
-Pow/Tgh:    (1/1)
-Rules Text:     Forestwalk
-
+P/T:    1/1
+S/R:    MI-U, 6E-U
+Forestwalk
 {1}{G}{G}: Target creature gains forestwalk until end of turn.
-Set/Rarity:     Classic Sixth Edition Uncommon, Mirage Uncommon
 
 Name:   Unspeakable Symbol
 Cost:   1BB
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Pay 3 life: Put a +1/+1 counter on target creature.
-Set/Rarity:     Scourge Uncommon
+S/R:    SCG-U
+Pay 3 life: Put a +1/+1 counter on target creature.
 
 Name:   Unstable Footing
 Cost:   R
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)
+S/R:    ZEN-U
+Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)
 Damage can't be prevented this turn. If Unstable Footing was kicked, it deals 5 damage to target player.
-Set/Rarity:     Zendikar Uncommon
 
 Name:   Unstable Frontier
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool.
+S/R:    CON-U
+{T}: Add {1} to your mana pool.
 {T}: Target land you control becomes the basic land type of your choice until end of turn.
-Set/Rarity:     Conflux Uncommon
 
 Name:   Unstable Hulk
 Cost:   1RR
 Type:   Creature — Goblin Mutant
-Pow/Tgh:    (2/2)
-Rules Text:     Morph {3}{R}{R} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
+P/T:    2/2
+S/R:    LGN-R
+Morph {3}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Unstable Hulk is turned face up, it gets +6/+6 and gains trample until end of turn. You skip your next turn.
-Set/Rarity:     Legions Rare
 
 Name:   Unstable Mutation
 Cost:   U
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    AN-C, RV-C, 4E-C, 5E-C, TSP-S
+Enchant creature
 Enchanted creature gets +3/+3.
 At the beginning of the upkeep of enchanted creature's controller, put a -1/-1 counter on that creature.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Arabian Nights Common
+
+Name:   Unstable Obelisk
+Cost:   3
+Type:   Artifact
+S/R:    C14-U
+{T}: Add {1} to your mana pool.
+{7}, {T}, Sacrifice Unstable Obelisk: Destroy target permanent.
 
 Name:   Unstable Shapeshifter
 Cost:   3U
 Type:   Creature — Shapeshifter
-Pow/Tgh:    (0/1)
-Rules Text:     Whenever another creature enters the battlefield, Unstable Shapeshifter becomes a copy of that creature and gains this ability.
-Set/Rarity:     Tempest Rare
+P/T:    0/1
+S/R:    TE-R
+Whenever another creature enters the battlefield, Unstable Shapeshifter becomes a copy of that creature and gains this ability.
 
 Name:   Unstoppable Ash
 Cost:   3G
 Type:   Creature — Treefolk Warrior
-Pow/Tgh:    (5/5)
-Rules Text:     Trample
+P/T:    5/5
+S/R:    MOR-R
+Trample
 Champion a Treefolk or Warrior (When this enters the battlefield, sacrifice it unless you exile another Treefolk or Warrior you control. When this leaves the battlefield, that card returns to the battlefield.)
 Whenever a creature you control becomes blocked, it gets +0/+5 until end of turn.
-Set/Rarity:     Morningtide Rare
 
 Name:   Unsummon
 Cost:   U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Return target creature to its owner's hand.
-Set/Rarity:     Magic 2013 Common, Magic 2012 Common, Magic 2011 Common, Magic 2010 Common, Conflux Common, Tenth Edition Common, Eighth Edition Common, Seventh Edition Common, Classic Sixth Edition Common, Fifth Edition Common, Fourth Edition Common, Revised Edition Common, Unlimited Edition Common, Limited Edition Beta Common, Limited Edition Alpha Common
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, 7E-C, 8ED-C, 10E-C, CON-C, M10-C, M11-C, M12-C, M13-C
+Return target creature to its owner's hand.
 
 Name:   Untaidake, the Cloud Keeper
-Cost:   
 Type:   Legendary Land
-Pow/Tgh:    
-Rules Text:     Untaidake, the Cloud Keeper enters the battlefield tapped.
+S/R:    CHK-R
+Untaidake, the Cloud Keeper enters the battlefield tapped.
 {T}, Pay 2 life: Add {2} to your mana pool. Spend this mana only to cast legendary spells.
-Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Untamed Might
 Cost:   XG
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature gets +X/+X until end of turn.
-Set/Rarity:     Scars of Mirrodin Common
+S/R:    SOM-C
+Target creature gets +X/+X until end of turn.
 
 Name:   Untamed Wilds
 Cost:   2G
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Search your library for a basic land card and put that card onto the battlefield. Then shuffle your library.
-Set/Rarity:     Seventh Edition Uncommon, Starter 1999 Uncommon, Classic Sixth Edition Uncommon, Portal Second Age Uncommon, Portal Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Legends Uncommon
+S/R:    LE-U, 4E-U, 5E-U, P1-U, P2-U, 6E-U, S99-U, 7E-U
+Search your library for a basic land card and put that card onto the battlefield. Then shuffle your library.
 
 Name:   Unwilling Recruit
 Cost:   XRRR
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Gain control of target creature until end of turn. Untap that creature. It gets +X/+0 and gains haste until end of turn.
-Set/Rarity:     Eventide Uncommon
+S/R:    EVE-U
+Gain control of target creature until end of turn. Untap that creature. It gets +X/+0 and gains haste until end of turn.
 
 Name:   Unwinding Clock
 Cost:   4
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Untap all artifacts you control during each other player's untap step.
-Set/Rarity:     New Phyrexia Rare
+S/R:    NPH-R
+Untap all artifacts you control during each other player's untap step.
 
 Name:   Unworthy Dead
 Cost:   1B
 Type:   Creature — Skeleton
-Pow/Tgh:    (1/1)
-Rules Text:     {B}: Regenerate Unworthy Dead.
-Set/Rarity:     Urza's Saga Common
+P/T:    1/1
+S/R:    US-C
+{B}: Regenerate Unworthy Dead.
 
 Name:   Unyaro Bee Sting
 Cost:   3G
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Unyaro Bee Sting deals 2 damage to target creature or player.
-Set/Rarity:     Mirage Uncommon
+S/R:    MI-U
+Unyaro Bee Sting deals 2 damage to target creature or player.
 
 Name:   Unyaro Bees
 Cost:   GGG
 Type:   Creature — Insect
-Pow/Tgh:    (0/1)
-Rules Text:     Flying
+P/T:    0/1
+S/R:    TSP-R
+Flying
 {G}: Unyaro Bees gets +1/+1 until end of turn.
 {3}{G}, Sacrifice Unyaro Bees: Unyaro Bees deals 2 damage to target creature or player.
-Set/Rarity:     Time Spiral Rare
 
 Name:   Unyaro Griffin
 Cost:   3W
 Type:   Creature — Griffin
-Pow/Tgh:    (2/2)
-Rules Text:     Flying
-
+P/T:    2/2
+S/R:    MI-U, 6E-U
+Flying
 Sacrifice Unyaro Griffin: Counter target red instant or sorcery spell.
-Set/Rarity:     Classic Sixth Edition Uncommon, Mirage Uncommon
+
+Name:   Unyielding Krumar
+Cost:   3B
+Type:   Creature — Orc Warrior
+P/T:    3/3
+S/R:    KTK-C
+{1}{W}: Unyielding Krumar gains first strike until end of turn.
 
 Name:   Updraft
 Cost:   1U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature gains flying until end of turn.
-
+S/R:    IA-U, 5E-C
+Target creature gains flying until end of turn.
 Draw a card at the beginning of the next turn's upkeep.
-Set/Rarity:     Fifth Edition Common, Ice Age Uncommon
+
+Name:   Updraft Elemental
+Cost:   2U
+Type:   Creature — Elemental
+P/T:    1/4
+S/R:    DTK-C
+Flying
 
 Name:   Upheaval
 Cost:   4UU
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return all permanents to their owners' hands.
-Set/Rarity:     Odyssey Rare
+S/R:    OD-R
+Return all permanents to their owners' hands.
 
 Name:   Uphill Battle
 Cost:   2R
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Creatures played by your opponents enter the battlefield tapped.
-Set/Rarity:     Mercadian Masques Uncommon
+S/R:    MM-U
+Creatures played by your opponents enter the battlefield tapped.
 
 Name:   Uproot
 Cost:   3G
 Type:   Sorcery — Arcane
-Pow/Tgh:    
-Rules Text:     Put target land on top of its owner's library.
-Set/Rarity:     Betrayers of Kamigawa Common
+S/R:    BOK-C
+Put target land on top of its owner's library.
 
 Name:   Upwelling
 Cost:   3G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Mana pools don't empty as steps and phases end.
-Set/Rarity:     Tenth Edition Rare, Scourge Rare
+S/R:    SCG-R, 10E-R
+Mana pools don't empty as steps and phases end.
 
 Name:   Ur-Drago
 Cost:   3UUBB
 Type:   Legendary Creature — Elemental
-Pow/Tgh:    (4/4)
-Rules Text:     First strike
+P/T:    4/4
+S/R:    LE-R
+First strike
 Creatures with swampwalk can be blocked as though they didn't have swampwalk.
-Set/Rarity:     Legends Rare
 
 Name:   Ur-Golem's Eye
 Cost:   4
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {2} to your mana pool.
-Set/Rarity:     Ninth Edition Uncommon, Darksteel Common
+S/R:    DST-C, 9ED-U, C14-U
+{T}: Add {2} to your mana pool.
 
 Name:   Urabrask the Hidden
 Cost:   3RR
 Type:   Legendary Creature — Praetor
-Pow/Tgh:    (4/4)
-Rules Text:     Creatures you control have haste.
+P/T:    4/4
+S/R:    NPH-M
+Creatures you control have haste.
 Creatures your opponents control enter the battlefield tapped.
-Set/Rarity:     New Phyrexia Mythic Rare
 
 Name:   Urban Burgeoning
 Cost:   G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant land
+S/R:    RTR-C
+Enchant land
 Enchanted land has "Untap this land during each other player's untap step."
-Set/Rarity:     Return to Ravnica Common
 
 Name:   Urban Evolution
 Cost:   3GU
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Draw three cards. You may play an additional land this turn.
-Set/Rarity:     Gatecrash Uncommon
+S/R:    GTC-U
+Draw three cards. You may play an additional land this turn.
 
 Name:   Urbis Protector
 Cost:   4WW
 Type:   Creature — Human Cleric
-Pow/Tgh:    (1/1)
-Rules Text:     When Urbis Protector enters the battlefield, put a 4/4 white Angel creature token with flying onto the battlefield.
-Set/Rarity:     Gatecrash Uncommon
+P/T:    1/1
+S/R:    GTC-U
+When Urbis Protector enters the battlefield, put a 4/4 white Angel creature token with flying onto the battlefield.
 
 Name:   Urborg
-Cost:   
 Type:   Legendary Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {B} to your mana pool.
+S/R:    LE-U
+{T}: Add {B} to your mana pool.
 {T}: Target creature loses first strike or swampwalk until end of turn.
-Set/Rarity:     Masters Edition III Uncommon, Legends Uncommon
 
 Name:   Urborg Drake
 Cost:   1UB
 Type:   Creature — Drake
-Pow/Tgh:    (2/3)
-Rules Text:     Flying
+P/T:    2/3
+S/R:    IN-U
+Flying
 Urborg Drake attacks each turn if able.
-Set/Rarity:     Invasion Uncommon
 
 Name:   Urborg Elf
 Cost:   1G
 Type:   Creature — Elf Druid
-Pow/Tgh:    (1/1)
-Rules Text:     {T}: Add {G}, {U}, or {B} to your mana pool.
-Set/Rarity:     Apocalypse Common
+P/T:    1/1
+S/R:    AP-C
+{T}: Add {G}, {U}, or {B} to your mana pool.
 
 Name:   Urborg Emissary
 Cost:   2B
 Type:   Creature — Human Wizard
-Pow/Tgh:    (3/1)
-Rules Text:     Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
+P/T:    3/1
+S/R:    IN-U
+Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
 When Urborg Emissary enters the battlefield, if it was kicked, return target permanent to its owner's hand.
-Set/Rarity:     Invasion Uncommon
 
 Name:   Urborg Justice
 Cost:   BB
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target opponent sacrifices a creature for each creature put into your graveyard from the battlefield this turn.
-Set/Rarity:     Weatherlight Rare
+S/R:    WL-R
+Target opponent sacrifices a creature for each creature put into your graveyard from the battlefield this turn.
 
 Name:   Urborg Mindsucker
 Cost:   2B
 Type:   Creature — Horror
-Pow/Tgh:    (2/2)
-Rules Text:     {B}, Sacrifice Urborg Mindsucker: Target opponent discards a card at random. Activate this ability only any time you could cast a sorcery.
-Set/Rarity:     Visions Common
+P/T:    2/2
+S/R:    VI-C
+{B}, Sacrifice Urborg Mindsucker: Target opponent discards a card at random. Activate this ability only any time you could cast a sorcery.
 
 Name:   Urborg Panther
 Cost:   2B
 Type:   Creature — Nightstalker Cat
-Pow/Tgh:    (2/2)
-Rules Text:     {B}, Sacrifice Urborg Panther: Destroy target creature blocking Urborg Panther.
+P/T:    2/2
+S/R:    MI-C
+{B}, Sacrifice Urborg Panther: Destroy target creature blocking Urborg Panther.
 Sacrifice a creature named Feral Shadow, a creature named Breathstealer, and Urborg Panther: Search your library for a card named Spirit of the Night and put that card onto the battlefield. Then shuffle your library.
-Set/Rarity:     Mirage Common
 
 Name:   Urborg Phantom
 Cost:   2B
 Type:   Creature — Spirit Minion
-Pow/Tgh:    (3/1)
-Rules Text:     Urborg Phantom can't block.
+P/T:    3/1
+S/R:    IN-C
+Urborg Phantom can't block.
 {U}: Prevent all combat damage that would be dealt to and dealt by Urborg Phantom this turn.
-Set/Rarity:     Invasion Common
 
 Name:   Urborg Shambler
 Cost:   2BB
 Type:   Creature — Horror
-Pow/Tgh:    (4/3)
-Rules Text:     Other black creatures get -1/-1.
-Set/Rarity:     Invasion Uncommon
+P/T:    4/3
+S/R:    IN-U
+Other black creatures get -1/-1.
 
 Name:   Urborg Skeleton
 Cost:   B
 Type:   Creature — Skeleton
-Pow/Tgh:    (0/1)
-Rules Text:     Kicker {3} (You may pay an additional {3} as you cast this spell.)
+P/T:    0/1
+S/R:    IN-C
+Kicker {3} (You may pay an additional {3} as you cast this spell.)
 {B}: Regenerate Urborg Skeleton.
 If Urborg Skeleton was kicked, it enters the battlefield with a +1/+1 counter on it.
-Set/Rarity:     Invasion Common
 
 Name:   Urborg Stalker
 Cost:   3B
 Type:   Creature — Horror
-Pow/Tgh:    (2/4)
-Rules Text:     At the beginning of each player's upkeep, if that player controls a nonblack, nonland permanent, Urborg Stalker deals 1 damage to that player.
-Set/Rarity:     Weatherlight Rare
+P/T:    2/4
+S/R:    WL-R
+At the beginning of each player's upkeep, if that player controls a nonblack, nonland permanent, Urborg Stalker deals 1 damage to that player.
 
 Name:   Urborg Syphon-Mage
 Cost:   2B
 Type:   Creature — Human Spellshaper
-Pow/Tgh:    (2/2)
-Rules Text:     {2}{B}, {T}, Discard a card: Each other player loses 2 life. You gain life equal to the life lost this way.
-Set/Rarity:     Archenemy Common, Duel Decks: Garruk vs. Liliana Common, Time Spiral Common
+P/T:    2/2
+S/R:    TSP-C, ARC-C
+{2}{B}, {T}, Discard a card: Each other player loses 2 life. You gain life equal to the life lost this way.
 
 Name:   Urborg Uprising
 Cost:   4B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return up to two target creature cards from your graveyard to your hand.
-
+S/R:    AP-C
+Return up to two target creature cards from your graveyard to your hand.
 Draw a card.
-Set/Rarity:     Apocalypse Common
 
 Name:   Urborg Volcano
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     Urborg Volcano enters the battlefield tapped.
+S/R:    IN-U, 8ED-U
+Urborg Volcano enters the battlefield tapped.
 {T}: Add {B} or {R} to your mana pool.
-Set/Rarity:     Eighth Edition Uncommon, Invasion Uncommon
 
 Name:   Urborg, Tomb of Yawgmoth
-Cost:   
 Type:   Legendary Land
-Pow/Tgh:    
-Rules Text:     Each land is a Swamp in addition to its other land types.
-Set/Rarity:     From the Vault: Realms Mythic Rare, Planar Chaos Rare
+S/R:    PLC-R, M15-R
+Each land is a Swamp in addition to its other land types.
 
 Name:   Urge to Feed
 Cost:   BB
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.
-Set/Rarity:     Duel Decks: Sorin vs. Tibalt Uncommon, Worldwake Uncommon
+S/R:    WWK-U
+Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.
 
 Name:   Urgent Exorcism
 Cost:   1W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Destroy target Spirit or enchantment.
-Set/Rarity:     Innistrad Common
+S/R:    ISD-C
+Destroy target Spirit or enchantment.
 
 Name:   Uril, the Miststalker
 Cost:   2RGW
 Type:   Legendary Creature — Beast
-Pow/Tgh:    (5/5)
-Rules Text:     Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+P/T:    5/5
+S/R:    ARB-M
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 Uril, the Miststalker gets +2/+2 for each Aura attached to it.
-Set/Rarity:     Alara Reborn Mythic Rare
 
 Name:   Ursapine
 Cost:   3GG
 Type:   Creature — Beast
-Pow/Tgh:    (3/3)
-Rules Text:     {G}: Target creature gets +1/+1 until end of turn.
-Set/Rarity:     Ravnica: City of Guilds Rare
+P/T:    3/3
+S/R:    RAV-R
+{G}: Target creature gets +1/+1 until end of turn.
 
 Name:   Ursine Fylgja
 Cost:   4W
 Type:   Creature — Spirit Bear
-Pow/Tgh:    (3/3)
-Rules Text:     Ursine Fylgja enters the battlefield with four healing counters on it.
+P/T:    3/3
+S/R:    CSP-U
+Ursine Fylgja enters the battlefield with four healing counters on it.
 Remove a healing counter from Ursine Fylgja: Prevent the next 1 damage that would be dealt to Ursine Fylgja this turn.
 {2}{W}: Put a healing counter on Ursine Fylgja.
-Set/Rarity:     Coldsnap Uncommon
 
 Name:   Urza's Armor
 Cost:   6
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     If a source would deal damage to you, prevent 1 of that damage.
-Set/Rarity:     Eighth Edition Rare, Urza's Saga Uncommon
+S/R:    US-U, 8ED-R
+If a source would deal damage to you, prevent 1 of that damage.
 
 Name:   Urza's Avenger
 Cost:   6
 Type:   Artifact Creature — Shapeshifter
-Pow/Tgh:    (4/4)
-Rules Text:     {0}: Urza's Avenger gets -1/-1 and gains your choice of banding, flying, first strike, or trample until end of turn. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
-Set/Rarity:     Fifth Edition Rare, Fourth Edition Rare, Antiquities Rare
+P/T:    4/4
+S/R:    AQ-R, 4E-R, 5E-R
+{0}: Urza's Avenger gets -1/-1 and gains your choice of banding, flying, first strike, or trample until end of turn. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 
 Name:   Urza's Bauble
 Cost:   0
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}, Sacrifice Urza's Bauble: Look at a card at random in target player's hand. You draw a card at the beginning of the next turn's upkeep.
-Set/Rarity:     Masters Edition Uncommon, Fifth Edition Uncommon, Ice Age Uncommon
+S/R:    IA-U, 5E-U
+{T}, Sacrifice Urza's Bauble: Look at a card at random in target player's hand. You draw a card at the beginning of the next turn's upkeep.
 
 Name:   Urza's Blueprints
 Cost:   6
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Echo {6} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
+S/R:    UL-R
+Echo {6} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 {T}: Draw a card.
-Set/Rarity:     Urza's Legacy Rare
 
 Name:   Urza's Chalice
 Cost:   1
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Whenever a player casts an artifact spell, you may pay {1}. If you do, you gain 1 life.
-Set/Rarity:     Masters Edition IV Common, Masters Edition Common, Antiquities Common
+S/R:    AQ-C
+Whenever a player casts an artifact spell, you may pay {1}. If you do, you gain 1 life.
 
 Name:   Urza's Engine
 Cost:   5
 Type:   Artifact Creature — Juggernaut
-Pow/Tgh:    (1/5)
-Rules Text:     Trample
+P/T:    1/5
+S/R:    AI-U
+Trample
 {3}: Urza's Engine gains banding until end of turn. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 {3}: Attacking creatures banded with Urza's Engine gain trample until end of turn.
-Set/Rarity:     Alliances Uncommon
 
 Name:   Urza's Factory
-Cost:   
 Type:   Land — Urza's
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool.
+S/R:    TSP-U, C13-U
+{T}: Add {1} to your mana pool.
 {7}, {T}: Put a 2/2 colorless Assembly-Worker artifact creature token onto the battlefield.
-Set/Rarity:     Time Spiral Uncommon
 
 Name:   Urza's Filter
 Cost:   4
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Multicolored spells cost up to {2} less to cast.
-Set/Rarity:     Invasion Rare
+S/R:    IN-R
+Multicolored spells cost up to {2} less to cast.
 
 Name:   Urza's Guilt
 Cost:   2UB
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Each player draws two cards, then discards three cards, then loses 4 life.
-Set/Rarity:     Planeshift Rare
+S/R:    PS-R
+Each player draws two cards, then discards three cards, then loses 4 life.
 
 Name:   Urza's Incubator
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     As Urza's Incubator enters the battlefield, choose a creature type.
+S/R:    UD-R
+As Urza's Incubator enters the battlefield, choose a creature type.
 Creature spells of the chosen type cost {2} less to cast.
-Set/Rarity:     Urza's Destiny Rare
 
 Name:   Urza's Mine
-Cost:   
 Type:   Land — Urza's Mine
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {2} to your mana pool instead.
-Set/Rarity:     Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Ninth Edition Uncommon, Eighth Edition Uncommon, Fifth Edition Common, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Antiquities Uncommon, Antiquities Common, Antiquities Uncommon, Antiquities Common
+S/R:    AQ-C, AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U
+{T}: Add {1} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {2} to your mana pool instead.
 
 Name:   Urza's Miter
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Whenever an artifact you control is put into a graveyard from the battlefield, if it wasn't sacrificed, you may pay {3}. If you do, draw a card.
-Set/Rarity:     Masters Edition IV Rare, Antiquities Rare
+S/R:    AQ-R
+Whenever an artifact you control is put into a graveyard from the battlefield, if it wasn't sacrificed, you may pay {3}. If you do, draw a card.
 
 Name:   Urza's Power Plant
-Cost:   
 Type:   Land — Urza's Power-Plant
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {2} to your mana pool instead.
-Set/Rarity:     Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Ninth Edition Uncommon, Eighth Edition Uncommon, Fifth Edition Common, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Antiquities Uncommon, Antiquities Common, Antiquities Common, Antiquities Uncommon
+S/R:    AQ-C, AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U
+{T}: Add {1} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {2} to your mana pool instead.
 
 Name:   Urza's Rage
 Cost:   2R
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)
+S/R:    IN-R
+Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)
 Urza's Rage can't be countered by spells or abilities.
 Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead it deals 10 damage to that creature or player and the damage can't be prevented.
-Set/Rarity:     Duel Decks: Phyrexia vs. the Coalition Mythic Rare, Invasion Rare
 
 Name:   Urza's Tower
-Cost:   
 Type:   Land — Urza's Tower
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {3} to your mana pool instead.
-Set/Rarity:     Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Masters Edition IV Land, Ninth Edition Uncommon, Eighth Edition Uncommon, Fifth Edition Common, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Chronicles Uncommon, Antiquities Uncommon, Antiquities Common, Antiquities Uncommon, Antiquities Uncommon
+S/R:    AQ-C, AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U
+{T}: Add {1} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {3} to your mana pool instead.
 
 Name:   Uthden Troll
 Cost:   2R
 Type:   Creature — Troll
-Pow/Tgh:    (2/2)
-Rules Text:     {R}: Regenerate Uthden Troll.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Battle Royale Box Set Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+P/T:    2/2
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, TSP-S
+{R}: Regenerate Uthden Troll.
 
 Name:   Utopia Mycon
 Cost:   G
 Type:   Creature — Fungus
-Pow/Tgh:    (0/2)
-Rules Text:     At the beginning of your upkeep, put a spore counter on Utopia Mycon.
+P/T:    0/2
+S/R:    FUT-U
+At the beginning of your upkeep, put a spore counter on Utopia Mycon.
 Remove three spore counters from Utopia Mycon: Put a 1/1 green Saproling creature token onto the battlefield.
 Sacrifice a Saproling: Add one mana of any color to your mana pool.
-Set/Rarity:     Future Sight Uncommon
 
 Name:   Utopia Sprawl
 Cost:   G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant Forest
+S/R:    DIS-C
+Enchant Forest
 As Utopia Sprawl enters the battlefield, choose a color.
 Whenever enchanted Forest is tapped for mana, its controller adds one mana of the chosen color to his or her mana pool (in addition to the mana the land produces).
-Set/Rarity:     Dissension Common
 
 Name:   Utopia Tree
 Cost:   1G
 Type:   Creature — Plant
-Pow/Tgh:    (0/2)
-Rules Text:     {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Ninth Edition Rare, Invasion Rare
+P/T:    0/2
+S/R:    IN-R, 9ED-R
+{T}: Add one mana of any color to your mana pool.
 
 Name:   Utopia Vow
 Cost:   1G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    PLC-C
+Enchant creature
 Enchanted creature can't attack or block.
 Enchanted creature has "{T}: Add one mana of any color to your mana pool."
-Set/Rarity:     Planar Chaos Common
+
+Name:   Utter End
+Cost:   2WB
+Type:   Instant
+S/R:    KTK-R
+Exile target nonland permanent.
 
 Name:   Utvara Hellkite
 Cost:   6RR
 Type:   Creature — Dragon
-Pow/Tgh:    (6/6)
-Rules Text:     Flying
+P/T:    6/6
+S/R:    RTR-M
+Flying
 Whenever a Dragon you control attacks, put a 6/6 red Dragon creature token with flying onto the battlefield.
-Set/Rarity:     Return to Ravnica Mythic Rare
 
 Name:   Utvara Scalper
 Cost:   1R
 Type:   Creature — Goblin Scout
-Pow/Tgh:    (1/2)
-Rules Text:     Flying
+P/T:    1/2
+S/R:    DIS-C
+Flying
 Utvara Scalper attacks each turn if able.
-Set/Rarity:     Dissension Common
 
 Name:   Uyo, Silent Prophet
 Cost:   4UU
 Type:   Legendary Creature — Moonfolk Wizard
-Pow/Tgh:    (4/4)
-Rules Text:     Flying
+P/T:    4/4
+S/R:    CHK-R, C13-R
+Flying
 {2}, Return two lands you control to their owner's hand: Copy target instant or sorcery spell. You may choose new targets for the copy.
-Set/Rarity:     Champions of Kamigawa Rare

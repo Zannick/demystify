@@ -1,93 +1,96 @@
 Name:   Xanthic Statue
 Cost:   8
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {5}: Until end of turn, Xanthic Statue becomes an 8/8 Golem artifact creature with trample.
-Set/Rarity:     Weatherlight Rare
+S/R:    WL-R
+{5}: Until end of turn, Xanthic Statue becomes an 8/8 Golem artifact creature with trample.
 
 Name:   Xantid Swarm
 Cost:   G
 Type:   Creature — Insect
-Pow/Tgh:    (0/1)
-Rules Text:     Flying
+P/T:    0/1
+S/R:    SCG-R
+Flying
 Whenever Xantid Swarm attacks, defending player can't cast spells this turn.
-Set/Rarity:     Scourge Rare
 
 Name:   Xathrid Demon
 Cost:   3BBB
 Type:   Creature — Demon
-Pow/Tgh:    (7/7)
-Rules Text:     Flying, trample
+P/T:    7/7
+S/R:    M10-M, C14-M
+Flying, trample
 At the beginning of your upkeep, sacrifice a creature other than Xathrid Demon, then each opponent loses life equal to the sacrificed creature's power. If you can't sacrifice a creature, tap Xathrid Demon and you lose 7 life.
-Set/Rarity:     Magic 2010 Mythic Rare
 
 Name:   Xathrid Gorgon
 Cost:   5B
 Type:   Creature — Gorgon
-Pow/Tgh:    (3/6)
-Rules Text:     Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+P/T:    3/6
+S/R:    M13-R
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 {2}{B}, {T}: Put a petrification counter on target creature. It gains defender and becomes a colorless artifact in addition to its other types. Its activated abilities can't be activated. (A creature with defender can't attack.)
-Set/Rarity:     Magic 2013 Rare
 
 Name:   Xathrid Necromancer
 Cost:   2B
 Type:   Creature — Human Wizard
-Pow/Tgh:    (2/2)
-Rules Text:     Whenever Xathrid Necromancer or another Human creature you control dies, put a 2/2 black Zombie creature token onto the battlefield tapped.
-Set/Rarity:     Magic 2014 Core Set Rare
+P/T:    2/2
+S/R:    M14-R
+Whenever Xathrid Necromancer or another Human creature you control dies, put a 2/2 black Zombie creature token onto the battlefield tapped.
+
+Name:   Xathrid Slyblade
+Cost:   2B
+Type:   Creature — Human Assassin
+P/T:    2/1
+S/R:    M15-U
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+{3}{B}: Until end of turn, Xathrid Slyblade loses hexproof and gains first strike and deathtouch. (It deals combat damage before creatures without first strike. Any amount of damage it deals to a creature is enough to destroy it.)
 
 Name:   Xenagos, God of Revels
 Cost:   3RG
 Type:   Legendary Enchantment Creature — God
-Pow/Tgh:    (6/5)
-Rules Text:     Indestructible
+P/T:    6/5
+S/R:    BNG-M
+Indestructible
 As long as your devotion to red and green is less than seven, Xenagos isn't a creature.
 At the beginning of combat on your turn, another target creature you control gains haste and gets +X/+X until end of turn, where X is that creature's power.
-Set/Rarity:     Born of the Gods Mythic Rare
 
 Name:   Xenagos, the Reveler
 Cost:   2RG
 Type:   Planeswalker — Xenagos
-Loyalty:    (3)
-Rules Text:     +1: Add X mana in any combination of {R} and/or {G} to your mana pool, where X is the number of creatures you control.
-0: Put a 2/2 red and green Satyr creature token with haste onto the battlefield.
--6: Exile the top seven cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield.
-Set/Rarity:     Theros Mythic Rare
+Cost:   3
+S/R:    THS-M
 
 Name:   Xenic Poltergeist
 Cost:   1BB
 Type:   Creature — Spirit
-Pow/Tgh:    (1/1)
-Rules Text:     {T}: Until your next upkeep, target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.
-Set/Rarity:     Masters Edition IV Uncommon, Fifth Edition Rare, Fourth Edition Rare, Antiquities Uncommon
+P/T:    1/1
+S/R:    AQ-U, 4E-R, 5E-R
+{T}: Until your next upkeep, target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.
 
 Name:   Xenograft
 Cost:   4U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     As Xenograft enters the battlefield, choose a creature type.
+S/R:    NPH-R
+As Xenograft enters the battlefield, choose a creature type.
 Each creature you control is the chosen type in addition to its other types.
-Set/Rarity:     New Phyrexia Rare
 
 Name:   Xiahou Dun, the One-Eyed
 Cost:   2BB
 Type:   Legendary Creature — Human Soldier
-Pow/Tgh:    (3/2)
-Rules Text:     Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
+P/T:    3/2
+S/R:    P3K-R
+Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 Sacrifice Xiahou Dun, the One-Eyed: Return target black card from your graveyard to your hand. Activate this ability only during your turn, before attackers are declared.
-Set/Rarity:     Masters Edition III Uncommon, Portal Three Kingdoms Rare
 
 Name:   Xira Arien
 Cost:   BRG
 Type:   Legendary Creature — Insect Wizard
-Pow/Tgh:    (1/2)
-Rules Text:     Flying
+P/T:    1/2
+S/R:    LE-R, CH-R
+Flying
 {B}{R}{G}, {T}: Target player draws a card.
-Set/Rarity:     Masters Edition III Rare, Chronicles Rare, Legends Rare
 
 Name:   Xun Yu, Wei Advisor
 Cost:   1BB
 Type:   Legendary Creature — Human Advisor
-Pow/Tgh:    (1/1)
-Rules Text:     {T}: Target creature you control gets +2/+0 until end of turn. Activate this ability only during your turn, before attackers are declared.
-Set/Rarity:     Portal Three Kingdoms Rare
+P/T:    1/1
+S/R:    P3K-R
+{T}: Target creature you control gets +2/+0 until end of turn. Activate this ability only during your turn, before attackers are declared.

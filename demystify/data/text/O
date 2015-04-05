@@ -1,68 +1,75 @@
 Name:   O-Naginata
 Cost:   1
 Type:   Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     O-Naginata can be attached only to a creature with power 3 or greater.
+S/R:    SOK-U
+O-Naginata can be attached only to a creature with power 3 or greater.
 Equipped creature gets +3/+0 and has trample.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
-Set/Rarity:     Saviors of Kamigawa Uncommon
 
 Name:   Oak Street Innkeeper
 Cost:   2G
 Type:   Creature — Elf
-Pow/Tgh:    (1/2)
-Rules Text:     As long as it's not your turn, tapped creatures you control have hexproof.
-Set/Rarity:     Return to Ravnica Uncommon
+P/T:    1/2
+S/R:    RTR-U
+As long as it's not your turn, tapped creatures you control have hexproof.
 
 Name:   Oaken Brawler
 Cost:   3W
 Type:   Creature — Treefolk Warrior
-Pow/Tgh:    (2/4)
-Rules Text:     When Oaken Brawler enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Oaken Brawler. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
-Set/Rarity:     Lorwyn Common
+P/T:    2/4
+S/R:    LRW-C
+When Oaken Brawler enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Oaken Brawler. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 
 Name:   Oakenform
 Cost:   2G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    M10-C
+Enchant creature
 Enchanted creature gets +3/+3.
-Set/Rarity:     Magic 2010 Common
 
 Name:   Oakgnarl Warrior
 Cost:   5GG
 Type:   Creature — Treefolk Warrior
-Pow/Tgh:    (5/7)
-Rules Text:     Vigilance, trample
-Set/Rarity:     Lorwyn Common
+P/T:    5/7
+S/R:    LRW-C
+Vigilance, trample
+
+Name:   Oakheart Dryads
+Cost:   2G
+Type:   Enchantment Creature — Nymph Dryad
+P/T:    2/3
+S/R:    JOU-C
+Constellation — Whenever Oakheart Dryads or another enchantment enters the battlefield under your control, target creature gets +1/+1 until end of turn.
 
 Name:   Oasis
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Prevent the next 1 damage that would be dealt to target creature this turn.
-Set/Rarity:     Masters Edition IV Common, Fourth Edition Uncommon, Arabian Nights Uncommon
+S/R:    AN-U, 4E-U
+{T}: Prevent the next 1 damage that would be dealt to target creature this turn.
 
 Name:   Oath of Druids
 Cost:   1G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of each player's upkeep, that player chooses target player who controls more creatures than he or she does and is his or her opponent. The first player may reveal cards from the top of his or her library until he or she reveals a creature card. If he or she does, that player puts that card onto the battlefield and all other cards revealed this way into his or her graveyard.
-Set/Rarity:     Exodus Rare
+S/R:    EX-R
+At the beginning of each player's upkeep, that player chooses target player who controls more creatures than he or she does and is his or her opponent. The first player may reveal cards from the top of his or her library until he or she reveals a creature card. If he or she does, that player puts that card onto the battlefield and all other cards revealed this way into his or her graveyard.
 
 Name:   Oath of Ghouls
 Cost:   1B
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of each player's upkeep, that player chooses target player whose graveyard has fewer creature cards in it than his or her graveyard does and is his or her opponent. The first player may return a creature card from his or her graveyard to his or her hand.
-Set/Rarity:     Exodus Rare
+S/R:    EX-R
+At the beginning of each player's upkeep, that player chooses target player whose graveyard has fewer creature cards in it than his or her graveyard does and is his or her opponent. The first player may return a creature card from his or her graveyard to his or her hand.
 
 Name:   Oath of Lieges
 Cost:   1W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of each player's upkeep, that player chooses target player who controls more lands than he or she does and is his or her opponent. The first player may search his or her library for a basic land card, put that card onto the battlefield, then shuffle his or her library.
-Set/Rarity:     Exodus Rare
+S/R:    EX-R
+At the beginning of each player's upkeep, that player chooses target player who controls more lands than he or she does and is his or her opponent. The first player may search his or her library for a basic land card, put that card onto the battlefield, then shuffle his or her library.
+
+Name:   Oath of Lim-Dul
+Cost:   3B
+Type:   Enchantment
+S/R:    IA-R
+Whenever you lose life, for each 1 life you lost, sacrifice a permanent other than Oath of Lim-Dul unless you discard a card. (Damage dealt to you causes you to lose life.)
+{B}{B}: Draw a card.
 
 Name:   Oath of Lim-Dûl
 Cost:   3B
@@ -75,266 +82,281 @@ Set/Rarity:     Ice Age Rare
 Name:   Oath of Mages
 Cost:   1R
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of each player's upkeep, that player chooses target player who has more life than he or she does and is his or her opponent. The first player may have Oath of Mages deal 1 damage to the second player.
-Set/Rarity:     Exodus Rare
+S/R:    EX-R
+At the beginning of each player's upkeep, that player chooses target player who has more life than he or she does and is his or her opponent. The first player may have Oath of Mages deal 1 damage to the second player.
 
 Name:   Oath of Scholars
 Cost:   3U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of each player's upkeep, that player chooses target player who has more cards in hand than he or she does and is his or her opponent. The first player may discard his or her hand and draw three cards.
-Set/Rarity:     Exodus Rare
+S/R:    EX-R
+At the beginning of each player's upkeep, that player chooses target player who has more cards in hand than he or she does and is his or her opponent. The first player may discard his or her hand and draw three cards.
 
 Name:   Oath of the Ancient Wood
 Cost:   2G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever Oath of the Ancient Wood or another enchantment enters the battlefield under your control, you may put a +1/+1 counter on target creature.
-Set/Rarity:     Magic 2014 Core Set Rare
+S/R:    M14-R
+Whenever Oath of the Ancient Wood or another enchantment enters the battlefield under your control, you may put a +1/+1 counter on target creature.
 
 Name:   Oathkeeper, Takeno's Daisho
 Cost:   3
 Type:   Legendary Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     Equipped creature gets +3/+1.
+S/R:    CHK-R
+Equipped creature gets +3/+1.
 Whenever equipped creature dies, return that card to the battlefield under your control if it's a Samurai card.
 When Oathkeeper, Takeno's Daisho is put into a graveyard from the battlefield, exile equipped creature.
 Equip {2}
-Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Oathsworn Giant
 Cost:   4WW
 Type:   Creature — Giant Soldier
-Pow/Tgh:    (3/4)
-Rules Text:     Vigilance
+P/T:    3/4
+S/R:    RAV-U
+Vigilance
 Other creatures you control get +0/+2 and have vigilance.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
+
+Name:   Ob Nixilis of the Black Oath
+Cost:   3BB
+Type:   Planeswalker — Nixilis
+Cost:   3
+S/R:    C14-M
+Ob Nixilis of the Black Oath can be your commander.
+
+Name:   Ob Nixilis, Unshackled
+Cost:   4BB
+Type:   Legendary Creature — Demon
+P/T:    4/4
+S/R:    M15-R
+Flying, trample
+Whenever an opponent searches his or her library, that player sacrifices a creature and loses 10 life.
+Whenever another creature dies, put a +1/+1 counter on Ob Nixilis, Unshackled.
 
 Name:   Ob Nixilis, the Fallen
 Cost:   3BB
 Type:   Legendary Creature — Demon
-Pow/Tgh:    (3/3)
-Rules Text:     Landfall — Whenever a land enters the battlefield under your control, you may have target player lose 3 life. If you do, put three +1/+1 counters on Ob Nixilis, the Fallen.
-Set/Rarity:     Zendikar Mythic Rare
+P/T:    3/3
+S/R:    ZEN-M
+Landfall — Whenever a land enters the battlefield under your control, you may have target player lose 3 life. If you do, put three +1/+1 counters on Ob Nixilis, the Fallen.
 
 Name:   Obelisk of Alara
 Cost:   6
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {1}{W}, {T}: You gain 5 life.
+S/R:    CON-R
+{1}{W}, {T}: You gain 5 life.
 {1}{U}, {T}: Draw a card, then discard a card.
 {1}{B}, {T}: Target creature gets -2/-2 until end of turn.
 {1}{R}, {T}: Obelisk of Alara deals 3 damage to target player.
 {1}{G}, {T}: Target creature gets +4/+4 until end of turn.
-Set/Rarity:     Conflux Rare
 
 Name:   Obelisk of Bant
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {G}, {W}, or {U} to your mana pool.
-Set/Rarity:     Shards of Alara Common
+S/R:    ALA-C
+{T}: Add {G}, {W}, or {U} to your mana pool.
 
 Name:   Obelisk of Esper
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {W}, {U}, or {B} to your mana pool.
-Set/Rarity:     Archenemy Common, Shards of Alara Common
+S/R:    ALA-C, C13-C, ARC-C
+{T}: Add {W}, {U}, or {B} to your mana pool.
 
 Name:   Obelisk of Grixis
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {U}, {B}, or {R} to your mana pool.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Shards of Alara Common
+S/R:    ALA-C, C13-C
+{T}: Add {U}, {B}, or {R} to your mana pool.
 
 Name:   Obelisk of Jund
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {B}, {R}, or {G} to your mana pool.
-Set/Rarity:     Shards of Alara Common
+S/R:    ALA-C, C13-C
+{T}: Add {B}, {R}, or {G} to your mana pool.
 
 Name:   Obelisk of Naya
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {R}, {G}, or {W} to your mana pool.
-Set/Rarity:     Shards of Alara Common
+S/R:    ALA-C
+{T}: Add {R}, {G}, or {W} to your mana pool.
 
 Name:   Obelisk of Undoing
 Cost:   1
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {6}, {T}: Return target permanent you both own and control to your hand.
-Set/Rarity:     Masters Edition IV Rare, Fifth Edition Rare, Chronicles Rare, Antiquities Rare
+S/R:    AQ-R, CH-R, 5E-R
+{6}, {T}: Return target permanent you both own and control to your hand.
+
+Name:   Obelisk of Urd
+Cost:   6
+Type:   Artifact
+S/R:    M15-R
+Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+As Obelisk of Urd enters the battlefield, choose a creature type.
+Creatures you control of the chosen type get +2/+2.
 
 Name:   Oblation
 Cost:   2W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     The owner of target nonland permanent shuffles it into his or her library, then draws two cards.
-Set/Rarity:     Magic: The Gathering-Commander Rare, Onslaught Rare
+S/R:    ONS-R, CMD-R, C14-R
+The owner of target nonland permanent shuffles it into his or her library, then draws two cards.
 
 Name:   Obliterate
 Cost:   6RR
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Obliterate can't be countered.
+S/R:    IN-R, 8ED-R
+Obliterate can't be countered.
 Destroy all artifacts, creatures, and lands. They can't be regenerated.
-Set/Rarity:     Eighth Edition Rare, Invasion Rare
 
 Name:   Oblivion Crown
 Cost:   1B
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+S/R:    FUT-C
+Flash (You may cast this spell any time you could cast an instant.)
 Enchant creature
 Enchanted creature has "Discard a card: This creature gets +1/+1 until end of turn."
-Set/Rarity:     Future Sight Common
 
 Name:   Oblivion Ring
 Cost:   2W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When Oblivion Ring enters the battlefield, exile another target nonland permanent.
+S/R:    LRW-C, ALA-C, CMD-C, M12-U, M13-U, ARC-C, HOP-C
+When Oblivion Ring enters the battlefield, exile another target nonland permanent.
 When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control.
-Set/Rarity:     Magic 2013 Uncommon, Duel Decks: Venser vs. Koth Uncommon, Magic 2012 Uncommon, Magic: The Gathering-Commander Common, Duel Decks: Knights vs. Dragons Common, Archenemy Common, Planechase Common, Shards of Alara Common, Lorwyn Common
 
 Name:   Oblivion Stone
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {4}, {T}: Put a fate counter on target permanent.
+S/R:    MRD-R, CMD-R
+{4}, {T}: Put a fate counter on target permanent.
 {5}, {T}, Sacrifice Oblivion Stone: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.
-Set/Rarity:     Magic: The Gathering-Commander Rare, Mirrodin Rare
 
 Name:   Oboro Breezecaller
 Cost:   1U
 Type:   Creature — Moonfolk Wizard
-Pow/Tgh:    (1/1)
-Rules Text:     Flying
+P/T:    1/1
+S/R:    SOK-C
+Flying
 {2}, Return a land you control to its owner's hand: Untap target land.
-Set/Rarity:     Saviors of Kamigawa Common
 
 Name:   Oboro Envoy
 Cost:   3U
 Type:   Creature — Moonfolk Wizard
-Pow/Tgh:    (1/3)
-Rules Text:     Flying
+P/T:    1/3
+S/R:    SOK-U
+Flying
 {2}, Return a land you control to its owner's hand: Target creature gets -X/-0 until end of turn, where X is the number of cards in your hand.
-Set/Rarity:     Saviors of Kamigawa Uncommon
 
 Name:   Oboro, Palace in the Clouds
-Cost:   
 Type:   Legendary Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {U} to your mana pool.
+S/R:    SOK-R
+{T}: Add {U} to your mana pool.
 {1}: Return Oboro, Palace in the Clouds to its owner's hand.
-Set/Rarity:     Saviors of Kamigawa Rare
+
+Name:   Obscuring AEther
+Cost:   G
+Type:   Enchantment
+S/R:    DTK-R
+Face-down creature spells you cast cost {1} less to cast.
+{1}{G}: Turn Obscuring AEther face down. (It becomes a 2/2 creature.)
 
 Name:   Observant Alseid
 Cost:   2W
 Type:   Enchantment Creature — Nymph
-Pow/Tgh:    (2/2)
-Rules Text:     Bestow {4}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
+P/T:    2/2
+S/R:    THS-C
+Bestow {4}{W} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
 Vigilance
 Enchanted creature gets +2/+2 and has vigilance.
-Set/Rarity:     Theros Common
 
 Name:   Obsessive Search
 Cost:   U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Draw a card.
+S/R:    TOR-C
+Draw a card.
 Madness {U} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)
-Set/Rarity:     Torment Common
 
 Name:   Obsianus Golem
 Cost:   6
 Type:   Artifact Creature — Golem
-Pow/Tgh:    (4/6)
-Rules Text:     
-Set/Rarity:     Masters Edition IV Common, Starter 2000 Uncommon, Classic Sixth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+P/T:    4/6
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 6E-U, S00-U
 
 Name:   Obsidian Acolyte
 Cost:   1W
 Type:   Creature — Human Cleric
-Pow/Tgh:    (1/1)
-Rules Text:     Protection from black
+P/T:    1/1
+S/R:    IN-C
+Protection from black
 {W}: Target creature gains protection from black until end of turn.
-Set/Rarity:     Invasion Common
 
 Name:   Obsidian Battle-Axe
 Cost:   3
 Type:   Tribal Artifact — Warrior Equipment
-Pow/Tgh:    
-Rules Text:     Equipped creature gets +2/+1 and has haste.
+S/R:    MOR-U
+Equipped creature gets +2/+1 and has haste.
 Whenever a Warrior creature enters the battlefield, you may attach Obsidian Battle-Axe to it.
 Equip {3}
-Set/Rarity:     Morningtide Uncommon
 
 Name:   Obsidian Fireheart
 Cost:   1RRR
 Type:   Creature — Elemental
-Pow/Tgh:    (4/4)
-Rules Text:     {1}{R}{R}: Put a blaze counter on target land without a blaze counter on it. For as long as that land has a blaze counter on it, it has "At the beginning of your upkeep, this land deals 1 damage to you." (The land continues to burn after Obsidian Fireheart has left the battlefield.)
-Set/Rarity:     Zendikar Mythic Rare
+P/T:    4/4
+S/R:    ZEN-M
+{1}{R}{R}: Put a blaze counter on target land without a blaze counter on it. For as long as that land has a blaze counter on it, it has "At the beginning of your upkeep, this land deals 1 damage to you." (The land continues to burn after Obsidian Fireheart has left the battlefield.)
 
 Name:   Obsidian Giant
 Cost:   4R
 Type:   Creature — Giant
-Pow/Tgh:    (4/4)
-Rules Text:     
-Set/Rarity:     Portal Second Age Uncommon
+P/T:    4/4
+S/R:    P2-U
 
 Name:   Obstinate Baloth
 Cost:   2GG
 Type:   Creature — Beast
-Pow/Tgh:    (4/4)
-Rules Text:     When Obstinate Baloth enters the battlefield, you gain 4 life.
+P/T:    4/4
+S/R:    M11-R
+When Obstinate Baloth enters the battlefield, you gain 4 life.
 If a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard.
-Set/Rarity:     Magic 2011 Rare
 
 Name:   Obstinate Familiar
 Cost:   R
 Type:   Creature — Lizard
-Pow/Tgh:    (1/1)
-Rules Text:     If you would draw a card, you may skip that draw instead.
-Set/Rarity:     Odyssey Rare
+P/T:    1/1
+S/R:    OD-R
+If you would draw a card, you may skip that draw instead.
 
 Name:   Obzedat's Aid
 Cost:   3WB
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return target permanent card from your graveyard to the battlefield.
-Set/Rarity:     Dragon's Maze Rare
+S/R:    DGM-R
+Return target permanent card from your graveyard to the battlefield.
 
 Name:   Obzedat, Ghost Council
 Cost:   1WWBB
 Type:   Legendary Creature — Spirit Advisor
-Pow/Tgh:    (5/5)
-Rules Text:     When Obzedat, Ghost Council enters the battlefield, target opponent loses 2 life and you gain 2 life.
+P/T:    5/5
+S/R:    GTC-M
+When Obzedat, Ghost Council enters the battlefield, target opponent loses 2 life and you gain 2 life.
 At the beginning of your end step, you may exile Obzedat. If you do, return it to the battlefield under its owner's control at the beginning of your next upkeep. It gains haste.
-Set/Rarity:     Gatecrash Mythic Rare
 
 Name:   Ocular Halo
 Cost:   3U
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    DIS-C
+Enchant creature
 Enchanted creature has "{T}: Draw a card."
 {W}: Enchanted creature gains vigilance until end of turn.
-Set/Rarity:     Dissension Common
 
 Name:   Oculus
 Cost:   1U
 Type:   Creature — Homunculus
-Pow/Tgh:    (1/1)
-Rules Text:     When Oculus dies, you may draw a card.
-Set/Rarity:     Mirrodin Besieged Common
+P/T:    1/1
+S/R:    MBS-C
+When Oculus dies, you may draw a card.
+
+Name:   Odds
+Cost:   UR
+Type:   Instant
+M-type: Split
+M-card: Ends
+S/R:    DIS-R
+Flip a coin. If it comes up heads, counter target instant or sorcery spell. If it comes up tails, copy that spell and you may choose new targets for the copy.
 
 Name:   Odds // Ends (Ends)
 Cost:   3RW
@@ -351,947 +373,1010 @@ Rules Text:     Flip a coin. If it comes up heads, counter target instant or sor
 Set/Rarity:     Dissension Rare
 
 Name:   Odious Trow
-Cost:   (B/G)
+Cost:   (b/g)
 Type:   Creature — Troll
-Pow/Tgh:    (1/1)
-Rules Text:     {1}{(b/g)}: Regenerate Odious Trow.
-Set/Rarity:     Eventide Common
+P/T:    1/1
+S/R:    EVE-C
+{1}{(b/g)}: Regenerate Odious Trow.
 
 Name:   Odric, Master Tactician
 Cost:   2WW
 Type:   Legendary Creature — Human Soldier
-Pow/Tgh:    (3/4)
-Rules Text:     First strike (This creature deals combat damage before creatures without first strike.)
+P/T:    3/4
+S/R:    M13-R
+First strike (This creature deals combat damage before creatures without first strike.)
 Whenever Odric, Master Tactician and at least three other creatures attack, you choose which creatures block this combat and how those creatures block.
-Set/Rarity:     Magic 2013 Rare
 
 Name:   Odunos River Trawler
 Cost:   2B
 Type:   Creature — Zombie
-Pow/Tgh:    (2/2)
-Rules Text:     When Odunos River Trawler enters the battlefield, return target enchantment creature card from your graveyard to your hand.
+P/T:    2/2
+S/R:    BNG-U
+When Odunos River Trawler enters the battlefield, return target enchantment creature card from your graveyard to your hand.
 {W}, Sacrifice Odunos River Trawler: Return target enchantment creature card from your graveyard to your hand.
-Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Odylic Wraith
 Cost:   3B
 Type:   Creature — Wraith
-Pow/Tgh:    (2/2)
-Rules Text:     Swampwalk
+P/T:    2/2
+S/R:    WL-U
+Swampwalk
 Whenever Odylic Wraith deals damage to a player, that player discards a card.
-Set/Rarity:     Weatherlight Uncommon
 
 Name:   Off Balance
 Cost:   W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature can't attack or block this turn.
-Set/Rarity:     Nemesis Common
+S/R:    NE-C
+Target creature can't attack or block this turn.
 
 Name:   Offalsnout
 Cost:   2B
 Type:   Creature — Elemental
-Pow/Tgh:    (2/2)
-Rules Text:     Flash
+P/T:    2/2
+S/R:    MOR-U
+Flash
 When Offalsnout leaves the battlefield, exile target card from a graveyard.
 Evoke {B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
-Set/Rarity:     Morningtide Uncommon
 
 Name:   Offering to Asha
 Cost:   2WU
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target spell unless its controller pays {4}. You gain 4 life.
-Set/Rarity:     Alara Reborn Common
+S/R:    ARB-C
+Counter target spell unless its controller pays {4}. You gain 4 life.
 
 Name:   Ogre Arsonist
 Cost:   4R
 Type:   Creature — Ogre
-Pow/Tgh:    (3/3)
-Rules Text:     When Ogre Arsonist enters the battlefield, destroy target land.
-Set/Rarity:     Portal Second Age Uncommon
+P/T:    3/3
+S/R:    P2-U
+When Ogre Arsonist enters the battlefield, destroy target land.
 
 Name:   Ogre Battledriver
 Cost:   2RR
 Type:   Creature — Ogre Warrior
-Pow/Tgh:    (3/3)
-Rules Text:     Whenever another creature enters the battlefield under your control, that creature gets +2/+0 and gains haste until end of turn. (It can attack and {T} this turn.)
-Set/Rarity:     Magic 2014 Core Set Rare
+P/T:    3/3
+S/R:    M14-R
+Whenever another creature enters the battlefield under your control, that creature gets +2/+0 and gains haste until end of turn. (It can attack and {T} this turn.)
 
 Name:   Ogre Berserker
 Cost:   4R
 Type:   Creature — Ogre Berserker
-Pow/Tgh:    (4/2)
-Rules Text:     Haste
-Set/Rarity:     Portal Second Age Common
+P/T:    4/2
+S/R:    P2-C
+Haste
 
 Name:   Ogre Enforcer
 Cost:   3RR
 Type:   Creature — Ogre
-Pow/Tgh:    (4/4)
-Rules Text:     Ogre Enforcer can't be destroyed by lethal damage unless lethal damage dealt by a single source is marked on it.
-Set/Rarity:     Visions Rare
+P/T:    4/4
+S/R:    VI-R
+Ogre Enforcer can't be destroyed by lethal damage unless lethal damage dealt by a single source is marked on it.
 
 Name:   Ogre Gatecrasher
 Cost:   3R
 Type:   Creature — Ogre Rogue
-Pow/Tgh:    (3/3)
-Rules Text:     When Ogre Gatecrasher enters the battlefield, destroy target creature with defender.
-Set/Rarity:     Dissension Common
+P/T:    3/3
+S/R:    DIS-C
+When Ogre Gatecrasher enters the battlefield, destroy target creature with defender.
 
 Name:   Ogre Geargrabber
 Cost:   4RR
 Type:   Creature — Ogre Warrior
-Pow/Tgh:    (4/4)
-Rules Text:     Whenever Ogre Geargrabber attacks, gain control of target Equipment an opponent controls until end of turn. Attach it to Ogre Geargrabber. When you lose control of that Equipment, unattach it.
-Set/Rarity:     Scars of Mirrodin Uncommon
+P/T:    4/4
+S/R:    SOM-U
+Whenever Ogre Geargrabber attacks, gain control of target Equipment an opponent controls until end of turn. Attach it to Ogre Geargrabber. When you lose control of that Equipment, unattach it.
 
 Name:   Ogre Jailbreaker
 Cost:   3B
 Type:   Creature — Ogre Rogue
-Pow/Tgh:    (4/4)
-Rules Text:     Defender
+P/T:    4/4
+S/R:    RTR-C
+Defender
 Ogre Jailbreaker can attack as though it didn't have defender as long as you control a Gate.
-Set/Rarity:     Return to Ravnica Common
 
 Name:   Ogre Leadfoot
 Cost:   4R
 Type:   Creature — Ogre
-Pow/Tgh:    (3/3)
-Rules Text:     Whenever Ogre Leadfoot becomes blocked by an artifact creature, destroy that creature.
-Set/Rarity:     Mirrodin Common
+P/T:    3/3
+S/R:    MRD-C
+Whenever Ogre Leadfoot becomes blocked by an artifact creature, destroy that creature.
 
 Name:   Ogre Marauder
 Cost:   1BB
 Type:   Creature — Ogre Warrior
-Pow/Tgh:    (3/1)
-Rules Text:     Whenever Ogre Marauder attacks, it gains "Ogre Marauder can't be blocked" until end of turn unless defending player sacrifices a creature.
-Set/Rarity:     Betrayers of Kamigawa Uncommon
+P/T:    3/1
+S/R:    BOK-U
+Whenever Ogre Marauder attacks, it gains "Ogre Marauder can't be blocked" until end of turn unless defending player sacrifices a creature.
 
 Name:   Ogre Menial
 Cost:   3R
 Type:   Creature — Ogre
-Pow/Tgh:    (0/4)
-Rules Text:     Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
+P/T:    0/4
+S/R:    NPH-C
+Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 {R}: Ogre Menial gets +1/+0 until end of turn.
-Set/Rarity:     New Phyrexia Common
 
 Name:   Ogre Recluse
 Cost:   3R
 Type:   Creature — Ogre Warrior
-Pow/Tgh:    (5/4)
-Rules Text:     Whenever a player casts a spell, tap Ogre Recluse.
-Set/Rarity:     Betrayers of Kamigawa Uncommon
+P/T:    5/4
+S/R:    BOK-U
+Whenever a player casts a spell, tap Ogre Recluse.
 
 Name:   Ogre Resister
 Cost:   2RR
 Type:   Creature — Ogre
-Pow/Tgh:    (4/3)
-Rules Text:     
-Set/Rarity:     Mirrodin Besieged Common
+P/T:    4/3
+S/R:    MBS-C
 
 Name:   Ogre Savant
 Cost:   4R
 Type:   Creature — Ogre Wizard
-Pow/Tgh:    (3/2)
-Rules Text:     When Ogre Savant enters the battlefield, if {U} was spent to cast Ogre Savant, return target creature to its owner's hand.
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Duel Decks: Ajani vs. Nicol Bolas Common, Guildpact Common
+P/T:    3/2
+S/R:    GPT-C
+When Ogre Savant enters the battlefield, if {U} was spent to cast Ogre Savant, return target creature to its owner's hand.
 
 Name:   Ogre Sentry
 Cost:   1R
 Type:   Creature — Ogre Warrior
-Pow/Tgh:    (3/3)
-Rules Text:     Defender
-Set/Rarity:     Rise of the Eldrazi Common
+P/T:    3/3
+S/R:    ROE-C
+Defender
 
 Name:   Ogre Shaman
 Cost:   3RR
 Type:   Creature — Ogre Shaman
-Pow/Tgh:    (3/3)
-Rules Text:     {2}, Discard a card at random: Ogre Shaman deals 2 damage to target creature or player.
-Set/Rarity:     Exodus Rare
+P/T:    3/3
+S/R:    EX-R
+{2}, Discard a card at random: Ogre Shaman deals 2 damage to target creature or player.
 
 Name:   Ogre Slumlord
 Cost:   3BB
 Type:   Creature — Ogre Rogue
-Pow/Tgh:    (3/3)
-Rules Text:     Whenever another nontoken creature dies, you may put a 1/1 black Rat creature token onto the battlefield.
+P/T:    3/3
+S/R:    GTC-R
+Whenever another nontoken creature dies, you may put a 1/1 black Rat creature token onto the battlefield.
 Rats you control have deathtouch.
-Set/Rarity:     Gatecrash Rare
 
 Name:   Ogre Taskmaster
 Cost:   3R
 Type:   Creature — Ogre
-Pow/Tgh:    (4/3)
-Rules Text:     Ogre Taskmaster can't block.
-Set/Rarity:     Masters Edition IV Common, Ninth Edition Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Mercadian Masques Uncommon, Portal Second Age Uncommon
+P/T:    4/3
+S/R:    P2-U, MM-U, 7E-U, 8ED-U, 9ED-U
+Ogre Taskmaster can't block.
 
 Name:   Ogre Warrior
 Cost:   3R
 Type:   Creature — Ogre Warrior
-Pow/Tgh:    (3/3)
-Rules Text:     
-Set/Rarity:     Starter 2000 Common, Starter 1999 Common, Portal Second Age Common
+P/T:    3/3
+S/R:    P2-C, S99-C, S00-C
 
 Name:   Ogre's Cleaver
 Cost:   2
 Type:   Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     Equipped creature gets +5/+0.
+S/R:    ROE-U
+Equipped creature gets +5/+0.
 Equip {5}
-Set/Rarity:     Rise of the Eldrazi Uncommon
 
 Name:   Ohran Viper
 Cost:   1GG
 Type:   Snow Creature — Snake
-Pow/Tgh:    (1/3)
-Rules Text:     Whenever Ohran Viper deals combat damage to a creature, destroy that creature at end of combat.
+P/T:    1/3
+S/R:    CSP-R
+Whenever Ohran Viper deals combat damage to a creature, destroy that creature at end of combat.
 Whenever Ohran Viper deals combat damage to a player, you may draw a card.
-Set/Rarity:     Coldsnap Rare
 
 Name:   Ohran Yeti
 Cost:   3R
 Type:   Snow Creature — Yeti
-Pow/Tgh:    (3/3)
-Rules Text:     {2}{S}: Target snow creature gains first strike until end of turn. ({S} can be paid with one mana from a snow permanent.)
-Set/Rarity:     Coldsnap Common
+P/T:    3/3
+S/R:    CSP-C
+{2}{S}: Target snow creature gains first strike until end of turn. ({S} can be paid with one mana from a snow permanent.)
+
+Name:   Ojutai Exemplars
+Cost:   2WW
+Type:   Creature — Human Monk
+P/T:    4/4
+S/R:    DTK-M
+Whenever you cast a noncreature spell, choose one —
+• Tap target creature.
+• Ojutai Exemplars gains first strike and lifelink until end of turn.
+• Exile Ojutai Exemplars, then return it to the battlefield tapped under its owner's control.
+
+Name:   Ojutai Interceptor
+Cost:   3U
+Type:   Creature — Bird Soldier
+P/T:    3/1
+S/R:    DTK-C
+Flying
+Megamorph {3}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)
+
+Name:   Ojutai Monument
+Cost:   3
+Type:   Artifact
+S/R:    DTK-U
+{T}: Add {W} or {U} to your mana pool.
+{4}{W}{U}: Ojutai Monument becomes a 4/4 white and blue Dragon artifact creature with flying until end of turn.
+
+Name:   Ojutai's Breath
+Cost:   2U
+Type:   Instant
+S/R:    DTK-C
+Tap target creature. It doesn't untap during its controller's next untap step.
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+
+Name:   Ojutai's Command
+Cost:   2WU
+Type:   Instant
+S/R:    DTK-R
+Choose two —
+• Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.
+• You gain 4 life.
+• Counter target creature spell.
+• Draw a card.
+
+Name:   Ojutai's Summons
+Cost:   3UU
+Type:   Sorcery
+S/R:    DTK-C
+Put a 2/2 blue Djinn Monk creature token with flying onto the battlefield.
+Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
+
+Name:   Ojutai, Soul of Winter
+Cost:   5WU
+Type:   Legendary Creature — Dragon
+P/T:    5/6
+S/R:    FRF-R
+Flying, vigilance
+Whenever a Dragon you control attacks, tap target nonland permanent an opponent controls. That permanent doesn't untap during its controller's next untap step.
 
 Name:   Okiba-Gang Shinobi
 Cost:   3BB
 Type:   Creature — Rat Ninja
-Pow/Tgh:    (3/2)
-Rules Text:     Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+P/T:    3/2
+S/R:    BOK-C, PC2-C
+Ninjutsu {3}{B} ({3}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Okiba-Gang Shinobi deals combat damage to a player, that player discards two cards.
-Set/Rarity:     Planechase 2012 Edition Common, Betrayers of Kamigawa Common
 
 Name:   Okina Nightwatch
 Cost:   4G
 Type:   Creature — Human Monk
-Pow/Tgh:    (4/3)
-Rules Text:     As long as you have more cards in hand than each opponent, Okina Nightwatch gets +3/+3.
-Set/Rarity:     Saviors of Kamigawa Common
+P/T:    4/3
+S/R:    SOK-C
+As long as you have more cards in hand than each opponent, Okina Nightwatch gets +3/+3.
 
 Name:   Okina, Temple to the Grandfathers
-Cost:   
 Type:   Legendary Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {G} to your mana pool.
+S/R:    CHK-R
+{T}: Add {G} to your mana pool.
 {G}, {T}: Target legendary creature gets +1/+1 until end of turn.
-Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Okk
 Cost:   1R
 Type:   Creature — Goblin
-Pow/Tgh:    (4/4)
-Rules Text:     Okk can't attack unless a creature with greater power also attacks.
+P/T:    4/4
+S/R:    US-R, 7E-R, 8ED-R
+Okk can't attack unless a creature with greater power also attacks.
 Okk can't block unless a creature with greater power also blocks.
-Set/Rarity:     Eighth Edition Rare, Seventh Edition Rare, Urza's Saga Rare
 
 Name:   Old Ghastbark
-Cost:   3(G/W)(G/W)
+Cost:   3(g/w)(g/w)
 Type:   Creature — Treefolk Warrior
-Pow/Tgh:    (3/6)
-Rules Text:     
-Set/Rarity:     Shadowmoor Common
+P/T:    3/6
+S/R:    SHM-C
 
 Name:   Old Man of the Sea
 Cost:   1UU
 Type:   Creature — Djinn
-Pow/Tgh:    (2/3)
-Rules Text:     You may choose not to untap Old Man of the Sea during your untap step.
+P/T:    2/3
+S/R:    AN-R
+You may choose not to untap Old Man of the Sea during your untap step.
 {T}: Gain control of target creature with power less than or equal to Old Man of the Sea's power for as long as Old Man of the Sea remains tapped and that creature's power remains less than or equal to Old Man of the Sea's power.
-Set/Rarity:     Masters Edition III Rare, Arabian Nights Rare
 
 Name:   Olivia Voldaren
 Cost:   2BR
 Type:   Legendary Creature — Vampire
-Pow/Tgh:    (3/3)
-Rules Text:     Flying
+P/T:    3/3
+S/R:    ISD-M
+Flying
 {1}{R}: Olivia Voldaren deals 1 damage to another target creature. That creature becomes a Vampire in addition to its other types. Put a +1/+1 counter on Olivia Voldaren.
 {3}{B}{B}: Gain control of target Vampire for as long as you control Olivia Voldaren.
-Set/Rarity:     Innistrad Mythic Rare
+
+Name:   Oloro, Ageless Ascetic
+Cost:   3WUB
+Type:   Legendary Creature — Giant Soldier
+P/T:    4/5
+S/R:    C13-M
+At the beginning of your upkeep, you gain 2 life.
+Whenever you gain life, you may pay {1}. If you do, draw a card and each opponent loses 1 life.
+At the beginning of your upkeep, if Oloro, Ageless Ascetic is in the command zone, you gain 2 life.
 
 Name:   Omega Myr
 Cost:   2
 Type:   Artifact Creature — Myr
-Pow/Tgh:    (1/2)
-Rules Text:     
-Set/Rarity:     Mirrodin Common
+P/T:    1/2
+S/R:    MRD-C
 
 Name:   Omen
 Cost:   1U
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Look at the top three cards of your library, then put them back in any order. You may shuffle your library.
+S/R:    P1-C
+Look at the top three cards of your library, then put them back in any order. You may shuffle your library.
 Draw a card.
-Set/Rarity:     Portal Common
 
 Name:   Omen Machine
 Cost:   6
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Players can't draw cards.
+S/R:    NPH-R
+Players can't draw cards.
 At the beginning of each player's draw step, that player exiles the top card of his or her library. If it's a land card, the player puts it onto the battlefield. Otherwise, the player casts it without paying its mana cost if able.
-Set/Rarity:     New Phyrexia Rare
 
 Name:   Omen of Fire
 Cost:   3RR
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Return all Islands to their owners' hands.
-
+S/R:    AI-R
+Return all Islands to their owners' hands.
 Each player sacrifices a Plains or a white permanent for each white permanent he or she controls.
-Set/Rarity:     Alliances Rare
 
 Name:   Omenspeaker
 Cost:   1U
 Type:   Creature — Human Wizard
-Pow/Tgh:    (1/3)
-Rules Text:     When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
-Set/Rarity:     Theros Common
+P/T:    1/3
+S/R:    THS-C
+When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
 
 Name:   Omnath, Locus of Mana
 Cost:   2G
 Type:   Legendary Creature — Elemental
-Pow/Tgh:    (1/1)
-Rules Text:     Green mana doesn't empty from your mana pool as steps and phases end.
+P/T:    1/1
+S/R:    WWK-M
+Green mana doesn't empty from your mana pool as steps and phases end.
 Omnath, Locus of Mana gets +1/+1 for each green mana in your mana pool.
-Set/Rarity:     From the Vault: Legends Mythic Rare, Worldwake Mythic Rare
 
 Name:   Omnibian
 Cost:   1GGU
 Type:   Creature — Frog
-Pow/Tgh:    (3/3)
-Rules Text:     {T}: Target creature becomes a 3/3 Frog until end of turn.
-Set/Rarity:     Dissension Rare
+P/T:    3/3
+S/R:    DIS-R
+{T}: Target creature becomes a Frog with base power and toughness 3/3 until end of turn.
 
 Name:   Omniscience
 Cost:   7UUU
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     You may cast nonland cards from your hand without paying their mana costs.
-Set/Rarity:     Magic 2013 Mythic Rare
+S/R:    M13-M
+You may cast nonland cards from your hand without paying their mana costs.
 
 Name:   Ondu Cleric
 Cost:   1W
 Type:   Creature — Kor Cleric Ally
-Pow/Tgh:    (1/1)
-Rules Text:     Whenever Ondu Cleric or another Ally enters the battlefield under your control, you may gain life equal to the number of Allies you control.
-Set/Rarity:     Zendikar Common
+P/T:    1/1
+S/R:    ZEN-C
+Whenever Ondu Cleric or another Ally enters the battlefield under your control, you may gain life equal to the number of Allies you control.
 
 Name:   Ondu Giant
 Cost:   3G
 Type:   Creature — Giant Druid
-Pow/Tgh:    (2/4)
-Rules Text:     When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
-Set/Rarity:     Planechase 2012 Edition Common, Rise of the Eldrazi Common
+P/T:    2/4
+S/R:    ROE-C, PC2-C
+When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
 
 Name:   One Dozen Eyes
 Cost:   5G
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Choose one — Put a 5/5 green Beast creature token onto the battlefield; or put five 1/1 green Insect creature tokens onto the battlefield.
+S/R:    MRD-U, C13-U
+Choose one —
+• Put a 5/5 green Beast creature token onto the battlefield.
+• Put five 1/1 green Insect creature tokens onto the battlefield.
 Entwine {G}{G}{G} (Choose both if you pay the entwine cost.)
-Set/Rarity:     Mirrodin Uncommon
 
 Name:   One Thousand Lashes
 Cost:   2WB
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    GTC-U
+Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated.
 At the beginning of the upkeep of enchanted creature's controller, that player loses 1 life.
-Set/Rarity:     Gatecrash Uncommon
 
 Name:   One with Nature
 Cost:   G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    SCG-U
+Enchant creature
 Whenever enchanted creature deals combat damage to a player, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.
-Set/Rarity:     Scourge Uncommon
 
 Name:   One with Nothing
 Cost:   B
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Discard your hand.
-Set/Rarity:     Saviors of Kamigawa Rare
+S/R:    SOK-R
+Discard your hand.
 
 Name:   One-Eyed Scarecrow
 Cost:   3
 Type:   Artifact Creature — Scarecrow
-Pow/Tgh:    (2/3)
-Rules Text:     Defender
+P/T:    2/3
+S/R:    ISD-C
+Defender
 Creatures with flying your opponents control get -1/-0.
-Set/Rarity:     Innistrad Common
 
 Name:   Oni Possession
 Cost:   2B
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    CHK-U
+Enchant creature
 At the beginning of your upkeep, sacrifice a creature.
 Enchanted creature gets +3/+3 and has trample.
 Enchanted creature is a Demon Spirit.
-Set/Rarity:     Duel Decks: Divine vs. Demonic Uncommon, Champions of Kamigawa Uncommon
 
 Name:   Oni of Wild Places
 Cost:   5R
 Type:   Creature — Demon Spirit
-Pow/Tgh:    (6/5)
-Rules Text:     Haste
+P/T:    6/5
+S/R:    SOK-U, CMD-U
+Haste
 At the beginning of your upkeep, return a red creature you control to its owner's hand.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Saviors of Kamigawa Uncommon
 
 Name:   Onslaught
 Cost:   R
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever you cast a creature spell, tap target creature.
-Set/Rarity:     Exodus Common
+S/R:    EX-C
+Whenever you cast a creature spell, tap target creature.
 
 Name:   Onulet
 Cost:   3
 Type:   Artifact Creature — Construct
-Pow/Tgh:    (2/2)
-Rules Text:     When Onulet dies, you gain 2 life.
-Set/Rarity:     Masters Edition IV Common, Masters Edition Common, Fourth Edition Rare, Revised Edition Rare, Antiquities Uncommon
+P/T:    2/2
+S/R:    AQ-U, RV-R, 4E-R
+When Onulet dies, you gain 2 life.
 
 Name:   Onyx Goblet
 Cost:   2B
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Target player loses 1 life.
-Set/Rarity:     Shards of Alara Common
+S/R:    ALA-C
+{T}: Target player loses 1 life.
 
 Name:   Onyx Mage
 Cost:   1B
 Type:   Creature — Human Wizard
-Pow/Tgh:    (2/1)
-Rules Text:     {1}{B}: Target creature you control gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
-Set/Rarity:     Magic 2012 Uncommon
+P/T:    2/1
+S/R:    M12-U
+{1}{B}: Target creature you control gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
 
 Name:   Onyx Talisman
 Cost:   2
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Whenever a player casts a black spell, you may pay {3}. If you do, untap target permanent.
-Set/Rarity:     Ice Age Uncommon
+S/R:    IA-U
+Whenever a player casts a black spell, you may pay {3}. If you do, untap target permanent.
 
 Name:   Oona's Blackguard
 Cost:   1B
 Type:   Creature — Faerie Rogue
-Pow/Tgh:    (1/1)
-Rules Text:     Flying
+P/T:    1/1
+S/R:    MOR-U
+Flying
 Each other Rogue creature you control enters the battlefield with an additional +1/+1 counter on it.
 Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, that player discards a card.
-Set/Rarity:     Morningtide Uncommon
 
 Name:   Oona's Gatewarden
-Cost:   (U/B)
+Cost:   (u/b)
 Type:   Creature — Faerie Soldier
-Pow/Tgh:    (2/1)
-Rules Text:     Defender, flying
+P/T:    2/1
+S/R:    SHM-C
+Defender, flying
 Wither (This deals damage to creatures in the form of -1/-1 counters.)
-Set/Rarity:     Shadowmoor Common
 
 Name:   Oona's Grace
 Cost:   2U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target player draws a card.
+S/R:    EVE-C
+Target player draws a card.
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
-Set/Rarity:     Eventide Common
 
 Name:   Oona's Prowler
 Cost:   1B
 Type:   Creature — Faerie Rogue
-Pow/Tgh:    (3/1)
-Rules Text:     Flying
+P/T:    3/1
+S/R:    LRW-R
+Flying
 Discard a card: Oona's Prowler gets -2/-0 until end of turn. Any player may activate this ability.
-Set/Rarity:     Lorwyn Rare
 
 Name:   Oona, Queen of the Fae
-Cost:   3(U/B)(U/B)(U/B)
+Cost:   3(u/b)(u/b)(u/b)
 Type:   Legendary Creature — Faerie Wizard
-Pow/Tgh:    (5/5)
-Rules Text:     Flying
+P/T:    5/5
+S/R:    SHM-R
+Flying
 {X}{(u/b)}: Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, put a 1/1 blue and black Faerie Rogue creature token with flying onto the battlefield.
-Set/Rarity:     Modern Masters Rare, From the Vault: Legends Mythic Rare, Shadowmoor Rare
 
 Name:   Ooze Flux
 Cost:   3G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     {1}{G}, Remove one or more +1/+1 counters from among creatures you control: Put an X/X green Ooze creature token onto the battlefield, where X is the number of +1/+1 counters removed this way.
-Set/Rarity:     Gatecrash Rare
+S/R:    GTC-R
+{1}{G}, Remove one or more +1/+1 counters from among creatures you control: Put an X/X green Ooze creature token onto the battlefield, where X is the number of +1/+1 counters removed this way.
 
 Name:   Ooze Garden
 Cost:   1G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     {1}{G}, Sacrifice a non-Ooze creature: Put an X/X green Ooze creature token onto the battlefield, where X is the sacrificed creature's power. Activate this ability only any time you could cast a sorcery.
-Set/Rarity:     Shards of Alara Rare
+S/R:    ALA-R
+{1}{G}, Sacrifice a non-Ooze creature: Put an X/X green Ooze creature token onto the battlefield, where X is the sacrificed creature's power. Activate this ability only any time you could cast a sorcery.
 
 Name:   Opal Acrolith
 Cost:   2W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever an opponent casts a creature spell, if Opal Acrolith is an enchantment, Opal Acrolith becomes a 2/4 Soldier creature.
+S/R:    US-U
+Whenever an opponent casts a creature spell, if Opal Acrolith is an enchantment, Opal Acrolith becomes a 2/4 Soldier creature.
 {0}: Opal Acrolith becomes an enchantment.
-Set/Rarity:     Urza's Saga Uncommon
 
 Name:   Opal Archangel
 Cost:   4W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When an opponent casts a creature spell, if Opal Archangel is an enchantment, Opal Archangel becomes a 5/5 Angel creature with flying and vigilance.
-Set/Rarity:     Urza's Saga Rare
+S/R:    US-R
+When an opponent casts a creature spell, if Opal Archangel is an enchantment, Opal Archangel becomes a 5/5 Angel creature with flying and vigilance.
 
 Name:   Opal Avenger
 Cost:   2W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When you have 10 or less life, if Opal Avenger is an enchantment, Opal Avenger becomes a 3/5 Soldier creature.
-Set/Rarity:     Urza's Legacy Rare
+S/R:    UL-R
+When you have 10 or less life, if Opal Avenger is an enchantment, Opal Avenger becomes a 3/5 Soldier creature.
 
 Name:   Opal Caryatid
 Cost:   W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When an opponent casts a creature spell, if Opal Caryatid is an enchantment, Opal Caryatid becomes a 2/2 Soldier creature.
-Set/Rarity:     Urza's Saga Common
+S/R:    US-C
+When an opponent casts a creature spell, if Opal Caryatid is an enchantment, Opal Caryatid becomes a 2/2 Soldier creature.
 
 Name:   Opal Champion
 Cost:   2W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When an opponent casts a creature spell, if Opal Champion is an enchantment, Opal Champion becomes a 3/3 Knight creature with first strike.
-Set/Rarity:     Urza's Legacy Common
+S/R:    UL-C
+When an opponent casts a creature spell, if Opal Champion is an enchantment, Opal Champion becomes a 3/3 Knight creature with first strike.
 
 Name:   Opal Gargoyle
 Cost:   1W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When an opponent casts a creature spell, if Opal Gargoyle is an enchantment, Opal Gargoyle becomes a 2/2 Gargoyle creature with flying.
-Set/Rarity:     Urza's Saga Common
+S/R:    US-C
+When an opponent casts a creature spell, if Opal Gargoyle is an enchantment, Opal Gargoyle becomes a 2/2 Gargoyle creature with flying.
 
 Name:   Opal Guardian
 Cost:   WWW
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When an opponent casts a creature spell, if Opal Guardian is an enchantment, Opal Guardian becomes a 3/4 Gargoyle creature with flying and protection from red.
-Set/Rarity:     Time Spiral Rare
+S/R:    TSP-R
+When an opponent casts a creature spell, if Opal Guardian is an enchantment, Opal Guardian becomes a 3/4 Gargoyle creature with flying and protection from red.
 
 Name:   Opal Lake Gatekeepers
 Cost:   3U
 Type:   Creature — Vedalken Soldier
-Pow/Tgh:    (2/4)
-Rules Text:     When Opal Lake Gatekeepers enters the battlefield, if you control two or more Gates, you may draw a card.
-Set/Rarity:     Dragon's Maze Common
+P/T:    2/4
+S/R:    DGM-C
+When Opal Lake Gatekeepers enters the battlefield, if you control two or more Gates, you may draw a card.
+
+Name:   Opal Palace
+Type:   Land
+S/R:    C13-C
+{T}: Add {1} to your mana pool.
+{1}, {T}: Add to your mana pool one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters the battlefield with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game.
 
 Name:   Opal Titan
 Cost:   2WW
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When an opponent casts a creature spell, if Opal Titan is an enchantment, Opal Titan becomes a 4/4 Giant creature with protection from each of that spell's colors.
-Set/Rarity:     Urza's Saga Rare
+S/R:    US-R
+When an opponent casts a creature spell, if Opal Titan is an enchantment, Opal Titan becomes a 4/4 Giant creature with protection from each of that spell's colors.
 
 Name:   Opal-Eye, Konda's Yojimbo
 Cost:   1WW
 Type:   Legendary Creature — Fox Samurai
-Pow/Tgh:    (1/4)
-Rules Text:     Defender (This creature can't attack.)
+P/T:    1/4
+S/R:    BOK-R
+Defender (This creature can't attack.)
 Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
 {T}: The next time a source of your choice would deal damage this turn, that damage is dealt to Opal-Eye, Konda's Yojimbo instead.
 {1}{W}: Prevent the next 1 damage that would be dealt to Opal-Eye this turn.
-Set/Rarity:     Betrayers of Kamigawa Rare
 
 Name:   Opalescence
 Cost:   2WW
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Each other non-Aura enchantment is a creature with power and toughness each equal to its converted mana cost. It's still an enchantment.
-Set/Rarity:     Urza's Destiny Rare
+S/R:    UD-R
+Each other non-Aura enchantment is a creature in addition to its other types and has base power and base toughness each equal to its converted mana cost.
 
 Name:   Opaline Bracers
 Cost:   4
 Type:   Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
+S/R:    5DN-C
+Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
 Equipped creature gets +X/+X, where X is the number of charge counters on Opaline Bracers.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
-Set/Rarity:     Fifth Dawn Common
 
 Name:   Opaline Sliver
 Cost:   1WU
 Type:   Creature — Sliver
-Pow/Tgh:    (2/2)
-Rules Text:     All Slivers have "Whenever this permanent becomes the target of a spell an opponent controls, you may draw a card."
-Set/Rarity:     Time Spiral Uncommon
+P/T:    2/2
+S/R:    TSP-U
+All Slivers have "Whenever this permanent becomes the target of a spell an opponent controls, you may draw a card."
 
 Name:   Opaline Unicorn
 Cost:   3
 Type:   Artifact Creature — Unicorn
-Pow/Tgh:    (1/2)
-Rules Text:     {T}: Add one mana of any color to your mana pool.
-Set/Rarity:     Theros Common
+P/T:    1/2
+S/R:    THS-C
+{T}: Add one mana of any color to your mana pool.
 
 Name:   Open the Vaults
 Cost:   4WW
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Return all artifact and enchantment cards from all graveyards to the battlefield under their owners' control. (Auras with nothing to enchant remain in graveyards.)
-Set/Rarity:     Magic 2010 Rare
+S/R:    M10-R
+Return all artifact and enchantment cards from all graveyards to the battlefield under their owners' control. (Auras with nothing to enchant remain in graveyards.)
 
 Name:   Ophidian
 Cost:   2U
 Type:   Creature — Snake
-Pow/Tgh:    (1/3)
-Rules Text:     Whenever Ophidian attacks and isn't blocked, you may draw a card. If you do, Ophidian assigns no combat damage this turn.
-Set/Rarity:     Duel Decks: Jace vs. Chandra Common, Weatherlight Common
+P/T:    1/3
+S/R:    WL-C
+Whenever Ophidian attacks and isn't blocked, you may draw a card. If you do, Ophidian assigns no combat damage this turn.
 
 Name:   Ophidian Eye
 Cost:   2U
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Flash (You may cast this spell any time you could cast an instant.)
+S/R:    TSP-C
+Flash (You may cast this spell any time you could cast an instant.)
 Enchant creature
 Whenever enchanted creature deals damage to an opponent, you may draw a card.
-Set/Rarity:     Time Spiral Common
+
+Name:   Ophiomancer
+Cost:   2B
+Type:   Creature — Human Shaman
+P/T:    2/2
+S/R:    C13-R
+At the beginning of each upkeep, if you control no Snakes, put a 1/1 black Snake creature token with deathtouch onto the battlefield.
 
 Name:   Opportunist
 Cost:   2R
 Type:   Creature — Human Soldier
-Pow/Tgh:    (2/2)
-Rules Text:     {T}: Opportunist deals 1 damage to target creature that was dealt damage this turn.
-Set/Rarity:     Tempest Uncommon
+P/T:    2/2
+S/R:    TE-U
+{T}: Opportunist deals 1 damage to target creature that was dealt damage this turn.
 
 Name:   Opportunity
 Cost:   4UU
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target player draws four cards.
-Set/Rarity:     Magic 2014 Core Set Uncommon, Seventh Edition Uncommon, Battle Royale Box Set Uncommon, Urza's Legacy Uncommon
+S/R:    UL-U, 7E-U, M14-U, C13-U
+Target player draws four cards.
 
 Name:   Opposition
 Cost:   2UU
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Tap an untapped creature you control: Tap target artifact, creature, or land.
-Set/Rarity:     Seventh Edition Rare, Urza's Destiny Rare
+S/R:    UD-R, 7E-R
+Tap an untapped creature you control: Tap target artifact, creature, or land.
 
 Name:   Oppression
 Cost:   1BB
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a player casts a spell, that player discards a card.
-Set/Rarity:     Seventh Edition Rare, Urza's Saga Rare
+S/R:    US-R, 7E-R
+Whenever a player casts a spell, that player discards a card.
+
+Name:   Oppressive Rays
+Cost:   W
+Type:   Enchantment — Aura
+S/R:    JOU-C, M15-C
+Enchant creature
+Enchanted creature can't attack or block unless its controller pays {3}.
+Activated abilities of enchanted creature cost {3} more to activate.
 
 Name:   Oppressive Will
 Cost:   2U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target spell unless its controller pays {1} for each card in your hand.
-Set/Rarity:     Saviors of Kamigawa Common
+S/R:    SOK-C
+Counter target spell unless its controller pays {1} for each card in your hand.
 
 Name:   Opt
 Cost:   U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Look at the top card of your library. You may put that card on the bottom of your library.
-
+S/R:    IN-C
+Look at the top card of your library. You may put that card on the bottom of your library.
 Draw a card.
-Set/Rarity:     Invasion Common
+
+Name:   Opulent Palace
+Type:   Land
+S/R:    KTK-U
+Opulent Palace enters the battlefield tapped.
+{T}: Add {B}, {G}, or {U} to your mana pool.
 
 Name:   Oracle en-Vec
 Cost:   1W
 Type:   Creature — Human Wizard
-Pow/Tgh:    (1/1)
-Rules Text:     {T}: Target opponent chooses any number of creatures he or she controls. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack. Activate this ability only during your turn.
-Set/Rarity:     Tempest Rare
+P/T:    1/1
+S/R:    TE-R
+{T}: Target opponent chooses any number of creatures he or she controls. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack. Activate this ability only during your turn.
 
 Name:   Oracle of Bones
 Cost:   2RR
 Type:   Creature — Minotaur Shaman
-Pow/Tgh:    (3/1)
-Rules Text:     Haste
+P/T:    3/1
+S/R:    BNG-R
+Haste
 Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
 When Oracle of Bones enters the battlefield, if tribute wasn't paid, you may cast an instant or sorcery card from your hand without paying its mana cost.
-Set/Rarity:     Born of the Gods Rare
 
 Name:   Oracle of Mul Daya
 Cost:   3G
 Type:   Creature — Elf Shaman
-Pow/Tgh:    (2/2)
-Rules Text:     You may play an additional land on each of your turns.
+P/T:    2/2
+S/R:    ZEN-R
+You may play an additional land on each of your turns.
 Play with the top card of your library revealed.
 You may play the top card of your library if it's a land card.
-Set/Rarity:     Zendikar Rare
 
 Name:   Oracle of Nectars
-Cost:   2(G/W)
+Cost:   2(g/w)
 Type:   Creature — Elf Cleric
-Pow/Tgh:    (2/2)
-Rules Text:     {X}, {T}: You gain X life.
-Set/Rarity:     Shadowmoor Rare
+P/T:    2/2
+S/R:    SHM-R
+{X}, {T}: You gain X life.
 
 Name:   Oracle's Attendants
 Cost:   3W
 Type:   Creature — Human Soldier
-Pow/Tgh:    (1/5)
-Rules Text:     {T}: All damage that would be dealt to target creature this turn by a source of your choice is dealt to Oracle's Attendants instead.
-Set/Rarity:     Ninth Edition Rare, Eighth Edition Rare, Nemesis Rare
+P/T:    1/5
+S/R:    NE-R, 8ED-R, 9ED-R
+{T}: All damage that would be dealt to target creature this turn by a source of your choice is dealt to Oracle's Attendants instead.
 
 Name:   Oracle's Insight
 Cost:   3U
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    BNG-U
+Enchant creature
 Enchanted creature has "{T}: Scry 1, then draw a card." (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)
-Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Oran-Rief Recluse
 Cost:   2G
 Type:   Creature — Spider
-Pow/Tgh:    (1/3)
-Rules Text:     Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
+P/T:    1/3
+S/R:    ZEN-C
+Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 Reach (This creature can block creatures with flying.)
 When Oran-Rief Recluse enters the battlefield, if it was kicked, destroy target creature with flying.
-Set/Rarity:     Zendikar Common
 
 Name:   Oran-Rief Survivalist
 Cost:   1G
 Type:   Creature — Human Warrior Ally
-Pow/Tgh:    (1/1)
-Rules Text:     Whenever Oran-Rief Survivalist or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Oran-Rief Survivalist.
-Set/Rarity:     Zendikar Common
+P/T:    1/1
+S/R:    ZEN-C
+Whenever Oran-Rief Survivalist or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Oran-Rief Survivalist.
 
 Name:   Oran-Rief, the Vastwood
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     Oran-Rief, the Vastwood enters the battlefield tapped.
+S/R:    ZEN-R, C14-R
+Oran-Rief, the Vastwood enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 {T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn.
-Set/Rarity:     Zendikar Rare
+
+Name:   Orator of Ojutai
+Cost:   1W
+Type:   Creature — Bird Monk
+P/T:    0/4
+S/R:    DTK-U
+As an additional cost to cast Orator of Ojutai, you may reveal a Dragon card from your hand.
+Defender, flying
+When Orator of Ojutai enters the battlefield, if you revealed a Dragon card or controlled a Dragon as you cast Orator of Ojutai, draw a card.
 
 Name:   Oraxid
 Cost:   3U
 Type:   Creature — Crab Beast
-Pow/Tgh:    (2/3)
-Rules Text:     Protection from red
-Set/Rarity:     Nemesis Common
+P/T:    2/3
+S/R:    NE-C
+Protection from red
 
 Name:   Orb of Dreams
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Permanents enter the battlefield tapped.
-Set/Rarity:     Betrayers of Kamigawa Rare
+S/R:    BOK-R
+Permanents enter the battlefield tapped.
 
 Name:   Orbweaver Kumo
 Cost:   4GG
 Type:   Creature — Spirit
-Pow/Tgh:    (3/4)
-Rules Text:     Reach (This creature can block creatures with flying.)
+P/T:    3/4
+S/R:    CHK-U
+Reach (This creature can block creatures with flying.)
 Whenever you cast a Spirit or Arcane spell, Orbweaver Kumo gains forestwalk until end of turn.
-Set/Rarity:     Champions of Kamigawa Uncommon
 
 Name:   Orc General
 Cost:   2R
 Type:   Creature — Orc Warrior
-Pow/Tgh:    (2/2)
-Rules Text:     {T}, Sacrifice another Orc or Goblin: Other Orc creatures get +1/+1 until end of turn.
-Set/Rarity:     Masters Edition II Uncommon, The Dark Uncommon
+P/T:    2/2
+S/R:    DK-U
+{T}, Sacrifice another Orc or Goblin: Other Orc creatures get +1/+1 until end of turn.
+
+Name:   Orc Sureshot
+Cost:   3B
+Type:   Creature — Orc Archer
+P/T:    4/2
+S/R:    FRF-U
+Whenever another creature enters the battlefield under your control, target creature an opponent controls gets -1/-1 until end of turn.
 
 Name:   Orchard Spirit
 Cost:   2G
 Type:   Creature — Spirit
-Pow/Tgh:    (2/2)
-Rules Text:     Orchard Spirit can't be blocked except by creatures with flying or reach.
-Set/Rarity:     Innistrad Common
+P/T:    2/2
+S/R:    ISD-C
+Orchard Spirit can't be blocked except by creatures with flying or reach.
 
 Name:   Orchard Warden
 Cost:   4GG
 Type:   Creature — Treefolk Shaman
-Pow/Tgh:    (4/6)
-Rules Text:     Whenever another Treefolk creature enters the battlefield under your control, you may gain life equal to that creature's toughness.
-Set/Rarity:     Morningtide Uncommon
+P/T:    4/6
+S/R:    MOR-U
+Whenever another Treefolk creature enters the battlefield under your control, you may gain life equal to that creature's toughness.
 
 Name:   Orcish Artillery
 Cost:   1RR
 Type:   Creature — Orc Warrior
-Pow/Tgh:    (1/3)
-Rules Text:     {T}: Orcish Artillery deals 2 damage to target creature or player and 3 damage to you.
-Set/Rarity:     Tenth Edition Uncommon, Ninth Edition Uncommon, Eighth Edition Uncommon, Seventh Edition Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+P/T:    1/3
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, 6E-U, 7E-U, 8ED-U, 9ED-U, 10E-U
+{T}: Orcish Artillery deals 2 damage to target creature or player and 3 damage to you.
 
 Name:   Orcish Bloodpainter
 Cost:   2R
 Type:   Creature — Orc Shaman
-Pow/Tgh:    (2/1)
-Rules Text:     {T}, Sacrifice a creature: Orcish Bloodpainter deals 1 damage to target creature or player.
-Set/Rarity:     Coldsnap Common
+P/T:    2/1
+S/R:    CSP-C
+{T}, Sacrifice a creature: Orcish Bloodpainter deals 1 damage to target creature or player.
 
 Name:   Orcish Cannonade
 Cost:   1RR
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Orcish Cannonade deals 2 damage to target creature or player and 3 damage to you.
+S/R:    TSP-C, CNS-C
+Orcish Cannonade deals 2 damage to target creature or player and 3 damage to you.
 Draw a card.
-Set/Rarity:     Time Spiral Common
 
 Name:   Orcish Cannoneers
 Cost:   1RR
 Type:   Creature — Orc Warrior
-Pow/Tgh:    (1/3)
-Rules Text:     {T}: Orcish Cannoneers deals 2 damage to target creature or player and 3 damage to you.
-Set/Rarity:     Masters Edition II Uncommon, Ice Age Uncommon
+P/T:    1/3
+S/R:    IA-U
+{T}: Orcish Cannoneers deals 2 damage to target creature or player and 3 damage to you.
 
 Name:   Orcish Captain
 Cost:   R
 Type:   Creature — Orc Warrior
-Pow/Tgh:    (1/1)
-Rules Text:     {1}: Flip a coin. If you win the flip, target Orc creature gets +2/+0 until end of turn. If you lose the flip, it gets -0/-2 until end of turn.
-Set/Rarity:     Masters Edition II Uncommon, Fifth Edition Uncommon, Fallen Empires Uncommon
+P/T:    1/1
+S/R:    FE-U, 5E-U
+{1}: Flip a coin. If you win the flip, target Orc creature gets +2/+0 until end of turn. If you lose the flip, it gets -0/-2 until end of turn.
 
 Name:   Orcish Conscripts
 Cost:   R
 Type:   Creature — Orc
-Pow/Tgh:    (2/2)
-Rules Text:     Orcish Conscripts can't attack unless at least two other creatures attack.
-
+P/T:    2/2
+S/R:    IA-C, 5E-C
+Orcish Conscripts can't attack unless at least two other creatures attack.
 Orcish Conscripts can't block unless at least two other creatures block.
-Set/Rarity:     Masters Edition II Common, Fifth Edition Common, Ice Age Common
 
 Name:   Orcish Farmer
 Cost:   1RR
 Type:   Creature — Orc
-Pow/Tgh:    (2/2)
-Rules Text:     {T}: Target land becomes a Swamp until its controller's next untap step.
-Set/Rarity:     Masters Edition II Common, Fifth Edition Common, Ice Age Common
+P/T:    2/2
+S/R:    IA-C, 5E-C
+{T}: Target land becomes a Swamp until its controller's next untap step.
 
 Name:   Orcish Healer
 Cost:   RR
 Type:   Creature — Orc Cleric
-Pow/Tgh:    (1/1)
-Rules Text:     {R}{R}, {T}: Target creature can't be regenerated this turn.
+P/T:    1/1
+S/R:    IA-U
+{R}{R}, {T}: Target creature can't be regenerated this turn.
 {B}{B}{R}, {T}: Regenerate target black or green creature.
 {R}{G}{G}, {T}: Regenerate target black or green creature.
-Set/Rarity:     Ice Age Uncommon
 
 Name:   Orcish Librarian
 Cost:   1R
 Type:   Creature — Orc
-Pow/Tgh:    (1/1)
-Rules Text:     {R}, {T}: Look at the top eight cards of your library. Exile four of them at random, then put the rest on top of your library in any order.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Ice Age Rare
+P/T:    1/1
+S/R:    IA-R, TSP-S
+{R}, {T}: Look at the top eight cards of your library. Exile four of them at random, then put the rest on top of your library in any order.
 
 Name:   Orcish Lumberjack
 Cost:   R
 Type:   Creature — Orc
-Pow/Tgh:    (1/1)
-Rules Text:     {T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G} to your mana pool.
-Set/Rarity:     Duel Decks: Heroes vs. Monsters Common, Masters Edition II Common, Ice Age Common
+P/T:    1/1
+S/R:    IA-C
+{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G} to your mana pool.
 
 Name:   Orcish Mechanics
 Cost:   2R
 Type:   Creature — Orc
-Pow/Tgh:    (1/1)
-Rules Text:     {T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to target creature or player.
-Set/Rarity:     Masters Edition IV Uncommon, Masters Edition Uncommon, Antiquities Common
+P/T:    1/1
+S/R:    AQ-C
+{T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to target creature or player.
 
 Name:   Orcish Mine
 Cost:   1RR
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant land
+S/R:    HL-U
+Enchant land
 Orcish Mine enters the battlefield with three ore counters on it.
 At the beginning of your upkeep or whenever enchanted land becomes tapped, remove an ore counter from Orcish Mine.
 When the last ore counter is removed from Orcish Mine, destroy enchanted land and Orcish Mine deals 2 damage to that land's controller.
-Set/Rarity:     Homelands Uncommon
 
 Name:   Orcish Oriflamme
 Cost:   3R
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Attacking creatures you control get +1/+0.
-Set/Rarity:     Seventh Edition Uncommon, Starter 2000 Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Unlimited Edition Uncommon, Limited Edition Beta Uncommon, Limited Edition Alpha Uncommon
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, 6E-U, S00-U, 7E-U
+Attacking creatures you control get +1/+0.
 
 Name:   Orcish Settlers
 Cost:   1R
 Type:   Creature — Orc
-Pow/Tgh:    (1/1)
-Rules Text:     {X}{X}{R}, {T}, Sacrifice Orcish Settlers: Destroy X target lands.
-Set/Rarity:     Weatherlight Uncommon
+P/T:    1/1
+S/R:    WL-U
+{X}{X}{R}, {T}, Sacrifice Orcish Settlers: Destroy X target lands.
 
 Name:   Orcish Spy
 Cost:   R
 Type:   Creature — Orc Rogue
-Pow/Tgh:    (1/1)
-Rules Text:     {T}: Look at the top three cards of target player's library.
-Set/Rarity:     Eighth Edition Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+P/T:    1/1
+S/R:    FE-C, 8ED-C
+{T}: Look at the top three cards of target player's library.
 
 Name:   Orcish Squatters
 Cost:   4R
 Type:   Creature — Orc
-Pow/Tgh:    (2/3)
-Rules Text:     Whenever Orcish Squatters attacks and isn't blocked, you may gain control of target land defending player controls for as long as you control Orcish Squatters. If you do, Orcish Squatters assigns no combat damage this turn.
-Set/Rarity:     Masters Edition II Rare, Fifth Edition Rare, Ice Age Rare
+P/T:    2/3
+S/R:    IA-R, 5E-R
+Whenever Orcish Squatters attacks and isn't blocked, you may gain control of target land defending player controls for as long as you control Orcish Squatters. If you do, Orcish Squatters assigns no combat damage this turn.
 
 Name:   Orcish Veteran
 Cost:   2R
 Type:   Creature — Orc
-Pow/Tgh:    (2/2)
-Rules Text:     Orcish Veteran can't block white creatures with power 2 or greater.
+P/T:    2/2
+S/R:    FE-C
+Orcish Veteran can't block white creatures with power 2 or greater.
 {R}: Orcish Veteran gains first strike until end of turn.
-Set/Rarity:     Masters Edition II Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
 
 Name:   Ordeal of Erebos
 Cost:   1B
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    THS-U
+Enchant creature
 Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Erebos.
 When you sacrifice Ordeal of Erebos, target player discards two cards.
-Set/Rarity:     Theros Uncommon
 
 Name:   Ordeal of Heliod
 Cost:   1W
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    THS-U
+Enchant creature
 Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Heliod.
 When you sacrifice Ordeal of Heliod, you gain 10 life.
-Set/Rarity:     Theros Uncommon
 
 Name:   Ordeal of Nylea
 Cost:   1G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    THS-U
+Enchant creature
 Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Nylea.
 When you sacrifice Ordeal of Nylea, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
-Set/Rarity:     Theros Uncommon
 
 Name:   Ordeal of Purphoros
 Cost:   1R
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    THS-U
+Enchant creature
 Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Purphoros.
 When you sacrifice Ordeal of Purphoros, it deals 3 damage to target creature or player.
-Set/Rarity:     Theros Uncommon
 
 Name:   Ordeal of Thassa
 Cost:   1U
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    THS-U
+Enchant creature
 Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Thassa.
 When you sacrifice Ordeal of Thassa, draw two cards.
-Set/Rarity:     Theros Uncommon
+
+Name:   Order
+Cost:   3W
+Type:   Instant
+M-type: Split
+M-card: Chaos
+S/R:    AP-U, HOP-U
+Exile target attacking creature.
 
 Name:   Order // Chaos (Chaos)
 Cost:   2R
@@ -1310,218 +1395,222 @@ Set/Rarity:     Planechase Uncommon, Apocalypse Uncommon, Apocalypse Uncommon
 Name:   Order of Leitbur
 Cost:   WW
 Type:   Creature — Human Cleric Knight
-Pow/Tgh:    (2/1)
-Rules Text:     Protection from black
+P/T:    2/1
+S/R:    FE-C
+Protection from black
 {W}: Order of Leitbur gains first strike until end of turn.
 {W}{W}: Order of Leitbur gets +1/+0 until end of turn.
-Set/Rarity:     Masters Edition Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
+
+Name:   Order of Succession
+Cost:   3U
+Type:   Sorcery
+S/R:    C13-R
+Choose left or right. Starting with you and proceeding in the chosen direction, each player chooses a creature controlled by the next player in that direction. Each player gains control of the creature he or she chose.
 
 Name:   Order of Whiteclay
 Cost:   1WW
 Type:   Creature — Kithkin Cleric
-Pow/Tgh:    (1/4)
-Rules Text:     {1}{W}{W}, {Q}: Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield. ({Q} is the untap symbol.)
-Set/Rarity:     Shadowmoor Rare
+P/T:    1/4
+S/R:    SHM-R
+{1}{W}{W}, {Q}: Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield. ({Q} is the untap symbol.)
 
 Name:   Order of Yawgmoth
 Cost:   2BB
 Type:   Creature — Zombie Knight
-Pow/Tgh:    (2/2)
-Rules Text:     Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
+P/T:    2/2
+S/R:    US-U
+Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 Whenever Order of Yawgmoth deals damage to a player, that player discards a card.
-Set/Rarity:     Duel Decks: Phyrexia vs. the Coalition Uncommon, Urza's Saga Uncommon
 
 Name:   Order of the Ebon Hand
 Cost:   BB
 Type:   Creature — Cleric Knight
-Pow/Tgh:    (2/1)
-Rules Text:     Protection from white
+P/T:    2/1
+S/R:    FE-C
+Protection from white
 {B}: Order of the Ebon Hand gains first strike until end of turn.
 {B}{B}: Order of the Ebon Hand gets +1/+0 until end of turn.
-Set/Rarity:     Masters Edition Common, Fallen Empires Common, Fallen Empires Common, Fallen Empires Common
 
 Name:   Order of the Golden Cricket
 Cost:   1W
 Type:   Creature — Kithkin Knight
-Pow/Tgh:    (2/2)
-Rules Text:     Whenever Order of the Golden Cricket attacks, you may pay {W}. If you do, it gains flying until end of turn.
-Set/Rarity:     Morningtide Common
+P/T:    2/2
+S/R:    MOR-C
+Whenever Order of the Golden Cricket attacks, you may pay {W}. If you do, it gains flying until end of turn.
 
 Name:   Order of the Sacred Bell
 Cost:   3G
 Type:   Creature — Human Monk
-Pow/Tgh:    (4/3)
-Rules Text:     
-Set/Rarity:     Ninth Edition Common, Champions of Kamigawa Common
+P/T:    4/3
+S/R:    CHK-C, 9ED-C
 
 Name:   Order of the Sacred Torch
 Cost:   1WW
 Type:   Creature — Human Knight
-Pow/Tgh:    (2/2)
-Rules Text:     {T}, Pay 1 life: Counter target black spell.
-Set/Rarity:     Masters Edition II Rare, Classic Sixth Edition Rare, Fifth Edition Rare, Ice Age Rare
+P/T:    2/2
+S/R:    IA-R, 5E-R, 6E-R
+{T}, Pay 1 life: Counter target black spell.
 
 Name:   Order of the Stars
 Cost:   W
 Type:   Creature — Human Cleric
-Pow/Tgh:    (0/1)
-Rules Text:     Defender (This creature can't attack.)
+P/T:    0/1
+S/R:    GPT-U
+Defender (This creature can't attack.)
 As Order of the Stars enters the battlefield, choose a color.
 Order of the Stars has protection from the chosen color.
-Set/Rarity:     Guildpact Uncommon
 
 Name:   Order of the White Shield
 Cost:   WW
 Type:   Creature — Human Knight
-Pow/Tgh:    (2/1)
-Rules Text:     Protection from black
+P/T:    2/1
+S/R:    IA-U, 5E-U
+Protection from black
 {W}: Order of the White Shield gains first strike until end of turn.
 {W}{W}: Order of the White Shield gets +1/+0 until end of turn.
-Set/Rarity:     Masters Edition II Uncommon, Fifth Edition Uncommon, Ice Age Uncommon
 
 Name:   Ordered Migration
 Cost:   3WU
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Domain — Put a 1/1 blue Bird creature token with flying onto the battlefield for each basic land type among lands you control.
-Set/Rarity:     Invasion Uncommon
+S/R:    IN-U
+Domain — Put a 1/1 blue Bird creature token with flying onto the battlefield for each basic land type among lands you control.
 
 Name:   Ordruun Commando
 Cost:   3R
 Type:   Creature — Minotaur Soldier
-Pow/Tgh:    (4/1)
-Rules Text:     {W}: Prevent the next 1 damage that would be dealt to Ordruun Commando this turn.
-Set/Rarity:     Ravnica: City of Guilds Common
+P/T:    4/1
+S/R:    RAV-C
+{W}: Prevent the next 1 damage that would be dealt to Ordruun Commando this turn.
 
 Name:   Ordruun Veteran
 Cost:   2RW
 Type:   Creature — Minotaur Soldier
-Pow/Tgh:    (3/1)
-Rules Text:     Battalion — Whenever Ordruun Veteran and at least two other creatures attack, Ordruun Veteran gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
-Set/Rarity:     Gatecrash Uncommon
+P/T:    3/1
+S/R:    GTC-U
+Battalion — Whenever Ordruun Veteran and at least two other creatures attack, Ordruun Veteran gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 
 Name:   Ore Gorger
 Cost:   3RR
 Type:   Creature — Spirit
-Pow/Tgh:    (3/1)
-Rules Text:     Whenever you cast a Spirit or Arcane spell, you may destroy target nonbasic land.
-Set/Rarity:     Champions of Kamigawa Uncommon
+P/T:    3/1
+S/R:    CHK-U
+Whenever you cast a Spirit or Arcane spell, you may destroy target nonbasic land.
 
 Name:   Oreskos Sun Guide
 Cost:   1W
 Type:   Creature — Cat Monk
-Pow/Tgh:    (2/2)
-Rules Text:     Inspired — Whenever Oreskos Sun Guide becomes untapped, you gain 2 life.
-Set/Rarity:     Born of the Gods Common
+P/T:    2/2
+S/R:    BNG-C
+Inspired — Whenever Oreskos Sun Guide becomes untapped, you gain 2 life.
+
+Name:   Oreskos Swiftclaw
+Cost:   1W
+Type:   Creature — Cat Warrior
+P/T:    3/1
+S/R:    JOU-C, M15-C
 
 Name:   Organ Grinder
 Cost:   2B
 Type:   Creature — Zombie
-Pow/Tgh:    (3/1)
-Rules Text:     {T}, Exile three cards from your graveyard: Target player loses 3 life.
-Set/Rarity:     Torment Common
+P/T:    3/1
+S/R:    TOR-C
+{T}, Exile three cards from your graveyard: Target player loses 3 life.
 
 Name:   Orgg
 Cost:   3RR
 Type:   Creature — Orgg
-Pow/Tgh:    (6/6)
-Rules Text:     Trample
+P/T:    6/6
+S/R:    FE-R, 5E-R, TSP-S
+Trample
 Orgg can't attack if defending player controls an untapped creature with power 3 or greater.
 Orgg can't block creatures with power 3 or greater.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Fifth Edition Rare, Fallen Empires Rare
 
 Name:   Origin Spellbomb
 Cost:   1
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {1}, {T}, Sacrifice Origin Spellbomb: Put a 1/1 colorless Myr artifact creature token onto the battlefield.
+S/R:    SOM-C
+{1}, {T}, Sacrifice Origin Spellbomb: Put a 1/1 colorless Myr artifact creature token onto the battlefield.
 When Origin Spellbomb is put into a graveyard from the battlefield, you may pay {W}. If you do, draw a card.
-Set/Rarity:     Scars of Mirrodin Common
 
 Name:   Orim's Chant
 Cost:   W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Kicker {W} (You may pay an additional {W} as you cast this spell.)
+S/R:    PS-R
+Kicker {W} (You may pay an additional {W} as you cast this spell.)
 Target player can't cast spells this turn.
 If Orim's Chant was kicked, creatures can't attack this turn.
-Set/Rarity:     Planeshift Rare
 
 Name:   Orim's Cure
 Cost:   1W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     If you control a Plains, you may tap an untapped creature you control rather than pay Orim's Cure's mana cost.
+S/R:    MM-C
+If you control a Plains, you may tap an untapped creature you control rather than pay Orim's Cure's mana cost.
 Prevent the next 4 damage that would be dealt to target creature or player this turn.
-Set/Rarity:     Mercadian Masques Common
 
 Name:   Orim's Prayer
 Cost:   1WW
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever one or more creatures attack you, you gain 1 life for each attacking creature.
-Set/Rarity:     Tempest Uncommon
+S/R:    TE-U
+Whenever one or more creatures attack you, you gain 1 life for each attacking creature.
 
 Name:   Orim's Thunder
 Cost:   2W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Kicker {R} (You may pay an additional {R} as you cast this spell.)
+S/R:    AP-C, CMD-C, HOP-C
+Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Destroy target artifact or enchantment. If Orim's Thunder was kicked, it deals damage equal to that permanent's converted mana cost to target creature.
-Set/Rarity:     Magic: The Gathering-Commander Common, Planechase Common, Apocalypse Common
 
 Name:   Orim's Touch
 Cost:   W
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Kicker {1} (You may pay an additional {1} as you cast this spell.)
+S/R:    IN-C
+Kicker {1} (You may pay an additional {1} as you cast this spell.)
 Prevent the next 2 damage that would be dealt to target creature or player this turn. If Orim's Touch was kicked, prevent the next 4 damage that would be dealt to that creature or player this turn instead.
-Set/Rarity:     Invasion Common
 
 Name:   Orim, Samite Healer
 Cost:   1WW
 Type:   Legendary Creature — Human Cleric
-Pow/Tgh:    (1/3)
-Rules Text:     {T}: Prevent the next 3 damage that would be dealt to target creature or player this turn.
-Set/Rarity:     Tempest Rare
+P/T:    1/3
+S/R:    TE-R
+{T}: Prevent the next 3 damage that would be dealt to target creature or player this turn.
 
 Name:   Oriss, Samite Guardian
 Cost:   1WW
 Type:   Legendary Creature — Human Cleric
-Pow/Tgh:    (1/3)
-Rules Text:     {T}: Prevent all damage that would be dealt to target creature this turn.
+P/T:    1/3
+S/R:    FUT-R
+{T}: Prevent all damage that would be dealt to target creature this turn.
 Grandeur — Discard another card named Oriss, Samite Guardian: Target player can't cast spells this turn, and creatures that player controls can't attack this turn.
-Set/Rarity:     Future Sight Rare
 
 Name:   Ornate Kanzashi
 Cost:   5
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {2}, {T}: Target opponent exiles the top card of his or her library. You may play that card this turn.
-Set/Rarity:     Betrayers of Kamigawa Rare
+S/R:    BOK-R
+{2}, {T}: Target opponent exiles the top card of his or her library. You may play that card this turn.
 
 Name:   Ornitharch
 Cost:   3WW
 Type:   Creature — Archon
-Pow/Tgh:    (3/3)
-Rules Text:     Flying
+P/T:    3/3
+S/R:    BNG-U
+Flying
 Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
 When Ornitharch enters the battlefield, if tribute wasn't paid, put two 1/1 white Bird creature tokens with flying onto the battlefield.
-Set/Rarity:     Born of the Gods Uncommon
 
 Name:   Ornithopter
 Cost:   0
 Type:   Artifact Creature — Thopter
-Pow/Tgh:    (0/2)
-Rules Text:     Flying
-Set/Rarity:     Magic 2011 Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Ninth Edition Uncommon, Mirrodin Uncommon, Classic Sixth Edition Uncommon, Fifth Edition Uncommon, Fourth Edition Uncommon, Revised Edition Uncommon, Antiquities Common
+P/T:    0/2
+S/R:    AQ-C, RV-U, 4E-U, 5E-U, 6E-U, MRD-U, 9ED-U, 10E-U, M10-U, M11-U, M15-C
+Flying (This creature can't be blocked except by creatures with flying or reach.)
 
 Name:   Orochi Eggwatcher
 Cost:   2G
 Type:   Creature — Snake Shaman
-Pow/Tgh:    (1/1)
-Rules Text:     {2}{G}, {T}: Put a 1/1 green Snake creature token onto the battlefield. If you control ten or more creatures, flip Orochi Eggwatcher.
-Set/Rarity:     Champions of Kamigawa Uncommon
+P/T:    1/1
+M-type: Flip
+S/R:    CHK-U
+{2}{G}, {T}: Put a 1/1 green Snake creature token onto the battlefield. If you control ten or more creatures, flip Orochi Eggwatcher.
 
 Name:   Orochi Eggwatcher (Shidako, Broodmistress)
 Cost:   2G
@@ -1533,457 +1622,439 @@ Set/Rarity:     Champions of Kamigawa Uncommon
 Name:   Orochi Hatchery
 Cost:   XX
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     Orochi Hatchery enters the battlefield with X charge counters on it.
+S/R:    CHK-R
+Orochi Hatchery enters the battlefield with X charge counters on it.
 {5}, {T}: Put a 1/1 green Snake creature token onto the battlefield for each charge counter on Orochi Hatchery.
-Set/Rarity:     Champions of Kamigawa Rare
 
 Name:   Orochi Leafcaller
 Cost:   G
 Type:   Creature — Snake Shaman
-Pow/Tgh:    (1/1)
-Rules Text:     {G}: Add one mana of any color to your mana pool.
-Set/Rarity:     Champions of Kamigawa Common
+P/T:    1/1
+S/R:    CHK-C
+{G}: Add one mana of any color to your mana pool.
 
 Name:   Orochi Ranger
 Cost:   1G
 Type:   Creature — Snake Warrior
-Pow/Tgh:    (2/1)
-Rules Text:     Whenever Orochi Ranger deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.
-Set/Rarity:     Champions of Kamigawa Common
+P/T:    2/1
+S/R:    CHK-C
+Whenever Orochi Ranger deals combat damage to a creature, tap that creature and it doesn't untap during its controller's next untap step.
 
 Name:   Orochi Sustainer
 Cost:   1G
 Type:   Creature — Snake Shaman
-Pow/Tgh:    (1/2)
-Rules Text:     {T}: Add {G} to your mana pool.
-Set/Rarity:     Champions of Kamigawa Common
+P/T:    1/2
+S/R:    CHK-C
+{T}: Add {G} to your mana pool.
 
 Name:   Oros, the Avenger
 Cost:   3WBR
 Type:   Legendary Creature — Dragon
-Pow/Tgh:    (6/6)
-Rules Text:     Flying
+P/T:    6/6
+S/R:    PLC-R, CMD-R
+Flying
 Whenever Oros, the Avenger deals combat damage to a player, you may pay {2}{W}. If you do, Oros deals 3 damage to each nonwhite creature.
-Set/Rarity:     Magic: The Gathering-Commander Rare, Planar Chaos Rare
 
 Name:   Orzhov Basilica
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     Orzhov Basilica enters the battlefield tapped.
+S/R:    GPT-C, CMD-C, C13-C
+Orzhov Basilica enters the battlefield tapped.
 When Orzhov Basilica enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {W}{B} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Guildpact Common
 
 Name:   Orzhov Charm
 Cost:   WB
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Choose one — Return target creature you control and all Auras you control attached to it to their owner's hand; or destroy target creature and you lose life equal to its toughness; or return target creature card with converted mana cost 1 or less from your graveyard to the battlefield.
-Set/Rarity:     Gatecrash Uncommon
+S/R:    GTC-U
+Choose one —
+• Return target creature you control and all Auras you control attached to it to their owner's hand.
+• Destroy target creature and you lose life equal to its toughness.
+• Return target creature card with converted mana cost 1 or less from your graveyard to the battlefield.
 
 Name:   Orzhov Cluestone
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {W} or {B} to your mana pool.
+S/R:    DGM-C
+{T}: Add {W} or {B} to your mana pool.
 {W}{B}, {T}, Sacrifice Orzhov Cluestone: Draw a card.
-Set/Rarity:     Dragon's Maze Common
 
 Name:   Orzhov Euthanist
 Cost:   2B
 Type:   Creature — Human Assassin
-Pow/Tgh:    (2/2)
-Rules Text:     Haunt (When this creature dies, exile it haunting target creature.)
+P/T:    2/2
+S/R:    GPT-C
+Haunt (When this creature dies, exile it haunting target creature.)
 When Orzhov Euthanist enters the battlefield or the creature it haunts dies, destroy target creature that was dealt damage this turn.
-Set/Rarity:     Guildpact Common
 
 Name:   Orzhov Guildgate
-Cost:   
 Type:   Land — Gate
-Pow/Tgh:    
-Rules Text:     Orzhov Guildgate enters the battlefield tapped.
+S/R:    GTC-C, DGM-C, C13-C
+Orzhov Guildgate enters the battlefield tapped.
 {T}: Add {W} or {B} to your mana pool.
-Set/Rarity:     Dragon's Maze Common, Gatecrash Common
 
 Name:   Orzhov Guildmage
-Cost:   (W/B)(W/B)
+Cost:   (w/b)(w/b)
 Type:   Creature — Human Wizard
-Pow/Tgh:    (2/2)
-Rules Text:     {2}{W}: Target player gains 1 life.
+P/T:    2/2
+S/R:    GPT-U, CMD-U
+{2}{W}: Target player gains 1 life.
 {2}{B}: Each player loses 1 life.
-Set/Rarity:     Magic: The Gathering-Commander Uncommon, Guildpact Uncommon
 
 Name:   Orzhov Keyrune
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Add {W} or {B} to your mana pool.
+S/R:    GTC-U
+{T}: Add {W} or {B} to your mana pool.
 {W}{B}: Orzhov Keyrune becomes a 1/4 white and black Thrull artifact creature with lifelink until end of turn.
-Set/Rarity:     Gatecrash Uncommon
 
 Name:   Orzhov Pontiff
 Cost:   1WB
 Type:   Creature — Human Cleric
-Pow/Tgh:    (1/1)
-Rules Text:     Haunt (When this creature dies, exile it haunting target creature.)
-When Orzhov Pontiff enters the battlefield or the creature it haunts dies, choose one — Creatures you control get +1/+1 until end of turn; or creatures you don't control get -1/-1 until end of turn.
-Set/Rarity:     Guildpact Rare
+P/T:    1/1
+S/R:    GPT-R
+Haunt (When this creature dies, exile it haunting target creature.)
+When Orzhov Pontiff enters the battlefield or the creature it haunts dies, choose one —
+• Creatures you control get +1/+1 until end of turn.
+• Creatures you don't control get -1/-1 until end of turn.
 
 Name:   Orzhov Signet
 Cost:   2
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {1}, {T}: Add {W}{B} to your mana pool.
-Set/Rarity:     Magic: The Gathering-Commander Common, Guildpact Common
+S/R:    GPT-C, CMD-C
+{1}, {T}: Add {W}{B} to your mana pool.
 
 Name:   Orzhova, the Church of Deals
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool.
+S/R:    GPT-U
+{T}: Add {1} to your mana pool.
 {3}{W}{B}, {T}: Target player loses 1 life and you gain 1 life.
-Set/Rarity:     Guildpact Uncommon
 
 Name:   Osai Vultures
 Cost:   1W
 Type:   Creature — Bird
-Pow/Tgh:    (1/1)
-Rules Text:     Flying
+P/T:    1/1
+S/R:    LE-C, 4E-U
+Flying
 At the beginning of each end step, if a creature died this turn, put a carrion counter on Osai Vultures.
 Remove two carrion counters from Osai Vultures: Osai Vultures gets +1/+1 until end of turn.
-Set/Rarity:     Masters Edition IV Common, Fourth Edition Uncommon, Legends Common
 
 Name:   Ostiary Thrull
 Cost:   3B
 Type:   Creature — Thrull
-Pow/Tgh:    (2/2)
-Rules Text:     {W}, {T}: Tap target creature.
-Set/Rarity:     Guildpact Common
+P/T:    2/2
+S/R:    GPT-C
+{W}, {T}: Tap target creature.
 
 Name:   Ostracize
 Cost:   B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card.
-Set/Rarity:     Seventh Edition Common, Urza's Legacy Common
+S/R:    UL-C, 7E-C
+Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card.
 
 Name:   Otarian Juggernaut
 Cost:   4
 Type:   Artifact Creature — Juggernaut
-Pow/Tgh:    (2/3)
-Rules Text:     Otarian Juggernaut can't be blocked by Walls.
+P/T:    2/3
+S/R:    OD-R
+Otarian Juggernaut can't be blocked by Walls.
 Threshold — As long as seven or more cards are in your graveyard, Otarian Juggernaut gets +3/+0 and attacks each turn if able.
-Set/Rarity:     Odyssey Rare
 
 Name:   Otherworld Atlas
 Cost:   4
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {T}: Put a charge counter on Otherworld Atlas.
+S/R:    AVR-R
+{T}: Put a charge counter on Otherworld Atlas.
 {T}: Each player draws a card for each charge counter on Otherworld Atlas.
-Set/Rarity:     Avacyn Restored Rare
 
 Name:   Otherworldly Journey
 Cost:   1W
 Type:   Instant — Arcane
-Pow/Tgh:    
-Rules Text:     Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.
-Set/Rarity:     Modern Masters Common, Duel Decks: Divine vs. Demonic Uncommon, Champions of Kamigawa Uncommon
+S/R:    CHK-U
+Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.
 
 Name:   Oubliette
 Cost:   1BB
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     When Oubliette enters the battlefield, exile target creature and all Auras attached to it. Note the number and kind of counters that were on that creature.
+S/R:    AN-C
+When Oubliette enters the battlefield, exile target creature and all Auras attached to it. Note the number and kind of counters that were on that creature.
 When Oubliette leaves the battlefield, return that exiled card to the battlefield under its owner's control tapped with the noted number and kind of counters on it. If you do, return the other exiled cards to the battlefield under their owner's control attached to that permanent.
-Set/Rarity:     Masters Edition Common, Arabian Nights Common, Arabian Nights Common
 
 Name:   Ouphe Vandals
 Cost:   2G
 Type:   Creature — Ouphe Rogue
-Pow/Tgh:    (2/2)
-Rules Text:     {G}, Sacrifice Ouphe Vandals: Counter target activated ability from an artifact source and destroy that artifact if it's on the battlefield. (Mana abilities can't be targeted.)
-Set/Rarity:     Fifth Dawn Uncommon
+P/T:    2/2
+S/R:    5DN-U
+{G}, Sacrifice Ouphe Vandals: Counter target activated ability from an artifact source and destroy that artifact if it's on the battlefield. (Mana abilities can't be targeted.)
 
 Name:   Oust
 Cost:   W
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Put target creature into its owner's library second from the top. Its controller gains 3 life.
-Set/Rarity:     Rise of the Eldrazi Uncommon
+S/R:    ROE-U
+Put target creature into its owner's library second from the top. Its controller gains 3 life.
 
 Name:   Outbreak
 Cost:   3B
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     You may discard a Swamp card rather than pay Outbreak's mana cost.
+S/R:    PR-U
+You may discard a Swamp card rather than pay Outbreak's mana cost.
 Choose a creature type. All creatures of that type get -1/-1 until end of turn.
-Set/Rarity:     Prophecy Uncommon
 
 Name:   Outmaneuver
 Cost:   XR
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     X target blocked creatures assign their combat damage this turn as though they weren't blocked.
-Set/Rarity:     Urza's Saga Uncommon
+S/R:    US-U
+X target blocked creatures assign their combat damage this turn as though they weren't blocked.
+
+Name:   Outpost Siege
+Cost:   3R
+Type:   Enchantment
+S/R:    FRF-R
+As Outpost Siege enters the battlefield, choose Khans or Dragons.
+• Khans — At the beginning of your upkeep, exile the top card of your library. Until end of turn, you may play that card.
+• Dragons — Whenever a creature you control leaves the battlefield, Outpost Siege deals 1 damage to target creature or player.
 
 Name:   Outrage Shaman
 Cost:   3RR
 Type:   Creature — Goblin Shaman
-Pow/Tgh:    (2/2)
-Rules Text:     Chroma — When Outrage Shaman enters the battlefield, it deals damage to target creature equal to the number of red mana symbols in the mana costs of permanents you control.
-Set/Rarity:     Eventide Uncommon
+P/T:    2/2
+S/R:    EVE-U
+Chroma — When Outrage Shaman enters the battlefield, it deals damage to target creature equal to the number of red mana symbols in the mana costs of permanents you control.
 
 Name:   Outrider en-Kor
 Cost:   2W
 Type:   Creature — Kor Rebel Knight
-Pow/Tgh:    (2/2)
-Rules Text:     Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
+P/T:    2/2
+S/R:    TSP-U
+Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 {0}: The next 1 damage that would be dealt to Outrider en-Kor this turn is dealt to target creature you control instead.
-Set/Rarity:     Time Spiral Uncommon
 
 Name:   Outrider of Jhess
 Cost:   3U
 Type:   Creature — Human Knight
-Pow/Tgh:    (2/2)
-Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
-Set/Rarity:     Shards of Alara Common
+P/T:    2/2
+S/R:    ALA-C
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 
 Name:   Outwit
 Cost:   U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target spell that targets a player.
-Set/Rarity:     Avacyn Restored Common
+S/R:    AVR-C
+Counter target spell that targets a player.
 
 Name:   Overabundance
 Cost:   1RG
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced, and Overabundance deals 1 damage to him or her.
-Set/Rarity:     Invasion Rare
+S/R:    IN-R
+Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced, and Overabundance deals 1 damage to him or her.
 
 Name:   Overbeing of Myth
-Cost:   (G/U)(G/U)(G/U)(G/U)(G/U)
+Cost:   (g/u)(g/u)(g/u)(g/u)(g/u)
 Type:   Creature — Spirit Avatar
-Pow/Tgh:    (*/*)
-Rules Text:     Overbeing of Myth's power and toughness are each equal to the number of cards in your hand.
+P/T:    */*
+S/R:    EVE-R
+Overbeing of Myth's power and toughness are each equal to the number of cards in your hand.
 At the beginning of your draw step, draw an additional card.
-Set/Rarity:     Eventide Rare
 
 Name:   Overblaze
 Cost:   3R
 Type:   Instant — Arcane
-Pow/Tgh:    
-Rules Text:     Each time target permanent would deal damage to a creature or player this turn, it deals double that damage to that creature or player instead.
+S/R:    BOK-U
+Each time target permanent would deal damage to a creature or player this turn, it deals double that damage to that creature or player instead.
 Splice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
-Set/Rarity:     Betrayers of Kamigawa Uncommon
 
 Name:   Overburden
 Cost:   1U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a player puts a nontoken creature onto the battlefield, that player returns a land he or she controls to its owner's hand.
-Set/Rarity:     Prophecy Rare
+S/R:    PR-R
+Whenever a player puts a nontoken creature onto the battlefield, that player returns a land he or she controls to its owner's hand.
 
 Name:   Overeager Apprentice
 Cost:   2B
 Type:   Creature — Human Minion
-Pow/Tgh:    (1/2)
-Rules Text:     Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.
-Set/Rarity:     Duel Decks: Divine vs. Demonic Common, Odyssey Common
+P/T:    1/2
+S/R:    OD-C
+Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.
 
 Name:   Overgrown Battlement
 Cost:   1G
 Type:   Creature — Wall
-Pow/Tgh:    (0/4)
-Rules Text:     Defender
+P/T:    0/4
+S/R:    ROE-C
+Defender
 {T}: Add {G} to your mana pool for each creature with defender you control.
-Set/Rarity:     Rise of the Eldrazi Common
 
 Name:   Overgrown Estate
 Cost:   BGW
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Sacrifice a land: You gain 3 life.
-Set/Rarity:     Apocalypse Rare
+S/R:    AP-R
+Sacrifice a land: You gain 3 life.
 
 Name:   Overgrown Tomb
-Cost:   
 Type:   Land — Swamp Forest
-Pow/Tgh:    
-Rules Text:     ({T}: Add {B} or {G} to your mana pool.)
+S/R:    RAV-R, RTR-R
+({T}: Add {B} or {G} to your mana pool.)
 As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.
-Set/Rarity:     Return to Ravnica Rare, Ravnica: City of Guilds Rare
 
 Name:   Overgrowth
 Cost:   2G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant land (Target a land as you cast this. This card enters the battlefield attached to that land.)
+S/R:    ST-C, 9ED-C, 10E-C
+Enchant land (Target a land as you cast this. This card enters the battlefield attached to that land.)
 Whenever enchanted land is tapped for mana, its controller adds {G}{G} to his or her mana pool (in addition to the mana the land produces).
-Set/Rarity:     Tenth Edition Common, Ninth Edition Common, Stronghold Common
 
 Name:   Overlaid Terrain
 Cost:   2GG
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     As Overlaid Terrain enters the battlefield, sacrifice all lands you control.
+S/R:    NE-R
+As Overlaid Terrain enters the battlefield, sacrifice all lands you control.
 Lands you control have "{T}: Add two mana of any one color to your mana pool."
-Set/Rarity:     Nemesis Rare
 
 Name:   Overload
 Cost:   R
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Kicker {2} (You may pay an additional {2} as you cast this spell.)
+S/R:    IN-C
+Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Destroy target artifact if its converted mana cost is 2 or less. If Overload was kicked, destroy that artifact if its converted mana cost is 5 or less instead.
-Set/Rarity:     Invasion Common
 
 Name:   Overmaster
 Cost:   R
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     The next instant or sorcery spell you cast this turn can't be countered by spells or abilities.
+S/R:    TOR-R
+The next instant or sorcery spell you cast this turn can't be countered by spells or abilities.
 Draw a card.
-Set/Rarity:     Torment Rare
 
 Name:   Override
 Cost:   2U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target spell unless its controller pays {1} for each artifact you control.
-Set/Rarity:     Mirrodin Common
+S/R:    MRD-C
+Counter target spell unless its controller pays {1} for each artifact you control.
 
 Name:   Overrule
 Cost:   XWU
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target spell unless its controller pays {X}. You gain X life.
-Set/Rarity:     Duel Decks: Venser vs. Koth Common, Dissension Common
+S/R:    DIS-C
+Counter target spell unless its controller pays {X}. You gain X life.
 
 Name:   Overrun
 Cost:   2GGG
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Creatures you control get +3/+3 and gain trample until end of turn.
-Set/Rarity:     Planechase 2012 Edition Uncommon, Magic 2012 Uncommon, Duel Decks: Garruk vs. Liliana Uncommon, Magic 2010 Uncommon, Tenth Edition Uncommon, Odyssey Uncommon, Tempest Uncommon
+S/R:    TE-U, OD-U, 10E-U, M10-U, M12-U, PC2-U, C14-U
+Creatures you control get +3/+3 and gain trample until end of turn.
+
+Name:   Overseer of the Damned
+Cost:   5BB
+Type:   Creature — Demon
+P/T:    5/5
+S/R:    C14-R
+Flying
+When Overseer of the Damned enters the battlefield, you may destroy target creature.
+Whenever a nontoken creature an opponent controls dies, put a 2/2 black Zombie creature token onto the battlefield tapped.
 
 Name:   Oversold Cemetery
 Cost:   1B
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of your upkeep, if you have four or more creature cards in your graveyard, you may return target creature card from your graveyard to your hand.
-Set/Rarity:     Onslaught Rare
+S/R:    ONS-R
+At the beginning of your upkeep, if you have four or more creature cards in your graveyard, you may return target creature card from your graveyard to your hand.
 
 Name:   Oversoul of Dusk
-Cost:   (G/W)(G/W)(G/W)(G/W)(G/W)
+Cost:   (g/w)(g/w)(g/w)(g/w)(g/w)
 Type:   Creature — Spirit Avatar
-Pow/Tgh:    (5/5)
-Rules Text:     Protection from blue, from black, and from red
-Set/Rarity:     Shadowmoor Rare
+P/T:    5/5
+S/R:    SHM-R
+Protection from blue, from black, and from red
 
 Name:   Overtaker
 Cost:   1U
 Type:   Creature — Merfolk Spellshaper
-Pow/Tgh:    (1/1)
-Rules Text:     {3}{U}, {T}, Discard a card: Untap target creature and gain control of it until end of turn. That creature gains haste until end of turn.
-Set/Rarity:     Mercadian Masques Rare, Promo set for Gatherer Rare
+P/T:    1/1
+S/R:    MM-R
+{3}{U}, {T}, Discard a card: Untap target creature and gain control of it until end of turn. That creature gains haste until end of turn.
 
 Name:   Overwhelm
 Cost:   5GG
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+S/R:    RAV-U, M15-U
+Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Creatures you control get +3/+3 until end of turn.
-Set/Rarity:     Ravnica: City of Guilds Uncommon
 
 Name:   Overwhelming Forces
 Cost:   6BB
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Destroy all creatures target opponent controls. Draw a card for each creature destroyed this way.
-Set/Rarity:     Masters Edition IV Rare, Portal Three Kingdoms Rare
+S/R:    P3K-R
+Destroy all creatures target opponent controls. Draw a card for each creature destroyed this way.
 
 Name:   Overwhelming Instinct
 Cost:   2G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever you attack with three or more creatures, draw a card.
-Set/Rarity:     Onslaught Uncommon
+S/R:    ONS-U
+Whenever you attack with three or more creatures, draw a card.
 
 Name:   Overwhelming Intellect
 Cost:   4UU
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target creature spell. Draw cards equal to that spell's converted mana cost.
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Uncommon, Saviors of Kamigawa Uncommon
+S/R:    SOK-U
+Counter target creature spell. Draw cards equal to that spell's converted mana cost.
 
 Name:   Overwhelming Stampede
 Cost:   3GG
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control. (If a creature you control would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
-Set/Rarity:     Magic 2011 Rare
+S/R:    M11-R, C14-R
+Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control.
 
 Name:   Ovinize
 Cost:   1U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature loses all abilities and becomes 0/1 until end of turn.
-Set/Rarity:     Planar Chaos Uncommon
+S/R:    PLC-U
+Until end of turn, target creature loses all abilities and has base power and toughness 0/1.
 
 Name:   Ovinomancer
 Cost:   2U
 Type:   Creature — Human Wizard
-Pow/Tgh:    (0/1)
-Rules Text:     When Ovinomancer enters the battlefield, sacrifice it unless you return three basic lands you control to their owner's hand.
+P/T:    0/1
+S/R:    VI-U, TSP-S
+When Ovinomancer enters the battlefield, sacrifice it unless you return three basic lands you control to their owner's hand.
 {T}, Return Ovinomancer to its owner's hand: Destroy target creature. It can't be regenerated. That creature's controller puts a 0/1 green Sheep creature token onto the battlefield.
-Set/Rarity:     Time Spiral "Timeshifted" Special, Visions Uncommon
 
 Name:   Owl Familiar
 Cost:   1U
 Type:   Creature — Bird
-Pow/Tgh:    (1/1)
-Rules Text:     Flying
+P/T:    1/1
+S/R:    P1-C, S99-U
+Flying
 When Owl Familiar enters the battlefield, draw a card, then discard a card.
-Set/Rarity:     Masters Edition IV Common, Starter 1999 Uncommon, Portal Common
 
 Name:   Oxidda Daredevil
 Cost:   1R
 Type:   Creature — Goblin Artificer
-Pow/Tgh:    (2/1)
-Rules Text:     Sacrifice an artifact: Oxidda Daredevil gains haste until end of turn.
-Set/Rarity:     Scars of Mirrodin Common
+P/T:    2/1
+S/R:    SOM-C
+Sacrifice an artifact: Oxidda Daredevil gains haste until end of turn.
 
 Name:   Oxidda Golem
 Cost:   6
 Type:   Artifact Creature — Golem
-Pow/Tgh:    (3/2)
-Rules Text:     Affinity for Mountains (This spell costs {1} less to cast for each Mountain you control.)
+P/T:    3/2
+S/R:    DST-C
+Affinity for Mountains (This spell costs {1} less to cast for each Mountain you control.)
 Haste
-Set/Rarity:     Duel Decks: Jace vs. Chandra Common, Darksteel Common
 
 Name:   Oxidda Scrapmelter
 Cost:   3R
 Type:   Creature — Beast
-Pow/Tgh:    (3/3)
-Rules Text:     When Oxidda Scrapmelter enters the battlefield, destroy target artifact.
-Set/Rarity:     Scars of Mirrodin Uncommon
+P/T:    3/3
+S/R:    SOM-U
+When Oxidda Scrapmelter enters the battlefield, destroy target artifact.
 
 Name:   Oxidize
 Cost:   G
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Destroy target artifact. It can't be regenerated.
-Set/Rarity:     Darksteel Uncommon
+S/R:    DST-U
+Destroy target artifact. It can't be regenerated.
 
 Name:   Oyobi, Who Split the Heavens
 Cost:   6W
 Type:   Legendary Creature — Spirit
-Pow/Tgh:    (3/6)
-Rules Text:     Flying
+P/T:    3/6
+S/R:    BOK-R
+Flying
 Whenever you cast a Spirit or Arcane spell, put a 3/3 white Spirit creature token with flying onto the battlefield.
-Set/Rarity:     Betrayers of Kamigawa Rare

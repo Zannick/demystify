@@ -1,400 +1,427 @@
+Name:   Qal Sisma Behemoth
+Cost:   2R
+Type:   Creature — Ogre Warrior
+P/T:    5/5
+S/R:    DTK-U
+Qal Sisma Behemoth can't attack or block unless you pay {2}.
+
+Name:   Qarsi Deceiver
+Cost:   1U
+Type:   Creature — Naga Wizard
+P/T:    0/4
+S/R:    DTK-U
+{T}: Add {1} to your mana pool. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. (A megamorph cost is a morph cost.)
+
+Name:   Qarsi High Priest
+Cost:   B
+Type:   Creature — Human Cleric
+P/T:    0/2
+S/R:    FRF-U
+{1}{B}, {T}, Sacrifice another creature: Manifest the top card of your library. (Put that card onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
+
+Name:   Qarsi Sadist
+Cost:   1B
+Type:   Creature — Human Cleric
+P/T:    1/3
+S/R:    DTK-C
+Exploit (When this creature enters the battlefield, you may sacrifice a creature.)
+When Qarsi Sadist exploits a creature, target opponent loses 2 life and you gain 2 life.
+
 Name:   Qasali Ambusher
 Cost:   1GW
 Type:   Creature — Cat Warrior
-Pow/Tgh:    (2/3)
-Rules Text:     Reach
+P/T:    2/3
+S/R:    ALA-U
+Reach
 If a creature is attacking you and you control a Forest and a Plains, you may cast Qasali Ambusher without paying its mana cost and as though it had flash.
-Set/Rarity:     Shards of Alara Uncommon
 
 Name:   Qasali Pridemage
 Cost:   GW
 Type:   Creature — Cat Wizard
-Pow/Tgh:    (2/2)
-Rules Text:     Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+P/T:    2/2
+S/R:    ARB-C
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 {1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.
-Set/Rarity:     Duel Decks: Ajani vs. Nicol Bolas Common, Alara Reborn Common
 
 Name:   Quag Sickness
 Cost:   2B
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    M11-C, M14-C
+Enchant creature
 Enchanted creature gets -1/-1 for each Swamp you control.
-Set/Rarity:     Magic 2014 Core Set Common, Magic 2011 Common
 
 Name:   Quag Vampires
 Cost:   B
 Type:   Creature — Vampire Rogue
-Pow/Tgh:    (1/1)
-Rules Text:     Multikicker {1}{B} (You may pay an additional {1}{B} any number of times as you cast this spell.)
+P/T:    1/1
+S/R:    WWK-C, CNS-C
+Multikicker {1}{B} (You may pay an additional {1}{B} any number of times as you cast this spell.)
 Swampwalk
 Quag Vampires enters the battlefield with a +1/+1 counter on it for each time it was kicked.
-Set/Rarity:     Worldwake Common
 
 Name:   Quagmire
 Cost:   2B
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Creatures with swampwalk can be blocked as though they didn't have swampwalk.
-Set/Rarity:     Legends Uncommon
+S/R:    LE-U
+Creatures with swampwalk can be blocked as though they didn't have swampwalk.
 
 Name:   Quagmire Druid
 Cost:   2B
 Type:   Creature — Zombie Druid
-Pow/Tgh:    (2/2)
-Rules Text:     {G}, {T}, Sacrifice a creature: Destroy target enchantment.
-Set/Rarity:     Apocalypse Common
+P/T:    2/2
+S/R:    AP-C, C13-C
+{G}, {T}, Sacrifice a creature: Destroy target enchantment.
 
 Name:   Quagmire Lamprey
 Cost:   2B
 Type:   Creature — Fish
-Pow/Tgh:    (1/1)
-Rules Text:     Whenever Quagmire Lamprey becomes blocked by a creature, put a -1/-1 counter on that creature.
-Set/Rarity:     Mercadian Masques Uncommon
+P/T:    1/1
+S/R:    MM-U
+Whenever Quagmire Lamprey becomes blocked by a creature, put a -1/-1 counter on that creature.
 
 Name:   Quagnoth
 Cost:   5G
 Type:   Creature — Beast
-Pow/Tgh:    (4/5)
-Rules Text:     Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
-Shroud (This permanent can't be the target of spells or abilities.)
+P/T:    4/5
+S/R:    FUT-R
+Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
+Shroud (This creature can't be the target of spells or abilities.)
 When a spell or ability an opponent controls causes you to discard Quagnoth, return it to your hand.
-Set/Rarity:     Future Sight Rare
+
+Name:   Quarry Colossus
+Cost:   5WW
+Type:   Creature — Giant
+P/T:    5/6
+S/R:    JOU-U
+When Quarry Colossus enters the battlefield, put target creature into its owner's library just beneath the top X cards of that library, where X is the number of Plains you control.
 
 Name:   Quarum Trench Gnomes
 Cost:   3R
 Type:   Creature — Gnome
-Pow/Tgh:    (1/1)
-Rules Text:     {T}: If target Plains is tapped for mana, it produces colorless mana instead of white mana. (This effect lasts indefinitely.)
-Set/Rarity:     Legends Rare
+P/T:    1/1
+S/R:    LE-R
+{T}: If target Plains is tapped for mana, it produces colorless mana instead of white mana. (This effect lasts indefinitely.)
 
 Name:   Quash
 Cost:   2UU
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles his or her library.
-Set/Rarity:     Betrayers of Kamigawa Uncommon, Urza's Destiny Uncommon
+S/R:    UD-U, BOK-U
+Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles his or her library.
 
 Name:   Quenchable Fire
 Cost:   3R
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Quenchable Fire deals 3 damage to target player. It deals an additional 3 damage to that player at the beginning of your next upkeep step unless he or she pays {U} before that step.
-Set/Rarity:     Conflux Common
+S/R:    CON-C
+Quenchable Fire deals 3 damage to target player. It deals an additional 3 damage to that player at the beginning of your next upkeep step unless he or she pays {U} before that step.
 
 Name:   Quest for Ancient Secrets
 Cost:   U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a card is put into your graveyard from anywhere, you may put a quest counter on Quest for Ancient Secrets.
+S/R:    ZEN-U
+Whenever a card is put into your graveyard from anywhere, you may put a quest counter on Quest for Ancient Secrets.
 Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Target player shuffles his or her graveyard into his or her library.
-Set/Rarity:     Zendikar Uncommon
 
 Name:   Quest for Pure Flame
 Cost:   R
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a source you control deals damage to an opponent, you may put a quest counter on Quest for Pure Flame.
+S/R:    ZEN-U
+Whenever a source you control deals damage to an opponent, you may put a quest counter on Quest for Pure Flame.
 Remove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a creature or player this turn, it deals double that damage to that creature or player instead.
-Set/Rarity:     Zendikar Uncommon
 
 Name:   Quest for Renewal
 Cost:   1G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a creature you control becomes tapped, you may put a quest counter on Quest for Renewal.
+S/R:    WWK-U
+Whenever a creature you control becomes tapped, you may put a quest counter on Quest for Renewal.
 As long as there are four or more quest counters on Quest for Renewal, untap all creatures you control during each other player's untap step.
-Set/Rarity:     Worldwake Uncommon
 
 Name:   Quest for Ula's Temple
 Cost:   U
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     At the beginning of your upkeep, you may look at the top card of your library. If it's a creature card, you may reveal it and put a quest counter on Quest for Ula's Temple.
+S/R:    WWK-R
+At the beginning of your upkeep, you may look at the top card of your library. If it's a creature card, you may reveal it and put a quest counter on Quest for Ula's Temple.
 At the beginning of each end step, if there are three or more quest counters on Quest for Ula's Temple, you may put a Kraken, Leviathan, Octopus, or Serpent creature card from your hand onto the battlefield.
-Set/Rarity:     Worldwake Rare
 
 Name:   Quest for the Gemblades
 Cost:   1G
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a creature you control deals combat damage to a creature, you may put a quest counter on Quest for the Gemblades.
+S/R:    ZEN-U
+Whenever a creature you control deals combat damage to a creature, you may put a quest counter on Quest for the Gemblades.
 Remove a quest counter from Quest for the Gemblades and sacrifice it: Put four +1/+1 counters on target creature.
-Set/Rarity:     Zendikar Uncommon
 
 Name:   Quest for the Goblin Lord
 Cost:   R
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a Goblin enters the battlefield under your control, you may put a quest counter on Quest for the Goblin Lord.
+S/R:    WWK-U
+Whenever a Goblin enters the battlefield under your control, you may put a quest counter on Quest for the Goblin Lord.
 As long as Quest for the Goblin Lord has five or more quest counters on it, creatures you control get +2/+0.
-Set/Rarity:     Worldwake Uncommon
 
 Name:   Quest for the Gravelord
 Cost:   B
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.
+S/R:    ZEN-U
+Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.
 Remove three quest counters from Quest for the Gravelord and sacrifice it: Put a 5/5 black Zombie Giant creature token onto the battlefield.
-Set/Rarity:     Zendikar Uncommon
 
 Name:   Quest for the Holy Relic
 Cost:   W
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever you cast a creature spell, you may put a quest counter on Quest for the Holy Relic.
+S/R:    ZEN-U
+Whenever you cast a creature spell, you may put a quest counter on Quest for the Holy Relic.
 Remove five quest counters from Quest for the Holy Relic and sacrifice it: Search your library for an Equipment card, put it onto the battlefield, and attach it to a creature you control. Then shuffle your library.
-Set/Rarity:     Zendikar Uncommon
 
 Name:   Quest for the Nihil Stone
 Cost:   B
 Type:   Enchantment
-Pow/Tgh:    
-Rules Text:     Whenever an opponent discards a card, you may put a quest counter on Quest for the Nihil Stone.
+S/R:    WWK-R
+Whenever an opponent discards a card, you may put a quest counter on Quest for the Nihil Stone.
 At the beginning of each opponent's upkeep, if that player has no cards in hand and Quest for the Nihil Stone has two or more quest counters on it, you may have that player lose 5 life.
-Set/Rarity:     Worldwake Rare
 
 Name:   Questing Phelddagrif
 Cost:   1GWU
 Type:   Creature — Phelddagrif
-Pow/Tgh:    (4/4)
-Rules Text:     {G}: Questing Phelddagrif gets +1/+1 until end of turn. Target opponent puts a 1/1 green Hippo creature token onto the battlefield.
+P/T:    4/4
+S/R:    PS-R
+{G}: Questing Phelddagrif gets +1/+1 until end of turn. Target opponent puts a 1/1 green Hippo creature token onto the battlefield.
 {W}: Questing Phelddagrif gains protection from black and from red until end of turn. Target opponent gains 2 life.
 {U}: Questing Phelddagrif gains flying until end of turn. Target opponent may draw a card.
-Set/Rarity:     Planeshift Rare, Promo set for Gatherer Rare
 
 Name:   Quick Sliver
 Cost:   1G
 Type:   Creature — Sliver
-Pow/Tgh:    (1/1)
-Rules Text:     Flash
+P/T:    1/1
+S/R:    LGN-C
+Flash
 Any player may play Sliver cards as though they had flash.
-Set/Rarity:     Premium Deck Series: Slivers Common, Legions Common
 
 Name:   Quickchange
 Cost:   1U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Target creature becomes the color or colors of your choice until end of turn.
+S/R:    RAV-C
+Target creature becomes the color or colors of your choice until end of turn.
 Draw a card.
-Set/Rarity:     Ravnica: City of Guilds Common
 
 Name:   Quicken
 Cost:   U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     The next sorcery card you cast this turn can be cast as though it had flash. (It can be cast any time you could cast an instant.)
+S/R:    GPT-R, M14-R
+The next sorcery card you cast this turn can be cast as though it had flash. (It can be cast any time you could cast an instant.)
 Draw a card.
-Set/Rarity:     Magic 2014 Core Set Rare, Guildpact Rare
 
 Name:   Quickening Licid
 Cost:   1W
 Type:   Creature — Licid
-Pow/Tgh:    (1/1)
-Rules Text:     {1}{W}, {T}: Quickening Licid loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {W} to end this effect.
+P/T:    1/1
+S/R:    TE-U
+{1}{W}, {T}: Quickening Licid loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {W} to end this effect.
 Enchanted creature has first strike.
-Set/Rarity:     Tempest Uncommon
+
+Name:   Quickling
+Cost:   1U
+Type:   Creature — Faerie Rogue
+P/T:    2/2
+S/R:    M15-U
+Flash (You may cast this spell any time you could cast an instant.)
+Flying
+When Quickling enters the battlefield, sacrifice it unless you return another creature you control to its owner's hand.
 
 Name:   Quicksand
-Cost:   
 Type:   Land
-Pow/Tgh:    
-Rules Text:     {T}: Add {1} to your mana pool.
+S/R:    VI-U, 9ED-U, 10E-U, WWK-C, CNS-U
+{T}: Add {1} to your mana pool.
 {T}, Sacrifice Quicksand: Target attacking creature without flying gets -1/-2 until end of turn.
-Set/Rarity:     Worldwake Common, Tenth Edition Uncommon, Ninth Edition Uncommon, Visions Uncommon
 
 Name:   Quicksilver Amulet
 Cost:   4
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     {4}, {T}: You may put a creature card from your hand onto the battlefield.
-Set/Rarity:     Magic 2012 Rare, Urza's Legacy Rare
+S/R:    UL-R, M12-R
+{4}, {T}: You may put a creature card from your hand onto the battlefield.
 
 Name:   Quicksilver Behemoth
 Cost:   6U
 Type:   Creature — Beast
-Pow/Tgh:    (4/5)
-Rules Text:     Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+P/T:    4/5
+S/R:    DST-C
+Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
 When Quicksilver Behemoth attacks or blocks, return it to its owner's hand at end of combat. (Return it only if it's on the battlefield.)
-Set/Rarity:     Darksteel Common
 
 Name:   Quicksilver Dagger
 Cost:   1UR
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant creature
+S/R:    AP-C
+Enchant creature
 Enchanted creature has "{T}: This creature deals 1 damage to target player. You draw a card."
-Set/Rarity:     Duel Decks: Izzet vs. Golgari Common, Apocalypse Common
 
 Name:   Quicksilver Dragon
 Cost:   4UU
 Type:   Creature — Dragon
-Pow/Tgh:    (5/5)
-Rules Text:     Flying
+P/T:    5/5
+S/R:    ONS-R
+Flying
 {U}: If target spell has only one target and that target is Quicksilver Dragon, change that spell's target to another creature.
-Morph {4}{U} (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-Set/Rarity:     Duel Decks: Jace vs. Chandra Rare, Onslaught Rare
+Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Quicksilver Elemental
 Cost:   3UU
 Type:   Creature — Elemental
-Pow/Tgh:    (3/4)
-Rules Text:     {U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn. (If any of the abilities use that creature's name, use this creature's name instead.)
+P/T:    3/4
+S/R:    MRD-R
+{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn. (If any of the abilities use that creature's name, use this creature's name instead.)
 You may spend blue mana as though it were mana of any color to pay the activation costs of Quicksilver Elemental's abilities.
-Set/Rarity:     Mirrodin Rare
 
 Name:   Quicksilver Fountain
 Cost:   3
 Type:   Artifact
-Pow/Tgh:    
-Rules Text:     At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land he or she controls of his or her choice. That land is an Island for as long as it has a flood counter on it.
+S/R:    MRD-R
+At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land he or she controls of his or her choice. That land is an Island for as long as it has a flood counter on it.
 At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.
-Set/Rarity:     Mirrodin Rare
 
 Name:   Quicksilver Gargantuan
 Cost:   5UU
 Type:   Creature — Shapeshifter
-Pow/Tgh:    (7/7)
-Rules Text:     You may have Quicksilver Gargantuan enter the battlefield as a copy of any creature on the battlefield, except it's still 7/7.
-Set/Rarity:     Scars of Mirrodin Mythic Rare
+P/T:    7/7
+S/R:    SOM-M
+You may have Quicksilver Gargantuan enter the battlefield as a copy of any creature on the battlefield, except it's still 7/7.
 
 Name:   Quicksilver Geyser
 Cost:   4U
 Type:   Instant
-Pow/Tgh:    
-Rules Text:     Return up to two target nonland permanents to their owners' hands.
-Set/Rarity:     Mirrodin Besieged Common
+S/R:    MBS-C
+Return up to two target nonland permanents to their owners' hands.
 
 Name:   Quicksilver Wall
 Cost:   2U
 Type:   Creature — Wall
-Pow/Tgh:    (1/6)
-Rules Text:     Defender (This creature can't attack.)
+P/T:    1/6
+S/R:    PR-U
+Defender (This creature can't attack.)
 {4}: Return Quicksilver Wall to its owner's hand. Any player may activate this ability.
-Set/Rarity:     Prophecy Uncommon
+
+Name:   Quiet Contemplation
+Cost:   2U
+Type:   Enchantment
+S/R:    KTK-U
+Whenever you cast a noncreature spell, you may pay {1}. If you do, tap target creature an opponent controls and it doesn't untap during its controller's next untap step.
 
 Name:   Quiet Disrepair
 Cost:   1G
 Type:   Enchantment — Aura
-Pow/Tgh:    
-Rules Text:     Enchant artifact or enchantment
-At the beginning of your upkeep, choose one — Destroy enchanted permanent; or you gain 2 life.
-Set/Rarity:     Planechase 2012 Edition Common, Future Sight Common
+S/R:    FUT-C, PC2-C
+Enchant artifact or enchantment
+At the beginning of your upkeep, choose one —
+• Destroy enchanted permanent.
+• You gain 2 life.
 
 Name:   Quiet Purity
 Cost:   W
 Type:   Instant — Arcane
-Pow/Tgh:    
-Rules Text:     Destroy target enchantment.
-Set/Rarity:     Champions of Kamigawa Common
+S/R:    CHK-C
+Destroy target enchantment.
 
 Name:   Quiet Speculation
 Cost:   1U
 Type:   Sorcery
-Pow/Tgh:    
-Rules Text:     Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles his or her library.
-Set/Rarity:     Judgment Uncommon
+S/R:    JUD-U
+Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles his or her library.
 
 Name:   Quietus Spike
 Cost:   3
 Type:   Artifact — Equipment
-Pow/Tgh:    
-Rules Text:     Equipped creature has deathtouch.
+S/R:    ALA-R, PC2-R
+Equipped creature has deathtouch.
 Whenever equipped creature deals combat damage to a player, that player loses half his or her life, rounded up.
 Equip {3}
-Set/Rarity:     Planechase 2012 Edition Rare, Shards of Alara Rare
 
 Name:   Quill-Slinger Boggart
 Cost:   3B
 Type:   Creature — Goblin Warrior
-Pow/Tgh:    (3/2)
-Rules Text:     Whenever a player casts a Kithkin spell, you may have target player lose 1 life.
-Set/Rarity:     Lorwyn Common
+P/T:    3/2
+S/R:    LRW-C
+Whenever a player casts a Kithkin spell, you may have target player lose 1 life.
 
 Name:   Quilled Slagwurm
 Cost:   4GGG
 Type:   Creature — Wurm
-Pow/Tgh:    (8/8)
-Rules Text:     
-Set/Rarity:     Mirrodin Besieged Uncommon
+P/T:    8/8
+S/R:    MBS-U
 
 Name:   Quilled Sliver
 Cost:   1W
 Type:   Creature — Sliver
-Pow/Tgh:    (1/1)
-Rules Text:     All Slivers have "{T}: This permanent deals 1 damage to target attacking or blocking creature."
-Set/Rarity:     Time Spiral Uncommon
+P/T:    1/1
+S/R:    TSP-U
+All Slivers have "{T}: This permanent deals 1 damage to target attacking or blocking creature."
 
 Name:   Quillmane Baku
 Cost:   4U
 Type:   Creature — Spirit
-Pow/Tgh:    (3/3)
-Rules Text:     Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Quillmane Baku.
+P/T:    3/3
+S/R:    BOK-C
+Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Quillmane Baku.
 {1}, {T}, Remove X ki counters from Quillmane Baku: Return target creature with converted mana cost X or less to its owner's hand.
-Set/Rarity:     Betrayers of Kamigawa Common
 
 Name:   Quillspike
-Cost:   2(B/G)
+Cost:   2(b/g)
 Type:   Creature — Beast
-Pow/Tgh:    (1/1)
-Rules Text:     {(b/g)}, Remove a -1/-1 counter from a creature you control: Quillspike gets +3/+3 until end of turn.
-Set/Rarity:     Eventide Uncommon
+P/T:    1/1
+S/R:    EVE-U
+{(b/g)}, Remove a -1/-1 counter from a creature you control: Quillspike gets +3/+3 until end of turn.
 
 Name:   Quirion Druid
 Cost:   2G
 Type:   Creature — Elf Druid
-Pow/Tgh:    (1/2)
-Rules Text:     {G}, {T}: Target land becomes a 2/2 green creature that's still a land. (This effect lasts indefinitely.)
-Set/Rarity:     Visions Rare
+P/T:    1/2
+S/R:    VI-R
+{G}, {T}: Target land becomes a 2/2 green creature that's still a land. (This effect lasts indefinitely.)
 
 Name:   Quirion Dryad
 Cost:   1G
 Type:   Creature — Dryad
-Pow/Tgh:    (1/1)
-Rules Text:     Whenever you cast a white, blue, black, or red spell, put a +1/+1 counter on Quirion Dryad.
-Set/Rarity:     Magic 2013 Rare, Tenth Edition Rare, Planeshift Rare
+P/T:    1/1
+S/R:    PS-R, 10E-R, M13-R
+Whenever you cast a white, blue, black, or red spell, put a +1/+1 counter on Quirion Dryad.
 
 Name:   Quirion Elves
 Cost:   1G
 Type:   Creature — Elf Druid
-Pow/Tgh:    (1/1)
-Rules Text:     As Quirion Elves enters the battlefield, choose a color.
+P/T:    1/1
+S/R:    MI-C, IN-C
+As Quirion Elves enters the battlefield, choose a color.
 {T}: Add {G} to your mana pool.
 {T}: Add one mana of the chosen color to your mana pool.
-Set/Rarity:     Duel Decks: Phyrexia vs. the Coalition Common, Beatdown Box Set Common, Invasion Common, Mirage Common
 
 Name:   Quirion Explorer
 Cost:   1G
 Type:   Creature — Elf Druid Scout
-Pow/Tgh:    (1/1)
-Rules Text:     {T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
-Set/Rarity:     Planeshift Common
+P/T:    1/1
+S/R:    PS-C
+{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
 
 Name:   Quirion Ranger
 Cost:   G
 Type:   Creature — Elf
-Pow/Tgh:    (1/1)
-Rules Text:     Return a Forest you control to its owner's hand: Untap target creature. Activate this ability only once each turn.
-Set/Rarity:     Visions Common
+P/T:    1/1
+S/R:    VI-C
+Return a Forest you control to its owner's hand: Untap target creature. Activate this ability only once each turn.
 
 Name:   Quirion Sentinel
 Cost:   1G
 Type:   Creature — Elf Druid
-Pow/Tgh:    (2/1)
-Rules Text:     When Quirion Sentinel enters the battlefield, add one mana of any color to your mana pool.
-Set/Rarity:     Invasion Common
+P/T:    2/1
+S/R:    IN-C
+When Quirion Sentinel enters the battlefield, add one mana of any color to your mana pool.
 
 Name:   Quirion Trailblazer
 Cost:   3G
 Type:   Creature — Elf Scout
-Pow/Tgh:    (1/2)
-Rules Text:     When Quirion Trailblazer enters the battlefield, you may search your library for a basic land card and put that card onto the battlefield tapped. If you do, shuffle your library.
-Set/Rarity:     Invasion Common
+P/T:    1/2
+S/R:    IN-C
+When Quirion Trailblazer enters the battlefield, you may search your library for a basic land card and put that card onto the battlefield tapped. If you do, shuffle your library.
 
 Name:   Qumulox
 Cost:   6UU
 Type:   Creature — Beast
-Pow/Tgh:    (5/4)
-Rules Text:     Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+P/T:    5/4
+S/R:    5DN-U, HOP-U
+Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
 Flying
-Set/Rarity:     Duel Decks: Elspeth vs. Tezzeret Uncommon, Planechase Uncommon, Fifth Dawn Uncommon

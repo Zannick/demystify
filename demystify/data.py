@@ -18,14 +18,11 @@
 
 """data -- Demystify library for loading and updating card data."""
 
-import argparse
 import difflib
 import logging
 import os
 import re
-import urllib.request, urllib.parse
 from functools import partial
-from html.parser import HTMLParser
 
 llog = logging.getLogger('Loader')
 llog.setLevel(logging.INFO)
@@ -41,25 +38,12 @@ DATADIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 TEXTFILES = [os.path.join(DATADIR, "text", c)
              for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0']
 
-GATHERER = 'http://gatherer.wizards.com/Pages/Search/Default.aspx'
-
-# Match only cards with parentheses but not split cards
-_parens = re.compile(r'([^/]*) \((.*)\)')
-# Remove unnecessary padding around the mdash.
-_mdash = re.compile(r'\s+(—|--)\s+')
-# Replace unicode quotes with standard ones.
-_quotes = re.compile(r'’|‘')
-# Fix up mana symbols.
-# {S}i}? => {S} , {(u/r){ => {(u/r)}{ , {1}0} => {10}, and p => {p}
-_mana = re.compile(r'{S}i}?|{\d}\d}|{\(?\w/\w\)?(?={)| p ')
-_kaboom = re.compile(r'Kaboom(?=[^!])')
+## Loader ##
 
 _nameline = re.compile(r"^Name:", re.M)
 
-## Loader ##
-
 def _smart_split(cardlist):
-    """ Given a list of cards in gatherer format as a single string,
+    """ Given a list of cards in Oracle format as a single string,
         splits them into blocks of single cards, each starting with a
         'Name:' line. """
     i = 0
@@ -93,6 +77,12 @@ def load(files=None):
 
 ## Updater ##
 
+_cost = re.compile(r'^([0-9WUBRGX]|\([0-9WUBRGPS]/[0-9WUBRGPS]\))+$', re.I)
+_pt = re.compile(r'^[0-9*+-]+/[0-9*+-]+')
+_sr = re.compile(r'^[0-9A-Z, -]+$')
+_color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')
+_multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) ([^.]+).')
+
 def _fix_mana(name, m):
     sym = m.group(0)
     if sym[1] == 'S':
@@ -107,162 +97,114 @@ def _fix_mana(name, m):
               .format(name, sym, f))
     return f
 
-class ListCards(argparse.Action):
-    def __call__(self, parser, namespace, values, option_string=None):
-        names = []
-        with values as f:
-            names = [line.strip().replace(' ', r'\s').replace('AE', 'Æ')
-                     for line in f]
-        setattr(namespace, self.dest, names)
+class BasicTextParser:
+    """ A parser for the text Oracle wordings as provided by
+        http://www.yawgatog.com/resources/oracle/, which has already
+        corrected many common old Gatherer text errors.
 
-class GathererParser(HTMLParser):
-    def reset(self):
-        HTMLParser.reset(self)
-        self._level = 0
+        The resultant format of the cards will add tags for everything but
+        rules text, and they will appear in different order:
+            Name:   Ravager of the Fells
+            Color:  Red/Green
+            Type:   Creature -- Werewolf
+            P/T:    4/4
+            S/R:    DKA-M
+            M-type: Transform
+            M-card: Huntmaster of the Fells
+            Trample
+            Whenever...
+            At the...
+
+        This guarantees that every multicard has the same format referencing
+        its other half. (Of course, this only works for 2-in-1 cards. It will
+        not work for split transform, flip transform, split flip transform,
+        or the Unhinged card Who/What/When/Where/Why.)
+    """
+
+    def __init__(self):
         self._parsed_cards = []
         self._current_card = []
-        self._rules_text = ''
+        self._rules_text = []
+        self._has_type = False
 
     def _finish_card(self):
-        self._parsed_cards.append(''.join(self._current_card))
+        if self._rules_text:
+            self._current_card.extend(self._rules_text)
+            self._rules_text = []
+        # Don't put in any of the combined split cards.
+        if '//' not in self._name:
+            self._parsed_cards.append('\n'.join(self._current_card))
         self._current_card = []
+        self._has_type = False
 
     def get_output(self):
-        self.close()
         if self._current_card:
             self._finish_card()
         return self._parsed_cards
 
-    def handle_starttag(self, tag, attrs):
-        if self._level == 0 and tag == 'div':
-            if ('class', 'textspoiler') in attrs:
-                self._level += 1
-        elif self._level == 1 and tag == 'table':
-            self._level += 1
-            self._name = None
-        elif self._level == 2 and tag == 'tr':
-            self._level += 1
-            self._header = None
-        elif self._level == 3 and tag == 'td':
-            self._level += 1
-
-    def handle_data(self, data):
-        if self._level == 4:
-            s = data.strip()
-            if self._header == 'Name:':
-                # Fix up issues with names
-                t, n = _quotes.subn("'", s)
-                m = _parens.match(t)
-                if m:
-                    o, g = m.groups()
-                    if o[2:].lower() in g.lower():
-                        ulog.info('Correcting "{}" to "{}".'.format(s, g))
-                        s = g
-                    else:
-                        ulog.info('Not correcting flip card "{}".'.format(s))
-                elif n:
-                    ulog.info('Correcting "{}" to "{}".'.format(s, t))
-                    s = t
-                if s:
-                    self._name = s
-            elif self._header == 'Type:':
-                s = _mdash.sub(r' \1 ', s)
-                s, n = _quotes.subn("'", s)
-                if n:
-                    ulog.info("{}: Corrected unicode quotes in the typeline."
-                              .format(self._name))
-            elif self._header == 'Rules Text:':
-                s = _mana.sub(partial(_fix_mana, self._name), s)
-                if self._name == 'Kaboom!':
-                    s, c = _kaboom.subn('Kaboom!', s)
-                    if c:
-                        ulog.info("Corrected Kaboom!'s name in {} place(s)."
-                                  .format(c))
-                s, n = _quotes.subn("'", s)
-                if n:
-                    ulog.info("{}: Corrected unicode quotes in the rules text."
-                              .format(self._name))
-                self._rules_text += s
-                return
-            if s:
-                # Hack because gatherer dropped the : in the Name header.
-                if s == 'Name':
-                    s = 'Name:'
-                if s[-1] == ':':
-                    self._header = s
-                    spacing = ' ' * (4 - (len(s) % 4))
-                    if spacing == ' ':
-                        spacing += ' ' * 4
-                    s += spacing
-                self._current_card.append(s)
-
-    def handle_endtag(self, tag):
-        if self._level == 1 and tag == 'div':
-            self._level -= 1
-        elif self._level == 2 and tag == 'table':
-            self._level -= 1
-        elif self._level == 3 and tag == 'tr':
-            if self._rules_text:
-                self._current_card.append(self._rules_text.strip())
-                self._rules_text = ''
-            if self._current_card:
-                self._current_card.append('\n')
-            self._level -= 1
-            self._header = None
-        elif self._level == 4 and tag == 'td':
-            self._level -= 1
-
-    def handle_startendtag(self, tag, attrs):
-        if self._level == 4 and tag == 'br':
-            if self._header == 'Rules Text:':
-                self._rules_text += '\n'
-            else:
+    def parse_data(self, data):
+        if self._current_card:
+            self._finish_card()
+        for line in data:
+            s = line.strip()
+            if not s:
                 self._finish_card()
+                continue
+            # First line is always name.
+            # Then match for Cost, P/T, S/R.
+            # Color indicators and multicard metadata are in brackets.
+            # Type and Rules text are everything else. Since everything
+            # must have a typeline, the first nonmatching line is the type.
+            if not self._current_card:
+                self._current_card.append('Name:   ' + s)
+                self._name = s
+            elif _cost.match(s):
+                self._current_card.append('Cost:   ' + s.upper())
+            elif _pt.match(s):
+                self._current_card.append('P/T:    ' + s)
+            elif _sr.match(s):
+                self._current_card.append('S/R:    ' + s)
+            elif s.startswith('['):
+                # Color indicator and multicard metadata.
+                n = s.find(' color indicator')
+                if n > -1:
+                    c = s[1:n].strip()
+                    if not _color.match(c):
+                        ulog.error('{}: Bad color indicator {!r}'
+                                   .format(self._name, c))
+                    self._current_card.append('Color:  ' + c)
+                m = _multi.search(s)
+                if m:
+                    t, c = m.groups()
+                    t = t.capitalize()
+                    self._current_card.append('M-type: ' + t)
+                    if t == 'Split':
+                        cards = c.split(' // ')
+                        if len(cards) != 2:
+                            ulog.error('{}: Unrecognized split card {!r}'
+                                       .format(self._name, c))
+                        else:
+                            self._current_card.append('M-card: ' + cards[1])
+            else:
+                s = s.replace('--', '—')
+                if not self._has_type:
+                    self._has_type = True
+                    self._current_card.append('Type:   ' + s)
+                else:
+                    s = s.replace('·', '\u2022')
+                    self._rules_text.append(s)
 
-def _send_request(params):
-    """ Build the actual request and send it. Returns the full html
-        of the result. """
-    opener = urllib.request.build_opener(urllib.request.HTTPHandler())
-    with opener.open(GATHERER + '?' + urllib.parse.urlencode(params)) as f:
-        html_bytes = f.read()
-        return html_bytes.decode('utf-8')
-
-def _request(alpha=False, format=None, cardset=None, cards=None):
-    """ Construct and send requests to Gatherer.
-        Results are yielded as a pair (html result, shortname),
-        where shortname is a short description of the result, such as
-        'Vintage-A' to describe Vintage cards starting with A. """
-    params = {'output': 'spoiler', 'method': 'text'}
-    if format:
-        params['format'] = '["{}"]'.format(format)
-    if cardset:
-        params['set'] = '["{}"]'.format(cardset)
-    ckpt_name = format or cardset or 'cards'
-    if cards:
-        params['name'] = '[m/^({})$/]'.format('|'.join(cards))
-        yield (_send_request(params), ckpt_name)
-    elif alpha:
-        letters = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
-        headings = letters + ['(?!{})'.format('|'.join(letters))]
-        for h in headings:
-            ulog.info('Requesting for {}...'.format(h))
-            params['name'] = '[m/^{}/]'.format(h)
-            c = h if len(h) == 1 else '0'
-            yield (_send_request(params), '{}-{}'.format(ckpt_name, c))
-    else:
-        yield (_send_request(params), ckpt_name)
-
-def _parse(html_data, ckpt_file, checkpoint):
-    parser = GathererParser()
-    parser.feed(html_data)
+def _parse(text_data, ckpt_file, checkpoint):
+    parser = BasicTextParser()
+    parser.parse_data(text_data)
     result = parser.get_output()
     if checkpoint:
         with open(ckpt_file, 'w') as f:
-            f.write('\n'.join(result))
+            f.write('\n\n'.join(result))
     return result
 
 def _update(raw_cards):
-    """ Given a list of raw cards (in Gatherer format, but already separated,
+    """ Given a list of raw cards (in Oracle format, but already separated,
         eg. by _smart_split), update the text files in data/
         by adding new card entries or updating existing entries. """
     alpha = {}
@@ -313,83 +255,50 @@ def add_subcommands(subparsers):
         subparsers should be the object returned by add_subparsers()
         called on the main parser. """
     subparser = subparsers.add_parser('update',
-        description='Download data from gatherer and import into demystify.')
-    subparser.add_argument('-a', '--alpha', action='store_true',
-        help=('Use multiple requests, splitting by first letter. Useful for '
-              'large requests like --format Vintage. Ignored if the '
-              '--cards mode is used.'))
+        description='Parse Oracle data and import into demystify.')
     group = subparser.add_mutually_exclusive_group(required=True)
-    group.add_argument('-f', '--format',
-        help='Limit the card search by format.')
-    group.add_argument('-s', '--set', dest='cardset', metavar='SET',
-        help='Limit the card search by set.')
-    group.add_argument('-c', '--cards', metavar='INFILE',
-        action=ListCards, type=argparse.FileType('r'),
-        help=('Grab specific cards, each listed in the given file on its own '
-              'line. You may use AE to indicate the symbol Æ. You must '
-              'specify more than one card in this file this way, due to '
-              'limitations in gatherer.'))
-    group.add_argument('-p', '--parse', nargs='+',
-        type=argparse.FileType('r'), metavar='INFILE',
-        help=('Skip making any requests to gatherer, and parse the files '
-              'given as if they were returned by gatherer.'))
     group.add_argument('-u', '--update', nargs='+', metavar='INFILE',
         # The loader will open these files, so we don't use FileType here
-        help=('Skip sending requests and parsing html, and update the data '
+        help=('Skip parsing the raw data, and update the data '
               'files with the new data in the parsing checkpoint '
               'files listed.'))
+    group.add_argument('-p', '--parse', nargs='+', metavar='INFILE',
+        help=('Raw data, from eg. http://www.yawgatog.com/resources/oracle/, '
+              'which will be parsed and modified into the format demystify '
+              'expects.'))
     subparser.add_argument('--checkpoint-dir', metavar='CKPT_DIR',
         dest='ckpt_dir', default='/tmp/demystify',
         help=('With --checkpoint-requests and/or --checkpoint-parsing, '
               'sets the location of the directory that will contain the '
               'checkpoint files. Defaults to /tmp/demystify.'))
-    subparser.add_argument('--checkpoint-requests', action='store_true',
-        help=('Write the responses from Gatherer to files in the '
-              'checkpoint directory.'))
     subparser.add_argument('--checkpoint-parsing', action='store_true',
         help=('Write the parsing results into files in the '
               'checkpoint directory.'))
     subparser.add_argument('--checkpoint-only', action='store_true',
         help=('Quit immediately after the last checkpoint instead of '
-              'continuing to the next step. No effect without at least '
-              'one of --checkpoint-requests or --checkpoint-parsing.'))
+              'continuing to the next step. No effect without '
+              '--checkpoint-parsing.'))
     subparser.set_defaults(func=run_update)
 
 def run_update(args):
     """ Main entry point for the 'update' subcommand.
         args is a Namespace object with the proper flags. """
-    if args.checkpoint_requests or args.checkpoint_parsing:
+    if args.checkpoint_parsing:
         if not os.path.exists(args.ckpt_dir):
             os.makedirs(args.ckpt_dir)
-    skip_parse = (args.checkpoint_only and args.checkpoint_requests
-                  and not args.checkpoint_parsing)
-    skip_update = (args.checkpoint_only
-                   and (args.checkpoint_requests or args.checkpoint_parsing))
+    skip_update = args.checkpoint_only and args.checkpoint_parsing
     card_data = []
     if args.update:
         skip_update = False
         for raw_cards in load(args.update).values():
             card_data.extend(raw_cards)
-    elif args.parse:
-        for rfile in args.parse:
-            cfile = os.path.splitext(rfile.name)[0] + '.txt'
-            with rfile as g:
-                raw_cards = _parse(g.read(), cfile, args.checkpoint_parsing)
-                card_data.extend(raw_cards)
     else:
-        # Run the parser after each request rather than after all of them.
-        # But collate all the parsed data together and run the update last.
-        for result, ckpt_name in _request(args.alpha, args.format,
-                                          args.cardset, args.cards):
-            if args.checkpoint_requests:
-                cfile = os.path.join(args.ckpt_dir, ckpt_name + '.html')
-                with open(cfile, 'w') as f:
-                    f.write(result)
-            if not skip_parse:
-                cfile = os.path.join(args.ckpt_dir, ckpt_name + '.txt')
-                raw_cards = _parse(result, cfile, args.checkpoint_parsing)
+        for filename in args.parse:
+            cfile = os.path.join(args.ckpt_dir, os.path.basename(filename))
+            with open(filename, encoding='latin-1') as f:
+                raw_cards = _parse(f, cfile, args.checkpoint_parsing)
                 card_data.extend(raw_cards)
+
     # Finally, run the update.
     if not skip_update:
         _update(card_data)
-
