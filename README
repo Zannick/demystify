@@ -18,7 +18,7 @@ See INSTALL for more specific instructions.
 - ANTLR 3 Python3 runtime [available at github.com/antlr/antlr3]
 - jpackage-utils 1.7.5 (or later)
 - Python 3.2
-- python-progressbar 2.3
+- python-progressbar2
 
 3) BUILDING
 
@@ -71,9 +71,9 @@ Runs the tests (or a specific test) in demystify/tests/.
 
 update
 
-Mainly a convenience function for me, this grabs card data from Gatherer, fixes
-some textual oddities, and saves the results in demystify/data/text/. Please
-don't overrun Wizards's servers. :)
+Mainly a convenience function for me, this takes the text data downloaded from
+yawgatog, fixes some textual oddities, and saves the results in
+demystify/data/text/.
 
 These can be run from within demystify with:
     $ python3 demystify.py load -i
