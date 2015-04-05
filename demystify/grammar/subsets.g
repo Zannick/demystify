@@ -114,7 +114,7 @@ has_counters : counter_subset ON ref_object
                -> ^( HAS_COUNTERS counter_subset );
 
 share_feature : THAT SHARE A prop_type -> ^( SHARE[] prop_type )
-              | WITH THE SAME prop_type -> ^( SHARE[] prop_type );
+              | WITH THE SAME prop_type -> ^( SAME[] prop_type );
 
 total_int_prop : TOTAL^ int_prop_with_value ;
 
