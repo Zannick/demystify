@@ -108,6 +108,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | HORSEMANSHIP
                     | INFECT
                     | LIVING_WEAPON
+                    | MENACE
                     | PERSIST
                     | PHASING
                     | PROVOKE
@@ -168,6 +169,7 @@ raw_keyword_int : ABSORB
                 | MODULAR
                 | POISONOUS
                 | RAMPAGE
+                | RENOWN
                 | RIPPLE
                 | SOULSHIFT
                 | TRIBUTE

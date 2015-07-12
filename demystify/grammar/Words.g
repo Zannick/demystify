@@ -453,10 +453,12 @@ tokens {
     MANIFESTED;
     MANY;
     MARKED;
+    MASTERY;
     MAXIMUM;
     MAY;
     MEDITATION;
     MEGAMORPH;
+    MENACE;
     MINE;
     MINIMUM;
     MINUS;
@@ -617,6 +619,8 @@ tokens {
     REMOVE;
     REMOVED;
     REMOVING;
+    RENOWN;
+    RENOWNED;
     REORDER;
     REORDERED;
     REPEAT;
@@ -696,6 +700,7 @@ tokens {
     SOULSHIFT;
     SOURCE;
     SPELL;
+    SPELL_MASTERY;
     SPEND;
     SPENT;
     SPLICE;
@@ -1811,6 +1816,7 @@ PROVOKED : 'provoked';
 RECENTLY : 'recently';
 REMAINED : 'remained';
 REMOVING : 'removing';
+RENOWNED : 'renowned';
 REPEATED : 'repeated';
 REPLACED : 'replaced';
 RESELECT : 'reselects'
@@ -1919,6 +1925,7 @@ LIBRARY : 'libraries'
         | 'library';
 LOYALTY : 'loyalty';
 MADNESS : 'madness';
+MASTERY : 'mastery';
 MAXIMUM : 'maximum';
 MINIMUM : 'minimum';
 MIRACLE : 'miracle';
@@ -2089,6 +2096,7 @@ LOOKED : 'looked';
 LOSING : 'losing';
 LOWEST : 'lowest';
 MARKED : 'marked';
+MENACE : 'menace';
 MOVING : 'moving';
 NUMBER : 'numbers'
        | 'number';
@@ -2113,6 +2121,7 @@ REMAIN : 'remains'
        | 'remain';
 REMOVE : 'removes'
        | 'remove';
+RENOWN : 'renown';
 REPEAT : 'repeats'
        | 'repeat';
 RETURN : 'returns'

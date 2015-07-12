@@ -24,7 +24,8 @@ parser grammar macro;
  * DO NOT EDIT DIRECTLY
  */
 
-ability_word : ABILITY_WORD;
+ability_word : ABILITY_WORD
+             | SPELL MASTERY -> SPELL_MASTERY;
 
 arb_choice : ARB_CHOICE
            | DEATH
