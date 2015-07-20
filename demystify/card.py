@@ -259,7 +259,7 @@ class Card(object):
         v = vars(self)
         s = []
         for c in ['name', 'shortname', 'cost', 'color', 'typeline', 'pt',
-                  'set_rarity', 'rules', 'multitype', 'multicard']:
+                  'sets', 'rules', 'multitype', 'multicard']:
             if v[c]:
                 s.append('{}: {}'.format(c, v[c]))
         return '\n'.join(s)
