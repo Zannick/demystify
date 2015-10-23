@@ -29,7 +29,8 @@ import re
 import string
 import sys
 
-import progressbar
+import progressbar.bar
+import progressbar.widgets
 
 abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
@@ -264,11 +265,11 @@ class Card(object):
                 s.append('{}: {}'.format(c, v[c]))
         return '\n'.join(s)
 
-class CardWidget(progressbar.Widget):
+class CardWidget(progressbar.widgets.WidgetBase):
     def __init__(self):
         self.current_card = ' '
 
-    def update(self, pbar):
+    def __call__(self, progress, data):
         if len(self.current_card) < 16:
             return self.current_card + (16 - len(self.current_card)) * ' '
         else:
@@ -280,9 +281,9 @@ class CardProgressBar(list):
     def __iter__(self):
         """ A generator that writes a progress bar to stdout as its elements
             are accessed. """
-        widgets = [CardWidget(), ' ', progressbar.Bar(left='[', right=']'), ' ',
-                   progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
-        pbar = progressbar.ProgressBar(widgets=widgets, maxval=len(self))
+        widgets = [CardWidget(), ' ', progressbar.widgets.Bar(left='[', right=']'), ' ',
+                   progressbar.widgets.SimpleProgress(), ' ', progressbar.widgets.ETA()]
+        pbar = progressbar.bar.ProgressBar(widgets=widgets, max_value=len(self))
         pbar.start()
         for i, card in enumerate(super(CardProgressBar, self).__iter__()):
             widgets[0].current_card = card.name
@@ -297,9 +298,9 @@ class CardProgressQueue(multiprocessing.queues.JoinableQueue):
         super(CardProgressQueue, self).__init__(
                 len(cards), ctx=multiprocessing.get_context())
         self._cw = CardWidget()
-        widgets = [self._cw, ' ', progressbar.Bar(left='[', right=']'), ' ',
-                   progressbar.SimpleProgress(sep='/'), ' ', progressbar.ETA()]
-        self._pbar = progressbar.ProgressBar(widgets=widgets, maxval=len(cards))
+        widgets = [self._cw, ' ', progressbar.widgets.Bar(left='[', right=']'), ' ',
+                   progressbar.widgets.SimpleProgress(), ' ', progressbar.widgets.ETA()]
+        self._pbar = progressbar.bar.ProgressBar(widgets=widgets, max_value=len(cards))
         self._pbar.start()
         for c in cards:
             self.put(c)
