@@ -8,7 +8,7 @@ Python 3.2
 jpackage-utils 1.7.5 or later
 ANTLR 3.5
 antlr3 script (available in this repo in antlr3/)
-python-progressbar 2.3
+python-progressbar 3.3
 ANTLR Python3 runtime
 
 The order isn't necessarily fixed but some things are dependent on others.
@@ -129,7 +129,7 @@ If you don't, there was an issue installing something earlier:
 
 ======
 
-6) python-progressbar2 (currently 2.7.3)
+6) python-progressbar2 (currently 3.3)
 
 $ sudo apt-get install python3-pip
 $ sudo pip3 install progressbar2
