@@ -283,18 +283,18 @@ def preprocess(args):
     for rc in raw_cards:
         _ = card.Card.from_string(rc)
     cards = card.get_cards()
-    split = {c.name for c in cards if c.multitype == "split"}
-    xsplit = {c.multicard for c in cards if c.multitype == "split"}
+    split = {c.name for c in cards if c.multitype == "Split"}
+    xsplit = {c.multicard for c in cards if c.multitype == "Split"}
     logging.debug("Split cards: " + "; ".join(sorted(split)))
     if split != xsplit:
         logging.error("Difference: " + "; ".join(split ^ xsplit))
-    flip = {c.name for c in cards if c.multitype == "flip"}
-    xflip = {c.multicard for c in cards if c.multitype == "flip"}
+    flip = {c.name for c in cards if c.multitype == "Flip"}
+    xflip = {c.multicard for c in cards if c.multitype == "Flip"}
     logging.debug("Flip cards: " + "; ".join(sorted(flip)))
     if flip != xflip:
         logging.error("Difference: " + "; ".join(flip ^ xflip))
-    trans = {c.name for c in cards if c.multitype == "transform"}
-    xtrans = {c.multicard for c in cards if c.multitype == "transform"}
+    trans = {c.name for c in cards if c.multitype == "Transform"}
+    xtrans = {c.multicard for c in cards if c.multitype == "Transform"}
     logging.debug("Transform cards: " + "; ".join(sorted(trans)))
     if trans != xtrans:
         logging.error("Difference: " + "; ".join(trans ^ xtrans))
