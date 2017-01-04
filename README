@@ -82,7 +82,91 @@ Add -h or --help for more information:
     $ python3 demystify.py -h
     $ python3 demystify.py test -h
 
-5) MISCELLANEOUS
+5) LEXING AND PARSING
+
+The intention of this project is to eventually generate full parse trees for
+every line of text on every card. However, as this is a low priority personal
+project, Demystify is far from this goal. At the moment, all that you can do is
+test the lexer or parser.
+
+First, load the environment.
+    $ python3 demystify.py load -i
+    Processing cards for card names...
+    Innocent Blood   [##########################] 14715 of 14715 Time: 0:00:01
+    >>> cards = card.get_cards()
+
+get_cards() returns all the cards loaded. If you like, you can select a smaller
+set of cards via card.get_card_set(), perform a search (note that searches
+return matching text rather than matching cards), or get an individual card.
+    >>> karn = card.get_card('Karn, Silver Golem')
+
+The lexer is essentially done (modulo any new words or symbols in sets not yet
+added to the project), but it can still be tested, with test_lex or lex_card.
+lex_card will print the preprocessed text followed by a table of lex symbols.
+(You can also get at the preprocessed text by simply printing the card object.)
+    >>> lex_card(karn)
+    whenever SELF blocks or becomes blocked, it gets -4/+4 until end of turn.
+    {1}: target non-creature artifact becomes an artifact creature with...
+     1    0   0 whenever  WHEN
+     1    9   2 SELF      SELF
+     1   14   4 blocks    BLOCK
+     1   21   6 or        OR
+     1   24   8 becomes   BECOME
+     1   32  10 blocked   BLOCKED
+     1   39  11 ,         COMMA
+    ...
+     1   72  30 .         PERIOD
+     2    0  32 1         MANA_SYM
+     2    3  33 :         COLON
+    ...
+
+Note that test_lex is very slow, but very effective at finding new vocabulary.
+
+The parse_all function is meant to eventually parse rules text, but at the
+moment it parses only mana cost and type lines. It takes a list of cards
+to parse, and adds the parse tree to each card individually.
+    >>> parse_all(cards)
+    Innocent Blood   [##########################] 14715 of 14715 Time: 0:00:25
+    0 total errors.
+    >>> karn.parsed_cost
+    <antlr3.tree.CommonTree instance (COST (MANA 5))>
+    >>> karn.parsed_typeline
+    <antlr3.tree.CommonTree instance (TYPELINE (SUPERTYPES legendary)
+     (TYPES artifact creature) (SUBTYPES golem))>
+
+The other parse functions use a regex to narrow down the text they attempt
+to parse. You may still pass all the cards.
+    >>> parse_triggers(cards)
+    Whippoorwill     [############################] 3702 of 3702 Time: 0:00:02
+    181 total errors.
+    68 unique cases missing.
+    >>> parse_keyword_lines(cards)
+    Wasp Lancer      [############################] 5085 of 5085 Time: 0:00:02
+    1 total errors.
+    1 unique cases missing.
+    >>> parse_ability_costs(cards)
+    Helm of Obedienc [############################] 4369 of 4369 Time: 0:00:02
+    2 total errors.
+    2 unique cases missing.
+
+Each parse function reports how many times it couldn't parse a line of text,
+and (attempts to) group them together into cases. These are all logged to the
+LOG file, which is useful for development.
+The parse results themselves are again attached to the cards, but as lists
+of strings rather than antlr tree objects.
+    >>> karn.parsed_costs
+    ['(COST (MANA 1))']
+    >>> karn.parsed_triggers
+    ['(TRIGGER (EVENT (SUBSET SELF) (OR (BECOME BLOCKING) (BECOME blocked))))']
+    >>> akroma = card.get_card('Akroma, Angel of Wrath')
+    >>> akroma.parsed_keywords
+    ['(KEYWORDS flying FIRST_STRIKE vigilance trample haste
+     (protection (PROPERTIES black) (PROPERTIES red)))']
+
+You can test individual rules with arbitrary text by calling test_parse, or by
+creating a parsing unittest in test/.
+
+6) MISCELLANEOUS
 
 Dependency visualization:
 
@@ -95,14 +179,14 @@ files. You'll want to use graphviz's dot program to visualize this, e.g. with:
 graphviz can be installed via your package management tool, or downloaded from
 http://www.graphviz.org.
 
-6) CONTRIBUTIONS
+7) CONTRIBUTIONS
 
 Are welcome! Please use github forks and pull requests. Bugs without fixes can
 be reported as well.
 
 http://github.com/Zannick/demystify/
 
-7) LICENSE AND DISCLAIMER
+8) LICENSE AND DISCLAIMER
 
 The files in this repository fall into four categories:
     A) antlr3/antlr3
@@ -135,7 +219,7 @@ GNU General Public License for more details.
 Demystify is not produced, endorsed, supported,
 or affiliated with Wizards of the Coast.
 
-8) THANKS
+9) THANKS
 
 Thanks go to Terence Parr and the ANTLR project (without which this project
 would be much more difficult), and to Wizards of the Coast (for making
