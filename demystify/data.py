@@ -84,6 +84,8 @@ _pt = re.compile(r'^[0-9*+-]+(/[0-9*+-]+)?$')
 _sr = re.compile(r'^[0-9A-Z, -]+$')
 _color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')
 _multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) (.+).]$')
+_meldwith = re.compile(r'Melds with (.+) into (.+).]$')
+_meldfrom = re.compile(r'Melds from (.+) and (.+).]$')
 _abil = re.compile(r'^\[[+-]?\d+\]')
 
 class BasicTextParser:
@@ -108,6 +110,11 @@ class BasicTextParser:
         its other half. (Of course, this only works for 2-in-1 cards. It will
         not work for split transform, flip transform, split flip transform,
         or the Unhinged card Who/What/When/Where/Why.)
+
+        Meld cards will have M-type: Meld, but instead of M-card they will have
+        M-pair and Melded, for the card they meld with and into, respectively.
+        The melded card will only have M-pair, which will contain both
+        components separated with a semi-colon.
     """
 
     def __init__(self):
@@ -177,6 +184,23 @@ class BasicTextParser:
                                        .format(self._name, c))
                         c = cards[1] if self._name == cards[0] else cards[0]
                     self._current_card.append('M-card: ' + c)
+                    continue
+                m = _meldwith.search(s)
+                if m:
+                    mw, mt = m.groups()
+                    self._current_card.extend([
+                        'M-type: Meld',
+                        'M-pair: ' + mw,
+                        'Melded: ' + mt,
+                    ])
+                    continue
+                m = _meldfrom.search(s)
+                if m:
+                    self._current_card.extend([
+                        'M-type: Meld',
+                        'M-pair: ' + '; '.join(m.groups()),
+                    ])
+                    continue
             else:
                 s = s.replace('--', '—')
                 if not self._has_type:

@@ -36,7 +36,7 @@ abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
-name_ref = re.compile(r'named |name is still |transforms into ')
+name_ref = re.compile(r'named |name is still |transforms into |meld them into ')
 rarities = {'C', 'U', 'R', 'M', 'L', 'S'}
 
 all_names = {}
@@ -153,7 +153,7 @@ class Card(object):
     """ Stores information about a Magic card, as given by Gatherer. """
     def __init__(self, name, typeline, cost=None, color=None,
                  pt=None, rules=None, set_rarity=None,
-                 multitype=None, multicard=None):
+                 multitype=None, multicard=None, meld_pair=None, melded=None):
         self.name = str(name)
         self.typeline = str(typeline.lower())
         self.cost = cost
@@ -170,10 +170,23 @@ class Card(object):
         self.sets = sorted(self.sets)
         self.multitype = multitype
         self.multicard = multicard
-        if (self.multitype and not self.multicard
-            or self.multicard and not self.multitype):
-            logger.error('Malformed multicard: {} is a {} card to {}.'
-                         .format(self.name, self.multitype, self.multicard))
+        self.meld_pair = meld_pair
+        self.melded = melded
+        if self.multitype != 'Meld':
+            if self.melded:
+                logger.error('Malformed multicard: {} is a {} card to {} but '
+                             'melds with {} into {}.'.format(
+                                 self.name, self.multitype, self.multicard,
+                                 self.meld_pair, self.melded))
+            elif self.meld_pair:
+                logger.error('Malformed multicard: {} is a {} card to {} but '
+                             'melds from {}.'.format(
+                                 self.name, self.multitype, self.multicard,
+                                 self.meld_pair))
+            elif (self.multitype and not self.multicard
+                  or self.multicard and not self.multitype):
+                logger.error('Malformed multicard: {} is a {} card to {}.'
+                             .format(self.name, self.multitype, self.multicard))
 
         # The other card should have multicard and multitype set
         # We only need to do this once, so if the other card isn't defined yet,
@@ -188,6 +201,74 @@ class Card(object):
                 logger.error('Multicard discrepancy: {} ({}) vs {} ({})'
                              .format(self.name, self.multicard,
                                      mc.name, mc.multicard))
+        elif self.multitype == 'Meld':
+            mcards = self.melded and [self.melded] or []
+            if self.meld_pair:
+                mcards.extend(self.meld_pair.split(';'))
+            if len(mcards) != 2:
+                logger.error('Malformed meld card: {} pair/from {} into {}.'
+                             .format(self.name, self.meld_pair, self.melded))
+            elif all(name in _all_cards for name in mcards):
+                if self.melded:
+                    # This is one of the components.
+                    pc = _all_cards[self.meld_pair]
+                    if pc.multitype != self.multitype:
+                        logger.error('Multitype mismatch: {} ({}) vs {} ({})'
+                                     .format(self.name, self.multitype,
+                                             pc.name, pc.multitype))
+                    else:
+                        if pc.meld_pair != self.name:
+                            logger.error('Meld pair discrepancy: '
+                                         '{} ({}) vs {} ({})'
+                                         .format(self.name, self.meld_pair,
+                                                 pc.name, pc.meld_pair))
+                        if pc.melded != self.melded:
+                            logger.error('Melded discrepancy: '
+                                         '{} ({}) vs {} ({})'
+                                         .format(self.name, self.melded,
+                                                 pc.name, pc.melded))
+                    mc = _all_cards[self.melded]
+                    if mc.multitype != self.multitype:
+                        logger.error('Multitype mismatch: {} ({}) vs {} ({})'
+                                     .format(self.name, self.multitype,
+                                             mc.name, mc.multitype))
+                    elif (not mc.meld_pair or ';' not in mc.meld_pair
+                          or self.name not in mc.meld_pair.split('; ')):
+                        logger.error('Melded discrepancy: {} ({}) vs {} ({})'
+                                     .format(self.name, self.melded,
+                                             mc.name, mc.meld_pair))
+                    elif pc.name not in mc.meld_pair.split('; '):
+                        logger.error('Melded discrepancy: {} ({}) vs {} ({})'
+                                     .format(pc.name, pc.melded,
+                                             mc.name, mc.meld_pair))
+                else:
+                    # This is the melded card.
+                    n1, n2 = mcards
+                    c1, c2 = _all_cards[n1], _all_cards[n2]
+                    if c1.multitype != self.multitype:
+                        logger.error('Multitype mismatch: {} ({}) vs {} ({})'
+                                     .format(self.name, self.multitype,
+                                             c1.name, c1.multitype))
+                    elif c2.multitype != self.multitype:
+                        logger.error('Multitype mismatch: {} ({}) vs {} ({})'
+                                     .format(self.name, self.multitype,
+                                             c1.name, c2.multitype))
+                    else:
+                        if c1.melded != self.name:
+                            logger.error('Melded discrepancy: '
+                                         '{} ({}) vs {} ({})'
+                                         .format(self.name, self.meld_pair,
+                                                 c1.name, c1.meld_pair))
+                        if c2.melded != self.name:
+                            logger.error('Melded discrepancy: '
+                                         '{} ({}) vs {} ({})'
+                                         .format(self.name, self.meld_pair,
+                                                 c2.name, c1.meld_pair))
+                        if c1.meld_pair != c2.name or c1.name != c2.meld_pair:
+                            logger.error('Meld pair discrepancy: '
+                                         '{} ({}) vs {} ({})'
+                                         .format(c1.name, c1.meld_pair,
+                                                 c2.name, c2.meld_pair))
 
         self.shortname = None
         if 'Legendary' in typeline:
@@ -235,6 +316,10 @@ class Card(object):
                 kwargs['multitype'] = l[7:].strip()
             elif l.startswith("M-card:"):
                 kwargs['multicard'] = l[7:].strip()
+            elif l.startswith("M-pair:"):
+                kwargs['meld_pair'] = l[7:].strip()
+            elif l.startswith("Melded:"):
+                kwargs['melded'] = l[7:].strip()
             elif l.strip():
                 rules.append(l.strip())
         assert name is not None
