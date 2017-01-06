@@ -37,7 +37,8 @@ splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
 name_ref = re.compile(r'named |name is still |transforms into |meld them into ')
-rarities = {'C', 'U', 'R', 'M', 'L', 'S'}
+# common, uncommon, rare, mythic, land, special, bonus
+rarities = {'C', 'U', 'R', 'M', 'L', 'S', 'B'}
 
 all_names = {}
 all_names_inv = {}
