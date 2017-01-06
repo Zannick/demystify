@@ -399,6 +399,11 @@ def potential_names(words, cardnames):
             else:
                 break
         name = name.rstrip(',.:"')
+        if ', ' in name:
+            ns = name.split(', ', 1)
+            if ns[0] == ns[1] and ns[0] in cardnames:
+                yield (ns[0],)
+                return
         yield (name, )
         if namelist:
             for sep in [' and ', ' or ']:
@@ -518,7 +523,7 @@ def preprocess_names(line, selfnames=(), parentnames=()):
             if len(good) > 1:
                 logger.warning("Multiple name splits possible: {}."
                                .format("; ".join(map(str, good))))
-            res = good and good[0] or bad and bad[-1] or None
+            res = good and good[0] or bad and bad[0] or None
             if res:
                 logger.debug("Selected name(s) at position {} "
                               "as: {}".format(j, "; ".join(res)))
