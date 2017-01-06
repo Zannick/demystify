@@ -216,6 +216,8 @@ def _update(raw_cards):
     # Sort the new data
     for raw_card in raw_cards:
         raw_card = raw_card.strip()
+        # Standardize capitalization of AE cards.
+        raw_card = raw_card.replace('AE', 'Ae')
         name = raw_card[5:raw_card.index('\n')].strip()
         # TODO: factor out name -> filename function in case we decide
         # to reorganize again?
