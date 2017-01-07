@@ -8,7 +8,7 @@ Whenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or
 
 Name:   Kabira Crossroads
 Type:   Land
-S/R:    ZEN-C
+S/R:    ZEN-C, DDF-C
 Kabira Crossroads enters the battlefield tapped.
 When Kabira Crossroads enters the battlefield, you gain 2 life.
 {T}: Add {W} to your mana pool.
@@ -24,7 +24,7 @@ Name:   Kabira Vindicator
 Cost:   3W
 Type:   Creature — Human Knight
 P/T:    2/4
-S/R:    ROE-U
+S/R:    ROE-U, DDG-U, DDP-U
 Level up {2}{W} ({2}{W}: Put a level counter on this. Level up only as a sorcery.)
 {LEVEL 2-4} 3/6 Other creatures you control get +1/+1.
 {LEVEL 5+} 4/8 Other creatures you control get +2/+2.
@@ -33,7 +33,7 @@ Name:   Kaboom!
 Cost:   4R
 Type:   Sorcery
 S/R:    ONS-R
-Choose any number of target players. For each of those players, reveal cards from the top of your library until you reveal a nonland card. Kaboom! deals damage equal to that card's converted mana cost to that player, then you put the revealed cards on the bottom of your library in any order.
+Choose any number of target players. For each of those players, reveal cards from the top of your library until you reveal a nonland card, Kaboom! deals damage equal to that card's converted mana cost to that player, then you put the revealed cards on the bottom of your library in any order.
 
 Name:   Kabuto Moth
 Cost:   2W
@@ -72,7 +72,7 @@ Target player loses 5 life.
 Name:   Kaervek's Torch
 Cost:   XR
 Type:   Sorcery
-S/R:    MI-C
+S/R:    MI-C, VMA-U
 As long as Kaervek's Torch is on the stack, spells that target it cost {2} more to cast.
 Kaervek's Torch deals X damage to target creature or player.
 
@@ -117,12 +117,26 @@ S/R:    BOK-U
 Flying
 Remove a ki counter from Kaiso, Memory of Loyalty: Prevent all damage that would be dealt to target creature this turn.
 
+Name:   Kalastria Healer
+Cost:   1B
+Type:   Creature — Vampire Cleric Ally
+P/T:    1/2
+S/R:    BFZ-C
+Rally — Whenever Kalastria Healer or another Ally enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.
+
 Name:   Kalastria Highborn
 Cost:   BB
 Type:   Creature — Vampire Shaman
 P/T:    2/2
 S/R:    WWK-R
 Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.
+
+Name:   Kalastria Nightwatch
+Cost:   4B
+Type:   Creature — Vampire Warrior Ally
+P/T:    4/5
+S/R:    BFZ-C
+Whenever you gain life, Kalastria Nightwatch gains flying until end of turn.
 
 Name:   Kaleidostone
 Cost:   2
@@ -131,12 +145,39 @@ S/R:    CON-C
 When Kaleidostone enters the battlefield, draw a card.
 {5}, {T}, Sacrifice Kaleidostone: Add {W}{U}{B}{R}{G} to your mana pool.
 
+Name:   Kalemne's Captain
+Cost:   3WW
+Type:   Creature — Giant Soldier
+P/T:    5/5
+S/R:    C15-R
+Vigilance
+{5}{W}{W}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
+When Kalemne's Captain becomes monstrous, exile all artifacts and enchantments.
+
+Name:   Kalemne, Disciple of Iroas
+Cost:   2RW
+Type:   Legendary Creature — Giant Soldier
+P/T:    3/3
+S/R:    C15-M
+Double strike, vigilance
+Whenever you cast a creature spell with converted mana cost 5 or greater, you get an experience counter.
+Kalemne, Disciple of Iroas gets +1/+1 for each experience counter you have.
+
 Name:   Kalitas, Bloodchief of Ghet
 Cost:   5BB
 Type:   Legendary Creature — Vampire Warrior
 P/T:    5/5
 S/R:    ZEN-M
-{B}{B}{B}, {T}: Destroy target creature. If that creature dies this way, put a black Vampire creature token onto the battlefield. Its power is equal to that creature's power and its toughness is equal to that creature's toughness.
+{B}{B}{B}, {T}: Destroy target creature. If that creature dies this way, create a black Vampire creature token. Its power is equal to that creature's power and its toughness is equal to that creature's toughness.
+
+Name:   Kalitas, Traitor of Ghet
+Cost:   2BB
+Type:   Legendary Creature — Vampire Warrior
+P/T:    3/4
+S/R:    OGW-M
+Lifelink
+If a nontoken creature an opponent controls would die, instead exile that card and create a 2/2 black Zombie creature token.
+{2}{B}, Sacrifice another Vampire or Zombie: Put two +1/+1 counters on Kalitas, Traitor of Ghet.
 
 Name:   Kalonian Behemoth
 Cost:   5GG
@@ -149,7 +190,7 @@ Name:   Kalonian Hydra
 Cost:   3GG
 Type:   Creature — Hydra
 P/T:    0/0
-S/R:    M14-M
+S/R:    M14-M, C16-M
 Trample
 Kalonian Hydra enters the battlefield with four +1/+1 counters on it.
 Whenever Kalonian Hydra attacks, double the number of +1/+1 counters on each creature you control.
@@ -166,7 +207,7 @@ Type:   Creature — Treefolk Warrior
 P/T:    */*
 S/R:    M15-R
 Kalonian Twingrove's power and toughness are each equal to the number of Forests you control.
-When Kalonian Twingrove enters the battlefield, put a green Treefolk Warrior creature token onto the battlefield with "This creature's power and toughness are each equal to the number of Forests you control."
+When Kalonian Twingrove enters the battlefield, create a green Treefolk Warrior creature token with "This creature's power and toughness are each equal to the number of Forests you control."
 
 Name:   Kamahl's Desire
 Cost:   1R
@@ -187,7 +228,7 @@ Name:   Kamahl's Summons
 Cost:   3G
 Type:   Sorcery
 S/R:    ONS-U
-Each player may reveal any number of creature cards from his or her hand. Then each player puts a 2/2 green Bear creature token onto the battlefield for each card he or she revealed this way.
+Each player may reveal any number of creature cards from his or her hand. Then each player creates a 2/2 green Bear creature token for each card he or she revealed this way.
 
 Name:   Kamahl, Fist of Krosa
 Cost:   4GG
@@ -201,15 +242,22 @@ Name:   Kamahl, Pit Fighter
 Cost:   4RR
 Type:   Legendary Creature — Human Barbarian
 P/T:    6/1
-S/R:    OD-R, 10E-R
+S/R:    OD-R, 10E-R, DDL-R
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 {T}: Kamahl, Pit Fighter deals 3 damage to target creature or player.
+
+Name:   Kambal, Consul of Allocation
+Cost:   1WB
+Type:   Legendary Creature — Human Advisor
+P/T:    2/3
+S/R:    KLD-R
+Whenever an opponent casts a noncreature spell, that player loses 2 life and you gain 2 life.
 
 Name:   Kami of Ancient Law
 Cost:   1W
 Type:   Creature — Spirit
 P/T:    2/2
-S/R:    CHK-C
+S/R:    CHK-C, MM2-C
 Sacrifice Kami of Ancient Law: Destroy target enchantment.
 
 Name:   Kami of Empty Graves
@@ -265,7 +313,7 @@ Name:   Kami of the Crescent Moon
 Cost:   UU
 Type:   Legendary Creature — Spirit
 P/T:    1/3
-S/R:    SOK-R
+S/R:    SOK-R, CN2-R
 At the beginning of each player's draw step, that player draws an additional card.
 
 Name:   Kami of the Honored Dead
@@ -343,7 +391,7 @@ During each of your turns, you may cast one creature card from your graveyard.
 
 Name:   Karakas
 Type:   Legendary Land
-S/R:    LE-U
+S/R:    LE-U, EMA-M, ME3-R
 {T}: Add {W} to your mana pool.
 {T}: Return target legendary creature to its owner's hand.
 
@@ -381,6 +429,14 @@ Level up {R} ({R}: Put a level counter on this. Level up only as a sorcery.)
 {LEVEL 8+} 8/8 Flying, trample
 {R}: Kargan Dragonlord gets +1/+0 until end of turn.
 
+Name:   Karlov of the Ghost Council
+Cost:   WB
+Type:   Legendary Creature — Spirit Advisor
+P/T:    2/2
+S/R:    C15-M
+Whenever you gain life, put two +1/+1 counters on Karlov of the Ghost Council.
+{W}{B}, Remove six +1/+1 counters from Karlov of the Ghost Council: Exile target creature.
+
 Name:   Karma
 Cost:   2WW
 Type:   Enchantment
@@ -391,7 +447,7 @@ Name:   Karmic Guide
 Cost:   3WW
 Type:   Creature — Angel Spirit
 P/T:    2/2
-S/R:    UL-R, C13-R
+S/R:    UL-R, C13-R, EMA-R, VMA-R
 Flying, protection from black
 Echo {3}{W}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Karmic Guide enters the battlefield, return target creature card from your graveyard to the battlefield.
@@ -399,14 +455,14 @@ When Karmic Guide enters the battlefield, return target creature card from your 
 Name:   Karmic Justice
 Cost:   2W
 Type:   Enchantment
-S/R:    OD-R
+S/R:    OD-R, C15-R
 Whenever a spell or ability an opponent controls destroys a noncreature permanent you control, you may destroy target permanent that opponent controls.
 
 Name:   Karn Liberated
 Cost:   7
 Type:   Planeswalker — Karn
 P/T:    6
-S/R:    NPH-M
+S/R:    NPH-M, MM2-M
 [+4]: Target player exiles a card from his or her hand.
 [-3]: Exile target permanent.
 [-14]: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.
@@ -421,7 +477,7 @@ Name:   Karn, Silver Golem
 Cost:   5
 Type:   Legendary Artifact Creature — Golem
 P/T:    4/4
-S/R:    US-R
+S/R:    US-R, VMA-R, V10-M
 Whenever Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.
 {1}: Target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost until end of turn.
 
@@ -447,7 +503,7 @@ Type:   Land
 S/R:    VI-U, C14-U
 Karoo enters the battlefield tapped.
 When Karoo enters the battlefield, sacrifice it unless you return an untapped Plains you control to its owner's hand.
-{T}: Add {1}{W} to your mana pool.
+{T}: Add {C}{W} to your mana pool.
 
 Name:   Karoo Meerkat
 Cost:   1G
@@ -458,15 +514,15 @@ Protection from blue
 
 Name:   Karplusan Forest
 Type:   Land
-S/R:    IA-R, 5E-R, 6E-R, 7E-R, 9ED-R, 10E-R
-{T}: Add {1} to your mana pool.
+S/R:    IA-R, 5E-R, 6E-R, 7E-R, 9ED-R, 10E-R, C16-R
+{T}: Add {C} to your mana pool.
 {T}: Add {R} or {G} to your mana pool. Karplusan Forest deals 1 damage to you.
 
 Name:   Karplusan Giant
 Cost:   6R
 Type:   Creature — Giant
 P/T:    3/3
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 Tap an untapped snow land you control: Karplusan Giant gets +1/+1 until end of turn.
 
 Name:   Karplusan Minotaur
@@ -482,7 +538,7 @@ Name:   Karplusan Strider
 Cost:   3G
 Type:   Creature — Yeti
 P/T:    3/4
-S/R:    CSP-U, 10E-U
+S/R:    CSP-U, 10E-U, MM2-U
 Karplusan Strider can't be the target of blue or black spells.
 
 Name:   Karplusan Wolverine
@@ -515,6 +571,13 @@ P/T:    0/0
 S/R:    DST-U
 Karstoderm enters the battlefield with five +1/+1 counters on it.
 Whenever an artifact enters the battlefield, remove a +1/+1 counter from Karstoderm.
+
+Name:   Kaseto, Orochi Archmage
+Cost:   1GU
+Type:   Legendary Creature — Snake Wizard
+P/T:    2/2
+S/R:    C15-M
+{G}{U}: Target creature can't be blocked this turn. If that creature is a Snake, it gets +2/+2 until end of turn.
 
 Name:   Kashi-Tribe Elite
 Cost:   1GG
@@ -556,16 +619,16 @@ Name:   Kataki, War's Wage
 Cost:   1W
 Type:   Legendary Creature — Spirit
 P/T:    2/1
-S/R:    SOK-R
+S/R:    SOK-R, MMA-R
 All artifacts have "At the beginning of your upkeep, sacrifice this artifact unless you pay {1}."
 
 Name:   Kathari Bomber
 Cost:   1BR
 Type:   Creature — Bird Shaman
 P/T:    2/2
-S/R:    ARB-C
+S/R:    ARB-C, DDN-C
 Flying
-When Kathari Bomber deals combat damage to a player, put two 1/1 red Goblin creature tokens onto the battlefield and sacrifice Kathari Bomber.
+When Kathari Bomber deals combat damage to a player, create two 1/1 red Goblin creature tokens and sacrifice Kathari Bomber.
 Unearth {3}{B}{R} ({3}{B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
 Name:   Kathari Remnant
@@ -575,7 +638,7 @@ P/T:    0/1
 S/R:    ARB-U, PC2-U
 Flying
 {B}: Regenerate Kathari Remnant.
-Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 
 Name:   Kathari Screecher
 Cost:   2U
@@ -650,7 +713,7 @@ Name:   Kavu Predator
 Cost:   1G
 Type:   Creature — Kavu
 P/T:    2/2
-S/R:    PLC-U
+S/R:    PLC-U, DDL-U
 Trample
 Whenever an opponent gains life, put that many +1/+1 counters on Kavu Predator.
 
@@ -658,7 +721,7 @@ Name:   Kavu Primarch
 Cost:   3G
 Type:   Creature — Kavu
 P/T:    3/3
-S/R:    FUT-C
+S/R:    FUT-C, MM2-C
 Kicker {4} (You may pay an additional {4} as you cast this spell.)
 Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 If Kavu Primarch was kicked, it enters the battlefield with four +1/+1 counters on it.
@@ -692,11 +755,20 @@ S/R:    IN-R
 Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 If Kavu Titan was kicked, it enters the battlefield with three +1/+1 counters on it and with trample.
 
+Name:   Kaya, Ghost Assassin
+Cost:   2WB
+Type:   Planeswalker — Kaya
+P/T:    5
+S/R:    CN2-M
+[0]: Exile Kaya, Ghost Assassin or up to one target creature. Return that card to the battlefield under its owner's control at the beginning of your next upkeep. You lose 2 life.
+[-1]: Each opponent loses 2 life and you gain 2 life.
+[-2]: Each opponent discards a card and you draw a card.
+
 Name:   Kaysa
 Cost:   3GG
 Type:   Legendary Creature — Elf Druid
 P/T:    2/3
-S/R:    AI-R
+S/R:    AI-R, ME2-R
 Green creatures you control get +1/+1.
 
 Name:   Kazandu Blademaster
@@ -709,7 +781,7 @@ Whenever Kazandu Blademaster or another Ally enters the battlefield under your c
 
 Name:   Kazandu Refuge
 Type:   Land
-S/R:    ZEN-U, CMD-U, PC2-U, C13-U, ARC-U
+S/R:    ZEN-U, ARC-U, CMD-U, PC2-U, C13-U, DDH-U, DDL-U
 Kazandu Refuge enters the battlefield tapped.
 When Kazandu Refuge enters the battlefield, you gain 1 life.
 {T}: Add {R} or {G} to your mana pool.
@@ -720,8 +792,8 @@ Type:   Creature — Human Shaman
 P/T:    1/1
 S/R:    ROE-R, C13-R
 Level up {1}{G} ({1}{G}: Put a level counter on this. Level up only as a sorcery.)
-{LEVEL 2-5} 1/1 {T}: Put a 3/3 green Elephant creature token onto the battlefield.
-{LEVEL 6+} 1/1 {T}: Put two 3/3 green Elephant creature tokens onto the battlefield.
+{LEVEL 2-5} 1/1 {T}: Create a 3/3 green Elephant creature token.
+{LEVEL 6+} 1/1 {T}: Create two 3/3 green Elephant creature tokens.
 
 Name:   Kazuul Warlord
 Cost:   4R
@@ -730,20 +802,27 @@ P/T:    3/3
 S/R:    ZEN-R
 Whenever Kazuul Warlord or another Ally enters the battlefield under your control, you may put a +1/+1 counter on each Ally creature you control.
 
+Name:   Kazuul's Toll Collector
+Cost:   2R
+Type:   Creature — Ogre Warrior
+P/T:    3/2
+S/R:    OGW-U
+{0}: Attach target Equipment you control to Kazuul's Toll Collector. Activate this ability only any time you could cast a sorcery.
+
 Name:   Kazuul, Tyrant of the Cliffs
 Cost:   3RR
 Type:   Legendary Creature — Ogre Warrior
 P/T:    5/4
-S/R:    WWK-R
-Whenever a creature an opponent controls attacks, if you're the defending player, put a 3/3 red Ogre creature token onto the battlefield unless that creature's controller pays {3}.
+S/R:    WWK-R, C16-R
+Whenever a creature an opponent controls attacks, if you're the defending player, create a 3/3 red Ogre creature token unless that creature's controller pays {3}.
 
 Name:   Kederekt Creeper
 Cost:   UBR
 Type:   Creature — Horror
 P/T:    2/3
 S/R:    ALA-C
+Menace (This creature can't be blocked except by two or more creatures.)
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-Kederekt Creeper can't be blocked except by two or more creatures.
 
 Name:   Kederekt Leviathan
 Cost:   6UU
@@ -778,7 +857,7 @@ Name:   Keeneye Aven
 Cost:   3U
 Type:   Creature — Bird Soldier
 P/T:    2/3
-S/R:    LGN-C
+S/R:    LGN-C, VMA-C
 Flying
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
@@ -793,14 +872,14 @@ Name:   Keening Banshee
 Cost:   2BB
 Type:   Creature — Spirit
 P/T:    2/2
-S/R:    RAV-U
+S/R:    RAV-U, DDD-U
 Flying
 When Keening Banshee enters the battlefield, target creature gets -2/-2 until end of turn.
 
 Name:   Keening Stone
 Cost:   6
 Type:   Artifact
-S/R:    ROE-R
+S/R:    ROE-R, C16-R
 {5}, {T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of cards in that player's graveyard.
 
 Name:   Keep Watch
@@ -808,6 +887,14 @@ Cost:   2U
 Type:   Instant
 S/R:    JUD-C, HOP-C
 Draw a card for each attacking creature.
+
+Name:   Keeper of Keys
+Cost:   3UU
+Type:   Creature — Human Rogue Mutant
+P/T:    4/4
+S/R:    CN2-R
+When Keeper of Keys enters the battlefield, you become the monarch.
+At the beginning of your upkeep, if you're the monarch, creatures you control can't be blocked this turn.
 
 Name:   Keeper of Kookus
 Cost:   R
@@ -835,7 +922,7 @@ Cost:   GG
 Type:   Creature — Human Wizard
 P/T:    1/2
 S/R:    EX-U
-{G}, {T}: Choose target opponent who controlled more creatures than you did as you activated this ability. Put a 2/2 green Beast creature token onto the battlefield.
+{G}, {T}: Choose target opponent who controlled more creatures than you did as you activated this ability. Create a 2/2 green Beast creature token.
 
 Name:   Keeper of the Dead
 Cost:   BB
@@ -890,7 +977,7 @@ Name:   Keepsake Gorgon
 Cost:   3BB
 Type:   Creature — Gorgon
 P/T:    2/5
-S/R:    THS-U
+S/R:    THS-U, CN2-U
 Deathtouch
 {5}{B}{B}: Monstrosity 1. (If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 When Keepsake Gorgon becomes monstrous, destroy target non-Gorgon creature an opponent controls.
@@ -899,14 +986,14 @@ Name:   Kei Takahashi
 Cost:   2GW
 Type:   Legendary Creature — Human Cleric
 P/T:    2/2
-S/R:    LE-R, CH-U
+S/R:    LE-R, CH-U, ME3-U
 {T}: Prevent the next 2 damage that would be dealt to target creature this turn.
 
 Name:   Keiga, the Tide Star
 Cost:   5U
 Type:   Legendary Creature — Dragon Spirit
 P/T:    5/5
-S/R:    CHK-R
+S/R:    CHK-R, MMA-M
 Flying
 When Keiga, the Tide Star dies, gain control of target creature.
 
@@ -938,7 +1025,7 @@ Name:   Keldon Champion
 Cost:   2RR
 Type:   Creature — Human Barbarian
 P/T:    3/2
-S/R:    UD-U, HOP-U
+S/R:    UD-U, HOP-U, EMA-U, PD2-U
 Haste
 Echo {2}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Keldon Champion enters the battlefield, it deals 3 damage to target player.
@@ -971,21 +1058,21 @@ Name:   Keldon Marauders
 Cost:   1R
 Type:   Creature — Human Warrior
 P/T:    3/3
-S/R:    PLC-C
-Vanishing 2 (This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+S/R:    PLC-C, EMA-C, PD2-C
+Vanishing 2 (This creature enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.
 
 Name:   Keldon Megaliths
 Type:   Land
-S/R:    FUT-U
+S/R:    FUT-U, DD2-U
 Keldon Megaliths enters the battlefield tapped.
 {T}: Add {R} to your mana pool.
 Hellbent — {1}{R}, {T}: Keldon Megaliths deals 1 damage to target creature or player. Activate this ability only if you have no cards in hand.
 
 Name:   Keldon Necropolis
 Type:   Legendary Land
-S/R:    IN-R
-{T}: Add {1} to your mana pool.
+S/R:    IN-R, VMA-R
+{T}: Add {C} to your mana pool.
 {4}{R}, {T}, Sacrifice a creature: Keldon Necropolis deals 2 damage to target creature or player.
 
 Name:   Keldon Twilight
@@ -1006,7 +1093,7 @@ Name:   Keldon Warlord
 Cost:   2RR
 Type:   Creature — Human Barbarian
 P/T:    */*
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, MED-U
 Keldon Warlord's power and toughness are each equal to the number of non-Wall creatures you control.
 
 Name:   Kelinore Bat
@@ -1029,13 +1116,13 @@ Type:   Creature — Cat Soldier
 P/T:    4/6
 S/R:    MBS-U
 Vigilance
-Kemba's Legion can block an additional creature for each Equipment attached to Kemba's Legion.
+Kemba's Legion can block an additional creature each combat for each Equipment attached to Kemba's Legion.
 
 Name:   Kemba's Skyguard
 Cost:   1WW
 Type:   Creature — Cat Knight
 P/T:    2/2
-S/R:    SOM-C
+S/R:    SOM-C, DDF-C
 Flying
 When Kemba's Skyguard enters the battlefield, you gain 2 life.
 
@@ -1044,7 +1131,7 @@ Cost:   1WW
 Type:   Legendary Creature — Cat Cleric
 P/T:    2/4
 S/R:    SOM-R, C14-R
-At the beginning of your upkeep, put a 2/2 white Cat creature token onto the battlefield for each Equipment attached to Kemba, Kha Regent.
+At the beginning of your upkeep, create a 2/2 white Cat creature token for each Equipment attached to Kemba, Kha Regent.
 
 Name:   Kemuri-Onna
 Cost:   4B
@@ -1059,7 +1146,7 @@ Cost:   1W
 Type:   Legendary Creature — Human Samurai
 P/T:    2/1
 S/R:    BOK-R
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 You may pay {X} rather than pay the mana cost for Samurai spells you cast, where X is that spell's converted mana cost.
 
 Name:   Kenzo the Hardhearted
@@ -1069,7 +1156,7 @@ P/T:    3/4
 M-type: Flip
 M-card: Bushi Tenderfoot
 S/R:    CHK-U
-Double strike; bushido 2 (When this blocks or becomes blocked, it gets +2/+2 until end of turn.)
+Double strike; bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
 
 Name:   Keranos, God of Storms
 Cost:   3UR
@@ -1084,8 +1171,25 @@ Name:   Kessig Cagebreakers
 Cost:   4G
 Type:   Creature — Human Rogue
 P/T:    3/4
-S/R:    ISD-R
-Whenever Kessig Cagebreakers attacks, put a 2/2 green Wolf creature token onto the battlefield tapped and attacking for each creature card in your graveyard.
+S/R:    ISD-R, C15-R
+Whenever Kessig Cagebreakers attacks, create a 2/2 green Wolf creature token that's tapped and attacking for each creature card in your graveyard.
+
+Name:   Kessig Dire Swine
+Cost:   4GG
+Type:   Creature — Boar Horror
+P/T:    6/6
+S/R:    SOI-C
+Delirium — Kessig Dire Swine has trample as long as there are four or more card types among cards in your graveyard.
+
+Name:   Kessig Forgemaster
+Cost:   1R
+Type:   Creature — Human Shaman Werewolf
+P/T:    2/1
+M-type: Transform
+M-card: Flameheart Werewolf
+S/R:    SOI-U
+Whenever Kessig Forgemaster blocks or becomes blocked by a creature, Kessig Forgemaster deals 1 damage to that creature.
+At the beginning of each upkeep, if no spells were cast last turn, transform Kessig Forgemaster.
 
 Name:   Kessig Malcontents
 Cost:   2R
@@ -1093,6 +1197,15 @@ Type:   Creature — Human Warrior
 P/T:    3/1
 S/R:    AVR-U
 When Kessig Malcontents enters the battlefield, it deals damage to target player equal to the number of Humans you control.
+
+Name:   Kessig Prowler
+Cost:   G
+Type:   Creature — Werewolf Horror
+P/T:    2/1
+M-type: Transform
+M-card: Sinuous Predator
+S/R:    EMN-U
+{4}{G}: Transform Kessig Prowler.
 
 Name:   Kessig Recluse
 Cost:   2GG
@@ -1111,9 +1224,16 @@ S/R:    ISD-C
 
 Name:   Kessig Wolf Run
 Type:   Land
-S/R:    ISD-R
-{T}: Add {1} to your mana pool.
+S/R:    ISD-R, V13-M
+{T}: Add {C} to your mana pool.
 {X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn.
+
+Name:   Key to the City
+Cost:   2
+Type:   Artifact
+S/R:    KLD-R
+{T}, Discard a card: Up to one target creature can't be blocked this turn.
+Whenever Key to the City becomes untapped, you may pay {2}. If you do, draw a card.
 
 Name:   Keymaster Rogue
 Cost:   3U
@@ -1127,7 +1247,7 @@ Name:   Kezzerdrix
 Cost:   2BB
 Type:   Creature — Rabbit Beast
 P/T:    4/4
-S/R:    TE-R
+S/R:    TE-R, VMA-U
 First strike
 At the beginning of your upkeep, if your opponents control no creatures, Kezzerdrix deals 4 damage to you.
 
@@ -1135,14 +1255,14 @@ Name:   Khabal Ghoul
 Cost:   2B
 Type:   Creature — Zombie
 P/T:    1/1
-S/R:    AN-U
+S/R:    AN-U, MED-R
 At the beginning of each end step, put a +1/+1 counter on Khabal Ghoul for each creature that died this turn.
 
 Name:   Khalni Garden
 Type:   Land
-S/R:    WWK-C, PC2-C, C13-C, ARC-C
+S/R:    WWK-C, ARC-C, PC2-C, C13-C, DDR-C
 Khalni Garden enters the battlefield tapped.
-When Khalni Garden enters the battlefield, put a 0/1 green Plant creature token onto the battlefield.
+When Khalni Garden enters the battlefield, create a 0/1 green Plant creature token.
 {T}: Add {G} to your mana pool.
 
 Name:   Khalni Gem
@@ -1155,7 +1275,7 @@ When Khalni Gem enters the battlefield, return two lands you control to their ow
 Name:   Khalni Heart Expedition
 Cost:   1G
 Type:   Enchantment
-S/R:    ZEN-C
+S/R:    ZEN-C, DDP-C
 Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Khalni Heart Expedition.
 Remove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
 
@@ -1170,8 +1290,8 @@ Trample
 Name:   Kher Keep
 Type:   Legendary Land
 S/R:    TSP-R, C13-R
-{T}: Add {1} to your mana pool.
-{1}{R}, {T}: Put a 0/1 red Kobold creature token named Kobolds of Kher Keep onto the battlefield.
+{T}: Add {C} to your mana pool.
+{1}{R}, {T}: Create a 0/1 red Kobold creature token named Kobolds of Kher Keep.
 
 Name:   Kheru Bloodsucker
 Cost:   2B
@@ -1208,9 +1328,9 @@ Name:   Kiki-Jiki, Mirror Breaker
 Cost:   2RRR
 Type:   Legendary Creature — Goblin Shaman
 P/T:    2/2
-S/R:    CHK-R
+S/R:    CHK-R, MMA-M, MM2-M, V11-M
 Haste
-{T}: Put a token that's a copy of target nonlegendary creature you control onto the battlefield. That token has haste. Sacrifice it at the beginning of the next end step.
+{T}: Create a token that's a copy of target nonlegendary creature you control. That token has haste. Sacrifice it at the beginning of the next end step.
 
 Name:   Kiku's Shadow
 Cost:   BB
@@ -1228,7 +1348,7 @@ S/R:    CHK-R
 Name:   Kill Shot
 Cost:   2W
 Type:   Instant
-S/R:    KTK-C
+S/R:    KTK-C, CN2-C
 Destroy target attacking creature.
 
 Name:   Kill Switch
@@ -1249,7 +1369,7 @@ Name:   Killer Bees
 Cost:   1GG
 Type:   Creature — Insect
 P/T:    0/1
-S/R:    LE-R, 4E-U, 5E-U
+S/R:    LE-R, 4E-U, 5E-U, ME3-U
 Flying
 {G}: Killer Bees gets +1/+1 until end of turn.
 
@@ -1263,7 +1383,7 @@ Name:   Killer Whale
 Cost:   3UU
 Type:   Creature — Whale
 P/T:    3/5
-S/R:    EX-U
+S/R:    EX-U, VMA-C
 {U}: Killer Whale gains flying until end of turn.
 
 Name:   Killing Glare
@@ -1282,7 +1402,7 @@ Name:   Kiln Fiend
 Cost:   1R
 Type:   Creature — Elemental Beast
 P/T:    1/2
-S/R:    ROE-C
+S/R:    ROE-C, CN2-C, DDJ-C
 Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.
 
 Name:   Kiln Walker
@@ -1296,7 +1416,7 @@ Name:   Kilnmouth Dragon
 Cost:   5RR
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    LGN-R, ARC-R
+S/R:    LGN-R, ARC-R, DDG-R
 Amplify 3 (As this creature enters the battlefield, put three +1/+1 counters on it for each Dragon card you reveal in your hand.)
 Flying
 {T}: Kilnmouth Dragon deals damage equal to the number of +1/+1 counters on it to target creature or player.
@@ -1305,7 +1425,7 @@ Name:   Kin-Tree Invocation
 Cost:   BG
 Type:   Sorcery
 S/R:    KTK-U
-Put an X/X black and green Spirit Warrior creature token onto the battlefield, where X is the greatest toughness among creatures you control.
+Create an X/X black and green Spirit Warrior creature token, where X is the greatest toughness among creatures you control.
 
 Name:   Kin-Tree Warden
 Cost:   G
@@ -1324,7 +1444,7 @@ S/R:    ISD-C
 Name:   Kindle
 Cost:   1R
 Type:   Instant
-S/R:    TE-C
+S/R:    TE-C, VMA-C
 Kindle deals X damage to target creature or player, where X is 2 plus the number of cards named Kindle in all graveyards.
 
 Name:   Kindle the Carnage
@@ -1338,6 +1458,15 @@ Cost:   R
 Type:   Instant
 S/R:    MOR-C, M10-C, M13-C, DTK-C
 Target creature gets +1/+0 and gains first strike until end of turn.
+
+Name:   Kindly Stranger
+Cost:   2B
+Type:   Creature — Human
+P/T:    2/3
+M-type: Transform
+M-card: Demon-Possessed Witch
+S/R:    SOI-U
+Delirium — {2}{B}: Transform Kindly Stranger. Activate this ability only if there are four or more card types among cards in your graveyard.
 
 Name:   King Cheetah
 Cost:   3G
@@ -1358,7 +1487,7 @@ Cost:   2BB
 Type:   Legendary Creature — Human
 P/T:    2/3
 S/R:    JOU-R
-Inspired — Whenever King Macar, the Gold-Cursed becomes untapped, you may exile target creature. If you do, put a colorless artifact token named Gold onto the battlefield. It has "Sacrifice this artifact: Add one mana of any color to your mana pool."
+Inspired — Whenever King Macar, the Gold-Cursed becomes untapped, you may exile target creature. If you do, create a colorless artifact token named Gold. It has "Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   King Suleiman
 Cost:   1W
@@ -1404,20 +1533,20 @@ Type:   Creature — Kithkin Soldier
 P/T:    1/1
 S/R:    MOR-R
 Kinsbaile Borderguard enters the battlefield with a +1/+1 counter on it for each other Kithkin you control.
-When Kinsbaile Borderguard dies, put a 1/1 white Kithkin Soldier creature token onto the battlefield for each counter on it.
+When Kinsbaile Borderguard dies, create a 1/1 white Kithkin Soldier creature token for each counter on it.
 
 Name:   Kinsbaile Cavalier
 Cost:   3W
 Type:   Creature — Kithkin Knight
 P/T:    2/2
-S/R:    MOR-R
+S/R:    MOR-R, DDG-R
 Knight creatures you control have double strike.
 
 Name:   Kinsbaile Skirmisher
 Cost:   1W
 Type:   Creature — Kithkin Soldier
 P/T:    2/2
-S/R:    LRW-C, M15-C
+S/R:    LRW-C, M15-C, DDO-C
 When Kinsbaile Skirmisher enters the battlefield, target creature gets +1/+1 until end of turn.
 
 Name:   Kinscaer Harpoonist
@@ -1439,31 +1568,40 @@ Name:   Kiora's Follower
 Cost:   GU
 Type:   Creature — Merfolk
 P/T:    2/2
-S/R:    BNG-U
+S/R:    BNG-U, DDO-U
 {T}: Untap another target permanent.
+
+Name:   Kiora, Master of the Depths
+Cost:   2GU
+Type:   Planeswalker — Kiora
+P/T:    4
+S/R:    BFZ-M
+[+1]: Untap up to one target creature and up to one target land.
+[-2]: Reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.
+[-8]: You get an emblem with "Whenever a creature enters the battlefield under your control, you may have it fight target creature." Then create three 8/8 blue Octopus creature tokens.
 
 Name:   Kiora, the Crashing Wave
 Cost:   2GU
 Type:   Planeswalker — Kiora
 P/T:    2
-S/R:    BNG-M
+S/R:    BNG-M, DDO-M
 [+1]: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.
 [-1]: Draw a card. You may play an additional land this turn.
-[-5]: You get an emblem with "At the beginning of your end step, put a 9/9 blue Kraken creature token onto the battlefield."
+[-5]: You get an emblem with "At the beginning of your end step, create a 9/9 blue Kraken creature token."
 
 Name:   Kira, Great Glass-Spinner
 Cost:   1UU
 Type:   Legendary Creature — Spirit
 P/T:    2/2
-S/R:    BOK-R
+S/R:    BOK-R, MMA-R
 Flying
-Creatures you control have "Whenever this creature becomes the target of a spell or ability for the first time in a turn, counter that spell or ability."
+Creatures you control have "Whenever this creature becomes the target of a spell or ability for the first time each turn, counter that spell or ability."
 
 Name:   Kird Ape
 Cost:   R
 Type:   Creature — Ape
 P/T:    1/1
-S/R:    AN-C, RV-C, 9ED-U
+S/R:    AN-C, RV-C, 9ED-U, EMA-C, DDH-U, V09-M
 Kird Ape gets +1/+2 as long as you control a Forest.
 
 Name:   Kird Chieftain
@@ -1495,12 +1633,12 @@ Cost:   4WW
 Type:   Sorcery
 S/R:    OD-R, C13-R
 Destroy all creatures. They can't be regenerated.
-Threshold — If seven or more cards are in your graveyard, instead destroy all creatures, then put two 1/1 white Spirit creature tokens with flying onto the battlefield. Creatures destroyed this way can't be regenerated.
+Threshold — If seven or more cards are in your graveyard, instead destroy all creatures, then create two 1/1 white Spirit creature tokens with flying. Creatures destroyed this way can't be regenerated.
 
 Name:   Kismet
 Cost:   3W
 Type:   Enchantment
-S/R:    LE-U, 4E-U, 5E-U, 6E-U
+S/R:    LE-U, 4E-U, 5E-U, 6E-U, ME4-R
 Artifacts, creatures, and lands played by your opponents enter the battlefield tapped.
 
 Name:   Kiss of Death
@@ -1519,7 +1657,7 @@ Name:   Kitchen Finks
 Cost:   1(G/W)(G/W)
 Type:   Creature — Ouphe
 P/T:    3/2
-S/R:    SHM-U
+S/R:    SHM-U, MMA-U
 When Kitchen Finks enters the battlefield, you gain 2 life.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 
@@ -1533,7 +1671,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Kitesail
 Cost:   2
 Type:   Artifact — Equipment
-S/R:    WWK-C, M13-U
+S/R:    WWK-C, M13-U, MM2-C, CN2-C
 Equipped creature gets +1/+0 and has flying.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
@@ -1543,6 +1681,13 @@ Type:   Creature — Kor Soldier
 P/T:    1/1
 S/R:    WWK-C
 As long as Kitesail Apprentice is equipped, it gets +1/+1 and has flying.
+
+Name:   Kitesail Scout
+Cost:   W
+Type:   Creature — Kor Scout
+P/T:    1/1
+S/R:    BFZ-C
+Flying
 
 Name:   Kithkin Armor
 Cost:   W
@@ -1563,7 +1708,7 @@ Name:   Kithkin Greatheart
 Cost:   1W
 Type:   Creature — Kithkin Soldier
 P/T:    2/1
-S/R:    LRW-C
+S/R:    LRW-C, MMA-C
 As long as you control a Giant, Kithkin Greatheart gets +1/+1 and has first strike.
 
 Name:   Kithkin Harbinger
@@ -1631,7 +1776,7 @@ Type:   Creature — Fox Samurai
 P/T:    2/2
 S/R:    CHK-C
 First strike
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 
 Name:   Kitsune Bonesetter
 Cost:   2W
@@ -1645,7 +1790,7 @@ Cost:   4W
 Type:   Creature — Fox Samurai
 P/T:    2/3
 S/R:    SOK-C
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 When Kitsune Dawnblade enters the battlefield, you may tap target creature.
 
 Name:   Kitsune Diviner
@@ -1706,7 +1851,7 @@ Name:   Kjeldoran Dead
 Cost:   B
 Type:   Creature — Skeleton
 P/T:    3/1
-S/R:    IA-C, 5E-C, 6E-C
+S/R:    IA-C, 5E-C, 6E-C, ME2-C
 When Kjeldoran Dead enters the battlefield, sacrifice a creature.
 {B}: Regenerate Kjeldoran Dead.
 
@@ -1714,7 +1859,7 @@ Name:   Kjeldoran Elite Guard
 Cost:   3W
 Type:   Creature — Human Soldier
 P/T:    2/2
-S/R:    IA-U
+S/R:    IA-U, ME2-C
 {T}: Target creature gets +2/+2 until end of turn. When that creature leaves the battlefield this turn, sacrifice Kjeldoran Elite Guard. Activate this ability only during combat.
 
 Name:   Kjeldoran Escort
@@ -1728,7 +1873,7 @@ Name:   Kjeldoran Frostbeast
 Cost:   3GW
 Type:   Creature — Elemental Beast
 P/T:    2/4
-S/R:    IA-U
+S/R:    IA-U, ME3-U
 At end of combat, destroy all creatures blocking or blocked by Kjeldoran Frostbeast.
 
 Name:   Kjeldoran Gargoyle
@@ -1750,8 +1895,8 @@ Name:   Kjeldoran Home Guard
 Cost:   3W
 Type:   Creature — Human Soldier
 P/T:    1/6
-S/R:    AI-U
-At end of combat, if Kjeldoran Home Guard attacked or blocked this combat, put a -0/-1 counter on Kjeldoran Home Guard and put a 0/1 white Deserter creature token onto the battlefield.
+S/R:    AI-U, ME2-U
+At end of combat, if Kjeldoran Home Guard attacked or blocked this combat, put a -0/-1 counter on Kjeldoran Home Guard and create a 0/1 white Deserter creature token.
 
 Name:   Kjeldoran Javelineer
 Cost:   W
@@ -1772,10 +1917,10 @@ Banding (Any creatures with banding, and up to one without, can attack in a band
 
 Name:   Kjeldoran Outpost
 Type:   Land
-S/R:    AI-R
+S/R:    AI-R, VMA-R, ME2-R
 If Kjeldoran Outpost would enter the battlefield, sacrifice a Plains instead. If you do, put Kjeldoran Outpost onto the battlefield. If you don't, put it into its owner's graveyard.
 {T}: Add {W} to your mana pool.
-{1}{W}, {T}: Put a 1/1 white Soldier creature token onto the battlefield.
+{1}{W}, {T}: Create a 1/1 white Soldier creature token.
 
 Name:   Kjeldoran Outrider
 Cost:   1W
@@ -1810,7 +1955,7 @@ Name:   Kjeldoran Skycaptain
 Cost:   4W
 Type:   Creature — Human Soldier
 P/T:    2/2
-S/R:    IA-U, 5E-U
+S/R:    IA-U, 5E-U, ME2-C
 Flying; first strike; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 
 Name:   Kjeldoran Skyknight
@@ -1851,7 +1996,7 @@ Name:   Knight Exemplar
 Cost:   1WW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    M11-R
+S/R:    M11-R, DDG-R
 First strike (This creature deals combat damage before creatures without first strike.)
 Other Knight creatures you control get +1/+1 and have indestructible. (Damage and effects that say "destroy" don't destroy them.)
 
@@ -1859,13 +2004,13 @@ Name:   Knight Watch
 Cost:   4W
 Type:   Sorcery
 S/R:    GTC-C
-Put two 2/2 white Knight creature tokens with vigilance onto the battlefield.
+Create two 2/2 white Knight creature tokens with vigilance.
 
 Name:   Knight of Cliffhaven
 Cost:   1W
 Type:   Creature — Kor Knight
 P/T:    2/2
-S/R:    ROE-C
+S/R:    ROE-C, DDG-C, DDP-C
 Level up {3} ({3}: Put a level counter on this. Level up only as a sorcery.)
 {LEVEL 1-3} 2/3 Flying
 {LEVEL 4+} 4/4 Flying, vigilance
@@ -1905,7 +2050,7 @@ Name:   Knight of Meadowgrain
 Cost:   WW
 Type:   Creature — Kithkin Knight
 P/T:    2/2
-S/R:    LRW-U
+S/R:    LRW-U, DDG-U
 First strike
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 
@@ -1928,7 +2073,7 @@ Name:   Knight of Stromgald
 Cost:   BB
 Type:   Creature — Human Knight
 P/T:    2/1
-S/R:    IA-U, 5E-U
+S/R:    IA-U, 5E-U, ME2-U
 Protection from white
 {B}: Knight of Stromgald gains first strike until end of turn.
 {B}{B}: Knight of Stromgald gets +1/+0 until end of turn.
@@ -1966,11 +2111,18 @@ S/R:    VI-C
 Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 When Knight of the Mists enters the battlefield, you may pay {U}. If you don't, destroy target Knight and it can't be regenerated.
 
+Name:   Knight of the Pilgrim's Road
+Cost:   2W
+Type:   Creature — Human Knight
+P/T:    3/2
+S/R:    ORI-C
+Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
+
 Name:   Knight of the Reliquary
 Cost:   1GW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    CON-R
+S/R:    CON-R, MMA-R, DDG-M
 Knight of the Reliquary gets +1/+1 for each land card in your graveyard.
 {T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.
 
@@ -1985,7 +2137,7 @@ Name:   Knight of the White Orchid
 Cost:   WW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    ALA-R
+S/R:    ALA-R, ORI-R, DDG-R
 First strike
 When Knight of the White Orchid enters the battlefield, if an opponent controls more lands than you, you may search your library for a Plains card, put it onto the battlefield, then shuffle your library.
 
@@ -1994,7 +2146,7 @@ Cost:   4W
 Type:   Creature — Human Knight
 P/T:    2/2
 S/R:    ALA-R
-When Knight-Captain of Eos enters the battlefield, put two 1/1 white Soldier creature tokens onto the battlefield.
+When Knight-Captain of Eos enters the battlefield, create two 1/1 white Soldier creature tokens.
 {W}, Sacrifice a Soldier: Prevent all combat damage that would be dealt this turn.
 
 Name:   Knighthood
@@ -2006,17 +2158,25 @@ Creatures you control have first strike.
 Name:   Knightly Valor
 Cost:   4W
 Type:   Enchantment — Aura
-S/R:    RTR-C
+S/R:    RTR-C, ORI-U
 Enchant creature
-When Knightly Valor enters the battlefield, put a 2/2 white Knight creature token with vigilance onto the battlefield.
+When Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance. (Attacking doesn't cause it to tap.)
 Enchanted creature gets +2/+2 and has vigilance.
 
 Name:   Knights of Thorn
 Cost:   3W
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    DK-R
+S/R:    DK-R, MED-C
 Protection from red; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
+
+Name:   Knights of the Black Rose
+Cost:   3WB
+Type:   Creature — Human Knight
+P/T:    4/4
+S/R:    CN2-U
+When Knights of the Black Rose enters the battlefield, you become the monarch.
+Whenever an opponent becomes the monarch, if you were the monarch as the turn began, that player loses 2 life and you gain 2 life.
 
 Name:   Knollspine Dragon
 Cost:   5RR
@@ -2043,7 +2203,7 @@ Name:   Knotvine Paladin
 Cost:   GW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    ARB-R
+S/R:    ARB-R, DDG-R
 Whenever Knotvine Paladin attacks, it gets +1/+1 until end of turn for each untapped creature you control.
 
 Name:   Knowledge Exploitation
@@ -2063,7 +2223,7 @@ Whenever a player casts a spell from his or her hand, that player exiles it. If 
 Name:   Knowledge Vault
 Cost:   4
 Type:   Artifact
-S/R:    LE-R
+S/R:    LE-R, ME3-U
 {2}, {T}: Exile the top card of your library face down.
 {0}: Sacrifice Knowledge Vault. If you do, discard your hand, then put all cards exiled with Knowledge Vault into their owner's hand.
 When Knowledge Vault leaves the battlefield, put all cards exiled with Knowledge Vault into their owner's graveyard.
@@ -2085,14 +2245,14 @@ Name:   Kobold Drill Sergeant
 Cost:   1R
 Type:   Creature — Kobold Soldier
 P/T:    1/2
-S/R:    LE-U
+S/R:    LE-U, ME3-U
 Other Kobold creatures you control get +0/+1 and have trample.
 
 Name:   Kobold Overlord
 Cost:   1R
 Type:   Creature — Kobold
 P/T:    1/2
-S/R:    LE-R
+S/R:    LE-R, ME3-U
 First strike
 Other Kobold creatures you control have first strike.
 
@@ -2100,7 +2260,7 @@ Name:   Kobold Taskmaster
 Cost:   1R
 Type:   Creature — Kobold
 P/T:    1/2
-S/R:    LE-U, TSP-S
+S/R:    LE-U, TSP-S, ME3-C
 Other Kobold creatures you control get +1/+0.
 
 Name:   Kobolds of Kher Keep
@@ -2108,7 +2268,7 @@ Cost:   0
 Type:   Creature — Kobold
 P/T:    0/1
 Color:  Red
-S/R:    LE-C
+S/R:    LE-C, ME3-C
 
 Name:   Kodama of the Center Tree
 Cost:   4G
@@ -2143,14 +2303,14 @@ Splice onto Arcane {G} (As you cast an Arcane spell, you may reveal this card fr
 Name:   Kodama's Reach
 Cost:   2G
 Type:   Sorcery — Arcane
-S/R:    CHK-C, CMD-C
+S/R:    CHK-C, CMD-C, MMA-C, C15-C, C16-C
 Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.
 
 Name:   Kokusho, the Evening Star
 Cost:   4BB
 Type:   Legendary Creature — Dragon Spirit
 P/T:    5/5
-S/R:    CHK-R
+S/R:    CHK-R, MMA-M, DRB-R
 Flying
 When Kokusho, the Evening Star dies, each opponent loses 5 life. You gain life equal to the life lost this way.
 
@@ -2226,7 +2386,7 @@ Cost:   1W
 Type:   Creature — Human Samurai
 P/T:    1/2
 S/R:    CHK-U
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 As long as you control a legendary Samurai, Konda's Hatamoto gets +1/+2 and has vigilance. (Attacking doesn't cause this creature to tap.)
 
 Name:   Konda, Lord of Eiganjo
@@ -2234,9 +2394,8 @@ Cost:   5WW
 Type:   Legendary Creature — Human Samurai
 P/T:    3/3
 S/R:    CHK-R
-Indestructible
-Vigilance (Attacking doesn't cause this creature to tap.)
-Bushido 5 (When this blocks or becomes blocked, it gets +5/+5 until end of turn.)
+Vigilance, indestructible
+Bushido 5 (Whenever this creature blocks or becomes blocked, it gets +5/+5 until end of turn.)
 
 Name:   Kongming's Contraptions
 Cost:   3W
@@ -2249,7 +2408,7 @@ Name:   Kongming, "Sleeping Dragon"
 Cost:   2WW
 Type:   Legendary Creature — Human Advisor
 P/T:    2/2
-S/R:    P3K-R, C13-R
+S/R:    P3K-R, C13-R, VMA-R, ME3-R
 Other creatures you control get +1/+1.
 
 Name:   Kookus
@@ -2265,17 +2424,31 @@ Name:   Kor Aeronaut
 Cost:   WW
 Type:   Creature — Kor Soldier
 P/T:    2/2
-S/R:    ZEN-U
+S/R:    ZEN-U, DDF-U
 Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
 Flying
 When Kor Aeronaut enters the battlefield, if it was kicked, target creature gains flying until end of turn.
+
+Name:   Kor Bladewhirl
+Cost:   1W
+Type:   Creature — Kor Soldier Ally
+P/T:    2/2
+S/R:    BFZ-U
+Rally — Whenever Kor Bladewhirl or another Ally enters the battlefield under your control, creatures you control gain first strike until end of turn.
 
 Name:   Kor Cartographer
 Cost:   3W
 Type:   Creature — Kor Scout
 P/T:    2/2
-S/R:    ZEN-C
+S/R:    ZEN-C, DDI-C
 When Kor Cartographer enters the battlefield, you may search your library for a Plains card, put it onto the battlefield tapped, then shuffle your library.
+
+Name:   Kor Castigator
+Cost:   1W
+Type:   Creature — Kor Wizard Ally
+P/T:    3/1
+S/R:    BFZ-C
+Kor Castigator can't be blocked by Eldrazi Scions.
 
 Name:   Kor Chant
 Cost:   2W
@@ -2293,8 +2466,15 @@ Name:   Kor Duelist
 Cost:   W
 Type:   Creature — Kor Soldier
 P/T:    1/1
-S/R:    ZEN-U
+S/R:    ZEN-U, MM2-U
 As long as Kor Duelist is equipped, it has double strike. (It deals both first-strike and regular combat damage.)
+
+Name:   Kor Entanglers
+Cost:   4W
+Type:   Creature — Kor Soldier Ally
+P/T:    3/4
+S/R:    BFZ-U
+Rally — Whenever Kor Entanglers or another Ally enters the battlefield under your control, tap target creature an opponent controls.
 
 Name:   Kor Firewalker
 Cost:   WW
@@ -2306,15 +2486,15 @@ Whenever a player casts a red spell, you may gain 1 life.
 
 Name:   Kor Haven
 Type:   Legendary Land
-S/R:    NE-R
-{T}: Add {1} to your mana pool.
+S/R:    NE-R, EXP-M
+{T}: Add {C} to your mana pool.
 {1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn.
 
 Name:   Kor Hookmaster
 Cost:   2W
 Type:   Creature — Kor Soldier
 P/T:    2/2
-S/R:    ZEN-C
+S/R:    ZEN-C, EMA-C, DDF-C, DDN-C
 When Kor Hookmaster enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 
 Name:   Kor Line-Slinger
@@ -2335,15 +2515,29 @@ Name:   Kor Sanctifiers
 Cost:   2W
 Type:   Creature — Kor Cleric
 P/T:    2/3
-S/R:    ZEN-C, C14-C, HOP-C
+S/R:    HOP-C, ZEN-C, C14-C, C15-C
 Kicker {W} (You may pay an additional {W} as you cast this spell.)
 When Kor Sanctifiers enters the battlefield, if it was kicked, destroy target artifact or enchantment.
+
+Name:   Kor Scythemaster
+Cost:   2W
+Type:   Creature — Kor Soldier Ally
+P/T:    3/1
+S/R:    OGW-C
+Kor Scythemaster has first strike as long as it's attacking.
+
+Name:   Kor Sky Climber
+Cost:   2W
+Type:   Creature — Kor Soldier Ally
+P/T:    3/2
+S/R:    OGW-C
+{1}{W}: Kor Sky Climber gains flying until end of turn.
 
 Name:   Kor Skyfisher
 Cost:   1W
 Type:   Creature — Kor Soldier
 P/T:    2/3
-S/R:    ZEN-C
+S/R:    ZEN-C, DDF-C, DDO-C
 Flying
 When Kor Skyfisher enters the battlefield, return a permanent you control to its owner's hand.
 
@@ -2367,7 +2561,7 @@ Grandeur — Discard another card named Korlash, Heir to Blackblade: Search your
 Name:   Kormus Bell
 Cost:   4
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, ME4-R
 All Swamps are 1/1 black creatures that are still lands.
 
 Name:   Korozda Gorgon
@@ -2382,9 +2576,9 @@ Name:   Korozda Guildmage
 Cost:   BG
 Type:   Creature — Elf Shaman
 P/T:    2/2
-S/R:    RTR-U
-{1}{B}{G}: Target creature gets +1/+1 and gains intimidate until end of turn.
-{2}{B}{G}, Sacrifice a nontoken creature: Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the sacrificed creature's toughness.
+S/R:    RTR-U, C15-U, C16-U, DDJ-U
+{1}{B}{G}: Target creature gets +1/+1 and gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+{2}{B}{G}, Sacrifice a nontoken creature: Create X 1/1 green Saproling creature tokens, where X is the sacrificed creature's toughness.
 
 Name:   Korozda Monitor
 Cost:   2GG
@@ -2404,7 +2598,7 @@ Creatures can't attack you unless their controller pays {2} for each creature he
 Name:   Koskun Keep
 Type:   Land
 S/R:    HL-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}, {T}: Add {R} to your mana pool.
 {2}, {T}: Add {B} or {G} to your mana pool.
 
@@ -2412,7 +2606,7 @@ Name:   Koth of the Hammer
 Cost:   2RR
 Type:   Planeswalker — Koth
 P/T:    3
-S/R:    SOM-M
+S/R:    SOM-M, DDI-M
 [+1]: Untap target Mountain. It becomes a 4/4 red Elemental creature until end of turn. It's still a land.
 [-2]: Add {R} to your mana pool for each Mountain you control.
 [-5]: You get an emblem with "Mountains you control have '{T}: This land deals 1 damage to target creature or player.'"
@@ -2422,23 +2616,86 @@ Cost:   1RR
 Type:   Creature — Human Rogue
 P/T:    2/3
 S/R:    MBS-C
-Forestwalk
+Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+
+Name:   Kothophed, Soul Hoarder
+Cost:   4BB
+Type:   Legendary Creature — Demon
+P/T:    6/6
+S/R:    ORI-R
+Flying
+Whenever a permanent owned by another player is put into a graveyard from the battlefield, you draw a card and you lose 1 life.
+
+Name:   Kozilek's Channeler
+Cost:   5
+Type:   Creature — Eldrazi
+P/T:    4/4
+S/R:    BFZ-C
+{T}: Add {C}{C} to your mana pool.
+
+Name:   Kozilek's Pathfinder
+Cost:   6
+Type:   Creature — Eldrazi
+P/T:    5/5
+S/R:    OGW-C
+{C}: Target creature can't block Kozilek's Pathfinder this turn. ({C} represents colorless mana.)
 
 Name:   Kozilek's Predator
 Cost:   3G
 Type:   Creature — Eldrazi Drone
 P/T:    3/3
-S/R:    ROE-C
-When Kozilek's Predator enters the battlefield, put two 0/1 colorless Eldrazi Spawn creature tokens onto the battlefield. They have "Sacrifice this creature: Add {1} to your mana pool."
+S/R:    ROE-C, MM2-C
+When Kozilek's Predator enters the battlefield, create two 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+
+Name:   Kozilek's Return
+Cost:   2R
+Type:   Instant
+S/R:    OGW-M
+Devoid (This card has no color.)
+Kozilek's Return deals 2 damage to each creature.
+Whenever you cast an Eldrazi creature spell with converted mana cost 7 or greater, you may exile Kozilek's Return from your graveyard. If you do, Kozilek's Return deals 5 damage to each creature.
+
+Name:   Kozilek's Sentinel
+Cost:   1R
+Type:   Creature — Eldrazi Drone
+P/T:    1/4
+S/R:    BFZ-C
+Devoid (This card has no color.)
+Whenever you cast a colorless spell, Kozilek's Sentinel gets +1/+0 until end of turn.
+
+Name:   Kozilek's Shrieker
+Cost:   2B
+Type:   Creature — Eldrazi Drone
+P/T:    3/2
+S/R:    OGW-C
+Devoid (This card has no color.)
+{C}: Kozilek's Shrieker gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures. {C} represents colorless mana.)
+
+Name:   Kozilek's Translator
+Cost:   4B
+Type:   Creature — Eldrazi Drone
+P/T:    3/5
+S/R:    OGW-C
+Devoid (This card has no color.)
+Pay 1 life: Add {C} to your mana pool. Activate this ability only once each turn. ({C} represents colorless mana.)
 
 Name:   Kozilek, Butcher of Truth
 Cost:   10
 Type:   Legendary Creature — Eldrazi
 P/T:    12/12
-S/R:    ROE-M
+S/R:    ROE-M, MM2-M
 When you cast Kozilek, Butcher of Truth, draw four cards.
 Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
 When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.
+
+Name:   Kozilek, the Great Distortion
+Cost:   8CC
+Type:   Legendary Creature — Eldrazi
+P/T:    12/12
+S/R:    OGW-M
+When you cast Kozilek, the Great Distortion, if you have fewer than seven cards in hand, draw cards equal to the difference.
+Menace
+Discard a card with converted mana cost X: Counter target spell with converted mana cost X.
 
 Name:   Kragma Butcher
 Cost:   2R
@@ -2481,6 +2738,16 @@ P/T:    0/0
 S/R:    TE-U
 Krakilin enters the battlefield with X +1/+1 counters on it.
 {1}{G}: Regenerate Krakilin.
+
+Name:   Krallenhorde Howler
+Type:   Creature — Werewolf
+P/T:    3/3
+Color:  Green
+M-type: Transform
+M-card: Duskwatch Recruiter
+S/R:    SOI-U
+Creature spells you cast cost {1} less to cast.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Krallenhorde Howler.
 
 Name:   Krallenhorde Killer
 Type:   Creature — Werewolf
@@ -2532,7 +2799,7 @@ Name:   Krark-Clan Ironworks
 Cost:   4
 Type:   Artifact
 S/R:    5DN-U
-Sacrifice an artifact: Add {2} to your mana pool.
+Sacrifice an artifact: Add {C}{C} to your mana pool.
 
 Name:   Krark-Clan Ogre
 Cost:   3RR
@@ -2570,11 +2837,20 @@ P/T:    2/2
 S/R:    DGM-C
 {5}{G}: Kraul Warrior gets +3/+3 until end of turn.
 
+Name:   Kraum, Ludevic's Opus
+Cost:   3UR
+Type:   Legendary Creature — Zombie Horror
+P/T:    4/4
+S/R:    C16-R
+Flying, haste
+Whenever an opponent casts his or her second spell each turn, draw a card.
+Partner (You can have two commanders if both have partner.)
+
 Name:   Krenko's Command
 Cost:   1R
 Type:   Sorcery
-S/R:    M13-C
-Put two 1/1 red Goblin creature tokens onto the battlefield.
+S/R:    M13-C, DDN-C
+Create two 1/1 red Goblin creature tokens.
 
 Name:   Krenko's Enforcer
 Cost:   1RR
@@ -2587,14 +2863,14 @@ Name:   Krenko, Mob Boss
 Cost:   2RR
 Type:   Legendary Creature — Goblin Warrior
 P/T:    3/3
-S/R:    M13-R
-{T}: Put X 1/1 red Goblin creature tokens onto the battlefield, where X is the number of Goblins you control.
+S/R:    M13-R, DDN-R
+{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.
 
 Name:   Kresh the Bloodbraided
 Cost:   2BRG
 Type:   Legendary Creature — Human Warrior
 P/T:    3/3
-S/R:    ALA-M
+S/R:    ALA-M, V11-M
 Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.
 
 Name:   Kris Mage
@@ -2655,7 +2931,7 @@ Cost:   3G
 Type:   Creature — Snake
 P/T:    2/2
 S/R:    TOR-C
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 {T}: Target black creature gets -2/-0 until end of turn.
 
 Name:   Krosan Drover
@@ -2668,7 +2944,7 @@ Creature spells you cast with converted mana cost 6 or greater cost {2} less to 
 Name:   Krosan Grip
 Cost:   2G
 Type:   Instant
-S/R:    TSP-U, C13-U
+S/R:    TSP-U, MMA-U, C13-U, C15-U
 Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 Destroy target artifact or enchantment.
 
@@ -2698,23 +2974,23 @@ Name:   Krosan Tusker
 Cost:   5GG
 Type:   Creature — Boar Beast
 P/T:    6/5
-S/R:    ONS-C, CMD-C, C13-C, ARC-C
+S/R:    ONS-C, ARC-C, CMD-C, C13-C, VMA-C, DDD-C, DDL-C
 Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)
 When you cycle Krosan Tusker, you may search your library for a basic land card, reveal that card, put it into your hand, then shuffle your library.
 
 Name:   Krosan Verge
 Type:   Land
-S/R:    JUD-U, PC2-U, ARC-U
+S/R:    JUD-U, ARC-U, PC2-U, C16-U
 Krosan Verge enters the battlefield tapped.
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card and put them onto the battlefield tapped. Then shuffle your library.
 
 Name:   Krosan Vorine
 Cost:   3G
 Type:   Creature — Cat Beast
 P/T:    3/2
-S/R:    LGN-C
-Provoke (When this attacks, you may have target creature defending player controls untap and block it if able.)
+S/R:    LGN-C, VMA-C
+Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)
 Krosan Vorine can't be blocked by more than one creature.
 
 Name:   Krosan Warchief
@@ -2743,7 +3019,7 @@ S/R:    IA-U
 Name:   Krovikan Fetish
 Cost:   2B
 Type:   Enchantment — Aura
-S/R:    IA-C, 5E-C
+S/R:    IA-C, 5E-C, ME2-C
 Enchant creature
 When Krovikan Fetish enters the battlefield, draw a card at the beginning of the next turn's upkeep.
 Enchanted creature gets +1/+1.
@@ -2752,7 +3028,7 @@ Name:   Krovikan Horror
 Cost:   3B
 Type:   Creature — Horror Spirit
 P/T:    2/2
-S/R:    AI-R
+S/R:    AI-R, ME2-R
 At the beginning of the end step, if Krovikan Horror is in your graveyard with a creature card directly above it, you may return Krovikan Horror to your hand.
 {1}, Sacrifice a creature: Krovikan Horror deals 1 damage to target creature or player.
 
@@ -2760,7 +3036,7 @@ Name:   Krovikan Mist
 Cost:   1U
 Type:   Creature — Illusion
 P/T:    */*
-S/R:    CSP-C
+S/R:    CSP-C, DDM-C
 Flying
 Krovikan Mist's power and toughness are each equal to the number of Illusions on the battlefield.
 
@@ -2789,7 +3065,7 @@ Name:   Krovikan Sorcerer
 Cost:   2U
 Type:   Creature — Human Wizard
 P/T:    1/1
-S/R:    IA-C, 5E-C
+S/R:    IA-C, 5E-C, VMA-C, ME2-C
 {T}, Discard a nonblack card: Draw a card.
 {T}, Discard a black card: Draw two cards, then discard one of them.
 
@@ -2797,7 +3073,7 @@ Name:   Krovikan Vampire
 Cost:   3BB
 Type:   Creature — Vampire
 P/T:    3/3
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 At the beginning of each end step, if a creature dealt damage by Krovikan Vampire this turn died, put that card onto the battlefield under your control. Sacrifice it when you lose control of Krovikan Vampire.
 
 Name:   Krovikan Whispers
@@ -2858,9 +3134,16 @@ S/R:    LE-U
 Name:   Kudzu
 Cost:   1GG
 Type:   Enchantment — Aura
-S/R:    A-R, B-R, U-R, RV-R
+S/R:    A-R, B-R, U-R, RV-R, ME4-U
 Enchant land
 When enchanted land becomes tapped, destroy it. That land's controller attaches Kudzu to a land of his or her choice.
+
+Name:   Kujar Seedsculptor
+Cost:   1G
+Type:   Creature — Elf Druid
+P/T:    1/2
+S/R:    KLD-C
+When Kujar Seedsculptor enters the battlefield, put a +1/+1 counter on target creature you control.
 
 Name:   Kukemssa Pirates
 Cost:   3U
@@ -2905,7 +3188,7 @@ Cost:   R
 Type:   Sorcery
 S/R:    SOM-C
 As an additional cost to cast Kuldotha Rebirth, sacrifice an artifact.
-Put three 1/1 red Goblin creature tokens onto the battlefield.
+Create three 1/1 red Goblin creature tokens.
 
 Name:   Kuldotha Ringleader
 Cost:   4R
@@ -2983,14 +3266,14 @@ Cost:   1B
 Type:   Creature — Rat Samurai
 P/T:    1/1
 S/R:    SOK-C
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 {1}{B}: Regenerate Kuro's Taken.
 
 Name:   Kuro, Pitlord
 Cost:   6BBB
 Type:   Legendary Creature — Demon Spirit
 P/T:    9/9
-S/R:    CHK-R
+S/R:    CHK-R, DDC-R
 At the beginning of your upkeep, sacrifice Kuro, Pitlord unless you pay {B}{B}{B}{B}.
 Pay 1 life: Target creature gets -1/-1 until end of turn.
 
@@ -3001,6 +3284,21 @@ S/R:    CHK-R
 Equipped creature has "{2}: This creature gets +1/+0 until end of turn."
 Whenever equipped creature deals damage to a blocking creature, Kusari-Gama deals that much damage to each other creature defending player controls.
 Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
+
+Name:   Kydele, Chosen of Kruphix
+Cost:   2GU
+Type:   Legendary Creature — Human Wizard
+P/T:    2/3
+S/R:    C16-M
+{T}: Add {C} to your mana pool for each card you've drawn this turn.
+Partner (You can have two commanders if both have partner.)
+
+Name:   Kynaios and Tiro of Meletis
+Cost:   RGWU
+Type:   Legendary Creature — Human Soldier
+P/T:    2/8
+S/R:    C16-M
+At the beginning of your end step, draw a card. Each player may put a land card from his or her hand onto the battlefield, then each opponent who didn't draws a card.
 
 Name:   Kyoki, Sanity's Eclipse
 Cost:   4BB
@@ -3050,7 +3348,7 @@ Cost:   3
 Type:   Artifact
 S/R:    MM-R
 {1}, {T}: Put a charge counter on Kyren Toy.
-{T}, Remove X charge counters from Kyren Toy: Add {X}{1} to your mana pool.
+{T}, Remove X charge counters from Kyren Toy: Add an amount of {C} to your mana pool equal to X plus one.
 
 Name:   Kyscu Drake
 Cost:   3G
@@ -3060,3 +3358,28 @@ S/R:    VI-U
 Flying
 {G}: Kyscu Drake gets +0/+1 until end of turn. Activate this ability only once each turn.
 Sacrifice Kyscu Drake and a creature named Spitting Drake: Search your library for a card named Viashivan Dragon and put that card onto the battlefield. Then shuffle your library.
+
+Name:   Kytheon's Irregulars
+Cost:   2WW
+Type:   Creature — Human Soldier
+P/T:    4/3
+S/R:    ORI-R
+Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
+{W}{W}: Tap target creature.
+
+Name:   Kytheon's Tactics
+Cost:   1WW
+Type:   Sorcery
+S/R:    ORI-C
+Creatures you control get +2/+1 until end of turn.
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, those creatures also gain vigilance until end of turn. (Attacking doesn't cause them to tap.)
+
+Name:   Kytheon, Hero of Akros
+Cost:   W
+Type:   Legendary Creature — Human Soldier
+P/T:    2/1
+M-type: Transform
+M-card: Gideon, Battle-Forged
+S/R:    ORI-M
+At end of combat, if Kytheon, Hero of Akros and at least two other creatures attacked this combat, exile Kytheon, then return him to the battlefield transformed under his owner's control.
+{2}{W}: Kytheon gains indestructible until end of turn.

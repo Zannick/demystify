@@ -10,7 +10,7 @@ Cost:   1U
 Type:   Creature — Naga Wizard
 P/T:    0/4
 S/R:    DTK-U
-{T}: Add {1} to your mana pool. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. (A megamorph cost is a morph cost.)
+{T}: Add {C} to your mana pool. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. (A megamorph cost is a morph cost.)
 
 Name:   Qarsi High Priest
 Cost:   B
@@ -39,7 +39,7 @@ Name:   Qasali Pridemage
 Cost:   GW
 Type:   Creature — Cat Wizard
 P/T:    2/2
-S/R:    ARB-C
+S/R:    ARB-C, DDH-C
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 {1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.
 
@@ -56,7 +56,7 @@ Type:   Creature — Vampire Rogue
 P/T:    1/1
 S/R:    WWK-C, CNS-C
 Multikicker {1}{B} (You may pay an additional {1}{B} any number of times as you cast this spell.)
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 Quag Vampires enters the battlefield with a +1/+1 counter on it for each time it was kicked.
 
 Name:   Quagmire
@@ -88,6 +88,13 @@ Split second (As long as this spell is on the stack, players can't cast spells o
 Shroud (This creature can't be the target of spells or abilities.)
 When a spell or ability an opponent controls causes you to discard Quagnoth, return it to your hand.
 
+Name:   Quarantine Field
+Cost:   XXWW
+Type:   Enchantment
+S/R:    BFZ-M
+Quarantine Field enters the battlefield with X isolation counters on it.
+When Quarantine Field enters the battlefield, for each isolation counter on it, exile up to one target nonland permanent an opponent controls until Quarantine Field leaves the battlefield.
+
 Name:   Quarry Colossus
 Cost:   5WW
 Type:   Creature — Giant
@@ -107,6 +114,15 @@ Cost:   2UU
 Type:   Instant
 S/R:    UD-U, BOK-U
 Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles his or her library.
+
+Name:   Queen Marchesa
+Cost:   1RWB
+Type:   Legendary Creature — Human Assassin
+P/T:    3/3
+S/R:    CN2-M
+Deathtouch, haste
+When Queen Marchesa enters the battlefield, you become the monarch.
+At the beginning of your upkeep, if an opponent is the monarch, create a 1/1 black Assassin creature token with deathtouch and haste.
 
 Name:   Quenchable Fire
 Cost:   3R
@@ -159,9 +175,9 @@ As long as Quest for the Goblin Lord has five or more quest counters on it, crea
 Name:   Quest for the Gravelord
 Cost:   B
 Type:   Enchantment
-S/R:    ZEN-U
+S/R:    ZEN-U, DDR-U
 Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.
-Remove three quest counters from Quest for the Gravelord and sacrifice it: Put a 5/5 black Zombie Giant creature token onto the battlefield.
+Remove three quest counters from Quest for the Gravelord and sacrifice it: Create a 5/5 black Zombie Giant creature token.
 
 Name:   Quest for the Holy Relic
 Cost:   W
@@ -182,7 +198,7 @@ Cost:   1GWU
 Type:   Creature — Phelddagrif
 P/T:    4/4
 S/R:    PS-R
-{G}: Questing Phelddagrif gets +1/+1 until end of turn. Target opponent puts a 1/1 green Hippo creature token onto the battlefield.
+{G}: Questing Phelddagrif gets +1/+1 until end of turn. Target opponent creates a 1/1 green Hippo creature token.
 {W}: Questing Phelddagrif gains protection from black and from red until end of turn. Target opponent gains 2 life.
 {U}: Questing Phelddagrif gains flying until end of turn. Target opponent may draw a card.
 
@@ -190,9 +206,9 @@ Name:   Quick Sliver
 Cost:   1G
 Type:   Creature — Sliver
 P/T:    1/1
-S/R:    LGN-C
+S/R:    LGN-C, H09-C
 Flash
-Any player may play Sliver cards as though they had flash.
+Any player may cast Sliver spells as though they had flash.
 
 Name:   Quickchange
 Cost:   1U
@@ -228,7 +244,7 @@ When Quickling enters the battlefield, sacrifice it unless you return another cr
 Name:   Quicksand
 Type:   Land
 S/R:    VI-U, 9ED-U, 10E-U, WWK-C, CNS-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {T}, Sacrifice Quicksand: Target attacking creature without flying gets -1/-2 until end of turn.
 
 Name:   Quicksilver Amulet
@@ -248,7 +264,7 @@ When Quicksilver Behemoth attacks or blocks, return it to its owner's hand at en
 Name:   Quicksilver Dagger
 Cost:   1UR
 Type:   Enchantment — Aura
-S/R:    AP-C
+S/R:    AP-C, DDJ-C
 Enchant creature
 Enchanted creature has "{T}: This creature deals 1 damage to target player. You draw a card."
 
@@ -256,7 +272,7 @@ Name:   Quicksilver Dragon
 Cost:   4UU
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    ONS-R
+S/R:    ONS-R, DD2-R
 Flying
 {U}: If target spell has only one target and that target is Quicksilver Dragon, change that spell's target to another creature.
 Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
@@ -297,6 +313,13 @@ S/R:    PR-U
 Defender (This creature can't attack.)
 {4}: Return Quicksilver Wall to its owner's hand. Any player may activate this ability.
 
+Name:   Quicksmith Genius
+Cost:   2R
+Type:   Creature — Human Artificer
+P/T:    3/2
+S/R:    KLD-U
+Whenever an artifact enters the battlefield under your control, you may discard a card. If you do, draw a card.
+
 Name:   Quiet Contemplation
 Cost:   2U
 Type:   Enchantment
@@ -321,7 +344,7 @@ Destroy target enchantment.
 Name:   Quiet Speculation
 Cost:   1U
 Type:   Sorcery
-S/R:    JUD-U
+S/R:    JUD-U, EMA-U
 Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles his or her library.
 
 Name:   Quietus Spike
@@ -351,6 +374,13 @@ Type:   Creature — Sliver
 P/T:    1/1
 S/R:    TSP-U
 All Slivers have "{T}: This permanent deals 1 damage to target attacking or blocking creature."
+
+Name:   Quilled Wolf
+Cost:   1G
+Type:   Creature — Wolf
+P/T:    2/2
+S/R:    SOI-C
+{5}{G}: Quilled Wolf gets +4/+4 until end of turn.
 
 Name:   Quillmane Baku
 Cost:   4U
@@ -385,7 +415,7 @@ Name:   Quirion Elves
 Cost:   1G
 Type:   Creature — Elf Druid
 P/T:    1/1
-S/R:    MI-C, IN-C
+S/R:    MI-C, IN-C, DDE-C
 As Quirion Elves enters the battlefield, choose a color.
 {T}: Add {G} to your mana pool.
 {T}: Add one mana of the chosen color to your mana pool.
@@ -394,7 +424,7 @@ Name:   Quirion Explorer
 Cost:   1G
 Type:   Creature — Elf Druid Scout
 P/T:    1/1
-S/R:    PS-C
+S/R:    PS-C, C16-C
 {T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
 
 Name:   Quirion Ranger
@@ -422,6 +452,6 @@ Name:   Qumulox
 Cost:   6UU
 Type:   Creature — Beast
 P/T:    5/4
-S/R:    5DN-U, HOP-U
+S/R:    5DN-U, HOP-U, MM2-U, DDF-U
 Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
 Flying

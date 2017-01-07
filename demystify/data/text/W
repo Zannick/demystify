@@ -7,11 +7,18 @@ Choose one —
 • Wail of the Nim deals 1 damage to each creature and each player.
 Entwine {B} (Choose both if you pay the entwine cost.)
 
+Name:   Wailing Ghoul
+Cost:   1B
+Type:   Creature — Zombie
+P/T:    1/3
+S/R:    EMN-C
+When Wailing Ghoul enters the battlefield, put the top two cards of your library into your graveyard.
+
 Name:   Waiting in the Weeds
 Cost:   1GG
 Type:   Sorcery
 S/R:    MI-R, 6E-R
-Each player puts a 1/1 green Cat creature token onto the battlefield for each untapped Forest he or she controls.
+Each player creates a 1/1 green Cat creature token for each untapped Forest he or she controls.
 
 Name:   Wake Thrasher
 Cost:   2U
@@ -30,7 +37,7 @@ Name:   Wake of Vultures
 Cost:   3B
 Type:   Creature — Bird
 P/T:    3/1
-S/R:    VI-C
+S/R:    VI-C, EMA-C
 Flying
 {1}{B}, Sacrifice a creature: Regenerate Wake of Vultures.
 
@@ -45,14 +52,14 @@ Name:   Wake the Reflections
 Cost:   W
 Type:   Sorcery
 S/R:    DGM-C
-Populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Populate. (Create a token that's a copy of a creature token you control.)
 
 Name:   Wakedancer
 Cost:   2B
 Type:   Creature — Human Shaman
 P/T:    2/2
-S/R:    DKA-U, CNS-C
-Morbid — When Wakedancer enters the battlefield, if a creature died this turn, put a 2/2 black Zombie creature token onto the battlefield.
+S/R:    DKA-U, CNS-C, EMA-C
+Morbid — When Wakedancer enters the battlefield, if a creature died this turn, create a 2/2 black Zombie creature token.
 
 Name:   Wakestone Gargoyle
 Cost:   3W
@@ -65,7 +72,7 @@ Defender, flying
 Name:   Waking Nightmare
 Cost:   2B
 Type:   Sorcery — Arcane
-S/R:    CHK-C
+S/R:    CHK-C, MM2-C
 Target player discards two cards.
 
 Name:   Walk the Aeons
@@ -88,9 +95,18 @@ Name:   Walker of the Grove
 Cost:   6GG
 Type:   Creature — Elemental
 P/T:    7/7
-S/R:    MOR-U, C13-U
-When Walker of the Grove leaves the battlefield, put a 4/4 green Elemental creature token onto the battlefield.
+S/R:    MOR-U, MMA-C, C13-U, DDR-U
+When Walker of the Grove leaves the battlefield, create a 4/4 green Elemental creature token.
 Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
+
+Name:   Walker of the Wastes
+Cost:   4C
+Type:   Creature — Eldrazi
+P/T:    4/4
+S/R:    OGW-U
+({C} represents colorless mana.)
+Trample
+Walker of the Wastes gets +1/+1 for each land you control named Wastes.
 
 Name:   Walking Archive
 Cost:   3
@@ -113,7 +129,7 @@ Name:   Walking Corpse
 Cost:   1B
 Type:   Creature — Zombie
 P/T:    2/2
-S/R:    ISD-C, M13-C, M15-C
+S/R:    ISD-C, M13-C, M15-C, W16-C
 
 Name:   Walking Dead
 Cost:   1B
@@ -148,7 +164,7 @@ Name:   Walking Wall
 Cost:   4
 Type:   Artifact Creature — Wall
 P/T:    0/6
-S/R:    IA-U
+S/R:    IA-U, MED-U
 Defender
 {3}: Walking Wall gets +3/-1 until end of turn and can attack this turn as though it didn't have defender. Activate this ability only once each turn.
 
@@ -171,7 +187,7 @@ Name:   Wall of Blossoms
 Cost:   1G
 Type:   Creature — Plant Wall
 P/T:    0/4
-S/R:    ST-U, PC2-U
+S/R:    ST-U, PC2-U, C15-U, C16-U, V13-M
 Defender
 When Wall of Blossoms enters the battlefield, draw a card.
 
@@ -179,7 +195,7 @@ Name:   Wall of Bone
 Cost:   2B
 Type:   Creature — Skeleton Wall
 P/T:    1/4
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, 7E-U, M10-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, 7E-U, M10-U, DDD-U
 Defender (This creature can't attack.)
 {B}: Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
 
@@ -211,7 +227,7 @@ Name:   Wall of Deceit
 Cost:   1U
 Type:   Creature — Wall
 P/T:    0/5
-S/R:    LGN-U
+S/R:    LGN-U, DD2-U
 Defender (This creature can't attack.)
 {3}: Turn Wall of Deceit face down.
 Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
@@ -220,7 +236,7 @@ Name:   Wall of Denial
 Cost:   1WU
 Type:   Creature — Wall
 P/T:    0/8
-S/R:    ARB-U, CMD-U
+S/R:    ARB-U, CMD-U, DDI-U
 Defender, flying
 Shroud (This creature can't be the target of spells or abilities.)
 
@@ -228,7 +244,7 @@ Name:   Wall of Diffusion
 Cost:   1R
 Type:   Creature — Wall
 P/T:    0/5
-S/R:    TE-C
+S/R:    TE-C, VMA-C
 Defender (This creature can't attack.)
 Wall of Diffusion can block creatures with shadow as though Wall of Diffusion had shadow.
 
@@ -336,9 +352,9 @@ Name:   Wall of Kelp
 Cost:   UU
 Type:   Creature — Plant Wall
 P/T:    0/3
-S/R:    HL-R
+S/R:    HL-R, ME2-C
 Defender (This creature can't attack.)
-{U}{U}, {T}: Put a 0/1 blue Plant Wall creature token with defender named Kelp onto the battlefield.
+{U}{U}, {T}: Create a 0/1 blue Plant Wall creature token with defender named Kelp.
 
 Name:   Wall of Lava
 Cost:   1RR
@@ -352,7 +368,7 @@ Name:   Wall of Light
 Cost:   2W
 Type:   Creature — Wall
 P/T:    1/5
-S/R:    LE-U
+S/R:    LE-U, ME3-C
 Defender (This creature can't attack.)
 Protection from black
 
@@ -386,7 +402,7 @@ Name:   Wall of Omens
 Cost:   1W
 Type:   Creature — Wall
 P/T:    0/4
-S/R:    ROE-U, CMD-U
+S/R:    ROE-U, CMD-U, EMA-U, DDK-U
 Defender
 When Wall of Omens enters the battlefield, draw a card.
 
@@ -431,6 +447,14 @@ S/R:    MI-C
 Defender (This creature can't attack.)
 Flying
 At the beginning of each end step, if Wall of Resistance was dealt damage this turn, put a +0/+1 counter on it.
+
+Name:   Wall of Resurgence
+Cost:   2W
+Type:   Creature — Wall
+P/T:    0/6
+S/R:    OGW-U
+Defender
+When Wall of Resurgence enters the battlefield, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.
 
 Name:   Wall of Reverence
 Cost:   3W
@@ -604,8 +628,8 @@ Name:   Wand of the Elements
 Cost:   4
 Type:   Artifact
 S/R:    DST-R
-{T}, Sacrifice an Island: Put a 2/2 blue Elemental creature token with flying onto the battlefield.
-{T}, Sacrifice a Mountain: Put a 3/3 red Elemental creature token onto the battlefield.
+{T}, Sacrifice an Island: Create a 2/2 blue Elemental creature token with flying.
+{T}, Sacrifice a Mountain: Create a 3/3 red Elemental creature token.
 
 Name:   Wanderbrine Rootcutters
 Cost:   2(U/B)(U/B)
@@ -642,6 +666,13 @@ S/R:    NE-C
 Flying
 Players play with their hands revealed.
 
+Name:   Wandering Fumarole
+Type:   Land
+S/R:    OGW-R
+Wandering Fumarole enters the battlefield tapped.
+{T}: Add {U} or {R} to your mana pool.
+{2}{U}{R}: Until end of turn, Wandering Fumarole becomes a 1/4 blue and red Elemental creature with "{0}: Switch this creature's power and toughness until end of turn." It's still a land.
+
 Name:   Wandering Goblins
 Cost:   2R
 Type:   Creature — Goblin Warrior
@@ -660,7 +691,7 @@ Name:   Wandering Mage
 Cost:   WUB
 Type:   Creature — Human Cleric Wizard
 P/T:    0/3
-S/R:    AI-R
+S/R:    AI-R, ME3-R
 {W}, Pay 1 life: Prevent the next 2 damage that would be dealt to target creature this turn.
 {U}: Prevent the next 1 damage that would be dealt to target Cleric or Wizard creature this turn.
 {B}, Put a -1/-1 counter on a creature you control: Prevent the next 2 damage that would be dealt to target player this turn.
@@ -693,7 +724,7 @@ Creatures with power less than Wandering Wolf's power can't block it.
 Name:   Wanderlust
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, MED-C
 Enchant creature
 At the beginning of the upkeep of enchanted creature's controller, Wanderlust deals 1 damage to that player.
 
@@ -724,13 +755,13 @@ Cost:   3B
 Type:   Creature — Zombie Wurm
 P/T:    7/6
 S/R:    PLC-U
-Vanishing 2 (This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+Vanishing 2 (This creature enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 
 Name:   War Barge
 Cost:   4
 Type:   Artifact
 S/R:    DK-U, TSP-S
-{3}: Target creature gains islandwalk until end of turn. When War Barge leaves the battlefield this turn, destroy that creature. A creature destroyed this way can't be regenerated.
+{3}: Target creature gains islandwalk until end of turn. When War Barge leaves the battlefield this turn, destroy that creature. A creature destroyed this way can't be regenerated. (A creature with islandwalk can't be blocked as long as defending player controls an Island.)
 
 Name:   War Behemoth
 Cost:   5W
@@ -787,18 +818,32 @@ Type:   Instant
 S/R:    FRF-C
 Creatures you control get +2/+1 until end of turn. Untap those creatures.
 
+Name:   War Horn
+Cost:   3
+Type:   Artifact
+S/R:    ORI-U
+Attacking creatures you control get +1/+0.
+
 Name:   War Mammoth
 Cost:   3G
 Type:   Creature — Elephant
 P/T:    3/3
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, ME4-C
 Trample
+
+Name:   War Oracle
+Cost:   2WW
+Type:   Creature — Human Cleric
+P/T:    3/3
+S/R:    ORI-U
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
 
 Name:   War Priest of Thune
 Cost:   1W
 Type:   Creature — Human Cleric
 P/T:    2/2
-S/R:    M11-U, M13-U
+S/R:    M11-U, M13-U, EMA-U
 When War Priest of Thune enters the battlefield, you may destroy target enchantment.
 
 Name:   War Report
@@ -832,8 +877,8 @@ Name:   War-Spike Changeling
 Cost:   3R
 Type:   Creature — Shapeshifter
 P/T:    3/3
-S/R:    MOR-C
-Changeling (This card is every creature type at all times.)
+S/R:    MOR-C, MMA-C
+Changeling (This card is every creature type.)
 {R}: War-Spike Changeling gains first strike until end of turn.
 
 Name:   War-Torch Goblin
@@ -857,7 +902,7 @@ Type:   Creature — Goblin
 P/T:    1/1
 S/R:    LGN-U
 Morph {X}{X}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When Warbreak Trumpeter is turned face up, put X 1/1 red Goblin creature tokens onto the battlefield.
+When Warbreak Trumpeter is turned face up, create X 1/1 red Goblin creature tokens.
 
 Name:   Warbringer
 Cost:   3R
@@ -873,6 +918,14 @@ Type:   Creature — Minotaur Shaman
 P/T:    3/3
 S/R:    BNG-C
 Inspired — Whenever Warchanter of Mogis becomes untapped, target creature you control gains intimidate until end of turn. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
+
+Name:   Warchief Giant
+Cost:   3RR
+Type:   Creature — Giant Warrior
+P/T:    5/3
+S/R:    C15-U
+Haste
+Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
 
 Name:   Warclamp Mastiff
 Cost:   W
@@ -915,9 +968,17 @@ Name:   Warden of Evos Isle
 Cost:   2U
 Type:   Creature — Bird Wizard
 P/T:    2/2
-S/R:    M14-U
+S/R:    M14-U, EMA-C
 Flying
 Creature spells with flying you cast cost {1} less to cast.
+
+Name:   Warden of Geometries
+Cost:   4
+Type:   Creature — Eldrazi Drone
+P/T:    2/3
+S/R:    OGW-C
+Vigilance
+{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
 
 Name:   Warden of the Beyond
 Cost:   2W
@@ -948,7 +1009,7 @@ Cost:   3
 Type:   Artifact
 S/R:    DKA-U
 Warden of the Wall enters the battlefield tapped.
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 As long as it's not your turn, Warden of the Wall is a 2/3 Gargoyle artifact creature with flying.
 
 Name:   Wardscale Dragon
@@ -1018,13 +1079,13 @@ Whenever an opponent casts a red spell, you gain 2 life.
 Name:   Warning
 Cost:   W
 Type:   Instant
-S/R:    IA-C
+S/R:    IA-C, ME2-C
 Prevent all combat damage that would be dealt by target attacking creature this turn.
 
 Name:   Warp Artifact
 Cost:   BB
 Type:   Enchantment — Aura
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, ME4-C
 Enchant artifact
 At the beginning of the upkeep of enchanted artifact's controller, Warp Artifact deals 1 damage to that player.
 
@@ -1052,6 +1113,12 @@ Type:   Enchantment
 S/R:    PS-U, 8ED-R
 Whenever a permanent is returned to a player's hand, that player discards a card.
 
+Name:   Warped Landscape
+Type:   Land
+S/R:    SOI-C
+{T}: Add {C} to your mana pool.
+{2}, {T}, Sacrifice Warped Landscape: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
+
 Name:   Warped Physique
 Cost:   UB
 Type:   Instant
@@ -1064,6 +1131,16 @@ Type:   Creature — Human Wizard Mutant
 P/T:    3/4
 S/R:    LGN-U
 Whenever a player cycles a card, Warped Researcher gains flying and shroud until end of turn. (It can't be the target of spells or abilities.)
+
+Name:   Warping Wail
+Cost:   1C
+Type:   Instant
+S/R:    OGW-U
+({C} represents colorless mana.)
+Choose one —
+• Exile target creature with power or toughness 1 or less.
+• Counter target sorcery spell.
+• Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
 
 Name:   Warping Wurm
 Cost:   2GU
@@ -1086,14 +1163,14 @@ Name:   Warren Pilferers
 Cost:   4B
 Type:   Creature — Goblin Rogue
 P/T:    3/3
-S/R:    LRW-C
+S/R:    LRW-C, MMA-C
 When Warren Pilferers enters the battlefield, return target creature card from your graveyard to your hand. If that card is a Goblin card, Warren Pilferers gains haste until end of turn.
 
 Name:   Warren Weirding
 Cost:   1B
 Type:   Tribal Sorcery — Goblin
-S/R:    MOR-U
-Target player sacrifices a creature. If a Goblin is sacrificed this way, that player puts two 1/1 black Goblin Rogue creature tokens onto the battlefield, and those tokens gain haste until end of turn.
+S/R:    MOR-U, MMA-C
+Target player sacrifices a creature. If a Goblin is sacrificed this way, that player creates two 1/1 black Goblin Rogue creature tokens, and those tokens gain haste until end of turn.
 
 Name:   Warren-Scourge Elf
 Cost:   1G
@@ -1151,7 +1228,7 @@ Until end of turn, up to two target creatures you control each gain "Whenever th
 Name:   Warstorm Surge
 Cost:   5R
 Type:   Enchantment
-S/R:    M12-R, PC2-R, C13-R
+S/R:    M12-R, PC2-R, C13-R, C15-R
 Whenever a creature enters the battlefield under your control, it deals damage equal to its power to target creature or player.
 
 Name:   Warthog
@@ -1159,7 +1236,7 @@ Cost:   1GG
 Type:   Creature — Boar
 P/T:    3/2
 S/R:    VI-C, 6E-U
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Wash Out
 Cost:   3U
@@ -1184,16 +1261,24 @@ Target creature gets -5/-5 until end of turn.
 Name:   Waste Not
 Cost:   1B
 Type:   Enchantment
-S/R:    M15-R
-Whenever an opponent discards a creature card, put a 2/2 black Zombie creature token onto the battlefield.
+S/R:    M15-R, C16-R
+Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token.
 Whenever an opponent discards a land card, add {B}{B} to your mana pool.
 Whenever an opponent discards a noncreature, nonland card, draw a card.
 
 Name:   Wasteland
 Type:   Land
-S/R:    TE-U
-{T}: Add {1} to your mana pool.
+S/R:    TE-U, EXP-M, EMA-R
+{T}: Add {C} to your mana pool.
 {T}, Sacrifice Wasteland: Destroy target nonbasic land.
+
+Name:   Wasteland Strangler
+Cost:   2B
+Type:   Creature — Eldrazi Processor
+P/T:    3/2
+S/R:    BFZ-R
+Devoid (This card has no color.)
+When Wasteland Strangler enters the battlefield, you may put a card an opponent owns from exile into that player's graveyard. If you do, target creature gets -3/-3 until end of turn.
 
 Name:   Wasteland Viper
 Cost:   G
@@ -1202,6 +1287,11 @@ P/T:    1/2
 S/R:    GTC-U
 Deathtouch
 Bloodrush — {G}, Discard Wasteland Viper: Target attacking creature gets +1/+2 and gains deathtouch until end of turn.
+
+Name:   Wastes
+Type:   Basic Land
+S/R:    OGW-C
+{T}: Add {C} to your mana pool.
 
 Name:   Watchdog
 Cost:   3
@@ -1217,6 +1307,14 @@ Type:   Creature — Sliver
 P/T:    2/2
 S/R:    TSP-C
 All Sliver creatures get +0/+2.
+
+Name:   Watcher in the Web
+Cost:   4G
+Type:   Creature — Spider
+P/T:    2/5
+S/R:    SOI-C
+Reach (This creature can block creatures with flying.)
+Watcher in the Web can block an additional seven creatures each combat.
 
 Name:   Watcher of the Roost
 Cost:   2W
@@ -1245,13 +1343,13 @@ Name:   Water Elemental
 Cost:   3UU
 Type:   Creature — Elemental
 P/T:    5/4
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, S99-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, S99-U, ME4-U
 
 Name:   Water Servant
 Cost:   2UU
 Type:   Creature — Elemental
 P/T:    3/4
-S/R:    M11-U, M14-U
+S/R:    M11-U, M14-U, MM2-U
 {U}: Water Servant gets +1/-1 until end of turn.
 {U}: Water Servant gets -1/+1 until end of turn.
 
@@ -1266,21 +1364,21 @@ Name:   Watercourser
 Cost:   2U
 Type:   Creature — Elemental
 P/T:    2/3
-S/R:    M13-C
+S/R:    M13-C, ORI-C
 {U}: Watercourser gets +1/-1 until end of turn.
 
 Name:   Waterfront Bouncer
 Cost:   1U
 Type:   Creature — Merfolk Spellshaper
 P/T:    1/1
-S/R:    MM-C
+S/R:    MM-C, VMA-U
 {U}, {T}, Discard a card: Return target creature to its owner's hand.
 
 Name:   Waterspout Djinn
 Cost:   2UU
 Type:   Creature — Djinn
 P/T:    4/4
-S/R:    VI-U
+S/R:    VI-U, DD2-U
 Flying
 At the beginning of your upkeep, sacrifice Waterspout Djinn unless you return an untapped Island you control to its owner's hand.
 
@@ -1303,7 +1401,7 @@ Kinship — At the beginning of your upkeep, you may look at the top card of you
 Name:   Waterveil Cavern
 Type:   Land
 S/R:    CHK-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {T}: Add {U} or {B} to your mana pool. Waterveil Cavern doesn't untap during your next untap step.
 
 Name:   Waterwhirl
@@ -1314,7 +1412,7 @@ Return up to two target creatures to their owners' hands.
 
 Name:   Watery Grave
 Type:   Land — Island Swamp
-S/R:    RAV-R, GTC-R
+S/R:    RAV-R, GTC-R, EXP-M
 ({T}: Add {U} or {B} to your mana pool.)
 As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.
 
@@ -1334,7 +1432,7 @@ X target creatures can't block this turn.
 Name:   Wave of Reckoning
 Cost:   4W
 Type:   Sorcery
-S/R:    MM-R
+S/R:    MM-R, C16-R
 Each creature deals damage to itself equal to its power.
 
 Name:   Wave of Terror
@@ -1349,6 +1447,14 @@ Cost:   5GG
 Type:   Sorcery
 S/R:    C14-R
 Each player sacrifices all artifacts, enchantments, and nonbasic lands he or she controls. For each land sacrificed this way, its controller may search his or her library for a basic land card and put it onto the battlefield tapped. Then each player who searched his or her library this way shuffles it.
+
+Name:   Wave-Wing Elemental
+Cost:   5U
+Type:   Creature — Elemental
+P/T:    3/4
+S/R:    BFZ-C
+Flying
+Landfall — Whenever a land enters the battlefield under your control, Wave-Wing Elemental gets +2/+2 until end of turn.
 
 Name:   Wavecrash Triton
 Cost:   2U
@@ -1380,11 +1486,17 @@ M-card: Wane
 S/R:    IN-U, ARC-U
 Target creature gets +2/+2 until end of turn.
 
+Name:   Waxing Moon
+Cost:   1G
+Type:   Instant
+S/R:    EMN-C
+Transform up to one target Werewolf you control. Creatures you control gain trample until end of turn.
+
 Name:   Waxmane Baku
 Cost:   2W
 Type:   Creature — Spirit
 P/T:    2/2
-S/R:    BOK-C
+S/R:    BOK-C, MM2-C
 Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Waxmane Baku.
 {1}, Remove X ki counters from Waxmane Baku: Tap X target creatures.
 
@@ -1399,7 +1511,7 @@ Enchanted creature can't be blocked as long as you control a Gate.
 Name:   Wayfarer's Bauble
 Cost:   1
 Type:   Artifact
-S/R:    5DN-C, C13-C, C14-C
+S/R:    5DN-C, C13-C, C14-C, MM2-C, C15-C, DDI-C
 {2}, {T}, Sacrifice Wayfarer's Bauble: Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.
 
 Name:   Wayfaring Giant
@@ -1415,13 +1527,13 @@ Type:   Creature — Elemental
 P/T:    */*
 S/R:    RTR-R
 Wayfaring Temple's power and toughness are each equal to the number of creatures you control.
-Whenever Wayfaring Temple deals combat damage to a player, populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Whenever Wayfaring Temple deals combat damage to a player, populate. (Create a token that's a copy of a creature token you control.)
 
 Name:   Waylay
 Cost:   2W
 Type:   Instant
 S/R:    US-U
-Put three 2/2 white Knight creature tokens onto the battlefield. Exile them at the beginning of the next cleanup step.
+Create three 2/2 white Knight creature tokens. Exile them at the beginning of the next cleanup step.
 
 Name:   Wayward Angel
 Cost:   4WW
@@ -1430,6 +1542,22 @@ P/T:    4/4
 S/R:    OD-R
 Flying, vigilance
 Threshold — As long as seven or more cards are in your graveyard, Wayward Angel gets +3/+3, is black, has trample, and has "At the beginning of your upkeep, sacrifice a creature."
+
+Name:   Wayward Disciple
+Type:   Creature — Human Cleric
+P/T:    2/4
+Color:  Black
+M-type: Transform
+M-card: Pious Evangel
+S/R:    SOI-U
+Whenever Wayward Disciple or another creature you control dies, target opponent loses 1 life and you gain 1 life.
+
+Name:   Wayward Giant
+Cost:   4R
+Type:   Creature — Giant
+P/T:    4/5
+S/R:    KLD-C
+Menace
 
 Name:   Wayward Soul
 Cost:   2UU
@@ -1442,14 +1570,14 @@ Flying
 Name:   Weakness
 Cost:   B
 Type:   Enchantment — Aura
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, M10-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, M10-C, ME4-C
 Enchant creature
 Enchanted creature gets -2/-1.
 
 Name:   Weakstone
 Cost:   4
 Type:   Artifact
-S/R:    AQ-U
+S/R:    AQ-U, ME4-U
 Attacking creatures get -1/-0.
 
 Name:   Weapon Surge
@@ -1458,6 +1586,20 @@ Type:   Instant
 S/R:    DGM-C
 Target creature you control gets +1/+0 and gains first strike until end of turn.
 Overload {1}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+
+Name:   Weaponcraft Enthusiast
+Cost:   2B
+Type:   Creature — Aetherborn Artificer
+P/T:    0/1
+S/R:    KLD-U
+Fabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.)
+
+Name:   Weapons Trainer
+Cost:   RW
+Type:   Creature — Human Soldier Ally
+P/T:    3/2
+S/R:    OGW-U
+Other creatures you control get +1/+0 as long as you control an Equipment.
 
 Name:   Wear
 Cost:   1R
@@ -1495,7 +1637,7 @@ Cost:   G
 Type:   Creature — Elf
 P/T:    1/1
 S/R:    UL-C
-{T}: Target creature gains forestwalk until end of turn.
+{T}: Target creature gains forestwalk until end of turn. (It can't be blocked as long as defending player controls a Forest.)
 
 Name:   Weatherseed Faeries
 Cost:   2U
@@ -1523,7 +1665,7 @@ When Weatherseed Treefolk dies, return it to its owner's hand.
 Name:   Weave Fate
 Cost:   3U
 Type:   Instant
-S/R:    KTK-C
+S/R:    KTK-C, ORI-C
 Draw two cards.
 
 Name:   Weaver of Lies
@@ -1533,6 +1675,14 @@ P/T:    4/4
 S/R:    LGN-R
 Morph {4}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Weaver of Lies is turned face up, turn any number of target creatures with morph abilities other than Weaver of Lies face down.
+
+Name:   Weaver of Lightning
+Cost:   2R
+Type:   Creature — Human Shaman
+P/T:    1/4
+S/R:    EMN-U
+Reach
+Whenever you cast an instant or sorcery spell, Weaver of Lightning deals 1 damage to target creature an opponent controls.
 
 Name:   Web
 Cost:   G
@@ -1551,7 +1701,7 @@ Name:   Wee Dragonauts
 Cost:   1UR
 Type:   Creature — Faerie Wizard
 P/T:    1/3
-S/R:    GPT-C
+S/R:    GPT-C, EMA-U, DDJ-C
 Flying
 Whenever you cast an instant or sorcery spell, Wee Dragonauts gets +2/+0 until end of turn.
 
@@ -1586,20 +1736,20 @@ Name:   Wei Elite Companions
 Cost:   4B
 Type:   Creature — Human Soldier
 P/T:    3/3
-S/R:    P3K-U
+S/R:    P3K-U, ME3-C
 Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 
 Name:   Wei Infantry
 Cost:   1B
 Type:   Creature — Human Soldier
 P/T:    2/1
-S/R:    P3K-C
+S/R:    P3K-C, ME3-C
 
 Name:   Wei Night Raiders
 Cost:   2BB
 Type:   Creature — Human Soldier
 P/T:    2/2
-S/R:    P3K-U
+S/R:    P3K-U, ME3-U
 Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 Whenever Wei Night Raiders deals damage to an opponent, that player discards a card.
 
@@ -1614,7 +1764,7 @@ Name:   Wei Strike Force
 Cost:   2B
 Type:   Creature — Human Soldier
 P/T:    2/1
-S/R:    P3K-C
+S/R:    P3K-C, ME3-C
 Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 
 Name:   Weight of Conscience
@@ -1634,7 +1784,7 @@ Weight of Spires deals damage to target creature equal to the number of nonbasic
 Name:   Weight of the Underworld
 Cost:   3B
 Type:   Enchantment — Aura
-S/R:    BNG-C
+S/R:    BNG-C, ORI-C
 Enchant creature
 Enchanted creature gets -3/-2.
 
@@ -1644,12 +1794,48 @@ Type:   Sorcery
 S/R:    ONS-R, 9ED-R
 Each player may search his or her library for up to X creature cards, reveal those cards, and put them into his or her hand. Then each player who searched his or her library this way shuffles it.
 
+Name:   Weirded Vampire
+Cost:   3B
+Type:   Creature — Vampire Horror
+P/T:    3/3
+S/R:    EMN-C
+Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+
 Name:   Weirding Shaman
 Cost:   1B
 Type:   Creature — Goblin Shaman
 P/T:    2/1
 S/R:    MOR-R
-{3}{B}, Sacrifice a Goblin: Put two 1/1 black Goblin Rogue creature tokens onto the battlefield.
+{3}{B}, Sacrifice a Goblin: Create two 1/1 black Goblin Rogue creature tokens.
+
+Name:   Weirding Wood
+Cost:   2G
+Type:   Enchantment — Aura
+S/R:    SOI-U
+Enchant land
+When Weirding Wood enters the battlefield, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+Enchanted land has "{T}: Add two mana of any one color to your mana pool."
+
+Name:   Welcome to the Fold
+Cost:   2UU
+Type:   Sorcery
+S/R:    SOI-R
+Madness {X}{U}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+Gain control of target creature if its toughness is 2 or less. If Welcome to the Fold's madness cost was paid, instead gain control of that creature if its toughness is X or less.
+
+Name:   Weldfast Monitor
+Cost:   3
+Type:   Artifact Creature — Lizard
+P/T:    3/2
+S/R:    KLD-C
+{R}: Weldfast Monitor gains menace until end of turn.
+
+Name:   Weldfast Wingsmith
+Cost:   3U
+Type:   Creature — Human Artificer
+P/T:    3/3
+S/R:    KLD-C
+Whenever an artifact enters the battlefield under your control, Weldfast Wingsmith gains flying until end of turn.
 
 Name:   Welding Jar
 Cost:   0
@@ -1657,11 +1843,17 @@ Type:   Artifact
 S/R:    MRD-C
 Sacrifice Welding Jar: Regenerate target artifact.
 
+Name:   Welding Sparks
+Cost:   2R
+Type:   Instant
+S/R:    KLD-C
+Welding Sparks deals X damage to target creature, where X is 3 plus the number of artifacts you control.
+
 Name:   Welkin Guide
 Cost:   4W
 Type:   Creature — Bird Cleric
 P/T:    2/2
-S/R:    ALA-C
+S/R:    ALA-C, EMA-C
 Flying
 When Welkin Guide enters the battlefield, target creature gets +2/+2 and gains flying until end of turn.
 
@@ -1747,14 +1939,14 @@ Name:   Wellwisher
 Cost:   1G
 Type:   Creature — Elf
 P/T:    1/1
-S/R:    ONS-C, C14-C
+S/R:    ONS-C, C14-C, EVG-C
 {T}: You gain 1 life for each Elf on the battlefield.
 
 Name:   Werebear
 Cost:   1G
 Type:   Creature — Human Bear Druid
 P/T:    1/1
-S/R:    OD-C
+S/R:    OD-C, EMA-C
 {T}: Add {G} to your mana pool.
 Threshold — Werebear gets +3/+3 as long as seven or more cards are in your graveyard.
 
@@ -1768,12 +1960,42 @@ S/R:    DKA-U
 Whenever this creature transforms into Werewolf Ransacker, you may destroy target artifact. If that artifact is put into a graveyard this way, Werewolf Ransacker deals 3 damage to that artifact's controller.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Werewolf Ransacker.
 
+Name:   Werewolf of Ancient Hunger
+Type:   Creature — Werewolf
+P/T:    */*
+Color:  Green
+M-type: Transform
+M-card: Sage of Ancient Lore
+S/R:    SOI-R
+Vigilance, trample
+Werewolf of Ancient Hunger's power and toughness are each equal to the total number of cards in all players' hands.
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform Werewolf of Ancient Hunger.
+
 Name:   Western Paladin
 Cost:   2BB
 Type:   Creature — Zombie Knight
 P/T:    3/3
 S/R:    US-R, 7E-R, 8ED-R
 {B}{B}, {T}: Destroy target white creature.
+
+Name:   Westvale Abbey
+Type:   Land
+M-type: Transform
+M-card: Ormendahl, Profane Prince
+S/R:    SOI-R
+{T}: Add {C} to your mana pool.
+{5}, {T}, Pay 1 life: Create a 1/1 white and black Human Cleric creature token.
+{5}, {T}, Sacrifice five creatures: Transform Westvale Abbey, then untap it.
+
+Name:   Westvale Cult Leader
+Type:   Creature — Human Cleric
+P/T:    */*
+Color:  White
+M-type: Transform
+M-card: Hanweir Militia Captain
+S/R:    SOI-R
+Westvale Cult Leader's power and toughness are each equal to the number of creatures you control.
+At the beginning of your end step, create a 1/1 white and black Human Cleric creature token.
 
 Name:   Wetland Sambar
 Cost:   1U
@@ -1787,24 +2009,33 @@ Type:   Artifact
 S/R:    IA-U
 {2}, {T}: Target creature with power 3 or less gains flying until end of turn.
 
+Name:   Wharf Infiltrator
+Cost:   1U
+Type:   Creature — Human Horror
+P/T:    1/1
+S/R:    EMN-R
+Skulk (This creature can't be blocked by creatures with greater power.)
+Whenever Wharf Infiltrator deals combat damage to a player, you may draw a card. If you do, discard a card.
+Whenever you discard a creature card, you may pay {2}. If you do, create a 3/2 colorless Eldrazi Horror creature token.
+
 Name:   Wheel and Deal
 Cost:   3U
 Type:   Instant
 S/R:    ONS-R
-Any number of target opponents each discards his or her hand, then draws seven cards.
+Any number of target opponents each discard their hands, then draw seven cards.
 Draw a card.
 
 Name:   Wheel of Fate
 Type:   Sorcery
 Color:  Red
-S/R:    TSP-R
+S/R:    TSP-R, C16-R
 Suspend 4—{1}{R} (Rather than cast this card from your hand, pay {1}{R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Each player discards his or her hand, then draws seven cards.
 
 Name:   Wheel of Fortune
 Cost:   2R
 Type:   Sorcery
-S/R:    A-R, B-R, U-R, RV-R
+S/R:    A-R, B-R, U-R, RV-R, VMA-M, ME4-R
 Each player discards his or her hand, then draws seven cards.
 
 Name:   Wheel of Sun and Moon
@@ -1823,7 +2054,7 @@ At the beginning of each opponent's upkeep, Wheel of Torture deals X damage to t
 Name:   Whelming Wave
 Cost:   2UU
 Type:   Sorcery
-S/R:    BNG-R
+S/R:    BNG-R, DDO-R
 Return all creatures to their owners' hands except for Krakens, Leviathans, Octopuses, and Serpents.
 
 Name:   Where Ancients Tread
@@ -1855,7 +2086,7 @@ Change the text of target permanent by replacing all instances of one color word
 Name:   Whims of the Fates
 Cost:   5R
 Type:   Sorcery
-S/R:    BNG-R
+S/R:    BNG-R, C16-R
 Starting with you, each player separates all permanents he or she controls into three piles. Then each player chooses one of his or her piles at random and sacrifices those permanents. (Piles can be empty.)
 
 Name:   Whimwader
@@ -1915,7 +2146,7 @@ Morph {W} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 Name:   Whipflare
 Cost:   1R
 Type:   Sorcery
-S/R:    NPH-U, C14-U
+S/R:    NPH-U, C14-U, C16-U
 Whipflare deals 2 damage to each nonartifact creature.
 
 Name:   Whipgrass Entangler
@@ -1935,7 +2166,7 @@ S/R:    OD-U
 Name:   Whiplash Trap
 Cost:   3UU
 Type:   Instant — Trap
-S/R:    ZEN-C, HOP-C
+S/R:    HOP-C, ZEN-C, DDN-C
 If an opponent had two or more creatures enter the battlefield under his or her control this turn, you may pay {U} rather than pay Whiplash Trap's mana cost.
 Return two target creatures to their owners' hands.
 
@@ -1964,7 +2195,7 @@ Name:   Whiptail Wurm
 Cost:   6G
 Type:   Creature — Wurm
 P/T:    8/5
-S/R:    P1-U, S99-U
+S/R:    P1-U, S99-U, ME4-U
 
 Name:   Whiptongue Frog
 Cost:   2U
@@ -1973,10 +2204,32 @@ P/T:    1/3
 S/R:    EX-C
 {U}: Whiptongue Frog gains flying until end of turn.
 
+Name:   Whirler Rogue
+Cost:   2UU
+Type:   Creature — Human Rogue Artificer
+P/T:    2/2
+S/R:    ORI-U
+When Whirler Rogue enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
+Tap two untapped artifacts you control: Target creature can't be blocked this turn.
+
+Name:   Whirler Virtuoso
+Cost:   1UR
+Type:   Creature — Vedalken Artificer
+P/T:    2/3
+S/R:    KLD-U
+When Whirler Virtuoso enters the battlefield, you get {E}{E}{E} (three energy counters).
+Pay {E}{E}{E}: Create a 1/1 colorless Thopter artifact creature token with flying.
+
+Name:   Whirlermaker
+Cost:   3
+Type:   Artifact
+S/R:    KLD-U
+{4}, {T}: Create a 1/1 colorless Thopter artifact creature token with flying.
+
 Name:   Whirling Catapult
 Cost:   4
 Type:   Artifact
-S/R:    AI-U
+S/R:    AI-U, ME2-U
 {2}, Exile the top two cards of your library: Whirling Catapult deals 1 damage to each creature with flying and each player.
 
 Name:   Whirling Dervish
@@ -2056,7 +2309,7 @@ During the draft, you may turn Whispergear Sneak face down. If you do, look at a
 Name:   Whispering Madness
 Cost:   2UB
 Type:   Sorcery
-S/R:    GTC-R
+S/R:    GTC-R, C16-R
 Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 
@@ -2065,7 +2318,7 @@ Cost:   3B
 Type:   Creature — Shade
 P/T:    1/1
 S/R:    OD-C
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 {B}: Whispering Shade gets +1/+1 until end of turn.
 
 Name:   Whispering Specter
@@ -2077,6 +2330,13 @@ Flying
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 Whenever Whispering Specter deals combat damage to a player, you may sacrifice it. If you do, that player discards a card for each poison counter he or she has.
 
+Name:   Whispers of Emrakul
+Cost:   1B
+Type:   Sorcery
+S/R:    EMN-U
+Target opponent discards a card at random.
+Delirium — If there are four or more card types among cards in your graveyard, that player discards two cards at random instead.
+
 Name:   Whispers of the Muse
 Cost:   U
 Type:   Instant
@@ -2087,7 +2347,7 @@ Draw a card.
 Name:   Whispersilk Cloak
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    DST-C, 10E-U, M10-U, M11-U, PC2-U
+S/R:    DST-C, 10E-U, M10-U, M11-U, PC2-U, C16-U, DDE-U
 Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)
 Equip {2}
 
@@ -2103,7 +2363,7 @@ Name:   White Knight
 Cost:   WW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, LGN-U, M10-U, M11-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, LGN-U, M10-U, M11-U, DDG-U, ME4-U
 First strike (This creature deals combat damage before creatures without first strike.)
 Protection from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.)
 
@@ -2135,7 +2395,7 @@ Name:   White Sun's Zenith
 Cost:   XWWW
 Type:   Instant
 S/R:    MBS-R, C14-R
-Put X 2/2 white Cat creature tokens onto the battlefield. Shuffle White Sun's Zenith into its owner's library.
+Create X 2/2 white Cat creature tokens. Shuffle White Sun's Zenith into its owner's library.
 
 Name:   White Ward
 Cost:   W
@@ -2148,14 +2408,14 @@ Name:   Whitemane Lion
 Cost:   1W
 Type:   Creature — Cat
 P/T:    2/2
-S/R:    PLC-C, C14-C
+S/R:    PLC-C, C14-C, EMA-C, DDI-C
 Flash (You may cast this spell any time you could cast an instant.)
 When Whitemane Lion enters the battlefield, return a creature you control to its owner's hand.
 
 Name:   Whiteout
 Cost:   1G
 Type:   Instant
-S/R:    IA-U
+S/R:    IA-U, ME2-C
 All creatures lose flying until end of turn.
 Sacrifice a snow land: Return Whiteout from your graveyard to your hand.
 
@@ -2182,7 +2442,7 @@ S/R:    CHK-C
 Name:   Wicked Pact
 Cost:   1BB
 Type:   Sorcery
-S/R:    P1-R, S99-R
+S/R:    P1-R, S99-R, ME4-U
 Destroy two target nonblack creatures. You lose 5 life.
 
 Name:   Wicked Reward
@@ -2198,6 +2458,12 @@ Type:   Artifact Creature — Scarecrow
 P/T:    6/6
 S/R:    SHM-U
 Whenever Wicker Warcrawler attacks or blocks, put a -1/-1 counter on it at end of combat.
+
+Name:   Wicker Witch
+Cost:   3
+Type:   Artifact Creature — Scarecrow
+P/T:    3/1
+S/R:    SOI-C
 
 Name:   Wickerbough Elder
 Cost:   3G
@@ -2223,14 +2489,14 @@ Name:   Wight of Precinct Six
 Cost:   1B
 Type:   Creature — Zombie
 P/T:    1/1
-S/R:    GTC-U, C13-U
+S/R:    GTC-U, C13-U, C16-U, DDM-U
 Wight of Precinct Six gets +1/+1 for each creature card in your opponents' graveyards.
 
 Name:   Wiitigo
 Cost:   3GGG
 Type:   Creature — Yeti
 P/T:    0/0
-S/R:    IA-R
+S/R:    IA-R, ME2-R
 Wiitigo enters the battlefield with six +1/+1 counters on it.
 At the beginning of your upkeep, put a +1/+1 counter on Wiitigo if it has blocked or been blocked since your last upkeep. Otherwise, remove a +1/+1 counter from it.
 
@@ -2238,7 +2504,7 @@ Name:   Wild Aesthir
 Cost:   2W
 Type:   Creature — Bird
 P/T:    1/1
-S/R:    AI-C
+S/R:    AI-C, ME4-C
 Flying, first strike
 {W}{W}: Wild Aesthir gets +2/+0 until end of turn. Activate this ability only once each turn.
 
@@ -2246,7 +2512,7 @@ Name:   Wild Beastmaster
 Cost:   2G
 Type:   Creature — Human Shaman
 P/T:    1/1
-S/R:    RTR-R
+S/R:    RTR-R, C16-R
 Whenever Wild Beastmaster attacks, each other creature you control gets +X/+X until end of turn, where X is Wild Beastmaster's power.
 
 Name:   Wild Cantor
@@ -2302,7 +2568,7 @@ Name:   Wild Griffin
 Cost:   2W
 Type:   Creature — Griffin
 P/T:    2/2
-S/R:    P2-C, S99-C, S00-C, 10E-C, M11-C
+S/R:    P2-C, S99-C, S00-C, 10E-C, M11-C, CN2-C, ME4-C
 Flying
 
 Name:   Wild Growth
@@ -2325,6 +2591,12 @@ Type:   Instant
 S/R:    DKA-C
 Target creature gets +3/+1 and gains trample until end of turn.
 Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+
+Name:   Wild Instincts
+Cost:   3G
+Type:   Sorcery
+S/R:    ORI-C
+Target creature you control gets +2/+2 until end of turn. It fights target creature an opponent controls. (Each deals damage equal to its power to the other.)
 
 Name:   Wild Jhovall
 Cost:   3R
@@ -2356,14 +2628,14 @@ Name:   Wild Mongrel
 Cost:   1G
 Type:   Creature — Hound
 P/T:    2/2
-S/R:    OD-C
+S/R:    OD-C, VMA-C, DDD-C
 Discard a card: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn.
 
 Name:   Wild Nacatl
 Cost:   G
 Type:   Creature — Cat Warrior
 P/T:    1/1
-S/R:    ALA-C
+S/R:    ALA-C, DDH-C
 Wild Nacatl gets +1/+1 as long as you control a Mountain.
 Wild Nacatl gets +1/+1 as long as you control a Plains.
 
@@ -2371,13 +2643,13 @@ Name:   Wild Ox
 Cost:   3G
 Type:   Creature — Ox
 P/T:    3/3
-S/R:    P2-U, S99-U
-Swampwalk
+S/R:    P2-U, S99-U, ME4-U
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Wild Pair
 Cost:   4GG
 Type:   Enchantment
-S/R:    PLC-R
+S/R:    PLC-R, CN2-R, H09-R
 Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness and put it onto the battlefield. If you do, shuffle your library.
 
 Name:   Wild Research
@@ -2406,12 +2678,27 @@ Type:   Sorcery
 S/R:    SHM-U
 Choose three target nonenchantment permanents. Destroy one of them at random.
 
+Name:   Wild Wanderer
+Cost:   3G
+Type:   Creature — Elf Druid
+P/T:    3/2
+S/R:    KLD-C
+When Wild Wanderer enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+
 Name:   Wild Wurm
 Cost:   3R
 Type:   Creature — Wurm
 P/T:    5/4
 S/R:    TE-U
 When Wild Wurm enters the battlefield, flip a coin. If you lose the flip, return Wild Wurm to its owner's hand.
+
+Name:   Wild-Field Scarecrow
+Cost:   3
+Type:   Artifact Creature — Scarecrow
+P/T:    1/4
+S/R:    SOI-U
+Defender
+{2}, Sacrifice Wild-Field Scarecrow: Search your library for up to two basic land cards, reveal them, and put them into your hand. Then shuffle your library.
 
 Name:   Wildblood Pack
 Type:   Creature — Werewolf
@@ -2434,7 +2721,7 @@ Name:   Wilderness Elemental
 Cost:   1RG
 Type:   Creature — Elemental
 P/T:    */3
-S/R:    CSP-U
+S/R:    CSP-U, C16-U
 Trample
 Wilderness Elemental's power is equal to the number of nonbasic lands your opponents control.
 
@@ -2444,6 +2731,12 @@ Type:   Creature — Merfolk Wizard
 P/T:    1/3
 S/R:    EVE-C
 {T}: Target red or green creature gets -2/-0 until end of turn.
+
+Name:   Wildest Dreams
+Cost:   XXG
+Type:   Sorcery
+S/R:    KLD-R
+Return X target cards from your graveyard to your hand. Exile Wildest Dreams.
 
 Name:   Wildfield Borderpost
 Cost:   1GW
@@ -2456,7 +2749,7 @@ Wildfield Borderpost enters the battlefield tapped.
 Name:   Wildfire
 Cost:   4RR
 Type:   Sorcery
-S/R:    P2-R, US-R, 7E-R, 9ED-R
+S/R:    P2-R, US-R, 7E-R, 9ED-R, MM2-R
 Each player sacrifices four lands. Wildfire deals 4 damage to each creature.
 
 Name:   Wildfire Cerberus
@@ -2471,7 +2764,7 @@ Name:   Wildfire Emissary
 Cost:   3R
 Type:   Creature — Efreet
 P/T:    2/4
-S/R:    MI-U, TSP-S
+S/R:    MI-U, TSP-S, EMA-C
 Protection from white
 {1}{R}: Wildfire Emissary gets +1/+0 until end of turn.
 
@@ -2479,13 +2772,13 @@ Name:   Wildheart Invoker
 Cost:   2GG
 Type:   Creature — Elf Shaman
 P/T:    4/3
-S/R:    ROE-C
+S/R:    ROE-C, DDP-C
 {8}: Target creature gets +5/+5 and gains trample until end of turn.
 
 Name:   Wildsize
 Cost:   2G
 Type:   Instant
-S/R:    GPT-C
+S/R:    GPT-C, EVG-C
 Target creature gets +2/+2 and gains trample until end of turn.
 Draw a card.
 
@@ -2535,9 +2828,16 @@ Name:   Willbender
 Cost:   1U
 Type:   Creature — Human Wizard
 P/T:    1/2
-S/R:    LGN-U, TSP-S, C14-U
+S/R:    LGN-U, TSP-S, C14-U, DD2-U, DDN-U
 Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Willbender is turned face up, change the target of target spell or ability with a single target.
+
+Name:   Willbreaker
+Cost:   3UU
+Type:   Creature — Human Wizard
+P/T:    2/3
+S/R:    ORI-R
+Whenever a creature an opponent controls becomes the target of a spell or ability you control, gain control of that creature for as long as you control Willbreaker.
 
 Name:   Willing
 Cost:   1WB
@@ -2553,7 +2853,7 @@ Cost:   G
 Type:   Creature — Dryad
 P/T:    1/1
 S/R:    P1-C
-Forestwalk
+Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 
 Name:   Willow Elf
 Cost:   G
@@ -2572,7 +2872,7 @@ Name:   Willow Priestess
 Cost:   2GG
 Type:   Creature — Faerie Druid
 P/T:    2/2
-S/R:    HL-R
+S/R:    HL-R, ME3-U
 {T}: You may put a Faerie permanent card from your hand onto the battlefield.
 {2}{G}: Target green creature gains protection from black until end of turn.
 
@@ -2580,7 +2880,7 @@ Name:   Willow Satyr
 Cost:   2GG
 Type:   Creature — Satyr
 P/T:    1/1
-S/R:    LE-R
+S/R:    LE-R, ME3-R
 You may choose not to untap Willow Satyr during your untap step.
 {T}: Gain control of target legendary creature for as long as you control Willow Satyr and Willow Satyr remains tapped.
 
@@ -2588,17 +2888,24 @@ Name:   Wilt-Leaf Cavaliers
 Cost:   (G/W)(G/W)(G/W)
 Type:   Creature — Elf Knight
 P/T:    3/4
-S/R:    SHM-U
+S/R:    SHM-U, DDG-U
 Vigilance
 
 Name:   Wilt-Leaf Liege
 Cost:   1(G/W)(G/W)(G/W)
 Type:   Creature — Elf Knight
 P/T:    4/4
-S/R:    SHM-R
+S/R:    SHM-R, MM2-R
 Other green creatures you control get +1/+1.
 Other white creatures you control get +1/+1.
 If a spell or ability an opponent controls causes you to discard Wilt-Leaf Liege, put it onto the battlefield instead of putting it into your graveyard.
+
+Name:   Wily Bandar
+Cost:   G
+Type:   Creature — Cat Monkey
+P/T:    1/1
+S/R:    KLD-C
+{2}{G}: Wily Bandar gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 
 Name:   Wind Dancer
 Cost:   1U
@@ -2612,7 +2919,7 @@ Name:   Wind Drake
 Cost:   2U
 Type:   Creature — Drake
 P/T:    2/2
-S/R:    P1-C, TE-C, 6E-C, S99-C, S00-C, 7E-C, 8ED-C, 9ED-C, M10-C, M13-C, DGM-C
+S/R:    P1-C, TE-C, 6E-C, S99-C, S00-C, 7E-C, 8ED-C, 9ED-C, M10-C, M13-C, DGM-C, KLD-C
 Flying
 
 Name:   Wind Sail
@@ -2631,9 +2938,9 @@ Name:   Wind Spirit
 Cost:   4U
 Type:   Creature — Elemental Spirit
 P/T:    3/2
-S/R:    IA-U, 5E-U, 6E-U
+S/R:    IA-U, 5E-U, 6E-U, ME2-U
 Flying
-Wind Spirit can't be blocked except by two or more creatures.
+Menace (This creature can't be blocked except by two or more creatures.)
 
 Name:   Wind Zendikon
 Cost:   U
@@ -2645,7 +2952,7 @@ When enchanted land dies, return that card to its owner's hand.
 
 Name:   Wind-Scarred Crag
 Type:   Land
-S/R:    KTK-C, FRF-C
+S/R:    KTK-C, FRF-C, C15-C, EMA-C
 Wind-Scarred Crag enters the battlefield tapped.
 When Wind-Scarred Crag enters the battlefield, you gain 1 life.
 {T}: Add {R} or {W} to your mana pool.
@@ -2654,19 +2961,19 @@ Name:   Windborn Muse
 Cost:   3W
 Type:   Creature — Spirit
 P/T:    2/3
-S/R:    LGN-R, 10E-R, CMD-R
+S/R:    LGN-R, 10E-R, CMD-R, C16-R
 Flying
 Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.
 
 Name:   Windborne Charge
 Cost:   2WW
 Type:   Sorcery
-S/R:    ZEN-U
+S/R:    ZEN-U, CN2-U
 Two target creatures you control each get +2/+2 and gain flying until end of turn.
 
 Name:   Windbrisk Heights
 Type:   Land
-S/R:    LRW-R
+S/R:    LRW-R, C16-R, V12-M
 Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
 {T}: Add {W} to your mana pool.
 {W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.
@@ -2682,14 +2989,14 @@ Attacking creatures you control have lifelink.
 Name:   Windfall
 Cost:   2U
 Type:   Sorcery
-S/R:    US-U, CMD-U
+S/R:    US-U, CMD-U, C15-U, C16-U
 Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.
 
 Name:   Winding Canyons
 Type:   Land
 S/R:    WL-R
-{T}: Add {1} to your mana pool.
-{2}, {T}: Until end of turn, you may play creature cards as though they had flash.
+{T}: Add {C} to your mana pool.
+{2}, {T}: Until end of turn, you may cast creature spells as though they had flash.
 
 Name:   Winding Wurm
 Cost:   4G
@@ -2717,7 +3024,7 @@ Name:   Windreaver
 Cost:   3WU
 Type:   Creature — Elemental
 P/T:    1/3
-S/R:    DIS-R
+S/R:    DIS-R, DDI-R
 Flying
 {W}: Windreaver gains vigilance until end of turn.
 {W}: Windreaver gets +0/+1 until end of turn.
@@ -2732,10 +3039,18 @@ S/R:    ZEN-C
 Flying
 Landfall — Whenever a land enters the battlefield under your control, Windrider Eel gets +2/+2 until end of turn.
 
+Name:   Windrider Patrol
+Cost:   3UU
+Type:   Creature — Merfolk Wizard
+P/T:    4/3
+S/R:    BFZ-U
+Flying
+Whenever Windrider Patrol deals combat damage to a player, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+
 Name:   Winds of Change
 Cost:   R
 Type:   Sorcery
-S/R:    LE-U, 4E-R, 5E-R, P1-R
+S/R:    LE-U, 4E-R, 5E-R, P1-R, MED-U
 Each player shuffles the cards from his or her hand into his or her library, then draws that many cards.
 
 Name:   Winds of Qal Sisma
@@ -2748,7 +3063,7 @@ Ferocious — If you control a creature with power 4 or greater, instead prevent
 Name:   Winds of Rath
 Cost:   3WW
 Type:   Sorcery
-S/R:    TE-R
+S/R:    TE-R, VMA-R, DDL-R
 Destroy all creatures that aren't enchanted. They can't be regenerated.
 
 Name:   Windscouter
@@ -2769,12 +3084,12 @@ Vigilance
 Name:   Windstorm
 Cost:   XG
 Type:   Instant
-S/R:    M10-U, M14-U, KTK-U
+S/R:    M10-U, M14-U, KTK-U, DDD-U
 Windstorm deals X damage to each creature with flying.
 
 Name:   Windswept Heath
 Type:   Land
-S/R:    ONS-R, KTK-R
+S/R:    ONS-R, KTK-R, EXP-M
 {T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.
 
 Name:   Windwright Mage
@@ -2815,7 +3130,7 @@ Cost:   3U
 Type:   Creature — Human Artificer
 P/T:    1/1
 S/R:    NPH-U
-When Wing Splicer enters the battlefield, put a 3/3 colorless Golem artifact creature token onto the battlefield.
+When Wing Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.
 Golem creatures you control have flying.
 
 Name:   Wing Storm
@@ -2854,7 +3169,7 @@ Name:   Winged Sliver
 Cost:   1U
 Type:   Creature — Sliver
 P/T:    1/1
-S/R:    TE-C
+S/R:    TE-C, H09-C
 All Sliver creatures have flying.
 
 Name:   Wingmate Roc
@@ -2863,7 +3178,7 @@ Type:   Creature — Bird
 P/T:    3/4
 S/R:    KTK-M
 Flying
-Raid — When Wingmate Roc enters the battlefield, if you attacked with a creature this turn, put a 3/4 white Bird creature token with flying onto the battlefield.
+Raid — When Wingmate Roc enters the battlefield, if you attacked with a creature this turn, create a 3/4 white Bird creature token with flying.
 Whenever Wingmate Roc attacks, you gain 1 life for each attacking creature.
 
 Name:   Wingrattle Scarecrow
@@ -2877,7 +3192,7 @@ Wingrattle Scarecrow has persist as long as you control a black creature. (When 
 Name:   Wings of Aesthir
 Cost:   WU
 Type:   Enchantment — Aura
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 Enchant creature
 Enchanted creature gets +1/+0 and has flying and first strike.
 
@@ -2891,9 +3206,17 @@ Enchanted creature gets +1/+3 and has flying.
 Name:   Wings of Velis Vel
 Cost:   1U
 Type:   Tribal Instant — Shapeshifter
-S/R:    LRW-C
-Changeling (This card is every creature type at all times.)
+S/R:    LRW-C, MM2-C
+Changeling (This card is every creature type.)
 Until end of turn, target creature has base power and toughness 4/4, gains all creature types, and gains flying.
+
+Name:   Wings of the Guard
+Cost:   1W
+Type:   Creature — Bird
+P/T:    1/1
+S/R:    CN2-C
+Flying
+Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)
 
 Name:   Wingsteed Rider
 Cost:   1WW
@@ -2920,14 +3243,14 @@ Kinship — At the beginning of your upkeep, you may look at the top card of you
 Name:   Winter Blast
 Cost:   XG
 Type:   Sorcery
-S/R:    LE-R, 4E-U, 5E-U
+S/R:    LE-R, 4E-U, 5E-U, MED-U
 Tap X target creatures. Winter Blast deals 2 damage to each of those creatures with flying.
 
 Name:   Winter Orb
 Cost:   2
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R
-Players can't untap more than one land during their untap steps.
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, EMA-R, MED-R
+As long as Winter Orb is untapped, players can't untap more than one land during their untap steps.
 
 Name:   Winter Sky
 Cost:   R
@@ -2952,7 +3275,7 @@ Destroy target land.
 Name:   Winter's Night
 Cost:   RGW
 Type:   World Enchantment
-S/R:    AI-R
+S/R:    AI-R, ME2-R
 Whenever a player taps a snow land for mana, that player adds one mana to his or her mana pool of any type that land produced. That land doesn't untap during its controller's next untap step.
 
 Name:   Winterflame
@@ -2967,7 +3290,7 @@ Name:   Wintermoon Mesa
 Type:   Land
 S/R:    PR-R
 Wintermoon Mesa enters the battlefield tapped.
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {2}, {T}, Sacrifice Wintermoon Mesa: Tap two target lands.
 
 Name:   Wipe Away
@@ -2995,7 +3318,7 @@ Name:   Wirefly Hive
 Cost:   3
 Type:   Artifact
 S/R:    DST-U
-{3}, {T}: Flip a coin. If you win the flip, put a 2/2 colorless Insect artifact creature token with flying named Wirefly onto the battlefield. If you lose the flip, destroy all permanents named Wirefly.
+{3}, {T}: Flip a coin. If you win the flip, create a 2/2 colorless Insect artifact creature token with flying named Wirefly. If you lose the flip, destroy all permanents named Wirefly.
 
 Name:   Wirewood Channeler
 Cost:   3G
@@ -3022,7 +3345,7 @@ Name:   Wirewood Herald
 Cost:   1G
 Type:   Creature — Elf
 P/T:    1/1
-S/R:    ONS-C
+S/R:    ONS-C, EVG-C
 When Wirewood Herald dies, you may search your library for an Elf card, reveal that card, put it into your hand, then shuffle your library.
 
 Name:   Wirewood Hivemaster
@@ -3030,12 +3353,12 @@ Cost:   1G
 Type:   Creature — Elf
 P/T:    1/1
 S/R:    LGN-U
-Whenever another nontoken Elf enters the battlefield, you may put a 1/1 green Insect creature token onto the battlefield.
+Whenever another nontoken Elf enters the battlefield, you may create a 1/1 green Insect creature token.
 
 Name:   Wirewood Lodge
 Type:   Land
-S/R:    ONS-U
-{T}: Add {1} to your mana pool.
+S/R:    ONS-U, EVG-U
+{T}: Add {C} to your mana pool.
 {G}, {T}: Untap target Elf.
 
 Name:   Wirewood Pride
@@ -3048,14 +3371,14 @@ Name:   Wirewood Savage
 Cost:   2G
 Type:   Creature — Elf
 P/T:    2/2
-S/R:    ONS-C
+S/R:    ONS-C, DDD-C
 Whenever a Beast enters the battlefield, you may draw a card.
 
 Name:   Wirewood Symbiote
 Cost:   G
 Type:   Creature — Insect
 P/T:    1/1
-S/R:    SCG-U
+S/R:    SCG-U, EMA-U, EVG-U
 Return an Elf you control to its owner's hand: Untap target creature. Activate this ability only once each turn.
 
 Name:   Wishmonger
@@ -3074,11 +3397,19 @@ Flying
 When Wispmare enters the battlefield, destroy target enchantment.
 Evoke {W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
 
+Name:   Wispweaver Angel
+Cost:   4WW
+Type:   Creature — Angel
+P/T:    4/4
+S/R:    KLD-U
+Flying
+When Wispweaver Angel enters the battlefield, you may exile another target creature you control, then return that card to the battlefield under its owner's control.
+
 Name:   Wistful Selkie
 Cost:   (G/U)(G/U)(G/U)
 Type:   Creature — Merfolk Wizard
 P/T:    2/2
-S/R:    EVE-U
+S/R:    EVE-U, C15-U
 When Wistful Selkie enters the battlefield, draw a card.
 
 Name:   Wistful Thinking
@@ -3098,7 +3429,7 @@ Cost:   5B
 Type:   Creature — Horror
 P/T:    4/4
 S/R:    US-R
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 {T}: Add {B}{B}{B}{B} to your mana pool. Target opponent gains control of Witch Engine. (Activate this ability only any time you could cast an instant.)
 
 Name:   Witch Hunt
@@ -3172,7 +3503,7 @@ Color:  Black
 M-type: Transform
 M-card: Elbrus, the Binding Blade
 S/R:    DKA-M
-Flying, intimidate, trample
+Flying, intimidate, trample (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Whenever a player loses the game, put thirteen +1/+1 counters on Withengar Unbound.
 
 Name:   Withered Wretch
@@ -3206,7 +3537,7 @@ Enchanted creature gets -1/-1 for each plague counter on Withering Hex.
 Name:   Withering Wisps
 Cost:   1BB
 Type:   Enchantment
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 At the beginning of the end step, if no creatures are on the battlefield, sacrifice Withering Wisps.
 {B}: Withering Wisps deals 1 damage to each creature and each player. Activate this ability no more times each turn than the number of snow Swamps you control.
 
@@ -3238,6 +3569,13 @@ P/T:    4/4
 S/R:    KTK-U
 Morph {5} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
+Name:   Witness the End
+Cost:   3B
+Type:   Sorcery
+S/R:    OGW-C
+Devoid (This card has no color.)
+Target opponent exiles two cards from his or her hand and loses 2 life.
+
 Name:   Wizard Mentor
 Cost:   2U
 Type:   Creature — Human Wizard
@@ -3256,7 +3594,7 @@ Flying
 Name:   Wizards' School
 Type:   Land
 S/R:    HL-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}, {T}: Add {U} to your mana pool.
 {2}, {T}: Add {W} or {B} to your mana pool.
 
@@ -3329,15 +3667,22 @@ Name:   Wolf Pack
 Cost:   6GG
 Type:   Creature — Wolf
 P/T:    7/6
-S/R:    P3K-R
+S/R:    P3K-R, ME2-R
 You may have Wolf Pack assign its combat damage as though it weren't blocked.
+
+Name:   Wolf of Devil's Breach
+Cost:   3RR
+Type:   Creature — Elemental Wolf
+P/T:    5/5
+S/R:    SOI-M
+Whenever Wolf of Devil's Breach attacks, you may pay {1}{R} and discard a card. If you do, Wolf of Devil's Breach deals damage to target creature or planeswalker equal to the discarded card's converted mana cost.
 
 Name:   Wolf-Skull Shaman
 Cost:   1G
 Type:   Creature — Elf Shaman
 P/T:    2/2
 S/R:    MOR-U
-Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Wolf-Skull Shaman, you may reveal it. If you do, put a 2/2 green Wolf creature token onto the battlefield.
+Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Wolf-Skull Shaman, you may reveal it. If you do, create a 2/2 green Wolf creature token.
 
 Name:   Wolfbitten Captive
 Cost:   G
@@ -3353,15 +3698,15 @@ Name:   Wolfbriar Elemental
 Cost:   2GG
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    WWK-R, CNS-R, C14-R
+S/R:    WWK-R, CNS-R, C14-R, MM2-R
 Multikicker {G} (You may pay an additional {G} any number of times as you cast this spell.)
-When Wolfbriar Elemental enters the battlefield, put a 2/2 green Wolf creature token onto the battlefield for each time it was kicked.
+When Wolfbriar Elemental enters the battlefield, create a 2/2 green Wolf creature token for each time it was kicked.
 
 Name:   Wolfcaller's Howl
 Cost:   3G
 Type:   Enchantment
 S/R:    C14-R
-At the beginning of your upkeep, put X 2/2 green Wolf creature tokens onto the battlefield, where X is the number of your opponents with four or more cards in hand.
+At the beginning of your upkeep, create X 2/2 green Wolf creature tokens, where X is the number of your opponents with four or more cards in hand.
 
 Name:   Wolfhunter's Quiver
 Cost:   1
@@ -3386,6 +3731,14 @@ S/R:    AVR-R
 Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
 As long as Wolfir Silverheart is paired with another creature, each of those creatures gets +4/+4.
 
+Name:   Wolfkin Bond
+Cost:   4G
+Type:   Enchantment — Aura
+S/R:    EMN-C
+Enchant creature
+When Wolfkin Bond enters the battlefield, Create a 2/2 green Wolf creature token.
+Enchanted creature gets +2/+2.
+
 Name:   Wolverine Pack
 Cost:   2GG
 Type:   Creature — Wolverine
@@ -3397,7 +3750,7 @@ Name:   Wonder
 Cost:   3U
 Type:   Creature — Incarnation
 P/T:    2/2
-S/R:    JUD-U, CMD-U, C13-U
+S/R:    JUD-U, CMD-U, C13-U, EMA-U
 Flying
 As long as Wonder is in your graveyard and you control an Island, creatures you control have flying.
 
@@ -3405,7 +3758,7 @@ Name:   Wood Elemental
 Cost:   3G
 Type:   Creature — Elemental
 P/T:    */*
-S/R:    LE-R
+S/R:    LE-R, ME4-R
 As Wood Elemental enters the battlefield, sacrifice any number of untapped Forests.
 Wood Elemental's power and toughness are each equal to the number of Forests sacrificed as it entered the battlefield.
 
@@ -3413,7 +3766,7 @@ Name:   Wood Elves
 Cost:   2G
 Type:   Creature — Elf Scout
 P/T:    1/1
-S/R:    P1-R, EX-C, S99-U, 7E-C, 8ED-C, 9ED-C, C14-C
+S/R:    P1-R, EX-C, S99-U, 7E-C, 8ED-C, 9ED-C, C14-C, C15-C, EVG-C, DDR-C
 When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.
 
 Name:   Wood Sage
@@ -3427,7 +3780,7 @@ Name:   Woodborn Behemoth
 Cost:   3GG
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    M14-U
+S/R:    M14-U, DDR-U
 As long as you control eight or more lands, Woodborn Behemoth gets +4/+4 and has trample. (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
 
 Name:   Woodcloaker
@@ -3438,15 +3791,21 @@ S/R:    SCG-C
 Morph {2}{G}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Woodcloaker is turned face up, target creature gains trample until end of turn.
 
+Name:   Woodcutter's Grit
+Cost:   2G
+Type:   Instant
+S/R:    EMN-C
+Target creature you control gets +3/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+
 Name:   Wooded Bastion
 Type:   Land
-S/R:    SHM-R
-{T}: Add {1} to your mana pool.
+S/R:    SHM-R, EXP-M
+{T}: Add {C} to your mana pool.
 {(g/w)}, {T}: Add {G}{G}, {G}{W}, or {W}{W} to your mana pool.
 
 Name:   Wooded Foothills
 Type:   Land
-S/R:    ONS-R, KTK-R
+S/R:    ONS-R, KTK-R, EXP-M
 {T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.
 
 Name:   Wooden Sphere
@@ -3467,10 +3826,17 @@ Name:   Woodfall Primus
 Cost:   5GGG
 Type:   Creature — Treefolk Shaman
 P/T:    6/6
-S/R:    SHM-R
+S/R:    SHM-R, MMA-R
 Trample
 When Woodfall Primus enters the battlefield, destroy target noncreature permanent.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+
+Name:   Woodland Bellower
+Cost:   4GG
+Type:   Creature — Beast
+P/T:    6/5
+S/R:    ORI-M
+When Woodland Bellower enters the battlefield, you may search your library for a nonlegendary green creature card with converted mana cost 3 or less, put it onto the battlefield, then shuffle your library.
 
 Name:   Woodland Cemetery
 Type:   Land
@@ -3483,7 +3849,7 @@ Cost:   1G
 Type:   Creature — Shapeshifter
 P/T:    2/2
 S/R:    LRW-C
-Changeling (This card is every creature type at all times.)
+Changeling (This card is every creature type.)
 
 Name:   Woodland Druid
 Cost:   G
@@ -3498,6 +3864,13 @@ S/R:    LRW-U
 Return target card from your graveyard to your hand. Clash with an opponent. If you win, untap all Forests you control. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 Exile Woodland Guidance.
 
+Name:   Woodland Patrol
+Cost:   2G
+Type:   Creature — Human Scout
+P/T:    3/2
+S/R:    EMN-C
+Vigilance
+
 Name:   Woodland Sleuth
 Cost:   3G
 Type:   Creature — Human Scout
@@ -3505,12 +3878,27 @@ P/T:    2/3
 S/R:    ISD-C
 Morbid — When Woodland Sleuth enters the battlefield, if a creature died this turn, return a creature card at random from your graveyard to your hand.
 
+Name:   Woodland Stream
+Type:   Land
+S/R:    SOI-U, KLD-C
+Woodland Stream enters the battlefield tapped.
+{T}: Add {G} or {U} to your mana pool.
+
+Name:   Woodland Wanderer
+Cost:   3G
+Type:   Creature — Elemental
+P/T:    2/2
+S/R:    BFZ-R
+Vigilance, trample
+Converge — Woodland Wanderer enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.
+
 Name:   Woodlot Crawler
 Cost:   UB
 Type:   Creature — Insect
 P/T:    2/1
 S/R:    DGM-U
-Forestwalk, protection from green
+Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+Protection from green
 
 Name:   Woodlurker Mimic
 Cost:   1(B/G)
@@ -3534,6 +3922,13 @@ P/T:    4/4
 S/R:    CNS-U
 Trample
 Parley — Whenever Woodvine Elemental attacks, each player reveals the top card of his or her library. For each nonland card revealed this way, attacking creatures you control get +1/+1 until end of turn. Then each player draws a card.
+
+Name:   Woodweaver's Puzzleknot
+Cost:   2
+Type:   Artifact
+S/R:    KLD-C
+When Woodweaver's Puzzleknot enters the battlefield, you gain 3 life and get {E}{E}{E} (three energy counters).
+{2}{G}, Sacrifice Woodweaver's Puzzleknot: You gain 3 life and get {E}{E}{E}.
 
 Name:   Woodwraith Corrupter
 Cost:   3BBG
@@ -3560,7 +3955,7 @@ Name:   Woolly Mammoths
 Cost:   1GG
 Type:   Creature — Elephant
 P/T:    3/2
-S/R:    IA-C
+S/R:    IA-C, ME2-C
 Woolly Mammoths has trample as long as you control a snow land.
 
 Name:   Woolly Razorback
@@ -3576,7 +3971,7 @@ Name:   Woolly Spider
 Cost:   1GG
 Type:   Creature — Spider
 P/T:    2/3
-S/R:    IA-C
+S/R:    IA-C, ME2-U
 Reach (This creature can block creatures with flying.)
 Whenever Woolly Spider blocks a creature with flying, Woolly Spider gets +0/+2 until end of turn.
 
@@ -3584,7 +3979,7 @@ Name:   Woolly Thoctar
 Cost:   RGW
 Type:   Creature — Beast
 P/T:    5/4
-S/R:    ALA-U
+S/R:    ALA-U, DDH-U
 
 Name:   Word of Binding
 Cost:   XBB
@@ -3601,20 +3996,20 @@ Destroy target Wall. It can't be regenerated. Word of Blasting deals damage equa
 Name:   Word of Command
 Cost:   BB
 Type:   Instant
-S/R:    A-R, B-R, U-R
+S/R:    A-R, B-R, U-R, ME4-R
 Look at target opponent's hand and choose a card from it. You control that player until Word of Command finishes resolving. The player plays that card if able. While doing so, the player can activate mana abilities only if they're from lands he or she controls and only if mana they produce is spent to activate other mana abilities of lands he or she controls and/or play that card. If the chosen card is cast as a spell, you control the player while that spell is resolving.
 
 Name:   Word of Seizing
 Cost:   3RR
 Type:   Instant
-S/R:    TSP-R, C14-R
+S/R:    TSP-R, C14-R, C15-R
 Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 Untap target permanent and gain control of it until end of turn. It gains haste until end of turn.
 
 Name:   Word of Undoing
 Cost:   U
 Type:   Instant
-S/R:    IA-C
+S/R:    IA-C, MED-C
 Return target creature and all white Auras you own attached to it to their owners' hands.
 
 Name:   Words of War
@@ -3633,7 +4028,7 @@ Name:   Words of Wilding
 Cost:   2G
 Type:   Enchantment
 S/R:    ONS-R
-{1}: The next time you would draw a card this turn, put a 2/2 green Bear creature token onto the battlefield instead.
+{1}: The next time you would draw a card this turn, create a 2/2 green Bear creature token instead.
 
 Name:   Words of Wind
 Cost:   2U
@@ -3659,7 +4054,24 @@ Type:   Artifact Creature — Horse
 P/T:    0/0
 S/R:    EX-R
 Workhorse enters the battlefield with four +1/+1 counters on it.
-Remove a +1/+1 counter from Workhorse: Add {1} to your mana pool.
+Remove a +1/+1 counter from Workhorse: Add {C} to your mana pool.
+
+Name:   Workshop Assistant
+Cost:   3
+Type:   Artifact Creature — Construct
+P/T:    1/2
+S/R:    KLD-C
+When Workshop Assistant dies, return another target artifact card from your graveyard to your hand.
+
+Name:   World Breaker
+Cost:   6G
+Type:   Creature — Eldrazi
+P/T:    5/7
+S/R:    OGW-M
+Devoid (This card has no color.)
+When you cast World Breaker, exile target artifact, enchantment, or land.
+Reach
+{2}{C}, Sacrifice a land: Return World Breaker from your graveyard to your hand. ({C} represents colorless mana.)
 
 Name:   World Queller
 Cost:   3WW
@@ -3685,7 +4097,7 @@ Name:   Worldgorger Dragon
 Cost:   3RRR
 Type:   Creature — Nightmare Dragon
 P/T:    7/7
-S/R:    JUD-R
+S/R:    JUD-R, EMA-M, VMA-R
 Flying, trample
 When Worldgorger Dragon enters the battlefield, exile all other permanents you control.
 When Worldgorger Dragon leaves the battlefield, return the exiled cards to the battlefield under their owners' control.
@@ -3694,7 +4106,7 @@ Name:   Worldheart Phoenix
 Cost:   3R
 Type:   Creature — Phoenix
 P/T:    2/2
-S/R:    CON-R
+S/R:    CON-R, MM2-U
 Flying
 You may cast Worldheart Phoenix from your graveyard by paying {W}{U}{B}{R}{G} rather than paying its mana cost. If you do, it enters the battlefield with two +1/+1 counters on it.
 
@@ -3729,14 +4141,14 @@ Type:   Creature — Wurm
 P/T:    15/15
 S/R:    RTR-M
 Trample
-When Worldspine Wurm dies, put three 5/5 green Wurm creature tokens with trample onto the battlefield.
+When Worldspine Wurm dies, create three 5/5 green Wurm creature tokens with trample.
 When Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner's library.
 
 Name:   Worm Harvest
 Cost:   2(B/G)(B/G)(B/G)
 Type:   Sorcery
-S/R:    EVE-R
-Put a 1/1 black and green Worm creature token onto the battlefield for each land card in your graveyard.
+S/R:    EVE-R, MMA-U, C16-R
+Create a 1/1 black and green Worm creature token for each land card in your graveyard.
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
 
 Name:   Wormfang Behemoth
@@ -3803,23 +4215,23 @@ Cost:   2G
 Type:   Creature — Dryad
 P/T:    3/1
 S/R:    TSP-C
-{G}: Wormwood Dryad gains forestwalk until end of turn and deals 1 damage to you.
-{B}: Wormwood Dryad gains swampwalk until end of turn and deals 1 damage to you.
+{G}: Wormwood Dryad gains forestwalk until end of turn and deals 1 damage to you. (It can't be blocked as long as defending player controls a Forest.)
+{B}: Wormwood Dryad gains swampwalk until end of turn and deals 1 damage to you. (It can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Wormwood Treefolk
 Cost:   3GG
 Type:   Creature — Treefolk
 P/T:    4/4
-S/R:    DK-R
-{G}{G}: Wormwood Treefolk gains forestwalk until end of turn and deals 2 damage to you.
-{B}{B}: Wormwood Treefolk gains swampwalk until end of turn and deals 2 damage to you.
+S/R:    DK-R, ME3-U
+{G}{G}: Wormwood Treefolk gains forestwalk until end of turn and deals 2 damage to you. (It can't be blocked as long as defending player controls a Forest.)
+{B}{B}: Wormwood Treefolk gains swampwalk until end of turn and deals 2 damage to you. (It can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Worn Powerstone
 Cost:   3
 Type:   Artifact
-S/R:    US-U, C14-U
+S/R:    US-U, C14-U, C15-U, EMA-U, DDE-U
 Worn Powerstone enters the battlefield tapped.
-{T}: Add {2} to your mana pool.
+{T}: Add {C}{C} to your mana pool.
 
 Name:   Worry Beads
 Cost:   3
@@ -3852,7 +4264,7 @@ Cost:   4(R/G)(R/G)
 Type:   Legendary Creature — Goblin Shaman
 P/T:    3/3
 S/R:    SHM-R
-When Wort, the Raidmother enters the battlefield, put two 1/1 red and green Goblin Warrior creature tokens onto the battlefield.
+When Wort, the Raidmother enters the battlefield, create two 1/1 red and green Goblin Warrior creature tokens.
 Each red or green instant or sorcery spell you cast has conspire. (As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.)
 
 Name:   Worthy Cause
@@ -3878,7 +4290,7 @@ Target creature deals damage to itself equal to its power.
 Name:   Wrap in Flames
 Cost:   3R
 Type:   Sorcery
-S/R:    ROE-C, CNS-C
+S/R:    ROE-C, CNS-C, MM2-C
 Wrap in Flames deals 1 damage to each of up to three target creatures. Those creatures can't block this turn.
 
 Name:   Wrap in Vigor
@@ -3890,7 +4302,7 @@ Regenerate each creature you control.
 Name:   Wrath of God
 Cost:   2WW
 Type:   Sorcery
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, P1-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, C13-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, P1-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, C13-R, EMA-R, V14-M
 Destroy all creatures. They can't be regenerated.
 
 Name:   Wrath of Marit Lage
@@ -3917,7 +4329,7 @@ Enchanted creature gets +X/+X, where X is the number of creature cards in your g
 Name:   Wrecking Ball
 Cost:   2BR
 Type:   Instant
-S/R:    DIS-C, CMD-C
+S/R:    DIS-C, CMD-C, MM2-U
 Destroy target creature or land.
 
 Name:   Wrecking Ogre
@@ -3934,14 +4346,14 @@ Type:   Creature — Elf Warrior
 P/T:    5/5
 S/R:    LRW-R, C14-R
 Champion an Elf (When this creature enters the battlefield, sacrifice it unless you exile another Elf you control. When this creature leaves the battlefield, that card returns to the battlefield.)
-{2}{G}: Put a 2/2 green Wolf creature token onto the battlefield.
+{2}{G}: Create a 2/2 green Wolf creature token.
 Wolves you control have deathtouch.
 
 Name:   Wren's Run Vanquisher
 Cost:   1G
 Type:   Creature — Elf Warrior
 P/T:    3/3
-S/R:    LRW-U
+S/R:    LRW-U, EVG-U
 As an additional cost to cast Wren's Run Vanquisher, reveal an Elf card from your hand or pay {3}.
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 
@@ -3964,12 +4376,30 @@ Type:   Sorcery
 S/R:    CON-C
 Destroy target creature if it has the least power or is tied for least power among creatures on the battlefield.
 
+Name:   Wretched Confluence
+Cost:   3BB
+Type:   Instant
+S/R:    C15-R
+Choose three. You may choose the same mode more than once.
+• Target player draws a card and loses 1 life.
+• Target creature gets -2/-2 until end of turn.
+• Return target creature card from your graveyard to your hand.
+
+Name:   Wretched Gryff
+Cost:   7
+Type:   Creature — Eldrazi Hippogriff
+P/T:    3/4
+S/R:    EMN-C
+Emerge {5}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
+When you cast Wretched Gryff, draw a card.
+Flying
+
 Name:   Wrexial, the Risen Deep
 Cost:   3UUB
 Type:   Legendary Creature — Kraken
 P/T:    5/8
 S/R:    WWK-M, CMD-M
-Islandwalk, swampwalk
+Islandwalk, swampwalk (This creature can't be blocked as long as defending player controls an Island or a Swamp.)
 Whenever Wrexial, the Risen Deep deals combat damage to a player, you may cast target instant or sorcery card from that player's graveyard without paying its mana cost. If that card would be put into a graveyard this turn, exile it instead.
 
 Name:   Wring Flesh
@@ -4003,7 +4433,7 @@ Name:   Wu Elite Cavalry
 Cost:   3U
 Type:   Creature — Human Soldier
 P/T:    2/3
-S/R:    P3K-C
+S/R:    P3K-C, ME3-C
 Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 
 Name:   Wu Infantry
@@ -4023,7 +4453,7 @@ Name:   Wu Longbowman
 Cost:   2U
 Type:   Creature — Human Soldier Archer
 P/T:    1/1
-S/R:    P3K-U
+S/R:    P3K-U, ME3-C
 {T}: Wu Longbowman deals 1 damage to target creature or player. Activate this ability only during your turn, before attackers are declared.
 
 Name:   Wu Scout
@@ -4045,7 +4475,7 @@ Name:   Wu Warship
 Cost:   2U
 Type:   Creature — Human Soldier
 P/T:    3/3
-S/R:    P3K-C
+S/R:    P3K-C, ME3-C
 Wu Warship can't attack unless defending player controls an Island.
 
 Name:   Wurm's Tooth
@@ -4059,7 +4489,7 @@ Cost:   XG
 Type:   Sorcery
 S/R:    TSP-R
 Buyback {2}{G} (You may pay an additional {2}{G} as you cast this spell. If you do, put this card into your hand as it resolves.)
-Put an X/X green Wurm creature token onto the battlefield.
+Create an X/X green Wurm creature token.
 
 Name:   Wurmcoil Engine
 Cost:   6
@@ -4067,7 +4497,7 @@ Type:   Artifact Creature — Wurm
 P/T:    6/6
 S/R:    SOM-M, C14-M
 Deathtouch, lifelink
-When Wurmcoil Engine dies, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield.
+When Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink.
 
 Name:   Wurmskin Forger
 Cost:   5GG
@@ -4082,7 +4512,7 @@ Type:   Enchantment — Aura
 S/R:    GPT-R
 Enchant green creature
 Enchanted creature gets +6/+6.
-{G}{G}{G}, Sacrifice Wurmweaver Coil: Put a 6/6 green Wurm creature token onto the battlefield.
+{G}{G}{G}, Sacrifice Wurmweaver Coil: Create a 6/6 green Wurm creature token.
 
 Name:   Wydwen, the Biting Gale
 Cost:   2UB
@@ -4097,5 +4527,5 @@ Name:   Wyluli Wolf
 Cost:   1G
 Type:   Creature — Wolf
 P/T:    1/1
-S/R:    AN-C, 5E-R, 6E-R
+S/R:    AN-C, 5E-R, 6E-R, MED-C
 {T}: Target creature gets +1/+1 until end of turn.

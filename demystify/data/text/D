@@ -2,7 +2,7 @@ Name:   D'Avenant Archer
 Cost:   2W
 Type:   Creature — Human Soldier Archer
 P/T:    1/2
-S/R:    LE-C, CH-C, 5E-C, 6E-C
+S/R:    LE-C, CH-C, 5E-C, 6E-C, ME3-C
 {T}: D'Avenant Archer deals 1 damage to target attacking or blocking creature.
 
 Name:   D'Avenant Healer
@@ -17,7 +17,7 @@ Name:   Dack Fayden
 Cost:   1UR
 Type:   Planeswalker — Dack
 P/T:    3
-S/R:    CNS-M
+S/R:    CNS-M, EMA-M, VMA-M
 [+1]: Target player draws two cards, then discards two cards.
 [-2]: Gain control of target artifact.
 [-6]: You get an emblem with "Whenever you cast a spell that targets one or more permanents, gain control of those permanents."
@@ -26,21 +26,21 @@ Name:   Dack's Duplicate
 Cost:   2UR
 Type:   Creature — Shapeshifter
 P/T:    0/0
-S/R:    CNS-R
-You may have Dack's Duplicate enter the battlefield as a copy of any creature on the battlefield except it gains haste and dethrone. (Whenever it attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)
+S/R:    CNS-R, VMA-R
+You may have Dack's Duplicate enter the battlefield as a copy of any creature on the battlefield, except it gains haste and dethrone. (Whenever it attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)
 
 Name:   Daggerback Basilisk
 Cost:   2G
 Type:   Creature — Basilisk
 P/T:    2/2
-S/R:    ROE-C
+S/R:    ROE-C, DDP-C
 Deathtouch
 
 Name:   Daggerclaw Imp
 Cost:   2B
 Type:   Creature — Imp
 P/T:    3/1
-S/R:    GPT-U
+S/R:    GPT-U, MM2-U, DDC-U
 Flying
 Daggerclaw Imp can't block.
 
@@ -64,7 +64,7 @@ Daghatar the Adamant enters the battlefield with four +1/+1 counters on it.
 Name:   Daily Regimen
 Cost:   W
 Type:   Enchantment — Aura
-S/R:    MOR-U
+S/R:    MOR-U, DDL-U
 Enchant creature
 {1}{W}: Put a +1/+1 counter on enchanted creature.
 
@@ -72,7 +72,7 @@ Name:   Dakkon Blackblade
 Cost:   2WUUB
 Type:   Legendary Creature — Human Warrior
 P/T:    */*
-S/R:    LE-R, CH-R
+S/R:    LE-R, CH-R, MED-R
 Dakkon Blackblade's power and toughness are each equal to the number of lands you control.
 
 Name:   Dakmor Bat
@@ -99,12 +99,12 @@ When Dakmor Lancer enters the battlefield, destroy target nonblack creature.
 Name:   Dakmor Plague
 Cost:   3BB
 Type:   Sorcery
-S/R:    P2-U, S99-U
+S/R:    P2-U, S99-U, ME4-U
 Dakmor Plague deals 3 damage to each creature and each player.
 
 Name:   Dakmor Salvage
 Type:   Land
-S/R:    FUT-U
+S/R:    FUT-U, MMA-U, DDJ-U
 Dakmor Salvage enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
@@ -153,9 +153,15 @@ Destroy all creatures. They can't be regenerated.
 Name:   Dampen Thought
 Cost:   1U
 Type:   Instant — Arcane
-S/R:    CHK-U
+S/R:    CHK-U, MMA-C
 Target player puts the top four cards of his or her library into his or her graveyard.
 Splice onto Arcane {1}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
+
+Name:   Dampening Pulse
+Cost:   3U
+Type:   Enchantment
+S/R:    BFZ-U
+Creatures your opponents control get -1/-0.
 
 Name:   Damping Engine
 Cost:   4
@@ -178,8 +184,8 @@ Activated abilities of artifacts and creatures can't be activated unless they're
 Name:   Dance of Many
 Cost:   UU
 Type:   Enchantment
-S/R:    DK-R, CH-R, 5E-R
-When Dance of Many enters the battlefield, put a token that's a copy of target nontoken creature onto the battlefield.
+S/R:    DK-R, CH-R, 5E-R, ME3-U
+When Dance of Many enters the battlefield, create a token that's a copy of target nontoken creature.
 When Dance of Many leaves the battlefield, exile the token.
 When the token leaves the battlefield, sacrifice Dance of Many.
 At the beginning of your upkeep, sacrifice Dance of Many unless you pay {U}{U}.
@@ -193,7 +199,7 @@ Creatures you control get +1/+0 and gain fear until end of turn. (They can't be 
 Name:   Dance of the Dead
 Cost:   1B
 Type:   Enchantment — Aura
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 Enchant creature card in a graveyard
 When Dance of the Dead enters the battlefield, if it's on the battlefield, it loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Dance of the Dead." Put enchanted creature card onto the battlefield tapped under your control and attach Dance of the Dead to it. When Dance of the Dead leaves the battlefield, that creature's controller sacrifices it.
 Enchanted creature gets +1/+1 and doesn't untap during its controller's untap step.
@@ -204,6 +210,12 @@ Cost:   1U
 Type:   Instant
 S/R:    DTK-U
 Until end of turn, target creature you control becomes a blue Dragon Illusion with base power and toughness 4/4, loses all abilities, and gains flying.
+
+Name:   Dance with Devils
+Cost:   3R
+Type:   Instant
+S/R:    SOI-U
+Create two 1/1 red Devil creature tokens. They have "When this creature dies, it deals 1 damage to target creature or player."
 
 Name:   Dancing Scimitar
 Cost:   4
@@ -250,11 +262,20 @@ P/T:    5/4
 S/R:    PR-U
 At the beginning of your upkeep, sacrifice Darba unless you pay {G}{G}.
 
+Name:   Daretti, Ingenious Iconoclast
+Cost:   1BR
+Type:   Planeswalker — Daretti
+P/T:    3
+S/R:    CN2-M
+[+1]: Create a 1/1 colorless Construct artifact creature token with defender.
+[-1]: You may sacrifice an artifact. If you do, destroy target artifact or creature.
+[-6]: Choose target artifact card in a graveyard or artifact on the battlefield. Create three tokens that are copies of it.
+
 Name:   Daretti, Scrap Savant
 Cost:   3R
 Type:   Planeswalker — Daretti
 P/T:    3
-S/R:    C14-M
+S/R:    C14-M, C16-M
 [+2]: Discard up to two cards, then draw that many cards.
 [-2]: Sacrifice an artifact. If you do, return target artifact card from your graveyard to the battlefield.
 [-10]: You get an emblem with "Whenever an artifact is put into your graveyard from the battlefield, return that card to the battlefield at the beginning of the next end step."
@@ -265,7 +286,7 @@ Cost:   4WW
 Type:   Legendary Creature — Human Soldier
 P/T:    3/3
 S/R:    CSP-R
-Whenever you're dealt damage, you may put that many 1/1 white Soldier creature tokens onto the battlefield.
+Whenever you're dealt damage, you may create that many 1/1 white Soldier creature tokens.
 
 Name:   Darigaaz's Attendant
 Cost:   5
@@ -283,7 +304,7 @@ When Darigaaz's Caldera enters the battlefield, sacrifice it unless you return a
 Name:   Darigaaz's Charm
 Cost:   BRG
 Type:   Instant
-S/R:    PS-U
+S/R:    PS-U, DDE-U
 Choose one —
 • Return target creature card from your graveyard to your hand.
 • Darigaaz's Charm deals 3 damage to target creature or player.
@@ -293,7 +314,7 @@ Name:   Darigaaz, the Igniter
 Cost:   3BRG
 Type:   Legendary Creature — Dragon
 P/T:    6/6
-S/R:    IN-R
+S/R:    IN-R, DDE-R
 Flying
 Whenever Darigaaz, the Igniter deals combat damage to a player, you may pay {2}{R}. If you do, choose a color, then that player reveals his or her hand and Darigaaz deals damage to the player equal to the number of cards of that color revealed this way.
 
@@ -317,6 +338,15 @@ P/T:    3/1
 S/R:    GTC-C
 Battalion — Whenever Daring Skyjek and at least two other creatures attack, Daring Skyjek gains flying until end of turn.
 
+Name:   Daring Sleuth
+Cost:   1U
+Type:   Creature — Human Rogue
+P/T:    2/1
+M-type: Transform
+M-card: Bearer of Overwhelming Truths
+S/R:    SOI-U
+When you sacrifice a Clue, transform Daring Sleuth.
+
 Name:   Daring Thief
 Cost:   2U
 Type:   Creature — Human Rogue
@@ -327,7 +357,7 @@ Inspired — Whenever Daring Thief becomes untapped, you may exchange control of
 Name:   Dark Banishing
 Cost:   2B
 Type:   Instant
-S/R:    IA-C, MI-C, TE-C, 7E-C, 8ED-C, 9ED-C
+S/R:    IA-C, MI-C, TE-C, 7E-C, 8ED-C, 9ED-C, DDC-C, ME2-C
 Destroy target nonblack creature. It can't be regenerated.
 
 Name:   Dark Betrayal
@@ -340,8 +370,15 @@ Name:   Dark Confidant
 Cost:   1B
 Type:   Creature — Human Wizard
 P/T:    2/1
-S/R:    RAV-R
+S/R:    RAV-R, MMA-M, MM2-M
 At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost.
+
+Name:   Dark Dabbling
+Cost:   2B
+Type:   Instant
+S/R:    ORI-C
+Regenerate target creature. Draw a card. (The next time the creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, also regenerate each other creature you control.
 
 Name:   Dark Deal
 Cost:   2B
@@ -351,10 +388,10 @@ Each player discards all the cards in his or her hand, then draws that many card
 
 Name:   Dark Depths
 Type:   Legendary Snow Land
-S/R:    CSP-R
+S/R:    CSP-R, V16-M
 Dark Depths enters the battlefield with ten ice counters on it.
 {3}: Remove an ice counter from Dark Depths.
-When Dark Depths has no ice counters on it, sacrifice it. If you do, put a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage onto the battlefield.
+When Dark Depths has no ice counters on it, sacrifice it. If you do, create a legendary 20/20 black Avatar creature token with flying and indestructible named Marit Lage.
 
 Name:   Dark Favor
 Cost:   1B
@@ -368,7 +405,7 @@ Name:   Dark Hatchling
 Cost:   4BB
 Type:   Creature — Horror
 P/T:    3/3
-S/R:    US-R, CMD-R, PC2-R
+S/R:    US-R, CMD-R, PC2-R, VMA-U
 Flying
 When Dark Hatchling enters the battlefield, destroy target nonblack creature. It can't be regenerated.
 
@@ -400,6 +437,13 @@ Type:   Sorcery
 S/R:    P2-U, S99-U
 Destroy target nonblack creature. You gain 3 life.
 
+Name:   Dark Petition
+Cost:   3BB
+Type:   Sorcery
+S/R:    ORI-R
+Search your library for a card and put that card into your hand. Then shuffle your library.
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, add {B}{B}{B} to your mana pool.
+
 Name:   Dark Privilege
 Cost:   1B
 Type:   Enchantment — Aura
@@ -412,7 +456,7 @@ Name:   Dark Prophecy
 Cost:   BBB
 Type:   Enchantment
 S/R:    M14-R
-Whenever a creature you control dies, you draw a card and lose 1 life.
+Whenever a creature you control dies, you draw a card and you lose 1 life.
 
 Name:   Dark Revenant
 Cost:   3B
@@ -425,8 +469,14 @@ When Dark Revenant dies, put it on top of its owner's library.
 Name:   Dark Ritual
 Cost:   B
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, MI-C, 5E-C, TE-C, US-C, MM-C, HOP-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, MI-C, 5E-C, TE-C, US-C, MM-C, HOP-C, VMA-C, DDC-C, DDE-C, ME4-C, V13-M
 Add {B}{B}{B} to your mana pool.
+
+Name:   Dark Salvation
+Cost:   XXB
+Type:   Sorcery
+S/R:    EMN-R
+Target player creates X 2/2 black Zombie creature tokens, then up to one target creature gets -1/-1 until end of turn for each Zombie that player controls.
 
 Name:   Dark Sphere
 Cost:   0
@@ -471,7 +521,7 @@ Cost:   4BB
 Type:   Instant
 S/R:    TSP-C
 Destroy target nonblack creature.
-Madness {B} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)
+Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Darkblast
 Cost:   B
@@ -532,7 +582,7 @@ Darkslick Shores enters the battlefield tapped unless you control two or fewer o
 Name:   Darksteel Axe
 Cost:   1
 Type:   Artifact — Equipment
-S/R:    SOM-U
+S/R:    SOM-U, MM2-U
 Indestructible (Effects that say "destroy" don't destroy this artifact.)
 Equipped creature gets +2/+0.
 Equip {2}
@@ -546,9 +596,9 @@ Indestructible (Damage and effects that say "destroy" don't destroy this artifac
 
 Name:   Darksteel Citadel
 Type:   Artifact Land
-S/R:    DST-C, M15-U, C14-U
-Indestructible (Effects that say "destroy" don't destroy this land.)
-{T}: Add {1} to your mana pool.
+S/R:    DST-C, M15-U, C14-U, MM2-C, C16-U, DDF-C
+Indestructible
+{T}: Add {C} to your mana pool.
 
 Name:   Darksteel Colossus
 Cost:   11
@@ -561,7 +611,7 @@ If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darkst
 Name:   Darksteel Forge
 Cost:   9
 Type:   Artifact
-S/R:    DST-R, M14-M, HOP-R
+S/R:    DST-R, HOP-R, M14-M
 Artifacts you control have indestructible. (Effects that say "destroy" don't destroy them. Artifact creatures with indestructible can't be destroyed by damage.)
 
 Name:   Darksteel Gargoyle
@@ -583,7 +633,7 @@ Fortify {3} ({3}: Attach to target land you control. Fortify only as a sorcery. 
 Name:   Darksteel Ingot
 Cost:   3
 Type:   Artifact
-S/R:    DST-C, CMD-C, M14-U, C13-U
+S/R:    DST-C, CMD-C, M14-U, C13-U, C15-U, C16-U
 Indestructible
 {T}: Add one mana of any color to your mana pool.
 
@@ -615,7 +665,7 @@ Cost:   2
 Type:   Artifact
 S/R:    DST-C
 Indestructible (Effects that say "destroy" don't destroy this artifact.)
-{1}, {T}: Look at the top card of your library. You may put that card on the bottom of your library.
+{1}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 
 Name:   Darksteel Plate
 Cost:   3
@@ -665,7 +715,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Darkwater Catacombs
 Type:   Land
-S/R:    OD-R
+S/R:    OD-R, C16-R
 {1}, {T}: Add {U}{B} to your mana pool.
 
 Name:   Darkwater Egg
@@ -691,8 +741,8 @@ When Daru Cavalier enters the battlefield, you may search your library for a car
 
 Name:   Daru Encampment
 Type:   Land
-S/R:    ONS-U
-{T}: Add {1} to your mana pool.
+S/R:    ONS-U, DDF-U
+{T}: Add {C} to your mana pool.
 {W}, {T}: Target Soldier creature gets +1/+1 until end of turn.
 
 Name:   Daru Healer
@@ -771,6 +821,13 @@ P/T:    3/3
 S/R:    ONS-C
 If a source would deal damage to a Cleric creature you control, prevent 1 of that damage.
 
+Name:   Dauntless Cathar
+Cost:   2W
+Type:   Creature — Human Soldier
+P/T:    3/2
+S/R:    SOI-C
+{1}{W}, Exile Dauntless Cathar from your graveyard: Create a 1/1 white Spirit creature token with flying. Activate this ability only any time you could cast a sorcery.
+
 Name:   Dauntless Dourbark
 Cost:   3G
 Type:   Creature — Treefolk Warrior
@@ -783,13 +840,13 @@ Name:   Dauntless Escort
 Cost:   1GW
 Type:   Creature — Rhino Soldier
 P/T:    3/3
-S/R:    ARB-R
+S/R:    ARB-R, C16-R
 Sacrifice Dauntless Escort: Creatures you control gain indestructible until end of turn.
 
 Name:   Dauntless Onslaught
 Cost:   2W
 Type:   Instant
-S/R:    THS-U
+S/R:    THS-U, DDN-U, DDO-U
 Up to two target creatures each get +2/+2 until end of turn.
 
 Name:   Dauntless River Marshal
@@ -849,7 +906,7 @@ Name:   Dauthi Mercenary
 Cost:   2B
 Type:   Creature — Dauthi Knight Mercenary
 P/T:    2/1
-S/R:    TE-U
+S/R:    TE-U, VMA-C
 Shadow (This creature can block or be blocked by only creatures with shadow.)
 {1}{B}: Dauthi Mercenary gets +1/+0 until end of turn.
 
@@ -901,6 +958,13 @@ S/R:    SCG-R
 Flying
 Prevent all damage that would be dealt to Dawn Elemental.
 
+Name:   Dawn Gryff
+Cost:   2W
+Type:   Creature — Hippogriff
+P/T:    2/2
+S/R:    EMN-C
+Flying
+
 Name:   Dawn of the Dead
 Cost:   2BBB
 Type:   Enchantment
@@ -911,7 +975,7 @@ At the beginning of your upkeep, you may return target creature card from your g
 Name:   Dawn to Dusk
 Cost:   2WW
 Type:   Sorcery
-S/R:    BNG-U
+S/R:    BNG-U, C15-U
 Choose one or both —
 • Return target enchantment card from your graveyard to your hand.
 • Destroy target enchantment.
@@ -922,6 +986,14 @@ Type:   Enchantment — Aura
 S/R:    5DN-C
 Enchant land
 Whenever enchanted land is tapped for mana, its controller adds two mana in any combination of colors to his or her mana pool (in addition to the mana the land produces).
+
+Name:   Dawnbreak Reclaimer
+Cost:   4WW
+Type:   Creature — Angel
+P/T:    5/5
+S/R:    C15-R
+Flying
+At the beginning of your end step, choose a creature card in an opponent's graveyard, then that player chooses a creature card in your graveyard. You may return those cards to the battlefield under their owners' control.
 
 Name:   Dawnbringer Charioteers
 Cost:   2WW
@@ -944,7 +1016,7 @@ Name:   Dawnglare Invoker
 Cost:   2W
 Type:   Creature — Kor Wizard
 P/T:    2/1
-S/R:    ROE-C
+S/R:    ROE-C, C15-C
 Flying
 {8}: Tap all creatures target player controls.
 
@@ -981,7 +1053,7 @@ Name:   Dawnstrike Paladin
 Cost:   3WW
 Type:   Creature — Human Knight
 P/T:    2/4
-S/R:    M14-C
+S/R:    M14-C, DDL-C
 Vigilance (Attacking doesn't cause this creature to tap.)
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 
@@ -999,6 +1071,20 @@ P/T:    2/2
 S/R:    THS-R
 Daxos of Meletis can't be blocked by creatures with power 3 or greater.
 Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.
+
+Name:   Daxos the Returned
+Cost:   1WB
+Type:   Legendary Creature — Zombie Soldier
+P/T:    2/2
+S/R:    C15-M
+Whenever you cast an enchantment spell, you get an experience counter.
+{1}{W}{B}: Create a white and black Spirit enchantment creature token. It has "This creature's power and toughness are each equal to the number of experience counters you have."
+
+Name:   Daxos's Torment
+Cost:   3B
+Type:   Enchantment
+S/R:    C15-R
+Constellation — Whenever Daxos's Torment or another enchantment enters the battlefield under your control, Daxos's Torment becomes a 5/5 Demon creature with flying and haste in addition to its other types until end of turn.
 
 Name:   Day
 Cost:   2W
@@ -1023,14 +1109,20 @@ Destroy all creatures.
 Name:   Day of the Dragons
 Cost:   4UUU
 Type:   Enchantment
-S/R:    SCG-R
-When Day of the Dragons enters the battlefield, exile all creatures you control. Then put that many 5/5 red Dragon creature tokens with flying onto the battlefield.
+S/R:    SCG-R, C15-R
+When Day of the Dragons enters the battlefield, exile all creatures you control. Then create that many 5/5 red Dragon creature tokens with flying.
 When Day of the Dragons leaves the battlefield, sacrifice all Dragons you control. Then return the exiled cards to the battlefield under your control.
+
+Name:   Day's Undoing
+Cost:   2U
+Type:   Sorcery
+S/R:    ORI-M
+Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards. If it's your turn, end the turn. (Exile all spells and abilities on the stack, including this card. Discard down to your maximum hand size. Damage wears off, and "this turn" and "until end of turn" effects end.)
 
 Name:   Daybreak Coronet
 Cost:   WW
 Type:   Enchantment — Aura
-S/R:    FUT-R
+S/R:    FUT-R, MM2-R
 Enchant creature with another Aura attached to it
 Enchanted creature gets +3/+3 and has first strike, vigilance, and lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)
 
@@ -1047,7 +1139,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Day
 Name:   Daze
 Cost:   1U
 Type:   Instant
-S/R:    NE-C
+S/R:    NE-C, EMA-U, DD2-C
 You may return an Island you control to its owner's hand rather than pay Daze's mana cost.
 Counter target spell unless its controller pays {1}.
 
@@ -1066,6 +1158,12 @@ P/T:    0/7
 S/R:    KTK-U
 Defender
 {1}{W}, {T}: Tap target creature.
+
+Name:   Dazzling Reflection
+Cost:   1W
+Type:   Instant
+S/R:    OGW-C
+You gain life equal to target creature's power. The next time that creature would deal damage this turn, prevent that damage.
 
 Name:   Dead
 Cost:   R
@@ -1104,7 +1202,7 @@ Destroy two target nonblack creatures unless either one is a color the other isn
 Name:   Dead Weight
 Cost:   B
 Type:   Enchantment — Aura
-S/R:    ISD-C
+S/R:    ISD-C, SOI-C
 Enchant creature
 Enchanted creature gets -2/-2.
 
@@ -1135,6 +1233,13 @@ P/T:    5/5
 S/R:    RTR-R
 Scavenge {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
 
+Name:   Deadbridge Shaman
+Cost:   2B
+Type:   Creature — Elf Shaman
+P/T:    3/1
+S/R:    ORI-C, EMA-C
+When Deadbridge Shaman dies, target opponent discards a card.
+
 Name:   Deadeye Navigator
 Cost:   4UU
 Type:   Creature — Spirit
@@ -1149,6 +1254,14 @@ Type:   Enchantment
 S/R:    LE-U
 Creatures with forestwalk can be blocked as though they didn't have forestwalk.
 
+Name:   Deadlock Trap
+Cost:   3
+Type:   Artifact
+S/R:    KLD-R
+Deadlock Trap enters the battlefield tapped.
+When Deadlock Trap enters the battlefield, you get {E}{E} (two energy counters).
+{T}, Pay {E}: Tap target creature or planeswalker. Its activated abilities can't be activated this turn.
+
 Name:   Deadly Allure
 Cost:   B
 Type:   Sorcery
@@ -1156,13 +1269,20 @@ S/R:    DKA-U
 Target creature gains deathtouch until end of turn and must be blocked this turn if able.
 Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
+Name:   Deadly Designs
+Cost:   1B
+Type:   Enchantment
+S/R:    CN2-U
+{2}: Put a plot counter on Deadly Designs. Any player may activate this ability.
+When there are five or more plot counters on Deadly Designs, sacrifice it. If you do, destroy up to two target creatures.
+
 Name:   Deadly Grub
 Cost:   2B
 Type:   Creature — Insect
 P/T:    3/1
 S/R:    PLC-C
-Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
-When Deadly Grub dies, if it had no time counters on it, put a 6/1 green Insect creature token with shroud onto the battlefield. (It can't be the target of spells or abilities.)
+Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+When Deadly Grub dies, if it had no time counters on it, create a 6/1 green Insect creature token with shroud. (It can't be the target of spells or abilities.)
 
 Name:   Deadly Insect
 Cost:   4G
@@ -1175,9 +1295,15 @@ Name:   Deadly Recluse
 Cost:   1G
 Type:   Creature — Spider
 P/T:    1/2
-S/R:    M10-C, CMD-C, M13-C, M14-C
+S/R:    M10-C, CMD-C, M13-C, M14-C, DDL-C
 Reach (This creature can block creatures with flying.)
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+
+Name:   Deadly Tempest
+Cost:   4BB
+Type:   Sorcery
+S/R:    C15-R
+Destroy all creatures. Each player loses life equal to the number of creatures he or she controlled that were destroyed this way.
 
 Name:   Deadly Wanderings
 Cost:   3BB
@@ -1204,7 +1330,7 @@ Cost:   5G
 Type:   Creature — Treefolk
 P/T:    3/6
 S/R:    PLC-U, CMD-U, C13-U
-Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 When Deadwood Treefolk enters the battlefield or leaves the battlefield, return another target creature card from your graveyard to your hand.
 
 Name:   Deal Broker
@@ -1220,7 +1346,7 @@ Name:   Dearly Departed
 Cost:   4WW
 Type:   Creature — Spirit
 P/T:    5/5
-S/R:    ISD-R
+S/R:    ISD-R, DDQ-R
 Flying
 As long as Dearly Departed is in your graveyard, each Human creature you control enters the battlefield with an additional +1/+1 counter on it.
 
@@ -1229,7 +1355,7 @@ Cost:   1B
 Type:   Sorcery
 M-type: Split
 M-card: Life
-S/R:    AP-U
+S/R:    AP-U, DDJ-U
 Return target creature card from your graveyard to the battlefield. You lose life equal to its converted mana cost.
 
 Name:   Death Baron
@@ -1256,7 +1382,7 @@ Whenever Death Charmer deals combat damage to a creature, that creature's contro
 Name:   Death Cloud
 Cost:   XBBB
 Type:   Sorcery
-S/R:    DST-R
+S/R:    DST-R, MMA-R
 Each player loses X life, discards X cards, sacrifices X creatures, then sacrifices X lands.
 
 Name:   Death Cultist
@@ -1269,7 +1395,7 @@ Sacrifice Death Cultist: Target player loses 1 life and you gain 1 life.
 Name:   Death Denied
 Cost:   XBB
 Type:   Instant — Arcane
-S/R:    SOK-C
+S/R:    SOK-C, MMA-C, MM2-C
 Return X target creature cards from your graveyard to your hand.
 
 Name:   Death Frenzy
@@ -1281,7 +1407,7 @@ All creatures get -2/-2 until end of turn. Whenever a creature dies this turn, y
 Name:   Death Grasp
 Cost:   XWB
 Type:   Sorcery
-S/R:    AP-R, C13-R
+S/R:    AP-R, C13-R, C15-R, VMA-U, DDK-R
 Death Grasp deals X damage to target creature or player. You gain X life.
 
 Name:   Death Match
@@ -1294,7 +1420,7 @@ Name:   Death Mutation
 Cost:   6BG
 Type:   Sorcery
 S/R:    AP-U, CMD-U
-Destroy target nonblack creature. It can't be regenerated. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature's converted mana cost.
+Destroy target nonblack creature. It can't be regenerated. Create X 1/1 green Saproling creature tokens, where X is that creature's converted mana cost.
 
 Name:   Death Pit Offering
 Cost:   2BB
@@ -1320,14 +1446,14 @@ When you cycle Death Pulse, you may have target creature get -1/-1 until end of 
 Name:   Death Rattle
 Cost:   5B
 Type:   Instant
-S/R:    FUT-C
+S/R:    FUT-C, MMA-U
 Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Destroy target nongreen creature. It can't be regenerated.
 
 Name:   Death Spark
 Cost:   R
 Type:   Instant
-S/R:    AI-U
+S/R:    AI-U, ME2-C
 Death Spark deals 1 damage to target creature or player.
 At the beginning of your upkeep, if Death Spark is in your graveyard with a creature card directly above it, you may pay {1}. If you do, return Death Spark to your hand.
 
@@ -1335,7 +1461,7 @@ Name:   Death Speakers
 Cost:   W
 Type:   Creature — Human Cleric
 P/T:    1/1
-S/R:    HL-U, 5E-C
+S/R:    HL-U, 5E-C, MED-C
 Protection from black
 
 Name:   Death Stroke
@@ -1347,7 +1473,7 @@ Destroy target tapped creature.
 Name:   Death Ward
 Cost:   W
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, 5E-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, 5E-C, MED-C
 Regenerate target creature.
 
 Name:   Death Watch
@@ -1360,7 +1486,7 @@ When enchanted creature dies, its controller loses life equal to its power and y
 Name:   Death Wind
 Cost:   XB
 Type:   Instant
-S/R:    AVR-C, DTK-U
+S/R:    AVR-C, DTK-U, CN2-C
 Target creature gets -X/-X until end of turn.
 
 Name:   Death Wish
@@ -1373,7 +1499,7 @@ Name:   Death by Dragons
 Cost:   4RR
 Type:   Sorcery
 S/R:    CMD-U
-Each player other than target player puts a 5/5 red Dragon creature token with flying onto the battlefield.
+Each player other than target player creates a 5/5 red Dragon creature token with flying.
 
 Name:   Death of a Thousand Stings
 Cost:   4B
@@ -1424,7 +1550,7 @@ Name:   Death's-Head Buzzard
 Cost:   1BB
 Type:   Creature — Bird
 P/T:    2/1
-S/R:    SCG-C
+S/R:    SCG-C, VMA-C
 Flying
 When Death's-Head Buzzard dies, all creatures get -1/-1 until end of turn.
 
@@ -1432,7 +1558,7 @@ Name:   Death-Hood Cobra
 Cost:   1G
 Type:   Creature — Snake
 P/T:    2/2
-S/R:    NPH-C
+S/R:    NPH-C, DDM-C
 {1}{G}: Death-Hood Cobra gains reach until end of turn. (It can block creatures with flying.)
 {1}{G}: Death-Hood Cobra gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
 
@@ -1478,11 +1604,19 @@ S/R:    ARB-R, C13-R
 Whenever another creature dies, you may put a +1/+1 counter on Deathbringer Thoctar.
 Remove a +1/+1 counter from Deathbringer Thoctar: Deathbringer Thoctar deals 1 damage to target creature or player.
 
+Name:   Deathcap Cultivator
+Cost:   1G
+Type:   Creature — Human Druid
+P/T:    2/1
+S/R:    SOI-R
+{T}: Add {B} or {G} to your mana pool.
+Delirium — Deathcap Cultivator has deathtouch as long as there are four or more card types among cards in your graveyard.
+
 Name:   Deathcoil Wurm
 Cost:   6GG
 Type:   Creature — Wurm
 P/T:    7/6
-S/R:    P2-R
+S/R:    P2-R, ME4-R
 You may have Deathcoil Wurm assign its combat damage as though it weren't blocked.
 
 Name:   Deathcult Rogue
@@ -1526,13 +1660,13 @@ Name:   Deathgreeter
 Cost:   B
 Type:   Creature — Human Shaman
 P/T:    1/1
-S/R:    ALA-C
+S/R:    ALA-C, DDD-C
 Whenever another creature dies, you may gain 1 life.
 
 Name:   Deathgrip
 Cost:   BB
 Type:   Enchantment
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, ME4-R
 {B}{B}: Counter target green spell.
 
 Name:   Deathknell Kami
@@ -1558,10 +1692,18 @@ S/R:    ROE-R
 Flying
 {W}{W}: Target creature gains indestructible until end of turn.
 
+Name:   Deathless Behemoth
+Cost:   6
+Type:   Creature — Eldrazi
+P/T:    6/6
+S/R:    BFZ-U
+Vigilance
+Sacrifice two Eldrazi Scions: Return Deathless Behemoth from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.
+
 Name:   Deathmark
 Cost:   B
 Type:   Sorcery
-S/R:    CSP-U, 10E-U, M10-U, M11-U, M12-U
+S/R:    CSP-U, 10E-U, M10-U, M11-U, M12-U, MM2-U
 Destroy target green or white creature.
 
 Name:   Deathmark Prelate
@@ -1593,12 +1735,12 @@ Type:   Creature — Angel
 P/T:    5/5
 S/R:    GTC-M
 Flying
-When Deathpact Angel dies, put a 1/1 white and black Cleric creature token onto the battlefield. It has "{3}{W}{B}{B}, {T}, Sacrifice this creature: Return a card named Deathpact Angel from your graveyard to the battlefield."
+When Deathpact Angel dies, create a 1/1 white and black Cleric creature token. It has "{3}{W}{B}{B}, {T}, Sacrifice this creature: Return a card named Deathpact Angel from your graveyard to the battlefield."
 
 Name:   Deathreap Ritual
 Cost:   2BG
 Type:   Enchantment
-S/R:    CNS-U
+S/R:    CNS-U, VMA-U
 Morbid — At the beginning of each end step, if a creature died this turn, you may draw a card.
 
 Name:   Deathrender
@@ -1613,7 +1755,7 @@ Name:   Deathrite Shaman
 Cost:   (B/G)
 Type:   Creature — Elf Shaman
 P/T:    1/2
-S/R:    RTR-R
+S/R:    RTR-R, EMA-R
 {T}: Exile target land card from a graveyard. Add one mana of any color to your mana pool.
 {B}, {T}: Exile target instant or sorcery card from a graveyard. Each opponent loses 2 life.
 {G}, {T}: Exile target creature card from a graveyard. You gain 2 life.
@@ -1624,7 +1766,7 @@ Type:   Creature — Zombie Fungus
 P/T:    1/1
 S/R:    TSP-C
 At the beginning of your upkeep, put a spore counter on Deathspore Thallid.
-Remove three spore counters from Deathspore Thallid: Put a 1/1 green Saproling creature token onto the battlefield.
+Remove three spore counters from Deathspore Thallid: Create a 1/1 green Saproling creature token.
 Sacrifice a Saproling: Target creature gets -1/-1 until end of turn.
 
 Name:   Debilitating Injury
@@ -1671,11 +1813,19 @@ Name:   Deceiver Exarch
 Cost:   2U
 Type:   Creature — Cleric
 P/T:    1/4
-S/R:    NPH-U, C13-U
+S/R:    NPH-U, C13-U, CN2-U
 Flash (You may cast this spell any time you could cast an instant.)
 When Deceiver Exarch enters the battlefield, choose one —
 • Untap target permanent you control.
 • Tap target permanent an opponent controls.
+
+Name:   Deceiver of Form
+Cost:   6C
+Type:   Creature — Eldrazi
+P/T:    8/8
+S/R:    OGW-R
+({C} represents colorless mana.)
+At the beginning of combat on your turn, reveal the top card of your library. If a creature card is revealed this way, you may have creatures you control other than Deceiver of Form become copies of that card until end of turn. You may put that card on the bottom of your library.
 
 Name:   Deception
 Cost:   2B
@@ -1686,7 +1836,7 @@ Target opponent discards two cards.
 Name:   Decimate
 Cost:   2RG
 Type:   Sorcery
-S/R:    OD-R, CNS-R
+S/R:    OD-R, CNS-R, C16-R
 Destroy target artifact, target creature, target enchantment, and target land.
 
 Name:   Decimator Web
@@ -1695,6 +1845,21 @@ Type:   Artifact
 S/R:    MBS-R
 {4}, {T}: Target opponent loses 2 life, gets a poison counter, then puts the top six cards of his or her library into his or her graveyard.
 
+Name:   Decimator of the Provinces
+Cost:   10
+Type:   Creature — Eldrazi Boar
+P/T:    7/7
+S/R:    EMN-M
+Emerge {6}{G}{G}{G} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
+When you cast Decimator of the Provinces, creatures you control get +2/+2 and gain trample until end of turn.
+Trample, haste
+
+Name:   Declaration in Stone
+Cost:   1W
+Type:   Sorcery
+S/R:    SOI-R
+Exile target creature and all other creatures its controller controls with the same name as that creature. That player investigates for each nontoken creature exiled this way.
+
 Name:   Declaration of Naught
 Cost:   UU
 Type:   Enchantment
@@ -1702,10 +1867,17 @@ S/R:    MOR-R
 As Declaration of Naught enters the battlefield, name a card.
 {U}: Counter target spell with the chosen name.
 
+Name:   Decoction Module
+Cost:   2
+Type:   Artifact
+S/R:    KLD-U
+Whenever a creature enters the battlefield under your control, you get {E} (an energy counter).
+{4}, {T}: Return target creature you control to its owner's hand.
+
 Name:   Decompose
 Cost:   1B
 Type:   Sorcery
-S/R:    OD-U
+S/R:    OD-U, DDK-U
 Exile up to three target cards from a single graveyard.
 
 Name:   Decomposition
@@ -1733,7 +1905,7 @@ Flying
 Name:   Decree of Annihilation
 Cost:   8RR
 Type:   Sorcery
-S/R:    SCG-R
+S/R:    SCG-R, V14-M
 Exile all artifacts, creatures, and lands from the battlefield, all cards from all graveyards, and all cards from all hands.
 Cycling {5}{R}{R} ({5}{R}{R}, Discard this card: Draw a card.)
 When you cycle Decree of Annihilation, destroy all lands.
@@ -1741,10 +1913,10 @@ When you cycle Decree of Annihilation, destroy all lands.
 Name:   Decree of Justice
 Cost:   XX2WW
 Type:   Sorcery
-S/R:    SCG-R, C14-R
-Put X 4/4 white Angel creature tokens with flying onto the battlefield.
+S/R:    SCG-R, C14-R, VMA-R, DDO-R
+Create X 4/4 white Angel creature tokens with flying.
 Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
-When you cycle Decree of Justice, you may pay {X}. If you do, put X 1/1 white Soldier creature tokens onto the battlefield.
+When you cycle Decree of Justice, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens.
 
 Name:   Decree of Pain
 Cost:   6BB
@@ -1780,7 +1952,7 @@ S/R:    OD-C
 Name:   Deep Analysis
 Cost:   3U
 Type:   Sorcery
-S/R:    TOR-C, C13-C
+S/R:    TOR-C, C13-C, EMA-C, VMA-C, DDH-U
 Target player draws two cards.
 Flashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -1795,7 +1967,7 @@ Name:   Deep Spawn
 Cost:   5UUU
 Type:   Creature — Homarid
 P/T:    6/6
-S/R:    FE-U
+S/R:    FE-U, ME2-R
 Trample
 At the beginning of your upkeep, sacrifice Deep Spawn unless you put the top two cards of your library into your graveyard.
 {U}: Deep Spawn gains shroud until end of turn and doesn't untap during your next untap step. Tap Deep Spawn. (A creature with shroud can't be the target of spells or abilities.)
@@ -1829,6 +2001,13 @@ P/T:    5/5
 S/R:    P1-U
 Deep-Sea Serpent can't attack unless defending player controls an Island.
 
+Name:   Deep-Sea Terror
+Cost:   4UU
+Type:   Creature — Serpent
+P/T:    6/6
+S/R:    ORI-C
+Deep-Sea Terror can't attack unless there are seven or more cards in your graveyard.
+
 Name:   Deep-Slumber Titan
 Cost:   2RR
 Type:   Creature — Giant Warrior
@@ -1842,7 +2021,7 @@ Name:   Deepcavern Imp
 Cost:   2B
 Type:   Creature — Imp Rebel
 P/T:    2/2
-S/R:    FUT-C
+S/R:    FUT-C, MMA-C
 Flying, haste
 Echo—Discard a card. (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 
@@ -1853,6 +2032,15 @@ P/T:    2/2
 S/R:    SHM-U
 Blue creatures you control can't be blocked.
 
+Name:   Deepfathom Skulker
+Cost:   5U
+Type:   Creature — Eldrazi
+P/T:    4/4
+S/R:    OGW-R
+Devoid (This card has no color.)
+Whenever a creature you control deals combat damage to a player, you may draw a card.
+{3}{C}: Target creature can't be blocked this turn. ({C} represents colorless mana.)
+
 Name:   Deepfire Elemental
 Cost:   4BR
 Type:   Creature — Elemental
@@ -1860,12 +2048,19 @@ P/T:    4/4
 S/R:    CSP-U, C13-U
 {X}{X}{1}: Destroy target artifact or creature with converted mana cost X.
 
+Name:   Deepglow Skate
+Cost:   4U
+Type:   Creature — Fish
+P/T:    3/3
+S/R:    C16-R
+When Deepglow Skate enters the battlefield, double the number of each kind of counter on any number of target permanents.
+
 Name:   Deeptread Merrow
 Cost:   1U
 Type:   Creature — Merfolk Rogue
 P/T:    2/1
 S/R:    LRW-C
-{U}: Deeptread Merrow gains islandwalk until end of turn.
+{U}: Deeptread Merrow gains islandwalk until end of turn. (It can't be blocked as long as defending player controls an Island.)
 
 Name:   Deepwater Hypnotist
 Cost:   1U
@@ -1999,6 +2194,14 @@ S/R:    NPH-C
 Enchant creature
 Enchanted creature gets -1/+1.
 
+Name:   Defiant Bloodlord
+Cost:   5BB
+Type:   Creature — Vampire
+P/T:    4/5
+S/R:    BFZ-R
+Flying
+Whenever you gain life, target opponent loses that much life.
+
 Name:   Defiant Elf
 Cost:   G
 Type:   Creature — Elf
@@ -2083,8 +2286,8 @@ Name:   Deftblade Elite
 Cost:   W
 Type:   Creature — Human Soldier
 P/T:    1/1
-S/R:    LGN-C
-Provoke (When this attacks, you may have target creature defending player controls untap and block it if able.)
+S/R:    LGN-C, VMA-C
+Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)
 {1}{W}: Prevent all combat damage that would be dealt to and dealt by Deftblade Elite this turn.
 
 Name:   Defy Death
@@ -2268,15 +2471,33 @@ Name:   Demigod of Revenge
 Cost:   (B/R)(B/R)(B/R)(B/R)(B/R)
 Type:   Creature — Spirit Avatar
 P/T:    5/4
-S/R:    SHM-R
+S/R:    SHM-R, MMA-R
 Flying, haste
 When you cast Demigod of Revenge, return all cards named Demigod of Revenge from your graveyard to the battlefield.
 
 Name:   Demolish
 Cost:   3R
 Type:   Sorcery
-S/R:    OD-U, 8ED-U, 9ED-U, 10E-C, ZEN-C, M11-C, AVR-C, M14-C, THS-C
+S/R:    OD-U, 8ED-U, 9ED-U, 10E-C, ZEN-C, M11-C, AVR-C, M14-C, THS-C, ORI-C, KLD-C
 Destroy target artifact or land.
+
+Name:   Demolition Stomper
+Cost:   6
+Type:   Artifact — Vehicle
+P/T:    10/7
+S/R:    KLD-U
+Demolition Stomper can't be blocked by creatures with power 2 or less.
+Crew 5 (Tap any number of creatures you control with total power 5 or more: This Vehicle becomes an artifact creature until end of turn.)
+
+Name:   Demon of Dark Schemes
+Cost:   3BBB
+Type:   Creature — Demon
+P/T:    5/5
+S/R:    KLD-M
+Flying
+When Demon of Dark Schemes enters the battlefield, all other creatures get -2/-2 until end of turn.
+Whenever another creature dies, you get {E} (an energy counter).
+{2}{B}, Pay {E}{E}{E}{E}: Put target creature card from a graveyard onto the battlefield under your control tapped.
 
 Name:   Demon of Death's Gate
 Cost:   6BBB
@@ -2294,6 +2515,12 @@ S/R:    C14-R
 Flying
 Lieutenant — As long as you control your commander, Demon of Wailing Agonies gets +2/+2 and has "Whenever Demon of Wailing Agonies deals combat damage to a player, that player sacrifices a creature."
 
+Name:   Demon's Grasp
+Cost:   4B
+Type:   Sorcery
+S/R:    BFZ-C, DDR-C
+Target creature gets -5/-5 until end of turn.
+
 Name:   Demon's Herald
 Cost:   B
 Type:   Creature — Human Wizard
@@ -2304,21 +2531,30 @@ S/R:    ALA-U
 Name:   Demon's Horn
 Cost:   2
 Type:   Artifact
-S/R:    DST-U, 9ED-U, 10E-U, M10-U, M11-U, M12-U
+S/R:    DST-U, 9ED-U, 10E-U, M10-U, M11-U, M12-U, DDC-U
 Whenever a player casts a black spell, you may gain 1 life.
 
 Name:   Demon's Jester
 Cost:   3B
 Type:   Creature — Imp
 P/T:    2/2
-S/R:    DIS-C
+S/R:    DIS-C, DDC-C
 Flying
 Hellbent — Demon's Jester gets +2/+1 as long as you have no cards in hand.
+
+Name:   Demon-Possessed Witch
+Type:   Creature — Human Shaman
+P/T:    4/3
+Color:  Black
+M-type: Transform
+M-card: Kindly Stranger
+S/R:    SOI-U
+When this creature transforms into Demon-Possessed Witch, you may destroy target creature.
 
 Name:   Demonfire
 Cost:   XR
 Type:   Sorcery
-S/R:    DIS-R
+S/R:    DIS-R, DD2-R
 Demonfire deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
 Hellbent — If you have no cards in hand, Demonfire can't be countered by spells or abilities and the damage can't be prevented.
 
@@ -2340,29 +2576,39 @@ Search your library for a card and put that card into your hand. Then shuffle yo
 Name:   Demonic Consultation
 Cost:   B
 Type:   Instant
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 Name a card. Exile the top six cards of your library, then reveal cards from the top of your library until you reveal the named card. Put that card into your hand and exile all other cards revealed this way.
 
 Name:   Demonic Dread
 Cost:   1BR
 Type:   Sorcery
 S/R:    ARB-C
-Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 Target creature can't block this turn.
 
 Name:   Demonic Hordes
 Cost:   3BBB
 Type:   Creature — Demon
 P/T:    5/5
-S/R:    A-R, B-R, U-R, RV-R
+S/R:    A-R, B-R, U-R, RV-R, ME4-R
 {T}: Destroy target land.
 At the beginning of your upkeep, unless you pay {B}{B}{B}, tap Demonic Hordes and sacrifice a land of an opponent's choice.
+
+Name:   Demonic Pact
+Cost:   2BB
+Type:   Enchantment
+S/R:    ORI-M
+At the beginning of your upkeep, choose one that hasn't been chosen —
+• Demonic Pact deals 4 damage to target creature or player and you gain 4 life.
+• Target opponent discards two cards.
+• Draw two cards.
+• You lose the game.
 
 Name:   Demonic Rising
 Cost:   3BB
 Type:   Enchantment
 S/R:    AVR-R
-At the beginning of your end step, if you control exactly one creature, put a 5/5 black Demon creature token with flying onto the battlefield.
+At the beginning of your end step, if you control exactly one creature, create a 5/5 black Demon creature token with flying.
 
 Name:   Demonic Taskmaster
 Cost:   2B
@@ -2375,7 +2621,7 @@ At the beginning of your upkeep, sacrifice a creature other than Demonic Taskmas
 Name:   Demonic Torment
 Cost:   2B
 Type:   Enchantment — Aura
-S/R:    LE-U
+S/R:    LE-U, ME3-C
 Enchant creature
 Enchanted creature can't attack.
 Prevent all combat damage that would be dealt by enchanted creature.
@@ -2383,7 +2629,7 @@ Prevent all combat damage that would be dealt by enchanted creature.
 Name:   Demonic Tutor
 Cost:   1B
 Type:   Sorcery
-S/R:    A-U, B-U, U-U, RV-U
+S/R:    A-U, B-U, U-U, RV-U, VMA-M, DDC-U, ME4-R
 Search your library for a card and put that card into your hand. Then shuffle your library.
 
 Name:   Demonlord of Ashmouth
@@ -2413,7 +2659,7 @@ Name:   Demoralize
 Cost:   2R
 Type:   Instant
 S/R:    OD-C
-Each creature can't be blocked this turn except by two or more creatures.
+All creatures gain menace until end of turn. (They can't be blocked except by two or more creatures.)
 Threshold — If seven or more cards are in your graveyard, creatures can't block this turn.
 
 Name:   Demystify
@@ -2426,7 +2672,7 @@ Name:   Den Protector
 Cost:   1G
 Type:   Creature — Human Warrior
 P/T:    2/1
-S/R:    DTK-R
+S/R:    DTK-R, C16-R
 Creatures with power less than Den Protector's power can't block it.
 Megamorph {1}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)
 When Den Protector is turned face up, return target card from your graveyard to your hand.
@@ -2450,11 +2696,17 @@ Type:   Enchantment
 S/R:    WL-R, 6E-R
 Creatures can't be the targets of spells.
 
+Name:   Deny Existence
+Cost:   2U
+Type:   Instant
+S/R:    SOI-C
+Counter target creature spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
+
 Name:   Deny Reality
 Cost:   3UB
 Type:   Sorcery
 S/R:    ARB-C, PC2-C
-Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 Return target permanent to its owner's hand.
 
 Name:   Denying Wind
@@ -2463,11 +2715,26 @@ Type:   Sorcery
 S/R:    PR-R
 Search target player's library for up to seven cards and exile them. Then that player shuffles his or her library.
 
+Name:   Depala, Pilot Exemplar
+Cost:   1RW
+Type:   Legendary Creature — Dwarf Pilot
+P/T:    3/3
+S/R:    KLD-R
+Other Dwarves you control get +1/+1.
+Each Vehicle you control gets +1/+1 as long as it's a creature.
+Whenever Depala, Pilot Exemplar becomes tapped, you may pay {X}. If you do, reveal the top X cards of your library, put all Dwarf and Vehicle cards from among them into your hand, then put the rest on the bottom of your library in a random order.
+
+Name:   Deploy the Gatewatch
+Cost:   4WW
+Type:   Sorcery
+S/R:    EMN-M
+Look at the top seven cards of your library. Put up to two planeswalker cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+
 Name:   Deploy to the Front
 Cost:   5WW
 Type:   Sorcery
 S/R:    C14-R
-Put X 1/1 white Soldier creature tokens onto the battlefield, where X is the number of creatures on the battlefield.
+Create X 1/1 white Soldier creature tokens, where X is the number of creatures on the battlefield.
 
 Name:   Deprive
 Cost:   UU
@@ -2475,6 +2742,14 @@ Type:   Instant
 S/R:    ROE-C
 As an additional cost to cast Deprive, return a land you control to its owner's hand.
 Counter target spell.
+
+Name:   Deputized Protester
+Cost:   2R
+Type:   Creature — Human Warrior
+P/T:    2/1
+S/R:    CN2-C
+Menace (This creature can't be blocked except by two or more creatures.)
+Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)
 
 Name:   Deputy of Acquittals
 Cost:   WU
@@ -2489,15 +2764,15 @@ Cost:   1U
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    ISD-C
-{T}, Put the top card of your library into your graveyard: Add {1} to your mana pool.
+{T}, Put the top card of your library into your graveyard: Add {C} to your mana pool.
 
 Name:   Deranged Hermit
 Cost:   3GG
 Type:   Creature — Elf
 P/T:    1/1
-S/R:    UL-R
+S/R:    UL-R, VMA-R
 Echo {3}{G}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-When Deranged Hermit enters the battlefield, put four 1/1 green Squirrel creature tokens onto the battlefield.
+When Deranged Hermit enters the battlefield, create four 1/1 green Squirrel creature tokens.
 Squirrel creatures get +1/+1.
 
 Name:   Deranged Outcast
@@ -2507,11 +2782,18 @@ P/T:    2/1
 S/R:    DKA-R
 {1}{G}, Sacrifice a Human: Put two +1/+1 counters on target creature.
 
+Name:   Deranged Whelp
+Cost:   1R
+Type:   Creature — Wolf
+P/T:    2/1
+S/R:    EMN-U
+Menace (This creature can't be blocked except by two or more creatures.)
+
 Name:   Derelor
 Cost:   3B
 Type:   Creature — Thrull
 P/T:    4/4
-S/R:    FE-R, 5E-R, 6E-R
+S/R:    FE-R, 5E-R, 6E-R, MED-U
 Black spells you cast cost {B} more to cast.
 
 Name:   Derevi, Empyrial Tactician
@@ -2531,6 +2813,13 @@ S/R:    LGN-R
 Flying
 Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Dermoplasm is turned face up, you may put a creature card with a morph ability from your hand onto the battlefield face up. If you do, return Dermoplasm to its owner's hand.
+
+Name:   Descend upon the Sinful
+Cost:   4WW
+Type:   Sorcery
+S/R:    SOI-M
+Exile all creatures.
+Delirium — Create a 4/4 white Angel creature token with flying if there are four or more card types among cards in your graveyard.
 
 Name:   Descendant of Kiyomaro
 Cost:   1WW
@@ -2569,7 +2858,7 @@ Name:   Descent of the Dragons
 Cost:   4RR
 Type:   Sorcery
 S/R:    DTK-M
-Destroy any number of target creatures. For each creature destroyed this way, its controller puts a 4/4 red Dragon creature token with flying onto the battlefield.
+Destroy any number of target creatures. For each creature destroyed this way, its controller creates a 4/4 red Dragon creature token with flying.
 
 Name:   Desecrated Earth
 Cost:   4B
@@ -2581,7 +2870,7 @@ Name:   Desecration Demon
 Cost:   2BB
 Type:   Creature — Demon
 P/T:    6/6
-S/R:    RTR-R
+S/R:    RTR-R, DDR-R
 Flying
 At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it.
 
@@ -2608,8 +2897,8 @@ When Desecrator Hag enters the battlefield, return to your hand the creature car
 
 Name:   Desert
 Type:   Land — Desert
-S/R:    AN-C, TSP-S
-{T}: Add {1} to your mana pool.
+S/R:    AN-C, TSP-S, V12-M
+{T}: Add {C} to your mana pool.
 {T}: Desert deals 1 damage to target attacking creature. Activate this ability only during the end of combat step.
 
 Name:   Desert Drake
@@ -2636,13 +2925,13 @@ Desert Sandstorm deals 1 damage to each creature.
 Name:   Desert Twister
 Cost:   4GG
 Type:   Sorcery
-S/R:    AN-U, RV-U, 4E-U, 5E-U, MM-U, C14-U
+S/R:    AN-U, RV-U, 4E-U, 5E-U, MM-U, C14-U, C15-U, VMA-U, ME3-U
 Destroy target permanent.
 
 Name:   Deserted Temple
 Type:   Land
 S/R:    OD-R
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}, {T}: Untap target land.
 
 Name:   Deserter's Quarters
@@ -2655,13 +2944,13 @@ You may choose not to untap Deserter's Quarters during your untap step.
 Name:   Desertion
 Cost:   3UU
 Type:   Instant
-S/R:    VI-R, 6E-R
+S/R:    VI-R, 6E-R, CN2-R
 Counter target spell. If an artifact or creature spell is countered this way, put that card onto the battlefield under your control instead of into its owner's graveyard.
 
 Name:   Desolate Lighthouse
 Type:   Land
 S/R:    AVR-R
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}{U}{R}, {T}: Draw a card, then discard a card.
 
 Name:   Desolation
@@ -2683,14 +2972,21 @@ Name:   Desolation Giant
 Cost:   2RR
 Type:   Creature — Giant
 P/T:    3/3
-S/R:    AP-R, TSP-S
+S/R:    AP-R, TSP-S, C15-R
 Kicker {W}{W} (You may pay an additional {W}{W} as you cast this spell.)
 When Desolation Giant enters the battlefield, destroy all other creatures you control. If it was kicked, destroy all other creatures instead.
+
+Name:   Desolation Twin
+Cost:   10
+Type:   Creature — Eldrazi
+P/T:    10/10
+S/R:    BFZ-R
+When you cast Desolation Twin, create a 10/10 colorless Eldrazi creature token.
 
 Name:   Desperate Charge
 Cost:   2B
 Type:   Sorcery
-S/R:    P3K-U
+S/R:    P3K-U, ME3-C
 Creatures you control get +2/+0 until end of turn.
 
 Name:   Desperate Gambit
@@ -2702,7 +2998,7 @@ Choose a source you control and flip a coin. If you win the flip, the next time 
 Name:   Desperate Ravings
 Cost:   1R
 Type:   Instant
-S/R:    ISD-U
+S/R:    ISD-U, C15-U, EMA-C
 Draw two cards, then discard a card at random.
 Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -2715,9 +3011,17 @@ Name a card other than a basic land card. Then reveal the top seven cards of you
 Name:   Desperate Ritual
 Cost:   1R
 Type:   Instant — Arcane
-S/R:    CHK-C
+S/R:    CHK-C, MMA-U
 Add {R}{R}{R} to your mana pool.
 Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
+
+Name:   Desperate Sentry
+Cost:   2W
+Type:   Creature — Human Soldier
+P/T:    1/2
+S/R:    EMN-C
+When Desperate Sentry dies, create a 3/2 colorless Eldrazi Horror creature token.
+Delirium — Desperate Sentry gets +3/+0 as long as there are four or more card types among cards in your graveyard.
 
 Name:   Desperate Stand
 Cost:   RW
@@ -2738,6 +3042,14 @@ Type:   Sorcery
 S/R:    PR-C
 Destroy target land. Its controller loses 2 life.
 
+Name:   Despoiler of Souls
+Cost:   BB
+Type:   Creature — Horror
+P/T:    3/1
+S/R:    ORI-R, DDR-R
+Despoiler of Souls can't block.
+{B}{B}, Exile two other creature cards from your graveyard: Return Despoiler of Souls from your graveyard to the battlefield.
+
 Name:   Despondency
 Cost:   1B
 Type:   Enchantment — Aura
@@ -2749,7 +3061,7 @@ When Despondency is put into a graveyard from the battlefield, return Despondenc
 Name:   Despotic Scepter
 Cost:   1
 Type:   Artifact
-S/R:    IA-R
+S/R:    IA-R, ME2-R
 {T}: Destroy target permanent you own. It can't be regenerated.
 
 Name:   Destroy the Evidence
@@ -2773,7 +3085,7 @@ Each player sacrifices five lands. Destructive Force deals 5 damage to each crea
 Name:   Destructive Revelry
 Cost:   RG
 Type:   Instant
-S/R:    THS-U
+S/R:    THS-U, DDL-U
 Destroy target artifact or enchantment. Destructive Revelry deals 2 damage to that permanent's controller.
 
 Name:   Destructive Urge
@@ -2818,7 +3130,7 @@ Draw a card.
 Name:   Detonate
 Cost:   XR
 Type:   Sorcery
-S/R:    AQ-U, 4E-U, 5E-U, MRD-U
+S/R:    AQ-U, 4E-U, 5E-U, MRD-U, ME4-U
 Destroy target artifact with converted mana cost X. It can't be regenerated. Detonate deals X damage to that artifact's controller.
 
 Name:   Detritivore
@@ -2834,7 +3146,7 @@ Name:   Deus of Calamity
 Cost:   (R/G)(R/G)(R/G)(R/G)(R/G)
 Type:   Creature — Spirit Avatar
 P/T:    6/6
-S/R:    SHM-R
+S/R:    SHM-R, DDL-R
 Trample
 Whenever Deus of Calamity deals 6 or more damage to an opponent, destroy target land that player controls.
 
@@ -2856,18 +3168,18 @@ Cost:   R
 Type:   Sorcery
 S/R:    ROE-R
 As an additional cost to cast Devastating Summons, sacrifice X lands.
-Put two X/X red Elemental creature tokens onto the battlefield.
+Create two X/X red Elemental creature tokens.
 
 Name:   Devastation
 Cost:   5RR
 Type:   Sorcery
-S/R:    P1-R, S99-R
+S/R:    P1-R, S99-R, ME4-R
 Destroy all creatures and lands.
 
 Name:   Devastation Tide
 Cost:   3UU
 Type:   Sorcery
-S/R:    AVR-R
+S/R:    AVR-R, C16-R
 Return all nonland permanents to their owners' hands.
 Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
@@ -2877,7 +3189,7 @@ Type:   Instant
 M-type: Split
 M-card: Research
 S/R:    DIS-R
-Put a 3/1 red Elemental creature token onto the battlefield unless any opponent has you draw a card. Repeat this process two more times.
+Create a 3/1 red Elemental creature token unless any opponent has you draw a card. Repeat this process two more times.
 
 Name:   Deviant Glee
 Cost:   B
@@ -2889,9 +3201,21 @@ Enchanted creature gets +2/+1 and has "{R}: This creature gains trample until en
 Name:   Devil's Play
 Cost:   XR
 Type:   Sorcery
-S/R:    ISD-R
+S/R:    ISD-R, DDK-R
 Devil's Play deals X damage to target creature or player.
 Flashback {X}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+
+Name:   Devils' Playground
+Cost:   4RR
+Type:   Sorcery
+S/R:    SOI-R
+Create four 1/1 red Devil creature tokens. They have "When this creature dies, it deals 1 damage to target creature or player."
+
+Name:   Devilthorn Fox
+Cost:   1W
+Type:   Creature — Fox
+P/T:    3/1
+S/R:    SOI-C
 
 Name:   Devoted Caretaker
 Cost:   W
@@ -2919,13 +3243,20 @@ Cost:   W
 Type:   Creature — Human Samurai
 P/T:    1/1
 S/R:    CHK-C
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 
 Name:   Devour Flesh
 Cost:   1B
 Type:   Instant
 S/R:    GTC-C
 Target player sacrifices a creature, then gains life equal to that creature's toughness.
+
+Name:   Devour in Flames
+Cost:   2R
+Type:   Sorcery
+S/R:    OGW-U
+As an additional cost to cast Devour in Flames, return a land you control to its owner's hand.
+Devour in Flames deals 5 damage to target creature or planeswalker.
 
 Name:   Devour in Shadow
 Cost:   BB
@@ -2938,12 +3269,12 @@ Cost:   2U
 Type:   Creature — Fish
 P/T:    1/2
 S/R:    LE-C
-Islandwalk
+Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 
 Name:   Devouring Greed
 Cost:   2BB
 Type:   Sorcery — Arcane
-S/R:    CHK-C
+S/R:    CHK-C, MM2-U
 As an additional cost to cast Devouring Greed, you may sacrifice any number of Spirits.
 Target player loses 2 life plus 2 life for each Spirit sacrificed this way. You gain that much life.
 
@@ -2996,7 +3327,7 @@ Name:   Devout Invocation
 Cost:   6W
 Type:   Sorcery
 S/R:    M14-M
-Tap any number of untapped creatures you control. Put a 4/4 white Angel creature token with flying onto the battlefield for each creature tapped this way.
+Tap any number of untapped creatures you control. Create a 4/4 white Angel creature token with flying for each creature tapped this way.
 
 Name:   Devout Lightcaster
 Cost:   WWW
@@ -3017,7 +3348,7 @@ Name:   Devout Witness
 Cost:   2W
 Type:   Creature — Human Spellshaper
 P/T:    2/2
-S/R:    MM-C
+S/R:    MM-C, VMA-U
 {1}{W}, {T}, Discard a card: Destroy target artifact or enchantment.
 
 Name:   Dewdrop Spy
@@ -3028,6 +3359,13 @@ S/R:    MOR-C
 Flash
 Flying
 When Dewdrop Spy enters the battlefield, look at the top card of target player's library.
+
+Name:   Dhund Operative
+Cost:   1B
+Type:   Creature — Human Rogue
+P/T:    2/2
+S/R:    KLD-C
+As long as you control an artifact, Dhund Operative gets +1/+0 and has deathtouch. (Any amount of damage it deals to a creature is enough to destroy it.)
 
 Name:   Diabolic Edict
 Cost:   1B
@@ -3046,7 +3384,7 @@ Name:   Diabolic Machine
 Cost:   7
 Type:   Artifact Creature — Construct
 P/T:    4/4
-S/R:    DK-U, 4E-U, 5E-U
+S/R:    DK-U, 4E-U, 5E-U, ME4-U
 {3}: Regenerate Diabolic Machine.
 
 Name:   Diabolic Revelation
@@ -3058,7 +3396,7 @@ Search your library for up to X cards and put those cards into your hand. Then s
 Name:   Diabolic Servitude
 Cost:   3B
 Type:   Enchantment
-S/R:    US-U
+S/R:    US-U, C15-U, PD3-U
 When Diabolic Servitude enters the battlefield, return target creature card from your graveyard to the battlefield.
 When the creature put onto the battlefield with Diabolic Servitude dies, exile it and return Diabolic Servitude to its owner's hand.
 When Diabolic Servitude leaves the battlefield, exile the creature put onto the battlefield with Diabolic Servitude.
@@ -3066,13 +3404,13 @@ When Diabolic Servitude leaves the battlefield, exile the creature put onto the 
 Name:   Diabolic Tutor
 Cost:   2BB
 Type:   Sorcery
-S/R:    OD-U, 8ED-U, 9ED-U, 10E-U, M10-U, M11-U, CMD-U, M12-U, M14-U
+S/R:    OD-U, 8ED-U, 9ED-U, 10E-U, M10-U, M11-U, CMD-U, M12-U, M14-U, CN2-U, KLD-U
 Search your library for a card and put that card into your hand. Then shuffle your library.
 
 Name:   Diabolic Vision
 Cost:   UB
 Type:   Sorcery
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 Look at the top five cards of your library. Put one of them into your hand and the rest on top of your library in any order.
 
 Name:   Diamond Faerie
@@ -3087,12 +3425,12 @@ Name:   Diamond Kaleidoscope
 Cost:   4
 Type:   Artifact
 S/R:    VI-R
-{3}, {T}: Put a 0/1 colorless Prism artifact creature token onto the battlefield.
+{3}, {T}: Create a 0/1 colorless Prism artifact creature token.
 Sacrifice a Prism token: Add one mana of any color to your mana pool.
 
 Name:   Diamond Valley
 Type:   Land
-S/R:    AN-U
+S/R:    AN-U, MED-R
 {T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.
 
 Name:   Diaochan, Artful Beauty
@@ -3119,7 +3457,7 @@ Whenever a creature you control dies, each opponent sacrifices a creature.
 Name:   Dictate of Heliod
 Cost:   3WW
 Type:   Enchantment
-S/R:    JOU-R
+S/R:    JOU-R, C15-R, DDO-R
 Flash
 Creatures you control get +2/+2.
 
@@ -3147,8 +3485,14 @@ If a source would deal damage to a permanent or player, it deals double that dam
 Name:   Didgeridoo
 Cost:   1
 Type:   Artifact
-S/R:    HL-R
+S/R:    HL-R, ME3-U
 {3}: You may put a Minotaur permanent card from your hand onto the battlefield.
+
+Name:   Die Young
+Cost:   1B
+Type:   Sorcery
+S/R:    KLD-C
+Choose target creature. You get {E}{E} (two energy counters), then you may pay any amount of {E}. The creature gets -1/-1 until end of turn for each {E} paid this way.
 
 Name:   Diffusion Sliver
 Cost:   1U
@@ -3186,6 +3530,16 @@ Type:   Sorcery
 S/R:    SCG-R
 Exile all permanents. For as long as any of those cards remain exiled, at the beginning of each player's upkeep, that player returns one of the exiled cards he or she owns to the battlefield.
 
+Name:   Dimensional Infiltrator
+Cost:   1U
+Type:   Creature — Eldrazi
+P/T:    2/1
+S/R:    OGW-R
+Devoid (This card has no color.)
+Flash
+Flying
+{1}{C}: Target opponent exiles the top card of his or her library. If it's a land card, you may return Dimensional Infiltrator to its owner's hand. ({C} represents colorless mana.)
+
 Name:   Diminish
 Cost:   U
 Type:   Instant
@@ -3195,12 +3549,12 @@ Target creature has base power and toughness 1/1 until end of turn.
 Name:   Diminishing Returns
 Cost:   2UU
 Type:   Sorcery
-S/R:    AI-R, 6E-R
+S/R:    AI-R, 6E-R, EMA-R, MED-R
 Each player shuffles his or her hand and graveyard into his or her library. You exile the top ten cards of your library. Then each player draws up to seven cards.
 
 Name:   Dimir Aqueduct
 Type:   Land
-S/R:    RAV-C, CMD-C, PC2-C
+S/R:    RAV-C, CMD-C, PC2-C, MM2-U, C16-U
 Dimir Aqueduct enters the battlefield tapped.
 When Dimir Aqueduct enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {U}{B} to your mana pool.
@@ -3225,7 +3579,7 @@ Name:   Dimir Cutpurse
 Cost:   1UB
 Type:   Creature — Spirit
 P/T:    2/2
-S/R:    RAV-R
+S/R:    RAV-R, DDH-R
 Whenever Dimir Cutpurse deals combat damage to a player, that player discards a card and you draw a card.
 
 Name:   Dimir Doppelganger
@@ -3245,7 +3599,7 @@ Name:   Dimir Guildmage
 Cost:   (U/B)(U/B)
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    RAV-U
+S/R:    RAV-U, MM2-U
 ({(u/b)} can be paid with either {U} or {B}.)
 {3}{U}: Target player draws a card. Activate this ability only any time you could cast a sorcery.
 {3}{B}: Target player discards a card. Activate this ability only any time you could cast a sorcery.
@@ -3284,14 +3638,14 @@ Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a car
 Name:   Dimir Signet
 Cost:   2
 Type:   Artifact
-S/R:    RAV-C, CMD-C, ARC-C
+S/R:    RAV-C, ARC-C, CMD-C
 {1}, {T}: Add {U}{B} to your mana pool.
 
 Name:   Din of the Fireherd
 Cost:   5(B/R)(B/R)(B/R)
 Type:   Sorcery
 S/R:    SHM-R
-Put a 5/5 black and red Elemental creature token onto the battlefield. Target opponent sacrifices a creature for each black creature you control, then sacrifices a land for each red creature you control.
+Create a 5/5 black and red Elemental creature token. Target opponent sacrifices a creature for each black creature you control, then sacrifices a land for each red creature you control.
 
 Name:   Dingus Egg
 Cost:   4
@@ -3351,10 +3705,18 @@ Name:   Diregraf Captain
 Cost:   1UB
 Type:   Creature — Zombie Soldier
 P/T:    2/2
-S/R:    DKA-U
+S/R:    DKA-U, DDQ-U
 Deathtouch
 Other Zombie creatures you control get +1/+1.
 Whenever another Zombie you control dies, target opponent loses 1 life.
+
+Name:   Diregraf Colossus
+Cost:   2B
+Type:   Creature — Zombie Giant
+P/T:    2/2
+S/R:    SOI-R
+Diregraf Colossus enters the battlefield with a +1/+1 counter on it for each Zombie card in your graveyard.
+Whenever you cast a Zombie spell, create a tapped 2/2 black Zombie creature token.
 
 Name:   Diregraf Escort
 Cost:   G
@@ -3368,7 +3730,7 @@ Name:   Diregraf Ghoul
 Cost:   B
 Type:   Creature — Zombie
 P/T:    2/2
-S/R:    ISD-U
+S/R:    ISD-U, DDQ-U
 Diregraf Ghoul enters the battlefield tapped.
 
 Name:   Dirge of Dread
@@ -3399,7 +3761,7 @@ Cost:   3B
 Type:   Creature — Wraith
 P/T:    1/3
 S/R:    MI-C
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 {B}: Dirtwater Wraith gets +1/+0 until end of turn.
 
 Name:   Dirty
@@ -3426,6 +3788,13 @@ S/R:    UD-U
 Enchant creature
 {U}: Return enchanted creature and Disappear to their owners' hands.
 
+Name:   Disappearing Act
+Cost:   1UU
+Type:   Instant
+S/R:    KLD-U
+As an additional cost to cast Disappearing Act, return a permanent you control to its owner's hand.
+Counter target spell.
+
 Name:   Disarm
 Cost:   U
 Type:   Instant
@@ -3435,7 +3804,7 @@ Unattach all Equipment from target creature.
 Name:   Disaster Radius
 Cost:   5RR
 Type:   Sorcery
-S/R:    ROE-R, CMD-R
+S/R:    ROE-R, CMD-R, C15-R
 As an additional cost to cast Disaster Radius, reveal a creature card from your hand.
 Disaster Radius deals X damage to each creature your opponents control, where X is the revealed card's converted mana cost.
 
@@ -3513,6 +3882,17 @@ P/T:    2/2
 S/R:    GTC-C
 {R}: Disciple of the Old Ways gains first strike until end of turn.
 
+Name:   Disciple of the Ring
+Cost:   3UU
+Type:   Creature — Human Wizard
+P/T:    3/4
+S/R:    ORI-M
+{1}, Exile an instant or sorcery card from your graveyard: Choose one —
+• Counter target noncreature spell unless its controller pays {2}.
+• Disciple of the Ring gets +1/+1 until end of turn.
+• Tap target creature.
+• Untap target creature.
+
 Name:   Disciple of the Vault
 Cost:   B
 Type:   Creature — Human Cleric
@@ -3544,7 +3924,7 @@ At the beginning of your end step, remove all +1/+1 counters from Discordant Spi
 Name:   Disdainful Stroke
 Cost:   1U
 Type:   Instant
-S/R:    KTK-C
+S/R:    KTK-C, C16-C
 Counter target spell with converted mana cost 4 or greater.
 
 Name:   Disease Carriers
@@ -3577,7 +3957,7 @@ Put target artifact or enchantment on top of its owner's library.
 Name:   Disenchant
 Cost:   1W
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, MI-C, 5E-C, TE-C, US-C, 6E-C, MM-C, S00-C, 7E-C, TSP-S
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, MI-C, 5E-C, TE-C, US-C, 6E-C, MM-C, S00-C, 7E-C, TSP-S, CN2-C, ME2-C, ME3-C
 Destroy target artifact or enchantment.
 
 Name:   Disentomb
@@ -3589,13 +3969,13 @@ Return target creature card from your graveyard to your hand.
 Name:   Disfigure
 Cost:   B
 Type:   Instant
-S/R:    ZEN-C
+S/R:    ZEN-C, DDR-C
 Target creature gets -2/-2 until end of turn.
 
 Name:   Disharmony
 Cost:   2R
 Type:   Instant
-S/R:    LE-R
+S/R:    LE-R, ME3-U
 Cast Disharmony only during combat before blockers are declared.
 Untap target attacking creature and remove it from combat. Gain control of that creature until end of turn.
 
@@ -3607,7 +3987,7 @@ Disintegrate deals X damage to target creature or player. That creature can't be
 
 Name:   Dismal Backwater
 Type:   Land
-S/R:    KTK-C, FRF-C
+S/R:    KTK-C, FRF-C, EMA-C, C16-C, DDQ-C
 Dismal Backwater enters the battlefield tapped.
 When Dismal Backwater enters the battlefield, you gain 1 life.
 {T}: Add {U} or {B} to your mana pool.
@@ -3635,14 +4015,14 @@ If Dismantling Blow was kicked, draw two cards.
 Name:   Dismember
 Cost:   1(B/P)(B/P)
 Type:   Instant
-S/R:    NPH-U
+S/R:    NPH-U, MM2-U
 ({(b/p)} can be paid with either {B} or 2 life.)
 Target creature gets -5/-5 until end of turn.
 
 Name:   Dismiss
 Cost:   2UU
 Type:   Instant
-S/R:    TE-U, C13-U, C14-U
+S/R:    TE-U, C13-U, C14-U, CN2-U
 Counter target spell.
 Draw a card.
 
@@ -3674,20 +4054,20 @@ Outlast {1}{B} ({1}{B}, {T}: Put a +1/+1 counter on this creature. Outlast only 
 Name:   Dispatch
 Cost:   W
 Type:   Instant
-S/R:    NPH-U
+S/R:    NPH-U, MM2-U
 Tap target creature.
 Metalcraft — If you control three or more artifacts, exile that creature.
 
 Name:   Dispel
 Cost:   U
 Type:   Instant
-S/R:    WWK-C, RTR-C
+S/R:    WWK-C, RTR-C, BFZ-C
 Counter target instant spell.
 
 Name:   Dispeller's Capsule
 Cost:   W
 Type:   Artifact
-S/R:    ALA-C
+S/R:    ALA-C, MMA-C, C16-C
 {2}{W}, {T}, Sacrifice Dispeller's Capsule: Destroy target artifact or enchantment.
 
 Name:   Dispense Justice
@@ -3706,7 +4086,7 @@ Counter target spell if its converted mana cost is less than or equal to the hig
 Name:   Disperse
 Cost:   1U
 Type:   Instant
-S/R:    MOR-C, SOM-C, M14-C
+S/R:    MOR-C, SOM-C, M14-C, ORI-C, W16-C
 Return target nonland permanent to its owner's hand.
 
 Name:   Dispersing Orb
@@ -3714,6 +4094,18 @@ Cost:   3UU
 Type:   Enchantment
 S/R:    ONS-U
 {3}{U}, Sacrifice a permanent: Return target permanent to its owner's hand.
+
+Name:   Displace
+Cost:   2U
+Type:   Instant
+S/R:    EMN-C
+Exile up to two target creatures you control, then return those cards to the battlefield under their owner's control.
+
+Name:   Displacement Wave
+Cost:   XUU
+Type:   Sorcery
+S/R:    ORI-R
+Return all nonland permanents with converted mana cost X or less to their owners' hands.
 
 Name:   Display of Dominance
 Cost:   1G
@@ -3765,10 +4157,16 @@ P/T:    1/1
 S/R:    US-C
 {T}: Counter target spell unless its controller pays {1}.
 
+Name:   Dissension in the Ranks
+Cost:   3RR
+Type:   Instant
+S/R:    SOI-U
+Target blocking creature fights another target blocking creature.
+
 Name:   Dissipate
 Cost:   1UU
 Type:   Instant
-S/R:    MI-U, ISD-U, M15-U
+S/R:    MI-U, ISD-U, M15-U, DDJ-U
 Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
 
 Name:   Dissipation Field
@@ -3786,7 +4184,7 @@ Counter target spell. Scry 1. (Look at the top card of your library. You may put
 Name:   Distant Melody
 Cost:   3U
 Type:   Sorcery
-S/R:    MOR-C
+S/R:    MOR-C, H09-C
 Choose a creature type. Draw a card for each permanent you control of that type.
 
 Name:   Distant Memories
@@ -3794,6 +4192,21 @@ Cost:   2UU
 Type:   Sorcery
 S/R:    MBS-R
 Search your library for a card, exile it, then shuffle your library. Any opponent may have you put that card into your hand. If no player does, you draw three cards.
+
+Name:   Distemper of the Blood
+Cost:   1R
+Type:   Sorcery
+S/R:    EMN-C
+Target creature gets +2/+2 and gains trample until end of turn.
+Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+
+Name:   Distended Mindbender
+Cost:   8
+Type:   Creature — Eldrazi Insect
+P/T:    5/5
+S/R:    EMN-R
+Emerge {5}{B}{B} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
+When you cast Distended Mindbender, target opponent reveals his or her hand. You choose from it a nonland card with converted mana cost 3 or less and a card with converted mana cost 4 or greater. That player discards those cards.
 
 Name:   Distorting Lens
 Cost:   2
@@ -3856,6 +4269,13 @@ Type:   Instant
 S/R:    SCG-C
 Until end of turn, lands you control gain "{T}: Add one mana of any color to your mana pool."
 
+Name:   Divergent Transformations
+Cost:   6R
+Type:   Instant
+S/R:    C16-R
+Undaunted (This spell costs {1} less to cast for each opponent.)
+Exile two target creatures. For each of those creatures, its controller reveals cards from the top of his or her library until he or she reveals a creature card, puts that card onto the battlefield, then shuffles the rest into his or her library.
+
 Name:   Diversionary Tactics
 Cost:   3W
 Type:   Enchantment
@@ -3871,7 +4291,7 @@ Change the target of target spell with a single target unless that spell's contr
 Name:   Divination
 Cost:   2U
 Type:   Sorcery
-S/R:    M10-C, M12-C, DKA-C, M13-C, M14-C, BNG-C, M15-C
+S/R:    M10-C, M12-C, DKA-C, M13-C, M14-C, BNG-C, M15-C, CN2-C
 Draw two cards.
 
 Name:   Divine Congregation
@@ -3898,7 +4318,7 @@ Enchanted creature gets +1/+3.
 Name:   Divine Intervention
 Cost:   6WW
 Type:   Enchantment
-S/R:    LE-R
+S/R:    LE-R, ME3-R
 Divine Intervention enters the battlefield with two intervention counters on it.
 At the beginning of your upkeep, remove an intervention counter from Divine Intervention.
 When you remove the last intervention counter from Divine Intervention, the game is a draw.
@@ -3912,7 +4332,7 @@ Prevent all damage that would be dealt this turn to creatures you control.
 Name:   Divine Offering
 Cost:   1W
 Type:   Instant
-S/R:    LE-C, CH-C, MI-C, 5E-C, MBS-C
+S/R:    LE-C, CH-C, MI-C, 5E-C, MBS-C, ME4-C
 Destroy target artifact. You gain life equal to its converted mana cost.
 
 Name:   Divine Presence
@@ -3944,14 +4364,14 @@ Threshold — White creatures get an additional +1/+1 as long as seven or more c
 Name:   Divine Transformation
 Cost:   2WW
 Type:   Enchantment — Aura
-S/R:    LE-R, 4E-U, 5E-U, 6E-U
+S/R:    LE-R, 4E-U, 5E-U, 6E-U, MED-U
 Enchant creature
 Enchanted creature gets +3/+3.
 
 Name:   Divine Verdict
 Cost:   3W
 Type:   Instant
-S/R:    M10-C, M13-C, THS-C, M15-C
+S/R:    M10-C, M13-C, THS-C, M15-C, ORI-C
 Destroy target attacking or blocking creature.
 
 Name:   Diviner Spirit
@@ -3987,7 +4407,7 @@ Name:   Divinity of Pride
 Cost:   (W/B)(W/B)(W/B)(W/B)(W/B)
 Type:   Creature — Spirit Avatar
 P/T:    4/4
-S/R:    EVE-R, C13-R
+S/R:    EVE-R, MMA-R, C13-R
 Flying, lifelink
 Divinity of Pride gets +4/+4 as long as you have 25 or more life.
 
@@ -4009,7 +4429,7 @@ Name:   Djinn Illuminatus
 Cost:   5(U/R)(U/R)
 Type:   Creature — Djinn
 P/T:    3/5
-S/R:    GPT-R
+S/R:    GPT-R, DDJ-R
 ({(u/r)} can be paid with either {U} or {R}.)
 Flying
 Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
@@ -4044,6 +4464,16 @@ Type:   Sorcery
 S/R:    IN-R
 Separate all creatures target player controls into two piles. Destroy all creatures in the pile of that player's choice. They can't be regenerated.
 
+Name:   Docent of Perfection
+Cost:   3UU
+Type:   Creature — Insect Horror
+P/T:    5/4
+M-type: Transform
+M-card: Final Iteration
+S/R:    EMN-R
+Flying
+Whenever you cast an instant or sorcery spell, create a 1/1 blue Human Wizard creature token. Then if you control three or more Wizards, transform Docent of Perfection.
+
 Name:   Dodecapod
 Cost:   4
 Type:   Artifact Creature — Golem
@@ -4071,13 +4501,21 @@ P/T:    3/3
 M-type: Flip
 M-card: Budoka Gardener
 S/R:    CHK-R
-{4}{G}{G}, {T}: Put an X/X green Elemental creature token onto the battlefield, where X is the number of lands you control.
+{4}{G}{G}, {T}: Create an X/X green Elemental creature token, where X is the number of lands you control.
 
 Name:   Dolmen Gate
 Cost:   2
 Type:   Artifact
 S/R:    LRW-R
 Prevent all combat damage that would be dealt to attacking creatures you control.
+
+Name:   Domesticated Hydra
+Cost:   2GG
+Type:   Creature — Hydra
+P/T:    3/3
+S/R:    CN2-U
+{X}{G}{G}{G}: Monstrosity X. (If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)
+As long as Domesticated Hydra is monstrous, it has trample.
 
 Name:   Domestication
 Cost:   2UU
@@ -4096,8 +4534,8 @@ Until end of turn, creatures you control gain protection from white if you contr
 Name:   Dominate
 Cost:   X1UU
 Type:   Instant
-S/R:    NE-U
-Gain control of target creature with converted mana cost X or less. (This effect lasts indefinitely.)
+S/R:    NE-U, C15-U
+Gain control of target creature with converted mana cost X or less.
 
 Name:   Dominating Licid
 Cost:   1UU
@@ -4106,6 +4544,15 @@ P/T:    1/1
 S/R:    EX-R
 {1}{U}{U}, {T}: Dominating Licid loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {U} to end this effect.
 You control enchanted creature.
+
+Name:   Dominator Drone
+Cost:   2B
+Type:   Creature — Eldrazi Drone
+P/T:    3/2
+S/R:    BFZ-C, DDP-C
+Devoid (This card has no color.)
+Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
+When Dominator Drone enters the battlefield, if you control another colorless creature, each opponent loses 2 life.
 
 Name:   Domineer
 Cost:   1UU
@@ -4147,13 +4594,13 @@ Name:   Dong Zhou, the Tyrant
 Cost:   4R
 Type:   Legendary Creature — Human Soldier
 P/T:    3/3
-S/R:    P3K-R
+S/R:    P3K-R, ME3-R
 When Dong Zhou, the Tyrant enters the battlefield, target creature an opponent controls deals damage equal to its power to that player.
 
 Name:   Doom Blade
 Cost:   1B
 Type:   Instant
-S/R:    M10-C, M11-C, CMD-C, M12-C, M14-U
+S/R:    M10-C, M11-C, CMD-C, M12-C, M14-U, DDR-U
 Destroy target nonblack creature.
 
 Name:   Doom Cannon
@@ -4174,14 +4621,14 @@ Name:   Doomed Traveler
 Cost:   W
 Type:   Creature — Human Soldier
 P/T:    1/1
-S/R:    ISD-C, CNS-C
-When Doomed Traveler dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
+S/R:    ISD-C, CNS-C, CN2-C, DDK-C, DDQ-C
+When Doomed Traveler dies, create a 1/1 white Spirit creature token with flying.
 
 Name:   Doomgape
 Cost:   4(B/G)(B/G)(B/G)
 Type:   Creature — Elemental
 P/T:    10/10
-S/R:    EVE-R
+S/R:    EVE-R, DDJ-R
 Trample
 At the beginning of your upkeep, sacrifice a creature. You gain life equal to that creature's toughness.
 
@@ -4204,7 +4651,7 @@ Name:   Doomwake Giant
 Cost:   4B
 Type:   Enchantment Creature — Giant
 P/T:    4/6
-S/R:    JOU-R
+S/R:    JOU-R, C15-R
 Constellation — Whenever Doomwake Giant or another enchantment enters the battlefield under your control, creatures your opponents control get -1/-1 until end of turn.
 
 Name:   Door of Destinies
@@ -4218,7 +4665,7 @@ Creatures you control of the chosen type get +1/+1 for each charge counter on Do
 Name:   Door to Nothingness
 Cost:   5
 Type:   Artifact
-S/R:    5DN-R, M13-R, HOP-R
+S/R:    5DN-R, HOP-R, M13-R
 Door to Nothingness enters the battlefield tapped.
 {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice Door to Nothingness: Target player loses the game.
 
@@ -4234,7 +4681,7 @@ Name:   Doran, the Siege Tower
 Cost:   BGW
 Type:   Legendary Creature — Treefolk Shaman
 P/T:    0/5
-S/R:    LRW-R
+S/R:    LRW-R, V11-M
 Each creature assigns combat damage equal to its toughness rather than its power.
 
 Name:   Dormant Gomazoa
@@ -4260,7 +4707,7 @@ Type:   Land
 S/R:    VI-U, C14-U
 Dormant Volcano enters the battlefield tapped.
 When Dormant Volcano enters the battlefield, sacrifice it unless you return an untapped Mountain you control to its owner's hand.
-{T}: Add {1}{R} to your mana pool.
+{T}: Add {C}{R} to your mana pool.
 
 Name:   Dosan the Falling Leaf
 Cost:   1GG
@@ -4303,8 +4750,8 @@ S/R:    5DN-R, 10E-R
 Name:   Doubling Season
 Cost:   4G
 Type:   Enchantment
-S/R:    RAV-R
-If an effect would put one or more tokens onto the battlefield under your control, it puts twice that many of those tokens onto the battlefield instead.
+S/R:    RAV-R, MMA-R
+If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.
 If an effect would place one or more counters on a permanent you control, it places twice that many of those counters on that permanent instead.
 
 Name:   Doubtless One
@@ -4332,7 +4779,16 @@ Cost:   3(W/U)(W/U)(W/U)
 Type:   Enchantment
 S/R:    DIS-R
 ({(w/u)} can be paid with either {W} or {U}.)
-Whenever a player casts a noncreature spell, counter that spell. That player puts X 1/1 white and blue Bird creature tokens with flying onto the battlefield, where X is the spell's converted mana cost.
+Whenever a player casts a noncreature spell, counter that spell. That player creates X 1/1 white and blue Bird creature tokens with flying, where X is the spell's converted mana cost.
+
+Name:   Dovin Baan
+Cost:   2WU
+Type:   Planeswalker — Dovin
+P/T:    3
+S/R:    KLD-M
+[+1]: Until your next turn, up to one target creature gets -3/-0 and its activated abilities can't be activated.
+[-1]: You gain 2 life and draw a card.
+[-7]: You get an emblem with "Your opponents can't untap more than two permanents during their untap steps."
 
 Name:   Down
 Cost:   3B
@@ -4353,7 +4809,7 @@ Sacrifice Downdraft: Downdraft deals 2 damage to each creature with flying.
 Name:   Downhill Charge
 Cost:   2R
 Type:   Instant
-S/R:    NE-C
+S/R:    NE-C, DDI-C
 You may sacrifice a Mountain rather than pay Downhill Charge's mana cost.
 Target creature gets +X/+0 until end of turn, where X is the number of Mountains you control.
 
@@ -4381,7 +4837,7 @@ Name:   Draco
 Cost:   16
 Type:   Artifact Creature — Dragon
 P/T:    9/9
-S/R:    PS-R
+S/R:    PS-R, DRB-R
 Domain — Draco costs {2} less to cast for each basic land type among lands you control.
 Flying
 Domain — At the beginning of your upkeep, sacrifice Draco unless you pay {10}. This cost is reduced by {2} for each basic land type among lands you control.
@@ -4417,8 +4873,15 @@ Return any number of target artifact cards from target player's graveyard to the
 Name:   Drag Down
 Cost:   2B
 Type:   Instant
-S/R:    CON-C
+S/R:    CON-C, MMA-C
 Domain — Target creature gets -1/-1 until end of turn for each basic land type among lands you control.
+
+Name:   Drag Under
+Cost:   2U
+Type:   Sorcery
+S/R:    EMN-C
+Return target creature to its owner's hand.
+Draw a card.
 
 Name:   Dragon Appeasement
 Cost:   3BRG
@@ -4444,7 +4907,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 Name:   Dragon Blood
 Cost:   3
 Type:   Artifact
-S/R:    US-U, MRD-U
+S/R:    US-U, MRD-U, DDL-U
 {3}, {T}: Put a +1/+1 counter on target creature.
 
 Name:   Dragon Breath
@@ -4462,21 +4925,21 @@ Type:   Creature — Dragon
 P/T:    4/4
 S/R:    ARB-M
 Flying
-At the beginning of each upkeep, put a 1/1 red and green Dragon creature token with flying and devour 2 onto the battlefield. (As the token enters the battlefield, you may sacrifice any number of creatures. It enters the battlefield with twice that many +1/+1 counters on it.)
+At the beginning of each upkeep, create a 1/1 red and green Dragon creature token with flying and devour 2. (As the token enters the battlefield, you may sacrifice any number of creatures. It enters the battlefield with twice that many +1/+1 counters on it.)
 
 Name:   Dragon Egg
 Cost:   2R
 Type:   Creature — Dragon
 P/T:    0/2
-S/R:    M14-U
+S/R:    M14-U, EMA-C
 Defender (This creature can't attack.)
-When Dragon Egg dies, put a 2/2 red Dragon creature token with flying onto the battlefield. It has "{R}: This creature gets +1/+0 until end of turn."
+When Dragon Egg dies, create a 2/2 red Dragon creature token with flying. It has "{R}: This creature gets +1/+0 until end of turn."
 
 Name:   Dragon Engine
 Cost:   3
 Type:   Artifact Creature — Construct
 P/T:    1/3
-S/R:    AQ-C, RV-R, 4E-R, 5E-R, 6E-R
+S/R:    AQ-C, RV-R, 4E-R, 5E-R, 6E-R, ME4-C, MED-C
 {2}: Dragon Engine gets +1/+0 until end of turn.
 
 Name:   Dragon Fangs
@@ -4490,8 +4953,8 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 Name:   Dragon Fodder
 Cost:   1R
 Type:   Sorcery
-S/R:    ALA-C, DTK-C, ARC-C
-Put two 1/1 red Goblin creature tokens onto the battlefield.
+S/R:    ALA-C, ARC-C, DTK-C, ORI-C, DDG-C
+Create two 1/1 red Goblin creature tokens.
 
 Name:   Dragon Grip
 Cost:   2R
@@ -4521,7 +4984,7 @@ Name:   Dragon Mage
 Cost:   5RR
 Type:   Creature — Dragon Wizard
 P/T:    5/5
-S/R:    SCG-R
+S/R:    SCG-R, C15-R, C16-R
 Flying
 Whenever Dragon Mage deals combat damage to a player, each player discards his or her hand, then draws seven cards.
 
@@ -4543,7 +5006,7 @@ Name:   Dragon Roost
 Cost:   4RR
 Type:   Enchantment
 S/R:    ONS-R, 10E-R
-{5}{R}{R}: Put a 5/5 red Dragon creature token with flying onto the battlefield. (It can't be blocked except by creatures with flying or reach.)
+{5}{R}{R}: Create a 5/5 red Dragon creature token with flying. (It can't be blocked except by creatures with flying or reach.)
 
 Name:   Dragon Scales
 Cost:   1W
@@ -4589,7 +5052,7 @@ Name:   Dragon Whelp
 Cost:   2RR
 Type:   Creature — Dragon
 P/T:    2/3
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, TSP-S, M10-U, CMD-U, ARC-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, TSP-S, M10-U, ARC-U, CMD-U, DRB-R, DDG-U
 Flying
 {R}: Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.
 
@@ -4600,7 +5063,7 @@ P/T:    2/2
 S/R:    DTK-M
 {R}: Dragon Whisperer gains flying until end of turn.
 {1}{R}: Dragon Whisperer gets +1/+0 until end of turn.
-Formidable — {4}{R}{R}: Put a 4/4 red Dragon creature token with flying onto the battlefield. Activate this ability only if creatures you control have total power 8 or greater.
+Formidable — {4}{R}{R}: Create a 4/4 red Dragon creature token with flying. Activate this ability only if creatures you control have total power 8 or greater.
 
 Name:   Dragon Wings
 Cost:   1U
@@ -4614,7 +5077,7 @@ When a creature with converted mana cost 6 or greater enters the battlefield, yo
 Name:   Dragon's Claw
 Cost:   2
 Type:   Artifact
-S/R:    DST-U, 9ED-U, 10E-U, M10-U, M11-U, M12-U
+S/R:    DST-U, 9ED-U, 10E-U, M10-U, M11-U, M12-U, DDG-U
 Whenever a player casts a red spell, you may gain 1 life.
 
 Name:   Dragon's Eye Savants
@@ -4658,9 +5121,9 @@ Name:   Dragonlair Spider
 Cost:   2RRGG
 Type:   Creature — Spider
 P/T:    5/6
-S/R:    PC2-R
+S/R:    PC2-R, CN2-R
 Reach
-Whenever an opponent casts a spell, put a 1/1 green Insect creature token onto the battlefield.
+Whenever an opponent casts a spell, create a 1/1 green Insect creature token.
 
 Name:   Dragonloft Idol
 Cost:   4
@@ -4731,8 +5194,8 @@ Name:   Dragonmaster Outcast
 Cost:   R
 Type:   Creature — Human Shaman
 P/T:    1/1
-S/R:    WWK-M
-At the beginning of your upkeep, if you control six or more lands, put a 5/5 red Dragon creature token with flying onto the battlefield.
+S/R:    WWK-M, BFZ-M
+At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying.
 
 Name:   Dragonrage
 Cost:   2R
@@ -4762,7 +5225,7 @@ Overload {3}{U}{U}{R}{R} (You may cast this spell for its overload cost. If you 
 
 Name:   Dragonskull Summit
 Type:   Land
-S/R:    M10-R, M11-R, M12-R, M13-R
+S/R:    M10-R, M11-R, M12-R, M13-R, C16-R
 Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
 {T}: Add {B} or {R} to your mana pool.
 
@@ -4770,7 +5233,7 @@ Name:   Dragonsoul Knight
 Cost:   2R
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    CON-U
+S/R:    CON-U, MM2-C
 First strike
 {W}{U}{B}{R}{G}: Until end of turn, Dragonsoul Knight becomes a Dragon, gets +5/+3, and gains flying and trample.
 
@@ -4778,7 +5241,7 @@ Name:   Dragonspeaker Shaman
 Cost:   1RR
 Type:   Creature — Human Barbarian Shaman
 P/T:    2/2
-S/R:    SCG-U, ARC-U
+S/R:    SCG-U, ARC-U, DDG-U
 Dragon spells you cast cost {2} less to cast.
 
 Name:   Dragonstalker
@@ -4791,7 +5254,7 @@ Flying, protection from Dragons
 Name:   Dragonstorm
 Cost:   8R
 Type:   Sorcery
-S/R:    SCG-R, TSP-S
+S/R:    SCG-R, TSP-S, MMA-R, DRB-R
 Search your library for a Dragon permanent card and put it onto the battlefield. Then shuffle your library.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)
 
@@ -4805,7 +5268,7 @@ Drain Life deals X damage to target creature or player. You gain life equal to t
 Name:   Drain Power
 Cost:   UU
 Type:   Sorcery
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, ME4-R
 Target player activates a mana ability of each land he or she controls. Then put all mana from that player's mana pool into yours.
 
 Name:   Drain the Well
@@ -4864,7 +5327,7 @@ Name:   Drakestown Forgotten
 Cost:   4B
 Type:   Creature — Zombie
 P/T:    0/0
-S/R:    CNS-R
+S/R:    CNS-R, VMA-R
 Drakestown Forgotten enters the battlefield with X +1/+1 counters on it, where X is the number of creature cards in all graveyards.
 {2}{B}, Remove a +1/+1 counter from Drakestown Forgotten: Target creature gets -1/-1 until end of turn.
 
@@ -4910,6 +5373,27 @@ Type:   Instant
 S/R:    RTR-C
 Return target creature to its owner's hand. You gain 2 life.
 
+Name:   Dramatic Reversal
+Cost:   1U
+Type:   Instant
+S/R:    KLD-C
+Untap all nonland permanents you control.
+
+Name:   Drana's Chosen
+Cost:   3B
+Type:   Creature — Vampire Shaman Ally
+P/T:    2/2
+S/R:    OGW-R
+Cohort — {T}, Tap an untapped Ally you control: Create a tapped 2/2 black Zombie creature token.
+
+Name:   Drana's Emissary
+Cost:   1WB
+Type:   Creature — Vampire Cleric Ally
+P/T:    2/2
+S/R:    BFZ-U
+Flying
+At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life.
+
 Name:   Drana, Kalastria Bloodchief
 Cost:   3BB
 Type:   Legendary Creature — Vampire Shaman
@@ -4917,6 +5401,14 @@ P/T:    4/4
 S/R:    ROE-R, C14-R
 Flying
 {X}{B}{B}: Target creature gets -0/-X until end of turn and Drana, Kalastria Bloodchief gets +X/+0 until end of turn.
+
+Name:   Drana, Liberator of Malakir
+Cost:   1BB
+Type:   Legendary Creature — Vampire Ally
+P/T:    2/3
+S/R:    BFZ-M
+Flying, first strike
+Whenever Drana, Liberator of Malakir deals combat damage to a player, put a +1/+1 counter on each attacking creature you control.
 
 Name:   Drastic Revelation
 Cost:   2UBR
@@ -4946,25 +5438,33 @@ Type:   Sorcery
 S/R:    P1-R
 Black creatures you control can't be blocked this turn except by black creatures.
 
+Name:   Dread Defiler
+Cost:   6B
+Type:   Creature — Eldrazi
+P/T:    6/8
+S/R:    OGW-R
+Devoid (This card has no color.)
+{3}{C}, Exile a creature card from your graveyard: Target opponent loses life equal to the exiled card's power. ({C} represents colorless mana.)
+
 Name:   Dread Drone
 Cost:   4B
 Type:   Creature — Eldrazi Drone
 P/T:    4/1
-S/R:    ROE-C
-When Dread Drone enters the battlefield, put two 0/1 colorless Eldrazi Spawn creature tokens onto the battlefield. They have "Sacrifice this creature: Add {1} to your mana pool."
+S/R:    ROE-C, MM2-C
+When Dread Drone enters the battlefield, create two 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
 
 Name:   Dread Reaper
 Cost:   3BBB
 Type:   Creature — Horror
 P/T:    6/5
-S/R:    P1-R, S99-R
+S/R:    P1-R, S99-R, ME4-R
 Flying
 When Dread Reaper enters the battlefield, you lose 5 life.
 
 Name:   Dread Return
 Cost:   2BB
 Type:   Sorcery
-S/R:    TSP-U, C14-U
+S/R:    TSP-U, C14-U, DDQ-U, PD3-U
 Return target creature card from your graveyard to the battlefield.
 Flashback—Sacrifice three creatures. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -4992,9 +5492,15 @@ Whenever Dread Specter blocks or becomes blocked by a nonblack creature, destroy
 
 Name:   Dread Statuary
 Type:   Land
-S/R:    WWK-U
-{T}: Add {1} to your mana pool.
+S/R:    WWK-U, CN2-U, DDM-U
+{T}: Add {C} to your mana pool.
 {4}: Dread Statuary becomes a 4/2 Golem artifact creature until end of turn. It's still a land.
+
+Name:   Dread Summons
+Cost:   XBB
+Type:   Sorcery
+S/R:    C15-R
+Each player puts the top X cards of his or her library into his or her graveyard. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token.
 
 Name:   Dread Warlock
 Cost:   1BB
@@ -5007,7 +5513,7 @@ Name:   Dread Wight
 Cost:   3BB
 Type:   Creature — Zombie
 P/T:    3/4
-S/R:    IA-R
+S/R:    IA-R, ME4-U
 At end of combat, put a paralyzation counter on each creature blocking or blocked by Dread Wight and tap those creatures. Each of those creatures doesn't untap during its controller's untap step for as long as it has a paralyzation counter on it. Each of those creatures gains "{4}: Remove a paralyzation counter from this creature."
 
 Name:   Dread of Night
@@ -5026,20 +5532,20 @@ Name:   Dreadbringer Lampads
 Cost:   4B
 Type:   Enchantment Creature — Nymph
 P/T:    4/2
-S/R:    JOU-C
+S/R:    JOU-C, C15-C
 Constellation — Whenever Dreadbringer Lampads or another enchantment enters the battlefield under your control, target creature gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 
 Name:   Dreadship Reef
 Type:   Land
-S/R:    TSP-U, CMD-U
-{T}: Add {1} to your mana pool.
+S/R:    TSP-U, CMD-U, C16-U
+{T}: Add {C} to your mana pool.
 {1}, {T}: Put a storage counter on Dreadship Reef.
 {1}, Remove X storage counters from Dreadship Reef: Add X mana in any combination of {U} and/or {B} to your mana pool.
 
 Name:   Dreadwaters
 Cost:   3U
 Type:   Sorcery
-S/R:    AVR-C
+S/R:    AVR-C, ORI-C
 Target player puts the top X cards of his or her library into his or her graveyard, where X is the number of lands you control.
 
 Name:   Dreadwing
@@ -5096,6 +5602,14 @@ Enchant permanent
 You can't choose an untapped permanent as Dream Leash's target as you cast Dream Leash.
 You control enchanted permanent.
 
+Name:   Dream Pillager
+Cost:   5RR
+Type:   Creature — Dragon
+P/T:    4/4
+S/R:    C15-R
+Flying
+Whenever Dream Pillager deals combat damage to a player, exile that many cards from the top of your library. Until end of turn, you may cast nonland cards exiled this way.
+
 Name:   Dream Prowler
 Cost:   2UU
 Type:   Creature — Illusion
@@ -5113,7 +5627,7 @@ Name:   Dream Stalker
 Cost:   1U
 Type:   Creature — Illusion
 P/T:    1/5
-S/R:    TSP-C
+S/R:    TSP-C, DDM-C
 When Dream Stalker enters the battlefield, return a permanent you control to its owner's hand.
 
 Name:   Dream Thief
@@ -5142,7 +5656,7 @@ At the beginning of each player's upkeep, that player may choose any number of t
 Name:   Dream Twist
 Cost:   U
 Type:   Instant
-S/R:    ISD-C
+S/R:    ISD-C, EMA-C
 Target player puts the top three cards of his or her library into his or her graveyard.
 Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -5173,13 +5687,13 @@ Name:   Dreampod Druid
 Cost:   1G
 Type:   Creature — Human Druid
 P/T:    2/2
-S/R:    PC2-U
-At the beginning of each upkeep, if Dreampod Druid is enchanted, put a 1/1 green Saproling creature token onto the battlefield.
+S/R:    PC2-U, VMA-U
+At the beginning of each upkeep, if Dreampod Druid is enchanted, create a 1/1 green Saproling creature token.
 
 Name:   Dreams of the Dead
 Cost:   3U
 Type:   Enchantment
-S/R:    IA-U
+S/R:    IA-U, ME2-R
 {1}{U}: Return target white or black creature card from your graveyard to the battlefield. That creature gains "Cumulative upkeep {2}." If the creature would leave the battlefield, exile it instead of putting it anywhere else. (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless he or she pays its upkeep cost for each age counter on it.)
 
 Name:   Dreamscape Artist
@@ -5193,15 +5707,15 @@ Name:   Dreamspoiler Witches
 Cost:   3B
 Type:   Creature — Faerie Wizard
 P/T:    2/2
-S/R:    LRW-C
+S/R:    LRW-C, MMA-C
 Flying
 Whenever you cast a spell during an opponent's turn, you may have target creature get -1/-1 until end of turn.
 
 Name:   Dreamstone Hedron
 Cost:   6
 Type:   Artifact
-S/R:    ROE-U, CMD-U, C14-U, ARC-U
-{T}: Add {3} to your mana pool.
+S/R:    ROE-U, ARC-U, CMD-U, C14-U, C15-U
+{T}: Add {C}{C}{C} to your mana pool.
 {3}, {T}, Sacrifice Dreamstone Hedron: Draw three cards.
 
 Name:   Dreamwinder
@@ -5223,7 +5737,7 @@ Name:   Dreg Mangler
 Cost:   1BG
 Type:   Creature — Plant Zombie
 P/T:    3/3
-S/R:    RTR-U
+S/R:    RTR-U, DDJ-U
 Haste
 Scavenge {3}{B}{G} ({3}{B}{G}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
 
@@ -5243,7 +5757,7 @@ Name:   Dregscape Zombie
 Cost:   1B
 Type:   Creature — Zombie
 P/T:    2/1
-S/R:    ALA-C, ARC-C, HOP-C
+S/R:    ALA-C, HOP-C, ARC-C, DDN-C
 Unearth {B} ({B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
 Name:   Drekavac
@@ -5273,7 +5787,7 @@ Name:   Drift of the Dead
 Cost:   3B
 Type:   Creature — Wall
 P/T:    */*
-S/R:    IA-U
+S/R:    IA-U, ME2-C
 Defender (This creature can't attack.)
 Drift of the Dead's power and toughness are each equal to the number of snow lands you control.
 
@@ -5296,7 +5810,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Drifting Meadow
 Type:   Land
-S/R:    US-C, C13-C, C14-C
+S/R:    US-C, C13-C, C14-C, C15-C
 Drifting Meadow enters the battlefield tapped.
 {T}: Add {W} to your mana pool.
 Cycling {2} ({2}, Discard this card: Draw a card.)
@@ -5338,13 +5852,13 @@ Cost:   1G
 Type:   Creature — Zubera Spirit
 P/T:    1/2
 S/R:    CHK-C
-When Dripping-Tongue Zubera dies, put a 1/1 colorless Spirit creature token onto the battlefield for each Zubera that died this turn.
+When Dripping-Tongue Zubera dies, create a 1/1 colorless Spirit creature token for each Zubera that died this turn.
 
 Name:   Driver of the Dead
 Cost:   3B
 Type:   Creature — Vampire
 P/T:    3/2
-S/R:    AVR-C
+S/R:    AVR-C, CN2-C, DDQ-C
 When Driver of the Dead dies, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.
 
 Name:   Drogskol Captain
@@ -5355,6 +5869,15 @@ S/R:    DKA-U
 Flying
 Other Spirit creatures you control get +1/+1 and have hexproof. (They can't be the targets of spells or abilities your opponents control.)
 
+Name:   Drogskol Cavalry
+Cost:   5WW
+Type:   Creature — Spirit Knight
+P/T:    4/4
+S/R:    SOI-R
+Flying
+Whenever another Spirit enters the battlefield under your control, you gain 2 life.
+{3}{W}: Create a 1/1 white Spirit creature token with flying.
+
 Name:   Drogskol Reaver
 Cost:   5WU
 Type:   Creature — Spirit
@@ -5362,6 +5885,14 @@ P/T:    3/5
 S/R:    DKA-M
 Flying, double strike, lifelink
 Whenever you gain life, draw a card.
+
+Name:   Drogskol Shieldmate
+Cost:   2W
+Type:   Creature — Spirit Soldier
+P/T:    2/3
+S/R:    EMN-U
+Flash (You may cast this spell any time you could cast an instant.)
+When Drogskol Shieldmate enters the battlefield, other creatures you control get +0/+1 until end of turn.
 
 Name:   Dromad Purebred
 Cost:   4W
@@ -5459,6 +5990,15 @@ P/T:    2/3
 S/R:    US-C
 Whenever Dromosaur blocks or becomes blocked, it gets +2/-2 until end of turn.
 
+Name:   Dronepack Kindred
+Type:   Creature — Eldrazi Werewolf
+P/T:    5/7
+M-type: Transform
+M-card: Vildin-Pack Outcast
+S/R:    EMN-C
+Trample
+{1}: Dronepack Kindred gets +1/+0 until end of turn.
+
 Name:   Droning Bureaucrats
 Cost:   3W
 Type:   Creature — Human Advisor
@@ -5470,7 +6010,7 @@ Name:   Drooling Groodion
 Cost:   3BBG
 Type:   Creature — Beast
 P/T:    4/3
-S/R:    RAV-U
+S/R:    RAV-U, MM2-U, DDM-U
 {2}{B}{G}, Sacrifice a creature: Target creature gets +2/+2 until end of turn. Another target creature gets -2/-2 until end of turn.
 
 Name:   Drooling Ogre
@@ -5483,7 +6023,7 @@ Whenever a player casts an artifact spell, that player gains control of Drooling
 Name:   Drop of Honey
 Cost:   G
 Type:   Enchantment
-S/R:    AN-R
+S/R:    AN-R, ME4-R
 At the beginning of your upkeep, destroy the creature with the least power. It can't be regenerated. If two or more creatures are tied for least power, you choose one of them.
 When there are no creatures on the battlefield, sacrifice Drop of Honey.
 
@@ -5570,7 +6110,7 @@ Name:   Drowned
 Cost:   1U
 Type:   Creature — Zombie
 P/T:    1/1
-S/R:    DK-C
+S/R:    DK-C, ME4-C
 {B}: Regenerate Drowned.
 
 Name:   Drowned Catacomb
@@ -5593,12 +6133,43 @@ P/T:    1/1
 S/R:    SHM-C
 Whenever a player casts a blue spell, you may pay {1}. If you do, target player puts the top two cards of his or her library into his or her graveyard.
 
+Name:   Drowner of Hope
+Cost:   5U
+Type:   Creature — Eldrazi
+P/T:    5/5
+S/R:    BFZ-R
+Devoid (This card has no color.)
+When Drowner of Hope enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+Sacrifice an Eldrazi Scion: Tap target creature.
+
 Name:   Drowner of Secrets
 Cost:   2U
 Type:   Creature — Merfolk Wizard
 P/T:    1/3
 S/R:    LRW-U
 Tap an untapped Merfolk you control: Target player puts the top card of his or her library into his or her graveyard.
+
+Name:   Drownyard Behemoth
+Cost:   9
+Type:   Creature — Eldrazi Crab
+P/T:    5/7
+S/R:    EMN-U
+Flash (You may cast this spell any time you could cast an instant.)
+Emerge {7}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
+Drownyard Behemoth has hexproof as long as it entered the battlefield this turn.
+
+Name:   Drownyard Explorers
+Cost:   3U
+Type:   Creature — Human Wizard
+P/T:    2/4
+S/R:    SOI-C
+When Drownyard Explorers enters the battlefield, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+
+Name:   Drownyard Temple
+Type:   Land
+S/R:    SOI-R
+{T}: Add {C} to your mana pool.
+{3}: Return Drownyard Temple from your graveyard to the battlefield tapped.
 
 Name:   Drudge Beetle
 Cost:   1G
@@ -5619,14 +6190,14 @@ Name:   Drudge Skeletons
 Cost:   1B
 Type:   Creature — Skeleton
 P/T:    1/1
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, S00-C, 7E-C, 8ED-C, 9ED-U, 10E-U, M10-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, S00-C, 7E-C, 8ED-C, 9ED-U, 10E-U, M10-C, DDD-C
 {B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
 
 Name:   Drudge Spell
 Cost:   BB
 Type:   Enchantment
 S/R:    HL-U
-{B}, Exile two creature cards from your graveyard: Put a 1/1 black Skeleton creature token onto the battlefield. It has "{B}: Regenerate this creature."
+{B}, Exile two creature cards from your graveyard: Create a 1/1 black Skeleton creature token. It has "{B}: Regenerate this creature."
 When Drudge Spell leaves the battlefield, destroy all Skeleton tokens. They can't be regenerated.
 
 Name:   Druid Lyrist
@@ -5648,13 +6219,13 @@ Cost:   1G
 Type:   Enchantment — Aura
 S/R:    OD-U
 Enchant creature
-Whenever enchanted creature is dealt damage, its controller puts that many 1/1 green Squirrel creature tokens onto the battlefield.
+Whenever enchanted creature is dealt damage, its controller creates that many 1/1 green Squirrel creature tokens.
 
 Name:   Druid's Deliverance
 Cost:   1G
 Type:   Instant
 S/R:    RTR-C
-Prevent all combat damage that would be dealt to you this turn. Populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Prevent all combat damage that would be dealt to you this turn. Populate. (Create a token that's a copy of a creature token you control.)
 
 Name:   Druid's Familiar
 Cost:   3G
@@ -5668,7 +6239,7 @@ Name:   Druidic Satchel
 Cost:   3
 Type:   Artifact
 S/R:    M12-R, C13-R
-{2}, {T}: Reveal the top card of your library. If it's a creature card, put a 1/1 green Saproling creature token onto the battlefield. If it's a land card, put that card onto the battlefield under your control. If it's a noncreature, nonland card, you gain 2 life.
+{2}, {T}: Reveal the top card of your library. If it's a creature card, create a 1/1 green Saproling creature token. If it's a land card, put that card onto the battlefield under your control. If it's a noncreature, nonland card, you gain 2 life.
 
 Name:   Druids' Repository
 Cost:   1GG
@@ -5683,19 +6254,27 @@ Type:   Creature — Human Druid Warrior
 P/T:    2/2
 S/R:    ALA-U, C13-U
 At the beginning of your end step, if you control a creature with power 5 or greater, you may draw a card.
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
+
+Name:   Drunau Corpse Trawler
+Cost:   3U
+Type:   Creature — Zombie
+P/T:    1/1
+S/R:    SOI-U
+When Drunau Corpse Trawler enters the battlefield, create a 2/2 black Zombie creature token.
+{2}{B}: Target Zombie gains deathtouch until end of turn.
 
 Name:   Dry Spell
 Cost:   1B
 Type:   Sorcery
-S/R:    HL-C, P1-U, 6E-C
+S/R:    HL-C, P1-U, 6E-C, ME2-C
 Dry Spell deals 1 damage to each creature and each player.
 
 Name:   Dryad Arbor
 Type:   Land Creature — Forest Dryad
 P/T:    1/1
 Color:  Green
-S/R:    FUT-U
+S/R:    FUT-U, V12-M
 (Dryad Arbor isn't a spell, it's affected by summoning sickness, and it has "{T}: Add {G} to your mana pool.")
 
 Name:   Dryad Militant
@@ -5710,7 +6289,7 @@ Cost:   1G
 Type:   Creature — Dryad
 P/T:    2/1
 S/R:    GPT-U
-Nonbasic landwalk
+Nonbasic landwalk (This creature can't be blocked as long as defending player controls a nonbasic land.)
 
 Name:   Dryad's Caress
 Cost:   4GG
@@ -5736,17 +6315,29 @@ Name:   Dual Nature
 Cost:   4GG
 Type:   Enchantment
 S/R:    PR-R
-Whenever a nontoken creature enters the battlefield, its controller puts a token that's a copy of that creature onto the battlefield.
+Whenever a nontoken creature enters the battlefield, its controller creates a token that's a copy of that creature.
 Whenever a nontoken creature leaves the battlefield, exile all tokens with the same name as that creature.
-When Dual Nature leaves the battlefield, exile all tokens put onto the battlefield with Dual Nature.
+When Dual Nature leaves the battlefield, exile all tokens created with Dual Nature.
+
+Name:   Dual Shot
+Cost:   R
+Type:   Instant
+S/R:    SOI-C
+Dual Shot deals 1 damage to each of up to two target creatures.
 
 Name:   Dualcaster Mage
 Cost:   1RR
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    C14-R
+S/R:    C14-R, EMA-R
 Flash
 When Dualcaster Mage enters the battlefield, copy target instant or sorcery spell. You may choose new targets for the copy.
+
+Name:   Dubious Challenge
+Cost:   3G
+Type:   Sorcery
+S/R:    KLD-R
+Look at the top ten cards of your library, exile up to two creature cards from among them, then shuffle your library. Target opponent may choose one of the exiled cards and put it onto the battlefield under his or her control. Put the rest onto the battlefield under your control.
 
 Name:   Duct Crawler
 Cost:   R
@@ -5769,6 +6360,12 @@ S/R:    IN-R
 No more than one creature can attack each turn.
 No more than one creature can block each turn.
 
+Name:   Duelist's Heritage
+Cost:   2W
+Type:   Enchantment
+S/R:    C16-R
+Whenever one or more creatures attack, you may have target attacking creature gain double strike until end of turn.
+
 Name:   Duergar Assailant
 Cost:   (R/W)
 Type:   Creature — Dwarf Soldier
@@ -5788,7 +6385,7 @@ Name:   Duergar Hedge-Mage
 Cost:   2(R/W)
 Type:   Creature — Dwarf Shaman
 P/T:    2/2
-S/R:    EVE-U, CMD-U, HOP-U
+S/R:    EVE-U, HOP-U, CMD-U
 When Duergar Hedge-Mage enters the battlefield, if you control two or more Mountains, you may destroy target artifact.
 When Duergar Hedge-Mage enters the battlefield, if you control two or more Plains, you may destroy target enchantment.
 
@@ -5798,6 +6395,20 @@ Type:   Creature — Dwarf Soldier
 P/T:    2/1
 S/R:    EVE-U
 {1}{(r/w)}, {Q}: Attacking creatures get +1/+0 until end of turn. ({Q} is the untap symbol.)
+
+Name:   Dukhara Peafowl
+Cost:   4
+Type:   Artifact Creature — Bird
+P/T:    2/4
+S/R:    KLD-C
+{U}: Dukhara Peafowl gains flying until end of turn.
+
+Name:   Dukhara Scavenger
+Cost:   5B
+Type:   Creature — Crocodile
+P/T:    4/6
+S/R:    KLD-C
+When Dukhara Scavenger enters the battlefield, you may put target artifact or creature card from your graveyard on top of your library.
 
 Name:   Dulcet Sirens
 Cost:   2U
@@ -5812,12 +6423,12 @@ Cost:   BRGW
 Type:   Creature — Nephilim
 P/T:    3/3
 S/R:    GPT-R
-Whenever Dune-Brood Nephilim deals combat damage to a player, put a 1/1 colorless Sand creature token onto the battlefield for each land you control.
+Whenever Dune-Brood Nephilim deals combat damage to a player, create a 1/1 colorless Sand creature token for each land you control.
 
 Name:   Duneblast
 Cost:   4WBG
 Type:   Sorcery
-S/R:    KTK-R
+S/R:    KTK-R, C16-R
 Choose up to one creature. Destroy the rest.
 
 Name:   Dunerider Outlaw
@@ -5856,7 +6467,7 @@ Name:   Duplicant
 Cost:   6
 Type:   Artifact Creature — Shapeshifter
 P/T:    2/4
-S/R:    MRD-R, ARC-R
+S/R:    MRD-R, ARC-R, EMA-R
 Imprint — When Duplicant enters the battlefield, you may exile target nontoken creature.
 As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.
 
@@ -5869,17 +6480,24 @@ At the beginning of your upkeep, you may exile all cards from your hand face dow
 At the beginning of your end step, discard a card.
 When you lose control of Duplicity, put all cards exiled with Duplicity into their owner's graveyard.
 
+Name:   Durable Handicraft
+Cost:   1G
+Type:   Enchantment
+S/R:    KLD-U
+Whenever a creature enters the battlefield under your control, you may pay {1}. If you do, put a +1/+1 counter on that creature.
+{5}{G}, Sacrifice Durable Handicraft: Put a +1/+1 counter on each creature you control.
+
 Name:   Duress
 Cost:   B
 Type:   Sorcery
-S/R:    US-C, 7E-C, M10-C, M11-C, M13-C, M14-C, DTK-C
+S/R:    US-C, 7E-C, M10-C, M11-C, M13-C, M14-C, DTK-C, EMA-C, DDC-C, PD3-C
 Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.
 
 Name:   Durkwood Baloth
 Cost:   4GG
 Type:   Creature — Beast
 P/T:    5/5
-S/R:    TSP-C
+S/R:    TSP-C, MMA-C
 Suspend 5—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 
 Name:   Durkwood Boars
@@ -5895,11 +6513,19 @@ P/T:    4/3
 S/R:    TSP-U
 {1}{G}, {T}: If Durkwood Tracker is on the battlefield, it deals damage equal to its power to target attacking creature. That creature deals damage equal to its power to Durkwood Tracker.
 
+Name:   Dusk Feaster
+Cost:   5BB
+Type:   Creature — Vampire
+P/T:    4/5
+S/R:    EMN-U
+Delirium — Dusk Feaster costs {2} less to cast if there are four or more card types among cards in your graveyard.
+Flying
+
 Name:   Dusk Imp
 Cost:   2B
 Type:   Creature — Imp
 P/T:    2/1
-S/R:    OD-C, 8ED-C, 10E-C
+S/R:    OD-C, 8ED-C, 10E-C, DDC-C
 Flying
 
 Name:   Dusk Urchins
@@ -5915,13 +6541,13 @@ Cost:   5GG
 Type:   Creature — Wurm
 P/T:    7/7
 S/R:    EVE-U, M11-U, M13-U
-Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
 
 Name:   Duskhunter Bat
 Cost:   1B
 Type:   Creature — Bat
 P/T:    1/1
-S/R:    M12-C
+S/R:    M12-C, MM2-C, DDK-C
 Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
 Flying
 
@@ -5945,14 +6571,14 @@ Name:   Duskmantle Seer
 Cost:   2UB
 Type:   Creature — Vampire Wizard
 P/T:    4/4
-S/R:    GTC-M
+S/R:    GTC-M, CN2-R
 Flying
 At the beginning of your upkeep, each player reveals the top card of his or her library, loses life equal to that card's converted mana cost, then puts it into his or her hand.
 
 Name:   Duskmantle, House of Shadow
 Type:   Land
 S/R:    RAV-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {U}{B}, {T}: Target player puts the top card of his or her library into his or her graveyard.
 
 Name:   Duskrider Falcon
@@ -5978,6 +6604,16 @@ S/R:    IN-C
 Kicker {3}{B} (You may pay an additional {3}{B} as you cast this spell.)
 If Duskwalker was kicked, it enters the battlefield with two +1/+1 counters on it and with fear. (It can't be blocked except by artifact creatures and/or black creatures.)
 
+Name:   Duskwatch Recruiter
+Cost:   1G
+Type:   Creature — Human Warrior Werewolf
+P/T:    2/2
+M-type: Transform
+M-card: Krallenhorde Howler
+S/R:    SOI-U
+{2}{G}: Look at the top three cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+At the beginning of each upkeep, if no spells were cast last turn, transform Duskwatch Recruiter.
+
 Name:   Duskworker
 Cost:   4
 Type:   Artifact Creature — Construct
@@ -5988,8 +6624,8 @@ Whenever Duskworker becomes blocked, regenerate it.
 
 Name:   Dust Bowl
 Type:   Land
-S/R:    MM-R
-{T}: Add {1} to your mana pool.
+S/R:    MM-R, EXP-M
+{T}: Add {C} to your mana pool.
 {3}, {T}, Sacrifice a land: Destroy target nonbasic land.
 
 Name:   Dust Corona
@@ -6008,6 +6644,15 @@ Flash (You may cast this spell any time you could cast an instant.)
 Flying; fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 When Dust Elemental enters the battlefield, return three creatures you control to their owner's hand.
 
+Name:   Dust Stalker
+Cost:   2BR
+Type:   Creature — Eldrazi
+P/T:    5/3
+S/R:    BFZ-R
+Devoid (This card has no color.)
+Haste
+At the beginning of each end step, if you control no other colorless creatures, return Dust Stalker to its owner's hand.
+
 Name:   Dust of Moments
 Cost:   2W
 Type:   Instant
@@ -6019,7 +6664,7 @@ Choose one —
 Name:   Dust to Dust
 Cost:   1WW
 Type:   Sorcery
-S/R:    DK-C, 5E-U
+S/R:    DK-C, 5E-U, ME4-U, MED-C
 Exile two target artifacts.
 
 Name:   Dutiful Attendant
@@ -6032,7 +6677,7 @@ When Dutiful Attendant dies, return another target creature card from your grave
 Name:   Dutiful Return
 Cost:   3B
 Type:   Sorcery
-S/R:    KTK-C
+S/R:    KTK-C, BFZ-C
 Return up to two target creature cards from your graveyard to your hand.
 
 Name:   Dutiful Thrull
@@ -6088,7 +6733,7 @@ Tap an untapped Dwarf you control: Target creature gets +2/+0 until end of turn.
 Name:   Dwarven Catapult
 Cost:   XR
 Type:   Instant
-S/R:    FE-U, 5E-U
+S/R:    FE-U, 5E-U, MED-U
 Dwarven Catapult deals X damage divided evenly, rounded down, among all creatures target opponent controls.
 
 Name:   Dwarven Demolition Team
@@ -6110,7 +6755,7 @@ Cost:   R
 Type:   Creature — Dwarf
 P/T:    1/1
 S/R:    OD-C
-Mountainwalk
+Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
 
 Name:   Dwarven Hold
 Type:   Land
@@ -6161,7 +6806,7 @@ Cost:   R
 Type:   Creature — Horse
 P/T:    1/1
 S/R:    HL-R
-{1}{R}, {T}: Target Dwarf creature gains mountainwalk until end of turn.
+{1}{R}, {T}: Target Dwarf creature gains mountainwalk until end of turn. (It can't be blocked as long as defending player controls a Mountain.)
 
 Name:   Dwarven Recruiter
 Cost:   2R
@@ -6172,7 +6817,7 @@ When Dwarven Recruiter enters the battlefield, search your library for any numbe
 
 Name:   Dwarven Ruins
 Type:   Land
-S/R:    FE-U, 5E-U, 6E-U
+S/R:    FE-U, 5E-U, 6E-U, ME2-U
 Dwarven Ruins enters the battlefield tapped.
 {T}: Add {R} to your mana pool.
 {T}, Sacrifice Dwarven Ruins: Add {R}{R} to your mana pool.
@@ -6201,7 +6846,7 @@ Name:   Dwarven Soldier
 Cost:   1R
 Type:   Creature — Dwarf Soldier
 P/T:    2/1
-S/R:    FE-C, 5E-C
+S/R:    FE-C, 5E-C, MED-C
 Whenever Dwarven Soldier blocks or becomes blocked by one or more Orcs, Dwarven Soldier gets +0/+2 until end of turn.
 
 Name:   Dwarven Song
@@ -6257,6 +6902,22 @@ Type:   Sorcery
 S/R:    TOR-U
 Target player shuffles up to four target cards from his or her graveyard into his or her library.
 
+Name:   Dwynen's Elite
+Cost:   1G
+Type:   Creature — Elf Warrior
+P/T:    2/2
+S/R:    ORI-U
+When Dwynen's Elite enters the battlefield, if you control another Elf, create a 1/1 green Elf Warrior creature token.
+
+Name:   Dwynen, Gilt-Leaf Daen
+Cost:   2GG
+Type:   Legendary Creature — Elf Warrior
+P/T:    3/4
+S/R:    ORI-R
+Reach
+Other Elf creatures you control get +1/+1.
+Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control.
+
 Name:   Dying Wail
 Cost:   1B
 Type:   Enchantment — Aura
@@ -6278,9 +6939,16 @@ S/R:    RTR-C
 Target creature you control gets +2/+0 until end of turn.
 Overload {2}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
 
+Name:   Dynavolt Tower
+Cost:   3
+Type:   Artifact
+S/R:    KLD-R
+Whenever you cast an instant or sorcery spell, you get {E}{E} (two energy counters).
+{T}, Pay {E}{E}{E}{E}{E}: Dynavolt Tower deals 3 damage to target creature or player.
+
 Name:   Dystopia
 Cost:   1BB
 Type:   Enchantment
-S/R:    AI-R
+S/R:    AI-R, ME2-R
 Cumulative upkeep—Pay 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 At the beginning of each player's upkeep, that player sacrifices a green or white permanent.

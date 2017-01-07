@@ -8,7 +8,7 @@ Name:   Xantid Swarm
 Cost:   G
 Type:   Creature — Insect
 P/T:    0/1
-S/R:    SCG-R
+S/R:    SCG-R, EMA-R
 Flying
 Whenever Xantid Swarm attacks, defending player can't cast spells this turn.
 
@@ -33,7 +33,7 @@ Cost:   2B
 Type:   Creature — Human Wizard
 P/T:    2/2
 S/R:    M14-R
-Whenever Xathrid Necromancer or another Human creature you control dies, put a 2/2 black Zombie creature token onto the battlefield tapped.
+Whenever Xathrid Necromancer or another Human creature you control dies, create a tapped 2/2 black Zombie creature token.
 
 Name:   Xathrid Slyblade
 Cost:   2B
@@ -58,14 +58,14 @@ Type:   Planeswalker — Xenagos
 P/T:    3
 S/R:    THS-M
 [+1]: Add X mana in any combination of {R} and/or {G} to your mana pool, where X is the number of creatures you control.
-[0]: Put a 2/2 red and green Satyr creature token with haste onto the battlefield.
+[0]: Create a 2/2 red and green Satyr creature token with haste.
 [-6]: Exile the top seven cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield.
 
 Name:   Xenic Poltergeist
 Cost:   1BB
 Type:   Creature — Spirit
 P/T:    1/1
-S/R:    AQ-U, 4E-R, 5E-R
+S/R:    AQ-U, 4E-R, 5E-R, ME4-U
 {T}: Until your next upkeep, target noncreature artifact becomes an artifact creature with power and toughness each equal to its converted mana cost.
 
 Name:   Xenograft
@@ -79,7 +79,7 @@ Name:   Xiahou Dun, the One-Eyed
 Cost:   2BB
 Type:   Legendary Creature — Human Soldier
 P/T:    3/2
-S/R:    P3K-R
+S/R:    P3K-R, ME3-U
 Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 Sacrifice Xiahou Dun, the One-Eyed: Return target black card from your graveyard to your hand. Activate this ability only during your turn, before attackers are declared.
 
@@ -87,7 +87,7 @@ Name:   Xira Arien
 Cost:   BRG
 Type:   Legendary Creature — Insect Wizard
 P/T:    1/2
-S/R:    LE-R, CH-R
+S/R:    LE-R, CH-R, ME3-R
 Flying
 {B}{R}{G}, {T}: Target player draws a card.
 

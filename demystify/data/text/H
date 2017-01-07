@@ -69,6 +69,13 @@ P/T:    3/2
 S/R:    ZEN-U
 Whenever Hagra Diabolist or another Ally enters the battlefield under your control, you may have target player lose life equal to the number of Allies you control.
 
+Name:   Hagra Sharpshooter
+Cost:   2B
+Type:   Creature — Human Assassin Ally
+P/T:    2/2
+S/R:    BFZ-U
+{4}{B}: Target creature gets -1/-1 until end of turn.
+
 Name:   Hail Storm
 Cost:   1GG
 Type:   Instant
@@ -78,7 +85,7 @@ Hail Storm deals 2 damage to each attacking creature and 1 damage to you and eac
 Name:   Hail of Arrows
 Cost:   XW
 Type:   Instant
-S/R:    SOK-U, 10E-U
+S/R:    SOK-U, 10E-U, CN2-U
 Hail of Arrows deals X damage divided as you choose among any number of target attacking creatures.
 
 Name:   Hair-Strung Koto
@@ -121,12 +128,12 @@ Name:   Halfdane
 Cost:   1WUB
 Type:   Legendary Creature — Shapeshifter
 P/T:    3/3
-S/R:    LE-R
+S/R:    LE-R, ME3-R
 At the beginning of your upkeep, change Halfdane's base power and toughness to the power and toughness of target creature other than Halfdane until the end of your next upkeep.
 
 Name:   Halimar Depths
 Type:   Land
-S/R:    WWK-C
+S/R:    WWK-C, DDM-C
 Halimar Depths enters the battlefield tapped.
 When Halimar Depths enters the battlefield, look at the top three cards of your library, then put them back in any order.
 {T}: Add {U} to your mana pool.
@@ -138,6 +145,14 @@ P/T:    1/3
 S/R:    WWK-C
 Whenever Halimar Excavator or another Ally enters the battlefield under your control, target player puts the top X cards of his or her library into his or her graveyard, where X is the number of Allies you control.
 
+Name:   Halimar Tidecaller
+Cost:   2U
+Type:   Creature — Human Wizard Ally
+P/T:    2/3
+S/R:    BFZ-U
+When Halimar Tidecaller enters the battlefield, you may return target card with awaken from your graveyard to your hand.
+Land creatures you control have flying.
+
 Name:   Halimar Wavewatch
 Cost:   1U
 Type:   Creature — Merfolk Soldier
@@ -145,7 +160,7 @@ P/T:    0/3
 S/R:    ROE-C
 Level up {2} ({2}: Put a level counter on this. Level up only as a sorcery.)
 {LEVEL 1-4} 0/6
-{LEVEL 5+} 6/6 Islandwalk
+{LEVEL 5+} 6/6 Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 
 Name:   Hall of Gemstone
 Cost:   1GG
@@ -164,7 +179,7 @@ Name:   Hall of the Bandit Lord
 Type:   Legendary Land
 S/R:    CHK-R
 Hall of the Bandit Lord enters the battlefield tapped.
-{T}, Pay 3 life: Add {1} to your mana pool. If that mana is spent on a creature spell, it gains haste.
+{T}, Pay 3 life: Add {C} to your mana pool. If that mana is spent on a creature spell, it gains haste.
 
 Name:   Hallow
 Cost:   W
@@ -175,19 +190,19 @@ Prevent all damage target spell would deal this turn. You gain life equal to the
 Name:   Hallowed Burial
 Cost:   3WW
 Type:   Sorcery
-S/R:    EVE-R
+S/R:    EVE-R, CN2-R
 Put all creatures on the bottom of their owners' libraries.
 
 Name:   Hallowed Fountain
 Type:   Land — Plains Island
-S/R:    DIS-R, RTR-R
+S/R:    DIS-R, RTR-R, EXP-M
 ({T}: Add {W} or {U} to your mana pool.)
 As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.
 
 Name:   Hallowed Ground
 Cost:   1W
 Type:   Enchantment
-S/R:    IA-U
+S/R:    IA-U, MED-U
 {W}{W}: Return target nonsnow land you control to its owner's hand.
 
 Name:   Hallowed Healer
@@ -198,13 +213,20 @@ S/R:    OD-C
 {T}: Prevent the next 2 damage that would be dealt to target creature or player this turn.
 Threshold — {T}: Prevent the next 4 damage that would be dealt to target creature or player this turn. Activate this ability only if seven or more cards are in your graveyard.
 
+Name:   Hallowed Moonlight
+Cost:   1W
+Type:   Instant
+S/R:    ORI-R
+Until end of turn, if a creature would enter the battlefield and it wasn't cast, exile it instead.
+Draw a card.
+
 Name:   Hallowed Spiritkeeper
 Cost:   1WW
 Type:   Creature — Avatar
 P/T:    3/2
 S/R:    C14-R
 Vigilance
-When Hallowed Spiritkeeper dies, put X 1/1 white Spirit creature tokens with flying onto the battlefield, where X is the number of creature cards in your graveyard.
+When Hallowed Spiritkeeper dies, create X 1/1 white Spirit creature tokens with flying, where X is the number of creature cards in your graveyard.
 
 Name:   Halls of Mist
 Type:   Land
@@ -231,14 +253,14 @@ Name:   Hamlet Captain
 Cost:   1G
 Type:   Creature — Human Warrior
 P/T:    2/2
-S/R:    ISD-U
-Whenever Hamlet Captain attacks or blocks, other Human creatures you control get +1/+1 until end of turn.
+S/R:    ISD-U, EMN-U
+Whenever Hamlet Captain attacks or blocks, other Humans you control get +1/+1 until end of turn.
 
 Name:   Hamletback Goliath
 Cost:   6R
 Type:   Creature — Giant Warrior
 P/T:    6/6
-S/R:    LRW-R, M13-R
+S/R:    LRW-R, M13-R, C15-R, CN2-R
 Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature's power.
 
 Name:   Hammer Mage
@@ -251,7 +273,7 @@ S/R:    MM-U
 Name:   Hammer of Bogardan
 Cost:   1RR
 Type:   Sorcery
-S/R:    MI-R, 6E-R, 8ED-R
+S/R:    MI-R, 6E-R, 8ED-R, PD2-R
 Hammer of Bogardan deals 3 damage to target creature or player.
 {2}{R}{R}{R}: Return Hammer of Bogardan from your graveyard to your hand. Activate this ability only during your upkeep.
 
@@ -260,7 +282,7 @@ Cost:   1RR
 Type:   Legendary Enchantment Artifact
 S/R:    THS-R
 Creatures you control have haste.
-{2}{R}, {T}, Sacrifice a land: Put a 3/3 colorless Golem enchantment artifact creature token onto the battlefield.
+{2}{R}, {T}, Sacrifice a land: Create a 3/3 colorless Golem enchantment artifact creature token.
 
 Name:   Hammer of Ruin
 Cost:   2
@@ -274,7 +296,7 @@ Name:   Hammerfist Giant
 Cost:   4RR
 Type:   Creature — Giant Warrior
 P/T:    5/4
-S/R:    RAV-R
+S/R:    RAV-R, C15-R
 {T}: Hammerfist Giant deals 4 damage to each creature without flying and each player.
 
 Name:   Hammerhand
@@ -294,7 +316,7 @@ Hammerhead Shark can't attack unless defending player controls an Island.
 
 Name:   Hammerheim
 Type:   Legendary Land
-S/R:    LE-U
+S/R:    LE-U, ME3-U
 {T}: Add {R} to your mana pool.
 {T}: Target creature loses all landwalk abilities until end of turn.
 
@@ -302,7 +324,7 @@ Name:   Hammerheim Deadeye
 Cost:   3R
 Type:   Creature — Giant Warrior
 P/T:    3/3
-S/R:    PLC-U
+S/R:    PLC-U, MMA-C
 Echo {5}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Hammerheim Deadeye enters the battlefield, destroy target creature with flying.
 
@@ -310,7 +332,7 @@ Name:   Hana Kami
 Cost:   G
 Type:   Creature — Spirit
 P/T:    1/1
-S/R:    CHK-U
+S/R:    CHK-U, MMA-C
 {1}{G}, Sacrifice Hana Kami: Return target Arcane card from your graveyard to your hand.
 
 Name:   Hanabi Blast
@@ -325,7 +347,7 @@ Type:   Creature — Human Samurai
 P/T:    2/2
 S/R:    SOK-U
 Protection from white
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 
 Name:   Hand of Death
 Cost:   2B
@@ -347,13 +369,13 @@ Type:   Creature — Human Samurai
 P/T:    2/2
 S/R:    SOK-U
 Protection from black
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 
 Name:   Hand of Justice
 Cost:   5W
 Type:   Creature — Avatar
 P/T:    2/6
-S/R:    FE-R
+S/R:    FE-R, MED-R
 {T}, Tap three untapped white creatures you control: Destroy target creature.
 
 Name:   Hand of Silumgar
@@ -385,6 +407,15 @@ S/R:    GTC-C
 Tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 
+Name:   Hangarback Walker
+Cost:   XX
+Type:   Artifact Creature — Construct
+P/T:    0/0
+S/R:    ORI-R, MPS-S
+Hangarback Walker enters the battlefield with X +1/+1 counters on it.
+When Hangarback Walker dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on Hangarback Walker.
+{1}, {T}: Put a +1/+1 counter on Hangarback Walker.
+
 Name:   Hankyu
 Cost:   1
 Type:   Artifact — Equipment
@@ -402,8 +433,29 @@ Name:   Hanna, Ship's Navigator
 Cost:   1WU
 Type:   Legendary Creature — Human Artificer
 P/T:    1/2
-S/R:    IN-R
+S/R:    IN-R, C16-R
 {1}{W}{U}, {T}: Return target artifact or enchantment card from your graveyard to your hand.
+
+Name:   Hanweir Battlements
+Type:   Land
+M-type: Meld
+M-pair: Hanweir Garrison
+Melded: Hanweir, the Writhing Township
+S/R:    EMN-R
+{T}: Add {C} to your mana pool.
+{R}, {T}: Target creature gains haste until end of turn.
+{3}{R}{R}, {T}: If you both own and control Hanweir Battlements and a creature named Hanweir Garrison, exile them, then meld them into Hanweir, the Writhing Township.
+
+Name:   Hanweir Garrison
+Cost:   2R
+Type:   Creature — Human Soldier
+P/T:    2/3
+M-type: Meld
+M-pair: Hanweir Battlements
+Melded: Hanweir, the Writhing Township
+S/R:    EMN-R
+Whenever Hanweir Garrison attacks, create two 1/1 red Human creature tokens that are tapped and attacking.
+(Melds with Hanweir Battlements.)
 
 Name:   Hanweir Lancer
 Cost:   2R
@@ -412,6 +464,15 @@ P/T:    2/2
 S/R:    AVR-C
 Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
 As long as Hanweir Lancer is paired with another creature, both creatures have first strike.
+
+Name:   Hanweir Militia Captain
+Cost:   1W
+Type:   Creature — Human Soldier
+P/T:    2/2
+M-type: Transform
+M-card: Westvale Cult Leader
+S/R:    SOI-R
+At the beginning of your upkeep, if you control four or more creatures, transform Hanweir Militia Captain.
 
 Name:   Hanweir Watchkeep
 Cost:   2R
@@ -422,6 +483,15 @@ M-card: Bane of Hanweir
 S/R:    ISD-U
 Defender
 At the beginning of each upkeep, if no spells were cast last turn, transform Hanweir Watchkeep.
+
+Name:   Hanweir, the Writhing Township
+Type:   Legendary Creature — Eldrazi Ooze
+P/T:    7/4
+M-type: Meld
+M-pair: Hanweir Battlements; Hanweir Garrison
+S/R:    EMN-R
+Trample, haste
+Whenever Hanweir, the Writhing Township attacks, create two 3/2 colorless Eldrazi Horror creature tokens that are tapped and attacking.
 
 Name:   Hapless Researcher
 Cost:   U
@@ -461,6 +531,14 @@ Flying
 {2}{R}: Harbinger of the Hunt deals 1 damage to each creature without flying.
 {2}{G}: Harbinger of the Hunt deals 1 damage to each other creature with flying.
 
+Name:   Harbinger of the Tides
+Cost:   UU
+Type:   Creature — Merfolk Wizard
+P/T:    2/2
+S/R:    ORI-R
+You may cast Harbinger of the Tides as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
+When Harbinger of the Tides enters the battlefield, you may return target tapped creature an opponent controls to its owner's hand.
+
 Name:   Harbor Bandit
 Cost:   2B
 Type:   Creature — Human Rogue
@@ -495,13 +573,13 @@ Whenever Hardened Berserker attacks, the next spell you cast this turn costs {1}
 Name:   Hardened Scales
 Cost:   G
 Type:   Enchantment
-S/R:    KTK-R
+S/R:    KTK-R, C16-R
 If one or more +1/+1 counters would be placed on a creature you control, that many plus one +1/+1 counters are placed on it instead.
 
 Name:   Harm's Way
 Cost:   W
 Type:   Instant
-S/R:    M10-U
+S/R:    M10-U, DDG-U
 The next 2 damage that a source of your choice would deal to you and/or permanents you control this turn is dealt to target creature or player instead.
 
 Name:   Harmattan Efreet
@@ -517,6 +595,12 @@ Cost:   2WW
 Type:   Instant
 S/R:    ROE-C
 Prevent all combat damage that would be dealt this turn by attacking creatures.
+
+Name:   Harmless Offering
+Cost:   2R
+Type:   Sorcery
+S/R:    EMN-R
+Target opponent gains control of target permanent you control.
 
 Name:   Harmonic Convergence
 Cost:   2G
@@ -534,7 +618,7 @@ All Slivers have "When this permanent enters the battlefield, destroy target art
 Name:   Harmonize
 Cost:   2GG
 Type:   Sorcery
-S/R:    PLC-U, CMD-U, C13-U, ARC-U
+S/R:    PLC-U, ARC-U, CMD-U, C13-U, EMA-U, EVG-U, DDD-U
 Draw three cards.
 
 Name:   Harmony of Nature
@@ -549,6 +633,18 @@ Type:   Sorcery
 S/R:    JOU-R
 Strive — Harness by Force costs {2}{R} more to cast for each target beyond the first.
 Gain control of any number of target creatures until end of turn. Untap those creatures. They gain haste until end of turn.
+
+Name:   Harness the Storm
+Cost:   2R
+Type:   Enchantment
+S/R:    SOI-R
+Whenever you cast an instant or sorcery spell from your hand, you may cast target card with the same name as that spell from your graveyard. (You still pay its costs.)
+
+Name:   Harnessed Lightning
+Cost:   1R
+Type:   Instant
+S/R:    KLD-U
+Choose target creature. You get {E}{E}{E} (three energy counters), then you may pay any amount of {E}. Harnessed Lightning deals that much damage to that creature.
 
 Name:   Harpoon Sniper
 Cost:   2W
@@ -568,7 +664,7 @@ At the beginning of your upkeep, tap target creature.
 Name:   Harrow
 Cost:   2G
 Type:   Instant
-S/R:    TE-U, IN-C, ZEN-C, C14-C
+S/R:    TE-U, IN-C, ZEN-C, C14-C, DDE-C, DDP-C
 As an additional cost to cast Harrow, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.
 
@@ -596,7 +692,7 @@ If an instant or sorcery spell of the chosen color would deal damage to you, it 
 Name:   Harsh Justice
 Cost:   2W
 Type:   Instant
-S/R:    P1-R
+S/R:    P1-R, ME4-R
 Cast Harsh Justice only during the declare attackers step and only if you've been attacked this step.
 This turn, whenever an attacking creature deals combat damage to you, it deals that much damage to its controller.
 
@@ -605,6 +701,12 @@ Cost:   2W
 Type:   Sorcery
 S/R:    ONS-R
 Each player chooses a creature type. Destroy all creatures that aren't of a type chosen this way. They can't be regenerated.
+
+Name:   Harsh Scrutiny
+Cost:   B
+Type:   Sorcery
+S/R:    KLD-U
+Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card. Scry 1.
 
 Name:   Harsh Sustenance
 Cost:   1WB
@@ -626,6 +728,15 @@ Type:   Creature — Hag
 P/T:    2/4
 S/R:    EVE-C
 Wither (This deals damage to creatures in the form of -1/-1 counters.)
+
+Name:   Harvest Hand
+Cost:   3
+Type:   Artifact Creature — Scarecrow
+P/T:    2/2
+M-type: Transform
+M-card: Scrounged Scythe
+S/R:    SOI-U
+When Harvest Hand dies, return it to the battlefield transformed under your control.
 
 Name:   Harvest Mage
 Cost:   G
@@ -655,11 +766,18 @@ P/T:    1/1
 S/R:    JUD-C
 {T}: Add to your mana pool one mana of any color that a land you control could produce.
 
+Name:   Harvester Troll
+Cost:   3G
+Type:   Creature — Troll
+P/T:    2/3
+S/R:    OGW-U
+When Harvester Troll enters the battlefield, you may sacrifice a creature or land. If you do, put two +1/+1 counters on Harvester Troll.
+
 Name:   Harvester of Souls
 Cost:   4BB
 Type:   Creature — Demon
 P/T:    5/5
-S/R:    AVR-R
+S/R:    AVR-R, CN2-R, DDQ-R
 Deathtouch
 Whenever another nontoken creature dies, you may draw a card.
 
@@ -674,7 +792,7 @@ Name:   Hasran Ogress
 Cost:   BB
 Type:   Creature — Ogre
 P/T:    3/2
-S/R:    AN-C, CH-C
+S/R:    AN-C, CH-C, ME4-C
 Whenever Hasran Ogress attacks, it deals 3 damage to you unless you pay {2}.
 
 Name:   Hatchet Bully
@@ -718,7 +836,7 @@ Type:   Creature — Angel
 P/T:    3/3
 S/R:    AP-U
 Flying
-When Haunted Angel dies, exile Haunted Angel and each other player puts a 3/3 black Angel creature token with flying onto the battlefield.
+When Haunted Angel dies, exile Haunted Angel and each other player creates a 3/3 black Angel creature token with flying.
 
 Name:   Haunted Cadaver
 Cost:   3B
@@ -728,16 +846,31 @@ S/R:    ONS-C
 Whenever Haunted Cadaver deals combat damage to a player, you may sacrifice it. If you do, that player discards three cards.
 Morph {1}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
+Name:   Haunted Cloak
+Cost:   3
+Type:   Artifact — Equipment
+S/R:    SOI-U
+Equipped creature has vigilance, trample, and haste.
+Equip {1}
+
 Name:   Haunted Crossroads
 Cost:   2B
 Type:   Enchantment
 S/R:    MM-U
 {B}: Put target creature card from your graveyard on top of your library.
 
+Name:   Haunted Dead
+Cost:   3B
+Type:   Creature — Zombie
+P/T:    2/2
+S/R:    EMN-U
+When Haunted Dead enters the battlefield, create a 1/1 white Spirit creature token with flying.
+{1}{B}, Discard two cards: Return Haunted Dead from your graveyard to the battlefield tapped.
+
 Name:   Haunted Fengraf
 Type:   Land
 S/R:    DKA-C, C14-C
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {3}, {T}, Sacrifice Haunted Fengraf: Return a creature card at random from your graveyard to your hand.
 
 Name:   Haunted Guardian
@@ -799,7 +932,7 @@ Whenever an artifact becomes tapped or a player activates an artifact's ability 
 Name:   Haven of the Spirit Dragon
 Type:   Land
 S/R:    DTK-R
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {T}: Add one mana of any color to your mana pool. Spend this mana only to cast a Dragon creature spell.
 {2}, {T}, Sacrifice Haven of the Spirit Dragon: Return target Dragon creature card or Ugin planeswalker card from your graveyard to your hand.
 
@@ -814,8 +947,8 @@ Name:   Havengul Runebinder
 Cost:   2UU
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    DKA-R
-{2}{U}, {T}, Exile a creature card from your graveyard: Put a 2/2 black Zombie creature token onto the battlefield, then put a +1/+1 counter on each Zombie creature you control.
+S/R:    DKA-R, DDQ-R
+{2}{U}, {T}, Exile a creature card from your graveyard: Create a 2/2 black Zombie creature token, then put a +1/+1 counter on each Zombie creature you control.
 
 Name:   Havengul Skaab
 Cost:   5U
@@ -828,13 +961,13 @@ Name:   Havengul Vampire
 Cost:   3R
 Type:   Creature — Vampire
 P/T:    2/2
-S/R:    AVR-U
+S/R:    AVR-U, CN2-U
 Whenever Havengul Vampire deals combat damage to a player, put a +1/+1 counter on it.
 Whenever another creature dies, put a +1/+1 counter on Havengul Vampire.
 
 Name:   Havenwood Battleground
 Type:   Land
-S/R:    FE-U, 5E-U, 6E-U, C14-U
+S/R:    FE-U, 5E-U, 6E-U, C14-U, ME2-U
 Havenwood Battleground enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 {T}, Sacrifice Havenwood Battleground: Add {G}{G} to your mana pool.
@@ -857,7 +990,7 @@ Name:   Havoc Demon
 Cost:   5BB
 Type:   Creature — Demon
 P/T:    5/5
-S/R:    LGN-R
+S/R:    LGN-R, EMA-U
 Flying
 When Havoc Demon dies, all creatures get -5/-5 until end of turn.
 
@@ -868,6 +1001,14 @@ S/R:    RTR-R
 Players can't gain life.
 At the beginning of each player's upkeep, that player loses half his or her life, rounded up.
 
+Name:   Havoc Sower
+Cost:   3B
+Type:   Creature — Eldrazi Drone
+P/T:    3/3
+S/R:    OGW-U
+Devoid (This card has no color.)
+{1}{C}: Havoc Sower gets +2/+1 until end of turn. ({C} represents colorless mana.)
+
 Name:   Hawkeater Moth
 Cost:   3G
 Type:   Creature — Insect
@@ -875,6 +1016,12 @@ P/T:    1/2
 S/R:    US-U
 Flying
 Shroud (This creature can't be the target of spells or abilities.)
+
+Name:   Hazardous Conditions
+Cost:   2BG
+Type:   Sorcery
+S/R:    KLD-U
+Creatures with no counters on them get -2/-2 until end of turn.
 
 Name:   Hazduhr the Abbot
 Cost:   3WW
@@ -910,8 +1057,8 @@ Name:   Hazezon Tamar
 Cost:   4RGW
 Type:   Legendary Creature — Human Warrior
 P/T:    2/4
-S/R:    LE-R
-When Hazezon Tamar enters the battlefield, put X 1/1 Sand Warrior creature tokens that are red, green, and white onto the battlefield at the beginning of your next upkeep, where X is the number of lands you control at that time.
+S/R:    LE-R, ME3-R
+When Hazezon Tamar enters the battlefield, create X 1/1 Sand Warrior creature tokens that are red, green, and white at the beginning of your next upkeep, where X is the number of lands you control at that time.
 When Hazezon leaves the battlefield, exile all Sand Warriors.
 
 Name:   Hazy Homunculus
@@ -974,7 +1121,7 @@ Draw a card at the beginning of the next turn's upkeep.
 Name:   Heal
 Cost:   W
 Type:   Instant
-S/R:    IA-C, 5E-C
+S/R:    IA-C, 5E-C, ME3-C
 Prevent the next 1 damage that would be dealt to target creature or player this turn.
 Draw a card at the beginning of the next turn's upkeep.
 
@@ -999,6 +1146,13 @@ Equipped creature gets +0/+2 and has "{T}: Prevent the next 1 damage that would 
 {W}{W}: Attach Healer's Headdress to target creature you control.
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 
+Name:   Healing Hands
+Cost:   2W
+Type:   Sorcery
+S/R:    ORI-C
+Target player gains 4 life.
+Draw a card.
+
 Name:   Healing Leaves
 Cost:   G
 Type:   Instant
@@ -1010,7 +1164,7 @@ Choose one —
 Name:   Healing Salve
 Cost:   W
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, MI-C, 5E-C, US-C, 6E-C, 7E-C, 8ED-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, MI-C, 5E-C, US-C, 6E-C, 7E-C, 8ED-C, DDC-C, ME4-C
 Choose one —
 • Target player gains 3 life.
 • Prevent the next 3 damage that would be dealt to target creature or player this turn.
@@ -1026,7 +1180,7 @@ Name:   Heart Sliver
 Cost:   1R
 Type:   Creature — Sliver
 P/T:    1/1
-S/R:    TE-C
+S/R:    TE-C, H09-C
 All Sliver creatures have haste.
 
 Name:   Heart Warden
@@ -1068,7 +1222,7 @@ Sacrifice Heart of Ramos: Add {R} to your mana pool.
 
 Name:   Heart of Yavimaya
 Type:   Land
-S/R:    AI-R
+S/R:    AI-R, ME2-R
 If Heart of Yavimaya would enter the battlefield, sacrifice a Forest instead. If you do, put Heart of Yavimaya onto the battlefield. If you don't, put it into its owner's graveyard.
 {T}: Add {G} to your mana pool.
 {T}: Target creature gets +1/+1 until end of turn.
@@ -1107,14 +1261,14 @@ Cost:   6RR
 Type:   Creature — Giant Warrior
 P/T:    5/5
 S/R:    LRW-U
-When Hearthcage Giant enters the battlefield, put two 3/1 red Elemental Shaman creature tokens onto the battlefield.
+When Hearthcage Giant enters the battlefield, create two 3/1 red Elemental Shaman creature tokens.
 Sacrifice an Elemental: Target Giant creature gets +3/+1 until end of turn.
 
 Name:   Hearthfire Hobgoblin
 Cost:   (R/W)(R/W)(R/W)
 Type:   Creature — Goblin Soldier
 P/T:    2/2
-S/R:    EVE-U, HOP-U
+S/R:    EVE-U, HOP-U, MM2-U
 Double strike
 
 Name:   Heartlash Cinder
@@ -1158,7 +1312,7 @@ Name:   Heartstabber Mosquito
 Cost:   3B
 Type:   Creature — Insect
 P/T:    2/2
-S/R:    ZEN-C
+S/R:    ZEN-C, DDP-C
 Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)
 Flying
 When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy target creature.
@@ -1166,7 +1320,7 @@ When Heartstabber Mosquito enters the battlefield, if it was kicked, destroy tar
 Name:   Heartstone
 Cost:   3
 Type:   Artifact
-S/R:    ST-U
+S/R:    ST-U, H09-U
 Activated abilities of creatures cost {1} less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.
 
 Name:   Heartwood Dryad
@@ -1201,7 +1355,7 @@ Cost:   2GG
 Type:   Creature — Treefolk
 P/T:    3/4
 S/R:    TE-U
-Forestwalk
+Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 
 Name:   Heat Ray
 Cost:   XR
@@ -1213,7 +1367,7 @@ Name:   Heat Shimmer
 Cost:   2R
 Type:   Sorcery
 S/R:    LRW-R
-Put a token that's a copy of target creature onto the battlefield. That token has haste and "At the beginning of the end step, exile this permanent."
+Create a token that's a copy of target creature. That token has haste and "At the beginning of the end step, exile this permanent."
 
 Name:   Heat Stroke
 Cost:   2R
@@ -1259,9 +1413,16 @@ S/R:    WL-C, 6E-U, 7E-U
 Name:   Heavy Fog
 Cost:   1G
 Type:   Instant
-S/R:    P3K-U
+S/R:    P3K-U, ME3-C
 Cast Heavy Fog only during the declare attackers step and only if you've been attacked this step.
 Prevent all damage that would be dealt to you this turn by attacking creatures.
+
+Name:   Heavy Infantry
+Cost:   4W
+Type:   Creature — Human Soldier
+P/T:    3/4
+S/R:    ORI-C
+When Heavy Infantry enters the battlefield, tap target creature an opponent controls.
 
 Name:   Heavy Mattock
 Cost:   3
@@ -1274,7 +1435,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Hecatomb
 Cost:   1BB
 Type:   Enchantment
-S/R:    IA-R, 5E-R, 6E-R
+S/R:    IA-R, 5E-R, 6E-R, MED-R
 When Hecatomb enters the battlefield, sacrifice Hecatomb unless you sacrifice four creatures.
 Tap an untapped Swamp you control: Hecatomb deals 1 damage to target creature or player.
 
@@ -1301,6 +1462,29 @@ When Hedonist's Trove enters the battlefield, exile all cards from target oppone
 You may play land cards exiled with Hedonist's Trove.
 You may cast nonland cards exiled with Hedonist's Trove. You can't cast more than one spell this way each turn.
 
+Name:   Hedron Alignment
+Cost:   2U
+Type:   Enchantment
+S/R:    OGW-R
+Hexproof
+At the beginning of your upkeep, you may reveal your hand. If you do, you win the game if you own a card named Hedron Alignment in exile, in your hand, in your graveyard, and on the battlefield.
+{1}{U}: Scry 1.
+
+Name:   Hedron Archive
+Cost:   4
+Type:   Artifact
+S/R:    BFZ-U
+{T}: Add {C}{C} to your mana pool.
+{2}, {T}, Sacrifice Hedron Archive: Draw two cards.
+
+Name:   Hedron Blade
+Cost:   1
+Type:   Artifact — Equipment
+S/R:    BFZ-C
+Equipped creature gets +1/+1.
+Whenever equipped creature becomes blocked by one or more colorless creatures, it gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+
 Name:   Hedron Crab
 Cost:   U
 Type:   Creature — Crab
@@ -1308,10 +1492,17 @@ P/T:    0/2
 S/R:    ZEN-U
 Landfall — Whenever a land enters the battlefield under your control, target player puts the top three cards of his or her library into his or her graveyard.
 
+Name:   Hedron Crawler
+Cost:   2
+Type:   Artifact Creature — Construct
+P/T:    0/1
+S/R:    OGW-C
+{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+
 Name:   Hedron Matrix
 Cost:   4
 Type:   Artifact — Equipment
-S/R:    ROE-R
+S/R:    ROE-R, CN2-R
 Equipped creature gets +X/+X, where X is its converted mana cost.
 Equip {4}
 
@@ -1348,7 +1539,7 @@ Name:   Heedless One
 Cost:   3G
 Type:   Creature — Elf Avatar
 P/T:    */*
-S/R:    ONS-U
+S/R:    ONS-U, EVG-U
 Trample
 Heedless One's power and toughness are each equal to the number of Elves on the battlefield.
 
@@ -1366,6 +1557,15 @@ S/R:    PR-R
 As Heightened Awareness enters the battlefield, discard your hand.
 At the beginning of your draw step, draw an additional card.
 
+Name:   Heir of Falkenrath
+Cost:   1B
+Type:   Creature — Vampire
+P/T:    2/1
+M-type: Transform
+M-card: Heir to the Night
+S/R:    SOI-U
+Discard a card: Transform Heir of Falkenrath. Activate this ability only once each turn.
+
 Name:   Heir of the Wilds
 Cost:   1G
 Type:   Creature — Human Warrior
@@ -1373,6 +1573,15 @@ P/T:    2/2
 S/R:    KTK-U
 Deathtouch
 Ferocious — Whenever Heir of the Wilds attacks, if you control a creature with power 4 or greater, Heir of the Wilds gets +1/+1 until end of turn.
+
+Name:   Heir to the Night
+Type:   Creature — Vampire Berserker
+P/T:    3/2
+Color:  Black
+M-type: Transform
+M-card: Heir of Falkenrath
+S/R:    SOI-U
+Flying
 
 Name:   Heirs of Stromkirk
 Cost:   2RR
@@ -1406,7 +1615,7 @@ S/R:    THS-M
 Indestructible
 As long as your devotion to white is less than five, Heliod isn't a creature. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)
 Other creatures you control have vigilance.
-{2}{W}{W}: Put a 2/1 white Cleric enchantment creature token onto the battlefield.
+{2}{W}{W}: Create a 2/1 white Cleric enchantment creature token.
 
 Name:   Helionaut
 Cost:   2W
@@ -1427,7 +1636,7 @@ Name:   Helium Squirter
 Cost:   4U
 Type:   Creature — Beast Mutant
 P/T:    0/0
-S/R:    DIS-C
+S/R:    DIS-C, MM2-C
 Graft 3 (This creature enters the battlefield with three +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)
 {1}: Target creature with a +1/+1 counter on it gains flying until end of turn.
 
@@ -1456,7 +1665,7 @@ Name:   Hell's Thunder
 Cost:   1RR
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    ALA-R
+S/R:    ALA-R, DDN-R
 Flying, haste
 At the beginning of the end step, sacrifice Hell's Thunder.
 Unearth {4}{R} ({4}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
@@ -1487,14 +1696,14 @@ S/R:    RAV-R, HOP-R
 Name:   Hellfire
 Cost:   2BBB
 Type:   Sorcery
-S/R:    LE-R
+S/R:    LE-R, ME3-R
 Destroy all nonblack creatures. Hellfire deals X plus 3 damage to you, where X is the number of creatures that died this way.
 
 Name:   Hellfire Mongrel
 Cost:   2R
 Type:   Creature — Elemental Hound
 P/T:    2/2
-S/R:    ZEN-U
+S/R:    ZEN-U, DDH-U
 At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her.
 
 Name:   Hellhole Flailer
@@ -1516,21 +1725,21 @@ When Hellhole Rats enters the battlefield, target player discards a card. Hellho
 Name:   Hellion Crucible
 Type:   Land
 S/R:    M13-R
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}{R}, {T}: Put a pressure counter on Hellion Crucible.
-{1}{R}, {T}, Remove two pressure counters from Hellion Crucible and sacrifice it: Put a 4/4 red Hellion creature token with haste onto the battlefield. (It can attack and {T} as soon as it comes under your control.)
+{1}{R}, {T}, Remove two pressure counters from Hellion Crucible and sacrifice it: Create a 4/4 red Hellion creature token with haste. (It can attack and {T} as soon as it comes under your control.)
 
 Name:   Hellion Eruption
 Cost:   5R
 Type:   Sorcery
-S/R:    ROE-R, PC2-R
-Sacrifice all creatures you control, then put that many 4/4 red Hellion creature tokens onto the battlefield.
+S/R:    ROE-R, PC2-R, DDP-R
+Sacrifice all creatures you control, then create that many 4/4 red Hellion creature tokens.
 
 Name:   Hellkite Charger
 Cost:   4RR
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    ZEN-R, ARC-R
+S/R:    ZEN-R, ARC-R, MM2-R
 Flying, haste
 Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all attacking creatures and after this phase, there is an additional combat phase.
 
@@ -1546,7 +1755,7 @@ Name:   Hellkite Igniter
 Cost:   5RR
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    MBS-R
+S/R:    MBS-R, C16-R
 Flying, haste
 {1}{R}: Hellkite Igniter gets +X/+0 until end of turn, where X is the number of artifacts you control.
 
@@ -1554,7 +1763,7 @@ Name:   Hellkite Overlord
 Cost:   4BRRG
 Type:   Creature — Dragon
 P/T:    8/8
-S/R:    ALA-M
+S/R:    ALA-M, DRB-R
 Flying, trample, haste
 {R}: Hellkite Overlord gets +1/+0 until end of turn.
 {B}{G}: Regenerate Hellkite Overlord.
@@ -1563,7 +1772,7 @@ Name:   Hellkite Tyrant
 Cost:   4RR
 Type:   Creature — Dragon
 P/T:    6/5
-S/R:    GTC-M
+S/R:    GTC-M, C16-M
 Flying, trample
 Whenever Hellkite Tyrant deals combat damage to a player, gain control of all artifacts that player controls.
 At the beginning of your upkeep, if you control twenty or more artifacts, you win the game.
@@ -1572,14 +1781,14 @@ Name:   Hellraiser Goblin
 Cost:   2R
 Type:   Creature — Goblin Berserker
 P/T:    2/2
-S/R:    GTC-U
+S/R:    GTC-U, DDN-U
 Creatures you control have haste and attack each combat if able.
 
 Name:   Hellrider
 Cost:   2RR
 Type:   Creature — Devil
 P/T:    3/3
-S/R:    DKA-R
+S/R:    DKA-R, DDK-R
 Haste
 Whenever a creature you control attacks, Hellrider deals 1 damage to defending player.
 
@@ -1587,7 +1796,7 @@ Name:   Hellspark Elemental
 Cost:   1R
 Type:   Creature — Elemental
 P/T:    3/1
-S/R:    CON-U
+S/R:    CON-U, DDK-U, PD2-U
 Trample, haste
 At the beginning of the end step, sacrifice Hellspark Elemental.
 Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
@@ -1609,13 +1818,13 @@ Cost:   3
 Type:   Legendary Artifact — Equipment
 S/R:    5DN-R
 Equipped creature has first strike, trample, and haste.
-{1}: If you control Equipment named Helm of Kaldra, Sword of Kaldra, and Shield of Kaldra, put a legendary 4/4 colorless Avatar creature token named Kaldra onto the battlefield and attach those Equipment to it.
+{1}: If you control Equipment named Helm of Kaldra, Sword of Kaldra, and Shield of Kaldra, create a legendary 4/4 colorless Avatar creature token named Kaldra and attach those Equipment to it.
 Equip {2}
 
 Name:   Helm of Obedience
 Cost:   4
 Type:   Artifact
-S/R:    AI-R
+S/R:    AI-R, ME2-R
 {X}, {T}: Target opponent puts cards from the top of his or her library into his or her graveyard until a creature card or X cards are put into that graveyard this way, whichever comes first. If a creature card is put into that graveyard this way, sacrifice Helm of Obedience and put that card onto the battlefield under your control. X can't be 0.
 
 Name:   Helm of Possession
@@ -1633,10 +1842,17 @@ Enchant creature
 As long as enchanted creature is blue, it gets +1/+1 and has "Whenever this creature deals damage to an opponent, draw a card."
 As long as enchanted creature is black, it gets +1/+1 and has "Whenever this creature deals damage to an opponent, that player discards a card."
 
+Name:   Helm of the Gods
+Cost:   1
+Type:   Artifact — Equipment
+S/R:    ORI-R
+Equipped creature gets +1/+1 for each enchantment you control.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
+
 Name:   Helvault
 Cost:   3
 Type:   Legendary Artifact
-S/R:    DKA-M
+S/R:    DKA-M, V16-M
 {1}, {T}: Exile target creature you control.
 {7}, {T}: Exile target creature you don't control.
 When Helvault is put into a graveyard from the battlefield, return all cards exiled with it to the battlefield under their owners' control.
@@ -1667,13 +1883,13 @@ Name:   Henge Guardian
 Cost:   5
 Type:   Artifact Creature — Dragon Wurm
 P/T:    3/4
-S/R:    MM-U
+S/R:    MM-U, DDG-U
 {2}: Henge Guardian gains trample until end of turn.
 
 Name:   Henge of Ramos
 Type:   Land
 S/R:    MM-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {2}, {T}: Add one mana of any color to your mana pool.
 
 Name:   Herald of Anafenza
@@ -1682,7 +1898,7 @@ Type:   Creature — Human Soldier
 P/T:    1/2
 S/R:    KTK-R
 Outlast {2}{W} ({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
-Whenever you activate Herald of Anafenza's outlast ability, put a 1/1 white Warrior creature token onto the battlefield.
+Whenever you activate Herald of Anafenza's outlast ability, create a 1/1 white Warrior creature token.
 
 Name:   Herald of Dromoka
 Cost:   1W
@@ -1691,6 +1907,14 @@ P/T:    2/2
 S/R:    DTK-C
 Vigilance
 Other Warrior creatures you control have vigilance.
+
+Name:   Herald of Kozilek
+Cost:   1UR
+Type:   Creature — Eldrazi Drone
+P/T:    2/4
+S/R:    BFZ-U
+Devoid (This card has no color.)
+Colorless spells you cast cost {1} less to cast.
 
 Name:   Herald of Leshrac
 Cost:   6B
@@ -1729,6 +1953,29 @@ Flying
 Whenever Herald of War attacks, put a +1/+1 counter on it.
 Angel spells and Human spells you cast cost {1} less to cast for each +1/+1 counter on Herald of War.
 
+Name:   Herald of the Fair
+Cost:   2W
+Type:   Creature — Human
+P/T:    3/2
+S/R:    KLD-C
+When Herald of the Fair enters the battlefield, target creature you control gets +1/+1 until end of turn.
+
+Name:   Herald of the Host
+Cost:   3WW
+Type:   Creature — Angel
+P/T:    4/4
+S/R:    C15-U
+Flying, vigilance
+Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
+
+Name:   Herald of the Pantheon
+Cost:   1G
+Type:   Creature — Centaur Shaman
+P/T:    2/2
+S/R:    ORI-R
+Enchantment spells you cast cost {1} less to cast.
+Whenever you cast an enchantment spell, you gain 1 life.
+
 Name:   Herbal Poultice
 Cost:   0
 Type:   Artifact
@@ -1761,7 +2008,7 @@ Name:   Heritage Druid
 Cost:   G
 Type:   Creature — Elf Druid
 P/T:    1/1
-S/R:    MOR-U
+S/R:    MOR-U, EMA-R
 Tap three untapped Elves you control: Add {G}{G}{G} to your mana pool.
 
 Name:   Hermetic Study
@@ -1775,8 +2022,18 @@ Name:   Hermit Druid
 Cost:   1G
 Type:   Creature — Human Druid
 P/T:    1/1
-S/R:    ST-R
+S/R:    ST-R, VMA-R
 {G}, {T}: Reveal cards from the top of your library until you reveal a basic land card. Put that card into your hand and all other cards revealed this way into your graveyard.
+
+Name:   Hermit of the Natterknolls
+Cost:   2G
+Type:   Creature — Human Werewolf
+P/T:    2/3
+M-type: Transform
+M-card: Lone Wolf of the Natterknolls
+S/R:    SOI-U
+Whenever an opponent casts a spell during your turn, draw a card.
+At the beginning of each upkeep, if no spells were cast last turn, transform Hermit of the Natterknolls.
 
 Name:   Hero of Bladehold
 Cost:   2WW
@@ -1784,7 +2041,14 @@ Type:   Creature — Human Knight
 P/T:    3/4
 S/R:    MBS-M
 Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
-Whenever Hero of Bladehold attacks, put two 1/1 white Soldier creature tokens onto the battlefield tapped and attacking.
+Whenever Hero of Bladehold attacks, create two 1/1 white Soldier creature tokens that are tapped and attacking.
+
+Name:   Hero of Goma Fada
+Cost:   4W
+Type:   Creature — Human Knight Ally
+P/T:    4/3
+S/R:    BFZ-R
+Rally — Whenever Hero of Goma Fada or another Ally enters the battlefield under your control, creatures you control gain indestructible until end of turn.
 
 Name:   Hero of Iroas
 Cost:   1W
@@ -1862,7 +2126,7 @@ Each legendary creature you control gets +1/+1 for each other legendary creature
 Name:   Heroes' Reunion
 Cost:   GW
 Type:   Instant
-S/R:    IN-U, RTR-U, ARC-U
+S/R:    IN-U, ARC-U, RTR-U, DDG-U
 Target player gains 7 life.
 
 Name:   Heroic Defiance
@@ -1877,6 +2141,15 @@ Cost:   2W
 Type:   Enchantment
 S/R:    FE-U
 Sacrifice a white creature: For each attacking red creature, prevent all combat damage that would be dealt by that creature this turn unless its controller pays {2}{R}.
+
+Name:   Heron's Grace Champion
+Cost:   2GW
+Type:   Creature — Human Knight
+P/T:    3/3
+S/R:    EMN-R
+Flash
+Lifelink
+When Heron's Grace Champion enters the battlefield, other Humans you control get +1/+1 and gain lifelink until end of turn.
 
 Name:   Hesitation
 Cost:   1U
@@ -1908,7 +2181,7 @@ Name:   Hexplate Golem
 Cost:   7
 Type:   Artifact Creature — Golem
 P/T:    5/7
-S/R:    MBS-C
+S/R:    MBS-C, CN2-C
 
 Name:   Hibernation
 Cost:   2U
@@ -1920,7 +2193,7 @@ Name:   Hibernation Sliver
 Cost:   UB
 Type:   Creature — Sliver
 P/T:    2/2
-S/R:    ST-U
+S/R:    ST-U, H09-U
 All Slivers have "Pay 2 life: Return this permanent to its owner's hand."
 
 Name:   Hibernation's End
@@ -1973,14 +2246,14 @@ Name:   Hidden Horror
 Cost:   1BB
 Type:   Creature — Horror
 P/T:    4/4
-S/R:    WL-U, P2-R, 6E-U, 10E-U
+S/R:    WL-U, P2-R, 6E-U, 10E-U, PD3-U
 When Hidden Horror enters the battlefield, sacrifice it unless you discard a creature card.
 
 Name:   Hidden Path
 Cost:   2GGGG
 Type:   Enchantment
 S/R:    DK-R
-Green creatures have forestwalk.
+Green creatures have forestwalk. (They can't be blocked as long as defending player controls a Forest.)
 
 Name:   Hidden Predators
 Cost:   G
@@ -2025,7 +2298,7 @@ Put target artifact or enchantment on the bottom of its owner's library.
 Name:   Hideous End
 Cost:   1BB
 Type:   Instant
-S/R:    ZEN-C, HOP-C
+S/R:    HOP-C, ZEN-C, DDD-C, DDE-C, DDR-C
 Destroy target nonblack creature. Its controller loses 2 life.
 
 Name:   Hideous Laughter
@@ -2051,12 +2324,12 @@ Name:   High Ground
 Cost:   W
 Type:   Enchantment
 S/R:    EX-U, 10E-U
-Each creature you control can block an additional creature.
+Each creature you control can block an additional creature each combat.
 
 Name:   High Market
 Type:   Land
-S/R:    MM-R
-{T}: Add {1} to your mana pool.
+S/R:    MM-R, C15-R, V12-M
+{T}: Add {C} to your mana pool.
 {T}, Sacrifice a creature: You gain 1 life.
 
 Name:   High Priest of Penance
@@ -2084,7 +2357,7 @@ High Sentinels of Arashin gets +1/+1 for each other creature you control with a 
 Name:   High Tide
 Cost:   U
 Type:   Instant
-S/R:    FE-C
+S/R:    FE-C, VMA-U, MED-U
 Until end of turn, whenever a player taps an Island for mana, that player adds {U} to his or her mana pool (in addition to the mana the land produces).
 
 Name:   Highborn Ghoul
@@ -2114,11 +2387,25 @@ Type:   Creature — Giant
 P/T:    3/4
 S/R:    P1-C
 
+Name:   Highland Lake
+Type:   Land
+S/R:    SOI-U
+Highland Lake enters the battlefield tapped.
+{T}: Add {U} or {R} to your mana pool.
+
 Name:   Highland Weald
 Type:   Snow Land
 S/R:    CSP-U
 Highland Weald enters the battlefield tapped.
 {T}: Add {R} or {G} to your mana pool.
+
+Name:   Highspire Artisan
+Cost:   2G
+Type:   Creature — Elf Artificer
+P/T:    0/3
+S/R:    KLD-C
+Reach (This creature can block creatures with flying.)
+Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)
 
 Name:   Highspire Mantis
 Cost:   2RW
@@ -2127,11 +2414,20 @@ P/T:    3/3
 S/R:    KTK-U
 Flying, trample
 
+Name:   Hightide Hermit
+Cost:   4U
+Type:   Creature — Crab
+P/T:    4/4
+S/R:    KLD-C
+Defender
+When Hightide Hermit enters the battlefield, you get {E}{E}{E}{E} (four energy counters).
+Pay {E}{E}: Hightide Hermit can attack this turn as though it didn't have defender.
+
 Name:   Highway Robber
 Cost:   2BB
 Type:   Creature — Human Mercenary
 P/T:    2/2
-S/R:    MM-C, 9ED-C, 10E-C
+S/R:    MM-C, 9ED-C, 10E-C, DDM-C
 When Highway Robber enters the battlefield, target opponent loses 2 life and you gain 2 life.
 
 Name:   Higure, the Still Wind
@@ -2143,11 +2439,17 @@ Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand:
 Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.
 {2}: Target Ninja creature can't be blocked this turn.
 
+Name:   Hijack
+Cost:   1RR
+Type:   Sorcery
+S/R:    KLD-C
+Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn.
+
 Name:   Hikari, Twilight Guardian
 Cost:   3WW
 Type:   Legendary Creature — Spirit
 P/T:    4/4
-S/R:    CHK-R
+S/R:    CHK-R, MM2-U
 Flying
 Whenever you cast a Spirit or Arcane spell, you may exile Hikari, Twilight Guardian. If you do, return it to the battlefield under its owner's control at the beginning of the next end step.
 
@@ -2161,8 +2463,8 @@ Name:   Hillcomber Giant
 Cost:   2WW
 Type:   Creature — Giant Scout
 P/T:    3/3
-S/R:    LRW-C
-Mountainwalk
+S/R:    LRW-C, MMA-C
+Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
 
 Name:   Hinder
 Cost:   1UU
@@ -2210,6 +2512,15 @@ M-type: Transform
 M-card: Hinterland Scourge
 S/R:    DKA-C
 At the beginning of each upkeep, if no spells were cast last turn, transform Hinterland Hermit.
+
+Name:   Hinterland Logger
+Cost:   1G
+Type:   Creature — Human Werewolf
+P/T:    2/1
+M-type: Transform
+M-card: Timber Shredder
+S/R:    SOI-C
+At the beginning of each upkeep, if no spells were cast last turn, transform Hinterland Logger.
 
 Name:   Hinterland Scourge
 Type:   Creature — Werewolf
@@ -2287,6 +2598,13 @@ Type:   Enchantment
 S/R:    GPT-U
 Whenever a creature attacks you, its controller loses 1 life.
 
+Name:   Hissing Quagmire
+Type:   Land
+S/R:    OGW-R
+Hissing Quagmire enters the battlefield tapped.
+{T}: Add {B} or {G} to your mana pool.
+{1}{B}{G}: Hissing Quagmire becomes a 2/2 black and green Elemental creature with deathtouch until end of turn. It's still a land.
+
 Name:   Hit
 Cost:   1BR
 Type:   Instant
@@ -2294,6 +2612,13 @@ M-type: Split
 M-card: Run
 S/R:    DIS-U
 Target player sacrifices an artifact or creature. Hit deals damage to that player equal to that permanent's converted mana cost.
+
+Name:   Hitchclaw Recluse
+Cost:   2G
+Type:   Creature — Spider
+P/T:    1/4
+S/R:    ORI-C
+Reach (This creature can block creatures with flying.)
 
 Name:   Hive Mind
 Cost:   5U
@@ -2305,7 +2630,7 @@ Name:   Hive Stirrings
 Cost:   2W
 Type:   Sorcery
 S/R:    M14-C
-Put two 1/1 colorless Sliver creature tokens onto the battlefield.
+Create two 1/1 colorless Sliver creature tokens.
 
 Name:   Hivestone
 Cost:   2
@@ -2320,6 +2645,14 @@ P/T:    3/4
 S/R:    MI-R
 You may choose not to untap Hivis of the Scale during your untap step.
 {T}: Gain control of target Dragon for as long as you control Hivis and Hivis remains tapped.
+
+Name:   Hixus, Prison Warden
+Cost:   3WW
+Type:   Legendary Creature — Human Soldier
+P/T:    4/4
+S/R:    ORI-R
+Flash (You may cast this spell any time you could cast an instant.)
+Whenever a creature deals combat damage to you, if Hixus, Prison Warden entered the battlefield this turn, exile that creature until Hixus leaves the battlefield. (That creature returns under its owner's control.)
 
 Name:   Hoar Shade
 Cost:   3B
@@ -2390,8 +2723,14 @@ Creatures you control get +0/+1 for each Gate you control and have vigilance.
 Name:   Hold the Line
 Cost:   1WW
 Type:   Instant
-S/R:    CHK-R
+S/R:    CHK-R, DDN-R
 Blocking creatures get +7/+7 until end of turn.
+
+Name:   Holdout Settlement
+Type:   Land
+S/R:    OGW-C
+{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool.
 
 Name:   Holistic Wisdom
 Cost:   1GG
@@ -2454,7 +2793,7 @@ Name:   Hollowhenge Spirit
 Cost:   3W
 Type:   Creature — Spirit
 P/T:    2/2
-S/R:    DKA-U
+S/R:    DKA-U, CN2-U
 Flash (You may cast this spell any time you could cast an instant.)
 Flying
 When Hollowhenge Spirit enters the battlefield, remove target attacking or blocking creature from combat.
@@ -2490,7 +2829,7 @@ S/R:    AVR-U
 Name:   Holy Light
 Cost:   2W
 Type:   Instant
-S/R:    DK-C
+S/R:    DK-C, MED-C
 Nonwhite creatures get -1/-1 until end of turn.
 
 Name:   Holy Mantle
@@ -2516,7 +2855,7 @@ Homarid enters the battlefield with a tide counter on it.
 At the beginning of your upkeep, put a tide counter on Homarid.
 As long as there is exactly one tide counter on Homarid, it gets -1/-1.
 As long as there are exactly three tide counters on Homarid, it gets +1/+1.
-Whenever there are four tide counters on Homarid, remove all tide counters from it.
+Whenever there are four or more tide counters on Homarid, remove all tide counters from it.
 
 Name:   Homarid Shaman
 Cost:   2UU
@@ -2528,8 +2867,8 @@ S/R:    FE-R
 Name:   Homarid Spawning Bed
 Cost:   UU
 Type:   Enchantment
-S/R:    FE-U
-{1}{U}{U}, Sacrifice a blue creature: Put X 1/1 blue Camarid creature tokens onto the battlefield, where X is the sacrificed creature's converted mana cost.
+S/R:    FE-U, MED-U
+{1}{U}{U}, Sacrifice a blue creature: Create X 1/1 blue Camarid creature tokens, where X is the sacrificed creature's converted mana cost.
 
 Name:   Homarid Warrior
 Cost:   4U
@@ -2540,8 +2879,8 @@ S/R:    FE-C, 5E-C
 
 Name:   Homeward Path
 Type:   Land
-S/R:    CMD-R, C13-R
-{T}: Add {1} to your mana pool.
+S/R:    CMD-R, C13-R, C16-R
+{T}: Add {C} to your mana pool.
 {T}: Each player gains control of all creatures he or she owns.
 
 Name:   Homicidal Brute
@@ -2569,7 +2908,7 @@ Name:   Homing Sliver
 Cost:   2R
 Type:   Creature — Sliver
 P/T:    2/2
-S/R:    FUT-C
+S/R:    FUT-C, H09-C
 Each Sliver card in each player's hand has slivercycling {3}.
 Slivercycling {3} ({3}, Discard this card: Search your library for a Sliver card, reveal it, and put it into your hand. Then shuffle your library.)
 
@@ -2594,31 +2933,31 @@ When Homura dies, return it to the battlefield flipped.
 Name:   Honden of Cleansing Fire
 Cost:   3W
 Type:   Legendary Enchantment — Shrine
-S/R:    CHK-U
+S/R:    CHK-U, EMA-U
 At the beginning of your upkeep, you gain 2 life for each Shrine you control.
 
 Name:   Honden of Infinite Rage
 Cost:   2R
 Type:   Legendary Enchantment — Shrine
-S/R:    CHK-U
+S/R:    CHK-U, EMA-U
 At the beginning of your upkeep, Honden of Infinite Rage deals damage to target creature or player equal to the number of Shrines you control.
 
 Name:   Honden of Life's Web
 Cost:   4G
 Type:   Legendary Enchantment — Shrine
-S/R:    CHK-U
-At the beginning of your upkeep, put a 1/1 colorless Spirit creature token onto the battlefield for each Shrine you control.
+S/R:    CHK-U, EMA-U
+At the beginning of your upkeep, create a 1/1 colorless Spirit creature token for each Shrine you control.
 
 Name:   Honden of Night's Reach
 Cost:   3B
 Type:   Legendary Enchantment — Shrine
-S/R:    CHK-U
+S/R:    CHK-U, EMA-U
 At the beginning of your upkeep, target opponent discards a card for each Shrine you control.
 
 Name:   Honden of Seeing Winds
 Cost:   4U
 Type:   Legendary Enchantment — Shrine
-S/R:    CHK-U
+S/R:    CHK-U, EMA-U
 At the beginning of your upkeep, draw a card for each Shrine you control.
 
 Name:   Honor Guard
@@ -2650,7 +2989,7 @@ Name:   Honor-Worn Shaku
 Cost:   3
 Type:   Artifact
 S/R:    CHK-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 Tap an untapped legendary permanent you control: Untap Honor-Worn Shaku.
 
 Name:   Honorable Passage
@@ -2665,6 +3004,14 @@ Type:   Creature — Human Soldier Scout
 P/T:    1/1
 S/R:    PS-C
 When Honorable Scout enters the battlefield, you gain 2 life for each black and/or red creature target opponent controls.
+
+Name:   Honored Hierarch
+Cost:   G
+Type:   Creature — Human Druid
+P/T:    1/1
+S/R:    ORI-R
+Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
+As long as Honored Hierarch is renowned, it has vigilance and "{T}: Add one mana of any color to your mana pool."
 
 Name:   Hooded Assassin
 Cost:   2B
@@ -2688,7 +3035,7 @@ Type:   Creature — Snake Hydra
 P/T:    0/0
 S/R:    KTK-M
 Hooded Hydra enters the battlefield with X +1/+1 counters on it.
-When Hooded Hydra dies, put a 1/1 green Snake creature token onto the battlefield for each +1/+1 counter on it.
+When Hooded Hydra dies, create a 1/1 green Snake creature token for each +1/+1 counter on it.
 Morph {3}{G}{G}
 As Hooded Hydra is turned face up, put five +1/+1 counters on it.
 
@@ -2715,9 +3062,9 @@ S/R:    EVE-C
 Name:   Hoofprints of the Stag
 Cost:   1W
 Type:   Tribal Enchantment — Elemental
-S/R:    LRW-R
+S/R:    LRW-R, C16-R
 Whenever you draw a card, you may put a hoofprint counter on Hoofprints of the Stag.
-{2}{W}, Remove four hoofprint counters from Hoofprints of the Stag: Put a 4/4 white Elemental creature token with flying onto the battlefield. Activate this ability only during your turn.
+{2}{W}, Remove four hoofprint counters from Hoofprints of the Stag: Create a 4/4 white Elemental creature token with flying. Activate this ability only during your turn.
 
 Name:   Hooting Mandrills
 Cost:   5G
@@ -2726,6 +3073,14 @@ P/T:    4/4
 S/R:    KTK-C
 Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
 Trample
+
+Name:   Hope Against Hope
+Cost:   2W
+Type:   Enchantment — Aura
+S/R:    SOI-U
+Enchant creature
+Enchanted creature gets +1/+1 for each creature you control.
+As long as enchanted creature is a Human, it has first strike.
 
 Name:   Hope Charm
 Cost:   W
@@ -2772,14 +3127,14 @@ Cost:   3R
 Type:   Creature — Goblin
 P/T:    */*
 S/R:    SHM-U
+Menace (This creature can't be blocked except by two or more creatures.)
 Horde of Boggarts's power and toughness are each equal to the number of red permanents you control.
-Horde of Boggarts can't be blocked except by two or more creatures.
 
 Name:   Horde of Notions
 Cost:   WUBRG
 Type:   Legendary Creature — Elemental
 P/T:    5/5
-S/R:    LRW-R
+S/R:    LRW-R, MM2-R
 Vigilance, trample, haste
 {W}{U}{B}{R}{G}: You may play target Elemental card from your graveyard without paying its mana cost.
 
@@ -2787,11 +3142,11 @@ Name:   Hordeling Outburst
 Cost:   1RR
 Type:   Sorcery
 S/R:    KTK-U
-Put three 1/1 red Goblin creature tokens onto the battlefield.
+Create three 1/1 red Goblin creature tokens.
 
 Name:   Horizon Canopy
 Type:   Land
-S/R:    FUT-R
+S/R:    FUT-R, EXP-M
 {T}, Pay 1 life: Add {G} or {W} to your mana pool.
 {1}, {T}, Sacrifice Horizon Canopy: Draw a card.
 
@@ -2799,8 +3154,8 @@ Name:   Horizon Chimera
 Cost:   2GU
 Type:   Creature — Chimera
 P/T:    3/2
-S/R:    THS-U
-Flash (You may cast this spell any time you could cast an instant.)
+S/R:    THS-U, C16-U
+Flash
 Flying, trample
 Whenever you draw a card, you gain 1 life.
 
@@ -2836,13 +3191,13 @@ When Horizon Spellbomb is put into a graveyard from the battlefield, you may pay
 Name:   Horn of Deafening
 Cost:   4
 Type:   Artifact
-S/R:    LE-R, CH-R
+S/R:    LE-R, CH-R, ME4-U
 {2}, {T}: Prevent all combat damage that would be dealt by target creature this turn.
 
 Name:   Horn of Greed
 Cost:   3
 Type:   Artifact
-S/R:    ST-R
+S/R:    ST-R, CN2-R
 Whenever a player plays a land, that player draws a card.
 
 Name:   Horn of Plenty
@@ -2862,7 +3217,7 @@ Name:   Horncaller's Chant
 Cost:   7G
 Type:   Sorcery
 S/R:    RTR-C
-Put a 4/4 green Rhino creature token with trample onto the battlefield, then populate. (Put a token onto the battlefield that's a copy of a creature token you control.)
+Create a 4/4 green Rhino creature token with trample, then populate. (Create a token that's a copy of a creature token you control.)
 
 Name:   Horned Cheetah
 Cost:   2GW
@@ -2909,8 +3264,8 @@ S/R:    P1-C, TE-C, 6E-C, 7E-C, 8ED-C, 9ED-C, M10-C
 Name:   Hornet Cannon
 Cost:   4
 Type:   Artifact
-S/R:    ST-U
-{3}, {T}: Put a 1/1 colorless Insect artifact creature token with flying and haste named Hornet onto the battlefield. Destroy it at the beginning of the next end step.
+S/R:    ST-U, DDE-U
+{3}, {T}: Create a 1/1 colorless Insect artifact creature token with flying and haste named Hornet. Destroy it at the beginning of the next end step.
 
 Name:   Hornet Cobra
 Cost:   1GG
@@ -2932,7 +3287,7 @@ Type:   Creature — Insect
 P/T:    0/2
 S/R:    M15-R
 Defender (This creature can't attack.)
-Whenever Hornet Nest is dealt damage, put that many 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)
+Whenever Hornet Nest is dealt damage, create that many 1/1 green Insect creature tokens with flying and deathtouch. (Any amount of damage a creature with deathtouch deals to a creature is enough to destroy it.)
 
 Name:   Hornet Queen
 Cost:   4GGG
@@ -2941,7 +3296,7 @@ P/T:    2/2
 S/R:    CMD-R, M15-R
 Flying
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-When Hornet Queen enters the battlefield, put four 1/1 green Insect creature tokens with flying and deathtouch onto the battlefield.
+When Hornet Queen enters the battlefield, create four 1/1 green Insect creature tokens with flying and deathtouch.
 
 Name:   Hornet Sting
 Cost:   G
@@ -2952,7 +3307,7 @@ Hornet Sting deals 1 damage to target creature or player.
 Name:   Horobi's Whisper
 Cost:   1BB
 Type:   Instant — Arcane
-S/R:    BOK-C
+S/R:    BOK-C, MMA-U
 If you control a Swamp, destroy target nonblack creature.
 Splice onto Arcane—Exile four cards from your graveyard. (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 
@@ -2970,6 +3325,13 @@ Type:   Artifact Creature — Spirit
 P/T:    2/2
 S/R:    MI-U
 Rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)
+
+Name:   Horribly Awry
+Cost:   1U
+Type:   Instant
+S/R:    BFZ-U
+Devoid (This card has no color.)
+Counter target creature spell with converted mana cost 4 or less. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
 
 Name:   Horrifying Revelation
 Cost:   B
@@ -3008,9 +3370,9 @@ Name:   Hostility
 Cost:   3RRR
 Type:   Creature — Elemental Incarnation
 P/T:    6/6
-S/R:    LRW-R
+S/R:    LRW-R, C15-R, DD2-R
 Haste
-If a spell you control would deal damage to an opponent, prevent that damage. Put a 3/1 red Elemental Shaman creature token with haste onto the battlefield for each 1 damage prevented this way.
+If a spell you control would deal damage to an opponent, prevent that damage. Create a 3/1 red Elemental Shaman creature token with haste for each 1 damage prevented this way.
 When Hostility is put into a graveyard from anywhere, shuffle it into its owner's library.
 
 Name:   Hot Soup
@@ -3044,12 +3406,19 @@ S/R:    AVR-R
 Double strike
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 
+Name:   Hound of the Farbogs
+Cost:   4B
+Type:   Creature — Zombie Hound
+P/T:    5/3
+S/R:    SOI-C
+Delirium — Hound of the Farbogs has menace as long as there are four or more card types among cards in your graveyard. (A creature with menace can't be blocked except by two or more creatures.)
+
 Name:   Hour of Need
 Cost:   2U
 Type:   Instant
 S/R:    JOU-U
 Strive — Hour of Need costs {1}{U} more to cast for each target beyond the first.
-Exile any number of target creatures. For each creature exiled this way, its controller puts a 4/4 blue Sphinx creature token with flying onto the battlefield.
+Exile any number of target creatures. For each creature exiled this way, its controller creates a 4/4 blue Sphinx creature token with flying.
 
 Name:   Hour of Reckoning
 Cost:   4WWW
@@ -3091,7 +3460,7 @@ Flying, vigilance
 Name:   Howl from Beyond
 Cost:   XB
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, 5E-C, 6E-C, 7E-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, 5E-C, 6E-C, 7E-C, ME4-C
 Target creature gets +X/+0 until end of turn.
 
 Name:   Howl of the Horde
@@ -3105,7 +3474,7 @@ Name:   Howl of the Night Pack
 Cost:   6G
 Type:   Sorcery
 S/R:    SHM-U, M10-U, M14-U
-Put a 2/2 green Wolf creature token onto the battlefield for each Forest you control.
+Create a 2/2 green Wolf creature token for each Forest you control.
 
 Name:   Howlgeist
 Cost:   5G
@@ -3119,9 +3488,18 @@ Name:   Howling Banshee
 Cost:   2BB
 Type:   Creature — Spirit
 P/T:    3/3
-S/R:    M10-U, M11-U
+S/R:    M10-U, M11-U, DDD-U
 Flying
 When Howling Banshee enters the battlefield, each player loses 3 life.
+
+Name:   Howling Chorus
+Type:   Creature — Eldrazi Werewolf
+P/T:    3/5
+M-type: Transform
+M-card: Shrill Howler
+S/R:    EMN-U
+Creatures with power less than Howling Chorus's power can't block it.
+Whenever Howling Chorus deals combat damage to a player, create a 3/2 colorless Eldrazi Horror creature token.
 
 Name:   Howling Fury
 Cost:   2B
@@ -3139,7 +3517,7 @@ Flashback {1}{G} (You may cast this card from your graveyard for its flashback c
 Name:   Howling Mine
 Cost:   2
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R, CMD-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R, CMD-R, C16-R
 At the beginning of each player's draw step, if Howling Mine is untapped, that player draws an additional card.
 
 Name:   Howling Wolf
@@ -3157,8 +3535,22 @@ M-type: Transform
 M-card: Mayor of Avabruck
 S/R:    ISD-R
 Each other creature you control that's a Werewolf or a Wolf gets +1/+1.
-At the beginning of your end step, put a 2/2 green Wolf creature token onto the battlefield.
+At the beginning of your end step, create a 2/2 green Wolf creature token.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Howlpack Alpha.
+
+Name:   Howlpack Resurgence
+Cost:   2G
+Type:   Enchantment
+S/R:    SOI-U
+Flash (You may cast this spell any time you could cast an instant.)
+Each creature you control that's a Wolf or a Werewolf gets +1/+1 and has trample.
+
+Name:   Howlpack Wolf
+Cost:   2R
+Type:   Creature — Wolf
+P/T:    3/3
+S/R:    SOI-C
+Howlpack Wolf can't block unless you control another Wolf or Werewolf.
 
 Name:   Howlpack of Estwald
 Type:   Creature — Werewolf
@@ -3180,7 +3572,7 @@ Name:   Hua Tuo, Honored Physician
 Cost:   1GG
 Type:   Legendary Creature — Human
 P/T:    1/2
-S/R:    P3K-R, C13-R
+S/R:    P3K-R, C13-R, ME3-R
 {T}: Put target creature card from your graveyard on top of your library. Activate this ability only during your turn, before attackers are declared.
 
 Name:   Huang Zhong, Shu General
@@ -3203,11 +3595,17 @@ P/T:    5/5
 S/R:    VI-U, P1-U, 6E-U, 8ED-U
 Hulking Cyclops can't block.
 
+Name:   Hulking Devil
+Cost:   3R
+Type:   Creature — Devil
+P/T:    5/2
+S/R:    SOI-C
+
 Name:   Hulking Goblin
 Cost:   1R
 Type:   Creature — Goblin
 P/T:    2/2
-S/R:    P1-C, S99-C
+S/R:    P1-C, S99-C, VMA-C
 Hulking Goblin can't block.
 
 Name:   Hulking Ogre
@@ -3220,7 +3618,7 @@ Hulking Ogre can't block.
 Name:   Hull Breach
 Cost:   RG
 Type:   Sorcery
-S/R:    PS-C, CMD-C, C13-C, HOP-C
+S/R:    PS-C, HOP-C, CMD-C, C13-C
 Choose one —
 • Destroy target artifact.
 • Destroy target enchantment.
@@ -3235,13 +3633,13 @@ Each artifact spell costs {1} more to cast for each artifact its controller cont
 Name:   Human Frailty
 Cost:   B
 Type:   Instant
-S/R:    AVR-U
+S/R:    AVR-U, DDQ-U
 Destroy target Human creature.
 
 Name:   Humble
 Cost:   1W
 Type:   Instant
-S/R:    US-U
+S/R:    US-U, EMA-C
 Until end of turn, target creature loses all abilities and has base power and toughness 0/1.
 
 Name:   Humble Budoka
@@ -3255,8 +3653,15 @@ Name:   Humble Defector
 Cost:   1R
 Type:   Creature — Human Rogue
 P/T:    2/1
-S/R:    FRF-U
+S/R:    FRF-U, C16-U
 {T}: Draw two cards. Target opponent gains control of Humble Defector. Activate this ability only during your turn.
+
+Name:   Humble the Brute
+Cost:   4W
+Type:   Instant
+S/R:    SOI-U
+Destroy target creature with power 4 or greater.
+Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
 
 Name:   Humbler of Mortals
 Cost:   4GG
@@ -3275,14 +3680,14 @@ Name:   Hunding Gjornersen
 Cost:   3WUU
 Type:   Legendary Creature — Human Warrior
 P/T:    5/4
-S/R:    LE-U
+S/R:    LE-U, ME3-U
 Rampage 1 (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)
 
 Name:   Hundred-Handed One
 Cost:   2WW
 Type:   Creature — Giant
 P/T:    3/5
-S/R:    THS-R
+S/R:    THS-R, CN2-R
 Vigilance
 {3}{W}{W}{W}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
 As long as Hundred-Handed One is monstrous, it has reach and can block an additional ninety-nine creatures each combat.
@@ -3333,7 +3738,7 @@ Name:   Hungry Mist
 Cost:   2GG
 Type:   Creature — Elemental
 P/T:    6/2
-S/R:    HL-C, 5E-C
+S/R:    HL-C, 5E-C, MED-C
 At the beginning of your upkeep, sacrifice Hungry Mist unless you pay {G}{G}.
 
 Name:   Hungry Spriggan
@@ -3359,16 +3764,16 @@ Target green creature you control gets +2/+2 until end of turn. It fights target
 Name:   Hunt the Weak
 Cost:   3G
 Type:   Sorcery
-S/R:    M14-C, M15-C, FRF-C
+S/R:    M14-C, M15-C, FRF-C, KLD-C
 Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)
 
 Name:   Hunted Dragon
 Cost:   3RR
 Type:   Creature — Dragon
 P/T:    6/6
-S/R:    RAV-R
+S/R:    RAV-R, C15-R
 Flying, haste
-When Hunted Dragon enters the battlefield, target opponent puts three 2/2 white Knight creature tokens with first strike onto the battlefield.
+When Hunted Dragon enters the battlefield, target opponent creates three 2/2 white Knight creature tokens with first strike.
 
 Name:   Hunted Ghoul
 Cost:   B
@@ -3383,7 +3788,7 @@ Type:   Creature — Horror
 P/T:    7/7
 S/R:    RAV-R
 Trample
-When Hunted Horror enters the battlefield, target opponent puts two 3/3 green Centaur creature tokens with protection from black onto the battlefield.
+When Hunted Horror enters the battlefield, target opponent creates two 3/3 green Centaur creature tokens with protection from black.
 
 Name:   Hunted Lammasu
 Cost:   2WW
@@ -3391,7 +3796,7 @@ Type:   Creature — Lammasu
 P/T:    5/5
 S/R:    RAV-R
 Flying
-When Hunted Lammasu enters the battlefield, target opponent puts a 4/4 black Horror creature token onto the battlefield.
+When Hunted Lammasu enters the battlefield, target opponent creates a 4/4 black Horror creature token.
 
 Name:   Hunted Phantasm
 Cost:   1UU
@@ -3399,14 +3804,14 @@ Type:   Creature — Spirit
 P/T:    4/6
 S/R:    RAV-R
 Hunted Phantasm can't be blocked.
-When Hunted Phantasm enters the battlefield, target opponent puts five 1/1 red Goblin creature tokens onto the battlefield.
+When Hunted Phantasm enters the battlefield, target opponent creates five 1/1 red Goblin creature tokens.
 
 Name:   Hunted Troll
 Cost:   2GG
 Type:   Creature — Troll Warrior
 P/T:    8/4
 S/R:    RAV-R, C13-R
-When Hunted Troll enters the battlefield, target opponent puts four 1/1 blue Faerie creature tokens with flying onto the battlefield.
+When Hunted Troll enters the battlefield, target opponent creates four 1/1 blue Faerie creature tokens with flying.
 {G}: Regenerate Hunted Troll.
 
 Name:   Hunted Wumpus
@@ -3421,7 +3826,7 @@ Cost:   1R
 Type:   Creature — Sliver
 P/T:    1/1
 S/R:    LGN-C
-All Sliver creatures have provoke. (When a Sliver attacks, its controller may have target creature defending player controls untap and block it if able.)
+All Sliver creatures have provoke. (Whenever a Sliver attacks, its controller may have target creature defending player controls untap and block it if able.)
 
 Name:   Hunter of Eyeblights
 Cost:   3BB
@@ -3459,7 +3864,7 @@ Name:   Hunting Cheetah
 Cost:   2G
 Type:   Creature — Cat
 P/T:    2/3
-S/R:    P3K-U
+S/R:    P3K-U, ME3-C
 Whenever Hunting Cheetah deals damage to an opponent, you may search your library for a Forest card, reveal that card, put it into your hand, then shuffle your library.
 
 Name:   Hunting Drake
@@ -3495,14 +3900,14 @@ Name:   Hunting Pack
 Cost:   5GG
 Type:   Instant
 S/R:    SCG-U, CMD-U
-Put a 4/4 green Beast creature token onto the battlefield.
+Create a 4/4 green Beast creature token.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)
 
 Name:   Hunting Triad
 Cost:   3G
 Type:   Tribal Sorcery — Elf
 S/R:    MOR-U, C14-U
-Put three 1/1 green Elf Warrior creature tokens onto the battlefield.
+Create three 1/1 green Elf Warrior creature tokens.
 Reinforce 3—{3}{G} ({3}{G}, Discard this card: Put three +1/+1 counters on target creature.)
 
 Name:   Hunting Wilds
@@ -3520,20 +3925,20 @@ P/T:    2/2
 M-type: Transform
 M-card: Ravager of the Fells
 S/R:    DKA-M
-Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, put a 2/2 green Wolf creature token onto the battlefield and you gain 2 life.
+Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, create a 2/2 green Wolf creature token and you gain 2 life.
 At the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells.
 
 Name:   Hurkyl's Recall
 Cost:   1U
 Type:   Instant
-S/R:    AQ-R, RV-R, 4E-R, 5E-R, 10E-R
+S/R:    AQ-R, RV-R, 4E-R, 5E-R, 10E-R, MM2-R
 Return all artifacts target player owns to his or her hand.
 
 Name:   Hurloon Minotaur
 Cost:   1RR
 Type:   Creature — Minotaur
 P/T:    2/3
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, ME3-C
 
 Name:   Hurloon Shaman
 Cost:   1RR
@@ -3545,7 +3950,7 @@ When Hurloon Shaman dies, each player sacrifices a land.
 Name:   Hurly-Burly
 Cost:   1R
 Type:   Sorcery
-S/R:    LRW-C
+S/R:    LRW-C, CN2-C
 Choose one —
 • Hurly-Burly deals 1 damage to each creature without flying.
 • Hurly-Burly deals 1 damage to each creature with flying.
@@ -3574,8 +3979,8 @@ Name:   Hushwing Gryff
 Cost:   2W
 Type:   Creature — Hippogriff
 P/T:    2/1
-S/R:    M15-R
-Flash (You may cast this spell any time you could cast an instant.)
+S/R:    M15-R, C16-R
+Flash
 Flying
 Creatures entering the battlefield don't cause abilities to trigger.
 
@@ -3583,7 +3988,7 @@ Name:   Hussar Patrol
 Cost:   2WU
 Type:   Creature — Human Knight
 P/T:    2/4
-S/R:    RTR-C
+S/R:    RTR-C, DDN-C
 Flash (You may cast this spell any time you could cast an instant.)
 Vigilance
 
@@ -3591,7 +3996,7 @@ Name:   Hyalopterous Lemure
 Cost:   4B
 Type:   Creature — Spirit
 P/T:    4/3
-S/R:    IA-U
+S/R:    IA-U, MED-C
 {0}: Hyalopterous Lemure gets -1/-0 and gains flying until end of turn.
 
 Name:   Hydra Broodmaster
@@ -3600,7 +4005,7 @@ Type:   Creature — Hydra
 P/T:    7/7
 S/R:    JOU-R
 {X}{X}{G}: Monstrosity X. (If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)
-When Hydra Broodmaster becomes monstrous, put X X/X green Hydra creature tokens onto the battlefield.
+When Hydra Broodmaster becomes monstrous, create X X/X green Hydra creature tokens.
 
 Name:   Hydra Omnivore
 Cost:   4GG
@@ -3612,7 +4017,7 @@ Whenever Hydra Omnivore deals combat damage to an opponent, it deals that much d
 Name:   Hydroblast
 Cost:   U
 Type:   Instant
-S/R:    IA-C, 5E-U
+S/R:    IA-C, 5E-U, EMA-U, MED-C
 Choose one —
 • Counter target spell if it's red.
 • Destroy target permanent if it's red.
@@ -3623,12 +4028,19 @@ Type:   Instant
 S/R:    GTC-C
 Target land becomes a 3/3 Elemental creature with flying until end of turn. It's still a land.
 
+Name:   Hydrolash
+Cost:   2U
+Type:   Instant
+S/R:    ORI-U
+Attacking creatures get -2/-0 until end of turn.
+Draw a card.
+
 Name:   Hydromorph Guardian
 Cost:   2U
 Type:   Creature — Elemental
 P/T:    2/2
 S/R:    TOR-C
-{U}, Sacrifice Hydromorph Guardian: Counter target spell that targets one or more creatures you control.
+{U}, Sacrifice Hydromorph Guardian: Counter target spell that targets a creature you control.
 
 Name:   Hydromorph Gull
 Cost:   3UU
@@ -3636,7 +4048,7 @@ Type:   Creature — Elemental Bird
 P/T:    3/3
 S/R:    TOR-U
 Flying
-{U}, Sacrifice Hydromorph Gull: Counter target spell that targets one or more creatures you control.
+{U}, Sacrifice Hydromorph Gull: Counter target spell that targets a creature you control.
 
 Name:   Hydrosurge
 Cost:   U
@@ -3655,13 +4067,13 @@ Totem armor (If enchanted creature would be destroyed, instead remove all damage
 Name:   Hymn of Rebirth
 Cost:   3GW
 Type:   Sorcery
-S/R:    IA-U
+S/R:    IA-U, MED-U
 Put target creature card from a graveyard onto the battlefield under your control.
 
 Name:   Hymn to Tourach
 Cost:   BB
 Type:   Sorcery
-S/R:    FE-C
+S/R:    FE-C, EMA-U, VMA-U, MED-U, V13-M
 Target player discards two cards at random.
 
 Name:   Hypergenesis
@@ -3684,7 +4096,7 @@ Type:   Creature — Dragon
 P/T:    4/4
 S/R:    RTR-R
 Flying, haste
-You may cast sorcery cards as though they had flash. (You may cast them any time you could cast an instant.)
+You may cast sorcery spells as though they had flash. (You may cast them any time you could cast an instant.)
 
 Name:   Hypervolt Grasp
 Cost:   2R
@@ -3697,7 +4109,7 @@ Enchanted creature has "{T}: This creature deals 1 damage to target creature or 
 Name:   Hypnotic Cloud
 Cost:   1B
 Type:   Sorcery
-S/R:    IN-C
+S/R:    IN-C, DDM-C
 Kicker {4} (You may pay an additional {4} as you cast this spell.)
 Target player discards a card. If Hypnotic Cloud was kicked, that player discards three cards instead.
 
