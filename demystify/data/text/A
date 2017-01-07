@@ -1,211 +1,16 @@
-Name:   AErathi Berserker
-Cost:   2RRR
-Type:   Creature — Human Berserker
-P/T:    2/4
-S/R:    LE-U
-Rampage 3 (Whenever this creature becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first.)
-
-Name:   AEther Adept
-Cost:   1UU
-Type:   Creature — Human Wizard
-P/T:    2/2
-S/R:    M11-C, M12-C
-When AEther Adept enters the battlefield, return target creature to its owner's hand.
-
-Name:   AEther Barrier
-Cost:   2U
-Type:   Enchantment
-S/R:    NE-R
-Whenever a player casts a creature spell, that player sacrifices a permanent unless he or she pays {1}.
-
-Name:   AEther Burst
-Cost:   1U
-Type:   Instant
-S/R:    OD-C
-Return up to X target creatures to their owners' hands, where X is one plus the number of cards named AEther Burst in all graveyards as you cast AEther Burst.
-
-Name:   AEther Charge
-Cost:   4R
-Type:   Enchantment
-S/R:    ONS-U
-Whenever a Beast enters the battlefield under your control, you may have it deal 4 damage to target opponent.
-
-Name:   AEther Figment
-Cost:   1U
-Type:   Creature — Illusion
-P/T:    1/1
-S/R:    ZEN-U
-Kicker {3} (You may pay an additional {3} as you cast this spell.)
-AEther Figment can't be blocked.
-If AEther Figment was kicked, it enters the battlefield with two +1/+1 counters on it.
-
-Name:   AEther Flash
-Cost:   2RR
-Type:   Enchantment
-S/R:    WL-U, 6E-U, 7E-U
-Whenever a creature enters the battlefield, AEther Flash deals 2 damage to it.
-
-Name:   AEther Gale
-Cost:   3UU
-Type:   Sorcery
-S/R:    C14-R
-Return six target nonland permanents to their owners' hands.
-
-Name:   AEther Membrane
-Cost:   1RR
-Type:   Creature — Wall
-P/T:    0/5
-S/R:    PLC-U
-Defender; reach (This creature can block creatures with flying.)
-Whenever AEther Membrane blocks a creature, return that creature to its owner's hand at end of combat.
-
-Name:   AEther Mutation
-Cost:   3GU
-Type:   Sorcery
-S/R:    AP-U
-Return target creature to its owner's hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature's converted mana cost.
-
-Name:   AEther Rift
-Cost:   1RG
-Type:   Enchantment
-S/R:    IN-R
-At the beginning of your upkeep, discard a card at random. If you discard a creature card this way, return it from your graveyard to the battlefield unless any player pays 5 life.
-
-Name:   AEther Searcher
-Cost:   7
-Type:   Artifact Creature — Construct
-P/T:    6/4
-S/R:    CNS-R
-Reveal AEther Searcher as you draft it. Reveal the next card you draft and note its name.
-When AEther Searcher enters the battlefield, you may search your hand and/or library for a card with a name noted as you drafted cards named AEther Searcher. You may cast it without paying its mana cost. If you searched your library this way, shuffle it.
-
-Name:   AEther Shockwave
-Cost:   3W
-Type:   Instant
-S/R:    SOK-U
-Choose one —
-• Tap all Spirits.
-• Tap all non-Spirit creatures.
-
-Name:   AEther Snap
-Cost:   3BB
-Type:   Sorcery
-S/R:    DST-R, C14-R
-Remove all counters from all permanents and exile all tokens.
-
-Name:   AEther Spellbomb
-Cost:   1
-Type:   Artifact
-S/R:    MRD-C, ARC-C
-{U}, Sacrifice AEther Spellbomb: Return target creature to its owner's hand.
-{1}, Sacrifice AEther Spellbomb: Draw a card.
-
-Name:   AEther Sting
-Cost:   3R
-Type:   Enchantment
-S/R:    UD-U
-Whenever an opponent casts a creature spell, AEther Sting deals 1 damage to that player.
-
-Name:   AEther Storm
-Cost:   3U
-Type:   Enchantment
-S/R:    HL-U, 5E-U
-Creature spells can't be cast.
-Pay 4 life: Destroy AEther Storm. It can't be regenerated. Any player may activate this ability.
-
-Name:   AEther Tide
-Cost:   XU
-Type:   Sorcery
-S/R:    EX-C
-As an additional cost to cast AEther Tide, discard X creature cards.
-Return X target creatures to their owners' hands.
-
-Name:   AEther Tradewinds
-Cost:   2U
-Type:   Instant
-S/R:    WWK-C, CNS-C
-Return target permanent you control and target permanent you don't control to their owners' hands.
-
-Name:   AEther Vial
-Cost:   1
-Type:   Artifact
-S/R:    DST-U
-At the beginning of your upkeep, you may put a charge counter on AEther Vial.
-{T}: You may put a creature card with converted mana cost equal to the number of charge counters on AEther Vial from your hand onto the battlefield.
-
-Name:   AEther Web
-Cost:   1G
-Type:   Enchantment — Aura
-S/R:    TSP-C
-Flash (You may cast this spell any time you could cast an instant.)
-Enchant creature
-Enchanted creature gets +1/+1, has reach, and can block creatures with shadow as though they didn't have shadow. (Creatures with reach can block creatures with flying.)
-
-Name:   AEtherflame Wall
-Cost:   1R
-Type:   Creature — Wall
-P/T:    0/4
-S/R:    TSP-C
-Defender
-AEtherflame Wall can block creatures with shadow as though they didn't have shadow.
-{R}: AEtherflame Wall gets +1/+0 until end of turn.
-
-Name:   AEtherize
-Cost:   3U
-Type:   Instant
-S/R:    GTC-U
-Return all attacking creatures to their owner's hand.
-
-Name:   AEtherling
-Cost:   4UU
-Type:   Creature — Shapeshifter
-P/T:    4/5
-S/R:    DGM-R
-{U}: Exile AEtherling. Return it to the battlefield under its owner's control at the beginning of the next end step.
-{U}: AEtherling can't be blocked this turn.
-{1}: AEtherling gets +1/-1 until end of turn.
-{1}: AEtherling gets -1/+1 until end of turn.
-
-Name:   AEthermage's Touch
-Cost:   2WU
-Type:   Instant
-S/R:    DIS-R, C13-R
-Reveal the top four cards of your library. You may put a creature card from among them onto the battlefield. It gains "At the beginning of your end step, return this creature to its owner's hand." Then put the rest of the cards revealed this way on the bottom of your library in any order.
-
-Name:   AEtherplasm
-Cost:   2UU
-Type:   Creature — Illusion
-P/T:    1/1
-S/R:    GPT-U
-Whenever AEtherplasm blocks a creature, you may return AEtherplasm to its owner's hand. If you do, you may put a creature card from your hand onto the battlefield blocking that creature.
-
-Name:   AEthersnipe
-Cost:   5U
-Type:   Creature — Elemental
-P/T:    4/4
-S/R:    LRW-C, CMD-C
-When AEthersnipe enters the battlefield, return target nonland permanent to its owner's hand.
-Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
-
-Name:   AEtherspouts
-Cost:   3UU
-Type:   Instant
-S/R:    M15-R
-For each attacking creature, its owner puts it on the top or bottom of his or her library.
-
-Name:   AEthertow
-Cost:   3(W/U)
-Type:   Instant
-S/R:    SHM-C
-Put target attacking or blocking creature on top of its owner's library.
-Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
-
 Name:   Abandon Hope
 Cost:   X1B
 Type:   Sorcery
 S/R:    TE-U
 As an additional cost to cast Abandon Hope, discard X cards.
 Look at target opponent's hand and choose X cards from it. That player discards those cards.
+
+Name:   Abandon Reason
+Cost:   2R
+Type:   Instant
+S/R:    EMN-U
+Up to two target creatures each get +1/+0 and gain first strike until end of turn.
+Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Abandoned Outpost
 Type:   Land
@@ -218,7 +23,7 @@ Name:   Abattoir Ghoul
 Cost:   3B
 Type:   Creature — Zombie
 P/T:    3/2
-S/R:    ISD-U
+S/R:    ISD-U, DDQ-U
 First strike
 Whenever a creature dealt damage by Abattoir Ghoul this turn dies, you gain life equal to that creature's toughness.
 
@@ -226,7 +31,7 @@ Name:   Abbey Gargoyles
 Cost:   2WWW
 Type:   Creature — Gargoyle
 P/T:    3/4
-S/R:    HL-U, 5E-U
+S/R:    HL-U, 5E-U, ME2-U
 Flying, protection from red
 
 Name:   Abbey Griffin
@@ -243,6 +48,14 @@ P/T:    1/3
 S/R:    HL-C
 {W}, {T}: Abbey Matron gets +0/+3 until end of turn.
 
+Name:   Abbot of Keral Keep
+Cost:   1R
+Type:   Creature — Human Monk
+P/T:    2/1
+S/R:    ORI-R
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When Abbot of Keral Keep enters the battlefield, exile the top card of your library. Until end of turn, you may play that card.
+
 Name:   Abduction
 Cost:   2UU
 Type:   Enchantment — Aura
@@ -251,6 +64,16 @@ Enchant creature
 When Abduction enters the battlefield, untap enchanted creature.
 You control enchanted creature.
 When enchanted creature dies, return that card to the battlefield under its owner's control.
+
+Name:   Aberrant Researcher
+Cost:   3U
+Type:   Creature — Human Insect
+P/T:    3/2
+M-type: Transform
+M-card: Perfected Form
+S/R:    SOI-U
+Flying
+At the beginning of your upkeep, put the top card of your library into your graveyard. If it's an instant or sorcery card, transform Aberrant Researcher.
 
 Name:   Abeyance
 Cost:   1W
@@ -265,7 +88,7 @@ Type:   Creature — Demon
 P/T:    6/6
 S/R:    THS-R
 Flying
-When Abhorrent Overlord enters the battlefield, put a number of 1/1 black Harpy creature tokens with flying onto the battlefield equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
+When Abhorrent Overlord enters the battlefield, create a number of 1/1 black Harpy creature tokens with flying equal to your devotion to black. (Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
 At the beginning of your upkeep, sacrifice a creature.
 
 Name:   Abjure
@@ -278,9 +101,18 @@ Counter target spell.
 Name:   Abolish
 Cost:   1WW
 Type:   Instant
-S/R:    PR-U
+S/R:    PR-U, DDF-U
 You may discard a Plains card rather than pay Abolish's mana cost.
 Destroy target artifact or enchantment.
+
+Name:   Abolisher of Bloodlines
+Type:   Creature — Eldrazi Vampire
+P/T:    6/5
+M-type: Transform
+M-card: Voldaren Pariah
+S/R:    EMN-R
+Flying
+When this creature transforms into Abolisher of Bloodlines, target opponent sacrifices three creatures.
 
 Name:   Abomination
 Cost:   3BB
@@ -363,9 +195,16 @@ Counter target spell. You gain 3 life.
 Name:   Absorb Vis
 Cost:   6B
 Type:   Sorcery
-S/R:    CON-C
+S/R:    CON-C, MMA-C, CN2-C, DDK-C
 Target player loses 4 life and you gain 4 life.
 Basic landcycling {1}{B} ({1}{B}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
+
+Name:   Abstruse Interference
+Cost:   2U
+Type:   Instant
+S/R:    OGW-C
+Devoid (This card has no color.)
+Counter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool." ({C} represents colorless mana.)
 
 Name:   Abu Ja'far
 Cost:   W
@@ -394,22 +233,30 @@ Entwine {2} (Choose both if you pay the entwine cost.)
 Name:   Abundance
 Cost:   2GG
 Type:   Enchantment
-S/R:    US-R, 10E-R
+S/R:    US-R, 10E-R, DDR-R
 If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.
 
 Name:   Abundant Growth
 Cost:   G
 Type:   Enchantment — Aura
-S/R:    AVR-C
+S/R:    AVR-C, EMA-C
 Enchant land
 When Abundant Growth enters the battlefield, draw a card.
 Enchanted land has "{T}: Add one mana of any color to your mana pool."
+
+Name:   Abundant Maw
+Cost:   8
+Type:   Creature — Eldrazi Leech
+P/T:    6/4
+S/R:    EMN-U
+Emerge {6}{B} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
+When you cast Abundant Maw, target opponent loses 3 life and you gain 3 life.
 
 Name:   Abyssal Gatekeeper
 Cost:   1B
 Type:   Creature — Horror
 P/T:    1/1
-S/R:    WL-C
+S/R:    WL-C, DDC-C
 When Abyssal Gatekeeper dies, each player sacrifices a creature.
 
 Name:   Abyssal Horror
@@ -453,7 +300,7 @@ Name:   Abyssal Specter
 Cost:   2BB
 Type:   Creature — Specter
 P/T:    2/3
-S/R:    IA-U, 5E-U, 6E-U, 7E-U, 8ED-U
+S/R:    IA-U, 5E-U, 6E-U, 7E-U, 8ED-U, DDC-U
 Flying
 Whenever Abyssal Specter deals damage to a player, that player discards a card.
 
@@ -468,7 +315,7 @@ Cost:   WBG
 Type:   Enchantment
 S/R:    KTK-R
 When Abzan Ascendancy enters the battlefield, put a +1/+1 counter on each creature you control.
-Whenever a nontoken creature you control dies, put a 1/1 white Spirit creature token with flying onto the battlefield.
+Whenever a nontoken creature you control dies, create a 1/1 white Spirit creature token with flying.
 
 Name:   Abzan Banner
 Cost:   3
@@ -495,7 +342,7 @@ At the beginning of your upkeep, draw a card if you control the creature with th
 Name:   Abzan Charm
 Cost:   WBG
 Type:   Instant
-S/R:    KTK-U
+S/R:    KTK-U, C16-U
 Choose one —
 • Exile target creature with power 3 or greater.
 • You draw two cards and you lose 2 life.
@@ -505,7 +352,7 @@ Name:   Abzan Falconer
 Cost:   2W
 Type:   Creature — Human Soldier
 P/T:    2/3
-S/R:    KTK-U
+S/R:    KTK-U, C16-U
 Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
 Each creature you control with a +1/+1 counter on it has flying.
 
@@ -544,7 +391,7 @@ Name:   Academy Elite
 Cost:   3U
 Type:   Creature — Human Wizard
 P/T:    0/0
-S/R:    CNS-R
+S/R:    CNS-R, C16-R, VMA-R
 Academy Elite enters the battlefield with X +1/+1 counters on it, where X is the number of instant and sorcery cards in all graveyards.
 {2}{U}, Remove a +1/+1 counter from Academy Elite: Draw a card, then discard a card.
 
@@ -572,8 +419,8 @@ When Academy Researchers enters the battlefield, you may put an Aura card from y
 
 Name:   Academy Ruins
 Type:   Legendary Land
-S/R:    TSP-R
-{T}: Add {1} to your mana pool.
+S/R:    TSP-R, MMA-R
+{T}: Add {C} to your mana pool.
 {1}{U}, {T}: Put target artifact card from your graveyard on top of your library.
 
 Name:   Accelerate
@@ -596,6 +443,13 @@ S/R:    OD-C
 As an additional cost to cast Acceptable Losses, discard a card at random.
 Acceptable Losses deals 5 damage to target creature.
 
+Name:   Accomplished Automaton
+Cost:   7
+Type:   Artifact Creature — Construct
+P/T:    5/7
+S/R:    KLD-C
+Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)
+
 Name:   Accorder Paladin
 Cost:   1W
 Type:   Creature — Human Knight
@@ -613,7 +467,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Accumulated Knowledge
 Cost:   1U
 Type:   Instant
-S/R:    NE-C
+S/R:    NE-C, DDO-C
 Draw a card, then draw cards equal to the number of cards named Accumulated Knowledge in all graveyards.
 
 Name:   Accursed Centaur
@@ -630,10 +484,20 @@ P/T:    3/2
 S/R:    M14-C, M15-C
 Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 
+Name:   Accursed Witch
+Cost:   3B
+Type:   Creature — Human Shaman
+P/T:    4/2
+M-type: Transform
+M-card: Infectious Curse
+S/R:    SOI-U
+Spells your opponents cast that target Accursed Witch cost {1} less to cast.
+When Accursed Witch dies, return it to the battlefield transformed under your control attached to target opponent.
+
 Name:   Acid Rain
 Cost:   3U
 Type:   Sorcery
-S/R:    LE-R
+S/R:    LE-R, ME4-R
 Destroy all Forests.
 
 Name:   Acid Web Spider
@@ -663,7 +527,7 @@ Name:   Acidic Slime
 Cost:   3GG
 Type:   Creature — Ooze
 P/T:    2/2
-S/R:    M10-U, M11-U, CMD-U, M12-U, M13-U, C13-U
+S/R:    M10-U, M11-U, CMD-U, M12-U, M13-U, C13-U, C15-U, DDM-U
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 When Acidic Slime enters the battlefield, destroy target artifact, enchantment, or land.
 
@@ -671,7 +535,7 @@ Name:   Acidic Sliver
 Cost:   BR
 Type:   Creature — Sliver
 P/T:    2/2
-S/R:    ST-U
+S/R:    ST-U, H09-U
 All Slivers have "{2}, Sacrifice this permanent: This permanent deals 2 damage to target creature or player."
 
 Name:   Acidic Soil
@@ -687,6 +551,14 @@ P/T:    0/1
 S/R:    M10-C
 {1}{B}, {T}: Target player loses 1 life.
 
+Name:   Acolyte of the Inferno
+Cost:   2R
+Type:   Creature — Human Monk
+P/T:    3/1
+S/R:    ORI-U
+Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
+Whenever Acolyte of the Inferno becomes blocked by a creature, it deals 2 damage to that creature.
+
 Name:   Acolyte's Reward
 Cost:   1W
 Type:   Instant
@@ -697,13 +569,13 @@ Name:   Acorn Catapult
 Cost:   4
 Type:   Artifact
 S/R:    CMD-R
-{1}, {T}: Acorn Catapult deals 1 damage to target creature or player. That creature's controller or that player puts a 1/1 green Squirrel creature token onto the battlefield.
+{1}, {T}: Acorn Catapult deals 1 damage to target creature or player. That creature's controller or that player creates a 1/1 green Squirrel creature token.
 
 Name:   Acorn Harvest
 Cost:   3G
 Type:   Sorcery
 S/R:    TOR-C
-Put two 1/1 green Squirrel creature tokens onto the battlefield.
+Create two 1/1 green Squirrel creature tokens.
 Flashback—{1}{G}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Acquire
@@ -719,10 +591,17 @@ P/T:    2/4
 S/R:    US-C
 Echo {1}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 
+Name:   Acrobatic Maneuver
+Cost:   2W
+Type:   Instant
+S/R:    KLD-C
+Exile target creature you control, then return that card to the battlefield under its owner's control.
+Draw a card.
+
 Name:   Act of Aggression
 Cost:   3(R/P)(R/P)
 Type:   Instant
-S/R:    NPH-U
+S/R:    NPH-U, C15-U
 ({(r/p)} can be paid with either {R} or 2 life.)
 Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.
 
@@ -736,8 +615,8 @@ At the beginning of your upkeep, you may exile target artifact or enchantment. I
 Name:   Act of Treason
 Cost:   2R
 Type:   Sorcery
-S/R:    M10-U, M11-C, M12-C, GTC-C, M14-C, KTK-C
-Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+S/R:    M10-U, M11-C, M12-C, GTC-C, M14-C, KTK-C, ORI-C, DDN-C
+Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)
 
 Name:   Act on Impulse
 Cost:   2R
@@ -748,7 +627,7 @@ Exile the top three cards of your library. Until end of turn, you may play cards
 Name:   Active Volcano
 Cost:   R
 Type:   Instant
-S/R:    LE-C, CH-C
+S/R:    LE-C, CH-C, ME3-U
 Choose one —
 • Destroy target blue permanent.
 • Return target Island to its owner's hand.
@@ -786,7 +665,7 @@ Name:   Adarkar Sentinel
 Cost:   5
 Type:   Artifact Creature — Soldier
 P/T:    3/3
-S/R:    IA-U
+S/R:    IA-U, ME2-C
 {1}: Adarkar Sentinel gets +0/+1 until end of turn.
 
 Name:   Adarkar Unicorn
@@ -794,20 +673,20 @@ Cost:   1WW
 Type:   Creature — Unicorn
 P/T:    2/2
 S/R:    IA-C
-{T}: Add {U} or {1}{U} to your mana pool. Spend this mana only to pay cumulative upkeep costs.
+{T}: Add {U} or {C}{U} to your mana pool. Spend this mana only to pay cumulative upkeep costs.
 
 Name:   Adarkar Valkyrie
 Cost:   4WW
 Type:   Snow Creature — Angel
 P/T:    4/5
-S/R:    CSP-R, C14-R
+S/R:    CSP-R, MMA-R, C14-R
 Flying, vigilance
 {T}: When target creature other than Adarkar Valkyrie dies this turn, return that card to the battlefield under your control.
 
 Name:   Adarkar Wastes
 Type:   Land
 S/R:    IA-R, 5E-R, 6E-R, 7E-R, 9ED-R, 10E-R
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {T}: Add {W} or {U} to your mana pool. Adarkar Wastes deals 1 damage to you.
 
 Name:   Adarkar Windform
@@ -828,7 +707,7 @@ When Adder-Staff Boggart enters the battlefield, clash with an opponent. If you 
 Name:   Addle
 Cost:   1B
 Type:   Sorcery
-S/R:    IN-U
+S/R:    IN-U, VMA-C
 Choose a color. Target player reveals his or her hand and you choose a card of that color from it. That player discards that card.
 
 Name:   Admonition Angel
@@ -840,11 +719,19 @@ Flying
 Landfall — Whenever a land enters the battlefield under your control, you may exile target nonland permanent other than Admonition Angel.
 When Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.
 
+Name:   Adriana, Captain of the Guard
+Cost:   3RW
+Type:   Legendary Creature — Human Knight
+P/T:    4/4
+S/R:    CN2-R
+Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)
+Other creatures you control have melee. (If a creature has multiple instances of melee, each triggers separately.)
+
 Name:   Adun Oakenshield
 Cost:   BRG
 Type:   Legendary Creature — Human Knight
 P/T:    1/2
-S/R:    LE-R
+S/R:    LE-R, MED-R
 {B}{R}{G}, {T}: Return target creature card from your graveyard to your hand.
 
 Name:   Advance Scout
@@ -863,11 +750,19 @@ S/R:    5DN-C
 Flying
 {U}: Advanced Hoverguard gains shroud until end of turn. (It can't be the target of spells or abilities.)
 
+Name:   Advanced Stitchwing
+Cost:   3UU
+Type:   Creature — Zombie Horror
+P/T:    3/4
+S/R:    EMN-U
+Flying
+{2}{U}, Discard two cards: Return Advanced Stitchwing from your graveyard to the battlefield tapped.
+
 Name:   Advent of the Wurm
 Cost:   1GGW
 Type:   Instant
 S/R:    DGM-R
-Put a 5/5 green Wurm creature token with trample onto the battlefield.
+Create a 5/5 green Wurm creature token with trample.
 
 Name:   Adventurers' Guildhouse
 Type:   Land
@@ -880,6 +775,13 @@ Type:   Artifact — Equipment
 S/R:    ZEN-C
 Landfall — Whenever a land enters the battlefield under your control, equipped creature gets +2/+2 until end of turn.
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
+
+Name:   Adverse Conditions
+Cost:   3U
+Type:   Instant
+S/R:    BFZ-U
+Devoid (This card has no color.)
+Tap up to two target creatures. Those creatures don't untap during their controller's next untap step. Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
 
 Name:   Advice from the Fae
 Cost:   (2/U)(2/U)(2/U)
@@ -899,7 +801,7 @@ Name:   Aegis Angel
 Cost:   4WW
 Type:   Creature — Angel
 P/T:    5/5
-S/R:    M12-R, M15-R
+S/R:    M12-R, M15-R, ORI-R, W16-R
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 When Aegis Angel enters the battlefield, another target permanent gains indestructible for as long as you control Aegis Angel. (Effects that say "destroy" don't destroy it. A creature with indestructible can't be destroyed by damage.)
 
@@ -925,17 +827,24 @@ S/R:    IA-R
 Name:   Aeolipile
 Cost:   2
 Type:   Artifact
-S/R:    FE-R
+S/R:    FE-R, ME2-C
 {1}, {T}, Sacrifice Aeolipile: Aeolipile deals 2 damage to target creature or player.
 
 Name:   Aeon Chronicler
 Cost:   3UU
 Type:   Creature — Avatar
 P/T:    */*
-S/R:    PLC-R
+S/R:    PLC-R, C16-R, DDM-R
 Aeon Chronicler's power and toughness are each equal to the number of cards in your hand.
 Suspend X—{X}{3}{U}. X can't be 0. (Rather than cast this card from your hand, you may pay {X}{3}{U} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 Whenever a time counter is removed from Aeon Chronicler while it's exiled, draw a card.
+
+Name:   Aerathi Berserker
+Cost:   2RRR
+Type:   Creature — Human Berserker
+P/T:    2/4
+S/R:    LE-U
+Rampage 3 (Whenever this creature becomes blocked, it gets +3/+3 until end of turn for each creature blocking it beyond the first.)
 
 Name:   Aerial Caravan
 Cost:   4UU
@@ -963,6 +872,19 @@ Cost:   2G
 Type:   Instant
 S/R:    RTR-C
 Destroy target creature with flying. You gain 2 life.
+
+Name:   Aerial Responder
+Cost:   1WW
+Type:   Creature — Dwarf Soldier
+P/T:    2/3
+S/R:    KLD-U
+Flying, vigilance, lifelink
+
+Name:   Aerial Volley
+Cost:   G
+Type:   Instant
+S/R:    ORI-C
+Aerial Volley deals 3 damage divided as you choose among one, two, or three target creatures with flying.
 
 Name:   Aerie Bowmasters
 Cost:   2GG
@@ -993,7 +915,7 @@ Cost:   3U
 Type:   Creature — Human Cleric
 P/T:    2/4
 S/R:    BNG-U
-Inspired — Whenever Aerie Worshippers becomes untapped, you may pay {2}{U}. If you do, put a 2/2 blue Bird enchantment creature token with flying onto the battlefield.
+Inspired — Whenever Aerie Worshippers becomes untapped, you may pay {2}{U}. If you do, create a 2/2 blue Bird enchantment creature token with flying.
 
 Name:   Aeronaut Tinkerer
 Cost:   2U
@@ -1006,17 +928,298 @@ Name:   Aesthir Glider
 Cost:   3
 Type:   Artifact Creature — Bird
 P/T:    2/1
-S/R:    AI-C
+S/R:    AI-C, ME4-C
 Flying
 Aesthir Glider can't block.
+
+Name:   Aether Adept
+Cost:   1UU
+Type:   Creature — Human Wizard
+P/T:    2/2
+S/R:    M11-C, M12-C, DDM-C
+When Aether Adept enters the battlefield, return target creature to its owner's hand.
+
+Name:   Aether Barrier
+Cost:   2U
+Type:   Enchantment
+S/R:    NE-R
+Whenever a player casts a creature spell, that player sacrifices a permanent unless he or she pays {1}.
+
+Name:   Aether Burst
+Cost:   1U
+Type:   Instant
+S/R:    OD-C
+Return up to X target creatures to their owners' hands, where X is one plus the number of cards named Aether Burst in all graveyards as you cast Aether Burst.
+
+Name:   Aether Charge
+Cost:   4R
+Type:   Enchantment
+S/R:    ONS-U
+Whenever a Beast enters the battlefield under your control, you may have it deal 4 damage to target opponent.
+
+Name:   Aether Figment
+Cost:   1U
+Type:   Creature — Illusion
+P/T:    1/1
+S/R:    ZEN-U, DDM-U
+Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Aether Figment can't be blocked.
+If Aether Figment was kicked, it enters the battlefield with two +1/+1 counters on it.
+
+Name:   Aether Flash
+Cost:   2RR
+Type:   Enchantment
+S/R:    WL-U, 6E-U, 7E-U
+Whenever a creature enters the battlefield, Aether Flash deals 2 damage to it.
+
+Name:   Aether Gale
+Cost:   3UU
+Type:   Sorcery
+S/R:    C14-R
+Return six target nonland permanents to their owners' hands.
+
+Name:   Aether Hub
+Type:   Land
+S/R:    KLD-U
+When Aether Hub enters the battlefield, you get {E} (an energy counter).
+{T}: Add {C} to your mana pool.
+{T}, Pay {E}: Add one mana of any color to your mana pool.
+
+Name:   Aether Meltdown
+Cost:   1U
+Type:   Enchantment — Aura
+S/R:    KLD-U
+Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature or Vehicle
+When Aether Meltdown enters the battlefield, you get {E}{E} (two energy counters).
+Enchanted permanent gets -4/-0.
+
+Name:   Aether Membrane
+Cost:   1RR
+Type:   Creature — Wall
+P/T:    0/5
+S/R:    PLC-U, DDI-U
+Defender; reach (This creature can block creatures with flying.)
+Whenever Aether Membrane blocks a creature, return that creature to its owner's hand at end of combat.
+
+Name:   Aether Mutation
+Cost:   3GU
+Type:   Sorcery
+S/R:    AP-U, VMA-U
+Return target creature to its owner's hand. Create X 1/1 green Saproling creature tokens, where X is that creature's converted mana cost.
+
+Name:   Aether Rift
+Cost:   1RG
+Type:   Enchantment
+S/R:    IN-R
+At the beginning of your upkeep, discard a card at random. If you discard a creature card this way, return it from your graveyard to the battlefield unless any player pays 5 life.
+
+Name:   Aether Searcher
+Cost:   7
+Type:   Artifact Creature — Construct
+P/T:    6/4
+S/R:    CNS-R
+Reveal Aether Searcher as you draft it. Reveal the next card you draft and note its name.
+When Aether Searcher enters the battlefield, you may search your hand and/or library for a card with a name noted as you drafted cards named Aether Searcher. You may cast it without paying its mana cost. If you searched your library this way, shuffle it.
+
+Name:   Aether Shockwave
+Cost:   3W
+Type:   Instant
+S/R:    SOK-U
+Choose one —
+• Tap all Spirits.
+• Tap all non-Spirit creatures.
+
+Name:   Aether Snap
+Cost:   3BB
+Type:   Sorcery
+S/R:    DST-R, C14-R
+Remove all counters from all permanents and exile all tokens.
+
+Name:   Aether Spellbomb
+Cost:   1
+Type:   Artifact
+S/R:    MRD-C, ARC-C, MMA-C, DDF-C
+{U}, Sacrifice Aether Spellbomb: Return target creature to its owner's hand.
+{1}, Sacrifice Aether Spellbomb: Draw a card.
+
+Name:   Aether Sting
+Cost:   3R
+Type:   Enchantment
+S/R:    UD-U
+Whenever an opponent casts a creature spell, Aether Sting deals 1 damage to that player.
+
+Name:   Aether Storm
+Cost:   3U
+Type:   Enchantment
+S/R:    HL-U, 5E-U, ME2-U
+Creature spells can't be cast.
+Pay 4 life: Destroy Aether Storm. It can't be regenerated. Any player may activate this ability.
+
+Name:   Aether Theorist
+Cost:   1U
+Type:   Creature — Vedalken Rogue
+P/T:    1/3
+S/R:    KLD-C
+When Aether Theorist enters the battlefield, you get {E}{E}{E} (three energy counters).
+{T}, Pay {E}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+
+Name:   Aether Tide
+Cost:   XU
+Type:   Sorcery
+S/R:    EX-C
+As an additional cost to cast Aether Tide, discard X creature cards.
+Return X target creatures to their owners' hands.
+
+Name:   Aether Tradewinds
+Cost:   2U
+Type:   Instant
+S/R:    WWK-C, CNS-C, KLD-C
+Return target permanent you control and target permanent you don't control to their owners' hands.
+
+Name:   Aether Vial
+Cost:   1
+Type:   Artifact
+S/R:    DST-U, MMA-R, MPS-S, V10-M
+At the beginning of your upkeep, you may put a charge counter on Aether Vial.
+{T}: You may put a creature card with converted mana cost equal to the number of charge counters on Aether Vial from your hand onto the battlefield.
+
+Name:   Aether Web
+Cost:   1G
+Type:   Enchantment — Aura
+S/R:    TSP-C
+Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
+Enchanted creature gets +1/+1, has reach, and can block creatures with shadow as though they didn't have shadow. (Creatures with reach can block creatures with flying.)
+
+Name:   Aetherborn Marauder
+Cost:   3B
+Type:   Creature — Aetherborn Rogue
+P/T:    2/2
+S/R:    KLD-U
+Flying, lifelink
+When Aetherborn Marauder enters the battlefield, move any number of +1/+1 counters from other permanents you control onto Aetherborn Marauder.
+
+Name:   Aetherflame Wall
+Cost:   1R
+Type:   Creature — Wall
+P/T:    0/4
+S/R:    TSP-C
+Defender
+Aetherflame Wall can block creatures with shadow as though they didn't have shadow.
+{R}: Aetherflame Wall gets +1/+0 until end of turn.
+
+Name:   Aetherflux Reservoir
+Cost:   4
+Type:   Artifact
+S/R:    KLD-R
+Whenever you cast a spell, you gain 1 life for each spell you've cast this turn.
+Pay 50 life: Aetherflux Reservoir deals 50 damage to target creature or player.
+
+Name:   Aetherize
+Cost:   3U
+Type:   Instant
+S/R:    GTC-U, C15-U, DDO-U
+Return all attacking creatures to their owner's hand.
+
+Name:   Aetherling
+Cost:   4UU
+Type:   Creature — Shapeshifter
+P/T:    4/5
+S/R:    DGM-R
+{U}: Exile Aetherling. Return it to the battlefield under its owner's control at the beginning of the next end step.
+{U}: Aetherling can't be blocked this turn.
+{1}: Aetherling gets +1/-1 until end of turn.
+{1}: Aetherling gets -1/+1 until end of turn.
+
+Name:   Aethermage's Touch
+Cost:   2WU
+Type:   Instant
+S/R:    DIS-R, C13-R
+Reveal the top four cards of your library. You may put a creature card from among them onto the battlefield. It gains "At the beginning of your end step, return this creature to its owner's hand." Then put the rest of the cards revealed this way on the bottom of your library in any order.
+
+Name:   Aetherplasm
+Cost:   2UU
+Type:   Creature — Illusion
+P/T:    1/1
+S/R:    GPT-U
+Whenever Aetherplasm blocks a creature, you may return Aetherplasm to its owner's hand. If you do, you may put a creature card from your hand onto the battlefield blocking that creature.
+
+Name:   Aethersnatch
+Cost:   4UU
+Type:   Instant
+S/R:    C15-R
+Gain control of target spell. You may choose new targets for it. (If that spell becomes a permanent, it enters the battlefield under your control.)
+
+Name:   Aethersnipe
+Cost:   5U
+Type:   Creature — Elemental
+P/T:    4/4
+S/R:    LRW-C, CMD-C, MMA-C, MM2-C, DD2-C
+When Aethersnipe enters the battlefield, return target nonland permanent to its owner's hand.
+Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
+
+Name:   Aetherspouts
+Cost:   3UU
+Type:   Instant
+S/R:    M15-R
+For each attacking creature, its owner puts it on the top or bottom of his or her library.
+
+Name:   Aethersquall Ancient
+Cost:   5UU
+Type:   Creature — Leviathan
+P/T:    6/6
+S/R:    KLD-R
+Flying
+At the beginning of your upkeep, you get {E}{E}{E} (three energy counters).
+Pay {E}{E}{E}{E}{E}{E}{E}{E}: Return all other creatures to their owners' hands. Activate this ability only any time you could cast a sorcery.
+
+Name:   Aetherstorm Roc
+Cost:   2WW
+Type:   Creature — Bird
+P/T:    3/3
+S/R:    KLD-R
+Flying
+Whenever Aetherstorm Roc or another creature enters the battlefield under your control, you get {E} (an energy counter).
+Whenever Aetherstorm Roc attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls.
+
+Name:   Aethertorch Renegade
+Cost:   2R
+Type:   Creature — Human Rogue
+P/T:    1/2
+S/R:    KLD-U
+When Aethertorch Renegade enters the battlefield, you get {E}{E}{E}{E} (four energy counters).
+{T}, Pay {E}{E}: Aethertorch Renegade deals 1 damage to target creature.
+{T}, Pay {E}{E}{E}{E}{E}{E}{E}{E}: Aethertorch Renegade deals 6 damage to target player.
+
+Name:   Aethertow
+Cost:   3(W/U)
+Type:   Instant
+S/R:    SHM-C
+Put target attacking or blocking creature on top of its owner's library.
+Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
+
+Name:   Aetherworks Marvel
+Cost:   4
+Type:   Legendary Artifact
+S/R:    KLD-M
+Whenever a permanent you control is put into a graveyard, you get {E} (an energy counter).
+{T}, Pay {E}{E}{E}{E}{E}{E}: Look at the top six cards of your library. You may cast a card from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.
 
 Name:   Affa Guard Hound
 Cost:   2W
 Type:   Creature — Hound
 P/T:    2/2
-S/R:    ROE-U
-Flash
+S/R:    ROE-U, CN2-U, DDP-U
+Flash (You may cast this spell any time you could cast an instant.)
 When Affa Guard Hound enters the battlefield, target creature gets +0/+3 until end of turn.
+
+Name:   Affa Protector
+Cost:   2W
+Type:   Creature — Human Soldier Ally
+P/T:    1/4
+S/R:    OGW-C
+Vigilance
 
 Name:   Afflict
 Cost:   2B
@@ -1045,13 +1248,13 @@ When Afiya Grove has no +1/+1 counters on it, sacrifice it.
 Name:   Afterlife
 Cost:   2W
 Type:   Instant
-S/R:    MI-U, MM-U, CMD-U, C14-U
-Destroy target creature. It can't be regenerated. Its controller puts a 1/1 white Spirit creature token with flying onto the battlefield.
+S/R:    MI-U, MM-U, CMD-U, C14-U, VMA-C
+Destroy target creature. It can't be regenerated. Its controller creates a 1/1 white Spirit creature token with flying.
 
 Name:   Aftershock
 Cost:   2RR
 Type:   Sorcery
-S/R:    TE-C
+S/R:    TE-C, VMA-C
 Destroy target artifact, creature, or land. Aftershock deals 3 damage to you.
 
 Name:   Agadeem Occultist
@@ -1065,7 +1268,7 @@ Name:   Ageless Entity
 Cost:   3GG
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    DST-R
+S/R:    DST-R, DDH-R
 Whenever you gain life, put that many +1/+1 counters on Ageless Entity.
 
 Name:   Ageless Sentinels
@@ -1172,7 +1375,7 @@ Enchanted creature gets +1/+1 and has flanking. (Whenever a creature without fla
 Name:   Agonizing Demise
 Cost:   3B
 Type:   Instant
-S/R:    IN-C
+S/R:    IN-C, DDH-C
 Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
 Destroy target nonblack creature. It can't be regenerated. If Agonizing Demise was kicked, it deals damage equal to that creature's power to the creature's controller.
 
@@ -1185,14 +1388,14 @@ Look at target player's hand and choose two cards from it. Put them on top of th
 Name:   Agony Warp
 Cost:   UB
 Type:   Instant
-S/R:    ALA-C, ARC-C
+S/R:    ALA-C, ARC-C, MM2-U
 Target creature gets -3/-0 until end of turn.
 Target creature gets -0/-3 until end of turn.
 
 Name:   Agoraphobia
 Cost:   1U
 Type:   Enchantment — Aura
-S/R:    GTC-U
+S/R:    GTC-U, DDM-U
 Enchant creature
 Enchanted creature gets -5/-0.
 {2}{U}: Return Agoraphobia to its owner's hand.
@@ -1203,6 +1406,12 @@ Type:   Legendary Creature — Human Soldier
 P/T:    3/3
 S/R:    RAV-R
 Whenever Agrus Kos, Wojek Veteran attacks, attacking red creatures get +2/+0 and attacking white creatures get +0/+2 until end of turn.
+
+Name:   Aim High
+Cost:   1G
+Type:   Instant
+S/R:    SOI-C
+Untap target creature. It gets +2/+2 and gains reach until end of turn. (It can block creatures with flying.)
 
 Name:   Ainok Artillerist
 Cost:   2G
@@ -1256,14 +1465,14 @@ Name:   Air Elemental
 Cost:   3UU
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, P2-U, 6E-U, S99-U, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, P2-U, 6E-U, S99-U, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, DD2-U, ME4-U
 Flying
 
 Name:   Air Servant
 Cost:   4U
 Type:   Creature — Elemental
 P/T:    4/3
-S/R:    M11-U, M14-U, CNS-U
+S/R:    M11-U, M14-U, CNS-U, MM2-U, W16-U
 Flying
 {2}{U}: Tap target creature with flying.
 
@@ -1295,7 +1504,7 @@ P/T:    4
 S/R:    LRW-R, M10-M, M11-M
 [+1]: You gain 2 life.
 [-1]: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.
-[-6]: Put a white Avatar creature token onto the battlefield. It has "This creature's power and toughness are each equal to your life total."
+[-6]: Create a white Avatar creature token. It has "This creature's power and toughness are each equal to your life total."
 
 Name:   Ajani Steadfast
 Cost:   3W
@@ -1310,7 +1519,7 @@ Name:   Ajani Vengeant
 Cost:   2RW
 Type:   Planeswalker — Ajani
 P/T:    3
-S/R:    ALA-M
+S/R:    ALA-M, DDH-M
 [+1]: Target permanent doesn't untap during its controller's next untap step.
 [-2]: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
 [-7]: Destroy all lands target player controls.
@@ -1319,13 +1528,13 @@ Name:   Ajani's Chosen
 Cost:   2WW
 Type:   Creature — Cat Soldier
 P/T:    3/3
-S/R:    M14-R
-Whenever an enchantment enters the battlefield under your control, put a 2/2 white Cat creature token onto the battlefield. If that enchantment is an Aura, you may attach it to the token.
+S/R:    M14-R, C15-R
+Whenever an enchantment enters the battlefield under your control, create a 2/2 white Cat creature token. If that enchantment is an Aura, you may attach it to the token.
 
 Name:   Ajani's Mantra
 Cost:   1W
 Type:   Enchantment
-S/R:    M11-C
+S/R:    M11-C, DDH-C
 At the beginning of your upkeep, you may gain 1 life.
 
 Name:   Ajani's Presence
@@ -1339,7 +1548,7 @@ Name:   Ajani's Pridemate
 Cost:   1W
 Type:   Creature — Cat Soldier
 P/T:    2/2
-S/R:    M11-U, C13-U, M15-U
+S/R:    M11-U, C13-U, M15-U, DDH-U
 Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate.
 
 Name:   Ajani's Sunstriker
@@ -1356,7 +1565,7 @@ P/T:    4
 S/R:    M13-M, M14-M
 [+1]: Put a +1/+1 counter on up to one target creature.
 [-3]: Target creature gains flying and double strike until end of turn.
-[-8]: Put X 2/2 white Cat creature tokens onto the battlefield, where X is your life total.
+[-8]: Create X 2/2 white Cat creature tokens, where X is your life total.
 
 Name:   Ajani, Mentor of Heroes
 Cost:   3GW
@@ -1366,6 +1575,15 @@ S/R:    JOU-M
 [+1]: Distribute three +1/+1 counters among one, two, or three target creatures you control.
 [+1]: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 [-8]: You gain 100 life.
+
+Name:   Akiri, Line-Slinger
+Cost:   RW
+Type:   Legendary Creature — Kor Soldier Ally
+P/T:    0/3
+S/R:    C16-R
+First strike, vigilance
+Akiri, Line-Slinger gets +1/+0 for each artifact you control.
+Partner (You can have two commanders if both have partner.)
 
 Name:   Akki Avalanchers
 Cost:   R
@@ -1385,7 +1603,7 @@ Name:   Akki Coalflinger
 Cost:   1RR
 Type:   Creature — Goblin Shaman
 P/T:    2/2
-S/R:    CHK-U
+S/R:    CHK-U, EVG-U
 First strike
 {R}, {T}: Attacking creatures gain first strike until end of turn.
 
@@ -1449,12 +1667,43 @@ P/T:    4/5
 S/R:    ROE-U
 When Akoum Boulderfoot enters the battlefield, it deals 1 damage to target creature or player.
 
+Name:   Akoum Firebird
+Cost:   2RR
+Type:   Creature — Phoenix
+P/T:    3/3
+S/R:    BFZ-M
+Flying, haste
+Akoum Firebird attacks each turn if able.
+Landfall — Whenever a land enters the battlefield under your control, you may pay {4}{R}{R}. If you do, return Akoum Firebird from your graveyard to the battlefield.
+
+Name:   Akoum Flameseeker
+Cost:   2R
+Type:   Creature — Human Shaman Ally
+P/T:    3/2
+S/R:    OGW-C
+Cohort — {T}, Tap an untapped Ally you control: Discard a card. If you do, draw a card.
+
+Name:   Akoum Hellkite
+Cost:   4RR
+Type:   Creature — Dragon
+P/T:    4/4
+S/R:    BFZ-R
+Flying
+Landfall — Whenever a land enters the battlefield under your control, Akoum Hellkite deals 1 damage to target creature or player. If that land is a Mountain, Akoum Hellkite deals 2 damage to that creature or player instead.
+
 Name:   Akoum Refuge
 Type:   Land
-S/R:    ZEN-U, CMD-U, C13-U
+S/R:    ZEN-U, CMD-U, C13-U, DDK-U, DDP-U
 Akoum Refuge enters the battlefield tapped.
 When Akoum Refuge enters the battlefield, you gain 1 life.
 {T}: Add {B} or {R} to your mana pool.
+
+Name:   Akoum Stonewaker
+Cost:   1R
+Type:   Creature — Human Shaman
+P/T:    2/1
+S/R:    BFZ-U
+Landfall — Whenever a land enters the battlefield under your control, you may pay {2}{R}. If you do, create a 3/1 red Elemental creature token with trample and haste. Exile that token at the beginning of the next end step.
 
 Name:   Akrasan Squire
 Cost:   W
@@ -1475,30 +1724,37 @@ Cost:   R
 Type:   Creature — Human Soldier
 P/T:    1/1
 S/R:    THS-C
-Heroic — Whenever you cast a spell that targets Akroan Crusader, put a 1/1 red Soldier creature token with haste onto the battlefield.
+Heroic — Whenever you cast a spell that targets Akroan Crusader, create a 1/1 red Soldier creature token with haste.
 
 Name:   Akroan Hoplite
 Cost:   RW
 Type:   Creature — Human Soldier
 P/T:    1/2
-S/R:    THS-U
+S/R:    THS-U, CN2-U
 Whenever Akroan Hoplite attacks, it gets +X/+0 until end of turn, where X is the number of attacking creatures you control.
 
 Name:   Akroan Horse
 Cost:   4
 Type:   Artifact Creature — Horse
 P/T:    0/4
-S/R:    THS-R
+S/R:    THS-R, C16-R
 Defender
 When Akroan Horse enters the battlefield, an opponent gains control of it.
-At the beginning of your upkeep, each opponent puts a 1/1 white Soldier creature token onto the battlefield.
+At the beginning of your upkeep, each opponent creates a 1/1 white Soldier creature token.
+
+Name:   Akroan Jailer
+Cost:   W
+Type:   Creature — Human Soldier
+P/T:    1/1
+S/R:    ORI-C
+{2}{W}, {T}: Tap target creature.
 
 Name:   Akroan Line Breaker
 Cost:   2R
 Type:   Creature — Human Warrior
 P/T:    2/1
 S/R:    JOU-U
-Heroic — Whenever you cast a spell that targets Akroan Line Breaker, Akroan Line Breaker gets +2/+0 and gains intimidate until end of turn.
+Heroic — Whenever you cast a spell that targets Akroan Line Breaker, Akroan Line Breaker gets +2/+0 and gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 
 Name:   Akroan Mastiff
 Cost:   3W
@@ -1515,6 +1771,14 @@ S/R:    BNG-U
 Vigilance
 {2}{R}: Creatures you control get +1/+0 until end of turn.
 
+Name:   Akroan Sergeant
+Cost:   2R
+Type:   Creature — Human Soldier
+P/T:    2/2
+S/R:    ORI-C
+First strike (This creature deals combat damage before creatures without first strike.)
+Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
+
 Name:   Akroan Skyguard
 Cost:   1W
 Type:   Creature — Human Soldier
@@ -1526,7 +1790,7 @@ Heroic — Whenever you cast a spell that targets Akroan Skyguard, put a +1/+1 c
 Name:   Akroma's Blessing
 Cost:   2W
 Type:   Instant
-S/R:    ONS-U
+S/R:    ONS-U, VMA-U
 Choose a color. Creatures you control gain protection from the chosen color until end of turn.
 Cycling {W} ({W}, Discard this card: Draw a card.)
 
@@ -1546,7 +1810,7 @@ Creatures you control have flying, first strike, vigilance, trample, haste, and 
 Name:   Akroma's Vengeance
 Cost:   4WW
 Type:   Sorcery
-S/R:    ONS-R, CMD-R, HOP-R
+S/R:    ONS-R, HOP-R, CMD-R, V13-M
 Destroy all artifacts, creatures, and enchantments.
 Cycling {3} ({3}, Discard this card: Draw a card.)
 
@@ -1554,7 +1818,7 @@ Name:   Akroma, Angel of Fury
 Cost:   5RRR
 Type:   Legendary Creature — Angel
 P/T:    6/6
-S/R:    PLC-R, CMD-R
+S/R:    PLC-R, CMD-R, V15-M
 Akroma, Angel of Fury can't be countered.
 Flying, trample, protection from white and from blue
 {R}: Akroma, Angel of Fury gets +1/+0 until end of turn.
@@ -1564,14 +1828,14 @@ Name:   Akroma, Angel of Wrath
 Cost:   5WWW
 Type:   Legendary Creature — Angel
 P/T:    6/6
-S/R:    LGN-R, TSP-S
+S/R:    LGN-R, TSP-S, DDC-M, V15-M
 Flying, first strike, vigilance, trample, haste, protection from black and from red
 
 Name:   Akron Legionnaire
 Cost:   6WW
 Type:   Creature — Giant Soldier
 P/T:    8/4
-S/R:    LE-R, CH-R, 5E-R
+S/R:    LE-R, CH-R, 5E-R, ME3-R
 Except for creatures named Akron Legionnaire and artifact creatures, creatures you control can't attack.
 
 Name:   Aku Djinn
@@ -1593,7 +1857,7 @@ At the beginning of your upkeep, if you have more cards in hand than each oppone
 Name:   Al-abara's Carpet
 Cost:   5
 Type:   Artifact
-S/R:    LE-R
+S/R:    LE-R, ME4-R
 {5}, {T}: Prevent all damage that would be dealt to you this turn by attacking creatures without flying.
 
 Name:   Alabaster Dragon
@@ -1628,7 +1892,7 @@ S/R:    M12-U
 Name:   Alabaster Potion
 Cost:   XWW
 Type:   Instant
-S/R:    LE-C, 4E-C, 5E-C
+S/R:    LE-C, 4E-C, 5E-C, ME3-U
 Choose one —
 • Target player gains X life.
 • Prevent the next X damage that would be dealt to target creature or player this turn.
@@ -1645,7 +1909,7 @@ Name:   Alaborn Cavalier
 Cost:   2WW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    P2-U
+S/R:    P2-U, DDG-U
 Whenever Alaborn Cavalier attacks, you may tap target creature.
 
 Name:   Alaborn Grenadier
@@ -1659,14 +1923,14 @@ Name:   Alaborn Musketeer
 Cost:   1W
 Type:   Creature — Human Soldier
 P/T:    2/1
-S/R:    P2-C
+S/R:    P2-C, ME4-C
 Reach (This creature can block creatures with flying.)
 
 Name:   Alaborn Trooper
 Cost:   2W
 Type:   Creature — Human Soldier
 P/T:    2/3
-S/R:    P2-C
+S/R:    P2-C, ME4-C
 
 Name:   Alaborn Veteran
 Cost:   2W
@@ -1686,7 +1950,7 @@ Name:   Aladdin
 Cost:   2RR
 Type:   Creature — Human Rogue
 P/T:    1/1
-S/R:    AN-R, CH-U
+S/R:    AN-R, CH-U, ME4-R
 {1}{R}{R}, {T}: Gain control of target artifact for as long as you control Aladdin.
 
 Name:   Aladdin's Lamp
@@ -1711,7 +1975,7 @@ Name:   Albino Troll
 Cost:   1G
 Type:   Creature — Troll
 P/T:    3/3
-S/R:    US-U
+S/R:    US-U, DDD-U
 Echo {1}{G} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 {1}{G}: Regenerate Albino Troll.
 
@@ -1722,16 +1986,30 @@ P/T:    1/1
 S/R:    AVR-C
 Sacrifice Alchemist's Apprentice: Draw a card.
 
+Name:   Alchemist's Greeting
+Cost:   4R
+Type:   Sorcery
+S/R:    EMN-C
+Alchemist's Greeting deals 4 damage to target creature.
+Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+
 Name:   Alchemist's Refuge
 Type:   Land
 S/R:    AVR-R
-{T}: Add {1} to your mana pool.
-{G}{U}, {T}: You may cast nonland cards this turn as though they had flash.
+{T}: Add {C} to your mana pool.
+{G}{U}, {T}: You may cast spells this turn as though they had flash.
+
+Name:   Alchemist's Vial
+Cost:   2
+Type:   Artifact
+S/R:    ORI-C
+When Alchemist's Vial enters the battlefield, draw a card.
+{1}, {T}, Sacrifice Alchemist's Vial: Target creature can't attack or block this turn.
 
 Name:   Alchor's Tomb
 Cost:   4
 Type:   Artifact
-S/R:    LE-R
+S/R:    LE-R, ME4-R
 {2}, {T}: Target permanent you control becomes the color of your choice. (This effect lasts indefinitely.)
 
 Name:   Aleatory
@@ -1760,7 +2038,7 @@ Name:   Alesha, Who Smiles at Death
 Cost:   2R
 Type:   Legendary Creature — Human Warrior
 P/T:    3/2
-S/R:    FRF-R
+S/R:    FRF-R, C16-R
 First strike
 Whenever Alesha, Who Smiles at Death attacks, you may pay {(w/b)}{(w/b)}. If you do, return target creature card with power 2 or less from your graveyard to the battlefield tapped and attacking.
 
@@ -1783,9 +2061,25 @@ Name:   Algae Gharial
 Cost:   3G
 Type:   Creature — Crocodile
 P/T:    1/1
-S/R:    ALA-U
+S/R:    ALA-U, MM2-U
 Shroud (This creature can't be the target of spells or abilities.)
 Whenever another creature dies, you may put a +1/+1 counter on Algae Gharial.
+
+Name:   Alhammarret's Archive
+Cost:   5
+Type:   Legendary Artifact
+S/R:    ORI-M
+If you would gain life, you gain twice that much life instead.
+If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.
+
+Name:   Alhammarret, High Arbiter
+Cost:   5UU
+Type:   Legendary Creature — Sphinx
+P/T:    5/5
+S/R:    ORI-R
+Flying
+As Alhammarret, High Arbiter enters the battlefield, each opponent reveals his or her hand. You choose the name of a nonland card revealed this way.
+Your opponents can't cast spells with the chosen name (as long as this creature is on the battlefield).
 
 Name:   Ali Baba
 Cost:   R
@@ -1798,7 +2092,7 @@ Name:   Ali from Cairo
 Cost:   2RR
 Type:   Creature — Human
 P/T:    0/1
-S/R:    AN-R
+S/R:    AN-R, ME4-R
 Damage that would reduce your life total to less than 1 reduces it to 1 instead.
 
 Name:   Aliban's Tower
@@ -1807,32 +2101,38 @@ Type:   Instant
 S/R:    HL-C
 Target blocking creature gets +3/+1 until end of turn.
 
+Name:   Aligned Hedron Network
+Cost:   4
+Type:   Artifact
+S/R:    BFZ-R
+When Aligned Hedron Network enters the battlefield, exile all creatures with power 5 or greater until Aligned Hedron Network leaves the battlefield. (Those creatures return under their owners' control.)
+
 Name:   Alive
 Cost:   3G
 Type:   Sorcery
 M-type: Split
 M-card: Well
 S/R:    DGM-U
-Put a 3/3 green Centaur creature token onto the battlefield.
+Create a 3/3 green Centaur creature token.
 Fuse (You may cast one or both halves of this card from your hand.)
 
 Name:   All Hallow's Eve
 Cost:   2BB
 Type:   Sorcery
-S/R:    LE-R
+S/R:    LE-R, ME3-R
 Exile All Hallow's Eve with two scream counters on it.
 At the beginning of your upkeep, if All Hallow's Eve is exiled with a scream counter on it, remove a scream counter from it. If there are no more scream counters on it, put it into your graveyard and each player returns all creature cards from his or her graveyard to the battlefield.
 
 Name:   All Is Dust
 Cost:   7
 Type:   Tribal Sorcery — Eldrazi
-S/R:    ROE-M
+S/R:    ROE-M, MM2-R
 Each player sacrifices all colored permanents he or she controls.
 
 Name:   All Suns' Dawn
 Cost:   4G
 Type:   Sorcery
-S/R:    5DN-R
+S/R:    5DN-R, MM2-R
 For each color, return up to one target card of that color from your graveyard to your hand. Exile All Suns' Dawn.
 
 Name:   Allay
@@ -1853,19 +2153,25 @@ Name:   Alliance of Arms
 Cost:   W
 Type:   Sorcery
 S/R:    CMD-R
-Join forces — Starting with you, each player may pay any amount of mana. Each player puts X 1/1 white Soldier creature tokens onto the battlefield, where X is the total amount of mana paid this way.
+Join forces — Starting with you, each player may pay any amount of mana. Each player creates X 1/1 white Soldier creature tokens, where X is the total amount of mana paid this way.
+
+Name:   Allied Reinforcements
+Cost:   3W
+Type:   Sorcery
+S/R:    OGW-U
+Create two 2/2 white Knight Ally creature tokens.
 
 Name:   Allied Strategies
 Cost:   4U
 Type:   Sorcery
-S/R:    PS-U
+S/R:    PS-U, DDE-U
 Domain — Target player draws a card for each basic land type among lands he or she controls.
 
 Name:   Allosaurus Rider
 Cost:   5GG
 Type:   Creature — Elf Warrior
 P/T:    1+*/1+*
-S/R:    CSP-R
+S/R:    CSP-R, EVG-R
 You may exile two green cards from your hand rather than pay Allosaurus Rider's mana cost.
 Allosaurus Rider's power and toughness are each equal to 1 plus the number of lands you control.
 
@@ -1881,13 +2187,13 @@ Name:   Alloy Myr
 Cost:   3
 Type:   Artifact Creature — Myr
 P/T:    2/2
-S/R:    NPH-U
+S/R:    NPH-U, MM2-C
 {T}: Add one mana of any color to your mana pool.
 
 Name:   Alluring Scent
 Cost:   1GG
 Type:   Sorcery
-S/R:    P1-R, P2-R, S99-R
+S/R:    P1-R, P2-R, S99-R, ME4-C
 All creatures able to block target creature this turn do so.
 
 Name:   Alluring Siren
@@ -1896,6 +2202,13 @@ Type:   Creature — Siren
 P/T:    1/1
 S/R:    M10-U, M11-U, M12-U
 {T}: Target creature an opponent controls attacks you this turn if able.
+
+Name:   Ally Encampment
+Type:   Land
+S/R:    BFZ-R
+{T}: Add {C} to your mana pool.
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast an Ally spell.
+{1}, {T}, Sacrifice Ally Encampment: Return target Ally you control to its owner's hand.
 
 Name:   Alms
 Cost:   W
@@ -1909,6 +2222,13 @@ Type:   Creature — Beast
 P/T:    6/6
 S/R:    GTC-R
 Creatures blocking or blocked by Alms Beast have lifelink.
+
+Name:   Alms of the Vein
+Cost:   2B
+Type:   Sorcery
+S/R:    SOI-C
+Target opponent loses 3 life and you gain 3 life.
+Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Alpha Authority
 Cost:   1G
@@ -2014,7 +2334,7 @@ Exile target artifact or enchantment.
 Name:   Altar's Reap
 Cost:   1B
 Type:   Instant
-S/R:    ISD-C, M14-C, CNS-C
+S/R:    ISD-C, M14-C, CNS-C, BFZ-C, C15-C, CN2-C, DDR-C
 As an additional cost to cast Altar's Reap, sacrifice a creature.
 Draw two cards.
 
@@ -2025,11 +2345,25 @@ S/R:    TOR-R
 Change the text of target spell or permanent by replacing all instances of one color word with another. (This effect lasts indefinitely.)
 Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
+Name:   Altered Ego
+Cost:   X2GU
+Type:   Creature — Shapeshifter
+P/T:    0/0
+S/R:    SOI-R
+Altered Ego can't be countered.
+You may have Altered Ego enter the battlefield as a copy of any creature on the battlefield, except it enters with X additional +1/+1 counters on it.
+
 Name:   Aluren
 Cost:   2GG
 Type:   Enchantment
 S/R:    TE-R
-Any player may play creature cards with converted mana cost 3 or less without paying their mana cost and as though they had flash.
+Any player may cast creature spells with converted mana cost 3 or less without paying their mana cost and as though they had flash.
+
+Name:   Always Watching
+Cost:   1WW
+Type:   Enchantment
+S/R:    SOI-R
+Nontoken creatures you control get +1/+1 and have vigilance.
 
 Name:   Amass the Components
 Cost:   3U
@@ -2049,7 +2383,7 @@ Cost:   3G
 Type:   Creature — Treefolk Warrior
 P/T:    3/3
 S/R:    MOR-C
-When Ambassador Oak enters the battlefield, put a 1/1 green Elf Warrior creature token onto the battlefield.
+When Ambassador Oak enters the battlefield, create a 1/1 green Elf Warrior creature token.
 
 Name:   Amber Prison
 Cost:   4
@@ -2061,8 +2395,15 @@ You may choose not to untap Amber Prison during your untap step.
 Name:   Ambition's Cost
 Cost:   3B
 Type:   Sorcery
-S/R:    P3K-R, 8ED-U
+S/R:    P3K-R, 8ED-U, C15-U, DDR-U
 You draw three cards and you lose 3 life.
+
+Name:   Ambitious Aetherborn
+Cost:   4B
+Type:   Creature — Aetherborn Artificer
+P/T:    4/3
+S/R:    KLD-C
+Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)
 
 Name:   Ambuscade Shaman
 Cost:   2B
@@ -2082,7 +2423,7 @@ Name:   Ambush Commander
 Cost:   3GG
 Type:   Creature — Elf
 P/T:    2/2
-S/R:    SCG-R
+S/R:    SCG-R, EVG-R
 Forests you control are 1/1 green Elf creatures that are still lands.
 {1}{G}, Sacrifice an Elf: Target creature gets +3/+3 until end of turn.
 
@@ -2098,7 +2439,7 @@ Name:   Ambush Party
 Cost:   4R
 Type:   Creature — Human Rogue
 P/T:    3/1
-S/R:    HL-C, 5E-C
+S/R:    HL-C, 5E-C, ME2-C
 First strike, haste
 
 Name:   Ambush Viper
@@ -2112,15 +2453,15 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 Name:   Amnesia
 Cost:   3UUU
 Type:   Sorcery
-S/R:    DK-U
+S/R:    DK-U, MED-R
 Target player reveals his or her hand and discards all nonland cards.
 
 Name:   Amoeboid Changeling
 Cost:   1U
 Type:   Creature — Shapeshifter
 P/T:    1/1
-S/R:    LRW-C
-Changeling (This card is every creature type at all times.)
+S/R:    LRW-C, H09-C
+Changeling (This card is every creature type.)
 {T}: Target creature gains all creature types until end of turn.
 {T}: Target creature loses all creature types until end of turn.
 
@@ -2150,25 +2491,32 @@ P/T:    3/2
 S/R:    M15-C
 {2}{U}: Target creature can't be blocked this turn.
 
+Name:   Ampryn Tactician
+Cost:   2WW
+Type:   Creature — Human Soldier
+P/T:    3/3
+S/R:    ORI-C
+When Ampryn Tactician enters the battlefield, creatures you control get +1/+1 until end of turn.
+
 Name:   Amrou Kithkin
 Cost:   WW
 Type:   Creature — Kithkin
 P/T:    1/1
-S/R:    LE-C, 4E-C
+S/R:    LE-C, 4E-C, ME3-C
 Amrou Kithkin can't be blocked by creatures with power 3 or greater.
 
 Name:   Amrou Scout
 Cost:   1W
 Type:   Creature — Kithkin Rebel Scout
 P/T:    2/1
-S/R:    TSP-C
+S/R:    TSP-C, MMA-C
 {4}, {T}: Search your library for a Rebel permanent card with converted mana cost 3 or less and put it onto the battlefield. Then shuffle your library.
 
 Name:   Amrou Seekers
 Cost:   2W
 Type:   Creature — Kithkin Rebel
 P/T:    2/2
-S/R:    TSP-C
+S/R:    TSP-C, MMA-C
 Amrou Seekers can't be blocked except by artifact creatures and/or white creatures.
 
 Name:   Amugaba
@@ -2182,7 +2530,7 @@ Flying
 Name:   Amulet of Kroog
 Cost:   2
 Type:   Artifact
-S/R:    AQ-C, 4E-C, 5E-C
+S/R:    AQ-C, 4E-C, 5E-C, ME4-C
 {2}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
 
 Name:   Amulet of Unmaking
@@ -2213,14 +2561,14 @@ You gain X plus 1 life, where X is the number of green creatures on the battlefi
 Name:   An-Havva Township
 Type:   Land
 S/R:    HL-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}, {T}: Add {G} to your mana pool.
 {2}, {T}: Add {R} or {W} to your mana pool.
 
 Name:   An-Zerrin Ruins
 Cost:   2RR
 Type:   Enchantment
-S/R:    HL-R
+S/R:    HL-R, ME2-R
 As An-Zerrin Ruins enters the battlefield, choose a creature type.
 Creatures of the chosen type don't untap during their controllers' untap steps.
 
@@ -2251,7 +2599,7 @@ Name:   Anaba Ancestor
 Cost:   1R
 Type:   Creature — Minotaur Spirit
 P/T:    1/1
-S/R:    HL-R
+S/R:    HL-R, ME3-C
 {T}: Another target Minotaur creature gets +1/+1 until end of turn.
 
 Name:   Anaba Bodyguard
@@ -2272,7 +2620,7 @@ Name:   Anaba Spirit Crafter
 Cost:   2RR
 Type:   Creature — Minotaur Shaman
 P/T:    1/3
-S/R:    HL-R
+S/R:    HL-R, ME3-C
 Minotaur creatures get +1/+0.
 
 Name:   Anaconda
@@ -2295,7 +2643,7 @@ Type:   Legendary Creature — Human Soldier
 P/T:    4/4
 S/R:    KTK-M
 Whenever Anafenza, the Foremost attacks, put a +1/+1 counter on another target tapped creature you control.
-If a creature card would be put into an opponent's graveyard from anywhere, exile it instead.
+If a nontoken creature an opponent owns would die or a creature card not on the battlefield would be put into an opponent's graveyard, exile that card instead.
 
 Name:   Anarchist
 Cost:   4R
@@ -2307,7 +2655,7 @@ When Anarchist enters the battlefield, you may return target sorcery card from y
 Name:   Anarchy
 Cost:   2RR
 Type:   Sorcery
-S/R:    IA-U
+S/R:    IA-U, ME2-R
 Destroy all white permanents.
 
 Name:   Anathemancer
@@ -2331,7 +2679,7 @@ Name:   Anax and Cymede
 Cost:   1RW
 Type:   Legendary Creature — Human Soldier
 P/T:    3/2
-S/R:    THS-R
+S/R:    THS-R, DDL-R
 First strike, vigilance
 Heroic — Whenever you cast a spell that targets Anax and Cymede, creatures you control get +1/+1 and gain trample until end of turn.
 
@@ -2361,7 +2709,7 @@ When Ancestral Knowledge leaves the battlefield, shuffle your library.
 Name:   Ancestral Mask
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    MM-C
+S/R:    MM-C, EMA-U
 Enchant creature
 Enchanted creature gets +2/+2 for each other enchantment on the battlefield.
 
@@ -2374,7 +2722,7 @@ Look at the top seven cards of your library. Put two of them into your hand and 
 Name:   Ancestral Recall
 Cost:   U
 Type:   Instant
-S/R:    A-R, B-R, U-R
+S/R:    A-R, B-R, U-R, VMA-B
 Target player draws three cards.
 
 Name:   Ancestral Statue
@@ -2402,13 +2750,19 @@ Enchanted creature gets -1/-1.
 Name:   Ancestral Vision
 Type:   Sorcery
 Color:  Blue
-S/R:    TSP-R
+S/R:    TSP-R, DD2-R
 Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Target player draws three cards.
 
+Name:   Anchor to the Aether
+Cost:   2U
+Type:   Sorcery
+S/R:    ORI-U
+Put target creature on top of its owner's library. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+
 Name:   Ancient Amphitheater
 Type:   Land
-S/R:    LRW-R
+S/R:    LRW-R, C15-R
 As Ancient Amphitheater enters the battlefield, you may reveal a Giant card from your hand. If you don't, Ancient Amphitheater enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
 
@@ -2418,10 +2772,16 @@ Type:   Creature — Fish
 P/T:    2/5
 S/R:    DTK-C
 
+Name:   Ancient Crab
+Cost:   1UU
+Type:   Creature — Crab
+P/T:    1/5
+S/R:    OGW-C
+
 Name:   Ancient Craving
 Cost:   3B
 Type:   Sorcery
-S/R:    P2-R, S99-R
+S/R:    P2-R, S99-R, C15-R, DDK-R
 You draw three cards and you lose 3 life.
 
 Name:   Ancient Den
@@ -2429,6 +2789,13 @@ Type:   Artifact Land
 S/R:    MRD-C, HOP-C
 (Ancient Den isn't a spell.)
 {T}: Add {W} to your mana pool.
+
+Name:   Ancient Excavation
+Cost:   2UB
+Type:   Instant
+S/R:    C16-U
+Draw cards equal to the number of cards in your hand, then discard a card for each card drawn this way.
+Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
 
 Name:   Ancient Grudge
 Cost:   1R
@@ -2502,13 +2869,22 @@ Look at the top five cards of your library. You may reveal a colorless card from
 
 Name:   Ancient Tomb
 Type:   Land
-S/R:    TE-U
-{T}: Add {2} to your mana pool. Ancient Tomb deals 2 damage to you.
+S/R:    TE-U, EXP-M, VMA-R, V12-M
+{T}: Add {C}{C} to your mana pool. Ancient Tomb deals 2 damage to you.
 
 Name:   Ancient Ziggurat
 Type:   Land
-S/R:    CON-U
+S/R:    CON-U, H09-U
 {T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell.
+
+Name:   Ancient of the Equinox
+Type:   Creature — Treefolk
+P/T:    4/4
+Color:  Green
+M-type: Transform
+M-card: Autumnal Gloom
+S/R:    SOI-U
+Trample, hexproof
 
 Name:   Andradite Leech
 Cost:   2B
@@ -2517,6 +2893,14 @@ P/T:    2/2
 S/R:    IN-R
 Black spells you cast cost {B} more to cast.
 {B}: Andradite Leech gets +1/+1 until end of turn.
+
+Name:   Angel of Deliverance
+Cost:   6WW
+Type:   Creature — Angel
+P/T:    6/6
+S/R:    SOI-R
+Flying
+Delirium — Whenever Angel of Deliverance deals damage, if there are four or more card types among cards in your graveyard, exile target creature an opponent controls.
 
 Name:   Angel of Despair
 Cost:   3WWBB
@@ -2546,7 +2930,7 @@ Name:   Angel of Fury
 Cost:   4WW
 Type:   Creature — Angel
 P/T:    3/5
-S/R:    P2-R
+S/R:    P2-R, ME2-R
 Flying
 When Angel of Fury dies, you may shuffle it into its owner's library.
 
@@ -2557,6 +2941,15 @@ P/T:    4/6
 S/R:    AVR-R
 Flying
 When Angel of Glory's Rise enters the battlefield, exile all Zombies, then return all Human creature cards from your graveyard to the battlefield.
+
+Name:   Angel of Invention
+Cost:   3WW
+Type:   Creature — Angel
+P/T:    2/1
+S/R:    KLD-M
+Flying, vigilance, lifelink
+Fabricate 2 (When this creature enters the battlefield, put two +1/+1 counters on it or create two 1/1 colorless Servo artifact creature tokens.)
+Other creatures you control get +1/+1.
 
 Name:   Angel of Jubilation
 Cost:   1WWW
@@ -2571,16 +2964,24 @@ Name:   Angel of Light
 Cost:   4W
 Type:   Creature — Angel
 P/T:    3/3
-S/R:    S99-U
+S/R:    S99-U, ME2-U
 Flying, vigilance
 
 Name:   Angel of Mercy
 Cost:   4W
 Type:   Creature — Angel
 P/T:    3/3
-S/R:    P2-U, S99-U, IN-U, 8ED-U, 9ED-U, 10E-U
+S/R:    P2-U, S99-U, IN-U, 8ED-U, 9ED-U, 10E-U, DDC-U
 Flying
 When Angel of Mercy enters the battlefield, you gain 3 life.
+
+Name:   Angel of Renewal
+Cost:   5W
+Type:   Creature — Angel Ally
+P/T:    4/4
+S/R:    BFZ-U
+Flying
+When Angel of Renewal enters the battlefield, you gain 1 life for each creature you control.
 
 Name:   Angel of Retribution
 Cost:   6W
@@ -2593,7 +2994,7 @@ Name:   Angel of Salvation
 Cost:   6WW
 Type:   Creature — Angel
 P/T:    5/5
-S/R:    FUT-R
+S/R:    FUT-R, DDF-R
 Flash; convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Flying
 When Angel of Salvation enters the battlefield, prevent the next 5 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose.
@@ -2602,7 +3003,7 @@ Name:   Angel of Serenity
 Cost:   4WWW
 Type:   Creature — Angel
 P/T:    5/6
-S/R:    RTR-M
+S/R:    RTR-M, C15-M
 Flying
 When Angel of Serenity enters the battlefield, you may exile up to three other target creatures from the battlefield and/or creature cards from graveyards.
 When Angel of Serenity leaves the battlefield, return the exiled cards to their owners' hands.
@@ -2619,13 +3020,13 @@ When Angel of the Dire Hour enters the battlefield, if you cast it from your han
 Name:   Angel's Feather
 Cost:   2
 Type:   Artifact
-S/R:    DST-U, 9ED-U, 10E-U, M10-U, M11-U, M12-U
+S/R:    DST-U, 9ED-U, 10E-U, M10-U, M11-U, M12-U, DDC-U
 Whenever a player casts a white spell, you may gain 1 life.
 
 Name:   Angel's Grace
 Cost:   W
 Type:   Instant
-S/R:    TSP-R
+S/R:    TSP-R, MMA-R
 Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 You can't lose the game this turn and your opponents can't win the game this turn. Until end of turn, damage that would reduce your life total to less than 1 reduces it to 1 instead.
 
@@ -2645,7 +3046,7 @@ You gain 7 life.
 Name:   Angel's Tomb
 Cost:   3
 Type:   Artifact
-S/R:    AVR-U
+S/R:    AVR-U, ORI-U
 Whenever a creature enters the battlefield under your control, you may have Angel's Tomb become a 3/3 white Angel artifact creature with flying until end of turn.
 
 Name:   Angel's Trumpet
@@ -2673,7 +3074,7 @@ Name:   Angelic Accord
 Cost:   3W
 Type:   Enchantment
 S/R:    M14-U
-At the beginning of each end step, if you gained 4 or more life this turn, put a 4/4 white Angel creature token with flying onto the battlefield.
+At the beginning of each end step, if you gained 4 or more life this turn, create a 4/4 white Angel creature token with flying.
 
 Name:   Angelic Arbiter
 Cost:   5WW
@@ -2694,7 +3095,7 @@ Equip {4}
 Name:   Angelic Benediction
 Cost:   3W
 Type:   Enchantment
-S/R:    ALA-U, M13-U
+S/R:    ALA-U, M13-U, DDC-U
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Whenever a creature you control attacks alone, you may tap target creature.
 
@@ -2703,6 +3104,14 @@ Cost:   2W
 Type:   Sorcery
 S/R:    P1-C, EX-C, P2-C, S99-C, S00-C, 9ED-C, 10E-C
 Target creature gets +3/+3 and gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)
+
+Name:   Angelic Captain
+Cost:   3RW
+Type:   Creature — Angel Ally
+P/T:    4/3
+S/R:    BFZ-R
+Flying
+Whenever Angelic Captain attacks, it gets +1/+1 until end of turn for each other attacking Ally.
 
 Name:   Angelic Chorus
 Cost:   3WW
@@ -2737,7 +3146,7 @@ Type:   Instant
 S/R:    NE-U
 If you control a Plains, you may tap an untapped creature you control rather than pay Angelic Favor's mana cost.
 Cast Angelic Favor only during combat.
-Put a 4/4 white Angel creature token with flying onto the battlefield. Exile it at the beginning of the next end step.
+Create a 4/4 white Angel creature token with flying. Exile it at the beginning of the next end step.
 
 Name:   Angelic Field Marshal
 Cost:   2WW
@@ -2746,6 +3155,14 @@ P/T:    3/3
 S/R:    C14-R
 Flying
 Lieutenant — As long as you control your commander, Angelic Field Marshal gets +2/+2 and creatures you control have vigilance.
+
+Name:   Angelic Gift
+Cost:   1W
+Type:   Enchantment — Aura
+S/R:    BFZ-C
+Enchant creature
+When Angelic Gift enters the battlefield, draw a card.
+Enchanted creature has flying.
 
 Name:   Angelic Overseer
 Cost:   3WW
@@ -2759,7 +3176,7 @@ Name:   Angelic Page
 Cost:   1W
 Type:   Creature — Angel Spirit
 P/T:    1/1
-S/R:    US-C, 7E-C, 8ED-C
+S/R:    US-C, 7E-C, 8ED-C, DDC-C
 Flying
 {T}: Target attacking or blocking creature gets +1/+1 until end of turn.
 
@@ -2767,9 +3184,16 @@ Name:   Angelic Protector
 Cost:   3W
 Type:   Creature — Angel
 P/T:    2/2
-S/R:    TE-U
+S/R:    TE-U, DDC-U
 Flying
 Whenever Angelic Protector becomes the target of a spell or ability, Angelic Protector gets +0/+3 until end of turn.
+
+Name:   Angelic Purge
+Cost:   2W
+Type:   Sorcery
+S/R:    SOI-C
+As an additional cost to cast Angelic Purge, sacrifice a permanent.
+Exile target artifact, creature, or enchantment.
 
 Name:   Angelic Renewal
 Cost:   1W
@@ -2780,7 +3204,7 @@ Whenever a creature is put into your graveyard from the battlefield, you may sac
 Name:   Angelic Shield
 Cost:   WU
 Type:   Enchantment
-S/R:    IN-U
+S/R:    IN-U, DDI-U
 Creatures you control get +0/+1.
 Sacrifice Angelic Shield: Return target creature to its owner's hand.
 
@@ -2795,7 +3219,7 @@ At the beginning of each combat, choose first strike, vigilance, or lifelink. Cr
 Name:   Angelic Voices
 Cost:   2WW
 Type:   Enchantment
-S/R:    LE-R, CH-R
+S/R:    LE-R, CH-R, ME4-U
 Creatures you control get +1/+1 as long as you control no nonartifact, nonwhite creatures.
 
 Name:   Angelic Wall
@@ -2809,7 +3233,7 @@ Flying
 Name:   Angelsong
 Cost:   1W
 Type:   Instant
-S/R:    ALA-C
+S/R:    ALA-C, DDC-C
 Prevent all combat damage that would be dealt this turn.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
@@ -2817,7 +3241,7 @@ Name:   Anger
 Cost:   3R
 Type:   Creature — Incarnation
 P/T:    2/2
-S/R:    JUD-U, CMD-U
+S/R:    JUD-U, CMD-U, DDI-U
 Haste
 As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.
 
@@ -2831,15 +3255,21 @@ Name:   Angry Mob
 Cost:   2WW
 Type:   Creature — Human
 P/T:    2+*/2+*
-S/R:    DK-U, 4E-U, 5E-U
+S/R:    DK-U, 4E-U, 5E-U, MED-U
 Trample
 As long as it's your turn, Angry Mob's power and toughness are each equal to 2 plus the number of Swamps your opponents control. As long as it's not your turn, Angry Mob's power and toughness are each 2.
+
+Name:   Anguished Unmaking
+Cost:   1WB
+Type:   Instant
+S/R:    SOI-R
+Exile target nonland permanent. You lose 3 life.
 
 Name:   Angus Mackenzie
 Cost:   GWU
 Type:   Legendary Creature — Human Cleric
 P/T:    2/2
-S/R:    LE-R
+S/R:    LE-R, ME3-R
 {G}{W}{U}, {T}: Prevent all combat damage that would be dealt this turn. Activate this ability only before the combat damage step.
 
 Name:   Animal Boneyard
@@ -2867,14 +3297,14 @@ Creature spells you cast cost {1} less to cast for each +1/+1 counter on Animar.
 Name:   Animate Artifact
 Cost:   3U
 Type:   Enchantment — Aura
-S/R:    A-U, B-U, U-U, RV-U, 4E-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, ME4-U
 Enchant artifact
 As long as enchanted artifact isn't a creature, it's an artifact creature with power and toughness each equal to its converted mana cost.
 
 Name:   Animate Dead
 Cost:   1B
 Type:   Enchantment — Aura
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, EMA-U, VMA-U, MED-U, PD3-U
 Enchant creature card in a graveyard
 When Animate Dead enters the battlefield, if it's on the battlefield, it loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead." Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.
 Enchanted creature gets -1/-0.
@@ -2888,21 +3318,44 @@ Until end of turn, target land becomes a 3/3 creature that's still a land.
 Name:   Animate Wall
 Cost:   W
 Type:   Enchantment — Aura
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, MED-U
 Enchant Wall
 Enchanted Wall can attack as though it didn't have defender.
+
+Name:   Animation Module
+Cost:   1
+Type:   Artifact
+S/R:    KLD-R
+Whenever one or more +1/+1 counters are placed on a permanent you control, you may pay {1}. If you do, create a 1/1 colorless Servo artifact creature token.
+{3}, {T}: Choose a counter on target permanent or player. Give that permanent or player another counter of that kind.
+
+Name:   Animist's Awakening
+Cost:   XG
+Type:   Sorcery
+S/R:    ORI-R
+Reveal the top X cards of your library. Put all land cards from among them onto the battlefield tapped and the rest on the bottom of your library in a random order.
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, untap those lands.
+
+Name:   Animus of Predation
+Cost:   4G
+Type:   Creature — Avatar
+P/T:    4/4
+S/R:    CN2-U
+Draft Animus of Predation face up.
+As you draft a card, you may remove it from the draft face up. (It isn't in your card pool.)
+If you removed a creature card with flying from the draft with cards named Animus of Predation, Animus of Predation has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, and vigilance.
 
 Name:   Ankh of Mishra
 Cost:   2
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, VMA-R, MED-R
 Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller.
 
 Name:   Ankle Shanker
 Cost:   2RWB
 Type:   Creature — Goblin Berserker
 P/T:    2/2
-S/R:    KTK-R
+S/R:    KTK-R, C16-R
 Haste
 Whenever Ankle Shanker attacks, creatures you control gain first strike and deathtouch until end of turn.
 
@@ -2916,7 +3369,7 @@ You control enchanted land.
 Name:   Annihilate
 Cost:   3BB
 Type:   Instant
-S/R:    IN-U, C13-U, C14-U
+S/R:    IN-U, C13-U, C14-U, EMA-U
 Destroy target nonblack creature. It can't be regenerated.
 Draw a card.
 
@@ -2946,6 +3399,13 @@ S/R:    TE-C
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Prevent the next 3 damage that would be dealt to target creature this turn.
 
+Name:   Anointer of Champions
+Cost:   W
+Type:   Creature — Human Cleric
+P/T:    1/1
+S/R:    ORI-U
+{T}: Target attacking creature gets +1/+1 until end of turn.
+
 Name:   Anowon, the Ruin Sage
 Cost:   3BB
 Type:   Legendary Creature — Vampire Shaman
@@ -2957,8 +3417,8 @@ Name:   Ant Queen
 Cost:   3GG
 Type:   Creature — Insect
 P/T:    5/5
-S/R:    M10-R
-{1}{G}: Put a 1/1 green Insect creature token onto the battlefield.
+S/R:    M10-R, MM2-R
+{1}{G}: Create a 1/1 green Insect creature token.
 
 Name:   Antagonism
 Cost:   3R
@@ -2998,7 +3458,7 @@ Enchanted creature can't be the target of spells and can't be enchanted by other
 Name:   Anticipate
 Cost:   1U
 Type:   Instant
-S/R:    DTK-C
+S/R:    DTK-C, BFZ-C
 Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 
 Name:   Antler Skulkin
@@ -3027,7 +3487,7 @@ Cost:   4BB
 Type:   Creature — Zombie Frog Beast
 P/T:    4/3
 S/R:    ONS-C
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Anurid Scavenger
 Cost:   2G
@@ -3058,6 +3518,15 @@ Type:   Artifact Creature — Bird
 P/T:    2/1
 S/R:    THS-U
 Flying, first strike
+
+Name:   Anya, Merciless Angel
+Cost:   3RW
+Type:   Legendary Creature — Angel
+P/T:    4/4
+S/R:    C15-M
+Flying
+Anya, Merciless Angel gets +3/+3 for each opponent whose life total is less than half his or her starting life total.
+As long as an opponent's life total is less than half his or her starting life total, Anya has indestructible.
 
 Name:   Apathy
 Cost:   U
@@ -3094,7 +3563,7 @@ Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 Name:   Aphetto Dredging
 Cost:   3B
 Type:   Sorcery
-S/R:    ONS-C
+S/R:    ONS-C, H09-C
 Return up to three target creature cards of the creature type of your choice from your graveyard to your hand.
 
 Name:   Aphetto Exterminator
@@ -3150,16 +3619,24 @@ Name:   Apocalypse Hydra
 Cost:   XRG
 Type:   Creature — Hydra
 P/T:    0/0
-S/R:    CON-M
+S/R:    CON-M, MM2-R
 Apocalypse Hydra enters the battlefield with X +1/+1 counters on it. If X is 5 or more, it enters the battlefield with an additional X +1/+1 counters on it.
 {1}{R}, Remove a +1/+1 counter from Apocalypse Hydra: Apocalypse Hydra deals 1 damage to target creature or player.
 
 Name:   Apostle's Blessing
 Cost:   1(W/P)
 Type:   Instant
-S/R:    NPH-C
+S/R:    NPH-C, MM2-C
 ({(w/p)} can be paid with either {W} or 2 life.)
 Target artifact or creature you control gains protection from artifacts or from the color of your choice until end of turn.
+
+Name:   Apothecary Geist
+Cost:   3W
+Type:   Creature — Spirit
+P/T:    2/3
+S/R:    SOI-C
+Flying
+When Apothecary Geist enters the battlefield, if you control another Spirit, you gain 3 life.
 
 Name:   Apothecary Initiate
 Cost:   W
@@ -3171,8 +3648,14 @@ Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 li
 Name:   Appetite for Brains
 Cost:   B
 Type:   Sorcery
-S/R:    AVR-U
+S/R:    AVR-U, DDQ-U
 Target opponent reveals his or her hand. You choose a card from it with converted mana cost 4 or greater and exile that card.
+
+Name:   Appetite for the Unnatural
+Cost:   2G
+Type:   Instant
+S/R:    KLD-C
+Destroy target artifact or enchantment. You gain 2 life.
 
 Name:   Apprentice Necromancer
 Cost:   1B
@@ -3192,21 +3675,21 @@ Name:   Apprentice Wizard
 Cost:   1UU
 Type:   Creature — Human Wizard
 P/T:    0/1
-S/R:    DK-R, 4E-C
-{U}, {T}: Add {3} to your mana pool.
+S/R:    DK-R, 4E-C, MED-C
+{U}, {T}: Add {C}{C}{C} to your mana pool.
 
 Name:   Aquamoeba
 Cost:   1U
 Type:   Creature — Elemental Beast
 P/T:    1/3
-S/R:    TOR-C
+S/R:    TOR-C, VMA-C
 Discard a card: Switch Aquamoeba's power and toughness until end of turn.
 
 Name:   Aquamorph Entity
 Cost:   2UU
 Type:   Creature — Shapeshifter
 P/T:    */*
-S/R:    PLC-C
+S/R:    PLC-C, DDN-C
 As Aquamorph Entity enters the battlefield or is turned face up, it becomes your choice of 5/1 or 1/5.
 Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
@@ -3214,7 +3697,7 @@ Name:   Aquastrand Spider
 Cost:   1G
 Type:   Creature — Spider Mutant
 P/T:    0/0
-S/R:    DIS-C, CMD-C
+S/R:    DIS-C, CMD-C, MM2-C
 Graft 2 (This creature enters the battlefield with two +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)
 {G}: Target creature with a +1/+1 counter on it gains reach until end of turn. (It can block creatures with flying.)
 
@@ -3245,7 +3728,13 @@ Type:   Creature — Human Samurai
 P/T:    1/1
 S/R:    SOK-C
 Flying
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
+
+Name:   Arachnogenesis
+Cost:   2G
+Type:   Instant
+S/R:    C15-R
+Create X 1/2 green Spider creature tokens with reach, where X is the number of creatures attacking you. Prevent all combat damage that would be dealt this turn by non-Spider creatures.
 
 Name:   Arachnoid
 Cost:   6
@@ -3269,6 +3758,14 @@ S/R:    M12-C
 Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated.
 At the beginning of the end step, if enchanted creature's power is 4 or greater, destroy Arachnus Web.
+
+Name:   Aradara Express
+Cost:   5
+Type:   Artifact — Vehicle
+P/T:    8/6
+S/R:    KLD-C
+Menace
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)
 
 Name:   Arashi, the Sky Asunder
 Cost:   3GG
@@ -3319,7 +3816,7 @@ Name:   Arbiter of Knollridge
 Cost:   6W
 Type:   Creature — Giant Wizard
 P/T:    5/5
-S/R:    LRW-R, CMD-R
+S/R:    LRW-R, CMD-R, C15-R
 Vigilance
 When Arbiter of Knollridge enters the battlefield, each player's life total becomes the highest life total among all players.
 
@@ -3335,7 +3832,7 @@ Name:   Arbor Colossus
 Cost:   2GGG
 Type:   Creature — Giant
 P/T:    6/6
-S/R:    THS-R
+S/R:    THS-R, C15-R
 Reach
 {3}{G}{G}{G}: Monstrosity 3. (If this creature isn't monstrous, put three +1/+1 counters on it and it becomes monstrous.)
 When Arbor Colossus becomes monstrous, destroy target creature with flying an opponent controls.
@@ -3347,10 +3844,18 @@ P/T:    1/1
 S/R:    WWK-C, M13-C
 {T}: Untap target Forest.
 
+Name:   Arborback Stomper
+Cost:   3GG
+Type:   Creature — Beast
+P/T:    5/4
+S/R:    KLD-U
+Trample
+When Arborback Stomper enters the battlefield, you gain 5 life.
+
 Name:   Arboria
 Cost:   2GG
 Type:   World Enchantment
-S/R:    LE-U
+S/R:    LE-U, ME3-R
 Creatures can't attack a player unless that player cast a spell or put a nontoken permanent onto the battlefield during his or her last turn.
 
 Name:   Arc Blade
@@ -3363,7 +3868,7 @@ Suspend 3—{2}{R} (Rather than cast this card from your hand, you may pay {2}{R
 Name:   Arc Lightning
 Cost:   2R
 Type:   Sorcery
-S/R:    US-C, KTK-U, FRF-U, HOP-C
+S/R:    US-C, HOP-C, KTK-U, FRF-U
 Arc Lightning deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
 
 Name:   Arc Mage
@@ -3384,7 +3889,7 @@ At the beginning of the end step, sacrifice Arc Runner.
 Name:   Arc Trail
 Cost:   1R
 Type:   Sorcery
-S/R:    SOM-U, PC2-U
+S/R:    SOM-U, PC2-U, DDN-U
 Arc Trail deals 2 damage to target creature or player and 1 damage to another target creature or player.
 
 Name:   Arc-Slogger
@@ -3398,7 +3903,7 @@ Name:   Arcades Sabboth
 Cost:   2GGWWUU
 Type:   Legendary Creature — Elder Dragon
 P/T:    7/7
-S/R:    LE-R, CH-R
+S/R:    LE-R, CH-R, ME3-R
 Flying
 At the beginning of your upkeep, sacrifice Arcades Sabboth unless you pay {G}{W}{U}.
 Each untapped creature you control gets +0/+2 as long as it's not attacking.
@@ -3407,7 +3912,7 @@ Each untapped creature you control gets +0/+2 as long as it's not attacking.
 Name:   Arcane Denial
 Cost:   1U
 Type:   Instant
-S/R:    AI-C, C13-C
+S/R:    AI-C, C13-C, C16-C, MED-C
 Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.
 You draw a card at the beginning of the next turn's upkeep.
 
@@ -3420,7 +3925,7 @@ Each player can't cast more than one spell each turn.
 Name:   Arcane Lighthouse
 Type:   Land
 S/R:    C14-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}, {T}: Until end of turn, creatures your opponents control lose hexproof and shroud and can't have hexproof or shroud.
 
 Name:   Arcane Melee
@@ -3431,9 +3936,17 @@ Instant and sorcery spells cost {2} less to cast.
 
 Name:   Arcane Sanctum
 Type:   Land
-S/R:    ALA-U, C13-U
+S/R:    ALA-U, C13-U, C16-U
 Arcane Sanctum enters the battlefield tapped.
 {T}: Add {W}, {U}, or {B} to your mana pool.
+
+Name:   Arcane Savant
+Cost:   3UU
+Type:   Creature — Human Wizard
+P/T:    3/3
+S/R:    CN2-R
+Before you shuffle your deck to start the game, you may reveal this card from your deck and exile an instant or sorcery card you drafted that isn't in your deck.
+When Arcane Savant enters the battlefield, copy a card you exiled with cards named Arcane Savant. You may cast the copy without paying its mana cost.
 
 Name:   Arcane Spyglass
 Cost:   4
@@ -3453,7 +3966,7 @@ Name:   Arcanis the Omnipotent
 Cost:   3UUU
 Type:   Legendary Creature — Wizard
 P/T:    3/4
-S/R:    ONS-R, 10E-R
+S/R:    ONS-R, 10E-R, EMA-R, DDN-M
 {T}: Draw three cards.
 {2}{U}{U}: Return Arcanis the Omnipotent to its owner's hand.
 
@@ -3524,7 +4037,7 @@ Name:   Arcbound Ravager
 Cost:   2
 Type:   Artifact Creature — Beast
 P/T:    0/0
-S/R:    DST-R
+S/R:    DST-R, MMA-R
 Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.
 Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 
@@ -3548,7 +4061,7 @@ Name:   Arcbound Stinger
 Cost:   2
 Type:   Artifact Creature — Insect
 P/T:    0/0
-S/R:    DST-C
+S/R:    DST-C, MMA-C
 Flying
 Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 
@@ -3556,27 +4069,27 @@ Name:   Arcbound Wanderer
 Cost:   6
 Type:   Artifact Creature — Golem
 P/T:    0/0
-S/R:    5DN-U
+S/R:    5DN-U, MMA-C
 Modular—Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 
 Name:   Arcbound Worker
 Cost:   1
 Type:   Artifact Creature — Construct
 P/T:    0/0
-S/R:    DST-C
+S/R:    DST-C, MMA-C, DDF-C
 Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 
 Name:   Archaeological Dig
 Type:   Land
 S/R:    IN-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {T}, Sacrifice Archaeological Dig: Add one mana of any color to your mana pool.
 
 Name:   Archaeomancer
 Cost:   2UU
 Type:   Creature — Human Wizard
 P/T:    1/2
-S/R:    M13-C, M14-C
+S/R:    M13-C, M14-C, DDM-C
 When Archaeomancer enters the battlefield, return target instant or sorcery card from your graveyard to your hand.
 
 Name:   Archangel
@@ -3586,11 +4099,23 @@ P/T:    5/5
 S/R:    VI-R, P1-R, P2-R, 6E-R, S99-R, AVR-U, C13-U
 Flying, vigilance
 
+Name:   Archangel Avacyn
+Cost:   3WW
+Type:   Legendary Creature — Angel
+P/T:    4/4
+M-type: Transform
+M-card: Avacyn, the Purifier
+S/R:    SOI-M
+Flash
+Flying, vigilance
+When Archangel Avacyn enters the battlefield, creatures you control gain indestructible until end of turn.
+When a non-Angel creature you control dies, transform Archangel Avacyn at the beginning of the next upkeep.
+
 Name:   Archangel of Strife
 Cost:   5WW
 Type:   Creature — Angel
 P/T:    6/6
-S/R:    CMD-R
+S/R:    CMD-R, V15-M
 Flying
 As Archangel of Strife enters the battlefield, each player chooses war or peace.
 Creatures controlled by players who chose war get +3/+0.
@@ -3604,6 +4129,15 @@ S/R:    M14-M
 Flying
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Whenever you gain life, put a +1/+1 counter on each creature you control.
+
+Name:   Archangel of Tithes
+Cost:   1WWW
+Type:   Creature — Angel
+P/T:    3/5
+S/R:    ORI-M
+Flying
+As long as Archangel of Tithes is untapped, creatures can't attack you or a planeswalker you control unless their controller pays {1} for each of those creatures.
+As long as Archangel of Tithes is attacking, creatures can't block unless their controller pays {1} for each of those creatures.
 
 Name:   Archangel's Light
 Cost:   7W
@@ -3621,13 +4155,22 @@ S/R:    DKA-R
 Flying, trample
 At the beginning of your upkeep, sacrifice a Human. If you can't, tap Archdemon of Greed and it deals 9 damage to you.
 
+Name:   Archdemon of Paliano
+Cost:   2BB
+Type:   Creature — Demon
+P/T:    5/4
+S/R:    CN2-R
+Draft Archdemon of Paliano face up.
+As long as Archdemon of Paliano is face up during the draft, you can't look at booster packs and must draft cards at random. After you draft three cards this way, turn Archdemon of Paliano face down. (You may look at cards as you draft them.)
+Flying
+
 Name:   Archdemon of Unx
 Cost:   5BB
 Type:   Creature — Demon
 P/T:    6/6
 S/R:    ALA-R
 Flying, trample
-At the beginning of your upkeep, sacrifice a non-Zombie creature, then put a 2/2 black Zombie creature token onto the battlefield.
+At the beginning of your upkeep, sacrifice a non-Zombie creature, then create a 2/2 black Zombie creature token.
 
 Name:   Archers of Qarsi
 Cost:   3G
@@ -3700,6 +4243,14 @@ P/T:    5/4
 S/R:    FRF-R
 Flying
 At the beginning of each opponent's end step, that player chooses up to two creatures he or she controls, then sacrifices the rest.
+
+Name:   Architect of the Untamed
+Cost:   2G
+Type:   Creature — Elf Artificer Druid
+P/T:    2/3
+S/R:    KLD-R
+Whenever a land enters the battlefield under your control, you get {E} (an energy counter).
+Pay {E}{E}{E}{E}{E}{E}{E}{E}: Create a 6/6 colorless Beast artifact creature token.
 
 Name:   Architects of Will
 Cost:   2UB
@@ -3854,7 +4405,7 @@ Cost:   1WU
 Type:   Enchantment
 S/R:    ARB-U
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
-Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 
 Name:   Ardent Recruit
 Cost:   W
@@ -3874,7 +4425,7 @@ If Ardent Soldier was kicked, it enters the battlefield with a +1/+1 counter on 
 
 Name:   Arena
 Type:   Land
-S/R:    TSP-S, PROMO-S
+S/R:    PROMO-S, TSP-S
 {3}, {T}: Tap target creature you control and target creature of an opponent's choice he or she controls. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 
 Name:   Arena Athlete
@@ -3887,7 +4438,7 @@ Heroic — Whenever you cast a spell that targets Arena Athlete, target creature
 Name:   Arena of the Ancients
 Cost:   3
 Type:   Artifact
-S/R:    LE-R, CH-R
+S/R:    LE-R, CH-R, ME3-R
 Legendary creatures don't untap during their controllers' untap steps.
 When Arena of the Ancients enters the battlefield, tap all legendary creatures.
 
@@ -3909,7 +4460,7 @@ Name:   Argent Sphinx
 Cost:   2UU
 Type:   Creature — Sphinx
 P/T:    4/3
-S/R:    SOM-R
+S/R:    SOM-R, MM2-R
 Flying
 Metalcraft — {U}: Exile Argent Sphinx. Return it to the battlefield under your control at the beginning of the next end step. Activate this ability only if you control three or more artifacts.
 
@@ -3925,14 +4476,14 @@ Name:   Argivian Archaeologist
 Cost:   1WW
 Type:   Creature — Human Artificer
 P/T:    1/1
-S/R:    AQ-R
+S/R:    AQ-R, MED-R
 {W}{W}, {T}: Return target artifact card from your graveyard to your hand.
 
 Name:   Argivian Blacksmith
 Cost:   1WW
 Type:   Creature — Human Artificer
 P/T:    2/2
-S/R:    AQ-C
+S/R:    AQ-C, ME4-U
 {T}: Prevent the next 2 damage that would be dealt to target artifact creature this turn.
 
 Name:   Argivian Find
@@ -3944,7 +4495,7 @@ Return target artifact or enchantment card from your graveyard to your hand.
 Name:   Argivian Restoration
 Cost:   2UU
 Type:   Sorcery
-S/R:    WL-U
+S/R:    WL-U, DDF-U
 Return target artifact card from your graveyard to the battlefield.
 
 Name:   Argothian Elder
@@ -3958,7 +4509,7 @@ Name:   Argothian Enchantress
 Cost:   1G
 Type:   Creature — Human Druid
 P/T:    0/1
-S/R:    US-R
+S/R:    US-R, EMA-M
 Shroud (This creature can't be the target of spells or abilities.)
 Whenever you cast an enchantment spell, draw a card.
 
@@ -3966,7 +4517,7 @@ Name:   Argothian Pixies
 Cost:   1G
 Type:   Creature — Faerie
 P/T:    2/1
-S/R:    AQ-C, CH-C
+S/R:    AQ-C, CH-C, ME4-C
 Argothian Pixies can't be blocked by artifact creatures.
 Prevent all damage that would be dealt to Argothian Pixies by artifact creatures.
 
@@ -3981,7 +4532,7 @@ Name:   Argothian Treefolk
 Cost:   3GG
 Type:   Creature — Treefolk
 P/T:    3/5
-S/R:    AQ-C
+S/R:    AQ-C, ME4-U
 Prevent all damage that would be dealt to Argothian Treefolk by artifact sources.
 
 Name:   Argothian Wurm
@@ -3994,8 +4545,16 @@ When Argothian Wurm enters the battlefield, any player may sacrifice a land. If 
 
 Name:   Arid Mesa
 Type:   Land
-S/R:    ZEN-R
+S/R:    ZEN-R, EXP-M
 {T}, Pay 1 life, Sacrifice Arid Mesa: Search your library for a Mountain or Plains card and put it onto the battlefield. Then shuffle your library.
+
+Name:   Arjun, the Shifting Flame
+Cost:   4UR
+Type:   Legendary Creature — Sphinx Wizard
+P/T:    5/5
+S/R:    C15-M
+Flying
+Whenever you cast a spell, put the cards in your hand on the bottom of your library in any order, then draw that many cards.
 
 Name:   Ark of Blight
 Cost:   2
@@ -4003,7 +4562,27 @@ Type:   Artifact
 S/R:    SCG-U
 {3}, {T}, Sacrifice Ark of Blight: Destroy target land.
 
-Name:   Arm with AEther
+Name:   Arlinn Kord
+Cost:   2RG
+Type:   Planeswalker — Arlinn
+P/T:    3
+M-type: Transform
+M-card: Arlinn, Embraced by the Moon
+S/R:    SOI-M
+[+1]: Until end of turn, up to one target creature gets +2/+2 and gains vigilance and haste.
+[0]: Create a 2/2 green Wolf creature token. Transform Arlinn Kord.
+
+Name:   Arlinn, Embraced by the Moon
+Type:   Planeswalker — Arlinn
+Color:  Red/Green
+M-type: Transform
+M-card: Arlinn Kord
+S/R:    SOI-M
+[+1]: Creatures you control get +1/+1 and gain trample until end of turn.
+[-1]: Arlinn, Embraced by the Moon deals 3 damage to target creature or player. Transform Arlinn, Embraced by the Moon.
+[-6]: You get an emblem with "Creatures you control have haste and '{T}: This creature deals damage equal to its power to target creature or player.'"
+
+Name:   Arm with Aether
 Cost:   2U
 Type:   Sorcery
 S/R:    NPH-U
@@ -4015,12 +4594,12 @@ Type:   Creature — Wurm
 P/T:    5/5
 S/R:    RTR-M
 Trample
-When Armada Wurm enters the battlefield, put a 5/5 green Wurm creature token with trample onto the battlefield.
+When Armada Wurm enters the battlefield, create a 5/5 green Wurm creature token with trample.
 
 Name:   Armadillo Cloak
 Cost:   1GW
 Type:   Enchantment — Aura
-S/R:    IN-C, ARC-C
+S/R:    IN-C, ARC-C, EMA-U, VMA-U, DDE-C
 Enchant creature
 Enchanted creature gets +2/+2 and has trample.
 Whenever enchanted creature deals damage, you gain that much life.
@@ -4028,13 +4607,13 @@ Whenever enchanted creature deals damage, you gain that much life.
 Name:   Armageddon
 Cost:   3W
 Type:   Sorcery
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, P1-R, P2-R, 6E-R, S99-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, P1-R, P2-R, 6E-R, S99-R, VMA-M, ME4-R, MED-R, V14-M
 Destroy all lands.
 
 Name:   Armageddon Clock
 Cost:   6
 Type:   Artifact
-S/R:    AQ-U, RV-R, 4E-R
+S/R:    AQ-U, RV-R, 4E-R, ME4-R
 At the beginning of your upkeep, put a doom counter on Armageddon Clock.
 At the beginning of your draw step, Armageddon Clock deals damage equal to the number of doom counters on it to each player.
 {4}: Remove a doom counter from Armageddon Clock. Any player may activate this ability but only during any upkeep step.
@@ -4078,7 +4657,7 @@ Armed Response deals damage to target attacking creature equal to the number of 
 Name:   Armillary Sphere
 Cost:   2
 Type:   Artifact
-S/R:    CON-C, CMD-C, PC2-C, C13-C
+S/R:    CON-C, CMD-C, PC2-C, C13-C, DDG-C, DDI-C
 {2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, and put them into your hand. Then shuffle your library.
 
 Name:   Armistice
@@ -4091,20 +4670,20 @@ Name:   Armor Sliver
 Cost:   2W
 Type:   Creature — Sliver
 P/T:    2/2
-S/R:    TE-U
+S/R:    TE-U, H09-U
 All Sliver creatures have "{2}: This creature gets +0/+1 until end of turn."
 
 Name:   Armor Thrull
 Cost:   2B
 Type:   Creature — Thrull
 P/T:    1/3
-S/R:    FE-C
+S/R:    FE-C, ME2-C
 {T}, Sacrifice Armor Thrull: Put a +1/+2 counter on target creature.
 
 Name:   Armor of Faith
 Cost:   W
 Type:   Enchantment — Aura
-S/R:    IA-C, 5E-C
+S/R:    IA-C, 5E-C, ME2-C
 Enchant creature
 Enchanted creature gets +1/+1.
 {W}: Enchanted creature gets +0/+1 until end of turn.
@@ -4112,10 +4691,17 @@ Enchanted creature gets +1/+1.
 Name:   Armor of Thorns
 Cost:   1G
 Type:   Enchantment — Aura
-S/R:    MI-C
+S/R:    MI-C, VMA-C
 You may cast Armor of Thorns as though it had flash. If you cast it any time a sorcery couldn't have been cast, the controller of the permanent it becomes sacrifices it at the beginning of the next cleanup step.
 Enchant nonblack creature
 Enchanted creature gets +2/+2.
+
+Name:   Armorcraft Judge
+Cost:   3G
+Type:   Creature — Elf Artificer
+P/T:    3/3
+S/R:    KLD-U
+When Armorcraft Judge enters the battlefield, draw a card for each creature you control with a +1/+1 counter on it.
 
 Name:   Armored Ascension
 Cost:   3W
@@ -4141,7 +4727,7 @@ Name:   Armored Griffin
 Cost:   3W
 Type:   Creature — Griffin
 P/T:    2/3
-S/R:    P2-U, PC2-U
+S/R:    P2-U, PC2-U, ME2-C
 Flying, vigilance
 
 Name:   Armored Guardian
@@ -4193,11 +4779,18 @@ S/R:    MI-C
 {B}, {T}: Target creature gets +1/+0 until end of turn.
 {G}, {T}: Target creature gets +0/+1 until end of turn.
 
+Name:   Armory Automaton
+Cost:   3
+Type:   Artifact Creature — Construct
+P/T:    2/2
+S/R:    C16-R
+Whenever Armory Automaton enters the battlefield or attacks, you may attach any number of target Equipment to it. (Control of the Equipment doesn't change.)
+
 Name:   Armory Guard
 Cost:   3W
 Type:   Creature — Giant Soldier
 P/T:    2/5
-S/R:    RTR-C
+S/R:    RTR-C, DDL-C
 Armory Guard has vigilance as long as you control a Gate.
 
 Name:   Armory of Iroas
@@ -4230,8 +4823,8 @@ Attacking creatures get +2/+0 until end of turn.
 Name:   Army of the Damned
 Cost:   5BBB
 Type:   Sorcery
-S/R:    ISD-M, C13-M
-Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.
+S/R:    ISD-M, C13-M, C16-M
+Create thirteen tapped 2/2 black Zombie creature tokens.
 Flashback {7}{B}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Arnjlot's Ascent
@@ -4244,7 +4837,7 @@ Cumulative upkeep {U} (At the beginning of your upkeep, put an age counter on th
 Name:   Arrest
 Cost:   2W
 Type:   Enchantment — Aura
-S/R:    MM-U, MRD-C, SOM-C, RTR-U
+S/R:    MM-U, MRD-C, SOM-C, RTR-U, MM2-C
 Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated.
 
@@ -4266,9 +4859,9 @@ Name:   Arrogant Wurm
 Cost:   3GG
 Type:   Creature — Wurm
 P/T:    4/4
-S/R:    TOR-U
+S/R:    TOR-U, VMA-C
 Trample
-Madness {2}{G} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)
+Madness {2}{G} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Arrow Storm
 Cost:   3RR
@@ -4280,7 +4873,7 @@ Raid — If you attacked with a creature this turn, instead Arrow Storm deals 5 
 Name:   Arrow Volley Trap
 Cost:   3WW
 Type:   Instant — Trap
-S/R:    ZEN-U
+S/R:    ZEN-U, DDN-U
 If four or more creatures are attacking, you may pay {1}{W} rather than pay Arrow Volley Trap's mana cost.
 Arrow Volley Trap deals 5 damage divided as you choose among any number of target attacking creatures.
 
@@ -4314,14 +4907,14 @@ Rebound (If you cast this spell from your hand, exile it as it resolves. At the 
 Name:   Artifact Blast
 Cost:   R
 Type:   Instant
-S/R:    AQ-C
+S/R:    AQ-C, ME4-C, MED-C
 Counter target artifact spell.
 
 Name:   Artifact Mutation
 Cost:   RG
 Type:   Instant
-S/R:    IN-R
-Destroy target artifact. It can't be regenerated. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that artifact's converted mana cost.
+S/R:    IN-R, C16-R
+Destroy target artifact. It can't be regenerated. Create X 1/1 green Saproling creature tokens, where X is that artifact's converted mana cost.
 
 Name:   Artifact Possession
 Cost:   2B
@@ -4338,6 +4931,12 @@ Enchant creature
 Enchanted creature can't be blocked by artifact creatures.
 Prevent all damage that would be dealt to enchanted creature by artifact sources.
 Enchanted creature can't be the target of abilities from artifact sources.
+
+Name:   Artificer's Epiphany
+Cost:   2U
+Type:   Instant
+S/R:    ORI-C
+Draw two cards. If you control no artifacts, discard a card.
 
 Name:   Artificer's Hex
 Cost:   B
@@ -4376,7 +4975,7 @@ Name:   Artisan of Kozilek
 Cost:   9
 Type:   Creature — Eldrazi
 P/T:    10/9
-S/R:    ROE-U, CMD-U, C14-U, ARC-U
+S/R:    ROE-U, ARC-U, CMD-U, C14-U, MM2-U, DDP-U
 When you cast Artisan of Kozilek, you may return target creature card from your graveyard to the battlefield.
 Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
 
@@ -4399,8 +4998,9 @@ Name:   Ascended Lawmage
 Cost:   2WU
 Type:   Creature — Vedalken Wizard
 P/T:    3/2
-S/R:    DGM-U
-Flying, hexproof
+S/R:    DGM-U, CN2-U
+Flying
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 
 Name:   Ascending Aven
 Cost:   2UU
@@ -4417,6 +5017,12 @@ Type:   Enchantment
 S/R:    SOM-R
 Creatures you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)
 {1}{G}: Regenerate target creature.
+
+Name:   Ash Barrens
+Type:   Land
+S/R:    C16-C
+{T}: Add {C} to your mana pool.
+Basic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
 
 Name:   Ash Zealot
 Cost:   RR
@@ -4461,7 +5067,7 @@ Name:   Ashen Ghoul
 Cost:   3B
 Type:   Creature — Zombie
 P/T:    3/1
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 Haste
 {B}: Return Ashen Ghoul from your graveyard to the battlefield. Activate this ability only during your upkeep and only if three or more creature cards are above Ashen Ghoul.
 
@@ -4505,7 +5111,7 @@ Name:   Ashenmoor Gouger
 Cost:   (B/R)(B/R)(B/R)
 Type:   Creature — Elemental Warrior
 P/T:    4/4
-S/R:    SHM-U
+S/R:    SHM-U, MM2-U
 Ashenmoor Gouger can't block.
 
 Name:   Ashenmoor Liege
@@ -4527,7 +5133,7 @@ Each creature card in your graveyard has the chosen creature type in addition to
 Name:   Ashes to Ashes
 Cost:   1BB
 Type:   Sorcery
-S/R:    DK-C, 4E-U, 5E-U
+S/R:    DK-C, 4E-U, 5E-U, ME3-U
 Exile two target nonartifact creatures. Ashes to Ashes deals 5 damage to you.
 
 Name:   Ashiok's Adept
@@ -4567,18 +5173,26 @@ P/T:    4/4
 S/R:    EVE-R
 Whenever Ashling, the Extinguisher deals combat damage to a player, choose target creature that player controls. He or she sacrifices that creature.
 
+Name:   Ashmouth Blade
+Type:   Artifact — Equipment
+M-type: Transform
+M-card: Neglected Heirloom
+S/R:    SOI-U
+Equipped creature gets +3/+3 and has first strike.
+Equip {3}
+
 Name:   Ashmouth Hound
 Cost:   1R
 Type:   Creature — Elemental Hound
 P/T:    2/1
-S/R:    ISD-C
+S/R:    ISD-C, DDK-C
 Whenever Ashmouth Hound blocks or becomes blocked by a creature, Ashmouth Hound deals 1 damage to that creature.
 
 Name:   Ashnod's Altar
 Cost:   3
 Type:   Artifact
-S/R:    AQ-U, CH-C, 5E-U, 6E-U
-Sacrifice a creature: Add {2} to your mana pool.
+S/R:    AQ-U, CH-C, 5E-U, 6E-U, EMA-U, ME4-R
+Sacrifice a creature: Add {C}{C} to your mana pool.
 
 Name:   Ashnod's Battle Gear
 Cost:   2
@@ -4590,13 +5204,13 @@ You may choose not to untap Ashnod's Battle Gear during your untap step.
 Name:   Ashnod's Cylix
 Cost:   2
 Type:   Artifact
-S/R:    AI-R
+S/R:    AI-R, ME2-R
 {3}, {T}: Target player looks at the top three cards of his or her library, puts one of them back on top of his or her library, then exiles the rest.
 
 Name:   Ashnod's Transmogrant
 Cost:   1
 Type:   Artifact
-S/R:    AQ-U, CH-C, 5E-C
+S/R:    AQ-U, CH-C, 5E-C, MED-C
 {T}, Sacrifice Ashnod's Transmogrant: Put a +1/+1 counter on target nonartifact creature. That creature becomes an artifact in addition to its other types.
 
 Name:   Asmira, Holy Avenger
@@ -4647,6 +5261,14 @@ Cost:   1BB
 Type:   Sorcery
 S/R:    BNG-C
 Destroy target untapped creature.
+
+Name:   Aspiring Aeronaut
+Cost:   3U
+Type:   Creature — Human Artificer
+P/T:    1/2
+S/R:    ORI-C
+Flying (This creature can't be blocked except by creatures with flying or reach.)
+When Aspiring Aeronaut enters the battlefield, create a 1/1 colorless Thopter artifact creature token with flying.
 
 Name:   Assassin's Blade
 Cost:   1B
@@ -4699,7 +5321,7 @@ Target creature gains double strike until end of turn. (It deals both first-stri
 Name:   Assault Suit
 Cost:   4
 Type:   Artifact — Equipment
-S/R:    C14-U
+S/R:    C14-U, C16-U
 Equipped creature gets +2/+2, has haste, can't attack you or a planeswalker you control, and can't be sacrificed.
 At the beginning of each opponent's upkeep, you may have that player gain control of equipped creature until end of turn. If you do, untap it.
 Equip {3}
@@ -4715,7 +5337,14 @@ Name:   Assemble the Legion
 Cost:   3RW
 Type:   Enchantment
 S/R:    GTC-R
-At the beginning of your upkeep, put a muster counter on Assemble the Legion. Then put a 1/1 red and white Soldier creature token with haste onto the battlefield for each muster counter on Assemble the Legion.
+At the beginning of your upkeep, put a muster counter on Assemble the Legion. Then create a 1/1 red and white Soldier creature token with haste for each muster counter on Assemble the Legion.
+
+Name:   Assembled Alphas
+Cost:   5R
+Type:   Creature — Wolf
+P/T:    5/5
+S/R:    EMN-R
+Whenever Assembled Alphas blocks or becomes blocked by a creature, Assembled Alphas deals 3 damage to that creature and 3 damage to that creature's controller.
 
 Name:   Assembly Hall
 Cost:   5
@@ -4727,7 +5356,7 @@ Name:   Assembly-Worker
 Cost:   3
 Type:   Artifact Creature — Assembly-Worker
 P/T:    2/2
-S/R:    TSP-U
+S/R:    TSP-U, DDF-U
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.
 
 Name:   Assert Authority
@@ -4740,14 +5369,14 @@ Counter target spell. If that spell is countered this way, exile it instead of p
 Name:   Astral Cornucopia
 Cost:   XXX
 Type:   Artifact
-S/R:    BNG-R
+S/R:    BNG-R, C16-R
 Astral Cornucopia enters the battlefield with X charge counters on it.
 {T}: Choose a color. Add one mana of that color to your mana pool for each charge counter on Astral Cornucopia.
 
 Name:   Astral Slide
 Cost:   2W
 Type:   Enchantment
-S/R:    ONS-U
+S/R:    ONS-U, VMA-U
 Whenever a player cycles a card, you may exile target creature. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.
 
 Name:   Astral Steel
@@ -4760,8 +5389,16 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 Name:   Astrolabe
 Cost:   3
 Type:   Artifact
-S/R:    AI-C
+S/R:    AI-C, ME3-C
 {1}, {T}, Sacrifice Astrolabe: Add two mana of any one color to your mana pool. Draw a card at the beginning of the next turn's upkeep.
+
+Name:   Asylum Visitor
+Cost:   1B
+Type:   Creature — Vampire Wizard
+P/T:    3/1
+S/R:    SOI-R
+At the beginning of each player's upkeep, if that player has no cards in hand, you draw a card and you lose 1 life.
+Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Atalya, Samite Master
 Cost:   3WW
@@ -4799,7 +5436,7 @@ Cost:   4R
 Type:   Creature — Ogre Warrior
 P/T:    4/5
 S/R:    DTK-U
-Formidable — {3}{R}{R}: Each creature you control can't be blocked this turn except by two or more creatures. Activate this ability only if creatures you control have total power 8 or greater.
+Formidable — {3}{R}{R}: Creatures you control gain menace until end of turn. Activate this ability only if creatures you control have total power 8 or greater. (They can't be blocked except by two or more creatures.)
 
 Name:   Atarka's Command
 Cost:   RG
@@ -4832,7 +5469,7 @@ Name:   Atog
 Cost:   1R
 Type:   Creature — Atog
 P/T:    1/2
-S/R:    AQ-C, RV-C, 5E-U, MRD-U
+S/R:    AQ-C, RV-C, 5E-U, MRD-U, ME4-C
 Sacrifice an artifact: Atog gets +2/+2 until end of turn.
 
 Name:   Atogatog
@@ -4842,19 +5479,33 @@ P/T:    5/5
 S/R:    OD-R
 Sacrifice an Atog creature: Atogatog gets +X/+X until end of turn, where X is the sacrificed creature's power.
 
+Name:   Atraxa, Praetors' Voice
+Cost:   GWUB
+Type:   Legendary Creature — Angel Horror
+P/T:    4/4
+S/R:    C16-M
+Flying, vigilance, deathtouch, lifelink
+At the beginning of your end step, proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
+
 Name:   Attended Knight
 Cost:   2W
 Type:   Creature — Human Knight
 P/T:    2/2
 S/R:    M13-C
 First strike (This creature deals combat damage before creatures without first strike.)
-When Attended Knight enters the battlefield, put a 1/1 white Soldier creature token onto the battlefield.
+When Attended Knight enters the battlefield, create a 1/1 white Soldier creature token.
 
 Name:   Attrition
 Cost:   1BB
 Type:   Enchantment
 S/R:    UD-R, CMD-R
 {B}, Sacrifice a creature: Destroy target nonblack creature.
+
+Name:   Attune with Aether
+Cost:   G
+Type:   Sorcery
+S/R:    KLD-C
+Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. You get {E}{E} (two energy counters).
 
 Name:   Attunement
 Cost:   2U
@@ -4902,7 +5553,7 @@ Name:   Augury Owl
 Cost:   1U
 Type:   Creature — Bird
 P/T:    1/1
-S/R:    M11-C, PC2-C
+S/R:    M11-C, PC2-C, DDI-C
 Flying
 When Augury Owl enters the battlefield, scry 3. (Look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
 
@@ -4916,7 +5567,7 @@ Name:   Auntie's Snitch
 Cost:   2B
 Type:   Creature — Goblin Rogue
 P/T:    3/1
-S/R:    MOR-R
+S/R:    MOR-R, MMA-U
 Auntie's Snitch can't block.
 Prowl {1}{B} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue.)
 Whenever a Goblin or Rogue you control deals combat damage to a player, if Auntie's Snitch is in your graveyard, you may return Auntie's Snitch to your hand.
@@ -4977,8 +5628,8 @@ Gain control of target Aura that's attached to a permanent. Attach it to another
 Name:   Aura Mutation
 Cost:   GW
 Type:   Instant
-S/R:    IN-R
-Destroy target enchantment. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that enchantment's converted mana cost.
+S/R:    IN-R, C16-R
+Destroy target enchantment. Create X 1/1 green Saproling creature tokens, where X is that enchantment's converted mana cost.
 
 Name:   Aura Shards
 Cost:   1GW
@@ -5004,7 +5655,7 @@ Enchant creature
 Name:   Aura of Silence
 Cost:   1WW
 Type:   Enchantment
-S/R:    WL-U, 10E-U
+S/R:    WL-U, 10E-U, C15-U
 Artifact and enchantment spells your opponents cast cost {2} more to cast.
 Sacrifice Aura of Silence: Destroy target artifact or enchantment.
 
@@ -5012,7 +5663,7 @@ Name:   Auramancer
 Cost:   2W
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    OD-C, M12-C, PC2-C, M14-C
+S/R:    OD-C, M12-C, PC2-C, M14-C, ORI-C, DDL-C
 When Auramancer enters the battlefield, you may return target enchantment card from your graveyard to your hand.
 
 Name:   Auramancer's Guise
@@ -5046,7 +5697,7 @@ Name:   Aurelia, the Warleader
 Cost:   2RRWW
 Type:   Legendary Creature — Angel
 P/T:    3/4
-S/R:    GTC-M
+S/R:    GTC-M, V15-M
 Flying, vigilance, haste
 Whenever Aurelia, the Warleader attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.
 
@@ -5098,7 +5749,7 @@ Name:   Auriok Salvagers
 Cost:   3W
 Type:   Creature — Human Soldier
 P/T:    2/4
-S/R:    5DN-U
+S/R:    5DN-U, MMA-R
 {1}{W}: Return target artifact card with converted mana cost 1 or less from your graveyard to your hand.
 
 Name:   Auriok Siege Sled
@@ -5150,7 +5801,7 @@ Name:   Aurochs
 Cost:   3G
 Type:   Creature — Aurochs
 P/T:    2/3
-S/R:    IA-C, 5E-C
+S/R:    IA-C, 5E-C, ME2-C
 Trample
 Whenever Aurochs attacks, it gets +1/+0 until end of turn for each other attacking Aurochs.
 
@@ -5179,6 +5830,15 @@ S/R:    PS-C
 Flying
 {W}: Target permanent becomes white until end of turn.
 
+Name:   Aurora of Emrakul
+Type:   Creature — Eldrazi Reflection
+P/T:    1/4
+M-type: Transform
+M-card: Cryptolith Fragment
+S/R:    EMN-U
+Flying, deathtouch
+Whenever Aurora of Emrakul attacks, each opponent loses 3 life.
+
 Name:   Auspicious Ancestor
 Cost:   3W
 Type:   Creature — Human Cleric
@@ -5197,6 +5857,13 @@ Choose two —
 • Destroy all creatures with converted mana cost 3 or less.
 • Destroy all creatures with converted mana cost 4 or greater.
 
+Name:   Authority of the Consuls
+Cost:   W
+Type:   Enchantment
+S/R:    KLD-R
+Creatures your opponents control enter the battlefield tapped.
+Whenever a creature enters the battlefield under an opponent's control, you gain 1 life.
+
 Name:   Autochthon Wurm
 Cost:   10GGGWW
 Type:   Creature — Wurm
@@ -5209,7 +5876,7 @@ Name:   Autumn Willow
 Cost:   4GG
 Type:   Legendary Creature — Avatar
 P/T:    4/4
-S/R:    HL-R
+S/R:    HL-R, MED-R
 Shroud (This creature can't be the target of spells or abilities.)
 {G}: Until end of turn, Autumn Willow can be the target of spells and abilities controlled by target player as though it didn't have shroud.
 
@@ -5228,13 +5895,29 @@ M-card: Kitsune Mystic
 S/R:    CHK-R
 {1}: Attach target Aura attached to a creature to another creature.
 
+Name:   Autumnal Gloom
+Cost:   2G
+Type:   Enchantment
+M-type: Transform
+M-card: Ancient of the Equinox
+S/R:    SOI-U
+{B}: Put the top card of your library into your graveyard.
+Delirium — At the beginning of your end step, if there are four or more card types among cards in your graveyard, transform Autumnal Gloom.
+
 Name:   Avacyn's Collar
 Cost:   1
 Type:   Artifact — Equipment
 S/R:    DKA-U
 Equipped creature gets +1/+0 and has vigilance.
-Whenever equipped creature dies, if it was a Human, put a 1/1 white Spirit creature token with flying onto the battlefield.
+Whenever equipped creature dies, if it was a Human, create a 1/1 white Spirit creature token with flying.
 Equip {2}
+
+Name:   Avacyn's Judgment
+Cost:   1R
+Type:   Sorcery
+S/R:    SOI-R
+Madness {X}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+Avacyn's Judgment deals 2 damage divided as you choose among any number of target creatures and/or players. If Avacyn's Judgment's madness cost was paid, it deals X damage divided as you choose among those creatures and/or players instead.
 
 Name:   Avacyn's Pilgrim
 Cost:   G
@@ -5247,7 +5930,7 @@ Name:   Avacyn, Angel of Hope
 Cost:   5WWW
 Type:   Legendary Creature — Angel
 P/T:    8/8
-S/R:    AVR-M
+S/R:    AVR-M, V15-M
 Flying, vigilance, indestructible
 Other permanents you control have indestructible.
 
@@ -5259,6 +5942,25 @@ S/R:    M15-R
 Flying, vigilance
 {1}{W}: Prevent all damage that would be dealt to another target creature this turn by sources of the color of your choice.
 {5}{W}{W}: Prevent all damage that would be dealt to target player this turn by sources of the color of your choice.
+
+Name:   Avacyn, the Purifier
+Type:   Legendary Creature — Angel
+P/T:    6/5
+Color:  Red
+M-type: Transform
+M-card: Archangel Avacyn
+S/R:    SOI-M
+Flying
+When this creature transforms into Avacyn, the Purifier, it deals 3 damage to each other creature and each opponent.
+
+Name:   Avacynian Missionaries
+Cost:   3W
+Type:   Creature — Human Cleric
+P/T:    3/3
+M-type: Transform
+M-card: Lunarch Inquisitors
+S/R:    SOI-U
+At the beginning of your end step, if Avacynian Missionaries is equipped, transform it.
 
 Name:   Avacynian Priest
 Cost:   1W
@@ -5293,7 +5995,7 @@ Name:   Avarax
 Cost:   3RR
 Type:   Creature — Beast
 P/T:    3/3
-S/R:    ONS-U
+S/R:    ONS-U, EMA-C
 Haste
 When Avarax enters the battlefield, you may search your library for a card named Avarax, reveal it, and put it into your hand. If you do, shuffle your library.
 {1}{R}: Avarax gets +1/+0 until end of turn.
@@ -5303,7 +6005,7 @@ Cost:   4
 Type:   Artifact — Equipment
 S/R:    M15-R
 Equipped creature gets +2/+0 and has vigilance and "At the beginning of your upkeep, draw a card."
-When equipped creature dies, target opponent gains control of Avarice Amulet.
+Whenever equipped creature dies, target opponent gains control of Avarice Amulet.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
 Name:   Avarice Totem
@@ -5311,6 +6013,15 @@ Cost:   1
 Type:   Artifact
 S/R:    5DN-U
 {5}: Exchange control of Avarice Totem and target nonland permanent.
+
+Name:   Avaricious Dragon
+Cost:   2RR
+Type:   Creature — Dragon
+P/T:    4/4
+S/R:    ORI-M
+Flying
+At the beginning of your draw step, draw an additional card.
+At the beginning of your end step, discard your hand.
 
 Name:   Avatar of Discord
 Cost:   (B/R)(B/R)(B/R)
@@ -5345,7 +6056,7 @@ Type:   Creature — Avatar
 P/T:    8/8
 S/R:    PR-R, 10E-R
 If an opponent controls at least four more creatures than you, Avatar of Might costs {6} less to cast.
-Trample (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
 
 Name:   Avatar of Slaughter
 Cost:   6RR
@@ -5366,7 +6077,7 @@ Name:   Avatar of Woe
 Cost:   6BB
 Type:   Creature — Avatar
 P/T:    6/5
-S/R:    PR-R, TSP-S, CMD-R, ARC-R
+S/R:    PR-R, TSP-S, ARC-R, CMD-R, CN2-M, PD3-R
 If there are ten or more creature cards total in all graveyards, Avatar of Woe costs {6} less to cast.
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 {T}: Destroy target creature. It can't be regenerated.
@@ -5394,6 +6105,14 @@ P/T:    2/2
 S/R:    FUT-C
 Flying
 Sacrifice Aven Augur: Return up to two target creatures to their owners' hands. Activate this ability only during your upkeep.
+
+Name:   Aven Battle Priest
+Cost:   5W
+Type:   Creature — Bird Cleric
+P/T:    3/3
+S/R:    ORI-C
+Flying (This creature can't be blocked except by creatures with flying or reach.)
+When Aven Battle Priest enters the battlefield, you gain 3 life.
 
 Name:   Aven Brigadier
 Cost:   3WWW
@@ -5506,9 +6225,9 @@ Name:   Aven Riftwatcher
 Cost:   2W
 Type:   Creature — Bird Rebel Soldier
 P/T:    2/3
-S/R:    PLC-C
+S/R:    PLC-C, EMA-C
 Flying
-Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
+Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)
 When Aven Riftwatcher enters the battlefield or leaves the battlefield, you gain 2 life.
 
 Name:   Aven Shrine
@@ -5624,8 +6343,8 @@ Name:   Avenger of Zendikar
 Cost:   5GG
 Type:   Creature — Elemental
 P/T:    5/5
-S/R:    WWK-M, C13-M
-When Avenger of Zendikar enters the battlefield, put a 0/1 green Plant creature token onto the battlefield for each land you control.
+S/R:    WWK-M, C13-M, DDP-M
+When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.
 Landfall — Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.
 
 Name:   Avenging Angel
@@ -5653,9 +6372,16 @@ Name:   Avian Changeling
 Cost:   2W
 Type:   Creature — Shapeshifter
 P/T:    2/2
-S/R:    LRW-C
-Changeling (This card is every creature type at all times.)
+S/R:    LRW-C, MMA-C
+Changeling (This card is every creature type.)
 Flying
+
+Name:   Aviary Mechanic
+Cost:   1W
+Type:   Creature — Dwarf Artificer
+P/T:    2/2
+S/R:    KLD-C
+When Aviary Mechanic enters the battlefield, you may return another permanent you control to its owner's hand.
 
 Name:   Avizoa
 Cost:   3U
@@ -5684,6 +6410,12 @@ Type:   Instant
 S/R:    KTK-C
 Target creature gets +3/+3 and gains trample until end of turn.
 
+Name:   Awaken the Sky Tyrant
+Cost:   3R
+Type:   Enchantment
+S/R:    C15-R
+When a source an opponent controls deals damage to you, sacrifice Awaken the Sky Tyrant. If you do, create a 5/5 red Dragon creature token with flying.
+
 Name:   Awakener Druid
 Cost:   2G
 Type:   Creature — Human Druid
@@ -5701,7 +6433,7 @@ Name:   Awakening Zone
 Cost:   2G
 Type:   Enchantment
 S/R:    ROE-R, CMD-R, PC2-R
-At the beginning of your upkeep, you may put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has "Sacrifice this creature: Add {1} to your mana pool."
+At the beginning of your upkeep, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
 
 Name:   Away
 Cost:   2B
@@ -5731,6 +6463,15 @@ S/R:    AI-C
 Enchant creature
 Enchanted creature can't be blocked unless defending player pays {3} for each creature he or she controls that's blocking it.
 
+Name:   Awoken Horror
+Type:   Creature — Kraken Horror
+P/T:    7/8
+Color:  Blue
+M-type: Transform
+M-card: Thing in the Ice
+S/R:    SOI-R
+When this creature transforms into Awoken Horror, return all non-Horror creatures to their owners' hands.
+
 Name:   Axebane Guardian
 Cost:   2G
 Type:   Creature — Human Druid
@@ -5755,7 +6496,7 @@ Name:   Axelrod Gunnarson
 Cost:   4BBRR
 Type:   Legendary Creature — Giant
 P/T:    5/5
-S/R:    LE-R, CH-R
+S/R:    LE-R, CH-R, ME3-U
 Trample
 Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player.
 
@@ -5767,10 +6508,19 @@ S/R:    LE-R, CH-R
 Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 {T}: Counter target activated ability from an artifact source unless that ability's controller pays {W}. (Mana abilities can't be targeted.)
 
+Name:   Ayli, Eternal Pilgrim
+Cost:   WB
+Type:   Legendary Creature — Kor Cleric
+P/T:    2/3
+S/R:    OGW-R
+Deathtouch
+{1}, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness.
+{1}{W}{B}, Sacrifice another creature: Exile target nonland permanent. Activate this ability only if you have at least 10 life more than your starting life total.
+
 Name:   Aysen Abbey
 Type:   Land
 S/R:    HL-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {1}, {T}: Add {W} to your mana pool.
 {2}, {T}: Add {G} or {U} to your mana pool.
 
@@ -5778,28 +6528,28 @@ Name:   Aysen Bureaucrats
 Cost:   1W
 Type:   Creature — Human Advisor
 P/T:    1/1
-S/R:    HL-C, 5E-C
+S/R:    HL-C, 5E-C, ME2-C
 {T}: Tap target creature with power 2 or less.
 
 Name:   Aysen Crusader
 Cost:   2WW
 Type:   Creature — Human Knight
 P/T:    2+*/2+*
-S/R:    HL-R
+S/R:    HL-R, ME2-U
 Aysen Crusader's power and toughness are each equal to 2 plus the number of Soldiers and Warriors you control.
 
 Name:   Aysen Highway
 Cost:   3WWW
 Type:   Enchantment
 S/R:    HL-R
-White creatures have plainswalk.
+White creatures have plainswalk. (They can't be blocked as long as defending player controls a Plains.)
 
 Name:   Ayumi, the Last Visitor
 Cost:   3GG
 Type:   Legendary Creature — Spirit
 P/T:    7/3
 S/R:    SOK-R
-Legendary landwalk
+Legendary landwalk (This creature can't be blocked as long as defending player controls a legendary land.)
 
 Name:   Azami, Lady of Scrolls
 Cost:   2UUU
@@ -5833,7 +6583,7 @@ S/R:    RTR-R
 At the beginning of your upkeep, put a filibuster counter on Azor's Elocutors. Then if Azor's Elocutors has five or more filibuster counters on it, you win the game.
 Whenever a source deals damage to you, remove a filibuster counter from Azor's Elocutors.
 
-Name:   Azorius AEthermage
+Name:   Azorius Aethermage
 Cost:   1WU
 Type:   Creature — Human Wizard
 P/T:    1/1
@@ -5849,7 +6599,7 @@ When Azorius Arrester enters the battlefield, detain target creature an opponent
 
 Name:   Azorius Chancery
 Type:   Land
-S/R:    DIS-C, CMD-C, C13-C
+S/R:    DIS-C, CMD-C, C13-C, MM2-U, C16-U, DDI-C
 Azorius Chancery enters the battlefield tapped.
 When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {W}{U} to your mana pool.

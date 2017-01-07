@@ -5,7 +5,6 @@ and run Demystify under Python3. The 7 things that need to be installed are:
 
 Java 1.6 or later
 Python 3.2
-jpackage-utils 1.7.5 or later
 ANTLR 3.5
 antlr3 script (available in this repo in antlr3/)
 python-progressbar 3.3
@@ -19,66 +18,23 @@ I used to install the components.
 1) Java 1.6.0 runtime (or later)
 Required to run ANTLR
 
-Install using your package manager.
-
-Installed on a debian squeeze machine:
+Install using your package manager, eg:
     $ sudo apt-get install java-common
-    $ sudo apt-get install openjdk-6-jdk
+I suspect this one is not necessary:
+    $ sudo apt-get install openjdk-8-jdk
 
 2) Python 3.2 or later (not Python 3.1!)
 Required to run demystify
 
-Install using your package manager or from python.org. Pick one.
-I recommend using the package manager if possible.
-(Since it's at least 2015, 3.4 might be your default.
+Install using your package manager.
+    $ sudo apt-get install python3
+(Since it's at least 2017, the default is at least 3.5.
  Don't install 3.2 in that case.)
 
-a) Package manager
-    Check that your package manager has python3.2 or later.
-        $ sudo apt-get install python3.2
-        $ python3 --version
-        Python 3.2.3
-    If the python3 symlink points at an older version than python3.2,
-    you may wish to update that to point to python3.2, and use "python3"
-    in place of python3.2.
-        $ sudo rm /usr/bin/python3
-        $ sudo ln -s python3.2 /usr/bin/python3
-
-b) From python.org source (building source)
-Note that installing from source will overwrite /usr/bin/python3 to be a symlink
-to python3.2.
-    $ wget python.org/ftp/python/3.2.3/Python-3.2.3.tgz
-    $ tar xf Python-3.2.3.tgz
-    $ cd Python-3.2.3/
-    $ ./configure --prefix=/usr
-    $ make
-    $ sudo make install
-    $ ls -l /usr/bin/python3*
-
 3) jpackage-utils 1.7.5 (or later)
-Required to use the antlr3 convenience script (5)
-
-The RPM can be found at:
-http://mirrors.dotsrc.org/jpackage/5.0/generic/free/repoview/jpackage-utils.html
-
-Installed on a debian squeeze machine:
-    $ wget mirrors.dotsrc.org/jpackage/5.0/generic/free/RPMS/jpackage-utils-5.0.0-2.jpp5.noarch.rpm
-    $ sudo alien -k jpackage-utils-5.0.0-2.jpp5.noarch.rpm
-    $ sudo dpkg -i jpackage-utils_5.0.0-2.jpp5_all.deb
-
-On some machines (like the Debian machine I'm installing this on as I write
-these helpful instructions), jpackage-utils will want to use a folder that
-contains a bunch of symlinks, but the folder itself isn't created. Check to
-see if /usr/lib/jvm-exports contains a folder named "java-6-openjdk", and if
-not, create a symlink, via:
-    $ sudo ln -s ../jvm/java-6-openjdk /usr/lib/jvm-exports/java-6-openjdk
-
-(You should also check that /usr/lib/jvm/java-6-openjdk exists.)
-
-In my most recent attempt to install this (with java 1.7, fedora 19), the
-jpackage scripts gave errors because the folders /usr/share/java-1.7.0 and
-/usr/lib/java-1.7.0 didn't exist. These can be empty, it'll still find the jars
-place in /usr/share/java in the next step.
+This used to be necessary for the antlr3 script, but I modified it because
+it was too much of headache to get this thing working, for a commandline
+that hardly ever changes.
 
 4) ANTLR 3.5
 Required to generate the DemystifyParser
@@ -89,10 +45,13 @@ will find it, such as /usr/share/java.
 
     antlr-3.5-complete.jar
         Available at http://www.antlr3.org/download/
+It might have been updated, eg.
+    antlr-3.5.2-complete.jar
+See https://github.com/antlr/antlr3 for the updated link.
 
 Installation:
-    $ wget www.antlr3.org/download/antlr-3.5-complete.jar
-    $ sudo mv antlr-3.5-complete.jar /usr/share/java
+    $ wget www.antlr3.org/download/antlr-3.5.2-complete.jar
+    $ sudo mv antlr-3.5.2-complete.jar /usr/share/java
 
 5) antlr3 script (from this repo, in antlr3/)
     Note that if any of the filenames in (4) are different, you'll need to
@@ -112,20 +71,9 @@ ANTLR Parser Generator  Version 3.5
 usage: java org.antlr.Tool [args] file.g [file2.g file3.g ...]
 
 If you don't, there was an issue installing something earlier:
-    Can't find functions library, aborting
-        jpackage-utils didn't install correctly
-    Exception in thread "main" java.lang.NoClassDefFoundError: org/antlr/Tool
-        Likely a classpath error. Change "exec" to "echo" in the antlr3
-        script and run it again; this will output the command trying to be run.
-        If it says "error: JVM_LIBDIR /usr/lib/jvm-exports/java-6-openjdk does
-        not exist or is not a directory" where you'd expect the classpath, then
-        see above for the jvm-exports workaround.
-        If it says "JAVAVER_LIBDIR /usr/share/java-1.7.0 does not exist or is
-        not a directory" then you also need to create that folder (and probably
-        /usr/lib/java-1.7.0 as well). They can be empty folders, as above.
-    Something else?
-        Check that java 6 and jpackage-utils are actually installed?
-        Maybe reinstall openjdk-6-jdk after jpackage-utils is installed.
+    Check that java is installed properly and can run as "java".
+    Check that the antlr3 script is pointed at the right jar file,
+        and that you have read permissions on it.
 
 ======
 
@@ -134,28 +82,12 @@ If you don't, there was an issue installing something earlier:
 $ sudo apt-get install python3-pip
 $ sudo pip3 install progressbar2
 
-"progressbar" is the old version hosted on Google Code; "progressbar2" is
-maintained on Github now: http://github.com/WoLpH/python-progressbar.
+If you'd rather install from source, the project is here:
+http://github.com/WoLpH/python-progressbar
+
 
 You can probably set it up by downloading from Github and running
     $ sudo python3 setup.py install
-
-This (and the ANTLR runtime below) requires setuptools. Some distros may
-already have it as part of python. If running:
-    $ sudo python3 setup.py install
-caused complaints about something in setuptools, you need setuptools.
-
-Some distros might be able to just install it:
-    $ sudo apt-get install python3-setuptools
-
-And then try again:
-    $ sudo python3 setup.py install
-
-If that still doesn't work, remove distribute, setuptools, and easy_install
-from your system: https://pypi.python.org/pypi/setuptools/0.9.8#uninstalling
-and download https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
-and run it:
-    $ sudo python3 ez_setup.py
 
 It works when you can run:
     $ python3
@@ -193,6 +125,23 @@ Regardless of whether you did (a) or (b), it works when you can run:
     >>> import antlr3
     >>>
 (i.e. with no errors)
+
+Installing this in this way requires setuptools. Some distros may
+already have it as part of python. If running:
+    $ sudo python3 setup.py install
+caused complaints about something in setuptools, you need setuptools.
+
+Some distros might be able to just install it:
+    $ sudo apt-get install python3-setuptools
+
+And then try again:
+    $ sudo python3 setup.py install
+
+If that still doesn't work, remove distribute, setuptools, and easy_install
+from your system: https://pypi.python.org/pypi/setuptools/0.9.8#uninstalling
+and download https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py
+and run it:
+    $ sudo python3 ez_setup.py
 
 ======
 

@@ -79,11 +79,13 @@ def load(files=None):
 
 ## Updater ##
 
-_cost = re.compile(r'^([0-9WUBRGX]|\([0-9WUBRGPS]/[0-9WUBRGPS]\))+$', re.I)
+_cost = re.compile(r'^([0-9WUBRGCX]|\([0-9WUBRGCPS]/[0-9WUBRGCPS]\))+$', re.I)
 _pt = re.compile(r'^[0-9*+-]+(/[0-9*+-]+)?$')
 _sr = re.compile(r'^[0-9A-Z, -]+$')
 _color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')
 _multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) (.+).]$')
+_meldwith = re.compile(r'Melds with (.+) into (.+).]$')
+_meldfrom = re.compile(r'Melds from (.+) and (.+).]$')
 _abil = re.compile(r'^\[[+-]?\d+\]')
 
 class BasicTextParser:
@@ -108,6 +110,11 @@ class BasicTextParser:
         its other half. (Of course, this only works for 2-in-1 cards. It will
         not work for split transform, flip transform, split flip transform,
         or the Unhinged card Who/What/When/Where/Why.)
+
+        Meld cards will have M-type: Meld, but instead of M-card they will have
+        M-pair and Melded, for the card they meld with and into, respectively.
+        The melded card will only have M-pair, which will contain both
+        components separated with a semi-colon.
     """
 
     def __init__(self):
@@ -177,6 +184,23 @@ class BasicTextParser:
                                        .format(self._name, c))
                         c = cards[1] if self._name == cards[0] else cards[0]
                     self._current_card.append('M-card: ' + c)
+                    continue
+                m = _meldwith.search(s)
+                if m:
+                    mw, mt = m.groups()
+                    self._current_card.extend([
+                        'M-type: Meld',
+                        'M-pair: ' + mw,
+                        'Melded: ' + mt,
+                    ])
+                    continue
+                m = _meldfrom.search(s)
+                if m:
+                    self._current_card.extend([
+                        'M-type: Meld',
+                        'M-pair: ' + '; '.join(m.groups()),
+                    ])
+                    continue
             else:
                 s = s.replace('--', '—')
                 if not self._has_type:
@@ -216,6 +240,8 @@ def _update(raw_cards):
     # Sort the new data
     for raw_card in raw_cards:
         raw_card = raw_card.strip()
+        # Standardize capitalization of AE cards.
+        raw_card = raw_card.replace('AE', 'Ae')
         name = raw_card[5:raw_card.index('\n')].strip()
         # TODO: factor out name -> filename function in case we decide
         # to reorganize again?

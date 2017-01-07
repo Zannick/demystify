@@ -30,6 +30,8 @@ ability_word : ABILITY_WORD
 arb_choice : ARB_CHOICE
            | DEATH
            | DRAGONS
+           | FEATHER
+           | NUMBER
            | TIME;
 
 aura_swap : AURA SWAP -> AURA_SWAP;
@@ -48,6 +50,7 @@ obj_counter : OBJ_COUNTER
             | DEATH
             | DEVOTION
             | ECHO
+            | FEATHER
             | FUNGUS
             | FUSE
             | LEVEL

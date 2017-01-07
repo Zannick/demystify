@@ -1,3 +1,18 @@
+Name:   Zada's Commando
+Cost:   1R
+Type:   Creature — Goblin Archer Ally
+P/T:    2/1
+S/R:    OGW-C
+First strike
+Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent.
+
+Name:   Zada, Hedron Grinder
+Cost:   3R
+Type:   Legendary Creature — Goblin Ally
+P/T:    3/3
+S/R:    BFZ-R
+Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.
+
 Name:   Zameck Guildmage
 Cost:   GU
 Type:   Creature — Elf Wizard
@@ -76,13 +91,13 @@ S/R:    SCG-C, 9ED-U
 Name:   Zealous Persecution
 Cost:   WB
 Type:   Instant
-S/R:    ARB-U
+S/R:    ARB-U, EMA-U, DDK-U
 Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.
 
 Name:   Zealous Strike
 Cost:   1W
 Type:   Instant
-S/R:    AVR-C
+S/R:    AVR-C, CN2-C
 Target creature gets +2/+2 and gains first strike until end of turn.
 
 Name:   Zebra Unicorn
@@ -96,7 +111,7 @@ Name:   Zedruu the Greathearted
 Cost:   1RWU
 Type:   Legendary Creature — Minotaur Monk
 P/T:    2/4
-S/R:    CMD-M
+S/R:    CMD-M, C16-M
 At the beginning of your upkeep, you gain X life and draw X cards, where X is the number of permanents you own that your opponents control.
 {R}{W}{U}: Target opponent gains control of target permanent you control.
 
@@ -105,7 +120,7 @@ Cost:   1R
 Type:   Enchantment
 S/R:    ZEN-C
 Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Zektar Shrine Expedition.
-Remove three quest counters from Zektar Shrine Expedition and sacrifice it: Put a 7/1 red Elemental creature token with trample and haste onto the battlefield. Exile it at the beginning of the next end step.
+Remove three quest counters from Zektar Shrine Expedition and sacrifice it: Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step.
 
 Name:   Zelyon Sword
 Cost:   3
@@ -119,7 +134,27 @@ Cost:   4G
 Type:   Creature — Elemental
 P/T:    3/3
 S/R:    ZEN-C
-Forestwalk
+Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
+
+Name:   Zendikar Incarnate
+Cost:   2RG
+Type:   Creature — Elemental
+P/T:    */4
+S/R:    ORI-U
+Zendikar Incarnate's power is equal to the number of lands you control.
+
+Name:   Zendikar Resurgent
+Cost:   5GG
+Type:   Enchantment
+S/R:    OGW-R
+Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
+Whenever you cast a creature spell, draw a card.
+
+Name:   Zendikar's Roil
+Cost:   3GG
+Type:   Enchantment
+S/R:    ORI-U
+Whenever a land enters the battlefield under your control, create a 2/2 green Elemental creature token.
 
 Name:   Zephid
 Cost:   4UU
@@ -190,7 +225,7 @@ Name:   Zhalfirin Commander
 Cost:   2W
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    MI-U, TSP-S
+S/R:    MI-U, TSP-S, DDG-U
 Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 {1}{W}{W}: Target Knight creature gets +1/+1 until end of turn.
 
@@ -198,7 +233,7 @@ Name:   Zhalfirin Crusader
 Cost:   1WW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    VI-R
+S/R:    VI-R, VMA-R
 Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 {1}{W}: The next 1 damage that would be dealt to Zhalfirin Crusader this turn is dealt to target creature or player instead.
 
@@ -214,7 +249,7 @@ Name:   Zhang Fei, Fierce Warrior
 Cost:   4WW
 Type:   Legendary Creature — Human Soldier Warrior
 P/T:    4/4
-S/R:    P3K-R
+S/R:    P3K-R, ME3-U
 Vigilance; horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 
 Name:   Zhang He, Wei General
@@ -265,7 +300,7 @@ Name:   Zhur-Taa Druid
 Cost:   RG
 Type:   Creature — Human Druid
 P/T:    1/1
-S/R:    DGM-C
+S/R:    DGM-C, C16-C, DDL-C
 {T}: Add {G} to your mana pool.
 Whenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent.
 
@@ -295,13 +330,13 @@ Cost:   2R
 Type:   Creature — Hound
 P/T:    2/2
 S/R:    P3K-C
-Mountainwalk
+Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
 
 Name:   Zodiac Dragon
 Cost:   7RR
 Type:   Creature — Dragon
 P/T:    8/8
-S/R:    P3K-R
+S/R:    P3K-R, ME3-R
 When Zodiac Dragon is put into your graveyard from the battlefield, you may return it to your hand.
 
 Name:   Zodiac Goat
@@ -309,18 +344,18 @@ Cost:   R
 Type:   Creature — Goat
 P/T:    1/1
 S/R:    P3K-C
-Mountainwalk
+Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
 
 Name:   Zodiac Horse
 Cost:   3G
 Type:   Creature — Horse
 P/T:    3/3
 S/R:    P3K-U
-Islandwalk
+Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 
 Name:   Zodiac Monkey
 Cost:   1G
-Type:   Creature — Ape
+Type:   Creature — Monkey
 P/T:    2/1
 S/R:    P3K-C, 9ED-C
 Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
@@ -330,54 +365,54 @@ Cost:   3G
 Type:   Creature — Ox
 P/T:    3/3
 S/R:    P3K-U
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Zodiac Pig
 Cost:   3B
 Type:   Creature — Boar
 P/T:    3/3
 S/R:    P3K-U
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Zodiac Rabbit
 Cost:   G
 Type:   Creature — Rabbit
 P/T:    1/1
 S/R:    P3K-C
-Forestwalk
+Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 
 Name:   Zodiac Rat
 Cost:   B
 Type:   Creature — Rat
 P/T:    1/1
 S/R:    P3K-C
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Zodiac Rooster
 Cost:   1G
 Type:   Creature — Bird
 P/T:    2/1
 S/R:    P3K-C
-Plainswalk
+Plainswalk (This creature can't be blocked as long as defending player controls a Plains.)
 
 Name:   Zodiac Snake
 Cost:   2B
 Type:   Creature — Snake
 P/T:    2/2
 S/R:    P3K-C
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Zodiac Tiger
 Cost:   2GG
 Type:   Creature — Cat
 P/T:    3/4
 S/R:    P3K-U
-Forestwalk
+Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 
 Name:   Zoetic Cavern
 Type:   Land
-S/R:    FUT-U, CMD-U, C14-U
-{T}: Add {1} to your mana pool.
+S/R:    FUT-U, CMD-U, C14-U, C15-U
+{T}: Add {C} to your mana pool.
 Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Zof Shade
@@ -438,15 +473,15 @@ S/R:    M10-C, M12-C, M13-C, CNS-C
 Name:   Zombie Infestation
 Cost:   1B
 Type:   Enchantment
-S/R:    OD-U, M12-U, ARC-U
-Discard two cards: Put a 2/2 black Zombie creature token onto the battlefield.
+S/R:    OD-U, ARC-U, M12-U, PD3-U
+Discard two cards: Create a 2/2 black Zombie creature token.
 
 Name:   Zombie Master
 Cost:   1BB
 Type:   Creature — Zombie
 P/T:    2/3
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R
-Other Zombie creatures have swampwalk.
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, ME4-U
+Other Zombie creatures have swampwalk. (They can't be blocked as long as defending player controls a Swamp.)
 Other Zombies have "{B}: Regenerate this permanent."
 
 Name:   Zombie Mob
@@ -462,7 +497,7 @@ Cost:   3B
 Type:   Snow Creature — Zombie
 P/T:    2/3
 S/R:    CSP-C
-Snow landwalk
+Snow landwalk (This creature can't be blocked as long as defending player controls a snow land.)
 {S}: Regenerate Zombie Musher. ({S} can be paid with one mana from a snow permanent.)
 
 Name:   Zombie Outlander
@@ -485,7 +520,7 @@ Type:   Creature — Zombie Scout
 P/T:    2/2
 S/R:    TOR-U
 Tap an untapped Zombie you control: Target land becomes a Swamp until end of turn.
-Tap an untapped Zombie you control: Target creature gains swampwalk until end of turn.
+Tap an untapped Zombie you control: Target creature gains swampwalk until end of turn. (It can't be blocked as long as defending player controls a Swamp.)
 
 Name:   Zombify
 Cost:   3B
@@ -507,6 +542,20 @@ P/T:    3/3
 S/R:    MI-R
 Flying
 Other Griffin creatures get +1/+1.
+
+Name:   Zulaport Chainmage
+Cost:   3B
+Type:   Creature — Human Shaman Ally
+P/T:    4/2
+S/R:    OGW-C
+Cohort — {T}, Tap an untapped Ally you control: Target opponent loses 2 life.
+
+Name:   Zulaport Cutthroat
+Cost:   1B
+Type:   Creature — Human Rogue Ally
+P/T:    1/1
+S/R:    BFZ-U
+Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
 
 Name:   Zulaport Enforcer
 Cost:   B
@@ -550,14 +599,14 @@ S/R:    IA-C
 Name:   Zuran Orb
 Cost:   0
 Type:   Artifact
-S/R:    IA-U
+S/R:    IA-U, MED-U, V10-M
 Sacrifice a land: You gain 2 life.
 
 Name:   Zuran Spellcaster
 Cost:   2U
 Type:   Creature — Human Wizard
 P/T:    1/1
-S/R:    IA-C
+S/R:    IA-C, ME2-C
 {T}: Zuran Spellcaster deals 1 damage to target creature or player.
 
 Name:   Zurgo Bellstriker
@@ -572,7 +621,7 @@ Name:   Zurgo Helmsmasher
 Cost:   2RWB
 Type:   Legendary Creature — Orc Warrior
 P/T:    7/2
-S/R:    KTK-M
+S/R:    KTK-M, DDN-M
 Haste
 Zurgo Helmsmasher attacks each combat if able.
 Zurgo Helmsmasher has indestructible as long as it's your turn.

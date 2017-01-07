@@ -23,7 +23,7 @@ When Oaken Brawler enters the battlefield, clash with an opponent. If you win, p
 Name:   Oakenform
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    M10-C
+S/R:    M10-C, W16-C
 Enchant creature
 Enchanted creature gets +3/+3.
 
@@ -31,7 +31,7 @@ Name:   Oakgnarl Warrior
 Cost:   5GG
 Type:   Creature — Treefolk Warrior
 P/T:    5/7
-S/R:    LRW-C
+S/R:    LRW-C, DDR-C
 Vigilance, trample
 
 Name:   Oakheart Dryads
@@ -43,13 +43,20 @@ Constellation — Whenever Oakheart Dryads or another enchantment enters the bat
 
 Name:   Oasis
 Type:   Land
-S/R:    AN-U, 4E-U
+S/R:    AN-U, 4E-U, ME4-C
 {T}: Prevent the next 1 damage that would be dealt to target creature this turn.
+
+Name:   Oath of Chandra
+Cost:   1R
+Type:   Legendary Enchantment
+S/R:    OGW-R
+When Oath of Chandra enters the battlefield, it deals 3 damage to target creature an opponent controls.
+At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, Oath of Chandra deals 2 damage to each opponent.
 
 Name:   Oath of Druids
 Cost:   1G
 Type:   Enchantment
-S/R:    EX-R
+S/R:    EX-R, C16-R, VMA-M
 At the beginning of each player's upkeep, that player chooses target player who controls more creatures than he or she does and is his or her opponent. The first player may reveal cards from the top of his or her library until he or she reveals a creature card. If he or she does, that player puts that card onto the battlefield and all other cards revealed this way into his or her graveyard.
 
 Name:   Oath of Ghouls
@@ -58,11 +65,32 @@ Type:   Enchantment
 S/R:    EX-R
 At the beginning of each player's upkeep, that player chooses target player whose graveyard has fewer creature cards in it than his or her graveyard does and is his or her opponent. The first player may return a creature card from his or her graveyard to his or her hand.
 
+Name:   Oath of Gideon
+Cost:   2W
+Type:   Legendary Enchantment
+S/R:    OGW-R
+When Oath of Gideon enters the battlefield, create two 1/1 white Kor Ally creature tokens.
+Each planeswalker you control enters the battlefield with an additional loyalty counter on it.
+
+Name:   Oath of Jace
+Cost:   2U
+Type:   Legendary Enchantment
+S/R:    OGW-R
+When Oath of Jace enters the battlefield, draw three cards, then discard two cards.
+At the beginning of your upkeep, scry X, where X is the number of planeswalkers you control.
+
 Name:   Oath of Lieges
 Cost:   1W
 Type:   Enchantment
 S/R:    EX-R
 At the beginning of each player's upkeep, that player chooses target player who controls more lands than he or she does and is his or her opponent. The first player may search his or her library for a basic land card, put that card onto the battlefield, then shuffle his or her library.
+
+Name:   Oath of Liliana
+Cost:   2B
+Type:   Legendary Enchantment
+S/R:    EMN-R
+When Oath of Liliana enters the battlefield, each opponent sacrifices a creature.
+At the beginning of each end step, if a planeswalker entered the battlefield under your control this turn, create a 2/2 black Zombie creature token.
 
 Name:   Oath of Lim-Dul
 Cost:   3B
@@ -76,6 +104,13 @@ Cost:   1R
 Type:   Enchantment
 S/R:    EX-R
 At the beginning of each player's upkeep, that player chooses target player who has more life than he or she does and is his or her opponent. The first player may have Oath of Mages deal 1 damage to the second player.
+
+Name:   Oath of Nissa
+Cost:   G
+Type:   Legendary Enchantment
+S/R:    OGW-R
+When Oath of Nissa enters the battlefield, look at the top three cards of your library. You may reveal a creature, land, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+You may spend mana as though it were mana of any color to cast planeswalker spells.
 
 Name:   Oath of Scholars
 Cost:   3U
@@ -106,13 +141,22 @@ S/R:    RAV-U
 Vigilance
 Other creatures you control get +0/+2 and have vigilance.
 
+Name:   Ob Nixilis Reignited
+Cost:   3BB
+Type:   Planeswalker — Nixilis
+P/T:    5
+S/R:    BFZ-M, DDR-M
+[+1]: You draw a card and you lose 1 life.
+[-3]: Destroy target creature.
+[-8]: Target opponent gets an emblem with "Whenever a player draws a card, you lose 2 life."
+
 Name:   Ob Nixilis of the Black Oath
 Cost:   3BB
 Type:   Planeswalker — Nixilis
 P/T:    3
 S/R:    C14-M
 [+2]: Each opponent loses 1 life. You gain life equal to the life lost this way.
-[-2]: Put a 5/5 black Demon creature token with flying onto the battlefield. You lose 2 life.
+[-2]: Create a 5/5 black Demon creature token with flying. You lose 2 life.
 [-8]: You get an emblem with "{1}{B}, Sacrifice a creature: You gain X life and draw X cards, where X is the sacrificed creature's power."
 Ob Nixilis of the Black Oath can be your commander.
 
@@ -151,13 +195,13 @@ S/R:    ALA-C
 Name:   Obelisk of Esper
 Cost:   3
 Type:   Artifact
-S/R:    ALA-C, C13-C, ARC-C
+S/R:    ALA-C, ARC-C, C13-C
 {T}: Add {W}, {U}, or {B} to your mana pool.
 
 Name:   Obelisk of Grixis
 Cost:   3
 Type:   Artifact
-S/R:    ALA-C, C13-C
+S/R:    ALA-C, C13-C, DDH-C
 {T}: Add {U}, {B}, or {R} to your mana pool.
 
 Name:   Obelisk of Jund
@@ -175,7 +219,7 @@ S/R:    ALA-C
 Name:   Obelisk of Undoing
 Cost:   1
 Type:   Artifact
-S/R:    AQ-R, CH-R, 5E-R
+S/R:    AQ-R, CH-R, 5E-R, ME4-R
 {6}, {T}: Return target permanent you both own and control to your hand.
 
 Name:   Obelisk of Urd
@@ -189,13 +233,13 @@ Creatures you control of the chosen type get +2/+2.
 Name:   Oblation
 Cost:   2W
 Type:   Instant
-S/R:    ONS-R, CMD-R, C14-R
+S/R:    ONS-R, CMD-R, C14-R, C16-R
 The owner of target nonland permanent shuffles it into his or her library, then draws two cards.
 
 Name:   Obliterate
 Cost:   6RR
 Type:   Sorcery
-S/R:    IN-R, 8ED-R
+S/R:    IN-R, 8ED-R, V16-M
 Obliterate can't be countered.
 Destroy all artifacts, creatures, and lands. They can't be regenerated.
 
@@ -210,9 +254,16 @@ Enchanted creature has "Discard a card: This creature gets +1/+1 until end of tu
 Name:   Oblivion Ring
 Cost:   2W
 Type:   Enchantment
-S/R:    LRW-C, ALA-C, CMD-C, M12-U, M13-U, ARC-C, HOP-C
+S/R:    LRW-C, ALA-C, HOP-C, ARC-C, CMD-C, M12-U, M13-U, MM2-U, DDG-C, DDI-U
 When Oblivion Ring enters the battlefield, exile another target nonland permanent.
 When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner's control.
+
+Name:   Oblivion Sower
+Cost:   6
+Type:   Creature — Eldrazi
+P/T:    5/8
+S/R:    BFZ-M, DDP-M
+When you cast Oblivion Sower, target opponent exiles the top four cards of his or her library, then you may put any number of land cards that player owns from exile onto the battlefield under your control.
 
 Name:   Oblivion Stone
 Cost:   3
@@ -220,6 +271,13 @@ Type:   Artifact
 S/R:    MRD-R, CMD-R
 {4}, {T}: Put a fate counter on target permanent.
 {5}, {T}, Sacrifice Oblivion Stone: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.
+
+Name:   Oblivion Strike
+Cost:   3B
+Type:   Sorcery
+S/R:    OGW-C
+Devoid (This card has no color.)
+Exile target creature.
 
 Name:   Oboro Breezecaller
 Cost:   1U
@@ -243,12 +301,12 @@ S/R:    SOK-R
 {T}: Add {U} to your mana pool.
 {1}: Return Oboro, Palace in the Clouds to its owner's hand.
 
-Name:   Obscuring AEther
+Name:   Obscuring Aether
 Cost:   G
 Type:   Enchantment
 S/R:    DTK-R
 Face-down creature spells you cast cost {1} less to cast.
-{1}{G}: Turn Obscuring AEther face down. (It becomes a 2/2 creature.)
+{1}{G}: Turn Obscuring Aether face down. (It becomes a 2/2 creature.)
 
 Name:   Observant Alseid
 Cost:   2W
@@ -262,15 +320,23 @@ Enchanted creature gets +2/+2 and has vigilance.
 Name:   Obsessive Search
 Cost:   U
 Type:   Instant
-S/R:    TOR-C
+S/R:    TOR-C, VMA-C
 Draw a card.
-Madness {U} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)
+Madness {U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+
+Name:   Obsessive Skinner
+Cost:   1G
+Type:   Creature — Human Rogue
+P/T:    1/1
+S/R:    SOI-U
+When Obsessive Skinner enters the battlefield, put a +1/+1 counter on target creature.
+Delirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, put a +1/+1 counter on target creature.
 
 Name:   Obsianus Golem
 Cost:   6
 Type:   Artifact Creature — Golem
 P/T:    4/6
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 6E-U, S00-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 6E-U, S00-U, ME4-C
 
 Name:   Obsidian Acolyte
 Cost:   1W
@@ -360,6 +426,13 @@ P/T:    1/1
 S/R:    EVE-C
 {1}{(b/g)}: Regenerate Odious Trow.
 
+Name:   Odric, Lunarch Marshal
+Cost:   3W
+Type:   Legendary Creature — Human Soldier
+P/T:    3/3
+S/R:    SOI-R
+At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance.
+
 Name:   Odric, Master Tactician
 Cost:   2WW
 Type:   Legendary Creature — Human Soldier
@@ -381,7 +454,7 @@ Cost:   3B
 Type:   Creature — Wraith
 P/T:    2/2
 S/R:    WL-U
-Swampwalk
+Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
 Whenever Odylic Wraith deals damage to a player, that player discards a card.
 
 Name:   Off Balance
@@ -416,7 +489,7 @@ Name:   Ogre Battledriver
 Cost:   2RR
 Type:   Creature — Ogre Warrior
 P/T:    3/3
-S/R:    M14-R
+S/R:    M14-R, DDN-R
 Whenever another creature enters the battlefield under your control, that creature gets +2/+0 and gains haste until end of turn. (It can attack and {T} this turn.)
 
 Name:   Ogre Berserker
@@ -494,14 +567,14 @@ Name:   Ogre Savant
 Cost:   4R
 Type:   Creature — Ogre Wizard
 P/T:    3/2
-S/R:    GPT-C
+S/R:    GPT-C, DDH-C, DDJ-C
 When Ogre Savant enters the battlefield, if {U} was spent to cast Ogre Savant, return target creature to its owner's hand.
 
 Name:   Ogre Sentry
 Cost:   1R
 Type:   Creature — Ogre Warrior
 P/T:    3/3
-S/R:    ROE-C
+S/R:    ROE-C, CN2-C
 Defender
 
 Name:   Ogre Shaman
@@ -516,14 +589,14 @@ Cost:   3BB
 Type:   Creature — Ogre Rogue
 P/T:    3/3
 S/R:    GTC-R
-Whenever another nontoken creature dies, you may put a 1/1 black Rat creature token onto the battlefield.
+Whenever another nontoken creature dies, you may create a 1/1 black Rat creature token.
 Rats you control have deathtouch.
 
 Name:   Ogre Taskmaster
 Cost:   3R
 Type:   Creature — Ogre
 P/T:    4/3
-S/R:    P2-U, MM-U, 7E-U, 8ED-U, 9ED-U
+S/R:    P2-U, MM-U, 7E-U, 8ED-U, 9ED-U, ME4-C
 Ogre Taskmaster can't block.
 
 Name:   Ogre Warrior
@@ -543,7 +616,7 @@ Name:   Ohran Viper
 Cost:   1GG
 Type:   Snow Creature — Snake
 P/T:    1/3
-S/R:    CSP-R
+S/R:    CSP-R, C15-R, DDM-R
 Whenever Ohran Viper deals combat damage to a creature, destroy that creature at end of combat.
 Whenever Ohran Viper deals combat damage to a player, you may draw a card.
 
@@ -600,7 +673,7 @@ Name:   Ojutai's Summons
 Cost:   3UU
 Type:   Sorcery
 S/R:    DTK-C
-Put a 2/2 blue Djinn Monk creature token with flying onto the battlefield.
+Create a 2/2 blue Djinn Monk creature token with flying.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 
 Name:   Ojutai, Soul of Winter
@@ -650,7 +723,7 @@ Name:   Old Man of the Sea
 Cost:   1UU
 Type:   Creature — Djinn
 P/T:    2/3
-S/R:    AN-R
+S/R:    AN-R, ME3-R
 You may choose not to untap Old Man of the Sea during your untap step.
 {T}: Gain control of target creature with power less than or equal to Old Man of the Sea's power for as long as Old Man of the Sea remains tapped and that creature's power remains less than or equal to Old Man of the Sea's power.
 
@@ -662,6 +735,30 @@ S/R:    ISD-M
 Flying
 {1}{R}: Olivia Voldaren deals 1 damage to another target creature. That creature becomes a Vampire in addition to its other types. Put a +1/+1 counter on Olivia Voldaren.
 {3}{B}{B}: Gain control of target Vampire for as long as you control Olivia Voldaren.
+
+Name:   Olivia's Bloodsworn
+Cost:   1B
+Type:   Creature — Vampire Soldier
+P/T:    2/1
+S/R:    SOI-U
+Flying
+Olivia's Bloodsworn can't block.
+{R}: Target Vampire gains haste until end of turn.
+
+Name:   Olivia's Dragoon
+Cost:   1B
+Type:   Creature — Vampire Berserker
+P/T:    2/2
+S/R:    EMN-C
+Discard a card: Olivia's Dragoon gains flying until end of turn.
+
+Name:   Olivia, Mobilized for War
+Cost:   1BR
+Type:   Legendary Creature — Vampire Knight
+P/T:    3/3
+S/R:    SOI-M
+Flying
+Whenever another creature enters the battlefield under your control, you may discard a card. If you do, put a +1/+1 counter on that creature, it gains haste until end of turn, and it becomes a Vampire in addition to its other types.
 
 Name:   Oloro, Ageless Ascetic
 Cost:   3WUB
@@ -703,16 +800,24 @@ Name:   Omenspeaker
 Cost:   1U
 Type:   Creature — Human Wizard
 P/T:    1/3
-S/R:    THS-C
+S/R:    THS-C, CN2-C, DDO-C
 When Omenspeaker enters the battlefield, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
 
 Name:   Omnath, Locus of Mana
 Cost:   2G
 Type:   Legendary Creature — Elemental
 P/T:    1/1
-S/R:    WWK-M
+S/R:    WWK-M, V11-M
 Green mana doesn't empty from your mana pool as steps and phases end.
 Omnath, Locus of Mana gets +1/+1 for each green mana in your mana pool.
+
+Name:   Omnath, Locus of Rage
+Cost:   3RRGG
+Type:   Legendary Creature — Elemental
+P/T:    5/5
+S/R:    BFZ-M
+Landfall — Whenever a land enters the battlefield under your control, create a 5/5 red and green Elemental creature token.
+Whenever Omnath, Locus of Rage or another Elemental you control dies, Omnath deals 3 damage to target creature or player.
 
 Name:   Omnibian
 Cost:   1GGU
@@ -725,7 +830,14 @@ Name:   Omniscience
 Cost:   7UUU
 Type:   Enchantment
 S/R:    M13-M
-You may cast nonland cards from your hand without paying their mana costs.
+You may cast spells from your hand without paying their mana costs.
+
+Name:   Ondu Champion
+Cost:   2RR
+Type:   Creature — Minotaur Warrior Ally
+P/T:    4/3
+S/R:    BFZ-C
+Rally — Whenever Ondu Champion or another Ally enters the battlefield under your control, creatures you control gain trample until end of turn.
 
 Name:   Ondu Cleric
 Cost:   1W
@@ -738,16 +850,38 @@ Name:   Ondu Giant
 Cost:   3G
 Type:   Creature — Giant Druid
 P/T:    2/4
-S/R:    ROE-C, PC2-C
+S/R:    ROE-C, PC2-C, DDP-C
 When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+
+Name:   Ondu Greathorn
+Cost:   3W
+Type:   Creature — Beast
+P/T:    2/3
+S/R:    BFZ-C
+First strike
+Landfall — Whenever a land enters the battlefield under your control, Ondu Greathorn gets +2/+2 until end of turn.
+
+Name:   Ondu Rising
+Cost:   1W
+Type:   Sorcery
+S/R:    BFZ-U
+Whenever a creature attacks this turn, it gains lifelink until end of turn.
+Awaken 4—{4}{W} (If you cast this spell for {4}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)
+
+Name:   Ondu War Cleric
+Cost:   1W
+Type:   Creature — Human Cleric Ally
+P/T:    2/2
+S/R:    OGW-C
+Cohort — {T}, Tap an untapped Ally you control: You gain 2 life.
 
 Name:   One Dozen Eyes
 Cost:   5G
 Type:   Sorcery
 S/R:    MRD-U, C13-U
 Choose one —
-• Put a 5/5 green Beast creature token onto the battlefield.
-• Put five 1/1 green Insect creature tokens onto the battlefield.
+• Create a 5/5 green Beast creature token.
+• Create five 1/1 green Insect creature tokens.
 Entwine {G}{G}{G} (Choose both if you pay the entwine cost.)
 
 Name:   One Thousand Lashes
@@ -757,6 +891,15 @@ S/R:    GTC-U
 Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated.
 At the beginning of the upkeep of enchanted creature's controller, that player loses 1 life.
+
+Name:   One of the Pack
+Type:   Creature — Werewolf
+P/T:    5/6
+Color:  Green
+M-type: Transform
+M-card: Solitary Hunter
+S/R:    SOI-C
+At the beginning of each upkeep, if a player cast two or more spells last turn, transform One of the Pack.
 
 Name:   One with Nature
 Cost:   G
@@ -779,10 +922,17 @@ S/R:    ISD-C
 Defender
 Creatures with flying your opponents control get -1/-0.
 
+Name:   Ongoing Investigation
+Cost:   1U
+Type:   Enchantment
+S/R:    SOI-U
+Whenever one or more creatures you control deal combat damage to a player, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+{1}{G}, Exile a creature card from your graveyard: Investigate. You gain 2 life.
+
 Name:   Oni Possession
 Cost:   2B
 Type:   Enchantment — Aura
-S/R:    CHK-U
+S/R:    CHK-U, DDC-U
 Enchant creature
 At the beginning of your upkeep, sacrifice a creature.
 Enchanted creature gets +3/+3 and has trample.
@@ -792,7 +942,7 @@ Name:   Oni of Wild Places
 Cost:   5R
 Type:   Creature — Demon Spirit
 P/T:    6/5
-S/R:    SOK-U, CMD-U
+S/R:    SOK-U, CMD-U, DDN-U
 Haste
 At the beginning of your upkeep, return a red creature you control to its owner's hand.
 
@@ -806,7 +956,7 @@ Name:   Onulet
 Cost:   3
 Type:   Artifact Creature — Construct
 P/T:    2/2
-S/R:    AQ-U, RV-R, 4E-R
+S/R:    AQ-U, RV-R, 4E-R, ME4-C, MED-C
 When Onulet dies, you gain 2 life.
 
 Name:   Onyx Goblet
@@ -848,7 +998,7 @@ Wither (This deals damage to creatures in the form of -1/-1 counters.)
 Name:   Oona's Grace
 Cost:   2U
 Type:   Instant
-S/R:    EVE-C
+S/R:    EVE-C, EMA-C
 Target player draws a card.
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
 
@@ -864,21 +1014,21 @@ Name:   Oona, Queen of the Fae
 Cost:   3(U/B)(U/B)(U/B)
 Type:   Legendary Creature — Faerie Wizard
 P/T:    5/5
-S/R:    SHM-R
+S/R:    SHM-R, MMA-R, V11-M
 Flying
-{X}{(u/b)}: Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, put a 1/1 blue and black Faerie Rogue creature token with flying onto the battlefield.
+{X}{(u/b)}: Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, create a 1/1 blue and black Faerie Rogue creature token with flying.
 
 Name:   Ooze Flux
 Cost:   3G
 Type:   Enchantment
 S/R:    GTC-R
-{1}{G}, Remove one or more +1/+1 counters from among creatures you control: Put an X/X green Ooze creature token onto the battlefield, where X is the number of +1/+1 counters removed this way.
+{1}{G}, Remove one or more +1/+1 counters from among creatures you control: Create an X/X green Ooze creature token, where X is the number of +1/+1 counters removed this way.
 
 Name:   Ooze Garden
 Cost:   1G
 Type:   Enchantment
 S/R:    ALA-R
-{1}{G}, Sacrifice a non-Ooze creature: Put an X/X green Ooze creature token onto the battlefield, where X is the sacrificed creature's power. Activate this ability only any time you could cast a sorcery.
+{1}{G}, Sacrifice a non-Ooze creature: Create an X/X green Ooze creature token, where X is the sacrificed creature's power. Activate this ability only any time you could cast a sorcery.
 
 Name:   Opal Acrolith
 Cost:   2W
@@ -932,8 +1082,8 @@ When Opal Lake Gatekeepers enters the battlefield, if you control two or more Ga
 
 Name:   Opal Palace
 Type:   Land
-S/R:    C13-C
-{T}: Add {1} to your mana pool.
+S/R:    C13-C, C16-C
+{T}: Add {C} to your mana pool.
 {1}, {T}: Add to your mana pool one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters the battlefield with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game.
 
 Name:   Opal Titan
@@ -948,7 +1098,7 @@ Type:   Legendary Creature — Fox Samurai
 P/T:    1/4
 S/R:    BOK-R
 Defender (This creature can't attack.)
-Bushido 1 (When this blocks or becomes blocked, it gets +1/+1 until end of turn.)
+Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.)
 {T}: The next time a source of your choice would deal damage this turn, that damage is dealt to Opal-Eye, Konda's Yojimbo instead.
 {1}{W}: Prevent the next 1 damage that would be dealt to Opal-Eye this turn.
 
@@ -977,20 +1127,26 @@ Name:   Opaline Unicorn
 Cost:   3
 Type:   Artifact Creature — Unicorn
 P/T:    1/2
-S/R:    THS-C
+S/R:    THS-C, CN2-C
 {T}: Add one mana of any color to your mana pool.
+
+Name:   Open the Armory
+Cost:   1W
+Type:   Sorcery
+S/R:    SOI-U
+Search your library for an Aura or Equipment card, reveal it, and put it into your hand. Then shuffle your library.
 
 Name:   Open the Vaults
 Cost:   4WW
 Type:   Sorcery
-S/R:    M10-R
+S/R:    M10-R, C15-R, C16-R
 Return all artifact and enchantment cards from all graveyards to the battlefield under their owners' control. (Auras with nothing to enchant remain in graveyards.)
 
 Name:   Ophidian
 Cost:   2U
 Type:   Creature — Snake
 P/T:    1/3
-S/R:    WL-C
+S/R:    WL-C, VMA-C, DD2-C
 Whenever Ophidian attacks and isn't blocked, you may draw a card. If you do, Ophidian assigns no combat damage this turn.
 
 Name:   Ophidian Eye
@@ -1006,7 +1162,7 @@ Cost:   2B
 Type:   Creature — Human Shaman
 P/T:    2/2
 S/R:    C13-R
-At the beginning of each upkeep, if you control no Snakes, put a 1/1 black Snake creature token with deathtouch onto the battlefield.
+At the beginning of each upkeep, if you control no Snakes, create a 1/1 black Snake creature token with deathtouch.
 
 Name:   Opportunist
 Cost:   2R
@@ -1051,12 +1207,12 @@ Name:   Opt
 Cost:   U
 Type:   Instant
 S/R:    IN-C
-Look at the top card of your library. You may put that card on the bottom of your library.
+Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 Draw a card.
 
 Name:   Opulent Palace
 Type:   Land
-S/R:    KTK-U
+S/R:    KTK-U, C16-U
 Opulent Palace enters the battlefield tapped.
 {T}: Add {B}, {G}, or {U} to your mana pool.
 
@@ -1075,6 +1231,14 @@ S/R:    BNG-R
 Haste
 Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
 When Oracle of Bones enters the battlefield, if tribute wasn't paid, you may cast an instant or sorcery card from your hand without paying its mana cost.
+
+Name:   Oracle of Dust
+Cost:   4U
+Type:   Creature — Eldrazi Processor
+P/T:    3/5
+S/R:    BFZ-C
+Devoid (This card has no color.)
+{2}, Put a card an opponent owns from exile into that player's graveyard: Draw a card, then discard a card.
 
 Name:   Oracle of Mul Daya
 Cost:   3G
@@ -1106,11 +1270,26 @@ S/R:    BNG-U
 Enchant creature
 Enchanted creature has "{T}: Scry 1, then draw a card." (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)
 
+Name:   Oran-Rief Hydra
+Cost:   4GG
+Type:   Creature — Hydra
+P/T:    5/5
+S/R:    BFZ-R, DDR-R
+Trample
+Landfall — Whenever a land enters the battlefield under your control, put a +1/+1 counter on Oran-Rief Hydra. If that land is a Forest, put two +1/+1 counters on Oran-Rief Hydra instead.
+
+Name:   Oran-Rief Invoker
+Cost:   1G
+Type:   Creature — Human Shaman
+P/T:    2/2
+S/R:    BFZ-C, DDR-C
+{8}: Oran-Rief Invoker gets +5/+5 and gains trample until end of turn.
+
 Name:   Oran-Rief Recluse
 Cost:   2G
 Type:   Creature — Spider
 P/T:    1/3
-S/R:    ZEN-C
+S/R:    ZEN-C, DDM-C
 Kicker {2}{G} (You may pay an additional {2}{G} as you cast this spell.)
 Reach (This creature can block creatures with flying.)
 When Oran-Rief Recluse enters the battlefield, if it was kicked, destroy target creature with flying.
@@ -1124,7 +1303,7 @@ Whenever Oran-Rief Survivalist or another Ally enters the battlefield under your
 
 Name:   Oran-Rief, the Vastwood
 Type:   Land
-S/R:    ZEN-R, C14-R
+S/R:    ZEN-R, C14-R, C15-R
 Oran-Rief, the Vastwood enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 {T}: Put a +1/+1 counter on each green creature that entered the battlefield this turn.
@@ -1151,19 +1330,26 @@ Type:   Artifact
 S/R:    BOK-R
 Permanents enter the battlefield tapped.
 
+Name:   Orbs of Warding
+Cost:   5
+Type:   Artifact
+S/R:    ORI-R
+You have hexproof. (You can't be the target of spells or abilities your opponents control.)
+If a creature would deal damage to you, prevent 1 of that damage.
+
 Name:   Orbweaver Kumo
 Cost:   4GG
 Type:   Creature — Spirit
 P/T:    3/4
 S/R:    CHK-U
 Reach (This creature can block creatures with flying.)
-Whenever you cast a Spirit or Arcane spell, Orbweaver Kumo gains forestwalk until end of turn.
+Whenever you cast a Spirit or Arcane spell, Orbweaver Kumo gains forestwalk until end of turn. (It can't be blocked as long as defending player controls a Forest.)
 
 Name:   Orc General
 Cost:   2R
 Type:   Creature — Orc Warrior
 P/T:    2/2
-S/R:    DK-U
+S/R:    DK-U, ME2-U
 {T}, Sacrifice another Orc or Goblin: Other Orc creatures get +1/+1 until end of turn.
 
 Name:   Orc Sureshot
@@ -1173,11 +1359,18 @@ P/T:    4/2
 S/R:    FRF-U
 Whenever another creature enters the battlefield under your control, target creature an opponent controls gets -1/-1 until end of turn.
 
+Name:   Orchard Elemental
+Cost:   5G
+Type:   Creature — Elemental
+P/T:    2/2
+S/R:    CN2-C
+Council's dilemma — When Orchard Elemental enters the battlefield, starting with you, each player votes for sprout or harvest. Put two +1/+1 counters on Orchard Elemental for each sprout vote. You gain 3 life for each harvest vote.
+
 Name:   Orchard Spirit
 Cost:   2G
 Type:   Creature — Spirit
 P/T:    2/2
-S/R:    ISD-C
+S/R:    ISD-C, ORI-C
 Orchard Spirit can't be blocked except by creatures with flying or reach.
 
 Name:   Orchard Warden
@@ -1204,7 +1397,7 @@ S/R:    CSP-C
 Name:   Orcish Cannonade
 Cost:   1RR
 Type:   Instant
-S/R:    TSP-C, CNS-C
+S/R:    TSP-C, CNS-C, DDN-C
 Orcish Cannonade deals 2 damage to target creature or player and 3 damage to you.
 Draw a card.
 
@@ -1212,21 +1405,21 @@ Name:   Orcish Cannoneers
 Cost:   1RR
 Type:   Creature — Orc Warrior
 P/T:    1/3
-S/R:    IA-U
+S/R:    IA-U, ME2-U
 {T}: Orcish Cannoneers deals 2 damage to target creature or player and 3 damage to you.
 
 Name:   Orcish Captain
 Cost:   R
 Type:   Creature — Orc Warrior
 P/T:    1/1
-S/R:    FE-U, 5E-U
+S/R:    FE-U, 5E-U, ME2-U
 {1}: Flip a coin. If you win the flip, target Orc creature gets +2/+0 until end of turn. If you lose the flip, it gets -0/-2 until end of turn.
 
 Name:   Orcish Conscripts
 Cost:   R
 Type:   Creature — Orc
 P/T:    2/2
-S/R:    IA-C, 5E-C
+S/R:    IA-C, 5E-C, ME2-C
 Orcish Conscripts can't attack unless at least two other creatures attack.
 Orcish Conscripts can't block unless at least two other creatures block.
 
@@ -1234,7 +1427,7 @@ Name:   Orcish Farmer
 Cost:   1RR
 Type:   Creature — Orc
 P/T:    2/2
-S/R:    IA-C, 5E-C
+S/R:    IA-C, 5E-C, ME2-C
 {T}: Target land becomes a Swamp until its controller's next untap step.
 
 Name:   Orcish Healer
@@ -1257,14 +1450,14 @@ Name:   Orcish Lumberjack
 Cost:   R
 Type:   Creature — Orc
 P/T:    1/1
-S/R:    IA-C
+S/R:    IA-C, VMA-C, DDL-C, ME2-C
 {T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G} to your mana pool.
 
 Name:   Orcish Mechanics
 Cost:   2R
 Type:   Creature — Orc
 P/T:    1/1
-S/R:    AQ-C
+S/R:    AQ-C, ME4-U, MED-U
 {T}, Sacrifice an artifact: Orcish Mechanics deals 2 damage to target creature or player.
 
 Name:   Orcish Mine
@@ -1279,7 +1472,7 @@ When the last ore counter is removed from Orcish Mine, destroy enchanted land an
 Name:   Orcish Oriflamme
 Cost:   3R
 Type:   Enchantment
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, 6E-U, S00-U, 7E-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, 6E-U, S00-U, 7E-U, EMA-C
 Attacking creatures you control get +1/+0.
 
 Name:   Orcish Settlers
@@ -1300,14 +1493,14 @@ Name:   Orcish Squatters
 Cost:   4R
 Type:   Creature — Orc
 P/T:    2/3
-S/R:    IA-R, 5E-R
+S/R:    IA-R, 5E-R, ME2-R
 Whenever Orcish Squatters attacks and isn't blocked, you may gain control of target land defending player controls for as long as you control Orcish Squatters. If you do, Orcish Squatters assigns no combat damage this turn.
 
 Name:   Orcish Veteran
 Cost:   2R
 Type:   Creature — Orc
 P/T:    2/2
-S/R:    FE-C
+S/R:    FE-C, ME2-C
 Orcish Veteran can't block white creatures with power 2 or greater.
 {R}: Orcish Veteran gains first strike until end of turn.
 
@@ -1338,7 +1531,7 @@ When you sacrifice Ordeal of Nylea, search your library for up to two basic land
 Name:   Ordeal of Purphoros
 Cost:   1R
 Type:   Enchantment — Aura
-S/R:    THS-U
+S/R:    THS-U, DDL-U
 Enchant creature
 Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice Ordeal of Purphoros.
 When you sacrifice Ordeal of Purphoros, it deals 3 damage to target creature or player.
@@ -1356,14 +1549,14 @@ Cost:   3W
 Type:   Instant
 M-type: Split
 M-card: Chaos
-S/R:    AP-U, HOP-U
+S/R:    AP-U, HOP-U, C16-U
 Exile target attacking creature.
 
 Name:   Order of Leitbur
 Cost:   WW
 Type:   Creature — Human Cleric Knight
 P/T:    2/1
-S/R:    FE-C
+S/R:    FE-C, MED-C
 Protection from black
 {W}: Order of Leitbur gains first strike until end of turn.
 {W}{W}: Order of Leitbur gets +1/+0 until end of turn.
@@ -1385,7 +1578,7 @@ Name:   Order of Yawgmoth
 Cost:   2BB
 Type:   Creature — Zombie Knight
 P/T:    2/2
-S/R:    US-U
+S/R:    US-U, DDE-U
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 Whenever Order of Yawgmoth deals damage to a player, that player discards a card.
 
@@ -1393,7 +1586,7 @@ Name:   Order of the Ebon Hand
 Cost:   BB
 Type:   Creature — Cleric Knight
 P/T:    2/1
-S/R:    FE-C
+S/R:    FE-C, MED-C
 Protection from white
 {B}: Order of the Ebon Hand gains first strike until end of turn.
 {B}{B}: Order of the Ebon Hand gets +1/+0 until end of turn.
@@ -1415,7 +1608,7 @@ Name:   Order of the Sacred Torch
 Cost:   1WW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    IA-R, 5E-R, 6E-R
+S/R:    IA-R, 5E-R, 6E-R, ME2-R
 {T}, Pay 1 life: Counter target black spell.
 
 Name:   Order of the Stars
@@ -1431,7 +1624,7 @@ Name:   Order of the White Shield
 Cost:   WW
 Type:   Creature — Human Knight
 P/T:    2/1
-S/R:    IA-U, 5E-U
+S/R:    IA-U, 5E-U, ME2-U
 Protection from black
 {W}: Order of the White Shield gains first strike until end of turn.
 {W}{W}: Order of the White Shield gets +1/+0 until end of turn.
@@ -1440,7 +1633,7 @@ Name:   Ordered Migration
 Cost:   3WU
 Type:   Sorcery
 S/R:    IN-U
-Domain — Put a 1/1 blue Bird creature token with flying onto the battlefield for each basic land type among lands you control.
+Domain — Create a 1/1 blue Bird creature token with flying for each basic land type among lands you control.
 
 Name:   Ordruun Commando
 Cost:   3R
@@ -1462,6 +1655,13 @@ Type:   Creature — Spirit
 P/T:    3/1
 S/R:    CHK-U
 Whenever you cast a Spirit or Arcane spell, you may destroy target nonbasic land.
+
+Name:   Oreskos Explorer
+Cost:   1W
+Type:   Creature — Cat Scout
+P/T:    2/2
+S/R:    C15-U
+When Oreskos Explorer enters the battlefield, search your library for up to X Plains cards, where X is the number of players who control more lands than you. Reveal those cards, put them into your hand, then shuffle your library.
 
 Name:   Oreskos Sun Guide
 Cost:   1W
@@ -1496,7 +1696,7 @@ Name:   Origin Spellbomb
 Cost:   1
 Type:   Artifact
 S/R:    SOM-C
-{1}, {T}, Sacrifice Origin Spellbomb: Put a 1/1 colorless Myr artifact creature token onto the battlefield.
+{1}, {T}, Sacrifice Origin Spellbomb: Create a 1/1 colorless Myr artifact creature token.
 When Origin Spellbomb is put into a graveyard from the battlefield, you may pay {W}. If you do, draw a card.
 
 Name:   Orim's Chant
@@ -1523,7 +1723,7 @@ Whenever one or more creatures attack you, you gain 1 life for each attacking cr
 Name:   Orim's Thunder
 Cost:   2W
 Type:   Instant
-S/R:    AP-C, CMD-C, HOP-C
+S/R:    AP-C, HOP-C, CMD-C, C15-C
 Kicker {R} (You may pay an additional {R} as you cast this spell.)
 Destroy target artifact or enchantment. If Orim's Thunder was kicked, it deals damage equal to that permanent's converted mana cost to target creature.
 
@@ -1549,6 +1749,21 @@ S/R:    FUT-R
 {T}: Prevent all damage that would be dealt to target creature this turn.
 Grandeur — Discard another card named Oriss, Samite Guardian: Target player can't cast spells this turn, and creatures that player controls can't attack this turn.
 
+Name:   Ormendahl, Profane Prince
+Type:   Legendary Creature — Demon
+P/T:    9/7
+Color:  Black
+M-type: Transform
+M-card: Westvale Abbey
+S/R:    SOI-R
+Flying, lifelink, indestructible, haste
+
+Name:   Ornamental Courage
+Cost:   G
+Type:   Instant
+S/R:    KLD-C
+Untap target creature. It gets +1/+3 until end of turn.
+
 Name:   Ornate Kanzashi
 Cost:   5
 Type:   Artifact
@@ -1562,7 +1777,7 @@ P/T:    3/3
 S/R:    BNG-U
 Flying
 Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
-When Ornitharch enters the battlefield, if tribute wasn't paid, put two 1/1 white Bird creature tokens with flying onto the battlefield.
+When Ornitharch enters the battlefield, if tribute wasn't paid, create two 1/1 white Bird creature tokens with flying.
 
 Name:   Ornithopter
 Cost:   0
@@ -1578,14 +1793,14 @@ P/T:    1/1
 M-type: Flip
 M-card: Shidako, Broodmistress
 S/R:    CHK-U
-{2}{G}, {T}: Put a 1/1 green Snake creature token onto the battlefield. If you control ten or more creatures, flip Orochi Eggwatcher.
+{2}{G}, {T}: Create a 1/1 green Snake creature token. If you control ten or more creatures, flip Orochi Eggwatcher.
 
 Name:   Orochi Hatchery
 Cost:   XX
 Type:   Artifact
-S/R:    CHK-R
+S/R:    CHK-R, C15-R
 Orochi Hatchery enters the battlefield with X charge counters on it.
-{5}, {T}: Put a 1/1 green Snake creature token onto the battlefield for each charge counter on Orochi Hatchery.
+{5}, {T}: Create a 1/1 green Snake creature token for each charge counter on Orochi Hatchery.
 
 Name:   Orochi Leafcaller
 Cost:   G
@@ -1616,9 +1831,16 @@ S/R:    PLC-R, CMD-R
 Flying
 Whenever Oros, the Avenger deals combat damage to a player, you may pay {2}{W}. If you do, Oros deals 3 damage to each nonwhite creature.
 
+Name:   Orzhov Advokist
+Cost:   2W
+Type:   Creature — Human Advisor
+P/T:    1/4
+S/R:    C16-U
+At the beginning of your upkeep, each player may put two +1/+1 counters on a creature he or she controls. If a player does, creatures that player controls can't attack you or a planeswalker you control until your next turn.
+
 Name:   Orzhov Basilica
 Type:   Land
-S/R:    GPT-C, CMD-C, C13-C
+S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U
 Orzhov Basilica enters the battlefield tapped.
 When Orzhov Basilica enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {W}{B} to your mana pool.
@@ -1635,7 +1857,7 @@ Choose one —
 Name:   Orzhov Cluestone
 Cost:   3
 Type:   Artifact
-S/R:    DGM-C
+S/R:    DGM-C, C15-C
 {T}: Add {W} or {B} to your mana pool.
 {W}{B}, {T}, Sacrifice Orzhov Cluestone: Draw a card.
 
@@ -1649,7 +1871,7 @@ When Orzhov Euthanist enters the battlefield or the creature it haunts dies, des
 
 Name:   Orzhov Guildgate
 Type:   Land — Gate
-S/R:    GTC-C, DGM-C, C13-C
+S/R:    GTC-C, DGM-C, C13-C, C15-C
 Orzhov Guildgate enters the battlefield tapped.
 {T}: Add {W} or {B} to your mana pool.
 
@@ -1681,20 +1903,20 @@ When Orzhov Pontiff enters the battlefield or the creature it haunts dies, choos
 Name:   Orzhov Signet
 Cost:   2
 Type:   Artifact
-S/R:    GPT-C, CMD-C
+S/R:    GPT-C, CMD-C, C15-C, C16-C
 {1}, {T}: Add {W}{B} to your mana pool.
 
 Name:   Orzhova, the Church of Deals
 Type:   Land
 S/R:    GPT-U
-{T}: Add {1} to your mana pool.
+{T}: Add {C} to your mana pool.
 {3}{W}{B}, {T}: Target player loses 1 life and you gain 1 life.
 
 Name:   Osai Vultures
 Cost:   1W
 Type:   Creature — Bird
 P/T:    1/1
-S/R:    LE-C, 4E-U
+S/R:    LE-C, 4E-U, ME4-C
 Flying
 At the beginning of each end step, if a creature died this turn, put a carrion counter on Osai Vultures.
 Remove two carrion counters from Osai Vultures: Osai Vultures gets +1/+1 until end of turn.
@@ -1730,13 +1952,19 @@ S/R:    AVR-R
 Name:   Otherworldly Journey
 Cost:   1W
 Type:   Instant — Arcane
-S/R:    CHK-U
+S/R:    CHK-U, MMA-C, MM2-C, DDC-U
 Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.
+
+Name:   Otherworldly Outburst
+Cost:   R
+Type:   Instant
+S/R:    EMN-C
+Target creature gets +1/+0 until end of turn. When that creature dies this turn, create a 3/2 colorless Eldrazi Horror creature token.
 
 Name:   Oubliette
 Cost:   1BB
 Type:   Enchantment
-S/R:    AN-C
+S/R:    AN-C, MED-C
 When Oubliette enters the battlefield, exile target creature and all Auras attached to it. Note the number and kind of counters that were on that creature.
 When Oubliette leaves the battlefield, return that exiled card to the battlefield under its owner's control tapped with the noted number and kind of counters on it. If you do, return the other exiled cards to the battlefield under their owner's control attached to that permanent.
 
@@ -1750,7 +1978,7 @@ S/R:    5DN-U
 Name:   Oust
 Cost:   W
 Type:   Sorcery
-S/R:    ROE-U
+S/R:    ROE-U, DDP-U
 Put target creature into its owner's library second from the top. Its controller gains 3 life.
 
 Name:   Outbreak
@@ -1760,11 +1988,25 @@ S/R:    PR-U
 You may discard a Swamp card rather than pay Outbreak's mana cost.
 Choose a creature type. All creatures of that type get -1/-1 until end of turn.
 
+Name:   Outland Colossus
+Cost:   3GG
+Type:   Creature — Giant
+P/T:    6/6
+S/R:    ORI-R
+Renown 6 (When this creature deals combat damage to a player, if it isn't renowned, put six +1/+1 counters on it and it becomes renowned.)
+Outland Colossus can't be blocked by more than one creature.
+
 Name:   Outmaneuver
 Cost:   XR
 Type:   Instant
 S/R:    US-U
 X target blocked creatures assign their combat damage this turn as though they weren't blocked.
+
+Name:   Outnumber
+Cost:   R
+Type:   Instant
+S/R:    BFZ-C
+Outnumber deals damage to target creature equal to the number of creatures you control.
 
 Name:   Outpost Siege
 Cost:   3R
@@ -1802,6 +2044,21 @@ Type:   Instant
 S/R:    AVR-C
 Counter target spell that targets a player.
 
+Name:   Ovalchase Daredevil
+Cost:   3B
+Type:   Creature — Human Pilot
+P/T:    4/2
+S/R:    KLD-U
+Whenever an artifact enters the battlefield under your control, you may return Ovalchase Daredevil from your graveyard to your hand.
+
+Name:   Ovalchase Dragster
+Cost:   4
+Type:   Artifact — Vehicle
+P/T:    6/1
+S/R:    KLD-U
+Trample, haste
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Overabundance
 Cost:   1RG
 Type:   Enchantment
@@ -1833,7 +2090,7 @@ Name:   Overeager Apprentice
 Cost:   2B
 Type:   Creature — Human Minion
 P/T:    1/2
-S/R:    OD-C
+S/R:    OD-C, DDC-C
 Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.
 
 Name:   Overgrown Battlement
@@ -1852,7 +2109,7 @@ Sacrifice a land: You gain 3 life.
 
 Name:   Overgrown Tomb
 Type:   Land — Swamp Forest
-S/R:    RAV-R, RTR-R
+S/R:    RAV-R, RTR-R, EXP-M
 ({T}: Add {B} or {G} to your mana pool.)
 As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.
 
@@ -1893,13 +2150,13 @@ Counter target spell unless its controller pays {1} for each artifact you contro
 Name:   Overrule
 Cost:   XWU
 Type:   Instant
-S/R:    DIS-C
+S/R:    DIS-C, DDI-C
 Counter target spell unless its controller pays {X}. You gain X life.
 
 Name:   Overrun
 Cost:   2GGG
 Type:   Sorcery
-S/R:    TE-U, OD-U, 10E-U, M10-U, M12-U, PC2-U, C14-U
+S/R:    TE-U, OD-U, 10E-U, M10-U, M12-U, PC2-U, C14-U, C15-U, CN2-U, DDD-U
 Creatures you control get +3/+3 and gain trample until end of turn.
 
 Name:   Overseer of the Damned
@@ -1909,7 +2166,7 @@ P/T:    5/5
 S/R:    C14-R
 Flying
 When Overseer of the Damned enters the battlefield, you may destroy target creature.
-Whenever a nontoken creature an opponent controls dies, put a 2/2 black Zombie creature token onto the battlefield tapped.
+Whenever a nontoken creature an opponent controls dies, create a tapped 2/2 black Zombie creature token.
 
 Name:   Oversold Cemetery
 Cost:   1B
@@ -1934,14 +2191,22 @@ S/R:    MM-R
 Name:   Overwhelm
 Cost:   5GG
 Type:   Sorcery
-S/R:    RAV-U, M15-U
+S/R:    RAV-U, M15-U, MM2-U
 Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Creatures you control get +3/+3 until end of turn.
+
+Name:   Overwhelming Denial
+Cost:   2UU
+Type:   Instant
+S/R:    OGW-R
+Surge {U}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
+Overwhelming Denial can't be countered by spells or abilities.
+Counter target spell.
 
 Name:   Overwhelming Forces
 Cost:   6BB
 Type:   Sorcery
-S/R:    P3K-R
+S/R:    P3K-R, ME4-R
 Destroy all creatures target opponent controls. Draw a card for each creature destroyed this way.
 
 Name:   Overwhelming Instinct
@@ -1953,13 +2218,13 @@ Whenever you attack with three or more creatures, draw a card.
 Name:   Overwhelming Intellect
 Cost:   4UU
 Type:   Instant
-S/R:    SOK-U
+S/R:    SOK-U, DDJ-U
 Counter target creature spell. Draw cards equal to that spell's converted mana cost.
 
 Name:   Overwhelming Stampede
 Cost:   3GG
 Type:   Sorcery
-S/R:    M11-R, C14-R
+S/R:    M11-R, C14-R, MM2-R, C15-R
 Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control.
 
 Name:   Ovinize
@@ -1974,13 +2239,21 @@ Type:   Creature — Human Wizard
 P/T:    0/1
 S/R:    VI-U, TSP-S
 When Ovinomancer enters the battlefield, sacrifice it unless you return three basic lands you control to their owner's hand.
-{T}, Return Ovinomancer to its owner's hand: Destroy target creature. It can't be regenerated. That creature's controller puts a 0/1 green Sheep creature token onto the battlefield.
+{T}, Return Ovinomancer to its owner's hand: Destroy target creature. It can't be regenerated. That creature's controller creates a 0/1 green Sheep creature token.
+
+Name:   Oviya Pashiri, Sage Lifecrafter
+Cost:   G
+Type:   Legendary Creature — Human Artificer
+P/T:    1/2
+S/R:    KLD-R
+{2}{G}, {T}: Create a 1/1 colorless Servo artifact creature token.
+{4}{G}, {T}: Create an X/X colorless Construct artifact creature token, where X is the number of creatures you control.
 
 Name:   Owl Familiar
 Cost:   1U
 Type:   Creature — Bird
 P/T:    1/1
-S/R:    P1-C, S99-U
+S/R:    P1-C, S99-U, VMA-C, ME4-C
 Flying
 When Owl Familiar enters the battlefield, draw a card, then discard a card.
 
@@ -1995,7 +2268,7 @@ Name:   Oxidda Golem
 Cost:   6
 Type:   Artifact Creature — Golem
 P/T:    3/2
-S/R:    DST-C
+S/R:    DST-C, DD2-C
 Affinity for Mountains (This spell costs {1} less to cast for each Mountain you control.)
 Haste
 
@@ -2018,4 +2291,4 @@ Type:   Legendary Creature — Spirit
 P/T:    3/6
 S/R:    BOK-R
 Flying
-Whenever you cast a Spirit or Arcane spell, put a 3/3 white Spirit creature token with flying onto the battlefield.
+Whenever you cast a Spirit or Arcane spell, create a 3/3 white Spirit creature token with flying.

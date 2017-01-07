@@ -158,6 +158,9 @@ _actions = [
             ("GAINED", "gained")),
     Verb(   ("GET", "get", "gets"),
             ("GOT", "got")),
+    Verb(   ("GIVE", "give", "gives"),
+            ("GAVE", "gave"),
+            ("GIVING", "giving")),
     Verb(   ("GUESS", "guess", "guesses"),
             ("GUESSED", "guessed"),
             ("GUESSING", "guessing")),
@@ -263,6 +266,8 @@ _actions = [
     Verb(   ("COUNTER", "counter", "counters"),
             ("COUNTERED", "countered"),
             ("COUNTERING", "countering")),
+    Verb(   ("CREATE", "create", "creates"),
+            ("CREATED", "created")),
     Verb(   ("DESTROY", "destroy", "destroys"),
             ("DESTROYED", "destroyed"),
             ("DESTROYING", "destroying")),
@@ -321,8 +326,15 @@ _actions = [
     Verb(   ("FATESEAL", "fateseal", "fateseals"),
             ("FATESEALED", "fatesealed"),
             ("FATESEALING", "fatesealing")),
+    Verb(   ("GOAD", "goad", "goads"),
+            ("GOADED", "goaded"),
+            ("GOADING", "goading")),
+    Verb(   ("INVESTIGATE", "investigate", "investigates"),
+            ("INVESTIGATED", "investigated")),
     Verb(   ("MANIFEST", "manifest", "manifests"),
             ("MANIFESTED", "manifested")),
+    Verb(   ("MELD", "meld", "melds"),
+            ("MELDED", "melded")),
     Verb(   ("POPULATE", "populate", "populates"),
             ("POPULATED", "populated"),
             ("POPULATING", "populating")),
@@ -472,6 +484,8 @@ _abilities = [
     Keyword(("AURA_SWAP", "aura swap")),
     Verb(   ("SWAP", "swap", "swaps"),
             ("SWAPPED", "swapped")),
+    Verb(   ("AWAKEN", "awaken", "awakens"),
+            ("AWAKENED", "awakened")),
     Keyword(("BATTLE_CRY", "battle cry")),
     Verb(   ("BESTOW", "bestow"),
             ("BESTOWED", "bestowed")),
@@ -488,6 +502,8 @@ _abilities = [
     Verb(   ("CONSPIRE", "conspire", "conspires"),
             ("CONSPIRED", "conspired")),
     Keyword(("CONVOKE", "convoke")),
+    Verb(   ("CREW", "crew", "crews"),
+            ("CREWED", "crewed")),
     Keyword(("CUMULATIVE_UPKEEP", "cumulative upkeep")),
     Verb(   ("CYCLE", "cycle", "cycles"),
             ("CYCLED", "cycled"),
@@ -495,12 +511,17 @@ _abilities = [
     Keyword(("DASH", "dash")),
     Keyword(("DELVE", "delve")),
     Keyword(("DETHRONE", "dethrone")),
+    Keyword(("DEVOID", "devoid")),
     Verb(   ("DEVOUR", "devour", "devours"),
             ("DEVOURED", "devoured")),
     Keyword(("DREDGE", "dredge")),
     Keyword(("ECHO", "echo")),
+    Verb(   ("EMERGE", "emerge", "emerges"),
+            ("EMERGED", "emerged")),
     Keyword(("ENTWINE", "entwine")),
     Keyword(("EPIC", "epic")),
+    Verb(   ("ESCALATE", "escalate", "escalates"),
+            ("ESCALATED", "escalated")),
     Verb(   ("EVOKE", "evoke", "evokes"),
             ("EVOKED", "evoked")),
     Verb(   ("EVOLVE", "evolve", "evolves"),
@@ -510,6 +531,8 @@ _abilities = [
             ("EXPLOITED", "exploited")),
     Verb(   ("EXTORT", "extort", "extorts"),
             ("EXTORTED", "extorted")),
+    Verb(   ("FABRICATE", "fabricate", "fabricates"),
+            ("FABRICATED", "fabricated")),
     Keyword(("FADING", "fading")),
     Keyword(("FLANKING", "flanking")),
     Keyword(("FLASHBACK", "flashback")),
@@ -527,8 +550,11 @@ _abilities = [
             ("HAUNTING", "haunting")),
     Keyword(("HIDEAWAY", "hideaway")),
     Keyword(("HORSEMANSHIP", "horsemanship")),
+    Verb(   ("IMPROVISE", "improvise", "improvises"),
+            ("IMPROVISED", "improvised")),
     Keyword(("INDESTRUCTIBLE", "indestructible")),
     Keyword(("INFECT", "infect")),
+    Keyword(("INGEST", "ingest")),
     Keyword(("KICKER", "kicker")),
     Verb(   ("KICK", "kick", "kicks"),
             ("KICKED", "kicked")),
@@ -536,17 +562,20 @@ _abilities = [
     Keyword(("LIVING_WEAPON", "living weapon")),
     Keyword(("MADNESS", "madness")),
     Keyword(("MEGAMORPH", "megamorph")),
+    Keyword(("MELEE", "melee")),
     Keyword(("MENACE", "menace")),
     Keyword(("MIRACLE", "miracle")),
     Keyword(("MODULAR", "modular")),
     Keyword(("MONSTROSITY", "monstrosity")),
     Keyword(("MORPH", "morph")),
+    Keyword(("MYRIAD", "myriad")),
     Keyword(("MULTIKICKER", "multikicker")),
     Keyword(("NINJUTSU", "ninjutsu")),
     Keyword(("OFFERING", "offering")),
     Keyword(("OUTLAST", "outlast")),
     Verb(   ("OVERLOAD", "overload", "overloads"),
             ("OVERLOADED", "overloaded")),
+    Noun("PARTNER", "partner", "partners"),
     Keyword(("PERSIST", "persist")),
     # Phasing
     Verb(   ("PHASE", "phase", "phases"),
@@ -572,6 +601,7 @@ _abilities = [
     Verb(   ("SCAVENGE", "scavenge", "scavenges"),
             ("SCAVENGED", "scavenged")),
     Keyword(("SHADOW", "shadow")),
+    Keyword(("SKULK", "skulk")),
     Keyword(("SOULBOND", "soulbond")),
     Keyword(("SOULSHIFT", "soulshift")),
     Verb(   ("SPLICE", "splice", "splices"),
@@ -579,6 +609,10 @@ _abilities = [
     Keyword(("SPLIT_SECOND", "split second")),
     Keyword(("STORM", "storm")),
     Keyword(("SUNBURST", "sunburst")),
+    Verb(   ("SUPPORT", "support", "supports"),
+            ("SUPPORTED", "supported")),
+    Verb(   ("SURGE", "surge", "surges"),
+            ("SURGED", "surged")),
     Verb(   ("SUSPEND", "suspend", "suspends"),
             ("SUSPENDED", "suspended")),
     Keyword(("TOTEM_ARMOR", "totem armor")),
@@ -587,6 +621,7 @@ _abilities = [
             ("TRANSMUTED", "transmuted")),
     Keyword(("TRIBUTE", "tribute")),
     Keyword(("TYPECYCLING", "typecycling")),
+    Keyword(("UNDAUNTED", "undaunted")),
     Keyword(("UNDYING", "undying")),
     Verb(   ("UNEARTH", "unearth", "unearths"),
             ("UNEARTHED", "unearthed")),
@@ -612,7 +647,11 @@ _ability_words = [
     Keyword(("BLOODRUSH", "bloodrush")),
     Keyword(("CHANNEL", "channel")),
     Keyword(("CHROMA", "chroma")),
+    Keyword(("COHORT", "cohort")),
     Keyword(("CONSTELLATION", "constellation")),
+    Keyword(("CONVERGE", "converge")),
+    Keyword(("COUNCILS_DILEMMA", "council's dilemma")),
+    Keyword(("DELIRIUM", "delirium")),
     Keyword(("DOMAIN", "domain")),
     Keyword(("FATEFUL_HOUR", "fateful hour")),
     Keyword(("FEROCIOUS", "ferocious")),
@@ -631,6 +670,8 @@ _ability_words = [
     Keyword(("PARLEY", "parley")),
     Keyword(("RADIANCE", "radiance")),
     Keyword(("RAID", "raid")),
+    Keyword(("RALLY", "rally")),
+    Keyword(("REVOLT", "revolt")),
     Keyword(("SPELL_MASTERY", "spell mastery")),
     Keyword(("STRIVE", "strive")),
     Keyword(("SWEEP", "sweep")),
@@ -675,6 +716,7 @@ _types = [
     Noun("CONTROLLER", "controller", "controllers"),
     Noun("OWNER", "owner", "owners"),
     Noun("BIDDER", "bidder", "bidders"),
+    Noun("MONARCH", "monarch", "monarchs"),
     Keyword(("ACTIVE", "active")),
     Keyword(("ATTACKING", "attacking")),
     Keyword(("DEFENDING", "defending")),
@@ -712,9 +754,11 @@ for t in _types:
 
 # Subtypes (generally nouns)
 _artifact_types = [
+    Noun("CLUE", "clue", "clues"),
     Noun("CONTRAPTION", "contraption", "contraptions"),
     Noun("EQUIPMENT", "equipment", "equipment"),
     Noun("FORTIFICATION", "fortification", "fortifications"),
+    Noun("VEHICLE", "vehicle", "vehicles"),
 ]
 
 _enchantment_types = [
@@ -741,18 +785,21 @@ _land_types = [
 
 _planeswalker_types = [
     Keyword(("AJANI", "ajani")),
+    Keyword(("ARLINN", "arlinn")),
     Keyword(("ASHIOK", "ashiok")),
     Keyword(("BOLAS", "bolas")),
     Keyword(("CHANDRA", "chandra")),
     Keyword(("DACK", "dack")),
     Keyword(("DARETTI", "daretti")),
     Keyword(("DOMRI", "domri")),
+    Keyword(("DOVIN", "dovin")),
     Keyword(("ELSPETH", "elspeth")),
     Keyword(("FREYALISE", "freyalise")),
     Keyword(("GARRUK", "garruk")),
     Keyword(("GIDEON", "gideon")),
     Keyword(("JACE", "jace")),
     Keyword(("KARN", "karn")),
+    Keyword(("KAYA", "kaya")),
     Keyword(("KIORA", "kiora")),
     Keyword(("KOTH", "koth")),
     Keyword(("LILIANA", "liliana")),
@@ -761,6 +808,7 @@ _planeswalker_types = [
     Keyword(("NISSA", "nissa")),
     Keyword(("NIXILIS", "nixilis")),
     Keyword(("RAL", "ral")),
+    Keyword(("SAHEELI", "saheeli")),
     Keyword(("SARKHAN", "sarkhan")),
     Keyword(("SORIN", "sorin")),
     Keyword(("TAMIYO", "tamiyo")),
@@ -780,6 +828,7 @@ _spell_types = [
 
 _creature_types = [
     Noun("ADVISOR", "advisor", "advisors"),
+    Noun("AETHERBORN", "aetherborn", "aetherborn"),
     Noun("ALLY", "ally", "allies"),
     Noun("ANGEL", "angel", "angels"),
     Noun("ANTEATER", "anteater", "anteaters"),
@@ -902,9 +951,11 @@ _creature_types = [
     Noun("METATHRAN", "metathran", "metathrans"),
     Noun("MINION", "minion", "minions"),
     Noun("MINOTAUR", "minotaur", "minotaurs"),
+    Noun("MOLE", "mole", "moles"),
     Noun("MONGER", "monger", "mongers"),
     Noun("MONGOOSE", "mongoose", "mongooses"),
     Noun("MONK", "monk", "monks"),
+    Noun("MONKEY", "monkey", "monkeys"),
     Noun("MOONFOLK", "moonfolk", "moonfolk"),
     Noun("MUTANT", "mutant", "mutants"),
     Noun("MYR", "myr", "myrs"),
@@ -932,11 +983,13 @@ _creature_types = [
     Noun("PEST", "pest", "pests"),
     Noun("PHELDDAGRIF", "phelddagrif", "phelddagrifs"),
     Noun("PHOENIX", "phoenix", "phoenix"),
+    Noun("PILOT", "pilot", "pilots"),
     Noun("PINCHER", "pincher", "pinchers"),
     Noun("PIRATE", "pirate", "pirates"),
     Noun("PLANT", "plant", "plants"),
     Noun("PRAETOR", "praetor", "praetors"),
     Noun("PRISM", "prism", "prisms"),
+    Noun("PROCESSOR", "processor", "processors"),
     Noun("RABBIT", "rabbit", "rabbits"),
     Noun("RAT", "rat", "rats"),
     Noun("REBEL", "rebel", "rebels"),
@@ -951,10 +1004,12 @@ _creature_types = [
     Noun("SAPROLING", "saproling", "saprolings"),
     Noun("SATYR", "satyr", "satyrs"),
     Noun("SCARECROW", "scarecrow", "scarecrows"),
+    Noun("SCION", "scion", "scions"),
     Noun("SCORPION", "scorpion", "scorpions"),
     Noun("SCOUT", "scout", "scouts"),
     Noun("SERF", "serf", "serfs"),
     Noun("SERPENT", "serpent", "serpents"),
+    Noun("SERVO", "servo", "servos"),
     Noun("SHADE", "shade", "shades"),
     Noun("SHAMAN", "shaman", "shamans"),
     Noun("SHAPESHIFTER", "shapeshifter", "shapeshifters"),
@@ -1072,6 +1127,7 @@ counter_types = [
     "charge",
     "corpse",
     "credit",
+    "crystal",
     "cube",
     "currency",
     "death",
@@ -1086,6 +1142,7 @@ counter_types = [
     "elixir",
     "energy",
     "eon",
+    "experience",
     "eyeball",
     "fade",
     "fate",
@@ -1093,6 +1150,7 @@ counter_types = [
     "filibuster",
     "flood",
     "fungus",
+    "fury",
     "fuse",
     "gem",
     "glyph",
@@ -1101,11 +1159,13 @@ counter_types = [
     "hatchling",
     "healing",
     "hoofprint",
+    "hour",
     "hourglass",
     "hunger",
     "ice",
     "infection",
     "intervention",
+    "isolation",
     "javelin",
     "ki",
     "level",
@@ -1132,6 +1192,7 @@ counter_types = [
     "phylactery",
     "pin",
     "plague",
+    "plot",
     "poison",
     "polyp",
     "pressure",
@@ -1146,6 +1207,7 @@ counter_types = [
     "sleight",
     "slime",
     "soot",
+    "spite",
     "spore",
     "storage",
     "strife",
@@ -1160,6 +1222,7 @@ counter_types = [
     "velocity",
     "verse",
     "vitality",
+    "vortex",
     "wage",
     "winch",
     "wind",
@@ -1173,27 +1236,34 @@ choices = [
     "denial",
     "dragons",
     "duplication",
+    "feather",
+    "free",
     "grace",
+    "harvest",
     "homage",
     "khans",
     "knowledge",
+    "money",
+    "numbers",
     "peace",
     "psychosis",
+    "quill",
     "sickness",
+    "sprout",
+    "strength",
+    "taxes",
     "time",
     "torture",
     "war",
+    "wild",
 ]
 
 _subtypes = (_artifact_types + _creature_types + _enchantment_types
              + _land_types + _plane_types + _planeswalker_types + _spell_types)
-# Mapping from a subtype word to its canonical form
-subtype_lookup = {}
 subtypes = {}
 for st in _subtypes:
     for word, token in st.dict.items():
         subtypes[word] = token
-        subtype_lookup[word] = token
 
 zones = {}
 _zones = [
@@ -1421,11 +1491,15 @@ _concepts = [
     # The planar die
     Keyword(("PLANAR_DIE", "planar die")),
 
-    # Special bidding
+    # Special bidding or voting
     Keyword(("BROKEN", "broken")),
     Noun("ITEM", "item", "items"),
     Keyword(("SECRETLY", "secretly")),
     Keyword(("STAKES", "stakes")),
+    Noun("VOTER", "voter", "voters"),
+
+    # Guessing
+    Keyword(("CORRECTLY", "correctly")),
 
     # Rules
     Keyword(("LEGAL", "legal")),
@@ -1436,7 +1510,7 @@ _concepts = [
     Keyword(("OPENING", "opening")),
 
     # Drafting
-    Keyword(("BOOSTER_PACK", "booster pack")),
+    Noun("BOOSTER_PACK", "booster pack", "booster packs"),
     Keyword(("UNOPENED", "unopened")),
 
     # Subgames
@@ -1532,6 +1606,7 @@ _misc = [
     Keyword(("FOR", "for")),
     Keyword(("HOW", "how")),
     Keyword(("MAKE", "make")),
+    Noun("MODE", "mode", "modes"),
     Keyword(("MUST", "must")),
     Keyword(("NEITHER", "neither")),
     Keyword(("NEW", "new")),
@@ -1678,9 +1753,28 @@ for i, m in enumerate(_msets):
     for n in _msets[i+1:]:
         collisions |= (m & n)
 
+_token_lookup = {}
+for w, t in all_words.items():
+    if t not in _token_lookup:
+        _token_lookup[t] = {w}
+    else:
+        _token_lookup[t].add(w)
+
 # All colliding rules must have their own tokens
 for c in collisions:
-    all_words[c] = make_token_name(c)
+    if c not in all_words:
+        all_words[c] = make_token_name(c)
+        continue
+
+    # Further, don't split apart a token with multiple matches.
+    # This means we might match "fuses counters" but at least we won't
+    # break "numbers" matching for NUMBER.
+    t = all_words[c]
+    matches = _token_lookup[t]
+    if len(matches) > 1:
+        all_words[c] = t
+    else:
+        all_words[c] = make_token_name(c)
 
 macro_rules = {}
 replaced = {}
