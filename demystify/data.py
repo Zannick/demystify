@@ -79,7 +79,7 @@ def load(files=None):
 
 ## Updater ##
 
-_cost = re.compile(r'^([0-9WUBRGX]|\([0-9WUBRGPS]/[0-9WUBRGPS]\))+$', re.I)
+_cost = re.compile(r'^([0-9WUBRGCX]|\([0-9WUBRGCPS]/[0-9WUBRGCPS]\))+$', re.I)
 _pt = re.compile(r'^[0-9*+-]+(/[0-9*+-]+)?$')
 _sr = re.compile(r'^[0-9A-Z, -]+$')
 _color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')

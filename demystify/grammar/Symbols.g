@@ -28,16 +28,16 @@ PARENT : 'PARENT';
 REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' | '\u00c6' | '\u00e6' )+;
 
 // Basic lands have only one letter as their rules text
-BASIC_MANA_SYM : WUBRG_u;
+BASIC_MANA_SYM : WUBRGC_u;
 
 // Chop off brackets for the symbols whose text we'll need later.
 // Unfortunately we have to do our checking against hybrid alternatives
 // elsewhere.
 
 MANA_SYM
-    : '{(' ( WUBRG | DIGIT_SYM ) '/' ( WUBRGP | SNOW_SYM ) ')}'
+    : '{(' ( WUBRGC | DIGIT_SYM ) '/' ( WUBRGCP | SNOW_SYM ) ')}'
       { $text = $text[2:-2].upper() }
-    | '{' ( WUBRG | DIGIT_SYM | SNOW_SYM ) '}'
+    | '{' ( WUBRGC | DIGIT_SYM | SNOW_SYM ) '}'
       { $text = $text[1:-1].upper() };
 
 // Mana cost symbols are BASIC_MANA_SYM, NUMBER_SYM,
@@ -45,7 +45,7 @@ MANA_SYM
 // These use all caps mana symbols and should never be seen in text.
 
 MC_HYBRID_SYM
-    : '(' ( WUBRG_u | DIGIT_SYM ) '/' ( WUBRGP_u | SNOW_u ) ')'
+    : '(' ( WUBRGC_u | DIGIT_SYM ) '/' ( WUBRGCP_u | SNOW_u ) ')'
       { $text = $text[1:-1] };
 
 MC_VAR_SYM : 'X'..'Z' ;
@@ -60,6 +60,8 @@ TAP_SYM : '{t}' { $text = 'T' };
 UNTAP_SYM : '{q}' { $text = 'Q' };
 
 VAR_SYM : 'x'..'z' { $text = $text.upper() };
+
+ENERGY_SYM : '{e}' { $text = 'E' };
 
 // Level up
 LEVEL_SYM : '{level ' ( NUMBER_SYM '-' NUMBER_SYM | NUMBER_SYM '+' ) '}'
@@ -79,14 +81,14 @@ WS : ( ' ' | '\t' | '\n' ) { $channel=HIDDEN };
 
 fragment SNOW_SYM : 's';
 
-fragment WUBRG : ('w'|'u'|'b'|'r'|'g');
+fragment WUBRGC : ('w'|'u'|'b'|'r'|'g'|'c');
 
-fragment WUBRGP : ( WUBRG | 'p' );
+fragment WUBRGCP : ( WUBRGC | 'p' );
 
 fragment SNOW_u : 'S';
 
-fragment WUBRG_u : ('W'|'U'|'B'|'R'|'G');
+fragment WUBRGC_u : ('W'|'U'|'B'|'R'|'G'|'C');
 
-fragment WUBRGP_u : ( WUBRG_u | 'P' );
+fragment WUBRGCP_u : ( WUBRGC_u | 'P' );
 
 fragment DIGIT_SYM : ('1'..'9' '0'..'9') | ('0'..'9');
