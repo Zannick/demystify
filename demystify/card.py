@@ -795,3 +795,32 @@ def counter_types(cards=None):
               'have', 'is', 'may', 'more', 'of', 'or', 'spell', 'that',
               'those', 'was', 'with', 'would', 'x'}
     return sorted(cwords - common)
+
+def missing_words(cards=None):
+    """ Returns a set of new words not accounted for in keywords.py. """
+    from keywords import all_words, macro_words
+    existing_words = {w for y in set(all_words) | macro_words for w in y.split()}
+    if not cards:
+        cards = get_cards()
+    # May miss words with apostrophes and dashes. Do we care?
+    seen_words = set(w for c in cards
+                     for w in c.rules.split()
+                     if w.isalpha())
+    common_words = {'SELF', 'PARENT', 'x', 'y', 'plainswalk', 'islandwalk',
+                    'swampwalk', 'mountainwalk', 'forestwalk', 'desertwalk',
+                    'plainscycling', 'islandcycling', 'swampcycling',
+                    'mountaincycling', 'forestcycling', 'landcycling',
+                    'slivercycling', 'wizardcycling',
+                    'arabian', 'nights'}
+    return seen_words - existing_words - common_words
+
+def missing_types(cards=None):
+    """ Returns a set of new subtypes not accounted for in keywords.py. """
+    from keywords import subtypes, types
+    existing_types = set(subtypes) | set(types)
+    if not cards:
+        cards = get_cards()
+    seen_types = set(w for c in cards for w in c.typeline.split())
+    not_types = {'—'}
+    return seen_types - existing_types - not_types
+
