@@ -19,11 +19,9 @@ I used to install the components.
 1) Java 1.6.0 runtime (or later)
 Required to run ANTLR
 
-Install using your package manager.
-
-Installed on a debian squeeze machine:
+Install using your package manager, eg:
     $ sudo apt-get install java-common
-    $ sudo apt-get install openjdk-6-jdk
+    $ sudo apt-get install openjdk-8-jdk
 
 2) Python 3.2 or later (not Python 3.1!)
 Required to run demystify
@@ -59,26 +57,29 @@ to python3.2.
 Required to use the antlr3 convenience script (5)
 
 The RPM can be found at:
-http://mirrors.dotsrc.org/jpackage/5.0/generic/free/repoview/jpackage-utils.html
+http://mirrors.dotsrc.org/jpackage/6.0/generic/free/repoview/jpackage-utils.html
 
 Installed on a debian squeeze machine:
-    $ wget mirrors.dotsrc.org/jpackage/5.0/generic/free/RPMS/jpackage-utils-5.0.0-2.jpp5.noarch.rpm
-    $ sudo alien -k jpackage-utils-5.0.0-2.jpp5.noarch.rpm
-    $ sudo dpkg -i jpackage-utils_5.0.0-2.jpp5_all.deb
+    $ wget http://mirrors.dotsrc.org/jpackage/6.0/generic/free/RPMS/jpackage-utils-5.0.0-7.jpp6.noarch.rpm
+    $ sudo alien -k jpackage-utils-5.0.0-7.jpp6.noarch.rpm
+    $ sudo dpkg -i jpackage-utils_5.0.0-7.jpp6_all.deb
 
 On some machines (like the Debian machine I'm installing this on as I write
 these helpful instructions), jpackage-utils will want to use a folder that
 contains a bunch of symlinks, but the folder itself isn't created. Check to
-see if /usr/lib/jvm-exports contains a folder named "java-6-openjdk", and if
+see if /usr/lib/jvm-exports contains a folder named "java-8-openjdk", and if
 not, create a symlink, via:
-    $ sudo ln -s ../jvm/java-6-openjdk /usr/lib/jvm-exports/java-6-openjdk
+    $ sudo ln -s ../jvm/java-8-openjdk-amd64 /usr/lib/jvm-exports/java-8-openjdk-amd64
+You may need to change or omit the -amd64 suffix depending on your machine.
 
 (You should also check that /usr/lib/jvm/java-6-openjdk exists.)
 
-In my most recent attempt to install this (with java 1.7, fedora 19), the
+In a previous attempt to install this (with java 1.7, fedora 19), the
 jpackage scripts gave errors because the folders /usr/share/java-1.7.0 and
 /usr/lib/java-1.7.0 didn't exist. These can be empty, it'll still find the jars
 place in /usr/share/java in the next step.
+(In my latest attempt, it was looking for /usr/share/java- and /usr/lib/java-.
+I gave up trying to figure out why and created them.)
 
 4) ANTLR 3.5
 Required to generate the DemystifyParser
