@@ -48,6 +48,7 @@ cost_item : TAP_SYM
 repeatable_cost_item_ : PAY! mana
                       | discard
                       | exile
+                      | pay_energy
                       | pay_life
                       | put_cards
                       | put_counters
@@ -82,6 +83,12 @@ mana : ( MANA_SYM | VAR_MANA_SYM )+
 discard : DISCARD subsets ( AT RANDOM )? -> ^( DISCARD RANDOM? subsets );
 
 exile : EXILE^ subsets ;
+
+pay_energy : PAY ( ANY AMOUNT OF ENERGY_SYM -> ^( ENERGY ANY[] )
+                 | A AMOUNT OF ENERGY_SYM EQUAL TO magic_number
+                   -> ^( ENERGY ^( EQUAL[] magic_number ))
+                 | e+=ENERGY_SYM+ -> ^( ENERGY NUMBER[str(len($e))] )
+                 );
 
 pay_life : PAY magic_life_number -> ^( PAY_LIFE magic_life_number );
 

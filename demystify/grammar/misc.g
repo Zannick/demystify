@@ -36,14 +36,14 @@ ref_object : SELF
              // We probably don't actually need to remember what the
              // nouns were here, but keep them in for now.
            | ( ENCHANTED | EQUIPPED | FORTIFIED ) noun+
-           | this_guy
-           | that_guy
+           | this_ref
+           | that_ref
            ;
 
 // eg. this creature, this permanent, this spell.
-this_guy : THIS ( type | obj_type ) -> SELF;
+this_ref : THIS ( type | obj_type ) -> SELF;
 
-that_guy : THAT^ ( type | obj_type | obj_subtype );
+that_ref : THAT^ ( type | obj_type | obj_subtype );
 
 /* Numbers and quantities. */
 

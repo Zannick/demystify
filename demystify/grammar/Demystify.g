@@ -41,6 +41,7 @@ tokens {
     CONDITION;
     COUNTER_GROUP;
     COUNTER_SET;
+    ENERGY;
     EVENT;
     GEQ;
     GT;

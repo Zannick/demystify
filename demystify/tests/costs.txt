@@ -13,3 +13,13 @@
 @{3}, {t}, sacrifice a creature of the chosen type
 @(COST (MANA 3) T (sacrifice (SUBSET (NUMBER 1) (PROPERTIES creature)
                               (CHOSEN type))))
+
+@AethertorchRenegade
+@cost
+@{t}, pay {e}{e}{e}{e}{e}{e}{e}{e}
+@(COST T (ENERGY 8))
+
+@ConfiscationCoup
+@cost
+@pay an amount of {e} equal to that permanent's converted mana cost
+@(COST (ENERGY (EQUAL (CMC (THAT permanent)))))

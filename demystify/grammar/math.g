@@ -33,6 +33,7 @@ comparison : ( EQUAL TO OR )? ( MORE | GREATER ) THAN magic_number
 magic_number : integer
              | object_count
              | max_among
+             | that_ref poss! int_prop^
              ;
 
 object_count : THE NUMBER OF 
@@ -65,5 +66,6 @@ magic_life_number : integer LIFE -> ^( LIFE[] integer )
                     ( ',' ROUNDED ( u=UP | d=DOWN ) )?
                       -> ^( MULT multiplier ^( LIFE[] player_poss )
                                  ^( ROUND $u? $d? )? )
-                  | LIFE EQUAL TO magic_number -> ^( LIFE[] magic_number )
+                  | LIFE EQUAL TO magic_number
+                    -> ^( LIFE[] ^( EQUAL[] magic_number ) )
                   ;
