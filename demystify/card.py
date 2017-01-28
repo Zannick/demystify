@@ -575,17 +575,12 @@ def preprocess_cardname(line, selfnames=(), parentnames=()):
                                   "SELF", line, flags=re.UNICODE)
             if count > 0:
                 change = True
-                if parentnames:
-                    logger.info("Detected SELF in an ability granted by {}."
-                                .format(parentnames[0]))
     for cardname in parentnames:
         if cardname in line:
             line, count = re.subn(r"\b{}(?!\w)".format(cardname),
                                   "PARENT", line, flags=re.UNICODE)
             if count > 0:
                 change = True
-                logger.info("Detected PARENT in an ability granted by {}."
-                            .format(cardname))
                 _parentcards.add(cardname)
     return line, change
 
@@ -632,19 +627,42 @@ def preprocess_names(line, selfnames=(), parentnames=()):
                                .format(j, words[0]))
         match = name_ref.search(line, j)
     # Check for abilities granted to things that aren't named tokens
+    # Luckily we do not need to consider matching names in abilities
+    # granted in abilities granted
+    # (eg. get an emblem with "creatures have 'T: this creature...'"
+    # although we could replace 'this creature' with SELF...)
+    abil_change = False
     if not parentnames:
+        # Granting abilities to oneself vs granting abilities to something
+        # else: how do we determine it? So far, all granted abilities are
+        # from a) self-granting, b) creating tokens, c) enchanting/equipping.
+        parentwords = ('equipped', 'enchanted', 'fortified', 'create')
         i = 0
         t = abil.search(line[i:])
+        if t:
+            m, _ = t.regs[0]
+            parent = False
+            for w in reversed(preprocess_cardname(line[:m], selfnames)[0].split()):
+                if w.lower() in parentwords:
+                    parent = True
+                    break
+                elif w == 'SELF':
+                    break
         while t:
             m, n = t.regs[0]
-            line = (line[:m + i]
-                    + preprocess_cardname(t.group(), (),
-                                          selfnames)[0]
-                    + line[n + i:])
+            if parent:
+                mid, change = preprocess_cardname(t.group(), (), selfnames)
+            else:
+                mid, change = preprocess_cardname(t.group(), selfnames)
+            line = (line[:m + i] + mid + line[n + i:])
+            abil_change = abil_change or change
             i += n
             t = abil.search(line[i:])
     # CARDNAME processing occurs after the "named" processing
     line, cardname_change = preprocess_cardname(line, selfnames, parentnames)
+    if abil_change:
+        logger.info("Detected cardnames in an ability granted by {}: {}."
+                    .format(selfnames[0], line))
     if change or cardname_change:
         sname = selfnames and selfnames[0] or "?.token"
         logger.debug("Now: {} | {}".format(sname, line))
@@ -703,8 +721,8 @@ def preprocess_all(cards):
         names = (c.name,)
         if c.shortname:
             names += (c.shortname,)
-        lines = [preprocess_capitals(
-                    preprocess_reminder(preprocess_names(line, names)))
+        lines = [preprocess_capitals(preprocess_names(
+                    preprocess_reminder(line), names))
                  for line in c.rules.split("\n")]
         c.rules = preprocess_non("\n".join(lines))
 
