@@ -588,6 +588,21 @@ Type:   Instant
 S/R:    DKA-C
 Creatures you control get +0/+4 until end of turn.
 
+Name:   Baral's Expertise
+Cost:   3UU
+Type:   Sorcery
+S/R:    AeR-R
+Return up to three target artifacts and/or creatures to their owners' hands.
+You may cast a card with converted mana cost 4 or less from your hand without paying its mana cost.
+
+Name:   Baral, Chief of Compliance
+Cost:   1U
+Type:   Legendary Creature — Human Wizard
+P/T:    1/3
+S/R:    AeR-R
+Instant and sorcery spells you cast cost {1} less to cast.
+Whenever a spell or ability you control counters a spell, you may draw a card. If you do, discard a card.
+
 Name:   Barbarian Bully
 Cost:   2R
 Type:   Creature — Human Barbarian
@@ -848,6 +863,14 @@ S/R:    SHM-C
 {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
 Put a -1/-1 counter on Barrenton Medic: Untap Barrenton Medic.
 
+Name:   Barricade Breaker
+Cost:   7
+Type:   Artifact Creature — Juggernaut
+P/T:    7/5
+S/R:    AeR-U
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Barricade Breaker attacks each combat if able.
+
 Name:   Barrin's Codex
 Cost:   4
 Type:   Artifact
@@ -995,6 +1018,20 @@ Type:   Creature — Human Archer
 P/T:    2/1
 S/R:    JOU-U
 Hexproof, reach
+
+Name:   Bastion Enforcer
+Cost:   2W
+Type:   Creature — Dwarf Soldier
+P/T:    3/2
+S/R:    AeR-C
+
+Name:   Bastion Inventor
+Cost:   5U
+Type:   Creature — Vedalken Artificer
+P/T:    4/4
+S/R:    AeR-C
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 
 Name:   Bastion Mastodon
 Cost:   5
@@ -1183,6 +1220,13 @@ Cost:   1R
 Type:   Enchantment
 S/R:    OD-U
 Whenever a creature blocks, Battle Strain deals 1 damage to that creature's controller.
+
+Name:   Battle at the Bridge
+Cost:   XB
+Type:   Sorcery
+S/R:    AeR-R
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Target creature gets -X/-X until end of turn. You gain X life.
 
 Name:   Battle of Wits
 Cost:   3UU
@@ -2315,7 +2359,7 @@ Put X -1/-1 counters on each creature. Shuffle Black Sun's Zenith into its owner
 Name:   Black Vise
 Cost:   1
 Type:   Artifact
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, ME3-R, V10-M
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, MPS-S, ME3-R, V10-M
 As Black Vise enters the battlefield, choose an opponent.
 At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.
 

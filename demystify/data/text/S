@@ -549,6 +549,13 @@ P/T:    1/1
 S/R:    SOM-C
 {W}, Sacrifice Salvage Scout: Return target artifact card from your graveyard to your hand.
 
+Name:   Salvage Scuttler
+Cost:   4U
+Type:   Creature — Crab
+P/T:    4/4
+S/R:    AeR-U
+Whenever Salvage Scuttler attacks, return an artifact you control to its owner's hand.
+
 Name:   Salvage Slasher
 Cost:   1B
 Type:   Artifact Creature — Human Rogue
@@ -2273,6 +2280,13 @@ Type:   Sorcery
 S/R:    C14-R
 Each player exiles all artifact cards from his or her graveyard, then sacrifices all artifacts he or she controls, then puts all cards he or she exiled this way onto the battlefield.
 
+Name:   Scrap Trawler
+Cost:   3
+Type:   Artifact Creature — Construct
+P/T:    3/2
+S/R:    AeR-R
+Whenever Scrap Trawler or another artifact you control is put into a graveyard from the battlefield, return to your hand target artifact card in your graveyard with lesser converted mana cost.
+
 Name:   Scrapbasket
 Cost:   4
 Type:   Artifact Creature — Scarecrow
@@ -2300,6 +2314,15 @@ P/T:    3/2
 S/R:    KLD-R
 Scrapheap Scrounger can't block.
 {1}{B}, Exile another creature card from your graveyard: Return Scrapheap Scrounger from your graveyard to the battlefield.
+
+Name:   Scrapper Champion
+Cost:   3R
+Type:   Creature — Human Artificer
+P/T:    2/2
+S/R:    AeR-U
+Double strike (This creature deals both first-strike and regular combat damage.)
+When Scrapper Champion enters the battlefield, you get {E}{E} (two energy counters).
+Whenever Scrapper Champion attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it.
 
 Name:   Scrapskin Drake
 Cost:   2U
@@ -2488,6 +2511,14 @@ S/R:    SOI-U
 Equipped creature gets +1/+1.
 As long as equipped creature is a Human, it has menace. (It can't be blocked except by two or more creatures.)
 Equip {2}
+
+Name:   Scrounging Bandar
+Cost:   1G
+Type:   Creature — Cat Monkey
+P/T:    0/0
+S/R:    AeR-C
+Scrounging Bandar enters the battlefield with two +1/+1 counters on it.
+At the beginning of your upkeep, you may move any number of +1/+1 counters from Scrounging Bandar onto another target creature.
 
 Name:   Scrubland
 Type:   Land — Plains Swamp
@@ -3053,6 +3084,12 @@ Type:   Enchantment
 S/R:    KTK-U
 Face-down creatures you control get +0/+1.
 Whenever a permanent you control is turned face up, draw a card.
+
+Name:   Secret Salvage
+Cost:   3BB
+Type:   Sorcery
+S/R:    AeR-R
+Exile target nonland card from your graveyard. Search your library for any number of cards with the same name as that card, reveal them, and put them into your hand. Then shuffle your library.
 
 Name:   Secretkeeper
 Cost:   3U
@@ -4229,6 +4266,12 @@ Type:   Sorcery
 S/R:    KLD-U
 Create two 1/1 colorless Servo artifact creature tokens.
 
+Name:   Servo Schematic
+Cost:   2
+Type:   Artifact
+S/R:    AeR-U
+When Servo Schematic enters the battlefield or is put into a graveyard from the battlefield, create a 1/1 colorless Servo artifact creature token.
+
 Name:   Seshiro the Anointed
 Cost:   4GG
 Type:   Legendary Creature — Snake Monk
@@ -5140,6 +5183,15 @@ Equipped creature gets +0/+2 and has vigilance.
 Whenever equipped creature blocks a creature, that creature doesn't untap during its controller's next untap step.
 Equip {2}
 
+Name:   Shielded Aether Thief
+Cost:   1U
+Type:   Creature — Vedalken Rogue
+P/T:    0/4
+S/R:    AeR-U
+Flash (You may cast this spell any time you could cast an instant.)
+Whenever Shielded Aether Thief blocks, you get {E} (an energy counter).
+{T}, Pay {E}{E}{E}: Draw a card.
+
 Name:   Shielded Passage
 Cost:   W
 Type:   Instant
@@ -5403,6 +5455,14 @@ S/R:    THS-R
 {6}{U}{U}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)
 When Shipbreaker Kraken becomes monstrous, tap up to four target creatures. Those creatures don't untap during their controllers' untap steps for as long as you control Shipbreaker Kraken.
 
+Name:   Shipwreck Moray
+Cost:   3U
+Type:   Creature — Fish
+P/T:    0/5
+S/R:    AeR-C
+When Shipwreck Moray enters the battlefield, you get {E}{E}{E}{E} (four energy counters).
+Pay {E}: Shipwreck Moray gets +2/-2 until end of turn.
+
 Name:   Shipwreck Singer
 Cost:   UB
 Type:   Creature — Siren
@@ -5563,7 +5623,7 @@ Landfall — Whenever a land enters the battlefield under your control, Shoal Se
 Name:   Shock
 Cost:   R
 Type:   Instant
-S/R:    ST-C, 6E-C, S00-C, 7E-C, ONS-C, 8ED-C, 9ED-C, 10E-C, M12-C, M14-C, DDN-C
+S/R:    ST-C, 6E-C, S00-C, 7E-C, ONS-C, 8ED-C, 9ED-C, 10E-C, M12-C, M14-C, AeR-C, DDN-C
 Shock deals 2 damage to target creature or player.
 
 Name:   Shock Troops
@@ -6144,6 +6204,14 @@ Type:   Creature — Elephant
 P/T:    3/5
 S/R:    M10-C, M11-C, M12-C, M14-C
 
+Name:   Siege Modification
+Cost:   1RR
+Type:   Enchantment — Aura
+S/R:    AeR-U
+Enchant creature or Vehicle
+As long as enchanted permanent is a Vehicle, it's a creature in addition to its other types.
+Enchanted creature gets +3/+0 and has first strike.
+
 Name:   Siege Rhino
 Cost:   1WBG
 Type:   Creature — Rhino
@@ -6553,6 +6621,14 @@ P/T:    2/7
 S/R:    ONS-R, 9ED-R, M13-R, C13-R, C14-R
 Reach
 {X}{G}{G}: Silklash Spider deals X damage to each creature with flying.
+
+Name:   Silkweaver Elite
+Cost:   2G
+Type:   Creature — Elf Archer
+P/T:    2/2
+S/R:    AeR-C
+Reach (This creature can block creatures with flying.)
+Revolt — When Silkweaver Elite enters the battlefield, if a permanent you controlled left the battlefield this turn, draw a card.
 
 Name:   Silkwing Scout
 Cost:   2U
@@ -8042,6 +8118,14 @@ Type:   Artifact
 S/R:    EX-U
 Sacrifice Skyshaper: Creatures you control gain flying until end of turn.
 
+Name:   Skyship Plunderer
+Cost:   1U
+Type:   Creature — Human Pirate
+P/T:    2/1
+S/R:    AeR-U
+Flying
+Whenever Skyship Plunderer deals combat damage to a player, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.
+
 Name:   Skyship Stalker
 Cost:   2RR
 Type:   Creature — Dragon
@@ -8791,6 +8875,14 @@ Type:   Artifact
 S/R:    BOK-R
 {2}, Discard a Spirit or Arcane card: Slumbering Tora becomes an X/X Cat artifact creature until end of turn, where X is the discarded card's converted mana cost.
 
+Name:   Sly Requisitioner
+Cost:   4B
+Type:   Creature — Human Artificer
+P/T:    2/2
+S/R:    AeR-U
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Whenever a nontoken artifact you control is put into a graveyard from the battlefield, create a 1/1 colorless Servo artifact creature token.
+
 Name:   Smallpox
 Cost:   BB
 Type:   Sorcery
@@ -9396,6 +9488,14 @@ Cost:   2W
 Type:   Sorcery
 S/R:    M10-C, M11-C, M14-C, M15-C
 Destroy target artifact or enchantment. You gain 4 life.
+
+Name:   Solemn Recruit
+Cost:   1WW
+Type:   Creature — Dwarf Warrior
+P/T:    2/2
+S/R:    AeR-R
+Double strike
+Revolt — At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a +1/+1 counter on Solemn Recruit.
 
 Name:   Solemn Simulacrum
 Cost:   4
@@ -11012,7 +11112,7 @@ If a blue source would deal damage to you, prevent 2 of that damage.
 Name:   Sphere of Resistance
 Cost:   2
 Type:   Artifact
-S/R:    EX-R, VMA-R
+S/R:    EX-R, MPS-S, VMA-R
 Spells cost {1} more to cast.
 
 Name:   Sphere of Safety
@@ -11535,6 +11635,14 @@ S/R:    US-C
 Flying
 When Spire Owl enters the battlefield, look at the top four cards of your library, then put them back in any order.
 
+Name:   Spire Patrol
+Cost:   2WU
+Type:   Creature — Human Soldier
+P/T:    3/2
+S/R:    AeR-U
+Flying
+When Spire Patrol enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
+
 Name:   Spire Phantasm
 Cost:   2UU
 Type:   Creature — Gargoyle Illusion
@@ -11558,6 +11666,12 @@ Type:   Creature — Elf Scout
 P/T:    1/1
 S/R:    GTC-C
 Spire Tracer can't be blocked except by creatures with flying or reach.
+
+Name:   Spire of Industry
+Type:   Land
+S/R:    AeR-R
+{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add one mana of any color to your mana pool. Activate this ability only if you control an artifact.
 
 Name:   Spirebluff Canal
 Type:   Land
@@ -12439,6 +12553,20 @@ S/R:    PR-R
 {1}{G}, Sacrifice a land: Create two 1/1 green Squirrel creature tokens.
 {1}{G}, Sacrifice a land: Squirrel creatures get +1/+1 until end of turn.
 
+Name:   Sram's Expertise
+Cost:   2WW
+Type:   Sorcery
+S/R:    AeR-R
+Create three 1/1 colorless Servo artifact creature tokens.
+You may cast a card with converted mana cost 3 or less from your hand without paying its mana cost.
+
+Name:   Sram, Senior Edificer
+Cost:   1W
+Type:   Legendary Creature — Dwarf Advisor
+P/T:    2/2
+S/R:    AeR-R
+Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card.
+
 Name:   Stab Wound
 Cost:   2B
 Type:   Enchantment — Aura
@@ -12471,7 +12599,7 @@ At the beginning of each opponent's upkeep, that player loses 1 life for each ca
 Name:   Staff of Domination
 Cost:   3
 Type:   Artifact
-S/R:    5DN-R
+S/R:    5DN-R, MPS-S
 {1}: Untap Staff of Domination.
 {2}, {T}: You gain 1 life.
 {3}, {T}: Untap target creature.
@@ -14687,7 +14815,7 @@ Put target creature on top of its owner's library.
 
 Name:   Submerged Boneyard
 Type:   Land
-S/R:    OGW-U
+S/R:    OGW-U, AeR-C
 Submerged Boneyard enters the battlefield tapped.
 {T}: Add {U} or {B} to your mana pool.
 
@@ -15154,7 +15282,7 @@ Name:   Sundering Titan
 Cost:   8
 Type:   Artifact Creature — Golem
 P/T:    7/10
-S/R:    DST-R, ARC-R, V10-M
+S/R:    DST-R, ARC-R, MPS-S, V10-M
 When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.
 
 Name:   Sundering Vitae
@@ -15866,6 +15994,14 @@ Type:   Sorcery
 S/R:    BOK-R
 Each player shuffles his or her hand, graveyard, and permanents he or she owns into his or her library, then draws seven cards. Each player's life total becomes 7.
 
+Name:   Sweatworks Brawler
+Cost:   3R
+Type:   Creature — Human Artificer
+P/T:    3/3
+S/R:    AeR-C
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Menace
+
 Name:   Sweep Away
 Cost:   2U
 Type:   Instant
@@ -16004,7 +16140,7 @@ S/R:    PR-U, 8ED-U
 Name:   Sword of Body and Mind
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    SOM-M, V10-M
+S/R:    SOM-M, MPS-S, V10-M
 Equipped creature gets +2/+2 and has protection from green and from blue.
 Whenever equipped creature deals combat damage to a player, you create a 2/2 green Wolf creature token and that player puts the top ten cards of his or her library into his or her graveyard.
 Equip {2}
@@ -16051,7 +16187,7 @@ Equip {3}
 Name:   Sword of War and Peace
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    NPH-M
+S/R:    NPH-M, MPS-S
 Equipped creature gets +2/+2 and has protection from red and from white.
 Whenever equipped creature deals combat damage to a player, Sword of War and Peace deals damage to that player equal to the number of cards in his or her hand and you gain 1 life for each card in your hand.
 Equip {2}

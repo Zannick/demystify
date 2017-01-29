@@ -125,6 +125,13 @@ S/R:    IA-U, 5E-U, ME2-U
 You may choose not to untap Ice Floe during your untap step.
 {T}: Tap target creature without flying that's attacking you. It doesn't untap during its controller's untap step for as long as Ice Floe remains tapped.
 
+Name:   Ice Over
+Cost:   1U
+Type:   Enchantment — Aura
+S/R:    AeR-C
+Enchant artifact or creature
+Enchanted permanent doesn't untap during its controller's untap step.
+
 Name:   Ice Storm
 Cost:   2G
 Type:   Sorcery
@@ -520,6 +527,13 @@ S/R:    C13-R
 Cast Illusionist's Gambit only during the declare blockers step on an opponent's turn.
 Remove all attacking creatures from combat and untap them. After this phase, there is an additional combat phase. Each of those creatures attacks that combat if able. They can't attack you or a planeswalker you control that combat.
 
+Name:   Illusionist's Stratagem
+Cost:   3U
+Type:   Instant
+S/R:    AeR-U
+Exile up to two target creatures you control, then return those cards to the battlefield under their owner's control.
+Draw a card.
+
 Name:   Illusions of Grandeur
 Cost:   3U
 Type:   Enchantment
@@ -764,6 +778,41 @@ P/T:    1/1
 S/R:    BNG-C
 Flying, haste
 Impetuous Sunchaser attacks each turn if able.
+
+Name:   Implement of Combustion
+Cost:   1
+Type:   Artifact
+S/R:    AeR-C
+{R}, Sacrifice Implement of Combustion: It deals 1 damage to target player.
+When Implement of Combustion is put into a graveyard from the battlefield, draw a card.
+
+Name:   Implement of Examination
+Cost:   3
+Type:   Artifact
+S/R:    AeR-C
+{U}, Sacrifice Implement of Examination: Draw a card.
+When Implement of Examination is put into a graveyard from the battlefield, draw a card.
+
+Name:   Implement of Ferocity
+Cost:   1
+Type:   Artifact
+S/R:    AeR-C
+{G}, Sacrifice Implement of Ferocity: Put a +1/+1 counter on target creature. Activate this ability only any time you could cast a sorcery.
+When Implement of Ferocity is put into a graveyard from the battlefield, draw a card.
+
+Name:   Implement of Improvement
+Cost:   1
+Type:   Artifact
+S/R:    AeR-C
+{W}, Sacrifice Implement of Improvement: You gain 2 life.
+When Implement of Improvement is put into a graveyard from the battlefield, draw a card.
+
+Name:   Implement of Malice
+Cost:   2
+Type:   Artifact
+S/R:    AeR-C
+{B}, Sacrifice Implement of Malice: Target player discards a card. Activate this ability only any time you could cast a sorcery.
+When Implement of Malice is put into a graveyard from the battlefield, draw a card.
 
 Name:   Implements of Sacrifice
 Cost:   2
@@ -1114,6 +1163,12 @@ P/T:    4/4
 S/R:    SOM-M, MM2-R
 Flying
 Metalcraft — Artifacts you control have shroud as long as you control three or more artifacts. (An artifact with shroud can't be the target of spells or abilities.)
+
+Name:   Indomitable Creativity
+Cost:   XRRR
+Type:   Sorcery
+S/R:    AeR-M
+Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of his or her library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle their libraries.
 
 Name:   Indomitable Will
 Cost:   1W
@@ -1828,6 +1883,18 @@ P/T:    3/3
 S/R:    SOI-C
 When Inspiring Captain enters the battlefield, creatures you control get +1/+1 until end of turn.
 
+Name:   Inspiring Roar
+Cost:   3W
+Type:   Sorcery
+S/R:    AeR-C
+Put a +1/+1 counter on each creature you control.
+
+Name:   Inspiring Statuary
+Cost:   3
+Type:   Artifact
+S/R:    AeR-R
+Nonartifact spells you cast have improvise. (Your artifacts can help cast those spells. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+
 Name:   Inspiring Vantage
 Type:   Land
 S/R:    KLD-R
@@ -2117,6 +2184,14 @@ S/R:    MM-C, CMD-C, EMA-U, DDD-C
 If you control a Forest, rather than pay Invigorate's mana cost, you may have an opponent gain 3 life.
 Target creature gets +4/+4 until end of turn.
 
+Name:   Invigorated Rampage
+Cost:   1R
+Type:   Instant
+S/R:    AeR-U
+Choose one —
+• Target creature gets +4/+0 and gains trample until end of turn.
+• Two target creatures each get +2/+0 and gain trample until end of turn.
+
 Name:   Invigorating Boon
 Cost:   1G
 Type:   Enchantment
@@ -2337,6 +2412,13 @@ S/R:    VI-U
 Vigilance
 Sacrifice Iron-Heart Chimera: Put a +2/+2 counter on target Chimera creature. It gains vigilance. (This effect lasts indefinitely.)
 
+Name:   Ironclad Revolutionary
+Cost:   4BB
+Type:   Creature — Aetherborn Artificer
+P/T:    4/4
+S/R:    AeR-U
+When Ironclad Revolutionary enters the battlefield, you may sacrifice an artifact. If you do, put two +1/+1 counters on Ironclad Revolutionary and each opponent loses 2 life.
+
 Name:   Ironclad Slayer
 Cost:   2W
 Type:   Creature — Human Warrior
@@ -2404,6 +2486,13 @@ Type:   Creature — Insect
 P/T:    1/1
 S/R:    JUD-C
 When Ironshell Beetle enters the battlefield, put a +1/+1 counter on target creature.
+
+Name:   Irontread Crusher
+Cost:   4
+Type:   Artifact — Vehicle
+P/T:    6/6
+S/R:    AeR-C
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 
 Name:   Ironwright's Cleansing
 Cost:   2W

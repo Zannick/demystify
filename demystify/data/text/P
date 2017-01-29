@@ -1,3 +1,9 @@
+Name:   Pacification Array
+Cost:   1
+Type:   Artifact
+S/R:    AeR-U
+{2}, {T}: Tap target artifact or creature.
+
 Name:   Pacifism
 Cost:   1W
 Type:   Enchantment — Aura
@@ -406,6 +412,12 @@ S/R:    TSP-U
 As Paradise Plume enters the battlefield, choose a color.
 Whenever a player casts a spell of the chosen color, you may gain 1 life.
 {T}: Add one mana of the chosen color to your mana pool.
+
+Name:   Paradox Engine
+Cost:   5
+Type:   Legendary Artifact
+S/R:    MPS-S, AeR-M
+Whenever you cast a spell, untap all nonland permanents you control.
 
 Name:   Paradox Haze
 Cost:   2U
@@ -963,6 +975,14 @@ S/R:    WL-R
 At the beginning of your upkeep, sacrifice Peacekeeper unless you pay {1}{W}.
 Creatures can't attack.
 
+Name:   Peacewalker Colossus
+Cost:   3
+Type:   Artifact — Vehicle
+P/T:    6/6
+S/R:    AeR-R
+{1}{W}: Another target Vehicle you control becomes an artifact creature until end of turn.
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Peach Garden Oath
 Cost:   W
 Type:   Sorcery
@@ -1043,6 +1063,14 @@ Cost:   1U
 Type:   Instant
 S/R:    RAV-C, AVR-C, M15-C, DDO-C
 Return target creature you control and target creature you don't control to their owners' hands.
+
+Name:   Peema Aether-Seer
+Cost:   3G
+Type:   Creature — Elf Druid
+P/T:    3/2
+S/R:    AeR-U
+When Peema Aether-Seer enters the battlefield, you get an amount of {E} (energy counters) equal to the greatest power among creatures you control.
+Pay {E}{E}{E}: Target creature blocks this turn if able.
 
 Name:   Peema Outrider
 Cost:   2GG
@@ -1143,6 +1171,13 @@ Cost:   3U
 Type:   Enchantment
 S/R:    WL-R
 All creatures have "At the beginning of your upkeep, sacrifice this creature unless you pay {1}."
+
+Name:   Pendulum of Patterns
+Cost:   2
+Type:   Artifact
+S/R:    AeR-C
+When Pendulum of Patterns enters the battlefield, you gain 3 life.
+{5}, {T}, Sacrifice Pendulum of Patterns: Draw a card.
 
 Name:   Pennon Blade
 Cost:   3
@@ -1290,6 +1325,12 @@ Type:   Artifact Creature — Myr
 P/T:    1/1
 S/R:    SOM-C
 When Perilous Myr dies, it deals 2 damage to target creature or player.
+
+Name:   Perilous Predicament
+Cost:   4B
+Type:   Instant
+S/R:    AeR-U
+Each opponent sacrifices an artifact creature and a nonartifact creature.
 
 Name:   Perilous Research
 Cost:   1U
@@ -2357,6 +2398,12 @@ S/R:    ORI-R
 When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
 {2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to target creature or player.
 
+Name:   Pia's Revolution
+Cost:   2R
+Type:   Enchantment
+S/R:    AeR-R
+Whenever a nontoken artifact is put into your graveyard from the battlefield, return that card to your hand unless target opponent has Pia's Revolution deal 3 damage to him or her.
+
 Name:   Pianna, Nomad Captain
 Cost:   1WW
 Type:   Legendary Creature — Human Nomad
@@ -2731,7 +2778,7 @@ When Pith Driller enters the battlefield, put a -1/-1 counter on target creature
 Name:   Pithing Needle
 Cost:   1
 Type:   Artifact
-S/R:    SOK-R, 10E-R, M10-R, RTR-R
+S/R:    SOK-R, 10E-R, M10-R, RTR-R, MPS-S
 As Pithing Needle enters the battlefield, name a card.
 Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.
 
@@ -2880,6 +2927,12 @@ Cost:   1W
 Type:   Sorcery
 S/R:    US-R
 Return all basic land cards from all graveyards to the battlefield tapped under their owners' control.
+
+Name:   Planar Bridge
+Cost:   6
+Type:   Legendary Artifact
+S/R:    MPS-S, AeR-M
+{8}, {T}: Search your library for a permanent card, put it onto the battlefield, then shuffle your library.
 
 Name:   Planar Chaos
 Cost:   2R
@@ -3067,7 +3120,7 @@ Name:   Platinum Angel
 Cost:   7
 Type:   Artifact Creature — Angel
 P/T:    4/4
-S/R:    MRD-R, 10E-R, M10-M, M11-M, CN2-M, V15-M
+S/R:    MRD-R, 10E-R, M10-M, M11-M, CN2-M, MPS-S, V15-M
 Flying
 You can't lose the game and your opponents can't win the game.
 
@@ -3614,6 +3667,12 @@ S/R:    RTR-R, DDO-R
 First strike
 Whenever Precinct Captain deals combat damage to a player, create a 1/1 white Soldier creature token.
 
+Name:   Precise Strike
+Cost:   R
+Type:   Instant
+S/R:    AeR-C
+Target creature gets +1/+0 and gains first strike until end of turn.
+
 Name:   Precognition
 Cost:   4U
 Type:   Enchantment
@@ -3827,7 +3886,7 @@ Whenever enchanted creature becomes blocked, tap all lands defending player cont
 Name:   Prey Upon
 Cost:   G
 Type:   Sorcery
-S/R:    ISD-C, M13-C, EMN-C, CN2-C, DDL-C
+S/R:    ISD-C, M13-C, EMN-C, CN2-C, AeR-C, DDL-C
 Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)
 
 Name:   Prey's Vengeance
@@ -4355,6 +4414,12 @@ Type:   Creature — Unicorn
 P/T:    2/2
 S/R:    M10-U, M11-U, ORI-U
 All creatures able to block Prized Unicorn do so.
+
+Name:   Prizefighter Construct
+Cost:   5
+Type:   Artifact Creature — Construct
+P/T:    6/2
+S/R:    AeR-C
 
 Name:   Probe
 Cost:   2U

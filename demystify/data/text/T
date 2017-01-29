@@ -220,6 +220,12 @@ Type:   Instant
 S/R:    KTK-U
 Create three 1/1 white Warrior creature tokens.
 
+Name:   Take into Custody
+Cost:   U
+Type:   Instant
+S/R:    AeR-C
+Tap target creature. It doesn't untap during its controller's next untap step.
+
 Name:   Takeno's Cavalry
 Cost:   3W
 Type:   Creature — Human Samurai Archer
@@ -1887,6 +1893,15 @@ S/R:    GPT-R
 Sacrifice three white creatures: Exile target creature.
 Whenever another black creature you control dies, create a 1/1 white Spirit creature token with flying.
 
+Name:   Tezzeret the Schemer
+Cost:   2UB
+Type:   Planeswalker — Tezzeret
+P/T:    5
+S/R:    AeR-M
+[+1]: Create a colorless artifact token named Etherium Cell with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+[-2]: Target creature gets +X/-X until end of turn, where X is the number of artifacts you control.
+[-7]: You get an emblem with "At the beginning of combat on your turn, target artifact you control becomes an artifact creature with base power and toughness 5/5."
+
 Name:   Tezzeret the Seeker
 Cost:   3UU
 Type:   Planeswalker — Tezzeret
@@ -1901,12 +1916,33 @@ Type:   Sorcery
 S/R:    KLD-C
 Draw three cards. If you control no artifacts, discard a card.
 
+Name:   Tezzeret's Betrayal
+Cost:   3UB
+Type:   Sorcery
+S/R:    AeR-R
+Destroy target creature. You may search your library and/or graveyard for a card named Tezzeret, Master of Metal, reveal it, and put it into your hand. If you search your library this way, shuffle it.
+
 Name:   Tezzeret's Gambit
 Cost:   3(U/P)
 Type:   Sorcery
 S/R:    NPH-U, MM2-U, C16-U
 ({(u/p)} can be paid with either {U} or 2 life.)
 Draw two cards, then proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
+
+Name:   Tezzeret's Simulacrum
+Cost:   3
+Type:   Artifact Creature — Golem
+P/T:    2/3
+S/R:    AeR-U
+{T}: Target opponent loses 1 life. If you control a Tezzeret planeswalker, that player loses 3 life instead.
+
+Name:   Tezzeret's Touch
+Cost:   1UB
+Type:   Enchantment — Aura
+S/R:    AeR-U
+Enchant artifact
+Enchanted artifact is a creature with base power and toughness 5/5 in addition to its other types.
+When enchanted artifact is put into a graveyard, return that card to its owner's hand.
 
 Name:   Tezzeret, Agent of Bolas
 Cost:   2UB
@@ -1916,6 +1952,15 @@ S/R:    MBS-M
 [+1]: Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 [-1]: Target artifact becomes an artifact creature with base power and toughness 5/5.
 [-4]: Target player loses X life and you gain X life, where X is twice the number of artifacts you control.
+
+Name:   Tezzeret, Master of Metal
+Cost:   4UB
+Type:   Planeswalker — Tezzeret
+P/T:    5
+S/R:    AeR-M
+[+1]: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in a random order.
+[-3]: Target opponent loses life equal to the number of artifacts you control.
+[-8]: Gain control of all artifacts and creatures target opponent controls.
 
 Name:   Thada Adel, Acquisitor
 Cost:   1UU
@@ -2462,6 +2507,12 @@ S/R:    SHM-R
 Flash
 Other white creatures you control get +1/+1.
 Other blue creatures you control get +1/+1.
+
+Name:   Thopter Arrest
+Cost:   2W
+Type:   Enchantment
+S/R:    AeR-U
+When Thopter Arrest enters the battlefield, exile target artifact or creature an opponent controls until Thopter Arrest leaves the battlefield.
 
 Name:   Thopter Assembly
 Cost:   6
@@ -5216,7 +5267,7 @@ Destroy all non-Aura enchantments.
 
 Name:   Tranquil Expanse
 Type:   Land
-S/R:    OGW-U
+S/R:    OGW-U, AeR-C
 Tranquil Expanse enters the battlefield tapped.
 {T}: Add {G} or {W} to your mana pool.
 
@@ -5515,6 +5566,13 @@ Type:   Creature — Human
 P/T:    2/2
 S/R:    EX-U, 10E-U
 When Treasure Hunter enters the battlefield, you may return target artifact card from your graveyard to your hand.
+
+Name:   Treasure Keeper
+Cost:   4
+Type:   Artifact Creature — Construct
+P/T:    3/3
+S/R:    AeR-U
+When Treasure Keeper dies, reveal cards from the top of your library until you reveal a nonland card with converted mana cost 3 or less. You may cast that card without paying its mana cost. Put all revealed cards not cast this way on the bottom of your library in a random order.
 
 Name:   Treasure Mage
 Cost:   2U
@@ -5910,7 +5968,7 @@ Trigon of Thought enters the battlefield with three charge counters on it.
 Name:   Trinisphere
 Cost:   3
 Type:   Artifact
-S/R:    DST-R, V09-M
+S/R:    DST-R, MPS-S, V09-M
 As long as Trinisphere is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)
 
 Name:   Trinket Mage
@@ -6070,6 +6128,13 @@ P/T:    2/3
 S/R:    RAV-U
 {1}{G}: Trophy Hunter deals 1 damage to target creature with flying.
 Whenever a creature with flying dealt damage by Trophy Hunter this turn dies, put a +1/+1 counter on Trophy Hunter.
+
+Name:   Trophy Mage
+Cost:   2U
+Type:   Creature — Human Wizard
+P/T:    2/2
+S/R:    AeR-U
+When Trophy Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 3, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Tropical Island
 Type:   Land — Forest Island

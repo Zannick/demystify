@@ -805,6 +805,13 @@ S/R:    M12-R, M15-R, ORI-R, W16-R
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 When Aegis Angel enters the battlefield, another target permanent gains indestructible for as long as you control Aegis Angel. (Effects that say "destroy" don't destroy it. A creature with indestructible can't be destroyed by damage.)
 
+Name:   Aegis Automaton
+Cost:   2
+Type:   Artifact Creature — Construct
+P/T:    0/3
+S/R:    AeR-C
+{4}{W}: Return another target creature you control to its owner's hand.
+
 Name:   Aegis of Honor
 Cost:   W
 Type:   Enchantment
@@ -867,6 +874,14 @@ Type:   Instant
 S/R:    GTC-C
 Target creature gets +1/+1 and gains flying and first strike until end of turn.
 
+Name:   Aerial Modification
+Cost:   4W
+Type:   Enchantment — Aura
+S/R:    AeR-U
+Enchant creature or Vehicle
+As long as enchanted permanent is a Vehicle, it's a creature in addition to its other types.
+Enchanted creature gets +2/+2 and has flying.
+
 Name:   Aerial Predation
 Cost:   2G
 Type:   Instant
@@ -917,6 +932,14 @@ P/T:    2/4
 S/R:    BNG-U
 Inspired — Whenever Aerie Worshippers becomes untapped, you may pay {2}{U}. If you do, create a 2/2 blue Bird enchantment creature token with flying.
 
+Name:   Aeronaut Admiral
+Cost:   3W
+Type:   Creature — Human Pilot
+P/T:    3/1
+S/R:    AeR-U
+Flying
+Vehicles you control have flying.
+
 Name:   Aeronaut Tinkerer
 Cost:   2U
 Type:   Creature — Human Artificer
@@ -957,6 +980,15 @@ Type:   Enchantment
 S/R:    ONS-U
 Whenever a Beast enters the battlefield under your control, you may have it deal 4 damage to target opponent.
 
+Name:   Aether Chaser
+Cost:   1R
+Type:   Creature — Human Artificer
+P/T:    2/1
+S/R:    AeR-C
+First strike
+When Aether Chaser enters the battlefield, you get {E}{E} (two energy counters).
+Whenever Aether Chaser attacks, you may pay {E}{E}. If you do, create a 1/1 colorless Servo artifact creature token.
+
 Name:   Aether Figment
 Cost:   1U
 Type:   Creature — Illusion
@@ -978,12 +1010,29 @@ Type:   Sorcery
 S/R:    C14-R
 Return six target nonland permanents to their owners' hands.
 
+Name:   Aether Herder
+Cost:   3G
+Type:   Creature — Elf Artificer Druid
+P/T:    3/3
+S/R:    AeR-C
+When Aether Herder enters the battlefield, you get {E}{E} (two energy counters).
+Whenever Aether Herder attacks, you may pay {E}{E}. If you do, create a 1/1 colorless Servo artifact creature token.
+
 Name:   Aether Hub
 Type:   Land
 S/R:    KLD-U
 When Aether Hub enters the battlefield, you get {E} (an energy counter).
 {T}: Add {C} to your mana pool.
 {T}, Pay {E}: Add one mana of any color to your mana pool.
+
+Name:   Aether Inspector
+Cost:   3W
+Type:   Creature — Dwarf Artificer
+P/T:    2/3
+S/R:    AeR-C
+Vigilance
+When Aether Inspector enters the battlefield, you get {E}{E} (two energy counters).
+Whenever Aether Inspector attacks, you may pay {E}{E}. If you do, create a 1/1 colorless Servo artifact creature token.
 
 Name:   Aether Meltdown
 Cost:   1U
@@ -1007,6 +1056,15 @@ Cost:   3GU
 Type:   Sorcery
 S/R:    AP-U, VMA-U
 Return target creature to its owner's hand. Create X 1/1 green Saproling creature tokens, where X is that creature's converted mana cost.
+
+Name:   Aether Poisoner
+Cost:   1B
+Type:   Creature — Human Artificer
+P/T:    1/1
+S/R:    AeR-C
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+When Aether Poisoner enters the battlefield, you get {E}{E} (two energy counters).
+Whenever Aether Poisoner attacks, you may pay {E}{E}. If you do, create a 1/1 colorless Servo artifact creature token.
 
 Name:   Aether Rift
 Cost:   1RG
@@ -1055,6 +1113,15 @@ Type:   Enchantment
 S/R:    HL-U, 5E-U, ME2-U
 Creature spells can't be cast.
 Pay 4 life: Destroy Aether Storm. It can't be regenerated. Any player may activate this ability.
+
+Name:   Aether Swooper
+Cost:   1U
+Type:   Creature — Vedalken Artificer
+P/T:    1/2
+S/R:    AeR-C
+Flying
+When Aether Swooper enters the battlefield, you get {E}{E} (two energy counters).
+Whenever Aether Swooper attacks, you may pay {E}{E}. If you do, create a 1/1 colorless Servo artifact creature token.
 
 Name:   Aether Theorist
 Cost:   1U
@@ -1116,6 +1183,14 @@ S/R:    KLD-R
 Whenever you cast a spell, you gain 1 life for each spell you've cast this turn.
 Pay 50 life: Aetherflux Reservoir deals 50 damage to target creature or player.
 
+Name:   Aethergeode Miner
+Cost:   1W
+Type:   Creature — Dwarf Scout
+P/T:    3/1
+S/R:    AeR-R
+Whenever Aethergeode Miner attacks, you get {E}{E} (two energy counters).
+Pay {E}{E}: Exile Aethergeode Miner, then return it to the battlefield under its owner's control.
+
 Name:   Aetherize
 Cost:   3U
 Type:   Instant
@@ -1159,6 +1234,16 @@ S/R:    LRW-C, CMD-C, MMA-C, MM2-C, DD2-C
 When Aethersnipe enters the battlefield, return target nonland permanent to its owner's hand.
 Evoke {1}{U}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
 
+Name:   Aethersphere Harvester
+Cost:   3
+Type:   Artifact — Vehicle
+P/T:    3/5
+S/R:    AeR-R
+Flying
+When Aethersphere Harvester enters the battlefield, you get {E}{E} (two energy counters).
+Pay {E}: Aethersphere Harvester gains lifelink until end of turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Aetherspouts
 Cost:   3UU
 Type:   Instant
@@ -1183,6 +1268,24 @@ Flying
 Whenever Aetherstorm Roc or another creature enters the battlefield under your control, you get {E} (an energy counter).
 Whenever Aetherstorm Roc attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on it and tap up to one target creature defending player controls.
 
+Name:   Aetherstream Leopard
+Cost:   2G
+Type:   Creature — Cat
+P/T:    2/3
+S/R:    AeR-C
+Trample
+When Aetherstream Leopard enters the battlefield, you get {E} (an energy counter).
+Whenever Aetherstream Leopard attacks, you may pay {E}. If you do, it gets +2/+0 until end of turn.
+
+Name:   Aethertide Whale
+Cost:   4UU
+Type:   Creature — Whale
+P/T:    6/4
+S/R:    AeR-R
+Flying
+When Aethertide Whale enters the battlefield, you get {E}{E}{E}{E}{E}{E} (six energy counters).
+Pay {E}{E}{E}{E}: Return Aethertide Whale to its owner's hand.
+
 Name:   Aethertorch Renegade
 Cost:   2R
 Type:   Creature — Human Rogue
@@ -1198,6 +1301,15 @@ Type:   Instant
 S/R:    SHM-C
 Put target attacking or blocking creature on top of its owner's library.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
+
+Name:   Aetherwind Basker
+Cost:   4GGG
+Type:   Creature — Lizard
+P/T:    7/7
+S/R:    AeR-M
+Trample
+Whenever Aetherwind Basker enters the battlefield or attacks, you get {E} (an energy counter) for each creature you control.
+Pay {E}: Aetherwind Basker gets +1/+1 until end of turn.
 
 Name:   Aetherworks Marvel
 Cost:   4
@@ -1407,6 +1519,12 @@ P/T:    3/3
 S/R:    RAV-R
 Whenever Agrus Kos, Wojek Veteran attacks, attacking red creatures get +2/+0 and attacking white creatures get +0/+2 until end of turn.
 
+Name:   Aid from the Cowl
+Cost:   3GG
+Type:   Enchantment
+S/R:    AeR-R
+Revolt — At the beginning of your end step, if a permanent you controlled left the battlefield this turn, reveal the top card of your library. If it's a permanent card, you may put it onto the battlefield. Otherwise, you may put it on the bottom of your library.
+
 Name:   Aim High
 Cost:   1G
 Type:   Instant
@@ -1482,6 +1600,14 @@ Type:   Sorcery
 S/R:    ONS-C
 Draw a card for each Bird on the battlefield.
 
+Name:   Airdrop Aeronauts
+Cost:   3WW
+Type:   Creature — Dwarf Scout
+P/T:    4/3
+S/R:    AeR-U
+Flying
+Revolt — When Airdrop Aeronauts enters the battlefield, if a permanent you controlled left the battlefield this turn, you gain 5 life.
+
 Name:   Airdrop Condor
 Cost:   4R
 Type:   Creature — Bird
@@ -1515,6 +1641,15 @@ S/R:    M15-M
 [-2]: Put a +1/+1 counter on each creature you control and a loyalty counter on each other planeswalker you control.
 [-7]: You get an emblem with "If a source would deal damage to you or a planeswalker you control, prevent all but 1 of that damage."
 
+Name:   Ajani Unyielding
+Cost:   4GW
+Type:   Planeswalker — Ajani
+P/T:    4
+S/R:    AeR-M
+[+2]: Reveal the top three cards of your library. Put all nonland permanent cards revealed this way into your hand and the rest on the bottom of your library in any order.
+[-2]: Exile target creature. Its controller gains life equal to its power.
+[-9]: Put five +1/+1 counters on each creature you control and five loyalty counters on each other planeswalker you control.
+
 Name:   Ajani Vengeant
 Cost:   2RW
 Type:   Planeswalker — Ajani
@@ -1524,12 +1659,27 @@ S/R:    ALA-M, DDH-M
 [-2]: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.
 [-7]: Destroy all lands target player controls.
 
+Name:   Ajani's Aid
+Cost:   2GW
+Type:   Enchantment
+S/R:    AeR-R
+When Ajani's Aid enters the battlefield, you may search your library and/or graveyard for a card named Ajani, Valiant Protector, reveal it, and put it into your hand. If you search your library this way, shuffle it.
+Sacrifice Ajani's Aid: Prevent all combat damage a creature of your choice would deal this turn.
+
 Name:   Ajani's Chosen
 Cost:   2WW
 Type:   Creature — Cat Soldier
 P/T:    3/3
 S/R:    M14-R, C15-R
 Whenever an enchantment enters the battlefield under your control, create a 2/2 white Cat creature token. If that enchantment is an Aura, you may attach it to the token.
+
+Name:   Ajani's Comrade
+Cost:   1G
+Type:   Creature — Elf Soldier
+P/T:    2/2
+S/R:    AeR-U
+Trample
+At the beginning of combat on your turn, if you control an Ajani planeswalker, put a +1/+1 counter on Ajani's Comrade.
 
 Name:   Ajani's Mantra
 Cost:   1W
@@ -1575,6 +1725,15 @@ S/R:    JOU-M
 [+1]: Distribute three +1/+1 counters among one, two, or three target creatures you control.
 [+1]: Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 [-8]: You gain 100 life.
+
+Name:   Ajani, Valiant Protector
+Cost:   4GW
+Type:   Planeswalker — Ajani
+P/T:    4
+S/R:    AeR-M
+[+2]: Put two +1/+1 counters on up to one target creature.
+[+1]: Reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order.
+[-11]: Put X +1/+1 counters on target creature, where X is your life total. That creature gains trample until end of turn.
 
 Name:   Akiri, Line-Slinger
 Cost:   RW
@@ -2142,12 +2301,27 @@ S/R:    EX-C
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Destroy target enchantment.
 
+Name:   Alley Evasion
+Cost:   W
+Type:   Instant
+S/R:    AeR-C
+Choose one —
+• Target creature you control gets +1/+2 until end of turn.
+• Return target creature you control to its owner's hand.
+
 Name:   Alley Grifters
 Cost:   1BB
 Type:   Creature — Human Mercenary
 P/T:    2/2
 S/R:    MM-C
 Whenever Alley Grifters becomes blocked, defending player discards a card.
+
+Name:   Alley Strangler
+Cost:   2B
+Type:   Creature — Aetherborn Rogue
+P/T:    2/3
+S/R:    AeR-C
+Menace
 
 Name:   Alliance of Arms
 Cost:   W
@@ -4037,7 +4211,7 @@ Name:   Arcbound Ravager
 Cost:   2
 Type:   Artifact Creature — Beast
 P/T:    0/0
-S/R:    DST-R, MMA-R
+S/R:    DST-R, MMA-R, MPS-S
 Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.
 Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 
@@ -5513,11 +5687,25 @@ Type:   Enchantment
 S/R:    US-R
 Return Attunement to its owner's hand: Draw three cards, then discard four cards.
 
+Name:   Audacious Infiltrator
+Cost:   1W
+Type:   Creature — Dwarf Rogue
+P/T:    3/1
+S/R:    AeR-C
+Audacious Infiltrator can't be blocked by artifact creatures.
+
 Name:   Auger Spree
 Cost:   1BR
 Type:   Instant
 S/R:    RTR-C
 Target creature gets +4/-4 until end of turn.
+
+Name:   Augmenting Automaton
+Cost:   1
+Type:   Artifact Creature — Construct
+P/T:    1/1
+S/R:    AeR-C
+{1}{B}: Augmenting Automaton gets +1/+1 until end of turn.
 
 Name:   Augur il-Vec
 Cost:   1W

@@ -125,6 +125,15 @@ P/T:    1/1
 S/R:    WWK-C
 {T}: You may put a land card from your hand onto the battlefield.
 
+Name:   Walking Ballista
+Cost:   XX
+Type:   Artifact Creature — Construct
+P/T:    0/0
+S/R:    AeR-R
+Walking Ballista enters the battlefield with X +1/+1 counters on it.
+{4}: Put a +1/+1 counter on Walking Ballista.
+Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to target creature or player.
+
 Name:   Walking Corpse
 Cost:   1B
 Type:   Creature — Zombie
@@ -1325,6 +1334,13 @@ Flying
 Morph—Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Watcher of the Roost is turned face up, you gain 2 life.
 
+Name:   Watchful Automaton
+Cost:   3
+Type:   Artifact Creature — Construct
+P/T:    2/2
+S/R:    AeR-C
+{2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+
 Name:   Watchwing Scarecrow
 Cost:   4
 Type:   Artifact Creature — Scarecrow
@@ -1823,6 +1839,20 @@ S/R:    SOI-R
 Madness {X}{U}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 Gain control of target creature if its toughness is 2 or less. If Welcome to the Fold's madness cost was paid, instead gain control of that creature if its toughness is X or less.
 
+Name:   Welder Automaton
+Cost:   2
+Type:   Artifact Creature — Construct
+P/T:    2/1
+S/R:    AeR-C
+{3}{R}: Welder Automaton deals 1 damage to each opponent.
+
+Name:   Weldfast Engineer
+Cost:   1BR
+Type:   Creature — Human Artificer
+P/T:    3/3
+S/R:    AeR-U
+At the beginning of combat on your turn, target artifact creature you control gets +2/+0 until end of turn.
+
 Name:   Weldfast Monitor
 Cost:   3
 Type:   Artifact Creature — Lizard
@@ -2203,6 +2233,13 @@ Type:   Creature — Frog
 P/T:    1/3
 S/R:    EX-C
 {U}: Whiptongue Frog gains flying until end of turn.
+
+Name:   Whir of Invention
+Cost:   XUUU
+Type:   Instant
+S/R:    AeR-R
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Search your library for an artifact card with converted mana cost X or less, put it onto the battlefield, then shuffle your library.
 
 Name:   Whirler Rogue
 Cost:   2UU
@@ -2950,6 +2987,14 @@ Enchant land
 Enchanted land is a 2/2 blue Elemental creature with flying. It's still a land.
 When enchanted land dies, return that card to its owner's hand.
 
+Name:   Wind-Kin Raiders
+Cost:   4UU
+Type:   Creature — Human Artificer
+P/T:    4/3
+S/R:    AeR-U
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Flying
+
 Name:   Wind-Scarred Crag
 Type:   Land
 S/R:    KTK-C, FRF-C, C15-C, EMA-C
@@ -2997,6 +3042,14 @@ Type:   Land
 S/R:    WL-R
 {T}: Add {C} to your mana pool.
 {2}, {T}: Until end of turn, you may cast creature spells as though they had flash.
+
+Name:   Winding Constrictor
+Cost:   BG
+Type:   Creature — Snake
+P/T:    2/3
+S/R:    AeR-U
+If one or more counters would be placed on an artifact or creature you control, that many plus one of each of those kinds of counters are placed on that permanent instead.
+If you would get one or more counters, you get that many plus one of each of those kinds of counters instead.
 
 Name:   Winding Wurm
 Cost:   4G
@@ -4287,6 +4340,12 @@ Type:   Sorcery
 S/R:    DKA-C
 Target creature deals damage to itself equal to its power.
 
+Name:   Wrangle
+Cost:   1R
+Type:   Sorcery
+S/R:    AeR-C
+Gain control of target creature with power 4 or less until end of turn. Untap that creature. It gains haste until end of turn.
+
 Name:   Wrap in Flames
 Cost:   3R
 Type:   Sorcery
@@ -4495,7 +4554,7 @@ Name:   Wurmcoil Engine
 Cost:   6
 Type:   Artifact Creature — Wurm
 P/T:    6/6
-S/R:    SOM-M, C14-M
+S/R:    SOM-M, C14-M, MPS-S
 Deathtouch, lifelink
 When Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink.
 

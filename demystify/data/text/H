@@ -1206,6 +1206,15 @@ S/R:    WL-R
 Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 When a player doesn't pay Heart of Bogardan's cumulative upkeep, Heart of Bogardan deals X damage to target player and each creature he or she controls, where X is twice the number of age counters on Heart of Bogardan minus 2.
 
+Name:   Heart of Kiran
+Cost:   2
+Type:   Legendary Artifact — Vehicle
+P/T:    4/4
+S/R:    AeR-M
+Flying, vigilance
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
+You may remove a loyalty counter from a planeswalker you control rather than pay Heart of Kiran's crew cost.
+
 Name:   Heart of Light
 Cost:   2W
 Type:   Enchantment — Aura
@@ -1900,6 +1909,16 @@ S/R:    KTK-R
 Outlast {2}{W} ({2}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
 Whenever you activate Herald of Anafenza's outlast ability, create a 1/1 white Warrior creature token.
 
+Name:   Herald of Anguish
+Cost:   5BB
+Type:   Creature — Demon
+P/T:    5/5
+S/R:    AeR-M
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Flying
+At the beginning of your end step, each opponent discards a card.
+{1}{B}, Sacrifice an artifact: Target creature gets -2/-2 until end of turn.
+
 Name:   Herald of Dromoka
 Cost:   1W
 Type:   Creature — Human Warrior
@@ -2136,6 +2155,12 @@ S/R:    PS-C
 Enchant creature
 Enchanted creature gets +3/+3 unless it shares a color with the most common color among all permanents or a color tied for most common.
 
+Name:   Heroic Intervention
+Cost:   1G
+Type:   Instant
+S/R:    AeR-R
+Permanents you control gain hexproof and indestructible until end of turn.
+
 Name:   Heroism
 Cost:   2W
 Type:   Enchantment
@@ -2236,6 +2261,13 @@ Type:   Enchantment
 S/R:    US-U
 When an opponent casts an artifact spell, if Hidden Guerrillas is an enchantment, Hidden Guerrillas becomes a 5/3 Soldier creature with trample.
 
+Name:   Hidden Herbalists
+Cost:   1G
+Type:   Creature — Human Druid
+P/T:    2/2
+S/R:    AeR-U
+Revolt — When Hidden Herbalists enters the battlefield, if a permanent you controlled left the battlefield this turn, add {G}{G} to your mana pool.
+
 Name:   Hidden Herd
 Cost:   G
 Type:   Enchantment
@@ -2279,6 +2311,13 @@ Type:   Enchantment
 S/R:    US-R
 Whenever an opponent plays a land, if Hidden Stag is an enchantment, Hidden Stag becomes a 3/2 Elk Beast creature.
 Whenever you play a land, if Hidden Stag is a creature, Hidden Stag becomes an enchantment.
+
+Name:   Hidden Stockpile
+Cost:   WB
+Type:   Enchantment
+S/R:    AeR-U
+Revolt — At the beginning of your end step, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.
+{1}, Sacrifice a creature: Scry 1.
 
 Name:   Hidden Strings
 Cost:   1U
@@ -2407,6 +2446,12 @@ S/R:    KLD-C
 Reach (This creature can block creatures with flying.)
 Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)
 
+Name:   Highspire Infusion
+Cost:   1G
+Type:   Instant
+S/R:    AeR-C
+Target creature gets +3/+3 until end of turn. You get {E}{E} (two energy counters).
+
 Name:   Highspire Mantis
 Cost:   2RW
 Type:   Creature — Insect
@@ -2497,6 +2542,14 @@ Cost:   2B
 Type:   Sorcery
 S/R:    OD-R
 Target player reveals his or her hand. That player discards all nonland cards with the same name as another card in his or her hand.
+
+Name:   Hinterland Drake
+Cost:   2U
+Type:   Creature — Drake
+P/T:    2/3
+S/R:    AeR-C
+Flying
+Hinterland Drake can't block artifact creatures.
 
 Name:   Hinterland Harbor
 Type:   Land
@@ -3096,6 +3149,14 @@ Cost:   1W
 Type:   Instant
 S/R:    UL-U
 Untap two target creatures. Each of them gets +1/+1 until end of turn.
+
+Name:   Hope of Ghirapur
+Cost:   1
+Type:   Legendary Artifact Creature — Thopter
+P/T:    1/1
+S/R:    AeR-R
+Flying
+Sacrifice Hope of Ghirapur: Until your next turn, target player who was dealt combat damage by Hope of Ghirapur this turn can't cast noncreature spells.
 
 Name:   Hopeful Eidolon
 Cost:   W
@@ -3733,6 +3794,12 @@ Type:   Creature — Yeti
 P/T:    4/4
 S/R:    FRF-U
 As long as you control a green or blue permanent, you may cast Hungering Yeti as though it had flash. (You may cast it any time you could cast an instant.)
+
+Name:   Hungry Flames
+Cost:   2R
+Type:   Instant
+S/R:    AeR-U
+Hungry Flames deals 3 damage to target creature and 2 damage to target player.
 
 Name:   Hungry Mist
 Cost:   2GG

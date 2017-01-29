@@ -489,6 +489,12 @@ Haste
 When Lathnu Hellion enters the battlefield, you get {E}{E} (two energy counters).
 At the beginning of your end step, sacrifice Lathnu Hellion unless you pay {E}{E}.
 
+Name:   Lathnu Sailback
+Cost:   4R
+Type:   Creature — Lizard
+P/T:    5/4
+S/R:    AeR-C
+
 Name:   Latulla's Orders
 Cost:   1R
 Type:   Enchantment — Aura
@@ -856,6 +862,13 @@ Cost:   1W
 Type:   Instant
 S/R:    RAV-C
 Radiance — Destroy target enchantment and each other enchantment that shares a color with it.
+
+Name:   Leave in the Dust
+Cost:   3U
+Type:   Instant
+S/R:    AeR-C
+Return target nonland permanent to its owner's hand.
+Draw a card.
 
 Name:   Leech Bonder
 Cost:   2U
@@ -1470,6 +1483,33 @@ Trample
 Lifeblood Hydra enters the battlefield with X +1/+1 counters on it.
 When Lifeblood Hydra dies, you gain life and draw cards equal to its power.
 
+Name:   Lifecraft Awakening
+Cost:   XG
+Type:   Instant
+S/R:    AeR-U
+Put X +1/+1 counters on target artifact you control. If it isn't a creature or Vehicle, it becomes a 0/0 Construct artifact creature.
+
+Name:   Lifecraft Cavalry
+Cost:   4G
+Type:   Creature — Elf Warrior
+P/T:    4/4
+S/R:    AeR-C
+Trample
+Revolt — Lifecraft Cavalry enters the battlefield with two +1/+1 counters on it if a permanent you controlled left the battlefield this turn.
+
+Name:   Lifecrafter's Bestiary
+Cost:   3
+Type:   Artifact
+S/R:    AeR-R
+At the beginning of your upkeep, scry 1.
+Whenever you cast a creature spell, you may pay {G}. If you do, draw a card.
+
+Name:   Lifecrafter's Gift
+Cost:   3G
+Type:   Instant
+S/R:    AeR-U
+Put a +1/+1 counter on target creature, then put a +1/+1 counter on each creature you control with a +1/+1 counter on it.
+
 Name:   Lifeforce
 Cost:   GG
 Type:   Enchantment
@@ -1753,6 +1793,14 @@ Cost:   1R
 Type:   Enchantment
 S/R:    ONS-U, VMA-U
 Whenever a player cycles a card, you may pay {1}. If you do, Lightning Rift deals 2 damage to target creature or player.
+
+Name:   Lightning Runner
+Cost:   3RR
+Type:   Creature — Human Warrior
+P/T:    2/2
+S/R:    AeR-M
+Double strike, haste
+Whenever Lightning Runner attacks, you get {E}{E} (two energy counters), then you may pay {E}{E}{E}{E}{E}{E}{E}{E}. If you pay, untap all creatures you control, and after this phase, there is an additional combat phase.
 
 Name:   Lightning Serpent
 Cost:   XR

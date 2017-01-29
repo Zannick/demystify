@@ -1059,6 +1059,7 @@ OBJ_COUNTER : 'manifestation'
             | 'spore'
             | 'study'
             | 'theft'
+            | 'unity'
             | 'verse'
             | 'winch'
             | 'cube'
@@ -2511,7 +2512,8 @@ ITEM : 'items'
      | 'item';
 KICK : 'kicks'
      | 'kick';
-KIND : 'kind';
+KIND : 'kinds'
+     | 'kind';
 LAND : 'lands'
      | 'land';
 LEFT : 'left';

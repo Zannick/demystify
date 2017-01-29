@@ -262,6 +262,14 @@ P/T:    5/4
 S/R:    PR-U
 At the beginning of your upkeep, sacrifice Darba unless you pay {G}{G}.
 
+Name:   Daredevil Dragster
+Cost:   3
+Type:   Artifact — Vehicle
+P/T:    4/4
+S/R:    AeR-U
+At end of combat, if Daredevil Dragster attacked or blocked this combat, put a velocity counter on it. Then if it has two or more velocity counters on it, sacrifice it and draw two cards.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Daretti, Ingenious Iconoclast
 Cost:   1BR
 Type:   Planeswalker — Daretti
@@ -324,6 +332,12 @@ Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    MI-R, 6E-R, 7E-R, 8ED-R, 9ED-R
 {T}, Sacrifice Daring Apprentice: Counter target spell.
+
+Name:   Daring Demolition
+Cost:   2BB
+Type:   Sorcery
+S/R:    AeR-C
+Destroy target creature or Vehicle.
 
 Name:   Daring Leap
 Cost:   1WU
@@ -422,6 +436,13 @@ P/T:    2/2
 S/R:    AVR-R
 {4}{B}{B}: Exile target creature and put a +1/+1 counter on Dark Impostor.
 Dark Impostor has all activated abilities of all creature cards exiled with it.
+
+Name:   Dark Intimations
+Cost:   2UBR
+Type:   Sorcery
+S/R:    AeR-R
+Each opponent sacrifices a creature or planeswalker, then discards a card. You return a creature or planeswalker card from your graveyard to your hand, then draw a card.
+When you cast a Bolas planeswalker spell, exile Dark Intimations from your graveyard. That planeswalker enters the battlefield with an additional loyalty counter on it.
 
 Name:   Dark Maze
 Cost:   4U
@@ -1003,6 +1024,14 @@ S/R:    JOU-R
 Flying, lifelink
 Heroic — Whenever you cast a spell that targets Dawnbringer Charioteers, put a +1/+1 counter on Dawnbringer Charioteers.
 
+Name:   Dawnfeather Eagle
+Cost:   4W
+Type:   Creature — Bird
+P/T:    3/3
+S/R:    AeR-C
+Flying
+When Dawnfeather Eagle enters the battlefield, creatures you control get +1/+1 and gain vigilance until end of turn.
+
 Name:   Dawnfluke
 Cost:   3W
 Type:   Creature — Elemental
@@ -1239,6 +1268,13 @@ Type:   Creature — Elf Shaman
 P/T:    3/1
 S/R:    ORI-C, EMA-C
 When Deadbridge Shaman dies, target opponent discards a card.
+
+Name:   Deadeye Harpooner
+Cost:   2W
+Type:   Creature — Dwarf Warrior
+P/T:    2/2
+S/R:    AeR-U
+Revolt — When Deadeye Harpooner enters the battlefield, if a permanent you controlled left the battlefield this turn, destroy target tapped creature an opponent controls.
 
 Name:   Deadeye Navigator
 Cost:   4UU
@@ -1874,6 +1910,13 @@ S/R:    KLD-U
 Whenever a creature enters the battlefield under your control, you get {E} (an energy counter).
 {4}, {T}: Return target creature you control to its owner's hand.
 
+Name:   Decommission
+Cost:   2W
+Type:   Instant
+S/R:    AeR-C
+Destroy target artifact or enchantment.
+Revolt — If a permanent you controlled left the battlefield this turn, you gain 3 life.
+
 Name:   Decompose
 Cost:   1B
 Type:   Sorcery
@@ -2166,7 +2209,7 @@ When Defender of the Order is turned face up, creatures you control get +0/+2 un
 Name:   Defense Grid
 Cost:   2
 Type:   Artifact
-S/R:    UL-R, 8ED-R, 9ED-R
+S/R:    UL-R, 8ED-R, 9ED-R, MPS-S
 Each spell costs {3} more to cast except during its controller's turn.
 
 Name:   Defense of the Heart
@@ -2226,6 +2269,13 @@ When Defiant Ogre enters the battlefield, choose one —
 • Put a +1/+1 counter on Defiant Ogre.
 • Destroy target artifact.
 
+Name:   Defiant Salvager
+Cost:   2B
+Type:   Creature — Aetherborn Artificer
+P/T:    2/2
+S/R:    AeR-C
+Sacrifice an artifact or creature: Put a +1/+1 counter on Defiant Salvager. Activate this ability only any time you could cast a sorcery.
+
 Name:   Defiant Stand
 Cost:   1W
 Type:   Instant
@@ -2273,6 +2323,12 @@ Cost:   3U
 Type:   Instant
 S/R:    IA-R, 5E-R, 6E-R, 7E-R, 8ED-R
 Change the target of target spell with a single target.
+
+Name:   Deft Dismissal
+Cost:   3W
+Type:   Instant
+S/R:    AeR-U
+Deft Dismissal deals 3 damage divided as you choose among one, two, or three target attacking or blocking creatures.
 
 Name:   Deft Duelist
 Cost:   WU
@@ -3088,6 +3144,14 @@ Type:   Instant
 S/R:    THS-U, DDL-U
 Destroy target artifact or enchantment. Destructive Revelry deals 2 damage to that permanent's controller.
 
+Name:   Destructive Tampering
+Cost:   2R
+Type:   Sorcery
+S/R:    AeR-C
+Choose one —
+• Destroy target artifact.
+• Creatures without flying can't block this turn.
+
 Name:   Destructive Urge
 Cost:   1RR
 Type:   Enchantment — Aura
@@ -3781,6 +3845,12 @@ S/R:    OD-C
 {B}, Discard a card: Regenerate Dirty Wererat.
 Threshold — As long as seven or more cards are in your graveyard, Dirty Wererat gets +2/+2 and can't block.
 
+Name:   Disallow
+Cost:   1UU
+Type:   Instant
+S/R:    AeR-R
+Counter target spell, activated ability, or triggered ability. (Mana abilities can't be targeted.)
+
 Name:   Disappear
 Cost:   2UU
 Type:   Enchantment — Aura
@@ -4082,6 +4152,13 @@ Cost:   1U
 Type:   Instant
 S/R:    SCG-C
 Counter target spell if its converted mana cost is less than or equal to the highest converted mana cost among permanents you control.
+
+Name:   Dispersal Technician
+Cost:   4U
+Type:   Creature — Vedalken Artificer
+P/T:    3/2
+S/R:    AeR-C
+When Dispersal Technician enters the battlefield, you may return target artifact to its owner's hand.
 
 Name:   Disperse
 Cost:   1U
@@ -6214,6 +6291,13 @@ P/T:    1/1
 S/R:    ALA-C
 {T}: Add {R}, {G}, or {W} to your mana pool.
 
+Name:   Druid of the Cowl
+Cost:   1G
+Type:   Creature — Elf Druid
+P/T:    1/3
+S/R:    AeR-C
+{T}: Add {G} to your mana pool.
+
 Name:   Druid's Call
 Cost:   1G
 Type:   Enchantment — Aura
@@ -6467,7 +6551,7 @@ Name:   Duplicant
 Cost:   6
 Type:   Artifact Creature — Shapeshifter
 P/T:    2/4
-S/R:    MRD-R, ARC-R, EMA-R
+S/R:    MRD-R, ARC-R, EMA-R, MPS-S
 Imprint — When Duplicant enters the battlefield, you may exile target nontoken creature.
 As long as a card exiled with Duplicant is a creature card, Duplicant has the power, toughness, and creature types of the last creature card exiled with Duplicant. It's still a Shapeshifter.
 

@@ -258,6 +258,14 @@ P/T:    2/1
 S/R:    KLD-C
 {G}: Narnam Cobra gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
 
+Name:   Narnam Renegade
+Cost:   G
+Type:   Creature — Elf Warrior
+P/T:    1/2
+S/R:    AeR-U
+Deathtouch
+Revolt — Narnam Renegade enters the battlefield with a +1/+1 counter on it if a permanent you controlled left the battlefield this turn.
+
 Name:   Narrow Escape
 Cost:   2W
 Type:   Instant
@@ -348,6 +356,12 @@ Cost:   2G
 Type:   Instant
 S/R:    AVR-C
 Destroy target artifact or enchantment. You gain 3 life.
+
+Name:   Natural Obsolescence
+Cost:   1G
+Type:   Instant
+S/R:    AeR-C
+Put target artifact on the bottom of its owner's library.
 
 Name:   Natural Order
 Cost:   2GG
@@ -932,7 +946,7 @@ Whenever Nefashu attacks, up to five target creatures each get -1/-1 until end o
 Name:   Negate
 Cost:   1U
 Type:   Instant
-S/R:    MOR-C, M10-C, M11-C, M12-C, M13-C, M14-C, M15-C, DTK-C, ORI-C, OGW-C, CN2-C
+S/R:    MOR-C, M10-C, M11-C, M12-C, M13-C, M14-C, M15-C, DTK-C, ORI-C, OGW-C, CN2-C, AeR-C
 Counter target noncreature spell.
 
 Name:   Neglected Heirloom
@@ -1471,6 +1485,21 @@ Type:   Enchantment
 S/R:    CHK-R
 Whenever a source you control deals damage to another player, put that many theft counters on Night Dealings.
 {2}{B}{B}, Remove X theft counters from Night Dealings: Search your library for a nonland card with converted mana cost X, reveal it, and put it into your hand. Then shuffle your library.
+
+Name:   Night Market Aeronaut
+Cost:   3B
+Type:   Creature — Aetherborn Warrior
+P/T:    2/2
+S/R:    AeR-C
+Flying
+Revolt — Night Market Aeronaut enters the battlefield with a +1/+1 counter on it if a permanent you controlled left the battlefield this turn.
+
+Name:   Night Market Guard
+Cost:   3
+Type:   Artifact Creature — Construct
+P/T:    3/1
+S/R:    AeR-C
+Night Market Guard can block an additional creature each combat.
 
 Name:   Night Market Lookout
 Cost:   B

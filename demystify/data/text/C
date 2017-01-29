@@ -272,6 +272,13 @@ S/R:    BOK-C
 As an additional cost to cast Call for Blood, sacrifice a creature.
 Target creature gets -X/-X until end of turn, where X is the sacrificed creature's power.
 
+Name:   Call for Unity
+Cost:   3WW
+Type:   Enchantment
+S/R:    AeR-R
+Revolt — At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a unity counter on Call for Unity.
+Creatures you control get +1/+1 for each unity counter on Call for Unity.
+
 Name:   Call of the Conclave
 Cost:   GW
 Type:   Sorcery
@@ -1380,6 +1387,14 @@ P/T:    3/3
 S/R:    US-U, MRD-U, C14-U, MM2-C
 When Cathodion dies, add {C}{C}{C} to your mana pool.
 
+Name:   Caught in the Brights
+Cost:   2W
+Type:   Enchantment — Aura
+S/R:    AeR-C
+Enchant creature
+Enchanted creature can't attack or block.
+When a Vehicle you control attacks, exile enchanted creature.
+
 Name:   Cauldron Dance
 Cost:   4BR
 Type:   Instant
@@ -2132,7 +2147,7 @@ S/R:    DKA-U
 Name:   Chalice of the Void
 Cost:   XX
 Type:   Artifact
-S/R:    MRD-R, MMA-R
+S/R:    MRD-R, MMA-R, MPS-S
 Chalice of the Void enters the battlefield with X charge counters on it.
 Whenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.
 
@@ -2338,6 +2353,12 @@ Cost:   1R
 Type:   Instant
 S/R:    KLD-C
 Chandra's Pyrohelix deals 2 damage divided as you choose among one or two target creatures and/or players.
+
+Name:   Chandra's Revolution
+Cost:   3R
+Type:   Sorcery
+S/R:    AeR-C
+Chandra's Revolution deals 4 damage to target creature. Tap target land. That land doesn't untap during its controller's next untap step.
 
 Name:   Chandra's Spitfire
 Cost:   2R
@@ -4551,6 +4572,13 @@ S/R:    OD-R
 Flying
 Cognivore's power and toughness are each equal to the number of instant cards in all graveyards.
 
+Name:   Cogwork Assembler
+Cost:   3
+Type:   Artifact Creature — Assembly-Worker
+P/T:    2/3
+S/R:    AeR-U
+{7}: Create a token that's a copy of target artifact. That token gains haste. Exile it at the beginning of the next end step.
+
 Name:   Cogwork Grinder
 Cost:   6
 Type:   Artifact Creature — Construct
@@ -5331,6 +5359,19 @@ S/R:    KLD-U
 When Consul's Shieldguard enters the battlefield, you get {E}{E} (two energy counters).
 Whenever Consul's Shieldguard attacks, you may pay {E}. If you do, another target attacking creature gains indestructible until end of turn.
 
+Name:   Consulate Crackdown
+Cost:   3WW
+Type:   Enchantment
+S/R:    AeR-R
+When Consulate Crackdown enters the battlefield, exile all artifacts your opponents control until Consulate Crackdown leaves the battlefield.
+
+Name:   Consulate Dreadnought
+Cost:   1
+Type:   Artifact — Vehicle
+P/T:    7/11
+S/R:    AeR-U
+Crew 6 (Tap any number of creatures you control with total power 6 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Consulate Skygate
 Cost:   2
 Type:   Artifact Creature — Wall
@@ -5345,6 +5386,13 @@ Type:   Enchantment
 S/R:    KLD-U
 When Consulate Surveillance enters the battlefield, you get {E}{E}{E}{E} (four energy counters).
 Pay {E}{E}: Prevent all damage that would be dealt to you this turn by a source of your choice.
+
+Name:   Consulate Turret
+Cost:   3
+Type:   Artifact
+S/R:    AeR-C
+{T}: You get {E} (an energy counter).
+{T}, Pay {E}{E}{E}: Consulate Turret deals 2 damage to target player.
 
 Name:   Consult the Necrosages
 Cost:   1UB
@@ -5613,7 +5661,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Con
 Name:   Conviction
 Cost:   1W
 Type:   Enchantment — Aura
-S/R:    ST-C
+S/R:    ST-C, AeR-C
 Enchant creature
 Enchanted creature gets +1/+3.
 {W}: Return Conviction to its owner's hand.
@@ -6150,6 +6198,13 @@ Type:   Instant
 S/R:    CON-U, DDH-U
 Counter target noncreature spell. Its controller loses 2 life.
 
+Name:   Countless Gears Renegade
+Cost:   1W
+Type:   Creature — Dwarf Artificer
+P/T:    2/2
+S/R:    AeR-C
+Revolt — When Countless Gears Renegade enters the battlefield, if a permanent you controlled left the battlefield this turn, create a 1/1 colorless Servo artifact creature token.
+
 Name:   Countryside Crusher
 Cost:   1RR
 Type:   Creature — Giant Warrior
@@ -6342,6 +6397,13 @@ Cost:   2W
 Type:   Enchantment
 S/R:    MM-R
 Nonwhite creatures with power 3 or greater don't untap during their controllers' untap steps.
+
+Name:   Crackdown Construct
+Cost:   4
+Type:   Artifact Creature — Construct
+P/T:    2/2
+S/R:    AeR-U
+Whenever you activate an ability of an artifact or creature that isn't a mana ability, Crackdown Construct gets +1/+1 until end of turn.
 
 Name:   Crackleburr
 Cost:   1(U/R)(U/R)
@@ -7151,6 +7213,12 @@ Type:   Instant
 S/R:    JOU-C
 Strive — Cruel Feeding costs {2}{B} more to cast for each target beyond the first.
 Any number of target creatures each get +1/+0 and gain lifelink until end of turn. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)
+
+Name:   Cruel Finality
+Cost:   2B
+Type:   Instant
+S/R:    AeR-C
+Target creature gets -2/-2 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 
 Name:   Cruel Revival
 Cost:   4B

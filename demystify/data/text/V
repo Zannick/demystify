@@ -657,7 +657,7 @@ When Vedalken Plotter enters the battlefield, exchange control of target land yo
 Name:   Vedalken Shackles
 Cost:   3
 Type:   Artifact
-S/R:    5DN-R, MMA-M
+S/R:    5DN-R, MMA-M, MPS-S
 You may choose not to untap Vedalken Shackles during your untap step.
 {2}, {T}: Gain control of target creature with power less than or equal to the number of Islands you control for as long as Vedalken Shackles remains tapped.
 
@@ -864,6 +864,13 @@ S/R:    M12-R
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 Whenever combat damage is dealt to you or a planeswalker you control, if Vengeful Pharaoh is in your graveyard, destroy target attacking creature, then put Vengeful Pharaoh on top of your library.
 
+Name:   Vengeful Rebel
+Cost:   2B
+Type:   Creature — Aetherborn Warrior
+P/T:    3/2
+S/R:    AeR-U
+Revolt — When Vengeful Rebel enters the battlefield, if a permanent you controlled left the battlefield this turn, target creature an opponent controls gets -3/-3 until end of turn.
+
 Name:   Vengeful Rebirth
 Cost:   4RG
 Type:   Sorcery
@@ -986,6 +993,13 @@ Type:   Artifact
 S/R:    MI-R
 {X}{1}, {T}: Put X charge counters on Ventifact Bottle. Activate this ability only any time you could cast a sorcery.
 At the beginning of your precombat main phase, if Ventifact Bottle has a charge counter on it, tap it and remove all charge counters from it. Add {C} to your mana pool for each charge counter removed this way.
+
+Name:   Verdant Automaton
+Cost:   2
+Type:   Artifact Creature — Construct
+P/T:    1/2
+S/R:    AeR-C
+{3}{G}: Put a +1/+1 counter on Verdant Automaton.
 
 Name:   Verdant Catacombs
 Type:   Land

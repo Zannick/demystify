@@ -386,6 +386,12 @@ Type:   Sorcery — Arcane
 S/R:    CHK-U
 Search your library for an Arcane card, reveal that card, and put it into your hand. Then shuffle your library.
 
+Name:   Efficient Construction
+Cost:   3U
+Type:   Enchantment
+S/R:    AeR-U
+Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying.
+
 Name:   Efreet Weaponmaster
 Cost:   3URW
 Type:   Creature — Efreet Monk
@@ -1474,6 +1480,13 @@ S/R:    KLD-U
 Embraal Bruiser enters the battlefield tapped.
 Embraal Bruiser has menace as long as you control an artifact.
 
+Name:   Embraal Gear-Smasher
+Cost:   2R
+Type:   Creature — Human Warrior
+P/T:    2/3
+S/R:    AeR-C
+{T}, Sacrifice an artifact: Embraal Gear-Smasher deals 2 damage to each opponent.
+
 Name:   Emerald Charm
 Cost:   G
 Type:   Instant
@@ -2019,7 +2032,7 @@ Enchanted creature gets -2/-2.
 Name:   Engineered Explosives
 Cost:   X
 Type:   Artifact
-S/R:    5DN-R, MMA-R
+S/R:    5DN-R, MMA-R, MPS-S
 Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
 {2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.
 
@@ -2134,6 +2147,14 @@ Type:   Instant
 S/R:    SCG-U, 8ED-U, 9ED-U
 Target creature gets +X/+0 until end of turn.
 
+Name:   Enraged Giant
+Cost:   5R
+Type:   Creature — Giant
+P/T:    4/4
+S/R:    AeR-U
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Trample, haste
+
 Name:   Enraged Revolutionary
 Cost:   2R
 Type:   Creature — Human Warrior
@@ -2200,7 +2221,7 @@ Tap all creatures.
 Name:   Ensnaring Bridge
 Cost:   3
 Type:   Artifact
-S/R:    ST-R, 7E-R, 8ED-R
+S/R:    ST-R, 7E-R, 8ED-R, MPS-S
 Creatures with power greater than the number of cards in your hand can't attack.
 
 Name:   Ensoul Artifact
@@ -3647,6 +3668,14 @@ S/R:    US-C, VMA-C
 Destroy target nonartifact, nonblack creature. It can't be regenerated.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
+Name:   Exquisite Archangel
+Cost:   5WW
+Type:   Creature — Angel
+P/T:    5/5
+S/R:    AeR-M
+Flying
+If you would lose the game, instead exile Exquisite Archangel and your life total becomes equal to your starting life total.
+
 Name:   Exquisite Blood
 Cost:   4B
 Type:   Enchantment
@@ -3728,7 +3757,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 Name:   Extraplanar Lens
 Cost:   3
 Type:   Artifact
-S/R:    MRD-R
+S/R:    MRD-R, MPS-S
 Imprint — When Extraplanar Lens enters the battlefield, you may exile target land you control.
 Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana to his or her mana pool of any type that land produced.
 

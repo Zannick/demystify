@@ -46,6 +46,13 @@ Type:   Land
 S/R:    AN-U, 4E-U, ME4-C
 {T}: Prevent the next 1 damage that would be dealt to target creature this turn.
 
+Name:   Oath of Ajani
+Cost:   GW
+Type:   Legendary Enchantment
+S/R:    AeR-R
+When Oath of Ajani enters the battlefield, put a +1/+1 counter on each creature you control.
+Planeswalker spells you cast cost {1} less to cast.
+
 Name:   Oath of Chandra
 Cost:   1R
 Type:   Legendary Enchantment
@@ -268,7 +275,7 @@ When you cast Oblivion Sower, target opponent exiles the top four cards of his o
 Name:   Oblivion Stone
 Cost:   3
 Type:   Artifact
-S/R:    MRD-R, CMD-R
+S/R:    MRD-R, CMD-R, MPS-S
 {4}, {T}: Put a fate counter on target permanent.
 {5}, {T}, Sacrifice Oblivion Stone: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.
 
@@ -1783,8 +1790,8 @@ Name:   Ornithopter
 Cost:   0
 Type:   Artifact Creature — Thopter
 P/T:    0/2
-S/R:    AQ-C, RV-U, 4E-U, 5E-U, 6E-U, MRD-U, 9ED-U, 10E-U, M10-U, M11-U, M15-C
-Flying (This creature can't be blocked except by creatures with flying or reach.)
+S/R:    AQ-C, RV-U, 4E-U, 5E-U, 6E-U, MRD-U, 9ED-U, 10E-U, M10-U, M11-U, M15-C, MPS-S, AeR-U
+Flying
 
 Name:   Orochi Eggwatcher
 Cost:   2G
@@ -1987,6 +1994,13 @@ Type:   Sorcery
 S/R:    PR-U
 You may discard a Swamp card rather than pay Outbreak's mana cost.
 Choose a creature type. All creatures of that type get -1/-1 until end of turn.
+
+Name:   Outland Boar
+Cost:   2RG
+Type:   Creature — Boar
+P/T:    4/4
+S/R:    AeR-U
+Outland Boar can't be blocked by creatures with power 2 or less.
 
 Name:   Outland Colossus
 Cost:   3GG

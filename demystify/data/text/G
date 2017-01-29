@@ -1173,6 +1173,13 @@ S/R:    KLD-R
 Each player may play an additional land on each of his or her turns.
 At the beginning of each player's upkeep, if that player has no cards in hand, that player draws three cards.
 
+Name:   Ghirapur Osprey
+Cost:   2W
+Type:   Creature — Bird
+P/T:    2/2
+S/R:    AeR-C
+Flying
+
 Name:   Ghitu Encampment
 Type:   Land
 S/R:    UL-U, 10E-U, DDN-U, PD2-U
@@ -1856,6 +1863,13 @@ S/R:    AI-C
 Enchant creature
 Whenever enchanted creature blocks or becomes blocked, it gets +0/+3 until end of turn and you gain 1 life.
 
+Name:   Gifted Aetherborn
+Cost:   BB
+Type:   Creature — Aetherborn Vampire
+P/T:    2/3
+S/R:    AeR-U
+Deathtouch, lifelink
+
 Name:   Gifts Ungiven
 Cost:   3U
 Type:   Instant
@@ -2410,6 +2424,15 @@ Type:   Creature — Dwarf Artificer
 P/T:    2/2
 S/R:    KLD-C
 Fabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)
+
+Name:   Glint-Sleeve Siphoner
+Cost:   1B
+Type:   Creature — Human Rogue
+P/T:    2/1
+S/R:    AeR-R
+Menace
+Whenever Glint-Sleeve Siphoner enters the battlefield or attacks, you get {E} (an energy counter).
+At the beginning of your upkeep, you may pay {E}{E}. If you do, you draw a card and you lose 1 life.
 
 Name:   Glintwing Invoker
 Cost:   4U
@@ -3570,7 +3593,7 @@ Morph {R} (You may cast this card face down as a 2/2 creature for {3}. Turn it f
 
 Name:   Goblin Test Pilot
 Cost:   1UR
-Type:   Creature — Goblin Wizard
+Type:   Creature — Goblin Pilot Wizard
 P/T:    0/2
 S/R:    DGM-U
 Flying
@@ -4090,6 +4113,20 @@ Type:   Sorcery
 S/R:    SOI-C
 Put target permanent on top of its owner's library.
 Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+
+Name:   Gonti's Aether Heart
+Cost:   6
+Type:   Legendary Artifact
+S/R:    AeR-M
+Whenever Gonti's Aether Heart or another artifact enters the battlefield under your control, you get {E}{E} (two energy counters).
+Pay {E}{E}{E}{E}{E}{E}{E}{E}, Exile Gonti's Aether Heart: Take an extra turn after this one.
+
+Name:   Gonti's Machinations
+Cost:   B
+Type:   Enchantment
+S/R:    AeR-U
+Whenever you lose life for the first time each turn, you get {E}. (You get an energy counter. Damage causes loss of life.)
+Pay {E}{E}, Sacrifice Gonti's Machinations: Each opponent loses 3 life. You gain life equal to the life lost this way.
 
 Name:   Gonti, Lord of Luxury
 Cost:   2BB
@@ -5027,6 +5064,13 @@ S/R:    A-U, B-U, U-U, RV-U, 4E-U
 Enchant creature
 Enchanted creature has protection from green. This effect doesn't remove Green Ward.
 
+Name:   Greenbelt Rampager
+Cost:   G
+Type:   Creature — Elephant
+P/T:    3/4
+S/R:    AeR-R
+When Greenbelt Rampager enters the battlefield, pay {E}{E} (two energy counters). If you can't, return Greenbelt Rampager to its owner's hand and you get {E}.
+
 Name:   Greener Pastures
 Cost:   2G
 Type:   Enchantment
@@ -5068,6 +5112,21 @@ Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    ZEN-U
 {T}: Add {G}{G} to your mana pool.
+
+Name:   Greenwheel Liberator
+Cost:   1G
+Type:   Creature — Elf Warrior
+P/T:    2/1
+S/R:    AeR-R
+Revolt — Greenwheel Liberator enters the battlefield with two +1/+1 counters on it if a permanent you controlled left the battlefield this turn.
+
+Name:   Gremlin Infestation
+Cost:   3R
+Type:   Enchantment — Aura
+S/R:    AeR-U
+Enchant artifact
+At the beginning of your end step, Gremlin Infestation deals 2 damage to enchanted artifact's controller.
+When enchanted artifact is put into a graveyard, create a 2/2 red Gremlin creature token.
 
 Name:   Gremlin Mine
 Cost:   1
@@ -5360,7 +5419,7 @@ Whenever an artifact enters the battlefield, you may untap Grinding Station.
 Name:   Grindstone
 Cost:   1
 Type:   Artifact
-S/R:    TE-R
+S/R:    TE-R, MPS-S
 {3}, {T}: Target player puts the top two cards of his or her library into his or her graveyard. If both cards share a color, repeat this process.
 
 Name:   Grinning Demon

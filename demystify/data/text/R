@@ -1211,6 +1211,13 @@ M-card: Archdemon of Greed
 S/R:    DKA-R
 Sacrifice a Human: Transform Ravenous Demon. Activate this ability only any time you could cast a sorcery.
 
+Name:   Ravenous Intruder
+Cost:   1R
+Type:   Creature — Gremlin
+P/T:    1/2
+S/R:    AeR-U
+Sacrifice an artifact: Ravenous Intruder gets +2/+2 until end of turn.
+
 Name:   Ravenous Leucrocota
 Cost:   3G
 Type:   Creature — Beast
@@ -1892,6 +1899,14 @@ S/R:    ONS-U, EVG-U
 Haste
 Reckless One's power and toughness are each equal to the number of Goblins on the battlefield.
 
+Name:   Reckless Racer
+Cost:   2R
+Type:   Creature — Human Pilot
+P/T:    2/3
+S/R:    AeR-U
+First strike
+Whenever Reckless Racer becomes tapped, you may discard a card. If you do, draw a card.
+
 Name:   Reckless Reveler
 Cost:   1R
 Type:   Creature — Satyr
@@ -2433,6 +2448,12 @@ Type:   Instant
 S/R:    MOR-U
 Release the Ants deals 1 damage to target creature or player. Clash with an opponent. If you win, return Release the Ants to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 
+Name:   Release the Gremlins
+Cost:   XXR
+Type:   Sorcery
+S/R:    AeR-R
+Destroy X target artifacts. Create X 2/2 red Gremlin creature tokens.
+
 Name:   Relentless Assault
 Cost:   2RR
 Type:   Sorcery
@@ -2696,6 +2717,20 @@ S/R:    DGM-R
 Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
 Whenever Renegade Krasis evolves, put a +1/+1 counter on each other creature you control with a +1/+1 counter on it.
 
+Name:   Renegade Map
+Cost:   1
+Type:   Artifact
+S/R:    AeR-C
+Renegade Map enters the battlefield tapped.
+{T}, Sacrifice Renegade Map: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+
+Name:   Renegade Rallier
+Cost:   1GW
+Type:   Creature — Human Warrior
+P/T:    3/2
+S/R:    AeR-U
+Revolt — When Renegade Rallier enters the battlefield, if a permanent you controlled left the battlefield this turn, return target permanent card with converted mana cost 2 or less from your graveyard to the battlefield.
+
 Name:   Renegade Tactics
 Cost:   R
 Type:   Sorcery
@@ -2717,6 +2752,19 @@ P/T:    3/3
 S/R:    TE-U
 First strike
 Whenever Renegade Warlord attacks, each other attacking creature gets +1/+0 until end of turn.
+
+Name:   Renegade Wheelsmith
+Cost:   1RW
+Type:   Creature — Dwarf Pilot
+P/T:    3/2
+S/R:    AeR-U
+Whenever Renegade Wheelsmith becomes tapped, target creature can't block this turn.
+
+Name:   Renegade's Getaway
+Cost:   2B
+Type:   Instant
+S/R:    AeR-C
+Target permanent gains indestructible until end of turn. Create a 1/1 colorless Servo artifact creature token. (Effects that say "destroy" don't destroy a permanent with indestructible, and if it's a creature, it can't be destroyed by damage.)
 
 Name:   Renewal
 Cost:   2G
@@ -2933,6 +2981,13 @@ Type:   Sorcery
 S/R:    MOR-U
 Draw a card. Clash with an opponent. If you win, return Research the Deep to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
 
+Name:   Reservoir Walker
+Cost:   5
+Type:   Artifact Creature — Construct
+P/T:    3/3
+S/R:    AeR-C
+When Reservoir Walker enters the battlefield, you gain 3 life and get {E}{E}{E} (three energy counters).
+
 Name:   Reset
 Cost:   UU
 Type:   Instant
@@ -3024,6 +3079,12 @@ Return target permanent to its owner's hand.
 Cycling {5}{W}{U}{B} ({5}{W}{U}{B}, Discard this card: Draw a card.)
 When you cycle Resounding Wave, return two target permanents to their owners' hands.
 
+Name:   Resourceful Return
+Cost:   1B
+Type:   Sorcery
+S/R:    AeR-C
+Return target creature card from your graveyard to your hand. If you control an artifact, draw a card.
+
 Name:   Respite
 Cost:   1G
 Type:   Instant
@@ -3102,6 +3163,13 @@ Type:   Creature — Human Artificer
 P/T:    3/3
 S/R:    KLD-U
 When Restoration Gearsmith enters the battlefield, return target artifact or creature card from your graveyard to your hand.
+
+Name:   Restoration Specialist
+Cost:   1W
+Type:   Creature — Dwarf Artificer
+P/T:    2/1
+S/R:    AeR-U
+{W}, Sacrifice Restoration Specialist: Return up to one target artifact card and up to one target enchantment card from your graveyard to your hand.
 
 Name:   Restore
 Cost:   1G
@@ -3459,6 +3527,13 @@ Type:   Instant
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, 9ED-R
 The next time a source of your choice would deal damage to you this turn, prevent that damage. You gain life equal to the damage prevented this way.
 
+Name:   Reverse Engineer
+Cost:   3UU
+Type:   Sorcery
+S/R:    AeR-U
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Draw three cards.
+
 Name:   Reverse Polarity
 Cost:   WW
 Type:   Instant
@@ -3791,6 +3866,13 @@ Type:   Creature — Beast
 P/T:    1/2
 S/R:    PR-C, 8ED-C
 {R}: Ridgeline Rager gets +1/+0 until end of turn.
+
+Name:   Ridgescale Tusker
+Cost:   3GG
+Type:   Creature — Beast
+P/T:    5/5
+S/R:    AeR-U
+When Ridgescale Tusker enters the battlefield, put a +1/+1 counter on each other creature you control.
 
 Name:   Ridgetop Raptor
 Cost:   3R
@@ -4359,6 +4441,21 @@ S/R:    MM-R
 {T}: Add {C} to your mana pool.
 {1}, {T}: Tap target land.
 
+Name:   Rishkar's Expertise
+Cost:   4GG
+Type:   Sorcery
+S/R:    AeR-R
+Draw cards equal to the greatest power among creatures you control.
+You may cast a card with converted mana cost 5 or less from your hand without paying its mana cost.
+
+Name:   Rishkar, Peema Renegade
+Cost:   2G
+Type:   Legendary Creature — Elf Druid
+P/T:    2/2
+S/R:    AeR-R
+When Rishkar, Peema Renegade enters the battlefield, put a +1/+1 counter on each of up to two target creatures.
+Each creature you control with a counter on it has "{T}: Add {G} to your mana pool."
+
 Name:   Rising Miasma
 Cost:   3B
 Type:   Sorcery
@@ -4842,6 +4939,13 @@ Type:   Creature — Kavu
 P/T:    1/1
 S/R:    IN-C, 9ED-C
 Whenever Rogue Kavu attacks alone, it gets +2/+0 until end of turn.
+
+Name:   Rogue Refiner
+Cost:   1GU
+Type:   Creature — Human Rogue
+P/T:    3/2
+S/R:    AeR-U
+When Rogue Refiner enters the battlefield, draw a card and you get {E}{E} (two energy counters).
 
 Name:   Rogue Skycaptain
 Cost:   2R

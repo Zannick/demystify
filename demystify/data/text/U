@@ -337,6 +337,14 @@ S/R:    ISD-R, DDQ-R
 Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.
 If Unbreathing Horde would be dealt damage, prevent that damage and remove a +1/+1 counter from it.
 
+Name:   Unbridled Growth
+Cost:   G
+Type:   Enchantment — Aura
+S/R:    AeR-C
+Enchant land
+Enchanted land has "{T}: Add one mana of any color to your mana pool."
+Sacrifice Unbridled Growth: Draw a card.
+
 Name:   Unburden
 Cost:   1BB
 Type:   Sorcery
@@ -771,6 +779,12 @@ S/R:    OGW-U
 Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Untap each creature you control with a +1/+1 counter on it.
 
+Name:   Universal Solvent
+Cost:   1
+Type:   Artifact
+S/R:    AeR-C
+{7}, {T}, Sacrifice Universal Solvent: Destroy target permanent.
+
 Name:   Unknown Shores
 Type:   Land
 S/R:    THS-C, OGW-C
@@ -999,6 +1013,15 @@ Cost:   2G
 Type:   Sorcery
 S/R:    LE-U, 4E-U, 5E-U, P1-U, P2-U, 6E-U, S99-U, 7E-U
 Search your library for a basic land card and put that card onto the battlefield. Then shuffle your library.
+
+Name:   Untethered Express
+Cost:   4
+Type:   Artifact — Vehicle
+P/T:    4/4
+S/R:    AeR-U
+Trample
+Whenever Untethered Express attacks, put a +1/+1 counter on it.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 
 Name:   Unwilling Recruit
 Cost:   XRRR

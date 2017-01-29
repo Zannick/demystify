@@ -2300,6 +2300,14 @@ S/R:    KLD-U
 When Maulfist Doorbuster enters the battlefield, you get {E}{E} (two energy counters).
 Whenever Maulfist Doorbuster attacks, you may pay {E}. If you do, target creature can't block this turn.
 
+Name:   Maulfist Revolutionary
+Cost:   1GG
+Type:   Creature — Human Warrior
+P/T:    3/3
+S/R:    AeR-U
+Trample
+When Maulfist Revolutionary enters the battlefield or dies, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.
+
 Name:   Maulfist Squad
 Cost:   3B
 Type:   Creature — Human Artificer
@@ -2330,6 +2338,14 @@ S/R:    EMN-R
 Flying
 Whenever another Spirit enters the battlefield under your control, Mausoleum Wanderer gets +1/+1 until end of turn.
 Sacrifice Mausoleum Wanderer: Counter target instant or sorcery spell unless its controller pays {X}, where X is Mausoleum Wanderer's power.
+
+Name:   Maverick Thopterist
+Cost:   3UR
+Type:   Creature — Human Artificer
+P/T:    2/2
+S/R:    AeR-U
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+When Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
 
 Name:   Maw of Kozilek
 Cost:   3R
@@ -2478,6 +2494,13 @@ S/R:    SOK-U
 At the beginning of your end step, sacrifice Measure of Wickedness and you lose 8 life.
 Whenever another card is put into your graveyard from anywhere, target opponent gains control of Measure of Wickedness.
 
+Name:   Mechanized Production
+Cost:   2UU
+Type:   Enchantment — Aura
+S/R:    AeR-M
+Enchant artifact you control
+At the beginning of your upkeep, create a token that's a copy of enchanted artifact. Then if you control eight or more artifacts with the same name as one another, you win the game.
+
 Name:   Meddle
 Cost:   1U
 Type:   Instant
@@ -2530,7 +2553,7 @@ Medomai the Ageless can't attack during extra turns.
 Name:   Meekstone
 Cost:   1
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, MPS-S
 Creatures with power 3 or greater don't untap during their controllers' untap steps.
 
 Name:   Megantic Sliver
@@ -2903,6 +2926,13 @@ P/T:    1/1
 S/R:    LGN-C, 8ED-C
 When Merchant of Secrets enters the battlefield, draw a card.
 
+Name:   Merchant's Dockhand
+Cost:   1
+Type:   Artifact Creature — Construct
+P/T:    1/2
+S/R:    AeR-R
+{3}{U}, {T}, Tap X untapped artifacts you control: Look at the top X cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+
 Name:   Merciless Eviction
 Cost:   4WB
 Type:   Sorcery
@@ -3260,6 +3290,22 @@ Type:   Sorcery
 S/R:    MBS-U
 Gain control of target artifact until end of turn. Untap that artifact. It gains haste until end of turn.
 
+Name:   Metallic Mimic
+Cost:   2
+Type:   Artifact Creature — Shapeshifter
+P/T:    2/1
+S/R:    AeR-R
+As Metallic Mimic enters the battlefield, choose a creature type.
+Metallic Mimic is the chosen type in addition to its other types.
+Each other creature you control of the chosen type enters the battlefield with an additional +1/+1 counter on it.
+
+Name:   Metallic Rebuke
+Cost:   2U
+Type:   Instant
+S/R:    AeR-C
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Counter target spell unless its controller pays {3}.
+
 Name:   Metallic Sliver
 Cost:   1
 Type:   Artifact Creature — Sliver
@@ -3442,6 +3488,14 @@ Type:   Creature — Human Soldier
 P/T:    1/2
 S/R:    AVR-C
 Protection from Vampires
+
+Name:   Midnight Entourage
+Cost:   2BB
+Type:   Creature — Aetherborn Rogue
+P/T:    3/3
+S/R:    AeR-R
+Other Aetherborn you control get +1/+1.
+Whenever Midnight Entourage or another Aetherborn you control dies, you draw a card and you lose 1 life.
 
 Name:   Midnight Guard
 Cost:   2W
@@ -5046,6 +5100,14 @@ S/R:    US-U
 Defender (This creature can't attack.)
 {3}: Mobile Fort gets +3/-1 until end of turn and can attack this turn as though it didn't have defender. Activate this ability only once each turn.
 
+Name:   Mobile Garrison
+Cost:   3
+Type:   Artifact — Vehicle
+P/T:    3/4
+S/R:    AeR-C
+Whenever Mobile Garrison attacks, untap another target artifact or creature you control.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Mobilization
 Cost:   2W
 Type:   Enchantment
@@ -5608,6 +5670,12 @@ P/T:    4/4
 S/R:    EX-R
 Monstrous Hound can't attack unless you control more lands than defending player.
 Monstrous Hound can't block unless you control more lands than attacking player.
+
+Name:   Monstrous Onslaught
+Cost:   3GG
+Type:   Sorcery
+S/R:    AeR-U
+Monstrous Onslaught deals X damage divided as you choose among any number of target creatures, where X is the greatest power among creatures you control as you cast Monstrous Onslaught.
 
 Name:   Moon Heron
 Cost:   3U

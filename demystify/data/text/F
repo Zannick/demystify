@@ -745,6 +745,13 @@ S/R:    SCG-U
 Enchant creature
 When enchanted creature is turned face up, destroy it. It can't be regenerated.
 
+Name:   Fatal Push
+Cost:   B
+Type:   Instant
+S/R:    AeR-U
+Destroy target creature if it has converted mana cost 2 or less.
+Revolt — Destroy that creature if it has converted mana cost 4 or less instead if a permanent you controlled left the battlefield this turn.
+
 Name:   Fate Foretold
 Cost:   1U
 Type:   Enchantment — Aura
@@ -1111,6 +1118,13 @@ P/T:    2/2
 S/R:    BFZ-C
 Sacrifice Felidar Cub: Destroy target enchantment.
 
+Name:   Felidar Guardian
+Cost:   3W
+Type:   Creature — Cat Beast
+P/T:    1/4
+S/R:    AeR-U
+When Felidar Guardian enters the battlefield, you may exile another target permanent you control, then return that card to the battlefield under its owner's control.
+
 Name:   Felidar Sovereign
 Cost:   4WW
 Type:   Creature — Cat Beast
@@ -1182,6 +1196,14 @@ Cost:   2W
 Type:   Creature — Human Scout
 P/T:    1/4
 S/R:    MI-C
+
+Name:   Fen Hauler
+Cost:   6B
+Type:   Creature — Insect
+P/T:    5/5
+S/R:    AeR-C
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Fen Hauler can't be blocked by artifact creatures.
 
 Name:   Fen Stalker
 Cost:   3B
@@ -1779,6 +1801,13 @@ P/T:    4/4
 S/R:    ARB-R, C13-R, C16-R
 Flying
 When Filigree Angel enters the battlefield, you gain 3 life for each artifact you control.
+
+Name:   Filigree Crawler
+Cost:   4
+Type:   Artifact Creature — Insect
+P/T:    2/2
+S/R:    AeR-C
+When Filigree Crawler dies, create a 1/1 colorless Thopter artifact creature token with flying.
 
 Name:   Filigree Familiar
 Cost:   3
@@ -4174,6 +4203,13 @@ Type:   Instant
 S/R:    DTK-C
 Target opponent loses 1 life for each attacking creature you control. You gain that much life.
 
+Name:   Foundry Assembler
+Cost:   5
+Type:   Artifact Creature — Assembly-Worker
+P/T:    3/3
+S/R:    AeR-C
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+
 Name:   Foundry Champion
 Cost:   4RW
 Type:   Creature — Elemental Soldier
@@ -4182,6 +4218,14 @@ S/R:    GTC-R
 When Foundry Champion enters the battlefield, it deals damage to target creature or player equal to the number of creatures you control.
 {R}: Foundry Champion gets +1/+0 until end of turn.
 {W}: Foundry Champion gets +0/+1 until end of turn.
+
+Name:   Foundry Hornet
+Cost:   3B
+Type:   Creature — Insect
+P/T:    2/3
+S/R:    AeR-U
+Flying
+When Foundry Hornet enters the battlefield, if you control a creature with a +1/+1 counter on it, creatures your opponents control get -1/-1 until end of turn.
 
 Name:   Foundry Inspector
 Cost:   3
@@ -4230,6 +4274,13 @@ Cost:   0
 Type:   Artifact
 S/R:    DK-U, CH-C, 5E-U, 6E-U, 10E-U
 {2}, {T}: You gain 1 life.
+
+Name:   Fourth Bridge Prowler
+Cost:   B
+Type:   Creature — Human Rogue
+P/T:    1/1
+S/R:    AeR-C
+When Fourth Bridge Prowler enters the battlefield, you may have target creature get -1/-1 until end of turn.
 
 Name:   Foxfire
 Cost:   2G
@@ -4311,6 +4362,15 @@ S/R:    SOK-C
 Enchant creature
 {U}: Tap enchanted creature.
 {U}: Untap enchanted creature.
+
+Name:   Freejam Regent
+Cost:   4RR
+Type:   Creature — Dragon
+P/T:    4/4
+S/R:    AeR-R
+Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
+Flying
+{1}{R}: Freejam Regent gets +2/+0 until end of turn.
 
 Name:   Freewind Equenaut
 Cost:   2W
@@ -4555,6 +4615,13 @@ P/T:    3/3
 S/R:    GTC-R
 Battalion — Whenever Frontline Medic and at least two other creatures attack, creatures you control gain indestructible until end of turn.
 Sacrifice Frontline Medic: Counter target spell with {X} in its mana cost unless its controller pays {3}.
+
+Name:   Frontline Rebel
+Cost:   2R
+Type:   Creature — Human Warrior
+P/T:    3/3
+S/R:    AeR-C
+Frontline Rebel attacks each combat if able.
 
 Name:   Frontline Sage
 Cost:   2U
