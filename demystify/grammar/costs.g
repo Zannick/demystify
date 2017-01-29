@@ -32,6 +32,10 @@ cost : cost_list ( OR^ cost_list )?
 // The AND case here is usually for costs where a latter item
 // references a preceding item,
 // eg. remove n quest counters from SELF and sacrifice it.
+// This sometimes makes it seem like MTG doesn't use the oxford comma
+// in separating cost items, but does in separating subsets as part of
+// a cost item. More simply, MTG doesn't normally use 'and' in cost lists
+// eg: "{2}{u}, {t}, discard a card, sacrifice a land".
 
 cost_list : cost_item ( COMMA cost_item )* ( AND cost_item )?
             -> ^( COST cost_item+ );
@@ -48,9 +52,10 @@ cost_item : TAP_SYM
 repeatable_cost_item_ : PAY! mana
                       | discard
                       | exile
+                      | move_cards
+                      | pay_mana_cost
                       | pay_energy
                       | pay_life
-                      | put_cards
                       | put_counters
                       | remove_counters
                       | reveal
@@ -84,6 +89,9 @@ discard : DISCARD subsets ( AT RANDOM )? -> ^( DISCARD RANDOM? subsets );
 
 exile : EXILE^ subsets ;
 
+move_cards : ( PUT | RETURN ) subsets ( TO | ON | INTO ) zone_subset
+           -> ^( MOVE_TO subsets zone_subset );
+
 pay_energy : PAY ( ANY AMOUNT OF ENERGY_SYM -> ^( ENERGY ANY[] )
                  | A AMOUNT OF ENERGY_SYM EQUAL TO magic_number
                    -> ^( ENERGY ^( EQUAL[] magic_number ))
@@ -92,7 +100,7 @@ pay_energy : PAY ( ANY AMOUNT OF ENERGY_SYM -> ^( ENERGY ANY[] )
 
 pay_life : PAY magic_life_number -> ^( PAY_LIFE magic_life_number );
 
-put_cards : PUT^ subsets ( ON! | INTO! ) zone_subset;
+pay_mana_cost : PAY ref_obj_poss MANA COST -> ^( PAY_COST ref_obj_poss );
 
 put_counters : PUT counter_subset ON subsets
                -> ^( ADD_COUNTERS counter_subset subsets ) ;

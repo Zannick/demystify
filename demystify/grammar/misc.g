@@ -40,10 +40,23 @@ ref_object : SELF
            | that_ref
            ;
 
+ref_obj_poss : SELF APOS_S!
+             | PARENT APOS_S!
+             | ITS -> IT
+             | THEIR -> THEM
+               // planeswalker pronouns
+             | HIS -> HIM
+             | HER -> HER
+             | ( ENCHANTED | EQUIPPED | FORTIFIED ) noun+ poss!
+             | this_ref poss!
+             | that_ref poss!
+             ;
+
 // eg. this creature, this permanent, this spell.
 this_ref : THIS ( type | obj_type ) -> SELF;
 
-that_ref : THAT^ ( type | obj_type | obj_subtype );
+that_ref : (THAT | THOSE) ( type | obj_type | obj_subtype )
+         -> ^( THAT type? obj_type? obj_subtype? );
 
 /* Numbers and quantities. */
 
@@ -96,7 +109,9 @@ this_turn : THIS TURN -> ^( THIS[] TURN[] );
 
 // Unfortunately we can't have the lexer rule match just a single quote
 // in some cases but not others, so we use a parser rule to handle this.
-poss : APOS_S | S_APOS | SQUOTE ;
+// Note that the lexer will never match S_APOS since S will be part of
+// the preceding token, so APOS_S | SQUOTE is all that's necessary.
+poss : APOS_S | SQUOTE ;
 
 // Similarly, APOS_S sometimes means "is".
 is_ : IS | APOS_S ;

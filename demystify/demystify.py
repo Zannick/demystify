@@ -250,7 +250,7 @@ def parse_helper(cards, name, rulename, yesregex=None, noregex=None):
 
 # All costs come before a colon, but these may occur at the start of a line,
 # after an mdash, or after an opening quote for an ability.
-costregex = re.compile(r"""(?:^|— | "| ')([^."'()—]*?):""")
+costregex = re.compile(r"""(?:^|— | "| ')((?:[^ .]'|[^."'()—:])*):""")
 
 # Skip lines that end in . or " or —, lines that are LEVEL dependent,
 # and lines that have fewer than 2 characters.

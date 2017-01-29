@@ -23,3 +23,15 @@
 @cost
 @pay an amount of {e} equal to that permanent's converted mana cost
 @(COST (ENERGY (EQUAL (CMC (THAT permanent)))))
+
+@Merseine
+@cost
+@pay enchanted creature's mana cost
+@(COST (PAY_COST enchanted creature))
+
+@MagosiTheWaterveil
+@cost
+@{t}, remove an eon counter from SELF and return it to its owner's hand
+@(COST T (REMOVE_COUNTERS (COUNTER_SET (COUNTER_GROUP (NUMBER 1) eon))
+                          (SUBSET SELF))
+       (MOVE_TO (SUBSET it) (ZONE_SET (POSS (OWNER IT)) HAND)))

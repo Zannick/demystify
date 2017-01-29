@@ -51,9 +51,11 @@ tokens {
     LEQ;
     LT;
     MAX;
+    MOVE_TO;
     MULT;
     NONCOMBAT;
     NTH;
+    PAY_COST;
     PAY_LIFE;
     PAY_PER;
     PER;

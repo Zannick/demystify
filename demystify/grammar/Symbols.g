@@ -75,8 +75,6 @@ BULLET : '\u2022';
 
 APOS_S : '\'s' ;
 
-S_APOS : 's\'' ;
-
 WS : ( ' ' | '\t' | '\n' ) { $channel=HIDDEN };
 
 fragment SNOW_SYM : 's';

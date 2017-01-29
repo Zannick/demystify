@@ -37,19 +37,20 @@ player_group : ( number OF )? player_poss ( OPPONENT | TEAMMATE )
              | ref_player
              ;
 
-ref_player : ref_object POSS ( OWNER -> ^( OWNER[] ref_object )
-                             | CONTROLLER -> ^( CONTROLLER[] ref_object )
-                             )
-           ;
-
 player_poss : YOUR -> ^( POSS YOU )
             | ( number | THAT )? player_base poss
               -> ^( POSS ^( PLAYER_GROUP number? THAT[]? player_base ) )
             | ref_player_poss
             ;
 
-ref_player_poss : HIS OR HER -> THEIR
-                | THEIR -> THEIR[]
+ref_player_poss : HIS OR HER -> ^( POSS THEM )
+                | THEIR -> ^( POSS THEM )
+                | ref_player poss -> ^( POSS ref_player )
                 ;
+
+ref_player : ref_obj_poss ( OWNER -> ^( OWNER[] ref_obj_poss )
+                          | CONTROLLER -> ^( CONTROLLER[] ref_obj_poss )
+                          )
+           ;
 
 player_base : OPPONENT | TEAMMATE | PLAYER ;
