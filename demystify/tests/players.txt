@@ -1,8 +1,12 @@
 
 @player_group
 @your opponents
-@(PLAYER_GROUP (POSS YOU) OPPONENT)
+@(PLAYER_GROUP OPPONENT (POSS YOU))
 
 @player_group
 @that player's teammates
-@(PLAYER_GROUP (POSS (PLAYER_GROUP THAT player)) TEAMMATE)
+@(PLAYER_GROUP TEAMMATE (POSS THAT player))
+
+@zone_subset
+@one of his or her opponents' libraries
+@(ZONE_SET (NUMBER one) LIBRARY (POSS OPPONENT (POSS THEM)))

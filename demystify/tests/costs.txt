@@ -6,7 +6,7 @@
 @SimianSpiritGuide
 @cost
 @exile SELF from your hand
-@(COST (EXILE (SUBSET SELF (IN (ZONE_SET (POSS YOU) HAND)))))
+@(COST (EXILE (SUBSET SELF (IN (ZONE_SET HAND (POSS YOU))))))
 
 @DoomCannon
 @cost
@@ -34,4 +34,4 @@
 @{t}, remove an eon counter from SELF and return it to its owner's hand
 @(COST T (REMOVE_COUNTERS (COUNTER_SET (COUNTER_GROUP (NUMBER 1) eon))
                           (SUBSET SELF))
-       (MOVE_TO (SUBSET it) (ZONE_SET (POSS (OWNER IT)) HAND)))
+       (MOVE_TO (SUBSET it) (ZONE_SET HAND (POSS (OWNER IT)))))

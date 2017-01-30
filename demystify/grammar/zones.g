@@ -20,8 +20,9 @@ parser grammar zones;
 
 /* Zones. */
 
-zone_subset : player_poss zone_list -> ^( ZONE_SET player_poss zone_list )
-            | number zone_list -> ^( ZONE_SET number zone_list )
+zone_subset : player_poss zone_list -> ^( ZONE_SET zone_list player_poss )
+            | number OF? player_poss? zone_list
+              -> ^( ZONE_SET number zone_list player_poss? )
             | zone_list -> ^( ZONE_SET ALL zone_list )
             | spec_zone
             ;
@@ -42,7 +43,7 @@ ind_zone : GRAVEYARD -> GRAVEYARD[]
 spec_zone : THE! ( BATTLEFIELD | STACK ) 
             // we pretend the tops and bottoms of libraries are zones
           | THE? ( TOP | BOTTOM ) OF player_poss LIBRARY
-            -> ^( ZONE player_poss LIBRARY TOP? BOTTOM? )
+            -> ^( ZONE LIBRARY TOP? BOTTOM? player_poss )
           ;
 
 // While exile is a zone, cards in it are referred to as exiled cards,
