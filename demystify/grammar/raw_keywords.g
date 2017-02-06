@@ -94,6 +94,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | CONVOKE
                     | DELVE
                     | DETHRONE
+                    | DEVOID
                     | EPIC
                     | EVOLVE
                     | EXALTED
@@ -106,9 +107,14 @@ raw_keyword_no_args : DEATHTOUCH
                     | HAUNT
                     | HIDEAWAY
                     | HORSEMANSHIP
+                    | IMPROVISE
                     | INFECT
+                    | INGEST
                     | LIVING_WEAPON
+                    | MELEE
                     | MENACE
+                    | MYRIAD
+                    | PARTNER
                     | PERSIST
                     | PHASING
                     | PROVOKE
@@ -116,11 +122,13 @@ raw_keyword_no_args : DEATHTOUCH
                     | REBOUND
                     | RETRACE
                     | SHADOW
+                    | SKULK
                     | SOULBOND
                     | SPLIT_SECOND
                     | STORM
                     | SUNBURST
                     | TOTEM_ARMOR
+                    | UNDAUNTED
                     | UNDYING
                     | UNLEASH
                     | WITHER
@@ -134,7 +142,9 @@ raw_keyword_cost : EQUIP
                  | CYCLING
                  | DASH
                  | ECHO
+                 | EMERGE
                  | ENTWINE
+                 | ESCALATE
                  | EVOKE
                  | FLASHBACK
                  | FORTIFY
@@ -151,6 +161,7 @@ raw_keyword_cost : EQUIP
                  | RECOVER
                  | REPLICATE
                  | SCAVENGE
+                 | SURGE
                  | TRANSFIGURE
                  | TRANSMUTE
                  | UNEARTH
@@ -161,8 +172,10 @@ raw_keyword_int : ABSORB
                 | ANNIHILATOR
                 | BLOODTHIRST
                 | BUSHIDO
+                | CREW
                 | DEVOUR
                 | DREDGE
+                | FABRICATE
                 | FADING
                 | FRENZY
                 | GRAFT
@@ -176,7 +189,8 @@ raw_keyword_int : ABSORB
                 | VANISHING
                 ;
 
-raw_keyword_int_cost : REINFORCE
+raw_keyword_int_cost : AWAKEN
+                     | REINFORCE
                      | SUSPEND
                      ;
 
