@@ -73,6 +73,7 @@ restriction : WITH! has_counters
             | chosen_prop
             | not_chosen_prop
             | from_expansion
+            | linked_ref
             ;
 
 // TODO: 'choose a creature type other than wall'. This may go elsewhere.
@@ -106,6 +107,11 @@ expansion : ANTIQUITIES
           | ARABIAN_NIGHTS
           | HOMELANDS
           ;
+
+linked_ref : CHAMPIONED WITH SELF -> ^( LINKED CHAMPION )
+           | EXILED WITH SELF -> ^( LINKED EXILE )
+           | PUT ONTO THE BATTLEFIELD WITH SELF -> ^( LINKED BATTLEFIELD[] )
+           ;
 
 /* Special properties, usually led by 'with', 'that', or 'if it has' */
 

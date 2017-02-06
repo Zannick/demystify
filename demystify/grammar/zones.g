@@ -44,9 +44,11 @@ spec_zone : THE! ( BATTLEFIELD | STACK )
             // we pretend the tops and bottoms of libraries are zones
           | THE? ( TOP | BOTTOM ) OF player_poss LIBRARY
             -> ^( ZONE LIBRARY TOP? BOTTOM? player_poss )
+          | EXILE
           ;
 
 // While exile is a zone, cards in it are referred to as exiled cards,
 // and not cards in exile, hence no zone rules are necessary for it.
+// This is true except that cards may be moved "from exile".
 
 // TODO: Command zone?

@@ -49,6 +49,7 @@ tokens {
     INT;
     KEYWORDS;
     LEQ;
+    LINKED;
     LT;
     MAX;
     MOVE_TO;
