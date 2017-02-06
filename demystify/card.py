@@ -560,7 +560,8 @@ def format_by_name(names, words):
             namelist += words[ll - 1][-2:]
         else:
             namelist += words[ll - 1][-1]
-    namelist += ' ' + ' '.join(words[ll:])
+    if len(words) > ll:
+        namelist += ' ' + ' '.join(words[ll:])
     return namelist
 
 # For testing PARENT detection.
