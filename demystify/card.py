@@ -37,6 +37,9 @@ splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
 name_ref = re.compile(r'named |name is still |transforms into |meld them into ')
+gains = re.compile(r'(SELF|it|\w+) (enters?|gets?|gains?|has|have|loses?|with)'
+                   r'([^.]+, and )?'
+                   r'(gets?|gains?|has|have|loses?|with) "')
 # common, uncommon, rare, mythic, land, special, bonus
 rarities = {'C', 'U', 'R', 'M', 'L', 'S', 'B'}
 
@@ -637,18 +640,27 @@ def preprocess_names(line, selfnames=(), parentnames=()):
         # Granting abilities to oneself vs granting abilities to something
         # else: how do we determine it? So far, all granted abilities are
         # from a) self-granting, b) creating tokens, c) enchanting/equipping.
-        parentwords = ('equipped', 'enchanted', 'fortified', 'create')
+        # d) 'each' effects like Torrent of Lava or Slivers.
+        parentwords = ('equipped', 'enchanted', 'fortified', 'create', 'each')
         i = 0
         t = abil.search(line[i:])
         if t:
             m, _ = t.regs[0]
-            parent = False
-            for w in reversed(preprocess_cardname(line[:m], selfnames)[0].split()):
-                if w.lower() in parentwords:
-                    parent = True
-                    break
-                elif w == 'SELF':
-                    break
+            parent = True
+            # Instead of a greedy reverse search for a related word
+            # split the phrase on "," and " and " and search each segment.
+            segments = preprocess_cardname(line[:m], selfnames)[0].split(', ')
+            segments[-1:] = segments[-1].split(' and ')
+            for segment in reversed(segments):
+                for w in segment.split():
+                    if w in parentwords:
+                        break
+                    elif w == 'SELF':
+                        parent = False
+                        break
+                else:
+                    continue
+                break
         while t:
             m, n = t.regs[0]
             if parent:
@@ -662,7 +674,7 @@ def preprocess_names(line, selfnames=(), parentnames=()):
     # CARDNAME processing occurs after the "named" processing
     line, cardname_change = preprocess_cardname(line, selfnames, parentnames)
     if abil_change:
-        logger.info("Detected cardnames in an ability granted by {}: {}."
+        logger.info("Detected cardnames in an ability granted by {}: {}"
                     .format(selfnames[0], line))
     if change or cardname_change:
         sname = selfnames and selfnames[0] or "?.token"
