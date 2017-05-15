@@ -54,6 +54,7 @@ event : zone_transfer
       | cycle_card
       | deal_damage
       | dealt_damage
+      | dies_damaged
       | discard_card
       | draw_card
       | gain_life
@@ -132,6 +133,9 @@ deal_damage : DEAL integer? damage ( TO subset_list )?
 
 dealt_damage : is_ DEALT integer? damage ( BY subset )?
                -> ^( DEALT[] integer? damage subset? );
+
+dies_damaged : DEALT damage BY subset this_turn DIE
+               -> ^( DIE[] ^( DEALT damage subset ) );
 
 discard_card : DISCARD^ subset ;
 
