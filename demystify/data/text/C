@@ -29,7 +29,7 @@ Cost:   1B
 Type:   Creature — Human Minion
 P/T:    1/1
 S/R:    OD-C
-Threshold — {1}{B}, {T}, Exile two cards from your graveyard: Target player discards a card. Activate this ability only any time you could cast a sorcery, and only if seven or more cards are in your graveyard.
+Threshold — {1}{B}, {T}, Exile two cards from your graveyard: Target player discards a card. Activate this ability only any time you could cast a sorcery and only if seven or more cards are in your graveyard.
 
 Name:   Cabal Interrogator
 Cost:   1B
@@ -83,7 +83,7 @@ Name:   Cabal Therapy
 Cost:   B
 Type:   Sorcery
 S/R:    JUD-U, EMA-U, PD3-U
-Name a nonland card. Target player reveals his or her hand and discards all cards with that name.
+Choose a nonland card name. Target player reveals his or her hand and discards all cards with that name.
 Flashback—Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Cabal Torturer
@@ -117,7 +117,7 @@ Bolster 3. (Choose a creature with the least toughness among creatures you contr
 Name:   Cackling Counterpart
 Cost:   1UU
 Type:   Instant
-S/R:    ISD-R, C14-R
+S/R:    ISD-R, C14-R, MM3-R
 Create a token that's a copy of target creature you control.
 Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -154,7 +154,7 @@ Name:   Cadaver Imp
 Cost:   1BB
 Type:   Creature — Imp
 P/T:    1/1
-S/R:    ROE-C, PC2-C, DDP-C, DDR-C
+S/R:    ROE-C, PC2-C, PCA-C, DDP-C, DDR-C
 Flying
 When Cadaver Imp enters the battlefield, you may return target creature card from your graveyard to your hand.
 
@@ -175,7 +175,7 @@ Flanking (Whenever a creature without flanking blocks this creature, the blockin
 Name:   Cage of Hands
 Cost:   2W
 Type:   Enchantment — Aura
-S/R:    CHK-C, PC2-C, C15-C
+S/R:    CHK-C, PC2-C, C15-C, PCA-C
 Enchant creature
 Enchanted creature can't attack or block.
 {1}{W}: Return Cage of Hands to its owner's hand.
@@ -282,7 +282,7 @@ Creatures you control get +1/+1 for each unity counter on Call for Unity.
 Name:   Call of the Conclave
 Cost:   GW
 Type:   Sorcery
-S/R:    RTR-U
+S/R:    RTR-U, MM3-C
 Create a 3/3 green Centaur creature token.
 
 Name:   Call of the Full Moon
@@ -296,7 +296,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 Name:   Call of the Herd
 Cost:   2G
 Type:   Sorcery
-S/R:    OD-R, TSP-S
+S/R:    OD-R, TSP-S, MM3-R, DDS-R
 Create a 3/3 green Elephant creature token.
 Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -527,7 +527,7 @@ Each player passes the last card from each booster pack to a player who drafted 
 Name:   Cancel
 Cost:   1UU
 Type:   Instant
-S/R:    TSP-C, 10E-C, ALA-C, M10-C, ZEN-C, M11-C, M12-C, PC2-C, RTR-C, M14-C, M15-C, KTK-C
+S/R:    TSP-C, 10E-C, ALA-C, M10-C, ZEN-C, M11-C, M12-C, PC2-C, RTR-C, M14-C, M15-C, KTK-C, PCA-C, AKH-C
 Counter target spell.
 
 Name:   Candelabra of Tawnos
@@ -653,6 +653,13 @@ Cost:   3R
 Type:   Creature — Minotaur Warrior
 P/T:    3/3
 S/R:    CON-C, M10-C, M11-C, M13-C, M14-C
+
+Name:   Canyon Slough
+Type:   Land — Swamp Mountain
+S/R:    AKH-R
+({T}: Add {B} or {R} to your mana pool.)
+Canyon Slough enters the battlefield tapped.
+Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Canyon Wildcat
 Cost:   1R
@@ -906,7 +913,7 @@ Name:   Carnage Gladiator
 Cost:   2BR
 Type:   Creature — Skeleton Warrior
 P/T:    4/2
-S/R:    DGM-U, CN2-U
+S/R:    DGM-U, CN2-U, MM3-U
 Whenever a creature blocks, that creature's controller loses 1 life.
 {1}{B}{R}: Regenerate Carnage Gladiator.
 
@@ -1106,6 +1113,46 @@ P/T:    2/2
 S/R:    EX-U, OD-C
 When Cartographer enters the battlefield, you may return target land card from your graveyard to your hand.
 
+Name:   Cartouche of Ambition
+Cost:   2B
+Type:   Enchantment — Aura Cartouche
+S/R:    AKH-C
+Enchant creature you control
+When Cartouche of Ambition enters the battlefield, you may put a -1/-1 counter on target creature.
+Enchanted creature gets +1/+1 and has lifelink.
+
+Name:   Cartouche of Knowledge
+Cost:   1U
+Type:   Enchantment — Aura Cartouche
+S/R:    AKH-C
+Enchant creature you control
+When Cartouche of Knowledge enters the battlefield, draw a card.
+Enchanted creature gets +1/+1 and has flying.
+
+Name:   Cartouche of Solidarity
+Cost:   W
+Type:   Enchantment — Aura Cartouche
+S/R:    AKH-C
+Enchant creature you control
+When Cartouche of Solidarity enters the battlefield, create a 1/1 white Warrior creature token with vigilance.
+Enchanted creature gets +1/+1 and has first strike.
+
+Name:   Cartouche of Strength
+Cost:   2G
+Type:   Enchantment — Aura Cartouche
+S/R:    AKH-C
+Enchant creature you control
+When Cartouche of Strength enters the battlefield, you may have enchanted creature fight target creature an opponent controls. (Each deals damage equal to its power to the other.)
+Enchanted creature gets +1/+1 and has trample.
+
+Name:   Cartouche of Zeal
+Cost:   R
+Type:   Enchantment — Aura Cartouche
+S/R:    AKH-C
+Enchant creature you control
+When Cartouche of Zeal enters the battlefield, target creature can't block this turn.
+Enchanted creature gets +1/+1 and has haste.
+
 Name:   Carven Caryatid
 Cost:   1GG
 Type:   Creature — Spirit
@@ -1119,6 +1166,21 @@ Type:   Land
 S/R:    EVE-R, EXP-M
 {T}: Add {C} to your mana pool.
 {(u/r)}, {T}: Add {U}{U}, {U}{R}, or {R}{R} to your mana pool.
+
+Name:   Cascading Cataracts
+Type:   Land
+S/R:    AKH-R
+Indestructible
+{T}: Add {C} to your mana pool.
+{5}, {T}: Add five mana in any combination of colors to your mana pool.
+
+Name:   Cast Out
+Cost:   3W
+Type:   Enchantment
+S/R:    AKH-U
+Flash
+When Cast Out enters the battlefield, exile target nonland permanent an opponent controls until Cast Out leaves the battlefield.
+Cycling {W} ({W}, Discard this card: Draw a card.)
 
 Name:   Cast Through Time
 Cost:   4UUU
@@ -1191,7 +1253,7 @@ Name:   Cataclysmic Gearhulk
 Cost:   3WW
 Type:   Artifact Creature — Construct
 P/T:    4/5
-S/R:    KLD-M, MPS-S
+S/R:    KLD-M, MPS_KLD-S
 Vigilance
 When Cataclysmic Gearhulk enters the battlefield, each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents he or she controls, then sacrifices the rest.
 
@@ -1545,7 +1607,7 @@ S/R:    ALA-C
 
 Name:   Cavern of Souls
 Type:   Land
-S/R:    AVR-R
+S/R:    AVR-R, MM3-M
 As Cavern of Souls enters the battlefield, choose a creature type.
 {T}: Add {C} to your mana pool.
 {T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.
@@ -1581,7 +1643,7 @@ Name:   Celestial Ancient
 Cost:   3WW
 Type:   Creature — Elemental
 P/T:    3/3
-S/R:    DIS-R, PC2-R, C15-R
+S/R:    DIS-R, PC2-R, C15-R, PCA-R
 Flying
 Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you control.
 
@@ -1738,6 +1800,13 @@ S/R:    MOR-U
 {W}, {T}: Put a +1/+1 counter on target Soldier creature.
 Each creature you control with a +1/+1 counter on it can block an additional creature each combat.
 
+Name:   Censor
+Cost:   1U
+Type:   Instant
+S/R:    AKH-U
+Counter target spell unless its controller pays {1}.
+Cycling {U} ({U}, Discard this card: Draw a card.)
+
 Name:   Centaur Archer
 Cost:   1RG
 Type:   Creature — Centaur Archer
@@ -1782,7 +1851,7 @@ Name:   Centaur Healer
 Cost:   1GW
 Type:   Creature — Centaur Cleric
 P/T:    3/3
-S/R:    RTR-C
+S/R:    RTR-C, MM3-C
 When Centaur Healer enters the battlefield, you gain 3 life.
 
 Name:   Centaur Omenreader
@@ -1863,7 +1932,7 @@ Cost:   1UU
 Type:   Creature — Cephalid Wizard
 P/T:    1/1
 S/R:    JUD-R, 10E-R
-Whenever Cephalid Constable deals combat damage to a player, return up to that many target permanents that player controls to their owners' hands.
+Whenever Cephalid Constable deals combat damage to a player, return up to that many target permanents that player controls to their owner's hand.
 
 Name:   Cephalid Illusionist
 Cost:   1U
@@ -1972,7 +2041,7 @@ Vigilance, haste
 Name:   Certain Death
 Cost:   5B
 Type:   Sorcery
-S/R:    EMN-C
+S/R:    EMN-C, W17-C
 Destroy target creature. Its controller loses 2 life and you gain 2 life.
 
 Name:   Cerulean Sphinx
@@ -2031,7 +2100,7 @@ If Cetavolver was kicked with its {G} kicker, it enters the battlefield with a +
 Name:   Chain Lightning
 Cost:   R
 Type:   Sorcery
-S/R:    LE-C, EMA-U, VMA-C, ME3-C, PD2-C
+S/R:    LE-C, EMA-U, MPS_AKH-S, VMA-C, ME3-C, PD2-C
 Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.
 
 Name:   Chain Reaction
@@ -2147,7 +2216,7 @@ S/R:    DKA-U
 Name:   Chalice of the Void
 Cost:   XX
 Type:   Artifact
-S/R:    MRD-R, MMA-R, MPS-S
+S/R:    MRD-R, MMA-R, MPS_KLD-S
 Chalice of the Void enters the battlefield with X charge counters on it.
 Whenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.
 
@@ -2210,6 +2279,13 @@ S/R:    AVR-R, C16-R
 Creatures with power less than Champion of Lambholt's power can't block creatures you control.
 Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Champion of Lambholt.
 
+Name:   Champion of Rhonas
+Cost:   3G
+Type:   Creature — Jackal Warrior
+P/T:    3/3
+S/R:    AKH-R
+You may exert Champion of Rhonas as it attacks. When you do, you may put a creature card from your hand onto the battlefield. (An exerted creature won't untap during your next untap step.)
+
 Name:   Champion of Stray Souls
 Cost:   4BB
 Type:   Creature — Skeleton Warrior
@@ -2236,7 +2312,7 @@ Champion's Drake gets +3/+3 as long as you control a creature with three or more
 Name:   Champion's Helm
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    CMD-R, MPS-S
+S/R:    CMD-R, MPS_KLD-S
 Equipped creature gets +2/+2.
 As long as equipped creature is legendary, it has hexproof. (It can't be the target of spells or abilities your opponents control.)
 Equip {1}
@@ -2336,7 +2412,7 @@ Target creature you control deals damage equal to its power to each other creatu
 Name:   Chandra's Outrage
 Cost:   2RR
 Type:   Instant
-S/R:    ARC-C, M11-C, M12-C, M14-C
+S/R:    ARC-C, M11-C, M12-C, M14-C, MM3-C
 Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.
 
 Name:   Chandra's Phoenix
@@ -2492,6 +2568,14 @@ Cost:   3G
 Type:   Sorcery
 S/R:    5DN-U
 Add {W}{U}{B}{R}{G} to your mana pool.
+
+Name:   Channeler Initiate
+Cost:   1G
+Type:   Creature — Human Druid
+P/T:    3/4
+S/R:    AKH-R
+When Channeler Initiate enters the battlefield, put three -1/-1 counters on target creature you control.
+{T}, Remove a -1/-1 counter from Channeler Initiate: Add one mana of any color to your mana pool.
 
 Name:   Chant of Vitu-Ghazi
 Cost:   6WW
@@ -3193,7 +3277,7 @@ Prevent all damage that would be dealt to enchanted creature by sources of the l
 Name:   Chromatic Lantern
 Cost:   3
 Type:   Artifact
-S/R:    RTR-R, MPS-S, C16-R
+S/R:    RTR-R, MPS_KLD-S, C16-R
 Lands you control have "{T}: Add one mana of any color to your mana pool."
 {T}: Add one mana of any color to your mana pool.
 
@@ -3213,7 +3297,7 @@ When Chromatic Star is put into a graveyard from the battlefield, draw a card.
 Name:   Chrome Mox
 Cost:   0
 Type:   Artifact
-S/R:    MRD-R, EMA-M, MPS-S
+S/R:    MRD-R, EMA-M, MPS_KLD-S
 Imprint — When Chrome Mox enters the battlefield, you may exile a nonartifact, nonland card from your hand.
 {T}: Add one mana of any of the exiled card's colors to your mana pool.
 
@@ -3330,7 +3414,7 @@ Return target creature and target land to their owners' hands.
 
 Name:   Cinder Barrens
 Type:   Land
-S/R:    OGW-U
+S/R:    OGW-U, AKH-C
 Cinder Barrens enters the battlefield tapped.
 {T}: Add {B} or {R} to your mana pool.
 
@@ -3526,7 +3610,7 @@ P/T:    2/3
 S/R:    RAV-R
 Whenever you cast a blue spell, exile the top card of target library.
 Whenever you cast a black spell, exile the top card of target library.
-Your opponents can't cast nonland cards with the same name as a card exiled with Circu, Dimir Lobotomist.
+Your opponents can't cast spells with the same name as a card exiled with Circu, Dimir Lobotomist.
 
 Name:   Circular Logic
 Cost:   2U
@@ -3597,8 +3681,8 @@ Name:   City in a Bottle
 Cost:   2
 Type:   Artifact
 S/R:    AN-R, VMA-M
-Whenever a nontoken permanent originally printed in the Arabian Nights expansion other than City in a Bottle is on the battlefield, its controller sacrifices it.
-Players can't play cards originally printed in the Arabian Nights expansion.
+Whenever another nontoken permanent with a name originally printed in the Arabian Nights expansion is on the battlefield, its controller sacrifices it.
+Players can't cast spells or play lands with a name originally printed in the Arabian Nights expansion.
 
 Name:   City of Brass
 Type:   Land
@@ -4214,7 +4298,7 @@ Name:   Cloudcrown Oak
 Cost:   2GG
 Type:   Creature — Treefolk Warrior
 P/T:    3/4
-S/R:    LRW-C
+S/R:    LRW-C, DDS-C
 Reach (This creature can block creatures with flying.)
 
 Name:   Cloudfin Raptor
@@ -4294,7 +4378,7 @@ Fading 3 (This creature enters the battlefield with three fade counters on it. A
 Name:   Cloudstone Curio
 Cost:   3
 Type:   Artifact
-S/R:    RAV-R, MPS-S
+S/R:    RAV-R, MPS_KLD-S
 Whenever a nonartifact permanent enters the battlefield under your control, you may return another permanent you control that shares a permanent type with it to its owner's hand.
 
 Name:   Cloudthresher
@@ -4458,7 +4542,7 @@ Flying
 Name:   Coat of Arms
 Cost:   5
 Type:   Artifact
-S/R:    EX-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R, H09-R
+S/R:    EX-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R, DDS-R, H09-R
 Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it. (For example, if two Goblin Warriors and a Goblin Shaman are on the battlefield, each gets +2/+2.)
 
 Name:   Coat with Venom
@@ -4631,7 +4715,7 @@ Name:   Coiling Oracle
 Cost:   GU
 Type:   Creature — Snake Elf Druid
 P/T:    1/1
-S/R:    DIS-C, C15-C, CN2-U, C16-C, DDO-C
+S/R:    DIS-C, C15-C, CN2-U, C16-C, MM3-C, DDO-C
 When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.
 
 Name:   Coiling Woodworm
@@ -4797,6 +4881,12 @@ S/R:    M14-R
 Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 Whenever Colossal Whale attacks, you may exile target creature defending player controls until Colossal Whale leaves the battlefield. (That creature returns under its owner's control.)
 
+Name:   Colossapede
+Cost:   4G
+Type:   Creature — Insect
+P/T:    5/5
+S/R:    AKH-C
+
 Name:   Colossodon Yearling
 Cost:   2G
 Type:   Creature — Beast
@@ -4828,6 +4918,13 @@ S/R:    ALA-C
 Enchant artifact or creature
 Enchanted permanent doesn't untap during its controller's untap step.
 
+Name:   Combat Celebrant
+Cost:   2R
+Type:   Creature — Human Warrior
+P/T:    4/1
+S/R:    AKH-M
+If Combat Celebrant hasn't been exerted this turn, you may exert it as it attacks. When you do, untap all other creatures you control and after this phase, there is an additional combat phase. (An exerted creature won't untap during your next untap step.)
+
 Name:   Combat Medic
 Cost:   2W
 Type:   Creature — Human Cleric Soldier
@@ -4846,7 +4943,7 @@ Name:   Combustible Gearhulk
 Cost:   4RR
 Type:   Artifact Creature — Construct
 P/T:    6/6
-S/R:    KLD-M, MPS-S
+S/R:    KLD-M, MPS_KLD-S
 First strike
 When Combustible Gearhulk enters the battlefield, target opponent may have you draw three cards. If the player doesn't, put the top three cards of your library into your graveyard, then Combustible Gearhulk deals damage to that player equal to the total converted mana cost of those cards.
 
@@ -4929,6 +5026,14 @@ Type:   Instant
 S/R:    KLD-C
 Prevent all combat damage that would be dealt to players this turn.
 
+Name:   Commit
+Cost:   3U
+Type:   Instant
+M-type: Split
+M-card: Memory
+S/R:    AKH-R
+Put target spell or nonland permanent into its owner's library second from the top.
+
 Name:   Common Bond
 Cost:   1GW
 Type:   Instant
@@ -4960,12 +5065,27 @@ Type:   Sorcery
 S/R:    THS-C, EMA-C
 Reveal the top five cards of your library. You may put a creature or enchantment card from among them into your hand. Put the rest into your graveyard.
 
+Name:   Companion of the Trials
+Cost:   2W
+Type:   Creature — Bird Soldier
+P/T:    2/2
+S/R:    AKH-U
+Flying
+{1}{W}: Untap target creature. Activate this ability only if you control a Gideon planeswalker.
+
 Name:   Comparative Analysis
 Cost:   3U
 Type:   Instant
 S/R:    OGW-C
 Surge {2}{U} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
 Target player draws two cards.
+
+Name:   Compelling Argument
+Cost:   1U
+Type:   Sorcery
+S/R:    AKH-C
+Target player puts the top five cards of his or her library into his or her graveyard.
+Cycling {U} ({U}, Discard this card: Draw a card.)
 
 Name:   Compelling Deterrence
 Cost:   1U
@@ -4995,6 +5115,15 @@ Counter target spell unless its controller pays {3}.
 Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)
 When you cycle Complicate, you may counter target spell unless its controller pays {1}.
 
+Name:   Comply
+Cost:   W
+Type:   Sorcery
+M-type: Split
+M-card: Failure
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Choose a card name. Until your next turn, your opponents can't cast spells with the chosen name.
+
 Name:   Composite Golem
 Cost:   6
 Type:   Artifact Creature — Golem
@@ -5018,8 +5147,16 @@ S/R:    TOR-U
 Name:   Compulsive Research
 Cost:   2U
 Type:   Sorcery
-S/R:    RAV-C, CNS-C, C14-C
+S/R:    RAV-C, CNS-C, C14-C, MM3-U
 Target player draws three cards. Then that player discards two cards unless he or she discards a land card.
+
+Name:   Compulsory Rest
+Cost:   1W
+Type:   Enchantment — Aura
+S/R:    AKH-C
+Enchant creature
+Enchanted creature can't attack or block.
+Enchanted creature has "{2}, Sacrifice this creature: You gain 2 life."
 
 Name:   Concealed Courtyard
 Type:   Land
@@ -5030,7 +5167,7 @@ Concealed Courtyard enters the battlefield tapped unless you control two or fewe
 Name:   Concentrate
 Cost:   2UU
 Type:   Sorcery
-S/R:    OD-U, 8ED-U, PC2-U, C14-U
+S/R:    OD-U, 8ED-U, PC2-U, C14-U, PCA-U
 Draw three cards.
 
 Name:   Concerted Effort
@@ -5228,7 +5365,7 @@ Name:   Conjurer's Ban
 Cost:   WB
 Type:   Sorcery
 S/R:    GPT-U
-Name a card. Until your next turn, the named card can't be played.
+Choose a card name. Until your next turn, spells with the chosen name can't be cast and lands with the chosen name can't be played.
 Draw a card.
 
 Name:   Conjurer's Bauble
@@ -5284,7 +5421,7 @@ Name:   Consecrated Sphinx
 Cost:   4UU
 Type:   Creature — Sphinx
 P/T:    4/6
-S/R:    MBS-M
+S/R:    MBS-M, MPS_AKH-S
 Flying
 Whenever an opponent draws a card, you may draw two cards.
 
@@ -5445,6 +5582,13 @@ Enchant non-Wall creature
 Enchanted creature gets +1/+0.
 At the beginning of your upkeep, put a +1/+0 counter on enchanted creature. If that creature has three or more +1/+0 counters on it, it deals damage equal to its power to its controller, then destroy that creature and it can't be regenerated.
 
+Name:   Consuming Fervor
+Cost:   R
+Type:   Enchantment — Aura
+S/R:    AKH-U
+Enchant creature
+Enchanted creature gets +3/+3 and has "At the beginning of your upkeep, put a -1/-1 counter on this creature."
+
 Name:   Consuming Sinkhole
 Cost:   3R
 Type:   Instant
@@ -5515,7 +5659,7 @@ Name:   Containment Priest
 Cost:   1W
 Type:   Creature — Human Cleric
 P/T:    2/2
-S/R:    C14-R
+S/R:    C14-R, MPS_AKH-S
 Flash
 If a nontoken creature would enter the battlefield and it wasn't cast, exile it instead.
 
@@ -5621,7 +5765,7 @@ Type:   Creature — Sphinx
 P/T:    4/4
 S/R:    M11-R, CMD-R
 Flying
-Whenever Conundrum Sphinx attacks, each player names a card. Then each player reveals the top card of his or her library. If the card a player revealed is the card he or she named, that player puts it into his or her hand. If it's not, that player puts it on the bottom of his or her library.
+Whenever Conundrum Sphinx attacks, each player chooses a card name. Then each player reveals the top card of his or her library. If the card a player revealed has the name he or she chose, that player puts it into his or her hand. If it doesn't, that player puts it on the bottom of his or her library.
 
 Name:   Convalescence
 Cost:   1W
@@ -5812,7 +5956,7 @@ Name:   Coral Merfolk
 Cost:   1U
 Type:   Creature — Merfolk
 P/T:    2/1
-S/R:    US-C, 7E-C, M10-C, M12-C, M14-C
+S/R:    US-C, 7E-C, M10-C, M12-C, M14-C, W17-C
 
 Name:   Coral Net
 Cost:   U
@@ -5902,7 +6046,7 @@ Name:   Corpse Connoisseur
 Cost:   4B
 Type:   Creature — Zombie Wizard
 P/T:    3/3
-S/R:    ALA-U, ARC-U, DDK-U
+S/R:    ALA-U, ARC-U, MM3-U, DDK-U
 When Corpse Connoisseur enters the battlefield, you may search your library for a creature card and put that card into your graveyard. If you do, shuffle your library.
 Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
@@ -5960,7 +6104,7 @@ Cost:   2BG
 Type:   Creature — Fungus
 P/T:    4/4
 S/R:    RTR-R, C16-R
-If one or more +1/+1 counters would be placed on a creature you control, twice that many +1/+1 counters are placed on it instead.
+If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on it instead.
 
 Name:   Corpseweft
 Cost:   2B
@@ -6132,8 +6276,8 @@ Cost:   2WU
 Type:   Creature — Human Advisor
 P/T:    2/4
 S/R:    DGM-M
-As Council of the Absolute enters the battlefield, name a card other than a creature or land card.
-Your opponents can't cast cards with the chosen name.
+As Council of the Absolute enters the battlefield, choose a noncreature, nonland card name.
+Your opponents can't cast spells with the chosen name.
 Spells with the chosen name you cast cost {2} less to cast.
 
 Name:   Council's Judgment
@@ -6151,7 +6295,7 @@ Draw two cards.
 Name:   Counterbalance
 Cost:   UU
 Type:   Enchantment
-S/R:    CSP-U
+S/R:    CSP-U, MPS_AKH-S
 Whenever an opponent casts a spell, you may reveal the top card of your library. If you do, counter that spell if it has the same converted mana cost as the revealed card.
 
 Name:   Counterbore
@@ -6189,7 +6333,7 @@ Counter target spell. Its controller puts the top four cards of his or her libra
 Name:   Counterspell
 Cost:   UU
 Type:   Instant
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, IA-C, 5E-C, TE-C, 6E-C, S99-U, MM-C, S00-C, 7E-C, EMA-C, VMA-C, DD2-C, ME2-U, ME4-C
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, IA-C, 5E-C, TE-C, 6E-C, S99-U, MM-C, S00-C, 7E-C, EMA-C, MPS_AKH-S, VMA-C, DD2-C, ME2-U, ME4-C
 Counter target spell.
 
 Name:   Countersquall
@@ -6362,7 +6506,7 @@ Enchanted creature can't attack or block unless its controller pays {1} for each
 Name:   Cower in Fear
 Cost:   1BB
 Type:   Instant
-S/R:    M13-U
+S/R:    M13-U, MM3-C
 Creatures your opponents control get -1/-1 until end of turn.
 
 Name:   Cowl Prowler
@@ -6454,6 +6598,12 @@ Type:   Enchantment
 S/R:    ALA-R, C13-R
 Whenever you gain life, you may pay {1}{W}. If you do, put a +1/+1 counter on target creature for each 1 life you gained.
 
+Name:   Cradle of the Accursed
+Type:   Land — Desert
+S/R:    AKH-C
+{T}: Add {C} to your mana pool.
+{3}, {T}, Sacrifice Cradle of the Accursed: Create a 2/2 black Zombie creature token. Activate this ability only any time you could cast a sorcery.
+
 Name:   Cradle to Grave
 Cost:   1B
 Type:   Instant
@@ -6498,7 +6648,7 @@ Name:   Cranial Extraction
 Cost:   3B
 Type:   Sorcery — Arcane
 S/R:    CHK-R
-Name a nonland card. Search target player's graveyard, hand, and library for all cards with that name and exile them. Then that player shuffles his or her library.
+Choose a nonland card name. Search target player's graveyard, hand, and library for all cards with that name and exile them. Then that player shuffles his or her library.
 
 Name:   Cranial Plating
 Cost:   2
@@ -6570,7 +6720,7 @@ Name:   Craterhoof Behemoth
 Cost:   5GGG
 Type:   Creature — Beast
 P/T:    5/5
-S/R:    AVR-M
+S/R:    AVR-M, MM3-M
 Haste
 When Craterhoof Behemoth enters the battlefield, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.
 
@@ -6863,7 +7013,7 @@ Enchanted creature gets -1/-1 and can't block.
 Name:   Crippling Chill
 Cost:   2U
 Type:   Instant
-S/R:    AVR-C, KTK-C
+S/R:    AVR-C, KTK-C, MM3-C
 Tap target creature. It doesn't untap during its controller's next untap step.
 Draw a card.
 
@@ -6881,6 +7031,14 @@ P/T:    1/3
 S/R:    GTC-C
 Reach (This creature can block creatures with flying.)
 Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
+
+Name:   Crocodile of the Crossing
+Cost:   3G
+Type:   Creature — Crocodile
+P/T:    5/4
+S/R:    AKH-U
+Haste
+When Crocodile of the Crossing enters the battlefield, put a -1/-1 counter on target creature you control.
 
 Name:   Cromat
 Cost:   WUBRG
@@ -7157,7 +7315,7 @@ Dragon creatures you control get +3/+3.
 Name:   Crucible of Worlds
 Cost:   3
 Type:   Artifact
-S/R:    5DN-R, 10E-R, MPS-S
+S/R:    5DN-R, 10E-R, MPS_KLD-S
 You may play land cards from your graveyard.
 
 Name:   Crucible of the Spirit Dragon
@@ -7220,6 +7378,13 @@ Type:   Instant
 S/R:    AeR-C
 Target creature gets -2/-2 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 
+Name:   Cruel Reality
+Cost:   5BB
+Type:   Enchantment — Aura Curse
+S/R:    AKH-M
+Enchant player
+At the beginning of enchanted player's upkeep, that player sacrifices a creature or planeswalker. If the player can't, he or she loses 5 life.
+
 Name:   Cruel Revival
 Cost:   4B
 Type:   Instant
@@ -7243,7 +7408,7 @@ Search your library for a card, then shuffle your library and put that card on t
 Name:   Cruel Ultimatum
 Cost:   UUBBBRR
 Type:   Sorcery
-S/R:    ALA-R, C13-R, DDH-R, V13-M
+S/R:    ALA-R, C13-R, MM3-R, DDH-R, V13-M
 Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life.
 
 Name:   Crumble
@@ -7275,7 +7440,7 @@ When Crumbling Colossus attacks, sacrifice it at end of combat.
 
 Name:   Crumbling Necropolis
 Type:   Land
-S/R:    ALA-U, C13-U, C16-U, DDH-U
+S/R:    ALA-U, C13-U, C16-U, MM3-U, DDH-U
 Crumbling Necropolis enters the battlefield tapped.
 {T}: Add {U}, {B}, or {R} to your mana pool.
 
@@ -7489,7 +7654,7 @@ When Cryptic Annelid enters the battlefield, scry 1, then scry 2, then scry 3. (
 Name:   Cryptic Command
 Cost:   1UUU
 Type:   Instant
-S/R:    LRW-R, MMA-R, MM2-R
+S/R:    LRW-R, MMA-R, MM2-R, MPS_AKH-S
 Choose two —
 • Counter target spell.
 • Return target permanent to its owner's hand.
@@ -7509,6 +7674,13 @@ Cost:   5
 Type:   Artifact
 S/R:    ONS-R
 Tap two untapped creatures you control: You may put a creature card from your hand that shares a creature type with each creature tapped this way onto the battlefield.
+
+Name:   Cryptic Serpent
+Cost:   5UU
+Type:   Creature — Serpent
+P/T:    6/5
+S/R:    AKH-U
+Cryptic Serpent costs {1} less to cast for each instant and sorcery card in your graveyard.
 
 Name:   Cryptolith Fragment
 Cost:   3
@@ -7701,7 +7873,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Cultivate
 Cost:   2G
 Type:   Sorcery
-S/R:    M11-C, CMD-C, PC2-C, C13-C, C16-C
+S/R:    M11-C, CMD-C, PC2-C, C13-C, C16-C, PCA-C
 Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.
 
 Name:   Cultivator Drone
@@ -7814,6 +7986,15 @@ Type:   Creature — Human Wizard
 P/T:    1/3
 S/R:    AN-C, CH-C, MED-C
 {T}: Cuombajj Witches deals 1 damage to target creature or player and 1 damage to target creature or player of an opponent's choice.
+
+Name:   Curator of Mysteries
+Cost:   2UU
+Type:   Creature — Sphinx
+P/T:    4/4
+S/R:    AKH-R
+Flying
+Whenever you cycle or discard another card, scry 1.
+Cycling {U} ({U}, Discard this card: Draw a card.)
 
 Name:   Curfew
 Cost:   U
@@ -8033,6 +8214,13 @@ S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U
 Enchant land
 At the beginning of the upkeep of enchanted land's controller, Cursed Land deals 1 damage to that player.
 
+Name:   Cursed Minotaur
+Cost:   2B
+Type:   Creature — Zombie Minotaur
+P/T:    3/2
+S/R:    AKH-C
+Menace (This creature can't be blocked except by two or more creatures.)
+
 Name:   Cursed Monstrosity
 Cost:   4B
 Type:   Creature — Horror
@@ -8060,7 +8248,7 @@ Name:   Cursed Scroll
 Cost:   1
 Type:   Artifact
 S/R:    TE-R, VMA-R
-{3}, {T}: Name a card. Reveal a card at random from your hand. If it's the named card, Cursed Scroll deals 2 damage to target creature or player.
+{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Cursed Scroll deals 2 damage to target creature or player.
 
 Name:   Cursed Totem
 Cost:   2
@@ -8144,6 +8332,14 @@ Type:   Enchantment
 S/R:    MM-U
 Whenever you cast a creature spell, you may pay {1}. If you do, draw a card, then discard a card.
 
+Name:   Cut
+Cost:   1R
+Type:   Sorcery
+M-type: Split
+M-card: Ribbons
+S/R:    AKH-R
+Cut deals 4 damage to target creature.
+
 Name:   Cut the Earthly Bond
 Cost:   U
 Type:   Instant — Arcane
@@ -8199,7 +8395,7 @@ When Cyclone Sire dies, you may put three +1/+1 counters on target land you cont
 Name:   Cyclonic Rift
 Cost:   1U
 Type:   Instant
-S/R:    RTR-R, C14-R
+S/R:    RTR-R, C14-R, MM3-R
 Return target nonland permanent you don't control to its owner's hand.
 Overload {6}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
 

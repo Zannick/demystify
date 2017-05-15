@@ -202,12 +202,20 @@ Type:   Instant
 S/R:    KLD-C
 Counter target spell. Draw a card, then discard a card.
 
+Name:   Failure
+Cost:   1U
+Type:   Instant
+M-type: Split
+M-card: Comply
+S/R:    AKH-R
+Return target spell to its owner's hand.
+
 Name:   Fairgrounds Trumpeter
 Cost:   2G
 Type:   Creature — Elephant
 P/T:    2/2
 S/R:    KLD-U
-At the beginning of each end step, if a +1/+1 counter was placed on a permanent under your control this turn, put a +1/+1 counter on Fairgrounds Trumpeter.
+At the beginning of each end step, if a +1/+1 counter was put on a permanent under your control this turn, put a +1/+1 counter on Fairgrounds Trumpeter.
 
 Name:   Fairgrounds Warden
 Cost:   2W
@@ -230,6 +238,12 @@ S/R:    EMN-U
 Enchant creature you control
 When Faith Unbroken enters the battlefield, exile target creature an opponent controls until Faith Unbroken leaves the battlefield.
 Enchanted creature gets +2/+2.
+
+Name:   Faith of the Devoted
+Cost:   2B
+Type:   Enchantment
+S/R:    AKH-U
+Whenever you cycle or discard a card, you may pay {1}. If you do, each opponent loses 2 life and you gain 2 life.
 
 Name:   Faith's Fetters
 Cost:   3W
@@ -280,7 +294,7 @@ Name:   Falkenrath Aristocrat
 Cost:   2BR
 Type:   Creature — Vampire
 P/T:    4/1
-S/R:    DKA-M
+S/R:    DKA-M, MM3-R
 Flying, haste
 Sacrifice a creature: Falkenrath Aristocrat gains indestructible until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on Falkenrath Aristocrat.
 
@@ -311,7 +325,7 @@ Name:   Falkenrath Noble
 Cost:   3B
 Type:   Creature — Vampire
 P/T:    2/2
-S/R:    ISD-U, DDQ-U
+S/R:    ISD-U, MM3-C, DDQ-U
 Flying
 Whenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life.
 
@@ -319,7 +333,7 @@ Name:   Falkenrath Reaver
 Cost:   1R
 Type:   Creature — Vampire
 P/T:    2/2
-S/R:    EMN-C
+S/R:    EMN-C, W17-C
 
 Name:   Falkenrath Torturer
 Cost:   2B
@@ -501,7 +515,7 @@ Each creature you control can't be blocked by more than one creature.
 Name:   Familiar's Ruse
 Cost:   UU
 Type:   Instant
-S/R:    LRW-U
+S/R:    LRW-U, MM3-U
 As an additional cost to cast Familiar's Ruse, return a creature you control to its owner's hand.
 Counter target spell.
 
@@ -518,6 +532,13 @@ P/T:    3/2
 S/R:    OD-U
 {1}{B}, Sacrifice Famished Ghoul: Exile up to two target cards from a single graveyard.
 
+Name:   Fan Bearer
+Cost:   W
+Type:   Creature — Zombie
+P/T:    1/2
+S/R:    AKH-C
+{2}, {T}: Tap target creature.
+
 Name:   Fanatic of Mogis
 Cost:   3R
 Type:   Creature — Minotaur Shaman
@@ -531,7 +552,7 @@ Type:   Creature — Centaur Warrior
 P/T:    3/3
 S/R:    BNG-U
 Trample
-Tribute 1 (As this creature enters the battlefield, an opponent of your choice may place a +1/+1 counter on it.)
+Tribute 1 (As this creature enters the battlefield, an opponent of your choice may put a +1/+1 counter on it.)
 When Fanatic of Xenagos enters the battlefield, if tribute wasn't paid, it gets +1/+1 and gains haste until end of turn.
 
 Name:   Fanatical Devotion
@@ -678,7 +699,7 @@ Search your library for a Plains, Island, Swamp, or Mountain card and put it ont
 Name:   Farsight Mask
 Cost:   5
 Type:   Artifact
-S/R:    MRD-U, PC2-U
+S/R:    MRD-U, PC2-U, PCA-U
 Whenever a source an opponent controls deals damage to you, if Farsight Mask is untapped, you may draw a card.
 
 Name:   Fascination
@@ -846,7 +867,7 @@ Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    GTC-R, C16-R
 Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)
-Whenever a +1/+1 counter is placed on Fathom Mage, you may draw a card.
+Whenever a +1/+1 counter is put on Fathom Mage, you may draw a card.
 
 Name:   Fathom Seer
 Cost:   1U
@@ -1025,6 +1046,15 @@ Flash (You may cast this spell any time you could cast an instant.)
 Enchant creature
 Enchanted creature gets -2/-1.
 
+Name:   Feed
+Cost:   3G
+Type:   Sorcery
+M-type: Split
+M-card: Mouth
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Draw a card for each creature you control with power 3 or greater.
+
 Name:   Feed the Clan
 Cost:   1G
 Type:   Instant
@@ -1136,7 +1166,7 @@ At the beginning of your upkeep, if you have 40 or more life, you win the game.
 Name:   Felidar Umbra
 Cost:   1W
 Type:   Enchantment — Aura
-S/R:    PC2-U
+S/R:    PC2-U, PCA-U
 Enchant creature
 Enchanted creature has lifelink.
 {1}{W}: Attach Felidar Umbra to target creature you control.
@@ -1474,6 +1504,13 @@ S/R:    FUT-U
 Creatures your opponents control get -1/-1 until end of turn. Exile Festering March with three time counters on it.
 Suspend 3—{2}{B} (Rather than cast this card from your hand, you may pay {2}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 
+Name:   Festering Mummy
+Cost:   B
+Type:   Creature — Zombie
+P/T:    1/1
+S/R:    AKH-C
+When Festering Mummy dies, you may put a -1/-1 counter on target creature.
+
 Name:   Festering Newt
 Cost:   B
 Type:   Creature — Salamander
@@ -1529,6 +1566,13 @@ P/T:    1/2
 S/R:    ORI-C, DDR-C
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 {B}: Fetid Imp gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
+
+Name:   Fetid Pools
+Type:   Land — Island Swamp
+S/R:    AKH-R
+({T}: Add {U} or {B} to your mana pool.)
+Fetid Pools enters the battlefield tapped.
+Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Fettergeist
 Cost:   2U
@@ -1687,7 +1731,7 @@ When Fierce Empath enters the battlefield, you may search your library for a cre
 Name:   Fierce Invocation
 Cost:   4R
 Type:   Sorcery
-S/R:    FRF-C
+S/R:    FRF-C, FRF_UGIN-C
 Manifest the top card of your library, then put two +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 
 Name:   Fiery Bombardment
@@ -1699,7 +1743,7 @@ Chroma — {2}, Sacrifice a creature: Fiery Bombardment deals damage to target c
 Name:   Fiery Conclusion
 Cost:   1R
 Type:   Instant
-S/R:    RAV-C, PC2-C, ORI-U
+S/R:    RAV-C, PC2-C, ORI-U, PCA-C
 As an additional cost to cast Fiery Conclusion, sacrifice a creature.
 Fiery Conclusion deals 5 damage to target creature.
 
@@ -1715,7 +1759,7 @@ Choose three. You may choose the same mode more than once.
 Name:   Fiery Fall
 Cost:   5R
 Type:   Instant
-S/R:    CON-C, PC2-C, MMA-C, MM2-C, CN2-C, DDG-C, DDN-C
+S/R:    CON-C, PC2-C, MMA-C, MM2-C, CN2-C, PCA-C, DDG-C, DDN-C
 Fiery Fall deals 5 damage to target creature.
 Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
 
@@ -1742,7 +1786,7 @@ Spell mastery — If there are two or more instant and/or sorcery cards in your 
 Name:   Fiery Justice
 Cost:   RGW
 Type:   Sorcery
-S/R:    IA-R, TSP-S, C13-R
+S/R:    IA-R, TSP-S, C13-R, MM3-R
 Fiery Justice deals 5 damage divided as you choose among any number of target creatures and/or players. Target opponent gains 5 life.
 
 Name:   Fiery Mantle
@@ -1759,6 +1803,15 @@ Type:   Instant
 S/R:    TOR-C, TSP-S, SOI-C
 Fiery Temper deals 3 damage to target creature or player.
 Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
+
+Name:   Fight
+Cost:   3G
+Type:   Sorcery
+M-type: Split
+M-card: Prepare
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Target creature you control fights target creature an opponent controls.
 
 Name:   Fight or Flight
 Cost:   3W
@@ -1887,6 +1940,12 @@ Choose one —
 • All creatures get +2/+0 until end of turn.
 • All creatures get -0/-2 until end of turn.
 
+Name:   Final Reward
+Cost:   4B
+Type:   Instant
+S/R:    AKH-C
+Exile target creature.
+
 Name:   Final Strike
 Cost:   2BB
 Type:   Sorcery
@@ -1908,6 +1967,16 @@ Type:   Enchantment
 S/R:    ARB-R
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 Whenever a creature you control attacks alone, if it's the first combat phase of the turn, untap that creature. After this phase, there is an additional combat phase.
+
+Name:   Finish
+Cost:   2B
+Type:   Sorcery
+M-type: Split
+M-card: Start
+S/R:    AKH-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+As an additional cost to cast Finish, sacrifice a creature.
+Destroy target creature.
 
 Name:   Fire
 Cost:   1R
@@ -2074,7 +2143,7 @@ Fireblast deals 4 damage to target creature or player.
 Name:   Firebolt
 Cost:   R
 Type:   Sorcery
-S/R:    OD-C, EMA-C, DD2-C
+S/R:    OD-C, EMA-C, DD2-C, DDS-C
 Firebolt deals 2 damage to target creature or player.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -2187,7 +2256,7 @@ When Firemaw Kavu leaves the battlefield, it deals 4 damage to target creature.
 Name:   Firemind's Foresight
 Cost:   5UR
 Type:   Instant
-S/R:    RTR-R, C15-R
+S/R:    RTR-R, C15-R, DDS-R
 Search your library for an instant card with converted mana cost 3, reveal it, and put it into your hand. Then repeat this process for instant cards with converted mana costs 2 and 1. Then shuffle your library.
 
 Name:   Fires of Undeath
@@ -2200,7 +2269,7 @@ Flashback {5}{B} (You may cast this card from your graveyard for its flashback c
 Name:   Fires of Yavimaya
 Cost:   1RG
 Type:   Enchantment
-S/R:    IN-U, HOP-U, ARC-U, PC2-U, C13-U, CNS-U, VMA-U, DDL-U
+S/R:    IN-U, HOP-U, ARC-U, PC2-U, C13-U, CNS-U, PCA-U, VMA-U, DDL-U
 Creatures you control have haste.
 Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.
 
@@ -2326,7 +2395,7 @@ Target creature gets +2/+2 until end of turn. Clash with an opponent. If you win
 Name:   Fists of Ironwood
 Cost:   1G
 Type:   Enchantment — Aura
-S/R:    RAV-C, CMD-C
+S/R:    RAV-C, CMD-C, MM3-C
 Enchant creature
 When Fists of Ironwood enters the battlefield, create two 1/1 green Saproling creature tokens.
 Enchanted creature has trample.
@@ -2488,8 +2557,16 @@ Type:   Creature — Phoenix
 P/T:    3/3
 S/R:    BNG-M
 Flying
-Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
+Tribute 2 (As this creature enters the battlefield, an opponent of your choice may put two +1/+1 counters on it.)
 When Flame-Wreathed Phoenix enters the battlefield, if tribute wasn't paid, it gains haste and "When this creature dies, return it to its owner's hand."
+
+Name:   Flameblade Adept
+Cost:   R
+Type:   Creature — Jackal Warrior
+P/T:    1/2
+S/R:    AKH-U
+Menace
+Whenever you cycle or discard a card, Flameblade Adept gets +1/+0 until end of turn.
 
 Name:   Flameblade Angel
 Cost:   4RR
@@ -2807,7 +2884,7 @@ Whenever another colorless creature enters the battlefield under your control, t
 Name:   Flayer Husk
 Cost:   1
 Type:   Artifact — Equipment
-S/R:    MBS-C, PC2-C, MM2-C
+S/R:    MBS-C, PC2-C, MM2-C, PCA-C
 Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
 Equipped creature gets +1/+1.
 Equip {2}
@@ -3082,7 +3159,7 @@ Name:   Flickerwisp
 Cost:   1WW
 Type:   Creature — Elemental
 P/T:    3/1
-S/R:    EVE-U, MMA-U, C13-U, C14-U
+S/R:    EVE-U, MMA-U, C13-U, C14-U, MM3-U
 Flying
 When Flickerwisp enters the battlefield, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 
@@ -3111,7 +3188,7 @@ Enchanted creature has flying.
 Name:   Fling
 Cost:   1R
 Type:   Instant
-S/R:    ST-C, M11-C, M12-C, DKA-C, PC2-C
+S/R:    ST-C, M11-C, M12-C, DKA-C, PC2-C, PCA-C, AKH-C
 As an additional cost to cast Fling, sacrifice a creature.
 Fling deals damage equal to the sacrificed creature's power to target creature or player.
 
@@ -3229,6 +3306,13 @@ Type:   Artifact
 S/R:    AI-R, ME4-R
 {X}{X}{1}, {T}: Tap X target lands.
 
+Name:   Floodwaters
+Cost:   4UU
+Type:   Sorcery
+S/R:    AKH-C
+Return up to two target creatures to their owners' hands.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Floral Spuzzem
 Cost:   3G
 Type:   Creature — Elemental
@@ -3240,7 +3324,7 @@ Name:   Flourishing Defenses
 Cost:   4G
 Type:   Enchantment
 S/R:    SHM-U
-Whenever a -1/-1 counter is placed on a creature, you may create a 1/1 green Elf Warrior creature token.
+Whenever a -1/-1 counter is put on a creature, you may create a 1/1 green Elf Warrior creature token.
 
 Name:   Flow of Ideas
 Cost:   5U
@@ -3684,7 +3768,7 @@ Counter target spell.
 Name:   Forbidden Alchemy
 Cost:   2U
 Type:   Instant
-S/R:    ISD-C, DDQ-C
+S/R:    ISD-C, MM3-C, DDQ-C
 Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.
 Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -3767,7 +3851,7 @@ Trample
 Name:   Force of Will
 Cost:   3UU
 Type:   Instant
-S/R:    AI-U, EMA-M, VMA-R, MED-R
+S/R:    AI-U, EMA-M, MPS_AKH-S, VMA-R, MED-R
 You may pay 1 life and exile a blue card from your hand rather than pay Force of Will's mana cost.
 Counter target spell.
 
@@ -3841,7 +3925,7 @@ Name:   Foreshadow
 Cost:   1U
 Type:   Instant
 S/R:    VI-U
-Name a card, then target opponent puts the top card of his or her library into his or her graveyard. If that card is the named card, you draw a card.
+Choose a card name, then target opponent puts the top card of his or her library into his or her graveyard. If that card has the chosen name, you draw a card.
 Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Foresight
@@ -3853,7 +3937,7 @@ Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Forest
 Type:   Basic Land — Forest
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, EVG-L, UG-C, UNH-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, EVG-L, UG-C, UNH-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
 
 Name:   Forest Bear
 Cost:   1G
@@ -4025,8 +4109,15 @@ Draw a card at the beginning of the next turn's upkeep.
 Name:   Formless Nurturing
 Cost:   3G
 Type:   Sorcery
-S/R:    FRF-C
+S/R:    FRF-C, FRF_UGIN-C
 Manifest the top card of your library, then put a +1/+1 counter on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
+
+Name:   Forsake the Worldly
+Cost:   2W
+Type:   Instant
+S/R:    AKH-C
+Exile target artifact or enchantment.
+Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Forsaken City
 Type:   Land
@@ -4044,7 +4135,7 @@ When Forsaken Drifters dies, put the top four cards of your library into your gr
 
 Name:   Forsaken Sanctuary
 Type:   Land
-S/R:    SOI-U
+S/R:    SOI-U, AKH-C
 Forsaken Sanctuary enters the battlefield tapped.
 {T}: Add {W} or {B} to your mana pool.
 
@@ -4165,7 +4256,7 @@ When Foul Imp enters the battlefield, you lose 2 life.
 
 Name:   Foul Orchard
 Type:   Land
-S/R:    SOI-U
+S/R:    SOI-U, AKH-C
 Foul Orchard enters the battlefield tapped.
 {T}: Add {B} or {G} to your mana pool.
 
@@ -4306,7 +4397,7 @@ Whenever enchanted creature becomes the target of a spell or ability, that spell
 Name:   Fractured Powerstone
 Cost:   2
 Type:   Artifact
-S/R:    PC2-C
+S/R:    PC2-C, PCA-C
 {T}: Add {C} to your mana pool.
 {T}: Roll the planar die. Activate this ability only any time you could cast a sorcery.
 
@@ -5052,7 +5143,7 @@ Name:   Fusion Elemental
 Cost:   WUBRG
 Type:   Creature — Elemental
 P/T:    8/8
-S/R:    CON-U, PC2-U
+S/R:    CON-U, PC2-U, PCA-U
 
 Name:   Future Sight
 Cost:   2UUU

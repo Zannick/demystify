@@ -51,7 +51,7 @@ Return X target creature cards from your graveyard to the battlefield. Sacrifice
 Name:   Wake the Reflections
 Cost:   W
 Type:   Sorcery
-S/R:    DGM-C
+S/R:    DGM-C, MM3-C
 Populate. (Create a token that's a copy of a creature token you control.)
 
 Name:   Wakedancer
@@ -86,7 +86,7 @@ Name:   Walker of Secret Ways
 Cost:   2U
 Type:   Creature — Human Ninja
 P/T:    1/2
-S/R:    BOK-U, PC2-U
+S/R:    BOK-U, PC2-U, PCA-U
 Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Walker of Secret Ways deals combat damage to a player, look at that player's hand.
 {1}{U}: Return target Ninja you control to its owner's hand. Activate this ability only during your turn.
@@ -196,7 +196,7 @@ Name:   Wall of Blossoms
 Cost:   1G
 Type:   Creature — Plant Wall
 P/T:    0/4
-S/R:    ST-U, PC2-U, C15-U, C16-U, V13-M
+S/R:    ST-U, PC2-U, C15-U, C16-U, PCA-U, V13-M
 Defender
 When Wall of Blossoms enters the battlefield, draw a card.
 
@@ -245,7 +245,7 @@ Name:   Wall of Denial
 Cost:   1WU
 Type:   Creature — Wall
 P/T:    0/8
-S/R:    ARB-U, CMD-U, DDI-U
+S/R:    ARB-U, CMD-U, MM3-U, DDI-U
 Defender, flying
 Shroud (This creature can't be the target of spells or abilities.)
 
@@ -308,8 +308,8 @@ Name:   Wall of Frost
 Cost:   1UU
 Type:   Creature — Wall
 P/T:    0/7
-S/R:    M10-U, M11-U, PC2-U, M14-U, M15-U
-Defender (This creature can't attack.)
+S/R:    M10-U, M11-U, PC2-U, M14-U, M15-U, PCA-U, MM3-U
+Defender
 Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step.
 
 Name:   Wall of Glare
@@ -640,6 +640,13 @@ S/R:    DST-R
 {T}, Sacrifice an Island: Create a 2/2 blue Elemental creature token with flying.
 {T}, Sacrifice a Mountain: Create a 3/3 red Elemental creature token.
 
+Name:   Wander in Death
+Cost:   2B
+Type:   Sorcery
+S/R:    AKH-C
+Return up to two target creature cards from your graveyard to your hand.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Wanderbrine Rootcutters
 Cost:   2(U/B)(U/B)
 Type:   Creature — Merfolk Rogue
@@ -955,7 +962,8 @@ Name:   Ward of Bones
 Cost:   6
 Type:   Artifact
 S/R:    EVE-R
-Each opponent who controls more creatures than you can't play creature cards. The same is true for artifacts, enchantments, and lands.
+Each opponent who controls more creatures than you can't cast creature spells. The same is true for artifacts and enchantments.
+Each opponent who controls more lands than you can't play lands.
 
 Name:   Ward of Lights
 Cost:   WW
@@ -1028,6 +1036,13 @@ P/T:    4/4
 S/R:    FRF-U
 Flying
 As long as Wardscale Dragon is attacking, defending player can't cast spells.
+
+Name:   Warfire Javelineer
+Cost:   3R
+Type:   Creature — Minotaur Warrior
+P/T:    2/3
+S/R:    AKH-U
+When Warfire Javelineer enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of instant and sorcery cards in your graveyard.
 
 Name:   Wargate
 Cost:   XGWU
@@ -1237,7 +1252,7 @@ Until end of turn, up to two target creatures you control each gain "Whenever th
 Name:   Warstorm Surge
 Cost:   5R
 Type:   Enchantment
-S/R:    M12-R, PC2-R, C13-R, C15-R
+S/R:    M12-R, PC2-R, C13-R, C15-R, PCA-R
 Whenever a creature enters the battlefield under your control, it deals damage equal to its power to target creature or player.
 
 Name:   Warthog
@@ -1280,6 +1295,14 @@ Type:   Land
 S/R:    TE-U, EXP-M, EMA-R
 {T}: Add {C} to your mana pool.
 {T}, Sacrifice Wasteland: Destroy target nonbasic land.
+
+Name:   Wasteland Scorpion
+Cost:   2B
+Type:   Creature — Scorpion
+P/T:    2/2
+S/R:    AKH-C
+Deathtouch
+Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Wasteland Strangler
 Cost:   2B
@@ -1329,10 +1352,17 @@ Name:   Watcher of the Roost
 Cost:   2W
 Type:   Creature — Bird Soldier
 P/T:    2/1
-S/R:    KTK-U, FRF-U
+S/R:    KTK-U, FRF_UGIN-U
 Flying
 Morph—Reveal a white card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Watcher of the Roost is turned face up, you gain 2 life.
+
+Name:   Watchers of the Dead
+Cost:   2
+Type:   Artifact Creature — Cat
+P/T:    2/2
+S/R:    AKH-U
+Exile Watchers of the Dead: Each opponent chooses two cards in his or her graveyard and exiles the rest.
 
 Name:   Watchful Automaton
 Cost:   3
@@ -1340,6 +1370,13 @@ Type:   Artifact Creature — Construct
 P/T:    2/2
 S/R:    AeR-C
 {2}{U}: Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+
+Name:   Watchful Naga
+Cost:   2G
+Type:   Creature — Naga Wizard
+P/T:    2/2
+S/R:    AKH-U
+You may exert Watchful Naga as it attacks. When you do, draw a card. (An exerted creature won't untap during your next untap step.)
 
 Name:   Watchwing Scarecrow
 Cost:   4
@@ -1541,7 +1578,7 @@ Name:   Wayfaring Temple
 Cost:   1GW
 Type:   Creature — Elemental
 P/T:    */*
-S/R:    RTR-R
+S/R:    RTR-R, MM3-U
 Wayfaring Temple's power and toughness are each equal to the number of creatures you control.
 Whenever Wayfaring Temple deals combat damage to a player, populate. (Create a token that's a copy of a creature token you control.)
 
@@ -1574,6 +1611,13 @@ Type:   Creature — Giant
 P/T:    4/5
 S/R:    KLD-C
 Menace
+
+Name:   Wayward Servant
+Cost:   WB
+Type:   Creature — Zombie
+P/T:    2/2
+S/R:    AKH-U
+Whenever another Zombie enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.
 
 Name:   Wayward Soul
 Cost:   2UU
@@ -1683,6 +1727,13 @@ Cost:   3U
 Type:   Instant
 S/R:    KTK-C, ORI-C
 Draw two cards.
+
+Name:   Weaver of Currents
+Cost:   1GU
+Type:   Creature — Naga Druid
+P/T:    2/2
+S/R:    AKH-U
+{T}: Add {C}{C} to your mana pool.
 
 Name:   Weaver of Lies
 Cost:   5UU
@@ -2297,7 +2348,7 @@ Name:   Whirlpool Warrior
 Cost:   2U
 Type:   Creature — Merfolk Warrior
 P/T:    2/2
-S/R:    AP-R, PC2-R
+S/R:    AP-R, PC2-R, PCA-R
 When Whirlpool Warrior enters the battlefield, shuffle the cards from your hand into your library, then draw that many cards.
 {R}, Sacrifice Whirlpool Warrior: Each player shuffles the cards from his or her hand into his or her library, then draws that many cards.
 
@@ -2384,7 +2435,7 @@ Draw a card.
 Name:   Whispersilk Cloak
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    DST-C, 10E-U, M10-U, M11-U, PC2-U, C16-U, DDE-U
+S/R:    DST-C, 10E-U, M10-U, M11-U, PC2-U, C16-U, PCA-U, DDE-U
 Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)
 Equip {2}
 
@@ -2751,7 +2802,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 Name:   Wildcall
 Cost:   XGG
 Type:   Sorcery
-S/R:    FRF-R
+S/R:    FRF-R, FRF_UGIN-R
 Manifest the top card of your library, then put X +1/+1 counters on it. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 
 Name:   Wilderness Elemental
@@ -3048,7 +3099,7 @@ Cost:   BG
 Type:   Creature — Snake
 P/T:    2/3
 S/R:    AeR-U
-If one or more counters would be placed on an artifact or creature you control, that many plus one of each of those kinds of counters are placed on that permanent instead.
+If one or more counters would be put on an artifact or creature you control, that many plus one of each of those kinds of counters are put on that permanent instead.
 If you would get one or more counters, you get that many plus one of each of those kinds of counters instead.
 
 Name:   Winding Wurm
@@ -3119,6 +3170,12 @@ Type:   Sorcery
 S/R:    TE-R, VMA-R, DDL-R
 Destroy all creatures that aren't enchanted. They can't be regenerated.
 
+Name:   Winds of Rebuke
+Cost:   1U
+Type:   Instant
+S/R:    AKH-C
+Return target nonland permanent to its owner's hand. Each player puts the top two cards of his or her library into his or her graveyard.
+
 Name:   Windscouter
 Cost:   3U
 Type:   Creature — Human Scout
@@ -3175,14 +3232,14 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 Name:   Wing Snare
 Cost:   2G
 Type:   Sorcery
-S/R:    UL-U, 7E-U, 8ED-U
+S/R:    UL-U, 7E-U, 8ED-U, W17-U
 Destroy target creature with flying.
 
 Name:   Wing Splicer
 Cost:   3U
 Type:   Creature — Human Artificer
 P/T:    1/1
-S/R:    NPH-U
+S/R:    NPH-U, MM3-U
 When Wing Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.
 Golem creatures you control have flying.
 
@@ -3205,7 +3262,7 @@ Name:   Wingcrafter
 Cost:   U
 Type:   Creature — Human Wizard
 P/T:    1/1
-S/R:    AVR-C
+S/R:    AVR-C, MM3-C
 Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
 As long as Wingcrafter is paired with another creature, both creatures have flying.
 
@@ -3217,6 +3274,14 @@ S/R:    ARB-C, C13-C
 Flash (You may cast this spell any time you could cast an instant.)
 Flying
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+
+Name:   Winged Shepherd
+Cost:   5W
+Type:   Creature — Angel
+P/T:    3/3
+S/R:    AKH-C
+Flying, vigilance
+Cycling {W} ({W}, Discard this card: Draw a card.)
 
 Name:   Winged Sliver
 Cost:   1U
@@ -3827,7 +3892,7 @@ Cost:   GU
 Type:   Creature — Human Druid
 P/T:    1/1
 S/R:    TE-R, CNS-U
-{T}: Name a creature card. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard.
+{T}: Choose a creature card name. Reveal the top four cards of your library and put all of them with that name into your hand. Put the rest into your graveyard.
 
 Name:   Woodborn Behemoth
 Cost:   3GG
@@ -3933,7 +3998,7 @@ Morbid — When Woodland Sleuth enters the battlefield, if a creature died this 
 
 Name:   Woodland Stream
 Type:   Land
-S/R:    SOI-U, KLD-C
+S/R:    SOI-U, KLD-C, AKH-C
 Woodland Stream enters the battlefield tapped.
 {T}: Add {G} or {U} to your mana pool.
 
@@ -4032,7 +4097,7 @@ Name:   Woolly Thoctar
 Cost:   RGW
 Type:   Creature — Beast
 P/T:    5/4
-S/R:    ALA-U, DDH-U
+S/R:    ALA-U, MM3-U, DDH-U
 
 Name:   Word of Binding
 Cost:   XBB
@@ -4295,7 +4360,7 @@ At the beginning of each player's upkeep, that player puts the top card of his o
 Name:   Worship
 Cost:   3W
 Type:   Enchantment
-S/R:    US-R, 7E-R, 8ED-R, 9ED-R
+S/R:    US-R, 7E-R, 8ED-R, 9ED-R, MPS_AKH-S
 If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.
 
 Name:   Worst Fears
@@ -4316,7 +4381,7 @@ Name:   Wort, the Raidmother
 Cost:   4(R/G)(R/G)
 Type:   Legendary Creature — Goblin Shaman
 P/T:    3/3
-S/R:    SHM-R
+S/R:    SHM-R, MM3-R
 When Wort, the Raidmother enters the battlefield, create two 1/1 red and green Goblin Warrior creature tokens.
 Each red or green instant or sorcery spell you cast has conspire. (As you cast the spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.)
 
@@ -4361,7 +4426,7 @@ Regenerate each creature you control.
 Name:   Wrath of God
 Cost:   2WW
 Type:   Sorcery
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, P1-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, C13-R, EMA-R, V14-M
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, P1-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, C13-R, EMA-R, MPS_AKH-S, V14-M
 Destroy all creatures. They can't be regenerated.
 
 Name:   Wrath of Marit Lage
@@ -4478,7 +4543,7 @@ Forecast — {1}{U}, Reveal Writ of Passage from your hand: Target creature with
 Name:   Write into Being
 Cost:   2U
 Type:   Sorcery
-S/R:    FRF-C
+S/R:    FRF-C, FRF_UGIN-C
 Look at the top two cards of your library. Manifest one of those cards, then put the other on the top or bottom of your library. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 
 Name:   Wu Admiral
@@ -4554,7 +4619,7 @@ Name:   Wurmcoil Engine
 Cost:   6
 Type:   Artifact Creature — Wurm
 P/T:    6/6
-S/R:    SOM-M, C14-M, MPS-S
+S/R:    SOM-M, C14-M, MPS_KLD-S
 Deathtouch, lifelink
 When Wurmcoil Engine dies, create a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink.
 

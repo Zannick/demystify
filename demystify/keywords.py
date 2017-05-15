@@ -323,6 +323,8 @@ _actions = [
             ("CLASH", "clash")),
     Verb(   ("DETAIN", "detain", "detains"),
             ("DETAINED", "detained")),
+    Verb(   ("EXERT", "exert", "exerts"),
+            ("EXERTED", "exerted")),
     Verb(   ("FATESEAL", "fateseal", "fateseals"),
             ("FATESEALED", "fatesealed"),
             ("FATESEALING", "fatesealing")),
@@ -478,6 +480,7 @@ _abilities = [
             ("ABSORBED", "absorbed"),
             ("ABSORBING", "absorbing")),
     Keyword(("AFFINITY", "affinity")),
+    Keyword(("AFTERMATH", "aftermath")),
     Verb(   ("AMPLIFY", "amplify", "amplifies"),
             ("AMPLIFIED", "amplified")),
     Keyword(("ANNIHILATOR", "annihilator")),
@@ -497,6 +500,8 @@ _abilities = [
             ("CHAMPIONED", "championed")),
     Keyword(("CHANGELING", "changeling")),
     Keyword(("CIPHER", "cipher")),
+    Verb(   ("EMBALM", "embalm", "embalms"),
+            ("EMBALMED", "embalmed")),
     Verb(   ("ENCODE", "encode", "encodes"),
             ("ENCODED", "encoded")),
     Verb(   ("CONSPIRE", "conspire", "conspires"),
@@ -763,6 +768,7 @@ _artifact_types = [
 
 _enchantment_types = [
     Noun("AURA", "aura", "auras"),
+    Noun("CARTOUCHE", "cartouche", "cartouche"),
     Noun("CURSE", "curse", "curses"),
     Noun("SHRINE", "shrine", "shrines"),
 ]
@@ -927,6 +933,7 @@ _creature_types = [
     Noun("IMP", "imp", "imps"),
     Noun("INCARNATION", "incarnation", "incarnations"),
     Noun("INSECT", "insect", "insects"),
+    Noun("JACKAL", "jackal", "jackals"),
     Noun("JELLYFISH", "jellyfish", "jellyfish"),
     Noun("JUGGERNAUT", "juggernaut", "juggernauts"),
     Noun("KAVU", "kavu", "kavus"),
@@ -1123,6 +1130,7 @@ counter_types = [
     "blood",
     "bounty",
     "bribery",
+    "brick",
     "carrion",
     "charge",
     "corpse",
@@ -1658,6 +1666,7 @@ ordinals = {
     "second" : 2,
     "third" : 3,
     "fourth" : 4,
+    "seventh": 7,
     "last" : -1,
 }
 

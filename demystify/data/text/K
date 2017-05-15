@@ -242,7 +242,7 @@ Name:   Kamahl, Pit Fighter
 Cost:   4RR
 Type:   Legendary Creature — Human Barbarian
 P/T:    6/1
-S/R:    OD-R, 10E-R, DDL-R
+S/R:    OD-R, 10E-R, DDL-R, DDS-R
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 {T}: Kamahl, Pit Fighter deals 3 damage to target creature or player.
 
@@ -641,7 +641,7 @@ Name:   Kathari Bomber
 Cost:   1BR
 Type:   Creature — Bird Shaman
 P/T:    2/2
-S/R:    ARB-C, DDN-C
+S/R:    ARB-C, MM3-C, DDN-C
 Flying
 When Kathari Bomber deals combat damage to a player, create two 1/1 red Goblin creature tokens and sacrifice Kathari Bomber.
 Unearth {3}{B}{R} ({3}{B}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
@@ -650,7 +650,7 @@ Name:   Kathari Remnant
 Cost:   2UB
 Type:   Creature — Bird Skeleton
 P/T:    0/1
-S/R:    ARB-U, PC2-U
+S/R:    ARB-U, PC2-U, PCA-U
 Flying
 {B}: Regenerate Kathari Remnant.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
@@ -796,7 +796,7 @@ Whenever Kazandu Blademaster or another Ally enters the battlefield under your c
 
 Name:   Kazandu Refuge
 Type:   Land
-S/R:    ZEN-U, ARC-U, CMD-U, PC2-U, C13-U, DDH-U, DDL-U
+S/R:    ZEN-U, ARC-U, CMD-U, PC2-U, C13-U, PCA-U, DDH-U, DDL-U
 Kazandu Refuge enters the battlefield tapped.
 When Kazandu Refuge enters the battlefield, you gain 1 life.
 {T}: Add {R} or {G} to your mana pool.
@@ -996,6 +996,22 @@ S/R:    THS-U, CN2-U
 Deathtouch
 {5}{B}{B}: Monstrosity 1. (If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 When Keepsake Gorgon becomes monstrous, destroy target non-Gorgon creature an opponent controls.
+
+Name:   Kefnet the Mindful
+Cost:   2U
+Type:   Legendary Creature — God
+P/T:    5/5
+S/R:    AKH-M, MPS_AKH-S
+Flying, indestructible
+Kefnet the Mindful can't attack or block unless you have seven or more cards in hand.
+{3}{U}: Draw a card, then you may return a land you control to its owner's hand.
+
+Name:   Kefnet's Monument
+Cost:   3
+Type:   Legendary Artifact
+S/R:    AKH-U
+Blue creature spells you cast cost {1} less to cast.
+Whenever you cast a creature spell, target creature an opponent controls doesn't untap during its controller's next untap step.
 
 Name:   Kei Takahashi
 Cost:   2GW
@@ -1275,7 +1291,7 @@ At the beginning of each end step, put a +1/+1 counter on Khabal Ghoul for each 
 
 Name:   Khalni Garden
 Type:   Land
-S/R:    WWK-C, ARC-C, PC2-C, C13-C, DDR-C
+S/R:    WWK-C, ARC-C, PC2-C, C13-C, PCA-C, DDR-C
 Khalni Garden enters the battlefield tapped.
 When Khalni Garden enters the battlefield, create a 0/1 green Plant creature token.
 {T}: Add {G} to your mana pool.
@@ -1301,6 +1317,14 @@ P/T:    8/8
 S/R:    ROE-M
 Khalni Hydra costs {G} less to cast for each green creature you control.
 Trample
+
+Name:   Khenra Charioteer
+Cost:   1RG
+Type:   Creature — Jackal Warrior
+P/T:    3/3
+S/R:    AKH-U
+Trample
+Other creatures you control have trample.
 
 Name:   Kher Keep
 Type:   Legendary Land
@@ -2509,7 +2533,7 @@ Name:   Kor Hookmaster
 Cost:   2W
 Type:   Creature — Kor Soldier
 P/T:    2/2
-S/R:    ZEN-C, EMA-C, DDF-C, DDN-C
+S/R:    ZEN-C, EMA-C, MM3-C, DDF-C, DDN-C
 When Kor Hookmaster enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 
 Name:   Kor Line-Slinger
@@ -2552,7 +2576,7 @@ Name:   Kor Skyfisher
 Cost:   1W
 Type:   Creature — Kor Soldier
 P/T:    2/3
-S/R:    ZEN-C, DDF-C, DDO-C
+S/R:    ZEN-C, MM3-C, DDF-C, DDO-C
 Flying
 When Kor Skyfisher enters the battlefield, return a permanent you control to its owner's hand.
 
@@ -2560,7 +2584,7 @@ Name:   Kor Spiritdancer
 Cost:   1W
 Type:   Creature — Kor Wizard
 P/T:    0/2
-S/R:    ROE-R, PC2-R
+S/R:    ROE-R, PC2-R, PCA-R
 Kor Spiritdancer gets +2/+2 for each Aura attached to it.
 Whenever you cast an Aura spell, you may draw a card.
 
@@ -2731,7 +2755,7 @@ Name:   Kraken Hatchling
 Cost:   U
 Type:   Creature — Kraken
 P/T:    0/4
-S/R:    ZEN-C, M13-C
+S/R:    ZEN-C, M13-C, MM3-C
 
 Name:   Kraken of the Straits
 Cost:   5UU
@@ -2899,7 +2923,7 @@ Name:   Krond the Dawn-Clad
 Cost:   GGGWWW
 Type:   Legendary Creature — Archon
 P/T:    6/6
-S/R:    PC2-M
+S/R:    PC2-M, PCA-M
 Flying, vigilance
 Whenever Krond the Dawn-Clad attacks, if it's enchanted, exile target permanent.
 
@@ -2995,7 +3019,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 
 Name:   Krosan Verge
 Type:   Land
-S/R:    JUD-U, ARC-U, PC2-U, C16-U
+S/R:    JUD-U, ARC-U, PC2-U, C16-U, PCA-U
 Krosan Verge enters the battlefield tapped.
 {T}: Add {C} to your mana pool.
 {2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card and put them onto the battlefield tapped. Then shuffle your library.
@@ -3114,7 +3138,7 @@ Name:   Kruin Striker
 Cost:   1R
 Type:   Creature — Human Warrior
 P/T:    2/1
-S/R:    AVR-C
+S/R:    AVR-C, DDS-C
 Whenever another creature enters the battlefield under your control, Kruin Striker gets +1/+0 and gains trample until end of turn.
 
 Name:   Krumar Bond-Kin

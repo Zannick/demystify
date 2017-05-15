@@ -81,7 +81,7 @@ def load(files=None):
 
 _cost = re.compile(r'^([0-9WUBRGCX]|\([0-9WUBRGCPS]/[0-9WUBRGCPS]\))+$', re.I)
 _pt = re.compile(r'^[0-9*+-]+(/[0-9*+-]+)?$')
-_sr = re.compile(r'^[0-9A-Z, -]+$')
+_sr = re.compile(r'^[0-9A-Z_, -]+$')
 _color = re.compile(r'^((White|Blue|Black|Red|Green)/?)+$')
 _multi = re.compile(r'(Flip|Transform|split)s? (?:into|from|card) (.+).]$')
 _meldwith = re.compile(r'Melds with (.+) into (.+).]$')

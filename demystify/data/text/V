@@ -133,7 +133,7 @@ Name:   Vampire Aristocrat
 Cost:   2B
 Type:   Creature — Vampire Rogue
 P/T:    2/2
-S/R:    M10-C
+S/R:    M10-C, MM3-C
 Sacrifice a creature: Vampire Aristocrat gets +2/+2 until end of turn.
 
 Name:   Vampire Bats
@@ -194,10 +194,8 @@ Name:   Vampire Nighthawk
 Cost:   1BB
 Type:   Creature — Vampire Shaman
 P/T:    2/3
-S/R:    ZEN-U, CMD-U, M13-U, C13-U, DDK-U, DDP-U
-Flying
-Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+S/R:    ZEN-U, CMD-U, M13-U, C13-U, MM3-U, DDK-U, DDP-U
+Flying, deathtouch, lifelink
 
 Name:   Vampire Noble
 Cost:   2B
@@ -346,7 +344,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Vanish into Memory
 Cost:   2WU
 Type:   Instant
-S/R:    CSP-U, DDI-U
+S/R:    CSP-U, MM3-U, DDI-U
 Exile target creature. You draw cards equal to that creature's power. At the beginning of your next upkeep, return that card to the battlefield under its owner's control. If you do, discard cards equal to that creature's toughness.
 
 Name:   Vanishing
@@ -657,7 +655,7 @@ When Vedalken Plotter enters the battlefield, exchange control of target land yo
 Name:   Vedalken Shackles
 Cost:   3
 Type:   Artifact
-S/R:    5DN-R, MMA-M, MPS-S
+S/R:    5DN-R, MMA-M, MPS_KLD-S
 You may choose not to untap Vedalken Shackles during your untap step.
 {2}, {T}: Gain control of target creature with power less than or equal to the number of Islands you control for as long as Vedalken Shackles remains tapped.
 
@@ -742,7 +740,7 @@ Name:   Vela the Night-Clad
 Cost:   4UB
 Type:   Legendary Creature — Human Wizard
 P/T:    4/4
-S/R:    PC2-M
+S/R:    PC2-M, PCA-M
 Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Other creatures you control have intimidate.
 Whenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.
@@ -966,8 +964,8 @@ Name:   Venser, Shaper Savant
 Cost:   2UU
 Type:   Legendary Creature — Human Wizard
 P/T:    2/2
-S/R:    FUT-R, V13-M
-Flash (You may cast this spell any time you could cast an instant.)
+S/R:    FUT-R, MM3-R, V13-M
+Flash
 When Venser, Shaper Savant enters the battlefield, return target spell or permanent to its owner's hand.
 
 Name:   Venser, the Sojourner
@@ -1003,7 +1001,7 @@ S/R:    AeR-C
 
 Name:   Verdant Catacombs
 Type:   Land
-S/R:    ZEN-R, EXP-M
+S/R:    ZEN-R, EXP-M, MM3-R
 {T}, Pay 1 life, Sacrifice Verdant Catacombs: Search your library for a Swamp or Forest card and put it onto the battlefield. Then shuffle your library.
 
 Name:   Verdant Confluence
@@ -1105,7 +1103,7 @@ Name:   Verdurous Gearhulk
 Cost:   3GG
 Type:   Artifact Creature — Construct
 P/T:    4/4
-S/R:    KLD-M, MPS-S
+S/R:    KLD-M, MPS_KLD-S
 Trample
 When Verdurous Gearhulk enters the battlefield, distribute four +1/+1 counters among any number of target creatures you control.
 
@@ -1332,7 +1330,7 @@ Name:   Vexing Arcanix
 Cost:   4
 Type:   Artifact
 S/R:    IA-R, 8ED-R
-{3}, {T}: Target player names a card, then reveals the top card of his or her library. If it's the named card, the player puts it into his or her hand. Otherwise, the player puts it into his or her graveyard and Vexing Arcanix deals 2 damage to him or her.
+{3}, {T}: Target player chooses a card name, then reveals the top card of his or her library. If that card has the chosen name, the player puts it into his or her hand. Otherwise, the player puts it into his or her graveyard and Vexing Arcanix deals 2 damage to him or her.
 
 Name:   Vexing Beetle
 Cost:   4G
@@ -1607,11 +1605,20 @@ Type:   Sorcery
 S/R:    NPH-C
 Destroy target artifact or land. Its controller loses 1 life.
 
+Name:   Victory
+Cost:   2W
+Type:   Sorcery
+M-type: Split
+M-card: Onward
+S/R:    AKH-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Target creature gains double strike until end of turn.
+
 Name:   Victory's Herald
 Cost:   3WWW
 Type:   Creature — Angel
 P/T:    4/4
-S/R:    MBS-R, C15-R
+S/R:    MBS-R, C15-R, W17-R
 Flying
 Whenever Victory's Herald attacks, attacking creatures gain flying and lifelink until end of turn.
 
@@ -1856,7 +1863,7 @@ Target opponent exiles the top X cards of his or her library. You may cast any n
 Name:   Vindicate
 Cost:   1WB
 Type:   Sorcery
-S/R:    AP-R, EMA-R
+S/R:    AP-R, EMA-R, MPS_AKH-S
 Destroy target permanent.
 
 Name:   Vindictive Mob
@@ -1948,6 +1955,13 @@ S/R:    TOR-U
 Violent Eruption deals 4 damage divided as you choose among any number of target creatures and/or players.
 Madness {1}{R}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
+Name:   Violent Impact
+Cost:   3R
+Type:   Sorcery
+S/R:    AKH-C
+Destroy target artifact or land.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Violent Outburst
 Cost:   1RG
 Type:   Instant
@@ -2023,7 +2037,7 @@ Name:   Viridian Emissary
 Cost:   1G
 Type:   Creature — Elf Scout
 P/T:    2/1
-S/R:    MBS-C, PC2-C, C15-C
+S/R:    MBS-C, PC2-C, C15-C, PCA-C
 When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
 
 Name:   Viridian Harvest
@@ -2038,7 +2052,7 @@ Cost:   2G
 Type:   Creature — Elf Druid
 P/T:    1/2
 S/R:    MRD-C
-{T}: Add to your mana pool an amount of {G} equal to Viridian Joiner's power.
+{T}: Add an amount of {G} to your mana pool equal to Viridian Joiner's power.
 
 Name:   Viridian Longbow
 Cost:   1
@@ -2236,7 +2250,7 @@ Name:   Vital Splicer
 Cost:   3G
 Type:   Creature — Human Artificer
 P/T:    1/1
-S/R:    NPH-U
+S/R:    NPH-U, MM3-U
 When Vital Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.
 {1}: Regenerate target Golem you control.
 
@@ -2294,7 +2308,7 @@ Name:   Vithian Stinger
 Cost:   2R
 Type:   Creature — Human Shaman
 P/T:    0/1
-S/R:    ALA-C, DDK-C
+S/R:    ALA-C, MM3-U, DDK-C
 {T}: Vithian Stinger deals 1 damage to target creature or player.
 Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
@@ -2308,7 +2322,7 @@ S/R:    RTR-U
 
 Name:   Vitu-Ghazi, the City-Tree
 Type:   Land
-S/R:    RAV-U, ARC-U, PC2-U, C13-U, DDH-U
+S/R:    RAV-U, ARC-U, PC2-U, C13-U, PCA-U, DDH-U
 {T}: Add {C} to your mana pool.
 {2}{G}{W}, {T}: Create a 1/1 green Saproling creature token.
 
@@ -2321,7 +2335,7 @@ Vivid Crag enters the battlefield tapped with two charge counters on it.
 
 Name:   Vivid Creek
 Type:   Land
-S/R:    LRW-U, CMD-U, PC2-U, MMA-U, C13-U, C15-U, H09-U
+S/R:    LRW-U, CMD-U, PC2-U, MMA-U, C13-U, C15-U, PCA-U, H09-U
 Vivid Creek enters the battlefield tapped with two charge counters on it.
 {T}: Add {U} to your mana pool.
 {T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.
@@ -2360,6 +2374,47 @@ Type:   Sorcery
 S/R:    MBS-C
 As an additional cost to cast Vivisection, sacrifice a creature.
 Draw three cards.
+
+Name:   Vizier of Deferment
+Cost:   2W
+Type:   Creature — Human Cleric
+P/T:    2/2
+S/R:    AKH-U
+Flash
+When Vizier of Deferment enters the battlefield, you may exile target creature if it attacked or blocked this turn. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+
+Name:   Vizier of Many Faces
+Cost:   2UU
+Type:   Creature — Shapeshifter Cleric
+P/T:    0/0
+S/R:    AKH-R
+You may have Vizier of Many Faces enter the battlefield as a copy of any creature on the battlefield, except if Vizier of Many Faces was embalmed, the token has no mana cost, it's white, and it's a Zombie in addition to its other types.
+Embalm {3}{U}{U}
+
+Name:   Vizier of Remedies
+Cost:   1W
+Type:   Creature — Human Cleric
+P/T:    2/1
+S/R:    AKH-U
+If one or more -1/-1 counters would be put on a creature you control, that many -1/-1 counters minus one are put on it instead.
+
+Name:   Vizier of Tumbling Sands
+Cost:   2U
+Type:   Creature — Human Cleric
+P/T:    1/3
+S/R:    AKH-U
+{T}: Untap another target permanent.
+Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
+When you cycle Vizier of Tumbling Sands, untap target permanent.
+
+Name:   Vizier of the Menagerie
+Cost:   3G
+Type:   Creature — Naga Cleric
+P/T:    3/4
+S/R:    AKH-M
+You may look at the top card of your library. (You may do this at any time.)
+You may cast the top card of your library if it's a creature card.
+You may spend mana as though it were mana of any type to cast creature spells.
 
 Name:   Vizkopa Confessor
 Cost:   3WB
@@ -2501,7 +2556,7 @@ Name:   Voice of Resurgence
 Cost:   GW
 Type:   Creature — Elemental
 P/T:    2/2
-S/R:    DGM-M
+S/R:    DGM-M, MM3-M
 Whenever an opponent casts a spell during your turn or when Voice of Resurgence dies, create a green and white Elemental creature token with "This creature's power and toughness are each equal to the number of creatures you control."
 
 Name:   Voice of Truth
@@ -2643,8 +2698,8 @@ Type:   Creature — Gargoyle
 P/T:    3/3
 S/R:    PLC-R
 Flying
-As Voidstone Gargoyle enters the battlefield, name a nonland card.
-The named card can't be cast.
+As Voidstone Gargoyle enters the battlefield, choose a nonland card name.
+Spells with the chosen name can't be cast.
 Activated abilities of sources with the chosen name can't be activated.
 
 Name:   Voidwalk
@@ -2774,7 +2829,7 @@ Destroy target land.
 Name:   Volcanic Vision
 Cost:   5RR
 Type:   Sorcery
-S/R:    DTK-R, C16-R
+S/R:    DTK-R, C16-R, DDS-R
 Return target instant or sorcery card from your graveyard to your hand. Volcanic Vision deals damage equal to that card's converted mana cost to each creature your opponents control. Exile Volcanic Vision.
 
 Name:   Volcanic Wind

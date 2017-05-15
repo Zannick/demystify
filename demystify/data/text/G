@@ -16,7 +16,7 @@ Noncreature spells with {X} in their mana costs can't be cast.
 Name:   Gaea's Anthem
 Cost:   1GG
 Type:   Enchantment
-S/R:    PLC-R
+S/R:    PLC-R, MM3-U
 Creatures you control get +1/+1.
 
 Name:   Gaea's Avenger
@@ -137,6 +137,13 @@ Type:   Creature — Sliver
 P/T:    1/1
 S/R:    M14-R
 Sliver creatures you control have flying.
+
+Name:   Galestrike
+Cost:   2U
+Type:   Instant
+S/R:    AKH-U
+Return target tapped creature to its owner's hand.
+Draw a card.
 
 Name:   Galina's Knight
 Cost:   WU
@@ -353,7 +360,7 @@ Name:   Garruk's Horde
 Cost:   5GG
 Type:   Creature — Beast
 P/T:    7/7
-S/R:    M12-R, M14-R
+S/R:    M12-R, M14-R, W17-R
 Trample
 Play with the top card of your library revealed.
 You may cast the top card of your library if it's a creature card. (Do this only any time you could cast that creature card. You still pay the spell's costs.)
@@ -460,6 +467,13 @@ Cost:   6
 Type:   Artifact
 S/R:    MRD-R
 At the beginning of each player's upkeep, that player reveals the top card of his or her library. If it's an artifact, creature, enchantment, or land card, the player may put it onto the battlefield.
+
+Name:   Gate to the Afterlife
+Cost:   3
+Type:   Artifact
+S/R:    AKH-U
+Whenever a nontoken creature you control dies, you gain 1 life. Then you may draw a card. If you do, discard a card.
+{2}, {T}, Sacrifice Gate to the Afterlife: Search your graveyard, hand, and/or library for a card named God-Pharaoh's Gift and put it onto the battlefield. If you search your library this way, shuffle it. Activate this ability only if there are six or more creature cards in your graveyard.
 
 Name:   Gatecreeper Vine
 Cost:   1G
@@ -576,7 +590,7 @@ Whenever a Mountain is tapped for mana, its controller adds {R} to his or her ma
 Name:   Gauntlet of Power
 Cost:   5
 Type:   Artifact
-S/R:    TSP-R, MPS-S
+S/R:    TSP-R, MPS_KLD-S
 As Gauntlet of Power enters the battlefield, choose a color.
 Creatures of the chosen color get +1/+1.
 Whenever a basic land is tapped for mana of the chosen color, its controller adds one mana of that color to his or her mana pool (in addition to the mana the land produces).
@@ -1236,7 +1250,7 @@ Name:   Ghor-Clan Rampager
 Cost:   2RG
 Type:   Creature — Beast
 P/T:    4/4
-S/R:    GTC-U
+S/R:    GTC-U, MM3-U
 Trample
 Bloodrush — {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets +4/+4 and gains trample until end of turn.
 
@@ -1356,7 +1370,7 @@ Ghostfire deals 3 damage to target creature or player.
 Name:   Ghostfire Blade
 Cost:   1
 Type:   Artifact — Equipment
-S/R:    KTK-R, FRF-R
+S/R:    KTK-R, FRF_UGIN-R
 Equipped creature gets +2/+2.
 Equip {3}
 Ghostfire Blade's equip ability costs {2} less to activate if it targets a colorless creature.
@@ -1399,7 +1413,7 @@ Black and/or red permanents and spells are colorless sources of damage.
 Name:   Ghostly Flicker
 Cost:   2U
 Type:   Instant
-S/R:    AVR-C
+S/R:    AVR-C, MM3-C
 Exile two target artifacts, creatures, and/or lands you control, then return those cards to the battlefield under your control.
 
 Name:   Ghostly Possession
@@ -1413,7 +1427,7 @@ Prevent all combat damage that would be dealt to and dealt by enchanted creature
 Name:   Ghostly Prison
 Cost:   2W
 Type:   Enchantment
-S/R:    CHK-U, CMD-U, PC2-U, CN2-U, C16-U
+S/R:    CHK-U, CMD-U, PC2-U, CN2-U, C16-U, PCA-U
 Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.
 
 Name:   Ghostly Sentinel
@@ -1661,7 +1675,7 @@ Name:   Giant Spider
 Cost:   3G
 Type:   Creature — Spider
 P/T:    2/4
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, P1-C, 6E-C, 7E-C, 8ED-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, M14-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, P1-C, 6E-C, 7E-C, 8ED-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, M14-C, AKH-C
 Reach (This creature can block creatures with flying.)
 
 Name:   Giant Strength
@@ -1708,7 +1722,7 @@ Giant's Ire deals 4 damage to target player. If you control a Giant, draw a card
 Name:   Giantbaiting
 Cost:   2(R/G)
 Type:   Sorcery
-S/R:    SHM-C
+S/R:    SHM-C, MM3-C
 Create a 4/4 red and green Giant Warrior creature token with haste. Exile it at the beginning of the next end step.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it.)
 
@@ -1752,6 +1766,15 @@ S/R:    ROE-M, M12-M
 [-2]: Destroy target tapped creature.
 [0]: Until end of turn, Gideon Jura becomes a 6/6 Human Soldier creature that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
 
+Name:   Gideon of the Trials
+Cost:   1WW
+Type:   Planeswalker — Gideon
+P/T:    3
+S/R:    AKH-M
+[+1]: Until your next turn, prevent all damage target permanent would deal.
+[0]: Until end of turn, Gideon of the Trials becomes a 4/4 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+[0]: You get an emblem with "As long as you control a Gideon planeswalker, you can't lose the game and your opponents can't win the game."
+
 Name:   Gideon's Avenger
 Cost:   1WW
 Type:   Creature — Human Soldier
@@ -1759,11 +1782,19 @@ P/T:    2/2
 S/R:    M12-R
 Whenever a creature an opponent controls becomes tapped, put a +1/+1 counter on Gideon's Avenger.
 
+Name:   Gideon's Intervention
+Cost:   2WW
+Type:   Enchantment
+S/R:    AKH-R
+As Gideon's Intervention enters the battlefield, choose a card name.
+Your opponents can't cast spells with the chosen name.
+Prevent all damage that would be dealt to you and permanents you control by sources with the chosen name.
+
 Name:   Gideon's Lawkeeper
 Cost:   W
 Type:   Creature — Human Soldier
 P/T:    1/1
-S/R:    M12-C
+S/R:    M12-C, MM3-C
 {W}, {T}: Tap target creature.
 
 Name:   Gideon's Phalanx
@@ -1778,6 +1809,13 @@ Cost:   1W
 Type:   Instant
 S/R:    BFZ-C
 Gideon's Reproach deals 4 damage to target attacking or blocking creature.
+
+Name:   Gideon's Resolve
+Cost:   4W
+Type:   Enchantment
+S/R:    AKH-R
+When Gideon's Resolve enters the battlefield, you may search your library and/or graveyard for a card named Gideon, Martial Paragon, reveal it, and put it into your hand. If you search your library this way, shuffle it.
+Creatures you control get +1/+1.
 
 Name:   Gideon, Ally of Zendikar
 Cost:   2WW
@@ -1808,6 +1846,15 @@ S/R:    GTC-M
 [0]: Until end of turn, Gideon, Champion of Justice becomes a Human Soldier creature with power and toughness each equal to the number of loyalty counters on him and gains indestructible. He's still a planeswalker. Prevent all damage that would be dealt to him this turn.
 [-15]: Exile all other permanents.
 
+Name:   Gideon, Martial Paragon
+Cost:   4W
+Type:   Planeswalker — Gideon
+P/T:    5
+S/R:    AKH-M
+[+2]: Untap all creatures you control. Those creatures get +1/+1 until end of turn.
+[0]: Until end of turn, Gideon, Martial Paragon becomes a 5/5 Human Soldier creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+[-10]: Creatures you control get +2/+2 until end of turn. Tap all creatures your opponents control.
+
 Name:   Gift of Estates
 Cost:   1W
 Type:   Sorcery
@@ -1832,9 +1879,17 @@ When enchanted creature dies, return that card to the battlefield under its owne
 Name:   Gift of Orzhova
 Cost:   1(W/B)(W/B)
 Type:   Enchantment — Aura
-S/R:    GTC-U
+S/R:    GTC-U, MM3-C
 Enchant creature
 Enchanted creature gets +1/+1 and has flying and lifelink.
+
+Name:   Gift of Paradise
+Cost:   2G
+Type:   Enchantment — Aura
+S/R:    AKH-C
+Enchant land
+When Gift of Paradise enters the battlefield, you gain 3 life.
+Enchanted land has "{T}: Add two mana of any one color to your mana pool."
 
 Name:   Gift of Tusks
 Cost:   U
@@ -1873,7 +1928,7 @@ Deathtouch, lifelink
 Name:   Gifts Ungiven
 Cost:   3U
 Type:   Instant
-S/R:    CHK-R, MMA-R, V09-M
+S/R:    CHK-R, MMA-R, MM3-R, V09-M
 Search your library for up to four cards with different names and reveal them. Target opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest into your hand. Then shuffle your library.
 
 Name:   Gigadrowse
@@ -2295,7 +2350,7 @@ Name:   Glen Elendra Liege
 Cost:   1(U/B)(U/B)(U/B)
 Type:   Creature — Faerie Knight
 P/T:    2/3
-S/R:    SHM-R, PC2-R
+S/R:    SHM-R, PC2-R, PCA-R
 Flying
 Other blue creatures you control get +1/+1.
 Other black creatures you control get +1/+1.
@@ -2583,6 +2638,13 @@ Type:   Instant
 S/R:    M10-C, M13-C
 Creatures you control get +1/+1 until end of turn.
 
+Name:   Glorious End
+Cost:   2R
+Type:   Instant
+S/R:    AKH-M
+End the turn. (Exile all spells and abilities on the stack, including this card. The player whose turn it is discards down to his or her maximum hand size. Damage wears off, and "this turn" and "until end of turn" effects end.)
+At the beginning of your next end step, you lose the game.
+
 Name:   Glory
 Cost:   3WW
 Type:   Creature — Incarnation
@@ -2595,7 +2657,7 @@ Name:   Glory Seeker
 Cost:   1W
 Type:   Creature — Human Soldier
 P/T:    2/2
-S/R:    ONS-C, 8ED-C, 9ED-C, ROE-C, DDF-C
+S/R:    ONS-C, 8ED-C, 9ED-C, ROE-C, W17-C, DDF-C
 
 Name:   Glory of Warfare
 Cost:   2RW
@@ -2603,6 +2665,21 @@ Type:   Enchantment
 S/R:    ARB-R, HOP-R
 As long as it's your turn, creatures you control get +2/+0.
 As long as it's not your turn, creatures you control get +0/+2.
+
+Name:   Glory-Bound Initiate
+Cost:   1W
+Type:   Creature — Human Warrior
+P/T:    3/1
+S/R:    AKH-R
+You may exert Glory-Bound Initiate as it attacks. When you do, it gets +1/+3 and gains lifelink until end of turn. (An exerted creature won't untap during your next untap step.)
+
+Name:   Glorybringer
+Cost:   3RR
+Type:   Creature — Dragon
+P/T:    4/4
+S/R:    AKH-R
+Flying, haste
+You may exert Glorybringer as it attacks. When you do, it deals 4 damage to target non-Dragon creature an opponent controls. (An exerted creature won't untap during your next untap step.)
 
 Name:   Gloryscale Viashino
 Cost:   1RGW
@@ -2643,7 +2720,7 @@ Name:   Gluttonous Slime
 Cost:   2G
 Type:   Creature — Ooze
 P/T:    2/2
-S/R:    CON-U, PC2-U
+S/R:    CON-U, PC2-U, PCA-U
 Flash
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
 
@@ -2653,6 +2730,15 @@ Type:   Creature — Zombie
 P/T:    3/3
 S/R:    ONS-U, 8ED-U, 9ED-U
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
+
+Name:   Glyph Keeper
+Cost:   3UU
+Type:   Creature — Sphinx
+P/T:    5/3
+S/R:    AKH-R
+Flying
+Whenever Glyph Keeper becomes the target of a spell or ability for the first time each turn, counter that spell or ability.
+Embalm {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Sphinx with no mana cost. Embalm only as a sorcery.)
 
 Name:   Glyph of Delusion
 Cost:   U
@@ -2762,7 +2848,7 @@ Name:   Gnawing Zombie
 Cost:   1B
 Type:   Creature — Zombie
 P/T:    1/3
-S/R:    M14-U
+S/R:    M14-U, MM3-C
 {1}{B}, Sacrifice a creature: Target player loses 1 life and you gain 1 life.
 
 Name:   Go for the Throat
@@ -2830,7 +2916,7 @@ Whenever Goblin Assassin or another Goblin enters the battlefield, each player f
 Name:   Goblin Assault
 Cost:   2R
 Type:   Enchantment
-S/R:    ALA-R
+S/R:    ALA-R, MM3-U
 At the beginning of your upkeep, create a 1/1 red Goblin creature token with haste.
 Goblin creatures attack each turn if able.
 
@@ -3042,7 +3128,7 @@ Name:   Goblin Electromancer
 Cost:   UR
 Type:   Creature — Goblin Wizard
 P/T:    2/2
-S/R:    RTR-C, C15-C, DDJ-C
+S/R:    RTR-C, C15-C, MM3-C, DDJ-C, DDS-C
 Instant and sorcery spells you cast cost {1} less to cast.
 
 Name:   Goblin Elite Infantry
@@ -3195,7 +3281,7 @@ Name:   Goblin Guide
 Cost:   R
 Type:   Creature — Goblin Scout
 P/T:    2/2
-S/R:    ZEN-R
+S/R:    ZEN-R, MM3-R
 Haste
 Whenever Goblin Guide attacks, defending player reveals the top card of his or her library. If it's a land card, that player puts it into his or her hand.
 
@@ -3785,7 +3871,7 @@ Type:   Legendary Artifact — Equipment
 S/R:    JOU-M
 Equipped creature gets +3/+3.
 Whenever equipped creature blocks or becomes blocked by one or more creatures, you may exile one of those creatures.
-Opponents can't cast cards with the same name as cards exiled with Godsend.
+Your opponents can't cast spells with the same name as a card exiled with Godsend.
 Equip {3}
 
 Name:   Godsire
@@ -3997,7 +4083,7 @@ Scavenge {3}{G}{G} ({3}{G}{G}, Exile this card from your graveyard: Put a number
 Name:   Golgari Germination
 Cost:   1BG
 Type:   Enchantment
-S/R:    RAV-U, DDJ-U
+S/R:    RAV-U, MM3-U, DDJ-U
 Whenever a nontoken creature you control dies, create a 1/1 green Saproling creature token.
 
 Name:   Golgari Grave-Troll
@@ -4011,7 +4097,7 @@ Dredge 6 (If you would draw a card, instead you may put exactly six cards from t
 
 Name:   Golgari Guildgate
 Type:   Land — Gate
-S/R:    RTR-C, DGM-C, C13-C, C15-C, DDM-C
+S/R:    RTR-C, DGM-C, C13-C, C15-C, MM3-C, DDM-C
 Golgari Guildgate enters the battlefield tapped.
 {T}: Add {B} or {G} to your mana pool.
 
@@ -4047,13 +4133,13 @@ Name:   Golgari Rotwurm
 Cost:   3BG
 Type:   Creature — Zombie Wurm
 P/T:    5/4
-S/R:    RAV-C, DDJ-C
+S/R:    RAV-C, MM3-C, DDJ-C
 {B}, Sacrifice a creature: Target player loses 1 life.
 
 Name:   Golgari Signet
 Cost:   2
 Type:   Artifact
-S/R:    RAV-C, CMD-C, C15-C, C16-C, DDJ-C
+S/R:    RAV-C, CMD-C, C15-C, C16-C, MM3-U, DDJ-C
 {1}, {T}: Add {B}{G} to your mana pool.
 
 Name:   Golgari Thug
@@ -4068,7 +4154,7 @@ Name:   Golgothian Sylex
 Cost:   4
 Type:   Artifact
 S/R:    AQ-R
-{1}, {T}: Each nontoken permanent originally printed in the Antiquities expansion is sacrificed by its controller.
+{1}, {T}: Each nontoken permanent with a name originally printed in the Antiquities expansion is sacrificed by its controller.
 
 Name:   Goliath Beetle
 Cost:   2G
@@ -4160,7 +4246,7 @@ Name:   Gorehorn Minotaurs
 Cost:   2RR
 Type:   Creature — Minotaur Warrior
 P/T:    3/3
-S/R:    M12-C, MM2-C, DDL-C
+S/R:    M12-C, MM2-C, DDL-C, DDS-C
 Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
 
 Name:   Goretusk Firebeast
@@ -4318,10 +4404,17 @@ S/R:    OD-R
 Plainswalk (This creature can't be blocked as long as defending player controls a Plains.)
 Whenever Graceful Antelope deals combat damage to a player, you may have target land become a Plains until Graceful Antelope leaves the battlefield.
 
+Name:   Graceful Cat
+Cost:   2W
+Type:   Creature — Cat
+P/T:    2/2
+S/R:    AKH-C
+Whenever Graceful Cat attacks, it gets +1/+1 until end of turn.
+
 Name:   Graceful Reprieve
 Cost:   1W
 Type:   Instant
-S/R:    MOR-U
+S/R:    MOR-U, MM3-C
 When target creature dies this turn, return that card to the battlefield under its owner's control.
 
 Name:   Graf Harvest
@@ -4351,9 +4444,9 @@ At the beginning of combat on your turn, if you both own and control Graf Rats a
 Name:   Grafdigger's Cage
 Cost:   1
 Type:   Artifact
-S/R:    DKA-R
+S/R:    DKA-R, MM3-R
 Creature cards can't enter the battlefield from graveyards or libraries.
-Players can't cast cards in graveyards or libraries.
+Players can't cast spells from graveyards or libraries.
 
 Name:   Grafted Exoskeleton
 Cost:   4
@@ -4462,7 +4555,7 @@ Destroy each nonland artifact with converted mana cost 4 or less.
 Name:   Grapeshot
 Cost:   1R
 Type:   Sorcery
-S/R:    TSP-C, MMA-C
+S/R:    TSP-C, MMA-C, DDS-C
 Grapeshot deals 1 damage to target creature or player.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 
@@ -4509,7 +4602,7 @@ When Grasp of Fate enters the battlefield, for each opponent, exile up to one ta
 Name:   Grasp of Phantoms
 Cost:   3U
 Type:   Sorcery
-S/R:    ISD-U
+S/R:    ISD-U, MM3-C
 Put target creature on top of its owner's library.
 Flashback {7}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -4519,6 +4612,12 @@ Type:   Enchantment — Aura
 S/R:    ORI-C
 Enchant creature
 Enchanted creature gets +1/+1 and has "Whenever this creature attacks, tap target creature defending player controls."
+
+Name:   Grasping Dunes
+Type:   Land — Desert
+S/R:    AKH-U
+{T}: Add {C} to your mana pool.
+{1}, {T}, Sacrifice Grasping Dunes: Put a -1/-1 counter on target creature. Activate this ability only any time you could cast a sorcery.
 
 Name:   Grassland Crusader
 Cost:   5W
@@ -4693,7 +4792,7 @@ Name:   Gravedigger
 Cost:   3B
 Type:   Creature — Zombie
 P/T:    2/2
-S/R:    P1-U, TE-C, 6E-C, S99-U, 7E-C, OD-C, 8ED-C, 9ED-C, 10E-C, M10-C, HOP-C, M11-C, CMD-C, M12-C, M15-U, EMA-C
+S/R:    P1-U, TE-C, 6E-C, S99-U, 7E-C, OD-C, 8ED-C, 9ED-C, 10E-C, M10-C, HOP-C, M11-C, CMD-C, M12-C, M15-U, EMA-C, AKH-U
 When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.
 
 Name:   Gravegouger
@@ -4842,7 +4941,7 @@ Whenever Graypelt Hunter or another Ally enters the battlefield under your contr
 
 Name:   Graypelt Refuge
 Type:   Land
-S/R:    ZEN-U, ARC-U, PC2-U, DDH-U, DDP-U
+S/R:    ZEN-U, ARC-U, PC2-U, PCA-U, DDH-U, DDP-U
 Graypelt Refuge enters the battlefield tapped.
 When Graypelt Refuge enters the battlefield, you gain 1 life.
 {T}: Add {G} or {W} to your mana pool.
@@ -4992,6 +5091,14 @@ Cost:   1W
 Type:   Enchantment
 S/R:    LE-U, 5E-U, MED-U
 {1}{W}: The next time a black or red source of your choice would deal damage to you this turn, prevent that damage.
+
+Name:   Greater Sandwurm
+Cost:   5GG
+Type:   Creature — Wurm
+P/T:    7/7
+S/R:    AKH-C
+Greater Sandwurm can't be blocked by creatures with power 2 or less.
+Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Greater Stone Spirit
 Cost:   4RR
@@ -5308,7 +5415,7 @@ Name:   Grim Haruspex
 Cost:   2B
 Type:   Creature — Human Wizard
 P/T:    3/2
-S/R:    KTK-R, FRF-R
+S/R:    KTK-R, FRF_UGIN-R
 Morph {B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 Whenever another nontoken creature you control dies, draw a card.
 
@@ -5362,6 +5469,13 @@ P/T:    1/1
 S/R:    RTR-C
 Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
 {1}{B}: Regenerate Grim Roustabout.
+
+Name:   Grim Strider
+Cost:   3B
+Type:   Creature — Horror
+P/T:    6/6
+S/R:    AKH-U
+Grim Strider gets -1/-1 for each card in your hand.
 
 Name:   Grim Tutor
 Cost:   1BB
@@ -5419,7 +5533,7 @@ Whenever an artifact enters the battlefield, you may untap Grinding Station.
 Name:   Grindstone
 Cost:   1
 Type:   Artifact
-S/R:    TE-R, MPS-S
+S/R:    TE-R, MPS_KLD-S
 {3}, {T}: Target player puts the top two cards of his or her library into his or her graveyard. If both cards share a color, repeat this process.
 
 Name:   Grinning Demon
@@ -5487,7 +5601,7 @@ Name:   Griselbrand
 Cost:   4BBBB
 Type:   Legendary Creature — Demon
 P/T:    7/7
-S/R:    AVR-M
+S/R:    AVR-M, MM3-M
 Flying, lifelink
 Pay 7 life: Draw seven cards.
 
@@ -5508,7 +5622,7 @@ Reveal the top five cards of your library. You may put a creature or land card f
 Name:   Grisly Spectacle
 Cost:   2BB
 Type:   Instant
-S/R:    GTC-C, DDM-C
+S/R:    GTC-C, MM3-C, DDM-C
 Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature's power from the top of his or her library into his or her graveyard.
 
 Name:   Grisly Transformation
@@ -5575,7 +5689,7 @@ Name:   Grixis Slavedriver
 Cost:   5B
 Type:   Creature — Zombie Giant
 P/T:    4/4
-S/R:    CON-U
+S/R:    CON-U, MM3-C
 When Grixis Slavedriver leaves the battlefield, create a 2/2 black Zombie creature token.
 Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
@@ -5677,7 +5791,7 @@ Target creature gets +3/+1 and gains lifelink until end of turn. (Damage dealt b
 Name:   Ground Assault
 Cost:   RG
 Type:   Sorcery
-S/R:    GTC-U
+S/R:    GTC-U, MM3-C
 Ground Assault deals damage to target creature equal to the number of lands you control.
 
 Name:   Ground Rift
@@ -5837,7 +5951,7 @@ S/R:    DGM-C
 
 Name:   Gruul Guildgate
 Type:   Land — Gate
-S/R:    GTC-C, DGM-C, C13-C
+S/R:    GTC-C, DGM-C, C13-C, MM3-C
 Gruul Guildgate enters the battlefield tapped.
 {T}: Add {R} or {G} to your mana pool.
 
@@ -5881,12 +5995,12 @@ When Gruul Scrapper enters the battlefield, if {R} was spent to cast Gruul Scrap
 Name:   Gruul Signet
 Cost:   2
 Type:   Artifact
-S/R:    GPT-C, ARC-C, CMD-C, C16-C
+S/R:    GPT-C, ARC-C, CMD-C, C16-C, MM3-U
 {1}, {T}: Add {R}{G} to your mana pool.
 
 Name:   Gruul Turf
 Type:   Land
-S/R:    GPT-C, HOP-C, CMD-C, PC2-C, MM2-U, C16-U
+S/R:    GPT-C, HOP-C, CMD-C, PC2-C, MM2-U, C16-U, PCA-C
 Gruul Turf enters the battlefield tapped.
 When Gruul Turf enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {R}{G} to your mana pool.
@@ -5894,8 +6008,8 @@ When Gruul Turf enters the battlefield, return a land you control to its owner's
 Name:   Gruul War Chant
 Cost:   2RG
 Type:   Enchantment
-S/R:    DGM-U, CN2-U
-Attacking creatures you control get +1/+0 and have menace. (They can't be blocked except by two or more creatures.)
+S/R:    DGM-U, CN2-U, MM3-U
+Attacking creatures you control get +1/+0 and have menace.
 
 Name:   Gruul War Plow
 Cost:   4
@@ -5952,7 +6066,7 @@ Name:   Guard Gomazoa
 Cost:   2U
 Type:   Creature — Jellyfish
 P/T:    1/3
-S/R:    ROE-U, CMD-U, PC2-U, C13-U
+S/R:    ROE-U, CMD-U, PC2-U, C13-U, PCA-U
 Defender, flying
 Prevent all combat damage that would be dealt to Guard Gomazoa.
 
@@ -6245,6 +6359,13 @@ S/R:    MM-C, VMA-U, DD2-C
 You may return two Islands you control to their owner's hand rather than pay Gush's mana cost.
 Draw two cards.
 
+Name:   Gust Walker
+Cost:   1W
+Type:   Creature — Human Wizard
+P/T:    2/2
+S/R:    AKH-C
+You may exert Gust Walker as it attacks. When you do, it gets +1/+1 and gains flying until end of turn. (An exerted creature won't untap during your next untap step.)
+
 Name:   Gust-Skimmer
 Cost:   2
 Type:   Artifact Creature — Insect
@@ -6351,7 +6472,7 @@ Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to eac
 Name:   Guttural Response
 Cost:   (R/G)
 Type:   Instant
-S/R:    SHM-U
+S/R:    SHM-U, DDS-U
 Counter target blue instant spell.
 
 Name:   Gutwrencher Oni

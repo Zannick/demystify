@@ -222,6 +222,14 @@ Other white creatures you control get +1/+1.
 Whenever you cast a red spell, Balefire Liege deals 3 damage to target player.
 Whenever you cast a white spell, you gain 3 life.
 
+Name:   Baleful Ammit
+Cost:   2B
+Type:   Creature — Crocodile Demon
+P/T:    4/3
+S/R:    AKH-U
+Lifelink
+When Baleful Ammit enters the battlefield, put a -1/-1 counter on target creature you control.
+
 Name:   Baleful Eidolon
 Cost:   1B
 Type:   Enchantment Creature — Spirit
@@ -248,7 +256,7 @@ Name:   Baleful Strix
 Cost:   UB
 Type:   Artifact Creature — Bird
 P/T:    1/1
-S/R:    PC2-U, C13-U, EMA-R, C16-U, VMA-R
+S/R:    PC2-U, C13-U, EMA-R, C16-U, PCA-U, VMA-R
 Flying, deathtouch
 When Baleful Strix enters the battlefield, draw a card.
 
@@ -324,7 +332,7 @@ S/R:    FE-R
 Name:   Baloth Cage Trap
 Cost:   3GG
 Type:   Instant — Trap
-S/R:    ZEN-U
+S/R:    ZEN-U, MM3-U
 If an opponent had an artifact enter the battlefield under his or her control this turn, you may pay {1}{G} rather than pay Baloth Cage Trap's mana cost.
 Create a 4/4 green Beast creature token.
 
@@ -505,7 +513,7 @@ When Banishing Light enters the battlefield, exile target nonland permanent an o
 Name:   Banishing Stroke
 Cost:   5W
 Type:   Instant
-S/R:    AVR-U
+S/R:    AVR-U, MM3-U
 Put target artifact, creature, or enchantment on the bottom of its owner's library.
 Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
@@ -1000,7 +1008,7 @@ Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent
 Name:   Basilisk Collar
 Cost:   1
 Type:   Artifact — Equipment
-S/R:    WWK-R
+S/R:    WWK-R, MM3-R
 Equipped creature has deathtouch and lifelink.
 Equip {2}
 
@@ -1246,7 +1254,7 @@ Name:   Battle-Rattle Shaman
 Cost:   3R
 Type:   Creature — Goblin Shaman
 P/T:    2/2
-S/R:    ROE-C
+S/R:    ROE-C, MM3-C
 At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.
 
 Name:   Battlefield Forge
@@ -1270,6 +1278,14 @@ S/R:    NE-U
 Flying
 Battlefield Percher can block only creatures with flying.
 {1}{B}: Battlefield Percher gets +1/+1 until end of turn.
+
+Name:   Battlefield Scavenger
+Cost:   1R
+Type:   Creature — Jackal Rogue
+P/T:    2/2
+S/R:    AKH-U
+You may exert Battlefield Scavenger as it attacks. (It won't untap during your next untap step.)
+Whenever you exert a creature, you may discard a card. If you do, draw a card.
 
 Name:   Battlefield Scrounger
 Cost:   3GG
@@ -1451,7 +1467,7 @@ S/R:    LGN-R
 Name:   Beacon of Destruction
 Cost:   3RR
 Type:   Instant
-S/R:    5DN-R, 10E-R
+S/R:    5DN-R, 10E-R, DDS-R
 Beacon of Destruction deals 5 damage to target creature or player. Shuffle Beacon of Destruction into its owner's library.
 
 Name:   Beacon of Immortality
@@ -1463,7 +1479,7 @@ Double target player's life total. Shuffle Beacon of Immortality into its owner'
 Name:   Beacon of Tomorrows
 Cost:   6UU
 Type:   Sorcery
-S/R:    5DN-R
+S/R:    5DN-R, DDS-R
 Target player takes an extra turn after this one. Shuffle Beacon of Tomorrows into its owner's library.
 
 Name:   Beacon of Unrest
@@ -1529,7 +1545,7 @@ S/R:    OD-R
 Name:   Beast Attack
 Cost:   2GGG
 Type:   Instant
-S/R:    OD-U, DDD-U
+S/R:    OD-U, DDD-U, DDS-U
 Create a 4/4 green Beast creature token.
 Flashback {2}{G}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -1549,7 +1565,7 @@ S/R:    HL-R
 Name:   Beast Within
 Cost:   2G
 Type:   Instant
-S/R:    NPH-U, PC2-U, CN2-U, C16-U, DDL-U
+S/R:    NPH-U, PC2-U, CN2-U, C16-U, PCA-U, DDL-U
 Destroy target permanent. Its controller creates a 3/3 green Beast creature token.
 
 Name:   Beast of Burden
@@ -1646,7 +1662,7 @@ Name:   Beetleback Chief
 Cost:   2RR
 Type:   Creature — Goblin Warrior
 P/T:    2/2
-S/R:    PC2-U, C14-U, EMA-U, VMA-C, DDN-U
+S/R:    PC2-U, C14-U, EMA-U, PCA-U, VMA-C, DDN-U
 When Beetleback Chief enters the battlefield, create two 1/1 red Goblin creature tokens.
 
 Name:   Beetleform Mage
@@ -1907,6 +1923,12 @@ You gain 1 life for each player.
 Haunt (When this spell card is put into a graveyard after resolving, exile it haunting target creature.)
 When the creature Benediction of Moons haunts dies, you gain 1 life for each player.
 
+Name:   Benefaction of Rhonas
+Cost:   2G
+Type:   Sorcery
+S/R:    AKH-C
+Reveal the top five cards of your library. You may put a creature card and/or an enchantment card from among them into your hand. Put the rest into your graveyard.
+
 Name:   Benefactor's Draught
 Cost:   1G
 Type:   Instant
@@ -2144,6 +2166,13 @@ At the beginning of your upkeep, sacrifice Binding Grasp unless you pay {1}{U}.
 You control enchanted creature.
 Enchanted creature gets +0/+1.
 
+Name:   Binding Mummy
+Cost:   1W
+Type:   Creature — Zombie
+P/T:    2/2
+S/R:    AKH-C
+Whenever another Zombie enters the battlefield under your control, you may tap target artifact or creature.
+
 Name:   Biomantic Mastery
 Cost:   4(G/U)(G/U)(G/U)
 Type:   Sorcery
@@ -2262,6 +2291,13 @@ Type:   Sorcery
 S/R:    KTK-C
 Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life.
 
+Name:   Bitterblade Warrior
+Cost:   1G
+Type:   Creature — Jackal Warrior
+P/T:    2/2
+S/R:    AKH-C
+You may exert Bitterblade Warrior as it attacks. When you do, it gets +1/+0 and gains deathtouch until end of turn. (An exerted creature won't untap during your next untap step.)
+
 Name:   Bitterblossom
 Cost:   1B
 Type:   Tribal Enchantment — Faerie
@@ -2279,7 +2315,7 @@ When Bitterheart Witch dies, you may search your library for a Curse card, put i
 Name:   Bituminous Blast
 Cost:   3BR
 Type:   Instant
-S/R:    ARB-U, ARC-U, PC2-U, C16-U
+S/R:    ARB-U, ARC-U, PC2-U, C16-U, PCA-U
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 Bituminous Blast deals 4 damage to target creature.
 
@@ -2359,7 +2395,7 @@ Put X -1/-1 counters on each creature. Shuffle Black Sun's Zenith into its owner
 Name:   Black Vise
 Cost:   1
 Type:   Artifact
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, MPS-S, ME3-R, V10-M
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, MPS_KLD-S, ME3-R, V10-M
 As Black Vise enters the battlefield, choose an opponent.
 At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.
 
@@ -2401,7 +2437,7 @@ Name:   Blade Splicer
 Cost:   2W
 Type:   Creature — Human Artificer
 P/T:    1/1
-S/R:    NPH-R
+S/R:    NPH-R, MM3-R
 When Blade Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.
 Golem creatures you control have first strike.
 
@@ -2652,6 +2688,12 @@ Equipped creature can't be blocked by Vampires or Zombies.
 Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to target creature or player."
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 
+Name:   Blazing Volley
+Cost:   R
+Type:   Sorcery
+S/R:    AKH-C
+Blazing Volley deals 1 damage to each creature your opponents control.
+
 Name:   Bleak Coven Vampires
 Cost:   3BB
 Type:   Creature — Vampire Warrior
@@ -2790,6 +2832,14 @@ P/T:    1/1
 S/R:    NPH-C
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 Blighted Agent can't be blocked.
+
+Name:   Blighted Bat
+Cost:   2B
+Type:   Creature — Zombie Bat
+P/T:    2/1
+S/R:    AKH-C
+Flying
+{1}: Blighted Bat gains haste until end of turn.
 
 Name:   Blighted Cataract
 Type:   Land
@@ -3259,7 +3309,7 @@ At the beginning of combat on your turn, target creature you control gains doubl
 Name:   Blood Moon
 Cost:   2R
 Type:   Enchantment
-S/R:    DK-R, CH-R, 8ED-R, 9ED-R, MMA-R
+S/R:    DK-R, CH-R, 8ED-R, 9ED-R, MMA-R, MM3-R
 Nonbasic lands are Mountains.
 
 Name:   Blood Oath
@@ -3398,7 +3448,7 @@ Name:   Bloodbraid Elf
 Cost:   2RG
 Type:   Creature — Elf Berserker
 P/T:    3/2
-S/R:    ARB-U, PC2-U, EMA-U, C16-U
+S/R:    ARB-U, PC2-U, EMA-U, C16-U, PCA-U
 Haste
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 
@@ -3429,7 +3479,7 @@ Type:   Creature — Human Soldier
 P/T:    2/1
 S/R:    JOU-C
 Heroic — Whenever you cast a spell that targets Bloodcrazed Hoplite, put a +1/+1 counter on it.
-Whenever a +1/+1 counter is placed on Bloodcrazed Hoplite, remove a +1/+1 counter from target creature an opponent controls.
+Whenever a +1/+1 counter is put on Bloodcrazed Hoplite, remove a +1/+1 counter from target creature an opponent controls.
 
 Name:   Bloodcrazed Neonate
 Cost:   1R
@@ -3562,7 +3612,7 @@ Name:   Bloodhunter Bat
 Cost:   3B
 Type:   Creature — Bat
 P/T:    2/2
-S/R:    M13-C
+S/R:    M13-C, W17-C
 Flying
 When Bloodhunter Bat enters the battlefield, target player loses 2 life and you gain 2 life.
 
@@ -3616,6 +3666,13 @@ Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters t
 Flying
 Whenever you cast a Vampire creature spell, it gains bloodthirst 3.
 
+Name:   Bloodlust Inciter
+Cost:   R
+Type:   Creature — Human Warrior
+P/T:    1/1
+S/R:    AKH-C
+{T}: Target creature gains haste until end of turn.
+
 Name:   Bloodmad Vampire
 Cost:   2R
 Type:   Creature — Vampire Berserker
@@ -3637,6 +3694,13 @@ Type:   Creature — Elemental
 P/T:    4/1
 S/R:    ALA-C
 Sacrifice Bloodpyre Elemental: Bloodpyre Elemental deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.
+
+Name:   Bloodrage Brawler
+Cost:   1R
+Type:   Creature — Minotaur Warrior
+P/T:    4/3
+S/R:    AKH-U
+When Bloodrage Brawler enters the battlefield, discard a card.
 
 Name:   Bloodrage Vampire
 Cost:   2B
@@ -3869,7 +3933,7 @@ S/R:    MM-U
 Name:   Boar Umbra
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    ROE-U, PC2-U
+S/R:    ROE-U, PC2-U, PCA-U
 Enchant creature
 Enchanted creature gets +3/+3.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
@@ -4216,7 +4280,7 @@ Name:   Boldwyr Intimidator
 Cost:   5RR
 Type:   Creature — Giant Warrior
 P/T:    5/5
-S/R:    FUT-U, MOR-U, CNS-U
+S/R:    FUT-U, MOR-U, CNS-U, DDS-U
 Cowards can't block Warriors.
 {R}: Target creature becomes a Coward until end of turn.
 {2}{R}: Target creature becomes a Warrior until end of turn.
@@ -4345,6 +4409,14 @@ Type:   Artifact
 S/R:    MI-R
 {2}, {T}: The next time a source of your choice would deal damage to you this turn, prevent that damage. Exile cards from the top of your library equal to the damage prevented this way.
 
+Name:   Bone Picker
+Cost:   3B
+Type:   Creature — Bird
+P/T:    3/2
+S/R:    AKH-U
+Bone Picker costs {3} less to cast if a creature died this turn.
+Flying, deathtouch
+
 Name:   Bone Saw
 Cost:   0
 Type:   Artifact — Equipment
@@ -4371,7 +4443,7 @@ When Bone Shredder enters the battlefield, destroy target nonartifact, nonblack 
 Name:   Bone Splinters
 Cost:   B
 Type:   Sorcery
-S/R:    ALA-C, AVR-C, MM2-C, BFZ-C, DDN-C
+S/R:    ALA-C, AVR-C, MM2-C, BFZ-C, MM3-C, DDN-C
 As an additional cost to cast Bone Splinters, sacrifice a creature.
 Destroy target creature.
 
@@ -4450,17 +4522,33 @@ Boneyard Wurm's power and toughness are each equal to the number of creature car
 Name:   Bonfire of the Damned
 Cost:   XXR
 Type:   Sorcery
-S/R:    AVR-M
+S/R:    AVR-M, MM3-M
 Bonfire of the Damned deals X damage to target player and each creature he or she controls.
 Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
+
+Name:   Bontu the Glorified
+Cost:   2B
+Type:   Legendary Creature — God
+P/T:    4/6
+S/R:    AKH-M, MPS_AKH-S
+Menace, indestructible
+Bontu the Glorified can't attack or block unless a creature died under your control this turn.
+{1}{B}, Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1 life.
+
+Name:   Bontu's Monument
+Cost:   3
+Type:   Legendary Artifact
+S/R:    AKH-U
+Black creature spells you cast cost {1} less to cast.
+Whenever you cast a creature spell, each opponent loses 1 life and you gain 1 life.
 
 Name:   Booby Trap
 Cost:   6
 Type:   Artifact
 S/R:    TE-R, 9ED-R
-As Booby Trap enters the battlefield, name a card other than a basic land card and choose an opponent.
+As Booby Trap enters the battlefield, choose an opponent and a card name other than a basic land card name.
 The chosen player reveals each card he or she draws.
-When the chosen player draws the named card, sacrifice Booby Trap. If you do, Booby Trap deals 10 damage to that player.
+When the chosen player draws a card with the chosen name, sacrifice Booby Trap. If you do, Booby Trap deals 10 damage to that player.
 
 Name:   Book Burning
 Cost:   1R
@@ -4674,7 +4762,7 @@ When Boros Garrison enters the battlefield, return a land you control to its own
 
 Name:   Boros Guildgate
 Type:   Land — Gate
-S/R:    GTC-C, DGM-C, C13-C, C15-C, DDL-C
+S/R:    GTC-C, DGM-C, C13-C, C15-C, MM3-C, DDL-C
 Boros Guildgate enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
 
@@ -4704,7 +4792,7 @@ Name:   Boros Reckoner
 Cost:   (R/W)(R/W)(R/W)
 Type:   Creature — Minotaur Wizard
 P/T:    3/3
-S/R:    GTC-R
+S/R:    GTC-R, MM3-R
 Whenever Boros Reckoner is dealt damage, it deals that much damage to target creature or player.
 {(r/w)}: Boros Reckoner gains first strike until end of turn.
 
@@ -4719,7 +4807,7 @@ First strike
 Name:   Boros Signet
 Cost:   2
 Type:   Artifact
-S/R:    RAV-C, HOP-C, CMD-C, C15-C
+S/R:    RAV-C, HOP-C, CMD-C, C15-C, MM3-U
 {1}, {T}: Add {R}{W} to your mana pool.
 
 Name:   Boros Swiftblade
@@ -4921,6 +5009,12 @@ S/R:    AI-U, ME2-R
 You may exile a green card from your hand rather than pay Bounty of the Hunt's mana cost.
 Distribute three +1/+1 counters among one, two, or three target creatures. For each +1/+1 counter you put on a creature this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step.
 
+Name:   Bounty of the Luxa
+Cost:   2GU
+Type:   Enchantment
+S/R:    AKH-R
+At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U} to your mana pool.
+
 Name:   Bow of Nylea
 Cost:   1GG
 Type:   Legendary Enchantment Artifact
@@ -5025,7 +5119,7 @@ Name:   Brain Pry
 Cost:   1B
 Type:   Sorcery
 S/R:    DIS-U
-Name a nonland card. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card.
+Choose a nonland card name. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card.
 
 Name:   Brain Weevil
 Cost:   3B
@@ -5086,7 +5180,7 @@ Name:   Bramble Elemental
 Cost:   3GG
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    RAV-C, PC2-C
+S/R:    RAV-C, PC2-C, PCA-C
 Whenever an Aura becomes attached to Bramble Elemental, create two 1/1 green Saproling creature tokens.
 
 Name:   Bramblecrush
@@ -5501,7 +5595,7 @@ When Briarpack Alpha enters the battlefield, target creature gets +2/+2 until en
 Name:   Briber's Purse
 Cost:   X
 Type:   Artifact
-S/R:    KTK-U, FRF-U
+S/R:    KTK-U, FRF_UGIN-U
 Briber's Purse enters the battlefield with X gem counters on it.
 {1}, {T}, Remove a gem counter from Briber's Purse: Target creature can't attack or block this turn.
 
@@ -5615,7 +5709,7 @@ Name:   Brindle Shoat
 Cost:   1G
 Type:   Creature — Boar
 P/T:    1/1
-S/R:    PC2-U, VMA-C
+S/R:    PC2-U, PCA-U, VMA-C
 When Brindle Shoat dies, create a 3/3 green Boar creature token.
 
 Name:   Brine Elemental
@@ -5813,7 +5907,7 @@ Name:   Bronzebeak Moa
 Cost:   2GW
 Type:   Creature — Bird
 P/T:    2/2
-S/R:    DGM-U
+S/R:    DGM-U, MM3-U
 Whenever another creature enters the battlefield under your control, Bronzebeak Moa gets +3/+3 until end of turn.
 
 Name:   Brood Birthing
@@ -5893,7 +5987,7 @@ Name:   Broodmate Dragon
 Cost:   3BRG
 Type:   Creature — Dragon
 P/T:    4/4
-S/R:    ALA-R
+S/R:    ALA-R, MM3-R
 Flying
 When Broodmate Dragon enters the battlefield, create a 4/4 red Dragon creature token with flying.
 
@@ -6045,7 +6139,7 @@ Name:   Brutalizer Exarch
 Cost:   5G
 Type:   Creature — Cleric
 P/T:    3/3
-S/R:    NPH-U, PC2-U
+S/R:    NPH-U, PC2-U, PCA-U
 When Brutalizer Exarch enters the battlefield, choose one —
 • Search your library for a creature card, reveal it, then shuffle your library and put that card on top of it.
 • Put target noncreature permanent on the bottom of its owner's library.
@@ -6059,7 +6153,7 @@ Target creature gets +3/+3 until end of turn.
 Name:   Brute Strength
 Cost:   1R
 Type:   Instant
-S/R:    OGW-C
+S/R:    OGW-C, AKH-C
 Target creature gets +3/+1 and gains trample until end of turn.
 
 Name:   Bubble Matrix
@@ -6362,7 +6456,7 @@ Name:   Burning-Tree Emissary
 Cost:   (R/G)(R/G)
 Type:   Creature — Human Shaman
 P/T:    2/2
-S/R:    GTC-U
+S/R:    GTC-U, MM3-C, DDS-U
 When Burning-Tree Emissary enters the battlefield, add {R}{G} to your mana pool.
 
 Name:   Burning-Tree Shaman
@@ -6516,6 +6610,12 @@ Cost:   2B
 Type:   Instant
 S/R:    DTK-C
 Target creature gets +3/+0 and gains lifelink until end of turn. Regenerate it. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)
+
+Name:   By Force
+Cost:   XR
+Type:   Sorcery
+S/R:    AKH-U
+Destroy X target artifacts.
 
 Name:   Bygone Bishop
 Cost:   2W

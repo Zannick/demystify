@@ -72,9 +72,9 @@ Reveal cards from the top of your library until you reveal an artifact card. Put
 Name:   Madcap Skills
 Cost:   1R
 Type:   Enchantment — Aura
-S/R:    GTC-C
+S/R:    GTC-C, MM3-C
 Enchant creature
-Enchanted creature gets +3/+0 and has menace. (It can't be blocked except by two or more creatures.)
+Enchanted creature gets +3/+0 and has menace.
 
 Name:   Maddening Imp
 Cost:   2B
@@ -125,14 +125,14 @@ The first spell you cast each turn has cascade. (When you cast your first spell,
 Name:   Maelstrom Pulse
 Cost:   1BG
 Type:   Sorcery
-S/R:    ARB-R, MMA-R
+S/R:    ARB-R, MMA-R, MPS_AKH-S
 Destroy target nonland permanent and all other permanents with the same name as that permanent.
 
 Name:   Maelstrom Wanderer
 Cost:   5URG
 Type:   Legendary Creature — Elemental
 P/T:    7/5
-S/R:    PC2-M, EMA-M
+S/R:    PC2-M, EMA-M, PCA-M
 Creatures you control have haste.
 Cascade, cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order. Then do it again.)
 
@@ -298,8 +298,8 @@ When Magma Giant enters the battlefield, it deals 2 damage to each creature and 
 Name:   Magma Jet
 Cost:   1R
 Type:   Instant
-S/R:    5DN-U, THS-U, DD2-U, DDL-U
-Magma Jet deals 2 damage to target creature or player. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+S/R:    5DN-U, THS-U, MM3-C, DD2-U, DDL-U
+Magma Jet deals 2 damage to target creature or player. Scry 2.
 
 Name:   Magma Mine
 Cost:   1
@@ -334,7 +334,7 @@ All Slivers have "{T}: Target Sliver creature gets +X/+0 until end of turn, wher
 Name:   Magma Spray
 Cost:   R
 Type:   Instant
-S/R:    ALA-C, JOU-C, DDJ-C
+S/R:    ALA-C, JOU-C, AKH-C, DDJ-C
 Magma Spray deals 2 damage to target creature. If that creature would die this turn, exile it instead.
 
 Name:   Magma Vein
@@ -552,7 +552,7 @@ Cost:   R
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    TSP-R
-{3}, {T}: Name a card. Reveal a card at random from your hand. If it's the named card, Magus of the Scroll deals 2 damage to target creature or player.
+{3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, Magus of the Scroll deals 2 damage to target creature or player.
 
 Name:   Magus of the Tabernacle
 Cost:   3W
@@ -813,7 +813,7 @@ Whenever enchanted creature blocks or becomes blocked by a creature, the other c
 Name:   Mammoth Umbra
 Cost:   4W
 Type:   Enchantment — Aura
-S/R:    ROE-U, PC2-U
+S/R:    ROE-U, PC2-U, PCA-U
 Enchant creature
 Enchanted creature gets +3/+3 and has vigilance.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
@@ -867,7 +867,7 @@ S/R:    JOU-R, EXP-M
 Name:   Mana Crypt
 Cost:   0
 Type:   Artifact
-S/R:    PROMO-S, EMA-M, MPS-S, VMA-M, ME2-R
+S/R:    PROMO-S, EMA-M, MPS_KLD-S, VMA-M, ME2-R
 At the beginning of your upkeep, flip a coin. If you lose the flip, Mana Crypt deals 3 damage to you.
 {T}: Add {C}{C} to your mana pool.
 
@@ -981,7 +981,7 @@ Lands target player controls don't untap during his or her next untap step.
 Name:   Mana Vault
 Cost:   1
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, MPS-S, VMA-R, ME4-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, MPS_KLD-S, VMA-R, ME4-R
 Mana Vault doesn't untap during your untap step.
 At the beginning of your upkeep, you may pay {4}. If you do, untap Mana Vault.
 At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you.
@@ -1115,6 +1115,14 @@ S/R:    MI-R
 When Mangara's Tome enters the battlefield, search your library for five cards, exile them in a face-down pile, and shuffle that pile. Then shuffle your library.
 {2}: The next time you would draw a card this turn, instead put the top card of the exiled pile into its owner's hand.
 
+Name:   Manglehorn
+Cost:   2G
+Type:   Creature — Beast
+P/T:    2/2
+S/R:    AKH-U
+When Manglehorn enters the battlefield, you may destroy target artifact.
+Artifacts your opponents control enter the battlefield tapped.
+
 Name:   Maniacal Rage
 Cost:   1R
 Type:   Enchantment — Aura
@@ -1196,6 +1204,13 @@ Type:   Creature — Merfolk
 P/T:    1/1
 S/R:    TE-C
 {U}: Manta Riders gains flying until end of turn.
+
+Name:   Manticore of the Gauntlet
+Cost:   4R
+Type:   Creature — Manticore
+P/T:    5/4
+S/R:    AKH-C
+When Manticore of the Gauntlet enters the battlefield, put a -1/-1 counter on target creature you control. Manticore of the Gauntlet deals 3 damage to target opponent.
 
 Name:   Mantis Engine
 Cost:   5
@@ -1562,7 +1577,7 @@ At the beginning of the end step, return Mark of Fury to its owner's hand.
 Name:   Mark of Mutiny
 Cost:   2R
 Type:   Sorcery
-S/R:    ZEN-U, PC2-U, M13-U
+S/R:    ZEN-U, PC2-U, M13-U, PCA-U
 Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn. (It can attack and {T} this turn.)
 
 Name:   Mark of Sakiko
@@ -1718,7 +1733,7 @@ When Marsh Crocodile enters the battlefield, each player discards a card.
 
 Name:   Marsh Flats
 Type:   Land
-S/R:    ZEN-R, EXP-M
+S/R:    ZEN-R, EXP-M, MM3-R
 {T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.
 
 Name:   Marsh Flitter
@@ -2000,7 +2015,7 @@ All creatures have haste.
 Name:   Mass Mutiny
 Cost:   3RR
 Type:   Sorcery
-S/R:    PC2-R, C13-R
+S/R:    PC2-R, C13-R, PCA-R
 For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn.
 
 Name:   Mass Polymorph
@@ -2068,7 +2083,7 @@ Name:   Master Splicer
 Cost:   3W
 Type:   Creature — Human Artificer
 P/T:    1/1
-S/R:    NPH-U
+S/R:    NPH-U, MM3-U
 When Master Splicer enters the battlefield, create a 3/3 colorless Golem artifact creature token.
 Golem creatures you control get +1/+1.
 
@@ -2218,7 +2233,7 @@ You may have Masterwork of Ingenuity enter the battlefield as a copy of any Equi
 Name:   Mastery of the Unseen
 Cost:   1W
 Type:   Enchantment
-S/R:    FRF-R
+S/R:    FRF-R, FRF_UGIN-R
 Whenever a permanent you control is turned face up, you gain 1 life for each creature you control.
 {3}{W}: Manifest the top card of your library. (Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 
@@ -2475,7 +2490,7 @@ Evoke {3}{W} (You may cast this spell for its evoke cost. If you do, it's sacrif
 
 Name:   Meandering River
 Type:   Land
-S/R:    OGW-U
+S/R:    OGW-U, AKH-C
 Meandering River enters the battlefield tapped.
 {T}: Add {W} or {U} to your mana pool.
 
@@ -2512,8 +2527,8 @@ Cost:   WU
 Type:   Creature — Human Wizard
 P/T:    2/2
 S/R:    PS-R, ARB-R
-As Meddling Mage enters the battlefield, name a nonland card.
-The named card can't be cast.
+As Meddling Mage enters the battlefield, choose a nonland card name.
+Spells with the chosen name can't be cast.
 
 Name:   Medicine Bag
 Cost:   3
@@ -2553,7 +2568,7 @@ Medomai the Ageless can't attack during extra turns.
 Name:   Meekstone
 Cost:   1
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, MPS-S
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, MPS_KLD-S
 Creatures with power 3 or greater don't untap during their controllers' untap steps.
 
 Name:   Megantic Sliver
@@ -2650,7 +2665,7 @@ Cost:   4G
 Type:   Creature — Human Warrior
 P/T:    4/4
 S/R:    MBS-U
-Melira's Keepers can't have counters placed on it.
+Melira's Keepers can't have counters put on it.
 
 Name:   Melira, Sylvok Outcast
 Cost:   1G
@@ -2658,7 +2673,7 @@ Type:   Legendary Creature — Human Scout
 P/T:    2/2
 S/R:    NPH-R
 You can't get poison counters.
-Creatures you control can't have -1/-1 counters placed on them.
+Creatures you control can't have -1/-1 counters put on them.
 Creatures your opponents control lose infect.
 
 Name:   Meloku the Clouded Mirror
@@ -2705,7 +2720,16 @@ Name:   Memoricide
 Cost:   3B
 Type:   Sorcery
 S/R:    SOM-R
-Name a nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.
+Choose a nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.
+
+Name:   Memory
+Cost:   4UU
+Type:   Sorcery
+M-type: Split
+M-card: Commit
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards.
 
 Name:   Memory Crystal
 Cost:   3
@@ -2949,6 +2973,13 @@ Type:   Creature — Orc Warrior
 P/T:    3/1
 S/R:    FRF-U
 When Merciless Executioner enters the battlefield, each player sacrifices a creature.
+
+Name:   Merciless Javelineer
+Cost:   2BR
+Type:   Creature — Minotaur Warrior
+P/T:    4/2
+S/R:    AKH-U
+{2}, Discard a card: Put a -1/-1 counter on target creature. That creature can't block this turn.
 
 Name:   Merciless Predator
 Type:   Creature — Werewolf
@@ -3451,6 +3482,13 @@ S/R:    GTC-C
 Flying
 {U}: Metropolis Sprite gets +1/-1 until end of turn.
 
+Name:   Miasmic Mummy
+Cost:   1B
+Type:   Creature — Zombie Jackal
+P/T:    2/2
+S/R:    AKH-C
+When Miasmic Mummy enters the battlefield, each player discards a card.
+
 Name:   Michiko Konda, Truth Seeker
 Cost:   3W
 Type:   Legendary Creature — Human Advisor
@@ -3599,7 +3637,7 @@ Target creature gets +7/+7 until end of turn.
 Name:   Might of Old Krosa
 Cost:   G
 Type:   Instant
-S/R:    TSP-U
+S/R:    TSP-U, MM3-U
 Target creature gets +2/+2 until end of turn. If you cast this spell during your main phase, that creature gets +4/+4 until end of turn instead.
 
 Name:   Might of the Masses
@@ -3629,7 +3667,7 @@ Whenever a creature with power 5 or greater enters the battlefield under your co
 Name:   Mighty Leap
 Cost:   1W
 Type:   Instant
-S/R:    M11-C, M12-C, MM2-C, ORI-C, OGW-C, DDF-C, DDG-C, DDO-C
+S/R:    M11-C, M12-C, MM2-C, ORI-C, OGW-C, AKH-C, DDF-C, DDG-C, DDO-C
 Target creature gets +2/+2 and gains flying until end of turn.
 
 Name:   Migratory Route
@@ -3772,6 +3810,15 @@ S/R:    CHK-R
 {T}: Add {U} to your mana pool.
 {U}, {T}: Untap target legendary permanent.
 
+Name:   Mind
+Cost:   4UU
+Type:   Instant
+M-type: Split
+M-card: Spring
+S/R:    AKH-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Draw two cards.
+
 Name:   Mind Bend
 Cost:   U
 Type:   Instant
@@ -3887,7 +3934,7 @@ Target opponent puts the top seven cards of his or her library into his or her g
 Name:   Mind Shatter
 Cost:   XBB
 Type:   Sorcery
-S/R:    MOR-R, M10-R
+S/R:    MOR-R, M10-R, MM3-R
 Target player discards X cards at random.
 
 Name:   Mind Slash
@@ -3925,7 +3972,7 @@ Each player exiles two cards from his or her hand.
 Name:   Mind Twist
 Cost:   XB
 Type:   Sorcery
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, ME3-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, MPS_AKH-S, ME3-R
 Target player discards X cards at random.
 
 Name:   Mind Unbound
@@ -3950,7 +3997,7 @@ At the beginning of the upkeep of enchanted creature's controller, that player m
 Name:   Mind's Desire
 Cost:   4UU
 Type:   Sorcery
-S/R:    SCG-R, VMA-R, V16-M
+S/R:    SCG-R, VMA-R, DDS-R, V16-M
 Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. (If it has X in its mana cost, X is 0.)
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)
 
@@ -3963,7 +4010,7 @@ Whenever an opponent casts his or her first spell each turn, that player exiles 
 Name:   Mind's Eye
 Cost:   5
 Type:   Artifact
-S/R:    MRD-R, MPS-S
+S/R:    MRD-R, MPS_KLD-S
 Whenever an opponent draws a card, you may pay {1}. If you do, draw a card.
 
 Name:   Mindbender Spores
@@ -3979,7 +4026,7 @@ Name:   Mindblaze
 Cost:   5R
 Type:   Sorcery
 S/R:    CHK-R
-Name a nonland card and choose a number greater than 0. Target player reveals his or her library. If that library contains exactly the chosen number of the named card, Mindblaze deals 8 damage to that player. Then that player shuffles his or her library.
+Choose a nonland card name and a number greater than 0. Target player reveals his or her library. If that library contains exactly the chosen number of cards with the chosen name, Mindblaze deals 8 damage to that player. Then that player shuffles his or her library.
 
 Name:   Mindbreak Trap
 Cost:   2UU
@@ -4310,6 +4357,14 @@ P/T:    2/2
 S/R:    THS-C
 Haste
 When Minotaur Skullcleaver enters the battlefield, it gets +2/+0 until end of turn.
+
+Name:   Minotaur Sureshot
+Cost:   2R
+Type:   Creature — Minotaur Archer
+P/T:    2/3
+S/R:    AKH-C
+Reach (This creature can block creatures with flying.)
+{1}{R}: Minotaur Sureshot gets +1/+0 until end of turn.
 
 Name:   Minotaur Tactician
 Cost:   3R
@@ -4665,7 +4720,7 @@ S/R:    CSP-U
 
 Name:   Mishra's Factory
 Type:   Land
-S/R:    AQ-R, AQ-U, 4E-U, EMA-U, DDF-U, MED-U
+S/R:    AQ-U, 4E-U, EMA-U, DDF-U, MED-U
 {T}: Add {C} to your mana pool.
 {1}: Mishra's Factory becomes a 2/2 Assembly-Worker artifact creature until end of turn. It's still a land.
 {T}: Target Assembly-Worker creature gets +1/+1 until end of turn.
@@ -4750,7 +4805,7 @@ Name:   Mist Raven
 Cost:   2UU
 Type:   Creature — Bird
 P/T:    2/2
-S/R:    AVR-C, DDQ-C
+S/R:    AVR-C, MM3-C, DDQ-C
 Flying
 When Mist Raven enters the battlefield, return target creature to its owner's hand.
 
@@ -4775,7 +4830,7 @@ Name:   Mistblade Shinobi
 Cost:   2U
 Type:   Creature — Human Ninja
 P/T:    1/1
-S/R:    BOK-C, PC2-C
+S/R:    BOK-C, PC2-C, PCA-C
 Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Mistblade Shinobi deals combat damage to a player, you may return target creature that player controls to its owner's hand.
 
@@ -4934,7 +4989,7 @@ Name:   Mistmeadow Witch
 Cost:   1(W/U)
 Type:   Creature — Kithkin Wizard
 P/T:    1/1
-S/R:    SHM-U, C13-U, DDI-U
+S/R:    SHM-U, C13-U, MM3-U, DDI-U
 {2}{W}{U}: Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 
 Name:   Mistmoon Griffin
@@ -4969,7 +5024,7 @@ Mistvein Borderpost enters the battlefield tapped.
 
 Name:   Misty Rainforest
 Type:   Land
-S/R:    ZEN-R, EXP-M
+S/R:    ZEN-R, EXP-M, MM3-R
 {T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card and put it onto the battlefield. Then shuffle your library.
 
 Name:   Mitotic Manipulation
@@ -4982,7 +5037,7 @@ Name:   Mitotic Slime
 Cost:   4G
 Type:   Creature — Ooze
 P/T:    4/4
-S/R:    M11-R, PC2-R
+S/R:    M11-R, PC2-R, PCA-R
 When Mitotic Slime dies, create two 2/2 green Ooze creature tokens. They have "When this creature dies, create two 1/1 green Ooze creature tokens."
 
 Name:   Mizzium Meddler
@@ -4996,7 +5051,7 @@ When Mizzium Meddler enters the battlefield, you may change a target of target s
 Name:   Mizzium Mortars
 Cost:   1R
 Type:   Sorcery
-S/R:    RTR-R, C15-R
+S/R:    RTR-R, C15-R, MM3-R
 Mizzium Mortars deals 4 damage to target creature you don't control.
 Overload {3}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
 
@@ -5174,7 +5229,7 @@ Name:   Mogg Flunkies
 Cost:   1R
 Type:   Creature — Goblin
 P/T:    3/3
-S/R:    ST-C, M13-C, PD2-C
+S/R:    ST-C, M13-C, MM3-C, PD2-C
 Mogg Flunkies can't attack or block alone.
 
 Name:   Mogg Hollows
@@ -5430,7 +5485,7 @@ Metalcraft — If you control three or more artifacts, Molten Psyche deals damag
 Name:   Molten Rain
 Cost:   1RR
 Type:   Sorcery
-S/R:    MRD-C
+S/R:    MRD-C, MM3-U
 Destroy target land. If that land was nonbasic, Molten Rain deals 2 damage to the land's controller.
 
 Name:   Molten Ravager
@@ -5521,7 +5576,7 @@ Flashback {2}{G} (You may cast this card from your graveyard for its flashback c
 Name:   Momentary Blink
 Cost:   1W
 Type:   Instant
-S/R:    TSP-C, DDQ-C
+S/R:    TSP-C, MM3-C, DDQ-C
 Exile target creature you control, then return it to the battlefield under its owner's control.
 Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -5724,7 +5779,7 @@ Name:   Moonhold
 Cost:   2(R/W)
 Type:   Instant
 S/R:    EVE-U
-Target player can't play land cards this turn if {R} was spent to cast Moonhold and can't play creature cards this turn if {W} was spent to cast it. (Do both if {R}{W} was spent.)
+Target player can't play lands this turn if {R} was spent to cast Moonhold and can't cast creature spells this turn if {W} was spent to cast it. (Do both if {R}{W} was spent.)
 
 Name:   Moonlace
 Cost:   U
@@ -6006,7 +6061,7 @@ Name:   Moroii
 Cost:   2UB
 Type:   Creature — Vampire
 P/T:    4/4
-S/R:    RAV-U, DDH-U
+S/R:    RAV-U, MM3-U, DDH-U
 Flying
 At the beginning of your upkeep, you lose 1 life.
 
@@ -6081,7 +6136,7 @@ Name:   Mortician Beetle
 Cost:   B
 Type:   Creature — Insect
 P/T:    1/1
-S/R:    ROE-R
+S/R:    ROE-R, MM3-C
 Whenever a player sacrifices a creature, you may put a +1/+1 counter on Mortician Beetle.
 
 Name:   Mortify
@@ -6233,7 +6288,7 @@ Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until
 
 Name:   Mountain
 Type:   Basic Land — Mountain
-S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, EVG-L, UG-C, UNH-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, H09-L, ME3-L, MED-L, PD2-L
+S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, EVG-L, UG-C, UNH-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, DDS-L, H09-L, ME3-L, MED-L, PD2-L
 
 Name:   Mountain Bandit
 Cost:   R
@@ -6330,6 +6385,14 @@ S/R:    EMN-U
 Haste
 Delirium — When Mournwillow enters the battlefield, if there are four or more card types among cards in your graveyard, creatures with power 2 or less can't block this turn.
 
+Name:   Mouth
+Cost:   2G
+Type:   Sorcery
+M-type: Split
+M-card: Feed
+S/R:    AKH-R
+Create a 3/3 green Hippo creature token.
+
 Name:   Mouth of Ronom
 Type:   Snow Land
 S/R:    CSP-U
@@ -6358,7 +6421,7 @@ S/R:    A-R, B-R, U-R, VMA-B
 Name:   Mox Opal
 Cost:   0
 Type:   Legendary Artifact
-S/R:    SOM-M, MM2-M, MPS-S
+S/R:    SOM-M, MM2-M, MPS_KLD-S
 Metalcraft — {T}: Add one mana of any color to your mana pool. Activate this ability only if you control three or more artifacts.
 
 Name:   Mox Pearl
@@ -6442,7 +6505,7 @@ Name:   Mudbutton Torchrunner
 Cost:   2R
 Type:   Creature — Goblin Warrior
 P/T:    1/1
-S/R:    LRW-C, PC2-C, EVG-C, DDG-C
+S/R:    LRW-C, PC2-C, PCA-C, MM3-C, EVG-C, DDG-C
 When Mudbutton Torchrunner dies, it deals 3 damage to target creature or player.
 
 Name:   Muddle the Mixture
@@ -6802,7 +6865,7 @@ Name:   Mycoloth
 Cost:   3GG
 Type:   Creature — Fungus
 P/T:    4/4
-S/R:    ALA-R, PC2-R, C15-R, C16-R
+S/R:    ALA-R, PC2-R, C15-R, C16-R, PCA-R
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 At the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on Mycoloth.
 
@@ -7105,7 +7168,7 @@ S/R:    SHM-R, EXP-M
 Name:   Mystic Genesis
 Cost:   2GUU
 Type:   Instant
-S/R:    GTC-R
+S/R:    GTC-R, MM3-U
 Counter target spell. Create an X/X green Ooze creature token, where X is that spell's converted mana cost.
 
 Name:   Mystic Meditation
@@ -7207,14 +7270,14 @@ Name:   Mystic of the Hidden Way
 Cost:   4U
 Type:   Creature — Human Monk
 P/T:    3/2
-S/R:    KTK-C, FRF-C
+S/R:    KTK-C, FRF_UGIN-C
 Mystic of the Hidden Way can't be blocked.
 Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Mystical Teachings
 Cost:   3U
 Type:   Instant
-S/R:    TSP-C
+S/R:    TSP-C, MM3-C
 Search your library for an instant card or a card with flash, reveal it, and put it into your hand. Then shuffle your library.
 Flashback {5}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 

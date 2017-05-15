@@ -411,7 +411,7 @@ Name:   Hangarback Walker
 Cost:   XX
 Type:   Artifact Creature — Construct
 P/T:    0/0
-S/R:    ORI-R, MPS-S
+S/R:    ORI-R, MPS_KLD-S
 Hangarback Walker enters the battlefield with X +1/+1 counters on it.
 When Hangarback Walker dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on Hangarback Walker.
 {1}, {T}: Put a +1/+1 counter on Hangarback Walker.
@@ -461,7 +461,7 @@ Name:   Hanweir Lancer
 Cost:   2R
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    AVR-C
+S/R:    AVR-C, MM3-C
 Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
 As long as Hanweir Lancer is paired with another creature, both creatures have first strike.
 
@@ -492,6 +492,20 @@ M-pair: Hanweir Battlements; Hanweir Garrison
 S/R:    EMN-R
 Trample, haste
 Whenever Hanweir, the Writhing Township attacks, create two 3/2 colorless Eldrazi Horror creature tokens that are tapped and attacking.
+
+Name:   Hapatra's Mark
+Cost:   G
+Type:   Instant
+S/R:    AKH-U
+Target creature you control gains hexproof until end of turn. Remove all -1/-1 counters from it. (A creature with hexproof can't be the target of spells or abilities your opponents control.)
+
+Name:   Hapatra, Vizier of Poisons
+Cost:   BG
+Type:   Legendary Creature — Human Cleric
+P/T:    2/2
+S/R:    AKH-R
+Whenever Hapatra, Vizier of Poisons deals combat damage to a player, you may put a -1/-1 counter on target creature.
+Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Snake creature token with deathtouch.
 
 Name:   Hapless Researcher
 Cost:   U
@@ -574,7 +588,7 @@ Name:   Hardened Scales
 Cost:   G
 Type:   Enchantment
 S/R:    KTK-R, C16-R
-If one or more +1/+1 counters would be placed on a creature you control, that many plus one +1/+1 counters are placed on it instead.
+If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
 
 Name:   Harm's Way
 Cost:   W
@@ -618,7 +632,7 @@ All Slivers have "When this permanent enters the battlefield, destroy target art
 Name:   Harmonize
 Cost:   2GG
 Type:   Sorcery
-S/R:    PLC-U, ARC-U, CMD-U, C13-U, EMA-U, EVG-U, DDD-U
+S/R:    PLC-U, ARC-U, CMD-U, C13-U, EMA-U, MM3-U, EVG-U, DDD-U, DDS-U
 Draw three cards.
 
 Name:   Harmony of Nature
@@ -696,6 +710,13 @@ S/R:    P1-R, ME4-R
 Cast Harsh Justice only during the declare attackers step and only if you've been attacked this step.
 This turn, whenever an attacking creature deals combat damage to you, it deals that much damage to its controller.
 
+Name:   Harsh Mentor
+Cost:   1R
+Type:   Creature — Human Cleric
+P/T:    2/2
+S/R:    AKH-R
+Whenever an opponent activates an ability of an artifact, creature, or land on the battlefield, if it isn't a mana ability, Harsh Mentor deals 2 damage to that player.
+
 Name:   Harsh Mercy
 Cost:   2W
 Type:   Sorcery
@@ -751,6 +772,12 @@ Type:   Instant
 S/R:    ISD-C
 As an additional cost to cast Harvest Pyre, exile X cards from your graveyard.
 Harvest Pyre deals X damage to target creature.
+
+Name:   Harvest Season
+Cost:   2G
+Type:   Sorcery
+S/R:    AKH-R
+Search your library for up to X basic land cards, where X is the number of tapped creatures you control, and put those cards onto the battlefield tapped. Then shuffle your library.
 
 Name:   Harvest Wurm
 Cost:   1G
@@ -1038,6 +1065,13 @@ S/R:    ROE-C
 Flash (You may cast this spell any time you could cast an instant.)
 When Haze Frog enters the battlefield, prevent all combat damage that other creatures would deal this turn.
 
+Name:   Haze of Pollen
+Cost:   1G
+Type:   Instant
+S/R:    AKH-C
+Prevent all combat damage that would be dealt this turn.
+Cycling {3} ({3}, Discard this card: Draw a card.)
+
 Name:   Haze of Rage
 Cost:   1R
 Type:   Sorcery
@@ -1060,6 +1094,28 @@ P/T:    2/4
 S/R:    LE-R, ME3-R
 When Hazezon Tamar enters the battlefield, create X 1/1 Sand Warrior creature tokens that are red, green, and white at the beginning of your next upkeep, where X is the number of lands you control at that time.
 When Hazezon leaves the battlefield, exile all Sand Warriors.
+
+Name:   Hazoret the Fervent
+Cost:   3R
+Type:   Legendary Creature — God
+P/T:    5/4
+S/R:    AKH-M, MPS_AKH-S
+Indestructible, haste
+Hazoret the Fervent can't attack or block unless you have one or fewer cards in hand.
+{2}{R}, Discard a card: Hazoret deals 2 damage to each opponent.
+
+Name:   Hazoret's Favor
+Cost:   2R
+Type:   Enchantment
+S/R:    AKH-R
+At the beginning of combat on your turn, you may have target creature you control get +2/+0 and gain haste until end of turn. If you do, sacrifice it at the beginning of the next end step.
+
+Name:   Hazoret's Monument
+Cost:   3
+Type:   Legendary Artifact
+S/R:    AKH-U
+Red creature spells you cast cost {1} less to cast.
+Whenever you cast a creature spell, you may discard a card. If you do, draw a card.
 
 Name:   Hazy Homunculus
 Cost:   1U
@@ -1243,6 +1299,14 @@ S/R:    KTK-U
 Whenever equipped creature attacks, Heart-Piercer Bow deals 1 damage to target creature defending player controls.
 Equip {1}
 
+Name:   Heart-Piercer Manticore
+Cost:   2RR
+Type:   Creature — Manticore
+P/T:    4/3
+S/R:    AKH-R
+When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creature's power to target creature or player.
+Embalm {5}{R} ({5}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Manticore with no mana cost. Embalm only as a sorcery.)
+
 Name:   Heartbeat of Spring
 Cost:   2G
 Type:   Enchantment
@@ -1397,6 +1461,14 @@ Cost:   1R
 Type:   Enchantment
 S/R:    ST-U
 Whenever a creature blocks, Heat of Battle deals 1 damage to that creature's controller.
+
+Name:   Heaven
+Cost:   XG
+Type:   Instant
+M-type: Split
+M-card: Earth
+S/R:    AKH-R
+Heaven deals X damage to each creature with flying.
 
 Name:   Heaven's Gate
 Cost:   W
@@ -1600,6 +1672,13 @@ S/R:    AVR-C
 Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Whenever Heirs of Stromkirk deals combat damage to a player, put a +1/+1 counter on it.
 
+Name:   Hekma Sentinels
+Cost:   2U
+Type:   Creature — Human Cleric
+P/T:    2/3
+S/R:    AKH-C
+Whenever you cycle or discard a card, Hekma Sentinels gets +1/+1 until end of turn.
+
 Name:   Heliod's Emissary
 Cost:   3W
 Type:   Enchantment Creature — Elk
@@ -1741,7 +1820,7 @@ S/R:    M13-R
 Name:   Hellion Eruption
 Cost:   5R
 Type:   Sorcery
-S/R:    ROE-R, PC2-R, DDP-R
+S/R:    ROE-R, PC2-R, PCA-R, DDP-R
 Sacrifice all creatures you control, then create that many 4/4 red Hellion creature tokens.
 
 Name:   Hellkite Charger
@@ -1756,7 +1835,7 @@ Name:   Hellkite Hatchling
 Cost:   2RG
 Type:   Creature — Dragon
 P/T:    2/2
-S/R:    CON-U, PC2-U
+S/R:    CON-U, PC2-U, PCA-U
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
 Hellkite Hatchling has flying and trample if it devoured a creature.
 
@@ -1797,7 +1876,7 @@ Name:   Hellrider
 Cost:   2RR
 Type:   Creature — Devil
 P/T:    3/3
-S/R:    DKA-R, DDK-R
+S/R:    DKA-R, MM3-R, DDK-R
 Haste
 Whenever a creature you control attacks, Hellrider deals 1 damage to defending player.
 
@@ -2186,7 +2265,7 @@ Name:   Hewed Stone Retainers
 Cost:   3
 Type:   Artifact Creature — Golem
 P/T:    4/4
-S/R:    FRF-U
+S/R:    FRF-U, FRF_UGIN-U
 Cast Hewed Stone Retainers only if you've cast another spell this turn.
 
 Name:   Hex
@@ -2359,6 +2438,13 @@ Type:   Instant
 S/R:    SOK-R
 If target player has exactly 10 life, Hidetsugu's Second Rite deals 10 damage to that player.
 
+Name:   Hieroglyphic Illumination
+Cost:   3U
+Type:   Instant
+S/R:    AKH-C
+Draw two cards.
+Cycling {U} ({U}, Discard this card: Draw a card.)
+
 Name:   High Ground
 Cost:   W
 Type:   Enchantment
@@ -2428,7 +2514,7 @@ S/R:    P1-C
 
 Name:   Highland Lake
 Type:   Land
-S/R:    SOI-U
+S/R:    SOI-U, AKH-C
 Highland Lake enters the battlefield tapped.
 {T}: Add {U} or {R} to your mana pool.
 
@@ -2479,7 +2565,7 @@ Name:   Higure, the Still Wind
 Cost:   3UU
 Type:   Legendary Creature — Human Ninja
 P/T:    3/4
-S/R:    BOK-R, PC2-R
+S/R:    BOK-R, PC2-R, PCA-R
 Ninjutsu {2}{U}{U} ({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Higure, the Still Wind deals combat damage to a player, you may search your library for a Ninja card, reveal it, and put it into your hand. If you do, shuffle your library.
 {2}: Target Ninja creature can't be blocked this turn.
@@ -2642,7 +2728,7 @@ Name:   Hissing Iguanar
 Cost:   2R
 Type:   Creature — Lizard
 P/T:    3/1
-S/R:    ALA-C, PC2-C
+S/R:    ALA-C, PC2-C, PCA-C
 Whenever another creature dies, you may have Hissing Iguanar deal 1 damage to target player.
 
 Name:   Hissing Miasma
@@ -3013,6 +3099,13 @@ Type:   Legendary Enchantment — Shrine
 S/R:    CHK-U, EMA-U
 At the beginning of your upkeep, draw a card for each Shrine you control.
 
+Name:   Honed Khopesh
+Cost:   1
+Type:   Artifact — Equipment
+S/R:    AKH-C
+Equipped creature gets +1/+1.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
+
 Name:   Honor Guard
 Cost:   W
 Type:   Creature — Human Soldier
@@ -3058,6 +3151,13 @@ P/T:    1/1
 S/R:    PS-C
 When Honorable Scout enters the battlefield, you gain 2 life for each black and/or red creature target opponent controls.
 
+Name:   Honored Crop-Captain
+Cost:   RW
+Type:   Creature — Human Warrior
+P/T:    3/2
+S/R:    AKH-U
+Whenever Honored Crop-Captain attacks, other attacking creatures get +1/+0 until end of turn.
+
 Name:   Honored Hierarch
 Cost:   G
 Type:   Creature — Human Druid
@@ -3065,6 +3165,14 @@ P/T:    1/1
 S/R:    ORI-R
 Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
 As long as Honored Hierarch is renowned, it has vigilance and "{T}: Add one mana of any color to your mana pool."
+
+Name:   Honored Hydra
+Cost:   5G
+Type:   Creature — Snake Hydra
+P/T:    6/6
+S/R:    AKH-R
+Trample
+Embalm {3}{G} ({3}{G}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Snake Hydra with no mana cost. Embalm only as a sorcery.)
 
 Name:   Hooded Assassin
 Cost:   2B
@@ -3074,6 +3182,13 @@ S/R:    FRF-C
 When Hooded Assassin enters the battlefield, choose one —
 • Put a +1/+1 counter on Hooded Assassin.
 • Destroy target creature that was dealt damage this turn.
+
+Name:   Hooded Brawler
+Cost:   2G
+Type:   Creature — Naga Warrior
+P/T:    3/2
+S/R:    AKH-C
+You may exert Hooded Brawler as it attacks. When you do, it gets +2/+2 until end of turn. (An exerted creature won't untap during your next untap step.)
 
 Name:   Hooded Horror
 Cost:   4B
@@ -3405,6 +3520,14 @@ Cost:   3BB
 Type:   Enchantment
 S/R:    LE-U, 9ED-U
 Sacrifice a Swamp: Regenerate target black creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+
+Name:   Horror of the Broken Lands
+Cost:   4B
+Type:   Creature — Horror
+P/T:    4/4
+S/R:    AKH-C
+Whenever you cycle or discard another card, Horror of the Broken Lands gets +2/+1 until end of turn.
+Cycling {B} ({B}, Discard this card: Draw a card.)
 
 Name:   Horror of the Dim
 Cost:   4B
@@ -3812,7 +3935,7 @@ Name:   Hungry Spriggan
 Cost:   2G
 Type:   Creature — Goblin Warrior
 P/T:    1/1
-S/R:    SHM-C
+S/R:    SHM-C, MM3-C
 Trample
 Whenever Hungry Spriggan attacks, it gets +3/+3 until end of turn.
 
@@ -4024,7 +4147,7 @@ Choose one —
 
 Name:   Hurr Jackal
 Cost:   R
-Type:   Creature — Hound
+Type:   Creature — Jackal
 P/T:    1/1
 S/R:    AN-C, 4E-R
 {T}: Target creature can't be regenerated this turn.
@@ -4123,10 +4246,16 @@ Type:   Instant
 S/R:    M13-C, M15-C
 Target creature gets -5/-0 until end of turn.
 
+Name:   Hyena Pack
+Cost:   2RR
+Type:   Creature — Hyena
+P/T:    3/4
+S/R:    AKH-C
+
 Name:   Hyena Umbra
 Cost:   W
 Type:   Enchantment — Aura
-S/R:    ROE-C, PC2-C
+S/R:    ROE-C, PC2-C, PCA-C
 Enchant creature
 Enchanted creature gets +1/+1 and has first strike.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)

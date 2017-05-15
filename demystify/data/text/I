@@ -554,7 +554,7 @@ Name:   Illusory Angel
 Cost:   2U
 Type:   Creature — Angel Illusion
 P/T:    4/4
-S/R:    PC2-U, M15-U
+S/R:    PC2-U, M15-U, PCA-U
 Flying
 Cast Illusory Angel only if you've cast another spell this turn.
 
@@ -573,6 +573,13 @@ S/R:    DTK-R
 Enchant creature
 You control enchanted creature.
 Whenever a creature enters the battlefield under an opponent's control, attach Illusory Gains to that creature.
+
+Name:   Illusory Wrappings
+Cost:   2U
+Type:   Enchantment — Aura
+S/R:    AKH-C
+Enchant creature
+Enchanted creature has base power and toughness 0/2.
 
 Name:   Imagecrafter
 Cost:   U
@@ -695,7 +702,7 @@ At the beginning of each player's end step, if that player didn't cast a spell t
 Name:   Impeccable Timing
 Cost:   1W
 Type:   Instant
-S/R:    KLD-C
+S/R:    KLD-C, AKH-C
 Impeccable Timing deals 3 damage to target attacking or blocking creature.
 
 Name:   Impelled Giant
@@ -895,6 +902,12 @@ Type:   Sorcery
 S/R:    M15-R, C16-R
 Destroy all creatures you don't control and all planeswalkers you don't control.
 
+Name:   In Oketra's Name
+Cost:   1W
+Type:   Instant
+S/R:    AKH-C
+Zombies you control get +2/+1 until end of turn. Other creatures you control get +1/+1 until end of turn.
+
 Name:   In the Eye of Chaos
 Cost:   2U
 Type:   World Enchantment
@@ -1050,7 +1063,7 @@ Flashback {7}{W}{W} (You may cast this card from your graveyard for its flashbac
 Name:   Increasing Savagery
 Cost:   2GG
 Type:   Sorcery
-S/R:    DKA-R
+S/R:    DKA-R, DDS-R
 Put five +1/+1 counters on target creature. If Increasing Savagery was cast from a graveyard, put ten +1/+1 counters on that creature instead.
 Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -1188,7 +1201,7 @@ When Indrik Stomphowler enters the battlefield, destroy target artifact or encha
 Name:   Indrik Umbra
 Cost:   4GW
 Type:   Enchantment — Aura
-S/R:    PC2-R
+S/R:    PC2-R, PCA-R
 Enchant creature
 Enchanted creature gets +4/+4 and has first strike, and all creatures able to block it do so.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
@@ -1495,7 +1508,7 @@ Name:   Infinite Obliteration
 Cost:   1BB
 Type:   Sorcery
 S/R:    ORI-R
-Name a creature card. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.
+Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.
 
 Name:   Infinite Reflection
 Cost:   5U
@@ -1577,12 +1590,28 @@ M-card: Goka the Unjust
 S/R:    CHK-U
 {T}: Initiate of Blood deals 1 damage to target creature that was dealt damage this turn. When that creature dies this turn, flip Initiate of Blood.
 
+Name:   Initiate's Companion
+Cost:   1G
+Type:   Creature — Cat
+P/T:    3/1
+S/R:    AKH-C
+Whenever Initiate's Companion deals combat damage to a player, untap target creature or land.
+
 Name:   Initiates of the Ebon Hand
 Cost:   B
 Type:   Creature — Cleric
 P/T:    1/1
 S/R:    FE-C, 5E-C
 {1}: Add {B} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step.
+
+Name:   Injury
+Cost:   2R
+Type:   Sorcery
+M-type: Split
+M-card: Insult
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Injury deals 2 damage to target creature and 2 damage to target player.
 
 Name:   Ink Dissolver
 Cost:   1U
@@ -1595,7 +1624,7 @@ Name:   Ink-Eyes, Servant of Oni
 Cost:   4BB
 Type:   Legendary Creature — Rat Ninja
 P/T:    5/4
-S/R:    BOK-R, PC2-R, V13-M
+S/R:    BOK-R, PC2-R, PCA-R, V13-M
 Ninjutsu {3}{B}{B} ({3}{B}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Ink-Eyes, Servant of Oni deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control.
 {1}{B}: Regenerate Ink-Eyes.
@@ -1626,7 +1655,7 @@ Name:   Inkfathom Witch
 Cost:   1(U/B)
 Type:   Creature — Merfolk Wizard
 P/T:    1/1
-S/R:    SHM-U, PC2-U
+S/R:    SHM-U, PC2-U, PCA-U
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 {2}{U}{B}: Each unblocked creature has base power and toughness 4/1 until end of turn.
 
@@ -1715,7 +1744,7 @@ Target player reveals his or her hand. Inquisition deals damage to that player e
 Name:   Inquisition of Kozilek
 Cost:   B
 Type:   Sorcery
-S/R:    ROE-U, CN2-R
+S/R:    ROE-U, CN2-R, MM3-U
 Target player reveals his or her hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.
 
 Name:   Inquisitor Exarch
@@ -1851,7 +1880,7 @@ Discard a card, Sacrifice Insolent Neonate: Draw a card.
 Name:   Inspiration
 Cost:   3U
 Type:   Instant
-S/R:    VI-C, 6E-C, S00-C, 7E-C, 8ED-C, RTR-C
+S/R:    VI-C, 6E-C, S00-C, 7E-C, 8ED-C, RTR-C, W17-C
 Target player draws two cards.
 
 Name:   Inspired Charge
@@ -1953,6 +1982,14 @@ S/R:    MM-C
 Enchant creature
 At the beginning of the end step of enchanted creature's controller, Insubordination deals 2 damage to that player unless that creature attacked this turn.
 
+Name:   Insult
+Cost:   2R
+Type:   Sorcery
+M-type: Split
+M-card: Injury
+S/R:    AKH-R
+Damage can't be prevented this turn. If a source you control would deal damage this turn, it deals double that damage instead.
+
 Name:   Insurrection
 Cost:   5RRR
 Type:   Sorcery
@@ -1962,7 +1999,7 @@ Untap all creatures and gain control of them until end of turn. They gain haste 
 Name:   Intangible Virtue
 Cost:   1W
 Type:   Enchantment
-S/R:    ISD-U, CNS-U, EMA-U
+S/R:    ISD-U, CNS-U, EMA-U, MM3-U
 Creature tokens you control get +1/+1 and have vigilance.
 
 Name:   Intellectual Offering
@@ -2513,6 +2550,13 @@ S/R:    ROE-U, CN2-U
 Target creature must be blocked this turn if able.
 Draw a card.
 
+Name:   Irrigated Farmland
+Type:   Land — Plains Island
+S/R:    AKH-R
+({T}: Add {W} or {U} to your mana pool.)
+Irrigated Farmland enters the battlefield tapped.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Irrigation Ditch
 Type:   Land
 S/R:    IN-C
@@ -2562,7 +2606,7 @@ Delirium — When Ishkanah, Grafwidow enters the battlefield, if there are four 
 
 Name:   Island
 Type:   Basic Land — Island
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, UG-C, UNH-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, UG-C, UNH-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, H09-L, ME3-L, MED-L
 
 Name:   Island Fish Jasconius
 Cost:   4UUU
@@ -2624,7 +2668,7 @@ Type:   Legendary Creature — Sphinx
 P/T:    3/6
 S/R:    DIS-R
 Flying
-Whenever Isperia the Inscrutable deals combat damage to a player, name a card. That player reveals his or her hand. If he or she reveals the named card, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library.
+Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals his or her hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Isperia's Skywatch
 Cost:   5U
@@ -2808,7 +2852,7 @@ When Izzet Boilerworks enters the battlefield, return a land you control to its 
 Name:   Izzet Charm
 Cost:   UR
 Type:   Instant
-S/R:    RTR-U, DDJ-U
+S/R:    RTR-U, MM3-U, DDJ-U
 Choose one —
 • Counter target noncreature spell unless its controller pays {2}.
 • Izzet Charm deals 2 damage to target creature.
@@ -2830,7 +2874,7 @@ S/R:    DGM-C
 
 Name:   Izzet Guildgate
 Type:   Land — Gate
-S/R:    RTR-C, DGM-C, C13-C, C15-C
+S/R:    RTR-C, DGM-C, C13-C, C15-C, MM3-C
 Izzet Guildgate enters the battlefield tapped.
 {T}: Add {U} or {R} to your mana pool.
 
@@ -2854,7 +2898,7 @@ Whenever Izzet Keyrune deals combat damage to a player, you may draw a card. If 
 Name:   Izzet Signet
 Cost:   2
 Type:   Artifact
-S/R:    GPT-C, CMD-C, C15-C, DDJ-C
+S/R:    GPT-C, CMD-C, C15-C, MM3-U, DDJ-C
 {1}, {T}: Add {U}{R} to your mana pool.
 
 Name:   Izzet Staticaster

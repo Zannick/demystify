@@ -11,6 +11,21 @@ S/R:    RTR-U
 As Tablet of the Guilds enters the battlefield, choose two colors.
 Whenever you cast a spell, if it's at least one of the chosen colors, you gain 1 life for each of the chosen colors it is.
 
+Name:   Tah-Crop Elite
+Cost:   3W
+Type:   Creature — Bird Warrior
+P/T:    2/2
+S/R:    AKH-C
+Flying
+You may exert Tah-Crop Elite as it attacks. When you do, creatures you control get +1/+1 until end of turn. (An exerted creature won't untap during your next untap step.)
+
+Name:   Tah-Crop Skirmisher
+Cost:   1U
+Type:   Creature — Naga Warrior
+P/T:    2/1
+S/R:    AKH-C
+Embalm {3}{U} ({3}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Naga Warrior with no mana cost. Embalm only as a sorcery.)
+
 Name:   Tahngarth's Glare
 Cost:   R
 Type:   Sorcery
@@ -70,7 +85,7 @@ S/R:    TOR-U, C15-U, DDK-U
 
 Name:   Tainted Isle
 Type:   Land
-S/R:    TOR-U, PC2-U
+S/R:    TOR-U, PC2-U, PCA-U
 {T}: Add {C} to your mana pool.
 {T}: Add {U} or {B} to your mana pool. Activate this ability only if you control a Swamp.
 
@@ -267,7 +282,7 @@ Name:   Talara's Battalion
 Cost:   1G
 Type:   Creature — Elf Warrior
 P/T:    4/3
-S/R:    EVE-R
+S/R:    EVE-R, DDS-R
 Trample
 Cast Talara's Battalion only if you've cast another green spell this turn.
 
@@ -373,7 +388,7 @@ Name:   Talon Trooper
 Cost:   1WU
 Type:   Creature — Bird Scout
 P/T:    2/3
-S/R:    ARB-C
+S/R:    ARB-C, MM3-C
 Flying
 
 Name:   Talon of Pain
@@ -409,7 +424,7 @@ Name:   Talrand, Sky Summoner
 Cost:   2UU
 Type:   Legendary Creature — Merfolk Wizard
 P/T:    2/2
-S/R:    M13-R, C15-R
+S/R:    M13-R, C15-R, DDS-R
 Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.
 
 Name:   Talruum Champion
@@ -486,7 +501,7 @@ Name:   Tandem Lookout
 Cost:   2U
 Type:   Creature — Human Scout
 P/T:    2/1
-S/R:    AVR-U, DDQ-U
+S/R:    AVR-U, MM3-C, DDQ-U
 Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
 As long as Tandem Lookout is paired with another creature, each of those creatures has "Whenever this creature deals damage to an opponent, draw a card."
 
@@ -678,7 +693,7 @@ Name:   Tarmogoyf
 Cost:   1G
 Type:   Creature — Lhurgoyf
 P/T:    */1+*
-S/R:    FUT-R, MMA-M, MM2-M
+S/R:    FUT-R, MMA-M, MM2-M, MM3-M
 Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.
 
 Name:   Tarnished Citadel
@@ -782,13 +797,20 @@ S/R:    EMN-C
 Flying
 Tattered Haunter can block only creatures with flying.
 
+Name:   Tattered Mummy
+Cost:   1B
+Type:   Creature — Zombie Jackal
+P/T:    1/2
+S/R:    AKH-C
+When Tattered Mummy dies, each opponent loses 2 life.
+
 Name:   Tatterkite
 Cost:   3
 Type:   Artifact Creature — Scarecrow
 P/T:    2/1
 S/R:    SHM-U
 Flying
-Tatterkite can't have counters placed on it.
+Tatterkite can't have counters put on it.
 
 Name:   Tattermunge Duo
 Cost:   2(R/G)
@@ -809,7 +831,7 @@ Name:   Tattermunge Witch
 Cost:   1(R/G)
 Type:   Creature — Goblin Shaman
 P/T:    2/1
-S/R:    SHM-U
+S/R:    SHM-U, MM3-U
 {R}{G}: Each blocked creature gets +1/+0 and gains trample until end of turn.
 
 Name:   Tattoo Ward
@@ -1172,7 +1194,7 @@ Target creature can't be blocked this turn.
 Name:   Teleportal
 Cost:   UR
 Type:   Sorcery
-S/R:    RTR-U
+S/R:    RTR-U, MM3-U
 Target creature you control gets +1/+0 until end of turn and can't be blocked this turn.
 Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
 
@@ -1217,6 +1239,14 @@ Cost:   1U
 Type:   Instant
 S/R:    RAV-U, 10E-U, MM2-C
 Look at the top three cards of your library. Put one of those cards into your hand, one on top of your library, and one on the bottom of your library.
+
+Name:   Temmet, Vizier of Naktamun
+Cost:   WU
+Type:   Legendary Creature — Human Cleric
+P/T:    2/2
+S/R:    AKH-R
+At the beginning of combat on your turn, target creature token you control gets +1/+1 until end of turn and can't be blocked this turn.
+Embalm {3}{W}{U} ({3}{W}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Cleric with no mana cost. Embalm only as a sorcery.)
 
 Name:   Temper
 Cost:   X1W
@@ -1399,7 +1429,7 @@ Take an extra turn after this one.
 Name:   Temporal Fissure
 Cost:   4U
 Type:   Sorcery
-S/R:    SCG-C, VMA-C
+S/R:    SCG-C, VMA-C, DDS-C
 Return target permanent to its owner's hand.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 
@@ -1421,7 +1451,7 @@ Take an extra turn after this one.
 Name:   Temporal Mastery
 Cost:   5UU
 Type:   Sorcery
-S/R:    AVR-M
+S/R:    AVR-M, MM3-M
 Take an extra turn after this one. Exile Temporal Mastery.
 Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
@@ -1667,13 +1697,13 @@ S/R:    PS-U
 Name:   Terminate
 Cost:   BR
 Type:   Instant
-S/R:    PS-C, ARB-C, ARC-C, CMD-C, C16-C, DDK-C
+S/R:    PS-C, ARB-C, ARC-C, CMD-C, C16-C, MM3-U, DDK-C
 Destroy target creature. It can't be regenerated.
 
 Name:   Terminus
 Cost:   4WW
 Type:   Sorcery
-S/R:    AVR-R, V14-M
+S/R:    AVR-R, MM3-R, V14-M
 Put all creatures on the bottom of their owners' libraries.
 Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
@@ -1734,7 +1764,7 @@ S/R:    NE-U, DD2-U
 
 Name:   Terramorphic Expanse
 Type:   Land
-S/R:    TSP-C, 10E-C, M10-C, HOP-C, ARC-C, M11-C, CMD-C, PC2-C, MMA-C, C13-C, C14-C, C15-C, C16-C, DDE-C, DDH-C, DDN-C, H09-C
+S/R:    TSP-C, 10E-C, M10-C, HOP-C, ARC-C, M11-C, CMD-C, PC2-C, MMA-C, C13-C, C14-C, C15-C, C16-C, PCA-C, DDE-C, DDH-C, DDN-C, H09-C
 {T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
 
 Name:   Terrarion
@@ -2248,7 +2278,7 @@ Name:   The Unspeakable
 Cost:   6UUU
 Type:   Legendary Creature — Spirit
 P/T:    6/7
-S/R:    CHK-R
+S/R:    CHK-R, DDS-R
 Flying, trample
 Whenever The Unspeakable deals combat damage to a player, you may return target Arcane card from your graveyard to your hand.
 
@@ -2586,7 +2616,7 @@ Name:   Thorn-Thrash Viashino
 Cost:   3R
 Type:   Creature — Viashino Warrior
 P/T:    2/2
-S/R:    ALA-C, PC2-C
+S/R:    ALA-C, PC2-C, PCA-C
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 {G}: Thorn-Thrash Viashino gains trample until end of turn.
 
@@ -2641,7 +2671,7 @@ Name:   Thornscape Battlemage
 Cost:   2G
 Type:   Creature — Elf Wizard
 P/T:    2/2
-S/R:    PS-U, TSP-S, DDE-U
+S/R:    PS-U, TSP-S, MM3-U, DDE-U
 Kicker {R} and/or {W} (You may pay an additional {R} and/or {W} as you cast this spell.)
 When Thornscape Battlemage enters the battlefield, if it was kicked with its {R} kicker, it deals 2 damage to target creature or player.
 When Thornscape Battlemage enters the battlefield, if it was kicked with its {W} kicker, destroy target artifact.
@@ -2699,6 +2729,12 @@ Thornwood Falls enters the battlefield tapped.
 When Thornwood Falls enters the battlefield, you gain 1 life.
 {T}: Add {G} or {U} to your mana pool.
 
+Name:   Those Who Serve
+Cost:   2W
+Type:   Creature — Zombie
+P/T:    2/4
+S/R:    AKH-C
+
 Name:   Thought Courier
 Cost:   1U
 Type:   Creature — Human Wizard
@@ -2750,7 +2786,7 @@ Name:   Thought Hemorrhage
 Cost:   2BR
 Type:   Sorcery
 S/R:    ARB-R
-Name a nonland card. Target player reveals his or her hand. Thought Hemorrhage deals 3 damage to that player for each card with that name revealed this way. Search that player's graveyard, hand, and library for all cards with that name and exile them. Then that player shuffles his or her library.
+Choose a nonland card name. Target player reveals his or her hand. Thought Hemorrhage deals 3 damage to that player for each card with the chosen name revealed this way. Search that player's graveyard, hand, and library for all cards with that name and exile them. Then that player shuffles his or her library.
 
 Name:   Thought Lash
 Cost:   2UU
@@ -2996,7 +3032,7 @@ Name:   Thragtusk
 Cost:   4G
 Type:   Creature — Beast
 P/T:    5/3
-S/R:    M13-R
+S/R:    M13-R, MM3-R
 When Thragtusk enters the battlefield, you gain 5 life.
 When Thragtusk leaves the battlefield, create a 3/3 green Beast creature token.
 
@@ -3022,7 +3058,7 @@ Name:   Thran Golem
 Cost:   5
 Type:   Artifact Creature — Golem
 P/T:    3/3
-S/R:    UD-R, 9ED-R, M12-U, PC2-U
+S/R:    UD-R, 9ED-R, M12-U, PC2-U, PCA-U
 As long as Thran Golem is enchanted, it gets +2/+2 and has flying, first strike, and trample.
 
 Name:   Thran Lens
@@ -3121,7 +3157,7 @@ Untap target creature and gain control of it until end of turn. That creature ga
 Name:   Three Dreams
 Cost:   4W
 Type:   Sorcery
-S/R:    RAV-R, PC2-R
+S/R:    RAV-R, PC2-R, PCA-R
 Search your library for up to three Aura cards with different names, reveal them, and put them into your hand. Then shuffle your library.
 
 Name:   Three Tragedies
@@ -3148,6 +3184,13 @@ Type:   Creature — Beast
 P/T:    4/4
 S/R:    PR-C
 Whenever Thresher Beast becomes blocked, defending player sacrifices a land.
+
+Name:   Thresher Lizard
+Cost:   2R
+Type:   Creature — Lizard
+P/T:    3/2
+S/R:    AKH-C
+Thresher Lizard gets +1/+2 as long as you have one or fewer cards in hand.
 
 Name:   Thrill of the Hunt
 Cost:   G
@@ -3221,7 +3264,7 @@ Name:   Throat Slitter
 Cost:   4B
 Type:   Creature — Rat Ninja
 P/T:    2/2
-S/R:    BOK-U, PC2-U
+S/R:    BOK-U, PC2-U, PCA-U
 Ninjutsu {2}{B} ({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Throat Slitter deals combat damage to a player, destroy target nonblack creature that player controls.
 
@@ -3229,7 +3272,7 @@ Name:   Thromok the Insatiable
 Cost:   3RG
 Type:   Legendary Creature — Hellion
 P/T:    0/0
-S/R:    PC2-M
+S/R:    PC2-M, PCA-M
 Devour X, where X is the number of creatures devoured this way (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with X +1/+1 counters on it for each of those creatures.)
 
 Name:   Throne Warden
@@ -3256,6 +3299,12 @@ Cost:   2
 Type:   Artifact
 S/R:    SOM-U
 {T}, Sacrifice an artifact: Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
+
+Name:   Throne of the God-Pharaoh
+Cost:   2
+Type:   Legendary Artifact
+S/R:    AKH-R
+At the beginning of your end step, each opponent loses life equal to the number of tapped creatures you control.
 
 Name:   Throne of the High City
 Type:   Land
@@ -3357,7 +3406,7 @@ Type:   Creature — Cyclops
 P/T:    5/5
 S/R:    BNG-U
 Trample
-Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)
+Tribute 3 (As this creature enters the battlefield, an opponent of your choice may put three +1/+1 counters on it.)
 When Thunder Brute enters the battlefield, if tribute wasn't paid, it gains haste until end of turn.
 
 Name:   Thunder Dragon
@@ -3407,7 +3456,7 @@ Name:   Thunder-Thrash Elder
 Cost:   2R
 Type:   Creature — Viashino Warrior
 P/T:    1/1
-S/R:    ALA-U, PC2-U
+S/R:    ALA-U, PC2-U, PCA-U
 Devour 3 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)
 
 Name:   Thunderblade Charge
@@ -3493,7 +3542,7 @@ Name:   Thundering Giant
 Cost:   3RR
 Type:   Creature — Giant
 P/T:    4/3
-S/R:    US-U, 10E-U, MMA-C, M15-C
+S/R:    US-U, 10E-U, MMA-C, M15-C, W17-C
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 
 Name:   Thundering Tanadon
@@ -3538,7 +3587,7 @@ Whenever enchanted creature attacks, it gets +X/+0 until end of turn, where X is
 Name:   Thunderous Wrath
 Cost:   4RR
 Type:   Instant
-S/R:    AVR-U
+S/R:    AVR-U, MM3-C
 Thunderous Wrath deals 5 damage to target creature or player.
 Miracle {R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
@@ -3579,7 +3628,7 @@ Name:   Thundersong Trumpeter
 Cost:   RW
 Type:   Creature — Human Soldier
 P/T:    2/1
-S/R:    RAV-C
+S/R:    RAV-C, MM3-U
 {T}: Target creature can't attack or block this turn.
 
 Name:   Thunderstaff
@@ -3820,7 +3869,7 @@ When Tilling Treefolk enters the battlefield, you may return up to two target la
 
 Name:   Timber Gorge
 Type:   Land
-S/R:    OGW-U
+S/R:    OGW-U, AKH-C
 Timber Gorge enters the battlefield tapped.
 {T}: Add {R} or {G} to your mana pool.
 
@@ -3995,6 +4044,12 @@ Cost:   2G
 Type:   Sorcery
 S/R:    THS-C, DDO-C
 Choose target creature an opponent controls. When that creature dies this turn, you gain 3 life. Target creature you control fights that creature. (Each deals damage equal to its power to the other.)
+
+Name:   Time to Reflect
+Cost:   W
+Type:   Instant
+S/R:    AKH-U
+Exile target creature that blocked or was blocked by a Zombie this turn.
 
 Name:   Timebender
 Cost:   U
@@ -4618,7 +4673,7 @@ Name:   Tormented Soul
 Cost:   B
 Type:   Creature — Spirit
 P/T:    1/1
-S/R:    M12-C, PC2-C, M13-C
+S/R:    M12-C, PC2-C, M13-C, PCA-C
 Tormented Soul can't block and can't be blocked.
 
 Name:   Tormented Thoughts
@@ -4631,7 +4686,7 @@ Target player discards a number of cards equal to the sacrificed creature's powe
 Name:   Tormenting Voice
 Cost:   1R
 Type:   Sorcery
-S/R:    KTK-C, DTK-C, SOI-C, CN2-C
+S/R:    KTK-C, DTK-C, SOI-C, CN2-C, AKH-C
 As an additional cost to cast Tormenting Voice, discard a card.
 Draw two cards.
 
@@ -4719,7 +4774,7 @@ As long as Torrent of Lava is on the stack, each creature has "{T}: Prevent the 
 Name:   Torrent of Souls
 Cost:   4(B/R)
 Type:   Sorcery
-S/R:    SHM-U, ARC-U, EMA-U, DDK-U
+S/R:    SHM-U, ARC-U, EMA-U, MM3-U, DDK-U
 Return up to one target creature card from your graveyard to the battlefield if {B} was spent to cast Torrent of Souls. Creatures target player controls get +2/+0 and gain haste until end of turn if {R} was spent to cast Torrent of Souls. (Do both if {B}{R} was spent.)
 
 Name:   Torrent of Stone
@@ -4733,7 +4788,7 @@ Name:   Torrential Gearhulk
 Cost:   4UU
 Type:   Artifact Creature — Construct
 P/T:    5/6
-S/R:    KLD-M, MPS-S
+S/R:    KLD-M, MPS_KLD-S
 Flash
 When Torrential Gearhulk enters the battlefield, you may cast target instant card from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.
 
@@ -4913,7 +4968,7 @@ Name:   Tower Gargoyle
 Cost:   1WUB
 Type:   Artifact Creature — Gargoyle
 P/T:    4/4
-S/R:    ALA-U, C13-U
+S/R:    ALA-U, C13-U, MM3-U
 Flying
 
 Name:   Tower Geist
@@ -5189,7 +5244,7 @@ Whenever Trained Condor attacks, another target creature you control gains flyin
 
 Name:   Trained Jackal
 Cost:   G
-Type:   Creature — Hound
+Type:   Creature — Jackal
 P/T:    1/2
 S/R:    P3K-C
 
@@ -5249,7 +5304,7 @@ Gain control of target creature until end of turn. Untap it. It gains trample an
 Name:   Traitorous Instinct
 Cost:   3R
 Type:   Sorcery
-S/R:    ROE-U, RTR-C
+S/R:    ROE-U, RTR-C, MM3-C
 Gain control of target creature until end of turn. Untap that creature. Until end of turn, it gets +2/+0 and gains haste.
 
 Name:   Tranquil Cove
@@ -5267,7 +5322,7 @@ Destroy all non-Aura enchantments.
 
 Name:   Tranquil Expanse
 Type:   Land
-S/R:    OGW-U, AeR-C
+S/R:    OGW-U, AeR-C, AKH-C
 Tranquil Expanse enters the battlefield tapped.
 {T}: Add {G} or {W} to your mana pool.
 
@@ -5755,6 +5810,13 @@ P/T:    3/1
 S/R:    TSP-C
 Discard a card: Trespasser il-Vec gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)
 
+Name:   Trespasser's Curse
+Cost:   1B
+Type:   Enchantment — Aura Curse
+S/R:    AKH-C
+Enchant player
+Whenever a creature enters the battlefield under enchanted player's control, that player loses 1 life and you gain 1 life.
+
 Name:   Trespassing Souleater
 Cost:   3
 Type:   Artifact Creature — Construct
@@ -5832,6 +5894,41 @@ M-card: Error
 S/R:    DIS-U, C16-U
 Return all creatures blocking or blocked by target creature to their owner's hand.
 
+Name:   Trial of Ambition
+Cost:   1B
+Type:   Enchantment
+S/R:    AKH-U
+When Trial of Ambition enters the battlefield, target opponent sacrifices a creature.
+When a Cartouche enters the battlefield under your control, return Trial of Ambition to its owner's hand.
+
+Name:   Trial of Knowledge
+Cost:   3U
+Type:   Enchantment
+S/R:    AKH-U
+When Trial of Knowledge enters the battlefield, draw three cards, then discard a card.
+When a Cartouche enters the battlefield under your control, return Trial of Knowledge to its owner's hand.
+
+Name:   Trial of Solidarity
+Cost:   2W
+Type:   Enchantment
+S/R:    AKH-U
+When Trial of Solidarity enters the battlefield, creatures you control get +2/+1 and gain vigilance until end of turn.
+When a Cartouche enters the battlefield under your control, return Trial of Solidarity to its owner's hand.
+
+Name:   Trial of Strength
+Cost:   2G
+Type:   Enchantment
+S/R:    AKH-U
+When Trial of Strength enters the battlefield, create a 4/2 green Beast creature token.
+When a Cartouche enters the battlefield under your control, return Trial of Strength to its owner's hand.
+
+Name:   Trial of Zeal
+Cost:   2R
+Type:   Enchantment
+S/R:    AKH-U
+When Trial of Zeal enters the battlefield, it deals 3 damage to target creature or player.
+When a Cartouche enters the battlefield under your control, return Trial of Zeal to its owner's hand.
+
 Name:   Triangle of War
 Cost:   1
 Type:   Artifact
@@ -5905,7 +6002,7 @@ Choose one —
 Name:   Tricks of the Trade
 Cost:   3U
 Type:   Enchantment — Aura
-S/R:    M13-C
+S/R:    M13-C, W17-C
 Enchant creature
 Enchanted creature gets +2/+0 and can't be blocked.
 
@@ -5968,7 +6065,7 @@ Trigon of Thought enters the battlefield with three charge counters on it.
 Name:   Trinisphere
 Cost:   3
 Type:   Artifact
-S/R:    DST-R, MPS-S, V09-M
+S/R:    DST-R, MPS_KLD-S, V09-M
 As long as Trinisphere is untapped, each spell that would cost less than three mana to cast costs three mana to cast. (Additional mana in the cost may be paid with any color of mana or colorless mana. For example, a spell that would cost {1}{B} to cast costs {2}{B} to cast instead.)
 
 Name:   Trinket Mage
@@ -6236,6 +6333,22 @@ Vigilance
 {R}{W}: Truefire Paladin gets +2/+0 until end of turn.
 {R}{W}: Truefire Paladin gains first strike until end of turn.
 
+Name:   Trueheart Duelist
+Cost:   1W
+Type:   Creature — Human Warrior
+P/T:    2/2
+S/R:    AKH-U
+Trueheart Duelist can block an additional creature each combat.
+Embalm {2}{W} ({2}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Warrior with no mana cost. Embalm only as a sorcery.)
+
+Name:   Trueheart Twins
+Cost:   4R
+Type:   Creature — Jackal Warrior
+P/T:    4/4
+S/R:    AKH-U
+You may exert Trueheart Twins as it attacks. (It won't untap during your next untap step.)
+Whenever you exert a creature, creatures you control get +1/+0 until end of turn.
+
 Name:   Trumpet Blast
 Cost:   2R
 Type:   Instant
@@ -6332,7 +6445,7 @@ Name:   Tukatongue Thallid
 Cost:   G
 Type:   Creature — Fungus
 P/T:    1/1
-S/R:    CON-C, PC2-C, MM2-C
+S/R:    CON-C, PC2-C, MM2-C, PCA-C
 When Tukatongue Thallid dies, create a 1/1 green Saproling creature token.
 
 Name:   Tuknir Deathlock
@@ -6417,7 +6530,7 @@ Name:   Tunnel Vision
 Cost:   5U
 Type:   Sorcery
 S/R:    RAV-R
-Name a card. Target player reveals cards from the top of his or her library until the named card is revealed. If it is, that player puts the rest of the revealed cards into his or her graveyard and puts the named card on top of his or her library. Otherwise, the player shuffles his or her library.
+Choose a card name. Target player reveals cards from the top of his or her library until a card with that name is revealed. If it is, that player puts the rest of the revealed cards into his or her graveyard and puts the card with the chosen name on top of his or her library. Otherwise, the player shuffles his or her library.
 
 Name:   Tunneler Wurm
 Cost:   6GG
@@ -6444,7 +6557,7 @@ Name:   Turf Wound
 Cost:   2R
 Type:   Instant
 S/R:    IN-C
-Target player can't play land cards this turn.
+Target player can't play lands this turn.
 Draw a card.
 
 Name:   Turn

@@ -55,6 +55,7 @@ tokens {
     AFFECTED;
     AFFINITY;
     AFTER;
+    AFTERMATH;
     AGAIN;
     ALL;
     ALONE;
@@ -274,6 +275,8 @@ tokens {
     EFFECT;
     EITHER;
     ELSE;
+    EMBALM;
+    EMBALMED;
     EMBLEM;
     EMERGE;
     EMERGED;
@@ -314,6 +317,8 @@ tokens {
     EXCHANGE;
     EXCHANGED;
     EXCHANGING;
+    EXERT;
+    EXERTED;
     EXILE;
     EXILED;
     EXILING;
@@ -937,7 +942,8 @@ HORSEMANSHIP : 'horsemanship';
 INVESTIGATED : 'investigated';
 JUST_BENEATH : 'just beneath';
 MULTICOLORED : 'multicolored';
-ORDINAL_WORD : 'fourth'
+ORDINAL_WORD : 'seventh'
+             | 'fourth'
              | 'second'
              | 'third'
              | 'last';
@@ -1043,6 +1049,7 @@ OBJ_COUNTER : 'manifestation'
             | 'arrow'
             | 'blaze'
             | 'blood'
+            | 'brick'
             | 'delay'
             | 'dream'
             | 'flood'
@@ -1162,6 +1169,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'berserker'
             | 'blinkmoth'
             | 'brushwagg'
+            | 'cartouche'
             | 'cephalids'
             | 'construct'
             | 'crocodile'
@@ -1311,6 +1319,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'horrors'
             | 'insects'
             | 'islands'
+            | 'jackals'
             | 'kithkin'
             | 'knights'
             | 'kobolds'
@@ -1413,6 +1422,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'hyenas'
             | 'insect'
             | 'island'
+            | 'jackal'
             | 'karsus'
             | 'kirins'
             | 'knight'
@@ -1737,6 +1747,7 @@ UNATTACHED : 'unattached';
 ABANDONED : 'abandoned';
 ABSORBING : 'absorbing';
 ACTIVATED : 'activated';
+AFTERMATH : 'aftermath';
 AMPLIFIED : 'amplified';
 ASSEMBLED : 'assembled';
 ASSIGNING : 'assigning';
@@ -1870,6 +1881,7 @@ DIRECTLY : 'directly';
 DIVIDING : 'dividing';
 DIVISION : 'division';
 DRAFTING : 'drafting';
+EMBALMED : 'embalmed';
 ENTERING : 'entering';
 EQUIPPED : 'equipped';
 ESCALATE : 'escalates'
@@ -2003,6 +2015,7 @@ ENTWINE : 'entwine';
 EVOLVED : 'evolved';
 EXACTLY : 'exactly';
 EXALTED : 'exalted';
+EXERTED : 'exerted';
 EXILING : 'exiling';
 EXPLOIT : 'exploits'
         | 'exploit';
@@ -2174,6 +2187,8 @@ DURING : 'during';
 EFFECT : 'effects'
        | 'effect';
 EITHER : 'either';
+EMBALM : 'embalms'
+       | 'embalm';
 EMBLEM : 'emblems'
        | 'emblem';
 EMERGE : 'emerges'
@@ -2339,6 +2354,8 @@ EQUIP : 'equips'
 EVERY : 'every';
 EVOKE : 'evokes'
       | 'evoke';
+EXERT : 'exerts'
+      | 'exert';
 EXILE : 'exiles'
       | 'exile';
 EXTRA : 'extra';

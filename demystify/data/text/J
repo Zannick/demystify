@@ -137,14 +137,14 @@ S/R:    WWK-M, EMA-M, VMA-M, V13-M
 
 Name:   Jackal Familiar
 Cost:   R
-Type:   Creature — Hound
+Type:   Creature — Jackal
 P/T:    2/2
 S/R:    M10-C
 Jackal Familiar can't attack or block alone.
 
 Name:   Jackal Pup
 Cost:   R
-Type:   Creature — Hound
+Type:   Creature — Jackal
 P/T:    2/1
 S/R:    TE-U, PD2-U
 Whenever Jackal Pup is dealt damage, it deals that much damage to you.
@@ -413,7 +413,7 @@ Name:   Jeering Instigator
 Cost:   1R
 Type:   Creature — Goblin Rogue
 P/T:    2/1
-S/R:    KTK-R, FRF-R
+S/R:    KTK-R, FRF_UGIN-R
 Morph {2}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Jeering Instigator is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.
 
@@ -500,7 +500,7 @@ Name:   Jeskai Infiltrator
 Cost:   2U
 Type:   Creature — Human Monk
 P/T:    2/3
-S/R:    FRF-R
+S/R:    FRF-R, FRF_UGIN-R
 Jeskai Infiltrator can't be blocked as long as you control no other creatures.
 When Jeskai Infiltrator deals combat damage to a player, exile it and the top card of your library in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 
@@ -632,7 +632,7 @@ Name:   Jhoira of the Ghitu
 Cost:   1UR
 Type:   Legendary Creature — Human Wizard
 P/T:    2/2
-S/R:    FUT-R, MMA-R
+S/R:    FUT-R, MMA-R, DDS-M
 {2}, Exile a nonland card from your hand: Put four time counters on the exiled card. If it doesn't have suspend, it gains suspend. (At the beginning of your upkeep, remove a time counter from that card. When the last is removed, cast it without paying its mana cost. If it's a creature, it has haste.)
 
 Name:   Jhoira's Timebug
@@ -869,7 +869,7 @@ Name:   Jori En, Ruin Diver
 Cost:   1UR
 Type:   Legendary Creature — Merfolk Wizard
 P/T:    2/3
-S/R:    OGW-R
+S/R:    OGW-R, DDS-R
 Whenever you cast your second spell each turn, draw a card.
 
 Name:   Jorubai Murk Lurker
@@ -1085,7 +1085,7 @@ Sacrifice a token named Wood: Add {R} to your mana pool.
 
 Name:   Jungle Shrine
 Type:   Land
-S/R:    ALA-U, C13-U, C16-U, DDH-U
+S/R:    ALA-U, C13-U, C16-U, MM3-U, DDH-U
 Jungle Shrine enters the battlefield tapped.
 {T}: Add {R}, {G}, or {W} to your mana pool.
 
@@ -1239,7 +1239,7 @@ Flying
 
 Name:   Jwar Isle Refuge
 Type:   Land
-S/R:    ZEN-U, CMD-U, PC2-U, C13-U
+S/R:    ZEN-U, CMD-U, PC2-U, C13-U, PCA-U
 Jwar Isle Refuge enters the battlefield tapped.
 When Jwar Isle Refuge enters the battlefield, you gain 1 life.
 {T}: Add {U} or {B} to your mana pool.

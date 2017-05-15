@@ -16,7 +16,7 @@ Name:   Ugin's Construct
 Cost:   4
 Type:   Artifact Creature — Construct
 P/T:    4/5
-S/R:    FRF-U
+S/R:    FRF-U, FRF_UGIN-U
 When Ugin's Construct enters the battlefield, sacrifice a permanent that's one or more colors.
 
 Name:   Ugin's Insight
@@ -36,7 +36,7 @@ Name:   Ugin, the Spirit Dragon
 Cost:   8
 Type:   Planeswalker — Ugin
 P/T:    7
-S/R:    FRF-M
+S/R:    FRF-M, FRF_UGIN-M
 [+2]: Ugin, the Spirit Dragon deals 3 damage to target creature or player.
 [-10]: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.
 
@@ -259,8 +259,8 @@ Name:   Ulvenwald Tracker
 Cost:   G
 Type:   Creature — Human Shaman
 P/T:    1/1
-S/R:    AVR-R
-{1}{G}, {T}: Target creature you control fights another target creature. (Each deals damage equal to its power to the other.)
+S/R:    AVR-R, MM3-R
+{1}{G}, {T}: Target creature you control fights another target creature.
 
 Name:   Umara Entangler
 Cost:   1U
@@ -348,14 +348,14 @@ Sacrifice Unbridled Growth: Draw a card.
 Name:   Unburden
 Cost:   1BB
 Type:   Sorcery
-S/R:    SCG-C
+S/R:    SCG-C, AKH-C
 Target player discards two cards.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Unburial Rites
 Cost:   4B
 Type:   Sorcery
-S/R:    ISD-U
+S/R:    ISD-U, MM3-U
 Return target creature card from your graveyard to the battlefield.
 Flashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -656,7 +656,7 @@ Put target nonland permanent into its owner's library just beneath the top X car
 Name:   Unflinching Courage
 Cost:   1GW
 Type:   Enchantment — Aura
-S/R:    DGM-U
+S/R:    DGM-U, MM3-U
 Enchant creature
 Enchanted creature gets +2/+2 and has trample and lifelink.
 
@@ -998,7 +998,7 @@ Untaidake, the Cloud Keeper enters the battlefield tapped.
 Name:   Untamed Hunger
 Cost:   2B
 Type:   Enchantment — Aura
-S/R:    OGW-C
+S/R:    OGW-C, W17-C
 Enchant creature
 Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)
 
@@ -1022,6 +1022,14 @@ S/R:    AeR-U
 Trample
 Whenever Untethered Express attacks, put a +1/+1 counter on it.
 Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
+
+Name:   Unwavering Initiate
+Cost:   2W
+Type:   Creature — Human Warrior
+P/T:    3/2
+S/R:    AKH-C
+Vigilance
+Embalm {4}{W} ({4}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Human Warrior with no mana cost. Embalm only as a sorcery.)
 
 Name:   Unwilling Recruit
 Cost:   XRRR
@@ -1142,14 +1150,14 @@ Enchanted land has "Untap this land during each other player's untap step."
 Name:   Urban Evolution
 Cost:   3GU
 Type:   Sorcery
-S/R:    GTC-U, DDO-U
+S/R:    GTC-U, MM3-U, DDO-U
 Draw three cards. You may play an additional land this turn.
 
 Name:   Urbis Protector
 Cost:   4WW
 Type:   Creature — Human Cleric
 P/T:    1/1
-S/R:    GTC-U
+S/R:    GTC-U, MM3-U
 When Urbis Protector enters the battlefield, create a 4/4 white Angel creature token with flying.
 
 Name:   Urborg
@@ -1362,7 +1370,7 @@ Creature spells of the chosen type cost {2} less to cast.
 
 Name:   Urza's Mine
 Type:   Land — Urza's Mine
-S/R:    AQ-C, AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
+S/R:    AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
 {T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.
 
 Name:   Urza's Miter
@@ -1373,7 +1381,7 @@ Whenever an artifact you control is put into a graveyard from the battlefield, i
 
 Name:   Urza's Power Plant
 Type:   Land — Urza's Power-Plant
-S/R:    AQ-C, AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
+S/R:    AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
 {T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.
 
 Name:   Urza's Rage
@@ -1386,7 +1394,7 @@ Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kick
 
 Name:   Urza's Tower
 Type:   Land — Urza's Tower
-S/R:    AQ-C, AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
+S/R:    AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
 {T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.
 
 Name:   Uthden Troll

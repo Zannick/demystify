@@ -43,7 +43,7 @@ Name:   Pact of Negation
 Cost:   0
 Type:   Instant
 Color:  Blue
-S/R:    FUT-R, MMA-R
+S/R:    FUT-R, MMA-R, MPS_AKH-S
 Counter target spell.
 At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.
 
@@ -104,6 +104,12 @@ P/T:    1/1
 S/R:    OD-U
 {T}, Exile any number of cards from your graveyard: Target creature gets -X/-X until end of turn, where X is the number of cards exiled this way.
 
+Name:   Painful Lesson
+Cost:   2B
+Type:   Sorcery
+S/R:    AKH-C
+Target player draws two cards and loses 2 life.
+
 Name:   Painful Memories
 Cost:   1B
 Type:   Sorcery
@@ -129,11 +135,17 @@ P/T:    2/1
 S/R:    SOM-U
 Whenever you cast an artifact spell, you may have target creature get +2/+0 and gain deathtouch until end of turn.
 
+Name:   Painted Bluffs
+Type:   Land — Desert
+S/R:    AKH-C
+{T}: Add {C} to your mana pool.
+{1}, {T}: Add one mana of any color to your mana pool.
+
 Name:   Painter's Servant
 Cost:   2
 Type:   Artifact Creature — Scarecrow
 P/T:    1/3
-S/R:    SHM-R, MPS-S
+S/R:    SHM-R, MPS_KLD-S
 As Painter's Servant enters the battlefield, choose a color.
 All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors.
 
@@ -416,7 +428,7 @@ Whenever a player casts a spell of the chosen color, you may gain 1 life.
 Name:   Paradox Engine
 Cost:   5
 Type:   Legendary Artifact
-S/R:    MPS-S, AeR-M
+S/R:    MPS_KLD-S, AeR-M
 Whenever you cast a spell, untap all nonland permanents you control.
 
 Name:   Paradox Haze
@@ -728,7 +740,7 @@ Destroy target creature. You draw X cards and you lose X life, where X is the nu
 Name:   Past in Flames
 Cost:   3R
 Type:   Sorcery
-S/R:    ISD-M, C16-M
+S/R:    ISD-M, C16-M, MM3-M
 Each instant and sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -777,7 +789,7 @@ Destroy target creature. Its owner gains 4 life.
 Name:   Path to Exile
 Cost:   W
 Type:   Instant
-S/R:    CON-U, ARC-U, CMD-U, MMA-U, DDI-U
+S/R:    CON-U, ARC-U, CMD-U, MMA-U, MM3-U, DDI-U
 Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.
 
 Name:   Pathbreaker Ibex
@@ -794,6 +806,13 @@ P/T:    6/4
 S/R:    AVR-C
 Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
 As long as Pathbreaker Wurm is paired with another creature, both creatures have trample.
+
+Name:   Pathmaker Initiate
+Cost:   1R
+Type:   Creature — Human Wizard
+P/T:    2/1
+S/R:    AKH-C
+{T}: Target creature with power 2 or less can't be blocked this turn.
 
 Name:   Pathrazer of Ulamog
 Cost:   11
@@ -1089,7 +1108,7 @@ Choose a creature type. If you control more creatures of that type than each oth
 Name:   Peer Through Depths
 Cost:   1U
 Type:   Instant — Arcane
-S/R:    CHK-C, MMA-C
+S/R:    CHK-C, MMA-C, DDS-C
 Look at the top five cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 
 Name:   Pegasus Charger
@@ -1250,7 +1269,7 @@ Name:   Penumbra Spider
 Cost:   2GG
 Type:   Creature — Spider
 P/T:    2/4
-S/R:    TSP-C, CMD-C, PC2-C, MMA-C
+S/R:    TSP-C, CMD-C, PC2-C, MMA-C, PCA-C, MM3-C
 Reach
 When Penumbra Spider dies, create a 2/4 black Spider creature token with reach.
 
@@ -1285,7 +1304,7 @@ Name:   Peregrine Drake
 Cost:   4U
 Type:   Creature — Drake
 P/T:    2/3
-S/R:    US-U, PC2-U, EMA-C
+S/R:    US-U, PC2-U, EMA-C, PCA-U
 Flying
 When Peregrine Drake enters the battlefield, untap up to five lands.
 
@@ -1521,7 +1540,7 @@ Cost:   2WWW
 Type:   Creature — Sphinx
 P/T:    3/4
 S/R:    LE-R, CH-R, MED-R
-{T}: Target player names a card, then reveals the top card of his or her library. If that card is the named card, that player puts it into his or her hand. If it isn't, the player puts it into his or her graveyard.
+{T}: Target player chooses a card name, then reveals the top card of his or her library. If that card has the chosen name, that player puts it into his or her hand. If it doesn't, the player puts it into his or her graveyard.
 
 Name:   Petradon
 Cost:   6RR
@@ -1652,7 +1671,7 @@ Name:   Phantasmal Image
 Cost:   1U
 Type:   Creature — Illusion
 P/T:    0/0
-S/R:    M12-R
+S/R:    M12-R, MM3-R
 You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it's an Illusion in addition to its other types and it gains "When this creature becomes the target of a spell or ability, sacrifice it."
 
 Name:   Phantasmal Mount
@@ -1798,7 +1817,7 @@ Cost:   4R
 Type:   Creature — Giant
 P/T:    3/3
 S/R:    BNG-C
-Tribute 2 (As this creature enters the battlefield, an opponent of your choice may place two +1/+1 counters on it.)
+Tribute 2 (As this creature enters the battlefield, an opponent of your choice may put two +1/+1 counters on it.)
 When Pharagax Giant enters the battlefield, if tribute wasn't paid, Pharagax Giant deals 5 damage to each opponent.
 
 Name:   Pharika's Chosen
@@ -2252,7 +2271,7 @@ Cost:   2
 Type:   Artifact Creature — Horror
 P/T:    2/1
 S/R:    MBS-R, M15-R
-As Phyrexian Revoker enters the battlefield, name a nonland card.
+As Phyrexian Revoker enters the battlefield, choose a nonland card name.
 Activated abilities of sources with the chosen name can't be activated.
 
 Name:   Phyrexian Scuta
@@ -2456,7 +2475,7 @@ First strike; banding (Any creatures with banding, and up to one without, can at
 Name:   Pilfered Plans
 Cost:   1UB
 Type:   Sorcery
-S/R:    DGM-C
+S/R:    DGM-C, MM3-C
 Target player puts the top two cards of his or her library into his or her graveyard. Draw two cards.
 
 Name:   Pilgrim of Justice
@@ -2712,7 +2731,7 @@ Name:   Pit Keeper
 Cost:   1B
 Type:   Creature — Human Wizard
 P/T:    2/1
-S/R:    TSP-C
+S/R:    TSP-C, MM3-C
 When Pit Keeper enters the battlefield, if you have four or more creature cards in your graveyard, you may return target creature card from your graveyard to your hand.
 
 Name:   Pit Raptor
@@ -2763,7 +2782,7 @@ Whenever you discard a card, you may sacrifice Pitchstone Wall. If you do, retur
 Name:   Pitfall Trap
 Cost:   2W
 Type:   Instant — Trap
-S/R:    ZEN-U
+S/R:    ZEN-U, MM3-C
 If exactly one creature is attacking, you may pay {W} rather than pay Pitfall Trap's mana cost.
 Destroy target attacking creature without flying.
 
@@ -2778,8 +2797,8 @@ When Pith Driller enters the battlefield, put a -1/-1 counter on target creature
 Name:   Pithing Needle
 Cost:   1
 Type:   Artifact
-S/R:    SOK-R, 10E-R, M10-R, RTR-R, MPS-S
-As Pithing Needle enters the battlefield, name a card.
+S/R:    SOK-R, 10E-R, M10-R, RTR-R, MPS_KLD-S
+As Pithing Needle enters the battlefield, choose a card name.
 Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.
 
 Name:   Pitiless Horde
@@ -2789,6 +2808,13 @@ P/T:    5/3
 S/R:    DTK-R
 At the beginning of your upkeep, you lose 2 life.
 Dash {2}{B}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
+
+Name:   Pitiless Vizier
+Cost:   3B
+Type:   Creature — Minotaur Cleric
+P/T:    4/2
+S/R:    AKH-C
+Whenever you cycle or discard a card, Pitiless Vizier gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it. If its toughness is 0 or less, it's still put into its owner's graveyard.)
 
 Name:   Pixie Queen
 Cost:   2GG
@@ -2810,6 +2836,15 @@ Type:   Creature — Insect
 P/T:    1/1
 S/R:    UL-C, 7E-C, 8ED-C, 9ED-C, 10E-C
 Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+
+Name:   Plague Belcher
+Cost:   2B
+Type:   Creature — Zombie Beast
+P/T:    5/4
+S/R:    AKH-R
+Menace
+When Plague Belcher enters the battlefield, put two -1/-1 counters on target creature you control.
+Whenever another Zombie you control dies, each opponent loses 1 life.
 
 Name:   Plague Boiler
 Cost:   3
@@ -2920,7 +2955,7 @@ S/R:    MBS-U
 
 Name:   Plains
 Type:   Basic Land — Plains
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, UG-C, UNH-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, UG-C, UNH-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
 
 Name:   Planar Birth
 Cost:   1W
@@ -2931,7 +2966,7 @@ Return all basic land cards from all graveyards to the battlefield tapped under 
 Name:   Planar Bridge
 Cost:   6
 Type:   Legendary Artifact
-S/R:    MPS-S, AeR-M
+S/R:    MPS_KLD-S, AeR-M
 {8}, {T}: Search your library for a permanent card, put it onto the battlefield, then shuffle your library.
 
 Name:   Planar Chaos
@@ -3120,7 +3155,7 @@ Name:   Platinum Angel
 Cost:   7
 Type:   Artifact Creature — Angel
 P/T:    4/4
-S/R:    MRD-R, 10E-R, M10-M, M11-M, CN2-M, MPS-S, V15-M
+S/R:    MRD-R, 10E-R, M10-M, M11-M, CN2-M, MPS_KLD-S, V15-M
 Flying
 You can't lose the game and your opponents can't win the game.
 
@@ -3220,7 +3255,7 @@ Cost:   1B
 Type:   Instant
 S/R:    5DN-R
 Choose one —
-• Sacrifice any number of creatures, then you gain 3 life for each sacrificed creature.
+• Sacrifice any number of creatures. You gain 3 life for each sacrificed creature.
 • Pay X life, then look at the top X cards of your library. Put one of those cards into your hand and exile the rest.
 Entwine {B} (Choose both if you pay the entwine cost.)
 
@@ -3283,7 +3318,7 @@ Prevent the next 3 damage that would be dealt this turn to any number of target 
 Name:   Pollenbright Wings
 Cost:   4GW
 Type:   Enchantment — Aura
-S/R:    RAV-U, PC2-U
+S/R:    RAV-U, PC2-U, PCA-U
 Enchant creature
 Enchanted creature has flying.
 Whenever enchanted creature deals combat damage to a player, create that many 1/1 green Saproling creature tokens.
@@ -3496,6 +3531,13 @@ Type:   Creature — Sliver
 P/T:    2/2
 S/R:    PLC-C
 All Slivers have "{2}, {T}: Regenerate target Sliver."
+
+Name:   Pouncing Cheetah
+Cost:   2G
+Type:   Creature — Cat
+P/T:    3/2
+S/R:    AKH-C
+Flash
 
 Name:   Pouncing Jaguar
 Cost:   G
@@ -3780,7 +3822,7 @@ Sliver creatures you control get +1/+1.
 Name:   Predatory Urge
 Cost:   3G
 Type:   Enchantment — Aura
-S/R:    ZEN-R, PC2-R
+S/R:    ZEN-R, PC2-R, PCA-R
 Enchant creature
 Enchanted creature has "{T}: This creature deals damage equal to its power to target creature. That creature deals damage equal to its power to this creature."
 
@@ -3788,7 +3830,7 @@ Name:   Predict
 Cost:   1U
 Type:   Instant
 S/R:    OD-U
-Name a card, then target player puts the top card of his or her library into his or her graveyard. If that card is the named card, you draw two cards. Otherwise, you draw a card.
+Choose a card name, then target player puts the top card of his or her library into his or her graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card.
 
 Name:   Preeminent Captain
 Cost:   2W
@@ -3821,6 +3863,14 @@ Cost:   U
 Type:   Sorcery
 S/R:    M11-C, C15-C, DDI-C
 Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+
+Name:   Prepare
+Cost:   1W
+Type:   Instant
+M-type: Split
+M-card: Fight
+S/R:    AKH-R
+Untap target creature. It gets +2/+2 and gains lifelink until end of turn.
 
 Name:   Prescient Chimera
 Cost:   3UU
@@ -3900,7 +3950,7 @@ Name:   Preyseizer Dragon
 Cost:   4RR
 Type:   Creature — Dragon
 P/T:    4/4
-S/R:    PC2-R
+S/R:    PC2-R, PCA-R
 Flying
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 Whenever Preyseizer Dragon attacks, it deals damage to target creature or player equal to the number of +1/+1 counters on Preyseizer Dragon.
@@ -3995,7 +4045,7 @@ Cost:   1B
 Type:   Creature — Human Cleric
 P/T:    1/2
 S/R:    AQ-C
-{T}, Sacrifice an artifact: Add to your mana pool an amount of {B} equal to the sacrificed artifact's converted mana cost.
+{T}, Sacrifice an artifact: Add an amount of {B} to your mana pool equal to the sacrificed artifact's converted mana cost.
 
 Name:   Priest of the Blood Rite
 Cost:   3BB
@@ -4052,7 +4102,7 @@ When enchanted creature attacks or blocks, sacrifice Primal Cocoon.
 Name:   Primal Command
 Cost:   3GG
 Type:   Sorcery
-S/R:    LRW-R, ARC-R, DDP-R
+S/R:    LRW-R, ARC-R, MM3-R, DDP-R
 Choose two —
 • Target player gains 7 life.
 • Put target noncreature permanent on top of its owner's library.
@@ -4104,7 +4154,7 @@ Name:   Primal Plasma
 Cost:   3U
 Type:   Creature — Elemental Shapeshifter
 P/T:    */*
-S/R:    PLC-C, PC2-C, DDI-C
+S/R:    PLC-C, PC2-C, PCA-C, DDI-C
 As Primal Plasma enters the battlefield, it becomes your choice of a 3/3 creature, a 2/2 creature with flying, or a 1/6 creature with defender.
 
 Name:   Primal Rage
@@ -4124,7 +4174,7 @@ Cost:   4G
 Type:   Enchantment
 S/R:    C13-R
 If one or more tokens would be created, twice that many of those tokens are created instead.
-If one or more +1/+1 counters would be placed on a creature, twice that many +1/+1 counters are placed on that creature instead.
+If one or more +1/+1 counters would be put on a creature, twice that many +1/+1 counters are put on that creature instead.
 
 Name:   Primal Visitation
 Cost:   3RG
@@ -4668,6 +4718,12 @@ S/R:    DGM-U
 Target creature gets +2/+4 until end of turn.
 Fuse (You may cast one or both halves of this card from your hand.)
 
+Name:   Protection of the Hekma
+Cost:   4W
+Type:   Enchantment
+S/R:    AKH-U
+If a source an opponent controls would deal damage to you, prevent 1 of that damage.
+
 Name:   Protective Bubble
 Cost:   3U
 Type:   Enchantment — Aura
@@ -4756,6 +4812,14 @@ Type:   Creature — Beast
 P/T:    6/5
 S/R:    ONS-U, EMA-C
 When Prowling Pangolin enters the battlefield, any player may sacrifice two creatures. If a player does, sacrifice Prowling Pangolin.
+
+Name:   Prowling Serpopard
+Cost:   1GG
+Type:   Creature — Cat Snake
+P/T:    4/3
+S/R:    AKH-R
+Prowling Serpopard can't be countered.
+Creature spells you control can't be countered.
 
 Name:   Prying Questions
 Cost:   2B
@@ -5019,6 +5083,12 @@ Cost:   W
 Type:   Instant
 S/R:    TSP-U
 Put target face-up exiled card into its owner's graveyard.
+
+Name:   Pull from Tomorrow
+Cost:   XUU
+Type:   Instant
+S/R:    AKH-R
+Draw X cards, then discard a card.
 
 Name:   Pull from the Deep
 Cost:   2UU
@@ -5316,6 +5386,13 @@ S/R:    MI-R
 Purraj of Urborg has first strike as long as it's attacking.
 Whenever a player casts a black spell, you may pay {B}. If you do, put a +1/+1 counter on Purraj of Urborg.
 
+Name:   Pursue Glory
+Cost:   3R
+Type:   Instant
+S/R:    AKH-C
+Attacking creatures get +2/+0 until end of turn.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Pursuit of Flight
 Cost:   1R
 Type:   Enchantment — Aura
@@ -5362,7 +5439,7 @@ At the beginning of the end step, sacrifice Putrefax.
 Name:   Putrefy
 Cost:   1BG
 Type:   Instant
-S/R:    RAV-U, DGM-U, C15-U, C16-U, DDJ-U
+S/R:    RAV-U, DGM-U, C15-U, C16-U, MM3-U, DDJ-U
 Destroy target artifact or creature. It can't be regenerated.
 
 Name:   Putrid Cyclops
@@ -5454,6 +5531,13 @@ P/T:    1/1
 S/R:    IA-C
 When Pyknite enters the battlefield, draw a card at the beginning of the next turn's upkeep.
 
+Name:   Pyramid of the Pantheon
+Cost:   1
+Type:   Artifact
+S/R:    AKH-R
+{2}, {T}: Add one mana of any color to your mana pool. Put a brick counter on Pyramid of the Pantheon.
+{T}: Add three mana of any one color to your mana pool. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon.
+
 Name:   Pyramids
 Cost:   6
 Type:   Artifact
@@ -5513,7 +5597,7 @@ Name:   Pyrewild Shaman
 Cost:   2R
 Type:   Creature — Goblin Shaman
 P/T:    3/1
-S/R:    DGM-R
+S/R:    DGM-R, MM3-U
 Bloodrush — {1}{R}, Discard Pyrewild Shaman: Target attacking creature gets +3/+1 until end of turn.
 Whenever one or more creatures you control deal combat damage to a player, if Pyrewild Shaman is in your graveyard, you may pay {3}. If you do, return Pyrewild Shaman to your hand.
 
@@ -5542,7 +5626,7 @@ Choose one —
 Name:   Pyroclasm
 Cost:   1R
 Type:   Sorcery
-S/R:    IA-U, P1-R, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, M11-U, DDK-U, DDL-U
+S/R:    IA-U, P1-R, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, M11-U, MM3-U, DDK-U, DDL-U
 Pyroclasm deals 2 damage to each creature.
 
 Name:   Pyroclast Consul
@@ -5575,7 +5659,7 @@ Pyrokinesis deals 4 damage divided as you choose among any number of target crea
 Name:   Pyromancer Ascension
 Cost:   1R
 Type:   Enchantment
-S/R:    ZEN-R
+S/R:    ZEN-R, MM3-R
 Whenever you cast an instant or sorcery spell that has the same name as a card in your graveyard, you may put a quest counter on Pyromancer Ascension.
 Whenever you cast an instant or sorcery spell while Pyromancer Ascension has two or more quest counters on it, you may copy that spell. You may choose new targets for the copy.
 

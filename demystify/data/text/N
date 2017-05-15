@@ -42,6 +42,20 @@ P/T:    1/1
 S/R:    AN-C, 4E-C
 Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of his or her next draw step unless he or she pays {1} before that draw step.
 
+Name:   Naga Oracle
+Cost:   3U
+Type:   Creature — Naga Cleric
+P/T:    2/4
+S/R:    AKH-C
+When Naga Oracle enters the battlefield, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.
+
+Name:   Naga Vitalist
+Cost:   1G
+Type:   Creature — Naga Druid
+P/T:    1/2
+S/R:    AKH-C
+{T}: Add to your mana pool one mana of any type that a land you control could produce.
+
 Name:   Nagao, Bound by Honor
 Cost:   3W
 Type:   Legendary Creature — Human Samurai
@@ -586,7 +600,7 @@ Cost:   3UB
 Type:   Legendary Creature — Human Wizard
 P/T:    3/3
 S/R:    LE-R, CH-R, ME3-U
-{X}, {T}: Name a card. Target opponent reveals X cards at random from his or her hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.
+{X}, {T}: Choose a card name. Target opponent reveals X cards at random from his or her hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.
 
 Name:   Neck Breaker
 Type:   Creature — Werewolf
@@ -919,6 +933,14 @@ P/T:    3/6
 S/R:    LGN-C
 Reach (This creature can block creatures with flying.)
 
+Name:   Nef-Crop Entangler
+Cost:   1R
+Type:   Creature — Human Warrior
+P/T:    2/1
+S/R:    AKH-C
+Trample
+You may exert Nef-Crop Entangler as it attacks. When you do, it gets +1/+2 until end of turn. (An exerted creature won't untap during your next untap step.)
+
 Name:   Nefarious Lich
 Cost:   BBBB
 Type:   Enchantment
@@ -958,6 +980,16 @@ S/R:    SOI-U
 Equipped creature gets +1/+1.
 When equipped creature transforms, transform Neglected Heirloom.
 Equip {1}
+
+Name:   Neheb, the Worthy
+Cost:   1BR
+Type:   Legendary Creature — Minotaur Warrior
+P/T:    2/2
+S/R:    AKH-R
+First strike
+Other Minotaurs you control have first strike.
+As long as you have one or fewer cards in hand, Minotaurs you control get +2/+0.
+Whenever Neheb, the Worthy deals combat damage to a player, each player discards a card.
 
 Name:   Neko-Te
 Cost:   3
@@ -1081,7 +1113,7 @@ Cost:   3GG
 Type:   Creature — Beast
 P/T:    3/3
 S/R:    BNG-U
-Tribute 3 (As this creature enters the battlefield, an opponent of your choice may place three +1/+1 counters on it.)
+Tribute 3 (As this creature enters the battlefield, an opponent of your choice may put three +1/+1 counters on it.)
 When Nessian Demolok enters the battlefield, if tribute wasn't paid, destroy target noncreature permanent.
 
 Name:   Nessian Game Warden
@@ -1096,15 +1128,21 @@ Cost:   4GG
 Type:   Creature — Hydra
 P/T:    6/6
 S/R:    BNG-R
-Tribute 6 (As this creature enters the battlefield, an opponent of your choice may place six +1/+1 counters on it.)
+Tribute 6 (As this creature enters the battlefield, an opponent of your choice may put six +1/+1 counters on it.)
 When Nessian Wilds Ravager enters the battlefield, if tribute wasn't paid, you may have Nessian Wilds Ravager fight another target creature. (Each deals damage equal to its power to the other.)
 
 Name:   Nest Invader
 Cost:   1G
 Type:   Creature — Eldrazi Drone
 P/T:    2/2
-S/R:    ROE-C, PC2-C, MM2-C
+S/R:    ROE-C, PC2-C, MM2-C, PCA-C
 When Nest Invader enters the battlefield, create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+
+Name:   Nest of Scarabs
+Cost:   2B
+Type:   Enchantment
+S/R:    AKH-U
+Whenever you put one or more -1/-1 counters on a creature, create that many 1/1 black Insect creature tokens.
 
 Name:   Nested Ghoul
 Cost:   3BB
@@ -1307,6 +1345,14 @@ Type:   Instant
 S/R:    FRF-U
 Counter target multicolored spell.
 
+Name:   Never
+Cost:   1BB
+Type:   Sorcery
+M-type: Split
+M-card: Return
+S/R:    AKH-R
+Destroy target creature or planeswalker.
+
 Name:   Neverending Torment
 Cost:   4BB
 Type:   Sorcery
@@ -1327,8 +1373,8 @@ Name:   Nevermore
 Cost:   1WW
 Type:   Enchantment
 S/R:    ISD-R
-As Nevermore enters the battlefield, name a nonland card.
-The named card can't be cast.
+As Nevermore enters the battlefield, choose a nonland card name.
+Spells with the chosen name can't be cast.
 
 Name:   Nevinyrral's Disk
 Cost:   4
@@ -1349,6 +1395,13 @@ Cost:   XG
 Type:   Sorcery
 S/R:    OD-R
 Each player may search his or her library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it.
+
+Name:   New Perspectives
+Cost:   5U
+Type:   Enchantment
+S/R:    AKH-R
+When New Perspectives enters the battlefield, draw three cards.
+As long as you have seven or more cards in hand, you may pay {0} rather than pay cycling costs.
 
 Name:   New Prahv Guildmage
 Cost:   WU
@@ -1524,7 +1577,7 @@ S/R:    FE-C, C13-C, ME2-U
 Name:   Night Terrors
 Cost:   2B
 Type:   Sorcery
-S/R:    ISD-C
+S/R:    ISD-C, MM3-C
 Target player reveals his or her hand. You choose a nonland card from it. Exile that card.
 
 Name:   Night of Souls' Betrayal
@@ -1605,7 +1658,7 @@ Name:   Nightmare
 Cost:   5B
 Type:   Creature — Nightmare Horse
 P/T:    */*
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R, M14-R, M15-R, ORI-R, W16-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R, M14-R, M15-R, ORI-R, W16-R, W17-R
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 Nightmare's power and toughness are each equal to the number of Swamps you control.
 
@@ -1872,6 +1925,13 @@ S/R:    OD-U, EMA-C
 Shroud (This creature can't be the target of spells or abilities.)
 Threshold — Nimble Mongoose gets +2/+2 as long as seven or more cards are in your graveyard.
 
+Name:   Nimble-Blade Khenra
+Cost:   1R
+Type:   Creature — Jackal Warrior
+P/T:    1/3
+S/R:    AKH-C
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+
 Name:   Nimbus Maze
 Type:   Land
 S/R:    FUT-R
@@ -1927,7 +1987,7 @@ Name:   Ninja of the Deep Hours
 Cost:   3U
 Type:   Creature — Human Ninja
 P/T:    2/2
-S/R:    BOK-C, PC2-C, C15-C
+S/R:    BOK-C, PC2-C, C15-C, PCA-C
 Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 Whenever Ninja of the Deep Hours deals combat damage to a player, you may draw a card.
 
@@ -2038,6 +2098,15 @@ S/R:    ORI-M
 [-2]: Create a legendary 4/4 green Elemental creature token named Ashaya, the Awoken World.
 [-7]: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands.
 
+Name:   Nissa, Steward of Elements
+Cost:   XGU
+Type:   Planeswalker — Nissa
+S/R:    X
+S/R:    AKH-M
+[+2]: Scry 2.
+[0]: Look at the top card of your library. If it's a land card or a creature card with converted mana cost less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield.
+[-6]: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands.
+
 Name:   Nissa, Vastwood Seer
 Cost:   2G
 Type:   Legendary Creature — Elf Scout
@@ -2079,7 +2148,7 @@ Name:   Niv-Mizzet, Dracogenius
 Cost:   2UURR
 Type:   Legendary Creature — Dragon Wizard
 P/T:    5/5
-S/R:    RTR-M
+S/R:    RTR-M, MM3-R
 Flying
 Whenever Niv-Mizzet, Dracogenius deals damage to a player, you may draw a card.
 {U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to target creature or player.
@@ -2113,7 +2182,7 @@ Name:   Nivix Cyclops
 Cost:   1UR
 Type:   Creature — Cyclops
 P/T:    1/4
-S/R:    DGM-C
+S/R:    DGM-C, DDS-C
 Defender
 Whenever you cast an instant or sorcery spell, Nivix Cyclops gets +3/+0 until end of turn and can attack this turn as though it didn't have defender.
 
@@ -2304,7 +2373,7 @@ Name:   Noggle Ransacker
 Cost:   2(U/R)
 Type:   Creature — Noggle Rogue
 P/T:    2/1
-S/R:    EVE-U, PC2-U
+S/R:    EVE-U, PC2-U, PCA-U
 When Noggle Ransacker enters the battlefield, each player draws two cards, then discards a card at random.
 
 Name:   Nomad Decoy
@@ -2563,7 +2632,7 @@ Name:   Noxious Gearhulk
 Cost:   4BB
 Type:   Artifact Creature — Construct
 P/T:    5/4
-S/R:    KLD-M, MPS-S
+S/R:    KLD-M, MPS_KLD-S
 Menace
 When Noxious Gearhulk enters the battlefield, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness.
 
@@ -2615,7 +2684,7 @@ Name:   Nucklavee
 Cost:   4(U/R)(U/R)
 Type:   Creature — Beast
 P/T:    4/4
-S/R:    EVE-U, CMD-U
+S/R:    EVE-U, CMD-U, DDS-U
 When Nucklavee enters the battlefield, you may return target red sorcery card from your graveyard to your hand.
 When Nucklavee enters the battlefield, you may return target blue instant card from your graveyard to your hand.
 
@@ -2642,8 +2711,8 @@ Name:   Null Chamber
 Cost:   3W
 Type:   World Enchantment
 S/R:    MI-R
-As Null Chamber enters the battlefield, you and an opponent each name a card other than a basic land card.
-The named cards can't be played.
+As Null Chamber enters the battlefield, you and an opponent each choose a card name other than a basic land card name.
+Spells with the chosen names can't be cast.
 
 Name:   Null Champion
 Cost:   1B
@@ -2678,7 +2747,7 @@ Name:   Nullmage Advocate
 Cost:   2G
 Type:   Creature — Insect Druid
 P/T:    2/3
-S/R:    JUD-C, PC2-C
+S/R:    JUD-C, PC2-C, PCA-C
 {T}: Return two target cards from an opponent's graveyard to his or her hand. Destroy target artifact or enchantment.
 
 Name:   Nullmage Shepherd

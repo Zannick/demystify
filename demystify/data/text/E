@@ -44,6 +44,15 @@ S/R:    JUD-C
 When Earsplitting Rats enters the battlefield, each player discards a card.
 Discard a card: Regenerate Earsplitting Rats.
 
+Name:   Earth
+Cost:   XRR
+Type:   Sorcery
+M-type: Split
+M-card: Heaven
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Earth deals X damage to each creature without flying.
+
 Name:   Earth Elemental
 Cost:   3RR
 Type:   Creature — Elemental
@@ -358,6 +367,13 @@ P/T:    2/2
 S/R:    SCG-U
 Cleric spells you cast cost {W}{B} less to cast. This effect reduces only the amount of colored mana you pay. (For example, if you cast a Cleric spell with mana cost {1}{W}, it costs {1} to cast.)
 
+Name:   Edifice of Authority
+Cost:   3
+Type:   Artifact
+S/R:    AKH-U
+{1}, {T}: Target creature can't attack this turn. Put a brick counter on Edifice of Authority.
+{1}, {T}: Until your next turn, target creature can't attack or block and its activated abilities can't be activated. Activate this ability only if there are three or more brick counters on Edifice of Authority.
+
 Name:   Edric, Spymaster of Trest
 Cost:   1GU
 Type:   Legendary Creature — Elf Rogue
@@ -600,7 +616,7 @@ Name:   Elderwood Scion
 Cost:   3GW
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    PC2-R
+S/R:    PC2-R, PCA-R
 Trample, lifelink
 Spells you cast that target Elderwood Scion cost {2} less to cast.
 Spells your opponents cast that target Elderwood Scion cost {2} more to cast.
@@ -694,6 +710,12 @@ Type:   Instant
 S/R:    RTR-C
 Electrickery deals 1 damage to target creature you don't control.
 Overload {1}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+
+Name:   Electrify
+Cost:   3R
+Type:   Instant
+S/R:    AKH-C
+Electrify deals 4 damage to target creature.
 
 Name:   Electrolyze
 Cost:   1UR
@@ -1304,6 +1326,13 @@ S/R:    LGN-C
 Amplify 1 (As this creature enters the battlefield, put a +1/+1 counter on it for each Zombie card you reveal in your hand.)
 Whenever Embalmed Brawler attacks or blocks, you lose 1 life for each +1/+1 counter on it.
 
+Name:   Embalmer's Tools
+Cost:   2
+Type:   Artifact
+S/R:    AKH-U
+Activated abilities of creature cards in your graveyard cost {1} less to activate.
+Tap an untapped Zombie you control: Target player puts the top card of his or her library into his or her graveyard.
+
 Name:   Embargo
 Cost:   3U
 Type:   Enchantment
@@ -1368,6 +1397,13 @@ Type:   Creature — Zubera Spirit
 P/T:    1/2
 S/R:    CHK-C
 When Ember-Fist Zubera dies, it deals damage to target creature or player equal to the number of Zubera that died this turn.
+
+Name:   Emberhorn Minotaur
+Cost:   3R
+Type:   Creature — Minotaur Warrior
+P/T:    4/3
+S/R:    AKH-C
+You may exert Emberhorn Minotaur as it attacks. When you do, it gets +1/+1 and gains menace until end of turn. (An exerted creature won't untap during your next untap step.)
 
 Name:   Embermage Goblin
 Cost:   3R
@@ -1620,7 +1656,7 @@ Create X tapped 2/2 black Zombie creature tokens.
 Name:   Empty the Warrens
 Cost:   3R
 Type:   Sorcery
-S/R:    TSP-C, MMA-C
+S/R:    TSP-C, MMA-C, DDS-C
 Create two 1/1 red Goblin creature tokens.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)
 
@@ -1935,7 +1971,7 @@ Type:   Creature — Dragon
 P/T:    4/4
 S/R:    DTK-U, C16-U
 Flying
-Whenever one or more +1/+1 counters are placed on another creature you control, you may put a +1/+1 counter on Enduring Scalelord.
+Whenever one or more +1/+1 counters are put on another creature you control, you may put a +1/+1 counter on Enduring Scalelord.
 
 Name:   Enduring Victory
 Cost:   4W
@@ -2032,7 +2068,7 @@ Enchanted creature gets -2/-2.
 Name:   Engineered Explosives
 Cost:   X
 Type:   Artifact
-S/R:    5DN-R, MMA-R, MPS-S
+S/R:    5DN-R, MMA-R, MPS_KLD-S
 Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
 {2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.
 
@@ -2077,6 +2113,14 @@ Type:   Instant
 S/R:    FRF-C
 Draw three cards, then discard a card.
 
+Name:   Enigma Drake
+Cost:   1UR
+Type:   Creature — Drake
+P/T:    */4
+S/R:    AKH-U
+Flying
+Enigma Drake's power is equal to the number of instant and sorcery cards in your graveyard.
+
 Name:   Enigma Eidolon
 Cost:   3U
 Type:   Creature — Spirit
@@ -2089,7 +2133,7 @@ Name:   Enigma Sphinx
 Cost:   4WUB
 Type:   Artifact Creature — Sphinx
 P/T:    5/4
-S/R:    ARB-R, PC2-R
+S/R:    ARB-R, PC2-R, PCA-R
 Flying
 When Enigma Sphinx is put into your graveyard from the battlefield, put it into your library third from the top.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
@@ -2124,7 +2168,7 @@ Name:   Enlisted Wurm
 Cost:   4GW
 Type:   Creature — Wurm
 P/T:    5/5
-S/R:    ARB-U, PC2-U
+S/R:    ARB-U, PC2-U, PCA-U
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 
 Name:   Enlistment Officer
@@ -2221,7 +2265,7 @@ Tap all creatures.
 Name:   Ensnaring Bridge
 Cost:   3
 Type:   Artifact
-S/R:    ST-R, 7E-R, 8ED-R, MPS-S
+S/R:    ST-R, 7E-R, 8ED-R, MPS_KLD-S
 Creatures with power greater than the number of cards in your hand can't attack.
 
 Name:   Ensoul Artifact
@@ -2284,17 +2328,17 @@ When Enthralling Victor enters the battlefield, gain control of target creature 
 Name:   Entomb
 Cost:   B
 Type:   Instant
-S/R:    OD-R, EMA-R, PD3-R
+S/R:    OD-R, EMA-R, MPS_AKH-S, PD3-R
 Search your library for a card and put that card into your graveyard. Then shuffle your library.
 
 Name:   Entomber Exarch
 Cost:   2BB
 Type:   Creature — Cleric
 P/T:    2/2
-S/R:    NPH-U
+S/R:    NPH-U, MM3-U
 When Entomber Exarch enters the battlefield, choose one —
 • Return target creature card from your graveyard to your hand.
-• Target opponent reveals his or her hand, you choose a noncreature card from it, then that player discards that card.
+• Target opponent reveals his or her hand. You choose a noncreature card from it. That player discards that card.
 
 Name:   Entourage of Trest
 Cost:   4G
@@ -2320,7 +2364,7 @@ Target player sacrifices an attacking creature. You create X 1/1 white Soldier c
 Name:   Entreat the Angels
 Cost:   XXWWW
 Type:   Sorcery
-S/R:    AVR-M, V15-M
+S/R:    AVR-M, MM3-M, V15-M
 Create X 4/4 white Angel creature tokens with flying.
 Miracle {X}{W}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
@@ -2650,7 +2694,7 @@ Enchanted creature gets +3/+0 and can only attack alone.
 Name:   Erratic Explosion
 Cost:   2R
 Type:   Sorcery
-S/R:    ONS-C, PC2-C
+S/R:    ONS-C, PC2-C, PCA-C
 Choose target creature or player. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's converted mana cost to that creature or player. Put the revealed cards on the bottom of your library in any order.
 
 Name:   Erratic Mutation
@@ -2890,7 +2934,7 @@ As long as enchanted permanent is red or green, it has "At the beginning of your
 Name:   Essence Scatter
 Cost:   1U
 Type:   Instant
-S/R:    M10-C, M13-C, M14-C
+S/R:    M10-C, M13-C, M14-C, AKH-C
 Counter target creature spell.
 
 Name:   Essence Sliver
@@ -3095,7 +3139,7 @@ Name:   Etherium-Horn Sorcerer
 Cost:   4UR
 Type:   Artifact Creature — Minotaur Wizard
 P/T:    3/6
-S/R:    PC2-R, C15-R, C16-R
+S/R:    PC2-R, C15-R, C16-R, PCA-R
 {1}{U}{R}: Return Etherium-Horn Sorcerer to its owner's hand.
 Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)
 
@@ -3295,7 +3339,7 @@ Name:   Evil Twin
 Cost:   2UB
 Type:   Creature — Shapeshifter
 P/T:    0/0
-S/R:    ISD-R
+S/R:    ISD-R, MM3-R
 You may have Evil Twin enter the battlefield as a copy of any creature on the battlefield, except it gains "{U}{B}, {T}: Destroy target creature with the same name as this creature."
 
 Name:   Evincar's Justice
@@ -3342,7 +3386,7 @@ S/R:    ORI-R
 
 Name:   Evolving Wilds
 Type:   Land
-S/R:    ROE-C, CMD-C, DKA-C, M13-C, C13-C, M15-C, C14-C, DTK-C, MM2-C, ORI-C, BFZ-C, C15-C, CN2-C, C16-C, DDH-C, DDK-C, DDN-C, DDO-C, DDP-C
+S/R:    ROE-C, CMD-C, DKA-C, M13-C, C13-C, M15-C, C14-C, DTK-C, MM2-C, ORI-C, BFZ-C, C15-C, CN2-C, C16-C, AKH-C, DDH-C, DDK-C, DDN-C, DDO-C, DDP-C
 {T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
 
 Name:   Exalted Angel
@@ -3448,6 +3492,14 @@ Type:   Instant
 S/R:    GTC-C
 Target creature that dealt damage this turn gets -5/-5 until end of turn.
 
+Name:   Exemplar of Strength
+Cost:   1G
+Type:   Creature — Human Warrior
+P/T:    4/4
+S/R:    AKH-U
+When Exemplar of Strength enters the battlefield, put three -1/-1 counters on target creature you control.
+Whenever Exemplar of Strength attacks, remove a -1/-1 counter from it. If you do, you gain 1 life.
+
 Name:   Exert Influence
 Cost:   4U
 Type:   Sorcery
@@ -3530,7 +3582,7 @@ Domain — Target player loses X life and you gain X life, where X is the number
 
 Name:   Exotic Orchard
 Type:   Land
-S/R:    CON-R, PC2-R, CN2-R, C16-R
+S/R:    CON-R, PC2-R, CN2-R, C16-R, PCA-R
 {T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
 
 Name:   Expedite
@@ -3606,7 +3658,7 @@ You may play an additional land on each of your turns.
 Name:   Explore
 Cost:   1G
 Type:   Sorcery
-S/R:    WWK-C, DDO-C
+S/R:    WWK-C, MM3-C, DDO-C
 You may play an additional land this turn.
 Draw a card.
 
@@ -3749,7 +3801,7 @@ Name:   Extractor Demon
 Cost:   4BB
 Type:   Creature — Demon
 P/T:    5/5
-S/R:    CON-R, ARC-R, CMD-R, C15-R
+S/R:    CON-R, ARC-R, CMD-R, C15-R, MM3-R
 Flying
 Whenever another creature leaves the battlefield, you may have target player put the top two cards of his or her library into his or her graveyard.
 Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
@@ -3757,7 +3809,7 @@ Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield.
 Name:   Extraplanar Lens
 Cost:   3
 Type:   Artifact
-S/R:    MRD-R, MPS-S
+S/R:    MRD-R, MPS_KLD-S
 Imprint — When Extraplanar Lens enters the battlefield, you may exile target land you control.
 Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana to his or her mana pool of any type that land produced.
 
@@ -3904,7 +3956,7 @@ When Eyeless Watcher enters the battlefield, create two 1/1 colorless Eldrazi Sc
 Name:   Eyes in the Skies
 Cost:   3W
 Type:   Instant
-S/R:    RTR-C
+S/R:    RTR-C, MM3-C
 Create a 1/1 white Bird creature token with flying, then populate. (Create a token that's a copy of a creature token you control.)
 
 Name:   Eyes of the Watcher

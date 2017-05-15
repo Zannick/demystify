@@ -26,6 +26,14 @@ P/T:    2/2
 S/R:    THS-R
 Heroic — Whenever you cast a spell that targets Labyrinth Champion, Labyrinth Champion deals 2 damage to target creature or player.
 
+Name:   Labyrinth Guardian
+Cost:   1U
+Type:   Creature — Illusion Warrior
+P/T:    2/3
+S/R:    AKH-U
+When Labyrinth Guardian becomes the target of a spell, sacrifice it.
+Embalm {3}{U} ({3}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Illusion Warrior with no mana cost. Embalm only as a sorcery.)
+
 Name:   Labyrinth Minotaur
 Cost:   3U
 Type:   Creature — Minotaur
@@ -182,7 +190,7 @@ Name:   Lammastide Weave
 Cost:   1G
 Type:   Instant
 S/R:    LRW-U
-Name a card, then target player puts the top card of his or her library into his or her graveyard. If that card is the named card, you gain life equal to its converted mana cost.
+Choose a card name, then target player puts the top card of his or her library into his or her graveyard. If that card has the chosen name, you gain life equal to its converted mana cost.
 Draw a card.
 
 Name:   Lamplighter of Selhoff
@@ -435,7 +443,7 @@ Discard any number of cards. Target player reveals his or her hand, then you cho
 Name:   Last Stand
 Cost:   WUBRG
 Type:   Sorcery
-S/R:    AP-R, PC2-R
+S/R:    AP-R, PC2-R, PCA-R
 Target opponent loses 2 life for each Swamp you control. Last Stand deals damage to target creature equal to the number of Mountains you control. Create a 1/1 green Saproling creature token for each Forest you control. You gain 2 life for each Plains you control. Draw a card for each Island you control, then discard that many cards.
 
 Name:   Last Thoughts
@@ -691,6 +699,20 @@ Type:   Instant
 S/R:    ROE-C
 Counter target spell. Look at its controller's hand.
 
+Name:   Lay Bare the Heart
+Cost:   1B
+Type:   Sorcery
+S/R:    AKH-U
+Target opponent reveals his or her hand. You choose a nonlegendary, nonland card from it. That player discards that card.
+
+Name:   Lay Claim
+Cost:   5UU
+Type:   Enchantment — Aura
+S/R:    AKH-U
+Enchant permanent
+You control enchanted permanent.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Lay Waste
 Cost:   3R
 Type:   Sorcery
@@ -711,6 +733,15 @@ P/T:    3/3
 S/R:    GTC-M
 Hexproof
 Whenever a creature card is put into an opponent's graveyard from anywhere, you may have Lazav, Dimir Mastermind become a copy of that card, except its name is still Lazav, Dimir Mastermind, it's legendary in addition to its other types, and it gains hexproof and this ability.
+
+Name:   Lead
+Cost:   3G
+Type:   Sorcery
+M-type: Split
+M-card: Destined
+S/R:    AKH-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+All creatures able to block target creature this turn do so.
 
 Name:   Lead Astray
 Cost:   1W
@@ -1279,7 +1310,7 @@ Name:   Liar's Pendulum
 Cost:   1
 Type:   Artifact
 S/R:    MRD-R
-{2}, {T}: Name a card. Target opponent guesses whether a card with that name is in your hand. You may reveal your hand. If you do and your opponent guessed wrong, draw a card.
+{2}, {T}: Choose a card name. Target opponent guesses whether a card with that name is in your hand. You may reveal your hand. If you do and your opponent guessed wrong, draw a card.
 
 Name:   Liberate
 Cost:   1W
@@ -1733,7 +1764,7 @@ Haste (This creature can attack and {T} as soon as it comes under your control.)
 Name:   Lightning Greaves
 Cost:   2
 Type:   Artifact — Equipment
-S/R:    MRD-U, ARC-U, CMD-U, C15-U, MPS-S, C16-U, DDE-U
+S/R:    MRD-U, ARC-U, CMD-U, C15-U, MPS_KLD-S, C16-U, DDE-U
 Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)
 Equip {0}
 
@@ -1897,7 +1928,7 @@ Name:   Liliana of the Veil
 Cost:   1BB
 Type:   Planeswalker — Liliana
 P/T:    3
-S/R:    ISD-M
+S/R:    ISD-M, MM3-M
 [+1]: Each player discards a card.
 [-2]: Target player sacrifices a creature.
 [-6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.
@@ -1921,6 +1952,19 @@ Type:   Sorcery
 S/R:    SOI-U
 Put the top X cards of your library into your graveyard. Target player loses 2 life for each creature card put into your graveyard this way.
 
+Name:   Liliana's Influence
+Cost:   4BB
+Type:   Sorcery
+S/R:    AKH-R
+Put a -1/-1 counter on each creature you don't control. You may search your library and/or graveyard for a card named Liliana, Death Wielder, reveal it, and put it into your hand. If you search your library this way, shuffle it.
+
+Name:   Liliana's Mastery
+Cost:   3BB
+Type:   Enchantment
+S/R:    AKH-R
+Zombies you control get +1/+1.
+When Liliana's Mastery enters the battlefield, create two 2/2 black Zombie creature tokens.
+
 Name:   Liliana's Reaver
 Cost:   2BB
 Type:   Creature — Zombie
@@ -1941,9 +1985,27 @@ Name:   Liliana's Specter
 Cost:   1BB
 Type:   Creature — Specter
 P/T:    2/1
-S/R:    M11-C, PC2-C, CNS-C
+S/R:    M11-C, PC2-C, CNS-C, PCA-C
 Flying
 When Liliana's Specter enters the battlefield, each opponent discards a card.
+
+Name:   Liliana, Death Wielder
+Cost:   5BB
+Type:   Planeswalker — Liliana
+P/T:    5
+S/R:    AKH-M
+[+2]: Put a -1/-1 counter on up to one target creature.
+[-3]: Destroy target creature with a -1/-1 counter on it.
+[-10]: Return all creature cards from your graveyard to the battlefield.
+
+Name:   Liliana, Death's Majesty
+Cost:   3BB
+Type:   Planeswalker — Liliana
+P/T:    5
+S/R:    AKH-M
+[+1]: Create a 2/2 black Zombie creature token. Put the top two cards of your library into your graveyard.
+[-3]: Return target creature card from your graveyard to the battlefield. That creature is a black Zombie in addition to its other colors and types.
+[-7]: Destroy all non-Zombie creatures.
 
 Name:   Liliana, Defiant Necromancer
 Type:   Planeswalker — Liliana
@@ -2040,6 +2102,13 @@ S/R:    EX-R
 When Limited Resources enters the battlefield, each player chooses five lands he or she controls and sacrifices the rest.
 Players can't play lands as long as ten or more lands are on the battlefield.
 
+Name:   Limits of Solidarity
+Cost:   3R
+Type:   Sorcery
+S/R:    AKH-U
+Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Lin Sivvi, Defiant Hero
 Cost:   1WW
 Type:   Legendary Creature — Human Rebel
@@ -2074,7 +2143,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 Name:   Lingering Souls
 Cost:   2W
 Type:   Sorcery
-S/R:    DKA-U, DDK-U
+S/R:    DKA-U, MM3-U, DDK-U
 Create two 1/1 white Spirit creature tokens with flying.
 Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -2090,7 +2159,7 @@ Name:   Linvala, Keeper of Silence
 Cost:   2WW
 Type:   Legendary Creature — Angel
 P/T:    3/4
-S/R:    ROE-M
+S/R:    ROE-M, MM3-M
 Flying
 Activated abilities of creatures your opponents control can't be activated.
 
@@ -2559,7 +2628,7 @@ Name:   Lone Missionary
 Cost:   1W
 Type:   Creature — Kor Monk
 P/T:    2/1
-S/R:    ROE-C, DDN-C
+S/R:    ROE-C, MM3-C, DDN-C
 When Lone Missionary enters the battlefield, you gain 4 life.
 
 Name:   Lone Revenant
@@ -2742,6 +2811,14 @@ S/R:    AI-R, MED-R
 When Lord of Tresserhorn enters the battlefield, you lose 2 life, you sacrifice two creatures, and target opponent draws two cards.
 {B}: Regenerate Lord of Tresserhorn.
 
+Name:   Lord of the Accursed
+Cost:   2B
+Type:   Creature — Zombie
+P/T:    2/3
+S/R:    AKH-U
+Other Zombies you control get +1/+1.
+{1}{B}, {T}: All Zombies gain menace until end of turn.
+
 Name:   Lord of the Pit
 Cost:   4BBB
 Type:   Creature — Demon
@@ -2846,7 +2923,7 @@ Name:   Lost Legacy
 Cost:   1BB
 Type:   Sorcery
 S/R:    KLD-R
-Name a nonartifact, nonland card. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles his or her library, then draws a card for each card exiled from hand this way.
+Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles his or her library, then draws a card for each card exiled from hand this way.
 
 Name:   Lost Leonin
 Cost:   1W
@@ -2943,7 +3020,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 Name:   Lotus Petal
 Cost:   0
 Type:   Artifact
-S/R:    TE-C, MPS-S, V09-M
+S/R:    TE-C, MPS_KLD-S, V09-M
 {T}, Sacrifice Lotus Petal: Add one mana of any color to your mana pool.
 
 Name:   Lotus Vale
@@ -2964,7 +3041,7 @@ Name:   Lovisa Coldeyes
 Cost:   3RR
 Type:   Legendary Creature — Human
 P/T:    3/3
-S/R:    CSP-R
+S/R:    CSP-R, DDS-M
 Each creature that's a Barbarian, a Warrior, or a Berserker gets +2/+2 and has haste.
 
 Name:   Lowland Basilisk
@@ -3117,7 +3194,7 @@ Name:   Loyal Retainers
 Cost:   2W
 Type:   Creature — Human Advisor
 P/T:    1/1
-S/R:    P3K-U, ME3-U
+S/R:    P3K-U, MPS_AKH-S, ME3-U
 Sacrifice Loyal Retainers: Return target legendary creature card from your graveyard to the battlefield. Activate this ability only during your turn, before attackers are declared.
 
 Name:   Loyal Sentry
@@ -3223,7 +3300,7 @@ Name:   Lumberknot
 Cost:   2GG
 Type:   Creature — Treefolk
 P/T:    1/1
-S/R:    ISD-U, PC2-U
+S/R:    ISD-U, PC2-U, PCA-U
 Hexproof (This creature can't be the target of spells or abilities your opponents control.)
 Whenever a creature dies, put a +1/+1 counter on Lumberknot.
 
@@ -3447,7 +3524,7 @@ Name:   Lurking Jackals
 Cost:   B
 Type:   Enchantment
 S/R:    UD-U
-When an opponent has 10 or less life, if Lurking Jackals is an enchantment, it becomes a 3/2 Hound creature.
+When an opponent has 10 or less life, if Lurking Jackals is an enchantment, it becomes a 3/2 Jackal creature.
 
 Name:   Lurking Nightstalker
 Cost:   BB
@@ -3489,6 +3566,13 @@ Type:   Artifact
 S/R:    SOM-M
 {T}: Put a charge counter on Lux Cannon.
 {T}, Remove three charge counters from Lux Cannon: Destroy target permanent.
+
+Name:   Luxa River Shrine
+Cost:   3
+Type:   Artifact
+S/R:    AKH-C
+{1}, {T}: You gain 1 life. Put a brick counter on Luxa River Shrine.
+{T}: You gain 2 life. Activate this ability only if there are three or more brick counters on Luxa River Shrine.
 
 Name:   Lyev Decree
 Cost:   1W

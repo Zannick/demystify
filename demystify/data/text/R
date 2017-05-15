@@ -9,7 +9,7 @@ Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters t
 Name:   Rabid Bite
 Cost:   1G
 Type:   Sorcery
-S/R:    SOI-C
+S/R:    SOI-C, W17-C
 Target creature you control deals damage equal to its power to target creature you don't control.
 
 Name:   Rabid Bloodsucker
@@ -73,7 +73,7 @@ Name:   Radha, Heir to Keld
 Cost:   RG
 Type:   Legendary Creature — Elf Warrior
 P/T:    2/2
-S/R:    PLC-R
+S/R:    PLC-R, DDS-R
 Whenever Radha, Heir to Keld attacks, you may add {R}{R} to your mana pool.
 {T}: Add {G} to your mana pool.
 
@@ -328,6 +328,14 @@ P/T:    2/2
 S/R:    LE-R, ME3-U
 {G}{W}{U}, {T}: Regenerate target creature.
 
+Name:   Rags
+Cost:   2BB
+Type:   Sorcery
+M-type: Split
+M-card: Riches
+S/R:    AKH-R
+All creatures get -2/-2 until end of turn.
+
 Name:   Raid Bombardment
 Cost:   2R
 Type:   Enchantment
@@ -439,7 +447,7 @@ S/R:    FE-R, MED-R
 Name:   Raise Dead
 Cost:   B
 Type:   Sorcery
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, P1-C, P2-C, 6E-C, S99-C, 7E-C, 8ED-C, 9ED-C, CN2-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, P1-C, P2-C, 6E-C, S99-C, 7E-C, 8ED-C, 9ED-C, CN2-C, W17-C
 Return target creature card from your graveyard to your hand.
 
 Name:   Raise the Alarm
@@ -533,7 +541,7 @@ Unleash (You may have this creature enter the battlefield with a +1/+1 counter o
 
 Name:   Rakdos Guildgate
 Type:   Land — Gate
-S/R:    RTR-C, DGM-C, C13-C
+S/R:    RTR-C, DGM-C, C13-C, MM3-C
 Rakdos Guildgate enters the battlefield tapped.
 {T}: Add {B} or {R} to your mana pool.
 
@@ -603,7 +611,7 @@ Haste
 Name:   Rakdos Signet
 Cost:   2
 Type:   Artifact
-S/R:    DIS-C, ARC-C, CMD-C, C16-C
+S/R:    DIS-C, ARC-C, CMD-C, C16-C, MM3-U
 {1}, {T}: Add {B}{R} to your mana pool.
 
 Name:   Rakdos the Defiler
@@ -839,7 +847,7 @@ S/R:    IN-C
 Name:   Rampant Growth
 Cost:   1G
 Type:   Sorcery
-S/R:    MI-C, TE-C, 6E-C, 7E-C, 8ED-C, 9ED-C, 10E-C, M10-C, HOP-C, M12-C, MM2-C, C15-C, C16-C
+S/R:    MI-C, TE-C, 6E-C, 7E-C, 8ED-C, 9ED-C, 10E-C, M10-C, HOP-C, M12-C, MM2-C, C15-C, C16-C, DDS-C
 Search your library for a basic land card and put that card onto the battlefield tapped. Then shuffle your library.
 
 Name:   Rampart Crawler
@@ -882,7 +890,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 Name:   Rancor
 Cost:   G
 Type:   Enchantment — Aura
-S/R:    UL-C, ARC-C, PC2-C, M13-U, EMA-U, DDD-C
+S/R:    UL-C, ARC-C, PC2-C, M13-U, EMA-U, PCA-C, DDD-C
 Enchant creature
 Enchanted creature gets +2/+0 and has trample.
 When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.
@@ -899,7 +907,7 @@ Name:   Ranger of Eos
 Cost:   3W
 Type:   Creature — Human Soldier
 P/T:    3/2
-S/R:    ALA-R
+S/R:    ALA-R, MM3-R
 When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with converted mana cost 1 or less, reveal them, and put them into your hand. If you do, shuffle your library.
 
 Name:   Ranger's Guile
@@ -1482,7 +1490,7 @@ Razorverge Thicket enters the battlefield tapped unless you control two or fewer
 Name:   Reach Through Mists
 Cost:   U
 Type:   Instant — Arcane
-S/R:    CHK-C, MMA-C
+S/R:    CHK-C, MMA-C, DDS-C
 Draw a card.
 
 Name:   Reach of Branches
@@ -1558,7 +1566,7 @@ Target artifact, creature, or land phases out. (While it's phased out, it's trea
 Name:   Reality Shift
 Cost:   1U
 Type:   Instant
-S/R:    FRF-U
+S/R:    FRF-U, FRF_UGIN-U
 Exile target creature. Its controller manifests the top card of his or her library. (That player puts the top card of his or her library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)
 
 Name:   Reality Smasher
@@ -2018,7 +2026,7 @@ Flashback {3}{R} (You may cast this card from your graveyard for its flashback c
 Name:   Recover
 Cost:   2B
 Type:   Sorcery
-S/R:    IN-C, 10E-C
+S/R:    IN-C, 10E-C, MM3-C
 Return target creature card from your graveyard to your hand.
 Draw a card.
 
@@ -2132,6 +2140,14 @@ Cost:   UU
 Type:   Instant
 S/R:    M11-R, M12-R, M13-R
 You may choose new targets for target spell.
+
+Name:   Reduce
+Cost:   2U
+Type:   Instant
+M-type: Split
+M-card: Rubble
+S/R:    AKH-U
+Counter target spell unless its controller pays {3}.
 
 Name:   Reduce in Stature
 Cost:   2U
@@ -2266,6 +2282,14 @@ S/R:    CN2-R
 Trample
 When Regal Behemoth enters the battlefield, you become the monarch.
 Whenever you tap a land for mana while you're the monarch, add one mana of any color to your mana pool (in addition to the mana the land produces).
+
+Name:   Regal Caracal
+Cost:   3WW
+Type:   Creature — Cat
+P/T:    3/3
+S/R:    AKH-R
+Other Cats you control get +1/+1 and have lifelink.
+When Regal Caracal enters the battlefield, create two 1/1 white Cat creature tokens with lifelink.
 
 Name:   Regal Force
 Cost:   4GGG
@@ -2473,7 +2497,7 @@ Name:   Relentless Hunter
 Cost:   1RG
 Type:   Creature — Human Warrior
 P/T:    3/3
-S/R:    OGW-U
+S/R:    OGW-U, DDS-U
 {1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.
 
 Name:   Relentless Rats
@@ -2777,7 +2801,7 @@ Draw a card at the beginning of the next turn's upkeep.
 Name:   Renewed Faith
 Cost:   2W
 Type:   Instant
-S/R:    ONS-C, VMA-C
+S/R:    ONS-C, AKH-U, VMA-C
 You gain 6 life.
 Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
 When you cycle Renewed Faith, you may gain 2 life.
@@ -3152,7 +3176,7 @@ Name:   Restoration Angel
 Cost:   3W
 Type:   Creature — Angel
 P/T:    3/4
-S/R:    AVR-R
+S/R:    AVR-R, MM3-R
 Flash
 Flying
 When Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.
@@ -3330,6 +3354,15 @@ Type:   Creature — Viashino Shaman
 P/T:    3/3
 S/R:    US-C
 Whenever Retromancer becomes the target of a spell or ability, Retromancer deals 3 damage to that spell or ability's controller.
+
+Name:   Return
+Cost:   3B
+Type:   Sorcery
+M-type: Split
+M-card: Never
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Exile target card from a graveyard. Create a 2/2 black Zombie creature token.
 
 Name:   Return of the Nightstalkers
 Cost:   5BB
@@ -3549,7 +3582,7 @@ Redistribute any number of players' life totals. (Each of those players gets one
 Name:   Revive
 Cost:   1G
 Type:   Sorcery
-S/R:    MM-U, 8ED-U, M13-U
+S/R:    MM-U, 8ED-U, M13-U, MM3-C
 Return target green card from your graveyard to your hand.
 
 Name:   Revive the Fallen
@@ -3620,7 +3653,7 @@ Splice onto Arcane {2}{U}{U} (As you cast an Arcane spell, you may reveal this c
 Name:   Rewind
 Cost:   2UU
 Type:   Instant
-S/R:    US-C, 8ED-U, 9ED-U, M13-U
+S/R:    US-C, 8ED-U, 9ED-U, M13-U, MM3-C
 Counter target spell. Untap up to four lands.
 
 Name:   Reya Dawnbringer
@@ -3639,6 +3672,29 @@ S/R:    C16-R
 Reyhan, Last of the Abzan enters the battlefield with three +1/+1 counters on it.
 Whenever a creature you control dies or is put into the command zone, if it had one or more +1/+1 counters on it, you may put that many +1/+1 counters on target creature.
 Partner (You can have two commanders if both have partner.)
+
+Name:   Rhet-Crop Spearmaster
+Cost:   2W
+Type:   Creature — Human Warrior
+P/T:    3/1
+S/R:    AKH-C
+You may exert Rhet-Crop Spearmaster as it attacks. When you do, it gets +1/+0 and gains first strike until end of turn. (An exerted creature won't untap during your next untap step.)
+
+Name:   Rhonas the Indomitable
+Cost:   2G
+Type:   Legendary Creature — God
+P/T:    5/5
+S/R:    AKH-M, MPS_AKH-S
+Deathtouch, indestructible
+Rhonas the Indomitable can't attack or block unless you control another creature with power 4 or greater.
+{2}{G}: Another target creature gets +2/+0 and gains trample until end of turn.
+
+Name:   Rhonas's Monument
+Cost:   3
+Type:   Legendary Artifact
+S/R:    AKH-U
+Green creature spells you cast cost {1} less to cast.
+Whenever you cast a creature spell, target creature you control gets +2/+2 and gains trample until end of turn.
 
 Name:   Rhox
 Cost:   4GG
@@ -3705,7 +3761,7 @@ Name:   Rhox War Monk
 Cost:   GWU
 Type:   Creature — Rhino Monk
 P/T:    3/4
-S/R:    ALA-U
+S/R:    ALA-U, MM3-U
 Lifelink
 
 Name:   Rhys the Exiled
@@ -3792,6 +3848,15 @@ S/R:    PR-C
 Flying
 {2}: Ribbon Snake loses flying until end of turn. Any player may activate this ability.
 
+Name:   Ribbons
+Cost:   XBB
+Type:   Sorcery
+M-type: Split
+M-card: Cut
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Each opponent loses X life.
+
 Name:   Ribbons of Night
 Cost:   4B
 Type:   Sorcery
@@ -3803,6 +3868,15 @@ Cost:   4U
 Type:   Sorcery — Arcane
 S/R:    BOK-C
 Draw a card for each Spirit you control.
+
+Name:   Riches
+Cost:   5UU
+Type:   Sorcery
+M-type: Split
+M-card: Rags
+S/R:    AKH-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Each opponent chooses a creature he or she controls. You gain control of those creatures.
 
 Name:   Ricochet Trap
 Cost:   3R
@@ -3896,7 +3970,7 @@ Target creature gets +2/+2 and gains horsemanship. (It can't be blocked except b
 Name:   Rift Bolt
 Cost:   2R
 Type:   Sorcery
-S/R:    TSP-C, MMA-C
+S/R:    TSP-C, MMA-C, DDS-C
 Rift Bolt deals 3 damage to target creature or player.
 Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 
@@ -4157,7 +4231,7 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Rings of Brighthearth
 Cost:   3
 Type:   Artifact
-S/R:    LRW-R, MPS-S
+S/R:    LRW-R, MPS_KLD-S
 Whenever you activate an ability, if it isn't a mana ability, you may pay {2}. If you do, copy that ability. You may choose new targets for the copy.
 
 Name:   Ringskipper
@@ -4633,7 +4707,7 @@ At the beginning of each player's upkeep, if that player controls more lands tha
 Name:   Rivals' Duel
 Cost:   3R
 Type:   Sorcery
-S/R:    MOR-U, PC2-U
+S/R:    MOR-U, PC2-U, PCA-U
 Choose two target creatures that share no creature types. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 
 Name:   Riven Turnbull
@@ -4686,6 +4760,14 @@ Type:   Creature — Merfolk
 P/T:    2/1
 S/R:    FE-R, MED-C
 {U}: River Merfolk gains mountainwalk until end of turn. (It can't be blocked as long as defending player controls a Mountain.)
+
+Name:   River Serpent
+Cost:   5U
+Type:   Creature — Serpent
+P/T:    5/5
+S/R:    AKH-C
+River Serpent can't attack unless there are five or more cards in your graveyard.
+Cycling {U} ({U}, Discard this card: Draw a card.)
 
 Name:   River of Tears
 Type:   Land
@@ -4765,7 +4847,7 @@ Entwine {1}{W} (Choose both if you pay the entwine cost.)
 Name:   Roar of the Wurm
 Cost:   6G
 Type:   Sorcery
-S/R:    OD-U, EMA-U, VMA-U
+S/R:    OD-U, EMA-U, VMA-U, DDS-U
 Create a 6/6 green Wurm creature token.
 Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -5197,8 +5279,8 @@ Tap two untapped creatures you control: Root-Kin Ally gets +2/+2 until end of tu
 Name:   Rootborn Defenses
 Cost:   2W
 Type:   Instant
-S/R:    RTR-C
-Populate. Creatures you control gain indestructible until end of turn. (To populate, create a token that's a copy of a creature token you control. Damage and effects that say "destroy" don't destroy creatures with indestructible.)
+S/R:    RTR-C, MM3-C
+Populate. Creatures you control gain indestructible until end of turn. (To populate, create a token that's a copy of a creature token you control.)
 
 Name:   Rootbound Crag
 Type:   Land
@@ -5253,7 +5335,7 @@ Name:   Rootwalla
 Cost:   2G
 Type:   Creature — Lizard
 P/T:    2/2
-S/R:    TE-C, 9ED-C, 10E-C, M14-C
+S/R:    TE-C, 9ED-C, 10E-C, M14-C, W17-C
 {1}{G}: Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.
 
 Name:   Rootwater Alligator
@@ -5527,6 +5609,15 @@ P/T:    2/2
 S/R:    S99-U, ME2-C
 Whenever Royal Trooper blocks, it gets +2/+2 until end of turn.
 
+Name:   Rubble
+Cost:   2R
+Type:   Sorcery
+M-type: Split
+M-card: Reduce
+S/R:    AKH-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Up to three target lands don't untap during their controller's next untap step.
+
 Name:   Rubbleback Rhino
 Cost:   4G
 Type:   Creature — Rhino
@@ -5538,14 +5629,14 @@ Name:   Rubblebelt Maaka
 Cost:   3R
 Type:   Creature — Cat
 P/T:    3/3
-S/R:    DGM-C
+S/R:    DGM-C, MM3-C
 Bloodrush — {R}, Discard Rubblebelt Maaka: Target attacking creature gets +3/+3 until end of turn.
 
 Name:   Rubblebelt Raiders
 Cost:   1(R/G)(R/G)(R/G)
 Type:   Creature — Human Warrior
 P/T:    3/3
-S/R:    GTC-R
+S/R:    GTC-R, DDS-R
 Whenever Rubblebelt Raiders attacks, put a +1/+1 counter on it for each attacking creature you control.
 
 Name:   Rubblehulk
@@ -5589,7 +5680,7 @@ Entwine {2}{G} (Choose both if you pay the entwine cost.)
 
 Name:   Rugged Highlands
 Type:   Land
-S/R:    KTK-C, FRF-C, EMA-C, C16-C
+S/R:    KTK-C, FRF-C, EMA-C, C16-C, DDS-C
 Rugged Highlands enters the battlefield tapped.
 When Rugged Highlands enters the battlefield, you gain 1 life.
 {T}: Add {R} or {G} to your mana pool.
@@ -5886,7 +5977,7 @@ Name:   Runed Halo
 Cost:   WW
 Type:   Enchantment
 S/R:    SHM-R
-As Runed Halo enters the battlefield, name a card.
+As Runed Halo enters the battlefield, choose a card name.
 You have protection from the chosen name. (You can't be targeted, dealt damage, or enchanted by anything with that name.)
 
 Name:   Runed Servitor
@@ -5962,7 +6053,7 @@ Sacrifice a creature. Rupture deals damage equal to that creature's power to eac
 
 Name:   Rupture Spire
 Type:   Land
-S/R:    CON-C, CMD-C, PC2-C, C13-C, C16-C, DDH-C, H09-C
+S/R:    CON-C, CMD-C, PC2-C, C13-C, C16-C, PCA-C, DDH-C, H09-C
 Rupture Spire enters the battlefield tapped.
 When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
 {T}: Add one mana of any color to your mana pool.
@@ -6196,10 +6287,17 @@ Name:   Ruthless Ripper
 Cost:   B
 Type:   Creature — Human Assassin
 P/T:    1/1
-S/R:    KTK-U, FRF-U
+S/R:    KTK-U, FRF_UGIN-U
 Deathtouch
 Morph—Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Ruthless Ripper is turned face up, target player loses 2 life.
+
+Name:   Ruthless Sniper
+Cost:   B
+Type:   Creature — Human Archer
+P/T:    1/2
+S/R:    AKH-U
+Whenever you cycle or discard a card, you may pay {1}. If you do, put a -1/-1 counter on target creature.
 
 Name:   Rysorian Badger
 Cost:   2G
