@@ -21,10 +21,10 @@ parser grammar math;
 /* Mathematical constructs and calculations. */
 
 comparison : ( EQUAL TO OR )? ( MORE | GREATER ) THAN magic_number
-             -> {$EQUAL.text}? ^( GEQ magic_number )
+             -> {$EQUAL}? ^( GEQ magic_number )
              -> ^( GT magic_number )
            | ( FEWER | LESS ) THAN ( OR EQUAL TO )? magic_number
-             -> {$EQUAL.text}? ^( LEQ magic_number )
+             -> {$EQUAL}? ^( LEQ magic_number )
              -> ^( LT magic_number )
            | EQUAL TO magic_number -> ^( EQUAL[] magic_number )
            | integer
@@ -38,8 +38,9 @@ magic_number : integer
 
 object_count : THE NUMBER OF 
                ( properties -> ^( COUNT properties ) 
-               | base_counter_set ON ( properties | ref_object )
-                 -> ^( COUNT base_counter_set properties? ref_object? )
+               | base_counter_set ( ON ( properties | ref_object )
+                                  | player_group HAS )
+                 -> ^( COUNT base_counter_set properties? ref_object? player_group? )
                );
 
 // ref_object is usually plural in this case
@@ -50,8 +51,9 @@ max_among : THE ( HIGHEST | GREATEST ) int_prop
 // TODO: for each basic land type among lands you control. (Draco)
 for_each : FOR EACH
            ( properties -> ^( PER properties ) 
-           | base_counter_set ON ( properties | ref_object )
-             -> ^( PER base_counter_set properties? ref_object? )
+           | base_counter_set ( ON ( properties | ref_object )
+                              | player_group HAS )
+             -> ^( PER base_counter_set properties? ref_object? player_group? )
            );
 
 multiplier : HALF -> ^( NUMBER NUMBER["1/2"] )
