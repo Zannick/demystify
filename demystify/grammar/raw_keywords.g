@@ -142,6 +142,7 @@ raw_keyword_cost : EQUIP
                  | CYCLING
                  | DASH
                  | ECHO
+                 | EMBALM
                  | EMERGE
                  | ENTWINE
                  | ESCALATE
