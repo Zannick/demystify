@@ -85,6 +85,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | SHROUD
                     | TRAMPLE
                     | VIGILANCE
+                    | AFTERMATH
                     | BANDING
                     | BATTLE_CRY
                     | CASCADE
