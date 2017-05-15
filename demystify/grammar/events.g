@@ -124,7 +124,8 @@ coin_flip : FLIP A COIN -> COINFLIP
 
 counter_spell : COUNTER^ subset ;
 
-cycle_card : CYCLE^ subset ;
+cycle_card : CYCLE^ subset
+           | CYCLE OR^ DISCARD subset ;
 
 deal_damage : DEAL integer? damage ( TO subset_list )?
               -> ^( DEAL[] integer? damage subset_list? );
@@ -189,7 +190,7 @@ is_somewhere : is_ ( IN | ON ) zone_subset -> ^( IN[] zone_subset );
 
 // Some triggers do not start with subsets, eg. "there are",
 // "a counter is" or "the chosen color is".
-non_subset_event : counter_removed
+non_subset_event : counter_changed
                  | damage_dealt
                  ;
 
@@ -199,9 +200,13 @@ non_subset_condition : there_are
 
 /* Non-subset events. */
 
-counter_removed : ( THE ordinal_word | number )
-                  base_counter is_ REMOVED FROM subset
-                  -> ^( REMOVED ordinal_word? number? base_counter subset );
+counter_changed : ( THE ordinal_word | number )
+                  base_counter is_
+                  ( REMOVED FROM subset
+                    -> ^( REMOVED ordinal_word? number? base_counter subset )
+                  | PUT ON subset
+                    -> ^( PUT ordinal_word? number? base_counter subset )
+                  );
 
 damage_dealt : integer? damage is_ DEALT TO subset_list
                -> ^( DEAL integer? damage subset_list );
