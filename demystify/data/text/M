@@ -349,6 +349,14 @@ Type:   Instant
 S/R:    M13-R, C14-R, C15-R
 Magmaquake deals X damage to each creature without flying and each planeswalker.
 
+Name:   Magmaroth
+Cost:   3R
+Type:   Creature — Elemental
+P/T:    5/5
+S/R:    HOU-U
+At the beginning of your upkeep, put a -1/-1 counter on Magmaroth.
+Whenever you cast a noncreature spell, remove a -1/-1 counter from Magmaroth.
+
 Name:   Magmasaur
 Cost:   3RR
 Type:   Creature — Elemental Lizard
@@ -464,7 +472,7 @@ Name:   Magus of the Abyss
 Cost:   3B
 Type:   Creature — Human Wizard
 P/T:    4/3
-S/R:    FUT-R
+S/R:    FUT-R, C17-R
 At the beginning of each player's upkeep, destroy target nonartifact creature that player controls of his or her choice. It can't be regenerated.
 
 Name:   Magus of the Arena
@@ -525,6 +533,13 @@ P/T:    1/1
 S/R:    PLC-R
 {T}: Add {C} to your mana pool.
 {T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.
+
+Name:   Magus of the Mind
+Cost:   4UU
+Type:   Creature — Human Wizard
+P/T:    4/5
+S/R:    C17-R
+{U}, {T}, Sacrifice Magus of the Mind: Shuffle your library, then exile the top X cards, where X is one plus the number of spells cast this turn. Until end of turn, you may play cards exiled this way without paying their mana costs.
 
 Name:   Magus of the Mirror
 Cost:   4BB
@@ -595,6 +610,22 @@ Type:   Creature — Djinn
 P/T:    5/6
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M15-R, ORI-R, ME4-R
 Flying (This creature can't be blocked except by creatures with flying or reach.)
+
+Name:   Mairsil, the Pretender
+Cost:   1UBR
+Type:   Legendary Creature — Human Wizard
+P/T:    4/4
+S/R:    C17-M
+When Mairsil, the Pretender enters the battlefield, you may exile an artifact or creature card from your hand or graveyard and put a cage counter on it.
+Mairsil, the Pretender has all activated abilities of all cards you own in exile with cage counters on them. You may activate each of those abilities only once each turn.
+
+Name:   Majestic Myriarch
+Cost:   4G
+Type:   Creature — Chimera
+P/T:    */*
+S/R:    HOU-M
+Majestic Myriarch's power and toughness are each equal to twice the number of creatures you control.
+At the beginning of each combat, Majestic Myriarch gains flying until end of turn if you control a creature with flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.
 
 Name:   Major Teroh
 Cost:   3W
@@ -703,7 +734,7 @@ Name:   Malakir Bloodwitch
 Cost:   3BB
 Type:   Creature — Vampire Shaman
 P/T:    4/4
-S/R:    ZEN-R
+S/R:    ZEN-R, C17-R
 Flying, protection from white
 When Malakir Bloodwitch enters the battlefield, each opponent loses life equal to the number of Vampires you control. You gain life equal to the life lost this way.
 
@@ -746,7 +777,7 @@ Name:   Malfegor
 Cost:   2BBRR
 Type:   Legendary Creature — Demon Dragon
 P/T:    6/6
-S/R:    CON-M, CMD-M
+S/R:    CON-M, CMD-M, CMA-M
 Flying
 When Malfegor enters the battlefield, discard your hand. Each opponent sacrifices a creature for each card discarded this way.
 
@@ -1005,7 +1036,7 @@ Name:   Mana-Charged Dragon
 Cost:   4RR
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    CMD-R
+S/R:    CMD-R, CMA-R
 Flying, trample
 Join forces — Whenever Mana-Charged Dragon attacks or blocks, each player starting with you may pay any amount of mana. Mana-Charged Dragon gets +X/+0 until end of turn, where X is the total amount of mana paid this way.
 
@@ -1062,7 +1093,7 @@ S/R:    TE-C
 Name:   Manalith
 Cost:   3
 Type:   Artifact
-S/R:    M12-C
+S/R:    M12-C, HOU-C
 {T}: Add one mana of any color to your mana pool.
 
 Name:   Manamorphose
@@ -1205,6 +1236,14 @@ P/T:    1/1
 S/R:    TE-C
 {U}: Manta Riders gains flying until end of turn.
 
+Name:   Manticore Eternal
+Cost:   3RR
+Type:   Creature — Zombie Manticore
+P/T:    5/4
+S/R:    HOU-U
+Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)
+Manticore Eternal attacks each combat if able.
+
 Name:   Manticore of the Gauntlet
 Cost:   4R
 Type:   Creature — Manticore
@@ -1282,6 +1321,13 @@ Marath, Will of the Wild enters the battlefield with a number of +1/+1 counters 
 • Put X +1/+1 counters on target creature. X can't be 0.
 • Marath deals X damage to target creature or player. X can't be 0.
 • Create an X/X green Elemental creature token. X can't be 0.
+
+Name:   Marauding Boneslasher
+Cost:   2B
+Type:   Creature — Zombie Minotaur
+P/T:    3/3
+S/R:    HOU-C
+Marauding Boneslasher can't block unless you control another Zombie.
 
 Name:   Marauding Knight
 Cost:   2BB
@@ -1392,7 +1438,7 @@ Name:   Marchesa, the Black Rose
 Cost:   1UBR
 Type:   Legendary Creature — Human Wizard
 P/T:    3/3
-S/R:    CNS-M, VMA-M
+S/R:    CNS-M, C17-M, VMA-M
 Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)
 Other creatures you control have dethrone.
 Whenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.
@@ -1616,6 +1662,15 @@ P/T:    2/3
 S/R:    UD-C
 When Marker Beetles dies, target creature gets +1/+1 until end of turn.
 {2}, Sacrifice Marker Beetles: Draw a card.
+
+Name:   Market
+Cost:   2U
+Type:   Sorcery
+M-type: Split
+M-card: Farm
+S/R:    HOU-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Draw two cards, then discard two cards.
 
 Name:   Market Festival
 Cost:   3G
@@ -1982,7 +2037,7 @@ Name:   Masked Admirers
 Cost:   2GG
 Type:   Creature — Elf Shaman
 P/T:    3/2
-S/R:    LRW-R, MMA-U, C14-R
+S/R:    LRW-R, MMA-U, C14-R, CMA-R
 When Masked Admirers enters the battlefield, draw a card.
 Whenever you cast a creature spell, you may pay {G}{G}. If you do, return Masked Admirers from your graveyard to your hand.
 
@@ -2112,7 +2167,7 @@ Servos and Thopters you control get +1/+1.
 Name:   Master Warcraft
 Cost:   2(R/W)(R/W)
 Type:   Instant
-S/R:    RAV-R, CMD-R
+S/R:    RAV-R, CMD-R, CMA-R
 Cast Master Warcraft only before attackers are declared.
 You choose which creatures attack this turn.
 You choose which creatures block this turn and how those creatures block.
@@ -2259,6 +2314,14 @@ Type:   Creature — Human Warrior
 P/T:    */*
 S/R:    CON-C, MM2-C
 Domain — Matca Rioters's power and toughness are each equal to the number of basic land types among lands you control.
+
+Name:   Mathas, Fiend Seeker
+Cost:   RWB
+Type:   Legendary Creature — Vampire
+P/T:    3/3
+S/R:    C17-M
+Menace
+At the beginning of your end step, put a bounty counter on target creature an opponent controls. For as long as that creature has a bounty counter on it, it has "When this creature dies, each opponent draws a card and gains 2 life."
 
 Name:   Matopi Golem
 Cost:   5
@@ -2476,7 +2539,7 @@ Name:   Mazirek, Kraul Death Priest
 Cost:   3BG
 Type:   Legendary Creature — Insect Shaman
 P/T:    2/2
-S/R:    C15-M
+S/R:    C15-M, CMA-M
 Flying
 Whenever a player sacrifices another permanent, put a +1/+1 counter on each creature you control.
 
@@ -2758,7 +2821,7 @@ Counter target spell. If that spell is countered this way, put it on top of its 
 Name:   Memory Plunder
 Cost:   (U/B)(U/B)(U/B)(U/B)
 Type:   Instant
-S/R:    SHM-R
+S/R:    SHM-R, C17-R
 You may cast target instant or sorcery card from an opponent's graveyard without paying its mana cost.
 
 Name:   Memory Sluice
@@ -2853,7 +2916,7 @@ Name:   Mentor of the Meek
 Cost:   2W
 Type:   Creature — Human Soldier
 P/T:    2/2
-S/R:    ISD-R, C14-R, C16-R
+S/R:    ISD-R, C14-R, C16-R, E01-R
 Whenever another creature with power 2 or less enters the battlefield under your control, you may pay {1}. If you do, draw a card.
 
 Name:   Mephidross Vampire
@@ -2947,7 +3010,7 @@ Name:   Merchant of Secrets
 Cost:   2U
 Type:   Creature — Human Wizard
 P/T:    1/1
-S/R:    LGN-C, 8ED-C
+S/R:    LGN-C, 8ED-C, C17-C
 When Merchant of Secrets enters the battlefield, draw a card.
 
 Name:   Merchant's Dockhand
@@ -2957,10 +3020,18 @@ P/T:    1/2
 S/R:    AeR-R
 {3}{U}, {T}, Tap X untapped artifacts you control: Look at the top X cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 
+Name:   Merciless Eternal
+Cost:   2B
+Type:   Creature — Zombie Cleric
+P/T:    2/2
+S/R:    HOU-U
+Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)
+{2}{B}, Discard a card: Merciless Eternal gets +2/+2 until end of turn.
+
 Name:   Merciless Eviction
 Cost:   4WB
 Type:   Sorcery
-S/R:    GTC-R, C16-R
+S/R:    GTC-R, C16-R, C17-R
 Choose one —
 • Exile all artifacts.
 • Exile all creatures.
@@ -3001,7 +3072,7 @@ Name:   Mercurial Chemister
 Cost:   3UR
 Type:   Creature — Human Wizard
 P/T:    2/3
-S/R:    RTR-R
+S/R:    RTR-R, C17-R
 {U}, {T}: Draw two cards.
 {R}, {T}, Discard a card: Mercurial Chemister deals damage to target creature equal to the discarded card's converted mana cost.
 
@@ -3038,7 +3109,7 @@ Name:   Meren of Clan Nel Toth
 Cost:   2BG
 Type:   Legendary Creature — Human Shaman
 P/T:    3/4
-S/R:    C15-M
+S/R:    C15-M, CMA-M
 Whenever another creature you control dies, you get an experience counter.
 At the beginning of your end step, choose target creature card in your graveyard. If that card's converted mana cost is less than or equal to the number of experience counters you have, return it to the battlefield. Otherwise, put it into your hand.
 
@@ -4394,6 +4465,12 @@ Type:   Instant
 S/R:    VI-U, DDL-U
 Return target creature card from your graveyard to the battlefield. Put a +1/+1 counter on it.
 
+Name:   Mirage Mirror
+Cost:   3
+Type:   Artifact
+S/R:    HOU-R
+{2}: Mirage Mirror becomes a copy of target artifact, creature, enchantment, or land until end of turn.
+
 Name:   Mirari
 Cost:   5
 Type:   Legendary Artifact
@@ -4403,7 +4480,7 @@ Whenever you cast an instant or sorcery spell, you may pay {3}. If you do, copy 
 Name:   Mirari's Wake
 Cost:   3GW
 Type:   Enchantment
-S/R:    JUD-R, CNS-M
+S/R:    JUD-R, CNS-M, C17-M
 Creatures you control get +1/+1.
 Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.
 
@@ -4514,6 +4591,15 @@ P/T:    2/3
 S/R:    EX-R, 10E-R
 First strike, forestwalk, vigilance (This creature deals combat damage before creatures without first strike, it can't be blocked as long as defending player controls a Forest, and attacking doesn't cause this creature to tap.)
 
+Name:   Mirri, Weatherlight Duelist
+Cost:   1GW
+Type:   Legendary Creature — Cat Warrior
+P/T:    3/2
+S/R:    C17-M
+First strike
+Whenever Mirri, Weatherlight Duelist attacks, each opponent can't block with more than one creature this combat.
+As long as Mirri, Weatherlight Duelist is tapped, no more than one creature can attack you each combat.
+
 Name:   Mirrodin's Core
 Type:   Land
 S/R:    DST-U, CNS-U
@@ -4525,7 +4611,7 @@ Name:   Mirror Entity
 Cost:   2W
 Type:   Creature — Shapeshifter
 P/T:    1/1
-S/R:    LRW-R, C13-R, MM2-R, C16-R
+S/R:    LRW-R, C13-R, MM2-R, C16-R, CMA-R
 Changeling (This card is every creature type.)
 {X}: Until end of turn, creatures you control have base power and toughness X/X and gain all creature types.
 
@@ -4588,6 +4674,13 @@ Cost:   5
 Type:   Artifact
 S/R:    M10-R
 {T}, Sacrifice Mirror of Fate: Choose up to seven face-up exiled cards you own. Exile all the cards from your library, then put the chosen cards on top of your library.
+
+Name:   Mirror of the Forebears
+Cost:   2
+Type:   Artifact
+S/R:    C17-U
+As Mirror of the Forebears enters the battlefield, choose a creature type.
+{1}: Until end of turn, Mirror of the Forebears becomes a copy of target creature you control of the chosen type, except it's an artifact in addition to its other types.
 
 Name:   Mirror-Mad Phantasm
 Cost:   3UU
@@ -4989,7 +5082,7 @@ Name:   Mistmeadow Witch
 Cost:   1(W/U)
 Type:   Creature — Kithkin Wizard
 P/T:    1/1
-S/R:    SHM-U, C13-U, MM3-U, DDI-U
+S/R:    SHM-U, C13-U, MM3-U, CMA-U, DDI-U
 {2}{W}{U}: Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 
 Name:   Mistmoon Griffin
@@ -5118,6 +5211,14 @@ Type:   Creature — Spirit
 P/T:    2/1
 S/R:    P2-C
 Flying
+
+Name:   Moaning Wall
+Cost:   2B
+Type:   Creature — Zombie Wall
+P/T:    0/5
+S/R:    HOU-C
+Defender
+Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Moat
 Cost:   2WW
@@ -5504,7 +5605,7 @@ As Molten Sentry enters the battlefield, flip a coin. If the coin comes up heads
 
 Name:   Molten Slagheap
 Type:   Land
-S/R:    TSP-U, CMD-U, C13-U
+S/R:    TSP-U, CMD-U, C13-U, CMA-U
 {T}: Add {C} to your mana pool.
 {1}, {T}: Put a storage counter on Molten Slagheap.
 {1}, Remove X storage counters from Molten Slagheap: Add X mana in any combination of {B} and/or {R} to your mana pool.
@@ -5557,7 +5658,7 @@ Enchanted creature gets +2/+0 and has "{2}{B}: Regenerate this creature."
 Name:   Moment of Heroism
 Cost:   1W
 Type:   Instant
-S/R:    ISD-C, CNS-C, DDL-C
+S/R:    ISD-C, CNS-C, E01-C, DDL-C
 Target creature gets +2/+2 and gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
 
 Name:   Moment of Silence
@@ -5630,7 +5731,7 @@ Whenever you cast a noncreature spell, create a 1/1 white Monk creature token wi
 Name:   Monastery Siege
 Cost:   2U
 Type:   Enchantment
-S/R:    FRF-R
+S/R:    FRF-R, C17-R
 As Monastery Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of your draw step, draw an additional card, then discard a card.
 • Dragons — Spells your opponents cast that target you or a permanent you control cost {2} more to cast.
@@ -6142,7 +6243,7 @@ Whenever a player sacrifices a creature, you may put a +1/+1 counter on Morticia
 Name:   Mortify
 Cost:   1WB
 Type:   Instant
-S/R:    GPT-U, CMD-U, CNS-U, C16-U, DDK-U
+S/R:    GPT-U, CMD-U, CNS-U, C16-U, CMA-U, C17-U, DDK-U
 Destroy target creature or enchantment.
 
 Name:   Mortipede
@@ -6206,7 +6307,7 @@ Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target c
 Name:   Moss Diamond
 Cost:   2
 Type:   Artifact
-S/R:    MI-U, 6E-U, 7E-U, C14-U
+S/R:    MI-U, 6E-U, 7E-U, C14-U, CMA-U
 Moss Diamond enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 
@@ -6258,7 +6359,7 @@ S/R:    ALA-C
 
 Name:   Mosswort Bridge
 Type:   Land
-S/R:    LRW-R, ARC-R, C13-R, C15-R, C16-R, DDR-R
+S/R:    LRW-R, ARC-R, C13-R, C15-R, C16-R, C17-R, DDR-R
 Hideaway (This land enters the battlefield tapped. When it does, look at the top four cards of your library, exile one face down, then put the rest on the bottom of your library.)
 {T}: Add {G} to your mana pool.
 {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.
@@ -6275,7 +6376,7 @@ Name:   Mother of Runes
 Cost:   W
 Type:   Creature — Human Cleric
 P/T:    1/1
-S/R:    UL-U, CMD-U, EMA-R, DDO-U
+S/R:    UL-U, CMD-U, EMA-R, CMA-U, DDO-U
 {T}: Target creature you control gains protection from the color of your choice until end of turn.
 
 Name:   Mothrider Samurai
@@ -6288,7 +6389,7 @@ Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until
 
 Name:   Mountain
 Type:   Basic Land — Mountain
-S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, EVG-L, UG-C, UNH-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, DDS-L, H09-L, ME3-L, MED-L, PD2-L
+S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, EVG-L, UG-C, UNH-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, DDS-L, H09-L, ME3-L, MED-L, PD2-L
 
 Name:   Mountain Bandit
 Cost:   R
@@ -6546,7 +6647,7 @@ As long as the top card of your library is a land card, Mul Daya Channelers has 
 Name:   Mulch
 Cost:   1G
 Type:   Sorcery
-S/R:    ST-C, ISD-C, C15-C
+S/R:    ST-C, ISD-C, C15-C, CMA-C
 Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.
 
 Name:   Mulldrifter
@@ -6601,6 +6702,13 @@ S/R:    KLD-R
 When Multiform Wonder enters the battlefield, you get {E}{E}{E} (three energy counters).
 Pay {E}: Multiform Wonder gains your choice of flying, vigilance, or lifelink until end of turn.
 Pay {E}: Multiform Wonder gets +2/-2 or -2/+2 until end of turn.
+
+Name:   Mummy Paramount
+Cost:   1W
+Type:   Creature — Zombie
+P/T:    2/2
+S/R:    HOU-C
+Whenever another Zombie enters the battlefield under your control, Mummy Paramount gets +1/+1 until end of turn.
 
 Name:   Munda's Vanguard
 Cost:   4W
@@ -6732,7 +6840,7 @@ Name:   Murkfiend Liege
 Cost:   2(G/U)(G/U)(G/U)
 Type:   Creature — Horror
 P/T:    4/4
-S/R:    EVE-R, C13-R
+S/R:    EVE-R, C13-R, CMA-R
 Other green creatures you control get +1/+1.
 Other blue creatures you control get +1/+1.
 Untap all green and/or blue creatures you control during each other player's untap step.
@@ -6865,7 +6973,7 @@ Name:   Mycoloth
 Cost:   3GG
 Type:   Creature — Fungus
 P/T:    4/4
-S/R:    ALA-R, PC2-R, C15-R, C16-R, PCA-R
+S/R:    ALA-R, PC2-R, C15-R, C16-R, PCA-R, CMA-R
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
 At the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on Mycoloth.
 
@@ -7082,7 +7190,7 @@ Myr Welder has all activated abilities of all cards exiled with it.
 
 Name:   Myriad Landscape
 Type:   Land
-S/R:    C14-U, C16-U
+S/R:    C14-U, C16-U, CMA-U, C17-U
 Myriad Landscape enters the battlefield tapped.
 {T}: Add {C} to your mana pool.
 {2}, {T}, Sacrifice Myriad Landscape: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle your library.
@@ -7194,7 +7302,7 @@ Enchanted land has "{T}: Target creature gets +2/+2 until end of turn."
 
 Name:   Mystic Monastery
 Type:   Land
-S/R:    KTK-U, C16-U, DDN-U
+S/R:    KTK-U, C16-U, C17-U, DDN-U
 Mystic Monastery enters the battlefield tapped.
 {T}: Add {U}, {R}, or {W} to your mana pool.
 
@@ -7289,7 +7397,7 @@ Search your library for an instant or sorcery card and reveal that card. Shuffle
 
 Name:   Mystifying Maze
 Type:   Land
-S/R:    M11-R
+S/R:    M11-R, C17-R
 {T}: Add {C} to your mana pool.
 {4}, {T}: Exile target attacking creature an opponent controls. At the beginning of the next end step, return it to the battlefield tapped under its owner's control.
 

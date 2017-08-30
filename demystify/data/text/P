@@ -125,7 +125,7 @@ Whenever an opponent casts a spell, that player loses 5 life unless he or she di
 Name:   Painful Truths
 Cost:   2B
 Type:   Sorcery
-S/R:    BFZ-R
+S/R:    BFZ-R, C17-R
 Converge — You draw X cards and you lose X life, where X is the number of colors of mana spent to cast Painful Truths.
 
 Name:   Painsmith
@@ -190,7 +190,7 @@ When Palace Sentinels enters the battlefield, you become the monarch.
 Name:   Palace Siege
 Cost:   3BB
 Type:   Enchantment
-S/R:    FRF-R
+S/R:    FRF-R, C17-R
 As Palace Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of your upkeep, return target creature card from your graveyard to your hand.
 • Dragons — At the beginning of your upkeep, each opponent loses 2 life and you gain 2 life.
@@ -767,6 +767,12 @@ P/T:    2/1
 S/R:    TE-U, OD-U
 Discard a card: Regenerate Patchwork Gnomes.
 
+Name:   Path of Ancestry
+Type:   Land
+S/R:    C17-C
+Path of Ancestry enters the battlefield tapped.
+{T}: Add to your mana pool one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1.
+
 Name:   Path of Anger's Flame
 Cost:   2R
 Type:   Instant — Arcane
@@ -789,14 +795,14 @@ Destroy target creature. Its owner gains 4 life.
 Name:   Path to Exile
 Cost:   W
 Type:   Instant
-S/R:    CON-U, ARC-U, CMD-U, MMA-U, MM3-U, DDI-U
+S/R:    CON-U, ARC-U, CMD-U, MMA-U, MM3-U, CMA-U, DDI-U
 Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.
 
 Name:   Pathbreaker Ibex
 Cost:   4GG
 Type:   Creature — Goat
 P/T:    3/3
-S/R:    C15-R
+S/R:    C15-R, CMA-R
 Whenever Pathbreaker Ibex attacks, creatures you control gain trample and get +X/+X until end of turn, where X is the greatest power among creatures you control.
 
 Name:   Pathbreaker Wurm
@@ -920,6 +926,15 @@ S/R:    ORI-U
 Flying
 When Patron of the Valiant enters the battlefield, put a +1/+1 counter on each creature you control with a +1/+1 counter on it.
 
+Name:   Patron of the Vein
+Cost:   4BB
+Type:   Creature — Vampire Shaman
+P/T:    4/4
+S/R:    C17-R
+Flying
+When Patron of the Vein enters the battlefield, destroy target creature an opponent controls.
+Whenever a creature an opponent controls dies, exile it and put a +1/+1 counter on each Vampire you control.
+
 Name:   Patron of the Wild
 Cost:   G
 Type:   Creature — Elf
@@ -952,7 +967,7 @@ Name:   Pawn of Ulamog
 Cost:   1BB
 Type:   Creature — Vampire Shaman
 P/T:    2/2
-S/R:    ROE-U, DDP-U
+S/R:    ROE-U, C17-U, DDP-U
 Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
 
 Name:   Pay No Heed
@@ -1750,7 +1765,7 @@ Name:   Phantom Nantuko
 Cost:   2G
 Type:   Creature — Insect Spirit
 P/T:    0/0
-S/R:    JUD-R, C13-R
+S/R:    JUD-R, C13-R, CMA-R
 Trample
 Phantom Nantuko enters the battlefield with two +1/+1 counters on it.
 If damage would be dealt to Phantom Nantuko, prevent that damage. Remove a +1/+1 counter from Phantom Nantuko.
@@ -1760,7 +1775,7 @@ Name:   Phantom Nishoba
 Cost:   5GW
 Type:   Creature — Cat Beast Spirit
 P/T:    0/0
-S/R:    JUD-R
+S/R:    JUD-R, C17-R
 Trample
 Phantom Nishoba enters the battlefield with seven +1/+1 counters on it.
 Whenever Phantom Nishoba deals damage, you gain that much life.
@@ -2208,7 +2223,7 @@ Name:   Phyrexian Plaguelord
 Cost:   3BB
 Type:   Creature — Carrier
 P/T:    4/4
-S/R:    UL-R, 8ED-R, C15-R, DDE-R
+S/R:    UL-R, 8ED-R, C15-R, CMA-R, DDE-R
 {T}, Sacrifice Phyrexian Plaguelord: Target creature gets -4/-4 until end of turn.
 Sacrifice a creature: Target creature gets -1/-1 until end of turn.
 
@@ -2244,7 +2259,7 @@ Name:   Phyrexian Rager
 Cost:   2B
 Type:   Creature — Horror
 P/T:    2/2
-S/R:    AP-C, 10E-C, MBS-C, C15-C, EMA-C, DDD-C
+S/R:    AP-C, 10E-C, MBS-C, C15-C, EMA-C, CMA-C, DDD-C
 When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.
 
 Name:   Phyrexian Reaper
@@ -2505,7 +2520,7 @@ Name:   Pilgrim's Eye
 Cost:   3
 Type:   Artifact Creature — Thopter
 P/T:    1/1
-S/R:    WWK-C, C13-C, C14-C, BFZ-U, EMA-C, DDI-C
+S/R:    WWK-C, C13-C, C14-C, BFZ-U, EMA-C, CMA-C, DDI-C
 Flying
 When Pilgrim's Eye enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
 
@@ -2955,7 +2970,7 @@ S/R:    MBS-U
 
 Name:   Plains
 Type:   Basic Land — Plains
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, UG-C, UNH-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, UG-C, UNH-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
 
 Name:   Planar Birth
 Cost:   1W
@@ -3343,7 +3358,7 @@ S/R:    ONS-R, KTK-R, EXP-M
 
 Name:   Polluted Mire
 Type:   Land
-S/R:    US-C, C14-C, C15-C, DDD-C, PD3-C
+S/R:    US-C, C14-C, C15-C, CMA-C, DDD-C, PD3-C
 Polluted Mire enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 Cycling {2} ({2}, Discard this card: Draw a card.)
@@ -3365,7 +3380,7 @@ Destroy target creature. It can't be regenerated. Its controller reveals cards f
 Name:   Polymorphist's Jest
 Cost:   1UU
 Type:   Instant
-S/R:    M15-R
+S/R:    M15-R, C17-R
 Until end of turn, each creature target player controls loses all abilities and becomes a blue Frog with base power and toughness 1/1.
 
 Name:   Polymorphous Rush
@@ -3445,6 +3460,14 @@ Type:   Land
 S/R:    SOI-R
 As Port Town enters the battlefield, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters the battlefield tapped.
 {T}: Add {W} or {U} to your mana pool.
+
+Name:   Portal Mage
+Cost:   2U
+Type:   Creature — Human Wizard
+P/T:    2/2
+S/R:    C17-R
+Flash
+When Portal Mage enters the battlefield during the declare attackers step, you may reselect which player or planeswalker target attacking creature is attacking. (It can't attack its controller or its controller's planeswalkers.)
 
 Name:   Portcullis
 Cost:   4
@@ -3659,7 +3682,7 @@ S/R:    LE-U, 4E-C, 5E-C, 6E-C
 Name:   Praetor's Counsel
 Cost:   5GGG
 Type:   Sorcery
-S/R:    MBS-M, C14-M
+S/R:    MBS-M, C14-M, CMA-M
 Return all cards from your graveyard to your hand. Exile Praetor's Counsel. You have no maximum hand size for the rest of the game.
 
 Name:   Praetor's Grasp
@@ -3705,7 +3728,7 @@ Name:   Precinct Captain
 Cost:   WW
 Type:   Creature — Human Soldier
 P/T:    2/2
-S/R:    RTR-R, DDO-R
+S/R:    RTR-R, E01-R, DDO-R
 First strike
 Whenever Precinct Captain deals combat damage to a player, create a 1/1 white Soldier creature token.
 
@@ -3776,7 +3799,7 @@ Target creature gets +3/+3 and gains trample until end of turn.
 Name:   Predator, Flagship
 Cost:   5
 Type:   Legendary Artifact
-S/R:    NE-R, C14-R, VMA-R
+S/R:    NE-R, C14-R, CMA-R, VMA-R
 {2}: Target creature gains flying until end of turn.
 {5}, {T}: Destroy target creature with flying.
 
@@ -3883,7 +3906,7 @@ Whenever you cast an instant or sorcery spell, scry 1. (Look at the top card of 
 Name:   Presence of Gond
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    SHM-C, C13-C
+S/R:    SHM-C, C13-C, CMA-C
 Enchant creature
 Enchanted creature has "{T}: Create a 1/1 green Elf Warrior creature token."
 
@@ -3916,7 +3939,7 @@ Gain control of target creature until end of turn. Untap that creature. It gains
 Name:   Press the Advantage
 Cost:   2GG
 Type:   Instant
-S/R:    DTK-U
+S/R:    DTK-U, E01-U
 Up to two target creatures each get +2/+2 and gain trample until end of turn.
 
 Name:   Pressure Point
@@ -3996,6 +4019,14 @@ S/R:    M12-C, CNS-C
 Defender
 Whenever Pride Guardian blocks, you gain 3 life.
 
+Name:   Pride Sovereign
+Cost:   2G
+Type:   Creature — Cat
+P/T:    2/2
+S/R:    HOU-R
+Pride Sovereign gets +1/+1 for each other Cat you control.
+{W}, {T}, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. (An exerted creature won't untap during your next untap step.)
+
 Name:   Pride of Lions
 Cost:   3GG
 Type:   Creature — Cat
@@ -4030,7 +4061,7 @@ Name:   Priest of Titania
 Cost:   1G
 Type:   Creature — Elf Druid
 P/T:    1/1
-S/R:    US-C, C14-C
+S/R:    US-C, C14-C, CMA-C
 {T}: Add {G} to your mana pool for each Elf on the battlefield.
 
 Name:   Priest of Urabrask
@@ -4133,7 +4164,7 @@ Enchanted creature has trample.
 Name:   Primal Growth
 Cost:   2G
 Type:   Sorcery
-S/R:    PS-C, C15-C
+S/R:    PS-C, C15-C, CMA-C
 Kicker—Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)
 Search your library for a basic land card, put that card onto the battlefield, then shuffle your library. If Primal Growth was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.
 
@@ -4293,7 +4324,7 @@ Name:   Primordial Sage
 Cost:   4GG
 Type:   Creature — Spirit
 P/T:    4/5
-S/R:    RAV-R, C14-R
+S/R:    RAV-R, C14-R, CMA-R
 Whenever you cast a creature spell, you may draw a card.
 
 Name:   Prince of Thralls
@@ -4573,7 +4604,7 @@ Name:   Prognostic Sphinx
 Cost:   3UU
 Type:   Creature — Sphinx
 P/T:    3/5
-S/R:    THS-R
+S/R:    THS-R, E01-R
 Flying
 Discard a card: Prognostic Sphinx gains hexproof until end of turn. Tap it.
 Whenever Prognostic Sphinx attacks, scry 3. (Look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
@@ -4771,6 +4802,13 @@ Type:   Artifact
 S/R:    SOM-R
 Imprint — When Prototype Portal enters the battlefield, you may exile an artifact card from your hand.
 {X}, {T}: Create a token that's a copy of the exiled card. X is the converted mana cost of that card.
+
+Name:   Proven Combatant
+Cost:   U
+Type:   Creature — Human Warrior
+P/T:    1/1
+S/R:    HOU-C
+Eternalize {4}{U}{U} ({4}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Warrior with no mana cost. Eternalize only as a sorcery.)
 
 Name:   Providence
 Cost:   5WW
@@ -5194,6 +5232,12 @@ Type:   Instant
 S/R:    SHM-C
 Puncture Bolt deals 1 damage to target creature. Put a -1/-1 counter on that creature.
 
+Name:   Puncturing Blow
+Cost:   2RR
+Type:   Sorcery
+S/R:    HOU-C
+Puncturing Blow deals 5 damage to target creature. If that creature would die this turn, exile it instead.
+
 Name:   Puncturing Light
 Cost:   1W
 Type:   Instant
@@ -5265,7 +5309,7 @@ Name:   Puppeteer Clique
 Cost:   3BB
 Type:   Creature — Faerie Wizard
 P/T:    3/2
-S/R:    SHM-R, MM2-R
+S/R:    SHM-R, MM2-R, C17-R
 Flying
 When Puppeteer Clique enters the battlefield, put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. At the beginning of your next end step, exile it.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
@@ -5439,7 +5483,7 @@ At the beginning of the end step, sacrifice Putrefax.
 Name:   Putrefy
 Cost:   1BG
 Type:   Instant
-S/R:    RAV-U, DGM-U, C15-U, C16-U, MM3-U, DDJ-U
+S/R:    RAV-U, DGM-U, C15-U, C16-U, MM3-U, CMA-U, DDJ-U
 Destroy target artifact or creature. It can't be regenerated.
 
 Name:   Putrid Cyclops
@@ -5645,7 +5689,7 @@ Whenever you cast a multicolored spell, Pyroconvergence deals 2 damage to target
 Name:   Pyrohemia
 Cost:   2RR
 Type:   Enchantment
-S/R:    PLC-U, CMD-U
+S/R:    PLC-U, CMD-U, CMA-U
 At the beginning of the end step, if no creatures are on the battlefield, sacrifice Pyrohemia.
 {R}: Pyrohemia deals 1 damage to each creature and each player.
 

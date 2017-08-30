@@ -454,7 +454,7 @@ Name:   Sakura-Tribe Elder
 Cost:   1G
 Type:   Creature — Snake Shaman
 P/T:    1/1
-S/R:    CHK-C, ARC-C, CMD-C, C13-C, CNS-C, C15-C, C16-C
+S/R:    CHK-C, ARC-C, CMD-C, C13-C, CNS-C, C15-C, C16-C, CMA-C
 Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.
 
 Name:   Sakura-Tribe Scout
@@ -522,7 +522,7 @@ Destroy target nonwhite permanent.
 
 Name:   Saltcrusted Steppe
 Type:   Land
-S/R:    TSP-U, C13-U
+S/R:    TSP-U, C13-U, CMA-U, C17-U
 {T}: Add {C} to your mana pool.
 {1}, {T}: Put a storage counter on Saltcrusted Steppe.
 {1}, Remove X storage counters from Saltcrusted Steppe: Add X mana in any combination of {G} and/or {W} to your mana pool.
@@ -679,6 +679,15 @@ Double strike, vigilance, haste
 Other creatures you control have haste.
 {W}, {T}: Untap another target creature.
 
+Name:   Samut, the Tested
+Cost:   2RG
+Type:   Planeswalker — Samut
+P/T:    4
+S/R:    HOU-M
+[+1]: Up to one target creature gains double strike until end of turn.
+[-2]: Samut, the Tested deals 2 damage divided as you choose among one or two target creatures and/or players.
+[-7]: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle your library.
+
 Name:   Sanctified Charge
 Cost:   4W
 Type:   Instant
@@ -773,6 +782,13 @@ Islandwalk (This creature can't be blocked as long as defending player controls 
 You may choose not to untap Sand Squid during your untap step.
 {T}: Tap target creature. That creature doesn't untap during its controller's untap step for as long as Sand Squid remains tapped.
 
+Name:   Sand Strangler
+Cost:   3R
+Type:   Creature — Beast
+P/T:    3/3
+S/R:    HOU-U
+When Sand Strangler enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, you may have Sand Strangler deal 3 damage to target creature.
+
 Name:   Sandals of Abdallah
 Cost:   4
 Type:   Artifact
@@ -803,7 +819,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 Name:   Sandblast
 Cost:   2W
 Type:   Instant
-S/R:    FRF-C
+S/R:    FRF-C, HOU-C
 Sandblast deals 5 damage to target attacking or blocking creature.
 
 Name:   Sandcrafter Mage
@@ -842,7 +858,7 @@ Tap three untapped creatures you control: Tap target creature.
 
 Name:   Sandsteppe Citadel
 Type:   Land
-S/R:    KTK-U, C16-U
+S/R:    KTK-U, C16-U, C17-U
 Sandsteppe Citadel enters the battlefield tapped.
 {T}: Add {W}, {B}, or {G} to your mana pool.
 
@@ -950,7 +966,7 @@ Name:   Sangromancer
 Cost:   2BB
 Type:   Creature — Vampire Shaman
 P/T:    3/3
-S/R:    MBS-R, CN2-R, C16-R
+S/R:    MBS-R, CN2-R, C16-R, C17-R
 Flying
 Whenever a creature an opponent controls dies, you may gain 3 life.
 Whenever an opponent discards a card, you may gain 3 life.
@@ -978,7 +994,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 Name:   Sanguine Bond
 Cost:   3BB
 Type:   Enchantment
-S/R:    M10-R, M14-R, C13-R
+S/R:    M10-R, M14-R, C13-R, C17-R
 Whenever you gain life, target opponent loses that much life.
 
 Name:   Sanguine Guard
@@ -1311,7 +1327,7 @@ Name:   Satyr Wayfinder
 Cost:   1G
 Type:   Creature — Satyr
 P/T:    1/1
-S/R:    BNG-C, M15-C, C15-C, C16-C
+S/R:    BNG-C, M15-C, C15-C, C16-C, CMA-C
 When Satyr Wayfinder enters the battlefield, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard.
 
 Name:   Savaen Elves
@@ -1383,7 +1399,7 @@ S/R:    KTK-R
 
 Name:   Savage Lands
 Type:   Land
-S/R:    ALA-U, C13-U, C16-U, MM3-U
+S/R:    ALA-U, C13-U, C16-U, MM3-U, C17-U
 Savage Lands enters the battlefield tapped.
 {T}: Add {B}, {R}, or {G} to your mana pool.
 
@@ -1440,7 +1456,7 @@ Name:   Savage Ventmaw
 Cost:   4RG
 Type:   Creature — Dragon
 P/T:    4/4
-S/R:    DTK-U
+S/R:    DTK-U, C17-U
 Flying
 Whenever Savage Ventmaw attacks, add {R}{R}{R}{G}{G}{G} to your mana pool. Until end of turn, this mana doesn't empty from your mana pool as steps and phases end.
 
@@ -1463,6 +1479,15 @@ Cost:   W
 Type:   Creature — Cat
 P/T:    2/1
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 8ED-R, 9ED-R, ME4-U
+
+Name:   Saving Grace
+Cost:   1W
+Type:   Enchantment — Aura
+S/R:    HOU-U
+Flash
+Enchant creature you control
+When Saving Grace enters the battlefield, all damage that would be dealt this turn to you and permanents you control is dealt to enchanted creature instead.
+Enchanted creature gets +0/+3.
 
 Name:   Saving Grasp
 Cost:   U
@@ -1642,6 +1667,14 @@ P/T:    2/3
 S/R:    DTK-U
 As an additional cost to cast Scaleguard Sentinels, you may reveal a Dragon card from your hand.
 Scaleguard Sentinels enters the battlefield with a +1/+1 counter on it if you revealed a Dragon card or controlled a Dragon as you cast Scaleguard Sentinels.
+
+Name:   Scalelord Reckoner
+Cost:   3WW
+Type:   Creature — Dragon
+P/T:    4/4
+S/R:    C17-R
+Flying
+Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, destroy target nonland permanent that player controls.
 
 Name:   Scalpelexis
 Cost:   4U
@@ -1868,6 +1901,12 @@ P/T:    1/1
 S/R:    DK-C, CH-C, 5E-C, 7E-U, ME4-C
 {G}, {T}, Sacrifice Scavenger Folk: Destroy target artifact.
 
+Name:   Scavenger Grounds
+Type:   Land — Desert
+S/R:    HOU-R
+{T}: Add {C} to your mana pool.
+{2}, {T}, Sacrifice a Desert: Exile all cards from all graveyards.
+
 Name:   Scavenging Ghoul
 Cost:   3B
 Type:   Creature — Zombie
@@ -2022,7 +2061,7 @@ Name:   Scion of the Ur-Dragon
 Cost:   WUBRG
 Type:   Legendary Creature — Dragon Avatar
 P/T:    4/4
-S/R:    TSP-R
+S/R:    TSP-R, C17-R
 Flying
 {2}: Search your library for a Dragon permanent card and put it into your graveyard. If you do, Scion of the Ur-Dragon becomes a copy of that card until end of turn. Then shuffle your library.
 
@@ -2158,7 +2197,7 @@ Draw three cards.
 
 Name:   Scoured Barrens
 Type:   Land
-S/R:    KTK-C, FRF-C, C15-C, EMA-C
+S/R:    KTK-C, FRF-C, C15-C, EMA-C, C17-C
 Scoured Barrens enters the battlefield tapped.
 When Scoured Barrens enters the battlefield, you gain 1 life.
 {T}: Add {W} or {B} to your mana pool.
@@ -2213,7 +2252,7 @@ Name:   Scourge of Nel Toth
 Cost:   5BB
 Type:   Creature — Zombie Dragon
 P/T:    6/6
-S/R:    C15-R
+S/R:    C15-R, CMA-R
 Flying
 You may cast Scourge of Nel Toth from your graveyard by paying {B}{B} and sacrificing two creatures rather than paying its mana cost.
 
@@ -2237,7 +2276,7 @@ Name:   Scourge of Valkas
 Cost:   2RRR
 Type:   Creature — Dragon
 P/T:    4/4
-S/R:    M14-M
+S/R:    M14-M, C17-M
 Flying
 Whenever Scourge of Valkas or another Dragon enters the battlefield under your control, it deals X damage to target creature or player, where X is the number of Dragons you control.
 {R}: Scourge of Valkas gets +1/+0 until end of turn.
@@ -2571,6 +2610,13 @@ Equipped creature gets +1/+1.
 As long as equipped creature is a Human, it has menace. (It can't be blocked except by two or more creatures.)
 Equip {2}
 
+Name:   Scrounger of Souls
+Cost:   4B
+Type:   Creature — Horror
+P/T:    3/4
+S/R:    HOU-C
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+
 Name:   Scrounging Bandar
 Cost:   1G
 Type:   Creature — Cat Monkey
@@ -2622,7 +2668,7 @@ Name:   Scute Mob
 Cost:   G
 Type:   Creature — Insect
 P/T:    1/1
-S/R:    ZEN-R, MM2-R, DDP-R
+S/R:    ZEN-R, MM2-R, E01-R, DDP-R
 At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on Scute Mob.
 
 Name:   Scuttlemutt
@@ -2730,7 +2776,7 @@ Name:   Sea Gate Oracle
 Cost:   2U
 Type:   Creature — Human Wizard
 P/T:    1/3
-S/R:    ROE-C, C14-C, MM3-C, DDM-C
+S/R:    ROE-C, C14-C, MM3-C, C17-C, DDM-C
 When Sea Gate Oracle enters the battlefield, look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
 
 Name:   Sea Gate Wreckage
@@ -2985,7 +3031,7 @@ Choose a color. Searing Rays deals damage to each player equal to the number of 
 Name:   Searing Spear
 Cost:   1R
 Type:   Instant
-S/R:    M13-C
+S/R:    M13-C, E01-C
 Searing Spear deals 3 damage to target creature or player.
 
 Name:   Searing Spear Askari
@@ -3024,7 +3070,7 @@ S/R:    IN-U
 
 Name:   Seaside Citadel
 Type:   Land
-S/R:    ALA-U, C13-U, C16-U, MM3-U
+S/R:    ALA-U, C13-U, C16-U, MM3-U, CMA-U, C17-U
 Seaside Citadel enters the battlefield tapped.
 {T}: Add {G}, {W}, or {U} to your mana pool.
 
@@ -3084,7 +3130,7 @@ As Secluded Glen enters the battlefield, you may reveal a Faerie card from your 
 
 Name:   Secluded Steppe
 Type:   Land
-S/R:    ONS-C, ARC-C, CMD-C, C13-C, C14-C, C15-C, VMA-C, DDC-C, DDO-C
+S/R:    ONS-C, ARC-C, CMD-C, C13-C, C14-C, C15-C, CMA-C, C17-C, VMA-C, DDC-C, DDO-C
 Secluded Steppe enters the battlefield tapped.
 {T}: Add {W} to your mana pool.
 Cycling {W} ({W}, Discard this card: Draw a card.)
@@ -3369,6 +3415,13 @@ S/R:    KTK-U
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever you cast a noncreature spell, Seeker of the Way gains lifelink until end of turn.
 
+Name:   Seer of the Last Tomorrow
+Cost:   2U
+Type:   Creature — Naga Cleric
+P/T:    1/4
+S/R:    HOU-C
+{U}, {T}, Discard a card: Target player puts the top three cards of his or her library into his or her graveyard.
+
 Name:   Seer's Lantern
 Cost:   3
 Type:   Artifact
@@ -3379,7 +3432,7 @@ S/R:    OGW-C
 Name:   Seer's Sundial
 Cost:   4
 Type:   Artifact
-S/R:    WWK-R, C13-R, C14-R, C15-R, DDP-R
+S/R:    WWK-R, C13-R, C14-R, C15-R, CMA-R, DDP-R
 Landfall — Whenever a land enters the battlefield under your control, you may pay {2}. If you do, draw a card.
 
 Name:   Seer's Vision
@@ -3434,7 +3487,7 @@ Name:   Seht's Tiger
 Cost:   2WW
 Type:   Creature — Cat
 P/T:    3/3
-S/R:    FUT-R
+S/R:    FUT-R, C17-R
 Flash (You may cast this spell any time you could cast an instant.)
 When Seht's Tiger enters the battlefield, you gain protection from the color of your choice until end of turn. (You can't be targeted, dealt damage, or enchanted by anything of the chosen color.)
 
@@ -3532,7 +3585,7 @@ As long as you control a Plains, Sejiri Merfolk has first strike and lifelink. (
 
 Name:   Sejiri Refuge
 Type:   Land
-S/R:    ZEN-U, C13-U, DDI-U
+S/R:    ZEN-U, C13-U, CMA-U, DDI-U
 Sejiri Refuge enters the battlefield tapped.
 When Sejiri Refuge enters the battlefield, you gain 1 life.
 {T}: Add {W} or {U} to your mana pool.
@@ -3583,7 +3636,7 @@ Pay 2 life: Return Selenia, Dark Angel to its owner's hand.
 Name:   Selesnya Charm
 Cost:   GW
 Type:   Instant
-S/R:    RTR-U, C13-U
+S/R:    RTR-U, C13-U, CMA-U
 Choose one —
 • Target creature gets +2/+2 and gains trample until end of turn.
 • Exile target creature with power 5 or greater.
@@ -3605,7 +3658,7 @@ S/R:    RAV-C, CMD-C
 
 Name:   Selesnya Guildgate
 Type:   Land — Gate
-S/R:    RTR-C, DGM-C, C13-C, MM3-C
+S/R:    RTR-C, DGM-C, C13-C, MM3-C, CMA-C, C17-C
 Selesnya Guildgate enters the battlefield tapped.
 {T}: Add {G} or {W} to your mana pool.
 
@@ -3613,7 +3666,7 @@ Name:   Selesnya Guildmage
 Cost:   (G/W)(G/W)
 Type:   Creature — Elf Wizard
 P/T:    2/2
-S/R:    RAV-U, ARC-U, CMD-U, C13-U, MM2-U, C16-U
+S/R:    RAV-U, ARC-U, CMD-U, C13-U, MM2-U, C16-U, CMA-U
 {3}{G}: Create a 1/1 green Saproling creature token.
 {3}{W}: Creatures you control get +1/+1 until end of turn.
 
@@ -3634,7 +3687,7 @@ Selesnya Sagittars can block an additional creature each combat.
 
 Name:   Selesnya Sanctuary
 Type:   Land
-S/R:    RAV-C, CMD-C, PC2-C, C13-C, MM2-U, C16-U, PCA-C, DDG-C
+S/R:    RAV-C, CMD-C, PC2-C, C13-C, MM2-U, C16-U, PCA-C, CMA-C, C17-C, DDG-C
 Selesnya Sanctuary enters the battlefield tapped.
 When Selesnya Sanctuary enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {G}{W} to your mana pool.
@@ -3649,7 +3702,7 @@ S/R:    RTR-C
 Name:   Selesnya Signet
 Cost:   2
 Type:   Artifact
-S/R:    RAV-C, CMD-C, C13-C, MM3-U
+S/R:    RAV-C, CMD-C, C13-C, MM3-U, CMA-C
 {1}, {T}: Add {G}{W} to your mana pool.
 
 Name:   Self-Assembler
@@ -4009,7 +4062,7 @@ Name:   Serendib Sorcerer
 Cost:   1UU
 Type:   Creature — Human Wizard
 P/T:    1/1
-S/R:    PLC-R
+S/R:    PLC-R, C17-R
 {T}: Target creature other than Serendib Sorcerer has base power and toughness 0/2 until end of turn.
 
 Name:   Serene Heart
@@ -4133,7 +4186,7 @@ Name:   Serra Angel
 Cost:   3WW
 Type:   Creature — Angel
 P/T:    4/4
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-U, M11-U, CMD-U, M12-U, M13-U, M14-U, M15-U, ORI-U, W16-U, EMA-U, W17-U, DDC-R, ME4-U, V15-M
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-U, M11-U, CMD-U, M12-U, M13-U, M14-U, M15-U, ORI-U, W16-U, EMA-U, W17-U, CMA-U, DDC-R, ME4-U, V15-M
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 Vigilance (Attacking doesn't cause this creature to tap.)
 
@@ -4429,7 +4482,7 @@ Destroy target nonblack creature. It can't be regenerated. You gain life equal t
 Name:   Sever the Bloodline
 Cost:   3B
 Type:   Sorcery
-S/R:    ISD-R, C15-R, MM3-R, DDQ-R
+S/R:    ISD-R, C15-R, MM3-R, CMA-R, DDQ-R
 Exile target creature and all other creatures with the same name as that creature.
 Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -4638,7 +4691,7 @@ Name:   Shadowmage Infiltrator
 Cost:   1UB
 Type:   Creature — Human Wizard
 P/T:    1/3
-S/R:    OD-R, TSP-S, MM2-R
+S/R:    OD-R, TSP-S, MM2-R, C17-R
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 Whenever Shadowmage Infiltrator deals combat damage to a player, you may draw a card.
 
@@ -4996,7 +5049,7 @@ Name:   Shattered Angel
 Cost:   3WW
 Type:   Creature — Angel
 P/T:    3/3
-S/R:    NPH-U, CMD-U
+S/R:    NPH-U, CMD-U, CMA-U
 Flying
 Whenever a land enters the battlefield under an opponent's control, you may gain 3 life.
 
@@ -5064,7 +5117,7 @@ Menace (This creature can't be blocked except by two or more creatures.)
 Name:   Shatterstorm
 Cost:   2RR
 Type:   Sorcery
-S/R:    AQ-R, RV-U, 5E-U, 6E-R, 10E-U
+S/R:    AQ-R, RV-U, 5E-U, 6E-R, 10E-U, MPS_AKH-S
 Destroy all artifacts. They can't be regenerated.
 
 Name:   Shauku's Minion
@@ -5096,6 +5149,13 @@ Type:   Sorcery
 S/R:    BFZ-C, DDP-C
 Destroy target tapped creature.
 Awaken 3—{5}{W} (If you cast this spell for {5}{W}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)
+
+Name:   Shefet Dunes
+Type:   Land — Desert
+S/R:    HOU-U
+{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {W} to your mana pool.
+{2}{W}{W}, {T}, Sacrifice a Desert: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.
 
 Name:   Shefet Monitor
 Cost:   5G
@@ -5373,6 +5433,13 @@ Cost:   5U
 Type:   Sorcery
 S/R:    FRF-U
 Exchange control of two target permanents that share a card type. (Artifact, creature, enchantment, land, and planeswalker are card types.)
+
+Name:   Shifting Shadow
+Cost:   2R
+Type:   Enchantment — Aura
+S/R:    C17-R
+Enchant creature
+Enchanted creature has haste and "At the beginning of your upkeep, destroy this creature. Reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and attach Shifting Shadow to it, then put all other cards revealed this way on the bottom of your library in a random order."
 
 Name:   Shifting Sky
 Cost:   2U
@@ -5813,7 +5880,7 @@ Whenever Shoreline Salvager deals combat damage to a player, if you control an I
 Name:   Shoulder to Shoulder
 Cost:   2W
 Type:   Sorcery
-S/R:    OGW-C
+S/R:    OGW-C, E01-C
 Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Draw a card.
 
@@ -5967,7 +6034,7 @@ Name:   Shriekmaw
 Cost:   4B
 Type:   Creature — Elemental
 P/T:    3/2
-S/R:    LRW-U, ARC-U, CMD-U, C14-U, C15-U, DDH-U
+S/R:    LRW-U, ARC-U, CMD-U, C14-U, C15-U, CMA-U, DDH-U
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 When Shriekmaw enters the battlefield, destroy target nonartifact, nonblack creature.
 Evoke {1}{B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)
@@ -6258,6 +6325,13 @@ Type:   Instant
 S/R:    CHK-U
 You may change any targets of target Arcane spell.
 
+Name:   Sidewinder Naga
+Cost:   2G
+Type:   Creature — Naga Warrior
+P/T:    3/2
+S/R:    HOU-C
+As long as you control a Desert or there is a Desert card in your graveyard, Sidewinder Naga gets +1/+0 and has trample.
+
 Name:   Sidewinder Sliver
 Cost:   W
 Type:   Creature — Sliver
@@ -6302,7 +6376,7 @@ Name:   Siege Behemoth
 Cost:   5GG
 Type:   Creature — Beast
 P/T:    7/4
-S/R:    C14-R
+S/R:    C14-R, CMA-R
 Hexproof
 As long as Siege Behemoth is attacking, for each creature you control, you may have that creature assign its combat damage as though it weren't blocked.
 
@@ -6379,6 +6453,14 @@ Type:   Instant — Arcane
 S/R:    CHK-C, DDS-C
 Draw two cards, then discard a card.
 If you've cast a spell named Peer Through Depths and a spell named Reach Through Mists this turn, you may search your library for a card named The Unspeakable, put it onto the battlefield, then shuffle your library.
+
+Name:   Sifter Wurm
+Cost:   5GG
+Type:   Creature — Wurm
+P/T:    7/7
+S/R:    HOU-U
+Trample
+When Sifter Wurm enters the battlefield, scry 3, then reveal the top card of your library. You gain life equal to that card's converted mana cost.
 
 Name:   Sifter of Skulls
 Cost:   3B
@@ -6735,7 +6817,7 @@ Name:   Silklash Spider
 Cost:   3GG
 Type:   Creature — Spider
 P/T:    2/7
-S/R:    ONS-R, 9ED-R, M13-R, C13-R, C14-R
+S/R:    ONS-R, 9ED-R, M13-R, C13-R, C14-R, CMA-R
 Reach
 {X}{G}{G}: Silklash Spider deals X damage to each creature with flying.
 
@@ -6813,7 +6895,7 @@ When Silumgar Spell-Eater is turned face up, counter target spell unless its con
 Name:   Silumgar's Command
 Cost:   3UB
 Type:   Instant
-S/R:    DTK-R
+S/R:    DTK-R, C17-R
 Choose two —
 • Counter target noncreature spell.
 • Return target permanent to its owner's hand.
@@ -6831,7 +6913,7 @@ Name:   Silumgar, the Drifting Death
 Cost:   4UB
 Type:   Legendary Creature — Dragon
 P/T:    3/7
-S/R:    FRF-R
+S/R:    FRF-R, C17-R
 Flying, hexproof
 Whenever a Dragon you control attacks, creatures defending player controls get -1/-1 until end of turn.
 
@@ -7068,7 +7150,7 @@ When Simic Growth Chamber enters the battlefield, return a land you control to i
 
 Name:   Simic Guildgate
 Type:   Land — Gate
-S/R:    GTC-C, DGM-C, C13-C, C15-C, MM3-C
+S/R:    GTC-C, DGM-C, C13-C, C15-C, MM3-C, CMA-C
 Simic Guildgate enters the battlefield tapped.
 {T}: Add {G} or {U} to your mana pool.
 
@@ -7113,7 +7195,7 @@ S/R:    DIS-C
 Name:   Simic Signet
 Cost:   2
 Type:   Artifact
-S/R:    DIS-C, CMD-C, C13-C, C15-C, C16-C, MM3-U
+S/R:    DIS-C, CMD-C, C13-C, C15-C, C16-C, MM3-U, CMA-C
 {1}, {T}: Add {G}{U} to your mana pool.
 
 Name:   Simic Sky Swallower
@@ -7268,6 +7350,14 @@ M-type: Transform
 M-card: Kessig Prowler
 S/R:    EMN-U
 Sinuous Predator can't be blocked by more than one creature.
+
+Name:   Sinuous Striker
+Cost:   2U
+Type:   Creature — Naga Warrior
+P/T:    2/2
+S/R:    HOU-U
+{U}: Sinuous Striker gets +1/-1 until end of turn.
+Eternalize—{3}{U}{U}, Discard a card. ({3}{U}{U}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Warrior with no mana cost. Eternalize only as a sorcery.)
 
 Name:   Sinuous Vermin
 Cost:   1B
@@ -7456,7 +7546,7 @@ Name:   Skarrgan Firebird
 Cost:   4RR
 Type:   Creature — Phoenix
 P/T:    3/3
-S/R:    GPT-R, MM2-U, DDL-R
+S/R:    GPT-R, MM2-U, E01-U, DDL-R
 Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)
 Flying
 {R}{R}{R}: Return Skarrgan Firebird from your graveyard to your hand. Activate this ability only if an opponent was dealt damage this turn.
@@ -7509,7 +7599,7 @@ Flying
 Name:   Skeletal Scrying
 Cost:   XB
 Type:   Instant
-S/R:    OD-U, CNS-U, C14-U
+S/R:    OD-U, CNS-U, C14-U, C17-U
 As an additional cost to cast Skeletal Scrying, exile X cards from your graveyard.
 You draw X cards and you lose X life.
 
@@ -7523,7 +7613,7 @@ Name:   Skeletal Vampire
 Cost:   4BB
 Type:   Creature — Vampire Skeleton
 P/T:    3/3
-S/R:    GPT-R, MMA-R, DDD-R
+S/R:    GPT-R, MMA-R, C17-R, DDD-R
 Flying
 When Skeletal Vampire enters the battlefield, create two 1/1 black Bat creature tokens with flying.
 {3}{B}{B}, Sacrifice a Bat: Create two 1/1 black Bat creature tokens with flying.
@@ -7938,7 +8028,7 @@ At the beginning of each opponent's upkeep, Skullcage deals 2 damage to that pla
 Name:   Skullclamp
 Cost:   1
 Type:   Artifact — Equipment
-S/R:    DST-U, CMD-U, C14-U, C15-U, C16-U, VMA-M, V09-M
+S/R:    DST-U, CMD-U, C14-U, C15-U, C16-U, CMA-U, C17-U, VMA-M, V09-M
 Equipped creature gets +1/-1.
 Whenever equipped creature dies, draw two cards.
 Equip {1}
@@ -7997,7 +8087,7 @@ Name:   Skullwinder
 Cost:   2G
 Type:   Creature — Snake
 P/T:    1/3
-S/R:    C15-U
+S/R:    C15-U, CMA-U
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
 When Skullwinder enters the battlefield, return target card from your graveyard to your hand, then choose an opponent. That player returns a card from his or her graveyard to his or her hand.
 
@@ -8442,7 +8532,7 @@ Name:   Skyward Eye Prophets
 Cost:   3GWU
 Type:   Creature — Human Wizard
 P/T:    3/3
-S/R:    CON-U, C13-U
+S/R:    CON-U, C13-U, CMA-U
 Vigilance
 {T}: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.
 
@@ -8572,7 +8662,7 @@ Name:   Slaughter Pact
 Cost:   0
 Type:   Instant
 Color:  Black
-S/R:    FUT-R, MMA-R
+S/R:    FUT-R, MMA-R, MPS_AKH-S
 Destroy target nonblack creature.
 At the beginning of your next upkeep, pay {2}{B}. If you don't, you lose the game.
 
@@ -8593,7 +8683,7 @@ Hellbent — When Slaughterhouse Bouncer dies, if you have no cards in hand, tar
 Name:   Slave of Bolas
 Cost:   3(U/R)B
 Type:   Sorcery
-S/R:    ARB-U, DDH-U
+S/R:    ARB-U, E01-U, DDH-U
 Gain control of target creature. Untap that creature. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.
 
 Name:   Slavering Nulls
@@ -8779,7 +8869,7 @@ Hexproof (This creature can't be the target of spells or abilities your opponent
 
 Name:   Slippery Karst
 Type:   Land
-S/R:    US-C, C13-C, C14-C, C15-C, DDD-C
+S/R:    US-C, C13-C, C14-C, C15-C, CMA-C, DDD-C
 Slippery Karst enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 Cycling {2} ({2}, Discard this card: Draw a card.)
@@ -9143,7 +9233,7 @@ Smoldering Marsh enters the battlefield tapped unless you control two or more ba
 
 Name:   Smoldering Spires
 Type:   Land
-S/R:    WWK-C
+S/R:    WWK-C, E01-C
 Smoldering Spires enters the battlefield tapped.
 When Smoldering Spires enters the battlefield, target creature can't block this turn.
 {T}: Add {R} to your mana pool.
@@ -9484,7 +9574,7 @@ As Sol Grail enters the battlefield, choose a color.
 Name:   Sol Ring
 Cost:   1
 Type:   Artifact
-S/R:    A-U, B-U, U-U, RV-U, CMD-U, C13-U, C14-U, C15-U, MPS_KLD-S, C16-U, VMA-M, ME4-R, V10-M
+S/R:    A-U, B-U, U-U, RV-U, CMD-U, C13-U, C14-U, C15-U, MPS_KLD-S, C16-U, CMA-U, C17-U, VMA-M, ME4-R, V10-M
 {T}: Add {C}{C} to your mana pool.
 
 Name:   Sol'kanar the Swamp King
@@ -9636,6 +9726,13 @@ S/R:    MRD-R, CMD-R, M12-R, C14-R, C15-R, MPS_KLD-S, C16-R
 When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.
 When Solemn Simulacrum dies, you may draw a card.
 
+Name:   Solemnity
+Cost:   2W
+Type:   Enchantment
+S/R:    HOU-R
+Players can't get counters.
+Counters can't be put on artifacts, creatures, enchantments, or lands.
+
 Name:   Solfatara
 Cost:   2R
 Type:   Instant
@@ -9655,6 +9752,13 @@ Type:   Instant
 S/R:    JOU-U, C16-U
 Strive — Solidarity of Heroes costs {1}{G} more to cast for each target beyond the first.
 Choose any number of target creatures. Double the number of +1/+1 counters on each of them.
+
+Name:   Solitary Camel
+Cost:   2W
+Type:   Creature — Camel
+P/T:    3/2
+S/R:    HOU-C
+Solitary Camel has lifelink as long as you control a Desert or there is a Desert card in your graveyard. (Damage dealt by this creature also causes you to gain that much life.)
 
 Name:   Solitary Confinement
 Cost:   2W
@@ -9842,7 +9946,7 @@ Creatures that are enchanted can't attack or block.
 Name:   Song of the Dryads
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    C14-R
+S/R:    C14-R, CMA-R
 Enchant permanent
 Enchanted permanent is a colorless Forest land.
 
@@ -10213,7 +10317,7 @@ Prevent all damage one or two target creatures would deal this turn.
 Name:   Soul Ransom
 Cost:   2UB
 Type:   Enchantment — Aura
-S/R:    GTC-R, MM3-U
+S/R:    GTC-R, MM3-U, E01-U
 Enchant creature
 You control enchanted creature.
 Discard two cards: Soul Ransom's controller sacrifices it, then draws two cards. Only any opponent may activate this ability.
@@ -10279,7 +10383,7 @@ Soul Shred deals 3 damage to target nonblack creature. You gain 3 life.
 Name:   Soul Snare
 Cost:   W
 Type:   Enchantment
-S/R:    CMD-U
+S/R:    CMD-U, CMA-U
 {W}, Sacrifice Soul Snare: Exile target creature that's attacking you or a planeswalker you control.
 
 Name:   Soul Snuffers
@@ -10402,7 +10506,7 @@ Name:   Soul of the Harvest
 Cost:   4GG
 Type:   Creature — Elemental
 P/T:    6/6
-S/R:    AVR-R, C14-R, W16-R
+S/R:    AVR-R, C14-R, W16-R, CMA-R
 Trample
 Whenever another nontoken creature enters the battlefield under your control, you may draw a card.
 
@@ -10428,7 +10532,7 @@ You gain life equal to target creature's power.
 Name:   Soul's Majesty
 Cost:   4G
 Type:   Sorcery
-S/R:    CON-R
+S/R:    CON-R, C17-R
 Draw cards equal to the power of target creature you control.
 
 Name:   Soul's Might
@@ -11137,7 +11241,7 @@ Name:   Spellbound Dragon
 Cost:   3UR
 Type:   Creature — Dragon
 P/T:    3/5
-S/R:    ARB-R
+S/R:    ARB-R, C17-R
 Flying
 Whenever Spellbound Dragon attacks, draw a card, then discard a card. Spellbound Dragon gets +X/+0 until end of turn, where X is the discarded card's converted mana cost.
 
@@ -11209,8 +11313,16 @@ Whenever an opponent casts a spell, that player sacrifices a permanent unless he
 Name:   Spelltwine
 Cost:   5U
 Type:   Sorcery
-S/R:    M13-R, C16-R, DDM-R
+S/R:    M13-R, C16-R, C17-R, DDM-R
 Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.
+
+Name:   Spellweaver Eternal
+Cost:   1U
+Type:   Creature — Zombie Naga Wizard
+P/T:    2/1
+S/R:    HOU-C
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)
 
 Name:   Spellweaver Helix
 Cost:   3
@@ -11316,7 +11428,7 @@ Name:   Sphinx of Jwar Isle
 Cost:   4UU
 Type:   Creature — Sphinx
 P/T:    5/5
-S/R:    ZEN-R, C14-R
+S/R:    ZEN-R, C14-R, E01-R
 Flying
 Shroud (This creature can't be the target of spells or abilities.)
 You may look at the top card of your library. (You may do this at any time.)
@@ -11415,7 +11527,7 @@ Enchanted creature gets +0/+3 and has reach. (It can block creatures with flying
 Name:   Spider Spawning
 Cost:   4G
 Type:   Sorcery
-S/R:    ISD-U, C15-U
+S/R:    ISD-U, C15-U, CMA-U
 Create a 1/2 green Spider creature token with reach for each creature card in your graveyard.
 Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
@@ -11953,7 +12065,7 @@ Name:   Spirit of the Hearth
 Cost:   4WW
 Type:   Creature — Cat Spirit
 P/T:    4/5
-S/R:    EVE-R, CN2-R
+S/R:    EVE-R, CN2-R, C17-R
 Flying
 You have hexproof. (You can't be the target of spells or abilities your opponents control.)
 
@@ -12777,7 +12889,7 @@ S/R:    5DN-R, MPS_KLD-S
 Name:   Staff of Nin
 Cost:   6
 Type:   Artifact
-S/R:    M13-R, C15-R
+S/R:    M13-R, C15-R, C17-R
 At the beginning of your upkeep, draw a card.
 {T}: Staff of Nin deals 1 damage to target creature or player.
 
@@ -12874,6 +12986,14 @@ P/T:    2/2
 S/R:    OGW-C
 Devoid (This card has no color.)
 {C}: Stalking Drone gets +1/+2 until end of turn. Activate this ability only once each turn. ({C} represents colorless mana.)
+
+Name:   Stalking Leonin
+Cost:   2W
+Type:   Creature — Cat Archer
+P/T:    3/3
+S/R:    C17-R
+When Stalking Leonin enters the battlefield, secretly choose an opponent.
+Reveal the player you chose: Exile target creature that's attacking you if it's controlled by the chosen player. Activate this ability only once.
 
 Name:   Stalking Stones
 Type:   Land
@@ -13224,6 +13344,14 @@ P/T:    2/2
 S/R:    MM-C, 10E-C
 Vigilance (Attacking doesn't cause this creature to tap.)
 
+Name:   Steadfast Sentinel
+Cost:   3W
+Type:   Creature — Human Cleric
+P/T:    2/3
+S/R:    HOU-C
+Vigilance
+Eternalize {4}{W}{W} ({4}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Cleric with no mana cost. Eternalize only as a sorcery.)
+
 Name:   Steadfastness
 Cost:   1W
 Type:   Sorcery
@@ -13344,7 +13472,7 @@ Name:   Steel Hellkite
 Cost:   6
 Type:   Artifact Creature — Dragon
 P/T:    5/5
-S/R:    SOM-R, C14-R
+S/R:    SOM-R, C14-R, C17-R
 Flying
 {2}: Steel Hellkite gets +1/+0 until end of turn.
 {X}: Destroy each nonland permanent with converted mana cost X whose controller was dealt combat damage by Steel Hellkite this turn. Activate this ability only once each turn.
@@ -13541,6 +13669,13 @@ P/T:    1/2
 S/R:    US-U
 When Stern Proctor enters the battlefield, return target artifact or enchantment to its owner's hand.
 
+Name:   Steward of Solidarity
+Cost:   1W
+Type:   Creature — Human Warrior
+P/T:    2/2
+S/R:    HOU-U
+{T}, Exert Steward of Solidarity: Create a 1/1 white Warrior creature token with vigilance. (An exerted creature won't untap during your next untap step.)
+
 Name:   Steward of Valeron
 Cost:   GW
 Type:   Creature — Human Druid Knight
@@ -13675,7 +13810,7 @@ When you cycle Stir the Sands, create a 2/2 black Zombie creature token.
 
 Name:   Stirring Wildwood
 Type:   Land
-S/R:    WWK-R, DDP-R
+S/R:    WWK-R, C17-R, DDP-R
 Stirring Wildwood enters the battlefield tapped.
 {T}: Add {G} or {W} to your mana pool.
 {1}{G}{W}: Until end of turn, Stirring Wildwood becomes a 3/4 green and white Elemental creature with reach. It's still a land.
@@ -13887,7 +14022,7 @@ S/R:    PS-C
 
 Name:   Stone Quarry
 Type:   Land
-S/R:    SOI-U, KLD-C, AKH-C
+S/R:    SOI-U, KLD-C, AKH-C, C17-U
 Stone Quarry enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
 
@@ -13939,7 +14074,7 @@ Name:   Stonecloaker
 Cost:   2W
 Type:   Creature — Gargoyle
 P/T:    3/2
-S/R:    PLC-U, C13-U, DDN-U
+S/R:    PLC-U, C13-U, CMA-U, DDN-U
 Flash (You may cast this spell any time you could cast an instant.)
 Flying
 When Stonecloaker enters the battlefield, return a creature you control to its owner's hand.
@@ -14190,7 +14325,7 @@ Name:   Stormblood Berserker
 Cost:   1R
 Type:   Creature — Human Berserker
 P/T:    1/1
-S/R:    M12-U, MM2-U
+S/R:    M12-U, MM2-U, E01-U
 Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
 Menace (This creature can't be blocked except by two or more creatures.)
 
@@ -14419,7 +14554,7 @@ Splice onto Arcane {1}{R} (As you cast an Arcane spell, you may reveal this card
 Name:   Stranglehold
 Cost:   3R
 Type:   Enchantment
-S/R:    CMD-R
+S/R:    CMD-R, CMA-R
 Your opponents can't search libraries.
 If an opponent would begin an extra turn, that player skips that turn instead.
 
@@ -14457,7 +14592,7 @@ Trample
 Name:   Strategic Planning
 Cost:   1U
 Type:   Sorcery
-S/R:    P3K-U, C13-U, ME3-C
+S/R:    P3K-U, C13-U, HOU-C, ME3-C
 Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
 
 Name:   Stratozeppelid
@@ -14673,6 +14808,14 @@ P/T:    2/2
 S/R:    WL-C
 When Striped Bears enters the battlefield, draw a card.
 
+Name:   Striped Riverwinder
+Cost:   6U
+Type:   Creature — Serpent
+P/T:    5/5
+S/R:    HOU-C
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Cycling {U} ({U}, Discard this card: Draw a card.)
+
 Name:   Stroke of Genius
 Cost:   X2U
 Type:   Instant
@@ -14706,7 +14849,7 @@ Name:   Stromkirk Captain
 Cost:   1BR
 Type:   Creature — Vampire Soldier
 P/T:    2/2
-S/R:    DKA-U
+S/R:    DKA-U, C17-U
 First strike
 Other Vampire creatures you control get +1/+1 and have first strike.
 
@@ -14844,6 +14987,14 @@ Cost:   3R
 Type:   Sorcery
 S/R:    SOI-C
 Exile target artifact or land. Structural Distortion deals 2 damage to that permanent's controller.
+
+Name:   Struggle
+Cost:   2R
+Type:   Instant
+M-type: Split
+M-card: Survive
+S/R:    HOU-U
+Struggle deals damage to target creature equal to the number of lands you control.
 
 Name:   Struggle for Sanity
 Cost:   2BB
@@ -15076,7 +15227,7 @@ Target creature gets -4/-4 until end of turn.
 Name:   Sudden Demise
 Cost:   XR
 Type:   Sorcery
-S/R:    C13-R
+S/R:    C13-R, E01-R
 Choose a color. Sudden Demise deals X damage to each creature of the chosen color.
 
 Name:   Sudden Disappearance
@@ -15211,7 +15362,7 @@ If a player would gain life, that player gains no life instead.
 Name:   Sulfurous Blast
 Cost:   2RR
 Type:   Instant
-S/R:    TSP-U, CMD-U, CN2-U
+S/R:    TSP-U, CMD-U, CN2-U, CMA-U
 Sulfurous Blast deals 2 damage to each creature and each player. If you cast this spell during your main phase, Sulfurous Blast deals 3 damage to each creature and each player instead.
 
 Name:   Sulfurous Springs
@@ -15388,7 +15539,7 @@ Name:   Sun Titan
 Cost:   4WW
 Type:   Creature — Giant
 P/T:    6/6
-S/R:    M11-M, M12-M, C14-M, C15-M, DDL-M
+S/R:    M11-M, M12-M, C14-M, C15-M, E01-M, DDL-M
 Vigilance
 Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with converted mana cost 3 or less from your graveyard to the battlefield.
 
@@ -15454,7 +15605,7 @@ Sunburst (This enters the battlefield with a +1/+1 counter on it for each color 
 Name:   Sunder
 Cost:   3UU
 Type:   Instant
-S/R:    US-R
+S/R:    US-R, MPS_AKH-S
 Return all lands to their owners' hands.
 
 Name:   Sunder from Within
@@ -15647,7 +15798,7 @@ Name:   Sunscorch Regent
 Cost:   3WW
 Type:   Creature — Dragon
 P/T:    4/3
-S/R:    DTK-R
+S/R:    DTK-R, C17-R
 Flying
 Whenever an opponent casts a spell, put a +1/+1 counter on Sunscorch Regent and you gain 1 life.
 
@@ -15664,6 +15815,14 @@ S/R:    CSP-R
 You may exile two white cards from your hand rather than pay Sunscour's mana cost.
 Destroy all creatures.
 
+Name:   Sunscourge Champion
+Cost:   2W
+Type:   Creature — Human Wizard
+P/T:    2/3
+S/R:    HOU-U
+When Sunscourge Champion enters the battlefield, you gain life equal to its power.
+Eternalize—{2}{W}{W}, Discard a card. ({2}{W}{W}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Human Wizard with no mana cost. Eternalize only as a sorcery.)
+
 Name:   Sunseed Nurturer
 Cost:   2W
 Type:   Creature — Human Druid Wizard
@@ -15672,11 +15831,19 @@ S/R:    ALA-U
 At the beginning of your end step, if you control a creature with power 5 or greater, you may gain 2 life.
 {T}: Add {C} to your mana pool.
 
+Name:   Sunset Pyramid
+Cost:   2
+Type:   Artifact
+S/R:    HOU-U
+Sunset Pyramid enters the battlefield with three brick counters on it.
+{2}, {T}, Remove a brick counter from Sunset Pyramid: Draw a card.
+{2}, {T}: Scry 1.
+
 Name:   Sunspear Shikari
 Cost:   1W
 Type:   Creature — Cat Soldier
 P/T:    2/2
-S/R:    SOM-C, MM2-C
+S/R:    SOM-C, MM2-C, C17-C
 As long as Sunspear Shikari is equipped, it has first strike and lifelink.
 
 Name:   Sunspire Gatekeepers
@@ -15819,6 +15986,14 @@ Type:   Sorcery
 S/R:    RTR-R
 Supreme Verdict can't be countered.
 Destroy all creatures.
+
+Name:   Supreme Will
+Cost:   2U
+Type:   Instant
+S/R:    HOU-U
+Choose one —
+• Counter target spell unless its controller pays {3}.
+• Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 
 Name:   Suq'Ata Assassin
 Cost:   1BB
@@ -16010,7 +16185,7 @@ Destroy target land. Create a 1/1 red Goblin creature token.
 Name:   Surveyor's Scope
 Cost:   2
 Type:   Artifact
-S/R:    C13-R
+S/R:    C13-R, CMA-R
 {T}, Exile Surveyor's Scope: Search your library for up to X basic land cards, where X is the number of players who control at least two more lands than you. Put those cards onto the battlefield, then shuffle your library.
 
 Name:   Survival Cache
@@ -16026,6 +16201,15 @@ Type:   Enchantment
 S/R:    EX-R, VMA-R
 {G}, Discard a creature card: Search your library for a creature card, reveal that card, and put it into your hand. Then shuffle your library.
 
+Name:   Survive
+Cost:   1G
+Type:   Sorcery
+M-type: Split
+M-card: Struggle
+S/R:    HOU-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Each player shuffles his or her graveyard into his or her library.
+
 Name:   Survive the Night
 Cost:   2W
 Type:   Instant
@@ -16040,6 +16224,12 @@ P/T:    2/1
 S/R:    CSP-C
 Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 {T}: Draw two cards, then put a card from your hand on top of your library.
+
+Name:   Survivors' Encampment
+Type:   Land — Desert
+S/R:    HOU-C
+{T}: Add {C} to your mana pool.
+{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool.
 
 Name:   Suspension Field
 Cost:   1W
@@ -16122,7 +16312,7 @@ Swallowing Plague deals X damage to target creature and you gain X life.
 
 Name:   Swamp
 Type:   Basic Land — Swamp
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, UG-C, UNH-L, DDC-L, DDD-L, DDE-L, DDH-L, DDJ-L, DDK-L, DDM-L, DDN-L, DDP-L, DDQ-L, DDR-L, H09-L, ME3-L, MED-L, PD3-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, UG-C, UNH-L, DDC-L, DDD-L, DDE-L, DDH-L, DDJ-L, DDK-L, DDM-L, DDN-L, DDP-L, DDQ-L, DDR-L, H09-L, ME3-L, MED-L, PD3-L
 
 Name:   Swamp Mosquito
 Cost:   1B
@@ -16145,6 +16335,12 @@ P/T:    4/3
 S/R:    SHM-R, MM2-R
 Flying
 If a source would deal damage to Swans of Bryn Argoll, prevent that damage. The source's controller draws cards equal to the damage prevented this way.
+
+Name:   Swarm Intelligence
+Cost:   6U
+Type:   Enchantment
+S/R:    HOU-R
+Whenever you cast an instant or sorcery spell, you may copy that spell. You may choose new targets for the copy.
 
 Name:   Swarm Surge
 Cost:   2B
@@ -16301,13 +16497,13 @@ When Swift Warkite enters the battlefield, you may put a creature card with conv
 Name:   Swiftfoot Boots
 Cost:   2
 Type:   Artifact — Equipment
-S/R:    M12-U, C13-U, C14-U, C15-U, C16-U
+S/R:    M12-U, C13-U, C14-U, C15-U, C16-U, CMA-U, C17-U
 Equipped creature has hexproof and haste.
 Equip {1}
 
 Name:   Swiftwater Cliffs
 Type:   Land
-S/R:    KTK-C, FRF-C, C15-C, EMA-C, C16-C, DDS-C
+S/R:    KTK-C, FRF-C, C15-C, EMA-C, C16-C, C17-C, DDS-C
 Swiftwater Cliffs enters the battlefield tapped.
 When Swiftwater Cliffs enters the battlefield, you gain 1 life.
 {T}: Add {U} or {R} to your mana pool.
@@ -16397,7 +16593,7 @@ Equip {2}
 Name:   Sword of Vengeance
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    M11-R, C14-R, C15-R
+S/R:    M11-R, C14-R, C15-R, C17-R
 Equipped creature gets +2/+0 and has first strike, vigilance, trample, and haste.
 Equip {3}
 
@@ -16419,7 +16615,7 @@ Sword of the Ages enters the battlefield tapped.
 Name:   Sword of the Animist
 Cost:   2
 Type:   Legendary Artifact — Equipment
-S/R:    ORI-R
+S/R:    ORI-R, E01-R, C17-R
 Equipped creature gets +1/+1.
 Whenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
 Equip {2}
@@ -16441,7 +16637,7 @@ Whenever a 1/1 creature enters the battlefield under your control, you may retur
 Name:   Sword of the Paruns
 Cost:   4
 Type:   Artifact — Equipment
-S/R:    GPT-R, C13-R
+S/R:    GPT-R, C13-R, CMA-R
 As long as equipped creature is tapped, tapped creatures you control get +2/+0.
 As long as equipped creature is untapped, untapped creatures you control get +0/+2.
 {3}: You may tap or untap equipped creature.
@@ -16450,7 +16646,7 @@ Equip {3}
 Name:   Swords to Plowshares
 Cost:   W
 Type:   Instant
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, IA-U, CNS-U, EMA-U, C16-U, VMA-U, DDF-U, ME2-U, ME4-U, V13-M
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, IA-U, CNS-U, EMA-U, C16-U, C17-U, VMA-U, DDF-U, ME2-U, ME4-U, V13-M
 Exile target creature. Its controller gains life equal to its power.
 
 Name:   Swordwise Centaur
@@ -16507,7 +16703,7 @@ Whenever Sylvan Basilisk becomes blocked by a creature, destroy that creature.
 Name:   Sylvan Bounty
 Cost:   5G
 Type:   Instant
-S/R:    CON-C, MMA-C, MM2-C, CN2-C, DDH-C
+S/R:    CON-C, MMA-C, MM2-C, CN2-C, E01-C, DDH-C
 Target player gains 8 life.
 Basic landcycling {1}{G} ({1}{G}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
 
@@ -16556,7 +16752,7 @@ Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashbac
 Name:   Sylvan Offering
 Cost:   XG
 Type:   Sorcery
-S/R:    C14-R
+S/R:    C14-R, CMA-R
 Choose an opponent. You and that player each create an X/X green Treefolk creature token.
 Choose an opponent. You and that player each create X 1/1 green Elf Warrior creature tokens.
 
@@ -16578,7 +16774,7 @@ Name:   Sylvan Ranger
 Cost:   1G
 Type:   Creature — Elf Scout
 P/T:    1/1
-S/R:    M11-C, C14-C, MM3-C, DDH-C
+S/R:    M11-C, C14-C, MM3-C, CMA-C, DDH-C
 When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Sylvan Reclamation
@@ -16592,7 +16788,7 @@ Name:   Sylvan Safekeeper
 Cost:   G
 Type:   Creature — Human Wizard
 P/T:    1/1
-S/R:    JUD-R, C14-R
+S/R:    JUD-R, C14-R, CMA-R
 Sacrifice a land: Target creature you control gains shroud until end of turn. (It can't be the target of spells or abilities.)
 
 Name:   Sylvan Scrying
@@ -16755,7 +16951,7 @@ Exile all creatures you control. At the beginning of the next end step, reveal c
 Name:   Syphon Flesh
 Cost:   4B
 Type:   Sorcery
-S/R:    CMD-U
+S/R:    CMD-U, CMA-U
 Each other player sacrifices a creature. You create a 2/2 black Zombie creature token for each creature sacrificed this way.
 
 Name:   Syphon Life
@@ -16768,7 +16964,7 @@ Retrace (You may cast this card from your graveyard by discarding a land card in
 Name:   Syphon Mind
 Cost:   3B
 Type:   Sorcery
-S/R:    ONS-C, HOP-C, CMD-C, C14-C
+S/R:    ONS-C, HOP-C, CMD-C, C14-C, CMA-C, C17-C
 Each other player discards a card. You draw a card for each card discarded this way.
 
 Name:   Syphon Sliver

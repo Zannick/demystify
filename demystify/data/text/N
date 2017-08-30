@@ -557,6 +557,14 @@ S/R:    C13-R
 Trample
 When you cast Naya Soulbeast, each player reveals the top card of his or her library. Naya Soulbeast enters the battlefield with X +1/+1 counters on it, where X is the total converted mana cost of all cards revealed this way.
 
+Name:   Nazahn, Revered Bladesmith
+Cost:   4GW
+Type:   Legendary Creature — Cat Artificer
+P/T:    5/4
+S/R:    C17-M
+When Nazahn, Revered Bladesmith enters the battlefield, search your library for an Equipment card and reveal it. If you reveal a card named Hammer of Nazahn this way, put it onto the battlefield. Otherwise, put that card into your hand. Then shuffle your library.
+Whenever an equipped creature you control attacks, you may tap target creature defending player controls.
+
 Name:   Near-Death Experience
 Cost:   2WWW
 Type:   Enchantment
@@ -741,7 +749,7 @@ When Necromancy enters the battlefield, if it's on the battlefield, it becomes a
 Name:   Necromantic Selection
 Cost:   4BBB
 Type:   Sorcery
-S/R:    C14-R
+S/R:    C14-R, C17-R
 Destroy all creatures, then return a creature card put into a graveyard this way to the battlefield under your control. It's a black Zombie in addition to its other colors and types. Exile Necromantic Selection.
 
 Name:   Necromantic Summons
@@ -980,6 +988,14 @@ S/R:    SOI-U
 Equipped creature gets +1/+1.
 When equipped creature transforms, transform Neglected Heirloom.
 Equip {1}
+
+Name:   Neheb, the Eternal
+Cost:   3RR
+Type:   Legendary Creature — Zombie Minotaur Warrior
+P/T:    4/6
+S/R:    HOU-M
+Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)
+At the beginning of your postcombat main phase, add {R} to your mana pool for each 1 life your opponents have lost this turn.
 
 Name:   Neheb, the Worthy
 Cost:   1BR
@@ -1379,7 +1395,7 @@ Spells with the chosen name can't be cast.
 Name:   Nevinyrral's Disk
 Cost:   4
 Type:   Artifact
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, C13-R, C14-R, EMA-R, C16-R, VMA-R, MED-R, V10-M
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, C13-R, C14-R, EMA-R, C16-R, C17-R, VMA-R, MED-R, V10-M
 Nevinyrral's Disk enters the battlefield tapped.
 {1}, {T}: Destroy all artifacts, creatures, and enchantments.
 
@@ -1389,6 +1405,13 @@ S/R:    FUT-U, C13-U, C15-U, DDI-U, DDL-U
 New Benalia enters the battlefield tapped.
 When New Benalia enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 {T}: Add {W} to your mana pool.
+
+Name:   New Blood
+Cost:   2BB
+Type:   Sorcery
+S/R:    C17-R
+As an additional cost to cast New Blood, tap an untapped Vampire you control.
+Gain control of target creature. Change the text of that creature by replacing all instances of one creature type with Vampire.
 
 Name:   New Frontiers
 Cost:   XG
@@ -1515,14 +1538,33 @@ Flying
 At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.
 Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.
 
+Name:   Nicol Bolas, God-Pharaoh
+Cost:   4UBR
+Type:   Planeswalker — Bolas
+P/T:    7
+S/R:    HOU-M
+[+2]: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.
+[+1]: Each opponent exiles two cards from his or her hand.
+[-4]: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or creature an opponent controls.
+[-12]: Exile each nonland permanent your opponents control.
+
 Name:   Nicol Bolas, Planeswalker
 Cost:   4UBBR
 Type:   Planeswalker — Bolas
 P/T:    5
-S/R:    CON-M, M13-M, DDH-M
+S/R:    CON-M, M13-M, E01-M, DDH-M
 [+3]: Destroy target noncreature permanent.
 [-2]: Gain control of target creature.
 [-9]: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents.
+
+Name:   Nicol Bolas, the Deceiver
+Cost:   5UBR
+Type:   Planeswalker — Bolas
+P/T:    5
+S/R:    HOU-M
+[+3]: Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card.
+[-3]: Destroy target creature. Draw a card.
+[-11]: Nicol Bolas, the Deceiver deals 7 damage to each opponent. You draw seven cards.
 
 Name:   Night
 Cost:   B
@@ -1709,7 +1751,7 @@ Name:   Nightscape Familiar
 Cost:   1B
 Type:   Creature — Zombie
 P/T:    1/1
-S/R:    PS-C, C13-C, VMA-C, DDH-C
+S/R:    PS-C, C13-C, E01-C, VMA-C, DDH-C
 Blue spells and red spells you cast cost {1} less to cast.
 {1}{B}: Regenerate Nightscape Familiar.
 
@@ -1815,7 +1857,7 @@ Flying
 Name:   Nihil Spellbomb
 Cost:   1
 Type:   Artifact
-S/R:    SOM-C, C13-C
+S/R:    SOM-C, C13-C, C17-C
 {T}, Sacrifice Nihil Spellbomb: Exile all cards from target player's graveyard.
 When Nihil Spellbomb is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card.
 
@@ -1925,6 +1967,16 @@ S/R:    OD-U, EMA-C
 Shroud (This creature can't be the target of spells or abilities.)
 Threshold — Nimble Mongoose gets +2/+2 as long as seven or more cards are in your graveyard.
 
+Name:   Nimble Obstructionist
+Cost:   2U
+Type:   Creature — Bird Wizard
+P/T:    3/1
+S/R:    HOU-R
+Flash
+Flying
+Cycling {2}{U} ({2}{U}, Discard this card: Draw a card.)
+When you cycle Nimble Obstructionist, counter target activated or triggered ability you don't control.
+
 Name:   Nimble-Blade Khenra
 Cost:   1R
 Type:   Creature — Jackal Warrior
@@ -1974,7 +2026,7 @@ Name:   Nin, the Pain Artist
 Cost:   UR
 Type:   Legendary Creature — Vedalken Wizard
 P/T:    1/1
-S/R:    CMD-R
+S/R:    CMD-R, C17-R
 {X}{U}{R}, {T}: Nin, the Pain Artist deals X damage to target creature. That creature's controller draws X cards.
 
 Name:   Nine-Ringed Bo
@@ -2045,6 +2097,18 @@ P/T:    2/3
 S/R:    ZEN-C, DDR-C
 If Nissa's Chosen would die, put it on the bottom of its owner's library instead.
 
+Name:   Nissa's Defeat
+Cost:   2G
+Type:   Sorcery
+S/R:    HOU-U
+Destroy target Forest, green enchantment, or green planeswalker. If that permanent was a Nissa planeswalker, draw a card.
+
+Name:   Nissa's Encouragement
+Cost:   4G
+Type:   Sorcery
+S/R:    HOU-R
+Search your library and graveyard for a card named Forest, a card named Brambleweft Behemoth, and a card named Nissa, Genesis Mage. Reveal those cards, put them into your hand, then shuffle your library.
+
 Name:   Nissa's Expedition
 Cost:   4G
 Type:   Sorcery
@@ -2062,7 +2126,7 @@ Choose up to one target creature an opponent controls. Each creature you control
 Name:   Nissa's Pilgrimage
 Cost:   2G
 Type:   Sorcery
-S/R:    ORI-C
+S/R:    ORI-C, C17-C
 Search your library for up to two basic Forest cards, reveal those cards, and put one onto the battlefield tapped and the rest into your hand. Then shuffle your library.
 Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, search your library for up to three basic Forest cards instead of two.
 
@@ -2077,6 +2141,15 @@ Cost:   5GG
 Type:   Sorcery
 S/R:    ORI-R
 Scry 5, then reveal the top card of your library. If it's a creature card, you draw cards equal to its power and you gain life equal to its toughness.
+
+Name:   Nissa, Genesis Mage
+Cost:   5GG
+Type:   Planeswalker — Nissa
+P/T:    5
+S/R:    HOU-M
+[+2]: Untap up to two target creatures and up to two target lands.
+[-3]: Target creature gets +5/+5 until end of turn.
+[-10]: Look at the top ten cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 
 Name:   Nissa, Nature's Artisan
 Cost:   4GG
@@ -2139,7 +2212,7 @@ Name:   Nissa, Worldwaker
 Cost:   3GG
 Type:   Planeswalker — Nissa
 P/T:    3
-S/R:    M15-M
+S/R:    M15-M, E01-M
 [+1]: Target land you control becomes a 4/4 Elemental creature with trample. It's still a land.
 [+1]: Untap up to four target Forests.
 [-7]: Search your library for any number of basic land cards, put them onto the battlefield, then shuffle your library. Those lands become 4/4 Elemental creatures with trample. They're still lands.
@@ -2148,7 +2221,7 @@ Name:   Niv-Mizzet, Dracogenius
 Cost:   2UURR
 Type:   Legendary Creature — Dragon Wizard
 P/T:    5/5
-S/R:    RTR-M, MM3-R
+S/R:    RTR-M, MM3-R, C17-R
 Flying
 Whenever Niv-Mizzet, Dracogenius deals damage to a player, you may draw a card.
 {U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to target creature or player.
@@ -2157,7 +2230,7 @@ Name:   Niv-Mizzet, the Firemind
 Cost:   2UURR
 Type:   Legendary Creature — Dragon Wizard
 P/T:    4/4
-S/R:    GPT-R, MM2-R, DRB-R, DDJ-M
+S/R:    GPT-R, MM2-R, C17-R, DRB-R, DDJ-M
 Flying
 Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.
 {T}: Draw a card.
@@ -2190,7 +2263,7 @@ Name:   Nivix Guildmage
 Cost:   UR
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    RTR-U, C13-U
+S/R:    RTR-U, C13-U, C17-U
 {1}{U}{R}: Draw a card, then discard a card.
 {2}{U}{R}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
 
@@ -2216,7 +2289,7 @@ Counter target spell if no mana was spent to cast it.
 Name:   No Mercy
 Cost:   2BB
 Type:   Enchantment
-S/R:    UL-R
+S/R:    UL-R, MPS_AKH-S
 Whenever a creature deals damage to you, destroy it.
 
 Name:   No Quarter
@@ -2393,7 +2466,7 @@ S/R:    JUD-R, 10E-R
 
 Name:   Nomad Outpost
 Type:   Land
-S/R:    KTK-U, C16-U, DDN-U
+S/R:    KTK-U, C16-U, C17-U, DDN-U
 Nomad Outpost enters the battlefield tapped.
 {T}: Add {R}, {W}, or {B} to your mana pool.
 
@@ -2712,7 +2785,7 @@ Cost:   3W
 Type:   World Enchantment
 S/R:    MI-R
 As Null Chamber enters the battlefield, you and an opponent each choose a card name other than a basic land card name.
-Spells with the chosen names can't be cast.
+Spells with the chosen names can't be cast and lands with the chosen names can't be played.
 
 Name:   Null Champion
 Cost:   1B

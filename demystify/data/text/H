@@ -40,7 +40,7 @@ Name:   Hada Spy Patrol
 Cost:   1U
 Type:   Creature — Human Rogue
 P/T:    1/1
-S/R:    ROE-U, C13-U
+S/R:    ROE-U, C13-U, CMA-U
 Level up {2}{U} ({2}{U}: Put a level counter on this. Level up only as a sorcery.)
 {LEVEL 1-2} 2/2 Hada Spy Patrol can't be blocked.
 {LEVEL 3+} 3/3 Shroud (This creature can't be the target of spells or abilities.)
@@ -277,6 +277,14 @@ S/R:    MI-R, 6E-R, 8ED-R, PD2-R
 Hammer of Bogardan deals 3 damage to target creature or player.
 {2}{R}{R}{R}: Return Hammer of Bogardan from your graveyard to your hand. Activate this ability only during your upkeep.
 
+Name:   Hammer of Nazahn
+Cost:   4
+Type:   Legendary Artifact — Equipment
+S/R:    C17-R
+Whenever Hammer of Nazahn or another Equipment enters the battlefield under your control, you may attach that Equipment to target creature you control.
+Equipped creature gets +2/+0 and has indestructible.
+Equip {4}
+
 Name:   Hammer of Purphoros
 Cost:   1RR
 Type:   Legendary Enchantment Artifact
@@ -302,7 +310,7 @@ S/R:    RAV-R, C15-R
 Name:   Hammerhand
 Cost:   R
 Type:   Enchantment — Aura
-S/R:    M15-C
+S/R:    M15-C, E01-C
 Enchant creature
 When Hammerhand enters the battlefield, target creature can't block this turn.
 Enchanted creature gets +1/+1 and has haste. (It can attack and {T} no matter when it came under your control.)
@@ -549,7 +557,7 @@ Name:   Harbinger of the Tides
 Cost:   UU
 Type:   Creature — Merfolk Wizard
 P/T:    2/2
-S/R:    ORI-R
+S/R:    ORI-R, C17-R
 You may cast Harbinger of the Tides as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
 When Harbinger of the Tides enters the battlefield, you may return target tapped creature an opponent controls to its owner's hand.
 
@@ -632,7 +640,7 @@ All Slivers have "When this permanent enters the battlefield, destroy target art
 Name:   Harmonize
 Cost:   2GG
 Type:   Sorcery
-S/R:    PLC-U, ARC-U, CMD-U, C13-U, EMA-U, MM3-U, EVG-U, DDD-U, DDS-U
+S/R:    PLC-U, ARC-U, CMD-U, C13-U, EMA-U, MM3-U, C17-U, EVG-U, DDD-U, DDS-U
 Draw three cards.
 
 Name:   Harmony of Nature
@@ -675,10 +683,16 @@ S/R:    GPT-U
 Flying
 At the beginning of your upkeep, tap target creature.
 
+Name:   Harrier Naga
+Cost:   2G
+Type:   Creature — Naga Warrior
+P/T:    3/3
+S/R:    HOU-C
+
 Name:   Harrow
 Cost:   2G
 Type:   Instant
-S/R:    TE-U, IN-C, ZEN-C, C14-C, DDE-C, DDP-C
+S/R:    TE-U, IN-C, ZEN-C, C14-C, CMA-C, DDE-C, DDP-C
 As an additional cost to cast Harrow, sacrifice a land.
 Search your library for up to two basic land cards and put them onto the battlefield. Then shuffle your library.
 
@@ -804,7 +818,7 @@ Name:   Harvester of Souls
 Cost:   4BB
 Type:   Creature — Demon
 P/T:    5/5
-S/R:    AVR-R, CN2-R, DDQ-R
+S/R:    AVR-R, CN2-R, E01-R, DDQ-R
 Deathtouch
 Whenever another nontoken creature dies, you may draw a card.
 
@@ -814,6 +828,13 @@ Type:   Enchantment Creature — Nymph
 P/T:    2/3
 S/R:    JOU-C
 Constellation — Whenever Harvestguard Alseids or another enchantment enters the battlefield under your control, prevent all damage that would be dealt to target creature this turn.
+
+Name:   Hashep Oasis
+Type:   Land — Desert
+S/R:    HOU-U
+{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {G} to your mana pool.
+{1}{G}{G}, {T}, Sacrifice a Desert: Target creature gets +3/+3 until end of turn. Activate this ability only any time you could cast a sorcery.
 
 Name:   Hasran Ogress
 Cost:   BB
@@ -896,7 +917,7 @@ When Haunted Dead enters the battlefield, create a 1/1 white Spirit creature tok
 
 Name:   Haunted Fengraf
 Type:   Land
-S/R:    DKA-C, C14-C
+S/R:    DKA-C, C14-C, CMA-C
 {T}: Add {C} to your mana pool.
 {3}, {T}, Sacrifice Haunted Fengraf: Return a creature card at random from your graveyard to your hand.
 
@@ -958,7 +979,7 @@ Whenever an artifact becomes tapped or a player activates an artifact's ability 
 
 Name:   Haven of the Spirit Dragon
 Type:   Land
-S/R:    DTK-R
+S/R:    DTK-R, C17-R
 {T}: Add {C} to your mana pool.
 {T}: Add one mana of any color to your mana pool. Spend this mana only to cast a Dragon creature spell.
 {2}, {T}, Sacrifice Haven of the Spirit Dragon: Return target Dragon creature card or Ugin planeswalker card from your graveyard to your hand.
@@ -967,7 +988,7 @@ Name:   Havengul Lich
 Cost:   3UB
 Type:   Creature — Zombie Wizard
 P/T:    4/4
-S/R:    DKA-M
+S/R:    DKA-M, C17-M
 {1}: You may cast target creature card in a graveyard this turn. When you cast that card this turn, Havengul Lich gains all activated abilities of that card until end of turn.
 
 Name:   Havengul Runebinder
@@ -994,7 +1015,7 @@ Whenever another creature dies, put a +1/+1 counter on Havengul Vampire.
 
 Name:   Havenwood Battleground
 Type:   Land
-S/R:    FE-U, 5E-U, 6E-U, C14-U, ME2-U
+S/R:    FE-U, 5E-U, 6E-U, C14-U, CMA-U, ME2-U
 Havenwood Battleground enters the battlefield tapped.
 {T}: Add {G} to your mana pool.
 {T}, Sacrifice Havenwood Battleground: Add {G}{G} to your mana pool.
@@ -1116,6 +1137,12 @@ Type:   Legendary Artifact
 S/R:    AKH-U
 Red creature spells you cast cost {1} less to cast.
 Whenever you cast a creature spell, you may discard a card. If you do, draw a card.
+
+Name:   Hazoret's Undying Fury
+Cost:   4RR
+Type:   Sorcery
+S/R:    HOU-R
+Shuffle your library, then exile the top four cards. You may cast any number of nonland cards with converted mana cost 5 or less from among them without paying their mana costs. Lands you control don't untap during your next untap step.
 
 Name:   Hazy Homunculus
 Cost:   1U
@@ -1554,7 +1581,7 @@ At the beginning of your upkeep, you may reveal your hand. If you do, you win th
 Name:   Hedron Archive
 Cost:   4
 Type:   Artifact
-S/R:    BFZ-U
+S/R:    BFZ-U, C17-U
 {T}: Add {C}{C} to your mana pool.
 {2}, {T}, Sacrifice Hedron Archive: Draw two cards.
 
@@ -1663,6 +1690,14 @@ M-type: Transform
 M-card: Heir of Falkenrath
 S/R:    SOI-U
 Flying
+
+Name:   Heirloom Blade
+Cost:   3
+Type:   Artifact — Equipment
+S/R:    C17-U
+Equipped creature gets +3/+1.
+Whenever equipped creature dies, you may reveal cards from the top of your library until you reveal a creature card that shares a creature type with it. Put that card into your hand and the rest on the bottom of your library in a random order.
+Equip {1}
 
 Name:   Heirs of Stromkirk
 Cost:   2RR
@@ -1827,7 +1862,7 @@ Name:   Hellkite Charger
 Cost:   4RR
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    ZEN-R, ARC-R, MM2-R
+S/R:    ZEN-R, ARC-R, MM2-R, C17-R
 Flying, haste
 Whenever Hellkite Charger attacks, you may pay {5}{R}{R}. If you do, untap all attacking creatures and after this phase, there is an additional combat phase.
 
@@ -2074,6 +2109,14 @@ S/R:    ORI-R
 Enchantment spells you cast cost {1} less to cast.
 Whenever you cast an enchantment spell, you gain 1 life.
 
+Name:   Herald's Horn
+Cost:   3
+Type:   Artifact
+S/R:    C17-U
+As Herald's Horn enters the battlefield, choose a creature type.
+Creature spells you cast of the chosen type cost {1} less to cast.
+At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.
+
 Name:   Herbal Poultice
 Cost:   0
 Type:   Artifact
@@ -2175,7 +2218,7 @@ Whenever Hero of Oxid Ridge attacks, creatures with power 1 or less can't block 
 Name:   Hero's Blade
 Cost:   2
 Type:   Artifact — Equipment
-S/R:    FRF-U
+S/R:    FRF-U, C17-U
 Equipped creature gets +3/+2.
 Whenever a legendary creature enters the battlefield under your control, you may attach Hero's Blade to it.
 Equip {4}
@@ -2453,7 +2496,7 @@ Each creature you control can block an additional creature each combat.
 
 Name:   High Market
 Type:   Land
-S/R:    MM-R, C15-R, V12-M
+S/R:    MM-R, C15-R, CMA-R, V12-M
 {T}: Add {C} to your mana pool.
 {T}, Sacrifice a creature: You gain 1 life.
 
@@ -2884,6 +2927,14 @@ P/T:    3/3
 S/R:    US-C, S99-C, 7E-C, 9ED-C
 Whenever Hollow Dogs attacks, it gets +2/+0 until end of turn.
 
+Name:   Hollow One
+Cost:   5
+Type:   Artifact Creature — Golem
+P/T:    4/4
+S/R:    HOU-R
+Hollow One costs {2} less to cast for each card you've cycled or discarded this turn.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Hollow Specter
 Cost:   1BB
 Type:   Creature — Specter
@@ -3259,6 +3310,14 @@ Choose one —
 • Target player gains 2 life.
 • Destroy target Aura.
 
+Name:   Hope Tender
+Cost:   1G
+Type:   Creature — Human Druid
+P/T:    2/2
+S/R:    HOU-U
+{1}, {T}: Untap target land.
+{1}, {T}, Exert Hope Tender: Untap two target lands. (An exerted creature won't untap during your next untap step.)
+
 Name:   Hope and Glory
 Cost:   1W
 Type:   Instant
@@ -3543,6 +3602,12 @@ P/T:    1/3
 S/R:    US-C, 10E-C
 {U}: Untap Horseshoe Crab.
 
+Name:   Hostile Desert
+Type:   Land — Desert
+S/R:    HOU-R
+{T}: Add {C} to your mana pool.
+{2}, Exile a land card from your graveyard: Hostile Desert becomes a 3/4 Elemental creature until end of turn. It's still a land.
+
 Name:   Hostile Realm
 Cost:   2R
 Type:   Enchantment — Aura
@@ -3597,6 +3662,24 @@ P/T:    5/3
 S/R:    SOI-C
 Delirium — Hound of the Farbogs has menace as long as there are four or more card types among cards in your graveyard. (A creature with menace can't be blocked except by two or more creatures.)
 
+Name:   Hour of Devastation
+Cost:   3RR
+Type:   Sorcery
+S/R:    HOU-R
+All creatures lose indestructible until end of turn. Hour of Devastation deals 5 damage to each creature and each non-Bolas planeswalker.
+
+Name:   Hour of Eternity
+Cost:   XXUUU
+Type:   Sorcery
+S/R:    HOU-R
+Exile X target creature cards from your graveyard. For each card exiled this way, create a token that's a copy of that card, except it's a 4/4 black Zombie.
+
+Name:   Hour of Glory
+Cost:   3B
+Type:   Instant
+S/R:    HOU-R
+Exile target creature. If that creature was a God, its controller reveals his or her hand and exiles all cards from it with the same name as that creature.
+
 Name:   Hour of Need
 Cost:   2U
 Type:   Instant
@@ -3604,12 +3687,25 @@ S/R:    JOU-U
 Strive — Hour of Need costs {1}{U} more to cast for each target beyond the first.
 Exile any number of target creatures. For each creature exiled this way, its controller creates a 4/4 blue Sphinx creature token with flying.
 
+Name:   Hour of Promise
+Cost:   4G
+Type:   Sorcery
+S/R:    HOU-R
+Search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library. Then if you control three or more Deserts, create two 2/2 black Zombie creature tokens.
+
 Name:   Hour of Reckoning
 Cost:   4WWW
 Type:   Sorcery
 S/R:    RAV-R, CMD-R
 Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
 Destroy all nontoken creatures.
+
+Name:   Hour of Revelation
+Cost:   3WWW
+Type:   Sorcery
+S/R:    HOU-R
+Hour of Revelation costs {3} less to cast if there are ten or more nonland permanents on the battlefield.
+Destroy all nonland permanents.
 
 Name:   Hover Barrier
 Cost:   2U
@@ -3924,6 +4020,15 @@ Type:   Instant
 S/R:    AeR-U
 Hungry Flames deals 3 damage to target creature and 2 damage to target player.
 
+Name:   Hungry Lynx
+Cost:   1G
+Type:   Creature — Cat
+P/T:    2/2
+S/R:    C17-R
+Cats you control have protection from Rats. (They can't be blocked, targeted, or dealt damage by Rats.)
+At the beginning of your end step, target opponent creates a 1/1 black Rat creature token with deathtouch.
+Whenever a Rat dies, put a +1/+1 counter on each Cat you control.
+
 Name:   Hungry Mist
 Cost:   2GG
 Type:   Creature — Elemental
@@ -4041,7 +4146,7 @@ Choose target creature you control. Whenever that creature deals combat damage t
 Name:   Hunter's Prowess
 Cost:   4G
 Type:   Sorcery
-S/R:    BNG-R
+S/R:    BNG-R, E01-R, C17-R
 Until end of turn, target creature gets +3/+3 and gains trample and "Whenever this creature deals combat damage to a player, draw that many cards."
 
 Name:   Hunters' Feast
@@ -4096,7 +4201,7 @@ Storm (When you cast this spell, copy it for each spell cast before it this turn
 Name:   Hunting Triad
 Cost:   3G
 Type:   Tribal Sorcery — Elf
-S/R:    MOR-U, C14-U
+S/R:    MOR-U, C14-U, CMA-U
 Create three 1/1 green Elf Warrior creature tokens.
 Reinforce 3—{3}{G} ({3}{G}, Discard this card: Put three +1/+1 counters on target creature.)
 

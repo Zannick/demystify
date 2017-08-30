@@ -27,6 +27,12 @@ P/T:    2/2
 S/R:    M12-R, C13-R, C15-R
 {U}, {T}: Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.
 
+Name:   Jace's Defeat
+Cost:   1U
+Type:   Instant
+S/R:    HOU-U
+Counter target blue spell. If it was a Jace planeswalker spell, scry 2.
+
 Name:   Jace's Erasure
 Cost:   1U
 Type:   Enchantment
@@ -309,7 +315,7 @@ Name:   Jarad, Golgari Lich Lord
 Cost:   BBGG
 Type:   Legendary Creature — Zombie Elf
 P/T:    2/2
-S/R:    RTR-M, C15-M, DDJ-M
+S/R:    RTR-M, C15-M, CMA-M, DDJ-M
 Jarad, Golgari Lich Lord gets +1/+1 for each creature card in your graveyard.
 {1}{B}{G}, Sacrifice another creature: Each opponent loses life equal to the sacrificed creature's power.
 Sacrifice a Swamp and a Forest: Return Jarad from your graveyard to your hand.
@@ -327,7 +333,7 @@ Name:   Jareth, Leonine Titan
 Cost:   3WWW
 Type:   Legendary Creature — Cat Giant
 P/T:    4/7
-S/R:    ONS-R, C15-R, EMA-R, VMA-R
+S/R:    ONS-R, C15-R, EMA-R, C17-R, VMA-R
 Whenever Jareth, Leonine Titan blocks, it gets +7/+7 until end of turn.
 {W}: Jareth gains protection from the color of your choice until end of turn.
 
@@ -376,7 +382,7 @@ Name:   Jazal Goldmane
 Cost:   2WW
 Type:   Legendary Creature — Cat Warrior
 P/T:    4/4
-S/R:    C14-M
+S/R:    C14-M, C17-M
 First strike
 {3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
 
@@ -390,7 +396,7 @@ Name:   Jedit Ojanen of Efrava
 Cost:   3GGG
 Type:   Legendary Creature — Cat Warrior
 P/T:    5/5
-S/R:    PLC-R
+S/R:    PLC-R, C17-R
 Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 Whenever Jedit Ojanen of Efrava attacks or blocks, create a 2/2 green Cat Warrior creature token with forestwalk.
 
@@ -860,7 +866,7 @@ Name:   Joraga Warcaller
 Cost:   G
 Type:   Creature — Elf Warrior
 P/T:    1/1
-S/R:    WWK-R, C14-R
+S/R:    WWK-R, C14-R, CMA-R
 Multikicker {1}{G} (You may pay an additional {1}{G} any number of times as you cast this spell.)
 Joraga Warcaller enters the battlefield with a +1/+1 counter on it for each time it was kicked.
 Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warcaller.
@@ -1056,14 +1062,14 @@ When Jungle Barrier enters the battlefield, draw a card.
 
 Name:   Jungle Basin
 Type:   Land
-S/R:    VI-U, C14-U
+S/R:    VI-U, C14-U, CMA-U
 Jungle Basin enters the battlefield tapped.
 When Jungle Basin enters the battlefield, sacrifice it unless you return an untapped Forest you control to its owner's hand.
 {T}: Add {C}{G} to your mana pool.
 
 Name:   Jungle Hollow
 Type:   Land
-S/R:    KTK-C, FRF-C, C15-C, EMA-C, C16-C
+S/R:    KTK-C, FRF-C, C15-C, EMA-C, C16-C, CMA-C
 Jungle Hollow enters the battlefield tapped.
 When Jungle Hollow enters the battlefield, you gain 1 life.
 {T}: Add {B} or {G} to your mana pool.
@@ -1085,7 +1091,7 @@ Sacrifice a token named Wood: Add {R} to your mana pool.
 
 Name:   Jungle Shrine
 Type:   Land
-S/R:    ALA-U, C13-U, C16-U, MM3-U, DDH-U
+S/R:    ALA-U, C13-U, C16-U, MM3-U, C17-U, DDH-U
 Jungle Shrine enters the battlefield tapped.
 {T}: Add {R}, {G}, or {W} to your mana pool.
 
@@ -1239,7 +1245,7 @@ Flying
 
 Name:   Jwar Isle Refuge
 Type:   Land
-S/R:    ZEN-U, CMD-U, PC2-U, C13-U, PCA-U
+S/R:    ZEN-U, CMD-U, PC2-U, C13-U, PCA-U, C17-U
 Jwar Isle Refuge enters the battlefield tapped.
 When Jwar Isle Refuge enters the battlefield, you gain 1 life.
 {T}: Add {U} or {B} to your mana pool.

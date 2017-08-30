@@ -105,7 +105,7 @@ Whenever a nontoken creature enters the battlefield under an opponent's control,
 
 Name:   Faerie Conclave
 Type:   Land
-S/R:    UL-U, 10E-U, C13-U
+S/R:    UL-U, 10E-U, C13-U, CMA-U
 Faerie Conclave enters the battlefield tapped.
 {T}: Add {U} to your mana pool.
 {1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.
@@ -325,7 +325,7 @@ Name:   Falkenrath Noble
 Cost:   3B
 Type:   Creature — Vampire
 P/T:    2/2
-S/R:    ISD-U, MM3-C, DDQ-U
+S/R:    ISD-U, MM3-C, C17-C, DDQ-U
 Flying
 Whenever Falkenrath Noble or another creature dies, target player loses 1 life and you gain 1 life.
 
@@ -373,7 +373,7 @@ Name:   Fallen Angel
 Cost:   3BB
 Type:   Creature — Angel
 P/T:    3/3
-S/R:    LE-U, CH-U, 5E-U, 6E-R, 7E-R, 8ED-R, CMD-R, DDC-R
+S/R:    LE-U, CH-U, 5E-U, 6E-R, 7E-R, 8ED-R, CMD-R, CMA-R, DDC-R
 Flying
 Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.
 
@@ -505,6 +505,15 @@ Cost:   1R
 Type:   Instant
 S/R:    US-C, VMA-C
 Creatures without flying can't block this turn.
+
+Name:   Fame
+Cost:   1R
+Type:   Sorcery
+M-type: Split
+M-card: Claim
+S/R:    HOU-U
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Target creature gets +2/+0 and gains haste until end of turn.
 
 Name:   Familiar Ground
 Cost:   2G
@@ -659,8 +668,16 @@ Name:   Farhaven Elf
 Cost:   2G
 Type:   Creature — Elf Druid
 P/T:    1/1
-S/R:    SHM-C, C13-C, C14-C
+S/R:    SHM-C, C13-C, C14-C, CMA-C
 When Farhaven Elf enters the battlefield, you may search your library for a basic land card and put it onto the battlefield tapped. If you do, shuffle your library.
+
+Name:   Farm
+Cost:   2W
+Type:   Instant
+M-type: Split
+M-card: Market
+S/R:    HOU-U
+Destroy target attacking or blocking creature.
 
 Name:   Farmstead
 Cost:   WWW
@@ -693,7 +710,7 @@ S/R:    FE-U
 Name:   Farseek
 Cost:   1G
 Type:   Sorcery
-S/R:    RAV-C, M13-C, C16-C
+S/R:    RAV-C, M13-C, C16-C, C17-C
 Search your library for a Plains, Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.
 
 Name:   Farsight Mask
@@ -1183,13 +1200,13 @@ Whenever Fell Shepherd deals combat damage to a player, you may return to your h
 Name:   Fell the Mighty
 Cost:   4W
 Type:   Sorcery
-S/R:    C14-R
+S/R:    C14-R, C17-R
 Destroy all creatures with power greater than target creature's power.
 
 Name:   Fellwar Stone
 Cost:   2
 Type:   Artifact
-S/R:    DK-U, 4E-U, 5E-U, 9ED-U, CMD-U, C15-U, C16-U, ME3-C
+S/R:    DK-U, 4E-U, 5E-U, 9ED-U, CMD-U, C15-U, C16-U, C17-U, ME3-C
 {T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
 
 Name:   Femeref Archers
@@ -1261,7 +1278,7 @@ Name:   Fencing Ace
 Cost:   1W
 Type:   Creature — Human Soldier
 P/T:    1/1
-S/R:    RTR-U, DDL-U
+S/R:    RTR-U, E01-U, DDL-U
 Double strike (This creature deals both first-strike and regular combat damage.)
 
 Name:   Fend Off
@@ -1340,6 +1357,13 @@ Cost:   3RRR
 Type:   Sorcery
 S/R:    SOK-U
 Create three 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.
+
+Name:   Feral Prowler
+Cost:   1G
+Type:   Creature — Cat
+P/T:    1/3
+S/R:    HOU-C
+When Feral Prowler dies, draw a card.
 
 Name:   Feral Ridgewolf
 Cost:   2R
@@ -1430,7 +1454,7 @@ Name:   Fertilid
 Cost:   2G
 Type:   Creature — Elemental
 P/T:    0/0
-S/R:    MOR-C, HOP-C, ARC-C, CMD-C, DDR-C
+S/R:    MOR-C, HOP-C, ARC-C, CMD-C, E01-C, DDR-C
 Fertilid enters the battlefield with two +1/+1 counters on it.
 {1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches his or her library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles his or her library.
 
@@ -1454,6 +1478,14 @@ Type:   Instant
 S/R:    OD-U
 Counter target spell.
 Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+
+Name:   Fervent Paincaster
+Cost:   2R
+Type:   Creature — Human Wizard
+P/T:    3/1
+S/R:    HOU-U
+{T}: Fervent Paincaster deals 1 damage to target player.
+{T}, Exert Fervent Paincaster: It deals 1 damage to target creature. (An exerted creature won't untap during your next untap step.)
 
 Name:   Fervor
 Cost:   2R
@@ -1699,7 +1731,7 @@ Name:   Fiend Hunter
 Cost:   1WW
 Type:   Creature — Human Cleric
 P/T:    1/3
-S/R:    ISD-U, C13-U, DDK-U, DDQ-U
+S/R:    ISD-U, C13-U, CMA-U, DDK-U, DDQ-U
 When Fiend Hunter enters the battlefield, you may exile another target creature.
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 
@@ -1716,7 +1748,7 @@ Name:   Fiendslayer Paladin
 Cost:   1WW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    M14-R
+S/R:    M14-R, E01-R
 First strike (This creature deals combat damage before creatures without first strike.)
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Fiendslayer Paladin can't be the target of black or red spells your opponents control.
@@ -1759,7 +1791,7 @@ Choose three. You may choose the same mode more than once.
 Name:   Fiery Fall
 Cost:   5R
 Type:   Instant
-S/R:    CON-C, PC2-C, MMA-C, MM2-C, CN2-C, PCA-C, DDG-C, DDN-C
+S/R:    CON-C, PC2-C, MMA-C, MM2-C, CN2-C, PCA-C, E01-C, DDG-C, DDN-C
 Fiery Fall deals 5 damage to target creature.
 Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
 
@@ -2147,6 +2179,13 @@ S/R:    OD-C, EMA-C, DD2-C, DDS-C
 Firebolt deals 2 damage to target creature or player.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
+Name:   Firebrand Archer
+Cost:   1R
+Type:   Creature — Human Archer
+P/T:    2/1
+S/R:    HOU-C
+Whenever you cast a noncreature spell, Firebrand Archer deals 1 damage to each opponent.
+
 Name:   Firebrand Ranger
 Cost:   1R
 Type:   Creature — Human Soldier
@@ -2383,7 +2422,7 @@ Choose one or both —
 Name:   Fist of Suns
 Cost:   3
 Type:   Artifact
-S/R:    5DN-R
+S/R:    5DN-R, C17-R
 You may pay {W}{U}{B}{R}{G} rather than pay the mana cost for spells that you cast.
 
 Name:   Fistful of Force
@@ -2722,7 +2761,7 @@ Name:   Flametongue Kavu
 Cost:   3R
 Type:   Creature — Kavu
 P/T:    4/2
-S/R:    PS-U, HOP-U, CMD-U, C14-U, VMA-U, DD2-U
+S/R:    PS-U, HOP-U, CMD-U, C14-U, E01-U, VMA-U, DD2-U
 When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.
 
 Name:   Flamewake Phoenix
@@ -2954,7 +2993,7 @@ Name:   Fleecemane Lion
 Cost:   GW
 Type:   Creature — Cat
 P/T:    3/3
-S/R:    THS-R
+S/R:    THS-R, C17-R
 {3}{G}{W}: Monstrosity 1. (If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 As long as Fleecemane Lion is monstrous, it has hexproof and indestructible.
 
@@ -3134,7 +3173,7 @@ Exile target nontoken permanent, then return it to the battlefield under its own
 Name:   Flickerform
 Cost:   1W
 Type:   Enchantment — Aura
-S/R:    RAV-R, C13-R
+S/R:    RAV-R, C13-R, CMA-R
 Enchant creature
 {2}{W}{W}: Exile enchanted creature and all Auras attached to it. At the beginning of the next end step, return that card to the battlefield under its owner's control. If you do, return the other cards exiled this way to the battlefield under their owners' control attached to that creature.
 
@@ -3159,7 +3198,7 @@ Name:   Flickerwisp
 Cost:   1WW
 Type:   Creature — Elemental
 P/T:    3/1
-S/R:    EVE-U, MMA-U, C13-U, C14-U, MM3-U
+S/R:    EVE-U, MMA-U, C13-U, C14-U, MM3-U, CMA-U, E01-U
 Flying
 When Flickerwisp enters the battlefield, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 
@@ -3761,7 +3800,7 @@ S/R:    MI-U, 8ED-U
 Name:   Forbid
 Cost:   1UU
 Type:   Instant
-S/R:    EX-U
+S/R:    EX-U, MPS_AKH-S
 Buyback—Discard two cards. (You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.)
 Counter target spell.
 
@@ -3937,7 +3976,7 @@ Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Forest
 Type:   Basic Land — Forest
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, EVG-L, UG-C, UNH-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, EVG-L, UG-C, UNH-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
 
 Name:   Forest Bear
 Cost:   1G
@@ -3997,13 +4036,13 @@ Name:   Forgotten Ancient
 Cost:   3G
 Type:   Creature — Elemental
 P/T:    0/3
-S/R:    SCG-R, HOP-R, ARC-R, C15-R, CN2-R, C16-R
+S/R:    SCG-R, HOP-R, ARC-R, C15-R, CN2-R, C16-R, E01-R
 Whenever a player casts a spell, you may put a +1/+1 counter on Forgotten Ancient.
 At the beginning of your upkeep, you may move any number of +1/+1 counters from Forgotten Ancient onto other creatures.
 
 Name:   Forgotten Cave
 Type:   Land
-S/R:    ONS-C, CMD-C, C13-C, C14-C, C15-C, EVG-C, VMA-C, DDJ-C
+S/R:    ONS-C, CMD-C, C13-C, C14-C, C15-C, CMA-C, EVG-C, VMA-C, DDJ-C
 Forgotten Cave enters the battlefield tapped.
 {T}: Add {R} to your mana pool.
 Cycling {R} ({R}, Discard this card: Draw a card.)
@@ -4135,7 +4174,7 @@ When Forsaken Drifters dies, put the top four cards of your library into your gr
 
 Name:   Forsaken Sanctuary
 Type:   Land
-S/R:    SOI-U, AKH-C
+S/R:    SOI-U, AKH-C, C17-U
 Forsaken Sanctuary enters the battlefield tapped.
 {T}: Add {W} or {B} to your mana pool.
 
@@ -4203,6 +4242,12 @@ S/R:    KLD-C
 Choose one or both —
 • Return target artifact card from your graveyard to your hand.
 • Return target creature card from your graveyard to your hand.
+
+Name:   Fortunate Few
+Cost:   3WW
+Type:   Sorcery
+S/R:    C17-R
+Choose a nonland permanent you don't control, then each other player chooses a nonland permanent he or she doesn't control that hasn't been chosen this way. Destroy all other nonland permanents.
 
 Name:   Fortune Thief
 Cost:   4R
@@ -4387,6 +4432,12 @@ P/T:    3/6
 S/R:    SHM-C
 {(r/g)}{(r/g)}{(r/g)}: Foxfire Oak gets +3/+0 until end of turn.
 
+Name:   Fractured Identity
+Cost:   3WU
+Type:   Sorcery
+S/R:    C17-R
+Exile target nonland permanent. Each player other than its controller creates a token that's a copy of it.
+
 Name:   Fractured Loyalty
 Cost:   1R
 Type:   Enchantment — Aura
@@ -4439,6 +4490,13 @@ Cost:   2U
 Type:   Instant
 S/R:    UL-C, VMA-C
 Draw two cards, then discard two cards. Untap up to three lands.
+
+Name:   Fraying Sanity
+Cost:   2U
+Type:   Enchantment — Aura Curse
+S/R:    HOU-R
+Enchant player
+At the beginning of each end step, enchanted player puts the top X cards of his or her library into his or her graveyard, where X is the number of cards put into that graveyard from anywhere this turn.
 
 Name:   Frazzle
 Cost:   3U
@@ -4537,7 +4595,7 @@ All Sliver creatures have frenzy 1. (Whenever a Sliver attacks and isn't blocked
 Name:   Fresh Meat
 Cost:   3G
 Type:   Instant
-S/R:    NPH-R, C14-R
+S/R:    NPH-R, C14-R, CMA-R
 Create a 3/3 green Beast creature token for each creature put into your graveyard from the battlefield this turn.
 
 Name:   Fresh Volunteers
@@ -4586,7 +4644,7 @@ Name:   Freyalise, Llanowar's Fury
 Cost:   3GG
 Type:   Planeswalker — Freyalise
 P/T:    3
-S/R:    C14-M
+S/R:    C14-M, CMA-M
 [+2]: Create a 1/1 green Elf Druid creature token with "{T}: Add {G} to your mana pool."
 [-2]: Destroy target artifact or enchantment.
 [-6]: Draw a card for each green creature you control.
@@ -4626,6 +4684,13 @@ Type:   Creature — Homunculus
 P/T:    1/3
 S/R:    GTC-C
 {1}{G}: Frilled Oculus gets +2/+2 until end of turn. Activate this ability only once each turn.
+
+Name:   Frilled Sandwalla
+Cost:   G
+Type:   Creature — Lizard
+P/T:    1/1
+S/R:    HOU-C
+{1}{G}: Frilled Sandwalla gets +2/+2 until end of turn. Activate this ability only once each turn.
 
 Name:   Frog Tongue
 Cost:   G
@@ -4673,7 +4738,7 @@ Destroy all nonbasic lands. For each land destroyed this way, its controller may
 
 Name:   Frontier Bivouac
 Type:   Land
-S/R:    KTK-U, C16-U
+S/R:    KTK-U, C16-U, C17-U
 Frontier Bivouac enters the battlefield tapped.
 {T}: Add {G}, {U}, or {R} to your mana pool.
 
@@ -4694,10 +4759,18 @@ Ferocious — Frontier Mastodon enters the battlefield with a +1/+1 counter on i
 Name:   Frontier Siege
 Cost:   3G
 Type:   Enchantment
-S/R:    FRF-R
+S/R:    FRF-R, C17-R
 As Frontier Siege enters the battlefield, choose Khans or Dragons.
 • Khans — At the beginning of each of your main phases, add {G}{G} to your mana pool.
 • Dragons — Whenever a creature with flying enters the battlefield under your control, you may have it fight target creature you don't control.
+
+Name:   Frontline Devastator
+Cost:   3R
+Type:   Creature — Zombie Minotaur Warrior
+P/T:    3/3
+S/R:    HOU-C
+Afflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)
+{1}{R}: Frontline Devastator gets +1/+0 until end of turn.
 
 Name:   Frontline Medic
 Cost:   2W
@@ -5068,7 +5141,7 @@ Name:   Furnace Whelp
 Cost:   2RR
 Type:   Creature — Dragon
 P/T:    2/2
-S/R:    5DN-U, 10E-U, ARC-U, CMD-U, M13-U, M15-U, DD2-U
+S/R:    5DN-U, 10E-U, ARC-U, CMD-U, M13-U, M15-U, CMA-U, DD2-U
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 {R}: Furnace Whelp gets +1/+0 until end of turn.
 

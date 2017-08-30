@@ -830,7 +830,7 @@ Enchanted creature gets +2/+2 and has reach.
 Name:   Leafdrake Roost
 Cost:   3GU
 Type:   Enchantment — Aura
-S/R:    DIS-U, C13-U
+S/R:    DIS-U, C13-U, CMA-U
 Enchant land
 Enchanted land has "{G}{U}, {T}: Create a 2/2 green and blue Drake creature token with flying."
 
@@ -887,6 +887,14 @@ Cost:   GGG
 Type:   Creature — Beast
 P/T:    4/5
 S/R:    WWK-U
+
+Name:   Leave
+Cost:   1W
+Type:   Instant
+M-type: Split
+M-card: Chance
+S/R:    HOU-R
+Return any number of target permanents you own to your hand.
 
 Name:   Leave No Trace
 Cost:   1W
@@ -1025,7 +1033,7 @@ Name:   Leonin Arbiter
 Cost:   1W
 Type:   Creature — Cat Cleric
 P/T:    2/2
-S/R:    SOM-R
+S/R:    SOM-R, C17-R
 Players can't search libraries. Any player may pay {2} for that player to ignore this effect until end of turn.
 
 Name:   Leonin Armorguard
@@ -1046,7 +1054,7 @@ Whenever you cast a spell, you may untap Leonin Battlemage.
 Name:   Leonin Bladetrap
 Cost:   3
 Type:   Artifact
-S/R:    MRD-U, C13-U
+S/R:    MRD-U, C13-U, CMA-U
 Flash (You may cast this spell any time you could cast an instant.)
 {2}, Sacrifice Leonin Bladetrap: Leonin Bladetrap deals 2 damage to each attacking creature without flying.
 
@@ -1082,7 +1090,7 @@ Name:   Leonin Relic-Warder
 Cost:   WW
 Type:   Creature — Cat Cleric
 P/T:    2/2
-S/R:    MBS-U
+S/R:    MBS-U, C17-U
 When Leonin Relic-Warder enters the battlefield, you may exile target artifact or enchantment.
 When Leonin Relic-Warder leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 
@@ -1097,7 +1105,7 @@ Name:   Leonin Shikari
 Cost:   1W
 Type:   Creature — Cat Soldier
 P/T:    2/2
-S/R:    DST-R
+S/R:    DST-R, C17-R
 You may activate equip abilities any time you could cast an instant.
 
 Name:   Leonin Skyhunter
@@ -1170,6 +1178,13 @@ Type:   Creature — Werewolf
 P/T:    2/4
 S/R:    LE-U, ME3-C
 {B}: If Lesser Werewolf's power is 1 or more, it gets -1/-0 until end of turn and put a -0/-1 counter on target creature blocking or blocked by Lesser Werewolf. Activate this ability only during the declare blockers step.
+
+Name:   Lethal Sting
+Cost:   2B
+Type:   Sorcery
+S/R:    HOU-C
+As an additional cost to cast Lethal Sting, put a -1/-1 counter on a creature you control.
+Destroy target creature.
 
 Name:   Lethal Vapors
 Cost:   2BB
@@ -1391,6 +1406,15 @@ S/R:    VI-R
 If damage would be dealt to Lichenthrope, put that many -1/-1 counters on it instead.
 At the beginning of your upkeep, remove a -1/-1 counter from Lichenthrope.
 
+Name:   Licia, Sanguine Tribune
+Cost:   5RWB
+Type:   Legendary Creature — Vampire Soldier
+P/T:    4/4
+S/R:    C17-M
+Licia, Sanguine Tribune costs {1} less to cast for each 1 life you gained this turn.
+First strike, lifelink
+Pay 5 life: Put three +1/+1 counters on Licia. Activate this ability only during your turn and only once each turn.
+
 Name:   Liege of the Axe
 Cost:   3W
 Type:   Creature — Human Soldier
@@ -1459,6 +1483,12 @@ Type:   Artifact
 S/R:    LE-U, ME3-R
 Sacrifice a creature: You gain life equal to the sacrificed creature's toughness. Activate this ability only during your upkeep.
 
+Name:   Life Goes On
+Cost:   G
+Type:   Instant
+S/R:    HOU-C
+You gain 4 life. If a creature died this turn, you gain 8 life instead.
+
 Name:   Life Matrix
 Cost:   4
 Type:   Artifact
@@ -1509,7 +1539,7 @@ Name:   Lifeblood Hydra
 Cost:   XGGG
 Type:   Creature — Hydra
 P/T:    0/0
-S/R:    C14-R
+S/R:    C14-R, CMA-R
 Trample
 Lifeblood Hydra enters the battlefield with X +1/+1 counters on it.
 When Lifeblood Hydra dies, you gain life and draw cards equal to its power.
@@ -1658,7 +1688,7 @@ Name:   Lightkeeper of Emeria
 Cost:   3W
 Type:   Creature — Angel
 P/T:    2/4
-S/R:    WWK-U, CMD-U
+S/R:    WWK-U, CMD-U, CMA-U
 Multikicker {W} (You may pay an additional {W} any number of times as you cast this spell.)
 Flying
 When Lightkeeper of Emeria enters the battlefield, you gain 2 life for each time it was kicked.
@@ -1707,7 +1737,7 @@ Draw a card at the beginning of the next turn's upkeep.
 Name:   Lightning Bolt
 Cost:   R
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, M10-C, M11-C, MM2-U, MED-C, PD2-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, M10-C, M11-C, MM2-U, E01-U, MED-C, PD2-C
 Lightning Bolt deals 3 damage to target creature or player.
 
 Name:   Lightning Cloud
@@ -1764,7 +1794,7 @@ Haste (This creature can attack and {T} as soon as it comes under your control.)
 Name:   Lightning Greaves
 Cost:   2
 Type:   Artifact — Equipment
-S/R:    MRD-U, ARC-U, CMD-U, C15-U, MPS_KLD-S, C16-U, DDE-U
+S/R:    MRD-U, ARC-U, CMD-U, C15-U, MPS_KLD-S, C16-U, CMA-U, C17-U, DDE-U
 Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)
 Equip {0}
 
@@ -1895,7 +1925,7 @@ Name:   Lightwielder Paladin
 Cost:   3WW
 Type:   Creature — Human Knight
 P/T:    4/4
-S/R:    M10-R
+S/R:    M10-R, E01-R
 First strike (This creature deals combat damage before creatures without first strike.)
 Whenever Lightwielder Paladin deals combat damage to a player, you may exile target black or red permanent that player controls.
 
@@ -1938,6 +1968,12 @@ Cost:   1B
 Type:   Enchantment
 S/R:    M11-U
 Whenever an opponent discards a card, that player loses 2 life.
+
+Name:   Liliana's Defeat
+Cost:   B
+Type:   Sorcery
+S/R:    HOU-U
+Destroy target black creature or black planeswalker. If that permanent was a Liliana planeswalker, her controller loses 3 life.
 
 Name:   Liliana's Elite
 Cost:   2B
@@ -2429,7 +2465,7 @@ Name:   Llanowar Elves
 Cost:   G
 Type:   Creature — Elf Druid
 P/T:    1/1
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, S00-C, 7E-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, C14-C, EMA-C, EVG-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, S00-C, 7E-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, C14-C, EMA-C, CMA-C, EVG-C
 {T}: Add {G} to your mana pool.
 
 Name:   Llanowar Empath
@@ -2780,7 +2816,7 @@ Name:   Lord of Extinction
 Cost:   3BG
 Type:   Creature — Elemental
 P/T:    */*
-S/R:    ARB-M
+S/R:    ARB-M, MPS_AKH-S
 Lord of Extinction's power and toughness are each equal to the number of cards in all graveyards.
 
 Name:   Lord of Lineage
@@ -2874,7 +2910,7 @@ Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl.
 Name:   Loreseeker's Stone
 Cost:   6
 Type:   Artifact
-S/R:    C14-U
+S/R:    C14-U, CMA-U
 {3}, {T}: Draw three cards. This ability costs {1} more to activate for each card in your hand.
 
 Name:   Lorthos, the Tidemaker
@@ -2976,7 +3012,7 @@ Name:   Lotleth Troll
 Cost:   BG
 Type:   Creature — Zombie Troll
 P/T:    2/1
-S/R:    RTR-R, C15-R
+S/R:    RTR-R, C15-R, CMA-R
 Trample
 Discard a creature card: Put a +1/+1 counter on Lotleth Troll.
 {B}: Regenerate Lotleth Troll.
@@ -3154,7 +3190,7 @@ Vigilance
 Name:   Loxodon Warhammer
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    MRD-U, 9ED-R, 10E-R, HOP-R, C14-R, C15-R, C16-U, DDG-R
+S/R:    MRD-U, 9ED-R, 10E-R, HOP-R, C14-R, C15-R, C16-U, C17-U, DDG-R
 Equipped creature gets +3/+0 and has trample and lifelink.
 Equip {3}
 
@@ -3229,7 +3265,7 @@ Name:   Lu Xun, Scholar General
 Cost:   2UU
 Type:   Legendary Creature — Human Soldier
 P/T:    1/3
-S/R:    P3K-R, C13-R, ME3-U
+S/R:    P3K-R, C13-R, CMA-R, ME3-U
 Horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 Whenever Lu Xun, Scholar General deals damage to an opponent, you may draw a card.
 
@@ -3454,6 +3490,13 @@ P/T:    5/5
 S/R:    EMN-R
 Lupine Prototype can't attack or block unless a player has no cards in hand.
 
+Name:   Lurching Rotbeast
+Cost:   3B
+Type:   Creature — Zombie Beast
+P/T:    4/2
+S/R:    HOU-C
+Cycling {B} ({B}, Discard this card: Draw a card.)
+
 Name:   Lure
 Cost:   1GG
 Type:   Enchantment — Aura
@@ -3614,7 +3657,7 @@ Name:   Lys Alana Huntmaster
 Cost:   2GG
 Type:   Creature — Elf Warrior
 P/T:    3/3
-S/R:    LRW-C, C14-C, EMA-C, EVG-C
+S/R:    LRW-C, C14-C, EMA-C, CMA-C, EVG-C
 Whenever you cast an Elf spell, you may create a 1/1 green Elf Warrior creature token.
 
 Name:   Lys Alana Scarblade

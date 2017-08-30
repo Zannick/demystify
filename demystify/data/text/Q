@@ -39,9 +39,17 @@ Name:   Qasali Pridemage
 Cost:   GW
 Type:   Creature — Cat Wizard
 P/T:    2/2
-S/R:    ARB-C, DDH-C
+S/R:    ARB-C, C17-C, DDH-C
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
 {1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.
+
+Name:   Qasali Slingers
+Cost:   4G
+Type:   Creature — Cat Warrior
+P/T:    3/5
+S/R:    C17-R
+Reach
+Whenever Qasali Slingers or another Cat enters the battlefield under your control, you may destroy target artifact or enchantment.
 
 Name:   Quag Sickness
 Cost:   2B
@@ -94,6 +102,13 @@ Type:   Enchantment
 S/R:    BFZ-M
 Quarantine Field enters the battlefield with X isolation counters on it.
 When Quarantine Field enters the battlefield, for each isolation counter on it, exile up to one target nonland permanent an opponent controls until Quarantine Field leaves the battlefield.
+
+Name:   Quarry Beetle
+Cost:   4G
+Type:   Creature — Insect
+P/T:    4/5
+S/R:    HOU-U
+When Quarry Beetle enters the battlefield, you may return target land card from your graveyard to the battlefield.
 
 Name:   Quarry Colossus
 Cost:   5WW
@@ -371,7 +386,7 @@ Search target player's library for up to three cards with flashback and put them
 Name:   Quietus Spike
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    ALA-R, PC2-R, PCA-R
+S/R:    ALA-R, PC2-R, PCA-R, C17-R
 Equipped creature has deathtouch.
 Whenever equipped creature deals combat damage to a player, that player loses half his or her life, rounded up.
 Equip {3}

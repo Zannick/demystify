@@ -420,7 +420,7 @@ Name:   Caller of the Pack
 Cost:   5GG
 Type:   Creature — Beast
 P/T:    8/6
-S/R:    C15-U
+S/R:    C15-U, CMA-U
 Trample
 Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
 
@@ -736,7 +736,7 @@ S/R:    P1-R
 Name:   Capsize
 Cost:   1UU
 Type:   Instant
-S/R:    TE-C
+S/R:    TE-C, MPS_AKH-S
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Return target permanent to its owner's hand.
 
@@ -795,7 +795,7 @@ Name:   Captivating Vampire
 Cost:   1BB
 Type:   Creature — Vampire
 P/T:    2/2
-S/R:    M11-R
+S/R:    M11-R, C17-R
 Other Vampire creatures you control get +1/+1.
 Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.
 
@@ -1061,6 +1061,13 @@ Type:   Creature — Rat
 P/T:    2/1
 S/R:    TOR-C
 Whenever Carrion Rats attacks or blocks, any player may exile a card from his or her graveyard. If a player does, Carrion Rats assigns no combat damage this turn.
+
+Name:   Carrion Screecher
+Cost:   3B
+Type:   Creature — Zombie Bird
+P/T:    3/1
+S/R:    HOU-C
+Flying
 
 Name:   Carrion Thrash
 Cost:   2BRG
@@ -1460,7 +1467,7 @@ When a Vehicle you control attacks, exile enchanted creature.
 Name:   Cauldron Dance
 Cost:   4BR
 Type:   Instant
-S/R:    IN-U
+S/R:    IN-U, C17-U
 Cast Cauldron Dance only during combat.
 Return target creature card from your graveyard to the battlefield. That creature gains haste. Return it to your hand at the beginning of the next end step.
 You may put a creature card from your hand onto the battlefield. That creature gains haste. Its controller sacrifices it at the beginning of the next end step.
@@ -1888,7 +1895,7 @@ Name:   Centaur Vinecrasher
 Cost:   3G
 Type:   Creature — Plant Centaur
 P/T:    1/1
-S/R:    C15-R
+S/R:    C15-R, CMA-R
 Trample
 Centaur Vinecrasher enters the battlefield with a number of +1/+1 counters on it equal to the number of land cards in all graveyards.
 Whenever a land card is put into a graveyard from anywhere, you may pay {G}{G}. If you do, return Centaur Vinecrasher from your graveyard to your hand.
@@ -2290,9 +2297,17 @@ Name:   Champion of Stray Souls
 Cost:   4BB
 Type:   Creature — Skeleton Warrior
 P/T:    4/4
-S/R:    BNG-M, C15-M
+S/R:    BNG-M, C15-M, CMA-M
 {3}{B}{B}, {T}, Sacrifice X other creatures: Return X target creature cards from your graveyard to the battlefield.
 {5}{B}{B}: Put Champion of Stray Souls on top of your library from your graveyard.
+
+Name:   Champion of Wits
+Cost:   2U
+Type:   Creature — Naga Wizard
+P/T:    2/1
+S/R:    HOU-R
+When Champion of Wits enters the battlefield, you may draw cards equal to its power. If you do, discard two cards.
+Eternalize {5}{U}{U} ({5}{U}{U}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Naga Wizard with no mana cost. Eternalize only as a sorcery.)
 
 Name:   Champion of the Parish
 Cost:   W
@@ -2323,6 +2338,15 @@ Type:   Instant
 S/R:    P3K-U
 Cast Champion's Victory only during the declare attackers step and only if you've been attacked this step.
 Return target attacking creature to its owner's hand.
+
+Name:   Chance
+Cost:   3R
+Type:   Sorcery
+M-type: Split
+M-card: Leave
+S/R:    HOU-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Discard any number of cards, then draw that many cards.
 
 Name:   Chance Encounter
 Cost:   2RR
@@ -2397,6 +2421,12 @@ S/R:    LRW-R, M10-M, M11-M, DD2-M
 [+1]: Chandra Nalaar deals 1 damage to target player.
 [-8]: Chandra Nalaar deals 10 damage to target player and each creature he or she controls.
 
+Name:   Chandra's Defeat
+Cost:   R
+Type:   Instant
+S/R:    HOU-U
+Chandra's Defeat deals 5 damage to target red creature or red planeswalker. If that permanent is a Chandra planeswalker, you may discard a card. If you do, draw a card.
+
 Name:   Chandra's Fury
 Cost:   4R
 Type:   Instant
@@ -2412,14 +2442,14 @@ Target creature you control deals damage equal to its power to each other creatu
 Name:   Chandra's Outrage
 Cost:   2RR
 Type:   Instant
-S/R:    ARC-C, M11-C, M12-C, M14-C, MM3-C
+S/R:    ARC-C, M11-C, M12-C, M14-C, MM3-C, E01-C
 Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller.
 
 Name:   Chandra's Phoenix
 Cost:   1RR
 Type:   Creature — Phoenix
 P/T:    2/2
-S/R:    M12-R, M14-R
+S/R:    M12-R, M14-R, E01-R
 Flying
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 Whenever an opponent is dealt damage by a red instant or sorcery spell you control or by a red planeswalker you control, return Chandra's Phoenix from your graveyard to your hand.
@@ -2475,7 +2505,7 @@ Name:   Chandra, Pyromaster
 Cost:   2RR
 Type:   Planeswalker — Chandra
 P/T:    4
-S/R:    M14-M, M15-M
+S/R:    M14-M, M15-M, E01-M
 [+1]: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.
 [0]: Exile the top card of your library. You may play it this turn.
 [-7]: Exile the top ten cards of your library. Choose an instant or sorcery card exiled this way and copy it three times. You may cast the copies without paying their mana costs.
@@ -2633,6 +2663,13 @@ First strike
 At the beginning of your upkeep, target opponent gains control of Chaos Lord if the number of permanents is even.
 Chaos Lord can attack as though it had haste unless it entered the battlefield this turn.
 
+Name:   Chaos Maw
+Cost:   5RR
+Type:   Creature — Hellion
+P/T:    6/6
+S/R:    HOU-R
+When Chaos Maw enters the battlefield, it deals 3 damage to each other creature.
+
 Name:   Chaos Moon
 Cost:   3R
 Type:   Enchantment
@@ -2642,7 +2679,7 @@ At the beginning of each upkeep, count the number of permanents. If the number i
 Name:   Chaos Warp
 Cost:   2R
 Type:   Instant
-S/R:    CMD-R, C14-R, C16-R, VMA-R
+S/R:    CMD-R, C14-R, C16-R, C17-R, VMA-R
 The owner of target permanent shuffles it into his or her library, then reveals the top card of his or her library. If it's a permanent card, he or she puts it onto the battlefield.
 
 Name:   Chaoslace
@@ -3159,7 +3196,7 @@ Target opponent chooses a number. You may have that player lose that much life. 
 Name:   Choke
 Cost:   2G
 Type:   Enchantment
-S/R:    TE-U, 8ED-U
+S/R:    TE-U, 8ED-U, MPS_AKH-S
 Islands don't untap during their controllers' untap steps.
 
 Name:   Choked Estuary
@@ -3414,7 +3451,7 @@ Return target creature and target land to their owners' hands.
 
 Name:   Cinder Barrens
 Type:   Land
-S/R:    OGW-U, AKH-C
+S/R:    OGW-U, AKH-C, HOU-C, C17-U
 Cinder Barrens enters the battlefield tapped.
 {T}: Add {B} or {R} to your mana pool.
 
@@ -3739,6 +3776,14 @@ M-card: Homicidal Brute
 S/R:    ISD-U
 {T}: Draw a card, then discard a card. If a creature card is discarded this way, untap Civilized Scholar, then transform it.
 
+Name:   Claim
+Cost:   B
+Type:   Sorcery
+M-type: Split
+M-card: Fame
+S/R:    HOU-U
+Return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.
+
 Name:   Claim of Erebos
 Cost:   1B
 Type:   Enchantment — Aura
@@ -3837,7 +3882,7 @@ For each land, destroy that land unless any player pays 1 life.
 Name:   Cleansing Beam
 Cost:   4R
 Type:   Instant
-S/R:    RAV-U, CMD-U
+S/R:    RAV-U, CMD-U, CMA-U
 Radiance — Cleansing Beam deals 2 damage to target creature and each other creature that shares a color with it.
 
 Name:   Cleansing Meditation
@@ -4154,7 +4199,7 @@ You may have Clone enter the battlefield as a copy of any creature on the battle
 Name:   Clone Legion
 Cost:   7UU
 Type:   Sorcery
-S/R:    DTK-M
+S/R:    DTK-M, C17-M
 For each creature target player controls, create a token that's a copy of that creature.
 
 Name:   Clone Shell
@@ -4385,7 +4430,7 @@ Name:   Cloudthresher
 Cost:   2GGGG
 Type:   Creature — Elemental
 P/T:    7/7
-S/R:    LRW-R, C15-R, DDR-R
+S/R:    LRW-R, C15-R, CMA-R, DDR-R
 Flash
 Reach
 When Cloudthresher enters the battlefield, it deals 2 damage to each creature with flying and each player.
@@ -4843,7 +4888,7 @@ Domain — Creatures can't attack you unless their controller pays {X} for each 
 Name:   Collective Unconscious
 Cost:   4GG
 Type:   Sorcery
-S/R:    MM-R, 8ED-R, C14-R
+S/R:    MM-R, 8ED-R, C14-R, CMA-R
 Draw a card for each creature you control.
 
 Name:   Collective Voyage
@@ -4950,7 +4995,7 @@ When Combustible Gearhulk enters the battlefield, target opponent may have you d
 Name:   Comet Storm
 Cost:   XRR
 Type:   Instant
-S/R:    WWK-M, CMD-M, MM2-M, C15-M
+S/R:    WWK-M, CMD-M, MM2-M, C15-M, CMA-M, C17-M
 Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)
 Choose target creature or player, then choose another target creature or player for each time Comet Storm was kicked. Comet Storm deals X damage to each of them.
 
@@ -4968,7 +5013,7 @@ S/R:    C15-R
 
 Name:   Command Tower
 Type:   Land
-S/R:    CMD-C, C13-C, C15-C, C16-C
+S/R:    CMD-C, C13-C, C15-C, C16-C, CMA-C, C17-C
 {T}: Add to your mana pool one mana of any color in your commander's color identity.
 
 Name:   Command of Unsummoning
@@ -5010,7 +5055,7 @@ Enchanted creature has "At the beginning of your upkeep, create a 1/1 white Huma
 Name:   Commander's Sphere
 Cost:   3
 Type:   Artifact
-S/R:    C14-C, C16-C
+S/R:    C14-C, C16-C, CMA-C, C17-C
 {T}: Add to your mana pool one mana of any color in your commander's color identity.
 Sacrifice Commander's Sphere: Draw a card.
 
@@ -5147,7 +5192,7 @@ S/R:    TOR-U
 Name:   Compulsive Research
 Cost:   2U
 Type:   Sorcery
-S/R:    RAV-C, CNS-C, C14-C, MM3-U
+S/R:    RAV-C, CNS-C, C14-C, MM3-U, E01-C
 Target player draws three cards. Then that player discards two cards unless he or she discards a land card.
 
 Name:   Compulsory Rest
@@ -5236,7 +5281,7 @@ Metalcraft — If you control three or more artifacts, creatures that player con
 Name:   Condemn
 Cost:   W
 Type:   Instant
-S/R:    DIS-U, 10E-U, M11-U, C14-U, DDL-U
+S/R:    DIS-U, 10E-U, M11-U, C14-U, C17-U, DDL-U
 Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.
 
 Name:   Condescend
@@ -5339,7 +5384,7 @@ Whenever an artifact, creature, or enchantment enters the battlefield, its contr
 Name:   Congregate
 Cost:   3W
 Type:   Instant
-S/R:    US-C, HOP-C, CMD-C, M14-U, M15-U
+S/R:    US-C, HOP-C, CMD-C, M14-U, M15-U, CMA-C
 Target player gains 2 life for each creature on the battlefield.
 
 Name:   Congregation at Dawn
@@ -5377,7 +5422,7 @@ S/R:    5DN-C
 Name:   Conjurer's Closet
 Cost:   5
 Type:   Artifact
-S/R:    AVR-R, C13-R
+S/R:    AVR-R, C13-R, CMA-R
 At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control.
 
 Name:   Conquer
@@ -5437,6 +5482,14 @@ Cost:   4
 Type:   Artifact
 S/R:    A-U, B-U, U-U, RV-U, 4E-U
 {3}, {T}: Prevent the next 2 damage that would be dealt to you this turn.
+
+Name:   Consign
+Cost:   1U
+Type:   Instant
+M-type: Split
+M-card: Oblivion
+S/R:    HOU-U
+Return target nonland permanent to its owner's hand.
 
 Name:   Consign to Dream
 Cost:   2U
@@ -5601,7 +5654,7 @@ Choose one —
 Name:   Consuming Vapors
 Cost:   3B
 Type:   Sorcery
-S/R:    ROE-R
+S/R:    ROE-R, C17-R
 Target player sacrifices a creature. You gain life equal to that creature's toughness.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 
@@ -5735,7 +5788,7 @@ Draw a card.
 Name:   Control Magic
 Cost:   2UU
 Type:   Enchantment — Aura
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, C13-U, EMA-R, VMA-R, DDM-U, ME4-R
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, C13-U, EMA-R, CMA-U, VMA-R, DDM-U, ME4-R
 Enchant creature
 You control enchanted creature.
 
@@ -5832,6 +5885,15 @@ S/R:    ST-U
 {R}, {T}: Convulsing Licid loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {R} to end this effect.
 Enchanted creature can't block.
 
+Name:   Cooperate
+Cost:   2U
+Type:   Instant
+M-type: Split
+M-card: Refuse
+S/R:    HOU-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Copy target instant or sorcery spell. You may choose new targets for the copy.
+
 Name:   Cooperation
 Cost:   2W
 Type:   Enchantment — Aura
@@ -5842,7 +5904,7 @@ Enchanted creature has banding. (Any creatures with banding, and up to one witho
 Name:   Coordinated Assault
 Cost:   R
 Type:   Instant
-S/R:    THS-U, CN2-U
+S/R:    THS-U, CN2-U, E01-U
 Up to two target creatures each get +1/+0 and gain first strike until end of turn.
 
 Name:   Coordinated Barrage
@@ -6025,7 +6087,7 @@ Name:   Corpse Augur
 Cost:   3B
 Type:   Creature — Zombie Wizard
 P/T:    4/2
-S/R:    C15-U
+S/R:    C15-U, CMA-U, C17-U
 When Corpse Augur dies, you draw X cards and you lose X life, where X is the number of creature cards in target player's graveyard.
 
 Name:   Corpse Blockade
@@ -6342,6 +6404,13 @@ Type:   Instant
 S/R:    CON-U, DDH-U
 Counter target noncreature spell. Its controller loses 2 life.
 
+Name:   Countervailing Winds
+Cost:   2U
+Type:   Instant
+S/R:    HOU-C
+Counter target spell unless its controller pays {1} for each card in your graveyard.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Countless Gears Renegade
 Cost:   1W
 Type:   Creature — Dwarf Artificer
@@ -6568,7 +6637,7 @@ Sacrifice Crackling Club: Crackling Club deals 1 damage to target creature.
 Name:   Crackling Doom
 Cost:   RWB
 Type:   Instant
-S/R:    KTK-R, C16-R
+S/R:    KTK-R, C16-R, C17-R
 Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures he or she controls.
 
 Name:   Crackling Perimeter
@@ -6670,6 +6739,13 @@ Cost:   2G
 Type:   Instant
 S/R:    GPT-U
 Target creature with flying loses flying until end of turn. Crash Landing deals damage to that creature equal to the number of Forests you control.
+
+Name:   Crash Through
+Cost:   R
+Type:   Sorcery
+S/R:    HOU-C
+Creatures you control gain trample until end of turn.
+Draw a card.
 
 Name:   Crash of Rhinos
 Cost:   6GG
@@ -6846,7 +6922,7 @@ Name:   Creeperhulk
 Cost:   3GG
 Type:   Creature — Plant Elemental
 P/T:    5/5
-S/R:    C14-R
+S/R:    C14-R, CMA-R
 Trample
 {1}{G}: Until end of turn, target creature you control has base power and toughness 5/5 and gains trample.
 
@@ -6921,6 +6997,14 @@ S/R:    LGN-C
 Haste
 Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)
 
+Name:   Crested Sunmare
+Cost:   3WW
+Type:   Creature — Horse
+P/T:    5/5
+S/R:    HOU-M
+Other Horses you control have indestructible.
+At the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.
+
 Name:   Crevasse
 Cost:   2R
 Type:   Enchantment
@@ -6957,6 +7041,14 @@ P/T:    6/6
 S/R:    MI-R, 6E-R, 7E-R
 Flying
 {X}, {T}: Crimson Hellkite deals X damage to target creature. Spend only red mana on X.
+
+Name:   Crimson Honor Guard
+Cost:   3RR
+Type:   Creature — Vampire Knight
+P/T:    4/5
+S/R:    C17-R
+Trample
+At the beginning of each player's end step, Crimson Honor Guard deals 4 damage to that player unless he or she controls a commander.
 
 Name:   Crimson Kobolds
 Cost:   0
@@ -7051,6 +7143,13 @@ S/R:    AP-R
 {R}{W}: Cromat gets +1/+1 until end of turn.
 {G}{U}: Put Cromat on top of its owner's library.
 
+Name:   Crook of Condemnation
+Cost:   2
+Type:   Artifact
+S/R:    HOU-U
+{1}, {T}: Exile target card from a graveyard.
+{1}, Exile Crook of Condemnation: Exile all cards from all graveyards.
+
 Name:   Crookclaw Elder
 Cost:   5U
 Type:   Creature — Bird Wizard
@@ -7112,7 +7211,7 @@ When Crosis's Catacombs enters the battlefield, sacrifice it unless you return a
 Name:   Crosis's Charm
 Cost:   UBR
 Type:   Instant
-S/R:    PS-U, C13-U
+S/R:    PS-U, C13-U, C17-U
 Choose one —
 • Return target permanent to its owner's hand.
 • Destroy target nonblack creature. It can't be regenerated.
@@ -7122,7 +7221,7 @@ Name:   Crosis, the Purger
 Cost:   3UBR
 Type:   Legendary Creature — Dragon
 P/T:    6/6
-S/R:    IN-R, PD3-R
+S/R:    IN-R, C17-R, PD3-R
 Flying
 Whenever Crosis, the Purger deals combat damage to a player, you may pay {2}{B}. If you do, choose a color, then that player reveals his or her hand and discards all cards of that color.
 
@@ -7309,7 +7408,7 @@ Each creature you control with a +1/+1 counter on it has trample.
 Name:   Crucible of Fire
 Cost:   3R
 Type:   Enchantment
-S/R:    ALA-R, M15-R
+S/R:    ALA-R, M15-R, C17-R
 Dragon creatures you control get +3/+3.
 
 Name:   Crucible of Worlds
@@ -7320,7 +7419,7 @@ You may play land cards from your graveyard.
 
 Name:   Crucible of the Spirit Dragon
 Type:   Land
-S/R:    FRF-R
+S/R:    FRF-R, C17-R
 {T}: Add {C} to your mana pool.
 {1}, {T}: Put a storage counter on Crucible of the Spirit Dragon.
 {T}, Remove X storage counters from Crucible of the Spirit Dragon: Add X mana in any combination of colors to your mana pool. Spend this mana only to cast Dragon spells or activate abilities of Dragons.
@@ -7408,7 +7507,7 @@ Search your library for a card, then shuffle your library and put that card on t
 Name:   Cruel Ultimatum
 Cost:   UUBBBRR
 Type:   Sorcery
-S/R:    ALA-R, C13-R, MM3-R, DDH-R, V13-M
+S/R:    ALA-R, C13-R, MM3-R, E01-R, DDH-R, V13-M
 Target opponent sacrifices a creature, discards three cards, then loses 5 life. You return a creature card from your graveyard to your hand, draw three cards, then gain 5 life.
 
 Name:   Crumble
@@ -7440,7 +7539,7 @@ When Crumbling Colossus attacks, sacrifice it at end of combat.
 
 Name:   Crumbling Necropolis
 Type:   Land
-S/R:    ALA-U, C13-U, C16-U, MM3-U, DDH-U
+S/R:    ALA-U, C13-U, C16-U, MM3-U, E01-U, C17-U, DDH-U
 Crumbling Necropolis enters the battlefield tapped.
 {T}: Add {U}, {B}, or {R} to your mana pool.
 
@@ -7521,7 +7620,7 @@ Crushing Pain deals 6 damage to target creature that was dealt damage this turn.
 Name:   Crushing Vines
 Cost:   2G
 Type:   Instant
-S/R:    DKA-C
+S/R:    DKA-C, C17-C
 Choose one —
 • Destroy target creature with flying.
 • Destroy target artifact.
@@ -7529,7 +7628,7 @@ Choose one —
 Name:   Crux of Fate
 Cost:   3BB
 Type:   Sorcery
-S/R:    FRF-R
+S/R:    FRF-R, C17-R
 Choose one —
 • Destroy all Dragon creatures.
 • Destroy all non-Dragon creatures.
@@ -7627,6 +7726,13 @@ S/R:    ZEN-R, C14-R
 Crypt of Agadeem enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 {2}, {T}: Add {B} to your mana pool for each black creature card in your graveyard.
+
+Name:   Crypt of the Eternals
+Type:   Land
+S/R:    HOU-U
+When Crypt of the Eternals enters the battlefield, you gain 1 life.
+{T}: Add {C} to your mana pool.
+{1}, {T}: Add {U}, {B}, or {R} to your mana pool.
 
 Name:   Cryptborn Horror
 Cost:   1(B/R)(B/R)
@@ -7765,7 +7871,7 @@ Draw a card.
 
 Name:   Crystal Vein
 Type:   Land
-S/R:    MI-U, 6E-U, C14-U, PD3-U
+S/R:    MI-U, 6E-U, C14-U, CMA-U, PD3-U
 {T}: Add {C} to your mana pool.
 {T}, Sacrifice Crystal Vein: Add {C}{C} to your mana pool.
 
@@ -7873,7 +7979,7 @@ Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Cultivate
 Cost:   2G
 Type:   Sorcery
-S/R:    M11-C, CMD-C, PC2-C, C13-C, C16-C, PCA-C
+S/R:    M11-C, CMD-C, PC2-C, C13-C, C16-C, PCA-C, E01-C, C17-C
 Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.
 
 Name:   Cultivator Drone
@@ -7974,6 +8080,13 @@ S/R:    FRF-C
 Cunning Strike deals 2 damage to target creature and 2 damage to target player.
 Draw a card.
 
+Name:   Cunning Survivor
+Cost:   1U
+Type:   Creature — Human Warrior
+P/T:    1/3
+S/R:    HOU-C
+Whenever you cycle or discard a card, Cunning Survivor gets +1/+0 until end of turn and can't be blocked this turn.
+
 Name:   Cunning Wish
 Cost:   2U
 Type:   Instant
@@ -8039,6 +8152,13 @@ S/R:    DKA-R
 Enchant player
 If a source would deal damage to enchanted player, it deals double that damage to that player instead.
 
+Name:   Curse of Bounty
+Cost:   1G
+Type:   Enchantment — Aura Curse
+S/R:    C17-U
+Enchant player
+Whenever enchanted player is attacked, untap all nonland permanents you control. Each opponent attacking that player untaps all nonland permanents he or she controls.
+
 Name:   Curse of Chains
 Cost:   1(W/U)
 Type:   Enchantment — Aura
@@ -8060,6 +8180,13 @@ S/R:    ISD-R
 Enchant player
 Creatures enchanted player controls get -1/-1.
 
+Name:   Curse of Disturbance
+Cost:   2B
+Type:   Enchantment — Aura Curse
+S/R:    C17-U
+Enchant player
+Whenever enchanted player is attacked, create a 2/2 black Zombie creature token. Each opponent attacking that player does the same.
+
 Name:   Curse of Echoes
 Cost:   4U
 Type:   Enchantment — Aura Curse
@@ -8077,7 +8204,7 @@ Enchanted player can't cast more than one spell each turn.
 Name:   Curse of Inertia
 Cost:   2U
 Type:   Enchantment — Aura Curse
-S/R:    C13-U
+S/R:    C13-U, CMA-U
 Enchant player
 Whenever a player attacks enchanted player with one or more creatures, that attacking player may tap or untap target permanent of his or her choice.
 
@@ -8102,10 +8229,17 @@ S/R:    ISD-C
 Enchant player
 At the beginning of enchanted player's upkeep, that player exiles two cards from his or her graveyard.
 
+Name:   Curse of Opulence
+Cost:   R
+Type:   Enchantment — Aura Curse
+S/R:    C17-U
+Enchant player
+Whenever enchanted player is attacked, create a colorless artifact token named Gold. It has "Sacrifice this artifact: Add one mana of any color to your mana pool." Each opponent attacking that player does the same.
+
 Name:   Curse of Predation
 Cost:   2G
 Type:   Enchantment — Aura Curse
-S/R:    C13-U
+S/R:    C13-U, CMA-U
 Enchant player
 Whenever a creature attacks enchanted player, put a +1/+1 counter on it.
 
@@ -8138,6 +8272,20 @@ Enchant player
 Whenever enchanted player casts a spell, put a spite counter on Curse of Vengeance.
 When enchanted player loses the game, you gain X life and draw X cards, where X is the number of spite counters on Curse of Vengeance.
 
+Name:   Curse of Verbosity
+Cost:   2U
+Type:   Enchantment — Aura Curse
+S/R:    C17-U
+Enchant player
+Whenever enchanted player is attacked, you draw a card. Each opponent attacking that player does the same.
+
+Name:   Curse of Vitality
+Cost:   2W
+Type:   Enchantment — Aura Curse
+S/R:    C17-U
+Enchant player
+Whenever enchanted player is attacked, you gain 2 life. Each opponent attacking that player does the same.
+
 Name:   Curse of Wizardry
 Cost:   2BB
 Type:   Enchantment
@@ -8163,7 +8311,7 @@ At the beginning of each player's upkeep, if Curse of the Cabal is suspended, th
 Name:   Curse of the Forsaken
 Cost:   2W
 Type:   Enchantment — Aura Curse
-S/R:    C13-U
+S/R:    C13-U, CMA-U
 Enchant player
 Whenever a creature attacks enchanted player, its controller gains 1 life.
 

@@ -194,7 +194,7 @@ Name:   Vampire Nighthawk
 Cost:   1BB
 Type:   Creature — Vampire Shaman
 P/T:    2/3
-S/R:    ZEN-U, CMD-U, M13-U, C13-U, MM3-U, DDK-U, DDP-U
+S/R:    ZEN-U, CMD-U, M13-U, C13-U, MM3-U, E01-U, C17-U, DDK-U, DDP-U
 Flying, deathtouch, lifelink
 
 Name:   Vampire Noble
@@ -463,7 +463,7 @@ When Vastwood Hydra dies, you may distribute a number of +1/+1 counters equal to
 Name:   Vastwood Zendikon
 Cost:   4G
 Type:   Enchantment — Aura
-S/R:    WWK-C
+S/R:    WWK-C, E01-C
 Enchant land
 Enchanted land is a 6/4 green Elemental creature. It's still a land.
 When enchanted land dies, return that card to its owner's hand.
@@ -723,7 +723,7 @@ Name:   Vein Drinker
 Cost:   4BB
 Type:   Creature — Vampire
 P/T:    4/4
-S/R:    ALA-R
+S/R:    ALA-R, C17-R
 Flying
 {R}, {T}: Vein Drinker deals damage equal to its power to target creature. That creature deals damage equal to its power to Vein Drinker.
 Whenever a creature dealt damage by Vein Drinker this turn dies, put a +1/+1 counter on Vein Drinker.
@@ -740,7 +740,7 @@ Name:   Vela the Night-Clad
 Cost:   4UB
 Type:   Legendary Creature — Human Wizard
 P/T:    4/4
-S/R:    PC2-M, PCA-M
+S/R:    PC2-M, PCA-M, C17-M
 Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Other creatures you control have intimidate.
 Whenever Vela the Night-Clad or another creature you control leaves the battlefield, each opponent loses 1 life.
@@ -1045,7 +1045,7 @@ Name:   Verdant Force
 Cost:   5GGG
 Type:   Creature — Elemental
 P/T:    7/7
-S/R:    TE-R, 9ED-R, 10E-R, HOP-R, C15-R, PD3-R
+S/R:    TE-R, 9ED-R, 10E-R, HOP-R, C15-R, CMA-R, PD3-R
 At the beginning of each upkeep, create a 1/1 green Saproling creature token.
 
 Name:   Verdant Haven
@@ -1596,7 +1596,7 @@ Destroy target non-Vampire, non-Werewolf, non-Zombie creature.
 Name:   Victimize
 Cost:   2B
 Type:   Sorcery
-S/R:    US-U, CNS-U, C14-U, C15-U, EMA-U
+S/R:    US-U, CNS-U, C14-U, C15-U, EMA-U, CMA-U
 Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped.
 
 Name:   Victorious Destruction
@@ -1765,6 +1765,14 @@ P/T:    2/2
 S/R:    LGN-C
 Whenever Vile Deacon attacks, it gets +X/+X until end of turn, where X is the number of Clerics on the battlefield.
 
+Name:   Vile Manifestation
+Cost:   1B
+Type:   Creature — Horror
+P/T:    0/4
+S/R:    HOU-U
+Vile Manifestation gets +1/+0 for each card with cycling in your graveyard.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Vile Rebirth
 Cost:   B
 Type:   Instant
@@ -1866,6 +1874,16 @@ Type:   Sorcery
 S/R:    AP-R, EMA-R, MPS_AKH-S
 Destroy target permanent.
 
+Name:   Vindictive Lich
+Cost:   3B
+Type:   Creature — Zombie Wizard
+P/T:    4/1
+S/R:    C17-R
+When Vindictive Lich dies, choose one or more. Each mode must target a different player.
+• Target opponent sacrifices a creature.
+• Target opponent discards two cards.
+• Target opponent loses 5 life.
+
 Name:   Vindictive Mob
 Cost:   4BB
 Type:   Creature — Human Berserker
@@ -1922,7 +1940,7 @@ Target creature can't be the target of spells or abilities your opponents contro
 Name:   Vines of the Recluse
 Cost:   G
 Type:   Instant
-S/R:    OGW-C, DDR-C
+S/R:    OGW-C, E01-C, DDR-C
 Target creature gets +1/+2 and gains reach until end of turn. Untap it. (A creature with reach can block creatures with flying.)
 
 Name:   Vineweft
@@ -2037,7 +2055,7 @@ Name:   Viridian Emissary
 Cost:   1G
 Type:   Creature — Elf Scout
 P/T:    2/1
-S/R:    MBS-C, PC2-C, C15-C, PCA-C
+S/R:    MBS-C, PC2-C, C15-C, PCA-C, CMA-C
 When Viridian Emissary dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
 
 Name:   Viridian Harvest
@@ -2092,7 +2110,7 @@ Name:   Viridian Zealot
 Cost:   GG
 Type:   Creature — Elf Warrior
 P/T:    2/1
-S/R:    DST-R, C15-R
+S/R:    DST-R, C15-R, CMA-R
 {1}{G}, Sacrifice Viridian Zealot: Destroy target artifact or enchantment.
 
 Name:   Virtue's Ruin
@@ -2132,6 +2150,13 @@ Cost:   B
 Type:   Instant
 S/R:    MBS-C
 Put a -1/-1 counter on target creature. When that creature dies this turn, its controller gets a poison counter.
+
+Name:   Visage of Bolas
+Cost:   4
+Type:   Artifact
+S/R:    HOU-R
+When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand. If you search your library this way, shuffle it.
+{T}: Add {U}, {B}, or {R} to your mana pool.
 
 Name:   Visara the Dreadful
 Cost:   3BBB
@@ -2215,7 +2240,7 @@ Choose one —
 Name:   Vision Skeins
 Cost:   1U
 Type:   Instant
-S/R:    DIS-C, CMD-C, C13-C
+S/R:    DIS-C, CMD-C, C13-C, E01-C
 Each player draws two cards.
 
 Name:   Visionary Augmenter
@@ -2328,35 +2353,35 @@ S/R:    RAV-U, ARC-U, PC2-U, C13-U, PCA-U, DDH-U
 
 Name:   Vivid Crag
 Type:   Land
-S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U
+S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U, C17-U
 Vivid Crag enters the battlefield tapped with two charge counters on it.
 {T}: Add {R} to your mana pool.
 {T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool.
 
 Name:   Vivid Creek
 Type:   Land
-S/R:    LRW-U, CMD-U, PC2-U, MMA-U, C13-U, C15-U, PCA-U, H09-U
+S/R:    LRW-U, CMD-U, PC2-U, MMA-U, C13-U, C15-U, PCA-U, C17-U, H09-U
 Vivid Creek enters the battlefield tapped with two charge counters on it.
 {T}: Add {U} to your mana pool.
 {T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.
 
 Name:   Vivid Grove
 Type:   Land
-S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U, H09-U
+S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U, CMA-U, C17-U, H09-U
 Vivid Grove enters the battlefield tapped with two charge counters on it.
 {T}: Add {G} to your mana pool.
 {T}, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.
 
 Name:   Vivid Marsh
 Type:   Land
-S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U
+S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U, CMA-U, C17-U
 Vivid Marsh enters the battlefield tapped with two charge counters on it.
 {T}: Add {B} to your mana pool.
 {T}, Remove a charge counter from Vivid Marsh: Add one mana of any color to your mana pool.
 
 Name:   Vivid Meadow
 Type:   Land
-S/R:    LRW-U, CMD-U, MMA-U, C15-U
+S/R:    LRW-U, CMD-U, MMA-U, C15-U, CMA-U, C17-U
 Vivid Meadow enters the battlefield tapped with two charge counters on it.
 {T}: Add {W} to your mana pool.
 {T}, Remove a charge counter from Vivid Meadow: Add one mana of any color to your mana pool.
@@ -2407,6 +2432,14 @@ S/R:    AKH-U
 Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
 When you cycle Vizier of Tumbling Sands, untap target permanent.
 
+Name:   Vizier of the Anointed
+Cost:   3U
+Type:   Creature — Human Cleric
+P/T:    2/4
+S/R:    HOU-U
+When Vizier of the Anointed enters the battlefield, you may search your library for a creature card with eternalize or embalm, put that card into your graveyard, then shuffle your library.
+Whenever you activate an eternalize or embalm ability, draw a card.
+
 Name:   Vizier of the Menagerie
 Cost:   3G
 Type:   Creature — Naga Cleric
@@ -2415,6 +2448,14 @@ S/R:    AKH-M
 You may look at the top card of your library. (You may do this at any time.)
 You may cast the top card of your library if it's a creature card.
 You may spend mana as though it were mana of any type to cast creature spells.
+
+Name:   Vizier of the True
+Cost:   3W
+Type:   Creature — Human Cleric
+P/T:    3/2
+S/R:    HOU-U
+You may exert Vizier of the True as it attacks. (It won't untap during your next untap step.)
+Whenever you exert a creature, tap target creature an opponent controls.
 
 Name:   Vizkopa Confessor
 Cost:   3WB
@@ -2519,7 +2560,7 @@ Name:   Voice of All
 Cost:   2WW
 Type:   Creature — Angel
 P/T:    2/2
-S/R:    PS-U, 10E-R, CMD-R
+S/R:    PS-U, 10E-R, CMD-R, CMA-R
 Flying
 As Voice of All enters the battlefield, choose a color.
 Voice of All has protection from the chosen color.
@@ -2765,7 +2806,7 @@ Volcanic Fallout deals 2 damage to each creature and each player.
 Name:   Volcanic Geyser
 Cost:   XRR
 Type:   Instant
-S/R:    MI-U, 6E-U, M13-U, M14-U
+S/R:    MI-U, 6E-U, M13-U, M14-U, E01-U
 Volcanic Geyser deals X damage to target creature or player.
 
 Name:   Volcanic Hammer
@@ -3099,7 +3140,7 @@ S/R:    RAV-C
 Name:   Vow of Duty
 Cost:   2W
 Type:   Enchantment — Aura
-S/R:    CMD-U, CNS-U, C15-U
+S/R:    CMD-U, CNS-U, C15-U, CMA-U
 Enchant creature
 Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswalker you control.
 
@@ -3113,14 +3154,14 @@ Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalke
 Name:   Vow of Lightning
 Cost:   2R
 Type:   Enchantment — Aura
-S/R:    CMD-U
+S/R:    CMD-U, CMA-U
 Enchant creature
 Enchanted creature gets +2/+2, has first strike, and can't attack you or a planeswalker you control.
 
 Name:   Vow of Malice
 Cost:   2B
 Type:   Enchantment — Aura
-S/R:    CMD-U, C15-U
+S/R:    CMD-U, C15-U, CMA-U
 Enchant creature
 Enchanted creature gets +2/+2, has intimidate, and can't attack you or a planeswalker you control. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 
@@ -3276,6 +3317,6 @@ Name:   Vulturous Zombie
 Cost:   3BG
 Type:   Creature — Plant Zombie
 P/T:    3/3
-S/R:    RAV-R, CMD-R, C15-R, C16-R
+S/R:    RAV-R, CMD-R, C15-R, C16-R, CMA-R
 Flying
 Whenever a card is put into an opponent's graveyard from anywhere, put a +1/+1 counter on Vulturous Zombie.

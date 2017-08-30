@@ -157,7 +157,7 @@ Name:   Icefall Regent
 Cost:   3UU
 Type:   Creature — Dragon
 P/T:    4/3
-S/R:    DTK-R
+S/R:    DTK-R, E01-R
 Flying
 When Icefall Regent enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Icefall Regent.
 Spells your opponents cast that target Icefall Regent cost {2} more to cast.
@@ -299,6 +299,13 @@ P/T:    3/3
 S/R:    AN-R, MED-R
 Flying
 {G}: Ifh-Biff Efreet deals 1 damage to each creature with flying and each player. Any player may activate this ability.
+
+Name:   Ifnir Deadlands
+Type:   Land — Desert
+S/R:    HOU-U
+{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {B} to your mana pool.
+{2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.
 
 Name:   Igneous Golem
 Cost:   5
@@ -595,6 +602,13 @@ P/T:    4/4
 S/R:    US-R, 9ED-R
 At the beginning of your upkeep, if you have a card in hand, return Imaginary Pet to its owner's hand.
 
+Name:   Imaginary Threats
+Cost:   2UU
+Type:   Instant
+S/R:    HOU-U
+Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures he or she controls don't untap.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Imi Statue
 Cost:   3
 Type:   Artifact
@@ -605,7 +619,7 @@ Name:   Immaculate Magistrate
 Cost:   3G
 Type:   Creature — Elf Shaman
 P/T:    2/2
-S/R:    LRW-R, C14-R
+S/R:    LRW-R, C14-R, CMA-R
 {T}: Put a +1/+1 counter on target creature for each Elf you control.
 
 Name:   Immerwolf
@@ -616,6 +630,13 @@ S/R:    DKA-U
 Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Each other creature you control that's a Wolf or a Werewolf gets +1/+1.
 Non-Human Werewolves you control can't transform.
+
+Name:   Imminent Doom
+Cost:   2R
+Type:   Enchantment
+S/R:    HOU-R
+Imminent Doom enters the battlefield with a doom counter on it.
+Whenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player. Then put a doom counter on Imminent Doom.
 
 Name:   Immobilizer Eldrazi
 Cost:   1R
@@ -765,7 +786,7 @@ Name:   Imperious Perfect
 Cost:   2G
 Type:   Creature — Elf Warrior
 P/T:    2/2
-S/R:    LRW-U, C14-U, EMA-R, EVG-U
+S/R:    LRW-U, C14-U, EMA-R, CMA-U, EVG-U
 Other Elf creatures you control get +1/+1.
 {G}, {T}: Create a 1/1 green Elf Warrior creature token.
 
@@ -926,6 +947,14 @@ Type:   Sorcery
 S/R:    RTR-C
 Detain target creature an opponent controls. (Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)
 Draw a card.
+
+Name:   Inalla, Archmage Ritualist
+Cost:   2UBR
+Type:   Legendary Creature — Human Wizard
+P/T:    4/5
+S/R:    C17-M
+Eminence — Whenever another nontoken Wizard enters the battlefield under your control, if Inalla, Archmage Ritualist is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.
+Tap five untapped Wizards you control: Target player loses 7 life.
 
 Name:   Iname as One
 Cost:   8BBGG
@@ -1195,7 +1224,7 @@ Name:   Indrik Stomphowler
 Cost:   4G
 Type:   Creature — Beast
 P/T:    4/4
-S/R:    DIS-U, C15-U, DDD-U
+S/R:    DIS-U, C15-U, CMA-U, DDD-U
 When Indrik Stomphowler enters the battlefield, destroy target artifact or enchantment.
 
 Name:   Indrik Umbra
@@ -1431,11 +1460,18 @@ Enchant creature you control
 Enchanted creature gets +2/+0.
 {R}, Sacrifice Inferno Fist: Inferno Fist deals 2 damage to target creature or player.
 
+Name:   Inferno Jet
+Cost:   5R
+Type:   Sorcery
+S/R:    HOU-U
+Inferno Jet deals 6 damage to target opponent.
+Cycling {2} ({2}, Discard this card: Draw a card.)
+
 Name:   Inferno Titan
 Cost:   4RR
 Type:   Creature — Giant
 P/T:    6/6
-S/R:    M11-M, M12-M, C13-M, C15-M
+S/R:    M11-M, M12-M, C13-M, C15-M, E01-M
 {R}: Inferno Titan gets +1/+0 until end of turn.
 Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
 
@@ -1859,7 +1895,7 @@ Name:   Insist
 Cost:   G
 Type:   Sorcery
 S/R:    TOR-R
-The next creature spell you cast this turn can't be countered by spells or abilities.
+The next creature spell you cast this turn can't be countered.
 Draw a card.
 
 Name:   Insolence
@@ -2040,7 +2076,7 @@ Name:   Intet, the Dreamer
 Cost:   3URG
 Type:   Legendary Creature — Dragon
 P/T:    6/6
-S/R:    PLC-R, CMD-R
+S/R:    PLC-R, CMD-R, C17-R
 Flying
 Whenever Intet, the Dreamer deals combat damage to a player, you may pay {2}{U}. If you do, exile the top card of your library face down. You may look at that card for as long as it remains exiled. You may play that card without paying its mana cost for as long as Intet remains on the battlefield.
 
@@ -2098,7 +2134,7 @@ Search your library for a snow land card and put it onto the battlefield tapped.
 Name:   Into the Roil
 Cost:   1U
 Type:   Instant
-S/R:    ZEN-C, C14-C, DDM-C
+S/R:    ZEN-C, C14-C, C17-C, DDM-C
 Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
 Return target nonland permanent to its owner's hand. If Into the Roil was kicked, draw a card.
 
@@ -2328,9 +2364,16 @@ Your opponents can't cast spells of the chosen color.
 Name:   Ior Ruin Expedition
 Cost:   1U
 Type:   Enchantment
-S/R:    ZEN-C
+S/R:    ZEN-C, E01-C
 Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Ior Ruin Expedition.
 Remove three quest counters from Ior Ruin Expedition and sacrifice it: Draw two cards.
+
+Name:   Ipnu Rivulet
+Type:   Land — Desert
+S/R:    HOU-U
+{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add {U} to your mana pool.
+{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.
 
 Name:   Ire Shaman
 Cost:   1R
@@ -2606,7 +2649,7 @@ Delirium — When Ishkanah, Grafwidow enters the battlefield, if there are four 
 
 Name:   Island
 Type:   Basic Land — Island
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, UG-C, UNH-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, UG-C, UNH-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, H09-L, ME3-L, MED-L
 
 Name:   Island Fish Jasconius
 Cost:   4UUU
@@ -2844,7 +2887,7 @@ Ixidron's power and toughness are each equal to the number of face-down creature
 
 Name:   Izzet Boilerworks
 Type:   Land
-S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, DDJ-C
+S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, C17-U, DDJ-C
 Izzet Boilerworks enters the battlefield tapped.
 When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {U}{R} to your mana pool.
@@ -2858,11 +2901,20 @@ Choose one —
 • Izzet Charm deals 2 damage to target creature.
 • Draw two cards, then discard two cards.
 
+Name:   Izzet Chemister
+Cost:   2R
+Type:   Creature — Goblin Wizard
+P/T:    1/3
+S/R:    C17-R
+Haste
+{R}, {T}: Exile target instant or sorcery card from your graveyard.
+{1}{R}, {T}, Sacrifice Izzet Chemister: Cast any number of cards exiled with Izzet Chemister without paying their mana costs.
+
 Name:   Izzet Chronarch
 Cost:   3UR
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    GPT-C, CMD-C, DDJ-C
+S/R:    GPT-C, CMD-C, C17-C, DDJ-C
 When Izzet Chronarch enters the battlefield, return target instant or sorcery card from your graveyard to your hand.
 
 Name:   Izzet Cluestone

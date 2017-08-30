@@ -93,6 +93,15 @@ P/T:    2/2
 S/R:    ZEN-R
 Whenever Bala Ged Thief or another Ally enters the battlefield under your control, target player reveals a number of cards from his or her hand equal to the number of Allies you control. You choose one of them. That player discards that card.
 
+Name:   Balan, Wandering Knight
+Cost:   2WW
+Type:   Legendary Creature — Cat Knight
+P/T:    3/3
+S/R:    C17-R
+First strike
+Balan, Wandering Knight has double strike as long as two or more Equipment are attached to it.
+{1}{W}: Attach all Equipment you control to Balan.
+
 Name:   Balance
 Cost:   1W
 Type:   Sorcery
@@ -256,7 +265,7 @@ Name:   Baleful Strix
 Cost:   UB
 Type:   Artifact Creature — Bird
 P/T:    1/1
-S/R:    PC2-U, C13-U, EMA-R, C16-U, PCA-U, VMA-R
+S/R:    PC2-U, C13-U, EMA-R, C16-U, PCA-U, E01-U, VMA-R
 Flying, deathtouch
 When Baleful Strix enters the battlefield, draw a card.
 
@@ -453,7 +462,7 @@ Name:   Bane of Progress
 Cost:   4GG
 Type:   Creature — Elemental
 P/T:    2/2
-S/R:    C13-R, C15-R
+S/R:    C13-R, C15-R, CMA-R
 When Bane of Progress enters the battlefield, destroy all artifacts and enchantments. Put a +1/+1 counter on Bane of Progress for each permanent destroyed this way.
 
 Name:   Bane of the Living
@@ -490,6 +499,14 @@ Type:   Enchantment — Aura
 S/R:    ALA-C
 Enchant creature
 When enchanted creature dies, that creature's controller loses life equal to its toughness.
+
+Name:   Banewhip Punisher
+Cost:   2B
+Type:   Creature — Human Warrior
+P/T:    2/2
+S/R:    HOU-U
+When Banewhip Punisher enters the battlefield, you may put a -1/-1 counter on target creature.
+{B}, Sacrifice Banewhip Punisher: Destroy target creature that has a -1/-1 counter on it.
 
 Name:   Banisher Priest
 Cost:   1WW
@@ -540,7 +557,7 @@ Name:   Banshee of the Dread Choir
 Cost:   3BB
 Type:   Creature — Spirit
 P/T:    4/4
-S/R:    C15-U
+S/R:    C15-U, CMA-U
 Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
 Whenever Banshee of the Dread Choir deals combat damage to a player, that player discards a card.
 
@@ -571,7 +588,7 @@ Choose one —
 
 Name:   Bant Panorama
 Type:   Land
-S/R:    ALA-C, C13-C
+S/R:    ALA-C, C13-C, CMA-C
 {T}: Add {C} to your mana pool.
 {1}, {T}, Sacrifice Bant Panorama: Search your library for a basic Forest, Plains, or Island card and put it onto the battlefield tapped. Then shuffle your library.
 
@@ -851,7 +868,7 @@ At the beginning of your upkeep, if you control no permanents other than Barren 
 
 Name:   Barren Moor
 Type:   Land
-S/R:    ONS-C, ARC-C, CMD-C, C13-C, C14-C, C15-C, VMA-C, DDC-C, DDJ-C
+S/R:    ONS-C, ARC-C, CMD-C, C13-C, C14-C, C15-C, CMA-C, VMA-C, DDC-C, DDJ-C
 Barren Moor enters the battlefield tapped.
 {T}: Add {B} to your mana pool.
 Cycling {B} ({B}, Discard this card: Draw a card.)
@@ -923,7 +940,7 @@ Bartel Runeaxe can't be the target of Aura spells.
 Name:   Barter in Blood
 Cost:   2BB
 Type:   Sorcery
-S/R:    MRD-U, AVR-U, C15-U, DDC-U, DDQ-U
+S/R:    MRD-U, AVR-U, C15-U, CMA-U, DDC-U, DDQ-U
 Each player sacrifices two creatures.
 
 Name:   Baru, Fist of Krosa
@@ -968,7 +985,7 @@ Whenever Basalt Golem becomes blocked by a creature, that creature's controller 
 Name:   Basalt Monolith
 Cost:   3
 Type:   Artifact
-S/R:    A-U, B-U, U-U, RV-U, C13-U, C15-U, ME4-U
+S/R:    A-U, B-U, U-U, RV-U, C13-U, C15-U, CMA-U, ME4-U
 Basalt Monolith doesn't untap during your untap step.
 {T}: Add {C}{C}{C} to your mana pool.
 {3}: Untap Basalt Monolith.
@@ -977,7 +994,7 @@ Name:   Basandra, Battle Seraph
 Cost:   3RW
 Type:   Legendary Creature — Angel
 P/T:    4/4
-S/R:    CMD-R, CNS-R, VMA-R
+S/R:    CMD-R, CNS-R, CMA-R, VMA-R
 Flying
 Players can't cast spells during combat.
 {R}: Target creature attacks this turn if able.
@@ -1064,7 +1081,7 @@ Bathe in Dragonfire deals 4 damage to target creature.
 Name:   Bathe in Light
 Cost:   1W
 Type:   Instant
-S/R:    RAV-U, CMD-U
+S/R:    RAV-U, CMD-U, CMA-U
 Radiance — Choose a color. Target creature and each other creature that shares a color with it gain protection from the chosen color until end of turn.
 
 Name:   Baton of Courage
@@ -1254,7 +1271,7 @@ Name:   Battle-Rattle Shaman
 Cost:   3R
 Type:   Creature — Goblin Shaman
 P/T:    2/2
-S/R:    ROE-C, MM3-C
+S/R:    ROE-C, MM3-C, E01-C
 At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.
 
 Name:   Battlefield Forge
@@ -1292,7 +1309,7 @@ Cost:   3GG
 Type:   Creature — Centaur
 P/T:    3/3
 S/R:    JUD-C
-Threshold — Put three cards from your graveyard on the bottom of your library: Battlefield Scrounger gets +3/+3 until end of turn. Activate this ability only once each turn, and only if seven or more cards are in your graveyard.
+Threshold — Put three cards from your graveyard on the bottom of your library: Battlefield Scrounger gets +3/+3 until end of turn. Activate this ability only once each turn and only if seven or more cards are in your graveyard.
 
 Name:   Battlefield Thaumaturge
 Cost:   1U
@@ -1595,7 +1612,7 @@ Haste
 Name:   Beastmaster Ascension
 Cost:   2G
 Type:   Enchantment
-S/R:    ZEN-R, C14-R, C15-R, C16-R
+S/R:    ZEN-R, C14-R, C15-R, C16-R, CMA-R
 Whenever a creature you control attacks, you may put a quest counter on Beastmaster Ascension.
 As long as Beastmaster Ascension has seven or more quest counters on it, creatures you control get +5/+5.
 
@@ -1688,7 +1705,7 @@ S/R:    DKA-M
 Name:   Behemoth Sledge
 Cost:   1GW
 Type:   Artifact — Equipment
-S/R:    ARB-U, C13-U, DDH-U
+S/R:    ARB-U, C13-U, C17-U, DDH-U
 Equipped creature gets +2/+2 and has lifelink and trample.
 Equip {3}
 
@@ -1741,6 +1758,15 @@ S/R:    GPT-U
 Flying
 Haunt (When this creature dies, exile it haunting target creature.)
 When Belfry Spirit enters the battlefield or the creature it haunts dies, create two 1/1 black Bat creature tokens with flying.
+
+Name:   Believe
+Cost:   4G
+Type:   Sorcery
+M-type: Split
+M-card: Reason
+S/R:    HOU-R
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Look at the top card of your library. You may put it onto the battlefield if it's a creature card. If you don't, put it into your hand.
 
 Name:   Belligerent Hatchling
 Cost:   3(R/W)
@@ -1914,6 +1940,13 @@ Cost:   3R
 Type:   Sorcery
 S/R:    IN-R
 Each player separates all nontoken lands he or she controls into two piles. For each player, one of his or her piles is chosen by one of his or her opponents of his or her choice. Destroy all lands in the chosen piles. Tap all lands in the other piles.
+
+Name:   Beneath the Sands
+Cost:   2G
+Type:   Sorcery
+S/R:    HOU-C
+Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Benediction of Moons
 Cost:   W
@@ -2304,6 +2337,13 @@ Type:   Tribal Enchantment — Faerie
 S/R:    MOR-R, MM2-M
 At the beginning of your upkeep, you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.
 
+Name:   Bitterbow Sharpshooters
+Cost:   4G
+Type:   Creature — Jackal Archer
+P/T:    4/4
+S/R:    HOU-C
+Vigilance, reach
+
 Name:   Bitterheart Witch
 Cost:   4B
 Type:   Creature — Human Shaman
@@ -2359,7 +2399,7 @@ S/R:    LE-U, 4E-R
 Name:   Black Market
 Cost:   3BB
 Type:   Enchantment
-S/R:    MM-R, C15-R
+S/R:    MM-R, C15-R, C17-R
 Whenever a creature dies, put a charge counter on Black Market.
 At the beginning of your precombat main phase, add {B} to your mana pool for each charge counter on Black Market.
 
@@ -2451,7 +2491,7 @@ Equip {4}
 Name:   Blade of the Bloodchief
 Cost:   1
 Type:   Artifact — Equipment
-S/R:    ZEN-R
+S/R:    ZEN-R, C17-R
 Whenever a creature dies, put a +1/+1 counter on equipped creature. If equipped creature is a Vampire, put two +1/+1 counters on it instead.
 Equip {1}
 
@@ -2516,7 +2556,7 @@ Name:   Bladewing the Risen
 Cost:   3BBRR
 Type:   Legendary Creature — Zombie Dragon
 P/T:    4/4
-S/R:    SCG-R, CMD-R, DRB-R
+S/R:    SCG-R, CMD-R, CMA-R, C17-R, DRB-R
 Flying
 When Bladewing the Risen enters the battlefield, you may return target Dragon permanent card from your graveyard to the battlefield.
 {B}{R}: Dragon creatures get +1/+1 until end of turn.
@@ -2875,7 +2915,7 @@ S/R:    BFZ-U
 
 Name:   Blighted Woodland
 Type:   Land
-S/R:    BFZ-U
+S/R:    BFZ-U, C17-U
 {T}: Add {C} to your mana pool.
 {3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.
 
@@ -2941,7 +2981,7 @@ When Blind Hunter enters the battlefield or the creature it haunts dies, target 
 Name:   Blind Obedience
 Cost:   1W
 Type:   Enchantment
-S/R:    GTC-R, C16-R
+S/R:    GTC-R, C16-R, C17-R
 Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
 Artifacts and creatures your opponents control enter the battlefield tapped.
 
@@ -3207,21 +3247,21 @@ Name:   Blood Artist
 Cost:   1B
 Type:   Creature — Vampire
 P/T:    0/1
-S/R:    AVR-U, EMA-U
+S/R:    AVR-U, EMA-U, C17-U
 Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.
 
 Name:   Blood Bairn
 Cost:   2B
 Type:   Creature — Vampire
 P/T:    2/2
-S/R:    M14-C, C15-C
+S/R:    M14-C, C15-C, CMA-C
 Sacrifice another creature: Blood Bairn gets +2/+2 until end of turn.
 
 Name:   Blood Baron of Vizkopa
 Cost:   3WB
 Type:   Creature — Vampire
 P/T:    4/4
-S/R:    DGM-M
+S/R:    DGM-M, C17-M
 Lifelink, protection from white and from black
 As long as you have 30 or more life and an opponent has 10 or less life, Blood Baron of Vizkopa gets +6/+6 and has flying.
 
@@ -3309,7 +3349,7 @@ At the beginning of combat on your turn, target creature you control gains doubl
 Name:   Blood Moon
 Cost:   2R
 Type:   Enchantment
-S/R:    DK-R, CH-R, 8ED-R, 9ED-R, MMA-R, MM3-R
+S/R:    DK-R, CH-R, 8ED-R, 9ED-R, MMA-R, MM3-R, MPS_AKH-S
 Nonbasic lands are Mountains.
 
 Name:   Blood Oath
@@ -3322,7 +3362,7 @@ Name:   Blood Ogre
 Cost:   2R
 Type:   Creature — Ogre Warrior
 P/T:    2/2
-S/R:    M12-C, MM2-C, DDL-C
+S/R:    M12-C, MM2-C, E01-C, DDL-C
 Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with a +1/+1 counter on it.)
 First strike (This creature deals combat damage before creatures without first strike.)
 
@@ -3376,7 +3416,7 @@ Each opponent loses 3 life. You gain life equal to the life lost this way.
 Name:   Blood Tribute
 Cost:   4BB
 Type:   Sorcery
-S/R:    ZEN-R
+S/R:    ZEN-R, C17-R
 Kicker—Tap an untapped Vampire you control. (You may tap a Vampire you control in addition to any other costs as you cast this spell.)
 Target opponent loses half his or her life, rounded up. If Blood Tribute was kicked, you gain life equal to the life lost this way.
 
@@ -3384,7 +3424,7 @@ Name:   Blood Tyrant
 Cost:   4UBR
 Type:   Creature — Vampire
 P/T:    5/5
-S/R:    CON-R, C16-R
+S/R:    CON-R, C16-R, E01-R
 Flying, trample
 At the beginning of your upkeep, each player loses 1 life. Put a +1/+1 counter on Blood Tyrant for each 1 life lost this way.
 Whenever a player loses the game, put five +1/+1 counters on Blood Tyrant.
@@ -3506,7 +3546,7 @@ Target creature gets +X/+0 until end of turn.
 
 Name:   Bloodfell Caves
 Type:   Land
-S/R:    KTK-C, FRF-C, EMA-C
+S/R:    KTK-C, FRF-C, EMA-C, C17-C
 Bloodfell Caves enters the battlefield tapped.
 When Bloodfell Caves enters the battlefield, you gain 1 life.
 {T}: Add {B} or {R} to your mana pool.
@@ -3567,6 +3607,14 @@ P/T:    1/1
 S/R:    AVR-C
 Sacrifice a creature: Put a +1/+1 counter on Bloodflow Connoisseur.
 
+Name:   Bloodforged Battle-Axe
+Cost:   1
+Type:   Artifact — Equipment
+S/R:    C17-R
+Equipped creature gets +2/+0.
+Whenever equipped creature deals combat damage to a player, create a token that's a copy of Bloodforged Battle-Axe.
+Equip {2}
+
 Name:   Bloodfray Giant
 Cost:   2RR
 Type:   Creature — Giant
@@ -3620,7 +3668,7 @@ Name:   Bloodhusk Ritualist
 Cost:   2B
 Type:   Creature — Vampire Shaman
 P/T:    2/2
-S/R:    WWK-U
+S/R:    WWK-U, C17-U
 Multikicker {B} (You may pay an additional {B} any number of times as you cast this spell.)
 When Bloodhusk Ritualist enters the battlefield, target opponent discards a card for each time it was kicked.
 
@@ -3650,6 +3698,14 @@ Flying
 {T}: Create a 2/2 black Vampire creature token with flying.
 {B}: Transform Bloodline Keeper. Activate this ability only if you control five or more Vampires.
 
+Name:   Bloodline Necromancer
+Cost:   4B
+Type:   Creature — Vampire Wizard
+P/T:    3/2
+S/R:    C17-U
+Lifelink
+When Bloodline Necromancer enters the battlefield, you may return target Vampire or Wizard creature card from your graveyard to the battlefield.
+
 Name:   Bloodline Shaman
 Cost:   1G
 Type:   Creature — Elf Wizard Shaman
@@ -3661,7 +3717,7 @@ Name:   Bloodlord of Vaasgoth
 Cost:   3BB
 Type:   Creature — Vampire Warrior
 P/T:    3/3
-S/R:    M12-M
+S/R:    M12-M, C17-M
 Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with three +1/+1 counters on it.)
 Flying
 Whenever you cast a Vampire creature spell, it gains bloodthirst 3.
@@ -3769,7 +3825,7 @@ Name:   Bloodspore Thrinax
 Cost:   2GG
 Type:   Creature — Lizard
 P/T:    2/2
-S/R:    C15-R
+S/R:    C15-R, CMA-R
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
 Each other creature you control enters the battlefield with an additional X +1/+1 counters on it, where X is the number of +1/+1 counters on Bloodspore Thrinax.
 
@@ -3791,6 +3847,14 @@ Cost:   3
 Type:   Artifact
 S/R:    IN-U
 {T}: Add {B} or {R} to your mana pool.
+
+Name:   Bloodsworn Steward
+Cost:   2RR
+Type:   Creature — Vampire Knight
+P/T:    4/4
+S/R:    C17-R
+Flying
+Commander creatures you control get +2/+2 and have haste.
 
 Name:   Bloodthirsty Ogre
 Cost:   2B
@@ -3815,6 +3879,15 @@ P/T:    1/1
 S/R:    ROE-C, M11-C, M13-C, MM2-C, DDP-C
 Sacrifice a creature: Bloodthrone Vampire gets +2/+2 until end of turn.
 
+Name:   Bloodwater Entity
+Cost:   1UR
+Type:   Creature — Elemental
+P/T:    2/2
+S/R:    HOU-U
+Flying
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When Bloodwater Entity enters the battlefield, you may put target instant or sorcery card from your graveyard on top of your library.
+
 Name:   Bloom Tender
 Cost:   1G
 Type:   Creature — Elf Druid
@@ -3836,7 +3909,7 @@ Target creature you control gets +2/+2 and gains hexproof until end of turn.
 
 Name:   Blossoming Sands
 Type:   Land
-S/R:    KTK-C, FRF-C, EMA-C
+S/R:    KTK-C, FRF-C, EMA-C, C17-C
 Blossoming Sands enters the battlefield tapped.
 When Blossoming Sands enters the battlefield, you gain 1 life.
 {T}: Add {G} or {W} to your mana pool.
@@ -3885,7 +3958,7 @@ Enchanted creature gets +2/+2 as long as an opponent controls a blue permanent.
 Name:   Blue Sun's Zenith
 Cost:   XUUU
 Type:   Instant
-S/R:    MBS-R, C13-R, C15-R
+S/R:    MBS-R, C13-R, C15-R, CMA-R
 Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.
 
 Name:   Blue Ward
@@ -3907,6 +3980,12 @@ Type:   Creature — Sliver
 P/T:    2/2
 S/R:    M14-C
 Sliver creatures you control have haste. (They can attack and {T} as soon as they come under your control.)
+
+Name:   Blur of Blades
+Cost:   1R
+Type:   Instant
+S/R:    HOU-C
+Put a -1/-1 counter on target creature. Blur of Blades deals 2 damage to that creature's controller.
 
 Name:   Blurred Mongoose
 Cost:   1G
@@ -3951,7 +4030,7 @@ Name:   Body Double
 Cost:   4U
 Type:   Creature — Shapeshifter
 P/T:    0/0
-S/R:    PLC-R, DDM-R
+S/R:    PLC-R, C17-R, DDM-R
 You may have Body Double enter the battlefield as a copy of any creature card in a graveyard.
 
 Name:   Body Snatcher
@@ -4209,7 +4288,7 @@ As long as you control a Faerie, Boggart Sprite-Chaser gets +1/+1 and has flying
 Name:   Boil
 Cost:   3R
 Type:   Instant
-S/R:    TE-U, 6E-U, 7E-U, 8ED-U
+S/R:    TE-U, 6E-U, 7E-U, 8ED-U, MPS_AKH-S
 Destroy all Islands.
 
 Name:   Boiling Blood
@@ -4234,7 +4313,7 @@ Destroy all Islands.
 
 Name:   Bojuka Bog
 Type:   Land
-S/R:    WWK-C, CMD-C, C13-C, C14-C
+S/R:    WWK-C, CMD-C, C13-C, C14-C, CMA-C, C17-C
 Bojuka Bog enters the battlefield tapped.
 When Bojuka Bog enters the battlefield, exile all cards from target player's graveyard.
 {T}: Add {B} to your mana pool.
@@ -4463,7 +4542,7 @@ S/R:    M12-C
 Name:   Bonehoard
 Cost:   4
 Type:   Artifact — Equipment
-S/R:    MBS-R, C14-R, C15-R, C16-R
+S/R:    MBS-R, C14-R, C15-R, C16-R, CMA-R
 Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
 Equipped creature gets +X/+X, where X is the number of creature cards in all graveyards.
 Equip {2}
@@ -4512,6 +4591,14 @@ P/T:    4/2
 S/R:    SCG-C
 Whenever a permanent is turned face up, Bonethorn Valesk deals 1 damage to target creature or player.
 
+Name:   Boneyard Scourge
+Cost:   2BB
+Type:   Creature — Zombie Dragon
+P/T:    4/3
+S/R:    C17-R
+Flying
+Whenever a Dragon you control dies while Boneyard Scourge is in your graveyard, you may pay {1}{B}. If you do, return Boneyard Scourge from your graveyard to the battlefield.
+
 Name:   Boneyard Wurm
 Cost:   1G
 Type:   Creature — Wurm
@@ -4534,6 +4621,12 @@ S/R:    AKH-M, MPS_AKH-S
 Menace, indestructible
 Bontu the Glorified can't attack or block unless a creature died under your control this turn.
 {1}{B}, Sacrifice another creature: Scry 1. Each opponent loses 1 life and you gain 1 life.
+
+Name:   Bontu's Last Reckoning
+Cost:   1BB
+Type:   Sorcery
+S/R:    HOU-R
+Destroy all creatures. Lands you control don't untap during your next untap step.
 
 Name:   Bontu's Monument
 Cost:   3
@@ -4755,14 +4848,14 @@ Prevent all combat damage that would be dealt by target attacking or blocking cr
 
 Name:   Boros Garrison
 Type:   Land
-S/R:    RAV-C, HOP-C, CMD-C, C13-C, MM2-U, C15-C, C16-U
+S/R:    RAV-C, HOP-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, CMA-C, C17-C
 Boros Garrison enters the battlefield tapped.
 When Boros Garrison enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {R}{W} to your mana pool.
 
 Name:   Boros Guildgate
 Type:   Land — Gate
-S/R:    GTC-C, DGM-C, C13-C, C15-C, MM3-C, DDL-C
+S/R:    GTC-C, DGM-C, C13-C, C15-C, MM3-C, C17-C, DDL-C
 Boros Guildgate enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
 
@@ -4770,7 +4863,7 @@ Name:   Boros Guildmage
 Cost:   (R/W)(R/W)
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    RAV-U, HOP-U, CMD-U
+S/R:    RAV-U, HOP-U, CMD-U, CMA-U
 {1}{R}: Target creature gains haste until end of turn.
 {1}{W}: Target creature gains first strike until end of turn.
 
@@ -4807,7 +4900,7 @@ First strike
 Name:   Boros Signet
 Cost:   2
 Type:   Artifact
-S/R:    RAV-C, HOP-C, CMD-C, C15-C, MM3-U
+S/R:    RAV-C, HOP-C, CMD-C, C15-C, MM3-U, CMA-C, C17-U
 {1}, {T}: Add {R}{W} to your mana pool.
 
 Name:   Boros Swiftblade
@@ -4847,7 +4940,7 @@ Choose one or both —
 Name:   Borrowing 100,000 Arrows
 Cost:   2U
 Type:   Sorcery
-S/R:    P3K-U, C13-U, ME3-U
+S/R:    P3K-U, C13-U, CMA-U, ME3-U
 Draw a card for each tapped creature target opponent controls.
 
 Name:   Borrowing the East Wind
@@ -5196,6 +5289,13 @@ P/T:    1/1
 S/R:    ROE-U
 Trample
 Tap an untapped creature you control: Bramblesnap gets +1/+1 until end of turn.
+
+Name:   Brambleweft Behemoth
+Cost:   4GG
+Type:   Creature — Elemental
+P/T:    6/6
+S/R:    HOU-C
+Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
 
 Name:   Bramblewood Paragon
 Cost:   1G
@@ -5987,7 +6087,7 @@ Name:   Broodmate Dragon
 Cost:   3BRG
 Type:   Creature — Dragon
 P/T:    4/4
-S/R:    ALA-R, MM3-R
+S/R:    ALA-R, MM3-R, C17-R
 Flying
 When Broodmate Dragon enters the battlefield, create a 4/4 red Dragon creature token with flying.
 
@@ -6443,6 +6543,14 @@ P/T:    3/3
 S/R:    SOK-U
 When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to target creature or player.
 
+Name:   Burning-Fist Minotaur
+Cost:   1R
+Type:   Creature — Minotaur Wizard
+P/T:    2/1
+S/R:    HOU-U
+First strike
+{1}{R}, Discard a card: Burning-Fist Minotaur gets +2/+0 until end of turn.
+
 Name:   Burning-Tree Bloodscale
 Cost:   2RG
 Type:   Creature — Viashino Berserker
@@ -6585,7 +6693,7 @@ Name:   Butcher of Malakir
 Cost:   5BB
 Type:   Creature — Vampire Warrior
 P/T:    5/4
-S/R:    WWK-R, CMD-R, C14-R, C15-R, DDK-R, DDP-R
+S/R:    WWK-R, CMD-R, C14-R, C15-R, CMA-R, C17-R, DDK-R, DDP-R
 Flying
 Whenever Butcher of Malakir or another creature you control dies, each opponent sacrifices a creature.
 

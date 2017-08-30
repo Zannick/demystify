@@ -359,6 +359,12 @@ S/R:    ISD-U, MM3-U
 Return target creature card from your graveyard to the battlefield.
 Flashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
+Name:   Uncage the Menagerie
+Cost:   XGG
+Type:   Sorcery
+S/R:    HOU-M
+Search your library for up to X creature cards with different names that each have converted mana cost X, reveal them, put them into your hand, then shuffle your library.
+
 Name:   Uncaged Fury
 Cost:   2R
 Type:   Instant
@@ -398,6 +404,13 @@ Type:   Enchantment — Aura
 S/R:    SCG-C
 Enchant nonbasic land
 When enchanted land becomes tapped, destroy it.
+
+Name:   Unconventional Tactics
+Cost:   2W
+Type:   Sorcery
+S/R:    HOU-U
+Target creature gets +3/+3 and gains flying until end of turn.
+Whenever a Zombie enters the battlefield under your control, you may pay {W}. If you do, return Unconventional Tactics from your graveyard to your hand.
 
 Name:   Uncovered Clues
 Cost:   2U
@@ -573,7 +586,7 @@ Constellation — Whenever Underworld Coinsmith or another enchantment enters th
 Name:   Underworld Connections
 Cost:   1BB
 Type:   Enchantment — Aura
-S/R:    RTR-R, C15-R, DDM-R
+S/R:    RTR-R, C15-R, C17-R, DDM-R
 Enchant land
 Enchanted land has "{T}, Pay 1 life: Draw a card."
 
@@ -641,6 +654,15 @@ Type:   Artifact
 S/R:    MI-U
 {3}, {T}, Tap an untapped creature you control: Unerring Sling deals damage equal to the tapped creature's power to target attacking or blocking creature with flying.
 
+Name:   Unesh, Criosphinx Sovereign
+Cost:   4UU
+Type:   Legendary Creature — Sphinx
+P/T:    4/4
+S/R:    HOU-M
+Flying
+Sphinx spells you cast cost {2} less to cast.
+Whenever Unesh, Criosphinx Sovereign or another Sphinx enters the battlefield under your control, reveal the top four cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
+
 Name:   Unexpected Results
 Cost:   2GU
 Type:   Sorcery
@@ -650,7 +672,7 @@ Shuffle your library, then reveal the top card. If it's a nonland card, you may 
 Name:   Unexpectedly Absent
 Cost:   XWW
 Type:   Instant
-S/R:    C13-R, EMA-R
+S/R:    C13-R, EMA-R, CMA-R
 Put target nonland permanent into its owner's library just beneath the top X cards of that library.
 
 Name:   Unflinching Courage
@@ -882,6 +904,14 @@ Type:   Instant
 S/R:    EVE-U
 Creatures your opponents control get -1/-0 until end of turn if {U} was spent to cast Unnerving Assault, and creatures you control get +1/+0 until end of turn if {R} was spent to cast it. (Do both if {U}{R} was spent.)
 
+Name:   Unquenchable Thirst
+Cost:   1U
+Type:   Enchantment — Aura
+S/R:    HOU-C
+Enchant creature
+When Unquenchable Thirst enters the battlefield, if you control a Desert or there is a Desert card in your graveyard, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.
+
 Name:   Unquestioned Authority
 Cost:   2W
 Type:   Enchantment — Aura
@@ -895,6 +925,14 @@ Cost:   1G
 Type:   Instant
 S/R:    BNG-U
 Choose target artifact or enchantment. Its owner shuffles it into his or her library.
+
+Name:   Unraveling Mummy
+Cost:   1WB
+Type:   Creature — Zombie
+P/T:    2/3
+S/R:    HOU-U
+{1}{W}: Target attacking Zombie gains lifelink until end of turn.
+{1}{B}: Target attacking Zombie gains deathtouch until end of turn.
 
 Name:   Unruly Mob
 Cost:   1W
@@ -957,7 +995,7 @@ At the beginning of the upkeep of enchanted creature's controller, put a -1/-1 c
 Name:   Unstable Obelisk
 Cost:   3
 Type:   Artifact
-S/R:    C14-U
+S/R:    C14-U, C17-U
 {T}: Add {C} to your mana pool.
 {7}, {T}, Sacrifice Unstable Obelisk: Destroy target permanent.
 
@@ -986,7 +1024,7 @@ Return target spell or creature to its owner's hand.
 Name:   Unsummon
 Cost:   U
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, 7E-C, 8ED-C, 10E-C, CON-C, M10-C, M11-C, M12-C, M13-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, 7E-C, 8ED-C, 10E-C, CON-C, M10-C, M11-C, M12-C, M13-C, HOU-C
 Return target creature to its owner's hand.
 
 Name:   Untaidake, the Cloud Keeper
@@ -1257,7 +1295,7 @@ Draw a card.
 
 Name:   Urborg Volcano
 Type:   Land
-S/R:    IN-U, 8ED-U
+S/R:    IN-U, 8ED-U, C17-U
 Urborg Volcano enters the battlefield tapped.
 {T}: Add {B} or {R} to your mana pool.
 
@@ -1446,7 +1484,7 @@ Name:   Utvara Hellkite
 Cost:   6RR
 Type:   Creature — Dragon
 P/T:    6/6
-S/R:    RTR-M
+S/R:    RTR-M, C17-M
 Flying
 Whenever a Dragon you control attacks, create a 6/6 red Dragon creature token with flying.
 

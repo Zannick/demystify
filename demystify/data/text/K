@@ -2,13 +2,13 @@ Name:   Kaalia of the Vast
 Cost:   1WBR
 Type:   Legendary Creature — Human Cleric
 P/T:    2/2
-S/R:    CMD-M
+S/R:    CMD-M, CMA-M
 Flying
 Whenever Kaalia of the Vast attacks an opponent, you may put an Angel, Demon, or Dragon creature card from your hand onto the battlefield tapped and attacking that opponent.
 
 Name:   Kabira Crossroads
 Type:   Land
-S/R:    ZEN-C, DDF-C
+S/R:    ZEN-C, C17-C, DDF-C
 Kabira Crossroads enters the battlefield tapped.
 When Kabira Crossroads enters the battlefield, you gain 2 life.
 {T}: Add {W} to your mana pool.
@@ -462,7 +462,7 @@ Name:   Karmic Guide
 Cost:   3WW
 Type:   Creature — Angel Spirit
 P/T:    2/2
-S/R:    UL-R, C13-R, EMA-R, VMA-R
+S/R:    UL-R, C13-R, EMA-R, CMA-R, VMA-R
 Flying, protection from black
 Echo {3}{W}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 When Karmic Guide enters the battlefield, return target creature card from your graveyard to the battlefield.
@@ -805,7 +805,7 @@ Name:   Kazandu Tuskcaller
 Cost:   1G
 Type:   Creature — Human Shaman
 P/T:    1/1
-S/R:    ROE-R, C13-R
+S/R:    ROE-R, C13-R, CMA-R
 Level up {1}{G} ({1}{G}: Put a level counter on this. Level up only as a sorcery.)
 {LEVEL 2-5} 1/1 {T}: Create a 3/3 green Elephant creature token.
 {LEVEL 6+} 1/1 {T}: Create two 3/3 green Elephant creature tokens.
@@ -1006,6 +1006,12 @@ Flying, indestructible
 Kefnet the Mindful can't attack or block unless you have seven or more cards in hand.
 {3}{U}: Draw a card, then you may return a land you control to its owner's hand.
 
+Name:   Kefnet's Last Word
+Cost:   2UU
+Type:   Sorcery
+S/R:    HOU-R
+Gain control of target artifact, creature, or enchantment. Lands you control don't untap during your next untap step.
+
 Name:   Kefnet's Monument
 Cost:   3
 Type:   Legendary Artifact
@@ -1161,7 +1167,7 @@ Name:   Kemba, Kha Regent
 Cost:   1WW
 Type:   Legendary Creature — Cat Cleric
 P/T:    2/4
-S/R:    SOM-R, C14-R
+S/R:    SOM-R, C14-R, C17-R
 At the beginning of your upkeep, create a 2/2 white Cat creature token for each Equipment attached to Kemba, Kha Regent.
 
 Name:   Kemuri-Onna
@@ -1198,11 +1204,19 @@ Indestructible
 As long as your devotion to blue and red is less than seven, Keranos isn't a creature.
 Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, Keranos deals 3 damage to target creature or player.
 
+Name:   Kess, Dissident Mage
+Cost:   1UBR
+Type:   Legendary Creature — Human Wizard
+P/T:    3/4
+S/R:    C17-M
+Flying
+During each of your turns, you may cast an instant or sorcery card from your graveyard. If a card cast this way would be put into your graveyard this turn, exile it instead.
+
 Name:   Kessig Cagebreakers
 Cost:   4G
 Type:   Creature — Human Rogue
 P/T:    3/4
-S/R:    ISD-R, C15-R
+S/R:    ISD-R, C15-R, CMA-R
 Whenever Kessig Cagebreakers attacks, create a 2/2 green Wolf creature token that's tapped and attacking for each creature card in your graveyard.
 
 Name:   Kessig Dire Swine
@@ -1306,7 +1320,7 @@ When Khalni Gem enters the battlefield, return two lands you control to their ow
 Name:   Khalni Heart Expedition
 Cost:   1G
 Type:   Enchantment
-S/R:    ZEN-C, DDP-C
+S/R:    ZEN-C, E01-C, DDP-C
 Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Khalni Heart Expedition.
 Remove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
 
@@ -1325,6 +1339,21 @@ P/T:    3/3
 S/R:    AKH-U
 Trample
 Other creatures you control have trample.
+
+Name:   Khenra Eternal
+Cost:   1B
+Type:   Creature — Zombie Jackal Warrior
+P/T:    2/2
+S/R:    HOU-C
+Afflict 1 (Whenever this creature becomes blocked, defending player loses 1 life.)
+
+Name:   Khenra Scrapper
+Cost:   2R
+Type:   Creature — Jackal Warrior
+P/T:    2/3
+S/R:    HOU-C
+Menace
+You may exert Khenra Scrapper as it attacks. When you do, it gets +2/+0 until end of turn. (An exerted creature won't untap during your next untap step.)
 
 Name:   Kher Keep
 Type:   Legendary Land
@@ -1354,6 +1383,15 @@ Type:   Creature — Zombie Wizard
 P/T:    4/4
 S/R:    KTK-R
 At the beginning of your upkeep, you may pay {2}{B}. If you do, return a creature card at random from your graveyard to the battlefield. It gains flying, trample, and haste. Exile that card at the beginning of your next end step. If it would leave the battlefield, exile it instead of putting it anywhere else.
+
+Name:   Kheru Mind-Eater
+Cost:   2B
+Type:   Creature — Vampire
+P/T:    1/3
+S/R:    C17-R
+Menace
+Whenever Kheru Mind-Eater deals combat damage to a player, that player exiles a card from his or her hand face down.
+You may look at and play cards exiled with Kheru Mind-Eater.
 
 Name:   Kheru Spellsnatcher
 Cost:   3U
@@ -1495,7 +1533,7 @@ Discard a card at random. If you do, Kindle the Carnage deals damage equal to th
 Name:   Kindled Fury
 Cost:   R
 Type:   Instant
-S/R:    MOR-C, M10-C, M13-C, DTK-C
+S/R:    MOR-C, M10-C, M13-C, DTK-C, HOU-C
 Target creature gets +1/+0 and gains first strike until end of turn.
 
 Name:   Kindly Stranger
@@ -1506,6 +1544,39 @@ M-type: Transform
 M-card: Demon-Possessed Witch
 S/R:    SOI-U
 Delirium — {2}{B}: Transform Kindly Stranger. Activate this ability only if there are four or more card types among cards in your graveyard.
+
+Name:   Kindred Boon
+Cost:   2WW
+Type:   Enchantment
+S/R:    C17-R
+As Kindred Boon enters the battlefield, choose a creature type.
+{1}{W}: Put a divinity counter on target creature you control of the chosen type.
+Each creature you control with a divinity counter on it has indestructible.
+
+Name:   Kindred Charge
+Cost:   4RR
+Type:   Sorcery
+S/R:    C17-R
+Choose a creature type. For each creature you control of the chosen type, create a token that's a copy of that creature. Those tokens gain haste. Exile them at the beginning of the next end step.
+
+Name:   Kindred Discovery
+Cost:   3UU
+Type:   Enchantment
+S/R:    C17-R
+As Kindred Discovery enters the battlefield, choose a creature type.
+Whenever a creature you control of the chosen type enters the battlefield or attacks, draw a card.
+
+Name:   Kindred Dominance
+Cost:   5BB
+Type:   Sorcery
+S/R:    C17-R
+Choose a creature type. Destroy all creatures that aren't of the chosen type.
+
+Name:   Kindred Summons
+Cost:   5GG
+Type:   Instant
+S/R:    C17-R
+Choose a creature type. Reveal cards from the top of your library until you reveal X creature cards of the chosen type, where X is the number of creatures you control of that type. Put those cards onto the battlefield, then shuffle the rest of the revealed cards into your library.
 
 Name:   King Cheetah
 Cost:   3G
@@ -1670,7 +1741,7 @@ Threshold — Enchanted creature can't block as long as seven or more cards are 
 Name:   Kirtar's Wrath
 Cost:   4WW
 Type:   Sorcery
-S/R:    OD-R, C13-R
+S/R:    OD-R, C13-R, CMA-R
 Destroy all creatures. They can't be regenerated.
 Threshold — If seven or more cards are in your graveyard, instead destroy all creatures, then create two 1/1 white Spirit creature tokens with flying. Creatures destroyed this way can't be regenerated.
 
@@ -1678,7 +1749,7 @@ Name:   Kismet
 Cost:   3W
 Type:   Enchantment
 S/R:    LE-U, 4E-U, 5E-U, 6E-U, ME4-R
-Artifacts, creatures, and lands played by your opponents enter the battlefield tapped.
+Artifacts, creatures, and lands your opponents control enter the battlefield tapped.
 
 Name:   Kiss of Death
 Cost:   4BB
@@ -2342,7 +2413,7 @@ Splice onto Arcane {G} (As you cast an Arcane spell, you may reveal this card fr
 Name:   Kodama's Reach
 Cost:   2G
 Type:   Sorcery — Arcane
-S/R:    CHK-C, CMD-C, MMA-C, C15-C, C16-C
+S/R:    CHK-C, CMD-C, MMA-C, C15-C, C16-C, C17-C
 Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Then shuffle your library.
 
 Name:   Kokusho, the Evening Star
@@ -2406,7 +2477,7 @@ Name:   Kolaghan, the Storm's Fury
 Cost:   3BR
 Type:   Legendary Creature — Dragon
 P/T:    4/5
-S/R:    FRF-R
+S/R:    FRF-R, C17-R
 Flying
 Whenever a Dragon you control attacks, creatures you control get +1/+0 until end of turn.
 Dash {3}{B}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
@@ -2615,7 +2686,7 @@ Name:   Korozda Guildmage
 Cost:   BG
 Type:   Creature — Elf Shaman
 P/T:    2/2
-S/R:    RTR-U, C15-U, C16-U, DDJ-U
+S/R:    RTR-U, C15-U, C16-U, CMA-U, DDJ-U
 {1}{B}{G}: Target creature gets +1/+1 and gains intimidate until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 {2}{B}{G}, Sacrifice a nontoken creature: Create X 1/1 green Saproling creature tokens, where X is the sacrificed creature's toughness.
 
@@ -2983,7 +3054,7 @@ Creature spells you cast with converted mana cost 6 or greater cost {2} less to 
 Name:   Krosan Grip
 Cost:   2G
 Type:   Instant
-S/R:    TSP-U, MMA-U, C13-U, C15-U
+S/R:    TSP-U, MMA-U, C13-U, C15-U, CMA-U
 Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
 Destroy target artifact or enchantment.
 
@@ -3019,7 +3090,7 @@ When you cycle Krosan Tusker, you may search your library for a basic land card,
 
 Name:   Krosan Verge
 Type:   Land
-S/R:    JUD-U, ARC-U, PC2-U, C16-U, PCA-U
+S/R:    JUD-U, ARC-U, PC2-U, C16-U, PCA-U, C17-U
 Krosan Verge enters the battlefield tapped.
 {T}: Add {C} to your mana pool.
 {2}, {T}, Sacrifice Krosan Verge: Search your library for a Forest card and a Plains card and put them onto the battlefield tapped. Then shuffle your library.
