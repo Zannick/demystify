@@ -54,6 +54,8 @@ tokens {
     AFFECT;
     AFFECTED;
     AFFINITY;
+    AFFLICT;
+    AFFLICTED;
     AFTER;
     AFTERMATH;
     AGAIN;
@@ -302,6 +304,8 @@ tokens {
     EQUIPPING;
     ESCALATE;
     ESCALATED;
+    ETERNALIZE;
+    ETERNALIZED;
     EVEN;
     EVENLY;
     EVERY;
@@ -354,6 +358,7 @@ tokens {
     FLIPPING;
     FLYING;
     FOLLOWED;
+    FOLLOWING;
     FOR;
     FORECAST;
     FORTIFIED;
@@ -914,6 +919,7 @@ ABILITY_WORD : 'will of the council'
              | 'threshold'
              | 'converge'
              | 'delirium'
+             | 'eminence'
              | 'grandeur'
              | 'hellbent'
              | 'inspired'
@@ -967,6 +973,7 @@ DECLARATION : 'declaration';
 DISTRIBUTED : 'distributed';
 ENCHANTMENT : 'enchantments'
             | 'enchantment';
+ETERNALIZED : 'eternalized';
 FATESEALING : 'fatesealing';
 IMMEDIATELY : 'immediately';
 INVESTIGATE : 'investigates'
@@ -1069,6 +1076,7 @@ OBJ_COUNTER : 'manifestation'
             | 'unity'
             | 'verse'
             | 'winch'
+            | 'cage'
             | 'cube'
             | 'doom'
             | 'fade'
@@ -1566,6 +1574,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'rhino'
             | 'rogue'
             | 'sable'
+            | 'samut'
             | 'satyr'
             | 'scion'
             | 'scout'
@@ -1712,6 +1721,8 @@ DISCARDING : 'discarding';
 DISTRIBUTE : 'distributes'
            | 'distribute';
 ENCHANTING : 'enchanting';
+ETERNALIZE : 'eternalizes'
+           | 'eternalize';
 EVERYTHING : 'everything';
 EXCHANGING : 'exchanging';
 FABRICATED : 'fabricated';
@@ -1747,6 +1758,7 @@ UNATTACHED : 'unattached';
 ABANDONED : 'abandoned';
 ABSORBING : 'absorbing';
 ACTIVATED : 'activated';
+AFFLICTED : 'afflicted';
 AFTERMATH : 'aftermath';
 AMPLIFIED : 'amplified';
 ASSEMBLED : 'assembled';
@@ -1782,6 +1794,7 @@ FABRICATE : 'fabricates'
 FACE_DOWN : 'face down'
           | 'face-down';
 FLASHBACK : 'flashback';
+FOLLOWING : 'following';
 FORTIFIED : 'fortified';
 GRAVEYARD : 'graveyards'
           | 'graveyard';
@@ -1963,6 +1976,8 @@ ABANDON : 'abandons'
         | 'abandon';
 ABILITY : 'abilities'
         | 'ability';
+AFFLICT : 'afflicts'
+        | 'afflict';
 ALREADY : 'already';
 AMPLIFY : 'amplifies'
         | 'amplify';

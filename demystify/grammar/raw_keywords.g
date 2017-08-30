@@ -147,6 +147,7 @@ raw_keyword_cost : EQUIP
                  | EMERGE
                  | ENTWINE
                  | ESCALATE
+                 | ETERNALIZE
                  | EVOKE
                  | FLASHBACK
                  | FORTIFY
@@ -170,6 +171,7 @@ raw_keyword_cost : EQUIP
                  ;
 
 raw_keyword_int : ABSORB
+                | AFFLICT
                 | AMPLIFY
                 | ANNIHILATOR
                 | BLOODTHIRST
