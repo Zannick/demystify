@@ -818,7 +818,7 @@ def matching_text(text, cards=None, reflags=re.I|re.U, group=0):
     return a
 
 def counter_types(cards=None):
-    """ Returns a list of counter types namd in the given cards. """
+    """ Returns a list of counter types named in the given cards. """
     cwords = preceding_words('counter', cards=cards)
     # Disallow punctuation, common words, and words about countering spells.
     cwords = {w for w in cwords if w and w[-1] not in '—-,.:\'"'}
