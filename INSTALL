@@ -43,7 +43,7 @@ You will need a jar file from the ANTLR website. The jar files with "complete"
 in the name contain everything you need. Put it in a location where jpackage
 will find it, such as /usr/share/java.
 
-    antlr-3.5-complete.jar
+    antlr-3.5.2-complete.jar
         Available at http://www.antlr3.org/download/
 It might have been updated, eg.
     antlr-3.5.2-complete.jar
@@ -67,7 +67,7 @@ is in your PATH).
 ======
 
 At this point you should be able to run "antlr3" on the command line and get:
-ANTLR Parser Generator  Version 3.5
+ANTLR Parser Generator  Version 3.5.2
 usage: java org.antlr.Tool [args] file.g [file2.g file3.g ...]
 
 If you don't, there was an issue installing something earlier:
@@ -80,7 +80,7 @@ If you don't, there was an issue installing something earlier:
 6) python-progressbar2 (currently 3.3)
 
 $ sudo apt-get install python3-pip
-$ sudo pip3 install progressbar2
+$ pip3 install --user progressbar2
 
 If you'd rather install from source, the project is here:
 http://github.com/WoLpH/python-progressbar
