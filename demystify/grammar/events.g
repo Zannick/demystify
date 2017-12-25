@@ -57,6 +57,7 @@ event : zone_transfer
       | dies_damaged
       | discard_card
       | draw_card
+      | EXPLORE  // intransitive verb
       | gain_life
       | kick_stuff
       | lose_control

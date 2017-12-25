@@ -59,7 +59,8 @@ obj_counter : OBJ_COUNTER
             | POISON
             | TIME
             | TOWER
-            | TRAP;
+            | TRAP
+            | TREASURE;
 
 obj_subtype : OBJ_SUBTYPE
             | AURA
@@ -70,6 +71,7 @@ obj_subtype : OBJ_SUBTYPE
             | PHYREXIA
             | TOWER
             | TRAP
+            | TREASURE
             | BOLAS APOS_S MEDITATION REALM -> BOLASS_MEDITATION_REALM
             | NEW PHYREXIA -> NEW_PHYREXIA;
 

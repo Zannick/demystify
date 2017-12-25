@@ -202,6 +202,9 @@ raw_keyword_quality : bands_with_other
                     ;
 
 /* Keyword actions. */
+// These are taken by players, either implicitly ("then manifest"),
+// or explicitly ("its controller manifests"). That leaves out
+// keyword actions by other objects, eg. explore ("it explores").
 
 raw_keyword_action : raw_keyword_action_no_args
                    | raw_keyword_action_int

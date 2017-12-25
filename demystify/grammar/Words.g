@@ -329,6 +329,8 @@ tokens {
     EXPANSION;
     EXPLOIT;
     EXPLOITED;
+    EXPLORE;
+    EXPLORED;
     EXTORT;
     EXTORTED;
     EXTRA;
@@ -819,6 +821,7 @@ tokens {
     TRANSMUTE;
     TRANSMUTED;
     TRAP;
+    TREASURE;
     TRIBAL;
     TRIBUTE;
     TRIGGER;
@@ -931,6 +934,7 @@ ABILITY_WORD : 'will of the council'
              | 'chroma'
              | 'cohort'
              | 'domain'
+             | 'enrage'
              | 'heroic'
              | 'morbid'
              | 'parley'
@@ -1022,9 +1026,9 @@ OBJ_COUNTER : 'manifestation'
             | 'mannequin'
             | 'currency'
             | 'divinity'
+            | 'landmark'
             | 'pressure'
             | 'training'
-            | 'treasure'
             | 'velocity'
             | 'vitality'
             | 'bribery'
@@ -1166,6 +1170,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'scarecrows'
             | 'shadowmoor'
             | 'tetravites'
+            | 'trilobites'
             | 'werewolves'
             | 'wolverines'
             | 'anteaters'
@@ -1182,6 +1187,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'construct'
             | 'crocodile'
             | 'deserters'
+            | 'dinosaurs'
             | 'dominaria'
             | 'elemental'
             | 'elephants'
@@ -1218,6 +1224,8 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'surrakars'
             | 'survivors'
             | 'tetravite'
+            | 'treasures'
+            | 'trilobite'
             | 'vedalkens'
             | 'viashinos'
             | 'wolverine'
@@ -1234,6 +1242,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'chimeras'
             | 'citizens'
             | 'deserter'
+            | 'dinosaur'
             | 'eldrazis'
             | 'elephant'
             | 'gargoyle'
@@ -1425,6 +1434,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'horror'
             | 'horses'
             | 'hounds'
+            | 'huatli'
             | 'humans'
             | 'hydras'
             | 'hyenas'
@@ -1901,6 +1911,7 @@ ESCALATE : 'escalates'
          | 'escalate';
 EXCHANGE : 'exchanges'
          | 'exchange';
+EXPLORED : 'explored';
 EXTORTED : 'extorted';
 FATESEAL : 'fateseals'
          | 'fateseal';
@@ -1965,6 +1976,7 @@ TARGETED : 'targeted';
 TEAMMATE : 'teammates'
          | 'teammate';
 TRAMPLED : 'trampled';
+TREASURE : 'treasure';
 UNATTACH : 'unattaches'
          | 'unattach';
 UNOPENED : 'unopened';
@@ -2034,6 +2046,8 @@ EXERTED : 'exerted';
 EXILING : 'exiling';
 EXPLOIT : 'exploits'
         | 'exploit';
+EXPLORE : 'explores'
+        | 'explore';
 FACE_UP : 'face up'
         | 'face-up';
 FEATHER : 'feather';
