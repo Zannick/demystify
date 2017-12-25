@@ -17,7 +17,7 @@ Cost:   1RR
 Type:   Creature — Cat
 P/T:    2/1
 S/R:    RAV-C
-Sabertooth Alley Cat attacks each turn if able.
+Sabertooth Alley Cat attacks each combat if able.
 {1}{R}: Creatures without defender can't block Sabertooth Alley Cat this turn.
 
 Name:   Sabertooth Cobra
@@ -398,7 +398,7 @@ Morph {3}{G}{U} (You may cast this card face down as a 2/2 creature for {3}. Tur
 
 Name:   Saheeli Rai
 Cost:   1UR
-Type:   Planeswalker — Saheeli
+Type:   Legendary Planeswalker — Saheeli
 P/T:    3
 S/R:    KLD-M
 [+1]: Scry 1. Saheeli Rai deals 1 damage to each opponent.
@@ -427,6 +427,13 @@ Type:   Creature — Human Monger
 P/T:    3/3
 S/R:    MM-U
 {2}: Target creature gains flying until end of turn. Any player may activate this ability.
+
+Name:   Sailor of Means
+Cost:   2U
+Type:   Creature — Human Pirate
+P/T:    1/4
+S/R:    XLN-C
+When Sailor of Means enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Sakashima the Impostor
 Cost:   2UU
@@ -681,7 +688,7 @@ Other creatures you control have haste.
 
 Name:   Samut, the Tested
 Cost:   2RG
-Type:   Planeswalker — Samut
+Type:   Legendary Planeswalker — Samut
 P/T:    4
 S/R:    HOU-M
 [+1]: Up to one target creature gains double strike until end of turn.
@@ -751,6 +758,13 @@ P/T:    2/2
 S/R:    CN2-M
 As Sanctum Prelate enters the battlefield, choose a number.
 Noncreature spells with converted mana cost equal to the chosen number can't be cast.
+
+Name:   Sanctum Seeker
+Cost:   2BB
+Type:   Creature — Vampire Knight
+P/T:    3/4
+S/R:    XLN-R
+Whenever a Vampire you control attacks, each opponent loses 1 life and you gain 1 life.
 
 Name:   Sanctum of Ugin
 Type:   Land
@@ -1012,6 +1026,12 @@ P/T:    7/5
 S/R:    GPT-R
 {B}, Sacrifice a creature: Destroy each creature with the same converted mana cost as the sacrificed creature.
 
+Name:   Sanguine Sacrament
+Cost:   XWW
+Type:   Instant
+S/R:    XLN-R
+You gain twice X life. Put Sanguine Sacrament on the bottom of its owner's library.
+
 Name:   Sanitarium Skeleton
 Cost:   B
 Type:   Creature — Skeleton
@@ -1187,7 +1207,7 @@ S/R:    FUT-C, HOP-C
 
 Name:   Sarkhan Unbroken
 Cost:   2GUR
-Type:   Planeswalker — Sarkhan
+Type:   Legendary Planeswalker — Sarkhan
 P/T:    4
 S/R:    DTK-M
 [+1]: Draw a card, then add one mana of any color to your mana pool.
@@ -1196,7 +1216,7 @@ S/R:    DTK-M
 
 Name:   Sarkhan Vol
 Cost:   2RG
-Type:   Planeswalker — Sarkhan
+Type:   Legendary Planeswalker — Sarkhan
 P/T:    4
 S/R:    ALA-M, MMA-M
 [+1]: Creatures you control get +1/+1 and gain haste until end of turn.
@@ -1205,7 +1225,7 @@ S/R:    ALA-M, MMA-M
 
 Name:   Sarkhan the Mad
 Cost:   3BR
-Type:   Planeswalker — Sarkhan
+Type:   Legendary Planeswalker — Sarkhan
 P/T:    7
 S/R:    ROE-M
 [0]: Reveal the top card of your library and put it into your hand. Sarkhan the Mad deals damage to himself equal to that card's converted mana cost.
@@ -1226,7 +1246,7 @@ Search your library for a Dragon creature card, reveal it, put it into your hand
 
 Name:   Sarkhan, the Dragonspeaker
 Cost:   3RR
-Type:   Planeswalker — Sarkhan
+Type:   Legendary Planeswalker — Sarkhan
 P/T:    4
 S/R:    KTK-M
 [+1]: Until end of turn, Sarkhan, the Dragonspeaker becomes a legendary 4/4 red Dragon creature with flying, indestructible, and haste. (He doesn't lose loyalty while he's not a planeswalker.)
@@ -1423,6 +1443,13 @@ Type:   Enchantment — Aura
 S/R:    ZEN-C
 Enchant creature
 Enchanted creature gets +2/+2 and has "{1}{G}: Regenerate this creature."
+
+Name:   Savage Stomp
+Cost:   2G
+Type:   Sorcery
+S/R:    XLN-U
+Savage Stomp costs {2} less to cast if it targets a Dinosaur you control.
+Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don't control. (Each deals damage equal to its power to the other.)
 
 Name:   Savage Summoning
 Cost:   G
@@ -2963,6 +2990,14 @@ Type:   Sorcery
 S/R:    RTR-C
 Target player reveals his or her hand. You gain life equal to the number of cards in that player's hand.
 
+Name:   Search for Azcanta
+Cost:   1U
+Type:   Legendary Enchantment
+M-type: Transform
+M-card: Azcanta, the Sunken Ruin
+S/R:    XLN-R
+At the beginning of your upkeep, look at the top card of your library. You may put it into your graveyard. Then if you have seven or more cards in your graveyard, you may transform Search for Azcanta.
+
 Name:   Search for Survivors
 Cost:   2R
 Type:   Sorcery
@@ -3414,6 +3449,13 @@ P/T:    2/2
 S/R:    KTK-U
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever you cast a noncreature spell, Seeker of the Way gains lifelink until end of turn.
+
+Name:   Seekers' Squire
+Cost:   1B
+Type:   Creature — Human Scout
+P/T:    1/2
+S/R:    XLN-U
+When Seekers' Squire enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 
 Name:   Seer of the Last Tomorrow
 Cost:   2U
@@ -3931,6 +3973,13 @@ P/T:    4/4
 S/R:    M13-C, EMA-C
 Vigilance (Attacking doesn't cause this creature to tap.)
 Reach (This creature can block creatures with flying.)
+
+Name:   Sentinel Totem
+Cost:   1
+Type:   Artifact
+S/R:    XLN-U
+When Sentinel Totem enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}, Exile Sentinel Totem: Exile all cards from all graveyards.
 
 Name:   Sentinel of the Eternal Watch
 Cost:   5W
@@ -4473,6 +4522,12 @@ P/T:    2/2
 S/R:    OD-R
 Tap an untapped Druid you control: Add {G} to your mana pool.
 
+Name:   Settle the Wreckage
+Cost:   2WW
+Type:   Instant
+S/R:    XLN-R
+Exile all attacking creatures target player controls. That player may search his or her library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle his or her library.
+
 Name:   Sever Soul
 Cost:   3BB
 Type:   Sorcery
@@ -4680,6 +4735,14 @@ Type:   Creature — Vampire
 P/T:    4/3
 S/R:    M15-C
 Pay 2 life: Shadowcloak Vampire gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)
+
+Name:   Shadowed Caravel
+Cost:   2
+Type:   Artifact — Vehicle
+P/T:    2/2
+S/R:    XLN-R
+Whenever a creature you control explores, put a +1/+1 counter on Shadowed Caravel.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 
 Name:   Shadowfeed
 Cost:   B
@@ -4906,6 +4969,13 @@ Type:   Instant
 S/R:    DTK-C
 Target creature gets +0/+5 and gains reach until end of turn. (It can block creatures with flying.)
 
+Name:   Shaper Apprentice
+Cost:   1U
+Type:   Creature — Merfolk Wizard
+P/T:    2/1
+S/R:    XLN-C
+Shaper Apprentice has flying as long as you control another Merfolk.
+
 Name:   Shaper Guildmage
 Cost:   U
 Type:   Creature — Human Wizard
@@ -4921,6 +4991,20 @@ P/T:    2/3
 S/R:    PLC-C, C14-C
 Morph {2}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Shaper Parasite is turned face up, target creature gets +2/-2 or -2/+2 until end of turn.
+
+Name:   Shapers of Nature
+Cost:   1GU
+Type:   Creature — Merfolk Shaman
+P/T:    3/3
+S/R:    XLN-U
+{3}{G}: Put a +1/+1 counter on target creature.
+{2}{U}, Remove a +1/+1 counter from a creature you control: Draw a card.
+
+Name:   Shapers' Sanctuary
+Cost:   G
+Type:   Enchantment
+S/R:    XLN-R
+Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may draw a card.
 
 Name:   Shapesharer
 Cost:   1U
@@ -5228,6 +5312,12 @@ P/T:    5/5
 S/R:    CSP-U
 Trample
 Cumulative upkeep—Put a +1/+1 counter on a creature an opponent controls. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
+
+Name:   Sheltering Light
+Cost:   W
+Type:   Instant
+S/R:    XLN-U
+Target creature gains indestructible until end of turn. Scry 1. (Damage and effects that say "destroy" don't destroy the creature.)
 
 Name:   Sheltering Prayers
 Cost:   W
@@ -5611,6 +5701,13 @@ Flying
 Shinewend enters the battlefield with a +1/+1 counter on it.
 {1}{W}, Remove a +1/+1 counter from Shinewend: Destroy target enchantment.
 
+Name:   Shining Aerosaur
+Cost:   4W
+Type:   Creature — Dinosaur
+P/T:    3/4
+S/R:    XLN-C
+Flying
+
 Name:   Shining Shoal
 Cost:   XWW
 Type:   Instant — Arcane
@@ -5638,6 +5735,13 @@ P/T:    6/6
 S/R:    THS-R
 {6}{U}{U}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)
 When Shipbreaker Kraken becomes monstrous, tap up to four target creatures. Those creatures don't untap during their controllers' untap steps for as long as you control Shipbreaker Kraken.
+
+Name:   Shipwreck Looter
+Cost:   1U
+Type:   Creature — Human Pirate
+P/T:    2/1
+S/R:    XLN-C
+Raid — When Shipwreck Looter enters the battlefield, if you attacked with a creature this turn, you may draw a card. If you do, discard a card.
 
 Name:   Shipwreck Moray
 Cost:   3U
@@ -5738,7 +5842,7 @@ When Shivan Phoenix dies, return Shivan Phoenix to its owner's hand.
 
 Name:   Shivan Raptor
 Cost:   2R
-Type:   Creature — Lizard
+Type:   Creature — Dinosaur
 P/T:    3/1
 S/R:    US-U
 First strike, haste
@@ -5831,6 +5935,13 @@ P/T:    4/4
 S/R:    FRF-U
 Flying
 Whenever Shockmaw Dragon deals combat damage to a player, it deals 1 damage to each creature that player controls.
+
+Name:   Shore Keeper
+Cost:   U
+Type:   Creature — Trilobite
+P/T:    0/3
+S/R:    XLN-C
+{7}{U}, {T}, Sacrifice Shore Keeper: Draw three cards.
 
 Name:   Shore Snapper
 Cost:   2B
@@ -7402,12 +7513,28 @@ S/R:    CHK-U
 Flying
 Whenever you cast a Spirit or Arcane spell, you may draw a card.
 
+Name:   Siren Lookout
+Cost:   2U
+Type:   Creature — Siren Pirate
+P/T:    1/2
+S/R:    XLN-C
+Flying
+When Siren Lookout enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
 Name:   Siren Song Lyre
 Cost:   2
 Type:   Artifact — Equipment
 S/R:    BNG-U
 Equipped creature has "{2}, {T}: Tap target creature."
 Equip {2}
+
+Name:   Siren Stormtamer
+Cost:   U
+Type:   Creature — Siren Pirate Wizard
+P/T:    1/1
+S/R:    XLN-U
+Flying
+{U}, Sacrifice Siren Stormtamer: Counter target spell or ability that targets you or a creature you control.
 
 Name:   Siren of the Fanged Coast
 Cost:   3UU
@@ -7433,6 +7560,12 @@ S/R:    A-U, B-U, U-U, RV-U, 4E-U
 Cast Siren's Call only during an opponent's turn, before attackers are declared.
 Creatures the active player controls attack this turn if able.
 At the beginning of the next end step, destroy all non-Wall creatures that player controls that didn't attack this turn. Ignore this effect for each creature the player didn't control continuously since the beginning of the turn.
+
+Name:   Siren's Ruse
+Cost:   1U
+Type:   Instant
+S/R:    XLN-C
+Exile target creature you control, then return that card to the battlefield under its owner's control. If a Pirate was exiled this way, draw a card.
 
 Name:   Sirocco
 Cost:   1R
@@ -7872,6 +8005,13 @@ S/R:    CN2-C
 {6}{U}: Monstrosity 4. (If this creature isn't monstrous, put four +1/+1 counters on it and it becomes monstrous.)
 As long as Skittering Crustacean is monstrous, it has hexproof. (It can't be the target of spells or abilities your opponents control.)
 
+Name:   Skittering Heartstopper
+Cost:   B
+Type:   Creature — Insect
+P/T:    1/2
+S/R:    XLN-C
+{B}: Skittering Heartstopper gains deathtouch until end of turn.
+
 Name:   Skittering Horror
 Cost:   2B
 Type:   Creature — Horror
@@ -7946,6 +8086,12 @@ Cost:   R
 Type:   Instant
 S/R:    CSP-C
 Skred deals damage to target creature equal to the number of snow permanents you control.
+
+Name:   Skulduggery
+Cost:   B
+Type:   Instant
+S/R:    XLN-C
+Until end of turn, target creature you control gets +1/+1 and target creature an opponent controls gets -1/-1.
 
 Name:   Skulking Fugitive
 Cost:   2B
@@ -8146,6 +8292,13 @@ S/R:    GPT-R
 Flying
 When Sky Swallower enters the battlefield, target opponent gains control of all other permanents you control.
 
+Name:   Sky Terror
+Cost:   RW
+Type:   Creature — Dinosaur
+P/T:    2/2
+S/R:    XLN-U
+Flying, menace
+
 Name:   Sky Weaver
 Cost:   1U
 Type:   Creature — Metathran Wizard
@@ -8166,6 +8319,13 @@ Cost:   3WW
 Type:   Enchantment
 S/R:    JOU-R
 Constellation — Whenever Skybind or another enchantment enters the battlefield under your control, exile target nonenchantment permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+
+Name:   Skyblade of the Legion
+Cost:   1W
+Type:   Creature — Vampire Soldier
+P/T:    1/3
+S/R:    XLN-C
+Flying
 
 Name:   Skyblinder Staff
 Cost:   1
@@ -8274,6 +8434,14 @@ P/T:    3/4
 S/R:    RTR-U
 Flash (You may cast this spell any time you could cast an instant.)
 Flying
+
+Name:   Skymarch Bloodletter
+Cost:   2B
+Type:   Creature — Vampire Soldier
+P/T:    2/2
+S/R:    XLN-C
+Flying
+When Skymarch Bloodletter enters the battlefield, target opponent loses 1 life and you gain 1 life.
 
 Name:   Skymark Roc
 Cost:   2WU
@@ -8610,6 +8778,12 @@ S/R:    NPH-C
 ({(r/p)} can be paid with either {R} or 2 life.)
 Haste
 
+Name:   Slash of Talons
+Cost:   W
+Type:   Instant
+S/R:    XLN-C
+Slash of Talons deals 2 damage to target attacking or blocking creature.
+
 Name:   Slashing Tiger
 Cost:   2GG
 Type:   Creature — Cat
@@ -8728,6 +8902,13 @@ S/R:    AVR-R
 {T}: Add {C} to your mana pool.
 {R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn.
 
+Name:   Sleek Schooner
+Cost:   3
+Type:   Artifact — Vehicle
+P/T:    4/3
+S/R:    XLN-U
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Sleep
 Cost:   2UU
 Type:   Sorcery
@@ -8798,7 +8979,7 @@ When you cycle Slice and Dice, you may have it deal 1 damage to each creature.
 Name:   Slice in Twain
 Cost:   2GG
 Type:   Instant
-S/R:    SOM-U, C13-U
+S/R:    SOM-U, C13-U, XLN-U
 Destroy target artifact or enchantment.
 Draw a card.
 
@@ -9379,6 +9560,14 @@ Type:   Creature — Beast
 P/T:    2/2
 S/R:    BFZ-C
 Landfall — Whenever a land enters the battlefield under your control, Snapping Gnarlid gets +1/+1 until end of turn.
+
+Name:   Snapping Sailback
+Cost:   4G
+Type:   Creature — Dinosaur
+P/T:    4/4
+S/R:    XLN-U
+Flash
+Enrage — Whenever Snapping Sailback is dealt damage, put a +1/+1 counter on it. (It must survive the damage to get the counter.)
 
 Name:   Snapping Thragg
 Cost:   4R
@@ -10128,9 +10317,16 @@ S/R:    P1-C
 Look at target opponent's hand.
 Draw a card.
 
+Name:   Sorcerous Spyglass
+Cost:   2
+Type:   Artifact
+S/R:    XLN-R
+As Sorcerous Spyglass enters the battlefield, look at an opponent's hand, then choose any card name.
+Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.
+
 Name:   Sorin Markov
 Cost:   3BBB
-Type:   Planeswalker — Sorin
+Type:   Legendary Planeswalker — Sorin
 P/T:    4
 S/R:    ZEN-M, M12-M
 [+2]: Sorin Markov deals 2 damage to target creature or player and you gain 2 life.
@@ -10151,7 +10347,7 @@ Sorin's Vengeance deals 10 damage to target player and you gain 10 life.
 
 Name:   Sorin, Grim Nemesis
 Cost:   4WB
-Type:   Planeswalker — Sorin
+Type:   Legendary Planeswalker — Sorin
 P/T:    6
 S/R:    SOI-M
 [+1]: Reveal the top card of your library and put that card into your hand. Each opponent loses life equal to its converted mana cost.
@@ -10159,7 +10355,7 @@ S/R:    SOI-M
 
 Name:   Sorin, Lord of Innistrad
 Cost:   2WB
-Type:   Planeswalker — Sorin
+Type:   Legendary Planeswalker — Sorin
 P/T:    3
 S/R:    DKA-M, DDK-M
 [+1]: Create a 1/1 black Vampire creature token with lifelink.
@@ -10168,7 +10364,7 @@ S/R:    DKA-M, DDK-M
 
 Name:   Sorin, Solemn Visitor
 Cost:   2WB
-Type:   Planeswalker — Sorin
+Type:   Legendary Planeswalker — Sorin
 P/T:    4
 S/R:    KTK-M
 [+1]: Until your next turn, creatures you control get +1/+0 and gain lifelink.
@@ -11171,7 +11367,7 @@ Counter target spell. If that spell is countered this way, put it on the bottom 
 Name:   Spell Pierce
 Cost:   U
 Type:   Instant
-S/R:    ZEN-C, MM3-C, MPS_AKH-S
+S/R:    ZEN-C, MM3-C, MPS_AKH-S, XLN-C
 Counter target noncreature spell unless its controller pays {2}.
 
 Name:   Spell Queller
@@ -11209,6 +11405,12 @@ Type:   Instant
 S/R:    ALA-C
 Counter target spell unless its controller pays {1}.
 Cycling {2} ({2}, Discard this card: Draw a card.)
+
+Name:   Spell Swindle
+Cost:   3UU
+Type:   Instant
+S/R:    XLN-R
+Counter target spell. Create X colorless Treasure artifact tokens, where X is that spell's converted mana cost. They have "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Spell Syphon
 Cost:   1U
@@ -11667,6 +11869,13 @@ S/R:    ST-C
 Spike Worker enters the battlefield with two +1/+1 counters on it.
 {2}, Remove a +1/+1 counter from Spike Worker: Put a +1/+1 counter on target creature.
 
+Name:   Spike-Tailed Ceratops
+Cost:   4G
+Type:   Creature — Dinosaur
+P/T:    4/4
+S/R:    XLN-C
+Spike-Tailed Ceratops can block an additional creature each combat.
+
 Name:   Spiked Baloth
 Cost:   3G
 Type:   Creature — Beast
@@ -11945,6 +12154,15 @@ S/R:    KLD-R
 Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.
 {T}: Add {U} or {R} to your mana pool.
 
+Name:   Spires of Orazca
+Type:   Land
+M-type: Transform
+M-card: Thaumatic Compass
+S/R:    XLN-R
+(Transforms from Thaumatic Compass.)
+{T}: Add {C} to your mana pool.
+{T}: Untap target attacking creature an opponent controls and remove it from combat.
+
 Name:   Spireside Infiltrator
 Cost:   2R
 Type:   Creature — Human Rogue
@@ -11958,8 +12176,8 @@ Type:   Enchantment Creature — Beast
 P/T:    4/1
 S/R:    JOU-U
 Bestow {4}{G} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
-Spirespine blocks each turn if able.
-Enchanted creature gets +4/+1 and blocks each turn if able.
+Spirespine blocks each combat if able.
+Enchanted creature gets +4/+1 and blocks each combat if able.
 
 Name:   Spirit Away
 Cost:   5UU
@@ -12220,6 +12438,15 @@ Type:   Creature — Elemental
 P/T:    3/3
 S/R:    EVE-U, DDH-U
 Whenever Spitemare is dealt damage, it deals that much damage to target creature or player.
+
+Name:   Spitfire Bastion
+Type:   Legendary Land
+M-type: Transform
+M-card: Vance's Blasting Cannons
+S/R:    XLN-R
+(Transforms from Vance's Blasting Cannons.)
+{T}: Add {R} to your mana pool.
+{2}{R}, {T}: Spitfire Bastion deals 3 damage to target creature or player.
 
 Name:   Spitfire Handler
 Cost:   1R
@@ -12531,6 +12758,12 @@ Type:   Enchantment
 S/R:    IN-R
 Whenever a creature enters the battlefield, destroy all other creatures that share a color with it. They can't be regenerated.
 
+Name:   Spreading Rot
+Cost:   4B
+Type:   Sorcery
+S/R:    XLN-C
+Destroy target land. Its controller loses 2 life.
+
 Name:   Spreading Seas
 Cost:   1U
 Type:   Enchantment — Aura
@@ -12604,7 +12837,7 @@ Cost:   4R
 Type:   Creature — Ogre Berserker
 P/T:    5/4
 S/R:    DTK-C
-Sprinting Warbrute attacks each turn if able.
+Sprinting Warbrute attacks each combat if able.
 Dash {3}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
 
 Name:   Sprite Noble
@@ -13179,6 +13412,12 @@ S/R:    PS-U, 8ED-U
 Star Compass enters the battlefield tapped.
 {T}: Add to your mana pool one mana of any color that a basic land you control could produce.
 
+Name:   Star of Extinction
+Cost:   5RR
+Type:   Sorcery
+S/R:    XLN-M
+Destroy target land. Star of Extinction deals 20 damage to each creature and each planeswalker.
+
 Name:   Starfall
 Cost:   4R
 Type:   Instant
@@ -13329,6 +13568,14 @@ Cost:   W
 Type:   Instant
 S/R:    M12-C, CNS-C, DDN-C
 Target creature gains protection from the color of your choice until end of turn.
+
+Name:   Steadfast Armasaur
+Cost:   3W
+Type:   Creature — Dinosaur
+P/T:    2/3
+S/R:    XLN-U
+Vigilance
+{1}{W}, {T}: Steadfast Armasaur deals damage equal to its toughness to target creature blocking or blocked by it.
 
 Name:   Steadfast Cathar
 Cost:   1W
@@ -14022,7 +14269,7 @@ S/R:    PS-C
 
 Name:   Stone Quarry
 Type:   Land
-S/R:    SOI-U, KLD-C, AKH-C, C17-U
+S/R:    SOI-U, KLD-C, AKH-C, C17-U, XLN-C
 Stone Quarry enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
 
@@ -14276,6 +14523,35 @@ S/R:    FUT-U
 Haste
 Storm Entity enters the battlefield with a +1/+1 counter on it for each other spell cast this turn.
 
+Name:   Storm Fleet Aerialist
+Cost:   1U
+Type:   Creature — Human Pirate
+P/T:    1/2
+S/R:    XLN-U
+Flying
+Raid — Storm Fleet Aerialist enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.
+
+Name:   Storm Fleet Arsonist
+Cost:   4R
+Type:   Creature — Orc Pirate
+P/T:    4/4
+S/R:    XLN-U
+Raid — When Storm Fleet Arsonist enters the battlefield, if you attacked with a creature this turn, target opponent sacrifices a permanent.
+
+Name:   Storm Fleet Pyromancer
+Cost:   4R
+Type:   Creature — Human Pirate Wizard
+P/T:    3/2
+S/R:    XLN-C
+Raid — When Storm Fleet Pyromancer enters the battlefield, if you attacked with a creature this turn, Storm Fleet Pyromancer deals 2 damage to target creature or player.
+
+Name:   Storm Fleet Spy
+Cost:   2U
+Type:   Creature — Human Pirate
+P/T:    2/2
+S/R:    XLN-U
+Raid — When Storm Fleet Spy enters the battlefield, if you attacked with a creature this turn, draw a card.
+
 Name:   Storm Front
 Cost:   G
 Type:   Enchantment
@@ -14287,6 +14563,14 @@ Cost:   8WW
 Type:   Sorcery
 S/R:    GPT-R, CMD-R
 Create X 1/1 white Pegasus creature tokens with flying, where X is your life total.
+
+Name:   Storm Sculptor
+Cost:   3U
+Type:   Creature — Merfolk Wizard
+P/T:    3/2
+S/R:    XLN-C
+Storm Sculptor can't be blocked.
+When Storm Sculptor enters the battlefield, return a creature you control to its owner's hand.
 
 Name:   Storm Seeker
 Cost:   3G
@@ -15550,6 +15834,20 @@ S/R:    CSP-C
 You gain 4 life.
 Recover {1}{W} (When a creature is put into your graveyard from the battlefield, you may pay {1}{W}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)
 
+Name:   Sun-Blessed Mount
+Cost:   3RW
+Type:   Creature — Dinosaur
+P/T:    4/4
+S/R:    XLN-R
+When Sun-Blessed Mount enters the battlefield, you may search your library and/or graveyard for a card named Huatli, Dinosaur Knight, reveal it, then put it into your hand. If you searched your library this way, shuffle it.
+
+Name:   Sun-Crowned Hunters
+Cost:   4RR
+Type:   Creature — Dinosaur
+P/T:    5/4
+S/R:    XLN-C
+Enrage — Whenever Sun-Crowned Hunters is dealt damage, it deals 3 damage to target opponent.
+
 Name:   Sunastian Falconer
 Cost:   3RG
 Type:   Legendary Creature — Human Shaman
@@ -15563,6 +15861,12 @@ Type:   Artifact
 S/R:    MRD-C
 {W}, Sacrifice Sunbeam Spellbomb: You gain 5 life.
 {1}, Sacrifice Sunbeam Spellbomb: Draw a card.
+
+Name:   Sunbird's Invocation
+Cost:   5R
+Type:   Enchantment
+S/R:    XLN-R
+Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's converted mana cost. You may cast a card revealed this way with converted mana cost X or less without paying its mana cost. Put the rest on the bottom of your library in a random order.
 
 Name:   Sunblade Elf
 Cost:   G
@@ -15750,9 +16054,17 @@ Sunlance deals 3 damage to target nonwhite creature.
 
 Name:   Sunpetal Grove
 Type:   Land
-S/R:    M10-R, M11-R, M12-R, M13-R, C16-R
+S/R:    M10-R, M11-R, M12-R, M13-R, C16-R, XLN-R
 Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains.
 {T}: Add {G} or {W} to your mana pool.
+
+Name:   Sunrise Seeker
+Cost:   4W
+Type:   Creature — Human Scout
+P/T:    3/3
+S/R:    XLN-C
+Vigilance
+When Sunrise Seeker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 
 Name:   Sunrise Sovereign
 Cost:   5R
@@ -16022,7 +16334,7 @@ Flanking (Whenever a creature without flanking blocks this creature, the blockin
 Name:   Sure Strike
 Cost:   1R
 Type:   Instant
-S/R:    BFZ-C
+S/R:    BFZ-C, XLN-C
 Target creature gets +3/+0 and gains first strike until end of turn.
 
 Name:   Surestrike Trident
@@ -16312,7 +16624,7 @@ Swallowing Plague deals X damage to target creature and you gain X life.
 
 Name:   Swamp
 Type:   Basic Land — Swamp
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, UG-C, UNH-L, DDC-L, DDD-L, DDE-L, DDH-L, DDJ-L, DDK-L, DDM-L, DDN-L, DDP-L, DDQ-L, DDR-L, H09-L, ME3-L, MED-L, PD3-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, UG-C, UNH-L, DDC-L, DDD-L, DDE-L, DDH-L, DDJ-L, DDK-L, DDM-L, DDN-L, DDP-L, DDQ-L, DDR-L, H09-L, ME3-L, MED-L, PD3-L
 
 Name:   Swamp Mosquito
 Cost:   1B
@@ -16379,6 +16691,13 @@ Type:   Land
 S/R:    TSP-R
 {T}: Add {C} to your mana pool.
 {T}: Regenerate target Insect, Rat, Spider, or Squirrel.
+
+Name:   Swashbuckling
+Cost:   1R
+Type:   Enchantment — Aura
+S/R:    XLN-C
+Enchant creature
+Enchanted creature gets +2/+2 and has haste.
 
 Name:   Swat
 Cost:   1BB
@@ -16642,6 +16961,12 @@ As long as equipped creature is tapped, tapped creatures you control get +2/+0.
 As long as equipped creature is untapped, untapped creatures you control get +0/+2.
 {3}: You may tap or untap equipped creature.
 Equip {3}
+
+Name:   Sword-Point Diplomacy
+Cost:   2B
+Type:   Sorcery
+S/R:    XLN-R
+Reveal the top three cards of your library. For each of those cards, put that card into your hand unless any opponent pays 3 life. Then exile the rest.
 
 Name:   Swords to Plowshares
 Cost:   W

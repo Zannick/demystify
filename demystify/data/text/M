@@ -171,7 +171,7 @@ Type:   Creature — Human Warrior
 P/T:    2/2
 S/R:    ORI-C
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
-Mage-Ring Bully attacks each turn if able.
+Mage-Ring Bully attacks each combat if able.
 
 Name:   Mage-Ring Network
 Type:   Land
@@ -359,7 +359,7 @@ Whenever you cast a noncreature spell, remove a -1/-1 counter from Magmaroth.
 
 Name:   Magmasaur
 Cost:   3RR
-Type:   Creature — Elemental Lizard
+Type:   Creature — Elemental Dinosaur
 P/T:    0/0
 S/R:    TE-R
 Magmasaur enters the battlefield with five +1/+1 counters on it.
@@ -671,6 +671,12 @@ Type:   Creature — Zombie Horror
 P/T:    4/5
 S/R:    ISD-C, DDQ-C
 As an additional cost to cast Makeshift Mauler, exile a creature card from your graveyard.
+
+Name:   Makeshift Munitions
+Cost:   1R
+Type:   Enchantment
+S/R:    XLN-U
+{1}, Sacrifice an artifact or creature: Makeshift Munitions deals 1 damage to target creature or player.
 
 Name:   Makindi Aeronaut
 Cost:   1W
@@ -1337,6 +1343,13 @@ S/R:    IN-R
 Protection from white
 Marauding Knight gets +1/+1 for each Plains your opponents control.
 
+Name:   Marauding Looter
+Cost:   2UR
+Type:   Creature — Human Pirate
+P/T:    4/3
+S/R:    XLN-U
+Raid — At the beginning of your end step, if you attacked with a creature this turn, you may draw a card. If you do, discard a card.
+
 Name:   Marauding Maulhorn
 Cost:   2RR
 Type:   Creature — Beast
@@ -1390,6 +1403,14 @@ Cost:   4W
 Type:   Sorcery
 S/R:    PS-R
 Destroy all creatures. They can't be regenerated. For each creature destroyed this way, its controller creates a 1/1 white Spirit creature token with flying.
+
+Name:   March of the Drowned
+Cost:   B
+Type:   Sorcery
+S/R:    XLN-C
+Choose one —
+• Return target creature card from your graveyard to your hand.
+• Return two target Pirate cards from your graveyard to your hand.
 
 Name:   March of the Machines
 Cost:   3U
@@ -1644,9 +1665,9 @@ At the beginning of the end step, if you control no Demons, sacrifice Mark of th
 Name:   Mark of the Vampire
 Cost:   3B
 Type:   Enchantment — Aura
-S/R:    M13-C, M14-C, DDK-C
+S/R:    M13-C, M14-C, XLN-C, DDK-C
 Enchant creature
-Enchanted creature gets +2/+2 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)
+Enchanted creature gets +2/+2 and has lifelink.
 
 Name:   Marked by Honor
 Cost:   3W
@@ -2425,6 +2446,13 @@ S/R:    AeR-U
 Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
 When Maverick Thopterist enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
 
+Name:   Mavren Fein, Dusk Apostle
+Cost:   2W
+Type:   Legendary Creature — Vampire Cleric
+P/T:    2/2
+S/R:    XLN-R
+Whenever one or more nontoken Vampires you control attack, create a 1/1 white Vampire creature token with lifelink.
+
 Name:   Maw of Kozilek
 Cost:   3R
 Type:   Creature — Eldrazi Drone
@@ -3119,6 +3147,13 @@ Type:   Creature — Merfolk Assassin
 P/T:    1/2
 S/R:    DK-U, TSP-S
 {T}: Destroy target creature with islandwalk.
+
+Name:   Merfolk Branchwalker
+Cost:   1G
+Type:   Creature — Merfolk Scout
+P/T:    2/1
+S/R:    XLN-U
+When Merfolk Branchwalker enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 
 Name:   Merfolk Looter
 Cost:   1U
@@ -5423,8 +5458,8 @@ Type:   Enchantment Creature — Hound
 P/T:    2/2
 S/R:    JOU-U
 Bestow {2}{R} (If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.)
-Mogis's Warhound attacks each turn if able.
-Enchanted creature gets +2/+2 and attacks each turn if able.
+Mogis's Warhound attacks each combat if able.
+Enchanted creature gets +2/+2 and attacks each combat if able.
 
 Name:   Mogis, God of Slaughter
 Cost:   2BR
@@ -5810,7 +5845,7 @@ Cost:   3BR
 Type:   Creature — Insect
 P/T:    4/4
 S/R:    ARB-C
-Monstrous Carabid attacks each turn if able.
+Monstrous Carabid attacks each combat if able.
 Cycling {(b/r)} ({(b/r)}, Discard this card: Draw a card.)
 
 Name:   Monstrous Growth
@@ -6389,7 +6424,7 @@ Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until
 
 Name:   Mountain
 Type:   Basic Land — Mountain
-S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, EVG-L, UG-C, UNH-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, DDS-L, H09-L, ME3-L, MED-L, PD2-L
+S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, EVG-L, UG-C, UNH-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, DDS-L, H09-L, ME3-L, MED-L, PD2-L
 
 Name:   Mountain Bandit
 Cost:   R

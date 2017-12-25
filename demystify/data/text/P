@@ -210,6 +210,13 @@ S/R:    DIS-U, DDG-U
 Whenever Paladin of Prahv deals damage, you gain that much life.
 Forecast — {1}{W}, Reveal Paladin of Prahv from your hand: Whenever target creature deals damage this turn, you gain that much life. (Activate this ability only during your upkeep and only once each turn.)
 
+Name:   Paladin of the Bloodstained
+Cost:   3W
+Type:   Creature — Vampire Knight
+P/T:    3/2
+S/R:    XLN-C
+When Paladin of the Bloodstained enters the battlefield, create a 1/1 white Vampire creature token with lifelink.
+
 Name:   Pale Bears
 Cost:   2G
 Type:   Creature — Bear
@@ -352,7 +359,7 @@ While you're searching your library, you may cast Panglacial Wurm from your libr
 
 Name:   Pangosaur
 Cost:   2GG
-Type:   Creature — Lizard
+Type:   Creature — Dinosaur
 P/T:    6/6
 S/R:    MM-R
 Whenever a player plays a land, return Pangosaur to its owner's hand.
@@ -1385,6 +1392,12 @@ Type:   Artifact
 S/R:    M15-M
 {5}, {T}, Exile Perilous Vault: Exile all nonland permanents.
 
+Name:   Perilous Voyage
+Cost:   1U
+Type:   Instant
+S/R:    XLN-U
+Return target nonland permanent you don't control to its owner's hand. If its converted mana cost was 2 or less, scry 2.
+
 Name:   Perimeter Captain
 Cost:   W
 Type:   Creature — Human Soldier
@@ -2171,7 +2184,7 @@ Type:   Artifact Creature — Juggernaut
 P/T:    5/5
 S/R:    MBS-U
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-Phyrexian Juggernaut attacks each turn if able.
+Phyrexian Juggernaut attacks each combat if able.
 
 Name:   Phyrexian Lens
 Cost:   3
@@ -2310,7 +2323,7 @@ Cost:   6
 Type:   Snow Artifact Creature — Juggernaut
 P/T:    6/5
 S/R:    CSP-U
-Phyrexian Snowcrusher attacks each turn if able.
+Phyrexian Snowcrusher attacks each combat if able.
 {1}{S}: Phyrexian Snowcrusher gets +1/+0 until end of turn. ({S} can be paid with one mana from a snow permanent.)
 
 Name:   Phyrexian Soulgorger
@@ -2563,6 +2576,13 @@ Type:   Instant
 S/R:    M15-C
 Exile target creature with toughness 4 or greater.
 
+Name:   Pillar of Origins
+Cost:   2
+Type:   Artifact
+S/R:    XLN-U
+As Pillar of Origins enters the battlefield, choose a creature type.
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.
+
 Name:   Pillar of War
 Cost:   3
 Type:   Artifact Creature — Golem
@@ -2662,6 +2682,14 @@ S/R:    SOI-U
 Whenever Pious Evangel or another creature enters the battlefield under your control, you gain 1 life.
 {2}, {T}, Sacrifice another permanent: Transform Pious Evangel.
 
+Name:   Pious Interdiction
+Cost:   3W
+Type:   Enchantment — Aura
+S/R:    XLN-C
+Enchant creature
+When Pious Interdiction enters the battlefield, you gain 2 life.
+Enchanted creature can't attack or block.
+
 Name:   Pious Kitsune
 Cost:   2W
 Type:   Creature — Fox Cleric
@@ -2713,6 +2741,20 @@ S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, TSP-S
 Pirate Ship can't attack unless defending player controls an Island.
 {T}: Pirate Ship deals 1 damage to target creature or player.
 When you control no Islands, sacrifice Pirate Ship.
+
+Name:   Pirate's Cutlass
+Cost:   3
+Type:   Artifact — Equipment
+S/R:    XLN-C
+When Pirate's Cutlass enters the battlefield, attach it to target Pirate you control.
+Equipped creature gets +2/+1.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
+
+Name:   Pirate's Prize
+Cost:   3U
+Type:   Sorcery
+S/R:    XLN-C
+Draw two cards. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Piston Sledge
 Cost:   3
@@ -2970,7 +3012,7 @@ S/R:    MBS-U
 
 Name:   Plains
 Type:   Basic Land — Plains
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, UG-C, UNH-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, UG-C, UNH-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
 
 Name:   Planar Birth
 Cost:   1W
@@ -3555,6 +3597,12 @@ P/T:    2/2
 S/R:    PLC-C
 All Slivers have "{2}, {T}: Regenerate target Sliver."
 
+Name:   Pounce
+Cost:   1G
+Type:   Instant
+S/R:    XLN-C
+Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)
+
 Name:   Pouncing Cheetah
 Cost:   2G
 Type:   Creature — Cat
@@ -4086,6 +4134,14 @@ S/R:    ORI-R, DDR-R
 When Priest of the Blood Rite enters the battlefield, create a 5/5 black Demon creature token with flying.
 At the beginning of your upkeep, you lose 2 life.
 
+Name:   Priest of the Wakening Sun
+Cost:   W
+Type:   Creature — Human Cleric
+P/T:    1/1
+S/R:    XLN-R
+At the beginning of your upkeep, you may reveal a Dinosaur card from your hand. If you do, you gain 2 life.
+{3}{W}{W}, Sacrifice Priest of the Wakening Sun: Search your library for a Dinosaur card, reveal it, put it into your hand, then shuffle your library.
+
 Name:   Priests of Norn
 Cost:   2W
 Type:   Creature — Cleric
@@ -4093,6 +4149,15 @@ P/T:    1/4
 S/R:    MBS-C
 Vigilance
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
+
+Name:   Primal Amulet
+Cost:   4
+Type:   Artifact
+M-type: Transform
+M-card: Primal Wellspring
+S/R:    XLN-R
+Instant and sorcery spells you cast cost {1} less to cast.
+Whenever you cast an instant or sorcery spell, put a charge counter on Primal Amulet. Then if there are four or more charge counters on it, you may remove those counters and transform it.
 
 Name:   Primal Bellow
 Cost:   G
@@ -4214,6 +4279,14 @@ S/R:    GTC-C
 Enchant creature
 Enchanted creature gets +3/+3 and has haste.
 
+Name:   Primal Wellspring
+Type:   Land
+M-type: Transform
+M-card: Primal Amulet
+S/R:    XLN-R
+(Transforms from Primal Amulet.)
+{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+
 Name:   Primal Whisperer
 Cost:   4G
 Type:   Creature — Elf Soldier
@@ -4317,7 +4390,7 @@ Cost:   R
 Type:   Creature — Ooze
 P/T:    1/1
 S/R:    LE-U, CH-U, 5E-U
-Primordial Ooze attacks each turn if able.
+Primordial Ooze attacks each combat if able.
 At the beginning of your upkeep, put a +1/+1 counter on Primordial Ooze. Then you may pay {X}, where X is the number of +1/+1 counters on it. If you don't, tap Primordial Ooze and it deals X damage to you.
 
 Name:   Primordial Sage
@@ -4715,6 +4788,13 @@ Type:   Sorcery
 S/R:    VI-U, P1-R, 6E-U, C13-U
 Each player draws X cards.
 
+Name:   Prosperous Pirates
+Cost:   4U
+Type:   Creature — Human Pirate
+P/T:    3/4
+S/R:    XLN-C
+When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+
 Name:   Prossh, Skyraider of Kher
 Cost:   3BRG
 Type:   Legendary Creature — Dragon
@@ -4858,6 +4938,14 @@ P/T:    4/3
 S/R:    AKH-R
 Prowling Serpopard can't be countered.
 Creature spells you control can't be countered.
+
+Name:   Prying Blade
+Cost:   1
+Type:   Artifact — Equipment
+S/R:    XLN-C
+Equipped creature gets +1/+0.
+Whenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
 Name:   Prying Questions
 Cost:   2B
@@ -5083,6 +5171,13 @@ S/R:    PLC-U
 At the beginning of your upkeep, put a spore counter on Psychotrope Thallid.
 Remove three spore counters from Psychotrope Thallid: Create a 1/1 green Saproling creature token.
 {1}, Sacrifice a Saproling: Draw a card.
+
+Name:   Pterodon Knight
+Cost:   3W
+Type:   Creature — Human Knight
+P/T:    3/3
+S/R:    XLN-C
+Pterodon Knight has flying as long as you control a Dinosaur.
 
 Name:   Pteron Ghost
 Cost:   1W
@@ -5510,7 +5605,7 @@ Pay 2 life: Putrid Leech gets +2/+2 until end of turn. Activate this ability onl
 
 Name:   Putrid Raptor
 Cost:   4BB
-Type:   Creature — Zombie Lizard Beast
+Type:   Creature — Zombie Dinosaur Beast
 P/T:    4/4
 S/R:    SCG-U
 Morph—Discard a Zombie card. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
@@ -5526,7 +5621,7 @@ Whenever Putrid Warrior deals damage, choose one —
 
 Name:   Pygmy Allosaurus
 Cost:   2G
-Type:   Creature — Lizard
+Type:   Creature — Dinosaur
 P/T:    2/2
 S/R:    IA-R
 Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)

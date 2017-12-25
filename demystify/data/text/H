@@ -1201,6 +1201,20 @@ S/R:    HL-C
 Exile target card from a graveyard.
 Draw a card at the beginning of the next turn's upkeep.
 
+Name:   Headstrong Brute
+Cost:   2R
+Type:   Creature — Orc Pirate
+P/T:    3/3
+S/R:    XLN-C
+Headstrong Brute can't block.
+Headstrong Brute has menace as long as you control another Pirate.
+
+Name:   Headwater Sentries
+Cost:   3U
+Type:   Creature — Merfolk Warrior
+P/T:    2/5
+S/R:    XLN-C
+
 Name:   Heal
 Cost:   W
 Type:   Instant
@@ -1385,6 +1399,13 @@ Type:   Legendary Creature — Ogre Shaman
 P/T:    4/3
 S/R:    BOK-R, CNS-R
 {T}: Heartless Hidetsugu deals damage to each player equal to half that player's life total, rounded down.
+
+Name:   Heartless Pillage
+Cost:   2B
+Type:   Sorcery
+S/R:    XLN-U
+Target opponent discards two cards.
+Raid — If you attacked with a creature this turn, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Heartless Summoning
 Cost:   1B
@@ -1999,7 +2020,7 @@ Type:   Creature — Ogre
 P/T:    3/2
 S/R:    FUT-C
 Haste
-Echo {1}{B} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice this permanent unless you pay its echo cost.)
+Echo {1}{B} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 {(b/r)}: Henchfiend of Ukor gets +1/+0 until end of turn.
 
 Name:   Henge Guardian
@@ -2058,6 +2079,13 @@ Flying
 Cumulative upkeep—Gain control of a land you don't control. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 Herald of Leshrac gets +1/+1 for each land you control but don't own.
 When Herald of Leshrac leaves the battlefield, each player gains control of each land he or she owns that you control.
+
+Name:   Herald of Secret Streams
+Cost:   3U
+Type:   Creature — Merfolk Warrior
+P/T:    2/3
+S/R:    XLN-R
+Creatures you control with +1/+1 counters on them can't be blocked.
 
 Name:   Herald of Serra
 Cost:   2WW
@@ -2488,6 +2516,13 @@ S/R:    AKH-C
 Draw two cards.
 Cycling {U} ({U}, Discard this card: Draw a card.)
 
+Name:   Hierophant's Chalice
+Cost:   3
+Type:   Artifact
+S/R:    XLN-C
+When Hierophant's Chalice enters the battlefield, target opponent loses 1 life and you gain 1 life.
+{T}: Add {C} to your mana pool.
+
 Name:   High Ground
 Cost:   W
 Type:   Enchantment
@@ -2616,7 +2651,7 @@ Whenever Higure, the Still Wind deals combat damage to a player, you may search 
 Name:   Hijack
 Cost:   1RR
 Type:   Sorcery
-S/R:    KLD-C
+S/R:    KLD-C, XLN-C
 Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn.
 
 Name:   Hikari, Twilight Guardian
@@ -3602,6 +3637,13 @@ P/T:    1/3
 S/R:    US-C, 10E-C
 {U}: Untap Horseshoe Crab.
 
+Name:   Hostage Taker
+Cost:   2UB
+Type:   Creature — Human Pirate
+P/T:    2/3
+S/R:    XLN-R
+When Hostage Taker enters the battlefield, exile another target creature or artifact until Hostage Taker leaves the battlefield. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any type to cast that spell.
+
 Name:   Hostile Desert
 Type:   Land — Desert
 S/R:    HOU-R
@@ -3861,6 +3903,36 @@ Type:   Legendary Creature — Human Soldier
 P/T:    2/3
 S/R:    P3K-R
 Huang Zhong, Shu General can't be blocked by more than one creature.
+
+Name:   Huatli's Snubhorn
+Cost:   1W
+Type:   Creature — Dinosaur
+P/T:    2/2
+S/R:    XLN-C
+Vigilance (Attacking doesn't cause this creature to tap.)
+
+Name:   Huatli's Spurring
+Cost:   R
+Type:   Instant
+S/R:    XLN-U
+Target creature gets +2/+0 until end of turn. If you control a Huatli planeswalker, that creature gets +4/+0 until end of turn instead.
+
+Name:   Huatli, Dinosaur Knight
+Cost:   4RW
+Type:   Legendary Planeswalker — Huatli
+P/T:    4
+S/R:    XLN-M
+[+2]: Put two +1/+1 counters on up to one target Dinosaur you control.
+[-3]: Target Dinosaur you control deals damage equal to its power to target creature you don't control.
+[-7]: Dinosaurs you control get +4/+4 until end of turn.
+
+Name:   Huatli, Warrior Poet
+Cost:   3RW
+Type:   Legendary Planeswalker — Huatli
+P/T:    3
+S/R:    XLN-M
+[+2]: You gain life equal to the greatest power among creatures you control.
+[0]: Create a 3/3 green Dinosaur creature token with trample.
 
 Name:   Hubris
 Cost:   1U

@@ -173,7 +173,7 @@ Other creatures you control get +0/+2 and have vigilance.
 
 Name:   Ob Nixilis Reignited
 Cost:   3BB
-Type:   Planeswalker — Nixilis
+Type:   Legendary Planeswalker — Nixilis
 P/T:    5
 S/R:    BFZ-M, DDR-M
 [+1]: You draw a card and you lose 1 life.
@@ -182,7 +182,7 @@ S/R:    BFZ-M, DDR-M
 
 Name:   Ob Nixilis of the Black Oath
 Cost:   3BB
-Type:   Planeswalker — Nixilis
+Type:   Legendary Planeswalker — Nixilis
 P/T:    3
 S/R:    C14-M
 [+2]: Each opponent loses 1 life. You gain life equal to the life lost this way.
@@ -813,6 +813,13 @@ S/R:    AN-R, ME3-R
 You may choose not to untap Old Man of the Sea during your untap step.
 {T}: Gain control of target creature with power less than or equal to Old Man of the Sea's power for as long as Old Man of the Sea remains tapped and that creature's power remains less than or equal to Old Man of the Sea's power.
 
+Name:   Old-Growth Dryads
+Cost:   G
+Type:   Creature — Dryad
+P/T:    3/3
+S/R:    XLN-R
+When Old-Growth Dryads enters the battlefield, each opponent may search his or her library for a basic land card, put it onto the battlefield tapped, then shuffle his or her library.
+
 Name:   Olivia Voldaren
 Cost:   2BR
 Type:   Legendary Creature — Vampire
@@ -985,6 +992,13 @@ S/R:    GTC-U
 Enchant creature
 Enchanted creature can't attack or block, and its activated abilities can't be activated.
 At the beginning of the upkeep of enchanted creature's controller, that player loses 1 life.
+
+Name:   One With the Wind
+Cost:   1U
+Type:   Enchantment — Aura
+S/R:    XLN-C
+Enchant creature
+Enchanted creature gets +2/+2 and has flying.
 
 Name:   One of the Pack
 Type:   Creature — Werewolf
@@ -1320,7 +1334,7 @@ Counter target spell unless its controller pays {1} for each card in your hand.
 Name:   Opt
 Cost:   U
 Type:   Instant
-S/R:    IN-C
+S/R:    IN-C, XLN-C
 Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 Draw a card.
 
@@ -1335,7 +1349,7 @@ Cost:   1W
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    TE-R
-{T}: Target opponent chooses any number of creatures he or she controls. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack. Activate this ability only during your turn.
+{T}: Target opponent chooses any number of creatures he or she controls. During that player's next turn, the chosen creatures attack if able, and other creatures can't attack. At the beginning of that turn's end step, destroy each of the chosen creatures that didn't attack this turn. Activate this ability only during your turn.
 
 Name:   Oracle of Bones
 Cost:   2RR
@@ -2068,7 +2082,15 @@ Type:   Artifact Creature — Juggernaut
 P/T:    2/3
 S/R:    OD-R
 Otarian Juggernaut can't be blocked by Walls.
-Threshold — As long as seven or more cards are in your graveyard, Otarian Juggernaut gets +3/+0 and attacks each turn if able.
+Threshold — As long as seven or more cards are in your graveyard, Otarian Juggernaut gets +3/+0 and attacks each combat if able.
+
+Name:   Otepec Huntmaster
+Cost:   1R
+Type:   Creature — Human Shaman
+P/T:    1/2
+S/R:    XLN-U
+Dinosaur spells you cast cost {1} less to cast.
+{T}: Target Dinosaur gains haste until end of turn.
 
 Name:   Otherworld Atlas
 Cost:   4
@@ -2233,6 +2255,12 @@ Type:   Creature — Human Minion
 P/T:    1/2
 S/R:    OD-C, DDC-C
 Discard a card, Sacrifice Overeager Apprentice: Add {B}{B}{B} to your mana pool.
+
+Name:   Overflowing Insight
+Cost:   4UUU
+Type:   Sorcery
+S/R:    XLN-M
+Target player draws seven cards.
 
 Name:   Overgrown Battlement
 Cost:   1G

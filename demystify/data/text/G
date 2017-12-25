@@ -222,7 +222,7 @@ Cost:   4
 Type:   Artifact Creature — Juggernaut
 P/T:    5/5
 S/R:    ISD-U, CNS-U
-Galvanic Juggernaut attacks each turn if able.
+Galvanic Juggernaut attacks each combat if able.
 Galvanic Juggernaut doesn't untap during your untap step.
 Whenever another creature dies, untap Galvanic Juggernaut.
 
@@ -338,7 +338,7 @@ Defender (This creature can't attack.)
 
 Name:   Garruk Relentless
 Cost:   3G
-Type:   Planeswalker — Garruk
+Type:   Legendary Planeswalker — Garruk
 P/T:    3
 M-type: Transform
 M-card: Garruk, the Veil-Cursed
@@ -349,7 +349,7 @@ When Garruk Relentless has two or fewer loyalty counters on him, transform him.
 
 Name:   Garruk Wildspeaker
 Cost:   2GG
-Type:   Planeswalker — Garruk
+Type:   Legendary Planeswalker — Garruk
 P/T:    3
 S/R:    LRW-R, M10-M, M11-M, CMD-M, DDD-M
 [+1]: Untap two target lands.
@@ -381,7 +381,7 @@ Whenever another creature with power 3 or greater enters the battlefield under y
 
 Name:   Garruk, Apex Predator
 Cost:   5BG
-Type:   Planeswalker — Garruk
+Type:   Legendary Planeswalker — Garruk
 P/T:    5
 S/R:    M15-M
 [+1]: Destroy another target planeswalker.
@@ -391,7 +391,7 @@ S/R:    M15-M
 
 Name:   Garruk, Caller of Beasts
 Cost:   4GG
-Type:   Planeswalker — Garruk
+Type:   Legendary Planeswalker — Garruk
 P/T:    4
 S/R:    M14-M
 [+1]: Reveal the top five cards of your library. Put all creature cards revealed this way into your hand and the rest on the bottom of your library in any order.
@@ -400,7 +400,7 @@ S/R:    M14-M
 
 Name:   Garruk, Primal Hunter
 Cost:   2GGG
-Type:   Planeswalker — Garruk
+Type:   Legendary Planeswalker — Garruk
 P/T:    3
 S/R:    M12-M, M13-M
 [+1]: Create a 3/3 green Beast creature token.
@@ -408,7 +408,7 @@ S/R:    M12-M, M13-M
 [-6]: Create a 6/6 green Wurm creature token for each land you control.
 
 Name:   Garruk, the Veil-Cursed
-Type:   Planeswalker — Garruk
+Type:   Legendary Planeswalker — Garruk
 Color:  Black/Green
 M-type: Transform
 M-card: Garruk Relentless
@@ -1766,7 +1766,7 @@ Soulshift 3 (When this creature dies, you may return target Spirit card with con
 
 Name:   Gideon Jura
 Cost:   3WW
-Type:   Planeswalker — Gideon
+Type:   Legendary Planeswalker — Gideon
 P/T:    6
 S/R:    ROE-M, M12-M, E01-M
 [+2]: During target opponent's next turn, creatures that player controls attack Gideon Jura if able.
@@ -1775,7 +1775,7 @@ S/R:    ROE-M, M12-M, E01-M
 
 Name:   Gideon of the Trials
 Cost:   1WW
-Type:   Planeswalker — Gideon
+Type:   Legendary Planeswalker — Gideon
 P/T:    3
 S/R:    AKH-M
 [+1]: Until your next turn, prevent all damage target permanent would deal.
@@ -1832,7 +1832,7 @@ Creatures you control get +1/+1.
 
 Name:   Gideon, Ally of Zendikar
 Cost:   2WW
-Type:   Planeswalker — Gideon
+Type:   Legendary Planeswalker — Gideon
 P/T:    4
 S/R:    BFZ-M
 [+1]: Until end of turn, Gideon, Ally of Zendikar becomes a 5/5 Human Soldier Ally creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
@@ -1840,7 +1840,7 @@ S/R:    BFZ-M
 [-4]: You get an emblem with "Creatures you control get +1/+1."
 
 Name:   Gideon, Battle-Forged
-Type:   Planeswalker — Gideon
+Type:   Legendary Planeswalker — Gideon
 P/T:    3
 Color:  White
 M-type: Transform
@@ -1852,7 +1852,7 @@ S/R:    ORI-M
 
 Name:   Gideon, Champion of Justice
 Cost:   2WW
-Type:   Planeswalker — Gideon
+Type:   Legendary Planeswalker — Gideon
 P/T:    4
 S/R:    GTC-M
 [+1]: Put a loyalty counter on Gideon, Champion of Justice for each creature target opponent controls.
@@ -1861,7 +1861,7 @@ S/R:    GTC-M
 
 Name:   Gideon, Martial Paragon
 Cost:   4W
-Type:   Planeswalker — Gideon
+Type:   Legendary Planeswalker — Gideon
 P/T:    5
 S/R:    AKH-M
 [+2]: Untap all creatures you control. Those creatures get +1/+1 until end of turn.
@@ -2022,6 +2022,12 @@ Type:   Artifact
 S/R:    MRD-R, M13-R, V13-M
 {T}: Add three mana of any one color to your mana pool.
 
+Name:   Gilded Sentinel
+Cost:   4
+Type:   Artifact Creature — Golem
+P/T:    3/3
+S/R:    XLN-C
+
 Name:   Gilder Bairn
 Cost:   1(G/U)(G/U)
 Type:   Creature — Ouphe
@@ -2107,6 +2113,14 @@ S/R:    EMN-M
 Flying, first strike, lifelink
 At the beginning of your end step, if you both own and control Gisela, the Broken Blade and a creature named Bruna, the Fading Light, exile them, then meld them into Brisela, Voice of Nightmares.
 
+Name:   Gishath, Sun's Avatar
+Cost:   5RGW
+Type:   Legendary Creature — Dinosaur Avatar
+P/T:    7/6
+S/R:    XLN-M
+Trample, vigilance, haste
+Whenever Gishath, Sun's Avatar deals combat damage to a player, reveal that many cards from the top of your library. Put any number of Dinosaur creature cards from among them onto the battlefield and the rest on the bottom of your library in a random order.
+
 Name:   Gitaxian Probe
 Cost:   (U/P)
 Type:   Sorcery
@@ -2154,7 +2168,7 @@ Sacrifice a snow Mountain: Prevent all combat damage that would be dealt this tu
 
 Name:   Glacial Fortress
 Type:   Land
-S/R:    M10-R, M11-R, M12-R, M13-R
+S/R:    M10-R, M11-R, M12-R, M13-R, XLN-R
 Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island.
 {T}: Add {W} or {U} to your mana pool.
 
@@ -2652,6 +2666,14 @@ Type:   Instant
 S/R:    SHM-C
 Destroy target creature with flying. If that creature was blue or black, create a 1/2 green Spider creature token with reach. (It can block creatures with flying.)
 
+Name:   Glorifier of Dusk
+Cost:   3WW
+Type:   Creature — Vampire Soldier
+P/T:    4/4
+S/R:    XLN-U
+Pay 2 life: Glorifier of Dusk gains flying until end of turn.
+Pay 2 life: Glorifier of Dusk gains vigilance until end of turn.
+
 Name:   Glorious Anthem
 Cost:   1WW
 Type:   Enchantment
@@ -2944,7 +2966,7 @@ Cost:   2R
 Type:   Enchantment
 S/R:    ALA-R, MM3-U
 At the beginning of your upkeep, create a 1/1 red Goblin creature token with haste.
-Goblin creatures attack each turn if able.
+Goblin creatures attack each combat if able.
 
 Name:   Goblin Balloon Brigade
 Cost:   R
@@ -3007,7 +3029,7 @@ Cost:   1R
 Type:   Creature — Goblin Warrior
 P/T:    2/2
 S/R:    SCG-C, 9ED-C
-Goblin Brigand attacks each turn if able.
+Goblin Brigand attacks each combat if able.
 
 Name:   Goblin Bully
 Cost:   1R
@@ -3485,7 +3507,7 @@ Cost:   2R
 Type:   Creature — Goblin Warrior
 P/T:    2/2
 S/R:    M15-R
-Other Goblin creatures you control attack each turn if able.
+Other Goblin creatures you control attack each combat if able.
 At the beginning of combat on your turn, create a 1/1 red Goblin creature token with haste.
 Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking Goblin.
 
@@ -4376,6 +4398,14 @@ Type:   Creature — Ape Warrior
 P/T:    3/2
 S/R:    P1-C, US-C, S99-C
 
+Name:   Goring Ceratops
+Cost:   5WW
+Type:   Creature — Dinosaur
+P/T:    3/3
+S/R:    XLN-R
+Double strike
+Whenever Goring Ceratops attacks, other creatures you control gain double strike until end of turn.
+
 Name:   Goryo's Vengeance
 Cost:   1B
 Type:   Instant — Arcane
@@ -4546,8 +4576,8 @@ Name:   Grand Melee
 Cost:   3R
 Type:   Enchantment
 S/R:    ONS-R
-All creatures attack each turn if able.
-All creatures block each turn if able.
+All creatures attack each combat if able.
+All creatures block each combat if able.
 
 Name:   Grandmother Sengir
 Cost:   4B
@@ -4659,6 +4689,13 @@ Type:   Enchantment — Aura
 S/R:    ORI-C, E01-C
 Enchant creature
 Enchanted creature gets +1/+1 and has "Whenever this creature attacks, tap target creature defending player controls."
+
+Name:   Grasping Current
+Cost:   4U
+Type:   Sorcery
+S/R:    XLN-R
+Return up to two target creatures to their owner's hand.
+Search your library and/or graveyard for a card named Jace, Ingenious Mind-Mage, reveal it, and put it into your hand. If you searched your library this way, shuffle it.
 
 Name:   Grasping Dunes
 Type:   Land — Desert
@@ -5021,6 +5058,13 @@ P/T:    2/3
 S/R:    EVE-C
 {(g/u)}, Sacrifice Grazing Kelpie: Put target card from a graveyard on the bottom of its owner's library.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+
+Name:   Grazing Whiptail
+Cost:   2GG
+Type:   Creature — Dinosaur
+P/T:    3/4
+S/R:    XLN-C
+Reach
 
 Name:   Great Defender
 Cost:   W
@@ -5421,6 +5465,12 @@ Type:   Land
 S/R:    DKA-R, C13-R, C15-R, CMA-R
 {T}: Add {C} to your mana pool.
 {2}{B}{G}, {T}, Sacrifice a creature: Draw a card.
+
+Name:   Grim Captain's Call
+Cost:   2B
+Type:   Sorcery
+S/R:    XLN-U
+Return a Pirate card from your graveyard to your hand, then do the same for Vampire, Dinosaur, and Merfolk.
 
 Name:   Grim Contest
 Cost:   1BG
@@ -5953,6 +6003,15 @@ Type:   Enchantment
 S/R:    RTR-R
 At the beginning of your upkeep, populate. (Create a token that's a copy of a creature token you control.)
 
+Name:   Growing Rites of Itlimoc
+Cost:   2G
+Type:   Legendary Enchantment
+M-type: Transform
+M-card: Itlimoc, Cradle of the Sun
+S/R:    XLN-R
+When Growing Rites of Itlimoc enters the battlefield, look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+At the beginning of your end step, if you control four or more creatures, transform Growing Rites of Itlimoc.
+
 Name:   Growth Spasm
 Cost:   2G
 Type:   Sorcery
@@ -6375,7 +6434,7 @@ Cost:   R
 Type:   Enchantment — Aura
 S/R:    AVR-C
 Enchant creature
-Enchanted creature gets +1/-1 and attacks each turn if able.
+Enchanted creature gets +1/-1 and attacks each combat if able.
 
 Name:   Gulf Squid
 Cost:   3U

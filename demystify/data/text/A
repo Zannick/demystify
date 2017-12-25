@@ -673,6 +673,23 @@ P/T:    */*
 S/R:    SOK-R
 Adamaro, First to Desire's power and toughness are each equal to the number of cards in the hand of the opponent with the most cards in hand.
 
+Name:   Adanto Vanguard
+Cost:   1W
+Type:   Creature — Vampire Soldier
+P/T:    1/1
+S/R:    XLN-U
+As long as Adanto Vanguard is attacking, it gets +2/+0.
+Pay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
+
+Name:   Adanto, the First Fort
+Type:   Legendary Land
+M-type: Transform
+M-card: Legion's Landing
+S/R:    XLN-R
+(Transforms from Legion's Landing.)
+{T}: Add {W} to your mana pool.
+{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.
+
 Name:   Adaptive Automaton
 Cost:   3
 Type:   Artifact Creature — Construct
@@ -737,6 +754,14 @@ Cost:   1B
 Type:   Sorcery
 S/R:    IN-U, VMA-C
 Choose a color. Target player reveals his or her hand and you choose a card of that color from it. That player discards that card.
+
+Name:   Admiral Beckett Brass
+Cost:   1UBR
+Type:   Legendary Creature — Human Pirate
+P/T:    3/3
+S/R:    XLN-M
+Other Pirates you control get +1/+1.
+At the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.
 
 Name:   Admonition Angel
 Cost:   3WWW
@@ -1642,7 +1667,7 @@ Name:   Air Elemental
 Cost:   3UU
 Type:   Creature — Elemental
 P/T:    4/4
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, P2-U, 6E-U, S99-U, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, W17-U, DD2-U, ME4-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, P2-U, 6E-U, S99-U, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, W17-U, XLN-U, DD2-U, ME4-U
 Flying
 
 Name:   Air Servant
@@ -1684,7 +1709,7 @@ Whenever Aisling Leprechaun blocks or becomes blocked by a creature, that creatu
 
 Name:   Ajani Goldmane
 Cost:   2WW
-Type:   Planeswalker — Ajani
+Type:   Legendary Planeswalker — Ajani
 P/T:    4
 S/R:    LRW-R, M10-M, M11-M
 [+1]: You gain 2 life.
@@ -1693,7 +1718,7 @@ S/R:    LRW-R, M10-M, M11-M
 
 Name:   Ajani Steadfast
 Cost:   3W
-Type:   Planeswalker — Ajani
+Type:   Legendary Planeswalker — Ajani
 P/T:    4
 S/R:    M15-M
 [+1]: Until end of turn, up to one target creature gets +1/+1 and gains first strike, vigilance, and lifelink.
@@ -1702,7 +1727,7 @@ S/R:    M15-M
 
 Name:   Ajani Unyielding
 Cost:   4GW
-Type:   Planeswalker — Ajani
+Type:   Legendary Planeswalker — Ajani
 P/T:    4
 S/R:    AeR-M
 [+2]: Reveal the top three cards of your library. Put all nonland permanent cards revealed this way into your hand and the rest on the bottom of your library in any order.
@@ -1711,7 +1736,7 @@ S/R:    AeR-M
 
 Name:   Ajani Vengeant
 Cost:   2RW
-Type:   Planeswalker — Ajani
+Type:   Legendary Planeswalker — Ajani
 P/T:    3
 S/R:    ALA-M, DDH-M
 [+1]: Target permanent doesn't untap during its controller's next untap step.
@@ -1769,7 +1794,7 @@ Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 
 Name:   Ajani, Caller of the Pride
 Cost:   1WW
-Type:   Planeswalker — Ajani
+Type:   Legendary Planeswalker — Ajani
 P/T:    4
 S/R:    M13-M, M14-M
 [+1]: Put a +1/+1 counter on up to one target creature.
@@ -1778,7 +1803,7 @@ S/R:    M13-M, M14-M
 
 Name:   Ajani, Mentor of Heroes
 Cost:   3GW
-Type:   Planeswalker — Ajani
+Type:   Legendary Planeswalker — Ajani
 P/T:    4
 S/R:    JOU-M
 [+1]: Distribute three +1/+1 counters among one, two, or three target creatures you control.
@@ -1787,7 +1812,7 @@ S/R:    JOU-M
 
 Name:   Ajani, Valiant Protector
 Cost:   4GW
-Type:   Planeswalker — Ajani
+Type:   Legendary Planeswalker — Ajani
 P/T:    4
 S/R:    AeR-M
 [+2]: Put two +1/+1 counters on up to one target creature.
@@ -1891,7 +1916,7 @@ Type:   Creature — Phoenix
 P/T:    3/3
 S/R:    BFZ-M
 Flying, haste
-Akoum Firebird attacks each turn if able.
+Akoum Firebird attacks each combat if able.
 Landfall — Whenever a land enters the battlefield under your control, you may pay {4}{R}{R}. If you do, return Akoum Firebird from your graveyard to the battlefield.
 
 Name:   Akoum Flameseeker
@@ -2506,7 +2531,7 @@ Enchanted creature gets +2/+2 for each other creature on the battlefield that sh
 
 Name:   Alpha Tyrranax
 Cost:   4GG
-Type:   Creature — Beast
+Type:   Creature — Dinosaur Beast
 P/T:    6/5
 S/R:    SOM-C
 
@@ -3021,6 +3046,12 @@ Type:   Land
 S/R:    LRW-R, C15-R
 As Ancient Amphitheater enters the battlefield, you may reveal a Giant card from your hand. If you don't, Ancient Amphitheater enters the battlefield tapped.
 {T}: Add {R} or {W} to your mana pool.
+
+Name:   Ancient Brontodon
+Cost:   6GG
+Type:   Creature — Dinosaur
+P/T:    9/9
+S/R:    XLN-C
 
 Name:   Ancient Carp
 Cost:   4U
@@ -3541,6 +3572,13 @@ S/R:    AKH-U
 Flying
 When Angler Drake enters the battlefield, you may return target creature to its owner's hand.
 
+Name:   Angrath's Marauders
+Cost:   5RR
+Type:   Creature — Human Pirate
+P/T:    4/4
+S/R:    XLN-R
+If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+
 Name:   Angry Mob
 Cost:   2WW
 Type:   Creature — Human
@@ -3688,6 +3726,13 @@ Type:   Instant
 S/R:    TE-C
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Prevent the next 3 damage that would be dealt to target creature this turn.
+
+Name:   Anointed Deacon
+Cost:   4B
+Type:   Creature — Vampire Cleric
+P/T:    3/3
+S/R:    XLN-C
+At the beginning of combat on your turn, you may have target Vampire get +2/+0 until end of turn.
 
 Name:   Anointed Procession
 Cost:   3W
@@ -4244,6 +4289,13 @@ At the beginning of your upkeep, sacrifice Arcades Sabboth unless you pay {G}{W}
 Each untapped creature you control gets +0/+2 as long as it's not attacking.
 {W}: Arcades Sabboth gets +0/+1 until end of turn.
 
+Name:   Arcane Adaptation
+Cost:   2U
+Type:   Enchantment
+S/R:    XLN-R
+As Arcane Adaptation enters the battlefield, choose a creature type.
+Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.
+
 Name:   Arcane Denial
 Cost:   1U
 Type:   Instant
@@ -4735,7 +4787,7 @@ Name:   Arcum's Whistle
 Cost:   3
 Type:   Artifact
 S/R:    IA-U
-{3}, {T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That player may pay {X}, where X is that creature's converted mana cost. If he or she doesn't, the creature attacks this turn if able, and at the beginning of the next end step, destroy it if it didn't attack. Activate this ability only before attackers are declared.
+{3}, {T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That player may pay {X}, where X is that creature's converted mana cost. If he or she doesn't, the creature attacks this turn if able, and at the beginning of the next end step, destroy it if it didn't attack this turn. Activate this ability only before attackers are declared.
 
 Name:   Ardent Militia
 Cost:   4W
@@ -4887,6 +4939,15 @@ S/R:    US-R
 Trample
 When Argothian Wurm enters the battlefield, any player may sacrifice a land. If a player does, put Argothian Wurm on top of its owner's library.
 
+Name:   Arguel's Blood Fast
+Cost:   1B
+Type:   Legendary Enchantment
+M-type: Transform
+M-card: Temple of Aclazotz
+S/R:    XLN-R
+{1}{B}, Pay 2 life: Draw a card.
+At the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.
+
 Name:   Arid Mesa
 Type:   Land
 S/R:    ZEN-R, EXP-M, MM3-R
@@ -4908,7 +4969,7 @@ S/R:    SCG-U
 
 Name:   Arlinn Kord
 Cost:   2RG
-Type:   Planeswalker — Arlinn
+Type:   Legendary Planeswalker — Arlinn
 P/T:    3
 M-type: Transform
 M-card: Arlinn, Embraced by the Moon
@@ -4917,7 +4978,7 @@ S/R:    SOI-M
 [0]: Create a 2/2 green Wolf creature token. Transform Arlinn Kord.
 
 Name:   Arlinn, Embraced by the Moon
-Type:   Planeswalker — Arlinn
+Type:   Legendary Planeswalker — Arlinn
 Color:  Red/Green
 M-type: Transform
 M-card: Arlinn Kord
@@ -5428,7 +5489,7 @@ Type:   Creature — Spirit
 P/T:    7/4
 S/R:    BOK-U
 Haste
-Ashen Monstrosity attacks each turn if able.
+Ashen Monstrosity attacks each combat if able.
 
 Name:   Ashen Powder
 Cost:   2BB
@@ -5474,6 +5535,13 @@ Other black creatures you control get +1/+1.
 Other red creatures you control get +1/+1.
 Whenever Ashenmoor Liege becomes the target of a spell or ability an opponent controls, that player loses 4 life.
 
+Name:   Ashes of the Abhorrent
+Cost:   1W
+Type:   Enchantment
+S/R:    XLN-R
+Players can't cast spells from graveyards or activate abilities of cards in graveyards.
+Whenever a creature dies, you gain 1 life.
+
 Name:   Ashes of the Fallen
 Cost:   2
 Type:   Artifact
@@ -5496,7 +5564,7 @@ Heroic — Whenever you cast a spell that targets Ashiok's Adept, each opponent 
 
 Name:   Ashiok, Nightmare Weaver
 Cost:   1UB
-Type:   Planeswalker — Ashiok
+Type:   Legendary Planeswalker — Ashiok
 P/T:    3
 S/R:    THS-M
 [+2]: Exile the top three cards of target opponent's library.
@@ -5863,6 +5931,14 @@ Cost:   2U
 Type:   Enchantment
 S/R:    US-R
 Return Attunement to its owner's hand: Draw three cards, then discard four cards.
+
+Name:   Atzocan Archer
+Cost:   2G
+Type:   Creature — Human Archer
+P/T:    1/4
+S/R:    XLN-U
+Reach
+When Atzocan Archer enters the battlefield, you may have it fight another target creature. (Each deals damage equal to its power to the other.)
 
 Name:   Audacious Infiltrator
 Cost:   1W
@@ -6437,7 +6513,7 @@ Cost:   6RR
 Type:   Creature — Avatar
 P/T:    8/8
 S/R:    CMD-R, CMA-R
-All creatures have double strike and attack each turn if able.
+All creatures have double strike and attack each combat if able.
 
 Name:   Avatar of Will
 Cost:   6UU
@@ -6914,6 +6990,12 @@ S/R:    LE-R, CH-R, ME3-U
 Trample
 Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod deals 1 damage to target player.
 
+Name:   Axis of Mortality
+Cost:   4WW
+Type:   Enchantment
+S/R:    XLN-M
+At the beginning of your upkeep, you may have two target players exchange life totals.
+
 Name:   Ayesha Tanaka
 Cost:   WWUU
 Type:   Legendary Creature — Human Artificer
@@ -6980,6 +7062,15 @@ M-type: Flip
 M-card: Cunning Bandit
 S/R:    BOK-U
 Remove a ki counter from Azamuki, Treachery Incarnate: Gain control of target creature until end of turn.
+
+Name:   Azcanta, the Sunken Ruin
+Type:   Legendary Land
+M-type: Transform
+M-card: Search for Azcanta
+S/R:    XLN-R
+(Transforms from Search for Azcanta.)
+{T}: Add {U} to your mana pool.
+{2}{U}, {T}: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 
 Name:   Azimaet Drake
 Cost:   2U

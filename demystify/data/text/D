@@ -15,7 +15,7 @@ S/R:    TSP-C
 
 Name:   Dack Fayden
 Cost:   1UR
-Type:   Planeswalker — Dack
+Type:   Legendary Planeswalker — Dack
 P/T:    3
 S/R:    CNS-M, EMA-M, VMA-M
 [+1]: Target player draws two cards, then discards two cards.
@@ -279,7 +279,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 
 Name:   Daretti, Ingenious Iconoclast
 Cost:   1BR
-Type:   Planeswalker — Daretti
+Type:   Legendary Planeswalker — Daretti
 P/T:    3
 S/R:    CN2-M
 [+1]: Create a 1/1 colorless Construct artifact creature token with defender.
@@ -288,7 +288,7 @@ S/R:    CN2-M
 
 Name:   Daretti, Scrap Savant
 Cost:   3R
-Type:   Planeswalker — Daretti
+Type:   Legendary Planeswalker — Daretti
 P/T:    3
 S/R:    C14-M, C16-M
 [+2]: Discard up to two cards, then draw that many cards.
@@ -351,6 +351,14 @@ Cost:   1WU
 Type:   Instant
 S/R:    PS-C
 Target creature gets +1/+1 and gains flying and first strike until end of turn.
+
+Name:   Daring Saboteur
+Cost:   1U
+Type:   Creature — Human Pirate
+P/T:    2/1
+S/R:    XLN-R
+{2}{U}: Daring Saboteur can't be blocked this turn.
+Whenever Daring Saboteur deals combat damage to a player, you may draw a card. If you do, discard a card.
 
 Name:   Daring Skyjek
 Cost:   1W
@@ -458,6 +466,12 @@ P/T:    4/5
 S/R:    HL-C, 5E-C
 Defender (This creature can't attack.)
 {0}: Dark Maze can attack this turn as though it didn't have defender. Exile it at the beginning of the next end step.
+
+Name:   Dark Nourishment
+Cost:   4B
+Type:   Instant
+S/R:    XLN-U
+Dark Nourishment deals 3 damage to target creature or player. You gain 3 life.
 
 Name:   Dark Offering
 Cost:   4BB
@@ -672,7 +686,7 @@ P/T:    */*
 S/R:    SOM-R
 Indestructible
 Darksteel Juggernaut's power and toughness are each equal to the number of artifacts you control.
-Darksteel Juggernaut attacks each turn if able.
+Darksteel Juggernaut attacks each combat if able.
 
 Name:   Darksteel Mutation
 Cost:   1W
@@ -960,7 +974,7 @@ Type:   Creature — Dauthi Soldier
 P/T:    2/2
 S/R:    TE-C, TSP-S
 Shadow (This creature can block or be blocked by only creatures with shadow.)
-Dauthi Slayer attacks each turn if able.
+Dauthi Slayer attacks each combat if able.
 
 Name:   Dauthi Trapper
 Cost:   2B
@@ -1308,6 +1322,35 @@ S/R:    AVR-R, MM3-R
 Soulbond (You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them.)
 As long as Deadeye Navigator is paired with another creature, each of those creatures has "{1}{U}: Exile this creature, then return it to the battlefield under your control."
 
+Name:   Deadeye Plunderers
+Cost:   3UB
+Type:   Creature — Human Pirate
+P/T:    3/3
+S/R:    XLN-U
+Deadeye Plunderers gets +1/+1 for each artifact you control.
+{2}{U}{B}: Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+
+Name:   Deadeye Quartermaster
+Cost:   3U
+Type:   Creature — Human Pirate
+P/T:    2/2
+S/R:    XLN-U
+When Deadeye Quartermaster enters the battlefield, you may search your library for an Equipment or Vehicle card, reveal it, put it into your hand, then shuffle your library.
+
+Name:   Deadeye Tormentor
+Cost:   2B
+Type:   Creature — Human Pirate
+P/T:    2/2
+S/R:    XLN-C
+Raid — When Deadeye Tormentor enters the battlefield, if you attacked with a creature this turn, target opponent discards a card.
+
+Name:   Deadeye Tracker
+Cost:   B
+Type:   Creature — Human Pirate
+P/T:    1/1
+S/R:    XLN-R
+{1}{B}, {T}: Exile two target cards from an opponent's graveyard. Deadeye Tracker explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
 Name:   Deadfall
 Cost:   2G
 Type:   Enchantment
@@ -1635,7 +1678,7 @@ Cost:   1R
 Type:   Creature — Minotaur Berserker
 P/T:    2/3
 S/R:    THS-C
-Deathbellow Raider attacks each turn if able.
+Deathbellow Raider attacks each combat if able.
 {2}{B}: Regenerate Deathbellow Raider.
 
 Name:   Deathbringer Liege
@@ -1716,6 +1759,13 @@ P/T:    2/2
 S/R:    MM-U, 8ED-U, 9ED-U
 Whenever Deathgazer blocks or becomes blocked by a nonblack creature, destroy that creature at end of combat.
 
+Name:   Deathgorge Scavenger
+Cost:   2G
+Type:   Creature — Dinosaur
+P/T:    3/2
+S/R:    XLN-R
+Whenever Deathgorge Scavenger enters the battlefield or attacks, you may exile target card from a graveyard. If a creature card is exiled this way, you gain 2 life. If a noncreature card is exiled this way, Deathgorge Scavenger gets +1/+1 until end of turn.
+
 Name:   Deathgreeter
 Cost:   B
 Type:   Creature — Human Shaman
@@ -1743,6 +1793,14 @@ Cost:   B
 Type:   Instant
 S/R:    A-R, B-R, U-R, RV-R, 4E-R
 Target spell or permanent becomes black. (Mana symbols on that permanent remain unchanged.)
+
+Name:   Deathless Ancient
+Cost:   4BB
+Type:   Creature — Vampire Knight
+P/T:    4/4
+S/R:    XLN-U
+Flying
+Tap three untapped Vampires you control: Return Deathless Ancient from your graveyard to your hand.
 
 Name:   Deathless Angel
 Cost:   4WW
@@ -1782,7 +1840,7 @@ As long as you have seven or more cards in hand, Deathmask Nezumi gets +2/+1 and
 
 Name:   Deathmist Raptor
 Cost:   1GG
-Type:   Creature — Lizard Beast
+Type:   Creature — Dinosaur Beast
 P/T:    3/3
 S/R:    DTK-M
 Deathtouch
@@ -2143,6 +2201,26 @@ Type:   Creature — Fish
 P/T:    3/3
 S/R:    C16-R
 When Deepglow Skate enters the battlefield, double the number of each kind of counter on any number of target permanents.
+
+Name:   Deeproot Champion
+Cost:   1G
+Type:   Creature — Merfolk Shaman
+P/T:    1/1
+S/R:    XLN-R
+Whenever you cast a noncreature spell, put a +1/+1 counter on Deeproot Champion.
+
+Name:   Deeproot Warrior
+Cost:   1G
+Type:   Creature — Merfolk Warrior
+P/T:    2/2
+S/R:    XLN-C
+Whenever Deeproot Warrior becomes blocked, it gets +1/+1 until end of turn.
+
+Name:   Deeproot Waters
+Cost:   2U
+Type:   Enchantment
+S/R:    XLN-U
+Whenever you cast a Merfolk spell, create a 1/1 blue Merfolk creature token with hexproof. (A creature with hexproof can't be the target of spells or abilities your opponents control.)
 
 Name:   Deeptread Merrow
 Cost:   1U
@@ -2594,7 +2672,7 @@ When you cast Demigod of Revenge, return all cards named Demigod of Revenge from
 Name:   Demolish
 Cost:   3R
 Type:   Sorcery
-S/R:    OD-U, 8ED-U, 9ED-U, 10E-C, ZEN-C, M11-C, AVR-C, M14-C, THS-C, ORI-C, KLD-C
+S/R:    OD-U, 8ED-U, 9ED-U, 10E-C, ZEN-C, M11-C, AVR-C, M14-C, THS-C, ORI-C, KLD-C, XLN-C
 Destroy target artifact or land.
 
 Name:   Demolition Stomper
@@ -2781,7 +2859,7 @@ Threshold — If seven or more cards are in your graveyard, creatures can't bloc
 Name:   Demystify
 Cost:   W
 Type:   Instant
-S/R:    ONS-C, 8ED-C, 9ED-C, 10E-C, ROE-C, M12-C
+S/R:    ONS-C, 8ED-C, 9ED-C, 10E-C, ROE-C, M12-C, XLN-C
 Destroy target enchantment.
 
 Name:   Den Protector
@@ -2858,6 +2936,12 @@ Type:   Instant
 S/R:    ROE-C
 As an additional cost to cast Deprive, return a land you control to its owner's hand.
 Counter target spell.
+
+Name:   Depths of Desire
+Cost:   2U
+Type:   Instant
+S/R:    XLN-C
+Return target creature to its owner's hand. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Deputized Protester
 Cost:   2R
@@ -3164,6 +3248,13 @@ M-card: Driven
 S/R:    HOU-R
 Aftermath (Cast this spell only from your graveyard. Then exile it.)
 Until end of turn, creatures you control gain menace and "Whenever this creature deals combat damage to a player, that player discards a card."
+
+Name:   Desperate Castaways
+Cost:   1B
+Type:   Creature — Human Pirate
+P/T:    2/3
+S/R:    XLN-C
+Desperate Castaways can't attack unless you control an artifact.
 
 Name:   Desperate Charge
 Cost:   2B
@@ -3871,6 +3962,12 @@ Type:   Artifact
 S/R:    WL-U
 Whenever a creature dies, Dingus Staff deals 2 damage to that creature's controller.
 
+Name:   Dinosaur Stampede
+Cost:   2R
+Type:   Instant
+S/R:    XLN-U
+Attacking creatures get +2/+0 until end of turn. Dinosaurs you control gain trample until end of turn.
+
 Name:   Dinrova Horror
 Cost:   4UB
 Type:   Creature — Horror
@@ -3898,6 +3995,36 @@ S/R:    MM-C
 Enchant creature
 Shroud (A permanent with shroud can't be the target of spells or abilities.)
 Enchanted creature has shroud.
+
+Name:   Dire Fleet Captain
+Cost:   BR
+Type:   Creature — Orc Pirate
+P/T:    2/2
+S/R:    XLN-U
+Whenever Dire Fleet Captain attacks, it gets +1/+1 until end of turn for each other attacking Pirate.
+
+Name:   Dire Fleet Hoarder
+Cost:   1B
+Type:   Creature — Human Pirate
+P/T:    2/1
+S/R:    XLN-C
+When Dire Fleet Hoarder dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+
+Name:   Dire Fleet Interloper
+Cost:   3B
+Type:   Creature — Human Pirate
+P/T:    2/2
+S/R:    XLN-C
+Menace
+When Dire Fleet Interloper enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
+Name:   Dire Fleet Ravager
+Cost:   3BB
+Type:   Creature — Orc Pirate Wizard
+P/T:    4/4
+S/R:    XLN-M
+Menace, deathtouch
+When Dire Fleet Ravager enters the battlefield, each player loses a third of his or her life, rounded up.
 
 Name:   Dire Undercurrents
 Cost:   3(U/B)(U/B)
@@ -4506,6 +4633,12 @@ S/R:    ONS-C
 Flying
 {T}, Sacrifice Dive Bomber: Dive Bomber deals 2 damage to target attacking or blocking creature.
 
+Name:   Dive Down
+Cost:   U
+Type:   Instant
+S/R:    XLN-C
+Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+
 Name:   Divebomber Griffin
 Cost:   3WW
 Type:   Creature — Griffin
@@ -4851,7 +4984,7 @@ At the beginning of your upkeep, you may gain control of target permanent until 
 
 Name:   Domri Rade
 Cost:   1RG
-Type:   Planeswalker — Domri
+Type:   Legendary Planeswalker — Domri
 P/T:    3
 S/R:    GTC-M, MM3-M
 [+1]: Look at the top card of your library. If it's a creature card, you may reveal it and put it into your hand.
@@ -5072,7 +5205,7 @@ Whenever a player casts a noncreature spell, counter that spell. That player cre
 
 Name:   Dovin Baan
 Cost:   2WU
-Type:   Planeswalker — Dovin
+Type:   Legendary Planeswalker — Dovin
 P/T:    3
 S/R:    KLD-M
 [+1]: Until your next turn, up to one target creature gets -3/-0 and its activated abilities can't be activated.
@@ -5114,6 +5247,17 @@ Type:   Instant
 S/R:    RTR-C
 Target creature you don't control gets -4/-0 until end of turn.
 Overload {2}{U} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.")
+
+Name:   Dowsing Dagger
+Cost:   2
+Type:   Artifact — Equipment
+M-type: Transform
+M-card: Lost Vale
+S/R:    XLN-R
+When Dowsing Dagger enters the battlefield, target opponent creates two 0/2 green Plant creature tokens with defender.
+Equipped creature gets +2/+1.
+Whenever equipped creature deals combat damage to a player, you may transform Dowsing Dagger.
+Equip {2}
 
 Name:   Dowsing Shaman
 Cost:   4G
@@ -5157,7 +5301,7 @@ Name:   Drafna's Restoration
 Cost:   U
 Type:   Sorcery
 S/R:    AQ-C
-Return any number of target artifact cards from target player's graveyard to the top of his or her library in any order.
+Put any number of target artifact cards from target player's graveyard on top of his or her library in any order.
 
 Name:   Drag Down
 Cost:   2B
@@ -5514,7 +5658,7 @@ Overload {3}{U}{U}{R}{R} (You may cast this spell for its overload cost. If you 
 
 Name:   Dragonskull Summit
 Type:   Land
-S/R:    M10-R, M11-R, M12-R, M13-R, C16-R, E01-R
+S/R:    M10-R, M11-R, M12-R, M13-R, C16-R, E01-R, XLN-R
 Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.
 {T}: Add {B} or {R} to your mana pool.
 
@@ -5979,6 +6123,16 @@ P/T:    2/2
 S/R:    LGN-R, 10E-R, CMD-R
 At the beginning of each player's upkeep, that player puts the top X cards of his or her library into his or her graveyard, where X is the number of cards in his or her hand.
 
+Name:   Dreamcaller Siren
+Cost:   2UU
+Type:   Creature — Siren Pirate
+P/T:    3/3
+S/R:    XLN-R
+Flash
+Flying
+Dreamcaller Siren can block only creatures with flying.
+When Dreamcaller Siren enters the battlefield, if you control another Pirate, tap up to two target nonland permanents.
+
 Name:   Dreamcatcher
 Cost:   U
 Type:   Creature — Spirit
@@ -6305,7 +6459,7 @@ Whenever a Dragon you control attacks, bolster 2. (Choose a creature with the le
 
 Name:   Dromosaur
 Cost:   2R
-Type:   Creature — Lizard
+Type:   Creature — Dinosaur
 P/T:    2/3
 S/R:    US-C
 Whenever Dromosaur blocks or becomes blocked, it gets +2/-2 until end of turn.
@@ -6414,6 +6568,14 @@ S/R:    SHM-U, C14-U, CMA-U
 Hexproof
 Drove of Elves's power and toughness are each equal to the number of green permanents you control.
 
+Name:   Drover of the Mighty
+Cost:   1G
+Type:   Creature — Human Druid
+P/T:    1/1
+S/R:    XLN-U
+Drover of the Mighty gets +2/+2 as long as you control a Dinosaur.
+{T}: Add one mana of any color to your mana pool.
+
 Name:   Drown in Filth
 Cost:   BG
 Type:   Sorcery
@@ -6435,7 +6597,7 @@ S/R:    DK-C, ME4-C
 
 Name:   Drowned Catacomb
 Type:   Land
-S/R:    M10-R, M11-R, M12-R, M13-R, E01-R
+S/R:    M10-R, M11-R, M12-R, M13-R, E01-R, XLN-R
 Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp.
 {T}: Add {U} or {B} to your mana pool.
 
@@ -6649,7 +6811,7 @@ When Dual Nature leaves the battlefield, exile all tokens created with Dual Natu
 Name:   Dual Shot
 Cost:   R
 Type:   Instant
-S/R:    SOI-C
+S/R:    SOI-C, XLN-C
 Dual Shot deals 1 damage to each of up to two target creatures.
 
 Name:   Dualcaster Mage
@@ -6684,8 +6846,8 @@ Name:   Dueling Grounds
 Cost:   1GW
 Type:   Enchantment
 S/R:    IN-R
-No more than one creature can attack each turn.
-No more than one creature can block each turn.
+No more than one creature can attack each combat.
+No more than one creature can block each combat.
 
 Name:   Duelist's Heritage
 Cost:   2W
@@ -6836,7 +6998,7 @@ Whenever a creature enters the battlefield under your control, you may pay {1}. 
 Name:   Duress
 Cost:   B
 Type:   Sorcery
-S/R:    US-C, 7E-C, M10-C, M11-C, M13-C, M14-C, DTK-C, EMA-C, DDC-C, PD3-C
+S/R:    US-C, 7E-C, M10-C, M11-C, M13-C, M14-C, DTK-C, EMA-C, XLN-C, DDC-C, PD3-C
 Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.
 
 Name:   Durkwood Baloth
@@ -6882,6 +7044,14 @@ P/T:    2/1
 S/R:    OD-C, 8ED-C, 10E-C, DDC-C
 Flying
 
+Name:   Dusk Legion Dreadnought
+Cost:   5
+Type:   Artifact — Vehicle
+P/T:    4/6
+S/R:    XLN-U
+Vigilance
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Dusk Urchins
 Cost:   2B
 Type:   Creature — Ouphe
@@ -6889,6 +7059,14 @@ P/T:    4/3
 S/R:    SHM-R
 Whenever Dusk Urchins attacks or blocks, put a -1/-1 counter on it.
 When Dusk Urchins dies, draw a card for each -1/-1 counter on it.
+
+Name:   Duskborne Skymarcher
+Cost:   W
+Type:   Creature — Vampire Cleric
+P/T:    1/1
+S/R:    XLN-U
+Flying
+{W}, {T}: Target attacking Vampire gets +1/+1 until end of turn.
 
 Name:   Duskdale Wurm
 Cost:   5GG

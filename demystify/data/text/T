@@ -489,7 +489,7 @@ At the beginning of your upkeep, investigate. (Create a colorless Clue artifact 
 
 Name:   Tamiyo, Field Researcher
 Cost:   1GWU
-Type:   Planeswalker — Tamiyo
+Type:   Legendary Planeswalker — Tamiyo
 P/T:    4
 S/R:    EMN-M
 [+1]: Choose up to two target creatures. Until your next turn, whenever either of those creatures deals combat damage, you draw a card.
@@ -498,7 +498,7 @@ S/R:    EMN-M
 
 Name:   Tamiyo, the Moon Sage
 Cost:   3UU
-Type:   Planeswalker — Tamiyo
+Type:   Legendary Planeswalker — Tamiyo
 P/T:    4
 S/R:    AVR-M
 [+1]: Tap target permanent. It doesn't untap during its controller's next untap step.
@@ -842,7 +842,7 @@ Cost:   (R/G)
 Type:   Creature — Goblin Warrior
 P/T:    2/1
 S/R:    SHM-U
-Tattermunge Maniac attacks each turn if able.
+Tattermunge Maniac attacks each combat if able.
 
 Name:   Tattermunge Witch
 Cost:   1(R/G)
@@ -961,7 +961,7 @@ Type:   Creature — Elemental
 P/T:    7/7
 S/R:    TSP-U
 Echo {4}{R}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-Tectonic Fiend attacks each turn if able.
+Tectonic Fiend attacks each combat if able.
 
 Name:   Tectonic Instability
 Cost:   2R
@@ -1086,7 +1086,7 @@ Each opponent can cast spells only any time he or she could cast a sorcery.
 
 Name:   Teferi, Temporal Archmage
 Cost:   4UU
-Type:   Planeswalker — Teferi
+Type:   Legendary Planeswalker — Teferi
 P/T:    5
 S/R:    C14-M
 [+1]: Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
@@ -1284,6 +1284,13 @@ Type:   Enchantment
 S/R:    SOM-R
 Artifact creatures you control get +2/+2.
 
+Name:   Tempest Caller
+Cost:   2UU
+Type:   Creature — Merfolk Wizard
+P/T:    2/3
+S/R:    XLN-U
+When Tempest Caller enters the battlefield, tap all creatures target opponent controls.
+
 Name:   Tempest Drake
 Cost:   1WU
 Type:   Creature — Drake
@@ -1338,6 +1345,15 @@ S/R:    THS-R
 Temple of Abandon enters the battlefield tapped.
 When Temple of Abandon enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 {T}: Add {R} or {G} to your mana pool.
+
+Name:   Temple of Aclazotz
+Type:   Legendary Land
+M-type: Transform
+M-card: Arguel's Blood Fast
+S/R:    XLN-R
+(Transforms from Arguel's Blood Fast.)
+{T}: Add {B} to your mana pool.
+{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.
 
 Name:   Temple of Deceit
 Type:   Land
@@ -1842,6 +1858,13 @@ S/R:    KLD-R
 Trample
 Whenever you get one or more {E} (energy counters), Territorial Gorger gets +2/+2 until end of turn.
 
+Name:   Territorial Hammerskull
+Cost:   2W
+Type:   Creature — Dinosaur
+P/T:    2/3
+S/R:    XLN-C
+Whenever Territorial Hammerskull attacks, tap target creature an opponent controls.
+
 Name:   Territorial Hellkite
 Cost:   2RR
 Type:   Creature — Dragon
@@ -1964,7 +1987,7 @@ Whenever another black creature you control dies, create a 1/1 white Spirit crea
 
 Name:   Tezzeret the Schemer
 Cost:   2UB
-Type:   Planeswalker — Tezzeret
+Type:   Legendary Planeswalker — Tezzeret
 P/T:    5
 S/R:    AeR-M
 [+1]: Create a colorless artifact token named Etherium Cell with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
@@ -1973,7 +1996,7 @@ S/R:    AeR-M
 
 Name:   Tezzeret the Seeker
 Cost:   3UU
-Type:   Planeswalker — Tezzeret
+Type:   Legendary Planeswalker — Tezzeret
 P/T:    4
 S/R:    ALA-M, MM2-M, DDF-M
 [+1]: Untap up to two target artifacts.
@@ -2015,7 +2038,7 @@ When enchanted artifact is put into a graveyard, return that card to its owner's
 
 Name:   Tezzeret, Agent of Bolas
 Cost:   2UB
-Type:   Planeswalker — Tezzeret
+Type:   Legendary Planeswalker — Tezzeret
 P/T:    3
 S/R:    MBS-M
 [+1]: Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
@@ -2024,7 +2047,7 @@ S/R:    MBS-M
 
 Name:   Tezzeret, Master of Metal
 Cost:   4UB
-Type:   Planeswalker — Tezzeret
+Type:   Legendary Planeswalker — Tezzeret
 P/T:    5
 S/R:    AeR-M
 [+1]: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in a random order.
@@ -2223,6 +2246,15 @@ Cost:   2R
 Type:   Sorcery
 S/R:    AVR-C
 Create three 1/1 red Human creature tokens with haste. Sacrifice those tokens at the beginning of the next end step.
+
+Name:   Thaumatic Compass
+Cost:   2
+Type:   Artifact
+M-type: Transform
+M-card: Spires of Orazca
+S/R:    XLN-R
+{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+At the beginning of your end step, if you control seven or more lands, transform Thaumatic Compass.
 
 Name:   Thaumatog
 Cost:   1GW
@@ -3167,7 +3199,7 @@ Name:   Thran Turbine
 Cost:   1
 Type:   Artifact
 S/R:    US-U
-At the beginning of your upkeep, you may add {C} or {C}{C} to your mana pool. You can't spend this mana to cast spells.
+At the beginning of your upkeep, you may add {C}{C} to your mana pool. You can't spend this mana to cast spells.
 
 Name:   Thran War Machine
 Cost:   4
@@ -3175,7 +3207,7 @@ Type:   Artifact Creature — Construct
 P/T:    4/5
 S/R:    UL-U
 Echo {4} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
-Thran War Machine attacks each turn if able.
+Thran War Machine attacks each combat if able.
 
 Name:   Thran Weaponry
 Cost:   4
@@ -3184,6 +3216,13 @@ S/R:    UL-R
 Echo {4} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 You may choose not to untap Thran Weaponry during your untap step.
 {2}, {T}: All creatures get +2/+2 for as long as Thran Weaponry remains tapped.
+
+Name:   Thrash of Raptors
+Cost:   3R
+Type:   Creature — Dinosaur
+P/T:    3/3
+S/R:    XLN-C
+As long as you control another Dinosaur, Thrash of Raptors gets +2/+0 and has trample.
 
 Name:   Thrashing Mossdog
 Cost:   3G
@@ -3629,6 +3668,14 @@ P/T:    4/3
 S/R:    US-U, 10E-U, MMA-C, M15-C, W17-C
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 
+Name:   Thundering Spineback
+Cost:   5GG
+Type:   Creature — Dinosaur
+P/T:    5/5
+S/R:    XLN-U
+Other Dinosaurs you control get +1/+1.
+{5}{G}: Create a 3/3 green Dinosaur creature token with trample.
+
 Name:   Thundering Tanadon
 Cost:   4(G/P)(G/P)
 Type:   Artifact Creature — Beast
@@ -3731,7 +3778,7 @@ Counter target spell.
 
 Name:   Tibalt, the Fiend-Blooded
 Cost:   RR
-Type:   Planeswalker — Tibalt
+Type:   Legendary Planeswalker — Tibalt
 P/T:    2
 S/R:    AVR-M, DDK-M
 [+1]: Draw a card, then discard a card at random.
@@ -3950,6 +3997,21 @@ Type:   Creature — Treefolk Druid
 P/T:    1/3
 S/R:    EVE-C
 When Tilling Treefolk enters the battlefield, you may return up to two target land cards from your graveyard to your hand.
+
+Name:   Tilonalli's Knight
+Cost:   1R
+Type:   Creature — Human Knight
+P/T:    2/2
+S/R:    XLN-C
+Whenever Tilonalli's Knight attacks, if you control a Dinosaur, Tilonalli's Knight gets +1/+1 until end of turn.
+
+Name:   Tilonalli's Skinshifter
+Cost:   2R
+Type:   Creature — Human Shaman
+P/T:    0/1
+S/R:    XLN-R
+Haste
+Whenever Tilonalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.
 
 Name:   Timber Gorge
 Type:   Land
@@ -4261,6 +4323,22 @@ P/T:    1/1
 S/R:    OD-C
 Discard a card: Tireless Tribe gets +0/+4 until end of turn.
 
+Name:   Tishana's Wayfinder
+Cost:   2G
+Type:   Creature — Merfolk Scout
+P/T:    2/2
+S/R:    XLN-C
+When Tishana's Wayfinder enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
+Name:   Tishana, Voice of Thunder
+Cost:   5GU
+Type:   Legendary Creature — Merfolk Shaman
+P/T:    */*
+S/R:    XLN-M
+Tishana, Voice of Thunder's power and toughness are each equal to the number of cards in your hand.
+You have no maximum hand size.
+When Tishana enters the battlefield, draw a card for each creature you control.
+
 Name:   Titan Forge
 Cost:   3
 Type:   Artifact
@@ -4339,7 +4417,7 @@ Name:   Titanic Ultimatum
 Cost:   RRGGGWW
 Type:   Sorcery
 S/R:    ALA-R, DDH-R
-Until end of turn, creatures you control get +5/+5 and gain first strike, lifelink, and trample.
+Until end of turn, creatures you control get +5/+5 and gain first strike, trample, and lifelink.
 
 Name:   Titanium Golem
 Cost:   5
@@ -4404,6 +4482,13 @@ M-type: Flip
 M-card: Student of Elements
 S/R:    CHK-U
 Creatures you control have flying.
+
+Name:   Tocatli Honor Guard
+Cost:   1W
+Type:   Creature — Human Soldier
+P/T:    1/3
+S/R:    XLN-R
+Creatures entering the battlefield don't cause abilities to trigger.
 
 Name:   Toil
 Cost:   2B
@@ -4806,7 +4891,7 @@ Name:   Tormentor's Trident
 Cost:   2
 Type:   Artifact — Equipment
 S/R:    AVR-U
-Equipped creature gets +3/+0 and attacks each turn if able.
+Equipped creature gets +3/+0 and attacks each combat if able.
 Equip {3}
 
 Name:   Tormod's Crypt
@@ -5717,6 +5802,15 @@ S/R:    CNS-U
 Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)
 Pay 3 life: Add {R} to your mana pool.
 
+Name:   Treasure Cove
+Type:   Land
+M-type: Transform
+M-card: Treasure Map
+S/R:    XLN-R
+(Transforms from Treasure Map.)
+{T}: Add {C} to your mana pool.
+{T}, Sacrifice a Treasure: Draw a card.
+
 Name:   Treasure Cruise
 Cost:   7U
 Type:   Sorcery
@@ -5750,6 +5844,14 @@ Type:   Creature — Human Wizard
 P/T:    2/2
 S/R:    MBS-U
 When Treasure Mage enters the battlefield, you may search your library for an artifact card with converted mana cost 6 or greater, reveal that card, and put it into your hand. If you do, shuffle your library.
+
+Name:   Treasure Map
+Cost:   2
+Type:   Artifact
+M-type: Transform
+M-card: Treasure Cove
+S/R:    XLN-R
+{1}, {T}: Scry 1. Put a landmark counter on Treasure Map. Then if there are three or more landmark counters on it, remove those counters, transform Treasure Map, and create three colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Treasure Trove
 Cost:   2UU
@@ -6404,6 +6506,13 @@ S/R:    PR-R
 Flying
 At the beginning of your end step, tap all lands you control.
 
+Name:   Trove of Temptation
+Cost:   3R
+Type:   Enchantment
+S/R:    XLN-U
+Each opponent must attack you or a planeswalker you control with at least one creature each combat if able.
+At the beginning of your end step, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+
 Name:   Truce
 Cost:   2W
 Type:   Instant
@@ -7020,7 +7129,7 @@ S/R:    M15-C
 
 Name:   Tyrranax
 Cost:   4GG
-Type:   Creature — Beast
+Type:   Creature — Dinosaur Beast
 P/T:    5/4
 S/R:    5DN-C
 {1}{G}: Tyrranax gets -1/+1 until end of turn.

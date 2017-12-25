@@ -993,6 +993,13 @@ Type:   Sorcery
 S/R:    TE-U
 Exchange control of target artifact or creature and another target permanent that shares one of those types with it. (This effect lasts indefinitely.)
 
+Name:   Legion Conquistador
+Cost:   2W
+Type:   Creature — Vampire Soldier
+P/T:    2/2
+S/R:    XLN-C
+When Legion Conquistador enters the battlefield, you may search your library for any number of cards named Legion Conquistador, reveal them, put them into your hand, then shuffle your library.
+
 Name:   Legion Loyalist
 Cost:   R
 Type:   Creature — Goblin Soldier
@@ -1008,6 +1015,21 @@ S/R:    DGM-M
 Red creatures you control get +1/+0.
 White creatures you control get +0/+1.
 {R}{W}, Exile Legion's Initiative: Exile all creatures you control. At the beginning of the next combat, return those cards to the battlefield under their owner's control and those creatures gain haste until end of turn.
+
+Name:   Legion's Judgment
+Cost:   2W
+Type:   Sorcery
+S/R:    XLN-C
+Destroy target creature with power 4 or greater.
+
+Name:   Legion's Landing
+Cost:   W
+Type:   Legendary Enchantment
+M-type: Transform
+M-card: Adanto, the First Fort
+S/R:    XLN-R
+When Legion's Landing enters the battlefield, create a 1/1 white Vampire creature token with lifelink.
+When you attack with three or more creatures, transform Legion's Landing.
 
 Name:   Legions of Lim-Dul
 Cost:   1BB
@@ -1890,7 +1912,7 @@ Discard a land card: Put two charge counters on Lightning Storm. You may choose 
 Name:   Lightning Strike
 Cost:   1R
 Type:   Instant
-S/R:    THS-C, M15-C
+S/R:    THS-C, M15-C, XLN-U
 Lightning Strike deals 3 damage to target creature or player.
 
 Name:   Lightning Surge
@@ -1913,6 +1935,14 @@ Cost:   3R
 Type:   Instant
 S/R:    BNG-U
 Until end of turn, creatures you control gain "{T}: This creature deals 1 damage to target creature or player."
+
+Name:   Lightning-Rig Crew
+Cost:   2R
+Type:   Creature — Goblin Pirate
+P/T:    0/5
+S/R:    XLN-U
+{T}: Lightning-Rig Crew deals 1 damage to each opponent.
+Whenever you cast a Pirate spell, untap Lightning-Rig Crew.
 
 Name:   Lightwalker
 Cost:   1W
@@ -1938,7 +1968,7 @@ Enchanted creature is a Treefolk with base power and toughness 0/4 and loses all
 
 Name:   Liliana Vess
 Cost:   3BB
-Type:   Planeswalker — Liliana
+Type:   Legendary Planeswalker — Liliana
 P/T:    5
 S/R:    LRW-R, M10-M, M11-M, M15-M, DDD-M
 [+1]: Target player discards a card.
@@ -1947,7 +1977,7 @@ S/R:    LRW-R, M10-M, M11-M, M15-M, DDD-M
 
 Name:   Liliana of the Dark Realms
 Cost:   2BB
-Type:   Planeswalker — Liliana
+Type:   Legendary Planeswalker — Liliana
 P/T:    3
 S/R:    M13-M, M14-M
 [+1]: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.
@@ -1956,7 +1986,7 @@ S/R:    M13-M, M14-M
 
 Name:   Liliana of the Veil
 Cost:   1BB
-Type:   Planeswalker — Liliana
+Type:   Legendary Planeswalker — Liliana
 P/T:    3
 S/R:    ISD-M, MM3-M
 [+1]: Each player discards a card.
@@ -2027,7 +2057,7 @@ When Liliana's Specter enters the battlefield, each opponent discards a card.
 
 Name:   Liliana, Death Wielder
 Cost:   5BB
-Type:   Planeswalker — Liliana
+Type:   Legendary Planeswalker — Liliana
 P/T:    5
 S/R:    AKH-M
 [+2]: Put a -1/-1 counter on up to one target creature.
@@ -2036,7 +2066,7 @@ S/R:    AKH-M
 
 Name:   Liliana, Death's Majesty
 Cost:   3BB
-Type:   Planeswalker — Liliana
+Type:   Legendary Planeswalker — Liliana
 P/T:    5
 S/R:    AKH-M
 [+1]: Create a 2/2 black Zombie creature token. Put the top two cards of your library into your graveyard.
@@ -2044,7 +2074,7 @@ S/R:    AKH-M
 [-7]: Destroy all non-Zombie creatures.
 
 Name:   Liliana, Defiant Necromancer
-Type:   Planeswalker — Liliana
+Type:   Legendary Planeswalker — Liliana
 P/T:    3
 Color:  Black
 M-type: Transform
@@ -2065,7 +2095,7 @@ Whenever another nontoken creature you control dies, exile Liliana, Heretical He
 
 Name:   Liliana, the Last Hope
 Cost:   1BB
-Type:   Planeswalker — Liliana
+Type:   Legendary Planeswalker — Liliana
 P/T:    3
 S/R:    EMN-M
 [+1]: Up to one target creature gets -2/-1 until your next turn.
@@ -2766,6 +2796,19 @@ S/R:    KLD-U
 Whenever Longtusk Cub deals combat damage to a player, you get {E}{E} (two energy counters).
 Pay {E}{E}: Put a +1/+1 counter on Longtusk Cub.
 
+Name:   Lookout's Dispersal
+Cost:   2U
+Type:   Instant
+S/R:    XLN-U
+Lookout's Dispersal costs {1} less to cast if you control a Pirate.
+Counter target spell unless its controller pays {4}.
+
+Name:   Looming Altisaur
+Cost:   3W
+Type:   Creature — Dinosaur
+P/T:    1/7
+S/R:    XLN-C
+
 Name:   Looming Hoverguard
 Cost:   4UU
 Type:   Creature — Drone
@@ -2982,6 +3025,14 @@ Type:   Creature — Spirit Minion
 P/T:    2/1
 S/R:    LE-C, 4E-C, 5E-C, 6E-C
 Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+
+Name:   Lost Vale
+Type:   Land
+M-type: Transform
+M-card: Dowsing Dagger
+S/R:    XLN-R
+(Transforms from Dowsing Dagger.)
+{T}: Add three mana of any one color to your mana pool.
 
 Name:   Lost in Thought
 Cost:   1U
@@ -3541,6 +3592,13 @@ S/R:    CNS-C
 Reveal Lurking Automaton as you draft it and note how many cards you've drafted this draft round, including Lurking Automaton.
 Lurking Automaton enters the battlefield with X +1/+1 counters on it, where X is the highest number you noted for cards named Lurking Automaton.
 
+Name:   Lurking Chupacabra
+Cost:   3B
+Type:   Creature — Beast Horror
+P/T:    2/3
+S/R:    XLN-U
+Whenever a creature you control explores, target creature an opponent controls gets -2/-2 until end of turn.
+
 Name:   Lurking Crocodile
 Cost:   2G
 Type:   Creature — Crocodile
@@ -3601,7 +3659,7 @@ Type:   Enchantment — Aura
 S/R:    ROE-U
 Enchant creature
 Whenever enchanted creature becomes tapped, Lust for War deals 3 damage to that creature's controller.
-Enchanted creature attacks each turn if able.
+Enchanted creature attacks each combat if able.
 
 Name:   Lux Cannon
 Cost:   4

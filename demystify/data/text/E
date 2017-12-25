@@ -521,6 +521,14 @@ P/T:    1/1
 S/R:    AN-R, RV-R, 4E-R
 Whenever El-Hajjaj deals damage, you gain that much life.
 
+Name:   Elaborate Firecannon
+Cost:   2
+Type:   Artifact
+S/R:    XLN-U
+Elaborate Firecannon doesn't untap during your untap step.
+{4}, {T}: Elaborate Firecannon deals 2 damage to target creature or player.
+At the beginning of your upkeep, you may discard a card. If you do, untap Elaborate Firecannon.
+
 Name:   Eladamri's Call
 Cost:   GW
 Type:   Instant
@@ -995,7 +1003,7 @@ Sacrifice Elsewhere Flask: Choose a basic land type. Each land you control becom
 
 Name:   Elspeth Tirel
 Cost:   3WW
-Type:   Planeswalker — Elspeth
+Type:   Legendary Planeswalker — Elspeth
 P/T:    4
 S/R:    SOM-M
 [+2]: You gain 1 life for each creature you control.
@@ -1004,7 +1012,7 @@ S/R:    SOM-M
 
 Name:   Elspeth, Knight-Errant
 Cost:   2WW
-Type:   Planeswalker — Elspeth
+Type:   Legendary Planeswalker — Elspeth
 P/T:    4
 S/R:    ALA-M, MMA-M, DDF-M
 [+1]: Create a 1/1 white Soldier creature token.
@@ -1013,7 +1021,7 @@ S/R:    ALA-M, MMA-M, DDF-M
 
 Name:   Elspeth, Sun's Champion
 Cost:   4WW
-Type:   Planeswalker — Elspeth
+Type:   Legendary Planeswalker — Elspeth
 P/T:    4
 S/R:    THS-M, DDO-M
 [+1]: Create three 1/1 white Soldier creature tokens.
@@ -1467,7 +1475,7 @@ Type:   Creature — Djinn
 P/T:    4/4
 S/R:    MI-R
 Flying, trample
-Emberwilde Caliph attacks each turn if able.
+Emberwilde Caliph attacks each combat if able.
 Whenever Emberwilde Caliph deals damage, you lose that much life.
 
 Name:   Emberwilde Djinn
@@ -1578,6 +1586,12 @@ S/R:    ROE-U
 Target creature you control gains protection from the color of your choice until end of turn.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 
+Name:   Emergent Growth
+Cost:   3G
+Type:   Sorcery
+S/R:    XLN-U
+Target creature gets +5/+5 until end of turn and must be blocked this turn if able.
+
 Name:   Emeria Angel
 Cost:   2WW
 Type:   Creature — Angel
@@ -1617,6 +1631,14 @@ S/R:    DST-U
 Flying
 Whenever Emissary of Hope deals combat damage to a player, you gain 1 life for each artifact that player controls.
 
+Name:   Emissary of Sunrise
+Cost:   2W
+Type:   Creature — Human Cleric
+P/T:    2/1
+S/R:    XLN-U
+First strike
+When Emissary of Sunrise enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
 Name:   Emissary of the Sleepless
 Cost:   4W
 Type:   Creature — Spirit
@@ -1644,6 +1666,13 @@ Type:   Creature — Crocodile
 P/T:    5/5
 S/R:    UD-R, 8ED-R, 9ED-R, EMA-C
 When you control no other creatures, sacrifice Emperor Crocodile.
+
+Name:   Emperor's Vanguard
+Cost:   3G
+Type:   Creature — Human Scout
+P/T:    4/3
+S/R:    XLN-R
+Whenever Emperor's Vanguard deals combat damage to a player, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
 
 Name:   Empress Galina
 Cost:   3UU
@@ -1761,6 +1790,14 @@ Type:   Artifact Creature — Golem
 P/T:    3/5
 S/R:    ROE-U
 When Enatu Golem dies, you gain 4 life.
+
+Name:   Encampment Keeper
+Cost:   W
+Type:   Creature — Hound
+P/T:    1/1
+S/R:    XLN-C
+First strike
+{7}{W}, {T}, Sacrifice Encampment Keeper: Creatures you control get +2/+2 until end of turn.
 
 Name:   Encase in Ice
 Cost:   1U
@@ -2379,6 +2416,12 @@ Type:   Creature — Zombie Cat
 P/T:    1/1
 S/R:    ONS-R
 At the beginning of your upkeep, you may exile a creature card from a graveyard. If you do, put a +1/+1 counter on Entrails Feaster. If you don't, tap Entrails Feaster.
+
+Name:   Entrancing Melody
+Cost:   XUU
+Type:   Sorcery
+S/R:    XLN-R
+Gain control of target creature with converted mana cost X.
 
 Name:   Entrapment Maneuver
 Cost:   3W

@@ -740,6 +740,14 @@ Type:   Enchantment
 S/R:    UL-R
 At the beginning of your upkeep, if there are seven or more lands on the battlefield, sacrifice Impending Disaster and destroy all lands.
 
+Name:   Imperial Aerosaur
+Cost:   3W
+Type:   Creature — Dinosaur
+P/T:    3/3
+S/R:    XLN-U
+Flying
+When Imperial Aerosaur enters the battlefield, another target creature you control gets +1/+1 and gains flying until end of turn.
+
 Name:   Imperial Edict
 Cost:   1B
 Type:   Sorcery
@@ -754,6 +762,13 @@ S/R:    LGN-R, ARC-R
 Flying
 Morph {6}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Imperial Hellkite is turned face up, you may search your library for a Dragon card, reveal it, and put it into your hand. If you do, shuffle your library.
+
+Name:   Imperial Lancer
+Cost:   W
+Type:   Creature — Human Knight
+P/T:    1/1
+S/R:    XLN-U
+Imperial Lancer has double strike as long as you control a Dinosaur.
 
 Name:   Imperial Mask
 Cost:   4W
@@ -777,7 +792,7 @@ Search your library for a card, then shuffle your library and put that card on t
 
 Name:   Imperiosaur
 Cost:   2GG
-Type:   Creature — Lizard
+Type:   Creature — Dinosaur
 P/T:    5/5
 S/R:    FUT-U, MMA-C
 Spend only mana produced by basic lands to cast Imperiosaur.
@@ -805,7 +820,7 @@ Type:   Creature — Human Soldier
 P/T:    1/1
 S/R:    BNG-C
 Flying, haste
-Impetuous Sunchaser attacks each turn if able.
+Impetuous Sunchaser attacks each combat if able.
 
 Name:   Implement of Combustion
 Cost:   1
@@ -1312,7 +1327,7 @@ Cost:   1R
 Type:   Enchantment — Aura
 S/R:    ORI-C
 Enchant creature
-Enchanted creature gets +2/+1, has haste, and attacks each turn if able.
+Enchanted creature gets +2/+1, has haste, and attacks each combat if able.
 When enchanted creature dies, you may search your library for a card named Infectious Bloodlust, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Infectious Curse
@@ -1948,6 +1963,13 @@ P/T:    3/3
 S/R:    SOI-C
 When Inspiring Captain enters the battlefield, creatures you control get +1/+1 until end of turn.
 
+Name:   Inspiring Cleric
+Cost:   2W
+Type:   Creature — Vampire Cleric
+P/T:    3/2
+S/R:    XLN-U
+When Inspiring Cleric enters the battlefield, you gain 4 life.
+
 Name:   Inspiring Roar
 Cost:   3W
 Type:   Sorcery
@@ -2196,8 +2218,8 @@ Name:   Invasion Plans
 Cost:   2R
 Type:   Enchantment
 S/R:    ST-R
-All creatures block each turn if able.
-The attacking player chooses how each creature blocks each turn.
+All creatures block each combat if able.
+The attacking player chooses how each creature blocks each combat.
 
 Name:   Invasive Species
 Cost:   2G
@@ -2649,7 +2671,7 @@ Delirium — When Ishkanah, Grafwidow enters the battlefield, if there are four 
 
 Name:   Island
 Type:   Basic Land — Island
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, UG-C, UNH-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, UG-C, UNH-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, H09-L, ME3-L, MED-L
 
 Name:   Island Fish Jasconius
 Cost:   4UUU
@@ -2762,6 +2784,15 @@ Vigilance
 {T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
 Suspend 4—{W}{U} (Rather than cast this card from your hand, you may pay {W}{U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 
+Name:   Itlimoc, Cradle of the Sun
+Type:   Legendary Land
+M-type: Transform
+M-card: Growing Rites of Itlimoc
+S/R:    XLN-R
+(Transforms from Growing Rites of Itlimoc.)
+{T}: Add {G} to your mana pool.
+{T}: Add {G} to your mana pool for each creature you control.
+
 Name:   Ivory Charm
 Cost:   W
 Type:   Instant
@@ -2862,6 +2893,27 @@ P/T:    5/5
 S/R:    BOK-R
 Trample
 When Iwamori of the Open Fist enters the battlefield, each opponent may put a legendary creature card from his or her hand onto the battlefield.
+
+Name:   Ixalan's Binding
+Cost:   3W
+Type:   Enchantment
+S/R:    XLN-U
+When Ixalan's Binding enters the battlefield, exile target nonland permanent an opponent controls until Ixalan's Binding leaves the battlefield.
+Your opponents can't cast spells with the same name as the exiled card.
+
+Name:   Ixalli's Diviner
+Cost:   1G
+Type:   Creature — Human Druid
+P/T:    0/3
+S/R:    XLN-C
+When Ixalli's Diviner enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
+Name:   Ixalli's Keeper
+Cost:   1G
+Type:   Creature — Human Shaman
+P/T:    2/2
+S/R:    XLN-C
+{7}{G}, {T}, Sacrifice Ixalli's Keeper: Target creature gets +5/+5 and gains trample until end of turn.
 
 Name:   Ixidor's Will
 Cost:   2U

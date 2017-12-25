@@ -34,7 +34,7 @@ If Ugin's Nexus would be put into a graveyard from the battlefield, instead exil
 
 Name:   Ugin, the Spirit Dragon
 Cost:   8
-Type:   Planeswalker — Ugin
+Type:   Legendary Planeswalker — Ugin
 P/T:    7
 S/R:    FRF-M, FRF_UGIN-M
 [+2]: Ugin, the Spirit Dragon deals 3 damage to target creature or player.
@@ -91,7 +91,7 @@ Type:   Creature — Eldrazi
 P/T:    8/8
 S/R:    ROE-C, MM2-C, DDP-C
 Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)
-Ulamog's Crusher attacks each turn if able.
+Ulamog's Crusher attacks each combat if able.
 
 Name:   Ulamog's Despoiler
 Cost:   6
@@ -383,6 +383,13 @@ Type:   Instant — Arcane
 S/R:    BOK-U
 Target creature gets +4/+4 until end of turn. If it's a Spirit, it gains trample until end of turn.
 
+Name:   Unclaimed Territory
+Type:   Land
+S/R:    XLN-U
+As Unclaimed Territory enters the battlefield, choose a creature type.
+{T}: Add {C} to your mana pool.
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.
+
 Name:   Uncle Istvan
 Cost:   1BBB
 Type:   Creature — Human
@@ -396,7 +403,7 @@ Type:   Enchantment — Aura
 S/R:    CHK-C, 10E-C, CNS-U
 Flash (You may cast this spell any time you could cast an instant.)
 Enchant creature
-Enchanted creature gets +2/+2 and attacks each turn if able.
+Enchanted creature gets +2/+2 and attacks each combat if able.
 
 Name:   Uncontrolled Infestation
 Cost:   1R
@@ -688,6 +695,12 @@ Type:   Instant
 S/R:    DST-C
 Destroy target Equipment. If that Equipment was attached to a creature, Unforge deals 2 damage to that creature.
 
+Name:   Unfriendly Fire
+Cost:   4R
+Type:   Instant
+S/R:    XLN-C
+Unfriendly Fire deals 4 damage to target creature or player.
+
 Name:   Unfulfilled Desires
 Cost:   1UB
 Type:   Enchantment
@@ -809,8 +822,8 @@ S/R:    AeR-C
 
 Name:   Unknown Shores
 Type:   Land
-S/R:    THS-C, OGW-C
-{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+S/R:    THS-C, OGW-C, XLN-C
+{T}: Add {C} to your mana pool.
 {1}, {T}: Add one mana of any color to your mana pool.
 
 Name:   Unlicensed Disintegration
@@ -1210,7 +1223,7 @@ Type:   Creature — Drake
 P/T:    2/3
 S/R:    IN-U
 Flying
-Urborg Drake attacks each turn if able.
+Urborg Drake attacks each combat if able.
 
 Name:   Urborg Elf
 Cost:   1G
@@ -1494,7 +1507,7 @@ Type:   Creature — Goblin Scout
 P/T:    1/2
 S/R:    DIS-C
 Flying
-Utvara Scalper attacks each turn if able.
+Utvara Scalper attacks each combat if able.
 
 Name:   Uyo, Silent Prophet
 Cost:   4UU

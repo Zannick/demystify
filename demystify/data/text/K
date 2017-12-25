@@ -475,7 +475,7 @@ Whenever a spell or ability an opponent controls destroys a noncreature permanen
 
 Name:   Karn Liberated
 Cost:   7
-Type:   Planeswalker — Karn
+Type:   Legendary Planeswalker — Karn
 P/T:    6
 S/R:    NPH-M, MM2-M
 [+4]: Target player exiles a card from his or her hand.
@@ -772,7 +772,7 @@ If Kavu Titan was kicked, it enters the battlefield with three +1/+1 counters on
 
 Name:   Kaya, Ghost Assassin
 Cost:   2WB
-Type:   Planeswalker — Kaya
+Type:   Legendary Planeswalker — Kaya
 P/T:    5
 S/R:    CN2-M
 [0]: Exile Kaya, Ghost Assassin or up to one target creature. Return that card to the battlefield under its owner's control at the beginning of your next upkeep. You lose 2 life.
@@ -1439,7 +1439,7 @@ Cost:   R
 Type:   Creature — Goblin Berserker
 P/T:    1/1
 S/R:    DIS-C
-Kill-Suit Cultist attacks each turn if able.
+Kill-Suit Cultist attacks each combat if able.
 {B}, Sacrifice Kill-Suit Cultist: The next time damage would be dealt to target creature this turn, destroy that creature instead.
 
 Name:   Killer Bees
@@ -1629,6 +1629,21 @@ S/R:    GTC-C
 Flying
 Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
 
+Name:   Kinjalli's Caller
+Cost:   W
+Type:   Creature — Human Cleric
+P/T:    0/3
+S/R:    XLN-C
+Dinosaur spells you cast cost {1} less to cast.
+
+Name:   Kinjalli's Sunwing
+Cost:   2W
+Type:   Creature — Dinosaur
+P/T:    2/3
+S/R:    XLN-R
+Flying
+Creatures your opponents control enter the battlefield tapped.
+
 Name:   Kinsbaile Balloonist
 Cost:   3W
 Type:   Creature — Kithkin Soldier
@@ -1683,7 +1698,7 @@ S/R:    BNG-U, DDO-U
 
 Name:   Kiora, Master of the Depths
 Cost:   2GU
-Type:   Planeswalker — Kiora
+Type:   Legendary Planeswalker — Kiora
 P/T:    4
 S/R:    BFZ-M
 [+1]: Untap up to one target creature and up to one target land.
@@ -1692,7 +1707,7 @@ S/R:    BFZ-M
 
 Name:   Kiora, the Crashing Wave
 Cost:   2GU
-Type:   Planeswalker — Kiora
+Type:   Legendary Planeswalker — Kiora
 P/T:    2
 S/R:    BNG-M, DDO-M
 [+1]: Until your next turn, prevent all damage that would be dealt to and dealt by target permanent an opponent controls.
@@ -1791,6 +1806,14 @@ Type:   Creature — Kor Soldier
 P/T:    1/1
 S/R:    WWK-C
 As long as Kitesail Apprentice is equipped, it gets +1/+1 and has flying.
+
+Name:   Kitesail Freebooter
+Cost:   1B
+Type:   Creature — Human Pirate
+P/T:    1/2
+S/R:    XLN-U
+Flying
+When Kitesail Freebooter enters the battlefield, target opponent reveals his or her hand. You choose a noncreature, nonland card from it. Exile that card until Kitesail Freebooter leaves the battlefield.
 
 Name:   Kitesail Scout
 Cost:   W
@@ -2530,6 +2553,14 @@ Trample
 At the beginning of your upkeep, if you don't control a creature named Keeper of Kookus, Kookus deals 3 damage to you and attacks this turn if able.
 {R}: Kookus gets +1/+0 until end of turn.
 
+Name:   Kopala, Warden of Waves
+Cost:   1UU
+Type:   Legendary Creature — Merfolk Wizard
+P/T:    2/2
+S/R:    XLN-R
+Spells your opponents cast that target a Merfolk you control cost {2} more to cast.
+Abilities your opponents activate that target a Merfolk you control cost {2} more to activate.
+
 Name:   Kor Aeronaut
 Cost:   WW
 Type:   Creature — Kor Soldier
@@ -2714,7 +2745,7 @@ S/R:    HL-U
 
 Name:   Koth of the Hammer
 Cost:   2RR
-Type:   Planeswalker — Koth
+Type:   Legendary Planeswalker — Koth
 P/T:    3
 S/R:    SOM-M, DDI-M
 [+1]: Untap target Mountain. It becomes a 4/4 red Elemental creature until end of turn. It's still a land.
@@ -3306,7 +3337,7 @@ Type:   Creature — Giant Berserker
 P/T:    4/4
 S/R:    MBS-C
 Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
-Kuldotha Ringleader attacks each turn if able.
+Kuldotha Ringleader attacks each combat if able.
 
 Name:   Kulrath Knight
 Cost:   3(B/R)(B/R)
@@ -3339,6 +3370,13 @@ P/T:    4/4
 S/R:    CHK-R
 {1}{R}: Kumano, Master Yamabushi deals 1 damage to target creature or player.
 If a creature dealt damage by Kumano this turn would die, exile it instead.
+
+Name:   Kumena's Speaker
+Cost:   G
+Type:   Creature — Merfolk Shaman
+P/T:    1/1
+S/R:    XLN-U
+Kumena's Speaker gets +1/+1 as long as you control another Merfolk or an Island.
 
 Name:   Kuon's Essence
 Cost:   BBB

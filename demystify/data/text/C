@@ -372,6 +372,12 @@ S/R:    AVR-C
 Enchant nonblack creature
 Enchanted creature gets +1/+2, has flying, and is an Angel in addition to its other types.
 
+Name:   Call to the Feast
+Cost:   2WB
+Type:   Sorcery
+S/R:    XLN-U
+Create three 1/1 white Vampire creature tokens with lifelink.
+
 Name:   Call to the Grave
 Cost:   4B
 Type:   Enchantment
@@ -527,7 +533,7 @@ Each player passes the last card from each booster pack to a player who drafted 
 Name:   Cancel
 Cost:   1UU
 Type:   Instant
-S/R:    TSP-C, 10E-C, ALA-C, M10-C, ZEN-C, M11-C, M12-C, PC2-C, RTR-C, M14-C, M15-C, KTK-C, PCA-C, AKH-C
+S/R:    TSP-C, 10E-C, ALA-C, M10-C, ZEN-C, M11-C, M12-C, PC2-C, RTR-C, M14-C, M15-C, KTK-C, PCA-C, AKH-C, XLN-C
 Counter target spell.
 
 Name:   Candelabra of Tawnos
@@ -740,6 +746,15 @@ S/R:    TE-C, MPS_AKH-S
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Return target permanent to its owner's hand.
 
+Name:   Captain Lannery Storm
+Cost:   2R
+Type:   Legendary Creature — Human Pirate
+P/T:    2/2
+S/R:    XLN-R
+Haste
+Whenever Captain Lannery Storm attacks, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.
+
 Name:   Captain Sisay
 Cost:   2GW
 Type:   Legendary Creature — Human Soldier
@@ -783,6 +798,13 @@ Cost:   XRW
 Type:   Instant
 S/R:    AP-U, HOP-U
 The next X damage that would be dealt to target creature or player this turn is dealt to another target creature or player instead.
+
+Name:   Captivating Crew
+Cost:   3R
+Type:   Creature — Human Pirate
+P/T:    4/3
+S/R:    XLN-R
+{3}{R}: Gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn. Activate this ability only any time you could cast a sorcery.
 
 Name:   Captivating Glance
 Cost:   2U
@@ -917,6 +939,14 @@ S/R:    DGM-U, CN2-U, MM3-U
 Whenever a creature blocks, that creature's controller loses 1 life.
 {1}{B}{R}: Regenerate Carnage Gladiator.
 
+Name:   Carnage Tyrant
+Cost:   4GG
+Type:   Creature — Dinosaur
+P/T:    7/6
+S/R:    XLN-M
+Carnage Tyrant can't be countered.
+Trample, hexproof
+
 Name:   Carnage Wurm
 Cost:   6G
 Type:   Creature — Wurm
@@ -988,7 +1018,7 @@ Name:   Carpet of Flowers
 Cost:   G
 Type:   Enchantment
 S/R:    US-U
-At the beginning of each of your main phases, if you haven't added mana to your mana pool with this ability this turn, you may add up to X mana of any one color to your mana pool, where X is the number of Islands target opponent controls.
+At the beginning of each of your main phases, if you haven't added mana to your mana pool with this ability this turn, you may add X mana of any one color to your mana pool, where X is the number of Islands target opponent controls.
 
 Name:   Carrier Pigeons
 Cost:   3W
@@ -1201,6 +1231,14 @@ Type:   Enchantment — Aura
 S/R:    JOU-C
 Enchant creature
 Enchanted creature gets -2/-0 and can't block.
+
+Name:   Castaway's Despair
+Cost:   3U
+Type:   Enchantment — Aura
+S/R:    XLN-C
+Enchant creature
+When Castaway's Despair enters the battlefield, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.
 
 Name:   Castigate
 Cost:   WB
@@ -1692,7 +1730,7 @@ Cost:   1WW
 Type:   Enchantment
 S/R:    MI-R, 6E-R, TSP-S
 Lands you control are Plains.
-Nonland cards you own that aren't on the battlefield, spells you control, and nonland permanents you control are white.
+Nonland permanents you control are white. The same is true for spells you control and nonland cards you own that aren't on the battlefield.
 You may spend white mana as though it were mana of any color. You may spend other mana only as though it were colorless mana.
 
 Name:   Celestial Flare
@@ -2406,7 +2444,7 @@ S/R:    HL-C
 
 Name:   Chandra Ablaze
 Cost:   4RR
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    5
 S/R:    ZEN-M
 [+1]: Discard a card. If a red card is discarded this way, Chandra Ablaze deals 4 damage to target creature or player.
@@ -2415,7 +2453,7 @@ S/R:    ZEN-M
 
 Name:   Chandra Nalaar
 Cost:   3RR
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    6
 S/R:    LRW-R, M10-M, M11-M, DD2-M
 [+1]: Chandra Nalaar deals 1 damage to target player.
@@ -2486,7 +2524,7 @@ Whenever you cast a red spell, untap Chandra, Fire of Kaladesh.
 
 Name:   Chandra, Flamecaller
 Cost:   4RR
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    4
 S/R:    OGW-M
 [+1]: Create two 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.
@@ -2494,7 +2532,7 @@ S/R:    OGW-M
 
 Name:   Chandra, Pyrogenius
 Cost:   4RR
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    5
 S/R:    KLD-M
 [+2]: Chandra, Pyrogenius deals 2 damage to each opponent.
@@ -2503,7 +2541,7 @@ S/R:    KLD-M
 
 Name:   Chandra, Pyromaster
 Cost:   2RR
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    4
 S/R:    M14-M, M15-M, E01-M
 [+1]: Chandra, Pyromaster deals 1 damage to target player and 1 damage to up to one target creature that player controls. That creature can't block this turn.
@@ -2511,7 +2549,7 @@ S/R:    M14-M, M15-M, E01-M
 [-7]: Exile the top ten cards of your library. Choose an instant or sorcery card exiled this way and copy it three times. You may cast the copies without paying their mana costs.
 
 Name:   Chandra, Roaring Flame
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    4
 Color:  Red
 M-type: Transform
@@ -2523,7 +2561,7 @@ S/R:    ORI-M
 
 Name:   Chandra, Torch of Defiance
 Cost:   2RR
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    4
 S/R:    KLD-M
 [+1]: Exile the top card of your library. You may cast that card. If you don't, Chandra, Torch of Defiance deals 2 damage to each opponent.
@@ -2533,7 +2571,7 @@ S/R:    KLD-M
 
 Name:   Chandra, the Firebrand
 Cost:   3R
-Type:   Planeswalker — Chandra
+Type:   Legendary Planeswalker — Chandra
 P/T:    3
 S/R:    M12-M, M13-M
 [+1]: Chandra, the Firebrand deals 1 damage to target creature or player.
@@ -2787,6 +2825,13 @@ S/R:    M14-C, ORI-C
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 Whenever Charging Griffin attacks, it gets +1/+1 until end of turn.
 
+Name:   Charging Monstrosaur
+Cost:   4R
+Type:   Creature — Dinosaur
+P/T:    5/5
+S/R:    XLN-U
+Trample, haste
+
 Name:   Charging Paladin
 Cost:   2W
 Type:   Creature — Human Knight
@@ -2873,6 +2918,12 @@ P/T:    6/6
 S/R:    CON-R, C13-R
 Trample
 Whenever Charnelhoard Wurm deals damage to an opponent, you may return target card from your graveyard to your hand.
+
+Name:   Chart a Course
+Cost:   1U
+Type:   Sorcery
+S/R:    XLN-U
+Draw two cards. Then discard a card unless you attacked with a creature this turn.
 
 Name:   Chartooth Cougar
 Cost:   5R
@@ -4618,7 +4669,7 @@ S/R:    RTR-C, ORI-C
 Name:   Cobbled Wings
 Cost:   2
 Type:   Artifact — Equipment
-S/R:    ISD-C, DDQ-C
+S/R:    ISD-C, XLN-C, DDQ-C
 Equipped creature has flying.
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 
@@ -4739,8 +4790,8 @@ Type:   Artifact Creature — Hound Construct
 P/T:    4/4
 S/R:    CNS-U
 Reveal Cogwork Tracker as you draft it and note the player who passed it to you.
-Cogwork Tracker attacks each turn if able.
-Cogwork Tracker attacks a player you noted for cards named Cogwork Tracker each turn if able.
+Cogwork Tracker attacks each combat if able.
+Cogwork Tracker attacks a player you noted for cards named Cogwork Tracker each combat if able.
 
 Name:   Cogworker's Puzzleknot
 Cost:   2
@@ -4904,6 +4955,13 @@ P/T:    1/1
 S/R:    UD-C
 Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)
 {R}: Colos Yearling gets +1/+0 until end of turn.
+
+Name:   Colossal Dreadmaw
+Cost:   4GG
+Type:   Creature — Dinosaur
+P/T:    6/6
+S/R:    XLN-C
+Trample
 
 Name:   Colossal Heroics
 Cost:   2G
@@ -5091,6 +5149,12 @@ Cost:   2W
 Type:   Enchantment
 S/R:    MM-R
 Nonartifact creatures get +2/+2 as long as they all share a color.
+
+Name:   Commune with Dinosaurs
+Cost:   G
+Type:   Sorcery
+S/R:    XLN-C
+Look at the top five cards of your library. You may reveal a Dinosaur or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 
 Name:   Commune with Lava
 Cost:   XRR
@@ -5448,6 +5512,27 @@ Equipped creature gets +1/+1 for each color among permanents you control.
 As long as Conqueror's Flail is attached to a creature, your opponents can't cast spells during your turn.
 Equip {2}
 
+Name:   Conqueror's Foothold
+Type:   Land
+M-type: Transform
+M-card: Conqueror's Galleon
+S/R:    XLN-R
+(Transforms from Conqueror's Galleon.)
+{T}: Add {C} to your mana pool.
+{2}, {T}: Draw a card, then discard a card.
+{4}, {T}: Draw a card.
+{6}, {T}: Return target card from your graveyard to your hand.
+
+Name:   Conqueror's Galleon
+Cost:   4
+Type:   Artifact — Vehicle
+P/T:    2/10
+M-type: Transform
+M-card: Conqueror's Foothold
+S/R:    XLN-R
+When Conqueror's Galleon attacks, exile it at end of combat, then return it to the battlefield transformed under your control.
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)
+
 Name:   Conqueror's Pledge
 Cost:   2WWW
 Type:   Sorcery
@@ -5509,7 +5594,7 @@ Cost:   3BB
 Type:   Enchantment
 S/R:    MM-R, TSP-S
 As Conspiracy enters the battlefield, choose a creature type.
-Creature cards you own that aren't on the battlefield, creature spells you control, and creatures you control are the chosen type.
+Creatures you control are the chosen type. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.
 
 Name:   Constant Mists
 Cost:   1G
@@ -5777,6 +5862,12 @@ P/T:    1/4
 S/R:    KLD-U
 Lifelink
 Whenever an artifact enters the battlefield under your control, scry 1.
+
+Name:   Contract Killing
+Cost:   3BB
+Type:   Sorcery
+S/R:    XLN-C
+Destroy target creature. Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Contradict
 Cost:   3UU
@@ -6319,6 +6410,13 @@ S/R:    5DN-R
 Trample
 At the beginning of your upkeep, sacrifice Cosmic Larva unless you sacrifice two lands.
 
+Name:   Costly Plunder
+Cost:   1B
+Type:   Instant
+S/R:    XLN-C
+As an additional cost to cast Costly Plunder, sacrifice an artifact or creature.
+Draw two cards.
+
 Name:   Council Guardian
 Cost:   5W
 Type:   Creature — Giant Soldier
@@ -6754,6 +6852,12 @@ P/T:    8/4
 S/R:    MI-C
 Trample
 
+Name:   Crash the Ramparts
+Cost:   2G
+Type:   Instant
+S/R:    XLN-C
+Target creature gets +3/+3 and gains trample until end of turn.
+
 Name:   Crashing Boars
 Cost:   3GG
 Type:   Creature — Boar
@@ -6874,7 +6978,7 @@ Cost:   R
 Type:   Creature — Goblin Warrior
 P/T:    1/1
 S/R:    DST-C
-Crazed Goblin attacks each turn if able.
+Crazed Goblin attacks each combat if able.
 
 Name:   Crazed Skirge
 Cost:   3B
@@ -7611,6 +7715,14 @@ Enchant land
 Enchanted land is a 4/2 red Beast creature with trample. It's still a land.
 When enchanted land dies, return that card to its owner's hand.
 
+Name:   Crushing Canopy
+Cost:   2G
+Type:   Instant
+S/R:    XLN-C
+Choose one —
+• Destroy target creature with flying.
+• Destroy target enchantment.
+
 Name:   Crushing Pain
 Cost:   1R
 Type:   Instant — Arcane
@@ -8320,7 +8432,7 @@ Cost:   2R
 Type:   Enchantment — Aura Curse
 S/R:    ISD-U, C15-U
 Enchant player
-Creatures enchanted player controls attack each turn if able.
+Creatures enchanted player controls attack each combat if able.
 
 Name:   Curse of the Pierced Heart
 Cost:   1R

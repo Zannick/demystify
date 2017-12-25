@@ -78,7 +78,7 @@ Type:   Creature — Human Berserker
 P/T:    2/2
 S/R:    KTK-C
 Haste
-Valley Dasher attacks each turn if able.
+Valley Dasher attacks each combat if able.
 
 Name:   Valley Rannet
 Cost:   4RG
@@ -233,6 +233,12 @@ S/R:    ZEN-C, DDK-C
 Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)
 Target creature gets +3/+0 until end of turn. If Vampire's Bite was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
 
+Name:   Vampire's Zeal
+Cost:   W
+Type:   Instant
+S/R:    XLN-C
+Target creature gets +2/+2 until end of turn. If it's a Vampire, it gains first strike until end of turn.
+
 Name:   Vampiric Dragon
 Cost:   6BR
 Type:   Creature — Vampire Dragon
@@ -311,6 +317,15 @@ When Vampirism enters the battlefield, draw a card at the beginning of the next 
 Enchanted creature gets +1/+1 for each other creature you control.
 Other creatures you control get -1/-1.
 
+Name:   Vance's Blasting Cannons
+Cost:   3R
+Type:   Legendary Enchantment
+M-type: Transform
+M-card: Spitfire Bastion
+S/R:    XLN-R
+At the beginning of your upkeep, exile the top card of your library. If it's a nonland card, you may cast that card this turn.
+Whenever you cast your third spell in a turn, you may transform Vance's Blasting Cannons.
+
 Name:   Vandalblast
 Cost:   R
 Type:   Sorcery
@@ -372,6 +387,20 @@ Cost:   5W
 Type:   Sorcery
 S/R:    THS-U
 Destroy target creature with power 4 or greater. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+
+Name:   Vanquish the Weak
+Cost:   2B
+Type:   Instant
+S/R:    XLN-C
+Destroy target creature with power 3 or less.
+
+Name:   Vanquisher's Banner
+Cost:   5
+Type:   Artifact
+S/R:    XLN-R
+As Vanquisher's Banner enters the battlefield, choose a creature type.
+Creatures you control of the chosen type get +1/+1.
+Whenever you cast a creature spell of the chosen type, draw a card.
 
 Name:   Vapor Snag
 Cost:   U
@@ -970,7 +999,7 @@ When Venser, Shaper Savant enters the battlefield, return target spell or perman
 
 Name:   Venser, the Sojourner
 Cost:   3WU
-Type:   Planeswalker — Venser
+Type:   Legendary Planeswalker — Venser
 P/T:    3
 S/R:    SOM-M, DDI-M
 [+2]: Exile target permanent you own. Return it to the battlefield under your control at the beginning of the next end step.
@@ -1056,11 +1085,25 @@ Enchant land
 When Verdant Haven enters the battlefield, you gain 2 life.
 Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).
 
+Name:   Verdant Rebirth
+Cost:   1G
+Type:   Instant
+S/R:    XLN-U
+Until end of turn, target creature gains "When this creature dies, return it to its owner's hand."
+Draw a card.
+
 Name:   Verdant Succession
 Cost:   4G
 Type:   Enchantment
 S/R:    OD-R
 Whenever a green nontoken creature dies, that creature's controller may search his or her library for a card with the same name as that creature and put it onto the battlefield. If that player does, he or she shuffles his or her library.
+
+Name:   Verdant Sun's Avatar
+Cost:   5GG
+Type:   Creature — Dinosaur Avatar
+P/T:    5/5
+S/R:    XLN-R
+Whenever Verdant Sun's Avatar or another creature enters the battlefield under your control, you gain life equal to that creature's toughness.
 
 Name:   Verdant Touch
 Cost:   1G
@@ -1568,6 +1611,13 @@ S/R:    5DN-C
 As an additional cost to cast Vicious Betrayal, sacrifice any number of creatures.
 Target creature gets +2/+2 until end of turn for each creature sacrificed this way.
 
+Name:   Vicious Conquistador
+Cost:   B
+Type:   Creature — Vampire Soldier
+P/T:    1/2
+S/R:    XLN-U
+Whenever Vicious Conquistador attacks, each opponent loses 1 life.
+
 Name:   Vicious Hunger
 Cost:   BB
 Type:   Sorcery
@@ -1942,6 +1992,13 @@ Cost:   G
 Type:   Instant
 S/R:    OGW-C, E01-C, DDR-C
 Target creature gets +1/+2 and gains reach until end of turn. Untap it. (A creature with reach can block creatures with flying.)
+
+Name:   Vineshaper Mystic
+Cost:   2G
+Type:   Creature — Merfolk Shaman
+P/T:    1/3
+S/R:    XLN-U
+When Vineshaper Mystic enters the battlefield, put a +1/+1 counter on each of up to two target Merfolk you control.
 
 Name:   Vineweft
 Cost:   G
@@ -2771,7 +2828,7 @@ Type:   Artifact Creature — Construct
 P/T:    4/4
 S/R:    RTR-R
 Trample
-Volatile Rig attacks each turn if able.
+Volatile Rig attacks each combat if able.
 Whenever Volatile Rig is dealt damage, flip a coin. If you lose the flip, sacrifice Volatile Rig.
 When Volatile Rig dies, flip a coin. If you lose the flip, it deals 4 damage to each creature and each player.
 
@@ -3019,6 +3076,14 @@ S/R:    WL-U
 Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 
+Name:   Vona, Butcher of Magan
+Cost:   3WB
+Type:   Legendary Creature — Vampire Knight
+P/T:    4/4
+S/R:    XLN-M
+Vigilance, lifelink
+{T}, Pay 7 life: Destroy target nonland permanent. Activate this ability only during your turn.
+
 Name:   Voodoo Doll
 Cost:   6
 Type:   Artifact
@@ -3202,12 +3267,27 @@ S/R:    THS-C, CN2-C
 
 Name:   Vraska the Unseen
 Cost:   3BG
-Type:   Planeswalker — Vraska
+Type:   Legendary Planeswalker — Vraska
 P/T:    5
 S/R:    RTR-M, DDM-M
 [+1]: Until your next turn, whenever a creature deals combat damage to Vraska the Unseen, destroy that creature.
 [-3]: Destroy target nonland permanent.
 [-7]: Create three 1/1 black Assassin creature tokens with "Whenever this creature deals combat damage to a player, that player loses the game."
+
+Name:   Vraska's Contempt
+Cost:   2BB
+Type:   Instant
+S/R:    XLN-R
+Exile target creature or planeswalker. You gain 2 life.
+
+Name:   Vraska, Relic Seeker
+Cost:   4BG
+Type:   Legendary Planeswalker — Vraska
+P/T:    6
+S/R:    XLN-M
+[+2]: Create a 2/2 black Pirate creature token with menace.
+[-3]: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+[-10]: Target player's life total becomes 1.
 
 Name:   Vryn Wingmare
 Cost:   2W

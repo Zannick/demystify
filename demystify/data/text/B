@@ -455,7 +455,7 @@ Color:  Red
 M-type: Transform
 M-card: Hanweir Watchkeep
 S/R:    ISD-U
-Bane of Hanweir attacks each turn if able.
+Bane of Hanweir attacks each combat if able.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Bane of Hanweir.
 
 Name:   Bane of Progress
@@ -1265,7 +1265,7 @@ Type:   Creature — Human Samurai
 P/T:    1/1
 S/R:    CHK-C
 Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
-Battle-Mad Ronin attacks each turn if able.
+Battle-Mad Ronin attacks each combat if able.
 
 Name:   Battle-Rattle Shaman
 Cost:   3R
@@ -1706,7 +1706,7 @@ Name:   Behemoth Sledge
 Cost:   1GW
 Type:   Artifact — Equipment
 S/R:    ARB-U, C13-U, C17-U, DDH-U
-Equipped creature gets +2/+2 and has lifelink and trample.
+Equipped creature gets +2/+2 and has trample and lifelink.
 Equip {3}
 
 Name:   Behemoth's Herald
@@ -1768,6 +1768,13 @@ S/R:    HOU-R
 Aftermath (Cast this spell only from your graveyard. Then exile it.)
 Look at the top card of your library. You may put it onto the battlefield if it's a creature card. If you don't, put it into your hand.
 
+Name:   Belligerent Brontodon
+Cost:   5GW
+Type:   Creature — Dinosaur
+P/T:    4/6
+S/R:    XLN-U
+Each creature you control assigns combat damage equal to its toughness rather than its power.
+
 Name:   Belligerent Hatchling
 Cost:   3(R/W)
 Type:   Creature — Elemental
@@ -1791,6 +1798,13 @@ Type:   Creature — Wurm
 P/T:    4/2
 S/R:    BFZ-C
 Landfall — Whenever a land enters the battlefield under your control, Belligerent Whiptail gains first strike until end of turn.
+
+Name:   Bellowing Aegisaur
+Cost:   5W
+Type:   Creature — Dinosaur
+P/T:    3/5
+S/R:    XLN-U
+Enrage — Whenever Bellowing Aegisaur is dealt damage, put a +1/+1 counter on each other creature you control.
 
 Name:   Bellowing Fiend
 Cost:   4B
@@ -2076,7 +2090,7 @@ Cost:   4R
 Type:   Creature — Human Berserker
 P/T:    4/4
 S/R:    M10-C, M11-C
-Berserkers of Blood Ridge attacks each turn if able.
+Berserkers of Blood Ridge attacks each combat if able.
 
 Name:   Berserkers' Onslaught
 Cost:   3RR
@@ -2282,6 +2296,28 @@ Type:   Artifact
 S/R:    NPH-R
 ({(g/p)} can be paid with either {G} or 2 life.)
 {1}{(g/p)}, {T}, Sacrifice a creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.
+
+Name:   Bishop of Rebirth
+Cost:   3WW
+Type:   Creature — Vampire Cleric
+P/T:    3/4
+S/R:    XLN-R
+Vigilance
+Whenever Bishop of Rebirth attacks, you may return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
+
+Name:   Bishop of the Bloodstained
+Cost:   3BB
+Type:   Creature — Vampire Cleric
+P/T:    3/3
+S/R:    XLN-U
+When Bishop of the Bloodstained enters the battlefield, target opponent loses 1 life for each Vampire you control.
+
+Name:   Bishop's Soldier
+Cost:   1W
+Type:   Creature — Vampire Soldier
+P/T:    2/2
+S/R:    XLN-C
+Lifelink
 
 Name:   Bite of the Black Rose
 Cost:   3B
@@ -2843,6 +2879,14 @@ P/T:    4/5
 S/R:    BFZ-R
 When you cast Blight Herder, you may put two cards your opponents own from exile into their owners' graveyards. If you do, create three 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
 
+Name:   Blight Keeper
+Cost:   B
+Type:   Creature — Bat Imp
+P/T:    1/1
+S/R:    XLN-C
+Flying
+{7}{B}, {T}, Sacrifice Blight Keeper: Target opponent loses 4 life and you gain 4 life.
+
 Name:   Blight Mamba
 Cost:   1G
 Type:   Creature — Snake
@@ -3050,6 +3094,12 @@ Type:   Sorcery
 S/R:    JOU-U
 Strive — Blinding Flare costs {R} more to cast for each target beyond the first.
 Any number of target creatures can't block this turn.
+
+Name:   Blinding Fog
+Cost:   2G
+Type:   Instant
+S/R:    XLN-C
+Prevent all damage that would be dealt to creatures this turn. Creatures you control gain hexproof until end of turn. (They can't be the targets of spells or abilities your opponents control.)
 
 Name:   Blinding Light
 Cost:   2W
@@ -3526,8 +3576,16 @@ Cost:   1R
 Type:   Creature — Vampire
 P/T:    2/1
 S/R:    ISD-C
-Bloodcrazed Neonate attacks each turn if able.
+Bloodcrazed Neonate attacks each combat if able.
 Whenever Bloodcrazed Neonate deals combat damage to a player, put a +1/+1 counter on it.
+
+Name:   Bloodcrazed Paladin
+Cost:   1B
+Type:   Creature — Vampire Knight
+P/T:    1/1
+S/R:    XLN-R
+Flash
+Bloodcrazed Paladin enters the battlefield with a +1/+1 counter on it for each creature that died this turn.
 
 Name:   Bloodcurdler
 Cost:   1B
@@ -3777,7 +3835,7 @@ Cost:   2R
 Type:   Creature — Cyclops
 P/T:    3/3
 S/R:    WL-C, 10E-C
-Bloodrock Cyclops attacks each turn if able.
+Bloodrock Cyclops attacks each combat if able.
 
 Name:   Bloodscale Prowler
 Cost:   2R
@@ -3797,7 +3855,7 @@ Cost:   R
 Type:   Enchantment — Aura
 S/R:    SHM-C
 Enchant creature
-Enchanted creature attacks each turn if able.
+Enchanted creature attacks each combat if able.
 
 Name:   Bloodshot Cyclops
 Cost:   5R
@@ -3900,6 +3958,13 @@ Type:   Land
 S/R:    KLD-R
 Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.
 {T}: Add {B} or {G} to your mana pool.
+
+Name:   Blossom Dryad
+Cost:   2G
+Type:   Creature — Dryad
+P/T:    2/2
+S/R:    XLN-C
+{T}: Untap target land.
 
 Name:   Blossoming Defense
 Cost:   G
@@ -4440,6 +4505,13 @@ S/R:    FUT-U
 Defender, haste
 {T}: Draw a card, then discard a card.
 
+Name:   Bonded Horncrest
+Cost:   3R
+Type:   Creature — Dinosaur
+P/T:    5/5
+S/R:    XLN-U
+Bonded Horncrest can't attack or block alone.
+
 Name:   Bonds of Faith
 Cost:   1W
 Type:   Enchantment — Aura
@@ -4590,6 +4662,12 @@ Type:   Creature — Beast
 P/T:    4/2
 S/R:    SCG-C
 Whenever a permanent is turned face up, Bonethorn Valesk deals 1 damage to target creature or player.
+
+Name:   Boneyard Parley
+Cost:   5BB
+Type:   Sorcery
+S/R:    XLN-M
+Exile up to five target creature cards from graveyards. An opponent separates those cards into two piles. Put all cards from the pile of your choice onto the battlefield under your control and the rest into their owners' graveyards.
 
 Name:   Boneyard Scourge
 Cost:   2BB
@@ -5449,6 +5527,14 @@ S/R:    JUD-U, CMD-U, EMA-U
 Trample
 As long as Brawn is in your graveyard and you control a Forest, creatures you control have trample.
 
+Name:   Brazen Buccaneers
+Cost:   3R
+Type:   Creature — Human Pirate
+P/T:    2/2
+S/R:    XLN-C
+Haste
+When Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
 Name:   Brazen Scourge
 Cost:   1RR
 Type:   Creature — Gremlin
@@ -5711,6 +5797,13 @@ Type:   Enchantment
 S/R:    FUT-R, MMA-R
 Whenever a nontoken creature is put into your graveyard from the battlefield, if Bridge from Below is in your graveyard, create a 2/2 black Zombie creature token.
 When a creature is put into an opponent's graveyard from the battlefield, if Bridge from Below is in your graveyard, exile Bridge from Below.
+
+Name:   Bright Reprisal
+Cost:   4W
+Type:   Instant
+S/R:    XLN-U
+Destroy target attacking creature.
+Draw a card.
 
 Name:   Brightflame
 Cost:   XRRWW
@@ -6517,6 +6610,13 @@ P/T:    2/2
 S/R:    MI-C
 Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 {R}{R}: Burning Shield Askari gains first strike until end of turn.
+
+Name:   Burning Sun's Avatar
+Cost:   3RRR
+Type:   Creature — Dinosaur Avatar
+P/T:    6/6
+S/R:    XLN-R
+When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent and 3 damage to up to one target creature.
 
 Name:   Burning Vengeance
 Cost:   2R

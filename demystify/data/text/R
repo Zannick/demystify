@@ -321,6 +321,14 @@ P/T:    3/3
 S/R:    MI-C
 {2}: Raging Spirit becomes colorless until end of turn.
 
+Name:   Raging Swordtooth
+Cost:   3RG
+Type:   Creature — Dinosaur
+P/T:    5/5
+S/R:    XLN-U
+Trample
+When Raging Swordtooth enters the battlefield, it deals 1 damage to each other creature.
+
 Name:   Ragnar
 Cost:   GWU
 Type:   Legendary Creature — Human Cleric
@@ -348,6 +356,13 @@ Type:   Enchantment
 S/R:    KTK-U
 Creatures you control get +1/+0.
 Whenever a Warrior you control deals combat damage to a player, you may pay 1 life. If you do, draw a card.
+
+Name:   Raiders' Wake
+Cost:   3B
+Type:   Enchantment
+S/R:    XLN-U
+Whenever an opponent discards a card, that player loses 2 life.
+Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent discards a card.
 
 Name:   Raiding Nightstalker
 Cost:   2B
@@ -711,7 +726,7 @@ Target opponent discards two cards. Put the top two cards of your library into y
 
 Name:   Ral Zarek
 Cost:   2UR
-Type:   Planeswalker — Ral
+Type:   Legendary Planeswalker — Ral
 P/T:    4
 S/R:    DGM-M
 [+1]: Tap target permanent, then untap another target permanent.
@@ -761,6 +776,12 @@ Type:   Instant
 S/R:    P2-U, P3K-U
 Cast Rally the Troops only during the declare attackers step and only if you've been attacked this step.
 Untap all creatures you control.
+
+Name:   Rallying Roar
+Cost:   2W
+Type:   Instant
+S/R:    XLN-U
+Creatures you control get +1/+1 until end of turn. Untap them.
 
 Name:   Ramirez DePietro
 Cost:   3UBB
@@ -837,6 +858,15 @@ S/R:    ZEN-M, C13-M, C14-M, CMA-M, E01-M
 Trample
 Landfall — Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.
 
+Name:   Rampaging Ferocidon
+Cost:   2R
+Type:   Creature — Dinosaur
+P/T:    3/3
+S/R:    XLN-R
+Menace
+Players can't gain life.
+Whenever another creature enters the battlefield, Rampaging Ferocidon deals 1 damage to that creature's controller.
+
 Name:   Rampaging Hippo
 Cost:   4GG
 Type:   Creature — Hippo
@@ -879,7 +909,7 @@ Cost:   3
 Type:   Artifact Creature — Juggernaut
 P/T:    2/3
 S/R:    ORI-U
-Ramroller attacks each turn if able.
+Ramroller attacks each combat if able.
 Ramroller gets +2/+0 as long as you control another artifact.
 
 Name:   Ramses Overdark
@@ -962,6 +992,13 @@ Type:   Sorcery
 S/R:    M13-C
 Search your library for up to two Forest cards and put them onto the battlefield tapped. Then shuffle your library.
 
+Name:   Ranging Raptors
+Cost:   2G
+Type:   Creature — Dinosaur
+P/T:    2/3
+S/R:    XLN-U
+Enrage — Whenever Ranging Raptors is dealt damage, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+
 Name:   Rank and File
 Cost:   2BB
 Type:   Creature — Zombie
@@ -1010,6 +1047,19 @@ P/T:    1/4
 S/R:    MM-R
 Flying
 {2}{W}: Rappelling Scouts gains protection from the color of your choice until end of turn.
+
+Name:   Raptor Companion
+Cost:   1W
+Type:   Creature — Dinosaur
+P/T:    3/1
+S/R:    XLN-C
+
+Name:   Raptor Hatchling
+Cost:   1R
+Type:   Creature — Dinosaur
+P/T:    1/1
+S/R:    XLN-U
+Enrage — Whenever Raptor Hatchling is dealt damage, create a 3/3 green Dinosaur creature token with trample.
 
 Name:   Rashida Scalebane
 Cost:   3WW
@@ -1249,6 +1299,13 @@ Type:   Creature — Vampire Berserker
 P/T:    1/3
 S/R:    SOI-U
 Discard a card: Ravenous Bloodseeker gets +2/-2 until end of turn.
+
+Name:   Ravenous Daggertooth
+Cost:   2G
+Type:   Creature — Dinosaur
+P/T:    3/2
+S/R:    XLN-C
+Enrage — Whenever Ravenous Daggertooth is dealt damage, you gain 2 life.
 
 Name:   Ravenous Demon
 Cost:   3BB
@@ -1505,7 +1562,7 @@ Type:   Artifact Creature — Wall
 P/T:    2/1
 S/R:    5DN-C
 Defender (This creature can't attack.)
-Razorgrass Screen blocks each turn if able.
+Razorgrass Screen blocks each combat if able.
 
 Name:   Razorjaw Oni
 Cost:   3B
@@ -1907,7 +1964,7 @@ Type:   Creature — Ogre Warrior
 P/T:    3/1
 S/R:    M13-C
 Haste (This creature can attack and {T} as soon as it comes under your control.)
-Reckless Brute attacks each turn if able.
+Reckless Brute attacks each combat if able.
 
 Name:   Reckless Bushwhacker
 Cost:   2R
@@ -2400,6 +2457,14 @@ Type:   Instant
 S/R:    CN2-C
 Reveal Regicide as you draft it. The player to your right chooses a color, you choose another color, then the player to your left chooses a third color.
 Destroy target creature that's one or more of the colors chosen as you drafted cards named Regicide.
+
+Name:   Regisaur Alpha
+Cost:   3RG
+Type:   Creature — Dinosaur
+P/T:    4/4
+S/R:    XLN-R
+Other Dinosaurs you control have haste.
+When Regisaur Alpha enters the battlefield, create a 3/3 green Dinosaur creature token with trample.
 
 Name:   Regress
 Cost:   2U
@@ -2934,6 +2999,13 @@ Type:   Instant
 S/R:    GPT-C, MM2-C, C15-C, DDN-C
 Return target nonland permanent with converted mana cost X to its owner's hand.
 Draw a card.
+
+Name:   Repeating Barrage
+Cost:   1RR
+Type:   Sorcery
+S/R:    XLN-R
+Repeating Barrage deals 3 damage to target creature or player.
+Raid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked with a creature this turn.
 
 Name:   Repel
 Cost:   3U
@@ -3533,6 +3605,13 @@ P/T:    0/1
 S/R:    HL-R, ME3-U
 {T}: Reveka, Wizard Savant deals 2 damage to target creature or player and doesn't untap during your next untap step.
 
+Name:   Revel in Riches
+Cost:   4B
+Type:   Enchantment
+S/R:    XLN-R
+Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+At the beginning of your upkeep, if you control ten or more Treasures, you win the game.
+
 Name:   Revel of the Fallen God
 Cost:   3RRGG
 Type:   Sorcery
@@ -4057,7 +4136,7 @@ When Ridgescale Tusker enters the battlefield, put a +1/+1 counter on each other
 
 Name:   Ridgetop Raptor
 Cost:   3R
-Type:   Creature — Lizard Beast
+Type:   Creature — Dinosaur Beast
 P/T:    2/1
 S/R:    LGN-U
 Double strike (This creature deals both first-strike and regular combat damage.)
@@ -4118,6 +4197,14 @@ S/R:    TSP-U, MMA-U, DD2-U, DDM-U
 Flying
 When Riftwing Cloudskate enters the battlefield, return target permanent to its owner's hand.
 Suspend 3—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
+
+Name:   Rigging Runner
+Cost:   R
+Type:   Creature — Goblin Pirate
+P/T:    1/1
+S/R:    XLN-U
+First strike
+Raid — Rigging Runner enters the battlefield with a +1/+1 counter on it if you attacked with a creature this turn.
 
 Name:   Righteous Aura
 Cost:   1W
@@ -4199,6 +4286,13 @@ P/T:    2/2
 S/R:    CMD-M
 Whenever you cast an instant or sorcery spell, you may pay {U}{R}. If you do, copy that spell. You may choose new targets for the copy.
 Whenever another nontoken creature enters the battlefield under your control, you may pay {G}{U}. If you do, create a token that's a copy of that creature.
+
+Name:   Rile
+Cost:   R
+Type:   Sorcery
+S/R:    XLN-C
+Rile deals 1 damage to target creature you control. That creature gains trample until end of turn.
+Draw a card.
 
 Name:   Rime Dryad
 Cost:   G
@@ -4382,7 +4476,7 @@ Type:   Creature — Goblin Berserker
 P/T:    2/1
 S/R:    DGM-C
 First strike
-Riot Piker attacks each turn if able.
+Riot Piker attacks each combat if able.
 
 Name:   Riot Ringleader
 Cost:   2R
@@ -4414,6 +4508,13 @@ S/R:    KLD-C
 Trample
 When Riparian Tiger enters the battlefield, you get {E}{E} (two energy counters).
 Whenever Riparian Tiger attacks, you may pay {E}{E}. If you do, it gets +2/+2 until end of turn.
+
+Name:   Ripjaw Raptor
+Cost:   2GG
+Type:   Creature — Dinosaur
+P/T:    4/5
+S/R:    XLN-R
+Enrage — Whenever Ripjaw Raptor is dealt damage, draw a card.
 
 Name:   Ripscale Predator
 Cost:   4RR
@@ -4771,6 +4872,13 @@ S/R:    IN-R, DRB-R, DDE-R
 Flying
 Whenever Rith, the Awakener deals combat damage to a player, you may pay {2}{G}. If you do, choose a color, then create a 1/1 green Saproling creature token for each permanent of that color.
 
+Name:   Ritual of Rejuvenation
+Cost:   2W
+Type:   Instant
+S/R:    XLN-C
+You gain 4 life.
+Draw a card.
+
 Name:   Ritual of Restoration
 Cost:   W
 Type:   Sorcery
@@ -4846,6 +4954,12 @@ River Delta doesn't untap during your untap step if it has a depletion counter o
 At the beginning of your upkeep, remove a depletion counter from River Delta.
 {T}: Add {U} or {B} to your mana pool. Put a depletion counter on River Delta.
 
+Name:   River Heralds' Boon
+Cost:   1G
+Type:   Instant
+S/R:    XLN-C
+Put a +1/+1 counter on target creature and a +1/+1 counter on up to one target Merfolk.
+
 Name:   River Hoopoe
 Cost:   GU
 Type:   Creature — Bird
@@ -4884,6 +4998,14 @@ S/R:    AKH-C
 River Serpent can't attack unless there are five or more cards in your graveyard.
 Cycling {U} ({U}, Discard this card: Draw a card.)
 
+Name:   River Sneak
+Cost:   1U
+Type:   Creature — Merfolk Warrior
+P/T:    1/1
+S/R:    XLN-U
+River Sneak can't be blocked.
+Whenever another Merfolk enters the battlefield under your control, River Sneak gets +1/+1 until end of turn.
+
 Name:   River of Tears
 Type:   Land
 S/R:    FUT-R
@@ -4894,6 +5016,12 @@ Cost:   3(U/B)
 Type:   Sorcery
 S/R:    SHM-U
 If {U} was spent to cast River's Grasp, return up to one target creature to its owner's hand. If {B} was spent to cast River's Grasp, target player reveals his or her hand, you choose a nonland card from it, then that player discards that card. (Do both if {U}{B} was spent.)
+
+Name:   River's Rebuke
+Cost:   4UU
+Type:   Sorcery
+S/R:    XLN-R
+Return all nonland permanents target player controls to their owner's hand.
 
 Name:   Riverfall Mimic
 Cost:   1(U/R)
@@ -5399,7 +5527,7 @@ Populate. Creatures you control gain indestructible until end of turn. (To popul
 
 Name:   Rootbound Crag
 Type:   Land
-S/R:    M10-R, M11-R, M12-R, M13-R, C16-R, H09-R
+S/R:    M10-R, M11-R, M12-R, M13-R, C16-R, XLN-R, H09-R
 Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
 {T}: Add {R} or {G} to your mana pool.
 
@@ -5683,6 +5811,14 @@ Type:   Creature — Treefolk
 P/T:    3/4
 S/R:    P1-C
 
+Name:   Rowdy Crew
+Cost:   2RR
+Type:   Creature — Human Pirate
+P/T:    3/3
+S/R:    XLN-M
+Trample
+When Rowdy Crew enters the battlefield, draw three cards, then discard two cards at random. If two cards that share a card type are discarded this way, put two +1/+1 counters on Rowdy Crew.
+
 Name:   Rowen
 Cost:   2GG
 Type:   Enchantment
@@ -5835,6 +5971,13 @@ P/T:    7/8
 S/R:    BFZ-C
 When you cast Ruin Processor, you may put a card an opponent owns from exile into that player's graveyard. If you do, you gain 5 life.
 
+Name:   Ruin Raider
+Cost:   2B
+Type:   Creature — Orc Pirate
+P/T:    3/2
+S/R:    XLN-R
+Raid — At the beginning of your end step, if you attacked with a creature this turn, reveal the top card of your library and put that card into your hand. You lose life equal to the card's converted mana cost.
+
 Name:   Ruin Rat
 Cost:   1B
 Type:   Creature — Rat
@@ -5949,7 +6092,7 @@ Name:   Rummaging Goblin
 Cost:   2R
 Type:   Creature — Goblin Rogue
 P/T:    1/1
-S/R:    M13-C, M15-C
+S/R:    M13-C, M15-C, XLN-C
 {T}, Discard a card: Draw a card.
 
 Name:   Rummaging Wizard
@@ -5966,6 +6109,12 @@ M-type: Split
 M-card: Hit
 S/R:    DIS-U
 Attacking creatures you control get +1/+0 until end of turn for each other attacking creature.
+
+Name:   Run Aground
+Cost:   3U
+Type:   Instant
+S/R:    XLN-C
+Put target artifact or creature on top of its owner's library.
 
 Name:   Run Wild
 Cost:   G
@@ -6187,7 +6336,7 @@ Type:   Legendary Creature — Ogre Warrior
 P/T:    6/6
 S/R:    DGM-R
 Vigilance, reach
-Ruric Thar, the Unbowed attacks each turn if able.
+Ruric Thar, the Unbowed attacks each combat if able.
 Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that player.
 
 Name:   Rush of Adrenaline
@@ -6405,6 +6554,14 @@ Type:   Sorcery
 S/R:    NPH-C
 ({(r/p)} can be paid with either {R} or 2 life.)
 Nonartifact creatures can't block this turn.
+
+Name:   Ruthless Knave
+Cost:   2B
+Type:   Creature — Orc Pirate
+P/T:    3/2
+S/R:    XLN-U
+{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Sacrifice three Treasures: Draw a card.
 
 Name:   Ruthless Ripper
 Cost:   B

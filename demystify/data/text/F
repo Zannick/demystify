@@ -878,6 +878,28 @@ Deathtouch
 Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
 {3}{U}{B}: Draw a card. Each opponent exiles the top card of his or her library.
 
+Name:   Fathom Fleet Captain
+Cost:   1B
+Type:   Creature — Human Pirate
+P/T:    2/1
+S/R:    XLN-R
+Menace
+Whenever Fathom Fleet Captain attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.
+
+Name:   Fathom Fleet Cutthroat
+Cost:   3B
+Type:   Creature — Human Pirate
+P/T:    3/3
+S/R:    XLN-C
+When Fathom Fleet Cutthroat enters the battlefield, destroy target creature an opponent controls that was dealt damage this turn.
+
+Name:   Fathom Fleet Firebrand
+Cost:   1R
+Type:   Creature — Human Pirate
+P/T:    2/2
+S/R:    XLN-C
+{1}{R}: Fathom Fleet Firebrand gets +1/+0 until end of turn.
+
 Name:   Fathom Mage
 Cost:   2GU
 Type:   Creature — Human Wizard
@@ -967,7 +989,7 @@ Enchanted creature has shroud as long as its controller controls another creatur
 Name:   Favorable Winds
 Cost:   1U
 Type:   Enchantment
-S/R:    AVR-U, CNS-U
+S/R:    AVR-U, CNS-U, XLN-U
 Creatures you control with flying get +1/+1.
 
 Name:   Favored Hoplite
@@ -1188,6 +1210,15 @@ Enchant creature
 Enchanted creature has lifelink.
 {1}{W}: Attach Felidar Umbra to target creature you control.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
+
+Name:   Fell Flagship
+Cost:   3
+Type:   Artifact — Vehicle
+P/T:    3/3
+S/R:    XLN-R
+Pirates you control get +1/+0.
+Whenever Fell Flagship deals combat damage to a player, that player discards a card.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 
 Name:   Fell Shepherd
 Cost:   5BB
@@ -1706,6 +1737,12 @@ Enchant creature
 Enchanted creature can't be blocked by Spirits.
 {1}{U}: Return Field of Reality to its owner's hand.
 
+Name:   Field of Ruin
+Type:   Land
+S/R:    XLN-U
+{T}: Add {C} to your mana pool.
+{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches his or her library for a basic land card, puts it onto the battlefield, then shuffles his or her library.
+
 Name:   Field of Souls
 Cost:   2WW
 Type:   Enchantment
@@ -1771,6 +1808,12 @@ Cost:   1R
 Type:   Enchantment
 S/R:    EVE-R
 Chroma — {2}, Sacrifice a creature: Fiery Bombardment deals damage to target creature or player equal to the number of red mana symbols in the sacrificed creature's mana cost.
+
+Name:   Fiery Cannonade
+Cost:   2R
+Type:   Instant
+S/R:    XLN-U
+Fiery Cannonade deals 2 damage to each non-Pirate creature.
 
 Name:   Fiery Conclusion
 Cost:   1R
@@ -2095,6 +2138,14 @@ P/T:    4/3
 S/R:    M11-U, PD2-U
 If a red instant or sorcery spell you control would deal damage, it deals double that damage instead.
 
+Name:   Fire Shrine Keeper
+Cost:   R
+Type:   Creature — Elemental
+P/T:    1/1
+S/R:    XLN-C
+Menace
+{7}{R}, {T}, Sacrifice Fire Shrine Keeper: It deals 3 damage to each of up to two target creatures.
+
 Name:   Fire Snake
 Cost:   4R
 Type:   Creature — Snake
@@ -2199,6 +2250,13 @@ Type:   Enchantment — Aura
 S/R:    A-C, B-C, U-C, RV-C, 4E-C, MI-C, 5E-C, 6E-C, 9ED-C, 10E-C, M10-C, M12-C
 Enchant creature
 {R}: Enchanted creature gets +1/+0 until end of turn.
+
+Name:   Firecannon Blast
+Cost:   1RR
+Type:   Sorcery
+S/R:    XLN-C
+Firecannon Blast deals 3 damage to target creature.
+Raid — Firecannon Blast deals 6 damage to that creature instead if you attacked with a creature this turn.
 
 Name:   Firecat Blitz
 Cost:   XRR
@@ -2629,7 +2687,7 @@ Type:   Creature — Hellion
 P/T:    5/4
 S/R:    SOM-C
 Haste
-Flameborn Hellion attacks each turn if able.
+Flameborn Hellion attacks each combat if able.
 
 Name:   Flameborn Viron
 Cost:   4RR
@@ -2770,7 +2828,7 @@ Type:   Creature — Phoenix
 P/T:    2/2
 S/R:    FRF-R
 Flying, haste
-Flamewake Phoenix attacks each turn if able.
+Flamewake Phoenix attacks each combat if able.
 Ferocious — At the beginning of combat on your turn, if you control a creature with power 4 or greater, you may pay {R}. If you do, return Flamewake Phoenix from your graveyard to the battlefield.
 
 Name:   Flamewave Invoker
@@ -2996,6 +3054,13 @@ P/T:    3/3
 S/R:    THS-R, C17-R
 {3}{G}{W}: Monstrosity 1. (If this creature isn't monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 As long as Fleecemane Lion is monstrous, it has hexproof and indestructible.
+
+Name:   Fleet Swallower
+Cost:   5UU
+Type:   Creature — Fish
+P/T:    6/6
+S/R:    XLN-R
+Whenever Fleet Swallower attacks, target player puts the top half of his or her library, rounded up, into his or her graveyard.
 
 Name:   Fleet-Footed Monk
 Cost:   1W
@@ -3976,7 +4041,7 @@ Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Forest
 Type:   Basic Land — Forest
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, EVG-L, UG-C, UNH-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, EVG-L, UG-C, UNH-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
 
 Name:   Forest Bear
 Cost:   1G
@@ -4553,7 +4618,7 @@ S/R:    OD-U
 
 Name:   Frenetic Raptor
 Cost:   5R
-Type:   Creature — Lizard Beast
+Type:   Creature — Dinosaur Beast
 P/T:    6/6
 S/R:    LGN-U
 Beasts can't block.
@@ -4578,6 +4643,12 @@ Type:   Creature — Goblin Berserker
 P/T:    1/1
 S/R:    RAV-U, M15-U, DDN-U
 Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn.
+
+Name:   Frenzied Raptor
+Cost:   2R
+Type:   Creature — Dinosaur
+P/T:    4/2
+S/R:    XLN-C
 
 Name:   Frenzied Tilling
 Cost:   3RG
@@ -4642,7 +4713,7 @@ If a permanent with a wind counter on it would untap during its controller's unt
 
 Name:   Freyalise, Llanowar's Fury
 Cost:   3GG
-Type:   Planeswalker — Freyalise
+Type:   Legendary Planeswalker — Freyalise
 P/T:    3
 S/R:    C14-M, CMA-M
 [+2]: Create a 1/1 green Elf Druid creature token with "{T}: Add {G} to your mana pool."
@@ -5001,7 +5072,7 @@ Type:   Legendary Creature — Human Samurai
 P/T:    3/2
 S/R:    BOK-R, C15-R
 Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. (Whenever this creature blocks or becomes blocked, it gets +X/+X until end of turn.)
-Creatures your opponents control attack each turn if able.
+Creatures your opponents control attack each combat if able.
 
 Name:   Funeral Charm
 Cost:   B
@@ -5077,7 +5148,7 @@ All Sliver creatures have "Whenever this creature is dealt damage, put a +1/+1 c
 
 Name:   Fungusaur
 Cost:   3G
-Type:   Creature — Fungus Lizard
+Type:   Creature — Fungus Dinosaur
 P/T:    2/2
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 8ED-R
 Whenever Fungusaur is dealt damage, put a +1/+1 counter on it.
@@ -5156,7 +5227,7 @@ Cost:   R
 Type:   Enchantment — Aura
 S/R:    ISD-C
 Enchant creature
-Enchanted creature gets +2/+2 and attacks each turn if able.
+Enchanted creature gets +2/+2 and attacks each combat if able.
 
 Name:   Furtive Homunculus
 Cost:   1U
