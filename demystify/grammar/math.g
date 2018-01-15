@@ -37,7 +37,8 @@ magic_number : integer
              ;
 
 object_count : THE NUMBER OF 
-               ( properties -> ^( COUNT properties ) 
+               ( DIFFERENTLY NAMED properties -> ^( COUNT NAME properties )
+               | properties -> ^( COUNT properties ) 
                | base_counter_set ( ON ( properties | ref_object )
                                   | player_group HAS )
                  -> ^( COUNT base_counter_set properties? ref_object? player_group? )

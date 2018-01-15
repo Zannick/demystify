@@ -169,7 +169,8 @@ is_tapped : is_ TAPPED FOR MANA -> ^( BECOME TAPPED[] MANA[] );
 // triggered conditions usually serve to end the game or change the relevant
 // state (e.g. 'when SELF has flying, sacrifice it').
 
-condition : has_ability
+condition : has_status
+          | has_ability
           | has_cards
           | have_life
           | HAS! has_counters
@@ -179,6 +180,8 @@ condition : has_ability
           ;
 
 /* Conditions. */
+
+has_status : HAS! THE! CITYS_BLESSING;
 
 has_ability : HAS raw_keyword -> ^( HAS[] raw_keyword );
 

@@ -81,11 +81,13 @@ raw_keyword_no_args : DEATHTOUCH
                     | INDESTRUCTIBLE
                     | INTIMIDATE
                     | LIFELINK
+                    | MENACE
                     | REACH
                     | SHROUD
                     | TRAMPLE
                     | VIGILANCE
                     | AFTERMATH
+                    | ASCEND
                     | BANDING
                     | BATTLE_CRY
                     | CASCADE
@@ -113,7 +115,6 @@ raw_keyword_no_args : DEATHTOUCH
                     | INGEST
                     | LIVING_WEAPON
                     | MELEE
-                    | MENACE
                     | MYRIAD
                     | PARTNER
                     | PERSIST

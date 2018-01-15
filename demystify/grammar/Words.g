@@ -82,6 +82,7 @@ tokens {
     ARB_CHOICE;
     ARTIFACT;
     AS;
+    ASCEND;
     ASSEMBLE;
     ASSEMBLED;
     ASSIGN;
@@ -165,6 +166,7 @@ tokens {
     CHOSE;
     CHOSEN;
     CIPHER;
+    CITYS_BLESSING;
     CLASH;
     CLASHED;
     CLASHING;
@@ -244,6 +246,7 @@ tokens {
     DIED;
     DIFFERENCE;
     DIFFERENT;
+    DIFFERENTLY;
     DIRECTION;
     DIRECTLY;
     DISCARD;
@@ -896,6 +899,7 @@ tokens {
 CUMULATIVE_UPKEEP : 'cumulative upkeep';
 SETTING_IN_MOTION : 'setting in motion';
 ARABIAN_NIGHTS : 'arabian nights';
+CITYS_BLESSING : 'city\'s blessing';
 INDESTRUCTIBLE : 'indestructible';
 REDISTRIBUTING : 'redistributing';
 REDISTRIBUTION : 'redistribution';
@@ -974,6 +978,7 @@ BLOODTHIRST : 'bloodthirst';
 COMBINATION : 'combination';
 CONTROLLING : 'controlling';
 DECLARATION : 'declaration';
+DIFFERENTLY : 'differently';
 DISTRIBUTED : 'distributed';
 ENCHANTMENT : 'enchantments'
             | 'enchantment';
@@ -1095,6 +1100,7 @@ OBJ_COUNTER : 'manifestation'
             | 'page'
             | 'pain'
             | 'plot'
+            | 'prey'
             | 'pupa'
             | 'rust'
             | 'soot'
@@ -1295,6 +1301,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'wildfire'
             | 'zendikar'
             | 'advisor'
+            | 'angrath'
             | 'archers'
             | 'archons'
             | 'aurochs'
@@ -2164,6 +2171,7 @@ AFFECT : 'affects'
        | 'affect';
 AMOUNT : 'amount';
 AND_OR : 'and/or';
+ASCEND : 'ascend';
 ASSIGN : 'assigns'
        | 'assign';
 ATTACH : 'attaches'

@@ -25,6 +25,11 @@
 @the number of creature cards in all graveyards
 @(COUNT (PROPERTIES creature cards (IN (ZONE_SET (NUMBER all) GRAVEYARD))))
 
+@AwakenedAmalgam
+@magic_number
+@the number of differently named lands you control
+@(COUNT NAME (PROPERTIES lands (CONTROL you)))
+
 # Skeleton Scavengers
 @SkeletonScavengers
 @cost

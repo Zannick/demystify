@@ -66,6 +66,7 @@ full_zone : player_poss ind_zone -> ^( ZONE player_poss ind_zone )
 restriction : WITH! has_counters
             | WITH! int_prop_with_value
             | share_feature
+            | WITH! n_distinct_values
             | WITH! total_int_prop
             | other_than
             | except_for
@@ -121,6 +122,8 @@ has_counters : counter_subset ON ref_object
 
 share_feature : THAT SHARE A prop_type -> ^( SHARE[] prop_type )
               | WITH THE SAME prop_type -> ^( SAME[] prop_type );
+
+n_distinct_values : integer DIFFERENT^ prop_type;
 
 total_int_prop : TOTAL^ int_prop_with_value ;
 

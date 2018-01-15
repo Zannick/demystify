@@ -99,3 +99,8 @@
          (and (SUBSET (PROPERTIES (NON land) cards (OWN you) (NOT battlefield)))
               (SUBSET (PROPERTIES spells (CONTROL you)))
               (SUBSET (PROPERTIES (NON land) permanents (CONTROL you)))))
+
+@AzorsGateway
+@subsets
+@cards with five or more different converted mana costs
+@(SUBSET (NUMBER ALL) (PROPERTIES cards) (DIFFERENT (NUMBER (GEQ five)) CMC))
