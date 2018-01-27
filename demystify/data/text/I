@@ -553,7 +553,7 @@ Name:   Illusory Ambusher
 Cost:   4U
 Type:   Creature — Cat Illusion
 P/T:    4/1
-S/R:    C15-U
+S/R:    C15-U, IMA-U
 Flash (You may cast this spell any time you could cast an instant.)
 Whenever Illusory Ambusher is dealt damage, draw that many cards.
 
@@ -561,7 +561,7 @@ Name:   Illusory Angel
 Cost:   2U
 Type:   Creature — Angel Illusion
 P/T:    4/4
-S/R:    PC2-U, M15-U, PCA-U
+S/R:    PC2-U, M15-U, PCA-U, IMA-U
 Flying
 Cast Illusory Angel only if you've cast another spell this turn.
 
@@ -706,6 +706,12 @@ Type:   Enchantment
 S/R:    DTK-C
 Whenever a creature enters the battlefield under your control, Impact Tremors deals 1 damage to each opponent.
 
+Name:   Impale
+Cost:   2BB
+Type:   Sorcery
+S/R:    RIX-C
+Destroy target creature.
+
 Name:   Impaler Shrike
 Cost:   2UU
 Type:   Creature — Bird
@@ -747,6 +753,13 @@ P/T:    3/3
 S/R:    XLN-U
 Flying
 When Imperial Aerosaur enters the battlefield, another target creature you control gets +1/+1 and gains flying until end of turn.
+
+Name:   Imperial Ceratops
+Cost:   4W
+Type:   Creature — Dinosaur
+P/T:    3/5
+S/R:    RIX-U
+Enrage — Whenever Imperial Ceratops is dealt damage, you gain 2 life.
 
 Name:   Imperial Edict
 Cost:   1B
@@ -1263,6 +1276,13 @@ Type:   Instant
 S/R:    RAV-C
 Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of his or her library into his or her graveyard, where X is the spell's converted mana cost.
 
+Name:   Induced Amnesia
+Cost:   2U
+Type:   Enchantment
+S/R:    RIX-R
+When Induced Amnesia enters the battlefield, target player exiles all cards from his or her hand face down, then draws that many cards.
+When Induced Amnesia is put into a graveyard from the battlefield, return the exiled cards to their owner's hand.
+
 Name:   Indulgent Aristocrat
 Cost:   B
 Type:   Creature — Vampire
@@ -1275,7 +1295,7 @@ Name:   Indulgent Tormentor
 Cost:   3BB
 Type:   Creature — Demon
 P/T:    5/3
-S/R:    M15-R, DDR-R
+S/R:    M15-R, IMA-U, DDR-R
 Flying
 At the beginning of your upkeep, draw a card unless target opponent sacrifices a creature or pays 3 life.
 
@@ -1311,7 +1331,7 @@ Name:   Infantry Veteran
 Cost:   W
 Type:   Creature — Human Soldier
 P/T:    1/1
-S/R:    VI-C, 6E-C, 9ED-C, M11-C, DDF-C, DDN-C
+S/R:    VI-C, 6E-C, 9ED-C, M11-C, IMA-C, DDF-C, DDN-C
 {T}: Target attacking creature gets +1/+1 until end of turn.
 
 Name:   Infected Vermin
@@ -1691,7 +1711,7 @@ Name:   Inkfathom Divers
 Cost:   3UU
 Type:   Creature — Merfolk Soldier
 P/T:    3/3
-S/R:    LRW-C
+S/R:    LRW-C, DDT-C
 Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 When Inkfathom Divers enters the battlefield, look at the top four cards of your library, then put them back in any order.
 
@@ -1856,7 +1876,7 @@ P/T:    3/2
 Color:  Blue
 M-type: Transform
 M-card: Delver of Secrets
-S/R:    ISD-C
+S/R:    ISD-C, V17-M
 Flying
 
 Name:   Inside Out
@@ -1953,7 +1973,7 @@ Whenever you cast a Wizard spell, you may untap Inspired Sprite.
 Name:   Inspiring Call
 Cost:   2G
 Type:   Instant
-S/R:    DTK-U, C16-U
+S/R:    DTK-U, C16-U, IMA-U
 Draw a card for each creature you control with a +1/+1 counter on it. Those creatures gain indestructible until end of turn.
 
 Name:   Inspiring Captain
@@ -2371,7 +2391,7 @@ Enchanted creature gets +2/+2, has vigilance, and can block an additional creatu
 Name:   Iona's Judgment
 Cost:   4W
 Type:   Sorcery
-S/R:    WWK-C
+S/R:    WWK-C, IMA-C
 Exile target creature or enchantment.
 
 Name:   Iona, Shield of Emeria
@@ -2671,7 +2691,7 @@ Delirium — When Ishkanah, Grafwidow enters the battlefield, if there are four 
 
 Name:   Island
 Type:   Basic Land — Island
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, UG-C, UNH-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, UG-C, UNH-L, UST-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, DDT-L, H09-L, ME3-L, MED-L
 
 Name:   Island Fish Jasconius
 Cost:   4UUU
@@ -2869,7 +2889,7 @@ Name:   Ivy Elemental
 Cost:   XG
 Type:   Creature — Elemental
 P/T:    0/0
-S/R:    OD-R, HOP-R
+S/R:    OD-R, HOP-R, IMA-C
 Ivy Elemental enters the battlefield with X +1/+1 counters on it.
 
 Name:   Ivy Lane Denizen
@@ -2939,7 +2959,7 @@ Ixidron's power and toughness are each equal to the number of face-down creature
 
 Name:   Izzet Boilerworks
 Type:   Land
-S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, C17-U, DDJ-C
+S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, C17-U, IMA-U, DDJ-C
 Izzet Boilerworks enters the battlefield tapped.
 When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {U}{R} to your mana pool.

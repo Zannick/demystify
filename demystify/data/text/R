@@ -77,6 +77,14 @@ S/R:    PLC-R, DDS-R
 Whenever Radha, Heir to Keld attacks, you may add {R}{R} to your mana pool.
 {T}: Add {G} to your mana pool.
 
+Name:   Radiant Destiny
+Cost:   2W
+Type:   Enchantment
+S/R:    RIX-R
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+As Radiant Destiny enters the battlefield, choose a creature type.
+Creatures you control of the chosen type get +1/+1. As long as you have the city's blessing, they also have vigilance.
+
 Name:   Radiant Essence
 Cost:   1GW
 Type:   Creature — Spirit
@@ -92,7 +100,7 @@ Converge — Radiant Flames deals X damage to each creature, where X is the numb
 
 Name:   Radiant Fountain
 Type:   Land
-S/R:    M15-C
+S/R:    M15-C, IMA-C
 When Radiant Fountain enters the battlefield, you gain 2 life.
 {T}: Add {C} to your mana pool.
 
@@ -307,6 +315,13 @@ S/R:    WWK-R
 Raging Ravine enters the battlefield tapped.
 {T}: Add {R} or {G} to your mana pool.
 {2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with "Whenever this creature attacks, put a +1/+1 counter on it." It's still a land.
+
+Name:   Raging Regisaur
+Cost:   2RG
+Type:   Creature — Dinosaur
+P/T:    4/4
+S/R:    RIX-U
+Whenever Raging Regisaur attacks, it deals 1 damage to target creature or player.
 
 Name:   Raging River
 Cost:   RR
@@ -525,7 +540,7 @@ Unleash (You may have this creature enter the battlefield with a +1/+1 counter o
 
 Name:   Rakdos Carnarium
 Type:   Land
-S/R:    DIS-C, ARC-C, CMD-C, C13-C, MM2-U, C16-U, CMA-C, C17-C, DDK-C
+S/R:    DIS-C, ARC-C, CMD-C, C13-C, MM2-U, C16-U, CMA-C, C17-C, IMA-U, DDK-C
 Rakdos Carnarium enters the battlefield tapped.
 When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {B}{R} to your mana pool.
@@ -550,7 +565,7 @@ Name:   Rakdos Drake
 Cost:   2B
 Type:   Creature — Drake
 P/T:    1/2
-S/R:    DGM-C
+S/R:    DGM-C, IMA-C
 Flying
 Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
 
@@ -854,7 +869,7 @@ Name:   Rampaging Baloths
 Cost:   4GG
 Type:   Creature — Beast
 P/T:    6/6
-S/R:    ZEN-M, C13-M, C14-M, CMA-M, E01-M
+S/R:    ZEN-M, C13-M, C14-M, CMA-M, E01-M, IMA-R
 Trample
 Landfall — Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.
 
@@ -1052,7 +1067,7 @@ Name:   Raptor Companion
 Cost:   1W
 Type:   Creature — Dinosaur
 P/T:    3/1
-S/R:    XLN-C
+S/R:    XLN-C, RIX-C
 
 Name:   Raptor Hatchling
 Cost:   1R
@@ -1207,7 +1222,7 @@ P/T:    4/4
 Color:  Red/Green
 M-type: Transform
 M-card: Huntmaster of the Fells
-S/R:    DKA-M
+S/R:    DKA-M, V17-M
 Trample
 Whenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent and 2 damage to up to one target creature that player controls.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ravager of the Fells.
@@ -1299,6 +1314,13 @@ Type:   Creature — Vampire Berserker
 P/T:    1/3
 S/R:    SOI-U
 Discard a card: Ravenous Bloodseeker gets +2/-2 until end of turn.
+
+Name:   Ravenous Chupacabra
+Cost:   2BB
+Type:   Creature — Beast Horror
+P/T:    2/2
+S/R:    RIX-U
+When Ravenous Chupacabra enters the battlefield, destroy target creature an opponent controls.
 
 Name:   Ravenous Daggertooth
 Cost:   2G
@@ -1856,8 +1878,14 @@ S/R:    ARC-U, M11-U, M12-U, MM2-U, DDJ-U, DDK-U
 Name:   Reave Soul
 Cost:   1B
 Type:   Sorcery
-S/R:    ORI-C
+S/R:    ORI-C, IMA-C
 Destroy target creature with power 3 or less.
+
+Name:   Reaver Ambush
+Cost:   2B
+Type:   Instant
+S/R:    RIX-U
+Exile target creature with power 3 or less.
 
 Name:   Reaver Drone
 Cost:   B
@@ -2035,6 +2063,12 @@ S/R:    AeR-U
 First strike
 Whenever Reckless Racer becomes tapped, you may discard a card. If you do, draw a card.
 
+Name:   Reckless Rage
+Cost:   R
+Type:   Instant
+S/R:    RIX-U
+Reckless Rage deals 4 damage to target creature you don't control and 2 damage to target creature you control.
+
 Name:   Reckless Reveler
 Cost:   1R
 Type:   Creature — Satyr
@@ -2146,7 +2180,7 @@ Flashback {3}{R} (You may cast this card from your graveyard for its flashback c
 Name:   Recover
 Cost:   2B
 Type:   Sorcery
-S/R:    IN-C, 10E-C, MM3-C
+S/R:    IN-C, 10E-C, MM3-C, RIX-C
 Return target creature card from your graveyard to your hand.
 Draw a card.
 
@@ -2404,7 +2438,7 @@ Refuse deals damage to target spell's controller equal to that spell's converted
 
 Name:   Regal Behemoth
 Cost:   4GG
-Type:   Creature — Lizard
+Type:   Creature — Dinosaur
 P/T:    5/5
 S/R:    CN2-R
 Trample
@@ -2581,6 +2615,14 @@ S/R:    EVE-R
 Rekindled Flame deals 4 damage to target creature or player.
 At the beginning of your upkeep, if an opponent has no cards in hand, you may return Rekindled Flame from your graveyard to your hand.
 
+Name:   Rekindling Phoenix
+Cost:   2RR
+Type:   Creature — Phoenix
+P/T:    4/3
+S/R:    RIX-M
+Flying
+When Rekindling Phoenix dies, create a 0/1 red Elemental creature token with "At the beginning of your upkeep, sacrifice this creature and return target card named Rekindling Phoenix from your graveyard to the battlefield. It gains haste until end of turn."
+
 Name:   Reknit
 Cost:   1(G/W)
 Type:   Instant
@@ -2614,10 +2656,16 @@ Type:   Sorcery
 S/R:    AeR-R
 Destroy X target artifacts. Create X 2/2 red Gremlin creature tokens.
 
+Name:   Release to the Wind
+Cost:   2U
+Type:   Instant
+S/R:    RIX-R
+Exile target nonland permanent. For as long as that card remains exiled, its owner may cast it without paying its mana cost.
+
 Name:   Relentless Assault
 Cost:   2RR
 Type:   Sorcery
-S/R:    VI-R, P2-R, 6E-R, P3K-R, S99-R, 7E-R, 8ED-R, 9ED-R, 10E-R, HOP-R
+S/R:    VI-R, P2-R, 6E-R, P3K-R, S99-R, 7E-R, 8ED-R, 9ED-R, 10E-R, HOP-R, DDT-R
 Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
 
 Name:   Relentless Dead
@@ -2635,6 +2683,14 @@ Type:   Creature — Human Warrior
 P/T:    3/3
 S/R:    OGW-U, DDS-U
 {1}{R}{G}: Relentless Hunter gets +1/+1 and gains trample until end of turn.
+
+Name:   Relentless Raptor
+Cost:   RW
+Type:   Creature — Dinosaur
+P/T:    3/3
+S/R:    RIX-U
+Vigilance
+Relentless Raptor attacks or blocks each combat if able.
 
 Name:   Relentless Rats
 Cost:   1BB
@@ -2996,7 +3052,7 @@ Each player's life total becomes the lowest life total among all players.
 Name:   Repeal
 Cost:   XU
 Type:   Instant
-S/R:    GPT-C, MM2-C, C15-C, DDN-C
+S/R:    GPT-C, MM2-C, C15-C, IMA-C, DDN-C
 Return target nonland permanent with converted mana cost X to its owner's hand.
 Draw a card.
 
@@ -3274,6 +3330,15 @@ Type:   Instant
 S/R:    TE-C, CNS-C
 Prevent all combat damage that would be dealt this turn. You gain 1 life for each attacking creature.
 
+Name:   Resplendent Griffin
+Cost:   1WU
+Type:   Creature — Griffin
+P/T:    2/2
+S/R:    RIX-U
+Flying
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+Whenever Resplendent Griffin attacks, if you have the city's blessing, put a +1/+1 counter on it.
+
 Name:   Resplendent Mentor
 Cost:   4W
 Type:   Creature — Kithkin Cleric
@@ -3335,7 +3400,7 @@ Name:   Restoration Angel
 Cost:   3W
 Type:   Creature — Angel
 P/T:    3/4
-S/R:    AVR-R, MM3-R
+S/R:    AVR-R, MM3-R, IMA-R
 Flash
 Flying
 When Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.
@@ -3986,7 +4051,7 @@ Name:   Rhystic Scrying
 Cost:   2UU
 Type:   Sorcery
 S/R:    PR-U
-Draw three cards. Then, if any player pays {2}, discard three cards.
+Draw three cards. Then if any player pays {2}, discard three cards.
 
 Name:   Rhystic Shield
 Cost:   1W
@@ -4156,7 +4221,7 @@ Target creature gets +2/+2 and gains horsemanship. (It can't be blocked except b
 Name:   Rift Bolt
 Cost:   2R
 Type:   Sorcery
-S/R:    TSP-C, MMA-C, DDS-C
+S/R:    TSP-C, MMA-C, IMA-U, DDS-C
 Rift Bolt deals 3 damage to target creature or player.
 Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 
@@ -4518,7 +4583,7 @@ Enrage — Whenever Ripjaw Raptor is dealt damage, draw a card.
 
 Name:   Ripscale Predator
 Cost:   4RR
-Type:   Creature — Lizard
+Type:   Creature — Dinosaur
 P/T:    6/5
 S/R:    GTC-U
 Menace (This creature can't be blocked except by two or more creatures.)
@@ -4947,6 +5012,13 @@ S/R:    VI-C, 6E-U, ZEN-U, DDM-U
 Islandwalk (This creature can't be blocked as long as defending player controls an Island.)
 {G}: Regenerate River Boa.
 
+Name:   River Darter
+Cost:   2U
+Type:   Creature — Merfolk Warrior
+P/T:    2/3
+S/R:    RIX-C
+River Darter can't be blocked by Dinosaurs.
+
 Name:   River Delta
 Type:   Land
 S/R:    IA-R
@@ -5008,7 +5080,7 @@ Whenever another Merfolk enters the battlefield under your control, River Sneak 
 
 Name:   River of Tears
 Type:   Land
-S/R:    FUT-R
+S/R:    FUT-R, IMA-R
 {T}: Add {U} to your mana pool. If you played a land this turn, add {B} to your mana pool instead.
 
 Name:   River's Grasp
@@ -5034,9 +5106,16 @@ Name:   Riverwheel Aerialists
 Cost:   5U
 Type:   Creature — Djinn Monk
 P/T:    4/5
-S/R:    KTK-U
+S/R:    KTK-U, IMA-C
 Flying
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+
+Name:   Riverwise Augur
+Cost:   3U
+Type:   Creature — Merfolk Wizard
+P/T:    2/2
+S/R:    RIX-U
+When Riverwise Augur enters the battlefield, draw three cards, then put two cards from your hand on top of your library in any order.
 
 Name:   Rix Maadi Guildmage
 Cost:   BR
@@ -5612,7 +5691,7 @@ Name:   Rootwater Hunter
 Cost:   2U
 Type:   Creature — Merfolk
 P/T:    1/1
-S/R:    TE-C
+S/R:    TE-C, DDT-U
 {T}: Rootwater Hunter deals 1 damage to target creature or player.
 
 Name:   Rootwater Matriarch
@@ -5655,7 +5734,7 @@ Name:   Rosheen Meanderer
 Cost:   3(R/G)
 Type:   Legendary Creature — Giant Shaman
 P/T:    4/4
-S/R:    SHM-R
+S/R:    SHM-R, IMA-U
 {T}: Add {C}{C}{C}{C} to your mana pool. Spend this mana only on costs that contain {X}.
 
 Name:   Rot Farm Skeleton
@@ -5700,7 +5779,7 @@ Name:   Rotfeaster Maggot
 Cost:   4B
 Type:   Creature — Insect
 P/T:    3/5
-S/R:    M15-C
+S/R:    M15-C, IMA-C
 When Rotfeaster Maggot enters the battlefield, exile target creature card from a graveyard. You gain life equal to that card's toughness.
 
 Name:   Rotlung Reanimator
@@ -6197,7 +6276,7 @@ Name:   Rune-Scarred Demon
 Cost:   5BB
 Type:   Creature — Demon
 P/T:    6/6
-S/R:    M12-R
+S/R:    M12-R, IMA-R
 Flying
 When Rune-Scarred Demon enters the battlefield, search your library for a card, put it into your hand, then shuffle your library.
 
@@ -6256,7 +6335,7 @@ Name:   Runed Servitor
 Cost:   2
 Type:   Artifact Creature — Construct
 P/T:    2/2
-S/R:    ROE-U, CNS-U, MM2-C, ORI-U, CN2-U, DDF-U, DDP-U
+S/R:    ROE-U, CNS-U, MM2-C, ORI-U, CN2-U, IMA-C, DDF-U, DDP-U
 When Runed Servitor dies, each player draws a card.
 
 Name:   Runed Stalactite
@@ -6590,6 +6669,6 @@ Name:   Ryusei, the Falling Star
 Cost:   5R
 Type:   Legendary Creature — Dragon Spirit
 P/T:    5/5
-S/R:    CHK-R, ARC-R, MMA-M, C17-M
+S/R:    CHK-R, ARC-R, MMA-M, C17-M, IMA-R
 Flying
 When Ryusei, the Falling Star dies, it deals 5 damage to each creature without flying.

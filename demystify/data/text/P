@@ -202,6 +202,14 @@ P/T:    2/2
 S/R:    EX-R, 9ED-R, 10E-R
 First strike, protection from black and from red (This creature deals combat damage before creatures without first strike. It can't be blocked, targeted, dealt damage, or enchanted by anything black or red.)
 
+Name:   Paladin of Atonement
+Cost:   1W
+Type:   Creature — Vampire Knight
+P/T:    1/1
+S/R:    RIX-R
+At the beginning of each upkeep, if you lost life last turn, put a +1/+1 counter on Paladin of Atonement.
+When Paladin of Atonement dies, you gain life equal to its toughness.
+
 Name:   Paladin of Prahv
 Cost:   4WW
 Type:   Creature — Human Knight
@@ -303,7 +311,7 @@ Name:   Palladium Myr
 Cost:   3
 Type:   Artifact Creature — Myr
 P/T:    2/2
-S/R:    SOM-U, C14-U
+S/R:    SOM-U, C14-U, IMA-U
 {T}: Add {C}{C} to your mana pool.
 
 Name:   Palliation Accord
@@ -789,9 +797,24 @@ Creatures you control get +2/+0 until end of turn.
 Name:   Path of Bravery
 Cost:   2W
 Type:   Enchantment
-S/R:    M14-R
+S/R:    M14-R, IMA-R
 As long as your life total is greater than or equal to your starting life total, creatures you control get +1/+1.
 Whenever one or more creatures you control attack, you gain life equal to the number of attacking creatures.
+
+Name:   Path of Discovery
+Cost:   3G
+Type:   Enchantment
+S/R:    RIX-R
+Whenever a creature enters the battlefield under your control, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.)
+
+Name:   Path of Mettle
+Cost:   RW
+Type:   Legendary Enchantment
+M-type: Transform
+M-card: Metzali, Tower of Triumph
+S/R:    RIX-R
+When Path of Mettle enters the battlefield, it deals 1 damage to each creature that doesn't have first strike, double strike, vigilance, or haste.
+Whenever you attack with at least two creatures that have first strike, double strike, vigilance, and/or haste, transform Path of Mettle.
 
 Name:   Path of Peace
 Cost:   3W
@@ -1258,7 +1281,7 @@ As Pentarch Paladin enters the battlefield, choose a color.
 Name:   Pentarch Ward
 Cost:   2W
 Type:   Enchantment — Aura
-S/R:    TSP-C
+S/R:    TSP-C, IMA-C
 Enchant creature
 As Pentarch Ward enters the battlefield, choose a color.
 When Pentarch Ward enters the battlefield, draw a card.
@@ -1771,7 +1794,7 @@ Name:   Phantom Monster
 Cost:   3U
 Type:   Creature — Illusion
 P/T:    3/3
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, EMA-C, MED-C
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, EMA-C, IMA-C, MED-C
 Flying
 
 Name:   Phantom Nantuko
@@ -1806,7 +1829,7 @@ Name:   Phantom Tiger
 Cost:   2G
 Type:   Creature — Cat Spirit
 P/T:    1/0
-S/R:    JUD-C
+S/R:    JUD-C, IMA-C
 Phantom Tiger enters the battlefield with two +1/+1 counters on it.
 If damage would be dealt to Phantom Tiger, prevent that damage. Remove a +1/+1 counter from Phantom Tiger.
 
@@ -2272,7 +2295,7 @@ Name:   Phyrexian Rager
 Cost:   2B
 Type:   Creature — Horror
 P/T:    2/2
-S/R:    AP-C, 10E-C, MBS-C, C15-C, EMA-C, CMA-C, DDD-C
+S/R:    AP-C, 10E-C, MBS-C, C15-C, EMA-C, CMA-C, IMA-C, DDD-C
 When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.
 
 Name:   Phyrexian Reaper
@@ -2567,7 +2590,7 @@ At the beginning of each player's upkeep, that player may sacrifice a creature. 
 Name:   Pillar of Flame
 Cost:   R
 Type:   Sorcery
-S/R:    AVR-C
+S/R:    AVR-C, IMA-C
 Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
 
 Name:   Pillar of Light
@@ -2750,6 +2773,13 @@ When Pirate's Cutlass enters the battlefield, attach it to target Pirate you con
 Equipped creature gets +2/+1.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
+Name:   Pirate's Pillage
+Cost:   3R
+Type:   Sorcery
+S/R:    RIX-U
+As an additional cost to cast Pirate's Pillage, discard a card.
+Draw two cards and create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+
 Name:   Pirate's Prize
 Cost:   3U
 Type:   Sorcery
@@ -2865,6 +2895,13 @@ P/T:    5/3
 S/R:    DTK-R
 At the beginning of your upkeep, you lose 2 life.
 Dash {2}{B}{B} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
+
+Name:   Pitiless Plunderer
+Cost:   3B
+Type:   Creature — Human Pirate
+P/T:    1/4
+S/R:    RIX-U
+Whenever another creature you control dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Pitiless Vizier
 Cost:   3B
@@ -3012,7 +3049,7 @@ S/R:    MBS-U
 
 Name:   Plains
 Type:   Basic Land — Plains
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, UG-C, UNH-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, UG-C, UNH-L, UST-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
 
 Name:   Planar Birth
 Cost:   1W
@@ -3297,7 +3334,7 @@ Defender, flying
 Name:   Plummet
 Cost:   1G
 Type:   Instant
-S/R:    ARC-C, M11-C, M12-C, M13-C, M14-C, CNS-C, M15-C, MM2-C, ORI-C, BFZ-C, CN2-C
+S/R:    ARC-C, M11-C, M12-C, M13-C, M14-C, CNS-C, M15-C, MM2-C, ORI-C, BFZ-C, CN2-C, RIX-C
 Destroy target creature with flying.
 
 Name:   Plunder
@@ -3431,6 +3468,13 @@ Type:   Instant
 S/R:    JOU-R
 Strive — Polymorphous Rush costs {1}{U} more to cast for each target beyond the first.
 Choose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.
+
+Name:   Polyraptor
+Cost:   6GG
+Type:   Creature — Dinosaur
+P/T:    5/5
+S/R:    RIX-M
+Enrage — Whenever Polyraptor is dealt damage, create a token that's a copy of Polyraptor.
 
 Name:   Ponder
 Cost:   U
@@ -4013,7 +4057,7 @@ Target creature you control fights target creature you don't control. (Each deal
 Name:   Prey's Vengeance
 Cost:   G
 Type:   Instant
-S/R:    ROE-U
+S/R:    ROE-U, IMA-C
 Target creature gets +2/+2 until end of turn.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 
@@ -4074,6 +4118,13 @@ P/T:    2/2
 S/R:    HOU-R
 Pride Sovereign gets +1/+1 for each other Cat you control.
 {W}, {T}, Exert Pride Sovereign: Create two 1/1 white Cat creature tokens with lifelink. (An exerted creature won't untap during your next untap step.)
+
+Name:   Pride of Conquerors
+Cost:   1W
+Type:   Instant
+S/R:    RIX-U
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+Creatures you control get +1/+1 until end of turn. If you have the city's blessing, those creatures get +2/+2 until end of turn instead.
 
 Name:   Pride of Lions
 Cost:   3GG
@@ -4351,7 +4402,7 @@ Name:   Primeval Titan
 Cost:   4GG
 Type:   Creature — Giant
 P/T:    6/6
-S/R:    M11-M, M12-M, MM2-M
+S/R:    M11-M, M12-M, MM2-M, IMA-M
 Trample
 Whenever Primeval Titan enters the battlefield or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library.
 
@@ -4529,7 +4580,7 @@ Whenever you cast a noncreature spell, untap Pristine Skywise. It gains protecti
 Name:   Pristine Talisman
 Cost:   3
 Type:   Artifact
-S/R:    NPH-C, C13-C, C14-C
+S/R:    NPH-C, C13-C, C14-C, IMA-U
 {T}: Add {C} to your mana pool. You gain 1 life.
 
 Name:   Private Research
@@ -4602,7 +4653,7 @@ Name:   Prodigal Pyromancer
 Cost:   2R
 Type:   Creature — Human Wizard
 P/T:    1/1
-S/R:    PLC-C, 10E-C, M10-U, M11-U
+S/R:    PLC-C, 10E-C, M10-U, M11-U, IMA-U
 {T}: Prodigal Pyromancer deals 1 damage to target creature or player.
 
 Name:   Prodigal Sorcerer
@@ -4633,6 +4684,14 @@ Cost:   2BB
 Type:   Sorcery
 S/R:    ONS-C
 Profane Prayers deals X damage to target creature or player and you gain X life, where X is the number of Clerics on the battlefield.
+
+Name:   Profane Procession
+Cost:   1WB
+Type:   Legendary Enchantment
+M-type: Transform
+M-card: Tomb of the Dusk Rose
+S/R:    RIX-R
+{3}{W}{B}: Exile target creature. Then if there are three or more cards exiled with Profane Procession, transform it.
 
 Name:   Profaner of the Dead
 Cost:   3U
@@ -4819,6 +4878,13 @@ S/R:    M10-M, M11-R
 Protean Hydra enters the battlefield with X +1/+1 counters on it.
 If damage would be dealt to Protean Hydra, prevent that damage and remove that many +1/+1 counters from it.
 Whenever a +1/+1 counter is removed from Protean Hydra, put two +1/+1 counters on it at the beginning of the next end step.
+
+Name:   Protean Raider
+Cost:   1UR
+Type:   Creature — Shapeshifter Pirate
+P/T:    2/2
+S/R:    RIX-R
+Raid — If you attacked with a creature this turn, you may have Protean Raider enter the battlefield as a copy of any creature on the battlefield.
 
 Name:   Protect
 Cost:   2W
@@ -5181,7 +5247,7 @@ Pterodon Knight has flying as long as you control a Dinosaur.
 
 Name:   Pteron Ghost
 Cost:   1W
-Type:   Creature — Spirit
+Type:   Creature — Dinosaur Spirit
 P/T:    1/1
 S/R:    DST-C
 Flying

@@ -689,7 +689,7 @@ Target creature gets -3/-2 until end of turn.
 Name:   Tarfire
 Cost:   R
 Type:   Tribal Instant — Goblin
-S/R:    LRW-C, EVG-C
+S/R:    LRW-C, EVG-C, DDT-C
 Tarfire deals 2 damage to target creature or player.
 
 Name:   Tariel, Reckoner of Souls
@@ -890,7 +890,7 @@ Name:   Tavern Swindler
 Cost:   1B
 Type:   Creature — Human Rogue
 P/T:    2/2
-S/R:    RTR-U, DDM-U
+S/R:    RTR-U, IMA-U, DDM-U
 {T}, Pay 3 life: Flip a coin. If you win the flip, you gain 6 life.
 
 Name:   Tawnos's Coffin
@@ -1079,7 +1079,7 @@ Name:   Teferi, Mage of Zhalfir
 Cost:   2UUU
 Type:   Legendary Creature — Human Wizard
 P/T:    3/4
-S/R:    TSP-R, V11-M
+S/R:    TSP-R, IMA-R, V11-M
 Flash (You may cast this spell any time you could cast an instant.)
 Creature cards you own that aren't on the battlefield have flash.
 Each opponent can cast spells only any time he or she could cast a sorcery.
@@ -1320,6 +1320,13 @@ P/T:    1/3
 S/R:    P2-C, DDF-C, ME4-C
 When Temple Acolyte enters the battlefield, you gain 3 life.
 
+Name:   Temple Altisaur
+Cost:   4W
+Type:   Creature — Dinosaur
+P/T:    3/4
+S/R:    RIX-R
+If a source would deal damage to another Dinosaur you control, prevent all but 1 of that damage.
+
 Name:   Temple Bell
 Cost:   3
 Type:   Artifact
@@ -1350,7 +1357,7 @@ Name:   Temple of Aclazotz
 Type:   Legendary Land
 M-type: Transform
 M-card: Arguel's Blood Fast
-S/R:    XLN-R
+S/R:    XLN-R, V17-M
 (Transforms from Arguel's Blood Fast.)
 {T}: Add {B} to your mana pool.
 {T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.
@@ -1645,6 +1652,15 @@ Cost:   3W
 Type:   Instant
 S/R:    SOI-U
 Creatures you control get +1/+1 and gain lifelink until end of turn. Untap those creatures.
+
+Name:   Tendershoot Dryad
+Cost:   4G
+Type:   Creature — Dryad
+P/T:    2/2
+S/R:    RIX-R
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+At the beginning of each upkeep, create a 1/1 green Saproling creature token.
+Saprolings you control get +2/+2 as long as you have the city's blessing.
 
 Name:   Tendo Ice Bridge
 Type:   Land
@@ -1968,6 +1984,15 @@ P/T:    3/3
 S/R:    LE-R, ME3-R
 Tetsuo Umezawa can't be the target of Aura spells.
 {U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.
+
+Name:   Tetzimoc, Primal Death
+Cost:   4BB
+Type:   Legendary Creature — Elder Dinosaur
+P/T:    6/6
+S/R:    RIX-R
+Deathtouch
+{B}, Reveal Tetzimoc, Primal Death from your hand: Put a prey counter on target creature. Activate this ability only during your turn.
+When Tetzimoc enters the battlefield, destroy each creature your opponents control with a prey counter on it.
 
 Name:   Teysa, Envoy of Ghosts
 Cost:   5WB
@@ -2319,6 +2344,15 @@ Cost:   5
 Type:   Artifact
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 10E-R
 {5}, {T}: Create a 1/1 colorless Insect artifact creature token with flying named Wasp. (It can't be blocked except by creatures with flying or reach.)
+
+Name:   The Immortal Sun
+Cost:   6
+Type:   Legendary Artifact
+S/R:    RIX-M
+Players can't activate planeswalkers' loyalty abilities.
+At the beginning of your draw step, draw an additional card.
+Spells you cast cost {1} less to cast.
+Creatures you control get +1/+1.
 
 Name:   The Lady of the Mountain
 Cost:   4RG
@@ -2936,7 +2970,7 @@ If you would draw a card, draw two cards instead.
 Name:   Thought Scour
 Cost:   U
 Type:   Instant
-S/R:    DKA-C, DDM-C
+S/R:    DKA-C, IMA-C, DDM-C
 Target player puts the top two cards of his or her library into his or her graveyard.
 Draw a card.
 
@@ -3025,7 +3059,7 @@ Each player sacrifices a land for each card in your hand.
 Name:   Thoughtseize
 Cost:   B
 Type:   Sorcery
-S/R:    LRW-R, THS-R, MPS_AKH-S
+S/R:    LRW-R, THS-R, MPS_AKH-S, IMA-R
 Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.
 
 Name:   Thoughtweft Gambit
@@ -3155,7 +3189,7 @@ When Thragtusk leaves the battlefield, create a 3/3 green Beast creature token.
 Name:   Thran Dynamo
 Cost:   4
 Type:   Artifact
-S/R:    UD-U, ARC-U, C14-U, V13-M
+S/R:    UD-U, ARC-U, C14-U, IMA-U, V13-M
 {T}: Add {C}{C}{C} to your mana pool.
 
 Name:   Thran Forge
@@ -3223,6 +3257,13 @@ Type:   Creature — Dinosaur
 P/T:    3/3
 S/R:    XLN-C
 As long as you control another Dinosaur, Thrash of Raptors gets +2/+0 and has trample.
+
+Name:   Thrashing Brontodon
+Cost:   1GG
+Type:   Creature — Dinosaur
+P/T:    3/4
+S/R:    RIX-U
+{1}, Sacrifice Thrashing Brontodon: Destroy target artifact or enchantment.
 
 Name:   Thrashing Mossdog
 Cost:   3G
@@ -3326,7 +3367,7 @@ Name:   Thrill-Kill Assassin
 Cost:   1B
 Type:   Creature — Human Assassin
 P/T:    1/2
-S/R:    RTR-U
+S/R:    RTR-U, IMA-C
 Deathtouch
 Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)
 
@@ -3661,6 +3702,13 @@ S/R:    GPT-U, DDJ-U
 Replicate {2}{U} (When you cast this spell, copy it for each time you paid its replicate cost.)
 Create a 3/3 blue Weird creature token with defender and flying. Exile it at the beginning of the next end step.
 
+Name:   Thunderherd Migration
+Cost:   1G
+Type:   Sorcery
+S/R:    RIX-U
+As an additional cost to cast Thunderherd Migration, reveal a Dinosaur card from your hand or pay {1}.
+Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+
 Name:   Thundering Giant
 Cost:   3RR
 Type:   Creature — Giant
@@ -3703,7 +3751,7 @@ Name:   Thundermaw Hellkite
 Cost:   3RR
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    M13-M
+S/R:    M13-M, IMA-M
 Flying
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 When Thundermaw Hellkite enters the battlefield, it deals 1 damage to each creature with flying your opponents control. Tap those creatures.
@@ -3819,7 +3867,7 @@ Name:   Tidal Courier
 Cost:   3U
 Type:   Creature — Merfolk
 P/T:    1/2
-S/R:    AP-U
+S/R:    AP-U, DDT-U
 When Tidal Courier enters the battlefield, reveal the top four cards of your library. Put all Merfolk cards revealed this way into your hand and the rest on the bottom of your library in any order.
 {3}{U}: Tidal Courier gains flying until end of turn.
 
@@ -3871,13 +3919,13 @@ Name:   Tidal Warrior
 Cost:   U
 Type:   Creature — Merfolk Warrior
 P/T:    1/1
-S/R:    ST-C
+S/R:    ST-C, DDT-C
 {T}: Target land becomes an Island until end of turn.
 
 Name:   Tidal Wave
 Cost:   2U
 Type:   Instant
-S/R:    MI-U, EMA-C
+S/R:    MI-U, EMA-C, DDT-C
 Create a 5/5 blue Wall creature token with defender. Sacrifice it at the beginning of the next end step.
 
 Name:   Tide Drifter
@@ -3898,7 +3946,7 @@ Name:   Tidebinder Mage
 Cost:   UU
 Type:   Creature — Merfolk Wizard
 P/T:    2/2
-S/R:    M14-R
+S/R:    M14-R, DDT-R
 When Tidebinder Mage enters the battlefield, tap target red or green creature an opponent controls. That creature doesn't untap during its controller's untap step for as long as you control Tidebinder Mage.
 
 Name:   Tideforce Elemental
@@ -3998,6 +4046,14 @@ P/T:    1/3
 S/R:    EVE-C
 When Tilling Treefolk enters the battlefield, you may return up to two target land cards from your graveyard to your hand.
 
+Name:   Tilonalli's Crown
+Cost:   1R
+Type:   Enchantment — Aura
+S/R:    RIX-C
+Enchant creature
+When Tilonalli's Crown enters the battlefield, it deals 1 damage to enchanted creature.
+Enchanted creature gets +3/+0 and has trample.
+
 Name:   Tilonalli's Knight
 Cost:   1R
 Type:   Creature — Human Knight
@@ -4012,6 +4068,14 @@ P/T:    0/1
 S/R:    XLN-R
 Haste
 Whenever Tilonalli's Skinshifter attacks, it becomes a copy of another target nonlegendary attacking creature until end of turn.
+
+Name:   Tilonalli's Summoner
+Cost:   1R
+Type:   Creature — Human Shaman
+P/T:    1/1
+S/R:    RIX-R
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+Whenever Tilonalli's Summoner attacks, you may pay {X}{R}. If you do, create X 1/1 red Elemental creature tokens that are tapped and attacking. At the beginning of the next end step, exile those tokens unless you have the city's blessing.
 
 Name:   Timber Gorge
 Type:   Land
@@ -4048,7 +4112,7 @@ Name:   Timberland Guide
 Cost:   1G
 Type:   Creature — Human Scout
 P/T:    1/1
-S/R:    AVR-C
+S/R:    AVR-C, IMA-C
 When Timberland Guide enters the battlefield, put a +1/+1 counter on target creature.
 
 Name:   Timberland Ruins
@@ -4233,6 +4297,14 @@ Cost:   5
 Type:   Artifact
 S/R:    MRD-R
 At the beginning of each upkeep, each player exiles the top card of his or her library. The player who exiled the card with the highest converted mana cost takes an extra turn after this one. If two or more players' cards are tied for highest cost, the tied players repeat this process until the tie is broken.
+
+Name:   Timestream Navigator
+Cost:   1U
+Type:   Creature — Human Pirate Wizard
+P/T:    1/1
+S/R:    RIX-M
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+{2}{U}{U}, {T}, Put Timestream Navigator on the bottom of its owner's library: Take an extra turn after this one. Activate this ability only if you have the city's blessing.
 
 Name:   Timetwister
 Cost:   2U
@@ -4600,11 +4672,28 @@ S/R:    WWK-C
 Target creature gets -2/-2 until end of turn.
 Landfall — If you had a land enter the battlefield under your control this turn, that creature gets -4/-4 until end of turn instead.
 
+Name:   Tomb Robber
+Cost:   2B
+Type:   Creature — Human Pirate
+P/T:    1/1
+S/R:    RIX-R
+Menace
+{1}, Discard a card: Tomb Robber explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
 Name:   Tomb of Urami
 Type:   Legendary Land
 S/R:    SOK-R
 {T}: Add {B} to your mana pool. Tomb of Urami deals 1 damage to you if you don't control an Ogre.
 {2}{B}{B}, {T}, Sacrifice all lands you control: Create a legendary 5/5 black Demon Spirit creature token with flying named Urami.
+
+Name:   Tomb of the Dusk Rose
+Type:   Legendary Land
+M-type: Transform
+M-card: Profane Procession
+S/R:    RIX-R
+(Transforms from Profane Procession.)
+{T}: Add one mana of any color to your mana pool.
+{2}{W}{B}, {T}: Put a creature card exiled with this permanent onto the battlefield under your control.
 
 Name:   Tomb of the Spirit Dragon
 Type:   Land
@@ -4719,7 +4808,7 @@ Name:   Topan Freeblade
 Cost:   1W
 Type:   Creature — Human Soldier
 P/T:    2/2
-S/R:    ORI-C
+S/R:    ORI-C, IMA-U
 Vigilance (Attacking doesn't cause this creature to tap.)
 Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
 
@@ -4874,7 +4963,7 @@ Target player discards a number of cards equal to the sacrificed creature's powe
 Name:   Tormenting Voice
 Cost:   1R
 Type:   Sorcery
-S/R:    KTK-C, DTK-C, SOI-C, CN2-C, AKH-C
+S/R:    KTK-C, DTK-C, SOI-C, CN2-C, AKH-C, IMA-C
 As an additional cost to cast Tormenting Voice, discard a card.
 Draw two cards.
 
@@ -5652,6 +5741,13 @@ S/R:    EVE-C
 Flash
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 
+Name:   Trapjaw Tyrant
+Cost:   3WW
+Type:   Creature — Dinosaur
+P/T:    5/5
+S/R:    RIX-M
+Enrage — Whenever Trapjaw Tyrant is dealt damage, exile target creature an opponent controls until Trapjaw Tyrant leaves the battlefield.
+
 Name:   Trapmaker's Snare
 Cost:   1U
 Type:   Instant
@@ -5696,8 +5792,8 @@ Flashback {1}{W} (You may cast this card from your graveyard for its flashback c
 Name:   Traveler's Amulet
 Cost:   1
 Type:   Artifact
-S/R:    ISD-C, THS-C, HOU-C
-{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.
+S/R:    ISD-C, THS-C, HOU-C, RIX-C
+{1}, Sacrifice Traveler's Amulet: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Traveler's Cloak
 Cost:   2U
@@ -6016,7 +6112,7 @@ Sacrifice a land: Trenching Steed gets +0/+3 until end of turn.
 Name:   Trepanation Blade
 Cost:   3
 Type:   Artifact — Equipment
-S/R:    ISD-U
+S/R:    ISD-U, IMA-U
 Whenever equipped creature attacks, defending player reveals cards from the top of his or her library until he or she reveals a land card. The creature gets +1/+0 until end of turn for each card revealed this way. That player puts the revealed cards into his or her graveyard.
 Equip {2}
 
@@ -6366,7 +6462,7 @@ S/R:    THS-C
 Name:   Triton Tactics
 Cost:   U
 Type:   Instant
-S/R:    THS-U
+S/R:    THS-U, DDT-U
 Up to two target creatures each get +0/+3 until end of turn. Untap those creatures. At this turn's next end of combat, tap each creature that was blocked by one of those creatures this turn and it doesn't untap during its controller's next untap step.
 
 Name:   Triumph of Cruelty
@@ -6576,7 +6672,7 @@ Whenever you exert a creature, creatures you control get +1/+0 until end of turn
 Name:   Trumpet Blast
 Cost:   2R
 Type:   Instant
-S/R:    UD-C, M10-C, M13-C, CNS-C, KTK-C, CN2-C
+S/R:    UD-C, M10-C, M13-C, CNS-C, KTK-C, CN2-C, IMA-C
 Attacking creatures get +2/+0 until end of turn.
 
 Name:   Trumpeting Armodon
@@ -6918,6 +7014,15 @@ Type:   Land
 S/R:    EVE-R, EXP-M
 {T}: Add {C} to your mana pool.
 {(b/g)}, {T}: Add {B}{B}, {B}{G}, or {G}{G} to your mana pool.
+
+Name:   Twilight Prophet
+Cost:   2BB
+Type:   Creature — Vampire Cleric
+P/T:    2/4
+S/R:    RIX-M
+Flying
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+At the beginning of your upkeep, if you have the city's blessing, reveal the top card of your library and put it into your hand. Each opponent loses X life and you gain X life, where X is that card's converted mana cost.
 
 Name:   Twilight Shepherd
 Cost:   3WWW

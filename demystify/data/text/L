@@ -765,7 +765,7 @@ Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Name:   Lead the Stampede
 Cost:   2G
 Type:   Sorcery
-S/R:    MBS-U, CNS-U, DDH-U
+S/R:    MBS-U, CNS-U, IMA-C, DDH-U
 Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.
 
 Name:   Lead-Belly Chimera
@@ -997,8 +997,15 @@ Name:   Legion Conquistador
 Cost:   2W
 Type:   Creature — Vampire Soldier
 P/T:    2/2
-S/R:    XLN-C
+S/R:    XLN-C, RIX-C
 When Legion Conquistador enters the battlefield, you may search your library for any number of cards named Legion Conquistador, reveal them, put them into your hand, then shuffle your library.
+
+Name:   Legion Lieutenant
+Cost:   WB
+Type:   Creature — Vampire Knight
+P/T:    2/2
+S/R:    RIX-U
+Other Vampires you control get +1/+1.
 
 Name:   Legion Loyalist
 Cost:   R
@@ -1823,7 +1830,7 @@ Equip {0}
 Name:   Lightning Helix
 Cost:   RW
 Type:   Instant
-S/R:    RAV-U, HOP-U, MMA-U, DDH-U, DDN-U
+S/R:    RAV-U, HOP-U, MMA-U, IMA-U, DDH-U, DDN-U
 Lightning Helix deals 3 damage to target creature or player and you gain 3 life.
 
 Name:   Lightning Hounds
@@ -2079,7 +2086,7 @@ P/T:    3
 Color:  Black
 M-type: Transform
 M-card: Liliana, Heretical Healer
-S/R:    ORI-M
+S/R:    ORI-M, V17-M
 [+2]: Each player discards a card.
 [-8]: You get an emblem with "Whenever a creature dies, return it to the battlefield under your control at the beginning of the next end step."
 
@@ -2089,7 +2096,7 @@ Type:   Legendary Creature — Human Cleric
 P/T:    2/3
 M-type: Transform
 M-card: Liliana, Defiant Necromancer
-S/R:    ORI-M
+S/R:    ORI-M, V17-M
 Lifelink
 Whenever another nontoken creature you control dies, exile Liliana, Heretical Healer, then return her to the battlefield transformed under her owner's control. If you do, create a 2/2 black Zombie creature token.
 
@@ -2734,7 +2741,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 
 Name:   Lonely Sandbar
 Type:   Land
-S/R:    ONS-C, CMD-C, C13-C, C14-C, VMA-C, DDJ-C
+S/R:    ONS-C, CMD-C, C13-C, C14-C, VMA-C, DDJ-C, DDT-C
 Lonely Sandbar enters the battlefield tapped.
 {T}: Add {U} to your mana pool.
 Cycling {U} ({U}, Discard this card: Draw a card.)
@@ -2868,7 +2875,7 @@ P/T:    5/5
 Color:  Black
 M-type: Transform
 M-card: Bloodline Keeper
-S/R:    ISD-R
+S/R:    ISD-R, V17-M
 Flying
 Other Vampire creatures you control get +2/+2.
 {T}: Create a 2/2 black Vampire creature token with flying.
@@ -2902,7 +2909,7 @@ Name:   Lord of the Pit
 Cost:   4BBB
 Type:   Creature — Demon
 P/T:    7/7
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 10E-R, DDC-M
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 10E-R, IMA-R, DDC-M
 Flying, trample
 At the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.
 
@@ -3085,7 +3092,7 @@ Name:   Lotus Cobra
 Cost:   1G
 Type:   Creature — Snake
 P/T:    2/1
-S/R:    ZEN-M
+S/R:    ZEN-M, IMA-R
 Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool.
 
 Name:   Lotus Guardian
@@ -3462,6 +3469,13 @@ S/R:    MRD-R, DDC-R
 Flying
 At the beginning of your upkeep, you may create a 1/1 white Spirit creature token with flying.
 
+Name:   Luminous Bonds
+Cost:   2W
+Type:   Enchantment — Aura
+S/R:    RIX-C
+Enchant creature
+Enchanted creature can't attack or block.
+
 Name:   Luminous Guardian
 Cost:   3W
 Type:   Creature — Human Nomad
@@ -3551,7 +3565,7 @@ Cycling {B} ({B}, Discard this card: Draw a card.)
 Name:   Lure
 Cost:   1GG
 Type:   Enchantment — Aura
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, IA-U, 5E-U, 6E-U, MM-U, 7E-U, 8ED-U, CHK-U, 10E-U, M12-U
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, IA-U, 5E-U, 6E-U, MM-U, 7E-U, 8ED-U, CHK-U, 10E-U, M12-U, IMA-U
 Enchant creature
 All creatures able to block enchanted creature do so.
 

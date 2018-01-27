@@ -313,7 +313,7 @@ def run_update(args):
     else:
         for filename in args.parse:
             cfile = os.path.join(args.ckpt_dir, os.path.basename(filename))
-            with open(filename, encoding='latin-1') as f:
+            with open(filename) as f:
                 raw_cards = _parse(f, cfile, args.checkpoint_parsing)
                 card_data.extend(raw_cards)
 

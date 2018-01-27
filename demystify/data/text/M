@@ -559,7 +559,7 @@ Name:   Magus of the Moon
 Cost:   2R
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    FUT-R
+S/R:    FUT-R, IMA-R
 Nonbasic lands are Mountains.
 
 Name:   Magus of the Scroll
@@ -608,7 +608,7 @@ Name:   Mahamoti Djinn
 Cost:   4UU
 Type:   Creature — Djinn
 P/T:    5/6
-S/R:    A-R, B-R, U-R, RV-R, 4E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M15-R, ORI-R, ME4-R
+S/R:    A-R, B-R, U-R, RV-R, 4E-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M15-R, ORI-R, IMA-U, ME4-R
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 
 Name:   Mairsil, the Pretender
@@ -618,6 +618,14 @@ P/T:    4/4
 S/R:    C17-M
 When Mairsil, the Pretender enters the battlefield, you may exile an artifact or creature card from your hand or graveyard and put a cage counter on it.
 Mairsil, the Pretender has all activated abilities of all cards you own in exile with cage counters on them. You may activate each of those abilities only once each turn.
+
+Name:   Majestic Heliopterus
+Cost:   3W
+Type:   Creature — Dinosaur
+P/T:    2/2
+S/R:    RIX-U
+Flying
+Whenever Majestic Heliopterus attacks, another target Dinosaur you control gains flying until end of turn.
 
 Name:   Majestic Myriarch
 Cost:   4G
@@ -783,7 +791,7 @@ Name:   Malfegor
 Cost:   2BBRR
 Type:   Legendary Creature — Demon Dragon
 P/T:    6/6
-S/R:    CON-M, CMD-M, CMA-M
+S/R:    CON-M, CMD-M, CMA-M, IMA-R
 Flying
 When Malfegor enters the battlefield, discard your hand. Each opponent sacrifices a creature for each card discarded this way.
 
@@ -917,7 +925,7 @@ S/R:    PS-U, CON-C
 Name:   Mana Drain
 Cost:   UU
 Type:   Instant
-S/R:    LE-U, VMA-M, ME3-R
+S/R:    LE-U, IMA-M, VMA-M, ME3-R
 Counter target spell. At the beginning of your next main phase, add an amount of {C} to your mana pool equal to that spell's converted mana cost.
 
 Name:   Mana Echoes
@@ -941,7 +949,7 @@ Add {R} to your mana pool for each tapped land your opponents control.
 Name:   Mana Leak
 Cost:   1U
 Type:   Instant
-S/R:    ST-C, 8ED-C, 9ED-C, M11-C, M12-C, MM2-C, DDN-C
+S/R:    ST-C, 8ED-C, 9ED-C, M11-C, M12-C, MM2-C, IMA-C, DDN-C
 Counter target spell unless its controller pays {3}.
 
 Name:   Mana Leech
@@ -1093,7 +1101,7 @@ Name:   Manakin
 Cost:   2
 Type:   Artifact Creature — Construct
 P/T:    1/1
-S/R:    TE-C
+S/R:    TE-C, IMA-C
 {T}: Add {C} to your mana pool.
 
 Name:   Manalith
@@ -1644,7 +1652,7 @@ At the beginning of the end step, return Mark of Fury to its owner's hand.
 Name:   Mark of Mutiny
 Cost:   2R
 Type:   Sorcery
-S/R:    ZEN-U, PC2-U, M13-U, PCA-U
+S/R:    ZEN-U, PC2-U, M13-U, PCA-U, IMA-C
 Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn. (It can attack and {T} this turn.)
 
 Name:   Mark of Sakiko
@@ -1938,6 +1946,13 @@ Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    CSP-C
 {1}, Reveal X black cards from your hand, Sacrifice Martyr of Bones: Exile up to X target cards from a single graveyard.
+
+Name:   Martyr of Dusk
+Cost:   1W
+Type:   Creature — Vampire Soldier
+P/T:    2/1
+S/R:    RIX-C
+When Martyr of Dusk dies, create a 1/1 white Vampire creature token with lifelink.
 
 Name:   Martyr of Frost
 Cost:   U
@@ -2245,7 +2260,7 @@ Name:   Master of Waves
 Cost:   3U
 Type:   Creature — Merfolk Wizard
 P/T:    2/1
-S/R:    THS-M
+S/R:    THS-M, DDT-M
 Protection from red
 Elemental creatures you control get +1/+1.
 When Master of Waves enters the battlefield, create a number of 1/0 blue Elemental creature tokens equal to your devotion to blue. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)
@@ -2269,7 +2284,7 @@ Name:   Master of the Pearl Trident
 Cost:   UU
 Type:   Creature — Merfolk
 P/T:    2/2
-S/R:    M13-R
+S/R:    M13-R, DDT-R
 Other Merfolk creatures you control get +1/+1 and have islandwalk. (They can't be blocked as long as defending player controls an Island.)
 
 Name:   Master of the Veil
@@ -2299,6 +2314,14 @@ Cost:   2W
 Type:   Instant
 S/R:    MBS-C
 Create two 1/1 colorless Myr artifact creature tokens.
+
+Name:   Mastermind's Acquisition
+Cost:   2BB
+Type:   Sorcery
+S/R:    RIX-R
+Choose one —
+• Search your library for a card, put it into your hand, then shuffle your library.
+• Choose a card you own from outside the game and put it into your hand.
 
 Name:   Masterwork of Ingenuity
 Cost:   1
@@ -2421,6 +2444,15 @@ Type:   Creature — Human Scout
 P/T:    2/2
 S/R:    ISD-U, DDK-U
 When Mausoleum Guard dies, create two 1/1 white Spirit creature tokens with flying.
+
+Name:   Mausoleum Harpy
+Cost:   4B
+Type:   Creature — Harpy
+P/T:    3/3
+S/R:    RIX-U
+Flying
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+Whenever another creature you control dies, if you have the city's blessing, put a +1/+1 counter on Mausoleum Harpy.
 
 Name:   Mausoleum Turnkey
 Cost:   3B
@@ -2967,7 +2999,7 @@ Name:   Mer-Ek Nightblade
 Cost:   3B
 Type:   Creature — Orc Assassin
 P/T:    2/3
-S/R:    KTK-U
+S/R:    KTK-U, IMA-U
 Outlast {B} ({B}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
 Each creature you control with a +1/+1 counter on it has deathtouch.
 
@@ -3159,7 +3191,7 @@ Name:   Merfolk Looter
 Cost:   1U
 Type:   Creature — Merfolk Rogue
 P/T:    1/1
-S/R:    EX-C, 7E-U, 10E-C, M10-C, M12-C, EMA-U, CN2-U
+S/R:    EX-C, 7E-U, 10E-C, M10-C, M12-C, EMA-U, CN2-U, DDT-U
 {T}: Draw a card, then discard a card.
 
 Name:   Merfolk Mesmerist
@@ -3168,6 +3200,13 @@ Type:   Creature — Merfolk Wizard
 P/T:    1/2
 S/R:    M12-C
 {U}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.
+
+Name:   Merfolk Mistbinder
+Cost:   GU
+Type:   Creature — Merfolk Shaman
+P/T:    2/2
+S/R:    RIX-U
+Other Merfolk you control get +1/+1.
 
 Name:   Merfolk Observer
 Cost:   1U
@@ -3211,7 +3250,7 @@ Name:   Merfolk Sovereign
 Cost:   1UU
 Type:   Creature — Merfolk
 P/T:    2/2
-S/R:    M10-R, M11-R
+S/R:    M10-R, M11-R, DDT-R
 Other Merfolk creatures you control get +1/+1.
 {T}: Target Merfolk creature can't be blocked this turn.
 
@@ -3241,7 +3280,7 @@ Name:   Merfolk Wayfinder
 Cost:   2U
 Type:   Creature — Merfolk Scout
 P/T:    1/2
-S/R:    ZEN-U, DDM-U
+S/R:    ZEN-U, DDM-U, DDT-U
 Flying
 When Merfolk Wayfinder enters the battlefield, reveal the top three cards of your library. Put all Island cards revealed this way into your hand and the rest on the bottom of your library in any order.
 
@@ -3307,7 +3346,7 @@ Name:   Merrow Reejerey
 Cost:   2U
 Type:   Creature — Merfolk Soldier
 P/T:    2/2
-S/R:    LRW-U
+S/R:    LRW-U, DDT-U
 Other Merfolk creatures you control get +1/+1.
 Whenever you cast a Merfolk spell, you may tap or untap target permanent.
 
@@ -3587,6 +3626,16 @@ P/T:    1/2
 S/R:    GTC-C
 Flying
 {U}: Metropolis Sprite gets +1/-1 until end of turn.
+
+Name:   Metzali, Tower of Triumph
+Type:   Legendary Land
+M-type: Transform
+M-card: Path of Mettle
+S/R:    RIX-R
+(Transforms from Path of Mettle.)
+{T}: Add one mana of any color to your mana pool.
+{1}{R}, {T}: Metzali, Tower of Triumph deals 2 damage to each opponent.
+{2}{W}, {T}: Choose a creature at random that attacked this turn. Destroy that creature.
 
 Name:   Miasmic Mummy
 Cost:   1B
@@ -4058,13 +4107,13 @@ Target player discards a card for each Swamp you control.
 Name:   Mind Spring
 Cost:   XUU
 Type:   Sorcery
-S/R:    MOR-R, M10-R
+S/R:    MOR-R, M10-R, DDT-R
 Draw X cards.
 
 Name:   Mind Stone
 Cost:   2
 Type:   Artifact
-S/R:    WL-C, 10E-U, C14-U, C15-U, DD2-U, DDP-U
+S/R:    WL-C, 10E-U, C14-U, C15-U, IMA-C, DD2-U, DDP-U
 {T}: Add {C} to your mana pool.
 {1}, {T}, Sacrifice Mind Stone: Draw a card.
 
@@ -4151,7 +4200,7 @@ When Mindclaw Shaman enters the battlefield, target opponent reveals his or her 
 Name:   Mindcrank
 Cost:   2
 Type:   Artifact
-S/R:    NPH-U
+S/R:    NPH-U, IMA-U
 Whenever an opponent loses life, that player puts that many cards from the top of his or her library into his or her graveyard. (Damage dealt by sources without infect causes loss of life.)
 
 Name:   Mindculling
@@ -4801,7 +4850,7 @@ When Mischievous Quanar is turned face up, copy target instant or sorcery spell.
 Name:   Misdirection
 Cost:   3UU
 Type:   Instant
-S/R:    MM-R, CNS-R
+S/R:    MM-R, CNS-R, DDT-R
 You may exile a blue card from your hand rather than pay Misdirection's mana cost.
 Change the target of target spell with a single target.
 
@@ -4843,7 +4892,7 @@ Target player sacrifices a permanent.
 Name:   Mishra's Bauble
 Cost:   0
 Type:   Artifact
-S/R:    CSP-U
+S/R:    CSP-U, IMA-U
 {T}, Sacrifice Mishra's Bauble: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Mishra's Factory
@@ -4943,6 +4992,13 @@ Type:   Enchantment
 S/R:    JUD-R
 Permanents don't untap during their controllers' untap steps.
 At the beginning of each player's upkeep, that player chooses a permanent for each card in his or her graveyard, then untaps those permanents.
+
+Name:   Mist-Cloaked Herald
+Cost:   U
+Type:   Creature — Merfolk Warrior
+P/T:    1/1
+S/R:    RIX-C
+Mist-Cloaked Herald can't be blocked.
 
 Name:   Mistbind Clique
 Cost:   3U
@@ -5229,7 +5285,7 @@ Name:   Mnemonic Wall
 Cost:   4U
 Type:   Creature — Wall
 P/T:    0/4
-S/R:    ROE-C, THS-C, C13-C, CN2-C
+S/R:    ROE-C, THS-C, C13-C, CN2-C, IMA-C
 Defender
 When Mnemonic Wall enters the battlefield, you may return target instant or sorcery card from your graveyard to your hand.
 
@@ -5690,6 +5746,12 @@ S/R:    KTK-C
 Enchant creature
 Enchanted creature gets +2/+0 and has "{2}{B}: Regenerate this creature."
 
+Name:   Moment of Craving
+Cost:   1B
+Type:   Instant
+S/R:    RIX-C
+Target creature gets -2/-2 until end of turn. You gain 2 life.
+
 Name:   Moment of Heroism
 Cost:   1W
 Type:   Instant
@@ -5701,6 +5763,12 @@ Cost:   W
 Type:   Instant
 S/R:    MM-C
 Target player skips his or her next combat phase this turn.
+
+Name:   Moment of Triumph
+Cost:   W
+Type:   Instant
+S/R:    RIX-C
+Target creature gets +2/+2 until end of turn. You gain 2 life.
 
 Name:   Moment's Peace
 Cost:   1G
@@ -5775,7 +5843,7 @@ Name:   Monastery Swiftspear
 Cost:   R
 Type:   Creature — Human Monk
 P/T:    1/2
-S/R:    KTK-U
+S/R:    KTK-U, IMA-U
 Haste
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 
@@ -5901,8 +5969,8 @@ Changeling (This card is every creature type.)
 Name:   Moonglove Extract
 Cost:   3
 Type:   Artifact
-S/R:    LRW-C, EVG-C, DDF-C
-Sacrifice Moonglove Extract: Moonglove Extract deals 2 damage to target creature or player.
+S/R:    LRW-C, IMA-C, EVG-C, DDF-C
+Sacrifice Moonglove Extract: It deals 2 damage to target creature or player.
 
 Name:   Moonglove Winnower
 Cost:   3B
@@ -6424,7 +6492,7 @@ Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until
 
 Name:   Mountain
 Type:   Basic Land — Mountain
-S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, EVG-L, UG-C, UNH-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, DDS-L, H09-L, ME3-L, MED-L, PD2-L
+S/R:    A-L, B-L, U-L, AN-C, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, EVG-L, UG-C, UNH-L, UST-L, DD2-L, DDE-L, DDG-L, DDH-L, DDI-L, DDJ-L, DDK-L, DDL-L, DDN-L, DDP-L, DDS-L, DDT-L, H09-L, ME3-L, MED-L, PD2-L
 
 Name:   Mountain Bandit
 Cost:   R
@@ -6952,6 +7020,12 @@ Cost:   2BB
 Type:   Sorcery
 S/R:    TOR-R, M13-R, C14-R, DDD-R
 All creatures get -1/-1 until end of turn for each Swamp you control.
+
+Name:   Mutiny
+Cost:   R
+Type:   Sorcery
+S/R:    RIX-C
+Target creature an opponent controls deals damage equal to its power to another target creature that player controls.
 
 Name:   Muzzio, Visionary Architect
 Cost:   1UU

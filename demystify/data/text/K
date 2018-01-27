@@ -1030,7 +1030,7 @@ Name:   Keiga, the Tide Star
 Cost:   5U
 Type:   Legendary Creature — Dragon Spirit
 P/T:    5/5
-S/R:    CHK-R, MMA-M
+S/R:    CHK-R, MMA-M, IMA-R
 Flying
 When Keiga, the Tide Star dies, gain control of target creature.
 
@@ -1078,7 +1078,7 @@ Name:   Keldon Halberdier
 Cost:   4R
 Type:   Creature — Human Warrior
 P/T:    4/1
-S/R:    TSP-C
+S/R:    TSP-C, IMA-C
 First strike
 Suspend 4—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 
@@ -1405,7 +1405,7 @@ Name:   Kiki-Jiki, Mirror Breaker
 Cost:   2RRR
 Type:   Legendary Creature — Goblin Shaman
 P/T:    2/2
-S/R:    CHK-R, MMA-M, MM2-M, V11-M
+S/R:    CHK-R, MMA-M, MM2-M, IMA-M, V11-M
 Haste
 {T}: Create a token that's a copy of target nonlegendary creature you control. That token has haste. Sacrifice it at the beginning of the next end step.
 
@@ -1479,7 +1479,7 @@ Name:   Kiln Fiend
 Cost:   1R
 Type:   Creature — Elemental Beast
 P/T:    1/2
-S/R:    ROE-C, CN2-C, DDJ-C
+S/R:    ROE-C, CN2-C, IMA-C, DDJ-C
 Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.
 
 Name:   Kiln Walker
@@ -1806,6 +1806,13 @@ Type:   Creature — Kor Soldier
 P/T:    1/1
 S/R:    WWK-C
 As long as Kitesail Apprentice is equipped, it gets +1/+1 and has flying.
+
+Name:   Kitesail Corsair
+Cost:   1U
+Type:   Creature — Human Pirate
+P/T:    2/1
+S/R:    RIX-C
+Kitesail Corsair has flying as long as it's attacking.
 
 Name:   Kitesail Freebooter
 Cost:   1B
@@ -2255,7 +2262,7 @@ Name:   Knight of the Reliquary
 Cost:   1GW
 Type:   Creature — Human Knight
 P/T:    2/2
-S/R:    CON-R, MMA-R, DDG-M
+S/R:    CON-R, MMA-R, IMA-R, DDG-M
 Knight of the Reliquary gets +1/+1 for each land card in your graveyard.
 {T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.
 
@@ -2265,6 +2272,13 @@ Type:   Creature — Human Knight
 P/T:    2/2
 S/R:    ALA-C
 {3}{G}: Knight of the Skyward Eye gets +3/+3 until end of turn. Activate this ability only once each turn.
+
+Name:   Knight of the Stampede
+Cost:   3G
+Type:   Creature — Human Knight
+P/T:    2/4
+S/R:    RIX-C
+Dinosaur spells you cast cost {2} less to cast.
 
 Name:   Knight of the White Orchid
 Cost:   WW
@@ -2443,7 +2457,7 @@ Name:   Kokusho, the Evening Star
 Cost:   4BB
 Type:   Legendary Creature — Dragon Spirit
 P/T:    5/5
-S/R:    CHK-R, MMA-M, DRB-R
+S/R:    CHK-R, MMA-M, IMA-R, DRB-R
 Flying
 When Kokusho, the Evening Star dies, each opponent loses 5 life. You gain life equal to the life lost this way.
 
@@ -2466,7 +2480,7 @@ Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains hast
 Name:   Kolaghan Monument
 Cost:   3
 Type:   Artifact
-S/R:    DTK-U
+S/R:    DTK-U, IMA-U
 {T}: Add {B} or {R} to your mana pool.
 {4}{B}{R}: Kolaghan Monument becomes a 4/4 black and red Dragon artifact creature with flying until end of turn.
 
@@ -2990,7 +3004,7 @@ Partner (You can have two commanders if both have partner.)
 Name:   Krenko's Command
 Cost:   1R
 Type:   Sorcery
-S/R:    M13-C, DDN-C
+S/R:    M13-C, DDN-C, DDT-C
 Create two 1/1 red Goblin creature tokens.
 
 Name:   Krenko's Enforcer
@@ -3004,7 +3018,7 @@ Name:   Krenko, Mob Boss
 Cost:   2RR
 Type:   Legendary Creature — Goblin Warrior
 P/T:    3/3
-S/R:    M13-R, DDN-R
+S/R:    M13-R, DDN-R, DDT-R
 {T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.
 
 Name:   Kresh the Bloodbraided
@@ -3371,12 +3385,28 @@ S/R:    CHK-R
 {1}{R}: Kumano, Master Yamabushi deals 1 damage to target creature or player.
 If a creature dealt damage by Kumano this turn would die, exile it instead.
 
+Name:   Kumena's Awakening
+Cost:   2UU
+Type:   Enchantment
+S/R:    RIX-R
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+At the beginning of your upkeep, each player draws a card. If you have the city's blessing, instead only you draw a card.
+
 Name:   Kumena's Speaker
 Cost:   G
 Type:   Creature — Merfolk Shaman
 P/T:    1/1
 S/R:    XLN-U
 Kumena's Speaker gets +1/+1 as long as you control another Merfolk or an Island.
+
+Name:   Kumena, Tyrant of Orazca
+Cost:   1GU
+Type:   Legendary Creature — Merfolk Shaman
+P/T:    2/4
+S/R:    RIX-M
+Tap another untapped Merfolk you control: Kumena, Tyrant of Orazca can't be blocked this turn.
+Tap three untapped Merfolk you control: Draw a card.
+Tap five untapped Merfolk you control: Put a +1/+1 counter on each Merfolk you control.
 
 Name:   Kuon's Essence
 Cost:   BBB
@@ -3528,6 +3558,6 @@ Type:   Legendary Creature — Human Soldier
 P/T:    2/1
 M-type: Transform
 M-card: Gideon, Battle-Forged
-S/R:    ORI-M
+S/R:    ORI-M, V17-M
 At end of combat, if Kytheon, Hero of Akros and at least two other creatures attacked this combat, exile Kytheon, then return him to the battlefield transformed under his owner's control.
 {2}{W}: Kytheon gains indestructible until end of turn.

@@ -66,6 +66,13 @@ Type:   Land — Swamp Mountain
 S/R:    A-R, B-R, U-R, RV-R, VMA-R, ME2-R, ME4-R
 ({T}: Add {B} or {R} to your mana pool.)
 
+Name:   Baffling End
+Cost:   1W
+Type:   Enchantment
+S/R:    RIX-U
+When Baffling End enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less.
+When Baffling End leaves the battlefield, target opponent creates a 3/3 green Dinosaur creature token with trample.
+
 Name:   Baki's Curse
 Cost:   2UU
 Type:   Sorcery
@@ -83,7 +90,7 @@ Name:   Bala Ged Scorpion
 Cost:   3B
 Type:   Creature — Scorpion
 P/T:    2/3
-S/R:    ROE-C, DDR-C
+S/R:    ROE-C, IMA-C, DDR-C
 When Bala Ged Scorpion enters the battlefield, you may destroy target creature with power 1 or less.
 
 Name:   Bala Ged Thief
@@ -409,7 +416,7 @@ Name:   Balustrade Spy
 Cost:   3B
 Type:   Creature — Vampire Rogue
 P/T:    2/3
-S/R:    GTC-C
+S/R:    GTC-C, IMA-C
 Flying
 When Balustrade Spy enters the battlefield, target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
 
@@ -1236,7 +1243,7 @@ Name:   Battle Squadron
 Cost:   3RR
 Type:   Creature — Goblin
 P/T:    */*
-S/R:    MM-R, EMA-U
+S/R:    MM-R, EMA-U, DDT-U
 Flying
 Battle Squadron's power and toughness are each equal to the number of creatures you control.
 
@@ -1271,7 +1278,7 @@ Name:   Battle-Rattle Shaman
 Cost:   3R
 Type:   Creature — Goblin Shaman
 P/T:    2/2
-S/R:    ROE-C, MM3-C, E01-C
+S/R:    ROE-C, MM3-C, E01-C, IMA-C
 At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.
 
 Name:   Battlefield Forge
@@ -1987,7 +1994,7 @@ Name:   Benevolent Ancestor
 Cost:   2W
 Type:   Creature — Spirit
 P/T:    0/4
-S/R:    RAV-C
+S/R:    RAV-C, IMA-C
 Defender (This creature can't attack.)
 {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
 
@@ -2152,7 +2159,7 @@ Sacrifice enchanted creature: Creatures you control get +2/+0 until end of turn.
 Name:   Bewilder
 Cost:   2U
 Type:   Instant
-S/R:    TSP-C
+S/R:    TSP-C, IMA-C
 Target creature gets -3/-0 until end of turn.
 Draw a card.
 
@@ -2296,6 +2303,14 @@ Type:   Artifact
 S/R:    NPH-R
 ({(g/p)} can be paid with either {G} or 2 life.)
 {1}{(g/p)}, {T}, Sacrifice a creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature's converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.
+
+Name:   Bishop of Binding
+Cost:   3W
+Type:   Creature — Vampire Cleric
+P/T:    1/1
+S/R:    RIX-R
+When Bishop of Binding enters the battlefield, exile target creature an opponent controls until Bishop of Binding leaves the battlefield.
+Whenever Bishop of Binding attacks, target Vampire gets +X/+X until end of turn, where X is the power of the exiled card.
 
 Name:   Bishop of Rebirth
 Cost:   3WW
@@ -2592,7 +2607,7 @@ Name:   Bladewing the Risen
 Cost:   3BBRR
 Type:   Legendary Creature — Zombie Dragon
 P/T:    4/4
-S/R:    SCG-R, CMD-R, CMA-R, C17-R, DRB-R
+S/R:    SCG-R, CMD-R, CMA-R, C17-R, IMA-U, DRB-R
 Flying
 When Bladewing the Risen enters the battlefield, you may return target Dragon permanent card from your graveyard to the battlefield.
 {B}{R}: Dragon creatures get +1/+1 until end of turn.
@@ -2601,7 +2616,7 @@ Name:   Bladewing's Thrall
 Cost:   2BB
 Type:   Creature — Zombie
 P/T:    3/3
-S/R:    SCG-U
+S/R:    SCG-U, IMA-U
 Bladewing's Thrall has flying as long as you control a Dragon.
 When a Dragon enters the battlefield, you may return Bladewing's Thrall from your graveyard to the battlefield.
 
@@ -2734,6 +2749,12 @@ Type:   Creature — Elemental Hound
 P/T:    4/3
 S/R:    ORI-U
 {1}, Sacrifice another creature: Blazing Hellhound deals 1 damage to target creature or player.
+
+Name:   Blazing Hope
+Cost:   W
+Type:   Instant
+S/R:    RIX-U
+Exile target creature with power greater than or equal to your life total.
 
 Name:   Blazing Salvo
 Cost:   R
@@ -2927,7 +2948,7 @@ Flying
 
 Name:   Blighted Cataract
 Type:   Land
-S/R:    BFZ-U
+S/R:    BFZ-U, DDT-U
 {T}: Add {C} to your mana pool.
 {5}{U}, {T}, Sacrifice Blighted Cataract: Draw two cards.
 
@@ -2939,7 +2960,7 @@ S/R:    BFZ-U
 
 Name:   Blighted Gorge
 Type:   Land
-S/R:    BFZ-U
+S/R:    BFZ-U, DDT-U
 {T}: Add {C} to your mana pool.
 {4}{R}, {T}, Sacrifice Blighted Gorge: Blighted Gorge deals 2 damage to target creature or player.
 
@@ -3111,7 +3132,7 @@ Name:   Blinding Mage
 Cost:   1W
 Type:   Creature — Human Wizard
 P/T:    1/2
-S/R:    M10-C, M11-C
+S/R:    M10-C, M11-C, IMA-C
 {W}, {T}: Tap target creature.
 
 Name:   Blinding Powder
@@ -3257,7 +3278,7 @@ Name:   Blizzard Specter
 Cost:   2UB
 Type:   Snow Creature — Specter
 P/T:    2/3
-S/R:    CSP-U
+S/R:    CSP-U, IMA-U
 Flying
 Whenever Blizzard Specter deals combat damage to a player, choose one —
 • That player returns a permanent he or she controls to its owner's hand.
@@ -3311,7 +3332,7 @@ Name:   Blood Baron of Vizkopa
 Cost:   3WB
 Type:   Creature — Vampire
 P/T:    4/4
-S/R:    DGM-M, C17-M
+S/R:    DGM-M, C17-M, IMA-R
 Lifelink, protection from white and from black
 As long as you have 30 or more life and an opponent has 10 or less life, Blood Baron of Vizkopa gets +6/+6 and has flying.
 
@@ -3456,6 +3477,13 @@ P/T:    3/2
 S/R:    CHK-U
 At the beginning of your upkeep, you may sacrifice Blood Speaker. If you do, search your library for a Demon card, reveal that card, put it into your hand, then shuffle your library.
 Whenever a Demon enters the battlefield under your control, return Blood Speaker from your graveyard to your hand.
+
+Name:   Blood Sun
+Cost:   2R
+Type:   Enchantment
+S/R:    RIX-R
+When Blood Sun enters the battlefield, draw a card.
+All lands lose all abilities except mana abilities.
 
 Name:   Blood Tithe
 Cost:   3B
@@ -3685,7 +3713,7 @@ Name:   Bloodghast
 Cost:   BB
 Type:   Creature — Vampire Spirit
 P/T:    2/1
-S/R:    ZEN-R
+S/R:    ZEN-R, IMA-R
 Bloodghast can't block.
 Bloodghast has haste as long as an opponent has 10 or less life.
 Landfall — Whenever a land enters the battlefield under your control, you may return Bloodghast from your graveyard to the battlefield.
@@ -3751,7 +3779,7 @@ Type:   Creature — Vampire
 P/T:    3/3
 M-type: Transform
 M-card: Lord of Lineage
-S/R:    ISD-R
+S/R:    ISD-R, V17-M
 Flying
 {T}: Create a 2/2 black Vampire creature token with flying.
 {B}: Transform Bloodline Keeper. Activate this ability only if you control five or more Vampires.
@@ -4242,7 +4270,7 @@ Name:   Bogardan Hellkite
 Cost:   6RR
 Type:   Creature — Dragon
 P/T:    5/5
-S/R:    TSP-R, M10-M, C14-M, DRB-R, DDG-M
+S/R:    TSP-R, M10-M, C14-M, IMA-R, DRB-R, DDG-M
 Flash
 Flying
 When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players.
@@ -4275,7 +4303,7 @@ Name:   Bogbrew Witch
 Cost:   3B
 Type:   Creature — Human Wizard
 P/T:    1/3
-S/R:    M14-R
+S/R:    M14-R, IMA-U
 {2}, {T}: Search your library for a card named Festering Newt or Bubbling Cauldron, put it onto the battlefield tapped, then shuffle your library.
 
 Name:   Boggart Arsonists
@@ -4296,7 +4324,7 @@ Name:   Boggart Brute
 Cost:   2R
 Type:   Creature — Goblin Warrior
 P/T:    3/2
-S/R:    ORI-C
+S/R:    ORI-C, DDT-C
 Menace (This creature can't be blocked except by two or more creatures.)
 
 Name:   Boggart Forager
@@ -4468,6 +4496,12 @@ S/R:    OD-R
 {T}: Put a fuse counter on target creature.
 At the beginning of your upkeep, put a fuse counter on each creature with a fuse counter on it.
 Whenever a creature has four or more fuse counters on it, remove all fuse counters from it and destroy it. That creature deals 4 damage to its controller.
+
+Name:   Bombard
+Cost:   2R
+Type:   Instant
+S/R:    RIX-C
+Bombard deals 4 damage to target creature.
 
 Name:   Bomber Corps
 Cost:   1R
@@ -4837,7 +4871,7 @@ Name:   Borderland Marauder
 Cost:   1R
 Type:   Creature — Human Warrior
 P/T:    1/2
-S/R:    M15-C, W16-C, EMA-C
+S/R:    M15-C, W16-C, EMA-C, IMA-C
 Whenever Borderland Marauder attacks, it gets +2/+0 until end of turn.
 
 Name:   Borderland Minotaur
@@ -4926,7 +4960,7 @@ Prevent all combat damage that would be dealt by target attacking or blocking cr
 
 Name:   Boros Garrison
 Type:   Land
-S/R:    RAV-C, HOP-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, CMA-C, C17-C
+S/R:    RAV-C, HOP-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, CMA-C, C17-C, IMA-U
 Boros Garrison enters the battlefield tapped.
 When Boros Garrison enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {R}{W} to your mana pool.
@@ -5471,6 +5505,12 @@ P/T:    1/3
 S/R:    MBS-U
 {T}: Attach target Equipment you control to target creature you control.
 
+Name:   Brass's Bounty
+Cost:   6R
+Type:   Sorcery
+S/R:    RIX-R
+For each land you control, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+
 Name:   Brass-Talon Chimera
 Cost:   4
 Type:   Artifact Creature — Chimera
@@ -5534,6 +5574,13 @@ P/T:    2/2
 S/R:    XLN-C
 Haste
 When Brazen Buccaneers enters the battlefield, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+
+Name:   Brazen Freebooter
+Cost:   3R
+Type:   Creature — Human Pirate
+P/T:    3/3
+S/R:    RIX-C
+When Brazen Freebooter enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 
 Name:   Brazen Scourge
 Cost:   1RR
@@ -6018,7 +6065,7 @@ Type:   Legendary Creature — Eldrazi Angel
 P/T:    9/10
 M-type: Meld
 M-pair: Bruna, the Fading Light; Gisela, the Broken Blade
-S/R:    EMN-M
+S/R:    EMN-M, V17-M
 Flying, first strike, vigilance, lifelink
 Your opponents can't cast spells with converted mana cost 3 or less.
 
@@ -6033,7 +6080,7 @@ Pay {E}{E}{E}: Put a +1/+1 counter on Bristling Hydra. It gains hexproof until e
 Name:   Brittle Effigy
 Cost:   1
 Type:   Artifact
-S/R:    M11-R
+S/R:    M11-R, DDT-R
 {4}, {T}, Exile Brittle Effigy: Exile target creature.
 
 Name:   Broken Ambitions
@@ -6250,7 +6297,7 @@ P/T:    5/7
 M-type: Meld
 M-pair: Gisela, the Broken Blade
 Melded: Brisela, Voice of Nightmares
-S/R:    EMN-R
+S/R:    EMN-R, V17-M
 When you cast Bruna, the Fading Light, you may return target Angel or Human creature card from your graveyard to the battlefield.
 Flying, vigilance
 (Melds with Gisela, the Broken Blade.)
@@ -6346,7 +6393,7 @@ Target creature gets +3/+3 until end of turn.
 Name:   Brute Strength
 Cost:   1R
 Type:   Instant
-S/R:    OGW-C, AKH-C
+S/R:    OGW-C, AKH-C, DDT-C
 Target creature gets +3/+1 and gains trample until end of turn.
 
 Name:   Bubble Matrix
@@ -6365,7 +6412,7 @@ Bubbling Beebles can't be blocked as long as defending player controls an enchan
 Name:   Bubbling Cauldron
 Cost:   2
 Type:   Artifact
-S/R:    M14-U
+S/R:    M14-U, IMA-U
 {1}, {T}, Sacrifice a creature: You gain 4 life.
 {1}, {T}, Sacrifice a creature named Festering Newt: Each opponent loses 4 life. You gain life equal to the life lost this way.
 
@@ -6374,6 +6421,14 @@ Cost:   B
 Type:   Sorcery
 S/R:    UD-C
 Until end of turn, whenever a player taps a Swamp for mana, that player adds {B} to his or her mana pool (in addition to the mana the land produces).
+
+Name:   Buccaneer's Bravado
+Cost:   1R
+Type:   Instant
+S/R:    RIX-C
+Choose one —
+• Target creature gets +1/+1 and gains first strike until end of turn.
+• Target Pirate gets +1/+1 and gains double strike until end of turn.
 
 Name:   Budoka Gardener
 Cost:   1G
@@ -6715,7 +6770,7 @@ Name:   Burrenton Forge-Tender
 Cost:   W
 Type:   Creature — Kithkin Wizard
 P/T:    1/1
-S/R:    LRW-U
+S/R:    LRW-U, IMA-U
 Protection from red
 Sacrifice Burrenton Forge-Tender: Prevent all damage a red source of your choice would deal this turn.
 
@@ -6816,7 +6871,7 @@ Equip {3}
 Name:   Butcher's Glee
 Cost:   2B
 Type:   Instant
-S/R:    DTK-C
+S/R:    DTK-C, IMA-C
 Target creature gets +3/+0 and gains lifelink until end of turn. Regenerate it. (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)
 
 Name:   By Force

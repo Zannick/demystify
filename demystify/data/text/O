@@ -171,6 +171,14 @@ S/R:    RAV-U
 Vigilance
 Other creatures you control get +0/+2 and have vigilance.
 
+Name:   Oathsworn Vampire
+Cost:   1B
+Type:   Creature — Vampire Knight
+P/T:    2/2
+S/R:    RIX-U
+Oathsworn Vampire enters the battlefield tapped.
+You may cast Oathsworn Vampire from your graveyard if you gained life this turn.
+
 Name:   Ob Nixilis Reignited
 Cost:   3BB
 Type:   Legendary Planeswalker — Nixilis
@@ -203,7 +211,7 @@ Name:   Ob Nixilis, the Fallen
 Cost:   3BB
 Type:   Legendary Creature — Demon
 P/T:    3/3
-S/R:    ZEN-M
+S/R:    ZEN-M, IMA-M
 Landfall — Whenever a land enters the battlefield under your control, you may have target player lose 3 life. If you do, put three +1/+1 counters on Ob Nixilis, the Fallen.
 
 Name:   Obelisk Spider
@@ -316,7 +324,7 @@ When you cast Oblivion Sower, target opponent exiles the top four cards of his o
 Name:   Oblivion Stone
 Cost:   3
 Type:   Artifact
-S/R:    MRD-R, CMD-R, MPS_KLD-S
+S/R:    MRD-R, CMD-R, MPS_KLD-S, IMA-R
 {4}, {T}: Put a fate counter on target permanent.
 {5}, {T}, Sacrifice Oblivion Stone: Destroy each nonland permanent without a fate counter on it, then remove all fate counters from all permanents.
 
@@ -419,7 +427,7 @@ Name:   Obstinate Baloth
 Cost:   2GG
 Type:   Creature — Beast
 P/T:    4/4
-S/R:    M11-R
+S/R:    M11-R, IMA-R
 When Obstinate Baloth enters the battlefield, you gain 4 life.
 If a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard.
 
@@ -703,7 +711,7 @@ S/R:    DTK-U
 Name:   Ojutai's Breath
 Cost:   2U
 Type:   Instant
-S/R:    DTK-C
+S/R:    DTK-C, IMA-C
 Tap target creature. It doesn't untap during its controller's next untap step.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 
@@ -1459,6 +1467,26 @@ P/T:    2/3
 S/R:    NE-C
 Protection from red
 
+Name:   Orazca Frillback
+Cost:   2G
+Type:   Creature — Dinosaur
+P/T:    4/2
+S/R:    RIX-C
+
+Name:   Orazca Raptor
+Cost:   2RR
+Type:   Creature — Dinosaur
+P/T:    3/4
+S/R:    RIX-C
+
+Name:   Orazca Relic
+Cost:   3
+Type:   Artifact
+S/R:    RIX-C
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+{T}: Add {C} to your mana pool.
+{T}, Sacrifice Orazca Relic: You gain 3 life and draw a card. Activate this ability only if you have the city's blessing.
+
 Name:   Orb of Dreams
 Cost:   3
 Type:   Artifact
@@ -1982,7 +2010,7 @@ At the beginning of your upkeep, each player may put two +1/+1 counters on a cre
 
 Name:   Orzhov Basilica
 Type:   Land
-S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, CMA-C, C17-C
+S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, CMA-C, C17-C, IMA-U
 Orzhov Basilica enters the battlefield tapped.
 When Orzhov Basilica enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {W}{B} to your mana pool.
@@ -2262,11 +2290,18 @@ Type:   Sorcery
 S/R:    XLN-M
 Target player draws seven cards.
 
+Name:   Overgrown Armasaur
+Cost:   3GG
+Type:   Creature — Dinosaur
+P/T:    4/4
+S/R:    RIX-C
+Enrage — Whenever Overgrown Armasaur is dealt damage, create a 1/1 green Saproling creature token.
+
 Name:   Overgrown Battlement
 Cost:   1G
 Type:   Creature — Wall
 P/T:    0/4
-S/R:    ROE-C
+S/R:    ROE-C, IMA-U
 Defender
 {T}: Add {G} to your mana pool for each creature with defender you control.
 

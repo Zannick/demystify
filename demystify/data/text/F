@@ -541,6 +541,14 @@ P/T:    3/2
 S/R:    OD-U
 {1}{B}, Sacrifice Famished Ghoul: Exile up to two target cards from a single graveyard.
 
+Name:   Famished Paladin
+Cost:   1W
+Type:   Creature — Vampire Knight
+P/T:    3/3
+S/R:    RIX-U
+Famished Paladin doesn't untap during your untap step.
+Whenever you gain life, untap Famished Paladin.
+
 Name:   Fan Bearer
 Cost:   W
 Type:   Creature — Zombie
@@ -575,6 +583,14 @@ Cost:   2GG
 Type:   Instant
 S/R:    IA-U
 Target creature gets +3/+0 and gains trample until end of turn.
+
+Name:   Fanatical Firebrand
+Cost:   R
+Type:   Creature — Goblin Pirate
+P/T:    1/1
+S/R:    RIX-C
+Haste
+{T}, Sacrifice Fanatical Firebrand: It deals 1 damage to target creature or player.
 
 Name:   Fang Skulkin
 Cost:   2
@@ -877,6 +893,13 @@ Devoid (This card has no color.)
 Deathtouch
 Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
 {3}{U}{B}: Draw a card. Each opponent exiles the top card of his or her library.
+
+Name:   Fathom Fleet Boarder
+Cost:   2B
+Type:   Creature — Orc Pirate
+P/T:    3/3
+S/R:    RIX-C
+When Fathom Fleet Boarder enters the battlefield, you lose 2 life unless you control another Pirate.
 
 Name:   Fathom Fleet Captain
 Cost:   1B
@@ -1578,7 +1601,7 @@ Name:   Festering Newt
 Cost:   B
 Type:   Creature — Salamander
 P/T:    1/1
-S/R:    M14-C
+S/R:    M14-C, IMA-C
 When Festering Newt dies, target creature an opponent controls gets -1/-1 until end of turn. That creature gets -4/-4 instead if you control a creature named Bogbrew Witch.
 
 Name:   Festering Wound
@@ -2179,7 +2202,7 @@ Name:   Fire and Brimstone
 Cost:   3WW
 Type:   Instant
 S/R:    DK-U
-Fire and Brimstone deals 4 damage to target player who declared an attacking creature this turn and 4 damage to you.
+Fire and Brimstone deals 4 damage to target player who attacked this turn and 4 damage to you.
 
 Name:   Fire at Will
 Cost:   (R/W)(R/W)(R/W)
@@ -2212,7 +2235,7 @@ S/R:    SHM-R, EXP-M
 Name:   Fireball
 Cost:   XR
 Type:   Sorcery
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, DST-U, M10-U, ARC-U, M11-U, M12-U, C13-U, DD2-U, ME4-U, PD2-U
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, DST-U, M10-U, ARC-U, M11-U, M12-U, C13-U, IMA-U, DD2-U, ME4-U, PD2-U
 Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.
 Fireball costs {1} more to cast for each target beyond the first.
 
@@ -2321,7 +2344,7 @@ Name:   Firemane Angel
 Cost:   3RWW
 Type:   Creature — Angel
 P/T:    4/3
-S/R:    RAV-R, DDH-R
+S/R:    RAV-R, IMA-R, DDH-R
 Flying, first strike
 At the beginning of your upkeep, if Firemane Angel is in your graveyard or on the battlefield, you may gain 1 life.
 {6}{R}{R}{W}{W}: Return Firemane Angel from your graveyard to the battlefield. Activate this ability only during your upkeep.
@@ -3348,6 +3371,12 @@ S/R:    MI-U, VMA-U, DDI-U
 Flood Plain enters the battlefield tapped.
 {T}, Sacrifice Flood Plain: Search your library for a Plains or Island card and put it onto the battlefield. Then shuffle your library.
 
+Name:   Flood of Recollection
+Cost:   UU
+Type:   Sorcery
+S/R:    RIX-U
+Return target instant or sorcery card from your graveyard to your hand. Exile Flood of Recollection.
+
 Name:   Floodbringer
 Cost:   1U
 Type:   Creature — Moonfolk Wizard
@@ -3620,7 +3649,7 @@ Create X 1/1 white Bird Soldier creature tokens with flying, where X is the numb
 Name:   Flusterstorm
 Cost:   U
 Type:   Instant
-S/R:    CMD-R, VMA-R
+S/R:    CMD-R, IMA-R, VMA-R
 Counter target instant or sorcery spell unless its controller pays {1}.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 
@@ -3690,7 +3719,7 @@ Name:   Fog Bank
 Cost:   1U
 Type:   Creature — Wall
 P/T:    0/2
-S/R:    US-U, CMD-U, M13-U, C13-U, C14-U
+S/R:    US-U, CMD-U, M13-U, C13-U, C14-U, IMA-U
 Defender, flying
 Prevent all combat damage that would be dealt to and dealt by Fog Bank.
 
@@ -4019,6 +4048,38 @@ S/R:    BFZ-U, DDP-U
 Devoid (This card has no color.)
 {1}: Target colorless creature gains haste until end of turn.
 
+Name:   Forerunner of the Coalition
+Cost:   2B
+Type:   Creature — Human Pirate
+P/T:    2/2
+S/R:    RIX-U
+When Forerunner of the Coalition enters the battlefield, you may search your library for a Pirate card, reveal it, then shuffle your library and put that card on top of it.
+Whenever another Pirate enters the battlefield under your control, each opponent loses 1 life.
+
+Name:   Forerunner of the Empire
+Cost:   3R
+Type:   Creature — Human Soldier
+P/T:    1/3
+S/R:    RIX-U
+When Forerunner of the Empire enters the battlefield, you may search your library for a Dinosaur card, reveal it, then shuffle your library and put that card on top of it.
+Whenever a Dinosaur enters the battlefield under your control, you may have Forerunner of the Empire deal 1 damage to each creature.
+
+Name:   Forerunner of the Heralds
+Cost:   3G
+Type:   Creature — Merfolk Scout
+P/T:    3/2
+S/R:    RIX-U
+When Forerunner of the Heralds enters the battlefield, you may search your library for a Merfolk card, reveal it, then shuffle your library and put that card on top of it.
+Whenever another Merfolk enters the battlefield under your control, put a +1/+1 counter on Forerunner of the Heralds.
+
+Name:   Forerunner of the Legion
+Cost:   2W
+Type:   Creature — Vampire Knight
+P/T:    2/2
+S/R:    RIX-U
+When Forerunner of the Legion enters the battlefield, you may search your library for a Vampire card, reveal it, then shuffle your library and put that card on top of it.
+Whenever another Vampire enters the battlefield under your control, target creature gets +1/+1 until end of turn.
+
 Name:   Foresee
 Cost:   3U
 Type:   Sorcery
@@ -4041,7 +4102,7 @@ Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Forest
 Type:   Basic Land — Forest
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, EVG-L, UG-C, UNH-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, EVG-L, UG-C, UNH-L, UST-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
 
 Name:   Forest Bear
 Cost:   1G
@@ -4107,7 +4168,7 @@ At the beginning of your upkeep, you may move any number of +1/+1 counters from 
 
 Name:   Forgotten Cave
 Type:   Land
-S/R:    ONS-C, CMD-C, C13-C, C14-C, C15-C, CMA-C, EVG-C, VMA-C, DDJ-C
+S/R:    ONS-C, CMD-C, C13-C, C14-C, C15-C, CMA-C, EVG-C, VMA-C, DDJ-C, DDT-C
 Forgotten Cave enters the battlefield tapped.
 {T}: Add {R} to your mana pool.
 Cycling {R} ({R}, Discard this card: Draw a card.)
@@ -4195,6 +4256,13 @@ S/R:    BNG-U
 Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Inspired — Whenever Forlorn Pseudamma becomes untapped, you may pay {2}{B}. If you do, create a 2/2 black Zombie enchantment creature token.
 
+Name:   Form of the Dinosaur
+Cost:   4RR
+Type:   Enchantment
+S/R:    RIX-R
+When Form of the Dinosaur enters the battlefield, your life total becomes 15.
+At the beginning of your upkeep, Form of the Dinosaur deals 15 damage to target creature an opponent controls and that creature deals damage equal to its power to you.
+
 Name:   Form of the Dragon
 Cost:   4RRR
 Type:   Enchantment
@@ -4239,7 +4307,7 @@ When Forsaken Drifters dies, put the top four cards of your library into your gr
 
 Name:   Forsaken Sanctuary
 Type:   Land
-S/R:    SOI-U, AKH-C, C17-U
+S/R:    SOI-U, AKH-C, C17-U, RIX-U
 Forsaken Sanctuary enters the battlefield tapped.
 {T}: Add {W} or {B} to your mana pool.
 
@@ -4366,7 +4434,7 @@ When Foul Imp enters the battlefield, you lose 2 life.
 
 Name:   Foul Orchard
 Type:   Land
-S/R:    SOI-U, AKH-C
+S/R:    SOI-U, AKH-C, RIX-U
 Foul Orchard enters the battlefield tapped.
 {T}: Add {B} or {G} to your mana pool.
 
@@ -4394,7 +4462,7 @@ When Foul Spirit enters the battlefield, sacrifice a land.
 Name:   Foul-Tongue Invocation
 Cost:   2B
 Type:   Instant
-S/R:    DTK-U
+S/R:    DTK-U, IMA-C
 As an additional cost to cast Foul-Tongue Invocation, you may reveal a Dragon card from your hand.
 Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon as you cast Foul-Tongue Invocation, you gain 4 life.
 
@@ -4447,7 +4515,7 @@ Name:   Foundry Street Denizen
 Cost:   R
 Type:   Creature — Goblin Warrior
 P/T:    1/1
-S/R:    GTC-C, M15-C
+S/R:    GTC-C, M15-C, DDT-C
 Whenever another red creature enters the battlefield under your control, Foundry Street Denizen gets +1/+0 until end of turn.
 
 Name:   Foundry of the Consuls
@@ -4749,6 +4817,13 @@ S/R:    ONS-U
 You may choose not to untap Frightshroud Courier during your untap step.
 {2}{B}, {T}: Target Zombie creature gets +2/+2 and has fear for as long as Frightshroud Courier remains tapped. (It can't be blocked except by artifact creatures and/or black creatures.)
 
+Name:   Frilled Deathspitter
+Cost:   2R
+Type:   Creature — Dinosaur
+P/T:    3/2
+S/R:    RIX-C
+Enrage — Whenever Frilled Deathspitter is dealt damage, it deals 2 damage to target opponent.
+
 Name:   Frilled Oculus
 Cost:   1U
 Type:   Creature — Homunculus
@@ -4891,7 +4966,7 @@ Name:   Frost Lynx
 Cost:   2U
 Type:   Creature — Elemental Cat
 P/T:    2/2
-S/R:    M15-C
+S/R:    M15-C, IMA-C
 When Frost Lynx enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 
 Name:   Frost Marsh
@@ -5212,7 +5287,7 @@ Name:   Furnace Whelp
 Cost:   2RR
 Type:   Creature — Dragon
 P/T:    2/2
-S/R:    5DN-U, 10E-U, ARC-U, CMD-U, M13-U, M15-U, CMA-U, DD2-U
+S/R:    5DN-U, 10E-U, ARC-U, CMD-U, M13-U, M15-U, CMA-U, IMA-C, DD2-U
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 {R}: Furnace Whelp gets +1/+0 until end of turn.
 
@@ -5239,7 +5314,7 @@ Skulk (This creature can't be blocked by creatures with greater power.)
 Name:   Fury Charm
 Cost:   1R
 Type:   Instant
-S/R:    PLC-C, MMA-C
+S/R:    PLC-C, MMA-C, IMA-C
 Choose one —
 • Destroy target artifact.
 • Target creature gets +1/+1 and gains trample until end of turn.

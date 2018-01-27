@@ -57,7 +57,7 @@ Name:   Jace's Phantasm
 Cost:   U
 Type:   Creature — Illusion
 P/T:    1/1
-S/R:    M13-U, DDM-U
+S/R:    M13-U, IMA-C, DDM-U
 Flying
 Jace's Phantasm gets +4/+4 as long as an opponent has ten or more cards in his or her graveyard.
 
@@ -124,7 +124,7 @@ P/T:    5
 Color:  Blue
 M-type: Transform
 M-card: Jace, Vryn's Prodigy
-S/R:    ORI-M
+S/R:    ORI-M, V17-M
 [+1]: Up to one target creature gets -2/-0 until your next turn.
 [-3]: You may cast target instant or sorcery card from your graveyard this turn. If that card would be put into your graveyard this turn, exile it instead.
 [-9]: You get an emblem with "Whenever you cast a spell, target opponent puts the top five cards of his or her library into his or her graveyard."
@@ -144,7 +144,7 @@ Type:   Legendary Creature — Human Wizard
 P/T:    0/2
 M-type: Transform
 M-card: Jace, Telepath Unbound
-S/R:    ORI-M
+S/R:    ORI-M, V17-M
 {T}: Draw a card, then discard a card. If there are five or more cards in your graveyard, exile Jace, Vryn's Prodigy, then return him to the battlefield transformed under his owner's control.
 
 Name:   Jace, the Living Guildpact
@@ -205,9 +205,16 @@ Name:   Jaddi Offshoot
 Cost:   G
 Type:   Creature — Plant
 P/T:    0/3
-S/R:    BFZ-U
+S/R:    BFZ-U, IMA-C
 Defender
 Landfall — Whenever a land enters the battlefield under your control, you gain 1 life.
+
+Name:   Jade Bearer
+Cost:   G
+Type:   Creature — Merfolk Shaman
+P/T:    1/1
+S/R:    RIX-C
+When Jade Bearer enters the battlefield, put a +1/+1 counter on another target Merfolk you control.
 
 Name:   Jade Guardian
 Cost:   3G
@@ -249,11 +256,25 @@ Type:   Artifact
 S/R:    A-U, B-U, U-U, 9ED-R
 {2}: Jade Statue becomes a 3/6 Golem artifact creature until end of combat. Activate this ability only during combat.
 
+Name:   Jadecraft Artisan
+Cost:   3G
+Type:   Creature — Merfolk Shaman
+P/T:    3/3
+S/R:    RIX-C
+When Jadecraft Artisan enters the battlefield, target creature gets +2/+2 until end of turn.
+
 Name:   Jaded Response
 Cost:   1U
 Type:   Instant
 S/R:    AP-C
 Counter target spell if it shares a color with a creature you control.
+
+Name:   Jadelight Ranger
+Cost:   1GG
+Type:   Creature — Merfolk Scout
+P/T:    2/1
+S/R:    RIX-R
+When Jadelight Ranger enters the battlefield, it explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard. Then repeat this process.)
 
 Name:   Jagged Lightning
 Cost:   3RR
@@ -655,7 +676,7 @@ Name:   Jhessian Thief
 Cost:   2U
 Type:   Creature — Human Rogue
 P/T:    1/3
-S/R:    ORI-U
+S/R:    ORI-U, IMA-C
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Whenever Jhessian Thief deals combat damage to a player, draw a card.
 
@@ -721,7 +742,7 @@ Name:   Jin-Gitaxias, Core Augur
 Cost:   8UU
 Type:   Legendary Creature — Praetor
 P/T:    5/4
-S/R:    NPH-M
+S/R:    NPH-M, IMA-M
 Flash
 At the beginning of your end step, draw seven cards.
 Each opponent's maximum hand size is reduced by seven.
@@ -943,6 +964,15 @@ Choose one —
 • You may play up to two additional lands this turn.
 Entwine {2}{G} (Choose both if you pay the entwine cost.)
 
+Name:   Journey to Eternity
+Cost:   1BG
+Type:   Legendary Enchantment — Aura
+M-type: Transform
+M-card: Atzal, Cave of Eternity
+S/R:    RIX-R
+Enchant creature you control
+When enchanted creature dies, return it to the battlefield under your control, then return Journey to Eternity to the battlefield transformed under your control.
+
 Name:   Journey to Nowhere
 Cost:   1W
 Type:   Enchantment
@@ -1014,7 +1044,7 @@ Name:   Jugan, the Rising Star
 Cost:   3GGG
 Type:   Legendary Creature — Dragon Spirit
 P/T:    5/5
-S/R:    CHK-R, MMA-M
+S/R:    CHK-R, MMA-M, IMA-R
 Flying
 When Jugan, the Rising Star dies, you may distribute five +1/+1 counters among any number of target creatures.
 
@@ -1089,7 +1119,7 @@ Name:   Jungle Barrier
 Cost:   2GU
 Type:   Creature — Plant Wall
 P/T:    2/6
-S/R:    AP-U
+S/R:    AP-U, IMA-U
 Defender (This creature can't attack.)
 When Jungle Barrier enters the battlefield, draw a card.
 
@@ -1099,6 +1129,13 @@ S/R:    VI-U, C14-U, CMA-U
 Jungle Basin enters the battlefield tapped.
 When Jungle Basin enters the battlefield, sacrifice it unless you return an untapped Forest you control to its owner's hand.
 {T}: Add {C}{G} to your mana pool.
+
+Name:   Jungle Creeper
+Cost:   1BG
+Type:   Creature — Elemental
+P/T:    3/3
+S/R:    RIX-U
+{3}{B}{G}: Return Jungle Creeper from your graveyard to your hand.
 
 Name:   Jungle Delver
 Cost:   G
@@ -1157,6 +1194,13 @@ Type:   Creature — Wurm
 P/T:    5/5
 S/R:    MI-C, VMA-C
 Whenever Jungle Wurm becomes blocked, it gets -1/-1 until end of turn for each creature blocking it beyond the first.
+
+Name:   Jungleborn Pioneer
+Cost:   2G
+Type:   Creature — Merfolk Scout
+P/T:    2/2
+S/R:    RIX-C
+When Jungleborn Pioneer enters the battlefield, create a 1/1 blue Merfolk creature token with hexproof. (It can't be the target of spells or abilities your opponents control.)
 
 Name:   Juniper Order Advocate
 Cost:   2W

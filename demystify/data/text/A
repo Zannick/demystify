@@ -307,7 +307,7 @@ Name:   Abyssal Persecutor
 Cost:   2BB
 Type:   Creature — Demon
 P/T:    6/6
-S/R:    WWK-M, C14-M
+S/R:    WWK-M, C14-M, IMA-R
 Flying, trample
 You can't win the game and your opponents can't lose the game.
 
@@ -343,7 +343,7 @@ Name:   Abzan Battle Priest
 Cost:   3W
 Type:   Creature — Human Cleric
 P/T:    3/2
-S/R:    KTK-U
+S/R:    KTK-U, IMA-U
 Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
 Each creature you control with a +1/+1 counter on it has lifelink.
 
@@ -367,7 +367,7 @@ Name:   Abzan Falconer
 Cost:   2W
 Type:   Creature — Human Soldier
 P/T:    2/3
-S/R:    KTK-U, C16-U
+S/R:    KTK-U, C16-U, IMA-U
 Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
 Each creature you control with a +1/+1 counter on it has flying.
 
@@ -763,6 +763,13 @@ S/R:    XLN-M
 Other Pirates you control get +1/+1.
 At the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.
 
+Name:   Admiral's Order
+Cost:   1UU
+Type:   Instant
+S/R:    RIX-R
+Raid — If you attacked with a creature this turn, you may pay {U} rather than pay this spell's mana cost.
+Counter target spell.
+
 Name:   Admonition Angel
 Cost:   3WWW
 Type:   Creature — Angel
@@ -954,7 +961,7 @@ Enchanted creature gets +2/+2 and has flying.
 Name:   Aerial Predation
 Cost:   2G
 Type:   Instant
-S/R:    RTR-C
+S/R:    RTR-C, IMA-C
 Destroy target creature with flying. You gain 2 life.
 
 Name:   Aerial Responder
@@ -1216,7 +1223,7 @@ Return target permanent you control and target permanent you don't control to th
 Name:   Aether Vial
 Cost:   1
 Type:   Artifact
-S/R:    DST-U, MMA-R, MPS_KLD-S, V10-M
+S/R:    DST-U, MMA-R, MPS_KLD-S, IMA-R, V10-M
 At the beginning of your upkeep, you may put a charge counter on Aether Vial.
 {T}: You may put a creature card with converted mana cost equal to the number of charge counters on Aether Vial from your hand onto the battlefield.
 
@@ -1263,7 +1270,7 @@ Pay {E}{E}: Exile Aethergeode Miner, then return it to the battlefield under its
 Name:   Aetherize
 Cost:   3U
 Type:   Instant
-S/R:    GTC-U, C15-U, DDO-U
+S/R:    GTC-U, C15-U, IMA-U, DDO-U
 Return all attacking creatures to their owner's hand.
 
 Name:   Aetherling
@@ -1542,7 +1549,7 @@ Sacrifice a land: Draw two cards. Activate this ability only once each turn.
 Name:   Aggressive Urge
 Cost:   1G
 Type:   Instant
-S/R:    IN-C, 10E-C
+S/R:    IN-C, 10E-C, RIX-C
 Target creature gets +1/+1 until end of turn.
 Draw a card.
 
@@ -1626,7 +1633,7 @@ Name:   Ainok Bond-Kin
 Cost:   1W
 Type:   Creature — Hound Soldier
 P/T:    2/1
-S/R:    KTK-C
+S/R:    KTK-C, IMA-C
 Outlast {1}{W} ({1}{W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)
 Each creature you control with a +1/+1 counter on it has first strike.
 
@@ -1782,7 +1789,7 @@ Name:   Ajani's Pridemate
 Cost:   1W
 Type:   Creature — Cat Soldier
 P/T:    2/2
-S/R:    M11-U, C13-U, M15-U, DDH-U
+S/R:    M11-U, C13-U, M15-U, IMA-U, DDH-U
 Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate.
 
 Name:   Ajani's Sunstriker
@@ -2634,7 +2641,7 @@ Nontoken creatures you control get +1/+1 and have vigilance.
 Name:   Amass the Components
 Cost:   3U
 Type:   Sorcery
-S/R:    AVR-C
+S/R:    AVR-C, IMA-C
 Draw three cards, then put a card from your hand on the bottom of your library.
 
 Name:   Ambassador Laquatus
@@ -3031,7 +3038,7 @@ Enchanted creature gets -1/-1.
 Name:   Ancestral Vision
 Type:   Sorcery
 Color:  Blue
-S/R:    TSP-R, DD2-R
+S/R:    TSP-R, IMA-R, DD2-R
 Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 Target player draws three cards.
 
@@ -3267,7 +3274,7 @@ Name:   Angel of Mercy
 Cost:   4W
 Type:   Creature — Angel
 P/T:    3/3
-S/R:    P2-U, S99-U, IN-U, 8ED-U, 9ED-U, 10E-U, DDC-U
+S/R:    P2-U, S99-U, IN-U, 8ED-U, 9ED-U, 10E-U, IMA-C, DDC-U
 Flying
 When Angel of Mercy enters the battlefield, you gain 3 life.
 
@@ -3386,7 +3393,7 @@ Whenever you're dealt damage, you may put that many charge counters on Angelhear
 Name:   Angelic Accord
 Cost:   3W
 Type:   Enchantment
-S/R:    M14-U
+S/R:    M14-U, IMA-U
 At the beginning of each end step, if you gained 4 or more life this turn, create a 4/4 white Angel creature token with flying.
 
 Name:   Angelic Arbiter
@@ -3561,7 +3568,7 @@ As long as Anger is in your graveyard and you control a Mountain, creatures you 
 Name:   Anger of the Gods
 Cost:   1RR
 Type:   Sorcery
-S/R:    THS-R
+S/R:    THS-R, IMA-R
 Anger of the Gods deals 3 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
 
 Name:   Angler Drake
@@ -3572,12 +3579,43 @@ S/R:    AKH-U
 Flying
 When Angler Drake enters the battlefield, you may return target creature to its owner's hand.
 
+Name:   Angrath's Ambusher
+Cost:   2B
+Type:   Creature — Orc Pirate
+P/T:    2/3
+S/R:    RIX-U
+Angrath's Ambusher gets +2/+0 as long as you control an Angrath planeswalker.
+
+Name:   Angrath's Fury
+Cost:   3BR
+Type:   Sorcery
+S/R:    RIX-R
+Destroy target creature. Angrath's Fury deals 3 damage to target player. You may search your library and/or graveyard for a card named Angrath, Minotaur Pirate, reveal it, and put it into your hand. If you search your library this way, shuffle it.
+
 Name:   Angrath's Marauders
 Cost:   5RR
 Type:   Creature — Human Pirate
 P/T:    4/4
 S/R:    XLN-R
 If a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+
+Name:   Angrath, Minotaur Pirate
+Cost:   4BR
+Type:   Legendary Planeswalker — Angrath
+P/T:    5
+S/R:    RIX-M
+[+2]: Angrath, Minotaur Pirate deals 1 damage to target opponent and each creature that player controls.
+[-3]: Return target Pirate card from your graveyard to the battlefield.
+[-11]: Destroy all creatures target opponent controls. Angrath, Minotaur Pirate deals damage to that player equal to their total power.
+
+Name:   Angrath, the Flame-Chained
+Cost:   3BR
+Type:   Legendary Planeswalker — Angrath
+P/T:    4
+S/R:    RIX-M
+[+1]: Each opponent discards a card and loses 2 life.
+[-3]: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. Sacrifice it at the beginning of the next end step if it has converted mana cost 3 or less.
+[-8]: Each opponent loses life equal to the number of cards in his or her graveyard.
 
 Name:   Angry Mob
 Cost:   2WW
@@ -4073,6 +4111,13 @@ S/R:    DIS-C, CMD-C, MM2-C
 Graft 2 (This creature enters the battlefield with two +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)
 {G}: Target creature with a +1/+1 counter on it gains reach until end of turn. (It can block creatures with flying.)
 
+Name:   Aquatic Incursion
+Cost:   3U
+Type:   Enchantment
+S/R:    RIX-U
+When Aquatic Incursion enters the battlefield, create two 1/1 blue Merfolk creature tokens with hexproof. (They can't be the targets of spells or abilities your opponents control.)
+{3}{U}: Target Merfolk can't be blocked this turn.
+
 Name:   Aqueous Form
 Cost:   U
 Type:   Enchantment — Aura
@@ -4084,7 +4129,7 @@ Whenever enchanted creature attacks, scry 1. (Look at the top card of your libra
 Name:   Aquitect's Will
 Cost:   U
 Type:   Tribal Sorcery — Merfolk
-S/R:    LRW-C
+S/R:    LRW-C, DDT-C
 Put a flood counter on target land. That land is an Island in addition to its other types for as long as it has a flood counter on it. If you control a Merfolk, draw a card.
 
 Name:   Aquus Steed
@@ -4466,6 +4511,13 @@ P/T:    0/0
 S/R:    DST-C, MMA-C, DDF-C
 Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 
+Name:   Arch of Orazca
+Type:   Land
+S/R:    RIX-R
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+{T}: Add {C} to your mana pool.
+{5}, {T}: Draw a card. Activate this ability only if you have the city's blessing.
+
 Name:   Archaeological Dig
 Type:   Land
 S/R:    IN-U
@@ -4492,7 +4544,7 @@ Type:   Legendary Creature — Angel
 P/T:    4/4
 M-type: Transform
 M-card: Avacyn, the Purifier
-S/R:    SOI-M
+S/R:    SOI-M, V17-M
 Flash
 Flying, vigilance
 When Archangel Avacyn enters the battlefield, creatures you control gain indestructible until end of turn.
@@ -4512,7 +4564,7 @@ Name:   Archangel of Thune
 Cost:   3WW
 Type:   Creature — Angel
 P/T:    3/4
-S/R:    M14-M
+S/R:    M14-M, IMA-M
 Flying
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Whenever you gain life, put a +1/+1 counter on each creature you control.
@@ -4944,7 +4996,7 @@ Cost:   1B
 Type:   Legendary Enchantment
 M-type: Transform
 M-card: Temple of Aclazotz
-S/R:    XLN-R
+S/R:    XLN-R, V17-M
 {1}{B}, Pay 2 life: Draw a card.
 At the beginning of your upkeep, if you have 5 or less life, you may transform Arguel's Blood Fast.
 
@@ -4973,7 +5025,7 @@ Type:   Legendary Planeswalker — Arlinn
 P/T:    3
 M-type: Transform
 M-card: Arlinn, Embraced by the Moon
-S/R:    SOI-M
+S/R:    SOI-M, V17-M
 [+1]: Until end of turn, up to one target creature gets +2/+2 and gains vigilance and haste.
 [0]: Create a 2/2 green Wolf creature token. Transform Arlinn Kord.
 
@@ -4982,7 +5034,7 @@ Type:   Legendary Planeswalker — Arlinn
 Color:  Red/Green
 M-type: Transform
 M-card: Arlinn Kord
-S/R:    SOI-M
+S/R:    SOI-M, V17-M
 [+1]: Creatures you control get +1/+1 and gain trample until end of turn.
 [-1]: Arlinn, Embraced by the Moon deals 3 damage to target creature or player. Transform Arlinn, Embraced by the Moon.
 [-6]: You get an emblem with "Creatures you control have haste and '{T}: This creature deals damage equal to its power to target creature or player.'"
@@ -5294,6 +5346,12 @@ Type:   Artifact Creature — Construct
 P/T:    2/2
 S/R:    ARB-C, HOP-C
 As Arsenal Thresher enters the battlefield, you may reveal any number of other artifact cards from your hand. Arsenal Thresher enters the battlefield with a +1/+1 counter on it for each card revealed this way.
+
+Name:   Arterial Flow
+Cost:   1BB
+Type:   Sorcery
+S/R:    RIX-U
+Each opponent discards two cards. If you control a Vampire, each opponent loses 2 life and you gain 2 life.
 
 Name:   Artful Dodge
 Cost:   U
@@ -5719,7 +5777,7 @@ Assault deals 2 damage to target creature or player.
 Name:   Assault Formation
 Cost:   1G
 Type:   Enchantment
-S/R:    DTK-R
+S/R:    DTK-R, IMA-U
 Each creature you control assigns combat damage equal to its toughness rather than its power.
 {G}: Target creature with defender can attack this turn as though it didn't have defender.
 {2}{G}: Creatures you control get +0/+1 until end of turn.
@@ -5932,6 +5990,15 @@ Type:   Enchantment
 S/R:    US-R
 Return Attunement to its owner's hand: Draw three cards, then discard four cards.
 
+Name:   Atzal, Cave of Eternity
+Type:   Legendary Land
+M-type: Transform
+M-card: Journey to Eternity
+S/R:    RIX-R
+(Transforms from Journey to Eternity.)
+{T}: Add one mana of any color to your mana pool.
+{3}{B}{G}, {T}: Return target creature card from your graveyard to the battlefield.
+
 Name:   Atzocan Archer
 Cost:   2G
 Type:   Creature — Human Archer
@@ -5939,6 +6006,14 @@ P/T:    1/4
 S/R:    XLN-U
 Reach
 When Atzocan Archer enters the battlefield, you may have it fight another target creature. (Each deals damage equal to its power to the other.)
+
+Name:   Atzocan Seer
+Cost:   1GW
+Type:   Creature — Human Druid
+P/T:    2/3
+S/R:    RIX-U
+{T}: Add one mana of any color to your mana pool.
+Sacrifice Atzocan Seer: Return target Dinosaur card from your graveyard to your hand.
 
 Name:   Audacious Infiltrator
 Cost:   1W
@@ -6161,7 +6236,7 @@ Name:   Auriok Champion
 Cost:   WW
 Type:   Creature — Human Cleric
 P/T:    1/1
-S/R:    5DN-R
+S/R:    5DN-R, IMA-R
 Protection from black and from red
 Whenever another creature enters the battlefield, you may gain 1 life.
 
@@ -6291,7 +6366,7 @@ Whenever a player casts a white spell, you may pay {1}. If you do, you gain 1 li
 Name:   Austere Command
 Cost:   4WW
 Type:   Sorcery
-S/R:    LRW-R, CMD-R, MPS_AKH-S
+S/R:    LRW-R, CMD-R, MPS_AKH-S, IMA-R
 Choose two —
 • Destroy all artifacts.
 • Destroy all enchantments.
@@ -6380,7 +6455,7 @@ Name:   Avacyn, Angel of Hope
 Cost:   5WWW
 Type:   Legendary Creature — Angel
 P/T:    8/8
-S/R:    AVR-M, V15-M
+S/R:    AVR-M, IMA-M, V15-M
 Flying, vigilance, indestructible
 Other permanents you control have indestructible.
 
@@ -6399,7 +6474,7 @@ P/T:    6/5
 Color:  Red
 M-type: Transform
 M-card: Archangel Avacyn
-S/R:    SOI-M
+S/R:    SOI-M, V17-M
 Flying
 When this creature transforms into Avacyn, the Purifier, it deals 3 damage to each other creature and each opponent.
 
@@ -6906,6 +6981,13 @@ Type:   Enchantment
 S/R:    C15-R
 When a source an opponent controls deals damage to you, sacrifice Awaken the Sky Tyrant. If you do, create a 5/5 red Dragon creature token with flying.
 
+Name:   Awakened Amalgam
+Cost:   4
+Type:   Artifact Creature — Golem
+P/T:    */*
+S/R:    RIX-R
+Awakened Amalgam's power and toughness are each equal to the number of differently named lands you control.
+
 Name:   Awakener Druid
 Cost:   2G
 Type:   Creature — Human Druid
@@ -7088,6 +7170,23 @@ S/R:    RTR-R
 At the beginning of your upkeep, put a filibuster counter on Azor's Elocutors. Then if Azor's Elocutors has five or more filibuster counters on it, you win the game.
 Whenever a source deals damage to you, remove a filibuster counter from Azor's Elocutors.
 
+Name:   Azor's Gateway
+Cost:   2
+Type:   Legendary Artifact
+M-type: Transform
+M-card: Sanctum of the Sun
+S/R:    RIX-M
+{1}, {T}: Draw a card, then exile a card from your hand. If cards with five or more different converted mana costs are exiled with Azor's Gateway, you gain 5 life, untap Azor's Gateway, and transform it.
+
+Name:   Azor, the Lawbringer
+Cost:   2WWUU
+Type:   Legendary Creature — Sphinx
+P/T:    6/6
+S/R:    RIX-M
+Flying
+When Azor, the Lawbringer enters the battlefield, each opponent can't cast instant or sorcery spells during that player's next turn.
+Whenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you gain X life and draw X cards.
+
 Name:   Azorius Aethermage
 Cost:   1WU
 Type:   Creature — Human Wizard
@@ -7104,7 +7203,7 @@ When Azorius Arrester enters the battlefield, detain target creature an opponent
 
 Name:   Azorius Chancery
 Type:   Land
-S/R:    DIS-C, CMD-C, C13-C, MM2-U, C16-U, CMA-C, DDI-C
+S/R:    DIS-C, CMD-C, C13-C, MM2-U, C16-U, CMA-C, IMA-U, DDI-C
 Azorius Chancery enters the battlefield tapped.
 When Azorius Chancery enters the battlefield, return a land you control to its owner's hand.
 {T}: Add {W}{U} to your mana pool.
@@ -7112,7 +7211,7 @@ When Azorius Chancery enters the battlefield, return a land you control to its o
 Name:   Azorius Charm
 Cost:   WU
 Type:   Instant
-S/R:    RTR-U
+S/R:    RTR-U, IMA-U
 Choose one —
 • Creatures you control gain lifelink until end of turn.
 • Draw a card.

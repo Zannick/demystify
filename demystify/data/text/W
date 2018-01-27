@@ -24,7 +24,7 @@ Name:   Wake Thrasher
 Cost:   2U
 Type:   Creature — Merfolk Soldier
 P/T:    1/1
-S/R:    EVE-R
+S/R:    EVE-R, DDT-R
 Whenever a permanent you control becomes untapped, Wake Thrasher gets +1/+1 until end of turn.
 
 Name:   Wake of Destruction
@@ -505,7 +505,7 @@ Name:   Wall of Roots
 Cost:   1G
 Type:   Creature — Plant Wall
 P/T:    0/5
-S/R:    MI-C, TSP-S, ARC-C
+S/R:    MI-C, TSP-S, ARC-C, IMA-C
 Defender
 Put a -0/-1 counter on Wall of Roots: Add {G} to your mana pool. Activate this ability only once each turn.
 
@@ -1085,6 +1085,14 @@ Type:   Sorcery
 S/R:    ARB-R
 Search your library for a permanent card with converted mana cost X or less, put it onto the battlefield, then shuffle your library.
 
+Name:   Warkite Marauder
+Cost:   1U
+Type:   Creature — Human Pirate
+P/T:    2/1
+S/R:    RIX-R
+Flying
+Whenever Warkite Marauder attacks, target creature defending player controls loses all abilities and has base power and toughness 0/1 until end of turn.
+
 Name:   Warleader's Helix
 Cost:   2RW
 Type:   Instant
@@ -1214,7 +1222,7 @@ Name:   Warren Instigator
 Cost:   RR
 Type:   Creature — Goblin Berserker
 P/T:    1/1
-S/R:    ZEN-M
+S/R:    ZEN-M, DDT-M
 Double strike
 Whenever Warren Instigator deals damage to an opponent, you may put a Goblin creature card from your hand onto the battlefield.
 
@@ -1478,6 +1486,14 @@ P/T:    1/1
 S/R:    MM-C, VMA-U
 {U}, {T}, Discard a card: Return target creature to its owner's hand.
 
+Name:   Waterknot
+Cost:   1UU
+Type:   Enchantment — Aura
+S/R:    RIX-C
+Enchant creature
+When Waterknot enters the battlefield, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.
+
 Name:   Waterspout Djinn
 Cost:   2UU
 Type:   Creature — Djinn
@@ -1684,6 +1700,15 @@ P/T:    3/2
 S/R:    EX-C
 Flying
 {U}: Put Wayward Soul on top of its owner's library.
+
+Name:   Wayward Swordtooth
+Cost:   2G
+Type:   Creature — Dinosaur
+P/T:    5/5
+S/R:    RIX-R
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+You may play an additional land on each of your turns.
+Wayward Swordtooth can't attack or block unless you have the city's blessing.
 
 Name:   Weakness
 Cost:   B
@@ -2635,7 +2660,7 @@ Name:   Wight of Precinct Six
 Cost:   1B
 Type:   Creature — Zombie
 P/T:    1/1
-S/R:    GTC-U, C13-U, C16-U, DDM-U
+S/R:    GTC-U, C13-U, C16-U, IMA-C, DDM-U
 Wight of Precinct Six gets +1/+1 for each creature card in your opponents' graveyards.
 
 Name:   Wiitigo
@@ -2939,7 +2964,7 @@ S/R:    ROE-C, DDP-C
 Name:   Wildsize
 Cost:   2G
 Type:   Instant
-S/R:    GPT-C, EVG-C
+S/R:    GPT-C, IMA-C, EVG-C
 Target creature gets +2/+2 and gains trample until end of turn.
 Draw a card.
 
@@ -3173,7 +3198,7 @@ Attacking creatures you control have lifelink.
 Name:   Windfall
 Cost:   2U
 Type:   Sorcery
-S/R:    US-U, CMD-U, C15-U, C16-U
+S/R:    US-U, CMD-U, C15-U, C16-U, IMA-U
 Each player discards his or her hand, then draws cards equal to the greatest number of cards a player discarded this way.
 
 Name:   Winding Canyons
@@ -3313,7 +3338,7 @@ Target creature you control deals damage equal to its power to target creature w
 Name:   Wing Shards
 Cost:   1WW
 Type:   Instant
-S/R:    SCG-U, C14-U, C17-U
+S/R:    SCG-U, C14-U, C17-U, IMA-U
 Target player sacrifices an attacking creature.
 Storm (When you cast this spell, copy it for each spell cast before it this turn.)
 
@@ -3377,6 +3402,15 @@ Type:   Creature — Sliver
 P/T:    1/1
 S/R:    TE-C, H09-C
 All Sliver creatures have flying.
+
+Name:   Winged Temple of Orazca
+Type:   Legendary Land
+M-type: Transform
+M-card: Hadana's Climb
+S/R:    RIX-R
+(Transforms from Hadana's Climb.)
+{T}: Add one mana of any color to your mana pool.
+{1}{G}{U}, {T}: Target creature you control gains flying and gets +X/+X until end of turn, where X is its power.
 
 Name:   Wingmate Roc
 Cost:   3WW
@@ -3708,7 +3742,7 @@ P/T:    13/13
 Color:  Black
 M-type: Transform
 M-card: Elbrus, the Binding Blade
-S/R:    DKA-M
+S/R:    DKA-M, V17-M
 Flying, intimidate, trample (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 Whenever a player loses the game, put thirteen +1/+1 counters on Withengar Unbound.
 
@@ -4093,7 +4127,7 @@ Morbid — When Woodland Sleuth enters the battlefield, if a creature died this 
 
 Name:   Woodland Stream
 Type:   Land
-S/R:    SOI-U, KLD-C, AKH-C, HOU-C, XLN-C
+S/R:    SOI-U, KLD-C, AKH-C, HOU-C, XLN-C, RIX-U
 Woodland Stream enters the battlefield tapped.
 {T}: Add {G} or {U} to your mana pool.
 
@@ -4292,6 +4326,14 @@ Type:   Creature — Avatar
 P/T:    4/4
 S/R:    ZEN-R
 At the beginning of your upkeep, you may choose a card type. If you do, each player sacrifices a permanent of that type.
+
+Name:   World Shaper
+Cost:   3G
+Type:   Creature — Merfolk Shaman
+P/T:    3/3
+S/R:    RIX-R
+Whenever World Shaper attacks, you may put the top three cards of your library into your graveyard.
+When World Shaper dies, put all land cards from your graveyard onto the battlefield tapped.
 
 Name:   World at War
 Cost:   3RR
@@ -4579,7 +4621,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 Name:   Wrench Mind
 Cost:   BB
 Type:   Sorcery
-S/R:    MRD-C
+S/R:    MRD-C, IMA-C
 Target player discards two cards unless he or she discards an artifact card.
 
 Name:   Wretched Anurid

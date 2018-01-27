@@ -144,6 +144,13 @@ S/R:    LE-C, 4E-C, 5E-C, 10E-C, DDD-C
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 {B}: Vampire Bats gets +1/+0 until end of turn. Activate this ability no more than twice each turn.
 
+Name:   Vampire Champion
+Cost:   3B
+Type:   Creature — Vampire Soldier
+P/T:    3/3
+S/R:    RIX-C
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+
 Name:   Vampire Cutthroat
 Cost:   B
 Type:   Creature — Vampire Rogue
@@ -218,6 +225,13 @@ P/T:    2/2
 S/R:    M12-U, MM2-U, DDK-U
 Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with two +1/+1 counters on it.)
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+
+Name:   Vampire Revenant
+Cost:   3B
+Type:   Creature — Vampire Spirit
+P/T:    3/1
+S/R:    RIX-C
+Flying
 
 Name:   Vampire Warlord
 Cost:   4B
@@ -511,6 +525,15 @@ Cost:   U
 Type:   Instant
 S/R:    SOM-C
 Target creature gains flying until end of turn. Untap it.
+
+Name:   Vault of Catlacan
+Type:   Legendary Land
+M-type: Transform
+M-card: Storm the Vault
+S/R:    RIX-R
+(Transforms from Storm the Vault.)
+{T}: Add one mana of any color to your mana pool.
+{T}: Add {U} to your mana pool for each artifact you control.
 
 Name:   Vault of Whispers
 Type:   Artifact Land
@@ -1010,7 +1033,7 @@ Name:   Vent Sentinel
 Cost:   3R
 Type:   Creature — Elemental
 P/T:    2/4
-S/R:    ROE-C, CNS-C
+S/R:    ROE-C, CNS-C, IMA-C
 Defender
 {1}{R}, {T}: Vent Sentinel deals damage to target player equal to the number of creatures with defender you control.
 
@@ -2198,7 +2221,7 @@ All Sliver creatures have poisonous 1. (Whenever a Sliver deals combat damage to
 Name:   Virulent Swipe
 Cost:   B
 Type:   Instant
-S/R:    ROE-U
+S/R:    ROE-U, IMA-C
 Target creature gets +2/+0 and gains deathtouch until end of turn.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 
@@ -2526,7 +2549,7 @@ Name:   Vizkopa Guildmage
 Cost:   WB
 Type:   Creature — Human Wizard
 P/T:    2/2
-S/R:    GTC-U, C13-U
+S/R:    GTC-U, C13-U, IMA-U
 {1}{W}{B}: Target creature gains lifelink until end of turn.
 {1}{W}{B}: Whenever you gain life this turn, each opponent loses that much life.
 
@@ -3076,6 +3099,13 @@ S/R:    WL-U
 Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 
+Name:   Vona's Hunger
+Cost:   2B
+Type:   Instant
+S/R:    RIX-R
+Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
+Each opponent sacrifices a creature. If you have the city's blessing, instead each opponent sacrifices half the creatures he or she controls, rounded up.
+
 Name:   Vona, Butcher of Magan
 Cost:   3WB
 Type:   Legendary Creature — Vampire Knight
@@ -3135,6 +3165,14 @@ S/R:    EMN-U
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Instant and sorcery spells you cast cost {1} less to cast.
 
+Name:   Voracious Vampire
+Cost:   2B
+Type:   Creature — Vampire Knight
+P/T:    2/2
+S/R:    RIX-C
+Menace
+When Voracious Vampire enters the battlefield, target Vampire you control gets +1/+1 and gains menace until end of turn.
+
 Name:   Voracious Wurm
 Cost:   1G
 Type:   Creature — Wurm
@@ -3161,7 +3199,7 @@ Name:   Vorinclex, Voice of Hunger
 Cost:   6GG
 Type:   Legendary Creature — Praetor
 P/T:    7/6
-S/R:    NPH-M
+S/R:    NPH-M, IMA-M
 Trample
 Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.
 Whenever an opponent taps a land for mana, that land doesn't untap during its controller's next untap step.
@@ -3274,11 +3312,24 @@ S/R:    RTR-M, DDM-M
 [-3]: Destroy target nonland permanent.
 [-7]: Create three 1/1 black Assassin creature tokens with "Whenever this creature deals combat damage to a player, that player loses the game."
 
+Name:   Vraska's Conquistador
+Cost:   1B
+Type:   Creature — Vampire Soldier
+P/T:    2/1
+S/R:    RIX-U
+Whenever Vraska's Conquistador attacks or blocks, if you control a Vraska planeswalker, target opponent loses 2 life and you gain 2 life.
+
 Name:   Vraska's Contempt
 Cost:   2BB
 Type:   Instant
 S/R:    XLN-R
 Exile target creature or planeswalker. You gain 2 life.
+
+Name:   Vraska's Scorn
+Cost:   2BB
+Type:   Sorcery
+S/R:    RIX-R
+Target opponent loses 4 life. You may search your library and/or graveyard for a card named Vraska, Scheming Gorgon, reveal it, and put it into your hand. If you search your library this way, shuffle it.
 
 Name:   Vraska, Relic Seeker
 Cost:   4BG
@@ -3288,6 +3339,15 @@ S/R:    XLN-M
 [+2]: Create a 2/2 black Pirate creature token with menace.
 [-3]: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
 [-10]: Target player's life total becomes 1.
+
+Name:   Vraska, Scheming Gorgon
+Cost:   4BB
+Type:   Legendary Planeswalker — Vraska
+P/T:    5
+S/R:    RIX-M
+[+2]: Creatures you control get +1/+0 until end of turn.
+[-3]: Destroy target creature.
+[-10]: Until end of turn, creatures you control gain deathtouch and "Whenever this creature deals damage to an opponent, that player loses the game."
 
 Name:   Vryn Wingmare
 Cost:   2W

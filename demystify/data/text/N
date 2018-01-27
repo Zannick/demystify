@@ -218,7 +218,7 @@ Name:   Nantuko Shaman
 Cost:   2G
 Type:   Creature — Insect Shaman
 P/T:    3/2
-S/R:    TSP-C, MMA-C
+S/R:    TSP-C, MMA-C, IMA-C
 When Nantuko Shaman enters the battlefield, if you control no tapped lands, draw a card.
 Suspend 1—{2}{G}{G} (Rather than cast this card from your hand, you may pay {2}{G}{G} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)
 
@@ -405,7 +405,7 @@ Destroy target artifact or enchantment with converted mana cost 3 or less.
 Name:   Naturalize
 Cost:   1G
 Type:   Instant
-S/R:    ONS-C, 8ED-C, 9ED-C, 10E-C, ALA-C, M10-C, ROE-C, M11-C, M12-C, ISD-C, M13-C, GTC-C, M14-C, M15-C, KTK-C, DTK-C
+S/R:    ONS-C, 8ED-C, 9ED-C, 10E-C, ALA-C, M10-C, ROE-C, M11-C, M12-C, ISD-C, M13-C, GTC-C, M14-C, M15-C, KTK-C, DTK-C, RIX-C
 Destroy target artifact or enchantment.
 
 Name:   Nature's Blessing
@@ -425,7 +425,7 @@ Tap enchanted creature: Untap target artifact, creature, or land. Activate this 
 Name:   Nature's Claim
 Cost:   G
 Type:   Instant
-S/R:    WWK-C, CNS-C, EMA-C
+S/R:    WWK-C, CNS-C, EMA-C, IMA-C
 Destroy target artifact or enchantment. Its controller gains 4 life.
 
 Name:   Nature's Cloak
@@ -825,7 +825,7 @@ Whenever a creature you control deals combat damage to a player, put that many +
 Name:   Necropotence
 Cost:   BBB
 Type:   Enchantment
-S/R:    IA-R, 5E-R, EMA-M, VMA-R, ME2-R, V09-M
+S/R:    IA-R, 5E-R, EMA-M, IMA-M, VMA-R, ME2-R, V09-M
 Skip your draw step.
 Whenever you discard a card, exile that card from your graveyard.
 Pay 1 life: Exile the top card of your library face down. Put that card into your hand at the beginning of your next end step.
@@ -947,6 +947,13 @@ P/T:    3/6
 S/R:    LGN-C
 Reach (This creature can block creatures with flying.)
 
+Name:   Needletooth Raptor
+Cost:   3R
+Type:   Creature — Dinosaur
+P/T:    2/2
+S/R:    RIX-U
+Enrage — Whenever Needletooth Raptor is dealt damage, it deals 5 damage to target creature an opponent controls.
+
 Name:   Nef-Crop Entangler
 Cost:   1R
 Type:   Creature — Human Warrior
@@ -982,7 +989,7 @@ Whenever Nefashu attacks, up to five target creatures each get -1/-1 until end o
 Name:   Negate
 Cost:   1U
 Type:   Instant
-S/R:    MOR-C, M10-C, M11-C, M12-C, M13-C, M14-C, M15-C, DTK-C, ORI-C, OGW-C, CN2-C, AeR-C
+S/R:    MOR-C, M10-C, M11-C, M12-C, M13-C, M14-C, M15-C, DTK-C, ORI-C, OGW-C, CN2-C, AeR-C, RIX-C
 Counter target noncreature spell.
 
 Name:   Neglected Heirloom
@@ -1192,7 +1199,7 @@ Name:   Netcaster Spider
 Cost:   2G
 Type:   Creature — Spider
 P/T:    2/3
-S/R:    M15-C, OGW-C, CN2-C, DDO-C
+S/R:    M15-C, OGW-C, CN2-C, IMA-C, DDO-C
 Reach (This creature can block creatures with flying.)
 Whenever Netcaster Spider blocks a creature with flying, Netcaster Spider gets +2/+0 until end of turn.
 
@@ -1455,6 +1462,16 @@ S/R:    RTR-U
 {W}{U}: Target creature gains flying until end of turn.
 {3}{W}{U}: Detain target nonland permanent an opponent controls. (Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.)
 
+Name:   Nezahal, Primal Tide
+Cost:   5UU
+Type:   Legendary Creature — Elder Dinosaur
+P/T:    7/7
+S/R:    RIX-R
+Nezahal, Primal Tide can't be countered.
+You have no maximum hand size.
+Whenever an opponent casts a noncreature spell, draw a card.
+Discard three cards: Exile Nezahal. Return it to the battlefield tapped under its owner's control at the beginning of the next end step.
+
 Name:   Nezumi Bone-Reader
 Cost:   1B
 Type:   Creature — Rat Shaman
@@ -1646,7 +1663,7 @@ Target player reveals his or her hand. You choose a nonland card from it. Exile 
 Name:   Night of Souls' Betrayal
 Cost:   2BB
 Type:   Legendary Enchantment
-S/R:    CHK-R
+S/R:    CHK-R, IMA-R
 All creatures get -1/-1.
 
 Name:   Night's Whisper
@@ -2007,7 +2024,7 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 
 Name:   Nimbus Maze
 Type:   Land
-S/R:    FUT-R
+S/R:    FUT-R, IMA-R
 {T}: Add {C} to your mana pool.
 {T}: Add {W} to your mana pool. Activate this ability only if you control an Island.
 {T}: Add {U} to your mana pool. Activate this ability only if you control a Plains.
@@ -2187,7 +2204,7 @@ P/T:    3
 Color:  Green
 M-type: Transform
 M-card: Nissa, Vastwood Seer
-S/R:    ORI-M
+S/R:    ORI-M, V17-M
 [+1]: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand.
 [-2]: Create a legendary 4/4 green Elemental creature token named Ashaya, the Awoken World.
 [-7]: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands.
@@ -2207,7 +2224,7 @@ Type:   Legendary Creature — Elf Scout
 P/T:    2/2
 M-type: Transform
 M-card: Nissa, Sage Animist
-S/R:    ORI-M
+S/R:    ORI-M, V17-M
 When Nissa, Vastwood Seer enters the battlefield, you may search your library for a basic Forest card, reveal it, put it into your hand, then shuffle your library.
 Whenever a land enters the battlefield under your control, if you control seven or more lands, exile Nissa, then return her to the battlefield transformed under her owner's control.
 
@@ -2711,7 +2728,7 @@ Name:   Noxious Dragon
 Cost:   4BB
 Type:   Creature — Dragon
 P/T:    4/4
-S/R:    FRF-U
+S/R:    FRF-U, IMA-U
 Flying
 When Noxious Dragon dies, you may destroy target creature with converted mana cost 3 or less.
 
