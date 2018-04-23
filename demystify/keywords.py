@@ -727,6 +727,7 @@ _types = [
     # Player types
     Noun("PLAYER", "player", "players"),
     Noun("TEAMMATE", "teammate", "teammates"),
+    Noun("TEAM", "team", "teams"),
     Noun("OPPONENT", "opponent", "opponents"),
     Noun("CONTROLLER", "controller", "controllers"),
     Noun("OWNER", "owner", "owners"),
@@ -781,6 +782,7 @@ _enchantment_types = [
     Noun("AURA", "aura", "auras"),
     Noun("CARTOUCHE", "cartouche", "cartouche"),
     Noun("CURSE", "curse", "curses"),
+    Noun("SAGA", "saga", "sagas"),
     Noun("SHRINE", "shrine", "shrines"),
 ]
 
@@ -1164,6 +1166,7 @@ counter_types = [
     "doom",
     "dream",
     "echo",
+    "egg",
     "elixir",
     "energy",
     "eon",
@@ -1230,6 +1233,7 @@ counter_types = [
     "shell",
     "shield",
     "shred",
+    "silver",
     "sleep",
     "sleight",
     "slime",
@@ -1471,6 +1475,7 @@ _concepts = [
     Keyword(("DRAWN", "drawn")),
     Keyword(("FACE_UP", "face-up", "face up")),
     Keyword(("FACE_DOWN", "face-down", "face down")),
+    Keyword(("HISTORIC", "historic")),
     Keyword(("LABEL", "label")),
     Keyword(("LEVEL", "level")),
     Keyword(("MARKED", "marked")),

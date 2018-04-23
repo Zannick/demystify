@@ -29,6 +29,7 @@ raw_keyword : raw_keyword_no_args
             | raw_keyword_int_cost
             | raw_keyword_quality
             | ENCHANT
+            | HEXPROOF
             | PROTECTION
             | AFFINITY
             | CHAMPION
@@ -56,6 +57,7 @@ raw_keyword_with_int : raw_keyword_int
 // This happens to include things that use more specialized quality args.
 raw_keyword_with_quality : raw_keyword_quality
                          | ENCHANT
+                         | HEXPROOF
                          | PROTECTION
                          | AFFINITY
                          | CHAMPION
@@ -77,7 +79,6 @@ raw_keyword_no_args : DEATHTOUCH
                     | FLASH
                     | FLYING
                     | HASTE
-                    | HEXPROOF
                     | INDESTRUCTIBLE
                     | INTIMIDATE
                     | LIFELINK
@@ -136,8 +137,7 @@ raw_keyword_no_args : DEATHTOUCH
                     | WITHER
                     ;
 
-raw_keyword_cost : EQUIP
-                 | aura_swap
+raw_keyword_cost : aura_swap
                  | BESTOW
                  | BUYBACK
                  | CUMULATIVE_UPKEEP
@@ -201,6 +201,9 @@ raw_keyword_int_cost : AWAKEN
 
 raw_keyword_quality : bands_with_other
                     ;
+
+raw_keyword_quality_cost : EQUIP
+                         ;
 
 /* Keyword actions. */
 // These are taken by players, either implicitly ("then manifest"),

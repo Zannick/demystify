@@ -78,6 +78,13 @@ keyword_champion : CHAMPION A keyword_arg_quality
 
 keyword_enchant : ENCHANT^ ( properties | player_subset );
 
+// todo: keyword_equip : EQUIP^ properties? cost'
+
+keyword_hexproof : HEXPROOF^
+                 ( FROM! keyword_arg_prot
+                   ( ( COMMA! ( FROM! keyword_arg_prot COMMA! )+ )?
+                       AND! FROM! keyword_arg_prot )? )? ;
+
 keyword_kicker : KICKER^ keyword_arg_cost ( AND_OR! keyword_arg_cost )? ;
 
 keyword_landwalk : keyword_arg_quality WALK

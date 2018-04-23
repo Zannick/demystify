@@ -419,6 +419,7 @@ tokens {
     HIM;
     HIMSELF;
     HIS;
+    HISTORIC;
     HOMELANDS;
     HORSEMANSHIP;
     HOW;
@@ -790,6 +791,7 @@ tokens {
     TAPPING;
     TARGET;
     TARGETED;
+    TEAM;
     TEAMMATE;
     TEXT;
     THAN;
@@ -1060,6 +1062,7 @@ OBJ_COUNTER : 'manifestation'
             | 'plague'
             | 'scream'
             | 'shield'
+            | 'silver'
             | 'strife'
             | 'vortex'
             | 'arrow'
@@ -1110,6 +1113,7 @@ OBJ_COUNTER : 'manifestation'
             | 'wish'
             | 'age'
             | 'aim'
+            | 'egg'
             | 'eon'
             | 'gem'
             | 'ice'
@@ -1591,6 +1595,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'rhino'
             | 'rogue'
             | 'sable'
+            | 'sagas'
             | 'samut'
             | 'satyr'
             | 'scion'
@@ -1660,6 +1665,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'pest'
             | 'rath'
             | 'rats'
+            | 'saga'
             | 'sand'
             | 'serf'
             | 'slug'
@@ -1932,6 +1938,7 @@ GUESSING : 'guessing';
 HAUNTING : 'haunting';
 HEXPROOF : 'hexproof';
 HIDEAWAY : 'hideaway';
+HISTORIC : 'historic';
 IDENTITY : 'identity';
 INCREASE : 'increases'
          | 'increase';
@@ -2637,6 +2644,8 @@ SWAP : 'swaps'
      | 'swap';
 TAKE : 'takes'
      | 'take';
+TEAM : 'teams'
+     | 'team';
 TEXT : 'text';
 THAN : 'than';
 THAT : 'that';
