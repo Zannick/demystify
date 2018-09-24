@@ -80,7 +80,7 @@ Name:   Fade Away
 Cost:   2U
 Type:   Sorcery
 S/R:    EX-C
-For each creature, its controller sacrifices a permanent unless he or she pays {1}.
+For each creature, its controller sacrifices a permanent unless they pay {1}.
 
 Name:   Fade from Memory
 Cost:   B
@@ -107,7 +107,7 @@ Name:   Faerie Conclave
 Type:   Land
 S/R:    UL-U, 10E-U, C13-U, CMA-U
 Faerie Conclave enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 {1}{U}: Faerie Conclave becomes a 2/1 blue Faerie creature with flying until end of turn. It's still a land.
 
 Name:   Faerie Harbinger
@@ -147,7 +147,7 @@ Name:   Faerie Mechanist
 Cost:   3U
 Type:   Artifact Creature — Faerie Artificer
 P/T:    2/2
-S/R:    CON-C, MMA-C, MM2-C, DDF-C
+S/R:    CON-C, MMA-C, MM2-C, DDF-C, DDU-C
 Flying
 When Faerie Mechanist enters the battlefield, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 
@@ -348,7 +348,7 @@ Type:   Sorcery
 M-type: Split
 M-card: Rise
 S/R:    DIS-U, DDH-U
-Target player reveals two cards at random from his or her hand, then discards each nonland card revealed this way.
+Target player reveals two cards at random from their hand, then discards each nonland card revealed this way.
 
 Name:   Fall of the Gavel
 Cost:   3WU
@@ -362,18 +362,26 @@ Type:   Instant
 S/R:    BNG-C, C15-C
 Target creature you control deals damage equal to its power to another target creature.
 
+Name:   Fall of the Thran
+Cost:   5W
+Type:   Enchantment — Saga
+S/R:    DOM-R
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy all lands.
+II, III — Each player returns two land cards from their graveyard to the battlefield.
+
 Name:   Fall of the Titans
 Cost:   XXR
 Type:   Instant
 S/R:    OGW-R
 Surge {X}{R} (You may cast this spell for its surge cost if you or a teammate has cast another spell this turn.)
-Fall of the Titans deals X damage to each of up to two target creatures and/or players.
+Fall of the Titans deals X damage to each of up to two targets.
 
 Name:   Fallen Angel
 Cost:   3BB
 Type:   Creature — Angel
 P/T:    3/3
-S/R:    LE-U, CH-U, 5E-U, 6E-R, 7E-R, 8ED-R, CMD-R, CMA-R, DDC-R
+S/R:    LE-U, CH-U, 5E-U, 6E-R, 7E-R, 8ED-R, CMD-R, CMA-R, A25-U, DDC-R
 Flying
 Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.
 
@@ -399,7 +407,7 @@ Type:   Creature — Human Shaman
 P/T:    1/1
 S/R:    NPH-U
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-{1}{R}, {T}: Fallen Ferromancer deals 1 damage to target creature or player.
+{1}{R}, {T}: Fallen Ferromancer deals 1 damage to any target.
 
 Name:   Fallen Ideal
 Cost:   2B
@@ -414,7 +422,7 @@ Cost:   2G
 Type:   Instant
 S/R:    PS-C
 Kicker—Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)
-Prevent all combat damage target creature would deal this turn. If Falling Timber was kicked, prevent all combat damage another target creature would deal this turn.
+Prevent all combat damage target creature would deal this turn. If this spell was kicked, prevent all combat damage another target creature would deal this turn.
 
 Name:   Fallow Earth
 Cost:   2G
@@ -440,13 +448,13 @@ Name:   False Cure
 Cost:   BB
 Type:   Instant
 S/R:    ONS-R
-Until end of turn, whenever a player gains life, that player loses 2 life for each 1 life he or she gained.
+Until end of turn, whenever a player gains life, that player loses 2 life for each 1 life they gained.
 
 Name:   False Dawn
 Cost:   1W
 Type:   Sorcery
 S/R:    AP-R
-Until end of turn, spells and abilities you control that would add colored mana to your mana pool add that much white mana instead. Until end of turn, you may spend white mana as though it were mana of any color.
+Until end of turn, spells and abilities you control that would add colored mana instead add that much white mana. Until end of turn, you may spend white mana as though it were mana of any color.
 Draw a card.
 
 Name:   False Defeat
@@ -478,14 +486,14 @@ Name:   False Orders
 Cost:   R
 Type:   Instant
 S/R:    A-C, B-C, U-C
-Cast False Orders only during the declare blockers step.
+Cast this spell only during the declare blockers step.
 Remove target creature defending player controls from combat. Creatures it was blocking that had become blocked by only that creature this combat become unblocked. You may have it block an attacking creature of your choice.
 
 Name:   False Peace
 Cost:   W
 Type:   Sorcery
 S/R:    P1-C, S99-U
-Target player skips all combat phases of his or her next turn.
+Target player skips all combat phases of their next turn.
 
 Name:   False Prophet
 Cost:   2WW
@@ -525,7 +533,7 @@ Name:   Familiar's Ruse
 Cost:   UU
 Type:   Instant
 S/R:    LRW-U, MM3-U
-As an additional cost to cast Familiar's Ruse, return a creature you control to its owner's hand.
+As an additional cost to cast this spell, return a creature you control to its owner's hand.
 Counter target spell.
 
 Name:   Famine
@@ -590,7 +598,7 @@ Type:   Creature — Goblin Pirate
 P/T:    1/1
 S/R:    RIX-C
 Haste
-{T}, Sacrifice Fanatical Firebrand: It deals 1 damage to target creature or player.
+{T}, Sacrifice Fanatical Firebrand: It deals 1 damage to any target.
 
 Name:   Fang Skulkin
 Cost:   2
@@ -640,7 +648,7 @@ Cost:   XRR
 Type:   Sorcery
 S/R:    ST-U
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
-Fanning the Flames deals X damage to target creature or player.
+Fanning the Flames deals X damage to any target.
 
 Name:   Far
 Cost:   1U
@@ -721,7 +729,7 @@ Cost:   1WW
 Type:   Creature — Human Cleric
 P/T:    1/3
 S/R:    FE-U
-{1}: Add {W} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Farrelite Priest at the beginning of the next end step.
+{1}: Add {W}. If this ability has been activated four or more times this turn, sacrifice Farrelite Priest at the beginning of the next end step.
 
 Name:   Farseek
 Cost:   1G
@@ -741,7 +749,7 @@ Type:   Sorcery
 S/R:    FRF-U
 Choose one —
 • Each player draws X cards.
-• Each player puts the top X cards of his or her library into his or her graveyard.
+• Each player puts the top X cards of their library into their graveyard.
 
 Name:   Fastbond
 Cost:   G
@@ -867,7 +875,7 @@ Name:   Fateful Showdown
 Cost:   2RR
 Type:   Instant
 S/R:    KLD-R
-Fateful Showdown deals damage to target creature or player equal to the number of cards in your hand. Discard all the cards in your hand, then draw that many cards.
+Fateful Showdown deals damage to any target equal to the number of cards in your hand. Discard all the cards in your hand, then draw that many cards.
 
 Name:   Fatespinner
 Cost:   1UU
@@ -891,8 +899,8 @@ P/T:    1/1
 S/R:    BFZ-R
 Devoid (This card has no color.)
 Deathtouch
-Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
-{3}{U}{B}: Draw a card. Each opponent exiles the top card of his or her library.
+Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)
+{3}{U}{B}: Draw a card. Each opponent exiles the top card of their library.
 
 Name:   Fathom Fleet Boarder
 Cost:   2B
@@ -935,7 +943,7 @@ Name:   Fathom Seer
 Cost:   1U
 Type:   Creature — Illusion
 P/T:    1/3
-S/R:    TSP-C, C14-C, DD2-C, DDN-C
+S/R:    TSP-C, C14-C, A25-C, DD2-C, DDN-C
 Morph—Return two Islands you control to their owner's hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Fathom Seer is turned face up, draw two cards.
 
@@ -949,7 +957,7 @@ Name:   Fatigue
 Cost:   1U
 Type:   Sorcery
 S/R:    UD-C
-Target player skips his or her next draw step.
+Target player skips their next draw step.
 
 Name:   Fault Line
 Cost:   XRR
@@ -1046,7 +1054,7 @@ Name:   Feast of Blood
 Cost:   1B
 Type:   Sorcery
 S/R:    ZEN-U
-Cast Feast of Blood only if you control two or more Vampires.
+Cast this spell only if you control two or more Vampires.
 Destroy target creature. You gain 4 life.
 
 Name:   Feast of Dreams
@@ -1141,7 +1149,7 @@ Name:   Feedback Bolt
 Cost:   4R
 Type:   Instant
 S/R:    5DN-U
-Feedback Bolt deals damage to target player equal to the number of artifacts you control.
+Feedback Bolt deals damage to target player or planeswalker equal to the number of artifacts you control.
 
 Name:   Feeding Frenzy
 Cost:   2B
@@ -1261,7 +1269,7 @@ Name:   Fellwar Stone
 Cost:   2
 Type:   Artifact
 S/R:    DK-U, 4E-U, 5E-U, 9ED-U, CMD-U, C15-U, C16-U, C17-U, ME3-C
-{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
+{T}: Add one mana of any color that a land an opponent controls could produce.
 
 Name:   Femeref Archers
 Cost:   2G
@@ -1282,7 +1290,7 @@ Cost:   1W
 Type:   Creature — Human Cleric
 P/T:    1/1
 S/R:    MI-C
-{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+{T}: Prevent the next 1 damage that would be dealt to any target this turn.
 
 Name:   Femeref Knight
 Cost:   2W
@@ -1332,7 +1340,7 @@ Name:   Fencing Ace
 Cost:   1W
 Type:   Creature — Human Soldier
 P/T:    1/1
-S/R:    RTR-U, E01-U, DDL-U
+S/R:    RTR-U, E01-U, A25-C, DDL-U
 Double strike (This creature deals both first-strike and regular combat damage.)
 
 Name:   Fend Off
@@ -1348,6 +1356,13 @@ Type:   Creature — Treefolk Shaman
 P/T:    3/5
 S/R:    MOR-R
 {T}: Up to two target Swamps each become 3/5 Treefolk Warrior creatures in addition to their other types until end of turn.
+
+Name:   Feral Abomination
+Cost:   5B
+Type:   Creature — Thrull
+P/T:    5/5
+S/R:    DOM-C
+Deathtouch
 
 Name:   Feral Animist
 Cost:   1RG
@@ -1489,20 +1504,20 @@ Cost:   1G
 Type:   Enchantment — Aura
 S/R:    US-C, IN-C, 8ED-C, LRW-C, HOP-C, DDE-C
 Enchant land
-Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.
 
 Name:   Fertile Imagination
 Cost:   2GG
 Type:   Sorcery
 S/R:    DIS-U
-Choose a card type. Target opponent reveals his or her hand. Create two 1/1 green Saproling creature tokens for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)
+Choose a card type. Target opponent reveals their hand. Create two 1/1 green Saproling creature tokens for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)
 
 Name:   Fertile Thicket
 Type:   Land
 S/R:    BFZ-C, DDR-C
 Fertile Thicket enters the battlefield tapped.
 When Fertile Thicket enters the battlefield, you may look at the top five cards of your library. If you do, reveal up to one basic land card from among them, then put that card on top of your library and the rest on the bottom in any order.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 
 Name:   Fertilid
 Cost:   2G
@@ -1510,7 +1525,7 @@ Type:   Creature — Elemental
 P/T:    0/0
 S/R:    MOR-C, HOP-C, ARC-C, CMD-C, E01-C, DDR-C
 Fertilid enters the battlefield with two +1/+1 counters on it.
-{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches his or her library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles his or her library.
+{1}{G}, Remove a +1/+1 counter from Fertilid: Target player searches their library for a basic land card and puts it onto the battlefield tapped. Then that player shuffles their library.
 
 Name:   Fervent Cathar
 Cost:   2R
@@ -1521,7 +1536,7 @@ Haste
 When Fervent Cathar enters the battlefield, target creature can't block this turn.
 
 Name:   Fervent Charge
-Cost:   1WBR
+Cost:   1RWB
 Type:   Enchantment
 S/R:    AP-R
 Whenever a creature you control attacks, it gets +2/+2 until end of turn.
@@ -1538,8 +1553,14 @@ Cost:   2R
 Type:   Creature — Human Wizard
 P/T:    3/1
 S/R:    HOU-U
-{T}: Fervent Paincaster deals 1 damage to target player.
+{T}: Fervent Paincaster deals 1 damage to target player or planeswalker.
 {T}, Exert Fervent Paincaster: It deals 1 damage to target creature. (An exerted creature won't untap during your next untap step.)
+
+Name:   Fervent Strike
+Cost:   R
+Type:   Instant
+S/R:    DOM-C
+Target creature gets +1/+0 and gains first strike and haste until end of turn.
 
 Name:   Fervor
 Cost:   2R
@@ -1574,7 +1595,7 @@ Cost:   3BB
 Type:   Enchantment
 S/R:    WL-U
 At the beginning of your upkeep, Festering Evil deals 1 damage to each creature and each player.
-{B}{B}, Sacrifice Festering Evil: Festering Evil deals 3 damage to each creature and each player.
+{B}{B}, Sacrifice Festering Evil: It deals 3 damage to each creature and each player.
 
 Name:   Festering Goblin
 Cost:   B
@@ -1616,7 +1637,7 @@ Name:   Festival
 Cost:   W
 Type:   Instant
 S/R:    DK-C
-Cast Festival only during an opponent's upkeep.
+Cast this spell only during an opponent's upkeep.
 Creatures can't attack this turn.
 
 Name:   Festival of Trokin
@@ -1634,9 +1655,9 @@ Draw a card.
 
 Name:   Fetid Heath
 Type:   Land
-S/R:    EVE-R, EXP-M
-{T}: Add {C} to your mana pool.
-{(w/b)}, {T}: Add {W}{W}, {W}{B}, or {B}{B} to your mana pool.
+S/R:    EVE-R, EXP-M, A25-R
+{T}: Add {C}.
+{(w/b)}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.
 
 Name:   Fetid Horror
 Cost:   3B
@@ -1656,7 +1677,7 @@ Flying (This creature can't be blocked except by creatures with flying or reach.
 Name:   Fetid Pools
 Type:   Land — Island Swamp
 S/R:    AKH-R
-({T}: Add {U} or {B} to your mana pool.)
+({T}: Add {U} or {B}.)
 Fetid Pools enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
@@ -1700,7 +1721,7 @@ Name:   Fevered Visions
 Cost:   1UR
 Type:   Enchantment
 S/R:    SOI-R
-At the beginning of each player's end step, that player draws a card. If the player is your opponent and has four or more cards in hand, Fevered Visions deals 2 damage to him or her.
+At the beginning of each player's end step, that player draws a card. If the player is your opponent and has four or more cards in hand, Fevered Visions deals 2 damage to that player.
 
 Name:   Fibrous Entangler
 Type:   Creature — Eldrazi Werewolf
@@ -1763,8 +1784,8 @@ Enchanted creature can't be blocked by Spirits.
 Name:   Field of Ruin
 Type:   Land
 S/R:    XLN-U
-{T}: Add {C} to your mana pool.
-{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches his or her library for a basic land card, puts it onto the battlefield, then shuffles his or her library.
+{T}: Add {C}.
+{2}, {T}, Sacrifice Field of Ruin: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles their library.
 
 Name:   Field of Souls
 Cost:   2WW
@@ -1776,9 +1797,9 @@ Name:   Fieldmist Borderpost
 Cost:   1WU
 Type:   Artifact
 S/R:    ARB-C, ARC-C
-You may pay {1} and return a basic land you control to its owner's hand rather than pay Fieldmist Borderpost's mana cost.
+You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
 Fieldmist Borderpost enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.
+{T}: Add {W} or {U}.
 
 Name:   Fiend Binder
 Cost:   3W
@@ -1791,7 +1812,7 @@ Name:   Fiend Hunter
 Cost:   1WW
 Type:   Creature — Human Cleric
 P/T:    1/3
-S/R:    ISD-U, C13-U, CMA-U, DDK-U, DDQ-U
+S/R:    ISD-U, C13-U, CMA-U, A25-U, DDK-U, DDQ-U
 When Fiend Hunter enters the battlefield, you may exile another target creature.
 When Fiend Hunter leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 
@@ -1801,7 +1822,7 @@ Type:   Creature — Vampire Wizard
 P/T:    3/3
 S/R:    DKA-R
 Flying
-Whenever Fiend of the Shadows deals combat damage to a player, that player exiles a card from his or her hand. You may play that card for as long as it remains exiled.
+Whenever Fiend of the Shadows deals combat damage to a player, that player exiles a card from their hand. You may play that card for as long as it remains exiled.
 Sacrifice a Human: Regenerate Fiend of the Shadows.
 
 Name:   Fiendslayer Paladin
@@ -1817,7 +1838,7 @@ Name:   Fierce Empath
 Cost:   2G
 Type:   Creature — Elf
 P/T:    1/1
-S/R:    SCG-C, ARC-C, CMD-C
+S/R:    SCG-C, ARC-C, CMD-C, A25-U, DDU-C
 When Fierce Empath enters the battlefield, you may search your library for a creature card with converted mana cost 6 or greater, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Fierce Invocation
@@ -1830,7 +1851,7 @@ Name:   Fiery Bombardment
 Cost:   1R
 Type:   Enchantment
 S/R:    EVE-R
-Chroma — {2}, Sacrifice a creature: Fiery Bombardment deals damage to target creature or player equal to the number of red mana symbols in the sacrificed creature's mana cost.
+Chroma — {2}, Sacrifice a creature: Fiery Bombardment deals damage to any target equal to the number of red mana symbols in the sacrificed creature's mana cost.
 
 Name:   Fiery Cannonade
 Cost:   2R
@@ -1842,7 +1863,7 @@ Name:   Fiery Conclusion
 Cost:   1R
 Type:   Instant
 S/R:    RAV-C, PC2-C, ORI-U, PCA-C
-As an additional cost to cast Fiery Conclusion, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Fiery Conclusion deals 5 damage to target creature.
 
 Name:   Fiery Confluence
@@ -1859,7 +1880,7 @@ Cost:   5R
 Type:   Instant
 S/R:    CON-C, PC2-C, MMA-C, MM2-C, CN2-C, PCA-C, E01-C, DDG-C, DDN-C
 Fiery Fall deals 5 damage to target creature.
-Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)
+Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.)
 
 Name:   Fiery Gambit
 Cost:   2R
@@ -1881,11 +1902,19 @@ S/R:    ORI-C
 Fiery Impulse deals 2 damage to target creature.
 Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Fiery Impulse deals 3 damage to that creature instead.
 
+Name:   Fiery Intervention
+Cost:   4R
+Type:   Sorcery
+S/R:    DOM-C
+Choose one —
+• Fiery Intervention deals 5 damage to target creature.
+• Destroy target artifact.
+
 Name:   Fiery Justice
 Cost:   RGW
 Type:   Sorcery
 S/R:    IA-R, TSP-S, C13-R, MM3-R
-Fiery Justice deals 5 damage divided as you choose among any number of target creatures and/or players. Target opponent gains 5 life.
+Fiery Justice deals 5 damage divided as you choose among any number of targets. Target opponent gains 5 life.
 
 Name:   Fiery Mantle
 Cost:   1R
@@ -1899,7 +1928,7 @@ Name:   Fiery Temper
 Cost:   1RR
 Type:   Instant
 S/R:    TOR-C, TSP-S, SOI-C
-Fiery Temper deals 3 damage to target creature or player.
+Fiery Temper deals 3 damage to any target.
 Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Fight
@@ -1915,13 +1944,20 @@ Name:   Fight or Flight
 Cost:   3W
 Type:   Enchantment
 S/R:    IN-R
-At the beginning of combat on each opponent's turn, separate all creatures that player controls into two piles. Only creatures in the pile of his or her choice can attack this turn.
+At the beginning of combat on each opponent's turn, separate all creatures that player controls into two piles. Only creatures in the pile of their choice can attack this turn.
 
 Name:   Fight to the Death
 Cost:   RW
 Type:   Instant
 S/R:    ARB-R
 Destroy all blocking creatures and all blocked creatures.
+
+Name:   Fight with Fire
+Cost:   2R
+Type:   Sorcery
+S/R:    DOM-U
+Kicker {5}{R} (You may pay an additional {5}{R} as you cast this spell.)
+Fight with Fire deals 5 damage to target creature. If this spell was kicked, it deals 10 damage divided as you choose among any number of targets instead. (Those targets can include players and planeswalkers.)
 
 Name:   Fighting Chance
 Cost:   R
@@ -1964,7 +2000,7 @@ Name:   Filigree Familiar
 Cost:   3
 Type:   Artifact Creature — Fox
 P/T:    2/2
-S/R:    KLD-U
+S/R:    KLD-U, DDU-U
 When Filigree Familiar enters the battlefield, you gain 2 life.
 When Filigree Familiar dies, draw a card.
 
@@ -2024,11 +2060,17 @@ Type:   Sorcery
 S/R:    BOK-R
 Exile all creatures.
 
+Name:   Final Parting
+Cost:   3BB
+Type:   Sorcery
+S/R:    DOM-U
+Search your library for two cards. Put one into your hand and the other into your graveyard. Then shuffle your library.
+
 Name:   Final Punishment
 Cost:   3BB
 Type:   Sorcery
 S/R:    SCG-R, 9ED-R
-Target player loses life equal to the damage already dealt to him or her this turn.
+Target player loses life equal to the damage already dealt to that player this turn.
 
 Name:   Final Revels
 Cost:   4B
@@ -2048,8 +2090,8 @@ Name:   Final Strike
 Cost:   2BB
 Type:   Sorcery
 S/R:    P1-R
-As an additional cost to cast Final Strike, sacrifice a creature.
-Final Strike deals damage to target opponent equal to the sacrificed creature's power.
+As an additional cost to cast this spell, sacrifice a creature.
+Final Strike deals damage to target opponent or planeswalker equal to the sacrificed creature's power.
 
 Name:   Final-Sting Faerie
 Cost:   3B
@@ -2082,13 +2124,13 @@ Type:   Instant
 M-type: Split
 M-card: Ice
 S/R:    AP-U, CMD-U, DDJ-U
-Fire deals 2 damage divided as you choose among one or two target creatures and/or players.
+Fire deals 2 damage divided as you choose among one or two targets.
 
 Name:   Fire Ambush
 Cost:   1R
 Type:   Sorcery
 S/R:    P3K-C, ME3-C
-Fire Ambush deals 3 damage to target creature or player.
+Fire Ambush deals 3 damage to any target.
 
 Name:   Fire Ants
 Cost:   2R
@@ -2102,13 +2144,13 @@ Cost:   R
 Type:   Creature — Human Soldier Archer
 P/T:    1/1
 S/R:    P3K-U
-Sacrifice Fire Bowman: Fire Bowman deals 1 damage to target creature or player. Activate this ability only during your turn, before attackers are declared.
+Sacrifice Fire Bowman: It deals 1 damage to any target. Activate this ability only during your turn, before attackers are declared.
 
 Name:   Fire Covenant
 Cost:   1BR
 Type:   Instant
 S/R:    IA-U, MED-U
-As an additional cost to cast Fire Covenant, pay X life.
+As an additional cost to cast this spell, pay X life.
 Fire Covenant deals X damage divided as you choose among any number of target creatures.
 
 Name:   Fire Diamond
@@ -2116,7 +2158,7 @@ Cost:   2
 Type:   Artifact
 S/R:    MI-U, 6E-U, 7E-U, C14-U
 Fire Diamond enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 
 Name:   Fire Dragon
 Cost:   6RRR
@@ -2138,7 +2180,7 @@ Name:   Fire Elemental
 Cost:   3RR
 Type:   Creature — Elemental
 P/T:    5/4
-S/R:    A-U, B-U, U-U, RV-U, 4E-U, 6E-U, S99-U, 7E-U, M13-C
+S/R:    A-U, B-U, U-U, RV-U, 4E-U, 6E-U, S99-U, 7E-U, M13-C, DOM-C
 
 Name:   Fire Imp
 Cost:   2R
@@ -2152,7 +2194,7 @@ Cost:   2R
 Type:   Creature — Goblin Shaman
 P/T:    2/2
 S/R:    MOR-C
-Whenever Fire Juggler becomes blocked, clash with an opponent. If you win, Fire Juggler deals 4 damage to each creature blocking it. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Whenever Fire Juggler becomes blocked, clash with an opponent. If you win, Fire Juggler deals 4 damage to each creature blocking it. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Fire Servant
 Cost:   3RR
@@ -2182,7 +2224,7 @@ Type:   Creature — Faerie
 P/T:    1/1
 S/R:    LE-C, ME3-C
 Flying
-{G}, {T}: Add {R} to your mana pool.
+{G}, {T}: Add {R}.
 
 Name:   Fire Tempest
 Cost:   5RR
@@ -2195,8 +2237,8 @@ Cost:   1R
 Type:   Enchantment — Aura
 S/R:    WL-C, TSP-S
 Enchant creature you control
-Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
-Sacrifice Fire Whip: Fire Whip deals 1 damage to target creature or player.
+Enchanted creature has "{T}: This creature deals 1 damage to any target."
+Sacrifice Fire Whip: Fire Whip deals 1 damage to any target.
 
 Name:   Fire and Brimstone
 Cost:   3WW
@@ -2229,28 +2271,28 @@ Unearth {U}{B}{R} ({U}{B}{R}: Return this card from your graveyard to the battle
 Name:   Fire-Lit Thicket
 Type:   Land
 S/R:    SHM-R, EXP-M
-{T}: Add {C} to your mana pool.
-{(r/g)}, {T}: Add {R}{R}, {R}{G}, or {G}{G} to your mana pool.
+{T}: Add {C}.
+{(r/g)}, {T}: Add {R}{R}, {R}{G}, or {G}{G}.
 
 Name:   Fireball
 Cost:   XR
 Type:   Sorcery
 S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, DST-U, M10-U, ARC-U, M11-U, M12-U, C13-U, IMA-U, DD2-U, ME4-U, PD2-U
-Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players.
-Fireball costs {1} more to cast for each target beyond the first.
+This spell costs {1} more to cast for each target beyond the first.
+Fireball deals X damage divided evenly, rounded down, among any number of targets.
 
 Name:   Fireblast
 Cost:   4RR
 Type:   Instant
 S/R:    VI-C, VMA-U, DD2-C, PD2-C
-You may sacrifice two Mountains rather than pay Fireblast's mana cost.
-Fireblast deals 4 damage to target creature or player.
+You may sacrifice two Mountains rather than pay this spell's mana cost.
+Fireblast deals 4 damage to any target.
 
 Name:   Firebolt
 Cost:   R
 Type:   Sorcery
 S/R:    OD-C, EMA-C, DD2-C, DDS-C
-Firebolt deals 2 damage to target creature or player.
+Firebolt deals 2 damage to any target.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Firebrand Archer
@@ -2304,6 +2346,13 @@ S/R:    ORI-C
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
 
+Name:   Firefist Adept
+Cost:   4R
+Type:   Creature — Human Wizard
+P/T:    3/3
+S/R:    DOM-U
+When Firefist Adept enters the battlefield, it deals X damage to target creature an opponent controls, where X is the number of Wizards you control.
+
 Name:   Firefist Striker
 Cost:   1R
 Type:   Creature — Human Soldier
@@ -2323,8 +2372,8 @@ Name:   Fireforger's Puzzleknot
 Cost:   2
 Type:   Artifact
 S/R:    KLD-C
-When Fireforger's Puzzleknot enters the battlefield, it deals 1 damage to target creature or player.
-{2}{R}, Sacrifice Fireforger's Puzzleknot: It deals 1 damage to target creature or player.
+When Fireforger's Puzzleknot enters the battlefield, it deals 1 damage to any target.
+{2}{R}, Sacrifice Fireforger's Puzzleknot: It deals 1 damage to any target.
 
 Name:   Firefright Mage
 Cost:   R
@@ -2355,7 +2404,7 @@ Type:   Creature — Angel
 P/T:    3/3
 S/R:    GTC-R
 Flying
-Battalion — Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to target creature or player and you gain 3 life.
+Battalion — Whenever Firemane Avenger and at least two other creatures attack, Firemane Avenger deals 3 damage to any target and you gain 3 life.
 
 Name:   Firemantle Mage
 Cost:   2R
@@ -2383,7 +2432,7 @@ Name:   Fires of Undeath
 Cost:   2R
 Type:   Instant
 S/R:    DKA-C
-Fires of Undeath deals 2 damage to target creature or player.
+Fires of Undeath deals 2 damage to any target.
 Flashback {5}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Fires of Yavimaya
@@ -2412,7 +2461,15 @@ Cost:   1R
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    TE-C, DD2-C
-{T}: Fireslinger deals 1 damage to target creature or player and 1 damage to you.
+{T}: Fireslinger deals 1 damage to any target and 1 damage to you.
+
+Name:   Firesong and Sunspeaker
+Cost:   4RW
+Type:   Legendary Creature — Minotaur Cleric
+P/T:    4/6
+S/R:    DOM-R
+Red instant and sorcery spells you control have lifelink.
+Whenever a white instant or sorcery spell causes you to gain life, Firesong and Sunspeaker deals 3 damage to target creature or player.
 
 Name:   Firespout
 Cost:   2(R/G)
@@ -2424,8 +2481,8 @@ Name:   Firestorm
 Cost:   R
 Type:   Instant
 S/R:    WL-R
-As an additional cost to cast Firestorm, discard X cards.
-Firestorm deals X damage to each of X target creatures and/or players.
+As an additional cost to cast this spell, discard X cards.
+Firestorm deals X damage to each of X targets.
 
 Name:   Firestorm Hellkite
 Cost:   4UR
@@ -2441,7 +2498,7 @@ Type:   Creature — Phoenix
 P/T:    3/2
 S/R:    LE-R, ME3-R
 Flying
-If Firestorm Phoenix would die, return Firestorm Phoenix to its owner's hand instead. Until that player's next turn, that player plays with that card revealed in his or her hand and can't play it.
+If Firestorm Phoenix would die, return it to its owner's hand instead. Until that player's next turn, that player plays with that card revealed in their hand and can't play it.
 
 Name:   Firewake Sliver
 Cost:   1RG
@@ -2455,9 +2512,9 @@ Name:   Firewild Borderpost
 Cost:   1RG
 Type:   Artifact
 S/R:    ARB-C
-You may pay {1} and return a basic land you control to its owner's hand rather than pay Firewild Borderpost's mana cost.
+You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
 Firewild Borderpost enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.
+{T}: Add {R} or {G}.
 
 Name:   Firewing Phoenix
 Cost:   3R
@@ -2510,7 +2567,7 @@ Name:   Fistful of Force
 Cost:   1G
 Type:   Instant
 S/R:    LRW-C
-Target creature gets +2/+2 until end of turn. Clash with an opponent. If you win, that creature gets an additional +2/+2 and gains trample until end of turn. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Target creature gets +2/+2 until end of turn. Clash with an opponent. If you win, that creature gets an additional +2/+2 and gains trample until end of turn. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Fists of Ironwood
 Cost:   1G
@@ -2545,12 +2602,12 @@ Cost:   1RR
 Type:   Enchantment
 S/R:    GTC-R
 Whenever a creature you control deals combat damage, put a blaze counter on Five-Alarm Fire.
-Remove five blaze counters from Five-Alarm Fire: Five-Alarm Fire deals 5 damage to target creature or player.
+Remove five blaze counters from Five-Alarm Fire: Five-Alarm Fire deals 5 damage to any target.
 
 Name:   Flagstones of Trokair
 Type:   Legendary Land
 S/R:    TSP-R
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 When Flagstones of Trokair is put into a graveyard from the battlefield, you may search your library for a Plains card and put it onto the battlefield tapped. If you do, shuffle your library.
 
 Name:   Flailing Drake
@@ -2590,26 +2647,26 @@ Name:   Flame Burst
 Cost:   1R
 Type:   Instant
 S/R:    OD-C
-Flame Burst deals X damage to target creature or player, where X is 2 plus the number of cards named Flame Burst in all graveyards.
+Flame Burst deals X damage to any target, where X is 2 plus the number of cards named Flame Burst in all graveyards.
 
 Name:   Flame Elemental
 Cost:   2RR
 Type:   Creature — Elemental
 P/T:    3/2
 S/R:    MI-U
-{R}, {T}, Sacrifice Flame Elemental: Flame Elemental deals damage equal to its power to target creature.
+{R}, {T}, Sacrifice Flame Elemental: It deals damage equal to its power to target creature.
 
 Name:   Flame Fusillade
 Cost:   3R
 Type:   Sorcery
 S/R:    RAV-R
-Until end of turn, permanents you control gain "{T}: This permanent deals 1 damage to target creature or player."
+Until end of turn, permanents you control gain "{T}: This permanent deals 1 damage to any target."
 
 Name:   Flame Jab
 Cost:   R
 Type:   Sorcery
 S/R:    EVE-C, EMA-U
-Flame Jab deals 1 damage to target creature or player.
+Flame Jab deals 1 damage to any target.
 Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)
 
 Name:   Flame Javelin
@@ -2617,20 +2674,20 @@ Cost:   (2/R)(2/R)(2/R)
 Type:   Instant
 S/R:    SHM-U, DD2-U, DDK-U
 ({(2/r)} can be paid with any two mana or with {R}. This card's converted mana cost is 6.)
-Flame Javelin deals 4 damage to target creature or player.
+Flame Javelin deals 4 damage to any target.
 
 Name:   Flame Jet
 Cost:   1R
 Type:   Sorcery
 S/R:    UD-C
-Flame Jet deals 3 damage to target player.
+Flame Jet deals 3 damage to target player or planeswalker.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Flame Lash
 Cost:   3R
 Type:   Instant
 S/R:    KLD-C
-Flame Lash deals 4 damage to target creature or player.
+Flame Lash deals 4 damage to any target.
 
 Name:   Flame Rift
 Cost:   1R
@@ -2655,7 +2712,7 @@ Name:   Flame Wave
 Cost:   3RRRR
 Type:   Sorcery
 S/R:    ST-U, 9ED-U
-Flame Wave deals 4 damage to target player and each creature he or she controls.
+Flame Wave deals 4 damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.
 
 Name:   Flame-Kin War Scout
 Cost:   3R
@@ -2702,7 +2759,7 @@ Type:   Creature — Dragon
 P/T:    5/5
 S/R:    ALA-R, ARC-R, M12-R
 Flying
-Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to target creature or player.
+Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to any target.
 
 Name:   Flameborn Hellion
 Cost:   5R
@@ -2728,7 +2785,7 @@ Name:   Flamecast Wheel
 Cost:   1
 Type:   Artifact
 S/R:    THS-U
-{5}, {T}, Sacrifice Flamecast Wheel: Flamecast Wheel deals 3 damage to target creature.
+{5}, {T}, Sacrifice Flamecast Wheel: It deals 3 damage to target creature.
 
 Name:   Flamecore Elemental
 Cost:   2RR
@@ -2752,7 +2809,7 @@ Cost:   R
 Type:   Creature — Elemental Warrior
 P/T:    2/1
 S/R:    LRW-U
-As an additional cost to cast Flamekin Bladewhirl, reveal an Elemental card from your hand or pay {3}.
+As an additional cost to cast this spell, reveal an Elemental card from your hand or pay {3}.
 
 Name:   Flamekin Brawler
 Cost:   R
@@ -2773,13 +2830,13 @@ Cost:   1R
 Type:   Creature — Elemental Shaman
 P/T:    1/1
 S/R:    LRW-U
-{3}{R}: Flamekin Spitfire deals 1 damage to target creature or player.
+{3}{R}: Flamekin Spitfire deals 1 damage to any target.
 
 Name:   Flamekin Village
 Type:   Land
 S/R:    C14-R
 As Flamekin Village enters the battlefield, you may reveal an Elemental card from your hand. If you don't, Flamekin Village enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 {R}, {T}: Target creature gains haste until end of turn.
 
 Name:   Flamerush Rider
@@ -2794,13 +2851,13 @@ Name:   Flames of the Blood Hand
 Cost:   2R
 Type:   Instant
 S/R:    BOK-U, PD2-U
-Flames of the Blood Hand deals 4 damage to target player. The damage can't be prevented. If that player would gain life this turn, that player gains no life instead.
+Flames of the Blood Hand deals 4 damage to target player or planeswalker. The damage can't be prevented. If that player would gain life this turn, that player gains no life instead.
 
 Name:   Flames of the Firebrand
 Cost:   2R
 Type:   Sorcery
 S/R:    M13-U, M14-U
-Flames of the Firebrand deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
+Flames of the Firebrand deals 3 damage divided as you choose among one, two, or three targets.
 
 Name:   Flameshadow Conjuring
 Cost:   3R
@@ -2812,7 +2869,7 @@ Name:   Flameshot
 Cost:   3R
 Type:   Sorcery
 S/R:    PR-U
-You may discard a Mountain card rather than pay Flameshot's mana cost.
+You may discard a Mountain card rather than pay this spell's mana cost.
 Flameshot deals 3 damage divided as you choose among one, two, or three target creatures.
 
 Name:   Flamespeaker Adept
@@ -2859,7 +2916,7 @@ Cost:   2R
 Type:   Creature — Goblin Mutant
 P/T:    2/2
 S/R:    LGN-C, 10E-U, EVG-U, DD2-U
-{7}{R}: Flamewave Invoker deals 5 damage to target player.
+{7}{R}: Flamewave Invoker deals 5 damage to target player or planeswalker.
 
 Name:   Flamewright
 Cost:   RW
@@ -2867,13 +2924,13 @@ Type:   Creature — Human Artificer
 P/T:    1/1
 S/R:    CNS-U
 {1}, {T}: Create a 1/1 colorless Construct artifact creature token with defender.
-{T}, Sacrifice a creature with defender: Flamewright deals 1 damage to target creature or player.
+{T}, Sacrifice a creature with defender: Flamewright deals 1 damage to any target.
 
 Name:   Flaming Gambit
 Cost:   XR
 Type:   Instant
 S/R:    TOR-U
-Flaming Gambit deals X damage to target player. That player may choose a creature he or she controls and have Flaming Gambit deal that damage to it instead.
+Flaming Gambit deals X damage to target player or planeswalker. That player or that planeswalker's controller may choose a creature they control and have Flaming Gambit deal that damage to it instead.
 Flashback {X}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Flaming Sword
@@ -2895,7 +2952,7 @@ Name:   Flare
 Cost:   2R
 Type:   Instant
 S/R:    IA-C, MI-C, 5E-C
-Flare deals 1 damage to target creature or player.
+Flare deals 1 damage to any target.
 Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Flaring Flame-Kin
@@ -2915,7 +2972,7 @@ Flashback {R} (You may cast this card from your graveyard for its flashback cost
 Name:   Flash
 Cost:   1U
 Type:   Instant
-S/R:    MI-R, 6E-R
+S/R:    MI-R, 6E-R, A25-R
 You may put a creature card from your hand onto the battlefield. If you do, sacrifice it unless you pay its mana cost reduced by up to {2}.
 
 Name:   Flash Conscription
@@ -2942,7 +2999,7 @@ Name:   Flash Foliage
 Cost:   2G
 Type:   Instant
 S/R:    DIS-U
-Cast Flash Foliage only during combat after blockers are declared.
+Cast this spell only during combat after blockers are declared.
 Create a 1/1 green Saproling creature token that's blocking target creature attacking you.
 Draw a card.
 
@@ -2982,7 +3039,7 @@ Name:   Flay
 Cost:   3B
 Type:   Sorcery
 S/R:    PR-C
-Target player discards a card at random. Then that player discards another card at random unless he or she pays {1}.
+Target player discards a card at random. Then that player discards another card at random unless they pay {1}.
 
 Name:   Flayed Nim
 Cost:   3B
@@ -3015,7 +3072,7 @@ Type:   Creature — Devil
 P/T:    4/2
 S/R:    DKA-R
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
-Whenever Flayer of the Hatebound or another creature enters the battlefield from your graveyard, that creature deals damage equal to its power to target creature or player.
+Whenever Flayer of the Hatebound or another creature enters the battlefield from your graveyard, that creature deals damage equal to its power to any target.
 
 Name:   Flaying Tendrils
 Cost:   1BB
@@ -3060,7 +3117,7 @@ Type:   Creature — Beast
 P/T:    2/2
 S/R:    TSP-U, DD2-U
 Flying
-{T}: Fledgling Mawcor deals 1 damage to target creature or player.
+{T}: Fledgling Mawcor deals 1 damage to any target.
 Morph {U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Fledgling Osprey
@@ -3083,7 +3140,7 @@ Cost:   5UU
 Type:   Creature — Fish
 P/T:    6/6
 S/R:    XLN-R
-Whenever Fleet Swallower attacks, target player puts the top half of his or her library, rounded up, into his or her graveyard.
+Whenever Fleet Swallower attacks, target player puts the top half of their library, rounded up, into their graveyard.
 
 Name:   Fleet-Footed Monk
 Cost:   1W
@@ -3144,7 +3201,7 @@ Cost:   2U
 Type:   Enchantment
 S/R:    SOI-U
 When Fleeting Memories enters the battlefield, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
-Whenever you sacrifice a Clue, target player puts the top three cards of his or her library into his or her graveyard.
+Whenever you sacrifice a Clue, target player puts the top three cards of their library into their graveyard.
 
 Name:   Fleetwheel Cruiser
 Cost:   4
@@ -3176,7 +3233,7 @@ Name:   Flesh Allergy
 Cost:   2BB
 Type:   Sorcery
 S/R:    SOM-U
-As an additional cost to cast Flesh Allergy, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Destroy target creature. Its controller loses life equal to the number of creatures that died this turn.
 
 Name:   Flesh Carver
@@ -3316,15 +3373,15 @@ Name:   Fling
 Cost:   1R
 Type:   Instant
 S/R:    ST-C, M11-C, M12-C, DKA-C, PC2-C, PCA-C, AKH-C
-As an additional cost to cast Fling, sacrifice a creature.
-Fling deals damage equal to the sacrificed creature's power to target creature or player.
+As an additional cost to cast this spell, sacrifice a creature.
+Fling deals damage equal to the sacrificed creature's power to any target.
 
 Name:   Flint Golem
 Cost:   4
 Type:   Artifact Creature — Golem
 P/T:    2/3
 S/R:    NE-U
-Whenever Flint Golem becomes blocked, defending player puts the top three cards of his or her library into his or her graveyard.
+Whenever Flint Golem becomes blocked, defending player puts the top three cards of their library into their graveyard.
 
 Name:   Flinthoof Boar
 Cost:   1G
@@ -3396,9 +3453,9 @@ Floodchaser can't attack unless defending player controls an Island.
 
 Name:   Flooded Grove
 Type:   Land
-S/R:    EVE-R, EXP-M
-{T}: Add {C} to your mana pool.
-{(g/u)}, {T}: Add {G}{G}, {G}{U}, or {U}{U} to your mana pool.
+S/R:    EVE-R, EXP-M, A25-R
+{T}: Add {C}.
+{(g/u)}, {T}: Add {G}{G}, {G}{U}, or {U}{U}.
 
 Name:   Flooded Shoreline
 Cost:   UU
@@ -3415,7 +3472,7 @@ Name:   Flooded Woodlands
 Cost:   2UB
 Type:   Enchantment
 S/R:    IA-R
-Green creatures can't attack unless their controller sacrifices a land for each green creature he or she controls that's attacking. (This cost is paid as attackers are declared.)
+Green creatures can't attack unless their controller sacrifices a land for each green creature they control that's attacking. (This cost is paid as attackers are declared.)
 
 Name:   Floodgate
 Cost:   3U
@@ -3478,7 +3535,7 @@ Cost:   1W
 Type:   Enchantment — Aura
 S/R:    PR-U
 Enchant land
-Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn."
+Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to any target this turn."
 
 Name:   Flowering Lumberknot
 Cost:   3G
@@ -3697,7 +3754,7 @@ Name:   Fodder Launch
 Cost:   3B
 Type:   Tribal Sorcery — Goblin
 S/R:    LRW-U
-As an additional cost to cast Fodder Launch, sacrifice a Goblin.
+As an additional cost to cast this spell, sacrifice a Goblin.
 Target creature gets -5/-5 until end of turn. Fodder Launch deals 5 damage to that creature's controller.
 
 Name:   Foe-Razer Regent
@@ -3735,7 +3792,7 @@ Name:   Fog Patch
 Cost:   1G
 Type:   Instant
 S/R:    NE-C
-Cast Fog Patch only during the declare blockers step.
+Cast this spell only during the declare blockers step.
 Attacking creatures become blocked. (This spell works on creatures that can't be blocked.)
 
 Name:   Fog of Gnats
@@ -3758,14 +3815,14 @@ Name:   Foil
 Cost:   2UU
 Type:   Instant
 S/R:    PR-U, DDF-U
-You may discard an Island card and another card rather than pay Foil's mana cost.
+You may discard an Island card and another card rather than pay this spell's mana cost.
 Counter target spell.
 
 Name:   Fold into Aether
 Cost:   2UU
 Type:   Instant
 S/R:    5DN-U
-Counter target spell. If that spell is countered this way, its controller may put a creature card from his or her hand onto the battlefield.
+Counter target spell. If that spell is countered this way, its controller may put a creature card from their hand onto the battlefield.
 
 Name:   Folk Medicine
 Cost:   2G
@@ -3817,7 +3874,7 @@ Name:   Font of Ire
 Cost:   1R
 Type:   Enchantment
 S/R:    JOU-C
-{3}{R}, Sacrifice Font of Ire: Font of Ire deals 5 damage to target player.
+{3}{R}, Sacrifice Font of Ire: It deals 5 damage to target player or planeswalker.
 
 Name:   Font of Mythos
 Cost:   4
@@ -3841,7 +3898,7 @@ Name:   Food Chain
 Cost:   2G
 Type:   Enchantment
 S/R:    MM-R
-Exile a creature you control: Add X mana of any one color to your mana pool, where X is the exiled creature's converted mana cost plus one. Spend this mana only to cast creature spells.
+Exile a creature you control: Add X mana of any one color, where X is 1 plus the exiled creature's converted mana cost. Spend this mana only to cast creature spells.
 
 Name:   Fool's Demise
 Cost:   4U
@@ -3922,20 +3979,20 @@ Enchanted land has "{T}: Target creature gets +2/+1 until end of turn."
 Name:   Forbidden Orchard
 Type:   Land
 S/R:    CHK-R, EXP-M, C16-R, V12-M
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 Whenever you tap Forbidden Orchard for mana, target opponent creates a 1/1 colorless Spirit creature token.
 
 Name:   Forbidden Ritual
 Cost:   2BB
 Type:   Sorcery
 S/R:    VI-R
-Sacrifice a nontoken permanent. If you do, target opponent loses 2 life unless he or she sacrifices a permanent or discards a card. You may repeat this process any number of times.
+Sacrifice a nontoken permanent. If you do, target opponent loses 2 life unless that player sacrifices a permanent or discards a card. You may repeat this process any number of times.
 
 Name:   Forbidding Watchtower
 Type:   Land
 S/R:    UL-U, 10E-U
 Forbidding Watchtower enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 {1}{W}: Forbidding Watchtower becomes a 1/5 white Soldier creature until end of turn. It's still a land.
 
 Name:   Force Away
@@ -3971,7 +4028,7 @@ Cost:   2GGGG
 Type:   Creature — Elemental
 P/T:    8/8
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 9ED-R, ME4-R
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 At the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay {G}{G}{G}{G}.
 
 Name:   Force of Savagery
@@ -3985,7 +4042,7 @@ Name:   Force of Will
 Cost:   3UU
 Type:   Instant
 S/R:    AI-U, EMA-M, MPS_AKH-S, VMA-R, MED-R
-You may pay 1 life and exile a blue card from your hand rather than pay Force of Will's mana cost.
+You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.
 Counter target spell.
 
 Name:   Forced Adaptation
@@ -4032,13 +4089,21 @@ Cost:   1G
 Type:   Creature — Centaur Shaman
 P/T:    2/1
 S/R:    JUD-U
-{T}: Return target card from an opponent's graveyard to his or her hand. Put a +1/+1 counter on target creature.
+{T}: Return target card from an opponent's graveyard to their hand. Put a +1/+1 counter on target creature.
+
+Name:   Forebear's Blade
+Cost:   3
+Type:   Artifact — Equipment
+S/R:    DOM-R
+Equipped creature gets +3/+0 and has vigilance and trample.
+Whenever equipped creature dies, attach Forebear's Blade to target creature you control.
+Equip {3}
 
 Name:   Foreboding Ruins
 Type:   Land
 S/R:    SOI-R
 As Foreboding Ruins enters the battlefield, you may reveal a Swamp or Mountain card from your hand. If you don't, Foreboding Ruins enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 
 Name:   Forerunner of Slaughter
 Cost:   BR
@@ -4090,7 +4155,7 @@ Name:   Foreshadow
 Cost:   1U
 Type:   Instant
 S/R:    VI-U
-Choose a card name, then target opponent puts the top card of his or her library into his or her graveyard. If that card has the chosen name, you draw a card.
+Choose a card name, then target opponent puts the top card of their library into their graveyard. If that card has the chosen name, you draw a card.
 Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Foresight
@@ -4102,7 +4167,7 @@ Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Forest
 Type:   Basic Land — Forest
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, EVG-L, UG-C, UNH-L, UST-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, DOM-L, EVG-L, UG-C, UNH-L, UST-L, DDD-L, DDE-L, DDG-L, DDH-L, DDJ-L, DDL-L, DDM-L, DDO-L, DDP-L, DDR-L, DDS-L, DDU-L, H09-L, ME3-L, MED-L
 
 Name:   Forest Bear
 Cost:   1G
@@ -4127,7 +4192,7 @@ Name:   Forge Armor
 Cost:   4R
 Type:   Instant
 S/R:    MRD-U
-As an additional cost to cast Forge Armor, sacrifice an artifact.
+As an additional cost to cast this spell, sacrifice an artifact.
 Put X +1/+1 counters on target creature, where X is the sacrificed artifact's converted mana cost.
 
 Name:   Forge Devil
@@ -4142,7 +4207,7 @@ Cost:   2RR
 Type:   Enchantment Creature — Nymph
 P/T:    4/2
 S/R:    JOU-U
-Constellation — Whenever Forgeborn Oreads or another enchantment enters the battlefield under your control, Forgeborn Oreads deals 1 damage to target creature or player.
+Constellation — Whenever Forgeborn Oreads or another enchantment enters the battlefield under your control, Forgeborn Oreads deals 1 damage to any target.
 
 Name:   Forgestoker Dragon
 Cost:   4RR
@@ -4156,7 +4221,7 @@ Name:   Forget
 Cost:   UU
 Type:   Sorcery
 S/R:    HL-R, 5E-R, 6E-R
-Target player discards two cards, then draws as many cards as he or she discarded this way.
+Target player discards two cards, then draws as many cards as they discarded this way.
 
 Name:   Forgotten Ancient
 Cost:   3G
@@ -4170,7 +4235,7 @@ Name:   Forgotten Cave
 Type:   Land
 S/R:    ONS-C, CMD-C, C13-C, C14-C, C15-C, CMA-C, EVG-C, VMA-C, DDJ-C, DDT-C
 Forgotten Cave enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 Cycling {R} ({R}, Discard this card: Draw a card.)
 
 Name:   Forgotten Creation
@@ -4213,7 +4278,7 @@ Name:   Foriysian Totem
 Cost:   3
 Type:   Artifact
 S/R:    TSP-U
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 {4}{R}: Foriysian Totem becomes a 4/4 red Giant artifact creature with trample until end of turn.
 As long as Foriysian Totem is a creature, it can block an additional creature each combat.
 
@@ -4233,7 +4298,7 @@ Name:   Forked Bolt
 Cost:   R
 Type:   Sorcery
 S/R:    ROE-U, DDP-C
-Forked Bolt deals 2 damage divided as you choose among one or two target creatures and/or players.
+Forked Bolt deals 2 damage divided as you choose among one or two targets.
 
 Name:   Forked Lightning
 Cost:   3R
@@ -4267,7 +4332,7 @@ Name:   Form of the Dragon
 Cost:   4RRR
 Type:   Enchantment
 S/R:    SCG-R, 9ED-R, DRB-R
-At the beginning of your upkeep, Form of the Dragon deals 5 damage to target creature or player.
+At the beginning of your upkeep, Form of the Dragon deals 5 damage to any target.
 At the beginning of each end step, your life total becomes 5.
 Creatures without flying can't attack you.
 
@@ -4296,7 +4361,7 @@ Type:   Land
 S/R:    PS-R
 Forsaken City doesn't untap during your untap step.
 At the beginning of your upkeep, you may exile a card from your hand. If you do, untap Forsaken City.
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Forsaken Drifters
 Cost:   3B
@@ -4309,7 +4374,7 @@ Name:   Forsaken Sanctuary
 Type:   Land
 S/R:    SOI-U, AKH-C, C17-U, RIX-U
 Forsaken Sanctuary enters the battlefield tapped.
-{T}: Add {W} or {B} to your mana pool.
+{T}: Add {W} or {B}.
 
 Name:   Forsaken Wastes
 Cost:   2B
@@ -4336,7 +4401,7 @@ Name:   Fortified Village
 Type:   Land
 S/R:    SOI-R
 As Fortified Village enters the battlefield, you may reveal a Forest or Plains card from your hand. If you don't, Fortified Village enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.
+{T}: Add {G} or {W}.
 
 Name:   Fortify
 Cost:   2W
@@ -4380,13 +4445,13 @@ Name:   Fortunate Few
 Cost:   3WW
 Type:   Sorcery
 S/R:    C17-R
-Choose a nonland permanent you don't control, then each other player chooses a nonland permanent he or she doesn't control that hasn't been chosen this way. Destroy all other nonland permanents.
+Choose a nonland permanent you don't control, then each other player chooses a nonland permanent they don't control that hasn't been chosen this way. Destroy all other nonland permanents.
 
 Name:   Fortune Thief
 Cost:   4R
 Type:   Creature — Human Rogue
 P/T:    0/1
-S/R:    TSP-R
+S/R:    TSP-R, A25-R
 Damage that would reduce your life total to less than 1 reduces it to 1 instead.
 Morph {R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
@@ -4436,7 +4501,7 @@ Name:   Foul Orchard
 Type:   Land
 S/R:    SOI-U, AKH-C, RIX-U
 Foul Orchard enters the battlefield tapped.
-{T}: Add {B} or {G} to your mana pool.
+{T}: Add {B} or {G}.
 
 Name:   Foul Presence
 Cost:   2B
@@ -4463,8 +4528,8 @@ Name:   Foul-Tongue Invocation
 Cost:   2B
 Type:   Instant
 S/R:    DTK-U, IMA-C
-As an additional cost to cast Foul-Tongue Invocation, you may reveal a Dragon card from your hand.
-Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon as you cast Foul-Tongue Invocation, you gain 4 life.
+As an additional cost to cast this spell, you may reveal a Dragon card from your hand.
+Target player sacrifices a creature. If you revealed a Dragon card or controlled a Dragon as you cast this spell, you gain 4 life.
 
 Name:   Foul-Tongue Shriek
 Cost:   B
@@ -4484,7 +4549,7 @@ Cost:   4RW
 Type:   Creature — Elemental Soldier
 P/T:    4/4
 S/R:    GTC-R
-When Foundry Champion enters the battlefield, it deals damage to target creature or player equal to the number of creatures you control.
+When Foundry Champion enters the battlefield, it deals damage to any target equal to the number of creatures you control.
 {R}: Foundry Champion gets +1/+0 until end of turn.
 {W}: Foundry Champion gets +0/+1 until end of turn.
 
@@ -4520,8 +4585,8 @@ Whenever another red creature enters the battlefield under your control, Foundry
 
 Name:   Foundry of the Consuls
 Type:   Land
-S/R:    ORI-U
-{T}: Add {C} to your mana pool.
+S/R:    ORI-U, DDU-U
+{T}: Add {C}.
 {5}, {T}, Sacrifice Foundry of the Consuls: Create two 1/1 colorless Thopter artifact creature tokens with flying.
 
 Name:   Fountain Watch
@@ -4536,7 +4601,7 @@ Type:   Land
 S/R:    MM-U
 Fountain of Cho enters the battlefield tapped.
 {T}: Put a storage counter on Fountain of Cho.
-{T}, Remove any number of storage counters from Fountain of Cho: Add {W} to your mana pool for each storage counter removed this way.
+{T}, Remove any number of storage counters from Fountain of Cho: Add {W} for each storage counter removed this way.
 
 Name:   Fountain of Youth
 Cost:   0
@@ -4582,7 +4647,7 @@ Name:   Fractured Powerstone
 Cost:   2
 Type:   Artifact
 S/R:    PC2-C, PCA-C
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {T}: Roll the planar die. Activate this ability only any time you could cast a sorcery.
 
 Name:   Fracturing Gust
@@ -4629,7 +4694,7 @@ Cost:   2U
 Type:   Enchantment — Aura Curse
 S/R:    HOU-R
 Enchant player
-At the beginning of each end step, enchanted player puts the top X cards of his or her library into his or her graveyard, where X is the number of cards put into that graveyard from anywhere this turn.
+At the beginning of each end step, enchanted player puts the top X cards of their library into their graveyard, where X is the number of cards put into that graveyard from anywhere this turn.
 
 Name:   Frazzle
 Cost:   3U
@@ -4640,7 +4705,7 @@ Counter target nonblue spell.
 Name:   Freed from the Real
 Cost:   2U
 Type:   Enchantment — Aura
-S/R:    SOK-C
+S/R:    SOK-C, A25-U
 Enchant creature
 {U}: Tap enchanted creature.
 {U}: Untap enchanted creature.
@@ -4709,8 +4774,15 @@ Name:   Frenzied Goblin
 Cost:   R
 Type:   Creature — Goblin Berserker
 P/T:    1/1
-S/R:    RAV-U, M15-U, DDN-U
+S/R:    RAV-U, M15-U, A25-C, DDN-U
 Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn.
+
+Name:   Frenzied Rage
+Cost:   1R
+Type:   Enchantment — Aura
+S/R:    DOM-C
+Enchant creature
+Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)
 
 Name:   Frenzied Raptor
 Cost:   2R
@@ -4756,7 +4828,7 @@ Cost:   1G
 Type:   Creature — Human Cleric
 P/T:    1/1
 S/R:    IA-U
-{T}, Sacrifice a red or white creature: Freyalise Supplicant deals damage to target creature or player equal to half the sacrificed creature's power, rounded down.
+{T}, Sacrifice a red or white creature: Freyalise Supplicant deals damage to any target equal to half the sacrificed creature's power, rounded down.
 
 Name:   Freyalise's Charm
 Cost:   GG
@@ -4784,7 +4856,7 @@ Cost:   3GG
 Type:   Legendary Planeswalker — Freyalise
 P/T:    3
 S/R:    C14-M, CMA-M
-[+2]: Create a 1/1 green Elf Druid creature token with "{T}: Add {G} to your mana pool."
+[+2]: Create a 1/1 green Elf Druid creature token with "{T}: Add {G}."
 [-2]: Destroy target artifact or enchantment.
 [-6]: Draw a card for each green creature you control.
 Freyalise, Llanowar's Fury can be your commander.
@@ -4793,7 +4865,7 @@ Name:   Friendly Fire
 Cost:   3R
 Type:   Instant
 S/R:    FRF-U
-Target creature's controller reveals a card at random from his or her hand. Friendly Fire deals damage to that creature and that player equal to the revealed card's converted mana cost.
+Target creature's controller reveals a card at random from their hand. Friendly Fire deals damage to that creature and that player equal to the revealed card's converted mana cost.
 
 Name:   Frightcrawler
 Cost:   1B
@@ -4822,7 +4894,7 @@ Cost:   2R
 Type:   Creature — Dinosaur
 P/T:    3/2
 S/R:    RIX-C
-Enrage — Whenever Frilled Deathspitter is dealt damage, it deals 2 damage to target opponent.
+Enrage — Whenever Frilled Deathspitter is dealt damage, it deals 2 damage to target opponent or planeswalker.
 
 Name:   Frilled Oculus
 Cost:   1U
@@ -4866,7 +4938,7 @@ Cost:   3G
 Type:   Enchantment
 S/R:    BFZ-R
 Devoid (This card has no color.)
-At the beginning of your upkeep, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+At the beginning of your upkeep, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."
 {1}{G}, Sacrifice From Beyond: Search your library for an Eldrazi card, reveal it, put it into your hand, then shuffle your library.
 
 Name:   From Under the Floorboards
@@ -4880,13 +4952,13 @@ Name:   From the Ashes
 Cost:   3R
 Type:   Sorcery
 S/R:    C13-R
-Destroy all nonbasic lands. For each land destroyed this way, its controller may search his or her library for a basic land card and put it onto the battlefield. Then each player who searched his or her library this way shuffles it.
+Destroy all nonbasic lands. For each land destroyed this way, its controller may search their library for a basic land card and put it onto the battlefield. Then each player who searched their library this way shuffles it.
 
 Name:   Frontier Bivouac
 Type:   Land
 S/R:    KTK-U, C16-U, C17-U
 Frontier Bivouac enters the battlefield tapped.
-{T}: Add {G}, {U}, or {R} to your mana pool.
+{T}: Add {G}, {U}, or {R}.
 
 Name:   Frontier Guide
 Cost:   1G
@@ -4907,7 +4979,7 @@ Cost:   3G
 Type:   Enchantment
 S/R:    FRF-R, C17-R
 As Frontier Siege enters the battlefield, choose Khans or Dragons.
-• Khans — At the beginning of each of your main phases, add {G}{G} to your mana pool.
+• Khans — At the beginning of each of your main phases, add {G}{G}.
 • Dragons — Whenever a creature with flying enters the battlefield under your control, you may have it fight target creature you don't control.
 
 Name:   Frontline Devastator
@@ -4973,7 +5045,7 @@ Name:   Frost Marsh
 Type:   Snow Land
 S/R:    CSP-U
 Frost Marsh enters the battlefield tapped.
-{T}: Add {U} or {B} to your mana pool.
+{T}: Add {U} or {B}.
 
 Name:   Frost Ogre
 Cost:   3RR
@@ -5016,7 +5088,7 @@ Cost:   R
 Type:   Creature — Spirit
 P/T:    1/1
 S/R:    BOK-C
-Sacrifice Frostling: Frostling deals 1 damage to target creature.
+Sacrifice Frostling: It deals 1 damage to target creature.
 
 Name:   Frostweb Spider
 Cost:   2G
@@ -5031,8 +5103,8 @@ Cost:   2RR
 Type:   Creature — Human Shaman
 P/T:    1/2
 S/R:    CHK-C
-{T}: Frostwielder deals 1 damage to target creature or player.
 If a creature dealt damage by Frostwielder this turn would die, exile it instead.
+{T}: Frostwielder deals 1 damage to any target.
 
 Name:   Frostwind Invoker
 Cost:   4U
@@ -5125,7 +5197,7 @@ Name:   Fumarole
 Cost:   3BR
 Type:   Sorcery
 S/R:    IA-U, ME2-U
-As an additional cost to cast Fumarole, pay 3 life.
+As an additional cost to cast this spell, pay 3 life.
 Destroy target creature and target land.
 
 Name:   Fume Spitter
@@ -5186,15 +5258,28 @@ Type:   Enchantment
 S/R:    FE-R, ME2-R
 {G}{G}: Put a spore counter on target Fungus.
 
+Name:   Fungal Infection
+Cost:   B
+Type:   Instant
+S/R:    DOM-C
+Target creature gets -1/-1 until end of turn. Create a 1/1 green Saproling creature token.
+
+Name:   Fungal Plots
+Cost:   1G
+Type:   Enchantment
+S/R:    DOM-U
+{1}{G}, Exile a creature card from your graveyard: Create a 1/1 green Saproling creature token.
+Sacrifice two Saprolings: You gain 2 life and draw a card.
+
 Name:   Fungal Reaches
 Type:   Land
 S/R:    TSP-U, CMD-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}, {T}: Put a storage counter on Fungal Reaches.
-{1}, Remove X storage counters from Fungal Reaches: Add X mana in any combination of {R} and/or {G} to your mana pool.
+{1}, Remove X storage counters from Fungal Reaches: Add X mana in any combination of {R} and/or {G}.
 
 Name:   Fungal Shambler
-Cost:   4GUB
+Cost:   4BGU
 Type:   Creature — Fungus Beast
 P/T:    6/4
 S/R:    AP-R
@@ -5232,13 +5317,13 @@ Name:   Furious Assault
 Cost:   2R
 Type:   Enchantment
 S/R:    MM-C
-Whenever you cast a creature spell, Furious Assault deals 1 damage to target player.
+Whenever you cast a creature spell, Furious Assault deals 1 damage to target player or planeswalker.
 
 Name:   Furious Reprisal
 Cost:   3R
 Type:   Sorcery
 S/R:    KLD-U
-Furious Reprisal deals 2 damage to each of two target creatures and/or players.
+Furious Reprisal deals 2 damage to each of two targets.
 
 Name:   Furious Resistance
 Cost:   R
@@ -5257,7 +5342,7 @@ Name:   Furnace Celebration
 Cost:   1RR
 Type:   Enchantment
 S/R:    SOM-U, C13-U
-Whenever you sacrifice another permanent, you may pay {2}. If you do, Furnace Celebration deals 2 damage to target creature or player.
+Whenever you sacrifice another permanent, you may pay {2}. If you do, Furnace Celebration deals 2 damage to any target.
 
 Name:   Furnace Dragon
 Cost:   6RRR
@@ -5295,7 +5380,7 @@ Name:   Furnace of Rath
 Cost:   1RRR
 Type:   Enchantment
 S/R:    TE-R, 8ED-R, 9ED-R, 10E-R, HOP-R
-If a source would deal damage to a creature or player, it deals double that damage to that creature or player instead.
+If a source would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
 
 Name:   Furor of the Bitten
 Cost:   R
@@ -5331,7 +5416,7 @@ Name:   Fury of the Horde
 Cost:   5RR
 Type:   Sorcery
 S/R:    CSP-R, DDN-R
-You may exile two red cards from your hand rather than pay Fury of the Horde's mana cost.
+You may exile two red cards from your hand rather than pay this spell's mana cost.
 Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.
 
 Name:   Furyblade Vampire
@@ -5355,7 +5440,7 @@ Cost:   3RR
 Type:   Creature — Giant Warrior
 P/T:    3/3
 S/R:    SHM-R
-When Furystoke Giant enters the battlefield, other creatures you control gain "{T}: This creature deals 2 damage to target creature or player" until end of turn.
+When Furystoke Giant enters the battlefield, other creatures you control gain "{T}: This creature deals 2 damage to any target" until end of turn.
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
 
 Name:   Fusion Elemental
@@ -5414,14 +5499,14 @@ Cost:   2G
 Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    IA-U, 5E-U, 6E-U, 7E-U, 8ED-U
-{T}: Add {G}{G} to your mana pool.
+{T}: Add {G}{G}.
 
 Name:   Fyndhorn Elves
 Cost:   G
 Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    IA-C, VMA-C, MED-C, V13-M
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 
 Name:   Fyndhorn Pollen
 Cost:   2G

@@ -1,3 +1,10 @@
+Name:   Naban, Dean of Iteration
+Cost:   1U
+Type:   Legendary Creature — Human Wizard
+P/T:    2/1
+S/R:    DOM-R
+If a Wizard entering the battlefield under your control causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
 Name:   Nacatl Hunt-Pride
 Cost:   5W
 Type:   Creature — Cat Warrior
@@ -40,7 +47,7 @@ Cost:   G
 Type:   Creature — Snake
 P/T:    1/1
 S/R:    AN-C, 4E-C
-Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of his or her next draw step unless he or she pays {1} before that draw step.
+Whenever Nafs Asp deals damage to a player, that player loses 1 life at the beginning of their next draw step unless they pay {1} before that draw step.
 
 Name:   Naga Oracle
 Cost:   3U
@@ -54,7 +61,7 @@ Cost:   1G
 Type:   Creature — Naga Druid
 P/T:    1/2
 S/R:    AKH-C
-{T}: Add to your mana pool one mana of any type that a land you control could produce.
+{T}: Add one mana of any type that a land you control could produce.
 
 Name:   Nagao, Bound by Honor
 Cost:   3W
@@ -82,7 +89,7 @@ Name:   Nahiri's Wrath
 Cost:   2R
 Type:   Sorcery
 S/R:    EMN-M
-As an additional cost to cast Nahiri's Wrath, discard X cards.
+As an additional cost to cast this spell, discard X cards.
 Nahiri's Wrath deals damage equal to the total converted mana cost of the discarded cards to each of up to X target creatures and/or planeswalkers.
 
 Name:   Nahiri, the Harbinger
@@ -185,7 +192,7 @@ Cost:   2G
 Type:   Creature — Insect Druid
 P/T:    1/2
 S/R:    OD-U
-{T}: Add {C}{G} to your mana pool.
+{T}: Add {C}{G}.
 
 Name:   Nantuko Husk
 Cost:   2B
@@ -204,7 +211,7 @@ S/R:    OD-R
 Name:   Nantuko Monastery
 Type:   Land
 S/R:    JUD-U, ARC-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 Threshold — {G}{W}: Nantuko Monastery becomes a 4/4 green and white Insect Monk creature with first strike until end of turn. It's still a land. Activate this ability only if seven or more cards are in your graveyard.
 
 Name:   Nantuko Shade
@@ -310,6 +317,15 @@ P/T:    3/3
 S/R:    AVR-C
 {2}: Narstad Scrapper gets +1/+0 until end of turn.
 
+Name:   Naru Meha, Master Wizard
+Cost:   2UU
+Type:   Legendary Creature — Human Wizard
+P/T:    3/3
+S/R:    DOM-M
+Flash
+When Naru Meha, Master Wizard enters the battlefield, copy target instant or sorcery spell you control. You may choose new targets for the copy.
+Other Wizards you control get +1/+1.
+
 Name:   Narwhal
 Cost:   2UU
 Type:   Creature — Whale
@@ -338,7 +354,7 @@ Type:   Creature — Elf Warrior
 P/T:    4/2
 S/R:    LRW-C
 All creatures able to block Nath's Elite do so.
-When Nath's Elite enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Nath's Elite. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+When Nath's Elite enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Nath's Elite. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Natural Affinity
 Cost:   2G
@@ -350,7 +366,7 @@ Name:   Natural Balance
 Cost:   2GG
 Type:   Sorcery
 S/R:    MI-R
-Each player who controls six or more lands chooses five lands he or she controls and sacrifices the rest. Each player who controls four or fewer lands may search his or her library for up to X basic land cards and put them onto the battlefield, where X is five minus the number of lands he or she controls. Then each player who searched his or her library this way shuffles it.
+Each player who controls six or more lands chooses five lands they control and sacrifices the rest. Each player who controls four or fewer lands may search their library for up to X basic land cards and put them onto the battlefield, where X is five minus the number of lands they control. Then each player who searched their library this way shuffles it.
 
 Name:   Natural Connection
 Cost:   2G
@@ -381,14 +397,14 @@ Name:   Natural Order
 Cost:   2GG
 Type:   Sorcery
 S/R:    VI-R, P1-R, EMA-M
-As an additional cost to cast Natural Order, sacrifice a green creature.
+As an additional cost to cast this spell, sacrifice a green creature.
 Search your library for a green creature card and put it onto the battlefield. Then shuffle your library.
 
 Name:   Natural Selection
 Cost:   G
 Type:   Instant
 S/R:    A-R, B-R, U-R
-Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle his or her library.
+Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle their library.
 
 Name:   Natural Spring
 Cost:   3GG
@@ -405,7 +421,7 @@ Destroy target artifact or enchantment with converted mana cost 3 or less.
 Name:   Naturalize
 Cost:   1G
 Type:   Instant
-S/R:    ONS-C, 8ED-C, 9ED-C, 10E-C, ALA-C, M10-C, ROE-C, M11-C, M12-C, ISD-C, M13-C, GTC-C, M14-C, M15-C, KTK-C, DTK-C, RIX-C
+S/R:    ONS-C, 8ED-C, 9ED-C, 10E-C, ALA-C, M10-C, ROE-C, M11-C, M12-C, ISD-C, M13-C, GTC-C, M14-C, M15-C, KTK-C, DTK-C, RIX-C, DDU-C
 Destroy target artifact or enchantment.
 
 Name:   Nature's Blessing
@@ -451,14 +467,14 @@ Name:   Nature's Panoply
 Cost:   G
 Type:   Instant
 S/R:    JOU-C
-Strive — Nature's Panoply costs {2}{G} more to cast for each target beyond the first.
+Strive — This spell costs {2}{G} more to cast for each target beyond the first.
 Choose any number of target creatures. Put a +1/+1 counter on each of them.
 
 Name:   Nature's Resurgence
 Cost:   2GG
 Type:   Sorcery
 S/R:    WL-R, 6E-R, 7E-R
-Each player draws a card for each creature card in his or her graveyard.
+Each player draws a card for each creature card in their graveyard.
 
 Name:   Nature's Revolt
 Cost:   3GG
@@ -475,13 +491,13 @@ Destroy all green creatures.
 Name:   Nature's Spiral
 Cost:   1G
 Type:   Sorcery
-S/R:    M10-U, M11-U
-Return target permanent card from your graveyard to your hand. (A permanent card is an artifact, creature, enchantment, land, or planeswalker card.)
+S/R:    M10-U, M11-U, DOM-U
+Return target permanent card from your graveyard to your hand.
 
 Name:   Nature's Way
 Cost:   1G
 Type:   Sorcery
-S/R:    KLD-U
+S/R:    KLD-U, DDU-U
 Target creature you control gains vigilance and trample until end of turn. It deals damage equal to its power to target creature you don't control.
 
 Name:   Nature's Will
@@ -495,8 +511,8 @@ Cost:   4GG
 Type:   Enchantment
 S/R:    AI-R, ME2-R
 At the beginning of your upkeep, sacrifice Nature's Wrath unless you pay {G}.
-Whenever a player puts an Island or blue permanent onto the battlefield, he or she sacrifices an Island or blue permanent.
-Whenever a player puts a Swamp or black permanent onto the battlefield, he or she sacrifices a Swamp or black permanent.
+Whenever a player puts an Island or blue permanent onto the battlefield, that player sacrifices an Island or blue permanent.
+Whenever a player puts a Swamp or black permanent onto the battlefield, that player sacrifices a Swamp or black permanent.
 
 Name:   Nausea
 Cost:   1B
@@ -511,11 +527,18 @@ P/T:    3/5
 S/R:    GTC-C
 Battalion — Whenever Nav Squad Commandos and at least two other creatures attack, Nav Squad Commandos gets +1/+1 until end of turn. Untap it.
 
+Name:   Navigator's Compass
+Cost:   1
+Type:   Artifact
+S/R:    DOM-C
+When Navigator's Compass enters the battlefield, you gain 3 life.
+{T}: Until end of turn, target land you control becomes the basic land type of your choice in addition to its other types.
+
 Name:   Navigator's Ruin
 Cost:   2U
 Type:   Enchantment
 S/R:    XLN-U
-Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent puts the top four cards of his or her library into his or her graveyard.
+Raid — At the beginning of your end step, if you attacked with a creature this turn, target opponent puts the top four cards of their library into their graveyard.
 
 Name:   Naya Battlemage
 Cost:   2G
@@ -544,7 +567,7 @@ As long as you control another multicolored permanent, Naya Hushblade gets +1/+1
 Name:   Naya Panorama
 Type:   Land
 S/R:    ALA-C, C13-C
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}, {T}, Sacrifice Naya Panorama: Search your library for a basic Mountain, Forest, or Plains card and put it onto the battlefield tapped. Then shuffle your library.
 
 Name:   Naya Sojourners
@@ -560,8 +583,8 @@ Cost:   6GG
 Type:   Creature — Beast
 P/T:    0/0
 S/R:    C13-R
+When you cast this spell, each player reveals the top card of their library. Naya Soulbeast enters the battlefield with X +1/+1 counters on it, where X is the total converted mana cost of all cards revealed this way.
 Trample
-When you cast Naya Soulbeast, each player reveals the top card of his or her library. Naya Soulbeast enters the battlefield with X +1/+1 counters on it, where X is the total converted mana cost of all cards revealed this way.
 
 Name:   Nazahn, Revered Bladesmith
 Cost:   4GW
@@ -614,7 +637,7 @@ Cost:   3UB
 Type:   Legendary Creature — Human Wizard
 P/T:    3/3
 S/R:    LE-R, CH-R, ME3-U
-{X}, {T}: Choose a card name. Target opponent reveals X cards at random from his or her hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.
+{X}, {T}: Choose a card name. Target opponent reveals X cards at random from their hand. Then that player discards all cards with that name revealed this way. Activate this ability only during your turn.
 
 Name:   Neck Breaker
 Type:   Creature — Werewolf
@@ -637,8 +660,8 @@ Cost:   B
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    AP-C
-{G}, {T}: Add one mana of any color to your mana pool.
-{W}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+{G}, {T}: Add one mana of any color.
+{W}, {T}: Prevent the next 1 damage that would be dealt to any target this turn.
 
 Name:   Necra Sanctuary
 Cost:   2B
@@ -713,8 +736,8 @@ Name:   Necrologia
 Cost:   3BB
 Type:   Instant
 S/R:    EX-U, 7E-U
-Cast Necrologia only during your end step.
-As an additional cost to cast Necrologia, pay X life.
+Cast this spell only during your end step.
+As an additional cost to cast this spell, pay X life.
 Draw X cards.
 
 Name:   Necromancer's Assistant
@@ -778,7 +801,7 @@ Type:   Creature — Dragon
 P/T:    4/4
 S/R:    DTK-R
 Flying
-Whenever Necromaster Dragon deals combat damage to a player, you may pay {2}. If you do, create a 2/2 black Zombie creature token and each opponent puts the top two cards of his or her library into his or her graveyard.
+Whenever Necromaster Dragon deals combat damage to a player, you may pay {2}. If you do, create a 2/2 black Zombie creature token and each opponent puts the top two cards of their library into their graveyard.
 
 Name:   Necropede
 Cost:   2
@@ -818,7 +841,7 @@ Name:   Necropolis Regent
 Cost:   3BBB
 Type:   Creature — Vampire
 P/T:    6/5
-S/R:    RTR-M
+S/R:    RTR-M, E02-M
 Flying
 Whenever a creature you control deals combat damage to a player, put that many +1/+1 counters on it.
 
@@ -866,7 +889,7 @@ Type:   Enchantment — Aura
 S/R:    M11-R
 Enchant creature
 Enchanted creature has "At the beginning of your upkeep, sacrifice this creature."
-When enchanted creature dies, its controller chooses target creature one of his or her opponents controls. Return Necrotic Plague from its owner's graveyard to the battlefield attached to that creature.
+When enchanted creature dies, its controller chooses target creature one of their opponents controls. Return Necrotic Plague from its owner's graveyard to the battlefield attached to that creature.
 
 Name:   Necrotic Sliver
 Cost:   1WB
@@ -893,7 +916,7 @@ Name:   Needle Drop
 Cost:   R
 Type:   Instant
 S/R:    LRW-C
-Needle Drop deals 1 damage to target creature or player that was dealt damage this turn.
+Needle Drop deals 1 damage to any target that was dealt damage this turn.
 Draw a card.
 
 Name:   Needle Specter
@@ -909,7 +932,7 @@ Name:   Needle Spires
 Type:   Land
 S/R:    OGW-R
 Needle Spires enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.
+{T}: Add {R} or {W}.
 {2}{R}{W}: Needle Spires becomes a 2/1 red and white Elemental creature with double strike until end of turn. It's still a land.
 
 Name:   Needle Storm
@@ -922,7 +945,7 @@ Name:   Needlebite Trap
 Cost:   5BB
 Type:   Instant — Trap
 S/R:    ZEN-U
-If an opponent gained life this turn, you may pay {B} rather than pay Needlebite Trap's mana cost.
+If an opponent gained life this turn, you may pay {B} rather than pay this spell's mana cost.
 Target player loses 5 life and you gain 5 life.
 
 Name:   Needlebug
@@ -1008,7 +1031,7 @@ Type:   Legendary Creature — Zombie Minotaur Warrior
 P/T:    4/6
 S/R:    HOU-M
 Afflict 3 (Whenever this creature becomes blocked, defending player loses 3 life.)
-At the beginning of your postcombat main phase, add {R} to your mana pool for each 1 life your opponents have lost this turn.
+At the beginning of your postcombat main phase, add {R} for each 1 life your opponents have lost this turn.
 
 Name:   Neheb, the Worthy
 Cost:   1BR
@@ -1069,7 +1092,7 @@ Name:   Nemesis Trap
 Cost:   4BB
 Type:   Instant — Trap
 S/R:    WWK-U, CMD-U
-If a white creature is attacking, you may pay {B}{B} rather than pay Nemesis Trap's mana cost.
+If a white creature is attacking, you may pay {B}{B} rather than pay this spell's mana cost.
 Exile target attacking creature. Create a token that's a copy of that creature. Exile it at the beginning of the next end step.
 
 Name:   Nemesis of Mortals
@@ -1077,7 +1100,7 @@ Cost:   4GG
 Type:   Creature — Snake
 P/T:    5/5
 S/R:    THS-U
-Nemesis of Mortals costs {1} less to cast for each creature card in your graveyard.
+This spell costs {1} less to cast for each creature card in your graveyard.
 {7}{G}{G}: Monstrosity 5. This ability costs {1} less to activate for each creature card in your graveyard. (If this creature isn't monstrous, put five +1/+1 counters on it and it becomes monstrous.)
 
 Name:   Nemesis of Reason
@@ -1085,19 +1108,19 @@ Cost:   3UB
 Type:   Creature — Leviathan Horror
 P/T:    3/7
 S/R:    ARB-R
-Whenever Nemesis of Reason attacks, defending player puts the top ten cards of his or her library into his or her graveyard.
+Whenever Nemesis of Reason attacks, defending player puts the top ten cards of their library into their graveyard.
 
 Name:   Nephalia Academy
 Type:   Land
 S/R:    EMN-U
 If a spell or ability an opponent controls causes you to discard a card, you may reveal that card and put it on top of your library instead of putting it anywhere else.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 
 Name:   Nephalia Drownyard
 Type:   Land
 S/R:    ISD-R
-{T}: Add {C} to your mana pool.
-{1}{U}{B}, {T}: Target player puts the top three cards of his or her library into his or her graveyard.
+{T}: Add {C}.
+{1}{U}{B}, {T}: Target player puts the top three cards of their library into their graveyard.
 
 Name:   Nephalia Moondrakes
 Cost:   5UU
@@ -1165,7 +1188,7 @@ Cost:   1G
 Type:   Creature — Eldrazi Drone
 P/T:    2/2
 S/R:    ROE-C, PC2-C, MM2-C, PCA-C
-When Nest Invader enters the battlefield, create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+When Nest Invader enters the battlefield, create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
 
 Name:   Nest Robber
 Cost:   1R
@@ -1244,7 +1267,7 @@ Cost:   5B
 Type:   Creature — Horror
 P/T:    2/4
 S/R:    RAV-U
-When Netherborn Phalanx enters the battlefield, each opponent loses 1 life for each creature he or she controls.
+When Netherborn Phalanx enters the battlefield, each opponent loses 1 life for each creature they control.
 Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 
 Name:   Netter en-Dal
@@ -1267,7 +1290,7 @@ Name:   Nettle Sentinel
 Cost:   G
 Type:   Creature — Elf Warrior
 P/T:    2/2
-S/R:    EVE-C
+S/R:    EVE-C, A25-C
 Nettle Sentinel doesn't untap during your untap step.
 Whenever you cast a green spell, you may untap Nettle Sentinel.
 
@@ -1349,7 +1372,7 @@ Name:   Neurok Replica
 Cost:   3
 Type:   Artifact Creature — Wizard
 P/T:    1/4
-S/R:    SOM-C
+S/R:    SOM-C, DDU-C
 {1}{U}, Sacrifice Neurok Replica: Return target creature to its owner's hand.
 
 Name:   Neurok Spy
@@ -1393,7 +1416,7 @@ Name:   Neverending Torment
 Cost:   4BB
 Type:   Sorcery
 S/R:    SOK-R
-Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles his or her library.
+Search target player's library for X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles their library.
 Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)
 
 Name:   Nevermaker
@@ -1424,20 +1447,20 @@ Type:   Land
 S/R:    FUT-U, C13-U, C15-U, DDI-U, DDL-U
 New Benalia enters the battlefield tapped.
 When New Benalia enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 
 Name:   New Blood
 Cost:   2BB
 Type:   Sorcery
 S/R:    C17-R
-As an additional cost to cast New Blood, tap an untapped Vampire you control.
+As an additional cost to cast this spell, tap an untapped Vampire you control.
 Gain control of target creature. Change the text of that creature by replacing all instances of one creature type with Vampire.
 
 Name:   New Frontiers
 Cost:   XG
 Type:   Sorcery
 S/R:    OD-R
-Each player may search his or her library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched his or her library this way shuffles it.
+Each player may search their library for up to X basic land cards and put them onto the battlefield tapped. Then each player who searched their library this way shuffles it.
 
 Name:   New Horizons
 Cost:   2G
@@ -1445,7 +1468,7 @@ Type:   Enchantment — Aura
 S/R:    XLN-C
 Enchant land
 When New Horizons enters the battlefield, put a +1/+1 counter on target creature you control.
-Enchanted land has "{T}: Add two mana of any one color to your mana pool."
+Enchanted land has "{T}: Add two mana of any one color."
 
 Name:   New Perspectives
 Cost:   5U
@@ -1483,7 +1506,7 @@ Name:   Nezumi Cutthroat
 Cost:   1B
 Type:   Creature — Rat Warrior
 P/T:    2/1
-S/R:    CHK-C
+S/R:    CHK-C, A25-C
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
 Nezumi Cutthroat can't block.
 
@@ -1525,6 +1548,13 @@ Type:   Creature — Ouphe
 P/T:    2/2
 S/R:    DK-R
 {G}{G}{G}{G}, {T}: Regenerate target creature.
+
+Name:   Niambi, Faithful Healer
+Cost:   1WU
+Type:   Legendary Creature — Human Cleric
+P/T:    2/2
+S/R:    DOM-R
+When Niambi, Faithful Healer enters the battlefield, you may search your library and/or graveyard for a card named Teferi, Timebender, reveal it, and put it into your hand. If you search your library this way, shuffle it.
 
 Name:   Niblis of Dusk
 Cost:   2U
@@ -1571,19 +1601,19 @@ Name:   Nicol Bolas
 Cost:   2UUBBRR
 Type:   Legendary Creature — Elder Dragon
 P/T:    7/7
-S/R:    LE-R, CH-R, TSP-S, DRB-R, ME3-R
+S/R:    LE-R, CH-R, TSP-S, A25-R, DRB-R, ME3-R
 Flying
 At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay {U}{B}{R}.
-Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.
+Whenever Nicol Bolas deals damage to an opponent, that player discards their hand.
 
 Name:   Nicol Bolas, God-Pharaoh
 Cost:   4UBR
 Type:   Legendary Planeswalker — Bolas
 P/T:    7
 S/R:    HOU-M
-[+2]: Target opponent exiles cards from the top of his or her library until he or she exiles a nonland card. Until end of turn, you may cast that card without paying its mana cost.
-[+1]: Each opponent exiles two cards from his or her hand.
-[-4]: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent or creature an opponent controls.
+[+2]: Target opponent exiles cards from the top of their library until they exile a nonland card. Until end of turn, you may cast that card without paying its mana cost.
+[+1]: Each opponent exiles two cards from their hand.
+[-4]: Nicol Bolas, God-Pharaoh deals 7 damage to target opponent, creature an opponent controls, or planeswalker an opponent controls.
 [-12]: Exile each nonland permanent your opponents control.
 
 Name:   Nicol Bolas, Planeswalker
@@ -1593,7 +1623,7 @@ P/T:    5
 S/R:    CON-M, M13-M, E01-M, DDH-M
 [+3]: Destroy target noncreature permanent.
 [-2]: Gain control of target creature.
-[-9]: Nicol Bolas, Planeswalker deals 7 damage to target player. That player discards seven cards, then sacrifices seven permanents.
+[-9]: Nicol Bolas, Planeswalker deals 7 damage to target player or planeswalker. That player or that planeswalker's controller discards seven cards, then sacrifices seven permanents.
 
 Name:   Nicol Bolas, the Deceiver
 Cost:   5UBR
@@ -1658,7 +1688,7 @@ Name:   Night Terrors
 Cost:   2B
 Type:   Sorcery
 S/R:    ISD-C, MM3-C
-Target player reveals his or her hand. You choose a nonland card from it. Exile that card.
+Target player reveals their hand. You choose a nonland card from it. Exile that card.
 
 Name:   Night of Souls' Betrayal
 Cost:   2BB
@@ -1710,7 +1740,7 @@ Type:   Creature — Zombie Giant
 P/T:    4/3
 S/R:    M15-U
 Nightfire Giant gets +1/+1 as long as you control a Mountain.
-{4}{R}: Nightfire Giant deals 2 damage to target creature or player.
+{4}{R}: Nightfire Giant deals 2 damage to any target.
 
 Name:   Nightguard Patrol
 Cost:   2W
@@ -1746,7 +1776,7 @@ Name:   Nightmare Incursion
 Cost:   5B
 Type:   Sorcery
 S/R:    EVE-R
-Search target player's library for up to X cards, where X is the number of Swamps you control, and exile them. Then that player shuffles his or her library.
+Search target player's library for up to X cards, where X is the number of Swamps you control, and exile them. Then that player shuffles their library.
 
 Name:   Nightmare Lash
 Cost:   4
@@ -1759,7 +1789,7 @@ Name:   Nightmare Void
 Cost:   3B
 Type:   Sorcery
 S/R:    RAV-U, DDJ-U
-Target player reveals his or her hand. You choose a card from it. That player discards that card.
+Target player reveals their hand. You choose a card from it. That player discards that card.
 Dredge 2 (If you would draw a card, instead you may put exactly two cards from the top of your library into your graveyard. If you do, return this card from your graveyard to your hand. Otherwise, draw a card.)
 
 Name:   Nightmarish End
@@ -1852,7 +1882,7 @@ Name:   Nightsnare
 Cost:   3B
 Type:   Sorcery
 S/R:    ORI-C
-Target opponent reveals his or her hand. You may choose a nonland card from it. If you do, that player discards that card. If you don't, that player discards two cards.
+Target opponent reveals their hand. You may choose a nonland card from it. If you do, that player discards that card. If you don't, that player discards two cards.
 
 Name:   Nightsoil Kami
 Cost:   4GG
@@ -1874,7 +1904,7 @@ Type:   Creature — Specter
 P/T:    2/3
 S/R:    GTC-R
 Flying
-Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of his or her library.
+Whenever Nightveil Specter deals combat damage to a player, that player exiles the top card of their library.
 You may play cards exiled with Nightveil Specter.
 
 Name:   Nightwind Glider
@@ -1895,7 +1925,7 @@ Flying
 Name:   Nihil Spellbomb
 Cost:   1
 Type:   Artifact
-S/R:    SOM-C, C13-C, C17-C
+S/R:    SOM-C, C13-C, C17-C, A25-C
 {T}, Sacrifice Nihil Spellbomb: Exile all cards from target player's graveyard.
 When Nihil Spellbomb is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card.
 
@@ -2025,9 +2055,9 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 Name:   Nimbus Maze
 Type:   Land
 S/R:    FUT-R, IMA-R
-{T}: Add {C} to your mana pool.
-{T}: Add {W} to your mana pool. Activate this ability only if you control an Island.
-{T}: Add {U} to your mana pool. Activate this ability only if you control a Plains.
+{T}: Add {C}.
+{T}: Add {W}. Activate this ability only if you control an Island.
+{T}: Add {U}. Activate this ability only if you control a Plains.
 
 Name:   Nimbus Naiad
 Cost:   2U
@@ -2116,7 +2146,7 @@ Cost:   4BB
 Type:   Creature — Vampire Shade
 P/T:    4/4
 S/R:    ROE-M
-Whenever you tap a Swamp for mana, add {B} to your mana pool (in addition to the mana the land produces).
+Whenever you tap a Swamp for mana, add an additional {B}.
 {B}: Nirkana Revenant gets +1/+1 until end of turn.
 
 Name:   Nissa Revane
@@ -2157,7 +2187,7 @@ Search your library for up to two basic land cards, put them onto the battlefiel
 Name:   Nissa's Judgment
 Cost:   4G
 Type:   Sorcery
-S/R:    OGW-U
+S/R:    OGW-U, DDU-U
 Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Choose up to one target creature an opponent controls. Each creature you control with a +1/+1 counter on it deals damage equal to its power to that creature.
 
@@ -2262,15 +2292,15 @@ P/T:    5/5
 S/R:    RTR-M, MM3-R, C17-R
 Flying
 Whenever Niv-Mizzet, Dracogenius deals damage to a player, you may draw a card.
-{U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to target creature or player.
+{U}{R}: Niv-Mizzet, Dracogenius deals 1 damage to any target.
 
 Name:   Niv-Mizzet, the Firemind
 Cost:   2UURR
 Type:   Legendary Creature — Dragon Wizard
 P/T:    4/4
-S/R:    GPT-R, MM2-R, C17-R, DRB-R, DDJ-M
+S/R:    GPT-R, MM2-R, C17-R, A25-R, DRB-R, DDJ-M
 Flying
-Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.
+Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to any target.
 {T}: Draw a card.
 
 Name:   Niveous Wisps
@@ -2308,7 +2338,7 @@ S/R:    RTR-U, C13-U, C17-U
 Name:   Nivix, Aerie of the Firemind
 Type:   Land
 S/R:    GPT-U, DDJ-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}{U}{R}, {T}: Exile the top card of your library. Until your next turn, you may cast that card if it's an instant or sorcery card.
 
 Name:   Nivmagus Elemental
@@ -2372,7 +2402,7 @@ Cost:   2U
 Type:   Creature — Human Cleric
 P/T:    2/2
 S/R:    WL-U
-When Noble Benefactor dies, each player may search his or her library for a card and put that card into his or her hand. Then each player who searched his or her library this way shuffles it.
+When Noble Benefactor dies, each player may search their library for a card and put that card into their hand. Then each player who searched their library this way shuffles it.
 
 Name:   Noble Elephant
 Cost:   3W
@@ -2387,7 +2417,7 @@ Type:   Creature — Human Druid
 P/T:    0/1
 S/R:    CON-R, MM2-R
 Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
-{T}: Add {G}, {W}, or {U} to your mana pool.
+{T}: Add {G}, {W}, or {U}.
 
 Name:   Noble Panther
 Cost:   1GW
@@ -2427,9 +2457,9 @@ Name:   Noble Templar
 Cost:   5W
 Type:   Creature — Human Cleric Soldier
 P/T:    3/6
-S/R:    SCG-C, CNS-C, VMA-C, DDO-C
+S/R:    SCG-C, CNS-C, A25-C, VMA-C, DDO-C
 Vigilance
-Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, and put it into your hand. Then shuffle your library.)
+Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle your library.)
 
 Name:   Noble Vestige
 Cost:   2W
@@ -2437,7 +2467,7 @@ Type:   Creature — Spirit
 P/T:    1/2
 S/R:    ZEN-C
 Flying
-{T}: Prevent the next 1 damage that would be dealt to target player this turn.
+{T}: Prevent the next 1 damage that would be dealt to target player or planeswalker this turn.
 
 Name:   Nocturnal Raid
 Cost:   2BB
@@ -2449,14 +2479,14 @@ Name:   Noetic Scales
 Cost:   4
 Type:   Artifact
 S/R:    US-R
-At the beginning of each player's upkeep, return to its owner's hand each creature that player controls with power greater than the number of cards in his or her hand.
+At the beginning of each player's upkeep, return to its owner's hand each creature that player controls with power greater than the number of cards in their hand.
 
 Name:   Noggin Whack
 Cost:   2BB
 Type:   Tribal Sorcery — Rogue
 S/R:    MOR-U
 Prowl {1}{B} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Rogue.)
-Target player reveals three cards from his or her hand. You choose two of them. That player discards those cards.
+Target player reveals three cards from their hand. You choose two of them. That player discards those cards.
 
 Name:   Noggle Bandit
 Cost:   1(U/R)(U/R)
@@ -2478,7 +2508,7 @@ Type:   Creature — Noggle Wizard
 P/T:    2/2
 S/R:    EVE-U
 When Noggle Hedge-Mage enters the battlefield, if you control two or more Islands, you may tap two target permanents.
-When Noggle Hedge-Mage enters the battlefield, if you control two or more Mountains, you may have Noggle Hedge-Mage deal 2 damage to target player.
+When Noggle Hedge-Mage enters the battlefield, if you control two or more Mountains, you may have Noggle Hedge-Mage deal 2 damage to target player or planeswalker.
 
 Name:   Noggle Ransacker
 Cost:   2(U/R)
@@ -2506,12 +2536,12 @@ Name:   Nomad Outpost
 Type:   Land
 S/R:    KTK-U, C16-U, C17-U, DDN-U
 Nomad Outpost enters the battlefield tapped.
-{T}: Add {R}, {W}, or {B} to your mana pool.
+{T}: Add {R}, {W}, or {B}.
 
 Name:   Nomad Stadium
 Type:   Land
 S/R:    OD-U
-{T}: Add {W} to your mana pool. Nomad Stadium deals 1 damage to you.
+{T}: Add {W}. Nomad Stadium deals 1 damage to you.
 Threshold — {W}, {T}, Sacrifice Nomad Stadium: You gain 4 life. Activate this ability only if seven or more cards are in your graveyard.
 
 Name:   Nomadic Elf
@@ -2519,7 +2549,7 @@ Cost:   1G
 Type:   Creature — Elf Nomad
 P/T:    2/2
 S/R:    IN-C, DDE-C
-{1}{G}: Add one mana of any color to your mana pool.
+{1}{G}: Add one mana of any color.
 
 Name:   Nomads en-Kor
 Cost:   W
@@ -2624,7 +2654,7 @@ Name:   Nostalgic Dreams
 Cost:   GG
 Type:   Sorcery
 S/R:    TOR-R, VMA-U
-As an additional cost to cast Nostalgic Dreams, discard X cards.
+As an additional cost to cast this spell, discard X cards.
 Return X target cards from your graveyard to your hand. Exile Nostalgic Dreams.
 
 Name:   Nosy Goblin
@@ -2645,15 +2675,15 @@ Cost:   7
 Type:   Tribal Instant — Eldrazi
 S/R:    ROE-U
 Counter target spell or ability that targets a permanent you control.
-Not of This World costs {7} less to cast if it targets a spell or ability that targets a creature you control with power 7 or greater.
+This spell costs {7} less to cast if it targets a spell or ability that targets a creature you control with power 7 or greater.
 
 Name:   Notion Thief
 Cost:   2UB
 Type:   Creature — Human Rogue
 P/T:    3/1
-S/R:    DGM-R
+S/R:    DGM-R, A25-R
 Flash
-If an opponent would draw a card except the first one he or she draws in each of his or her draw steps, instead that player skips that draw and you draw a card.
+If an opponent would draw a card except the first one they draw in each of their draw steps, instead that player skips that draw and you draw a card.
 
 Name:   Notorious Assassin
 Cost:   3B
@@ -2679,7 +2709,7 @@ Name:   Nourishing Shoal
 Cost:   XGG
 Type:   Instant — Arcane
 S/R:    BOK-R
-You may exile a green card with converted mana cost X from your hand rather than pay Nourishing Shoal's mana cost.
+You may exile a green card with converted mana cost X from your hand rather than pay this spell's mana cost.
 You gain X life.
 
 Name:   Nova Chaser
@@ -2721,7 +2751,7 @@ Graft 4 (This creature enters the battlefield with four +1/+1 counters on it. Wh
 Name:   Novijen, Heart of Progress
 Type:   Land
 S/R:    DIS-U, C15-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {G}{U}, {T}: Put a +1/+1 counter on each creature that entered the battlefield this turn.
 
 Name:   Noxious Dragon
@@ -2782,7 +2812,7 @@ Name:   Noxious Vapors
 Cost:   1BB
 Type:   Sorcery
 S/R:    PS-U
-Each player reveals his or her hand and chooses one card of each color from it, then discards all other nonland cards.
+Each player reveals their hand, chooses one card of each color from it, then discards all other nonland cards.
 
 Name:   Noyan Dar, Roil Shaper
 Cost:   3WU
@@ -2859,7 +2889,7 @@ Cost:   2G
 Type:   Creature — Insect Druid
 P/T:    2/3
 S/R:    JUD-C, PC2-C, PCA-C
-{T}: Return two target cards from an opponent's graveyard to his or her hand. Destroy target artifact or enchantment.
+{T}: Return two target cards from an opponent's graveyard to their hand. Destroy target artifact or enchantment.
 
 Name:   Nullmage Shepherd
 Cost:   3G
@@ -2900,7 +2930,7 @@ Enchanted permanent doesn't untap during its controller's untap step.
 At the beginning of the upkeep of enchanted permanent's controller, that player loses 1 life.
 
 Name:   Numot, the Devastator
-Cost:   3RWU
+Cost:   3URW
 Type:   Legendary Creature — Dragon
 P/T:    6/6
 S/R:    PLC-R, CMD-R
@@ -2933,8 +2963,8 @@ Threshold — Squirrel creatures get +2/+2 as long as seven or more cards are in
 Name:   Nykthos, Shrine to Nyx
 Type:   Legendary Land
 S/R:    THS-R
-{T}: Add {C} to your mana pool.
-{2}, {T}: Choose a color. Add to your mana pool an amount of mana of that color equal to your devotion to that color. (Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.)
+{T}: Add {C}.
+{2}, {T}: Choose a color. Add an amount of mana of that color equal to your devotion to that color. (Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.)
 
 Name:   Nylea's Disciple
 Cost:   2GG
@@ -2990,7 +3020,7 @@ Name:   Nyx-Fleece Ram
 Cost:   1W
 Type:   Enchantment Creature — Sheep
 P/T:    0/5
-S/R:    JOU-U
+S/R:    JOU-U, A25-U
 At the beginning of your upkeep, you gain 1 life.
 
 Name:   Nyxathid

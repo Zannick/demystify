@@ -15,14 +15,22 @@ Type:   Creature — Goblin Archer Ally
 P/T:    2/1
 S/R:    OGW-C
 First strike
-Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent.
+Cohort — {T}, Tap an untapped Ally you control: Zada's Commando deals 1 damage to target opponent or planeswalker.
 
 Name:   Zada, Hedron Grinder
 Cost:   3R
 Type:   Legendary Creature — Goblin Ally
 P/T:    3/3
-S/R:    BFZ-R
+S/R:    BFZ-R, A25-U
 Whenever you cast an instant or sorcery spell that targets only Zada, Hedron Grinder, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.
+
+Name:   Zahid, Djinn of the Lamp
+Cost:   4UU
+Type:   Legendary Creature — Djinn
+P/T:    5/6
+S/R:    DOM-R
+You may pay {3}{U} and tap an untapped artifact you control rather than pay this spell's mana cost.
+Flying
 
 Name:   Zameck Guildmage
 Cost:   GU
@@ -52,7 +60,7 @@ Name:   Zap
 Cost:   2R
 Type:   Instant
 S/R:    IN-C
-Zap deals 1 damage to target creature or player.
+Zap deals 1 damage to any target.
 Draw a card.
 
 Name:   Zarichi Tiger
@@ -75,7 +83,7 @@ Cost:   3R
 Type:   Creature — Minotaur Archer
 P/T:    4/3
 S/R:    HOU-C
-{4}{R}: Zealot of the God-Pharaoh deals 2 damage to target opponent.
+{4}{R}: Zealot of the God-Pharaoh deals 2 damage to target opponent or planeswalker.
 
 Name:   Zealots en-Dal
 Cost:   3W
@@ -109,7 +117,7 @@ S/R:    SCG-C, 9ED-U
 Name:   Zealous Persecution
 Cost:   WB
 Type:   Instant
-S/R:    ARB-U, EMA-U, DDK-U
+S/R:    ARB-U, EMA-U, E02-U, DDK-U
 Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.
 
 Name:   Zealous Strike
@@ -126,12 +134,12 @@ S/R:    MI-U
 Whenever Zebra Unicorn deals damage, you gain that much life.
 
 Name:   Zedruu the Greathearted
-Cost:   1RWU
+Cost:   1URW
 Type:   Legendary Creature — Minotaur Monk
 P/T:    2/4
 S/R:    CMD-M, C16-M
 At the beginning of your upkeep, you gain X life and draw X cards, where X is the number of permanents you own that your opponents control.
-{R}{W}{U}: Target opponent gains control of target permanent you control.
+{U}{R}{W}: Target opponent gains control of target permanent you control.
 
 Name:   Zektar Shrine Expedition
 Cost:   1R
@@ -165,7 +173,7 @@ Name:   Zendikar Resurgent
 Cost:   5GG
 Type:   Enchantment
 S/R:    OGW-R, C17-R
-Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
+Whenever you tap a land for mana, add one mana of any type that land produced. (The types of mana are white, blue, black, red, green, and colorless.)
 Whenever you cast a creature spell, draw a card.
 
 Name:   Zendikar's Roil
@@ -268,7 +276,7 @@ Type:   Creature — Human Knight
 P/T:    2/2
 S/R:    VI-R, VMA-R
 Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
-{1}{W}: The next 1 damage that would be dealt to Zhalfirin Crusader this turn is dealt to target creature or player instead.
+{1}{W}: The next 1 damage that would be dealt to Zhalfirin Crusader this turn is dealt to any target instead.
 
 Name:   Zhalfirin Knight
 Cost:   2W
@@ -277,6 +285,12 @@ P/T:    2/2
 S/R:    MI-C
 Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)
 {W}{W}: Zhalfirin Knight gains first strike until end of turn.
+
+Name:   Zhalfirin Void
+Type:   Land
+S/R:    DOM-U
+When Zhalfirin Void enters the battlefield, scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+{T}: Add {C}.
 
 Name:   Zhang Fei, Fierce Warrior
 Cost:   4WW
@@ -327,14 +341,14 @@ Cost:   3RG
 Type:   Creature — Beast
 P/T:    7/5
 S/R:    DGM-R
-Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced.
+Whenever a player taps a land for mana, that player adds one mana of any type that land produced.
 
 Name:   Zhur-Taa Druid
 Cost:   RG
 Type:   Creature — Human Druid
 P/T:    1/1
 S/R:    DGM-C, C16-C, DDL-C
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 Whenever you tap Zhur-Taa Druid for mana, it deals 1 damage to each opponent.
 
 Name:   Zhur-Taa Swine
@@ -444,8 +458,8 @@ Forestwalk (This creature can't be blocked as long as defending player controls 
 
 Name:   Zoetic Cavern
 Type:   Land
-S/R:    FUT-U, CMD-U, C14-U, C15-U, CMA-U
-{T}: Add {C} to your mana pool.
+S/R:    FUT-U, CMD-U, C14-U, C15-U, CMA-U, A25-U
+{T}: Add {C}.
 Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Zof Shade
@@ -558,7 +572,7 @@ Tap an untapped Zombie you control: Target creature gains swampwalk until end of
 Name:   Zombify
 Cost:   3B
 Type:   Sorcery
-S/R:    OD-U, 8ED-U, 9ED-U, ARC-U
+S/R:    OD-U, 8ED-U, 9ED-U, ARC-U, A25-U
 Return target creature card from your graveyard to the battlefield.
 
 Name:   Zoologist
@@ -587,7 +601,7 @@ Name:   Zulaport Cutthroat
 Cost:   1B
 Type:   Creature — Human Rogue Ally
 P/T:    1/1
-S/R:    BFZ-U
+S/R:    BFZ-U, A25-U
 Whenever Zulaport Cutthroat or another creature you control dies, each opponent loses 1 life and you gain 1 life.
 
 Name:   Zulaport Enforcer
@@ -620,7 +634,7 @@ Cost:   3U
 Type:   Enchantment
 S/R:    IA-R, 5E-R, 6E-R, 8ED-R, 9ED-R
 Players play with their hands revealed.
-If a player would draw a card, he or she reveals it instead. Then any other player may pay 2 life. If a player does, put that card into its owner's graveyard. Otherwise, that player draws a card.
+If a player would draw a card, they reveal it instead. Then any other player may pay 2 life. If a player does, put that card into its owner's graveyard. Otherwise, that player draws a card.
 
 Name:   Zuran Enchanter
 Cost:   1U
@@ -640,7 +654,7 @@ Cost:   2U
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    IA-C, ME2-C
-{T}: Zuran Spellcaster deals 1 damage to target creature or player.
+{T}: Zuran Spellcaster deals 1 damage to any target.
 
 Name:   Zurgo Bellstriker
 Cost:   R

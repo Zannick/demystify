@@ -64,7 +64,7 @@ Bad River enters the battlefield tapped.
 Name:   Badlands
 Type:   Land — Swamp Mountain
 S/R:    A-R, B-R, U-R, RV-R, VMA-R, ME2-R, ME4-R
-({T}: Add {B} or {R} to your mana pool.)
+({T}: Add {B} or {R}.)
 
 Name:   Baffling End
 Cost:   1W
@@ -72,6 +72,14 @@ Type:   Enchantment
 S/R:    RIX-U
 When Baffling End enters the battlefield, exile target creature an opponent controls with converted mana cost 3 or less.
 When Baffling End leaves the battlefield, target opponent creates a 3/3 green Dinosaur creature token with trample.
+
+Name:   Baird, Steward of Argive
+Cost:   2WW
+Type:   Legendary Creature — Human Soldier
+P/T:    2/4
+S/R:    DOM-U
+Vigilance
+Creatures can't attack you or a planeswalker you control unless their controller pays {1} for each of those creatures.
 
 Name:   Baki's Curse
 Cost:   2UU
@@ -98,7 +106,7 @@ Cost:   3B
 Type:   Creature — Human Rogue Ally
 P/T:    2/2
 S/R:    ZEN-R
-Whenever Bala Ged Thief or another Ally enters the battlefield under your control, target player reveals a number of cards from his or her hand equal to the number of Allies you control. You choose one of them. That player discards that card.
+Whenever Bala Ged Thief or another Ally enters the battlefield under your control, target player reveals a number of cards from their hand equal to the number of Allies you control. You choose one of them. That player discards that card.
 
 Name:   Balan, Wandering Knight
 Cost:   2WW
@@ -113,7 +121,7 @@ Name:   Balance
 Cost:   1W
 Type:   Sorcery
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, EMA-M, VMA-M, ME4-R, V09-M
-Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.
+Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.
 
 Name:   Balance of Power
 Cost:   3UU
@@ -125,7 +133,7 @@ Name:   Balancing Act
 Cost:   2WW
 Type:   Sorcery
 S/R:    OD-R
-Each player chooses a number of permanents he or she controls equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest. Each player discards cards the same way.
+Each player chooses a number of permanents they control equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest. Each player discards cards the same way.
 
 Name:   Balduvian Barbarians
 Cost:   1RR
@@ -172,7 +180,7 @@ Name:   Balduvian Horde
 Cost:   2RR
 Type:   Creature — Human Barbarian
 P/T:    5/5
-S/R:    AI-R, 6E-R, MED-R
+S/R:    AI-R, 6E-R, A25-C, MED-R
 When Balduvian Horde enters the battlefield, sacrifice it unless you discard a card at random.
 
 Name:   Balduvian Hydra
@@ -196,13 +204,13 @@ Cost:   U
 Type:   Creature — Human Cleric Shaman
 P/T:    1/1
 S/R:    IA-C
-{T}: Change the text of target white enchantment you control that doesn't have cumulative upkeep by replacing all instances of one color word with another. (For example, you may change "black creatures can't attack" to "blue creatures can't attack.") That enchantment gains "Cumulative upkeep {1}." (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless he or she pays its upkeep cost for each age counter on it.)
+{T}: Change the text of target white enchantment you control that doesn't have cumulative upkeep by replacing all instances of one color word with another. (For example, you may change "black creatures can't attack" to "blue creatures can't attack.") That enchantment gains "Cumulative upkeep {1}." (At the beginning of its controller's upkeep, that player puts an age counter on it, then sacrifices it unless they pay its upkeep cost for each age counter on it.)
 
 Name:   Balduvian Trading Post
 Type:   Land
 S/R:    AI-R, ME2-R
 If Balduvian Trading Post would enter the battlefield, sacrifice an untapped Mountain instead. If you do, put Balduvian Trading Post onto the battlefield. If you don't, put it into its owner's graveyard.
-{T}: Add {C}{R} to your mana pool.
+{T}: Add {C}{R}.
 {1}, {T}: Balduvian Trading Post deals 1 damage to target attacking creature.
 
 Name:   Balduvian War-Makers
@@ -235,7 +243,7 @@ P/T:    2/4
 S/R:    EVE-R, HOP-R
 Other red creatures you control get +1/+1.
 Other white creatures you control get +1/+1.
-Whenever you cast a red spell, Balefire Liege deals 3 damage to target player.
+Whenever you cast a red spell, Balefire Liege deals 3 damage to target player or planeswalker.
 Whenever you cast a white spell, you gain 3 life.
 
 Name:   Baleful Ammit
@@ -266,7 +274,7 @@ Name:   Baleful Stare
 Cost:   2U
 Type:   Sorcery
 S/R:    P1-U, 7E-U, 9ED-U
-Target opponent reveals his or her hand. You draw a card for each Mountain and red card in it.
+Target opponent reveals their hand. You draw a card for each Mountain and red card in it.
 
 Name:   Baleful Strix
 Cost:   UB
@@ -280,8 +288,8 @@ Name:   Ball Lightning
 Cost:   RRR
 Type:   Creature — Elemental
 P/T:    6/1
-S/R:    DK-R, 4E-R, 5E-R, M10-R, MED-R, PD2-R
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+S/R:    DK-R, 4E-R, 5E-R, M10-R, A25-R, MED-R, PD2-R
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 At the beginning of the end step, sacrifice Ball Lightning.
 
@@ -290,7 +298,7 @@ Cost:   5
 Type:   Artifact — Vehicle
 P/T:    6/6
 S/R:    KLD-U
-Whenever Ballista Charger attacks, it deals 1 damage to target creature or player.
+Whenever Ballista Charger attacks, it deals 1 damage to any target.
 Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 
 Name:   Ballista Squad
@@ -343,20 +351,28 @@ Type:   Artifact
 S/R:    FE-R
 {1}, {T}, Sacrifice Balm of Restoration: Choose one —
 • You gain 2 life.
-• Prevent the next 2 damage that would be dealt to target creature or player this turn.
+• Prevent the next 2 damage that would be dealt to any target this turn.
 
 Name:   Baloth Cage Trap
 Cost:   3GG
 Type:   Instant — Trap
 S/R:    ZEN-U, MM3-U
-If an opponent had an artifact enter the battlefield under his or her control this turn, you may pay {1}{G} rather than pay Baloth Cage Trap's mana cost.
+If an opponent had an artifact enter the battlefield under their control this turn, you may pay {1}{G} rather than pay this spell's mana cost.
 Create a 4/4 green Beast creature token.
+
+Name:   Baloth Gorger
+Cost:   2GG
+Type:   Creature — Beast
+P/T:    4/4
+S/R:    DOM-C
+Kicker {4} (You may pay an additional {4} as you cast this spell.)
+If Baloth Gorger was kicked, it enters the battlefield with three +1/+1 counters on it.
 
 Name:   Baloth Null
 Cost:   4BG
 Type:   Creature — Zombie Beast
 P/T:    4/5
-S/R:    OGW-U
+S/R:    OGW-U, A25-U
 When Baloth Null enters the battlefield, return up to two target creature cards from your graveyard to your hand.
 
 Name:   Baloth Pup
@@ -378,7 +394,7 @@ Cost:   2U
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    OD-U
-Whenever Balshan Beguiler deals combat damage to a player, that player reveals the top two cards of his or her library. You choose one of those cards and put it into his or her graveyard.
+Whenever Balshan Beguiler deals combat damage to a player, that player reveals the top two cards of their library. You choose one of those cards and put it into their graveyard.
 
 Name:   Balshan Collaborator
 Cost:   3U
@@ -402,7 +418,7 @@ Type:   Legendary Creature — Zombie Dwarf
 P/T:    2/2
 S/R:    JUD-R
 Minion creatures get +1/+1.
-{B}{B}{B}, Exile Balthor the Defiled: Each player returns all black and all red creature cards from his or her graveyard to the battlefield.
+{B}{B}{B}, Exile Balthor the Defiled: Each player returns all black and all red creature cards from their graveyard to the battlefield.
 
 Name:   Balthor the Stout
 Cost:   1RR
@@ -418,19 +434,19 @@ Type:   Creature — Vampire Rogue
 P/T:    2/3
 S/R:    GTC-C, IMA-C
 Flying
-When Balustrade Spy enters the battlefield, target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
+When Balustrade Spy enters the battlefield, target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.
 
 Name:   Bamboozle
 Cost:   2U
 Type:   Sorcery
 S/R:    OD-U
-Target player reveals the top four cards of his or her library. You choose two of those cards and put them into his or her graveyard. Put the rest on top of his or her library in any order.
+Target player reveals the top four cards of their library. You choose two of those cards and put them into that player's graveyard. Put the rest on top of their library in any order.
 
 Name:   Bandage
 Cost:   W
 Type:   Instant
 S/R:    ST-C, 10E-C
-Prevent the next 1 damage that would be dealt to target creature or player this turn.
+Prevent the next 1 damage that would be dealt to any target this turn.
 Draw a card.
 
 Name:   Bane Alley Blackguard
@@ -453,7 +469,7 @@ Cost:   7
 Type:   Creature — Eldrazi
 P/T:    7/5
 S/R:    BFZ-U
-Whenever Bane of Bala Ged attacks, defending player exiles two permanents he or she controls.
+Whenever Bane of Bala Ged attacks, defending player exiles two permanents they control.
 
 Name:   Bane of Hanweir
 Type:   Creature — Werewolf
@@ -484,8 +500,8 @@ Name:   Banefire
 Cost:   XR
 Type:   Sorcery
 S/R:    CON-R, MM2-R, DDN-R
-Banefire deals X damage to target creature or player.
-If X is 5 or more, Banefire can't be countered by spells or abilities and the damage can't be prevented.
+Banefire deals X damage to any target.
+If X is 5 or more, this spell can't be countered and the damage can't be prevented.
 
 Name:   Baneful Omen
 Cost:   4BBB
@@ -558,14 +574,14 @@ Cost:   2BB
 Type:   Creature — Spirit
 P/T:    0/1
 S/R:    DK-U, CH-U, ME3-U
-{X}, {T}: Banshee deals half X damage, rounded down, to target creature or player, and half X damage, rounded up, to you.
+{X}, {T}: Banshee deals half X damage, rounded down, to any target, and half X damage, rounded up, to you.
 
 Name:   Banshee of the Dread Choir
 Cost:   3BB
 Type:   Creature — Spirit
 P/T:    4/4
 S/R:    C15-U, CMA-U
-Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
+Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 Whenever Banshee of the Dread Choir deals combat damage to a player, that player discards a card.
 
 Name:   Banshee's Blade
@@ -596,7 +612,7 @@ Choose one —
 Name:   Bant Panorama
 Type:   Land
 S/R:    ALA-C, C13-C, CMA-C
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}, {T}, Sacrifice Bant Panorama: Search your library for a basic Forest, Plains, or Island card and put it onto the battlefield tapped. Then shuffle your library.
 
 Name:   Bant Sojourners
@@ -640,7 +656,7 @@ Cost:   2R
 Type:   Creature — Human Barbarian
 P/T:    2/2
 S/R:    JUD-C
-Discard a card at random: Barbarian Bully gets +2/+2 until end of turn unless a player has Barbarian Bully deal 4 damage to him or her. Activate this ability only once each turn.
+Discard a card at random: Barbarian Bully gets +2/+2 until end of turn unless a player has Barbarian Bully deal 4 damage to them. Activate this ability only once each turn.
 
 Name:   Barbarian General
 Cost:   4R
@@ -667,7 +683,7 @@ Cost:   2R
 Type:   Creature — Human Barbarian
 P/T:    2/1
 S/R:    OD-C
-{2}{R}, Sacrifice Barbarian Lunatic: Barbarian Lunatic deals 2 damage to target creature.
+{2}{R}, Sacrifice Barbarian Lunatic: It deals 2 damage to target creature.
 
 Name:   Barbarian Outcast
 Cost:   1R
@@ -686,8 +702,8 @@ S/R:    RAV-C
 Name:   Barbarian Ring
 Type:   Land
 S/R:    OD-U, PD2-U
-{T}: Add {R} to your mana pool. Barbarian Ring deals 1 damage to you.
-Threshold — {R}, {T}, Sacrifice Barbarian Ring: Barbarian Ring deals 2 damage to target creature or player. Activate this ability only if seven or more cards are in your graveyard.
+{T}: Add {R}. Barbarian Ring deals 1 damage to you.
+Threshold — {R}, {T}, Sacrifice Barbarian Ring: It deals 2 damage to any target. Activate this ability only if seven or more cards are in your graveyard.
 
 Name:   Barbary Apes
 Cost:   1G
@@ -707,7 +723,7 @@ Cost:   2RR
 Type:   Enchantment — Aura
 S/R:    PR-U
 Enchant land
-Enchanted land has "{T}: This land deals 1 damage to target creature or player."
+Enchanted land has "{T}: This land deals 1 damage to any target."
 
 Name:   Barbed Foliage
 Cost:   2GG
@@ -722,14 +738,14 @@ Type:   Instant
 S/R:    DST-C
 Choose one —
 • Barbed Lightning deals 3 damage to target creature.
-• Barbed Lightning deals 3 damage to target player.
+• Barbed Lightning deals 3 damage to target player or planeswalker.
 Entwine {2} (Choose both if you pay the entwine cost.)
 
 Name:   Barbed Sextant
 Cost:   1
 Type:   Artifact
 S/R:    IA-C, 5E-C, ME2-C
-{1}, {T}, Sacrifice Barbed Sextant: Add one mana of any color to your mana pool. Draw a card at the beginning of the next turn's upkeep.
+{1}, {T}, Sacrifice Barbed Sextant: Add one mana of any color. Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Barbed Shocker
 Cost:   3R
@@ -737,7 +753,7 @@ Type:   Creature — Insect
 P/T:    2/2
 S/R:    TSP-U, CNS-U
 Trample, haste
-Whenever Barbed Shocker deals damage to a player, that player discards all the cards in his or her hand, then draws that many cards.
+Whenever Barbed Shocker deals damage to a player, that player discards all the cards in their hand, then draws that many cards.
 
 Name:   Barbed Sliver
 Cost:   2R
@@ -831,8 +847,8 @@ Name:   Barrage Ogre
 Cost:   3RR
 Type:   Creature — Ogre Warrior
 P/T:    3/3
-S/R:    SOM-U
-{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to target creature or player.
+S/R:    SOM-U, DDU-U
+{T}, Sacrifice an artifact: Barrage Ogre deals 2 damage to any target.
 
 Name:   Barrage Tyrant
 Cost:   4R
@@ -840,7 +856,7 @@ Type:   Creature — Eldrazi
 P/T:    5/3
 S/R:    BFZ-R
 Devoid (This card has no color.)
-{2}{R}, Sacrifice another colorless creature: Barrage Tyrant deals damage equal to the sacrificed creature's power to target creature or player.
+{2}{R}, Sacrifice another colorless creature: Barrage Tyrant deals damage equal to the sacrificed creature's power to any target.
 
 Name:   Barrage of Boulders
 Cost:   2R
@@ -853,7 +869,7 @@ Name:   Barrage of Expendables
 Cost:   R
 Type:   Enchantment
 S/R:    M14-U
-{R}, Sacrifice a creature: Barrage of Expendables deals 1 damage to target creature or player.
+{R}, Sacrifice a creature: Barrage of Expendables deals 1 damage to any target.
 
 Name:   Barrel Down Sokenzan
 Cost:   2R
@@ -877,7 +893,7 @@ Name:   Barren Moor
 Type:   Land
 S/R:    ONS-C, ARC-C, CMD-C, C13-C, C14-C, C15-C, CMA-C, VMA-C, DDC-C, DDJ-C
 Barren Moor enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 Cycling {B} ({B}, Discard this card: Draw a card.)
 
 Name:   Barrenton Cragtreads
@@ -892,7 +908,7 @@ Cost:   4W
 Type:   Creature — Kithkin Cleric
 P/T:    0/4
 S/R:    SHM-C
-{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+{T}: Prevent the next 1 damage that would be dealt to any target this turn.
 Put a -1/-1 counter on Barrenton Medic: Untap Barrenton Medic.
 
 Name:   Barricade Breaker
@@ -963,14 +979,14 @@ Cost:   2B
 Type:   Creature — Sliver
 P/T:    2/2
 S/R:    TSP-C
-All Slivers have "Sacrifice this permanent: Add {B}{B} to your mana pool."
+All Slivers have "Sacrifice this permanent: Add {B}{B}."
 
 Name:   Basal Thrull
 Cost:   BB
 Type:   Creature — Thrull
 P/T:    1/2
 S/R:    FE-C, MED-C
-{T}, Sacrifice Basal Thrull: Add {B}{B} to your mana pool.
+{T}, Sacrifice Basal Thrull: Add {B}{B}.
 
 Name:   Basalt Gargoyle
 Cost:   2R
@@ -987,14 +1003,14 @@ Type:   Artifact Creature — Golem
 P/T:    2/4
 S/R:    MI-U
 Basalt Golem can't be blocked by artifact creatures.
-Whenever Basalt Golem becomes blocked by a creature, that creature's controller sacrifices it at end of combat. If the player does, he or she creates a 0/2 colorless Wall artifact creature token with defender.
+Whenever Basalt Golem becomes blocked by a creature, that creature's controller sacrifices it at end of combat. If the player does, they create a 0/2 colorless Wall artifact creature token with defender.
 
 Name:   Basalt Monolith
 Cost:   3
 Type:   Artifact
 S/R:    A-U, B-U, U-U, RV-U, C13-U, C15-U, CMA-U, ME4-U
 Basalt Monolith doesn't untap during your untap step.
-{T}: Add {C}{C}{C} to your mana pool.
+{T}: Add {C}{C}{C}.
 {3}: Untap Basalt Monolith.
 
 Name:   Basandra, Battle Seraph
@@ -1208,7 +1224,7 @@ Name:   Battle Hymn
 Cost:   1R
 Type:   Instant
 S/R:    AVR-C
-Add {R} to your mana pool for each creature you control.
+Add {R} for each creature you control.
 
 Name:   Battle Mastery
 Cost:   2W
@@ -1284,8 +1300,8 @@ At the beginning of combat on your turn, you may have target creature get +2/+0 
 Name:   Battlefield Forge
 Type:   Land
 S/R:    AP-R, 9ED-R, 10E-R, M15-R, ORI-R
-{T}: Add {C} to your mana pool.
-{T}: Add {R} or {W} to your mana pool. Battlefield Forge deals 1 damage to you.
+{T}: Add {C}.
+{T}: Add {R} or {W}. Battlefield Forge deals 1 damage to you.
 
 Name:   Battlefield Medic
 Cost:   1W
@@ -1412,7 +1428,7 @@ Name:   Batwing Brume
 Cost:   1(W/B)
 Type:   Instant
 S/R:    EVE-U, ARC-U
-Prevent all combat damage that would be dealt this turn if {W} was spent to cast Batwing Brume. Each player loses 1 life for each attacking creature he or she controls if {B} was spent to cast Batwing Brume. (Do both if {W}{B} was spent.)
+Prevent all combat damage that would be dealt this turn if {W} was spent to cast Batwing Brume. Each player loses 1 life for each attacking creature they control if {B} was spent to cast Batwing Brume. (Do both if {W}{B} was spent.)
 
 Name:   Bay Falcon
 Cost:   1U
@@ -1424,7 +1440,7 @@ Flying, vigilance
 Name:   Bayou
 Type:   Land — Swamp Forest
 S/R:    A-R, B-R, U-R, RV-R, VMA-R, ME3-R, ME4-R
-({T}: Add {B} or {G} to your mana pool.)
+({T}: Add {B} or {G}.)
 
 Name:   Bayou Dragonfly
 Cost:   1G
@@ -1492,12 +1508,12 @@ Name:   Beacon of Destruction
 Cost:   3RR
 Type:   Instant
 S/R:    5DN-R, 10E-R, DDS-R
-Beacon of Destruction deals 5 damage to target creature or player. Shuffle Beacon of Destruction into its owner's library.
+Beacon of Destruction deals 5 damage to any target. Shuffle Beacon of Destruction into its owner's library.
 
 Name:   Beacon of Immortality
 Cost:   5W
 Type:   Instant
-S/R:    5DN-R, 10E-R
+S/R:    5DN-R, 10E-R, E02-R
 Double target player's life total. Shuffle Beacon of Immortality into its owner's library.
 
 Name:   Beacon of Tomorrows
@@ -1549,7 +1565,7 @@ Type:   Creature — Eldrazi
 P/T:    2/1
 S/R:    OGW-R
 Devoid (This card has no color.)
-When you cast Bearer of Silence, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)
+When you cast this spell, you may pay {1}{C}. If you do, target opponent sacrifices a creature. ({C} represents colorless mana.)
 Flying
 Bearer of Silence can't block.
 
@@ -1614,7 +1630,7 @@ Type:   Creature — Elf Shaman Ally
 P/T:    1/1
 S/R:    BFZ-R
 Haste
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell.
 
 Name:   Beastmaster Ascension
 Cost:   2G
@@ -1672,7 +1688,7 @@ Cost:   6RR
 Type:   Creature — Devil Horror
 P/T:    3/4
 S/R:    EMN-R
-Bedlam Reveler costs {1} less to cast for each instant and sorcery card in your graveyard.
+This spell costs {1} less to cast for each instant and sorcery card in your graveyard.
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 When Bedlam Reveler enters the battlefield, discard your hand, then draw three cards.
 
@@ -1680,7 +1696,7 @@ Name:   Bee Sting
 Cost:   3G
 Type:   Sorcery
 S/R:    P1-U, P2-U, ME4-U
-Bee Sting deals 2 damage to target creature or player.
+Bee Sting deals 2 damage to any target.
 
 Name:   Beetleback Chief
 Cost:   2RR
@@ -1701,6 +1717,13 @@ Cost:   2BB
 Type:   Sorcery
 S/R:    US-C, 7E-U, CHK-C
 Destroy target land or nonblack creature. It can't be regenerated.
+
+Name:   Befuddle
+Cost:   2U
+Type:   Instant
+S/R:    DOM-C
+Target creature gets -4/-0 until end of turn.
+Draw a card.
 
 Name:   Beguiler of Wills
 Cost:   3UU
@@ -1858,7 +1881,7 @@ Type:   Creature — Sphinx
 P/T:    2/5
 S/R:    RAV-U, M12-U
 Flying
-Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of his or her library into his or her graveyard.
+Whenever a source deals damage to Belltower Sphinx, that source's controller puts that many cards from the top of their library into their graveyard.
 
 Name:   Beloved Chaplain
 Cost:   1W
@@ -1912,6 +1935,13 @@ P/T:    1/1
 S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, MED-C
 Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 
+Name:   Benalish Honor Guard
+Cost:   1W
+Type:   Creature — Human Knight
+P/T:    2/2
+S/R:    DOM-C
+Benalish Honor Guard gets +1/+0 for each legendary creature you control.
+
 Name:   Benalish Infantry
 Cost:   2W
 Type:   Creature — Human Soldier
@@ -1934,6 +1964,13 @@ P/T:    2/2
 S/R:    IN-C, DDG-C
 Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)
 If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.
+
+Name:   Benalish Marshal
+Cost:   WWW
+Type:   Creature — Human Knight
+P/T:    3/3
+S/R:    DOM-R
+Other creatures you control get +1/+1.
 
 Name:   Benalish Missionary
 Cost:   W
@@ -1960,7 +1997,7 @@ Name:   Bend or Break
 Cost:   3R
 Type:   Sorcery
 S/R:    IN-R
-Each player separates all nontoken lands he or she controls into two piles. For each player, one of his or her piles is chosen by one of his or her opponents of his or her choice. Destroy all lands in the chosen piles. Tap all lands in the other piles.
+Each player separates all nontoken lands they control into two piles. For each player, one of their piles is chosen by one of their opponents of their choice. Destroy all lands in the chosen piles. Tap all lands in the other piles.
 
 Name:   Beneath the Sands
 Cost:   2G
@@ -1996,7 +2033,7 @@ Type:   Creature — Spirit
 P/T:    0/4
 S/R:    RAV-C, IMA-C
 Defender (This creature can't attack.)
-{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+{T}: Prevent the next 1 damage that would be dealt to any target this turn.
 
 Name:   Benevolent Bodyguard
 Cost:   W
@@ -2010,14 +2047,14 @@ Cost:   3W
 Type:   Instant
 S/R:    C14-R
 Choose an opponent. You and that player each create three 1/1 white Spirit creature tokens with flying.
-Choose an opponent. You gain 2 life for each creature you control and that player gains 2 life for each creature he or she controls.
+Choose an opponent. You gain 2 life for each creature you control and that player gains 2 life for each creature they control.
 
 Name:   Benevolent Unicorn
 Cost:   1W
 Type:   Creature — Unicorn
 P/T:    1/2
 S/R:    MI-C
-If a spell would deal damage to a creature or player, it deals that much damage minus 1 to that creature or player instead.
+If a spell would deal damage to a permanent or player, it deals that much damage minus 1 to that permanent or player instead.
 
 Name:   Benthic Behemoth
 Cost:   5UUU
@@ -2039,7 +2076,7 @@ Cost:   3U
 Type:   Creature — Merfolk Scout
 P/T:    2/4
 S/R:    AI-C, ME3-C
-{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce to your mana pool.
+{T}, Untap a tapped land an opponent controls: Add one mana of any type that land could produce.
 
 Name:   Benthic Giant
 Cost:   5U
@@ -2054,7 +2091,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    1/4
 S/R:    BFZ-C
 Devoid (This card has no color.)
-Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
+Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)
 Benthic Infiltrator can't be blocked.
 
 Name:   Benthicore
@@ -2082,7 +2119,7 @@ Name:   Berserk
 Cost:   G
 Type:   Instant
 S/R:    A-U, B-U, U-U, CN2-M, VMA-R, MED-R, V09-M
-Cast Berserk only before the combat damage step.
+Cast this spell only before the combat damage step.
 Target creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn.
 
 Name:   Berserk Murlodont
@@ -2166,7 +2203,7 @@ Draw a card.
 Name:   Bident of Thassa
 Cost:   2UU
 Type:   Legendary Enchantment Artifact
-S/R:    THS-R, C15-R
+S/R:    THS-R, C15-R, A25-R
 Whenever a creature you control deals combat damage to a player, you may draw a card.
 {1}{U}, {T}: Creatures your opponents control attack this turn if able.
 
@@ -2250,7 +2287,7 @@ Name:   Biorhythm
 Cost:   6GG
 Type:   Sorcery
 S/R:    ONS-R, 9ED-R
-Each player's life total becomes the number of creatures he or she controls.
+Each player's life total becomes the number of creatures they control.
 
 Name:   Bioshift
 Cost:   (G/U)
@@ -2270,7 +2307,7 @@ Cost:   G
 Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    ONS-C
-Tap two untapped Elves you control: Add one mana of any color to your mana pool.
+Tap two untapped Elves you control: Add one mana of any color.
 Morph {G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Bird Maiden
@@ -2286,7 +2323,7 @@ Type:   Creature — Bird
 P/T:    0/1
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 6E-R, 7E-R, 8ED-R, RAV-R, 10E-R, M10-R, M11-R, M12-R, CN2-R
 Flying
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Birthing Hulk
 Cost:   6G
@@ -2294,7 +2331,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    5/4
 S/R:    OGW-U
 Devoid (This card has no color.)
-When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool." ({C} represents colorless mana.)
+When Birthing Hulk enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C}." ({C} represents colorless mana.)
 {1}{C}: Regenerate Birthing Hulk.
 
 Name:   Birthing Pod
@@ -2366,7 +2403,7 @@ Name:   Bitter Ordeal
 Cost:   2B
 Type:   Sorcery
 S/R:    FUT-R
-Search target player's library for a card and exile it. Then that player shuffles his or her library.
+Search target player's library for a card and exile it. Then that player shuffles their library.
 Gravestorm (When you cast this spell, copy it for each permanent put into a graveyard this turn. You may choose new targets for the copies.)
 
 Name:   Bitter Revelation
@@ -2438,21 +2475,21 @@ Name:   Black Lotus
 Cost:   0
 Type:   Artifact
 S/R:    A-R, B-R, U-R, VMA-B
-{T}, Sacrifice Black Lotus: Add three mana of any one color to your mana pool.
+{T}, Sacrifice Black Lotus: Add three mana of any one color.
 
 Name:   Black Mana Battery
 Cost:   4
 Type:   Artifact
 S/R:    LE-U, 4E-R
 {2}, {T}: Put a charge counter on Black Mana Battery.
-{T}, Remove any number of charge counters from Black Mana Battery: Add {B} to your mana pool, then add an additional {B} to your mana pool for each charge counter removed this way.
+{T}, Remove any number of charge counters from Black Mana Battery: Add {B}, then add an additional {B} for each charge counter removed this way.
 
 Name:   Black Market
 Cost:   3BB
 Type:   Enchantment
 S/R:    MM-R, C15-R, C17-R
 Whenever a creature dies, put a charge counter on Black Market.
-At the beginning of your precombat main phase, add {B} to your mana pool for each charge counter on Black Market.
+At the beginning of your precombat main phase, add {B} for each charge counter on Black Market.
 
 Name:   Black Oak of Odunos
 Cost:   2B
@@ -2488,7 +2525,7 @@ Cost:   1
 Type:   Artifact
 S/R:    A-U, B-U, U-U, RV-U, 4E-U, MPS_KLD-S, ME3-R, V10-M
 As Black Vise enters the battlefield, choose an opponent.
-At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.
+At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in their hand minus 4.
 
 Name:   Black Ward
 Cost:   W
@@ -2497,11 +2534,19 @@ S/R:    A-U, B-U, U-U, RV-U, 4E-U
 Enchant creature
 Enchanted creature has protection from black. This effect doesn't remove Black Ward.
 
+Name:   Blackblade Reforged
+Cost:   2
+Type:   Legendary Artifact — Equipment
+S/R:    DOM-R
+Equipped creature gets +1/+1 for each land you control.
+Equip legendary creature {3}
+Equip {7}
+
 Name:   Blackcleave Cliffs
 Type:   Land
 S/R:    SOM-R
 Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 
 Name:   Blackcleave Goblin
 Cost:   3B
@@ -2515,7 +2560,7 @@ Name:   Blackmail
 Cost:   B
 Type:   Sorcery
 S/R:    ONS-U, 9ED-U
-Target player reveals three cards from his or her hand and you choose one of them. That player discards that card.
+Target player reveals three cards from their hand and you choose one of them. That player discards that card.
 
 Name:   Blade Sliver
 Cost:   2R
@@ -2536,7 +2581,7 @@ Name:   Blade of Selves
 Cost:   2
 Type:   Artifact — Equipment
 S/R:    C15-R
-Equipped creature has myriad. (Whenever it attacks, for each opponent other than defending player, you may create a token that's a copy of that creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
+Equipped creature has myriad. (Whenever it attacks, for each opponent other than defending player, you may create a token that's a copy of that creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 Equip {4}
 
 Name:   Blade of the Bloodchief
@@ -2643,19 +2688,19 @@ Name:   Blasphemous Act
 Cost:   8R
 Type:   Sorcery
 S/R:    ISD-R, C14-R, C16-R
-Blasphemous Act costs {1} less to cast for each creature on the battlefield.
+This spell costs {1} less to cast for each creature on the battlefield.
 Blasphemous Act deals 13 damage to each creature.
 
 Name:   Blast of Genius
 Cost:   4UR
 Type:   Sorcery
 S/R:    DGM-U
-Choose target creature or player. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that creature or player.
+Choose any target. Draw three cards, then discard a card. Blast of Genius deals damage equal to the discarded card's converted mana cost to that permanent or player.
 
 Name:   Blasted Landscape
 Type:   Land
 S/R:    US-U, C15-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Blaster Mage
@@ -2675,7 +2720,7 @@ Name:   Blasting Station
 Cost:   3
 Type:   Artifact
 S/R:    5DN-U
-{T}, Sacrifice a creature: Blasting Station deals 1 damage to target creature or player.
+{T}, Sacrifice a creature: Blasting Station deals 1 damage to any target.
 Whenever a creature enters the battlefield, you may untap Blasting Station.
 
 Name:   Blastoderm
@@ -2689,14 +2734,14 @@ Fading 3 (This creature enters the battlefield with three fade counters on it. A
 Name:   Blatant Thievery
 Cost:   4UUU
 Type:   Sorcery
-S/R:    ONS-R, C15-R
+S/R:    ONS-R, C15-R, E02-R
 For each opponent, gain control of target permanent that player controls.
 
 Name:   Blaze
 Cost:   XR
 Type:   Sorcery
 S/R:    P1-U, P2-U, 6E-U, P3K-U, 7E-U, 8ED-U, 9ED-U, 10E-U, HOP-U
-Blaze deals X damage to target creature or player.
+Blaze deals X damage to any target.
 
 Name:   Blaze Commando
 Cost:   3RW
@@ -2709,7 +2754,7 @@ Name:   Blaze of Glory
 Cost:   W
 Type:   Instant
 S/R:    A-R, B-R, U-R, ME4-U
-Cast Blaze of Glory only during combat before blockers are declared.
+Cast this spell only during combat before blockers are declared.
 Target creature defending player controls can block any number of creatures this turn. It blocks each attacking creature this turn if able.
 
 Name:   Blazethorn Scarecrow
@@ -2748,7 +2793,7 @@ Cost:   2BR
 Type:   Creature — Elemental Hound
 P/T:    4/3
 S/R:    ORI-U
-{1}, Sacrifice another creature: Blazing Hellhound deals 1 damage to target creature or player.
+{1}, Sacrifice another creature: Blazing Hellhound deals 1 damage to any target.
 
 Name:   Blazing Hope
 Cost:   W
@@ -2760,13 +2805,13 @@ Name:   Blazing Salvo
 Cost:   R
 Type:   Instant
 S/R:    OD-C, DDK-C
-Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to him or her.
+Blazing Salvo deals 3 damage to target creature unless that creature's controller has Blazing Salvo deal 5 damage to them.
 
 Name:   Blazing Shoal
 Cost:   XRR
 Type:   Instant — Arcane
 S/R:    BOK-R
-You may exile a red card with converted mana cost X from your hand rather than pay Blazing Shoal's mana cost.
+You may exile a red card with converted mana cost X from your hand rather than pay this spell's mana cost.
 Target creature gets +X/+0 until end of turn.
 
 Name:   Blazing Specter
@@ -2782,7 +2827,7 @@ Cost:   1
 Type:   Artifact — Equipment
 S/R:    ZEN-U, ISD-C
 Equipped creature can't be blocked by Vampires or Zombies.
-Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to target creature or player."
+Equipped creature has "{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to any target."
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 
 Name:   Blazing Volley
@@ -2815,6 +2860,12 @@ S/R:    CHK-C
 Target creature you control gains protection from the color of your choice until end of turn.
 Splice onto Arcane {W} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 
+Name:   Blessed Light
+Cost:   4W
+Type:   Instant
+S/R:    DOM-C
+Exile target creature or enchantment.
+
 Name:   Blessed Orator
 Cost:   3W
 Type:   Creature — Human Cleric
@@ -2826,7 +2877,7 @@ Name:   Blessed Reincarnation
 Cost:   3U
 Type:   Instant
 S/R:    DTK-R
-Exile target creature an opponent controls. That player reveals cards from the top of his or her library until a creature card is revealed. The player puts that card onto the battlefield, then shuffles the rest into his or her library.
+Exile target creature an opponent controls. That player reveals cards from the top of their library until a creature card is revealed. The player puts that card onto the battlefield, then shuffles the rest into their library.
 Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 
 Name:   Blessed Reversal
@@ -2863,6 +2914,12 @@ S/R:    A-R, B-R, U-R, RV-R, 4E-R, M14-U
 Enchant creature
 {W}: Enchanted creature gets +1/+1 until end of turn.
 
+Name:   Blessing of Belzenlok
+Cost:   B
+Type:   Instant
+S/R:    DOM-C
+Target creature gets +2/+1 until end of turn. If it's legendary, it also gains lifelink until end of turn.
+
 Name:   Blessing of Leeches
 Cost:   2B
 Type:   Enchantment — Aura
@@ -2898,7 +2955,7 @@ Cost:   5
 Type:   Creature — Eldrazi Processor
 P/T:    4/5
 S/R:    BFZ-R
-When you cast Blight Herder, you may put two cards your opponents own from exile into their owners' graveyards. If you do, create three 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+When you cast this spell, you may put two cards your opponents own from exile into their owners' graveyards. If you do, create three 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C}."
 
 Name:   Blight Keeper
 Cost:   B
@@ -2949,20 +3006,20 @@ Flying
 Name:   Blighted Cataract
 Type:   Land
 S/R:    BFZ-U, DDT-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {5}{U}, {T}, Sacrifice Blighted Cataract: Draw two cards.
 
 Name:   Blighted Fen
 Type:   Land
 S/R:    BFZ-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {4}{B}, {T}, Sacrifice Blighted Fen: Target opponent sacrifices a creature.
 
 Name:   Blighted Gorge
 Type:   Land
 S/R:    BFZ-U, DDT-U
-{T}: Add {C} to your mana pool.
-{4}{R}, {T}, Sacrifice Blighted Gorge: Blighted Gorge deals 2 damage to target creature or player.
+{T}: Add {C}.
+{4}{R}, {T}, Sacrifice Blighted Gorge: It deals 2 damage to any target.
 
 Name:   Blighted Shaman
 Cost:   1B
@@ -2975,27 +3032,27 @@ S/R:    MI-U, 6E-U
 Name:   Blighted Steppe
 Type:   Land
 S/R:    BFZ-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {3}{W}, {T}, Sacrifice Blighted Steppe: You gain 2 life for each creature you control.
 
 Name:   Blighted Woodland
 Type:   Land
 S/R:    BFZ-U, C17-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {3}{G}, {T}, Sacrifice Blighted Woodland: Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.
 
 Name:   Blightning
 Cost:   1BR
 Type:   Sorcery
-S/R:    ALA-C, DDK-C
-Blightning deals 3 damage to target player. That player discards two cards.
+S/R:    ALA-C, A25-U, DDK-C
+Blightning deals 3 damage to target player or planeswalker. That player or that planeswalker's controller discards two cards.
 
 Name:   Blightsoil Druid
 Cost:   1B
 Type:   Creature — Elf Druid
 P/T:    1/2
 S/R:    MOR-C, EMA-C
-{T}, Pay 1 life: Add {G} to your mana pool.
+{T}, Pay 1 life: Add {G}.
 
 Name:   Blightspeaker
 Cost:   1B
@@ -3090,7 +3147,7 @@ Type:   Creature — Angel
 P/T:    2/4
 S/R:    NE-R, 8ED-R, 9ED-R
 Flying (This creature can't be blocked except by creatures with flying or reach.)
-Whenever Blinding Angel deals combat damage to a player, that player skips his or her next combat phase.
+Whenever Blinding Angel deals combat damage to a player, that player skips their next combat phase.
 
 Name:   Blinding Beam
 Cost:   2W
@@ -3113,7 +3170,7 @@ Name:   Blinding Flare
 Cost:   R
 Type:   Sorcery
 S/R:    JOU-U
-Strive — Blinding Flare costs {R} more to cast for each target beyond the first.
+Strive — This spell costs {R} more to cast for each target beyond the first.
 Any number of target creatures can't block this turn.
 
 Name:   Blinding Fog
@@ -3156,6 +3213,13 @@ S/R:    KTK-U
 Creatures your opponents control get -4/-0 until end of turn.
 Draw a card.
 
+Name:   Blink of an Eye
+Cost:   1U
+Type:   Instant
+S/R:    DOM-C
+Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
+Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.
+
 Name:   Blinking Spirit
 Cost:   3W
 Type:   Creature — Spirit
@@ -3173,7 +3237,7 @@ Untap all artifacts.
 Name:   Blinkmoth Nexus
 Type:   Land
 S/R:    DST-R, MMA-R, MM2-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}: Blinkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying until end of turn. It's still a land.
 {1}, {T}: Target Blinkmoth creature gets +1/+1 until end of turn.
 
@@ -3181,12 +3245,12 @@ Name:   Blinkmoth Urn
 Cost:   5
 Type:   Artifact
 S/R:    MRD-R, C16-R
-At the beginning of each player's precombat main phase, if Blinkmoth Urn is untapped, that player adds {C} to his or her mana pool for each artifact he or she controls.
+At the beginning of each player's precombat main phase, if Blinkmoth Urn is untapped, that player adds {C} for each artifact they control.
 
 Name:   Blinkmoth Well
 Type:   Land
 S/R:    MRD-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}, {T}: Tap target noncreature artifact.
 
 Name:   Blister Beetle
@@ -3241,14 +3305,14 @@ Type:   Creature — Eldrazi Drone
 P/T:    1/1
 S/R:    BFZ-C
 Devoid (This card has no color.)
-When Blisterpod dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+When Blisterpod dies, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."
 
 Name:   Blisterstick Shaman
 Cost:   2R
 Type:   Creature — Goblin Shaman
 P/T:    2/1
 S/R:    MBS-C
-When Blisterstick Shaman enters the battlefield, it deals 1 damage to target creature or player.
+When Blisterstick Shaman enters the battlefield, it deals 1 damage to any target.
 
 Name:   Blitz Hellion
 Cost:   3RG
@@ -3256,13 +3320,13 @@ Type:   Creature — Hellion
 P/T:    7/7
 S/R:    ARB-R
 Trample, haste
-At the beginning of the end step, Blitz Hellion's owner shuffles it into his or her library.
+At the beginning of the end step, Blitz Hellion's owner shuffles it into their library.
 
 Name:   Blizzard
 Cost:   GG
 Type:   Enchantment
 S/R:    IA-R
-Cast Blizzard only if you control a snow land.
+Cast this spell only if you control a snow land.
 Cumulative upkeep {2} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 Creatures with flying don't untap during their controllers' untap steps.
 
@@ -3281,7 +3345,7 @@ P/T:    2/3
 S/R:    CSP-U, IMA-U
 Flying
 Whenever Blizzard Specter deals combat damage to a player, choose one —
-• That player returns a permanent he or she controls to its owner's hand.
+• That player returns a permanent they control to its owner's hand.
 • That player discards a card.
 
 Name:   Bloated Toad
@@ -3303,7 +3367,7 @@ Name:   Blockbuster
 Cost:   3RR
 Type:   Enchantment
 S/R:    RAV-U
-{1}{R}, Sacrifice Blockbuster: Blockbuster deals 3 damage to each tapped creature and each player.
+{1}{R}, Sacrifice Blockbuster: It deals 3 damage to each tapped creature and each player.
 
 Name:   Blood
 Cost:   RG
@@ -3311,7 +3375,7 @@ Type:   Sorcery
 M-type: Split
 M-card: Flesh
 S/R:    DGM-R
-Target creature you control deals damage equal to its power to target creature or player.
+Target creature you control deals damage equal to its power to any target.
 Fuse (You may cast one or both halves of this card from your hand.)
 
 Name:   Blood Artist
@@ -3341,18 +3405,18 @@ Cost:   B
 Type:   Creature — Human Cleric
 P/T:    1/1
 S/R:    LGN-C
-{B}, Pay 1 life: Add one mana of any color to your mana pool.
+{B}, Pay 1 life: Add one mana of any color.
 
 Name:   Blood Clock
 Cost:   4
 Type:   Artifact
 S/R:    SOK-R
-At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life.
+At the beginning of each player's upkeep, that player returns a permanent they control to its owner's hand unless they pay 2 life.
 
 Name:   Blood Crypt
 Type:   Land — Swamp Mountain
 S/R:    DIS-R, RTR-R, EXP-M
-({T}: Add {B} or {R} to your mana pool.)
+({T}: Add {B} or {R}.)
 As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.
 
 Name:   Blood Cultist
@@ -3373,7 +3437,7 @@ Name:   Blood Frenzy
 Cost:   1R
 Type:   Instant
 S/R:    TE-C
-Cast Blood Frenzy only before the combat damage step.
+Cast this spell only before the combat damage step.
 Target attacking or blocking creature gets +4/+0 until end of turn. Destroy that creature at the beginning of the next end step.
 
 Name:   Blood Funnel
@@ -3420,14 +3484,14 @@ At the beginning of combat on your turn, target creature you control gains doubl
 Name:   Blood Moon
 Cost:   2R
 Type:   Enchantment
-S/R:    DK-R, CH-R, 8ED-R, 9ED-R, MMA-R, MM3-R, MPS_AKH-S
+S/R:    DK-R, CH-R, 8ED-R, 9ED-R, MMA-R, MM3-R, MPS_AKH-S, A25-R
 Nonbasic lands are Mountains.
 
 Name:   Blood Oath
 Cost:   3R
 Type:   Instant
 S/R:    MM-R
-Choose a card type. Target opponent reveals his or her hand. Blood Oath deals 3 damage to that player for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)
+Choose a card type. Target opponent reveals their hand. Blood Oath deals 3 damage to that player for each card of the chosen type revealed this way. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)
 
 Name:   Blood Ogre
 Cost:   2R
@@ -3442,7 +3506,7 @@ Cost:   B
 Type:   Creature — Thrull
 P/T:    1/1
 S/R:    TE-C, 6E-C, 7E-C
-Sacrifice Blood Pet: Add {B} to your mana pool.
+Sacrifice Blood Pet: Add {B}.
 
 Name:   Blood Reckoning
 Cost:   3B
@@ -3454,7 +3518,7 @@ Name:   Blood Rites
 Cost:   3RR
 Type:   Enchantment
 S/R:    CHK-U, C13-U
-{1}{R}, Sacrifice a creature: Blood Rites deals 2 damage to target creature or player.
+{1}{R}, Sacrifice a creature: Blood Rites deals 2 damage to any target.
 
 Name:   Blood Scrivener
 Cost:   1B
@@ -3496,7 +3560,7 @@ Cost:   4BB
 Type:   Sorcery
 S/R:    ZEN-R, C17-R
 Kicker—Tap an untapped Vampire you control. (You may tap a Vampire you control in addition to any other costs as you cast this spell.)
-Target opponent loses half his or her life, rounded up. If Blood Tribute was kicked, you gain life equal to the life lost this way.
+Target opponent loses half their life, rounded up. If this spell was kicked, you gain life equal to the life lost this way.
 
 Name:   Blood Tyrant
 Cost:   4UBR
@@ -3512,7 +3576,7 @@ Cost:   2B
 Type:   Creature — Thrull
 P/T:    2/2
 S/R:    US-C
-Sacrifice Blood Vassal: Add {B}{B} to your mana pool.
+Sacrifice Blood Vassal: Add {B}{B}.
 
 Name:   Blood of the Martyr
 Cost:   WWW
@@ -3553,13 +3617,13 @@ Name:   Bloodbond March
 Cost:   2BG
 Type:   Enchantment
 S/R:    RAV-R
-Whenever a player casts a creature spell, each player returns all cards with the same name as that spell from his or her graveyard to the battlefield.
+Whenever a player casts a creature spell, each player returns all cards with the same name as that spell from their graveyard to the battlefield.
 
 Name:   Bloodbond Vampire
 Cost:   2BB
 Type:   Creature — Vampire Shaman Ally
 P/T:    3/3
-S/R:    BFZ-U
+S/R:    BFZ-U, E02-U
 Whenever you gain life, put a +1/+1 counter on Bloodbond Vampire.
 
 Name:   Bloodbraid Elf
@@ -3635,7 +3699,7 @@ Type:   Land
 S/R:    KTK-C, FRF-C, EMA-C, C17-C
 Bloodfell Caves enters the battlefield tapped.
 When Bloodfell Caves enters the battlefield, you gain 1 life.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 
 Name:   Bloodfire Colossus
 Cost:   6RR
@@ -3739,14 +3803,14 @@ Cost:   2BR
 Type:   Creature — Vampire Cleric
 P/T:    4/4
 S/R:    EMN-R
-Whenever Bloodhall Priest enters the battlefield or attacks, if you have no cards in hand, Bloodhall Priest deals 2 damage to target creature or player.
+Whenever Bloodhall Priest enters the battlefield or attacks, if you have no cards in hand, Bloodhall Priest deals 2 damage to any target.
 Madness {1}{B}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Bloodhunter Bat
 Cost:   3B
 Type:   Creature — Bat
 P/T:    2/2
-S/R:    M13-C, W17-C
+S/R:    M13-C, W17-C, A25-C
 Flying
 When Bloodhunter Bat enters the battlefield, target player loses 2 life and you gain 2 life.
 
@@ -3835,7 +3899,7 @@ Cost:   4R
 Type:   Creature — Elemental
 P/T:    4/1
 S/R:    ALA-C
-Sacrifice Bloodpyre Elemental: Bloodpyre Elemental deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.
+Sacrifice Bloodpyre Elemental: It deals 4 damage to target creature. Activate this ability only any time you could cast a sorcery.
 
 Name:   Bloodrage Brawler
 Cost:   1R
@@ -3890,7 +3954,7 @@ Cost:   5R
 Type:   Creature — Cyclops Giant
 P/T:    4/4
 S/R:    UD-R, 7E-R, 8ED-R
-{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to target creature or player.
+{T}, Sacrifice a creature: Bloodshot Cyclops deals damage equal to the sacrificed creature's power to any target.
 
 Name:   Bloodshot Trainee
 Cost:   3R
@@ -3932,7 +3996,14 @@ Name:   Bloodstone Cameo
 Cost:   3
 Type:   Artifact
 S/R:    IN-U
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
+
+Name:   Bloodstone Goblin
+Cost:   1R
+Type:   Creature — Goblin Warrior
+P/T:    2/2
+S/R:    DOM-C
+Whenever you cast a spell, if that spell was kicked, Bloodstone Goblin gets +1/+1 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)
 
 Name:   Bloodsworn Steward
 Cost:   2RR
@@ -3941,6 +4012,12 @@ P/T:    4/4
 S/R:    C17-R
 Flying
 Commander creatures you control get +2/+2 and have haste.
+
+Name:   Bloodtallow Candle
+Cost:   1
+Type:   Artifact
+S/R:    DOM-C
+{6}, {T}, Sacrifice Bloodtallow Candle: Target creature gets -5/-5 until end of turn.
 
 Name:   Bloodthirsty Ogre
 Cost:   2B
@@ -3979,13 +4056,13 @@ Cost:   1G
 Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    EVE-R
-{T}: For each color among permanents you control, add one mana of that color to your mana pool.
+{T}: For each color among permanents you control, add one mana of that color.
 
 Name:   Blooming Marsh
 Type:   Land
 S/R:    KLD-R
 Blooming Marsh enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {B} or {G} to your mana pool.
+{T}: Add {B} or {G}.
 
 Name:   Blossom Dryad
 Cost:   2G
@@ -4005,7 +4082,7 @@ Type:   Land
 S/R:    KTK-C, FRF-C, EMA-C, C17-C
 Blossoming Sands enters the battlefield tapped.
 When Blossoming Sands enters the battlefield, you gain 1 life.
-{T}: Add {G} or {W} to your mana pool.
+{T}: Add {G} or {W}.
 
 Name:   Blossoming Wreath
 Cost:   G
@@ -4028,7 +4105,7 @@ Each noncreature, non-Equipment artifact is an Equipment with equip {X} and "Equ
 Name:   Blue Elemental Blast
 Cost:   U
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, ME4-U
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, A25-U, ME4-U
 Choose one —
 • Counter target red spell.
 • Destroy target red permanent.
@@ -4038,7 +4115,7 @@ Cost:   4
 Type:   Artifact
 S/R:    LE-U, 4E-R
 {2}, {T}: Put a charge counter on Blue Mana Battery.
-{T}, Remove any number of charge counters from Blue Mana Battery: Add {U} to your mana pool, then add an additional {U} to your mana pool for each charge counter removed this way.
+{T}, Remove any number of charge counters from Blue Mana Battery: Add {U}, then add an additional {U} for each charge counter removed this way.
 
 Name:   Blue Scarab
 Cost:   W
@@ -4051,7 +4128,7 @@ Enchanted creature gets +2/+2 as long as an opponent controls a blue permanent.
 Name:   Blue Sun's Zenith
 Cost:   XUUU
 Type:   Instant
-S/R:    MBS-R, C13-R, C15-R, CMA-R
+S/R:    MBS-R, C13-R, C15-R, CMA-R, A25-R
 Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.
 
 Name:   Blue Ward
@@ -4085,7 +4162,7 @@ Cost:   1G
 Type:   Creature — Mongoose
 P/T:    2/1
 S/R:    IN-R
-Blurred Mongoose can't be countered.
+This spell can't be countered.
 Shroud (This creature can't be the target of spells or abilities.)
 
 Name:   Blustersquall
@@ -4109,6 +4186,12 @@ S/R:    ROE-U, PC2-U, PCA-U
 Enchant creature
 Enchanted creature gets +3/+3.
 Totem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
+
+Name:   Board the Weatherlight
+Cost:   1W
+Type:   Sorcery
+S/R:    DOM-U
+Look at the top five cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)
 
 Name:   Boartusk Liege
 Cost:   1(R/G)(R/G)(R/G)
@@ -4147,7 +4230,7 @@ Cost:   2B
 Type:   Sorcery
 S/R:    PS-C
 Kicker—Sacrifice two lands. (You may sacrifice two lands in addition to any other costs as you cast this spell.)
-Target player discards two cards. If Bog Down was kicked, that player discards three cards instead.
+Target player discards two cards. If this spell was kicked, that player discards three cards instead.
 
 Name:   Bog Elemental
 Cost:   3BB
@@ -4178,7 +4261,7 @@ Type:   Creature — Goblin Warrior
 P/T:    4/1
 S/R:    LRW-C
 Bog Hoodlums can't block.
-When Bog Hoodlums enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Bog Hoodlums. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+When Bog Hoodlums enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Bog Hoodlums. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Bog Imp
 Cost:   1B
@@ -4192,7 +4275,7 @@ Cost:   1B
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    IN-C
-{1}: Add {B} to your mana pool.
+{1}: Add {B}.
 
 Name:   Bog Raiders
 Cost:   2B
@@ -4235,7 +4318,7 @@ Cost:   2B
 Type:   Creature — Human Spellshaper
 P/T:    1/1
 S/R:    MM-C, ARC-C
-{B}, {T}, Discard a card: Add {B}{B}{B} to your mana pool.
+{B}, {T}, Discard a card: Add {B}{B}{B}.
 
 Name:   Bog Wraith
 Cost:   3B
@@ -4248,8 +4331,8 @@ Name:   Bog Wreckage
 Type:   Land
 S/R:    OD-C
 Bog Wreckage enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
-{T}, Sacrifice Bog Wreckage: Add one mana of any color to your mana pool.
+{T}: Add {B}.
+{T}, Sacrifice Bog Wreckage: Add one mana of any color.
 
 Name:   Bog-Strider Ash
 Cost:   3G
@@ -4273,7 +4356,7 @@ P/T:    5/5
 S/R:    TSP-R, M10-M, C14-M, IMA-R, DRB-R, DDG-M
 Flash
 Flying
-When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of target creatures and/or players.
+When Bogardan Hellkite enters the battlefield, it deals 5 damage divided as you choose among any number of targets.
 
 Name:   Bogardan Lancer
 Cost:   1R
@@ -4332,7 +4415,7 @@ Cost:   R
 Type:   Creature — Goblin Rogue
 P/T:    1/1
 S/R:    LRW-C
-{R}, Sacrifice Boggart Forager: Target player shuffles his or her library.
+{R}, Sacrifice Boggart Forager: Target player shuffles their library.
 
 Name:   Boggart Harbinger
 Cost:   2B
@@ -4369,7 +4452,7 @@ Name:   Boggart Shenanigans
 Cost:   2R
 Type:   Tribal Enchantment — Goblin
 S/R:    LRW-U, EVG-U
-Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player.
+Whenever another Goblin you control is put into a graveyard from the battlefield, you may have Boggart Shenanigans deal 1 damage to target player or planeswalker.
 
 Name:   Boggart Sprite-Chaser
 Cost:   1R
@@ -4409,7 +4492,7 @@ Type:   Land
 S/R:    WWK-C, CMD-C, C13-C, C14-C, CMA-C, C17-C
 Bojuka Bog enters the battlefield tapped.
 When Bojuka Bog enters the battlefield, exile all cards from target player's graveyard.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 
 Name:   Bojuka Brigand
 Cost:   1B
@@ -4431,7 +4514,7 @@ Cost:   2W
 Type:   Instant
 S/R:    ZEN-C
 Kicker {3}{W} (You may pay an additional {3}{W} as you cast this spell.)
-Creatures you control get +1/+1 until end of turn. If Bold Defense was kicked, instead creatures you control get +2/+2 and gain first strike until end of turn.
+Creatures you control get +1/+1 until end of turn. If this spell was kicked, instead creatures you control get +2/+2 and gain first strike until end of turn.
 
 Name:   Bold Impaler
 Cost:   R
@@ -4446,7 +4529,7 @@ Type:   Creature — Giant Warrior
 P/T:    8/8
 S/R:    MOR-R
 Trample
-When Boldwyr Heavyweights enters the battlefield, each opponent may search his or her library for a creature card and put it onto the battlefield. Then each player who searched his or her library this way shuffles it.
+When Boldwyr Heavyweights enters the battlefield, each opponent may search their library for a creature card and put it onto the battlefield. Then each player who searched their library this way shuffles it.
 
 Name:   Boldwyr Intimidator
 Cost:   5RR
@@ -4461,7 +4544,7 @@ Name:   Bolt of Keranos
 Cost:   1RR
 Type:   Sorcery
 S/R:    BNG-C
-Bolt of Keranos deals 3 damage to target creature or player. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Bolt of Keranos deals 3 damage to any target. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 
 Name:   Boltwing Marauder
 Cost:   3BR
@@ -4508,7 +4591,7 @@ Cost:   1R
 Type:   Creature — Human Soldier
 P/T:    1/2
 S/R:    GTC-C
-Battalion — Whenever Bomber Corps and at least two other creatures attack, Bomber Corps deals 1 damage to target creature or player.
+Battalion — Whenever Bomber Corps and at least two other creatures attack, Bomber Corps deals 1 damage to any target.
 
 Name:   Bond Beetle
 Cost:   G
@@ -4521,7 +4604,7 @@ Name:   Bond of Agony
 Cost:   XB
 Type:   Sorcery
 S/R:    DIS-U
-As an additional cost to cast Bond of Agony, pay X life.
+As an additional cost to cast this spell, pay X life.
 Each other player loses X life.
 
 Name:   Bonded Construct
@@ -4599,7 +4682,7 @@ Cost:   3B
 Type:   Creature — Bird
 P/T:    3/2
 S/R:    AKH-U
-Bone Picker costs {3} less to cast if a creature died this turn.
+This spell costs {3} less to cast if a creature died this turn.
 Flying, deathtouch
 
 Name:   Bone Saw
@@ -4629,7 +4712,7 @@ Name:   Bone Splinters
 Cost:   B
 Type:   Sorcery
 S/R:    ALA-C, AVR-C, MM2-C, BFZ-C, MM3-C, DDN-C
-As an additional cost to cast Bone Splinters, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Destroy target creature.
 
 Name:   Bone to Ash
@@ -4695,7 +4778,7 @@ Cost:   4R
 Type:   Creature — Beast
 P/T:    4/2
 S/R:    SCG-C
-Whenever a permanent is turned face up, Bonethorn Valesk deals 1 damage to target creature or player.
+Whenever a permanent is turned face up, Bonethorn Valesk deals 1 damage to any target.
 
 Name:   Boneyard Parley
 Cost:   5BB
@@ -4722,7 +4805,7 @@ Name:   Bonfire of the Damned
 Cost:   XXR
 Type:   Sorcery
 S/R:    AVR-M, MM3-M
-Bonfire of the Damned deals X damage to target player and each creature he or she controls.
+Bonfire of the Damned deals X damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.
 Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
 Name:   Bontu the Glorified
@@ -4752,14 +4835,14 @@ Cost:   6
 Type:   Artifact
 S/R:    TE-R, 9ED-R
 As Booby Trap enters the battlefield, choose an opponent and a card name other than a basic land card name.
-The chosen player reveals each card he or she draws.
+The chosen player reveals each card they draw.
 When the chosen player draws a card with the chosen name, sacrifice Booby Trap. If you do, Booby Trap deals 10 damage to that player.
 
 Name:   Book Burning
 Cost:   1R
 Type:   Sorcery
 S/R:    JUD-C
-Any player may have Book Burning deal 6 damage to him or her. If no one does, target player puts the top six cards of his or her library into his or her graveyard.
+Any player may have Book Burning deal 6 damage to them. If no one does, target player puts the top six cards of their library into their graveyard.
 
 Name:   Book of Rass
 Cost:   6
@@ -4837,7 +4920,7 @@ P/T:    7/6
 S/R:    GTC-M
 Trample
 Whenever Borborygmos Enraged deals combat damage to a player, reveal the top three cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.
-Discard a land card: Borborygmos Enraged deals 3 damage to target creature or player.
+Discard a land card: Borborygmos Enraged deals 3 damage to any target.
 
 Name:   Border Guard
 Cost:   2W
@@ -4865,7 +4948,7 @@ Cost:   1G
 Type:   Creature — Elf Scout
 P/T:    3/1
 S/R:    CN2-C
-When Borderland Explorer enters the battlefield, each player may discard a card. Each player who discarded a card this way may search his or her library for a basic land card, reveal it, put it into his or her hand, then shuffle his or her library.
+When Borderland Explorer enters the battlefield, each player may discard a card. Each player who discarded a card this way may search their library for a basic land card, reveal it, put it into their hand, then shuffle their library.
 
 Name:   Borderland Marauder
 Cost:   1R
@@ -4884,7 +4967,7 @@ Name:   Borderland Ranger
 Cost:   2G
 Type:   Creature — Human Scout
 P/T:    2/2
-S/R:    M10-C, AVR-C
+S/R:    M10-C, AVR-C, E02-C
 When Borderland Ranger enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.
 
 Name:   Boreal Centaur
@@ -4899,7 +4982,7 @@ Cost:   G
 Type:   Snow Creature — Elf Druid
 P/T:    1/1
 S/R:    CSP-C
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 
 Name:   Boreal Griffin
 Cost:   3WW
@@ -4913,7 +4996,7 @@ Name:   Boreal Shelf
 Type:   Snow Land
 S/R:    CSP-U
 Boreal Shelf enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.
+{T}: Add {W} or {U}.
 
 Name:   Boris Devilboon
 Cost:   3BR
@@ -4932,9 +5015,9 @@ At the beginning of each combat, up to one target creature attacks or blocks thi
 Name:   Boros Charm
 Cost:   RW
 Type:   Instant
-S/R:    GTC-U, C13-U, C16-U
+S/R:    GTC-U, C13-U, C16-U, A25-U
 Choose one —
-• Boros Charm deals 4 damage to target player.
+• Boros Charm deals 4 damage to target player or planeswalker.
 • Permanents you control gain indestructible until end of turn.
 • Target creature gains double strike until end of turn.
 
@@ -4942,7 +5025,7 @@ Name:   Boros Cluestone
 Cost:   3
 Type:   Artifact
 S/R:    DGM-C, C15-C
-{T}: Add {R} or {W} to your mana pool.
+{T}: Add {R} or {W}.
 {R}{W}, {T}, Sacrifice Boros Cluestone: Draw a card.
 
 Name:   Boros Elite
@@ -4963,13 +5046,13 @@ Type:   Land
 S/R:    RAV-C, HOP-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, CMA-C, C17-C, IMA-U
 Boros Garrison enters the battlefield tapped.
 When Boros Garrison enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {R}{W} to your mana pool.
+{T}: Add {R}{W}.
 
 Name:   Boros Guildgate
 Type:   Land — Gate
 S/R:    GTC-C, DGM-C, C13-C, C15-C, MM3-C, C17-C, DDL-C
 Boros Guildgate enters the battlefield tapped.
-{T}: Add {R} or {W} to your mana pool.
+{T}: Add {R} or {W}.
 
 Name:   Boros Guildmage
 Cost:   (R/W)(R/W)
@@ -4983,7 +5066,7 @@ Name:   Boros Keyrune
 Cost:   3
 Type:   Artifact
 S/R:    GTC-U
-{T}: Add {R} or {W} to your mana pool.
+{T}: Add {R} or {W}.
 {R}{W}: Boros Keyrune becomes a 1/1 red and white Soldier artifact creature with double strike until end of turn. (It deals both first-strike and regular combat damage.)
 
 Name:   Boros Mastiff
@@ -4998,7 +5081,7 @@ Cost:   (R/W)(R/W)(R/W)
 Type:   Creature — Minotaur Wizard
 P/T:    3/3
 S/R:    GTC-R, MM3-R
-Whenever Boros Reckoner is dealt damage, it deals that much damage to target creature or player.
+Whenever Boros Reckoner is dealt damage, it deals that much damage to any target.
 {(r/w)}: Boros Reckoner gains first strike until end of turn.
 
 Name:   Boros Recruit
@@ -5013,7 +5096,7 @@ Name:   Boros Signet
 Cost:   2
 Type:   Artifact
 S/R:    RAV-C, HOP-C, CMD-C, C15-C, MM3-U, CMA-C, C17-U
-{1}, {T}: Add {R}{W} to your mana pool.
+{1}, {T}: Add {R}{W}.
 
 Name:   Boros Swiftblade
 Cost:   RW
@@ -5052,7 +5135,7 @@ Choose one or both —
 Name:   Borrowing 100,000 Arrows
 Cost:   2U
 Type:   Sorcery
-S/R:    P3K-U, C13-U, CMA-U, ME3-U
+S/R:    P3K-U, C13-U, CMA-U, A25-C, ME3-U
 Draw a card for each tapped creature target opponent controls.
 
 Name:   Borrowing the East Wind
@@ -5065,7 +5148,7 @@ Name:   Boseiju, Who Shelters All
 Type:   Legendary Land
 S/R:    CHK-R, V12-M
 Boseiju, Who Shelters All enters the battlefield tapped.
-{T}, Pay 2 life: Add {C} to your mana pool. If that mana is spent on an instant or sorcery spell, that spell can't be countered by spells or abilities.
+{T}, Pay 2 life: Add {C}. If that mana is spent on an instant or sorcery spell, that spell can't be countered.
 
 Name:   Bosh, Iron Golem
 Cost:   8
@@ -5073,7 +5156,7 @@ Type:   Legendary Artifact Creature — Golem
 P/T:    6/7
 S/R:    MRD-R, HOP-R, C14-R
 Trample
-{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to target creature or player.
+{3}{R}, Sacrifice an artifact: Bosh, Iron Golem deals damage equal to the sacrificed artifact's converted mana cost to any target.
 
 Name:   Bosium Strip
 Cost:   3
@@ -5092,7 +5175,7 @@ Name:   Botanical Sanctum
 Type:   Land
 S/R:    KLD-R
 Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {G} or {U} to your mana pool.
+{T}: Add {G} or {U}.
 
 Name:   Bottle Gnomes
 Cost:   3
@@ -5126,7 +5209,7 @@ S/R:    FE-R, 5E-R
 Bottomless Vault enters the battlefield tapped.
 You may choose not to untap Bottomless Vault during your untap step.
 At the beginning of your upkeep, if Bottomless Vault is tapped, put a storage counter on it.
-{T}, Remove any number of storage counters from Bottomless Vault: Add {B} to your mana pool for each storage counter removed this way.
+{T}, Remove any number of storage counters from Bottomless Vault: Add {B} for each storage counter removed this way.
 
 Name:   Boulder Salvo
 Cost:   4R
@@ -5139,7 +5222,7 @@ Name:   Boulderfall
 Cost:   6RR
 Type:   Instant
 S/R:    THS-C
-Boulderfall deals 5 damage divided as you choose among any number of target creatures and/or players.
+Boulderfall deals 5 damage divided as you choose among any number of targets.
 
 Name:   Bouncing Beebles
 Cost:   2U
@@ -5211,14 +5294,14 @@ Name:   Bounty of the Hunt
 Cost:   3GG
 Type:   Instant
 S/R:    AI-U, ME2-R
-You may exile a green card from your hand rather than pay Bounty of the Hunt's mana cost.
+You may exile a green card from your hand rather than pay this spell's mana cost.
 Distribute three +1/+1 counters among one, two, or three target creatures. For each +1/+1 counter you put on a creature this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step.
 
 Name:   Bounty of the Luxa
 Cost:   2GU
 Type:   Enchantment
 S/R:    AKH-R
-At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U} to your mana pool.
+At the beginning of your precombat main phase, remove all flood counters from Bounty of the Luxa. If no counters were removed this way, put a flood counter on Bounty of the Luxa and draw a card. Otherwise, add {C}{G}{U}.
 
 Name:   Bow of Nylea
 Cost:   1GG
@@ -5270,7 +5353,7 @@ Name:   Braid of Fire
 Cost:   1R
 Type:   Enchantment
 S/R:    CSP-R
-Cumulative upkeep—Add {R} to your mana pool. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
+Cumulative upkeep—Add {R}. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 
 Name:   Braids, Cabal Minion
 Cost:   2BB
@@ -5284,7 +5367,7 @@ Cost:   2UU
 Type:   Legendary Creature — Human Wizard
 P/T:    2/2
 S/R:    PLC-R
-At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from his or her hand onto the battlefield.
+At the beginning of each player's upkeep, that player may put an artifact, creature, or land card from their hand onto the battlefield.
 
 Name:   Braidwood Cup
 Cost:   3
@@ -5302,7 +5385,7 @@ Name:   Brain Freeze
 Cost:   1U
 Type:   Instant
 S/R:    SCG-U, VMA-U
-Target player puts the top three cards of his or her library into his or her graveyard.
+Target player puts the top three cards of their library into their graveyard.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 
 Name:   Brain Gorgers
@@ -5310,7 +5393,7 @@ Cost:   3B
 Type:   Creature — Zombie
 P/T:    4/2
 S/R:    PLC-C
-When you cast Brain Gorgers, any player may sacrifice a creature. If a player does, counter Brain Gorgers.
+When you cast this spell, any player may sacrifice a creature. If a player does, counter Brain Gorgers.
 Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Brain Maggot
@@ -5318,13 +5401,13 @@ Cost:   1B
 Type:   Enchantment Creature — Insect
 P/T:    1/1
 S/R:    JOU-U
-When Brain Maggot enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.
+When Brain Maggot enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.
 
 Name:   Brain Pry
 Cost:   1B
 Type:   Sorcery
 S/R:    DIS-U
-Choose a nonland card name. Target player reveals his or her hand. That player discards a card with that name. If he or she can't, you draw a card.
+Choose a nonland card name. Target player reveals their hand. That player discards a card with that name. If they can't, you draw a card.
 
 Name:   Brain Weevil
 Cost:   3B
@@ -5345,7 +5428,7 @@ Name:   Brainbite
 Cost:   2UB
 Type:   Sorcery
 S/R:    ARB-C
-Target opponent reveals his or her hand. You choose a card from it. That player discards that card.
+Target opponent reveals their hand. You choose a card from it. That player discards that card.
 Draw a card.
 
 Name:   Braingeyser
@@ -5364,7 +5447,7 @@ Transmute {1}{B}{B} ({1}{B}{B}, Discard this card: Search your library for a car
 Name:   Brainstorm
 Cost:   U
 Type:   Instant
-S/R:    IA-C, 5E-C, MM-C, CMD-C, CNS-C, C15-C, EMA-U, VMA-C, DDJ-C, ME2-C
+S/R:    IA-C, 5E-C, MM-C, CMD-C, CNS-C, C15-C, EMA-U, A25-C, VMA-C, DDJ-C, ME2-C
 Draw three cards, then put two cards from your hand on top of your library in any order.
 
 Name:   Brainwash
@@ -5407,7 +5490,7 @@ Cost:   4GG
 Type:   Creature — Elemental
 P/T:    6/6
 S/R:    HOU-C
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 
 Name:   Bramblewood Paragon
 Cost:   1G
@@ -5509,7 +5592,7 @@ Name:   Brass's Bounty
 Cost:   6R
 Type:   Sorcery
 S/R:    RIX-R
-For each land you control, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+For each land you control, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 
 Name:   Brass-Talon Chimera
 Cost:   4
@@ -5556,7 +5639,7 @@ Name:   Brawler's Plate
 Cost:   3
 Type:   Artifact — Equipment
 S/R:    M15-U, ORI-U
-Equipped creature gets +2/+2 and has trample. (It can deal excess combat damage to defending player or planeswalker while attacking.)
+Equipped creature gets +2/+2 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)
 Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 
 Name:   Brawn
@@ -5580,7 +5663,7 @@ Cost:   3R
 Type:   Creature — Human Pirate
 P/T:    3/3
 S/R:    RIX-C
-When Brazen Freebooter enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+When Brazen Freebooter enters the battlefield, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 
 Name:   Brazen Scourge
 Cost:   1RR
@@ -5656,14 +5739,14 @@ Type:   Sorcery
 M-type: Split
 M-card: Entering
 S/R:    DGM-R
-Target player puts the top eight cards of his or her library into his or her graveyard.
+Target player puts the top eight cards of their library into their graveyard.
 Fuse (You may cast one or both halves of this card from your hand.)
 
 Name:   Breaking Point
 Cost:   1RR
 Type:   Sorcery
 S/R:    JUD-R, DDK-R
-Any player may have Breaking Point deal 6 damage to him or her. If no one does, destroy all creatures. Creatures destroyed this way can't be regenerated.
+Any player may have Breaking Point deal 6 damage to them. If no one does, destroy all creatures. Creatures destroyed this way can't be regenerated.
 
 Name:   Breaking Wave
 Cost:   2UU
@@ -5692,7 +5775,7 @@ Cost:   1R
 Type:   Sorcery
 S/R:    IN-U, ARC-U, CMD-U, C15-U, DDG-U
 Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Breath of Darigaaz deals 1 damage to each creature without flying and each player. If Breath of Darigaaz was kicked, it deals 4 damage to each creature without flying and each player instead.
+Breath of Darigaaz deals 1 damage to each creature without flying and each player. If this spell was kicked, it deals 4 damage to each creature without flying and each player instead.
 
 Name:   Breath of Dreams
 Cost:   2UU
@@ -5731,7 +5814,7 @@ Name:   Breathstealer's Crypt
 Cost:   2UB
 Type:   Enchantment
 S/R:    VI-R
-If a player would draw a card, instead he or she draws a card and reveals it. If it's a creature card, that player discards it unless he or she pays 3 life.
+If a player would draw a card, instead they draw a card and reveal it. If it's a creature card, that player discards it unless they pay 3 life.
 
 Name:   Bred for the Hunt
 Cost:   1GU
@@ -5749,7 +5832,7 @@ At the beginning of your end step, create a 0/1 black Thrull creature token.
 Name:   Breeding Pool
 Type:   Land — Forest Island
 S/R:    DIS-R, GTC-R, EXP-M
-({T}: Add {G} or {U} to your mana pool.)
+({T}: Add {G} or {U}.)
 As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.
 
 Name:   Breezekeeper
@@ -5767,7 +5850,7 @@ P/T:    4/4
 S/R:    C16-M
 When Breya, Etherium Shaper enters the battlefield, create two 1/1 blue Thopter artifact creature tokens with flying.
 {2}, Sacrifice two artifacts: Choose one —
-• Breya deals 3 damage to target player.
+• Breya deals 3 damage to target player or planeswalker.
 • Target creature gets -4/-4 until end of turn.
 • You gain 5 life.
 
@@ -5836,7 +5919,7 @@ Name:   Bribery
 Cost:   3UU
 Type:   Sorcery
 S/R:    MM-R, 8ED-R
-Search target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles his or her library.
+Search target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles their library.
 
 Name:   Bridge from Below
 Cost:   BBB
@@ -5870,7 +5953,7 @@ Name:   Brightstone Ritual
 Cost:   R
 Type:   Instant
 S/R:    ONS-C
-Add {R} to your mana pool for each Goblin on the battlefield.
+Add {R} for each Goblin on the battlefield.
 
 Name:   Brigid, Hero of Kinsbaile
 Cost:   2WW
@@ -5928,15 +6011,15 @@ Type:   Creature — Human Shaman
 P/T:    2/2
 S/R:    ROE-U
 Level up {3}{R} ({3}{R}: Put a level counter on this. Level up only as a sorcery.)
-{LEVEL 1-2} 2/3 {T}: Brimstone Mage deals 1 damage to target creature or player.
-{LEVEL 3+} 2/4 {T}: Brimstone Mage deals 3 damage to target creature or player.
+{LEVEL 1-2} 2/3 {T}: Brimstone Mage deals 1 damage to any target.
+{LEVEL 3+} 2/4 {T}: Brimstone Mage deals 3 damage to any target.
 
 Name:   Brimstone Volley
 Cost:   2R
 Type:   Instant
 S/R:    ISD-C, CNS-C
-Brimstone Volley deals 3 damage to target creature or player.
-Morbid — Brimstone Volley deals 5 damage to that creature or player instead if a creature died this turn.
+Brimstone Volley deals 3 damage to any target.
+Morbid — Brimstone Volley deals 5 damage to that permanent or player instead if a creature died this turn.
 
 Name:   Brindle Boar
 Cost:   2G
@@ -5956,9 +6039,9 @@ Name:   Brine Elemental
 Cost:   4UU
 Type:   Creature — Elemental
 P/T:    5/4
-S/R:    TSP-U, C14-U, DD2-U
+S/R:    TSP-U, C14-U, A25-U, DD2-U
 Morph {5}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When Brine Elemental is turned face up, each opponent skips his or her next untap step.
+When Brine Elemental is turned face up, each opponent skips their next untap step.
 
 Name:   Brine Hag
 Cost:   2UU
@@ -5999,7 +6082,7 @@ Cost:   7BB
 Type:   Creature — Bringer
 P/T:    5/5
 S/R:    5DN-R
-You may pay {W}{U}{B}{R}{G} rather than pay Bringer of the Black Dawn's mana cost.
+You may pay {W}{U}{B}{R}{G} rather than pay this spell's mana cost.
 Trample
 At the beginning of your upkeep, you may pay 2 life. If you do, search your library for a card, then shuffle your library and put that card on top of it.
 
@@ -6008,7 +6091,7 @@ Cost:   7UU
 Type:   Creature — Bringer
 P/T:    5/5
 S/R:    5DN-R
-You may pay {W}{U}{B}{R}{G} rather than pay Bringer of the Blue Dawn's mana cost.
+You may pay {W}{U}{B}{R}{G} rather than pay this spell's mana cost.
 Trample
 At the beginning of your upkeep, you may draw two cards.
 
@@ -6017,7 +6100,7 @@ Cost:   7GG
 Type:   Creature — Bringer
 P/T:    5/5
 S/R:    5DN-R
-You may pay {W}{U}{B}{R}{G} rather than pay Bringer of the Green Dawn's mana cost.
+You may pay {W}{U}{B}{R}{G} rather than pay this spell's mana cost.
 Trample
 At the beginning of your upkeep, you may create a 3/3 green Beast creature token.
 
@@ -6026,7 +6109,7 @@ Cost:   7RR
 Type:   Creature — Bringer
 P/T:    5/5
 S/R:    5DN-R
-You may pay {W}{U}{B}{R}{G} rather than pay Bringer of the Red Dawn's mana cost.
+You may pay {W}{U}{B}{R}{G} rather than pay this spell's mana cost.
 Trample
 At the beginning of your upkeep, you may untap target creature and gain control of it until end of turn. That creature gains haste until end of turn.
 
@@ -6035,7 +6118,7 @@ Cost:   7WW
 Type:   Creature — Bringer
 P/T:    5/5
 S/R:    5DN-R
-You may pay {W}{U}{B}{R}{G} rather than pay Bringer of the White Dawn's mana cost.
+You may pay {W}{U}{B}{R}{G} rather than pay this spell's mana cost.
 Trample
 At the beginning of your upkeep, you may return target artifact card from your graveyard to the battlefield.
 
@@ -6050,15 +6133,15 @@ Name:   Brink of Madness
 Cost:   2BB
 Type:   Enchantment
 S/R:    UL-R
-At the beginning of your upkeep, if you have no cards in hand, sacrifice Brink of Madness and target opponent discards his or her hand.
+At the beginning of your upkeep, if you have no cards in hand, sacrifice Brink of Madness and target opponent discards their hand.
 
 Name:   Brion Stoutarm
 Cost:   2RW
 Type:   Legendary Creature — Giant Warrior
 P/T:    4/4
-S/R:    LRW-R, CMD-R
+S/R:    LRW-R, CMD-R, A25-R
 Lifelink
-{R}, {T}, Sacrifice a creature other than Brion Stoutarm: Brion Stoutarm deals damage equal to the sacrificed creature's power to target player.
+{R}, {T}, Sacrifice another creature: Brion Stoutarm deals damage equal to the sacrificed creature's power to target player or planeswalker.
 
 Name:   Brisela, Voice of Nightmares
 Type:   Legendary Creature — Eldrazi Angel
@@ -6087,7 +6170,13 @@ Name:   Broken Ambitions
 Cost:   XU
 Type:   Instant
 S/R:    LRW-C
-Counter target spell unless its controller pays {X}. Clash with an opponent. If you win, that spell's controller puts the top four cards of his or her library into his or her graveyard. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Counter target spell unless its controller pays {X}. Clash with an opponent. If you win, that spell's controller puts the top four cards of their library into their graveyard. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
+
+Name:   Broken Bond
+Cost:   1G
+Type:   Sorcery
+S/R:    DOM-C
+Destroy target artifact or enchantment. You may put a land card from your hand onto the battlefield.
 
 Name:   Broken Concentration
 Cost:   1UU
@@ -6127,7 +6216,7 @@ Cost:   4
 Type:   Artifact Creature — Construct
 P/T:    4/1
 S/R:    DIS-R
-When a player other than Bronze Bombshell's owner controls it, that player sacrifices it. If the player does, Bronze Bombshell deals 7 damage to him or her.
+When a player other than Bronze Bombshell's owner controls it, that player sacrifices it. If the player does, Bronze Bombshell deals 7 damage to the player.
 
 Name:   Bronze Horse
 Cost:   7
@@ -6154,7 +6243,7 @@ Name:   Brood Birthing
 Cost:   1R
 Type:   Sorcery
 S/R:    ROE-C
-If you control an Eldrazi Spawn, create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool." Otherwise, create one of those tokens.
+If you control an Eldrazi Spawn, create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C}." Otherwise, create one of those tokens.
 
 Name:   Brood Butcher
 Cost:   3BG
@@ -6162,7 +6251,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    3/3
 S/R:    BFZ-R
 Devoid (This card has no color.)
-When Brood Butcher enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+When Brood Butcher enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."
 {B}{G}, Sacrifice a creature: Target creature gets -2/-2 until end of turn.
 
 Name:   Brood Keeper
@@ -6178,7 +6267,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    3/3
 S/R:    BFZ-U
 Devoid (This card has no color.)
-When Brood Monitor enters the battlefield, create three 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+When Brood Monitor enters the battlefield, create three 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C}."
 
 Name:   Brood Sliver
 Cost:   4G
@@ -6199,14 +6288,14 @@ Cost:   4U
 Type:   Creature — Snake
 P/T:    3/3
 S/R:    C15-U
-Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. Exile the tokens at end of combat.)
+Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 Whenever Broodbirth Viper deals combat damage to a player, you may draw a card.
 
 Name:   Broodhatch Nantuko
 Cost:   1G
 Type:   Creature — Insect Druid
 P/T:    1/1
-S/R:    ONS-U
+S/R:    ONS-U, A25-U
 Whenever Broodhatch Nantuko is dealt damage, you may create that many 1/1 green Insect creature tokens.
 Morph {2}{G} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
@@ -6221,7 +6310,7 @@ Cost:   2GG
 Type:   Creature — Lizard
 P/T:    4/4
 S/R:    CSP-R, C13-R
-At the beginning of each end step, each player gains control of all nontoken permanents he or she owns.
+At the beginning of each end step, each player gains control of all nontoken permanents they own.
 
 Name:   Broodmate Dragon
 Cost:   3BRG
@@ -6261,13 +6350,13 @@ Cost:   1RR
 Type:   Creature — Human Shaman
 P/T:    2/2
 S/R:    DK-U, 4E-C, 5E-C, MED-C
-{1}{R}{R}: Brothers of Fire deals 1 damage to target creature or player and 1 damage to you.
+{1}{R}{R}: Brothers of Fire deals 1 damage to any target and 1 damage to you.
 
 Name:   Browbeat
 Cost:   2R
 Type:   Sorcery
-S/R:    JUD-U, TSP-S, HOP-U, DDK-U, PD2-U
-Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.
+S/R:    JUD-U, TSP-S, HOP-U, A25-U, DDK-U, PD2-U
+Any player may have Browbeat deal 5 damage to them. If no one does, target player draws three cards.
 
 Name:   Brown Ouphe
 Cost:   G
@@ -6298,7 +6387,7 @@ M-type: Meld
 M-pair: Gisela, the Broken Blade
 Melded: Brisela, Voice of Nightmares
 S/R:    EMN-R, V17-M
-When you cast Bruna, the Fading Light, you may return target Angel or Human creature card from your graveyard to the battlefield.
+When you cast this spell, you may return target Angel or Human creature card from your graveyard to the battlefield.
 Flying, vigilance
 (Melds with Gisela, the Broken Blade.)
 
@@ -6320,8 +6409,8 @@ Target opponent loses 2 life. You gain 2 life.
 Name:   Brushland
 Type:   Land
 S/R:    IA-R, 5E-R, 6E-R, 7E-R, 9ED-R, 10E-R
-{T}: Add {C} to your mana pool.
-{T}: Add {G} or {W} to your mana pool. Brushland deals 1 damage to you.
+{T}: Add {C}.
+{T}: Add {G} or {W}. Brushland deals 1 damage to you.
 
 Name:   Brushstrider
 Cost:   1G
@@ -6420,7 +6509,7 @@ Name:   Bubbling Muck
 Cost:   B
 Type:   Sorcery
 S/R:    UD-C
-Until end of turn, whenever a player taps a Swamp for mana, that player adds {B} to his or her mana pool (in addition to the mana the land produces).
+Until end of turn, whenever a player taps a Swamp for mana, that player adds an additional {B}.
 
 Name:   Buccaneer's Bravado
 Cost:   1R
@@ -6453,7 +6542,7 @@ Name:   Builder's Bane
 Cost:   XXR
 Type:   Sorcery
 S/R:    MI-C
-Destroy X target artifacts. Builder's Bane deals damage to each player equal to the number of artifacts he or she controlled put into a graveyard this way.
+Destroy X target artifacts. Builder's Bane deals damage to each player equal to the number of artifacts they controlled that were put into a graveyard this way.
 
 Name:   Builder's Blessing
 Cost:   3W
@@ -6539,7 +6628,7 @@ Name:   Burden of Greed
 Cost:   3B
 Type:   Instant
 S/R:    DST-C
-Target player loses 1 life for each tapped artifact he or she controls.
+Target player loses 1 life for each tapped artifact they control.
 
 Name:   Burden of Guilt
 Cost:   W
@@ -6563,7 +6652,7 @@ Search your library for up to three creature cards and put them into your gravey
 Name:   Buried Ruin
 Type:   Land
 S/R:    M12-U, C14-U, C16-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}, {T}, Sacrifice Buried Ruin: Return target artifact card from your graveyard to your hand.
 
 Name:   Burn
@@ -6572,7 +6661,7 @@ Type:   Instant
 M-type: Split
 M-card: Turn
 S/R:    DGM-U
-Burn deals 2 damage to target creature or player.
+Burn deals 2 damage to any target.
 Fuse (You may cast one or both halves of this card from your hand.)
 
 Name:   Burn Away
@@ -6585,21 +6674,21 @@ Name:   Burn Trail
 Cost:   3R
 Type:   Sorcery
 S/R:    SHM-C
-Burn Trail deals 3 damage to target creature or player.
+Burn Trail deals 3 damage to any target.
 Conspire (As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.)
 
 Name:   Burn at the Stake
 Cost:   2RRR
 Type:   Sorcery
 S/R:    AVR-R
-As an additional cost to cast Burn at the Stake, tap any number of untapped creatures you control.
-Burn at the Stake deals damage to target creature or player equal to three times the number of creatures tapped this way.
+As an additional cost to cast this spell, tap any number of untapped creatures you control.
+Burn at the Stake deals damage to any target equal to three times the number of creatures tapped this way.
 
 Name:   Burn from Within
 Cost:   XR
 Type:   Sorcery
 S/R:    SOI-R
-Burn from Within deals X damage to target creature or player. If a creature is dealt damage this way, it loses indestructible until end of turn. If that creature would die this turn, exile it instead.
+Burn from Within deals X damage to any target. If a creature is dealt damage this way, it loses indestructible until end of turn. If that creature would die this turn, exile it instead.
 
 Name:   Burn the Impure
 Cost:   1R
@@ -6612,7 +6701,7 @@ Cost:   4R
 Type:   Enchantment — Aura
 S/R:    M15-R
 Enchant creature
-Enchanted creature has "{T}: This creature deals damage equal to its power to target creature or player."
+Enchanted creature has "{T}: This creature deals damage equal to its power to any target."
 
 Name:   Burning Cloak
 Cost:   R
@@ -6630,7 +6719,7 @@ Name:   Burning Fields
 Cost:   4R
 Type:   Sorcery
 S/R:    P3K-C
-Burning Fields deals 5 damage to target opponent.
+Burning Fields deals 5 damage to target opponent or planeswalker.
 
 Name:   Burning Inquiry
 Cost:   R
@@ -6671,13 +6760,13 @@ Cost:   3RRR
 Type:   Creature — Dinosaur Avatar
 P/T:    6/6
 S/R:    XLN-R
-When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent and 3 damage to up to one target creature.
+When Burning Sun's Avatar enters the battlefield, it deals 3 damage to target opponent or planeswalker and 3 damage to up to one target creature.
 
 Name:   Burning Vengeance
 Cost:   2R
 Type:   Enchantment
 S/R:    ISD-U, EMA-U
-Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to target creature or player.
+Whenever you cast a spell from your graveyard, Burning Vengeance deals 2 damage to any target.
 
 Name:   Burning Wish
 Cost:   1R
@@ -6689,14 +6778,14 @@ Name:   Burning of Xinye
 Cost:   4RR
 Type:   Sorcery
 S/R:    P3K-R, VMA-R, ME3-R, V14-M
-You destroy four lands you control, then target opponent destroys four lands he or she controls. Then Burning of Xinye deals 4 damage to each creature.
+You destroy four lands you control, then target opponent destroys four lands they control. Then Burning of Xinye deals 4 damage to each creature.
 
 Name:   Burning-Eye Zubera
 Cost:   2RR
 Type:   Creature — Zubera Spirit
 P/T:    3/3
 S/R:    SOK-U
-When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to target creature or player.
+When Burning-Eye Zubera dies, if 4 or more damage was dealt to it this turn, Burning-Eye Zubera deals 3 damage to any target.
 
 Name:   Burning-Fist Minotaur
 Cost:   1R
@@ -6720,7 +6809,7 @@ Cost:   (R/G)(R/G)
 Type:   Creature — Human Shaman
 P/T:    2/2
 S/R:    GTC-U, MM3-C, DDS-U
-When Burning-Tree Emissary enters the battlefield, add {R}{G} to your mana pool.
+When Burning-Tree Emissary enters the battlefield, add {R}{G}.
 
 Name:   Burning-Tree Shaman
 Cost:   1RG
@@ -6747,8 +6836,8 @@ Name:   Burnt Offering
 Cost:   B
 Type:   Instant
 S/R:    IA-C
-As an additional cost to cast Burnt Offering, sacrifice a creature.
-Add X mana in any combination of {B} and/or {R} to your mana pool, where X is the sacrificed creature's converted mana cost.
+As an additional cost to cast this spell, sacrifice a creature.
+Add X mana in any combination of {B} and/or {R}, where X is the sacrificed creature's converted mana cost.
 
 Name:   Burr Grafter
 Cost:   3G
@@ -6793,7 +6882,7 @@ Cost:   R
 Type:   Instant
 S/R:    ZEN-C, MM2-C
 Kicker {4} (You may pay an additional {4} as you cast this spell.)
-Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.
+Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage to that permanent or player instead.
 
 Name:   Burst of Energy
 Cost:   W
@@ -6842,7 +6931,7 @@ Cost:   4RRR
 Type:   Creature — Orgg
 P/T:    6/6
 S/R:    ONS-R
-You may assign Butcher Orgg's combat damage divided as you choose among defending player and/or any number of creatures he or she controls.
+You may assign Butcher Orgg's combat damage divided as you choose among defending player and/or any number of creatures they control.
 
 Name:   Butcher of Malakir
 Cost:   5BB

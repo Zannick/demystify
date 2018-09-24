@@ -10,7 +10,7 @@ Cost:   1U
 Type:   Creature — Naga Wizard
 P/T:    0/4
 S/R:    DTK-U
-{T}: Add {C} to your mana pool. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. (A megamorph cost is a morph cost.)
+{T}: Add {C}. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. (A megamorph cost is a morph cost.)
 
 Name:   Qarsi High Priest
 Cost:   B
@@ -135,7 +135,7 @@ Name:   Quash
 Cost:   2UU
 Type:   Instant
 S/R:    UD-U, BOK-U
-Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles his or her library.
+Counter target instant or sorcery spell. Search its controller's graveyard, hand, and library for all cards with the same name as that spell and exile them. Then that player shuffles their library.
 
 Name:   Queen Marchesa
 Cost:   1RWB
@@ -170,21 +170,21 @@ Name:   Quenchable Fire
 Cost:   3R
 Type:   Sorcery
 S/R:    CON-C
-Quenchable Fire deals 3 damage to target player. It deals an additional 3 damage to that player at the beginning of your next upkeep step unless he or she pays {U} before that step.
+Quenchable Fire deals 3 damage to target player or planeswalker. It deals an additional 3 damage to that player or planeswalker at the beginning of your next upkeep step unless that player or that planeswalker's controller pays {U} before that step.
 
 Name:   Quest for Ancient Secrets
 Cost:   U
 Type:   Enchantment
 S/R:    ZEN-U
 Whenever a card is put into your graveyard from anywhere, you may put a quest counter on Quest for Ancient Secrets.
-Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Target player shuffles his or her graveyard into his or her library.
+Remove five quest counters from Quest for Ancient Secrets and sacrifice it: Target player shuffles their graveyard into their library.
 
 Name:   Quest for Pure Flame
 Cost:   R
 Type:   Enchantment
 S/R:    ZEN-U
 Whenever a source you control deals damage to an opponent, you may put a quest counter on Quest for Pure Flame.
-Remove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a creature or player this turn, it deals double that damage to that creature or player instead.
+Remove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a permanent or player this turn, it deals double that damage to that permanent or player instead.
 
 Name:   Quest for Renewal
 Cost:   1G
@@ -285,14 +285,14 @@ When Quickling enters the battlefield, sacrifice it unless you return another cr
 
 Name:   Quicksand
 Type:   Land
-S/R:    VI-U, 9ED-U, 10E-U, WWK-C, CNS-U
-{T}: Add {C} to your mana pool.
+S/R:    VI-U, 9ED-U, 10E-U, WWK-C, CNS-U, A25-U
+{T}: Add {C}.
 {T}, Sacrifice Quicksand: Target attacking creature without flying gets -1/-2 until end of turn.
 
 Name:   Quicksilver Amulet
 Cost:   4
 Type:   Artifact
-S/R:    UL-R, M12-R
+S/R:    UL-R, M12-R, E02-R
 {4}, {T}: You may put a creature card from your hand onto the battlefield.
 
 Name:   Quicksilver Behemoth
@@ -306,9 +306,9 @@ When Quicksilver Behemoth attacks or blocks, return it to its owner's hand at en
 Name:   Quicksilver Dagger
 Cost:   1UR
 Type:   Enchantment — Aura
-S/R:    AP-C, DDJ-C
+S/R:    AP-C, A25-U, DDJ-C
 Enchant creature
-Enchanted creature has "{T}: This creature deals 1 damage to target player. You draw a card."
+Enchanted creature has "{T}: This creature deals 1 damage to target player or planeswalker. You draw a card."
 
 Name:   Quicksilver Dragon
 Cost:   4UU
@@ -331,7 +331,7 @@ Name:   Quicksilver Fountain
 Cost:   3
 Type:   Artifact
 S/R:    MRD-R
-At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land he or she controls of his or her choice. That land is an Island for as long as it has a flood counter on it.
+At the beginning of each player's upkeep, that player puts a flood counter on target non-Island land they control of their choice. That land is an Island for as long as it has a flood counter on it.
 At the beginning of each end step, if all lands on the battlefield are Islands, remove all flood counters from them.
 
 Name:   Quicksilver Gargantuan
@@ -367,7 +367,7 @@ Cost:   3R
 Type:   Creature — Human Artificer
 P/T:    3/2
 S/R:    AeR-R
-When Quicksmith Rebel enters the battlefield, target artifact you control gains "{T}: This artifact deals 2 damage to target creature or player" for as long as you control Quicksmith Rebel.
+When Quicksmith Rebel enters the battlefield, target artifact you control gains "{T}: This artifact deals 2 damage to any target" for as long as you control Quicksmith Rebel.
 
 Name:   Quicksmith Spy
 Cost:   3U
@@ -401,14 +401,14 @@ Name:   Quiet Speculation
 Cost:   1U
 Type:   Sorcery
 S/R:    JUD-U, EMA-U
-Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles his or her library.
+Search target player's library for up to three cards with flashback and put them into that player's graveyard. Then the player shuffles their library.
 
 Name:   Quietus Spike
 Cost:   3
 Type:   Artifact — Equipment
 S/R:    ALA-R, PC2-R, PCA-R, C17-R
 Equipped creature has deathtouch.
-Whenever equipped creature deals combat damage to a player, that player loses half his or her life, rounded up.
+Whenever equipped creature deals combat damage to a player, that player loses half their life, rounded up.
 Equip {3}
 
 Name:   Quill-Slinger Boggart
@@ -473,15 +473,15 @@ Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    MI-C, IN-C, DDE-C
 As Quirion Elves enters the battlefield, choose a color.
-{T}: Add {G} to your mana pool.
-{T}: Add one mana of the chosen color to your mana pool.
+{T}: Add {G}.
+{T}: Add one mana of the chosen color.
 
 Name:   Quirion Explorer
 Cost:   1G
 Type:   Creature — Elf Druid Scout
 P/T:    1/1
 S/R:    PS-C, C16-C
-{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
+{T}: Add one mana of any color that a land an opponent controls could produce.
 
 Name:   Quirion Ranger
 Cost:   G
@@ -495,7 +495,7 @@ Cost:   1G
 Type:   Creature — Elf Druid
 P/T:    2/1
 S/R:    IN-C
-When Quirion Sentinel enters the battlefield, add one mana of any color to your mana pool.
+When Quirion Sentinel enters the battlefield, add one mana of any color.
 
 Name:   Quirion Trailblazer
 Cost:   3G

@@ -28,7 +28,7 @@ Name:   Early Harvest
 Cost:   1GG
 Type:   Instant
 S/R:    MI-R, 6E-R, 7E-R, 9ED-R
-Target player untaps all basic lands he or she controls.
+Target player untaps all basic lands they control.
 
 Name:   Earnest Fellowship
 Cost:   1W
@@ -164,7 +164,7 @@ Type:   Creature — Goblin Rogue
 P/T:    5/3
 S/R:    MOR-R, MMA-R
 Prowl {2}{B} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a Goblin or Rogue.)
-When Earwig Squad enters the battlefield, if its prowl cost was paid, search target opponent's library for three cards and exile them. Then that player shuffles his or her library.
+When Earwig Squad enters the battlefield, if its prowl cost was paid, search target opponent's library for three cards and exile them. Then that player shuffles their library.
 
 Name:   Eastern Paladin
 Cost:   2BB
@@ -232,8 +232,8 @@ Name:   Ebon Stronghold
 Type:   Land
 S/R:    FE-U, 5E-U, 6E-U, ME2-U, PD3-U
 Ebon Stronghold enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
-{T}, Sacrifice Ebon Stronghold: Add {B}{B} to your mana pool.
+{T}: Add {B}.
+{T}, Sacrifice Ebon Stronghold: Add {B}{B}.
 
 Name:   Ebonblade Reaper
 Cost:   2B
@@ -241,7 +241,7 @@ Type:   Creature — Human Cleric
 P/T:    1/1
 S/R:    ONS-R
 Whenever Ebonblade Reaper attacks, you lose half your life, rounded up.
-Whenever Ebonblade Reaper deals combat damage to a player, that player loses half his or her life, rounded up.
+Whenever Ebonblade Reaper deals combat damage to a player, that player loses half their life, rounded up.
 Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Ebony Charm
@@ -263,7 +263,7 @@ Name:   Ebony Owl Netsuke
 Cost:   2
 Type:   Artifact
 S/R:    SOK-U
-At the beginning of each opponent's upkeep, if that player has seven or more cards in hand, Ebony Owl Netsuke deals 4 damage to him or her.
+At the beginning of each opponent's upkeep, if that player has seven or more cards in hand, Ebony Owl Netsuke deals 4 damage to that player.
 
 Name:   Ebony Rhino
 Cost:   7
@@ -283,7 +283,7 @@ Name:   Echo Chamber
 Cost:   4
 Type:   Artifact
 S/R:    TE-R
-{4}, {T}: An opponent chooses target creature he or she controls. Create a token that's a copy of that creature. That token gains haste until end of turn. Exile the token at the beginning of the next end step. Activate this ability only any time you could cast a sorcery.
+{4}, {T}: An opponent chooses target creature they control. Create a token that's a copy of that creature. That token gains haste until end of turn. Exile the token at the beginning of the next end step. Activate this ability only any time you could cast a sorcery.
 
 Name:   Echo Circlet
 Cost:   2
@@ -324,7 +324,7 @@ Destroy target enchantment and all other enchantments with the same name as that
 Name:   Echoing Courage
 Cost:   1G
 Type:   Instant
-S/R:    DST-C, MMA-C, CNS-C
+S/R:    DST-C, MMA-C, CNS-C, A25-C
 Target creature and all other creatures with the same name as that creature get +2/+2 until end of turn.
 
 Name:   Echoing Decay
@@ -468,13 +468,13 @@ Name:   Eidolon of the Great Revel
 Cost:   RR
 Type:   Enchantment Creature — Spirit
 P/T:    2/2
-S/R:    JOU-R
+S/R:    JOU-R, A25-R
 Whenever a player casts a spell with converted mana cost 3 or less, Eidolon of the Great Revel deals 2 damage to that player.
 
 Name:   Eiganjo Castle
 Type:   Legendary Land
 S/R:    CHK-R
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 {W}, {T}: Prevent the next 2 damage that would be dealt to target legendary creature this turn.
 
 Name:   Eiganjo Free-Riders
@@ -497,7 +497,7 @@ Name:   Eightfold Maze
 Cost:   2W
 Type:   Instant
 S/R:    P3K-R, ME3-U
-Cast Eightfold Maze only during the declare attackers step and only if you've been attacked this step.
+Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Destroy target attacking creature.
 
 Name:   Ekundu Cyclops
@@ -526,20 +526,20 @@ Cost:   2
 Type:   Artifact
 S/R:    XLN-U
 Elaborate Firecannon doesn't untap during your untap step.
-{4}, {T}: Elaborate Firecannon deals 2 damage to target creature or player.
+{4}, {T}: Elaborate Firecannon deals 2 damage to any target.
 At the beginning of your upkeep, you may discard a card. If you do, untap Elaborate Firecannon.
 
 Name:   Eladamri's Call
 Cost:   GW
 Type:   Instant
-S/R:    PS-R
-Search your library for a creature card, reveal that card, and put it into your hand. Then shuffle your library.
+S/R:    PS-R, A25-R
+Search your library for a creature card, reveal that card, put it into your hand, then shuffle your library.
 
 Name:   Eladamri's Vineyard
 Cost:   G
 Type:   Enchantment
 S/R:    TE-R
-At the beginning of each player's precombat main phase, add {G}{G} to that player's mana pool.
+At the beginning of each player's precombat main phase, that player adds {G}{G}.
 
 Name:   Eladamri, Lord of Leaves
 Cost:   GG
@@ -581,7 +581,7 @@ P/T:    5/6
 S/R:    EMN-R
 Flash
 Emerge {5}{U}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
-When you cast Elder Deep-Fiend, tap up to four target permanents.
+When you cast this spell, tap up to four target permanents.
 
 Name:   Elder Druid
 Cost:   3G
@@ -697,7 +697,7 @@ Type:   Creature — Eldrazi
 P/T:    3/1
 S/R:    OGW-R
 Devoid (This card has no color.)
-When you cast Eldrazi Obligator, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)
+When you cast this spell, you may pay {1}{C}. If you do, gain control of target creature until end of turn, untap that creature, and it gains haste until end of turn. ({C} represents colorless mana.)
 Haste
 
 Name:   Eldrazi Skyspawner
@@ -707,19 +707,19 @@ P/T:    2/1
 S/R:    BFZ-C
 Devoid (This card has no color.)
 Flying
-When Eldrazi Skyspawner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+When Eldrazi Skyspawner enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."
 
 Name:   Eldrazi Temple
 Type:   Land
 S/R:    ROE-R, MM2-U, DDP-U
-{T}: Add {C} to your mana pool.
-{T}: Add {C}{C} to your mana pool. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi.
+{T}: Add {C}.
+{T}: Add {C}{C}. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi.
 
 Name:   Eldritch Evolution
 Cost:   1GG
 Type:   Sorcery
 S/R:    EMN-R
-As an additional cost to cast Eldritch Evolution, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Search your library for a creature card with converted mana cost X or less, where X is 2 plus the sacrificed creature's converted mana cost. Put that card onto the battlefield, then shuffle your library. Exile Eldritch Evolution.
 
 Name:   Electric Eel
@@ -747,14 +747,14 @@ Name:   Electrolyze
 Cost:   1UR
 Type:   Instant
 S/R:    GPT-U, CMD-U, MMA-U, MM2-U, IMA-U
-Electrolyze deals 2 damage divided as you choose among one or two target creatures and/or players.
+Electrolyze deals 2 damage divided as you choose among one or two targets.
 Draw a card.
 
 Name:   Electropotence
 Cost:   2R
 Type:   Enchantment
 S/R:    ZEN-R
-Whenever a creature enters the battlefield under your control, you may pay {2}{R}. If you do, that creature deals damage equal to its power to target creature or player.
+Whenever a creature enters the battlefield under your control, you may pay {2}{R}. If you do, that creature deals damage equal to its power to any target.
 
 Name:   Electrostatic Bolt
 Cost:   R
@@ -790,7 +790,7 @@ Cost:   RRRR
 Type:   Sorcery
 S/R:    ZEN-R
 Kicker {5} (You may pay an additional {5} as you cast this spell.)
-Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step. If Elemental Appeal was kicked, that creature gets +7/+0 until end of turn.
+Create a 7/1 red Elemental creature token with trample and haste. Exile it at the beginning of the next end step. If this spell was kicked, that creature gets +7/+0 until end of turn.
 
 Name:   Elemental Augury
 Cost:   UBR
@@ -816,7 +816,7 @@ Cost:   2GG
 Type:   Enchantment — Aura
 S/R:    DIS-R
 Enchant permanent
-At the beginning of your precombat main phase, add mana equal to enchanted permanent's mana cost to your mana pool. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)
+At the beginning of your precombat main phase, add mana equal to enchanted permanent's mana cost. (Mana cost includes color. If a mana symbol has multiple colors, choose one.)
 
 Name:   Elemental Uprising
 Cost:   1G
@@ -846,12 +846,12 @@ Type:   Enchantment
 S/R:    VI-U
 Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 Black creatures can't attack you.
-Nonblack creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.
+Nonblack creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.
 
 Name:   Elephant Graveyard
 Type:   Land
 S/R:    AN-R, ME4-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {T}: Regenerate target Elephant.
 
 Name:   Elephant Guide
@@ -884,11 +884,19 @@ P/T:    2/2
 S/R:    MRD-C
 {1}{G}, Sacrifice Elf Replica: Destroy target enchantment.
 
+Name:   Elfhame Druid
+Cost:   1G
+Type:   Creature — Elf Druid
+P/T:    0/2
+S/R:    DOM-U
+{T}: Add {G}.
+{T}: Add {G}{G}. Spend this mana only to cast kicked spells.
+
 Name:   Elfhame Palace
 Type:   Land
 S/R:    IN-U, 8ED-U, C17-U, DDE-U
 Elfhame Palace enters the battlefield tapped.
-{T}: Add {G} or {W} to your mana pool.
+{T}: Add {G} or {W}.
 
 Name:   Elfhame Sanctuary
 Cost:   1G
@@ -916,7 +924,7 @@ Name:   Eliminate the Competition
 Cost:   4B
 Type:   Sorcery
 S/R:    KLD-R
-As an additional cost to cast Eliminate the Competition, sacrifice X creatures.
+As an additional cost to cast this spell, sacrifice X creatures.
 Destroy X target creatures.
 
 Name:   Elite Arcanist
@@ -1001,7 +1009,7 @@ Name:   Elkin Lair
 Cost:   3R
 Type:   World Enchantment
 S/R:    VI-R
-At the beginning of each player's upkeep, that player exiles a card at random from his or her hand. The player may play that card this turn. At the beginning of the next end step, if the player hasn't played the card, he or she puts it into his or her graveyard.
+At the beginning of each player's upkeep, that player exiles a card at random from their hand. The player may play that card this turn. At the beginning of the next end step, if the player hasn't played the card, they put it into their graveyard.
 
 Name:   Elsewhere Flask
 Cost:   2
@@ -1110,23 +1118,23 @@ Cost:   G
 Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    DK-U, RAV-C, DDJ-C, ME3-C
-{T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you.
+{T}: Add {B}. Elves of Deep Shadow deals 1 damage to you.
 
 Name:   Elvish Aberration
 Cost:   5G
 Type:   Creature — Elf Mutant
 P/T:    4/5
-S/R:    SCG-U, CMD-U, CNS-C, VMA-C
-{T}: Add {G}{G}{G} to your mana pool.
-Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, and put it into your hand. Then shuffle your library.)
+S/R:    SCG-U, CMD-U, CNS-C, A25-C, VMA-C, DDU-C
+{T}: Add {G}{G}{G}.
+Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, and put it into your hand, then shuffle your library.)
 
 Name:   Elvish Archdruid
 Cost:   1GG
 Type:   Creature — Elf Druid
 P/T:    2/2
-S/R:    M10-R, M11-R, M12-R, M13-R, C14-R, CMA-R
+S/R:    M10-R, M11-R, M12-R, M13-R, C14-R, CMA-R, DDU-R
 Other Elf creatures you control get +1/+1.
-{T}: Add {G} to your mana pool for each Elf you control.
+{T}: Add {G} for each Elf you control.
 
 Name:   Elvish Archers
 Cost:   1G
@@ -1153,7 +1161,7 @@ Name:   Elvish Branchbender
 Cost:   2G
 Type:   Creature — Elf Druid
 P/T:    2/2
-S/R:    LRW-C
+S/R:    LRW-C, DDU-C
 {T}: Until end of turn, target Forest becomes an X/X Treefolk creature in addition to its other types, where X is the number of Elves you control.
 
 Name:   Elvish Champion
@@ -1191,7 +1199,7 @@ Cost:   2G
 Type:   Enchantment — Aura
 S/R:    ONS-C
 Enchant land
-Whenever enchanted land is tapped for mana, its controller adds {G} to his or her mana pool for each Elf on the battlefield (in addition to the mana the land produces).
+Whenever enchanted land is tapped for mana, its controller adds an additional {G} for each Elf on the battlefield.
 
 Name:   Elvish Handservant
 Cost:   G
@@ -1206,14 +1214,14 @@ Type:   Creature — Elf Druid
 P/T:    1/2
 S/R:    LRW-U, EVG-U
 When Elvish Harbinger enters the battlefield, you may search your library for an Elf card, reveal it, then shuffle your library and put that card on top of it.
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Elvish Healer
 Cost:   2W
 Type:   Creature — Elf Cleric
 P/T:    1/2
 S/R:    IA-C
-{T}: Prevent the next 1 damage that would be dealt to target creature or player this turn. If that creature is green, prevent the next 2 damage instead.
+{T}: Prevent the next 1 damage that would be dealt to any target this turn. If it's a green creature, prevent the next 2 damage instead.
 
 Name:   Elvish Herder
 Cost:   G
@@ -1254,8 +1262,8 @@ Name:   Elvish Mystic
 Cost:   G
 Type:   Creature — Elf Druid
 P/T:    1/1
-S/R:    M14-C, M15-C, C14-C, CMA-C
-{T}: Add {G} to your mana pool.
+S/R:    M14-C, M15-C, C14-C, CMA-C, DDU-C
+{T}: Add {G}.
 
 Name:   Elvish Pathcutter
 Cost:   3G
@@ -1275,7 +1283,7 @@ Name:   Elvish Piper
 Cost:   3G
 Type:   Creature — Elf Shaman
 P/T:    1/1
-S/R:    UD-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R
+S/R:    UD-R, 7E-R, 8ED-R, 9ED-R, 10E-R, M10-R, A25-R
 {G}, {T}: You may put a creature card from your hand onto the battlefield.
 
 Name:   Elvish Promenade
@@ -1323,13 +1331,13 @@ Cost:   2G
 Type:   Creature — Elf Spirit
 P/T:    2/2
 S/R:    AI-U, ME2-U
-Exile Elvish Spirit Guide from your hand: Add {G} to your mana pool.
+Exile Elvish Spirit Guide from your hand: Add {G}.
 
 Name:   Elvish Vanguard
 Cost:   1G
 Type:   Creature — Elf Warrior
 P/T:    1/1
-S/R:    ONS-R, EMA-C
+S/R:    ONS-R, EMA-C, DDU-C
 Whenever another Elf enters the battlefield, put a +1/+1 counter on Elvish Vanguard.
 
 Name:   Elvish Visionary
@@ -1366,7 +1374,7 @@ Cost:   2
 Type:   Artifact
 S/R:    AKH-U
 Activated abilities of creature cards in your graveyard cost {1} less to activate.
-Tap an untapped Zombie you control: Target player puts the top card of his or her library into his or her graveyard.
+Tap an untapped Zombie you control: Target player puts the top card of their library into their graveyard.
 
 Name:   Embargo
 Cost:   3U
@@ -1393,13 +1401,13 @@ Cost:   RR
 Type:   Creature — Goblin
 P/T:    2/2
 S/R:    M11-U, DDT-U
-{1}, Sacrifice Ember Hauler: Ember Hauler deals 2 damage to target creature or player.
+{1}, Sacrifice Ember Hauler: Ember Hauler deals 2 damage to any target.
 
 Name:   Ember Shot
 Cost:   6R
 Type:   Instant
 S/R:    JUD-C
-Ember Shot deals 3 damage to target creature or player.
+Ember Shot deals 3 damage to any target.
 Draw a card.
 
 Name:   Ember Swallower
@@ -1414,7 +1422,7 @@ Name:   Ember Weaver
 Cost:   2G
 Type:   Creature — Spider
 P/T:    2/3
-S/R:    CON-C
+S/R:    CON-C, A25-C
 Reach (This creature can block creatures with flying.)
 As long as you control a red permanent, Ember Weaver gets +1/+0 and has first strike.
 
@@ -1431,7 +1439,7 @@ Cost:   1R
 Type:   Creature — Zubera Spirit
 P/T:    1/2
 S/R:    CHK-C
-When Ember-Fist Zubera dies, it deals damage to target creature or player equal to the number of Zubera that died this turn.
+When Ember-Fist Zubera dies, it deals damage to any target equal to the number of Zubera that died this turn.
 
 Name:   Emberhorn Minotaur
 Cost:   3R
@@ -1446,14 +1454,14 @@ Type:   Creature — Goblin Wizard
 P/T:    1/1
 S/R:    ONS-U
 When Embermage Goblin enters the battlefield, you may search your library for a card named Embermage Goblin, reveal it, and put it into your hand. If you do, shuffle your library.
-{T}: Embermage Goblin deals 1 damage to target creature or player.
+{T}: Embermage Goblin deals 1 damage to any target.
 
 Name:   Embermaw Hellion
 Cost:   3RR
 Type:   Creature — Hellion
 P/T:    4/5
 S/R:    ORI-R
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 If another red source you control would deal damage to a permanent or player, it deals that much damage plus 1 to that permanent or player instead.
 
 Name:   Embersmith
@@ -1461,7 +1469,7 @@ Cost:   1R
 Type:   Creature — Human Artificer
 P/T:    2/1
 S/R:    SOM-U
-Whenever you cast an artifact spell, you may pay {1}. If you do, Embersmith deals 1 damage to target creature or player.
+Whenever you cast an artifact spell, you may pay {1}. If you do, Embersmith deals 1 damage to any target.
 
 Name:   Emberstrike Duo
 Cost:   1(B/R)
@@ -1476,7 +1484,7 @@ Cost:   1R
 Type:   Creature — Goblin Shaman
 P/T:    2/1
 S/R:    FUT-C, EVG-C
-Sacrifice Emberwilde Augur: Emberwilde Augur deals 3 damage to target player. Activate this ability only during your upkeep.
+Sacrifice Emberwilde Augur: It deals 3 damage to target player or planeswalker. Activate this ability only during your upkeep.
 
 Name:   Emberwilde Caliph
 Cost:   2UR
@@ -1493,7 +1501,7 @@ Type:   Creature — Djinn
 P/T:    5/4
 S/R:    MI-R
 Flying
-At the beginning of each player's upkeep, that player may pay {R}{R} or 2 life. If he or she does, the player gains control of Emberwilde Djinn.
+At the beginning of each player's upkeep, that player may pay {R}{R} or 2 life. If the player does, they gain control of Emberwilde Djinn.
 
 Name:   Emblazoned Golem
 Cost:   2
@@ -1540,7 +1548,7 @@ Name:   Embolden
 Cost:   2W
 Type:   Instant
 S/R:    OD-C
-Prevent the next 4 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose.
+Prevent the next 4 damage that would be dealt this turn to any number of targets, divided as you choose.
 Flashback {1}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Embraal Bruiser
@@ -1622,7 +1630,7 @@ Type:   Land
 S/R:    ZEN-R, C14-R
 Emeria, the Sky Ruin enters the battlefield tapped.
 At the beginning of your upkeep, if you control seven or more Plains, you may return target creature card from your graveyard to the battlefield.
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 
 Name:   Emissary of Despair
 Cost:   1BB
@@ -1630,7 +1638,7 @@ Type:   Creature — Spirit
 P/T:    2/1
 S/R:    DST-U
 Flying
-Whenever Emissary of Despair deals combat damage to a player, that player loses 1 life for each artifact he or she controls.
+Whenever Emissary of Despair deals combat damage to a player, that player loses 1 life for each artifact they control.
 
 Name:   Emissary of Hope
 Cost:   1WW
@@ -1694,13 +1702,13 @@ Name:   Empty City Ruse
 Cost:   W
 Type:   Sorcery
 S/R:    P3K-U
-Target opponent skips all combat phases of his or her next turn.
+Target opponent skips all combat phases of their next turn.
 
 Name:   Empty the Catacombs
 Cost:   3B
 Type:   Sorcery
 S/R:    RAV-R
-Each player returns all creature cards from his or her graveyard to his or her hand.
+Each player returns all creature cards from their graveyard to their hand.
 
 Name:   Empty the Pits
 Cost:   XXBBBB
@@ -1766,7 +1774,7 @@ Cost:   4R
 Type:   Creature — Eldrazi Drone
 P/T:    3/3
 S/R:    ROE-C, DDP-C
-When Emrakul's Hatcher enters the battlefield, create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+When Emrakul's Hatcher enters the battlefield, create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C}."
 
 Name:   Emrakul's Influence
 Cost:   2GG
@@ -1779,18 +1787,18 @@ Cost:   15
 Type:   Legendary Creature — Eldrazi
 P/T:    15/15
 S/R:    ROE-M, MM2-M
-Emrakul, the Aeons Torn can't be countered.
-When you cast Emrakul, take an extra turn after this one.
+This spell can't be countered.
+When you cast this spell, take an extra turn after this one.
 Flying, protection from colored spells, annihilator 6
-When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.
+When Emrakul, the Aeons Torn is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.
 
 Name:   Emrakul, the Promised End
 Cost:   13
 Type:   Legendary Creature — Eldrazi
 P/T:    13/13
 S/R:    EMN-M
-Emrakul, the Promised End costs {1} less to cast for each card type among cards in your graveyard.
-When you cast Emrakul, you gain control of target opponent during that player's next turn. After that turn, that player takes an extra turn.
+This spell costs {1} less to cast for each card type among cards in your graveyard.
+When you cast this spell, you gain control of target opponent during that player's next turn. After that turn, that player takes an extra turn.
 Flying, trample, protection from instants
 
 Name:   Enatu Golem
@@ -1871,12 +1879,12 @@ Name:   Encroach
 Cost:   B
 Type:   Sorcery
 S/R:    UD-U
-Target player reveals his or her hand. You choose a nonbasic land card from it. That player discards that card.
+Target player reveals their hand. You choose a nonbasic land card from it. That player discards that card.
 
 Name:   Encroaching Wastes
 Type:   Land
 S/R:    M14-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {4}, {T}, Sacrifice Encroaching Wastes: Destroy target nonbasic land.
 
 Name:   Encrust
@@ -1905,7 +1913,7 @@ Type:   Creature — Eldrazi
 P/T:    5/5
 S/R:    OGW-R
 Untap Endbringer during each other player's untap step.
-{T}: Endbringer deals 1 damage to target creature or player.
+{T}: Endbringer deals 1 damage to any target.
 {C}, {T}: Target creature can't attack or block this turn.
 {C}{C}, {T}: Draw a card.
 
@@ -1913,13 +1921,13 @@ Name:   Endbringer's Revel
 Cost:   2B
 Type:   Enchantment
 S/R:    PR-U
-{4}: Return target creature card from a graveyard to its owner's hand. Any player may activate this ability but only any time he or she could cast a sorcery.
+{4}: Return target creature card from a graveyard to its owner's hand. Any player may activate this ability but only any time they could cast a sorcery.
 
 Name:   Endemic Plague
 Cost:   3B
 Type:   Sorcery
 S/R:    ONS-R
-As an additional cost to cast Endemic Plague, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Destroy all creatures that share a creature type with the sacrificed creature. They can't be regenerated.
 
 Name:   Endless Cockroaches
@@ -1959,7 +1967,7 @@ At the beginning of your upkeep, create X 2/2 black Zombie creature tokens, wher
 Name:   Endless Sands
 Type:   Land — Desert
 S/R:    HOU-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}, {T}: Exile target creature you control.
 {4}, {T}, Sacrifice Endless Sands: Return each creature card exiled with Endless Sands to the battlefield under its owner's control.
 
@@ -1982,7 +1990,7 @@ Name:   Endless Whispers
 Cost:   2BB
 Type:   Enchantment
 S/R:    5DN-R
-Each creature has "When this creature dies, choose target opponent. That player puts this card from its owner's graveyard onto the battlefield under his or her control at the beginning of the next end step."
+Each creature has "When this creature dies, choose target opponent. That player puts this card from its owner's graveyard onto the battlefield under their control at the beginning of the next end step."
 
 Name:   Endless Wurm
 Cost:   3GG
@@ -2075,7 +2083,7 @@ Cost:   XRW
 Type:   Sorcery
 S/R:    MI-R
 Choose one —
-• Energy Bolt deals X damage to target player.
+• Energy Bolt deals X damage to target player or planeswalker.
 • Target player gains X life.
 
 Name:   Energy Chamber
@@ -2111,7 +2119,7 @@ Name:   Energy Tap
 Cost:   U
 Type:   Sorcery
 S/R:    LE-C, 4E-C
-Tap target untapped creature you control. If you do, add an amount of {C} to your mana pool equal to that creature's converted mana cost.
+Tap target untapped creature you control. If you do, add an amount of {C} equal to that creature's converted mana cost.
 
 Name:   Energy Vortex
 Cost:   3UU
@@ -2119,7 +2127,7 @@ Type:   Enchantment
 S/R:    MI-R
 As Energy Vortex enters the battlefield, choose an opponent.
 At the beginning of your upkeep, remove all vortex counters from Energy Vortex.
-At the beginning of the chosen player's upkeep, Energy Vortex deals 3 damage to that player unless he or she pays {1} for each vortex counter on Energy Vortex.
+At the beginning of the chosen player's upkeep, Energy Vortex deals 3 damage to that player unless they pay {1} for each vortex counter on Energy Vortex.
 {X}: Put X vortex counters on Energy Vortex. Activate this ability only during your upkeep.
 
 Name:   Enervate
@@ -2197,7 +2205,7 @@ Cost:   3U
 Type:   Creature — Spirit
 P/T:    2/2
 S/R:    DIS-C
-{U}, Sacrifice Enigma Eidolon: Target player puts the top three cards of his or her library into his or her graveyard.
+{U}, Sacrifice Enigma Eidolon: Target player puts the top three cards of their library into their graveyard.
 Whenever you cast a multicolored spell, you may return Enigma Eidolon from your graveyard to your hand.
 
 Name:   Enigma Sphinx
@@ -2213,7 +2221,7 @@ Name:   Enlarge
 Cost:   3GG
 Type:   Sorcery
 S/R:    M14-U, IMA-U
-Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (If a creature with trample would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able. (If a creature with trample would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)
 
 Name:   Enlightened Ascetic
 Cost:   1W
@@ -2317,7 +2325,7 @@ Cost:   3B
 Type:   Creature — Horror
 P/T:    4/4
 S/R:    MM-U
-When Enslaved Horror enters the battlefield, each other player may return a creature card from his or her graveyard to the battlefield.
+When Enslaved Horror enters the battlefield, each other player may return a creature card from their graveyard to the battlefield.
 
 Name:   Enslaved Scout
 Cost:   2R
@@ -2330,13 +2338,13 @@ Name:   Ensnare
 Cost:   3U
 Type:   Instant
 S/R:    NE-U
-You may return two Islands you control to their owner's hand rather than pay Ensnare's mana cost.
+You may return two Islands you control to their owner's hand rather than pay this spell's mana cost.
 Tap all creatures.
 
 Name:   Ensnaring Bridge
 Cost:   3
 Type:   Artifact
-S/R:    ST-R, 7E-R, 8ED-R, MPS_KLD-S
+S/R:    ST-R, 7E-R, 8ED-R, MPS_KLD-S, A25-M
 Creatures with power greater than the number of cards in your hand can't attack.
 
 Name:   Ensoul Artifact
@@ -2400,7 +2408,7 @@ Name:   Enthralling Victor
 Cost:   3R
 Type:   Creature — Human Warrior
 P/T:    3/2
-S/R:    ORI-U
+S/R:    ORI-U, A25-U
 When Enthralling Victor enters the battlefield, gain control of target creature an opponent controls with power 2 or less until end of turn. Untap that creature. It gains haste until end of turn. (It can attack and {T} this turn.)
 
 Name:   Entomb
@@ -2416,7 +2424,7 @@ P/T:    2/2
 S/R:    NPH-U, MM3-U
 When Entomber Exarch enters the battlefield, choose one —
 • Return target creature card from your graveyard to your hand.
-• Target opponent reveals his or her hand. You choose a noncreature card from it. That player discards that card.
+• Target opponent reveals their hand. You choose a noncreature card from it. That player discards that card.
 
 Name:   Entourage of Trest
 Cost:   4G
@@ -2532,7 +2540,7 @@ Discard a card: Return Ephemeron to its owner's hand.
 Name:   Epic Confrontation
 Cost:   1G
 Type:   Sorcery
-S/R:    DTK-C
+S/R:    DTK-C, A25-C
 Target creature you control gets +1/+2 until end of turn. It fights target creature you don't control. (Each deals damage equal to its power to the other.)
 
 Name:   Epic Experiment
@@ -2560,7 +2568,7 @@ Cost:   4R
 Type:   Sorcery
 S/R:    OD-R
 Target player sacrifices a land.
-Threshold — Each player sacrifices all lands he or she controls instead if seven or more cards are in your graveyard.
+Threshold — Each player sacrifices all lands they control instead if seven or more cards are in your graveyard.
 
 Name:   Epiphany Storm
 Cost:   R
@@ -2594,7 +2602,7 @@ Name:   Equal Treatment
 Cost:   1W
 Type:   Instant
 S/R:    TOR-U
-If any source would deal 1 or more damage to a creature or player this turn, it deals 2 damage to that creature or player instead.
+If any source would deal 1 or more damage to a permanent or player this turn, it deals 2 damage to that permanent or player instead.
 Draw a card.
 
 Name:   Equestrian Skill
@@ -2622,7 +2630,7 @@ Name:   Equipoise
 Cost:   2W
 Type:   Enchantment
 S/R:    VI-R
-At the beginning of your upkeep, for each land target player controls in excess of the number you control, choose a land he or she controls, then the chosen permanents phase out. Repeat this process for artifacts and creatures. (While they're phased out, they're treated as though they don't exist. They phase in before that player untaps during his or her next untap step.)
+At the beginning of your upkeep, for each land target player controls in excess of the number you control, choose a land that player controls, then the chosen permanents phase out. Repeat this process for artifacts and creatures. (While they're phased out, they're treated as though they don't exist. They phase in before that player untaps during their next untap step.)
 
 Name:   Era of Innovation
 Cost:   1U
@@ -2635,7 +2643,7 @@ Name:   Eradicate
 Cost:   2BB
 Type:   Sorcery
 S/R:    UD-U, BOK-U
-Exile target nonblack creature. Search its controller's graveyard, hand, and library for all cards with the same name as that creature and exile them. Then that player shuffles his or her library.
+Exile target nonblack creature. Search its controller's graveyard, hand, and library for all cards with the same name as that creature and exile them. Then that player shuffles their library.
 
 Name:   Erase
 Cost:   W
@@ -2649,7 +2657,7 @@ Type:   Legendary Enchantment
 M-type: Flip
 M-card: Erayo, Soratami Ascendant
 S/R:    SOK-R
-Whenever an opponent casts his or her first spell each turn, counter that spell.
+Whenever an opponent casts their first spell each turn, counter that spell.
 
 Name:   Erayo, Soratami Ascendant
 Cost:   1U
@@ -2708,7 +2716,7 @@ Name:   Erg Raiders
 Cost:   1B
 Type:   Creature — Human Warrior
 P/T:    2/3
-S/R:    AN-C, RV-C, 4E-C, 5E-C, MED-C
+S/R:    AN-C, RV-C, 4E-C, 5E-C, A25-C, MED-C
 At the beginning of your end step, if Erg Raiders didn't attack this turn, Erg Raiders deals 2 damage to you unless it came under your control this turn.
 
 Name:   Erhnam Djinn
@@ -2779,7 +2787,7 @@ Name:   Erratic Explosion
 Cost:   2R
 Type:   Sorcery
 S/R:    ONS-C, PC2-C, PCA-C
-Choose target creature or player. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's converted mana cost to that creature or player. Put the revealed cards on the bottom of your library in any order.
+Choose any target. Reveal cards from the top of your library until you reveal a nonland card. Erratic Explosion deals damage equal to that card's converted mana cost to that permanent or player. Put the revealed cards on the bottom of your library in any order.
 
 Name:   Erratic Mutation
 Cost:   2U
@@ -2824,7 +2832,7 @@ Type:   Instant
 S/R:    TE-R
 X can't be 0.
 Target spell's controller exiles it with X delay counters on it.
-At the beginning of each of that player's upkeeps, if that card is exiled, remove a delay counter from it. If the card has no delay counters on it, he or she puts it onto the stack as a copy of the original spell.
+At the beginning of each of that player's upkeeps, if that card is exiled, remove a delay counter from it. If the card has no delay counters on it, the player puts it onto the stack as a copy of the original spell.
 
 Name:   Ertai's Trickery
 Cost:   U
@@ -2852,7 +2860,7 @@ P/T:    6/4
 M-type: Transform
 M-card: Smoldering Werewolf
 S/R:    EMN-U
-Whenever Erupting Dreadwolf attacks, it deals 2 damage to target creature or player.
+Whenever Erupting Dreadwolf attacks, it deals 2 damage to any target.
 
 Name:   Escape Artist
 Cost:   1U
@@ -2910,7 +2918,7 @@ Flying
 Name:   Esper Panorama
 Type:   Land
 S/R:    ALA-C, C13-C
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}, {T}, Sacrifice Esper Panorama: Search your library for a basic Plains, Island, or Swamp card and put it onto the battlefield tapped. Then shuffle your library.
 
 Name:   Esper Sojourners
@@ -2961,7 +2969,7 @@ Name:   Essence Drain
 Cost:   4B
 Type:   Sorcery
 S/R:    DST-C, 10E-C, M13-C
-Essence Drain deals 3 damage to target creature or player and you gain 3 life.
+Essence Drain deals 3 damage to any target and you gain 3 life.
 
 Name:   Essence Extraction
 Cost:   1BB
@@ -2973,7 +2981,7 @@ Name:   Essence Feed
 Cost:   5B
 Type:   Sorcery
 S/R:    ROE-C
-Target player loses 3 life. You gain 3 life and create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+Target player loses 3 life. You gain 3 life and create three 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C}."
 
 Name:   Essence Filter
 Cost:   1GG
@@ -3082,7 +3090,7 @@ Name:   Eternal Dominion
 Cost:   7UUU
 Type:   Sorcery
 S/R:    SOK-R
-Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles his or her library.
+Search target opponent's library for an artifact, creature, enchantment, or land card. Put that card onto the battlefield under your control. Then that player shuffles their library.
 Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)
 
 Name:   Eternal Dragon
@@ -3092,13 +3100,13 @@ P/T:    5/5
 S/R:    SCG-R, C13-R, VMA-R
 Flying
 {3}{W}{W}: Return Eternal Dragon from your graveyard to your hand. Activate this ability only during your upkeep.
-Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, and put it into your hand. Then shuffle your library.)
+Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle your library.)
 
 Name:   Eternal Flame
 Cost:   2RR
 Type:   Sorcery
 S/R:    DK-R
-Eternal Flame deals X damage to target opponent, where X is the number of Mountains you control. It deals half X damage, rounded up, to you.
+Eternal Flame deals X damage to target opponent or planeswalker and half X damage, rounded up, to you, where X is the number of Mountains you control.
 
 Name:   Eternal Scourge
 Cost:   3
@@ -3231,7 +3239,7 @@ Name:   Etherium Sculptor
 Cost:   1U
 Type:   Artifact Creature — Vedalken Artificer
 P/T:    1/2
-S/R:    ALA-C, MMA-C, C16-C
+S/R:    ALA-C, MMA-C, C16-C, DDU-C
 Artifact spells you cast cost {1} less to cast.
 
 Name:   Etherium-Horn Sorcerer
@@ -3279,13 +3287,13 @@ Name:   Eunuchs' Intrigues
 Cost:   2R
 Type:   Sorcery
 S/R:    P3K-U
-Target opponent chooses a creature he or she controls. Other creatures he or she controls can't block this turn.
+Target opponent chooses a creature they control. Other creatures they control can't block this turn.
 
 Name:   Eureka
 Cost:   2GG
 Type:   Sorcery
 S/R:    LE-R, VMA-M, MED-R
-Starting with you, each player may put a permanent card from his or her hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield.
+Starting with you, each player may put a permanent card from their hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield.
 
 Name:   Evacuation
 Cost:   3UU
@@ -3298,7 +3306,7 @@ Cost:   U
 Type:   Enchantment — Aura
 S/R:    BNG-C
 Enchant creature
-Enchanted creature has "{1}{U}, {T}: Target player puts the top three cards of his or her library into his or her graveyard."
+Enchanted creature has "{1}{U}, {T}: Target player puts the top three cards of their library into their graveyard."
 
 Name:   Evangel of Heliod
 Cost:   4WW
@@ -3312,7 +3320,7 @@ Cost:   4W
 Type:   Sorcery
 S/R:    TSP-R
 Buyback {2}{W}{W} (You may pay an additional {2}{W}{W} as you cast this spell. If you do, put this card into your hand as it resolves.)
-Gain control of target creature of an opponent's choice he or she controls.
+Gain control of target creature of an opponent's choice they control.
 
 Name:   Evaporate
 Cost:   2R
@@ -3330,7 +3338,7 @@ Name:   Even the Odds
 Cost:   2W
 Type:   Instant
 S/R:    FUT-U
-Cast Even the Odds only if you control fewer creatures than each opponent.
+Cast this spell only if you control fewer creatures than each opponent.
 Create three 1/1 white Soldier creature tokens.
 
 Name:   Ever After
@@ -3368,14 +3376,14 @@ Type:   Artifact
 S/R:    WWK-U, ARC-U, C14-U, MM2-U, C16-U, DDF-U
 Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)
 Everflowing Chalice enters the battlefield with a charge counter on it for each time it was kicked.
-{T}: Add {C} to your mana pool for each charge counter on Everflowing Chalice.
+{T}: Add {C} for each charge counter on Everflowing Chalice.
 
 Name:   Everglades
 Type:   Land
 S/R:    VI-U, C14-U
 Everglades enters the battlefield tapped.
 When Everglades enters the battlefield, sacrifice it unless you return an untapped Swamp you control to its owner's hand.
-{T}: Add {C}{B} to your mana pool.
+{T}: Add {C}{B}.
 
 Name:   Everglove Courier
 Cost:   2G
@@ -3455,6 +3463,12 @@ S/R:    TE-C, CMD-C, CMA-C
 Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)
 Evincar's Justice deals 2 damage to each creature and each player.
 
+Name:   Eviscerate
+Cost:   3B
+Type:   Sorcery
+S/R:    DOM-C
+Destroy target creature.
+
 Name:   Eviscerator
 Cost:   3BB
 Type:   Creature — Horror
@@ -3495,6 +3509,14 @@ Type:   Land
 S/R:    ROE-C, CMD-C, DKA-C, M13-C, C13-C, M15-C, C14-C, DTK-C, MM2-C, ORI-C, BFZ-C, C15-C, CN2-C, C16-C, AKH-C, CMA-C, C17-C, IMA-C, RIX-C, DDH-C, DDK-C, DDN-C, DDO-C, DDP-C
 {T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
 
+Name:   Evra, Halcyon Witness
+Cost:   4WW
+Type:   Legendary Creature — Avatar
+P/T:    4/4
+S/R:    DOM-R
+Lifelink
+{4}: Exchange your life total with Evra, Halcyon Witness's power.
+
 Name:   Exalted Angel
 Cost:   4WW
 Type:   Creature — Angel
@@ -3527,6 +3549,14 @@ Type:   Enchantment
 S/R:    PR-U
 {1}, Sacrifice a land: Draw a card. Any player may activate this ability.
 
+Name:   Excavation Elephant
+Cost:   4W
+Type:   Creature — Elephant
+P/T:    3/5
+S/R:    DOM-C
+Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
+When Excavation Elephant enters the battlefield, if it was kicked, return target artifact card from your graveyard to your hand.
+
 Name:   Excavator
 Cost:   2
 Type:   Artifact
@@ -3542,7 +3572,7 @@ Exile target attacking creature unless its controller pays {X}.
 Name:   Exclude
 Cost:   2U
 Type:   Instant
-S/R:    IN-C, C14-C
+S/R:    IN-C, C14-C, A25-U
 Counter target creature spell.
 Draw a card.
 
@@ -3616,13 +3646,13 @@ Name:   Exhaustion
 Cost:   2U
 Type:   Sorcery
 S/R:    P1-R, P2-R, US-U, P3K-R, S99-U, 9ED-U
-Creatures and lands target opponent controls don't untap during his or her next untap step.
+Creatures and lands target opponent controls don't untap during their next untap step.
 
 Name:   Exhume
 Cost:   1B
 Type:   Sorcery
 S/R:    US-C, PD3-C
-Each player puts a creature card from his or her graveyard onto the battlefield.
+Each player puts a creature card from their graveyard onto the battlefield.
 
 Name:   Exhumer Thrull
 Cost:   5B
@@ -3689,7 +3719,7 @@ Domain — Target player loses X life and you gain X life, where X is the number
 Name:   Exotic Orchard
 Type:   Land
 S/R:    CON-R, PC2-R, CN2-R, C16-R, PCA-R, C17-R
-{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.
+{T}: Add one mana of any color that a land an opponent controls could produce.
 
 Name:   Expedite
 Cost:   R
@@ -3730,7 +3760,7 @@ Cost:   1W
 Type:   Creature — Human Soldier
 P/T:    2/1
 S/R:    UL-C
-{T}, Sacrifice Expendable Troops: Expendable Troops deals 2 damage to target attacking or blocking creature.
+{T}, Sacrifice Expendable Troops: It deals 2 damage to target attacking or blocking creature.
 
 Name:   Experiment Kraj
 Cost:   2GGUU
@@ -3760,7 +3790,7 @@ Name:   Exploding Borders
 Cost:   2RG
 Type:   Sorcery
 S/R:    CON-C
-Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library. Exploding Borders deals X damage to target player, where X is the number of basic land types among lands you control.
+Domain — Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library. Exploding Borders deals X damage to target player or planeswalker, where X is the number of basic land types among lands you control.
 
 Name:   Exploration
 Cost:   G
@@ -3786,26 +3816,26 @@ Name:   Explosive Apparatus
 Cost:   1
 Type:   Artifact
 S/R:    SOI-C
-{3}, {T}, Sacrifice Explosive Apparatus: Explosive Apparatus deals 2 damage to target creature or player.
+{3}, {T}, Sacrifice Explosive Apparatus: It deals 2 damage to any target.
 
 Name:   Explosive Growth
 Cost:   G
 Type:   Instant
 S/R:    IN-C
 Kicker {5} (You may pay an additional {5} as you cast this spell.)
-Target creature gets +2/+2 until end of turn. If Explosive Growth was kicked, that creature gets +5/+5 until end of turn instead.
+Target creature gets +2/+2 until end of turn. If this spell was kicked, that creature gets +5/+5 until end of turn instead.
 
 Name:   Explosive Impact
 Cost:   5R
 Type:   Instant
 S/R:    RTR-C
-Explosive Impact deals 5 damage to target creature or player.
+Explosive Impact deals 5 damage to any target.
 
 Name:   Explosive Revelation
 Cost:   3RR
 Type:   Sorcery
 S/R:    ROE-U
-Choose target creature or player. Reveal cards from the top of your library until you reveal a nonland card. Explosive Revelation deals damage equal to that card's converted mana cost to that creature or player. Put the nonland card into your hand and the rest on the bottom of your library in any order.
+Choose any target. Reveal cards from the top of your library until you reveal a nonland card. Explosive Revelation deals damage equal to that card's converted mana cost to that permanent or player. Put the nonland card into your hand and the rest on the bottom of your library in any order.
 
 Name:   Explosive Vegetation
 Cost:   3G
@@ -3851,8 +3881,8 @@ Name:   Exquisite Firecraft
 Cost:   1RR
 Type:   Sorcery
 S/R:    ORI-R
-Exquisite Firecraft deals 4 damage to target creature or player.
-Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Exquisite Firecraft can't be countered by spells or abilities.
+Exquisite Firecraft deals 4 damage to any target.
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, this spell can't be countered.
 
 Name:   Exsanguinate
 Cost:   XBB
@@ -3883,7 +3913,7 @@ Cost:   B
 Type:   Instant
 S/R:    PLC-R, MMA-R
 Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)
-Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for all cards with the same name as that card and exile them. Then that player shuffles his or her library.
+Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for all cards with the same name as that card and exile them. Then that player shuffles their library.
 
 Name:   Extortion
 Cost:   3BB
@@ -3896,19 +3926,19 @@ Cost:   4R
 Type:   Enchantment — Aura
 S/R:    SCG-U
 Enchant creature
-Whenever enchanted creature attacks, it deals 2 damage to target creature or player.
+Whenever enchanted creature attacks, it deals 2 damage to any target.
 
 Name:   Extract
 Cost:   U
 Type:   Sorcery
 S/R:    OD-R
-Search target player's library for a card and exile it. Then that player shuffles his or her library.
+Search target player's library for a card and exile it. Then that player shuffles their library.
 
 Name:   Extract from Darkness
 Cost:   3UB
 Type:   Sorcery
 S/R:    CNS-U, EMA-U, E01-U
-Each player puts the top two cards of his or her library into his or her graveyard. Then put a creature card from a graveyard onto the battlefield under your control.
+Each player puts the top two cards of their library into their graveyard. Then you put a creature card from a graveyard onto the battlefield under your control.
 
 Name:   Extractor Demon
 Cost:   4BB
@@ -3916,7 +3946,7 @@ Type:   Creature — Demon
 P/T:    5/5
 S/R:    CON-R, ARC-R, CMD-R, C15-R, MM3-R, CMA-R
 Flying
-Whenever another creature leaves the battlefield, you may have target player put the top two cards of his or her library into his or her graveyard.
+Whenever another creature leaves the battlefield, you may have target player put the top two cards of their library into their graveyard.
 Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
 Name:   Extraplanar Lens
@@ -3924,7 +3954,7 @@ Cost:   3
 Type:   Artifact
 S/R:    MRD-R, MPS_KLD-S
 Imprint — When Extraplanar Lens enters the battlefield, you may exile target land you control.
-Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana to his or her mana pool of any type that land produced.
+Whenever a land with the same name as the exiled card is tapped for mana, its controller adds one mana of any type that land produced.
 
 Name:   Extravagant Spirit
 Cost:   3U
@@ -3966,8 +3996,8 @@ Cost:   2R
 Type:   Creature — Human Druid Shaman
 P/T:    1/1
 S/R:    ALA-U
-At the beginning of your end step, if you control a creature with power 5 or greater, you may have Exuberant Firestoker deal 2 damage to target player.
-{T}: Add {C} to your mana pool.
+At the beginning of your end step, if you control a creature with power 5 or greater, you may have Exuberant Firestoker deal 2 damage to target player or planeswalker.
+{T}: Add {C}.
 
 Name:   Exultant Cultist
 Cost:   2U
@@ -3993,7 +4023,7 @@ Name:   Eye Spy
 Cost:   U
 Type:   Sorcery
 S/R:    P2-U, S99-U
-Look at the top card of target player's library. You may put that card into his or her graveyard.
+Look at the top card of target player's library. You may put that card into their graveyard.
 
 Name:   Eye for an Eye
 Cost:   WW
@@ -4018,8 +4048,8 @@ Name:   Eye of Ramos
 Cost:   3
 Type:   Artifact
 S/R:    MM-R
-{T}: Add {U} to your mana pool.
-Sacrifice Eye of Ramos: Add {U} to your mana pool.
+{T}: Add {U}.
+Sacrifice Eye of Ramos: Add {U}.
 
 Name:   Eye of Singularity
 Cost:   3W
@@ -4071,7 +4101,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    1/1
 S/R:    BFZ-C
 Devoid (This card has no color.)
-When Eyeless Watcher enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+When Eyeless Watcher enters the battlefield, create two 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C}."
 
 Name:   Eyes in the Skies
 Cost:   3W
@@ -4095,7 +4125,7 @@ Name:   Ezuri's Archers
 Cost:   G
 Type:   Creature — Elf Archer
 P/T:    1/2
-S/R:    SOM-C
+S/R:    SOM-C, DDU-C
 Reach (This creature can block creatures with flying.)
 Whenever Ezuri's Archers blocks a creature with flying, Ezuri's Archers gets +3/+0 until end of turn.
 
@@ -4124,6 +4154,6 @@ Name:   Ezuri, Renegade Leader
 Cost:   1GG
 Type:   Legendary Creature — Elf Warrior
 P/T:    2/2
-S/R:    SOM-R, C14-R, CMA-R
+S/R:    SOM-R, C14-R, CMA-R, DDU-M
 {G}: Regenerate another target Elf.
 {2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.

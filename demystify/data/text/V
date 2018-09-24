@@ -35,7 +35,7 @@ Cost:   2R
 Type:   Creature — Human Shaman
 P/T:    2/3
 S/R:    BFZ-C
-{8}: Valakut Invoker deals 3 damage to target creature or player.
+{8}: Valakut Invoker deals 3 damage to any target.
 
 Name:   Valakut Predator
 Cost:   2R
@@ -48,8 +48,15 @@ Name:   Valakut, the Molten Pinnacle
 Type:   Land
 S/R:    ZEN-R
 Valakut, the Molten Pinnacle enters the battlefield tapped.
-Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to target creature or player.
-{T}: Add {R} to your mana pool.
+Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to any target.
+{T}: Add {R}.
+
+Name:   Valduk, Keeper of the Flame
+Cost:   2R
+Type:   Legendary Creature — Human Shaman
+P/T:    3/2
+S/R:    DOM-U
+At the beginning of combat on your turn, for each Aura and Equipment attached to Valduk, Keeper of the Flame, create a 3/1 red Elemental creature token with trample and haste. Exile those tokens at the beginning of the next end step.
 
 Name:   Valeron Outlander
 Cost:   GW
@@ -85,7 +92,7 @@ Cost:   4RG
 Type:   Creature — Beast
 P/T:    6/3
 S/R:    ARB-C, CMD-C, C13-C, DDL-C
-Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, and put it into your hand. Then shuffle your library.)
+Mountaincycling {2}, forestcycling {2} ({2}, Discard this card: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle your library.)
 
 Name:   Valleymaker
 Cost:   5(R/G)
@@ -93,7 +100,7 @@ Type:   Creature — Giant Shaman
 P/T:    5/5
 S/R:    SHM-R
 {T}, Sacrifice a Mountain: Valleymaker deals 3 damage to target creature.
-{T}, Sacrifice a Forest: Choose a player. That player adds {G}{G}{G} to his or her mana pool.
+{T}, Sacrifice a Forest: Choose a player. That player adds {G}{G}{G}.
 
 Name:   Valor
 Cost:   3W
@@ -112,7 +119,7 @@ Target creature can block any number of creatures this turn.
 Name:   Valor in Akros
 Cost:   3W
 Type:   Enchantment
-S/R:    ORI-U
+S/R:    ORI-U, A25-U
 Whenever a creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.
 
 Name:   Valorous Charge
@@ -186,7 +193,7 @@ Name:   Vampire Interloper
 Cost:   1B
 Type:   Creature — Vampire Scout
 P/T:    2/1
-S/R:    ISD-C
+S/R:    ISD-C, E02-C
 Flying
 Vampire Interloper can't block.
 
@@ -194,21 +201,21 @@ Name:   Vampire Lacerator
 Cost:   B
 Type:   Creature — Vampire Warrior
 P/T:    2/2
-S/R:    ZEN-C, MM2-C, DDK-C
+S/R:    ZEN-C, MM2-C, A25-C, DDK-C
 At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.
 
 Name:   Vampire Nighthawk
 Cost:   1BB
 Type:   Creature — Vampire Shaman
 P/T:    2/3
-S/R:    ZEN-U, CMD-U, M13-U, C13-U, MM3-U, E01-U, C17-U, DDK-U, DDP-U
+S/R:    ZEN-U, CMD-U, M13-U, C13-U, MM3-U, E01-U, C17-U, E02-U, DDK-U, DDP-U
 Flying, deathtouch, lifelink
 
 Name:   Vampire Noble
 Cost:   2B
 Type:   Creature — Vampire
 P/T:    3/2
-S/R:    SOI-C
+S/R:    SOI-C, E02-C
 
 Name:   Vampire Nocturnus
 Cost:   1BBB
@@ -245,7 +252,7 @@ Cost:   B
 Type:   Instant
 S/R:    ZEN-C, DDK-C
 Kicker {2}{B} (You may pay an additional {2}{B} as you cast this spell.)
-Target creature gets +3/+0 until end of turn. If Vampire's Bite was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
+Target creature gets +3/+0 until end of turn. If this spell was kicked, that creature gains lifelink until end of turn. (Damage dealt by the creature also causes its controller to gain that much life.)
 
 Name:   Vampire's Zeal
 Cost:   W
@@ -274,7 +281,7 @@ Name:   Vampiric Feast
 Cost:   5BB
 Type:   Sorcery
 S/R:    P1-U
-Vampiric Feast deals 4 damage to target creature or player and you gain 4 life.
+Vampiric Feast deals 4 damage to any target and you gain 4 life.
 
 Name:   Vampiric Fury
 Cost:   1R
@@ -314,7 +321,7 @@ Name:   Vampiric Touch
 Cost:   2B
 Type:   Sorcery
 S/R:    P1-C
-Vampiric Touch deals 2 damage to target opponent and you gain 2 life.
+Vampiric Touch deals 2 damage to target opponent or planeswalker and you gain 2 life.
 
 Name:   Vampiric Tutor
 Cost:   B
@@ -381,7 +388,7 @@ Cost:   U
 Type:   Enchantment — Aura
 S/R:    VI-C
 Enchant creature
-{U}{U}: Enchanted creature phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during his or her next untap step.)
+{U}{U}: Enchanted creature phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)
 
 Name:   Vanishment
 Cost:   4U
@@ -532,19 +539,19 @@ M-type: Transform
 M-card: Storm the Vault
 S/R:    RIX-R
 (Transforms from Storm the Vault.)
-{T}: Add one mana of any color to your mana pool.
-{T}: Add {U} to your mana pool for each artifact you control.
+{T}: Add one mana of any color.
+{T}: Add {U} for each artifact you control.
 
 Name:   Vault of Whispers
 Type:   Artifact Land
 S/R:    MRD-C, HOP-C
 (Vault of Whispers isn't a spell.)
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 
 Name:   Vault of the Archangel
 Type:   Land
 S/R:    DKA-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn.
 
 Name:   Vaultbreaker
@@ -567,8 +574,8 @@ When Vebulid attacks or blocks, destroy it at end of combat.
 Name:   Vec Townships
 Type:   Land
 S/R:    TE-U
-{T}: Add {C} to your mana pool.
-{T}: Add {G} or {W} to your mana pool. Vec Townships doesn't untap during your next untap step.
+{T}: Add {C}.
+{T}: Add {G} or {W}. Vec Townships doesn't untap during your next untap step.
 
 Name:   Vectis Agents
 Cost:   3UB
@@ -605,7 +612,7 @@ P/T:    1/2
 S/R:    FUT-C
 Flash (You may cast this spell any time you could cast an instant.)
 When Vedalken Aethermage enters the battlefield, return target Sliver to its owner's hand.
-Wizardcycling {3} ({3}, Discard this card: Search your library for a Wizard card, reveal it, and put it into your hand. Then shuffle your library.)
+Wizardcycling {3} ({3}, Discard this card: Search your library for a Wizard card, reveal it, put it into your hand, then shuffle your library.)
 
 Name:   Vedalken Anatomist
 Cost:   2U
@@ -647,14 +654,14 @@ Cost:   1U
 Type:   Creature — Vedalken Artificer
 P/T:    1/1
 S/R:    DST-C, HOP-C, C16-C
-{T}: Add two mana of any one color to your mana pool. Spend this mana only to cast artifact spells or activate abilities of artifacts.
+{T}: Add two mana of any one color. Spend this mana only to cast artifact spells or activate abilities of artifacts.
 
 Name:   Vedalken Entrancer
 Cost:   3U
 Type:   Creature — Vedalken Wizard
 P/T:    1/4
 S/R:    RAV-C, M13-C
-{U}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.
+{U}, {T}: Target player puts the top two cards of their library into their graveyard.
 
 Name:   Vedalken Ghoul
 Cost:   UB
@@ -784,9 +791,9 @@ Name:   Veinfire Borderpost
 Cost:   1BR
 Type:   Artifact
 S/R:    ARB-C
-You may pay {1} and return a basic land you control to its owner's hand rather than pay Veinfire Borderpost's mana cost.
+You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
 Veinfire Borderpost enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 
 Name:   Vela the Night-Clad
 Cost:   4UB
@@ -809,13 +816,13 @@ Type:   Land
 S/R:    IA-R
 Veldt doesn't untap during your untap step if it has a depletion counter on it.
 At the beginning of your upkeep, remove a depletion counter from Veldt.
-{T}: Add {G} or {W} to your mana pool. Put a depletion counter on Veldt.
+{T}: Add {G} or {W}. Put a depletion counter on Veldt.
 
 Name:   Venarian Glimmer
 Cost:   XU
 Type:   Instant
 S/R:    PLC-U
-Target player reveals his or her hand. You choose a nonland card with converted mana cost X or less from it. That player discards that card.
+Target player reveals their hand. You choose a nonland card with converted mana cost X or less from it. That player discards that card.
 
 Name:   Venarian Gold
 Cost:   XUU
@@ -836,10 +843,10 @@ Name:   Vendilion Clique
 Cost:   1UU
 Type:   Legendary Creature — Faerie Wizard
 P/T:    3/1
-S/R:    MOR-R, MMA-M, MM2-M
+S/R:    MOR-R, MMA-M, MM2-M, A25-M
 Flash
 Flying
-When Vendilion Clique enters the battlefield, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of his or her library, then draws a card.
+When Vendilion Clique enters the battlefield, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of their library, then draws a card.
 
 Name:   Venerable Kumo
 Cost:   4G
@@ -882,7 +889,7 @@ Type:   Creature — Archon
 P/T:    7/7
 S/R:    M11-R
 Flying
-{X}: Prevent the next X damage that would be dealt to you this turn. If damage is prevented this way, Vengeful Archon deals that much damage to target player.
+{X}: Prevent the next X damage that would be dealt to you this turn. If damage is prevented this way, Vengeful Archon deals that much damage to target player or planeswalker.
 
 Name:   Vengeful Dead
 Cost:   3B
@@ -895,7 +902,7 @@ Name:   Vengeful Dreams
 Cost:   WW
 Type:   Instant
 S/R:    TOR-R
-As an additional cost to cast Vengeful Dreams, discard X cards.
+As an additional cost to cast this spell, discard X cards.
 Exile X target attacking creatures.
 
 Name:   Vengeful Firebrand
@@ -925,7 +932,7 @@ Name:   Vengeful Rebirth
 Cost:   4RG
 Type:   Sorcery
 S/R:    ARB-U, CMD-U, MM2-U
-Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card's converted mana cost to target creature or player.
+Return target card from your graveyard to your hand. If you return a nonland card to your hand this way, Vengeful Rebirth deals damage equal to that card's converted mana cost to any target.
 Exile Vengeful Rebirth.
 
 Name:   Vengeful Vampire
@@ -1035,14 +1042,14 @@ Type:   Creature — Elemental
 P/T:    2/4
 S/R:    ROE-C, CNS-C, IMA-C
 Defender
-{1}{R}, {T}: Vent Sentinel deals damage to target player equal to the number of creatures with defender you control.
+{1}{R}, {T}: Vent Sentinel deals damage to target player or planeswalker equal to the number of creatures with defender you control.
 
 Name:   Ventifact Bottle
 Cost:   3
 Type:   Artifact
 S/R:    MI-R
 {X}{1}, {T}: Put X charge counters on Ventifact Bottle. Activate this ability only any time you could cast a sorcery.
-At the beginning of your precombat main phase, if Ventifact Bottle has a charge counter on it, tap it and remove all charge counters from it. Add {C} to your mana pool for each charge counter removed this way.
+At the beginning of your precombat main phase, if Ventifact Bottle has a charge counter on it, tap it and remove all charge counters from it. Add {C} for each charge counter removed this way.
 
 Name:   Verdant Automaton
 Cost:   2
@@ -1076,7 +1083,7 @@ Cost:   3G
 Type:   Creature — Spirit
 P/T:    2/2
 S/R:    DIS-C
-{G}, Sacrifice Verdant Eidolon: Add three mana of any one color to your mana pool.
+{G}, Sacrifice Verdant Eidolon: Add three mana of any one color.
 Whenever you cast a multicolored spell, you may return Verdant Eidolon from your graveyard to your hand.
 
 Name:   Verdant Embrace
@@ -1097,7 +1104,7 @@ Name:   Verdant Force
 Cost:   5GGG
 Type:   Creature — Elemental
 P/T:    7/7
-S/R:    TE-R, 9ED-R, 10E-R, HOP-R, C15-R, CMA-R, PD3-R
+S/R:    TE-R, 9ED-R, 10E-R, HOP-R, C15-R, CMA-R, DOM-R, PD3-R
 At the beginning of each upkeep, create a 1/1 green Saproling creature token.
 
 Name:   Verdant Haven
@@ -1106,7 +1113,7 @@ Type:   Enchantment — Aura
 S/R:    GTC-C, M14-C, M15-C
 Enchant land
 When Verdant Haven enters the battlefield, you gain 2 life.
-Whenever enchanted land is tapped for mana, its controller adds one mana of any color to his or her mana pool (in addition to the mana the land produces).
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.
 
 Name:   Verdant Rebirth
 Cost:   1G
@@ -1119,7 +1126,7 @@ Name:   Verdant Succession
 Cost:   4G
 Type:   Enchantment
 S/R:    OD-R
-Whenever a green nontoken creature dies, that creature's controller may search his or her library for a card with the same name as that creature and put it onto the battlefield. If that player does, he or she shuffles his or her library.
+Whenever a green nontoken creature dies, that creature's controller may search their library for a card with the same name as that creature and put it onto the battlefield. If that player does, they shuffle their library.
 
 Name:   Verdant Sun's Avatar
 Cost:   5GG
@@ -1173,6 +1180,15 @@ S/R:    KLD-M, MPS_KLD-S
 Trample
 When Verdurous Gearhulk enters the battlefield, distribute four +1/+1 counters among any number of target creatures you control.
 
+Name:   Verix Bladewing
+Cost:   2RR
+Type:   Legendary Creature — Dragon
+P/T:    4/4
+S/R:    DOM-M
+Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Flying
+When Verix Bladewing enters the battlefield, if it was kicked, create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying.
+
 Name:   Vermiculos
 Cost:   4B
 Type:   Creature — Horror
@@ -1184,7 +1200,7 @@ Name:   Vernal Bloom
 Cost:   3G
 Type:   Enchantment
 S/R:    US-R, 7E-R, 8ED-R
-Whenever a Forest is tapped for mana, its controller adds {G} to his or her mana pool (in addition to the mana the land produces).
+Whenever a Forest is tapped for mana, its controller adds an additional {G}.
 
 Name:   Vernal Equinox
 Cost:   3G
@@ -1211,14 +1227,14 @@ Cost:   2B
 Type:   Creature — Zombie Druid
 P/T:    1/1
 S/R:    DIS-C
-{T}, Pay 1 life: Add one mana of any color to your mana pool.
+{T}, Pay 1 life: Add one mana of any color.
 
 Name:   Vessel of Endless Rest
 Cost:   3
 Type:   Artifact
 S/R:    AVR-U
 When Vessel of Endless Rest enters the battlefield, put target card from a graveyard on the bottom of its owner's library.
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Vessel of Ephemera
 Cost:   1W
@@ -1230,25 +1246,25 @@ Name:   Vessel of Malignity
 Cost:   1B
 Type:   Enchantment
 S/R:    SOI-C
-{1}{B}, Sacrifice Vessel of Malignity: Target opponent exiles two cards from his or her hand. Activate this ability only any time you could cast a sorcery.
+{1}{B}, Sacrifice Vessel of Malignity: Target opponent exiles two cards from their hand. Activate this ability only any time you could cast a sorcery.
 
 Name:   Vessel of Nascency
 Cost:   G
 Type:   Enchantment
-S/R:    SOI-C
+S/R:    SOI-C, A25-C
 {1}{G}, Sacrifice Vessel of Nascency: Reveal the top four cards of your library. You may put an artifact, creature, enchantment, land, or planeswalker card from among them into your hand. Put the rest into your graveyard.
 
 Name:   Vessel of Paramnesia
 Cost:   1U
 Type:   Enchantment
 S/R:    SOI-C
-{U}, Sacrifice Vessel of Paramnesia: Target player puts the top three cards of his or her library into his or her graveyard. Draw a card.
+{U}, Sacrifice Vessel of Paramnesia: Target player puts the top three cards of their library into their graveyard. Draw a card.
 
 Name:   Vessel of Volatility
 Cost:   1R
 Type:   Enchantment
 S/R:    SOI-C
-{1}{R}, Sacrifice Vessel of Volatility: Add {R}{R}{R}{R} to your mana pool.
+{1}{R}, Sacrifice Vessel of Volatility: Add {R}{R}{R}{R}.
 
 Name:   Vestige of Emrakul
 Cost:   3R
@@ -1274,7 +1290,7 @@ Name:   Vesuvan Shapeshifter
 Cost:   3UU
 Type:   Creature — Shapeshifter
 P/T:    0/0
-S/R:    TSP-R
+S/R:    TSP-R, A25-R
 As Vesuvan Shapeshifter enters the battlefield or is turned face up, you may choose another creature on the battlefield. If you do, until Vesuvan Shapeshifter is turned face down, it becomes a copy of that creature and gains "At the beginning of your upkeep, you may turn this creature face down."
 Morph {1}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
@@ -1326,7 +1342,7 @@ Cost:   G
 Type:   Creature — Human Soldier Scout
 P/T:    1/1
 S/R:    WL-U, CMD-U, C16-U
-When Veteran Explorer dies, each player may search his or her library for up to two basic land cards and put them onto the battlefield. Then each player who searched his or her library this way shuffles it.
+When Veteran Explorer dies, each player may search their library for up to two basic land cards and put them onto the battlefield. Then each player who searched their library this way shuffles it.
 
 Name:   Veteran Motorist
 Cost:   RW
@@ -1369,7 +1385,7 @@ Equip {2}
 Name:   Veteran's Reflexes
 Cost:   W
 Type:   Instant
-S/R:    WWK-C
+S/R:    WWK-C, E02-C
 Target creature gets +1/+1 until end of turn. Untap that creature.
 
 Name:   Veteran's Sidearm
@@ -1396,14 +1412,14 @@ Name:   Vexing Arcanix
 Cost:   4
 Type:   Artifact
 S/R:    IA-R, 8ED-R
-{3}, {T}: Target player chooses a card name, then reveals the top card of his or her library. If that card has the chosen name, the player puts it into his or her hand. Otherwise, the player puts it into his or her graveyard and Vexing Arcanix deals 2 damage to him or her.
+{3}, {T}: Target player chooses a card name, then reveals the top card of their library. If that card has the chosen name, that player puts it into their hand. Otherwise, they put it into their graveyard and Vexing Arcanix deals 2 damage to them.
 
 Name:   Vexing Beetle
 Cost:   4G
 Type:   Creature — Insect
 P/T:    3/3
 S/R:    LGN-R
-Vexing Beetle can't be countered.
+This spell can't be countered.
 Vexing Beetle gets +3/+3 as long as no opponent controls a creature.
 
 Name:   Vexing Devil
@@ -1411,7 +1427,7 @@ Cost:   R
 Type:   Creature — Devil
 P/T:    4/3
 S/R:    AVR-R
-When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to him or her. If a player does, sacrifice Vexing Devil.
+When Vexing Devil enters the battlefield, any opponent may have it deal 4 damage to them. If a player does, sacrifice Vexing Devil.
 
 Name:   Vexing Scuttler
 Cost:   8
@@ -1419,15 +1435,15 @@ Type:   Creature — Eldrazi Crab
 P/T:    4/5
 S/R:    EMN-U
 Emerge {6}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
-When you cast Vexing Scuttler, you may return target instant or sorcery card from your graveyard to your hand.
+When you cast this spell, you may return target instant or sorcery card from your graveyard to your hand.
 
 Name:   Vexing Shusher
 Cost:   (R/G)(R/G)
 Type:   Creature — Goblin Shaman
 P/T:    2/2
 S/R:    SHM-R
-Vexing Shusher can't be countered.
-{(r/g)}: Target spell can't be countered by spells or abilities.
+This spell can't be countered.
+{(r/g)}: Target spell can't be countered.
 
 Name:   Vexing Sphinx
 Cost:   1UU
@@ -1450,14 +1466,14 @@ Cost:   1BR
 Type:   Legendary Creature — Goblin Berserker
 P/T:    2/3
 S/R:    C16-M
-Whenever you cast your first spell each turn, Vial Smasher the Fierce deals damage equal to that spell's converted mana cost to an opponent chosen at random.
+Whenever you cast your first spell each turn, choose an opponent at random. Vial Smasher the Fierce deals damage equal to that spell's converted mana cost to that player or a planeswalker that player controls.
 Partner (You can have two commanders if both have partner.)
 
 Name:   Vial of Dragonfire
 Cost:   2
 Type:   Artifact
 S/R:    DTK-C
-{2}, {T}, Sacrifice Vial of Dragonfire: Vial of Dragonfire deals 2 damage to target creature.
+{2}, {T}, Sacrifice Vial of Dragonfire: It deals 2 damage to target creature.
 
 Name:   Vial of Poison
 Cost:   1
@@ -1493,7 +1509,7 @@ Cost:   2RR
 Type:   Creature — Viashino Warrior
 P/T:    3/3
 S/R:    RAV-C
-{T}: Viashino Fangtail deals 1 damage to target creature or player.
+{T}: Viashino Fangtail deals 1 damage to any target.
 
 Name:   Viashino Firstblade
 Cost:   1RW
@@ -1631,7 +1647,7 @@ Name:   Vicious Betrayal
 Cost:   3BB
 Type:   Sorcery
 S/R:    5DN-C
-As an additional cost to cast Vicious Betrayal, sacrifice any number of creatures.
+As an additional cost to cast this spell, sacrifice any number of creatures.
 Target creature gets +2/+2 until end of turn for each creature sacrificed this way.
 
 Name:   Vicious Conquistador
@@ -1653,6 +1669,13 @@ Type:   Creature — Kavu
 P/T:    2/2
 S/R:    IN-U
 Whenever Vicious Kavu attacks, it gets +2/+0 until end of turn.
+
+Name:   Vicious Offering
+Cost:   1B
+Type:   Instant
+S/R:    DOM-C
+Kicker—Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)
+Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -5/-5 until end of turn instead.
 
 Name:   Vicious Shadows
 Cost:   6R
@@ -1770,7 +1793,7 @@ Name:   Vigilante Justice
 Cost:   3R
 Type:   Enchantment
 S/R:    AVR-U
-Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to target creature or player.
+Whenever a Human enters the battlefield under your control, Vigilante Justice deals 1 damage to any target.
 
 Name:   Vigor
 Cost:   3GGG
@@ -1792,7 +1815,7 @@ Cost:   G
 Type:   Instant
 S/R:    IN-C
 Kicker {W} (You may pay an additional {W} as you cast this spell.)
-Target creature gains trample until end of turn. Whenever that creature deals combat damage this turn, if Vigorous Charge was kicked, you gain life equal to that damage.
+Target creature gains trample until end of turn. Whenever that creature deals combat damage this turn, if this spell was kicked, you gain life equal to that damage.
 
 Name:   Vildin-Pack Alpha
 Type:   Creature — Werewolf
@@ -1823,7 +1846,7 @@ S/R:    BFZ-U
 Devoid (This card has no color.)
 Vile Aggregate's power is equal to the number of colorless creatures you control.
 Trample
-Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
+Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)
 
 Name:   Vile Consumption
 Cost:   1UB
@@ -1859,7 +1882,7 @@ P/T:    3/3
 S/R:    OGW-R
 Devoid (This card has no color.)
 Flash
-When you cast Vile Redeemer, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this creature: Add {C} to your mana pool."
+When you cast this spell, you may pay {C}. If you do, create a 1/1 colorless Eldrazi Scion creature token for each nontoken creature that died under your control this turn. Those tokens have "Sacrifice this creature: Add {C}."
 
 Name:   Vile Requiem
 Cost:   2BB
@@ -1939,12 +1962,12 @@ Name:   Villainous Wealth
 Cost:   XBGU
 Type:   Sorcery
 S/R:    KTK-R
-Target opponent exiles the top X cards of his or her library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.
+Target opponent exiles the top X cards of their library. You may cast any number of nonland cards with converted mana cost X or less from among them without paying their mana costs.
 
 Name:   Vindicate
 Cost:   1WB
 Type:   Sorcery
-S/R:    AP-R, EMA-R, MPS_AKH-S
+S/R:    AP-R, EMA-R, MPS_AKH-S, A25-R
 Destroy target permanent.
 
 Name:   Vindictive Lich
@@ -1970,9 +1993,9 @@ Cost:   3G
 Type:   Creature — Dryad
 P/T:    1/3
 S/R:    MM-R
+You may exile a green card from your hand rather than pay this spell's mana cost.
 Flash
 Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
-You may exile a green card from your hand rather than pay Vine Dryad's mana cost.
 
 Name:   Vine Kami
 Cost:   6G
@@ -1994,7 +2017,7 @@ Type:   Creature — Plant Wall
 P/T:    0/4
 S/R:    MM-C, 8ED-C, DDD-C
 Defender (This creature can't attack.)
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 
 Name:   Vinelasher Kudzu
 Cost:   1G
@@ -2008,7 +2031,7 @@ Cost:   G
 Type:   Instant
 S/R:    ZEN-C, MM2-C
 Kicker {G} (You may pay an additional {G} as you cast this spell.)
-Target creature can't be the target of spells or abilities your opponents control this turn. If Vines of Vastwood was kicked, that creature gets +4/+4 until end of turn.
+Target creature can't be the target of spells or abilities your opponents control this turn. If this spell was kicked, that creature gets +4/+4 until end of turn.
 
 Name:   Vines of the Recluse
 Cost:   G
@@ -2050,7 +2073,7 @@ Name:   Violent Eruption
 Cost:   1RRR
 Type:   Instant
 S/R:    TOR-U
-Violent Eruption deals 4 damage divided as you choose among any number of target creatures and/or players.
+Violent Eruption deals 4 damage divided as you choose among any number of targets.
 Madness {1}{R}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Violent Impact
@@ -2107,7 +2130,7 @@ Cost:   G
 Type:   Creature — Elf Shaman
 P/T:    1/1
 S/R:    DST-C
-{1}, {T}: Add one mana of any color to your mana pool.
+{1}, {T}: Add one mana of any color.
 
 Name:   Viridian Betrayers
 Cost:   1GG
@@ -2150,13 +2173,13 @@ Cost:   2G
 Type:   Creature — Elf Druid
 P/T:    1/2
 S/R:    MRD-C
-{T}: Add an amount of {G} to your mana pool equal to Viridian Joiner's power.
+{T}: Add an amount of {G} equal to Viridian Joiner's power.
 
 Name:   Viridian Longbow
 Cost:   1
 Type:   Artifact — Equipment
 S/R:    MRD-C
-Equipped creature has "{T}: This creature deals 1 damage to target creature or player."
+Equipped creature has "{T}: This creature deals 1 damage to any target."
 Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)
 
 Name:   Viridian Lorebearers
@@ -2177,13 +2200,13 @@ Cost:   3G
 Type:   Creature — Elf Warrior Scout
 P/T:    1/2
 S/R:    5DN-C
-{2}{G}, Sacrifice Viridian Scout: Viridian Scout deals 2 damage to target creature with flying.
+{2}{G}, Sacrifice Viridian Scout: It deals 2 damage to target creature with flying.
 
 Name:   Viridian Shaman
 Cost:   2G
 Type:   Creature — Elf Shaman
 P/T:    2/2
-S/R:    MRD-U, 9ED-U, 10E-U, C15-U
+S/R:    MRD-U, 9ED-U, 10E-U, C15-U, DDU-U
 When Viridian Shaman enters the battlefield, destroy target artifact.
 
 Name:   Viridian Zealot
@@ -2236,7 +2259,7 @@ Cost:   4
 Type:   Artifact
 S/R:    HOU-R
 When Visage of Bolas enters the battlefield, you may search your library and/or graveyard for a card named Nicol Bolas, the Deceiver, reveal it, and put it into your hand. If you search your library this way, shuffle it.
-{T}: Add {U}, {B}, or {R} to your mana pool.
+{T}: Add {U}, {B}, or {R}.
 
 Name:   Visara the Dreadful
 Cost:   3BBB
@@ -2297,7 +2320,7 @@ Cost:   4
 Type:   Artifact Creature — Construct
 P/T:    2/2
 S/R:    NE-U, C13-U
-At the beginning of each opponent's upkeep, Viseling deals X damage to that player, where X is the number of cards in his or her hand minus 4.
+At the beginning of each opponent's upkeep, Viseling deals X damage to that player, where X is the number of cards in their hand minus 4.
 
 Name:   Vish Kal, Blood Arbiter
 Cost:   4WBB
@@ -2313,9 +2336,9 @@ Cost:   U
 Type:   Instant
 S/R:    VI-C
 Choose one —
-• Target player puts the top four cards of his or her library into his or her graveyard.
+• Target player puts the top four cards of their library into their graveyard.
 • Choose a land type and a basic land type. Each land of the first chosen type becomes the second chosen type until end of turn.
-• Target artifact phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during his or her next untap step.)
+• Target artifact phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)
 
 Name:   Vision Skeins
 Cost:   1U
@@ -2414,7 +2437,7 @@ Cost:   2R
 Type:   Creature — Human Shaman
 P/T:    0/1
 S/R:    ALA-C, MM3-U, DDK-C
-{T}: Vithian Stinger deals 1 damage to target creature or player.
+{T}: Vithian Stinger deals 1 damage to any target.
 Unearth {1}{R} ({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 
 Name:   Vitu-Ghazi Guildmage
@@ -2428,43 +2451,43 @@ S/R:    RTR-U
 Name:   Vitu-Ghazi, the City-Tree
 Type:   Land
 S/R:    RAV-U, ARC-U, PC2-U, C13-U, PCA-U, DDH-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {2}{G}{W}, {T}: Create a 1/1 green Saproling creature token.
 
 Name:   Vivid Crag
 Type:   Land
 S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U, C17-U
 Vivid Crag enters the battlefield tapped with two charge counters on it.
-{T}: Add {R} to your mana pool.
-{T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool.
+{T}: Add {R}.
+{T}, Remove a charge counter from Vivid Crag: Add one mana of any color.
 
 Name:   Vivid Creek
 Type:   Land
 S/R:    LRW-U, CMD-U, PC2-U, MMA-U, C13-U, C15-U, PCA-U, C17-U, H09-U
 Vivid Creek enters the battlefield tapped with two charge counters on it.
-{T}: Add {U} to your mana pool.
-{T}, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.
+{T}: Add {U}.
+{T}, Remove a charge counter from Vivid Creek: Add one mana of any color.
 
 Name:   Vivid Grove
 Type:   Land
 S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U, CMA-U, C17-U, H09-U
 Vivid Grove enters the battlefield tapped with two charge counters on it.
-{T}: Add {G} to your mana pool.
-{T}, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.
+{T}: Add {G}.
+{T}, Remove a charge counter from Vivid Grove: Add one mana of any color.
 
 Name:   Vivid Marsh
 Type:   Land
 S/R:    LRW-U, CMD-U, MMA-U, C13-U, C15-U, CMA-U, C17-U
 Vivid Marsh enters the battlefield tapped with two charge counters on it.
-{T}: Add {B} to your mana pool.
-{T}, Remove a charge counter from Vivid Marsh: Add one mana of any color to your mana pool.
+{T}: Add {B}.
+{T}, Remove a charge counter from Vivid Marsh: Add one mana of any color.
 
 Name:   Vivid Meadow
 Type:   Land
 S/R:    LRW-U, CMD-U, MMA-U, C15-U, CMA-U, C17-U
 Vivid Meadow enters the battlefield tapped with two charge counters on it.
-{T}: Add {W} to your mana pool.
-{T}, Remove a charge counter from Vivid Meadow: Add one mana of any color to your mana pool.
+{T}: Add {W}.
+{T}, Remove a charge counter from Vivid Meadow: Add one mana of any color.
 
 Name:   Vivify
 Cost:   2G
@@ -2477,7 +2500,7 @@ Name:   Vivisection
 Cost:   3U
 Type:   Sorcery
 S/R:    MBS-C
-As an additional cost to cast Vivisection, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Draw three cards.
 
 Name:   Vizier of Deferment
@@ -2543,7 +2566,7 @@ Type:   Creature — Human Cleric
 P/T:    1/3
 S/R:    GTC-U
 Extort (Whenever you cast a spell, you may pay {(w/b)}. If you do, each opponent loses 1 life and you gain that much life.)
-When Vizkopa Confessor enters the battlefield, pay any amount of life. Target opponent reveals that many cards from his or her hand. You choose one of them and exile it.
+When Vizkopa Confessor enters the battlefield, pay any amount of life. Target opponent reveals that many cards from their hand. You choose one of them and exile it.
 
 Name:   Vizkopa Guildmage
 Cost:   WB
@@ -2559,6 +2582,13 @@ Type:   Creature — Rabbit Beast
 P/T:    6/6
 S/R:    S99-R, S00-R, 7E-R, 8ED-R, 9ED-R
 
+Name:   Vodalian Arcanist
+Cost:   1U
+Type:   Creature — Merfolk Wizard
+P/T:    1/3
+S/R:    DOM-C
+{T}: Add {C}. Spend this mana only to cast an instant or sorcery spell.
+
 Name:   Vodalian Hypnotist
 Cost:   1U
 Type:   Creature — Merfolk Wizard
@@ -2571,7 +2601,7 @@ Cost:   2U
 Type:   Creature — Merfolk Wizard
 P/T:    2/2
 S/R:    WL-U
-{U}{U}, {T}: Target creature phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during his or her next untap step.)
+{U}{U}, {T}: Target creature phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)
 
 Name:   Vodalian Knights
 Cost:   1UU
@@ -2719,7 +2749,7 @@ Name:   Void
 Cost:   3BR
 Type:   Sorcery
 S/R:    IN-R, TSP-S, EMA-R
-Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number.
+Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals their hand and discards all nonland cards with converted mana cost equal to the number.
 
 Name:   Void Attendant
 Cost:   2G
@@ -2727,7 +2757,7 @@ Type:   Creature — Eldrazi Processor
 P/T:    2/3
 S/R:    BFZ-U
 Devoid (This card has no color.)
-{1}{G}, Put a card an opponent owns from exile into that player's graveyard: Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+{1}{G}, Put a card an opponent owns from exile into that player's graveyard: Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."
 
 Name:   Void Grafter
 Cost:   1GU
@@ -2880,25 +2910,25 @@ Name:   Volcanic Fallout
 Cost:   1RR
 Type:   Instant
 S/R:    CON-U, ARC-U, CNS-U
-Volcanic Fallout can't be countered.
+This spell can't be countered.
 Volcanic Fallout deals 2 damage to each creature and each player.
 
 Name:   Volcanic Geyser
 Cost:   XRR
 Type:   Instant
 S/R:    MI-U, 6E-U, M13-U, M14-U, E01-U
-Volcanic Geyser deals X damage to target creature or player.
+Volcanic Geyser deals X damage to any target.
 
 Name:   Volcanic Hammer
 Cost:   1R
 Type:   Sorcery
 S/R:    P1-C, P2-C, S99-C, 7E-C, 8ED-C, 9ED-C
-Volcanic Hammer deals 3 damage to target creature or player.
+Volcanic Hammer deals 3 damage to any target.
 
 Name:   Volcanic Island
 Type:   Land — Island Mountain
 S/R:    B-R, U-R, RV-R, VMA-R, ME3-R, ME4-R
-({T}: Add {U} or {R} to your mana pool.)
+({T}: Add {U} or {R}.)
 
 Name:   Volcanic Offering
 Cost:   4R
@@ -2912,7 +2942,7 @@ Cost:   5R
 Type:   Creature — Elemental
 P/T:    6/4
 S/R:    ORI-C
-{2}{R}: Volcanic Rambler deals 1 damage to target player.
+{2}{R}: Volcanic Rambler deals 1 damage to target player or planeswalker.
 
 Name:   Volcanic Rush
 Cost:   4R
@@ -2957,7 +2987,7 @@ Name:   Volcanic Wind
 Cost:   4RR
 Type:   Sorcery
 S/R:    MM-U
-Volcanic Wind deals X damage divided as you choose among any number of target creatures, where X is the number of creatures on the battlefield as you cast Volcanic Wind.
+Volcanic Wind deals X damage divided as you choose among any number of target creatures, where X is the number of creatures on the battlefield as you cast this spell.
 
 Name:   Volcano Hellion
 Cost:   2RR
@@ -3006,7 +3036,7 @@ Name:   Volley of Boulders
 Cost:   8R
 Type:   Sorcery
 S/R:    OD-R, DDI-R
-Volley of Boulders deals 6 damage divided as you choose among any number of target creatures and/or players.
+Volley of Boulders deals 6 damage divided as you choose among any number of targets.
 Flashback {R}{R}{R}{R}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Volrath the Fallen
@@ -3028,8 +3058,8 @@ Name:   Volrath's Dungeon
 Cost:   2BB
 Type:   Enchantment
 S/R:    EX-R
-Pay 5 life: Destroy Volrath's Dungeon. Any player may activate this ability but only during his or her turn.
-Discard a card: Target player puts a card from his or her hand on top of his or her library. Activate this ability only any time you could cast a sorcery.
+Pay 5 life: Destroy Volrath's Dungeon. Any player may activate this ability but only during their turn.
+Discard a card: Target player puts a card from their hand on top of their library. Activate this ability only any time you could cast a sorcery.
 
 Name:   Volrath's Gardens
 Cost:   1G
@@ -3055,14 +3085,14 @@ As long as the top card of your graveyard is a creature card, Volrath's Shapeshi
 Name:   Volrath's Stronghold
 Type:   Legendary Land
 S/R:    ST-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}{B}, {T}: Put target creature card from your graveyard on top of your library.
 
 Name:   Volt Charge
 Cost:   2R
 Type:   Instant
 S/R:    NPH-C, DDL-C
-Volt Charge deals 3 damage to target creature or player. Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
+Volt Charge deals 3 damage to any target. Proliferate. (You choose any number of permanents and/or players with counters on them, then give each another counter of a kind already there.)
 
 Name:   Voltaic Brawler
 Cost:   RG
@@ -3085,6 +3115,13 @@ Type:   Artifact
 S/R:    US-U, M11-U, DDE-U
 {1}, {T}: Untap target artifact.
 
+Name:   Voltaic Servant
+Cost:   2
+Type:   Artifact Creature — Construct
+P/T:    1/3
+S/R:    DOM-C
+At the beginning of your end step, untap target artifact.
+
 Name:   Volunteer Militia
 Cost:   W
 Type:   Creature — Human Soldier
@@ -3104,7 +3141,7 @@ Cost:   2B
 Type:   Instant
 S/R:    RIX-R
 Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)
-Each opponent sacrifices a creature. If you have the city's blessing, instead each opponent sacrifices half the creatures he or she controls, rounded up.
+Each opponent sacrifices a creature. If you have the city's blessing, instead each opponent sacrifices half the creatures they control, rounded up.
 
 Name:   Vona, Butcher of Magan
 Cost:   3WB
@@ -3120,7 +3157,7 @@ Type:   Artifact
 S/R:    LE-R, CH-R, ME3-R
 At the beginning of your upkeep, put a pin counter on Voodoo Doll.
 At the beginning of your end step, if Voodoo Doll is untapped, destroy Voodoo Doll and it deals damage to you equal to the number of pin counters on it.
-{X}{X}, {T}: Voodoo Doll deals damage equal to the number of pin counters on it to target creature or player. X is the number of pin counters on Voodoo Doll.
+{X}{X}, {T}: Voodoo Doll deals damage equal to the number of pin counters on it to any target. X is the number of pin counters on Voodoo Doll.
 
 Name:   Voracious Cobra
 Cost:   2RG
@@ -3137,7 +3174,7 @@ P/T:    4/4
 S/R:    CON-R, DDG-R
 Flying
 Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with that many +1/+1 counters on it.)
-When Voracious Dragon enters the battlefield, it deals damage to target creature or player equal to twice the number of Goblins it devoured.
+When Voracious Dragon enters the battlefield, it deals damage to any target equal to twice the number of Goblins it devoured.
 
 Name:   Voracious Hatchling
 Cost:   3(W/B)
@@ -3201,11 +3238,11 @@ Type:   Legendary Creature — Praetor
 P/T:    7/6
 S/R:    NPH-M, IMA-M
 Trample
-Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced.
+Whenever you tap a land for mana, add one mana of any type that land produced.
 Whenever an opponent taps a land for mana, that land doesn't untap during its controller's next untap step.
 
 Name:   Vorosh, the Hunter
-Cost:   3GUB
+Cost:   3BGU
 Type:   Legendary Creature — Dragon
 P/T:    6/6
 S/R:    PLC-R, CMD-R
@@ -3243,21 +3280,21 @@ S/R:    RAV-C
 Name:   Vow of Duty
 Cost:   2W
 Type:   Enchantment — Aura
-S/R:    CMD-U, CNS-U, C15-U, CMA-U
+S/R:    CMD-U, CNS-U, C15-U, CMA-U, E02-U
 Enchant creature
 Enchanted creature gets +2/+2, has vigilance, and can't attack you or a planeswalker you control.
 
 Name:   Vow of Flight
 Cost:   2U
 Type:   Enchantment — Aura
-S/R:    CMD-U
+S/R:    CMD-U, E02-U
 Enchant creature
 Enchanted creature gets +2/+2, has flying, and can't attack you or a planeswalker you control.
 
 Name:   Vow of Lightning
 Cost:   2R
 Type:   Enchantment — Aura
-S/R:    CMD-U, CMA-U
+S/R:    CMD-U, CMA-U, E02-U
 Enchant creature
 Enchanted creature gets +2/+2, has first strike, and can't attack you or a planeswalker you control.
 
@@ -3271,7 +3308,7 @@ Enchanted creature gets +2/+2, has intimidate, and can't attack you or a planesw
 Name:   Vow of Wildness
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    CMD-U
+S/R:    CMD-U, E02-U
 Enchant creature
 Enchanted creature gets +3/+3, has trample, and can't attack you or a planeswalker you control.
 
@@ -3293,7 +3330,7 @@ When Voyager Drake enters the battlefield, up to X target creatures gain flying 
 Name:   Voyager Staff
 Cost:   1
 Type:   Artifact
-S/R:    RAV-U
+S/R:    RAV-U, DDU-U
 {2}, Sacrifice Voyager Staff: Exile target creature. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.
 
 Name:   Voyaging Satyr
@@ -3337,7 +3374,7 @@ Type:   Legendary Planeswalker — Vraska
 P/T:    6
 S/R:    XLN-M
 [+2]: Create a 2/2 black Pirate creature token with menace.
-[-3]: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+[-3]: Destroy target artifact, creature, or enchantment. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 [-10]: Target player's life total becomes 1.
 
 Name:   Vraska, Scheming Gorgon
@@ -3427,7 +3464,7 @@ Cost:   3
 Type:   Artifact Creature — Berserker
 P/T:    3/1
 S/R:    SOM-C
-{1}{R}, Sacrifice Vulshok Replica: Vulshok Replica deals 3 damage to target player.
+{1}{R}, Sacrifice Vulshok Replica: Vulshok Replica deals 3 damage to target player or planeswalker.
 
 Name:   Vulshok Sorcerer
 Cost:   1RR
@@ -3435,7 +3472,7 @@ Type:   Creature — Human Shaman
 P/T:    1/1
 S/R:    5DN-C, DDI-C, PD2-C
 Haste
-{T}: Vulshok Sorcerer deals 1 damage to target creature or player.
+{T}: Vulshok Sorcerer deals 1 damage to any target.
 
 Name:   Vulshok War Boar
 Cost:   2RR

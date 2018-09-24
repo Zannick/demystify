@@ -67,15 +67,15 @@ Cost:   4
 Type:   Artifact Creature — Construct
 P/T:    2/2
 S/R:    NE-U
-At the beginning of each opponent's upkeep, Rackling deals X damage to that player, where X is 3 minus the number of cards in his or her hand.
+At the beginning of each opponent's upkeep, Rackling deals X damage to that player, where X is 3 minus the number of cards in their hand.
 
 Name:   Radha, Heir to Keld
 Cost:   RG
 Type:   Legendary Creature — Elf Warrior
 P/T:    2/2
 S/R:    PLC-R, DDS-R
-Whenever Radha, Heir to Keld attacks, you may add {R}{R} to your mana pool.
-{T}: Add {G} to your mana pool.
+Whenever Radha, Heir to Keld attacks, you may add {R}{R}.
+{T}: Add {G}.
 
 Name:   Radiant Destiny
 Cost:   2W
@@ -102,7 +102,7 @@ Name:   Radiant Fountain
 Type:   Land
 S/R:    M15-C, IMA-C
 When Radiant Fountain enters the battlefield, you gain 2 life.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 
 Name:   Radiant Kavu
 Cost:   RGW
@@ -146,12 +146,27 @@ Type:   Instant
 S/R:    TOR-R
 Choose target instant or sorcery spell that targets only a single permanent or player. Copy that spell for each other permanent or player the spell could target. Each copy targets a different one of those permanents and players.
 
+Name:   Radiating Lightning
+Cost:   3R
+Type:   Instant
+S/R:    DOM-C
+Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls.
+
 Name:   Radjan Spirit
 Cost:   3G
 Type:   Creature — Spirit
 P/T:    3/2
 S/R:    LE-U, 4E-U, 5E-U, 6E-U, ME4-U
 {T}: Target creature loses flying until end of turn.
+
+Name:   Raff Capashen, Ship's Mage
+Cost:   2WU
+Type:   Legendary Creature — Human Wizard
+P/T:    3/3
+S/R:    DOM-U
+Flash
+Flying
+You may cast historic spells as though they had flash. (Artifacts, legendaries, and Sagas are historic.)
 
 Name:   Rafiq of the Many
 Cost:   1GWU
@@ -173,7 +188,7 @@ Cost:   2BB
 Type:   Creature — Human Minion
 P/T:    2/1
 S/R:    DK-R, 4E-R, 5E-R, 6E-R, 7E-R
-{B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn.
+{B}{B}{B}, {T}: Target opponent reveals their hand and discards a creature card at random. Activate this ability only during your turn.
 
 Name:   Ragamuffyn
 Cost:   2B
@@ -187,7 +202,7 @@ Cost:   4(R/P)
 Type:   Artifact
 S/R:    NPH-U
 ({(r/p)} can be paid with either {R} or 2 life.)
-Whenever you cast a spell with {P} in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to target creature or player.
+Whenever you cast a spell with {P} in its mana cost, Rage Extractor deals damage equal to that spell's converted mana cost to any target.
 
 Name:   Rage Forger
 Cost:   2R
@@ -195,7 +210,7 @@ Type:   Creature — Elemental Shaman
 P/T:    2/2
 S/R:    MOR-U
 When Rage Forger enters the battlefield, put a +1/+1 counter on each other Shaman creature you control.
-Whenever a creature you control with a +1/+1 counter on it attacks, you may have that creature deal 1 damage to target player.
+Whenever a creature you control with a +1/+1 counter on it attacks, you may have that creature deal 1 damage to target player or planeswalker.
 
 Name:   Rage Nimbus
 Cost:   2R
@@ -216,7 +231,7 @@ Cost:   5R
 Type:   Creature — Human Shaman
 P/T:    4/2
 S/R:    ISD-U
-Whenever another creature dies, Rage Thrower deals 2 damage to target player.
+Whenever another creature dies, Rage Thrower deals 2 damage to target player or planeswalker.
 
 Name:   Rage Weaver
 Cost:   1R
@@ -313,7 +328,7 @@ Name:   Raging Ravine
 Type:   Land
 S/R:    WWK-R
 Raging Ravine enters the battlefield tapped.
-{T}: Add {R} or {G} to your mana pool.
+{T}: Add {R} or {G}.
 {2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with "Whenever this creature attacks, put a +1/+1 counter on it." It's still a land.
 
 Name:   Raging Regisaur
@@ -321,13 +336,13 @@ Cost:   2RG
 Type:   Creature — Dinosaur
 P/T:    4/4
 S/R:    RIX-U
-Whenever Raging Regisaur attacks, it deals 1 damage to target creature or player.
+Whenever Raging Regisaur attacks, it deals 1 damage to any target.
 
 Name:   Raging River
 Cost:   RR
 Type:   Enchantment
 S/R:    A-R, B-R, U-R
-Whenever one or more creatures you control attack, each defending player divides all creatures without flying he or she controls into a "left" pile and a "right" pile. Then, for each attacking creature you control, choose "left" or "right." That creature can't be blocked this combat except by creatures with flying and creatures in a pile with the chosen label.
+Whenever one or more creatures you control attack, each defending player divides all creatures without flying they control into a "left" pile and a "right" pile. Then, for each attacking creature you control, choose "left" or "right." That creature can't be blocked this combat except by creatures with flying and creatures in a pile with the chosen label.
 
 Name:   Raging Spirit
 Cost:   3R
@@ -363,7 +378,7 @@ Name:   Raid Bombardment
 Cost:   2R
 Type:   Enchantment
 S/R:    ROE-C
-Whenever a creature you control with power 2 or less attacks, Raid Bombardment deals 1 damage to defending player.
+Whenever a creature you control with power 2 or less attacks, Raid Bombardment deals 1 damage to the player or planeswalker that creature is attacking.
 
 Name:   Raiders' Spoils
 Cost:   3B
@@ -391,7 +406,7 @@ Cost:   2R
 Type:   Enchantment
 S/R:    FE-U
 Raiding Party can't be the target of white spells or abilities from white sources.
-Sacrifice an Orc: Each player may tap any number of untapped white creatures he or she controls. For each creature tapped this way, that player chooses up to two Plains. Then destroy all Plains that weren't chosen this way by any player.
+Sacrifice an Orc: Each player may tap any number of untapped white creatures they control. For each creature tapped this way, that player chooses up to two Plains. Then destroy all Plains that weren't chosen this way by any player.
 
 Name:   Rain of Blades
 Cost:   W
@@ -415,7 +430,7 @@ Name:   Rain of Filth
 Cost:   B
 Type:   Instant
 S/R:    US-U
-Until end of turn, lands you control gain "Sacrifice this land: Add {B} to your mana pool."
+Until end of turn, lands you control gain "Sacrifice this land: Add {B}."
 
 Name:   Rain of Gore
 Cost:   BR
@@ -472,7 +487,7 @@ Flying
 Name:   Rainbow Vale
 Type:   Land
 S/R:    FE-R, MED-R
-{T}: Add one mana of any color to your mana pool. An opponent gains control of Rainbow Vale at the beginning of the next end step.
+{T}: Add one mana of any color. An opponent gains control of Rainbow Vale at the beginning of the next end step.
 
 Name:   Raise Dead
 Cost:   B
@@ -499,7 +514,7 @@ Cost:   R
 Type:   Creature — Minotaur Wizard
 P/T:    1/1
 S/R:    AP-C
-{W}, {T}: Prevent the next 1 damage that would be dealt to target creature or player this turn.
+{W}, {T}: Prevent the next 1 damage that would be dealt to any target this turn.
 {U}, {T}: Target creature gains flying until end of turn.
 
 Name:   Raka Sanctuary
@@ -512,7 +527,7 @@ Name:   Rakalite
 Cost:   6
 Type:   Artifact
 S/R:    AQ-U, CH-R, ME4-R
-{2}: Prevent the next 1 damage that would be dealt to target creature or player this turn. Return Rakalite to its owner's hand at the beginning of the next end step.
+{2}: Prevent the next 1 damage that would be dealt to any target this turn. Return Rakalite to its owner's hand at the beginning of the next end step.
 
 Name:   Rakavolver
 Cost:   2R
@@ -529,7 +544,7 @@ Type:   Creature — Human Wizard
 P/T:    3/2
 S/R:    DIS-R
 First strike
-{T}: Reveal your hand and discard a card of target opponent's choice. Then that player reveals his or her hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery.
+{T}: Reveal your hand and discard a card of target opponent's choice. Then that player reveals their hand and discards a card of your choice. Activate this ability only any time you could cast a sorcery.
 
 Name:   Rakdos Cackler
 Cost:   (B/R)
@@ -543,7 +558,7 @@ Type:   Land
 S/R:    DIS-C, ARC-C, CMD-C, C13-C, MM2-U, C16-U, CMA-C, C17-C, IMA-U, DDK-C
 Rakdos Carnarium enters the battlefield tapped.
 When Rakdos Carnarium enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {B}{R} to your mana pool.
+{T}: Add {B}{R}.
 
 Name:   Rakdos Charm
 Cost:   BR
@@ -558,7 +573,7 @@ Name:   Rakdos Cluestone
 Cost:   3
 Type:   Artifact
 S/R:    DGM-C
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 {B}{R}, {T}, Sacrifice Rakdos Cluestone: Draw a card.
 
 Name:   Rakdos Drake
@@ -573,7 +588,7 @@ Name:   Rakdos Guildgate
 Type:   Land — Gate
 S/R:    RTR-C, DGM-C, C13-C, MM3-C, C17-C
 Rakdos Guildgate enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 
 Name:   Rakdos Guildmage
 Cost:   (B/R)(B/R)
@@ -595,7 +610,7 @@ Name:   Rakdos Keyrune
 Cost:   3
 Type:   Artifact
 S/R:    RTR-U
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 {B}{R}: Rakdos Keyrune becomes a 3/1 black and red Devil artifact creature with first strike until end of turn.
 
 Name:   Rakdos Pit Dragon
@@ -642,7 +657,7 @@ Name:   Rakdos Signet
 Cost:   2
 Type:   Artifact
 S/R:    DIS-C, ARC-C, CMD-C, C16-C, MM3-U, CMA-C, C17-U
-{1}, {T}: Add {B}{R} to your mana pool.
+{1}, {T}: Add {B}{R}.
 
 Name:   Rakdos the Defiler
 Cost:   2BBRR
@@ -651,20 +666,20 @@ P/T:    7/6
 S/R:    DIS-R
 Flying, trample
 Whenever Rakdos the Defiler attacks, sacrifice half the non-Demon permanents you control, rounded up.
-Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents he or she controls, rounded up.
+Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents they control, rounded up.
 
 Name:   Rakdos's Return
 Cost:   XBR
 Type:   Sorcery
 S/R:    RTR-M
-Rakdos's Return deals X damage to target opponent. That player discards X cards.
+Rakdos's Return deals X damage to target opponent or planeswalker. That player or that planeswalker's controller discards X cards.
 
 Name:   Rakdos, Lord of Riots
 Cost:   BBRR
 Type:   Legendary Creature — Demon
 P/T:    6/6
 S/R:    RTR-M
-You can't cast Rakdos, Lord of Riots unless an opponent lost life this turn.
+You can't cast this spell unless an opponent lost life this turn.
 Flying, trample
 Creature spells you cast cost {1} less to cast for each 1 life your opponents have lost this turn.
 
@@ -745,7 +760,7 @@ Type:   Legendary Planeswalker — Ral
 P/T:    4
 S/R:    DGM-M
 [+1]: Tap target permanent, then untap another target permanent.
-[-2]: Ral Zarek deals 3 damage to target creature or player.
+[-2]: Ral Zarek deals 3 damage to any target.
 [-7]: Flip five coins. Take an extra turn after this one for each coin that comes up heads.
 
 Name:   Rally
@@ -770,7 +785,7 @@ Name:   Rally the Horde
 Cost:   5R
 Type:   Sorcery
 S/R:    SOK-R
-Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land, repeat this process. Create a 1/1 red Warrior creature token for each nonland card exiled this way.
+Exile the top card of your library. Exile the top card of your library. Exile the top card of your library. If the last card exiled isn't a land card, repeat this process. Create a 1/1 red Warrior creature token for each nonland card exiled this way.
 
 Name:   Rally the Peasants
 Cost:   2W
@@ -789,7 +804,7 @@ Name:   Rally the Troops
 Cost:   W
 Type:   Instant
 S/R:    P2-U, P3K-U
-Cast Rally the Troops only during the declare attackers step and only if you've been attacked this step.
+Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Untap all creatures you control.
 
 Name:   Rallying Roar
@@ -812,7 +827,7 @@ P/T:    4/4
 S/R:    C17-M
 Flying
 Whenever you cast a spell, put a +1/+1 counter on Ramos, Dragon Engine for each of that spell's colors.
-Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G} to your mana pool. Activate this ability only once each turn.
+Remove five +1/+1 counters from Ramos: Add {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}. Activate this ability only once each turn.
 
 Name:   Ramosian Captain
 Cost:   1WW
@@ -840,7 +855,7 @@ Name:   Ramosian Rally
 Cost:   3W
 Type:   Instant
 S/R:    MM-C
-If you control a Plains, you may tap an untapped creature you control rather than pay Ramosian Rally's mana cost.
+If you control a Plains, you may tap an untapped creature you control rather than pay this spell's mana cost.
 Creatures you control get +1/+1 until end of turn.
 
 Name:   Ramosian Revivalist
@@ -872,6 +887,13 @@ P/T:    6/6
 S/R:    ZEN-M, C13-M, C14-M, CMA-M, E01-M, IMA-R
 Trample
 Landfall — Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.
+
+Name:   Rampaging Cyclops
+Cost:   3R
+Type:   Creature — Cyclops
+P/T:    4/4
+S/R:    DOM-C
+Rampaging Cyclops gets -2/-0 as long as two or more creatures are blocking it.
 
 Name:   Rampaging Ferocidon
 Cost:   2R
@@ -953,8 +975,8 @@ Ramunap Hydra gets +1/+1 as long as there is a Desert card in your graveyard.
 Name:   Ramunap Ruins
 Type:   Land — Desert
 S/R:    HOU-U
-{T}: Add {C} to your mana pool.
-{T}, Pay 1 life: Add {R} to your mana pool.
+{T}: Add {C}.
+{T}, Pay 1 life: Add {R}.
 {2}{R}{R}, {T}, Sacrifice a Desert: Ramunap Ruins deals 2 damage to each opponent.
 
 Name:   Rancid Earth
@@ -975,7 +997,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
 Name:   Rancor
 Cost:   G
 Type:   Enchantment — Aura
-S/R:    UL-C, ARC-C, PC2-C, M13-U, EMA-U, PCA-C, DDD-C
+S/R:    UL-C, ARC-C, PC2-C, M13-U, EMA-U, PCA-C, E02-U, A25-U, DDD-C
 Enchant creature
 Enchanted creature gets +2/+0 and has trample.
 When Rancor is put into a graveyard from the battlefield, return Rancor to its owner's hand.
@@ -1033,7 +1055,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    5/4
 S/R:    ROE-U, CMD-U
 Trample
-Whenever Rapacious One deals combat damage to a player, create that many 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."
+Whenever Rapacious One deals combat damage to a player, create that many 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this creature: Add {C}."
 
 Name:   Rapid Decay
 Cost:   1B
@@ -1046,8 +1068,8 @@ Name:   Rapid Fire
 Cost:   3W
 Type:   Instant
 S/R:    LE-R
-Cast Rapid Fire only before blockers are declared.
-Target creature gains first strike until end of turn. If it doesn't have rampage, that creature gains rampage 2 until end of turn. (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)
+Cast this spell only before blockers are declared.
+Target creature gains first strike until end of turn. If it doesn't have rampage, that creature gains rampage 2 until end of turn. (Whenever the creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)
 
 Name:   Rapid Hybridization
 Cost:   U
@@ -1104,18 +1126,26 @@ Type:   Legendary Creature — Human Wizard
 P/T:    4/1
 S/R:    LE-R, ME3-R
 Rasputin Dreamweaver enters the battlefield with seven dream counters on it.
-Remove a dream counter from Rasputin: Add {C} to your mana pool.
+Remove a dream counter from Rasputin: Add {C}.
 Remove a dream counter from Rasputin: Prevent the next 1 damage that would be dealt to Rasputin this turn.
 At the beginning of your upkeep, if Rasputin started the turn untapped, put a dream counter on it.
 Rasputin can't have more than seven dream counters on it.
+
+Name:   Rat Colony
+Cost:   1B
+Type:   Creature — Rat
+P/T:    2/1
+S/R:    DOM-C
+Rat Colony gets +1/+0 for each other Rat you control.
+A deck can have any number of cards named Rat Colony.
 
 Name:   Ratcatcher
 Cost:   4BB
 Type:   Creature — Ogre Rogue
 P/T:    4/4
-S/R:    DIS-R
+S/R:    DIS-R, A25-R
 Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)
-At the beginning of your upkeep, you may search your library for a Rat card, reveal it, and put it into your hand. If you do, shuffle your library.
+At the beginning of your upkeep, you may search your library for a Rat card, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Ratchet Bomb
 Cost:   2
@@ -1127,8 +1157,8 @@ S/R:    SOM-R, M14-R
 Name:   Rath's Edge
 Type:   Legendary Land
 S/R:    NE-R
-{T}: Add {C} to your mana pool.
-{4}, {T}, Sacrifice a land: Rath's Edge deals 1 damage to target creature or player.
+{T}: Add {C}.
+{4}, {T}, Sacrifice a land: Rath's Edge deals 1 damage to any target.
 
 Name:   Rathi Assassin
 Cost:   2BB
@@ -1205,16 +1235,16 @@ Cost:   1G
 Type:   Creature — Human Shaman
 P/T:    2/1
 S/R:    KTK-R
-{T}: Add {G}, {U}, or {R} to your mana pool.
+{T}: Add {G}, {U}, or {R}.
 Morph {2} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
-When Rattleclaw Mystic is turned face up, add {G}{U}{R} to your mana pool.
+When Rattleclaw Mystic is turned face up, add {G}{U}{R}.
 
 Name:   Ravaged Highlands
 Type:   Land
 S/R:    OD-C
 Ravaged Highlands enters the battlefield tapped.
-{T}: Add {R} to your mana pool.
-{T}, Sacrifice Ravaged Highlands: Add one mana of any color to your mana pool.
+{T}: Add {R}.
+{T}, Sacrifice Ravaged Highlands: Add one mana of any color.
 
 Name:   Ravager of the Fells
 Type:   Creature — Werewolf
@@ -1224,7 +1254,7 @@ M-type: Transform
 M-card: Huntmaster of the Fells
 S/R:    DKA-M, V17-M
 Trample
-Whenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent and 2 damage to up to one target creature that player controls.
+Whenever this creature transforms into Ravager of the Fells, it deals 2 damage to target opponent or planeswalker and 2 damage to up to one target creature that player or that planeswalker's controller controls.
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Ravager of the Fells.
 
 Name:   Ravages of War
@@ -1277,7 +1307,7 @@ Cost:   1UU
 Type:   Creature — Human Wizard Mutant
 P/T:    1/1
 S/R:    SCG-R
-Whenever Raven Guild Master deals combat damage to a player, that player exiles the top ten cards of his or her library.
+Whenever Raven Guild Master deals combat damage to a player, that player exiles the top ten cards of their library.
 Morph {2}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 
 Name:   Raven's Crime
@@ -1319,7 +1349,7 @@ Name:   Ravenous Chupacabra
 Cost:   2BB
 Type:   Creature — Beast Horror
 P/T:    2/2
-S/R:    RIX-U
+S/R:    RIX-U, A25-U
 When Ravenous Chupacabra enters the battlefield, destroy target creature an opponent controls.
 
 Name:   Ravenous Daggertooth
@@ -1372,7 +1402,7 @@ Name:   Ravenous Trap
 Cost:   2BB
 Type:   Instant — Trap
 S/R:    ZEN-U
-If an opponent had three or more cards put into his or her graveyard from anywhere this turn, you may pay {0} rather than pay Ravenous Trap's mana cost.
+If an opponent had three or more cards put into their graveyard from anywhere this turn, you may pay {0} rather than pay this spell's mana cost.
 Exile all cards from target player's graveyard.
 
 Name:   Ravenous Vampire
@@ -1390,7 +1420,7 @@ P/T:    2/6
 S/R:    C14-R
 Deathtouch
 At the beginning of combat on your turn, choose an opponent at random. Raving Dead attacks that player this combat if able.
-Whenever Raving Dead deals combat damage to a player, that player loses half his or her life, rounded down.
+Whenever Raving Dead deals combat damage to a player, that player loses half their life, rounded down.
 
 Name:   Raving Oni-Slave
 Cost:   1B
@@ -1432,7 +1462,7 @@ Name:   Ray of Erasure
 Cost:   U
 Type:   Instant
 S/R:    IA-C
-Target player puts the top card of his or her library into his or her graveyard.
+Target player puts the top card of their library into their graveyard.
 Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Ray of Revelation
@@ -1468,14 +1498,14 @@ Name:   Raze
 Cost:   R
 Type:   Sorcery
 S/R:    US-C
-As an additional cost to cast Raze, sacrifice a land.
+As an additional cost to cast this spell, sacrifice a land.
 Destroy target land.
 
 Name:   Razia's Purification
 Cost:   4RW
 Type:   Sorcery
 S/R:    RAV-R
-Each player chooses three permanents he or she controls, then sacrifices the rest.
+Each player chooses three permanents they control, then sacrifices the rest.
 
 Name:   Razia, Boros Archangel
 Cost:   4RRWW
@@ -1503,7 +1533,7 @@ Name:   Razor Boomerang
 Cost:   3
 Type:   Artifact — Equipment
 S/R:    WWK-U
-Equipped creature has "{T}, Unattach Razor Boomerang: Razor Boomerang deals 1 damage to target creature or player. Return Razor Boomerang to its owner's hand."
+Equipped creature has "{T}, Unattach Razor Boomerang: It deals 1 damage to any target. Return Razor Boomerang to its owner's hand."
 Equip {2}
 
 Name:   Razor Golem
@@ -1526,7 +1556,7 @@ Name:   Razor Pendulum
 Cost:   4
 Type:   Artifact
 S/R:    MI-R
-At the beginning of each player's end step, if that player has 5 or less life, Razor Pendulum deals 2 damage to him or her.
+At the beginning of each player's end step, if that player has 5 or less life, Razor Pendulum deals 2 damage to that player.
 
 Name:   Razor Swine
 Cost:   2R
@@ -1568,7 +1598,7 @@ Cost:   UR
 Type:   Creature — Merfolk Goblin
 P/T:    1/1
 S/R:    AP-C
-{T}: Razorfin Hunter deals 1 damage to target creature or player.
+{T}: Razorfin Hunter deals 1 damage to any target.
 
 Name:   Razorfoot Griffin
 Cost:   3W
@@ -1606,7 +1636,7 @@ Name:   Razortip Whip
 Cost:   2
 Type:   Artifact
 S/R:    GTC-C
-{1}, {T}: Razortip Whip deals 1 damage to target opponent.
+{1}, {T}: Razortip Whip deals 1 damage to target opponent or planeswalker.
 
 Name:   Razortooth Rats
 Cost:   2B
@@ -1619,7 +1649,7 @@ Name:   Razorverge Thicket
 Type:   Land
 S/R:    SOM-R
 Razorverge Thicket enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {G} or {W} to your mana pool.
+{T}: Add {G} or {W}.
 
 Name:   Reach Through Mists
 Cost:   U
@@ -1689,19 +1719,19 @@ Cost:   1R
 Type:   Instant
 S/R:    OGW-C
 Devoid (This card has no color.)
-Reality Hemorrhage deals 2 damage to target creature or player.
+Reality Hemorrhage deals 2 damage to any target.
 
 Name:   Reality Ripple
 Cost:   1U
 Type:   Instant
 S/R:    MI-C
-Target artifact, creature, or land phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during his or her next untap step.)
+Target artifact, creature, or land phases out. (While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.)
 
 Name:   Reality Shift
 Cost:   1U
 Type:   Instant
 S/R:    FRF-U, FRF_UGIN-U, C17-U
-Exile target creature. Its controller manifests the top card of his or her library. (That player puts the top card of his or her library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)
+Exile target creature. Its controller manifests the top card of their library. (That player puts the top card of their library onto the battlefield face down as a 2/2 creature. If it's a creature card, it can be turned face up any time for its mana cost.)
 
 Name:   Reality Smasher
 Cost:   4C
@@ -1774,13 +1804,13 @@ Name:   Reap
 Cost:   1G
 Type:   Instant
 S/R:    TE-U
-Return up to X target cards from your graveyard to your hand, where X is the number of black permanents target opponent controls as you cast Reap.
+Return up to X target cards from your graveyard to your hand, where X is the number of black permanents target opponent controls as you cast this spell.
 
 Name:   Reap Intellect
 Cost:   X2UB
 Type:   Sorcery
 S/R:    DGM-M
-Target opponent reveals his or her hand. You choose up to X nonland cards from it and exile them. For each card exiled this way, search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library.
+Target opponent reveals their hand. You choose up to X nonland cards from it and exile them. For each card exiled this way, search that player's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles their library.
 
 Name:   Reap What Is Sown
 Cost:   1GW
@@ -1977,14 +2007,14 @@ Name:   Reckless Abandon
 Cost:   R
 Type:   Sorcery
 S/R:    UD-C, DDN-C
-As an additional cost to cast Reckless Abandon, sacrifice a creature.
-Reckless Abandon deals 4 damage to target creature or player.
+As an additional cost to cast this spell, sacrifice a creature.
+Reckless Abandon deals 4 damage to any target.
 
 Name:   Reckless Assault
 Cost:   2BR
 Type:   Enchantment
 S/R:    IN-R
-{1}, Pay 2 life: Reckless Assault deals 1 damage to target creature or player.
+{1}, Pay 2 life: Reckless Assault deals 1 damage to any target.
 
 Name:   Reckless Brute
 Cost:   2R
@@ -2022,7 +2052,7 @@ Cost:   3R
 Type:   Creature — Human Wizard
 P/T:    2/2
 S/R:    MI-R, 6E-R, 7E-R
-{1}{R}: Reckless Embermage deals 1 damage to target creature or player and 1 damage to itself.
+{1}{R}: Reckless Embermage deals 1 damage to any target and 1 damage to itself.
 
 Name:   Reckless Fireweaver
 Cost:   1R
@@ -2122,7 +2152,7 @@ Name:   Reclamation
 Cost:   2GW
 Type:   Enchantment
 S/R:    IA-R
-Black creatures can't attack unless their controller sacrifices a land for each black creature he or she controls that's attacking. (This cost is paid as attackers are declared.)
+Black creatures can't attack unless their controller sacrifices a land for each black creature they control that's attacking. (This cost is paid as attackers are declared.)
 
 Name:   Reclamation Sage
 Cost:   2G
@@ -2135,7 +2165,7 @@ Name:   Reclusive Artificer
 Cost:   2UR
 Type:   Creature — Human Artificer
 P/T:    2/3
-S/R:    ORI-U
+S/R:    ORI-U, DDU-U
 Haste (This creature can attack and {T} as soon as it comes under your control.)
 When Reclusive Artificer enters the battlefield, you may have it deal damage to target creature equal to the number of artifacts you control.
 
@@ -2188,7 +2218,7 @@ Name:   Recross the Paths
 Cost:   2G
 Type:   Sorcery
 S/R:    MOR-U
-Reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield and the rest on the bottom of your library in any order. Clash with an opponent. If you win, return Recross the Paths to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield and the rest on the bottom of your library in any order. Clash with an opponent. If you win, return Recross the Paths to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Recruiter of the Guard
 Cost:   2W
@@ -2244,7 +2274,7 @@ Red Cliffs Armada can't attack unless defending player controls an Island.
 Name:   Red Elemental Blast
 Cost:   R
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, ME4-U
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, A25-U, ME4-U
 Choose one —
 • Counter target blue spell.
 • Destroy target blue permanent.
@@ -2254,7 +2284,7 @@ Cost:   4
 Type:   Artifact
 S/R:    LE-U, 4E-R
 {2}, {T}: Put a charge counter on Red Mana Battery.
-{T}, Remove any number of charge counters from Red Mana Battery: Add {R} to your mana pool, then add an additional {R} to your mana pool for each charge counter removed this way.
+{T}, Remove any number of charge counters from Red Mana Battery: Add {R}, then add an additional {R} for each charge counter removed this way.
 
 Name:   Red Scarab
 Cost:   W
@@ -2268,7 +2298,7 @@ Name:   Red Sun's Zenith
 Cost:   XR
 Type:   Sorcery
 S/R:    MBS-R
-Red Sun's Zenith deals X damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.
+Red Sun's Zenith deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.
 
 Name:   Red Ward
 Cost:   W
@@ -2287,7 +2317,7 @@ Name:   Redeem the Lost
 Cost:   1W
 Type:   Instant
 S/R:    MOR-U
-Target creature you control gains protection from the color of your choice until end of turn. Clash with an opponent. If you win, return Redeem the Lost to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Target creature you control gains protection from the color of your choice until end of turn. Clash with an opponent. If you win, return Redeem the Lost to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Redirect
 Cost:   UU
@@ -2333,7 +2363,7 @@ Cost:   1UU
 Type:   Creature — Zombie Pirate
 P/T:    2/2
 S/R:    HL-C, 5E-C
-Whenever Reef Pirates deals damage to an opponent, that player puts the top card of his or her library into his or her graveyard.
+Whenever Reef Pirates deals damage to an opponent, that player puts the top card of their library into their graveyard.
 
 Name:   Reef Shaman
 Cost:   U
@@ -2346,7 +2376,7 @@ Name:   Reef Worm
 Cost:   3U
 Type:   Creature — Worm
 P/T:    0/1
-S/R:    C14-R
+S/R:    C14-R, A25-R
 When Reef Worm dies, create a 3/3 blue Fish creature token with "When this creature dies, create a 6/6 blue Whale creature token with 'When this creature dies, create a 9/9 blue Kraken creature token.'"
 
 Name:   Reflect Damage
@@ -2364,7 +2394,7 @@ S/R:    DK-U
 Name:   Reflecting Pool
 Type:   Land
 S/R:    TE-R, SHM-R, CNS-R
-{T}: Add to your mana pool one mana of any type that a land you control could produce.
+{T}: Add one mana of any type that a land you control could produce.
 
 Name:   Reflector Mage
 Cost:   1WU
@@ -2398,15 +2428,15 @@ Name:   Reforge the Soul
 Cost:   3RR
 Type:   Sorcery
 S/R:    AVR-R, C16-R
-Each player discards his or her hand, then draws seven cards.
+Each player discards their hand, then draws seven cards.
 Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)
 
 Name:   Refraction Trap
 Cost:   3W
 Type:   Instant — Trap
 S/R:    WWK-U
-If an opponent cast a red instant or sorcery spell this turn, you may pay {W} rather than pay Refraction Trap's mana cost.
-Prevent the next 3 damage that a source of your choice would deal to you and/or permanents you control this turn. If damage is prevented this way, Refraction Trap deals that much damage to target creature or player.
+If an opponent cast a red instant or sorcery spell this turn, you may pay {W} rather than pay this spell's mana cost.
+Prevent the next 3 damage that a source of your choice would deal to you and/or permanents you control this turn. If damage is prevented this way, Refraction Trap deals that much damage to any target.
 
 Name:   Refresh
 Cost:   2G
@@ -2443,7 +2473,7 @@ P/T:    5/5
 S/R:    CN2-R
 Trample
 When Regal Behemoth enters the battlefield, you become the monarch.
-Whenever you tap a land for mana while you're the monarch, add one mana of any color to your mana pool (in addition to the mana the land produces).
+Whenever you tap a land for mana while you're the monarch, add an additional one mana of any color.
 
 Name:   Regal Caracal
 Cost:   3WW
@@ -2457,7 +2487,7 @@ Name:   Regal Force
 Cost:   4GGG
 Type:   Creature — Elemental
 P/T:    5/5
-S/R:    EVE-R, EMA-R
+S/R:    EVE-R, EMA-R, DDU-R
 When Regal Force enters the battlefield, draw a card for each green creature you control.
 
 Name:   Regal Unicorn
@@ -2509,7 +2539,7 @@ Return target permanent to its owner's hand.
 Name:   Regrowth
 Cost:   1G
 Type:   Sorcery
-S/R:    A-U, B-U, U-U, RV-U, VMA-R, DDL-U, ME4-R
+S/R:    A-U, B-U, U-U, RV-U, A25-U, VMA-R, DDL-U, ME4-R
 Return target card from your graveyard to your hand.
 
 Name:   Reign of Chaos
@@ -2612,7 +2642,7 @@ Name:   Rekindled Flame
 Cost:   2RR
 Type:   Sorcery
 S/R:    EVE-R
-Rekindled Flame deals 4 damage to target creature or player.
+Rekindled Flame deals 4 damage to any target.
 At the beginning of your upkeep, if an opponent has no cards in hand, you may return Rekindled Flame from your graveyard to your hand.
 
 Name:   Rekindling Phoenix
@@ -2648,7 +2678,7 @@ Name:   Release the Ants
 Cost:   1R
 Type:   Instant
 S/R:    MOR-U
-Release the Ants deals 1 damage to target creature or player. Clash with an opponent. If you win, return Release the Ants to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Release the Ants deals 1 damage to any target. Clash with an opponent. If you win, return Release the Ants to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Release the Gremlins
 Cost:   XXR
@@ -2696,7 +2726,7 @@ Name:   Relentless Rats
 Cost:   1BB
 Type:   Creature — Rat
 P/T:    2/2
-S/R:    5DN-U, 10E-U, M10-U, M11-U
+S/R:    5DN-U, 10E-U, M10-U, M11-U, A25-C
 Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.
 A deck can have any number of cards named Relentless Rats.
 
@@ -2705,7 +2735,7 @@ Cost:   3UU
 Type:   Creature — Zombie
 P/T:    4/4
 S/R:    DKA-U, DDQ-U
-As an additional cost to cast Relentless Skaabs, exile a creature card from your graveyard.
+As an additional cost to cast this spell, exile a creature card from your graveyard.
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 
 Name:   Relic Bane
@@ -2727,7 +2757,7 @@ Type:   Enchantment — Aura
 S/R:    LE-U, 4E-R
 Enchant artifact an opponent controls
 Whenever enchanted artifact becomes tapped, choose one —
-• Relic Bind deals 1 damage to target player.
+• Relic Bind deals 1 damage to target player or planeswalker.
 • Target player gains 1 life.
 
 Name:   Relic Crush
@@ -2742,6 +2772,13 @@ Type:   Enchantment — Aura
 S/R:    SOM-C
 Enchant artifact
 Whenever enchanted artifact becomes tapped, its controller gets a poison counter.
+
+Name:   Relic Runner
+Cost:   1U
+Type:   Creature — Human Rogue
+P/T:    2/1
+S/R:    DOM-C
+Relic Runner can't be blocked if you've cast a historic spell this turn. (Artifacts, legendaries, and Sagas are historic.)
 
 Name:   Relic Seeker
 Cost:   1W
@@ -2763,7 +2800,7 @@ Name:   Relic of Progenitus
 Cost:   1
 Type:   Artifact
 S/R:    ALA-C, HOP-C, MMA-U, EMA-U
-{T}: Target player exiles a card from his or her graveyard.
+{T}: Target player exiles a card from their graveyard.
 {1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.
 
 Name:   Relief Captain
@@ -2784,7 +2821,7 @@ Name:   Reliquary Tower
 Type:   Land
 S/R:    CON-U, M13-U, C14-U, C15-U, C16-U
 You have no maximum hand size.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 
 Name:   Remand
 Cost:   1U
@@ -2797,7 +2834,7 @@ Name:   Remedy
 Cost:   1W
 Type:   Instant
 S/R:    VI-C, 6E-C
-Prevent the next 5 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose.
+Prevent the next 5 damage that would be dealt this turn to any number of targets, divided as you choose.
 
 Name:   Remember the Fallen
 Cost:   2W
@@ -2817,7 +2854,7 @@ Name:   Reminisce
 Cost:   2U
 Type:   Sorcery
 S/R:    ONS-U, 9ED-U, 10E-U, DDJ-U
-Target player shuffles his or her graveyard into his or her library.
+Target player shuffles their graveyard into their library.
 
 Name:   Remorseless Punishment
 Cost:   3BB
@@ -2829,20 +2866,20 @@ Name:   Remote Farm
 Type:   Land
 S/R:    MM-C
 Remote Farm enters the battlefield tapped with two depletion counters on it.
-{T}, Remove a depletion counter from Remote Farm: Add {W}{W} to your mana pool. If there are no depletion counters on Remote Farm, sacrifice it.
+{T}, Remove a depletion counter from Remote Farm: Add {W}{W}. If there are no depletion counters on Remote Farm, sacrifice it.
 
 Name:   Remote Isle
 Type:   Land
 S/R:    US-C, C14-C
 Remote Isle enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Remove
 Cost:   U
 Type:   Instant
 S/R:    P2-U
-Cast Remove only during the declare attackers step and only if you've been attacked this step.
+Cast this spell only during the declare attackers step and only if you've been attacked this step.
 Return target attacking creature to its owner's hand.
 
 Name:   Remove Enchantments
@@ -2894,7 +2931,7 @@ Name:   Rending Volley
 Cost:   R
 Type:   Instant
 S/R:    DTK-U
-Rending Volley can't be countered by spells or abilities.
+This spell can't be countered.
 Rending Volley deals 4 damage to target white or blue creature.
 
 Name:   Renegade Demon
@@ -2986,14 +3023,14 @@ Name:   Renewal
 Cost:   2G
 Type:   Sorcery
 S/R:    HL-C
-As an additional cost to cast Renewal, sacrifice a land.
+As an additional cost to cast this spell, sacrifice a land.
 Search your library for a basic land card and put that card onto the battlefield. Then shuffle your library.
 Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Renewed Faith
 Cost:   2W
 Type:   Instant
-S/R:    ONS-C, AKH-U, VMA-C
+S/R:    ONS-C, AKH-U, A25-C, VMA-C
 You gain 6 life.
 Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)
 When you cycle Renewed Faith, you may gain 2 life.
@@ -3027,7 +3064,7 @@ Cost:   1U
 Type:   Creature — Human Artificer
 P/T:    1/3
 S/R:    FRF-U
-{T}: Add {C}{C} to your mana pool. Spend this mana only to cast artifact spells or activate abilities of artifacts.
+{T}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.
 {U}, {T}: Search your library for a card named Heart-Piercer Bow or Vial of Dragonfire, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Renowned Weaver
@@ -3060,7 +3097,7 @@ Name:   Repeating Barrage
 Cost:   1RR
 Type:   Sorcery
 S/R:    XLN-R
-Repeating Barrage deals 3 damage to target creature or player.
+Repeating Barrage deals 3 damage to any target.
 Raid — {3}{R}{R}: Return Repeating Barrage from your graveyard to your hand. Activate this ability only if you attacked with a creature this turn.
 
 Name:   Repel
@@ -3173,14 +3210,14 @@ Cycling {2} ({2}, Discard this card: Draw a card.)
 Name:   Rescue
 Cost:   U
 Type:   Instant
-S/R:    UD-C
+S/R:    UD-C, DOM-C
 Return target permanent you control to its owner's hand.
 
 Name:   Rescue from the Underworld
 Cost:   4B
 Type:   Instant
 S/R:    THS-U
-As an additional cost to cast Rescue from the Underworld, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Choose target creature card in your graveyard. Return that card and the sacrificed card to the battlefield under your control at the beginning of your next upkeep. Exile Rescue from the Underworld.
 
 Name:   Research
@@ -3202,7 +3239,7 @@ Name:   Research the Deep
 Cost:   1U
 Type:   Sorcery
 S/R:    MOR-U
-Draw a card. Clash with an opponent. If you win, return Research the Deep to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Draw a card. Clash with an opponent. If you win, return Research the Deep to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Reservoir Walker
 Cost:   5
@@ -3215,14 +3252,14 @@ Name:   Reset
 Cost:   UU
 Type:   Instant
 S/R:    LE-U, ME3-R
-Cast Reset only during an opponent's turn after his or her upkeep step.
+Cast this spell only during an opponent's turn after their upkeep step.
 Untap all lands you control.
 
 Name:   Reshape
 Cost:   XUU
 Type:   Sorcery
 S/R:    DST-R
-As an additional cost to cast Reshape, sacrifice an artifact.
+As an additional cost to cast this spell, sacrifice an artifact.
 Search your library for an artifact card with converted mana cost X or less and put it onto the battlefield. Then shuffle your library.
 
 Name:   Resilient Khenra
@@ -3306,9 +3343,9 @@ Name:   Resounding Thunder
 Cost:   2R
 Type:   Instant
 S/R:    ALA-C
-Resounding Thunder deals 3 damage to target creature or player.
+Resounding Thunder deals 3 damage to any target.
 Cycling {5}{B}{R}{G} ({5}{B}{R}{G}, Discard this card: Draw a card.)
-When you cycle Resounding Thunder, it deals 6 damage to target creature or player.
+When you cycle Resounding Thunder, it deals 6 damage to any target.
 
 Name:   Resounding Wave
 Cost:   2U
@@ -3356,7 +3393,7 @@ Landfall — If you had a land enter the battlefield under your control this tur
 Name:   Rest in Peace
 Cost:   1W
 Type:   Enchantment
-S/R:    RTR-R
+S/R:    RTR-R, A25-R
 When Rest in Peace enters the battlefield, exile all cards from all graveyards.
 If a card or token would be put into a graveyard from anywhere, exile it instead.
 
@@ -3387,7 +3424,7 @@ Name:   Restless Dreams
 Cost:   B
 Type:   Sorcery
 S/R:    TOR-C
-As an additional cost to cast Restless Dreams, discard X cards.
+As an additional cost to cast this spell, discard X cards.
 Return X target creature cards from your graveyard to your hand.
 
 Name:   Restock
@@ -3430,7 +3467,7 @@ Type:   Sorcery
 Color:  White
 S/R:    TSP-R
 Suspend 6—{W} (Rather than cast this card from your hand, pay {W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
-Each player chooses a number of lands he or she controls equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice creatures and discard cards the same way.
+Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice creatures and discard cards the same way.
 
 Name:   Restore the Peace
 Cost:   1WU
@@ -3511,7 +3548,7 @@ Return all artifacts you control to their owner's hand.
 Name:   Retraction Helix
 Cost:   U
 Type:   Instant
-S/R:    BNG-C
+S/R:    BNG-C, A25-C
 Until end of turn, target creature gains "{T}: Return target nonland permanent to its owner's hand."
 
 Name:   Retreat to Coralhelm
@@ -3624,13 +3661,13 @@ Cost:   3B
 Type:   Creature — Zombie Centaur
 P/T:    2/4
 S/R:    THS-C, ORI-C
-When Returned Centaur enters the battlefield, target player puts the top four cards of his or her library into his or her graveyard.
+When Returned Centaur enters the battlefield, target player puts the top four cards of their library into their graveyard.
 
 Name:   Returned Phalanx
 Cost:   1B
 Type:   Creature — Zombie Soldier
 P/T:    3/3
-S/R:    THS-C
+S/R:    THS-C, A25-C
 Defender
 {1}{U}: Returned Phalanx can attack this turn as though it didn't have defender.
 
@@ -3639,7 +3676,7 @@ Cost:   1B
 Type:   Creature — Zombie Satyr
 P/T:    1/3
 S/R:    JOU-C
-When Returned Reveler dies, each player puts the top three cards of his or her library into his or her graveyard.
+When Returned Reveler dies, each player puts the top three cards of their library into their graveyard.
 
 Name:   Revealing Wind
 Cost:   2G
@@ -3668,13 +3705,13 @@ Cost:   2UU
 Type:   Legendary Creature — Dwarf Wizard
 P/T:    0/1
 S/R:    HL-R, ME3-U
-{T}: Reveka, Wizard Savant deals 2 damage to target creature or player and doesn't untap during your next untap step.
+{T}: Reveka, Wizard Savant deals 2 damage to any target and doesn't untap during your next untap step.
 
 Name:   Revel in Riches
 Cost:   4B
 Type:   Enchantment
 S/R:    XLN-R
-Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Whenever a creature an opponent controls dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 At the beginning of your upkeep, if you control ten or more Treasures, you win the game.
 
 Name:   Revel of the Fallen God
@@ -3708,7 +3745,7 @@ Cost:   4B
 Type:   Creature — Spirit
 P/T:    4/3
 S/R:    GPT-U, DDK-U
-When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips his or her next combat phase.
+When Revenant Patriarch enters the battlefield, if {W} was spent to cast it, target player skips their next combat phase.
 Revenant Patriarch can't block.
 
 Name:   Revenge of the Hunted
@@ -3769,21 +3806,21 @@ Name:   Reverent Mantra
 Cost:   3W
 Type:   Instant
 S/R:    MM-R
-You may exile a white card from your hand rather than pay Reverent Mantra's mana cost.
+You may exile a white card from your hand rather than pay this spell's mana cost.
 Choose a color. All creatures gain protection from the chosen color until end of turn.
 
 Name:   Reverent Silence
 Cost:   3G
 Type:   Sorcery
 S/R:    NE-C
-If you control a Forest, rather than pay Reverent Silence's mana cost, you may have each other player gain 6 life.
+If you control a Forest, rather than pay this spell's mana cost, you may have each other player gain 6 life.
 Destroy all enchantments.
 
 Name:   Reversal of Fortune
 Cost:   4RR
 Type:   Sorcery
 S/R:    5DN-R
-Target opponent reveals his or her hand. You may copy an instant or sorcery card in it. If you do, you may cast the copy without paying its mana cost.
+Target opponent reveals their hand. You may copy an instant or sorcery card in it. If you do, you may cast the copy without paying its mana cost.
 
 Name:   Reverse Damage
 Cost:   1WW
@@ -3820,7 +3857,7 @@ Name:   Revive the Fallen
 Cost:   1B
 Type:   Sorcery
 S/R:    MOR-U
-Return target creature card from a graveyard to its owner's hand. Clash with an opponent. If you win, return Revive the Fallen to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Return target creature card from a graveyard to its owner's hand. Clash with an opponent. If you win, return Revive the Fallen to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Reviving Dose
 Cost:   2W
@@ -3878,7 +3915,7 @@ Name:   Reweave
 Cost:   5U
 Type:   Instant — Arcane
 S/R:    CHK-R
-Target permanent's controller sacrifices it. If he or she does, that player reveals cards from the top of his or her library until he or she reveals a permanent card that shares a card type with the sacrificed permanent, puts that card onto the battlefield, then shuffles his or her library.
+Target permanent's controller sacrifices it. If the player does, they reveal cards from the top of their library until they reveal a permanent card that shares a card type with the sacrificed permanent, put that card onto the battlefield, then shuffle their library.
 Splice onto Arcane {2}{U}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 
 Name:   Rewind
@@ -3983,7 +4020,7 @@ Cost:   4G
 Type:   Creature — Rhino Soldier
 P/T:    4/4
 S/R:    ORI-C
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Renown 2 (When this creature deals combat damage to a player, if it isn't renowned, put two +1/+1 counters on it and it becomes renowned.)
 
 Name:   Rhox Meditant
@@ -4027,7 +4064,7 @@ S/R:    SHM-R
 Name:   Rhystic Cave
 Type:   Land
 S/R:    PR-U
-{T}: Choose a color. Add one mana of that color to your mana pool unless any player pays {1}. Activate this ability only any time you could cast an instant.
+{T}: Choose a color. Add one mana of that color unless any player pays {1}. Activate this ability only any time you could cast an instant.
 
 Name:   Rhystic Circle
 Cost:   2WW
@@ -4045,7 +4082,7 @@ Name:   Rhystic Lightning
 Cost:   2R
 Type:   Instant
 S/R:    PR-C
-Rhystic Lightning deals 4 damage to target creature or player unless that creature's controller or that player pays {2}. If he or she does, Rhystic Lightning deals 2 damage to the creature or player.
+Rhystic Lightning deals 4 damage to any target unless that permanent's controller or that player pays {2}. If they do, Rhystic Lightning deals 2 damage to the permanent or player.
 
 Name:   Rhystic Scrying
 Cost:   2UU
@@ -4069,7 +4106,7 @@ Name:   Rhystic Syphon
 Cost:   3BB
 Type:   Sorcery
 S/R:    PR-U
-Unless target player pays {3}, he or she loses 5 life and you gain 5 life.
+Unless target player pays {3}, that player loses 5 life and you gain 5 life.
 
 Name:   Rhystic Tutor
 Cost:   2B
@@ -4120,20 +4157,20 @@ M-type: Split
 M-card: Rags
 S/R:    AKH-R
 Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Each opponent chooses a creature he or she controls. You gain control of those creatures.
+Each opponent chooses a creature they control. You gain control of those creatures.
 
 Name:   Ricochet Trap
 Cost:   3R
 Type:   Instant — Trap
 S/R:    WWK-U
-If an opponent cast a blue spell this turn, you may pay {R} rather than pay Ricochet Trap's mana cost.
+If an opponent cast a blue spell this turn, you may pay {R} rather than pay this spell's mana cost.
 Change the target of target spell with a single target.
 
 Name:   Riddle of Lightning
 Cost:   3RR
 Type:   Instant
 S/R:    FUT-C, JOU-U
-Choose target creature or player. Scry 3, then reveal the top card of your library. Riddle of Lightning deals damage equal to that card's converted mana cost to that creature or player. (To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+Choose any target. Scry 3, then reveal the top card of your library. Riddle of Lightning deals damage equal to that card's converted mana cost to that permanent or player. (To scry 3, look at the top three cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
 
 Name:   Riddleform
 Cost:   1U
@@ -4147,13 +4184,13 @@ Cost:   2U
 Type:   Creature — Homunculus
 P/T:    1/4
 S/R:    CMD-R
-Whenever a creature attacks you or a planeswalker you control, that creature's controller puts the top two cards of his or her library into his or her graveyard.
+Whenever a creature attacks you or a planeswalker you control, that creature's controller puts the top two cards of their library into their graveyard.
 
 Name:   Riddlesmith
 Cost:   1U
 Type:   Creature — Human Artificer
 P/T:    2/1
-S/R:    SOM-U
+S/R:    SOM-U, DDU-U
 Whenever you cast an artifact spell, you may draw a card. If you do, discard a card.
 
 Name:   Ride Down
@@ -4222,7 +4259,7 @@ Name:   Rift Bolt
 Cost:   2R
 Type:   Sorcery
 S/R:    TSP-C, MMA-C, IMA-U, DDS-C
-Rift Bolt deals 3 damage to target creature or player.
+Rift Bolt deals 3 damage to any target.
 Suspend 1—{R} (Rather than cast this card from your hand, you may pay {R} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
 
 Name:   Rift Elemental
@@ -4244,15 +4281,15 @@ When the last time counter is removed from Riftmarked Knight while it's exiled, 
 Name:   Riftstone Portal
 Type:   Land
 S/R:    JUD-U
-{T}: Add {C} to your mana pool.
-As long as Riftstone Portal is in your graveyard, lands you control have "{T}: Add {G} or {W} to your mana pool."
+{T}: Add {C}.
+As long as Riftstone Portal is in your graveyard, lands you control have "{T}: Add {G} or {W}."
 
 Name:   Riftsweeper
 Cost:   1G
 Type:   Creature — Elf Shaman
 P/T:    2/2
 S/R:    FUT-U, MMA-U
-When Riftsweeper enters the battlefield, choose target face-up exiled card. Its owner shuffles it into his or her library.
+When Riftsweeper enters the battlefield, choose target face-up exiled card. Its owner shuffles it into their library.
 
 Name:   Riftwing Cloudskate
 Cost:   3UU
@@ -4345,7 +4382,7 @@ S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, 9ED-R, 10E-R, M10-U, DDL-U
 Target blocking creature gets +7/+7 until end of turn.
 
 Name:   Riku of Two Reflections
-Cost:   2URG
+Cost:   2GUR
 Type:   Legendary Creature — Human Wizard
 P/T:    2/2
 S/R:    CMD-M
@@ -4447,7 +4484,7 @@ Name:   Ring of Kalonia
 Cost:   2
 Type:   Artifact — Equipment
 S/R:    M13-U
-Equipped creature has trample. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Equipped creature has trample. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)
 At the beginning of your upkeep, put a +1/+1 counter on equipped creature if it's green.
 Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 
@@ -4506,7 +4543,7 @@ Type:   Creature — Faerie Wizard
 P/T:    1/1
 S/R:    LRW-C
 Flying
-When Ringskipper dies, clash with an opponent. If you win, return Ringskipper to its owner's hand. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+When Ringskipper dies, clash with an opponent. If you win, return Ringskipper to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Ringwarden Owl
 Cost:   3UU
@@ -4643,7 +4680,7 @@ Morph {U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn i
 Name:   Riptide Laboratory
 Type:   Land
 S/R:    ONS-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}{U}, {T}: Return target Wizard you control to its owner's hand.
 
 Name:   Riptide Mangler
@@ -4759,7 +4796,7 @@ Type:   Creature — Human Pirate
 P/T:    3/2
 S/R:    MM-R
 Flying
-When Rishadan Brigand enters the battlefield, each opponent sacrifices a permanent unless he or she pays {3}.
+When Rishadan Brigand enters the battlefield, each opponent sacrifices a permanent unless they pay {3}.
 Rishadan Brigand can block only creatures with flying.
 
 Name:   Rishadan Cutpurse
@@ -4767,14 +4804,14 @@ Cost:   2U
 Type:   Creature — Human Pirate
 P/T:    1/1
 S/R:    MM-C
-When Rishadan Cutpurse enters the battlefield, each opponent sacrifices a permanent unless he or she pays {1}.
+When Rishadan Cutpurse enters the battlefield, each opponent sacrifices a permanent unless they pay {1}.
 
 Name:   Rishadan Footpad
 Cost:   3U
 Type:   Creature — Human Pirate
 P/T:    2/2
 S/R:    MM-U
-When Rishadan Footpad enters the battlefield, each opponent sacrifices a permanent unless he or she pays {2}.
+When Rishadan Footpad enters the battlefield, each opponent sacrifices a permanent unless they pay {2}.
 
 Name:   Rishadan Pawnshop
 Cost:   2
@@ -4784,8 +4821,8 @@ S/R:    MM-R
 
 Name:   Rishadan Port
 Type:   Land
-S/R:    MM-R
-{T}: Add {C} to your mana pool.
+S/R:    MM-R, A25-R
+{T}: Add {C}.
 {1}, {T}: Tap target land.
 
 Name:   Rishkar's Expertise
@@ -4801,7 +4838,7 @@ Type:   Legendary Creature — Elf Druid
 P/T:    2/2
 S/R:    AeR-R
 When Rishkar, Peema Renegade enters the battlefield, put a +1/+1 counter on each of up to two target creatures.
-Each creature you control with a counter on it has "{T}: Add {G} to your mana pool."
+Each creature you control with a counter on it has "{T}: Add {G}."
 
 Name:   Rising Miasma
 Cost:   3B
@@ -4815,7 +4852,7 @@ Cost:   3U
 Type:   Enchantment
 S/R:    NE-R
 Lands don't untap during their controllers' untap steps.
-At the beginning of each player's upkeep, that player untaps a land he or she controls.
+At the beginning of each player's upkeep, that player untaps a land they control.
 
 Name:   Risky Move
 Cost:   3RRR
@@ -4824,18 +4861,26 @@ S/R:    ONS-R
 At the beginning of each player's upkeep, that player gains control of Risky Move.
 When you gain control of Risky Move from another player, choose a creature you control and an opponent. Flip a coin. If you lose the flip, that opponent gains control of that creature.
 
+Name:   Rite of Belzenlok
+Cost:   2BB
+Type:   Enchantment — Saga
+S/R:    DOM-R
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create two 0/1 black Cleric creature tokens.
+III — Create a 6/6 black Demon creature token with flying, trample, and "At the beginning of your upkeep, sacrifice another creature. If you can't, this creature deals 6 damage to you."
+
 Name:   Rite of Consumption
 Cost:   1B
 Type:   Sorcery
 S/R:    SHM-C
-As an additional cost to cast Rite of Consumption, sacrifice a creature.
-Rite of Consumption deals damage equal to the sacrificed creature's power to target player. You gain life equal to the damage dealt this way.
+As an additional cost to cast this spell, sacrifice a creature.
+Rite of Consumption deals damage equal to the sacrificed creature's power to target player or planeswalker. You gain life equal to the damage dealt this way.
 
 Name:   Rite of Flame
 Cost:   R
 Type:   Sorcery
 S/R:    CSP-C
-Add {R}{R} to your mana pool, then add {R} to your mana pool for each card named Rite of Flame in each graveyard.
+Add {R}{R}, then add {R} for each card named Rite of Flame in each graveyard.
 
 Name:   Rite of Passage
 Cost:   2G
@@ -4848,7 +4893,7 @@ Cost:   2UU
 Type:   Sorcery
 S/R:    ZEN-R, C14-R, C15-R
 Kicker {5} (You may pay an additional {5} as you cast this spell.)
-Create a token that's a copy of target creature. If Rite of Replication was kicked, create five of those tokens instead.
+Create a token that's a copy of target creature. If this spell was kicked, create five of those tokens instead.
 
 Name:   Rite of Ruin
 Cost:   5RR
@@ -4881,7 +4926,7 @@ Cost:   2G
 Type:   Enchantment
 S/R:    FUT-R, M12-R, C16-R
 At the beginning of each player's draw step, that player draws an additional card.
-Each player may play an additional land on each of his or her turns.
+Each player may play an additional land on each of their turns.
 
 Name:   Rites of Initiation
 Cost:   R
@@ -4912,7 +4957,7 @@ Cost:   5
 Type:   Artifact Creature — Golem
 P/T:    3/3
 S/R:    IN-U
-{1}, Sacrifice Rith's Attendant: Add {R}{G}{W} to your mana pool.
+{1}, Sacrifice Rith's Attendant: Add {R}{G}{W}.
 
 Name:   Rith's Charm
 Cost:   RGW
@@ -4927,7 +4972,7 @@ Name:   Rith's Grove
 Type:   Land — Lair
 S/R:    PS-U
 When Rith's Grove enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.
-{T}: Add {R}, {G}, or {W} to your mana pool.
+{T}: Add {R}, {G}, or {W}.
 
 Name:   Rith, the Awakener
 Cost:   3RGW
@@ -4969,7 +5014,7 @@ Name:   Ritual of the Machine
 Cost:   2BB
 Type:   Sorcery
 S/R:    AI-R, ME2-R
-As an additional cost to cast Ritual of the Machine, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Gain control of target nonartifact, nonblack creature.
 
 Name:   Ritual of the Returned
@@ -4982,7 +5027,7 @@ Name:   Rivalry
 Cost:   2R
 Type:   Enchantment
 S/R:    UL-R
-At the beginning of each player's upkeep, if that player controls more lands than each other player, Rivalry deals 2 damage to him or her.
+At the beginning of each player's upkeep, if that player controls more lands than each other player, Rivalry deals 2 damage to them.
 
 Name:   Rivals' Duel
 Cost:   3R
@@ -4995,7 +5040,7 @@ Cost:   5UB
 Type:   Legendary Creature — Human Advisor
 P/T:    5/7
 S/R:    LE-U, ME3-U
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 
 Name:   River Bear
 Cost:   3G
@@ -5024,7 +5069,7 @@ Type:   Land
 S/R:    IA-R
 River Delta doesn't untap during your untap step if it has a depletion counter on it.
 At the beginning of your upkeep, remove a depletion counter from River Delta.
-{T}: Add {U} or {B} to your mana pool. Put a depletion counter on River Delta.
+{T}: Add {U} or {B}. Put a depletion counter on River Delta.
 
 Name:   River Heralds' Boon
 Cost:   1G
@@ -5081,13 +5126,13 @@ Whenever another Merfolk enters the battlefield under your control, River Sneak 
 Name:   River of Tears
 Type:   Land
 S/R:    FUT-R, IMA-R
-{T}: Add {U} to your mana pool. If you played a land this turn, add {B} to your mana pool instead.
+{T}: Add {U}. If you played a land this turn, add {B} instead.
 
 Name:   River's Grasp
 Cost:   3(U/B)
 Type:   Sorcery
 S/R:    SHM-U
-If {U} was spent to cast River's Grasp, return up to one target creature to its owner's hand. If {B} was spent to cast River's Grasp, target player reveals his or her hand, you choose a nonland card from it, then that player discards that card. (Do both if {U}{B} was spent.)
+If {U} was spent to cast River's Grasp, return up to one target creature to its owner's hand. If {B} was spent to cast River's Grasp, target player reveals their hand, you choose a nonland card from it, then that player discards that card. (Do both if {U}{B} was spent.)
 
 Name:   River's Rebuke
 Cost:   4UU
@@ -5128,7 +5173,7 @@ S/R:    RTR-U
 Name:   Rix Maadi, Dungeon Palace
 Type:   Land
 S/R:    DIS-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}{B}{R}, {T}: Each player discards a card. Activate this ability only any time you could cast a sorcery.
 
 Name:   Roar of Challenge
@@ -5149,13 +5194,13 @@ Name:   Roar of Reclamation
 Cost:   5WW
 Type:   Sorcery
 S/R:    5DN-R
-Each player returns all artifact cards from his or her graveyard to the battlefield.
+Each player returns all artifact cards from their graveyard to the battlefield.
 
 Name:   Roar of the Crowd
 Cost:   3R
 Type:   Sorcery
 S/R:    MOR-C
-Choose a creature type. Roar of the Crowd deals damage to target creature or player equal to the number of permanents you control of the chosen type.
+Choose a creature type. Roar of the Crowd deals damage to any target equal to the number of permanents you control of the chosen type.
 
 Name:   Roar of the Kha
 Cost:   1W
@@ -5199,7 +5244,7 @@ Type:   Creature — Insect
 P/T:    1/1
 S/R:    MM-U
 Flying
-Whenever Robber Fly becomes blocked, defending player discards all the cards in his or her hand, then draws that many cards.
+Whenever Robber Fly becomes blocked, defending player discards all the cards in their hand, then draws that many cards.
 
 Name:   Robe of Mirrors
 Cost:   U
@@ -5261,7 +5306,7 @@ Cost:   2R
 Type:   Creature — Goblin
 P/T:    3/3
 S/R:    SCG-C
-You can't cast Rock Jockey if you've played a land this turn.
+You can't cast this spell if you've played a land this turn.
 You can't play lands if you've cast Rock Jockey this turn.
 
 Name:   Rock Slide
@@ -5281,7 +5326,7 @@ Name:   Rocket Launcher
 Cost:   4
 Type:   Artifact
 S/R:    AQ-U, RV-R
-{2}: Rocket Launcher deals 1 damage to target creature or player. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.
+{2}: Rocket Launcher deals 1 damage to any target. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.
 
 Name:   Rockshard Elemental
 Cost:   5RR
@@ -5315,7 +5360,7 @@ Name:   Rod of Ruin
 Cost:   4
 Type:   Artifact
 S/R:    A-U, B-U, U-U, RV-U, 4E-U, 5E-U, 6E-U, S00-U, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, M14-U
-{3}, {T}: Rod of Ruin deals 1 damage to target creature or player.
+{3}, {T}: Rod of Ruin deals 1 damage to any target.
 
 Name:   Rofellos's Gift
 Cost:   G
@@ -5328,7 +5373,7 @@ Cost:   GG
 Type:   Legendary Creature — Elf Druid
 P/T:    2/1
 S/R:    UD-R, VMA-R
-{T}: Add {G} to your mana pool for each Forest you control.
+{T}: Add {G} for each Forest you control.
 
 Name:   Rogue Elephant
 Cost:   G
@@ -5369,7 +5414,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 Name:   Rogue's Passage
 Type:   Land
 S/R:    RTR-U, ORI-U, C15-U, CN2-U, C17-U, DDM-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {4}, {T}: Target creature can't be blocked this turn.
 
 Name:   Rohgahh of Kher Keep
@@ -5464,7 +5509,16 @@ Name:   Rolling Thunder
 Cost:   XRR
 Type:   Sorcery
 S/R:    TE-C, HOP-C, BFZ-U
-Rolling Thunder deals X damage divided as you choose among any number of target creatures and/or players.
+Rolling Thunder deals X damage divided as you choose among any number of targets.
+
+Name:   Rona, Disciple of Gix
+Cost:   1UB
+Type:   Legendary Creature — Human Artificer
+P/T:    2/2
+S/R:    DOM-U
+When Rona, Disciple of Gix enters the battlefield, you may exile target historic card from your graveyard. (Artifacts, legendaries, and Sagas are historic.)
+You may cast nonland cards exiled with Rona.
+{4}, {T}: Exile the top card of your library.
 
 Name:   Ronin Cavekeeper
 Cost:   5R
@@ -5580,8 +5634,8 @@ Cost:   3G
 Type:   Creature — Sliver
 P/T:    2/2
 S/R:    LGN-U
-Root Sliver can't be countered.
-Sliver spells can't be countered by spells or abilities.
+This spell can't be countered.
+Sliver spells can't be countered.
 
 Name:   Root Spider
 Cost:   3G
@@ -5608,14 +5662,14 @@ Name:   Rootbound Crag
 Type:   Land
 S/R:    M10-R, M11-R, M12-R, M13-R, C16-R, XLN-R, H09-R
 Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.
-{T}: Add {R} or {G} to your mana pool.
+{T}: Add {R} or {G}.
 
 Name:   Rootbreaker Wurm
 Cost:   5GG
 Type:   Creature — Wurm
 P/T:    6/6
 S/R:    TE-C, 9ED-U
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 
 Name:   Rootgrapple
 Cost:   4G
@@ -5677,8 +5731,8 @@ Islandwalk (This creature can't be blocked as long as defending player controls 
 Name:   Rootwater Depths
 Type:   Land
 S/R:    TE-U
-{T}: Add {C} to your mana pool.
-{T}: Add {U} or {B} to your mana pool. Rootwater Depths doesn't untap during your next untap step.
+{T}: Add {C}.
+{T}: Add {U} or {B}. Rootwater Depths doesn't untap during your next untap step.
 
 Name:   Rootwater Diver
 Cost:   U
@@ -5692,7 +5746,7 @@ Cost:   2U
 Type:   Creature — Merfolk
 P/T:    1/1
 S/R:    TE-C, DDT-U
-{T}: Rootwater Hunter deals 1 damage to target creature or player.
+{T}: Rootwater Hunter deals 1 damage to any target.
 
 Name:   Rootwater Matriarch
 Cost:   2UU
@@ -5721,7 +5775,7 @@ Type:   Creature — Merfolk Rogue
 P/T:    1/2
 S/R:    NE-R
 {U}: Rootwater Thief gains flying until end of turn.
-Whenever Rootwater Thief deals combat damage to a player, you may pay {2}. If you do, search that player's library for a card and exile it, then the player shuffles his or her library.
+Whenever Rootwater Thief deals combat damage to a player, you may pay {2}. If you do, search that player's library for a card and exile it, then the player shuffles their library.
 
 Name:   Rorix Bladewing
 Cost:   3RRR
@@ -5735,7 +5789,7 @@ Cost:   3(R/G)
 Type:   Legendary Creature — Giant Shaman
 P/T:    4/4
 S/R:    SHM-R, IMA-U
-{T}: Add {C}{C}{C}{C} to your mana pool. Spend this mana only on costs that contain {X}.
+{T}: Add {C}{C}{C}{C}. Spend this mana only on costs that contain {X}.
 
 Name:   Rot Farm Skeleton
 Cost:   2BG
@@ -5765,7 +5819,7 @@ Cost:   4U
 Type:   Creature — Zombie
 P/T:    3/3
 S/R:    AVR-C
-When Rotcrown Ghoul dies, target player puts the top five cards of his or her library into his or her graveyard.
+When Rotcrown Ghoul dies, target player puts the top five cards of their library into their graveyard.
 
 Name:   Roterothopter
 Cost:   1
@@ -5861,21 +5915,21 @@ Name:   Rouse
 Cost:   1B
 Type:   Instant
 S/R:    MM-C
-If you control a Swamp, you may pay 2 life rather than pay Rouse's mana cost.
+If you control a Swamp, you may pay 2 life rather than pay this spell's mana cost.
 Target creature gets +2/+0 until end of turn.
 
 Name:   Rouse the Mob
 Cost:   R
 Type:   Instant
 S/R:    JOU-C
-Strive — Rouse the Mob costs {2}{R} more to cast for each target beyond the first.
+Strive — This spell costs {2}{R} more to cast for each target beyond the first.
 Any number of target creatures each get +2/+0 and gain trample until end of turn.
 
 Name:   Rousing of Souls
 Cost:   2W
 Type:   Sorcery
 S/R:    CNS-C
-Parley — Each player reveals the top card of his or her library. For each nonland card revealed this way, you create a 1/1 white Spirit creature token with flying. Then each player draws a card.
+Parley — Each player reveals the top card of their library. For each nonland card revealed this way, you create a 1/1 white Spirit creature token with flying. Then each player draws a card.
 
 Name:   Rout
 Cost:   3WW
@@ -6013,13 +6067,13 @@ Type:   Land
 S/R:    KTK-C, FRF-C, EMA-C, C16-C, DDS-C
 Rugged Highlands enters the battlefield tapped.
 When Rugged Highlands enters the battlefield, you gain 1 life.
-{T}: Add {R} or {G} to your mana pool.
+{T}: Add {R} or {G}.
 
 Name:   Rugged Prairie
 Type:   Land
-S/R:    EVE-R, EXP-M
-{T}: Add {C} to your mana pool.
-{(r/w)}, {T}: Add {R}{R}, {R}{W}, or {W}{W} to your mana pool.
+S/R:    EVE-R, EXP-M, A25-R
+{T}: Add {C}.
+{(r/w)}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.
 
 Name:   Ruham Djinn
 Cost:   5W
@@ -6030,7 +6084,7 @@ First strike
 Ruham Djinn gets -2/-2 as long as white is the most common color among all permanents or is tied for most common.
 
 Name:   Ruhan of the Fomori
-Cost:   1RWU
+Cost:   1URW
 Type:   Legendary Creature — Giant Warrior
 P/T:    7/7
 S/R:    CMD-M
@@ -6048,7 +6102,7 @@ Cost:   7
 Type:   Creature — Eldrazi Processor
 P/T:    7/8
 S/R:    BFZ-C
-When you cast Ruin Processor, you may put a card an opponent owns from exile into that player's graveyard. If you do, you gain 5 life.
+When you cast this spell, you may put a card an opponent owns from exile into that player's graveyard. If you do, you gain 5 life.
 
 Name:   Ruin Raider
 Cost:   2B
@@ -6084,7 +6138,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    3/2
 S/R:    BFZ-U
 Devoid (This card has no color.)
-Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of his or her library.)
+Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)
 Other colorless creatures you control get +1/+0.
 
 Name:   Ruination Wurm
@@ -6118,15 +6172,15 @@ Name:   Ruins of Oran-Rief
 Type:   Land
 S/R:    OGW-R
 Ruins of Oran-Rief enters the battlefield tapped.
-{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+{T}: Add {C}. ({C} represents colorless mana.)
 {T}: Put a +1/+1 counter on target colorless creature that entered the battlefield this turn.
 
 Name:   Ruins of Trokair
 Type:   Land
 S/R:    FE-U, 5E-U, 6E-U, ME2-U
 Ruins of Trokair enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
-{T}, Sacrifice Ruins of Trokair: Add {W}{W} to your mana pool.
+{T}: Add {W}.
+{T}, Sacrifice Ruins of Trokair: Add {W}{W}.
 
 Name:   Rukh Egg
 Cost:   3R
@@ -6145,7 +6199,7 @@ Name:   Rumbling Aftershocks
 Cost:   4R
 Type:   Enchantment
 S/R:    WWK-U
-Whenever you cast a kicked spell, you may have Rumbling Aftershocks deal damage to target creature or player equal to the number of times that spell was kicked.
+Whenever you cast a kicked spell, you may have Rumbling Aftershocks deal damage to any target equal to the number of times that spell was kicked.
 
 Name:   Rumbling Baloth
 Cost:   2GG
@@ -6194,6 +6248,12 @@ Cost:   3U
 Type:   Instant
 S/R:    XLN-C
 Put target artifact or creature on top of its owner's library.
+
+Name:   Run Amok
+Cost:   1R
+Type:   Instant
+S/R:    DOM-C
+Target attacking creature gets +3/+3 and gains trample until end of turn.
 
 Name:   Run Wild
 Cost:   G
@@ -6349,7 +6409,7 @@ Name:   Runeflare Trap
 Cost:   4RR
 Type:   Instant — Trap
 S/R:    ZEN-U
-If an opponent drew three or more cards this turn, you may pay {R} rather than pay Runeflare Trap's mana cost.
+If an opponent drew three or more cards this turn, you may pay {R} rather than pay this spell's mana cost.
 Runeflare Trap deals damage to target player equal to the number of cards in that player's hand.
 
 Name:   Runehorn Hellkite
@@ -6358,7 +6418,7 @@ Type:   Creature — Dragon
 P/T:    5/5
 S/R:    C16-R
 Flying
-{5}{R}, Exile Runehorn Hellkite from your graveyard: Each player discards his or her hand, then draws seven cards.
+{5}{R}, Exile Runehorn Hellkite from your graveyard: Each player discards their hand, then draws seven cards.
 
 Name:   Runes of the Deus
 Cost:   4(R/G)
@@ -6407,13 +6467,13 @@ Type:   Land
 S/R:    CON-C, CMD-C, PC2-C, C13-C, C16-C, PCA-C, CMA-C, DDH-C, H09-C
 Rupture Spire enters the battlefield tapped.
 When Rupture Spire enters the battlefield, sacrifice it unless you pay {1}.
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Ruric Thar, the Unbowed
 Cost:   4RG
 Type:   Legendary Creature — Ogre Warrior
 P/T:    6/6
-S/R:    DGM-R
+S/R:    DGM-R, A25-R
 Vigilance, reach
 Ruric Thar, the Unbowed attacks each combat if able.
 Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that player.
@@ -6421,7 +6481,7 @@ Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that p
 Name:   Rush of Adrenaline
 Cost:   R
 Type:   Instant
-S/R:    SOI-C
+S/R:    SOI-C, E02-C
 Target creature gets +2/+1 and gains trample until end of turn.
 
 Name:   Rush of Battle
@@ -6460,7 +6520,7 @@ Cost:   2U
 Type:   Instant
 S/R:    PS-C
 Kicker—Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)
-Return target nonland permanent to its owner's hand. If Rushing River was kicked, return another target nonland permanent to its owner's hand.
+Return target nonland permanent to its owner's hand. If this spell was kicked, return another target nonland permanent to its owner's hand.
 
 Name:   Rushing-Tide Zubera
 Cost:   2UU
@@ -6489,7 +6549,7 @@ Type:   Land
 S/R:    MM-U
 Rushwood Grove enters the battlefield tapped.
 {T}: Put a storage counter on Rushwood Grove.
-{T}, Remove any number of storage counters from Rushwood Grove: Add {G} to your mana pool for each storage counter removed this way.
+{T}, Remove any number of storage counters from Rushwood Grove: Add {G} for each storage counter removed this way.
 
 Name:   Rushwood Herbalist
 Cost:   2G
@@ -6564,7 +6624,7 @@ Name:   Rustic Clachan
 Type:   Land
 S/R:    MOR-R, DDF-R
 As Rustic Clachan enters the battlefield, you may reveal a Kithkin card from your hand. If you don't, Rustic Clachan enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
+{T}: Add {W}.
 Reinforce 1—{1}{W} ({1}{W}, Discard this card: Put a +1/+1 counter on target creature.)
 
 Name:   Rusting Golem
@@ -6616,7 +6676,7 @@ Name:   Ruthless Disposal
 Cost:   4B
 Type:   Sorcery
 S/R:    EMN-U
-As an additional cost to cast Ruthless Disposal, discard a card and sacrifice a creature.
+As an additional cost to cast this spell, discard a card and sacrifice a creature.
 Two target creatures each get -13/-13 until end of turn.
 
 Name:   Ruthless Instincts
@@ -6639,14 +6699,14 @@ Cost:   2B
 Type:   Creature — Orc Pirate
 P/T:    3/2
 S/R:    XLN-U
-{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+{2}{B}, Sacrifice a creature: Create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."
 Sacrifice three Treasures: Draw a card.
 
 Name:   Ruthless Ripper
 Cost:   B
 Type:   Creature — Human Assassin
 P/T:    1/1
-S/R:    KTK-U, FRF_UGIN-U
+S/R:    KTK-U, FRF_UGIN-U, A25-C
 Deathtouch
 Morph—Reveal a black card in your hand. (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 When Ruthless Ripper is turned face up, target player loses 2 life.

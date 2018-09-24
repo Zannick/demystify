@@ -18,7 +18,7 @@ Name:   Yamabushi's Flame
 Cost:   2R
 Type:   Instant
 S/R:    CHK-C
-Yamabushi's Flame deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
+Yamabushi's Flame deals 3 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
 
 Name:   Yamabushi's Storm
 Cost:   1R
@@ -31,6 +31,12 @@ Cost:   2W
 Type:   Instant
 S/R:    MI-R
 Target creature defending player controls gets +3/+0 until end of turn. That creature can block up to two additional creatures this turn.
+
+Name:   Yargle, Glutton of Urborg
+Cost:   4B
+Type:   Legendary Creature — Frog Spirit
+P/T:    9/3
+S/R:    DOM-U
 
 Name:   Yasova Dragonclaw
 Cost:   2G
@@ -65,8 +71,8 @@ Protection from blue
 Name:   Yavimaya Coast
 Type:   Land
 S/R:    AP-R, 9ED-R, 10E-R, M15-R, ORI-R
-{T}: Add {C} to your mana pool.
-{T}: Add {G} or {U} to your mana pool. Yavimaya Coast deals 1 damage to you.
+{T}: Add {C}.
+{T}: Add {G} or {U}. Yavimaya Coast deals 1 damage to you.
 
 Name:   Yavimaya Dryad
 Cost:   1GG
@@ -110,7 +116,7 @@ When Yavimaya Granger enters the battlefield, you may search your library for a 
 Name:   Yavimaya Hollow
 Type:   Legendary Land
 S/R:    UD-R, VMA-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {G}, {T}: Regenerate target creature.
 
 Name:   Yavimaya Kavu
@@ -120,6 +126,13 @@ P/T:    */*
 S/R:    IN-U
 Yavimaya Kavu's power is equal to the number of red creatures on the battlefield.
 Yavimaya Kavu's toughness is equal to the number of green creatures on the battlefield.
+
+Name:   Yavimaya Sapherd
+Cost:   2G
+Type:   Creature — Fungus
+P/T:    2/2
+S/R:    DOM-C
+When Yavimaya Sapherd enters the battlefield, create a 1/1 green Saproling creature token.
 
 Name:   Yavimaya Scion
 Cost:   4G
@@ -133,7 +146,7 @@ Cost:   4GG
 Type:   Creature — Wurm
 P/T:    6/4
 S/R:    UL-C, M11-C
-Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)
+Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 
 Name:   Yavimaya's Embrace
 Cost:   5GUU
@@ -172,6 +185,13 @@ Cost:   1B
 Type:   Enchantment
 S/R:    US-U, 7E-U
 Whenever an opponent casts a white spell, that player loses 1 life and you gain 1 life.
+
+Name:   Yawgmoth's Vile Offering
+Cost:   4B
+Type:   Legendary Sorcery
+S/R:    DOM-R
+(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Put up to one target creature or planeswalker card from a graveyard onto the battlefield under your control. Destroy up to one target creature or planeswalker. Exile Yawgmoth's Vile Offering.
 
 Name:   Yawgmoth's Will
 Cost:   2B
@@ -227,7 +247,7 @@ Name:   Yeva, Nature's Herald
 Cost:   2GG
 Type:   Legendary Creature — Elf Shaman
 P/T:    4/4
-S/R:    M13-R
+S/R:    M13-R, DDU-R
 Flash (You may cast this spell any time you could cast an instant.)
 You may cast green creature spells as though they had flash.
 
@@ -300,7 +320,7 @@ Type:   Legendary Creature — Dragon Spirit
 P/T:    5/5
 S/R:    CHK-R, MMA-M, IMA-R
 Flying
-When Yosei, the Morning Star dies, target player skips his or her next untap step. Tap up to five target permanents that player controls.
+When Yosei, the Morning Star dies, target player skips their next untap step. Tap up to five target permanents that player controls.
 
 Name:   Yotian Soldier
 Cost:   3

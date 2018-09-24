@@ -7,7 +7,7 @@ S/R:    AeR-U
 Name:   Pacifism
 Cost:   1W
 Type:   Enchantment — Aura
-S/R:    MI-C, TE-C, US-C, 6E-C, 7E-C, ONS-C, 8ED-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, M13-C, M14-C, DTK-C, EMA-C, DDC-C
+S/R:    MI-C, TE-C, US-C, 6E-C, 7E-C, ONS-C, 8ED-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, M13-C, M14-C, DTK-C, EMA-C, A25-C, DDC-C
 Enchant creature
 Enchanted creature can't attack or block.
 
@@ -43,7 +43,7 @@ Name:   Pact of Negation
 Cost:   0
 Type:   Instant
 Color:  Blue
-S/R:    FUT-R, MMA-R, MPS_AKH-S
+S/R:    FUT-R, MMA-R, MPS_AKH-S, A25-R
 Counter target spell.
 At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.
 
@@ -76,7 +76,7 @@ Cost:   2R
 Type:   Creature — Spirit
 P/T:    2/2
 S/R:    CHK-U
-{X}{R}, Sacrifice Pain Kami: Pain Kami deals X damage to target creature.
+{X}{R}, Sacrifice Pain Kami: It deals X damage to target creature.
 
 Name:   Pain Magnification
 Cost:   1BR
@@ -120,7 +120,7 @@ Name:   Painful Quandary
 Cost:   3BB
 Type:   Enchantment
 S/R:    SOM-R
-Whenever an opponent casts a spell, that player loses 5 life unless he or she discards a card.
+Whenever an opponent casts a spell, that player loses 5 life unless they discard a card.
 
 Name:   Painful Truths
 Cost:   2B
@@ -138,8 +138,8 @@ Whenever you cast an artifact spell, you may have target creature get +2/+0 and 
 Name:   Painted Bluffs
 Type:   Land — Desert
 S/R:    AKH-C
-{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.
+{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
 
 Name:   Painter's Servant
 Cost:   2
@@ -244,7 +244,7 @@ Type:   Creature — Spider
 P/T:    4/5
 S/R:    ARB-C, ARC-C
 Reach (This creature can block creatures with flying.)
-Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your library for a Forest or Plains card, reveal it, and put it into your hand. Then shuffle your library.)
+Forestcycling {2}, plainscycling {2} ({2}, Discard this card: Search your library for a Forest or Plains card, reveal it, put it into your hand, then shuffle your library.)
 
 Name:   Pale Rider of Trostad
 Cost:   1B
@@ -281,7 +281,7 @@ Name:   Paliano, the High City
 Type:   Legendary Land
 S/R:    CNS-R
 Reveal Paliano, the High City as you draft it. The player to your right chooses a color, you choose another color, then the player to your left chooses a third color.
-{T}: Add one mana to your mana pool of any color chosen as you drafted cards named Paliano, the High City.
+{T}: Add one mana of any color chosen as you drafted cards named Paliano, the High City.
 
 Name:   Palinchron
 Cost:   5UU
@@ -312,7 +312,7 @@ Cost:   3
 Type:   Artifact Creature — Myr
 P/T:    2/2
 S/R:    SOM-U, C14-U, IMA-U
-{T}: Add {C}{C} to your mana pool.
+{T}: Add {C}{C}.
 
 Name:   Palliation Accord
 Cost:   3WU
@@ -342,13 +342,13 @@ Name:   Panacea
 Cost:   4
 Type:   Artifact
 S/R:    MM-U
-{X}{X}, {T}: Prevent the next X damage that would be dealt to target creature or player this turn.
+{X}{X}, {T}: Prevent the next X damage that would be dealt to any target this turn.
 
 Name:   Pandemonium
 Cost:   3R
 Type:   Enchantment
 S/R:    EX-R, TSP-S
-Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice.
+Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to any target of their choice.
 
 Name:   Pang Tong, "Young Phoenix"
 Cost:   1WW
@@ -382,7 +382,7 @@ Name:   Panic
 Cost:   R
 Type:   Instant
 S/R:    IA-C, 5E-C, ME2-C
-Cast Panic only during combat before blockers are declared.
+Cast this spell only during combat before blockers are declared.
 Target creature can't block this turn.
 Draw a card at the beginning of the next turn's upkeep.
 
@@ -417,7 +417,7 @@ Cost:   2U
 Type:   Creature — Merfolk Rogue
 P/T:    2/2
 S/R:    LRW-C
-When Paperfin Rascal enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Paperfin Rascal. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+When Paperfin Rascal enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Paperfin Rascal. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Paradigm Shift
 Cost:   1U
@@ -429,7 +429,7 @@ Name:   Paradise Mantle
 Cost:   0
 Type:   Artifact — Equipment
 S/R:    5DN-U, MMA-U
-Equipped creature has "{T}: Add one mana of any color to your mana pool."
+Equipped creature has "{T}: Add one mana of any color."
 Equip {1}
 
 Name:   Paradise Plume
@@ -438,7 +438,7 @@ Type:   Artifact
 S/R:    TSP-U
 As Paradise Plume enters the battlefield, choose a color.
 Whenever a player casts a spell of the chosen color, you may gain 1 life.
-{T}: Add one mana of the chosen color to your mana pool.
+{T}: Add one mana of the chosen color.
 
 Name:   Paradox Engine
 Cost:   5
@@ -465,7 +465,7 @@ Type:   Creature — Human Druid
 P/T:    2/2
 S/R:    M15-U
 Other green creatures you control get +1/+1.
-{G}, {T}: Another target green creature you control gains trample until end of turn. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+{G}, {T}: Another target green creature you control gains trample until end of turn. (If it would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)
 
 Name:   Paragon of Fierce Defiance
 Cost:   3R
@@ -527,8 +527,8 @@ Cost:   2B
 Type:   Enchantment
 S/R:    NE-R
 Fading 5 (This enchantment enters the battlefield with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
-Remove a fade counter from Parallax Nexus: Target opponent exiles a card from his or her hand. Activate this ability only any time you could cast a sorcery.
-When Parallax Nexus leaves the battlefield, each player returns to his or her hand all cards he or she owns exiled with Parallax Nexus.
+Remove a fade counter from Parallax Nexus: Target opponent exiles a card from their hand. Activate this ability only any time you could cast a sorcery.
+When Parallax Nexus leaves the battlefield, each player returns to their hand all cards they own exiled with Parallax Nexus.
 
 Name:   Parallax Tide
 Cost:   2UU
@@ -536,7 +536,7 @@ Type:   Enchantment
 S/R:    NE-R
 Fading 5 (This enchantment enters the battlefield with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
 Remove a fade counter from Parallax Tide: Exile target land.
-When Parallax Tide leaves the battlefield, each player returns to the battlefield all cards he or she owns exiled with Parallax Tide.
+When Parallax Tide leaves the battlefield, each player returns to the battlefield all cards they own exiled with Parallax Tide.
 
 Name:   Parallax Wave
 Cost:   2WW
@@ -544,7 +544,7 @@ Type:   Enchantment
 S/R:    NE-R, VMA-R
 Fading 5 (This enchantment enters the battlefield with five fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)
 Remove a fade counter from Parallax Wave: Exile target creature.
-When Parallax Wave leaves the battlefield, each player returns to the battlefield all cards he or she owns exiled with Parallax Wave.
+When Parallax Wave leaves the battlefield, each player returns to the battlefield all cards they own exiled with Parallax Wave.
 
 Name:   Parallectric Feedback
 Cost:   3R
@@ -579,7 +579,7 @@ S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, VMA-C, MED-C
 Enchant creature
 When Paralyze enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.
-At the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If he or she does, untap the creature.
+At the beginning of the upkeep of enchanted creature's controller, that player may pay {4}. If the player does, untap the creature.
 
 Name:   Paralyzing Grasp
 Cost:   2U
@@ -592,7 +592,7 @@ Name:   Paranoid Delusions
 Cost:   UB
 Type:   Sorcery
 S/R:    GTC-C
-Target player puts the top three cards of his or her library into his or her graveyard.
+Target player puts the top three cards of their library into their graveyard.
 Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 
 Name:   Paranoid Parish-Blade
@@ -649,7 +649,7 @@ Cost:   1R
 Type:   Instant
 S/R:    UL-C
 Choose one —
-• Parch deals 2 damage to target creature or player.
+• Parch deals 2 damage to any target.
 • Parch deals 4 damage to target blue creature.
 
 Name:   Pardic Arsonist
@@ -657,7 +657,7 @@ Cost:   2RR
 Type:   Creature — Human Barbarian
 P/T:    3/3
 S/R:    TOR-U
-Threshold — As long as seven or more cards are in your graveyard, Pardic Arsonist has "When Pardic Arsonist enters the battlefield, it deals 3 damage to target creature or player."
+Threshold — As long as seven or more cards are in your graveyard, Pardic Arsonist has "When Pardic Arsonist enters the battlefield, it deals 3 damage to any target."
 
 Name:   Pardic Collaborator
 Cost:   3R
@@ -706,6 +706,13 @@ P/T:    1/1
 S/R:    OD-C
 {R}, Discard a card at random: Pardic Swordsmith gets +2/+0 until end of turn.
 
+Name:   Pardic Wanderer
+Cost:   6
+Type:   Artifact Creature — Golem
+P/T:    5/5
+S/R:    DOM-C
+Trample
+
 Name:   Pariah
 Cost:   2W
 Type:   Enchantment — Aura
@@ -725,7 +732,7 @@ Cost:   1R
 Type:   Enchantment — Aura
 S/R:    EX-U
 Enchant creature
-At the beginning of the upkeep of enchanted creature's controller, that player reveals the top card of his or her library. If that card is a land card, destroy that creature. Otherwise, it gets +3/+3 until end of turn.
+At the beginning of the upkeep of enchanted creature's controller, that player reveals the top card of their library. If that card is a land card, destroy that creature. Otherwise, it gets +3/+3 until end of turn.
 
 Name:   Part Water
 Cost:   XXU
@@ -786,7 +793,7 @@ Name:   Path of Ancestry
 Type:   Land
 S/R:    C17-C
 Path of Ancestry enters the battlefield tapped.
-{T}: Add to your mana pool one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1.
+{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1.
 
 Name:   Path of Anger's Flame
 Cost:   2R
@@ -819,14 +826,14 @@ Whenever you attack with at least two creatures that have first strike, double s
 Name:   Path of Peace
 Cost:   3W
 Type:   Sorcery
-S/R:    P1-C, P2-C, US-C, S99-C
+S/R:    P1-C, P2-C, US-C, S99-C, A25-C
 Destroy target creature. Its owner gains 4 life.
 
 Name:   Path to Exile
 Cost:   W
 Type:   Instant
-S/R:    CON-U, ARC-U, CMD-U, MMA-U, MM3-U, CMA-U, DDI-U
-Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.
+S/R:    CON-U, ARC-U, CMD-U, MMA-U, MM3-U, CMA-U, E02-U, DDI-U
+Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.
 
 Name:   Pathbreaker Ibex
 Cost:   4GG
@@ -869,7 +876,7 @@ Name:   Patriarch's Bidding
 Cost:   3BB
 Type:   Sorcery
 S/R:    ONS-R
-Each player chooses a creature type. Each player returns all creature cards of a type chosen this way from his or her graveyard to the battlefield.
+Each player chooses a creature type. Each player returns all creature cards of a type chosen this way from their graveyard to the battlefield.
 
 Name:   Patriarch's Desire
 Cost:   3B
@@ -978,13 +985,13 @@ Cost:   3G
 Type:   Enchantment — Aura
 S/R:    UD-R
 Enchant creature
-When enchanted creature dies, that creature's controller may search his or her library for a creature card and put that card onto the battlefield. If that player does, he or she shuffles his or her library.
+When enchanted creature dies, that creature's controller may search their library for a creature card and put that card onto the battlefield. If that player does, they shuffle their library.
 
 Name:   Paupers' Cage
 Cost:   3
 Type:   Artifact
 S/R:    MI-R
-At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to him or her.
+At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Paupers' Cage deals 2 damage to that player.
 
 Name:   Pavel Maliki
 Cost:   4BR
@@ -998,7 +1005,7 @@ Cost:   1BB
 Type:   Creature — Vampire Shaman
 P/T:    2/2
 S/R:    ROE-U, C17-U, DDP-U
-Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+Whenever Pawn of Ulamog or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has "Sacrifice this creature: Add {C}."
 
 Name:   Pay No Heed
 Cost:   W
@@ -1073,7 +1080,7 @@ Type:   Creature — Leviathan
 P/T:    6/7
 S/R:    KTK-M
 Flash
-Pearl Lake Ancient can't be countered.
+This spell can't be countered.
 Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 Return three lands you control to their owner's hand: Return Pearl Lake Ancient to its owner's hand.
 
@@ -1087,7 +1094,7 @@ Name:   Pearl Shard
 Cost:   3
 Type:   Artifact
 S/R:    MRD-U
-{3}, {T} or {W}, {T}: Prevent the next 2 damage that would be dealt to target creature or player this turn.
+{3}, {T} or {W}, {T}: Prevent the next 2 damage that would be dealt to any target this turn.
 
 Name:   Pearled Unicorn
 Cost:   2W
@@ -1107,7 +1114,7 @@ Name:   Peat Bog
 Type:   Land
 S/R:    MM-C
 Peat Bog enters the battlefield tapped with two depletion counters on it.
-{T}, Remove a depletion counter from Peat Bog: Add {B}{B} to your mana pool. If there are no depletion counters on Peat Bog, sacrifice it.
+{T}, Remove a depletion counter from Peat Bog: Add {B}{B}. If there are no depletion counters on Peat Bog, sacrifice it.
 
 Name:   Pedantic Learning
 Cost:   UU
@@ -1164,6 +1171,14 @@ S/R:    US-C, 9ED-C
 Flying (This creature can't be blocked except by creatures with flying or reach.)
 First strike (This creature deals combat damage before creatures without first strike.)
 
+Name:   Pegasus Courser
+Cost:   2W
+Type:   Creature — Pegasus
+P/T:    1/3
+S/R:    DOM-C
+Flying
+Whenever Pegasus Courser attacks, another target attacking creature gains flying until end of turn.
+
 Name:   Pegasus Refuge
 Cost:   3W
 Type:   Enchantment
@@ -1204,8 +1219,8 @@ Put a card from your hand on top of your library: The next time a black or red s
 
 Name:   Pendelhaven
 Type:   Legendary Land
-S/R:    LE-U, TSP-S
-{T}: Add {G} to your mana pool.
+S/R:    LE-U, TSP-S, A25-R
+{T}: Add {G}.
 {T}: Target 1/1 creature gets +1/+2 until end of turn.
 
 Name:   Pendelhaven Elder
@@ -1261,7 +1276,7 @@ Cost:   2
 Type:   Artifact
 S/R:    5DN-C, HOP-C
 Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
-Remove a charge counter from Pentad Prism: Add one mana of any color to your mana pool.
+Remove a charge counter from Pentad Prism: Add one mana of any color.
 
 Name:   Pentagram of the Ages
 Cost:   4
@@ -1387,8 +1402,8 @@ Name:   Perilous Myr
 Cost:   2
 Type:   Artifact Creature — Myr
 P/T:    1/1
-S/R:    SOM-C
-When Perilous Myr dies, it deals 2 damage to target creature or player.
+S/R:    SOM-C, A25-U
+When Perilous Myr dies, it deals 2 damage to any target.
 
 Name:   Perilous Predicament
 Cost:   4B
@@ -1439,13 +1454,13 @@ Name:   Perish the Thought
 Cost:   2B
 Type:   Sorcery
 S/R:    ROE-C
-Target opponent reveals his or her hand. You choose a card from it. That player shuffles that card into his or her library.
+Target opponent reveals their hand. You choose a card from it. That player shuffles that card into their library.
 
 Name:   Permafrost Trap
 Cost:   2UU
 Type:   Instant — Trap
 S/R:    WWK-U
-If an opponent had a green creature enter the battlefield under his or her control this turn, you may pay {U} rather than pay Permafrost Trap's mana cost.
+If an opponent had a green creature enter the battlefield under their control this turn, you may pay {U} rather than pay this spell's mana cost.
 Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.
 
 Name:   Permeating Mass
@@ -1458,7 +1473,7 @@ Whenever Permeating Mass deals combat damage to a creature, that creature become
 Name:   Pernicious Deed
 Cost:   1BG
 Type:   Enchantment
-S/R:    AP-R, CNS-M
+S/R:    AP-R, CNS-M, A25-R
 {X}, Sacrifice Pernicious Deed: Destroy each artifact, creature, and enchantment with converted mana cost X or less.
 
 Name:   Perpetual Timepiece
@@ -1472,7 +1487,7 @@ Name:   Perplex
 Cost:   1UB
 Type:   Instant
 S/R:    RAV-C
-Counter target spell unless its controller discards his or her hand.
+Counter target spell unless its controller discards their hand.
 Transmute {1}{U}{B} ({1}{U}{B}, Discard this card: Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library. Transmute only as a sorcery.)
 
 Name:   Perplexing Chimera
@@ -1486,7 +1501,7 @@ Name:   Persecute
 Cost:   2BB
 Type:   Sorcery
 S/R:    US-R, 7E-R, 8ED-R, 9ED-R
-Choose a color. Target player reveals his or her hand and discards all cards of that color.
+Choose a color. Target player reveals their hand and discards all cards of that color.
 
 Name:   Persistent Nightmare
 Type:   Creature — Nightmare
@@ -1504,7 +1519,7 @@ Type:   Creature — Avatar Incarnation
 P/T:    6/6
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, ME4-R
 {0}: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation's owner may activate this ability.
-When Personal Incarnation dies, its owner loses half his or her life, rounded up.
+When Personal Incarnation dies, its owner loses half their life, rounded up.
 
 Name:   Personal Sanctuary
 Cost:   2W
@@ -1578,7 +1593,7 @@ Type:   Creature — Spirit
 P/T:    1/2
 S/R:    BOK-C
 Whenever you cast a Spirit or Arcane spell, you may put a ki counter on Petalmane Baku.
-{1}, Remove X ki counters from Petalmane Baku: Add X mana of any one color to your mana pool.
+{1}, Remove X ki counters from Petalmane Baku: Add X mana of any one color.
 
 Name:   Petals of Insight
 Cost:   4U
@@ -1591,7 +1606,7 @@ Cost:   2WWW
 Type:   Creature — Sphinx
 P/T:    3/4
 S/R:    LE-R, CH-R, MED-R
-{T}: Target player chooses a card name, then reveals the top card of his or her library. If that card has the chosen name, that player puts it into his or her hand. If it doesn't, the player puts it into his or her graveyard.
+{T}: Target player chooses a card name, then reveals the top card of their library. If that card has the chosen name, that player puts it into their hand. If it doesn't, the player puts it into their graveyard.
 
 Name:   Petradon
 Cost:   6RR
@@ -1621,7 +1636,7 @@ When Petravark leaves the battlefield, return the exiled card to the battlefield
 Name:   Petrified Field
 Type:   Land
 S/R:    OD-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {T}, Sacrifice Petrified Field: Return target land card from your graveyard to your hand.
 
 Name:   Petrified Plating
@@ -1637,7 +1652,7 @@ Cost:   6G
 Type:   Creature — Elemental Warrior
 P/T:    3/3
 S/R:    GPT-R
-Petrified Wood-Kin can't be countered.
+This spell can't be countered.
 Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the damage dealt to your opponents this turn.)
 Protection from instants
 
@@ -1661,7 +1676,7 @@ Name:   Phalanx Formation
 Cost:   2W
 Type:   Instant
 S/R:    JOU-U
-Strive — Phalanx Formation costs {1}{W} more to cast for each target beyond the first.
+Strive — This spell costs {1}{W} more to cast for each target beyond the first.
 Any number of target creatures each gain double strike until end of turn. (They deal both first-strike and regular combat damage.)
 
 Name:   Phalanx Leader
@@ -1676,7 +1691,7 @@ Cost:   5BB
 Type:   Creature — Horror
 P/T:    6/6
 S/R:    PLC-U
-When you cast Phantasmagorian, any player may discard three cards. If a player does, counter Phantasmagorian.
+When you cast this spell, any player may discard three cards. If a player does, counter Phantasmagorian.
 Discard three cards: Return Phantasmagorian from your graveyard to your hand.
 
 Name:   Phantasmal Abomination
@@ -1691,7 +1706,7 @@ Name:   Phantasmal Bear
 Cost:   U
 Type:   Creature — Bear Illusion
 P/T:    2/2
-S/R:    M12-C, DDM-C
+S/R:    M12-C, A25-C, DDM-C
 When Phantasmal Bear becomes the target of a spell or ability, sacrifice it.
 
 Name:   Phantasmal Dragon
@@ -1924,7 +1939,7 @@ P/T:    4/7
 S/R:    BNG-M
 Indestructible
 As long as your devotion to blue and black is less than seven, Phenax isn't a creature.
-Creatures you control have "{T}: Target player puts the top X cards of his or her library into his or her graveyard, where X is this creature's toughness."
+Creatures you control have "{T}: Target player puts the top X cards of their library into their graveyard, where X is this creature's toughness."
 
 Name:   Pheres-Band Centaurs
 Cost:   4G
@@ -2000,15 +2015,15 @@ Enchanted creature has infect. (It deals damage to creatures in the form of -1/-
 
 Name:   Phyrexia's Core
 Type:   Land
-S/R:    NPH-U, C14-U
-{T}: Add {C} to your mana pool.
+S/R:    NPH-U, C14-U, DDU-U
+{T}: Add {C}.
 {1}, {T}, Sacrifice an artifact: You gain 1 life.
 
 Name:   Phyrexian Altar
 Cost:   3
 Type:   Artifact
 S/R:    IN-R
-Sacrifice a creature: Add one mana of any color to your mana pool.
+Sacrifice a creature: Add one mana of any color.
 
 Name:   Phyrexian Arena
 Cost:   1BB
@@ -2147,7 +2162,7 @@ Name:   Phyrexian Ghoul
 Cost:   2B
 Type:   Creature — Zombie
 P/T:    2/2
-S/R:    US-C, HOP-C, DDE-C
+S/R:    US-C, HOP-C, A25-C, DDE-C
 Sacrifice a creature: Phyrexian Ghoul gets +2/+2 until end of turn.
 
 Name:   Phyrexian Gremlins
@@ -2213,7 +2228,7 @@ Name:   Phyrexian Lens
 Cost:   3
 Type:   Artifact
 S/R:    IN-R
-{T}, Pay 1 life: Add one mana of any color to your mana pool.
+{T}, Pay 1 life: Add one mana of any color.
 
 Name:   Phyrexian Marauder
 Cost:   X
@@ -2251,7 +2266,7 @@ Name:   Phyrexian Obliterator
 Cost:   BBBB
 Type:   Creature — Horror
 P/T:    5/5
-S/R:    NPH-M
+S/R:    NPH-M, A25-M
 Trample
 Whenever a source deals damage to Phyrexian Obliterator, that source's controller sacrifices that many permanents.
 
@@ -2288,8 +2303,8 @@ Name:   Phyrexian Purge
 Cost:   2BR
 Type:   Sorcery
 S/R:    MI-R
+This spell costs 3 life more to cast for each target.
 Destroy any number of target creatures.
-Phyrexian Purge costs 3 life more to cast for each target.
 
 Name:   Phyrexian Rager
 Cost:   2B
@@ -2324,6 +2339,15 @@ P/T:    2/1
 S/R:    MBS-R, M15-R
 As Phyrexian Revoker enters the battlefield, choose a nonland card name.
 Activated abilities of sources with the chosen name can't be activated.
+
+Name:   Phyrexian Scriptures
+Cost:   2BB
+Type:   Enchantment — Saga
+S/R:    DOM-M
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Put a +1/+1 counter on up to one target creature. That creature becomes an artifact in addition to its other types.
+II — Destroy all nonartifact creatures.
+III — Exile all cards from all opponents' graveyards.
 
 Name:   Phyrexian Scuta
 Cost:   3B
@@ -2374,28 +2398,28 @@ Name:   Phyrexian Totem
 Cost:   3
 Type:   Artifact
 S/R:    TSP-U, DDE-U
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 {2}{B}: Phyrexian Totem becomes a 5/5 black Horror artifact creature with trample until end of turn.
 Whenever Phyrexian Totem is dealt damage, if it's a creature, sacrifice that many permanents.
 
 Name:   Phyrexian Tower
 Type:   Legendary Land
 S/R:    US-R
-{T}: Add {C} to your mana pool.
-{T}, Sacrifice a creature: Add {B}{B} to your mana pool.
+{T}: Add {C}.
+{T}, Sacrifice a creature: Add {B}{B}.
 
 Name:   Phyrexian Tribute
 Cost:   2B
 Type:   Sorcery
 S/R:    MI-R
-As an additional cost to cast Phyrexian Tribute, sacrifice two creatures.
+As an additional cost to cast this spell, sacrifice two creatures.
 Destroy target artifact.
 
 Name:   Phyrexian Tyranny
 Cost:   UBR
 Type:   Enchantment
 S/R:    PS-R
-Whenever a player draws a card, that player loses 2 life unless he or she pays {2}.
+Whenever a player draws a card, that player loses 2 life unless they pay {2}.
 
 Name:   Phyrexian Unlife
 Cost:   2W
@@ -2449,7 +2473,7 @@ Cost:   4GG
 Type:   Creature — Plant Elemental
 P/T:    7/2
 S/R:    M15-R
-When Phytotitan dies, return it to the battlefield tapped under its owner's control at the beginning of his or her next upkeep.
+When Phytotitan dies, return it to the battlefield tapped under its owner's control at the beginning of their next upkeep.
 
 Name:   Pia Nalaar
 Cost:   2R
@@ -2464,15 +2488,15 @@ Name:   Pia and Kiran Nalaar
 Cost:   2RR
 Type:   Legendary Creature — Human Artificer
 P/T:    2/2
-S/R:    ORI-R
+S/R:    ORI-R, DDU-R
 When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
-{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to target creature or player.
+{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to any target.
 
 Name:   Pia's Revolution
 Cost:   2R
 Type:   Enchantment
 S/R:    AeR-R
-Whenever a nontoken artifact is put into your graveyard from the battlefield, return that card to your hand unless target opponent has Pia's Revolution deal 3 damage to him or her.
+Whenever a nontoken artifact is put into your graveyard from the battlefield, return that card to your hand unless target opponent has Pia's Revolution deal 3 damage to them.
 
 Name:   Pianna, Nomad Captain
 Cost:   1WW
@@ -2485,8 +2509,8 @@ Name:   Pick the Brain
 Cost:   2B
 Type:   Sorcery
 S/R:    SOI-U
-Target opponent reveals his or her hand. You choose a nonland card from it and exile that card.
-Delirium — If there are four or more card types among cards in your graveyard, search that player's graveyard, hand, and library for any number of cards with the same name as the exiled card, exile those cards, then that player shuffles his or her library.
+Target opponent reveals their hand. You choose a nonland card from it and exile that card.
+Delirium — If there are four or more card types among cards in your graveyard, search that player's graveyard, hand, and library for any number of cards with the same name as the exiled card, exile those cards, then that player shuffles their library.
 
 Name:   Pieces of the Puzzle
 Cost:   2U
@@ -2500,6 +2524,12 @@ Type:   Artifact Creature — Construct
 P/T:    3/3
 S/R:    MBS-U
 When Pierce Strider enters the battlefield, target opponent loses 3 life.
+
+Name:   Pierce the Sky
+Cost:   1G
+Type:   Instant
+S/R:    DOM-C
+Pierce the Sky deals 7 damage to target creature with flying.
 
 Name:   Piety
 Cost:   2W
@@ -2527,7 +2557,7 @@ Name:   Pilfered Plans
 Cost:   1UB
 Type:   Sorcery
 S/R:    DGM-C, MM3-C
-Target player puts the top two cards of his or her library into his or her graveyard. Draw two cards.
+Target player puts the top two cards of their library into their graveyard. Draw two cards.
 
 Name:   Pilgrim of Justice
 Cost:   2W
@@ -2566,12 +2596,12 @@ Type:   Artifact Creature — Scarecrow
 P/T:    1/1
 S/R:    SHM-C
 Flying
-{2}, {Q}: Add one mana of any color to your mana pool. ({Q} is the untap symbol.)
+{2}, {Q}: Add one mana of any color. ({Q} is the untap symbol.)
 
 Name:   Pillage
 Cost:   1RR
 Type:   Sorcery
-S/R:    AI-U, 6E-U, 7E-U, ME2-U, PD2-U
+S/R:    AI-U, 6E-U, 7E-U, A25-C, ME2-U, PD2-U
 Destroy target artifact or land. It can't be regenerated.
 
 Name:   Pillaging Horde
@@ -2585,13 +2615,13 @@ Name:   Pillar Tombs of Aku
 Cost:   2BB
 Type:   World Enchantment
 S/R:    VI-R
-At the beginning of each player's upkeep, that player may sacrifice a creature. If that player doesn't, he or she loses 5 life and you sacrifice Pillar Tombs of Aku.
+At the beginning of each player's upkeep, that player may sacrifice a creature. If that player doesn't, they lose 5 life and you sacrifice Pillar Tombs of Aku.
 
 Name:   Pillar of Flame
 Cost:   R
 Type:   Sorcery
 S/R:    AVR-C, IMA-C
-Pillar of Flame deals 2 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
+Pillar of Flame deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
 
 Name:   Pillar of Light
 Cost:   2W
@@ -2604,7 +2634,7 @@ Cost:   2
 Type:   Artifact
 S/R:    XLN-U
 As Pillar of Origins enters the battlefield, choose a creature type.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
 
 Name:   Pillar of War
 Cost:   3
@@ -2617,7 +2647,7 @@ As long as Pillar of War is enchanted, it can attack as though it didn't have de
 Name:   Pillar of the Paruns
 Type:   Land
 S/R:    DIS-R
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a multicolored spell.
+{T}: Add one mana of any color. Spend this mana only to cast a multicolored spell.
 
 Name:   Pillarfield Ox
 Cost:   3W
@@ -2628,7 +2658,7 @@ S/R:    ZEN-C, M13-C, M14-C, CNS-C
 Name:   Pillory of the Sleepless
 Cost:   1WB
 Type:   Enchantment — Aura
-S/R:    GPT-C, MM2-U
+S/R:    GPT-C, MM2-U, A25-U
 Enchant creature
 Enchanted creature can't attack or block.
 Enchanted creature has "At the beginning of your upkeep, you lose 1 life."
@@ -2660,8 +2690,8 @@ Name:   Pine Barrens
 Type:   Land
 S/R:    TE-R, VMA-U
 Pine Barrens enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
-{T}: Add {B} or {G} to your mana pool. Pine Barrens deals 1 damage to you.
+{T}: Add {C}.
+{T}: Add {B} or {G}. Pine Barrens deals 1 damage to you.
 
 Name:   Pine Walker
 Cost:   3GG
@@ -2674,8 +2704,8 @@ Whenever Pine Walker or another creature you control is turned face up, untap th
 Name:   Pinecrest Ridge
 Type:   Land
 S/R:    CHK-U
-{T}: Add {C} to your mana pool.
-{T}: Add {R} or {G} to your mana pool. Pinecrest Ridge doesn't untap during your next untap step.
+{T}: Add {C}.
+{T}: Add {R} or {G}. Pinecrest Ridge doesn't untap during your next untap step.
 
 Name:   Pinion Feast
 Cost:   4G
@@ -2687,7 +2717,7 @@ Name:   Pinnacle of Rage
 Cost:   4RR
 Type:   Sorcery
 S/R:    BNG-U
-Pinnacle of Rage deals 3 damage to each of two target creatures and/or players.
+Pinnacle of Rage deals 3 damage to each of two targets.
 
 Name:   Pinpoint Avalanche
 Cost:   3RR
@@ -2754,7 +2784,7 @@ Type:   Land
 S/R:    ZEN-C
 Piranha Marsh enters the battlefield tapped.
 When Piranha Marsh enters the battlefield, target player loses 1 life.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 
 Name:   Pirate Ship
 Cost:   4U
@@ -2762,7 +2792,7 @@ Type:   Creature — Human Pirate
 P/T:    4/3
 S/R:    A-R, B-R, U-R, RV-R, 4E-R, 5E-R, TSP-S
 Pirate Ship can't attack unless defending player controls an Island.
-{T}: Pirate Ship deals 1 damage to target creature or player.
+{T}: Pirate Ship deals 1 damage to any target.
 When you control no Islands, sacrifice Pirate Ship.
 
 Name:   Pirate's Cutlass
@@ -2777,14 +2807,14 @@ Name:   Pirate's Pillage
 Cost:   3R
 Type:   Sorcery
 S/R:    RIX-U
-As an additional cost to cast Pirate's Pillage, discard a card.
-Draw two cards and create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+As an additional cost to cast this spell, discard a card.
+Draw two cards and create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."
 
 Name:   Pirate's Prize
 Cost:   3U
 Type:   Sorcery
 S/R:    XLN-C
-Draw two cards. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Draw two cards. Create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 
 Name:   Piston Sledge
 Cost:   3
@@ -2856,7 +2886,7 @@ Cost:   4R
 Type:   Creature — Devil
 P/T:    3/3
 S/R:    ISD-C, M14-C, CNS-C
-When Pitchburn Devils dies, it deals 3 damage to target creature or player.
+When Pitchburn Devils dies, it deals 3 damage to any target.
 
 Name:   Pitchstone Wall
 Cost:   2R
@@ -2870,7 +2900,7 @@ Name:   Pitfall Trap
 Cost:   2W
 Type:   Instant — Trap
 S/R:    ZEN-U, MM3-C
-If exactly one creature is attacking, you may pay {W} rather than pay Pitfall Trap's mana cost.
+If exactly one creature is attacking, you may pay {W} rather than pay this spell's mana cost.
 Destroy target attacking creature without flying.
 
 Name:   Pith Driller
@@ -2901,7 +2931,7 @@ Cost:   3B
 Type:   Creature — Human Pirate
 P/T:    1/4
 S/R:    RIX-U
-Whenever another creature you control dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Whenever another creature you control dies, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 
 Name:   Pitiless Vizier
 Cost:   3B
@@ -2969,7 +2999,7 @@ Type:   Artifact Creature — Myr
 P/T:    1/1
 S/R:    MBS-U
 Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 
 Name:   Plague Rats
 Cost:   2B
@@ -3010,7 +3040,7 @@ Infect (This creature deals damage to creatures in the form of -1/-1 counters an
 Name:   Plague Wind
 Cost:   7BB
 Type:   Sorcery
-S/R:    PR-R, 8ED-R, 9ED-R, 10E-R
+S/R:    PR-R, 8ED-R, 9ED-R, 10E-R, A25-R
 Destroy all creatures you don't control. They can't be regenerated.
 
 Name:   Plague Witch
@@ -3024,7 +3054,7 @@ Name:   Plague of Vermin
 Cost:   6B
 Type:   Sorcery
 S/R:    SHM-R
-Starting with you, each player may pay any amount of life. Repeat this process until no one pays life. Each player creates a 1/1 black Rat creature token for each 1 life he or she paid this way.
+Starting with you, each player may pay any amount of life. Repeat this process until no one pays life. Each player creates a 1/1 black Rat creature token for each 1 life they paid this way.
 
 Name:   Plaguebearer
 Cost:   1B
@@ -3049,7 +3079,7 @@ S/R:    MBS-U
 
 Name:   Plains
 Type:   Basic Land — Plains
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, UG-C, UNH-L, UST-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, DOM-L, UG-C, UNH-L, UST-L, DDC-L, DDE-L, DDF-L, DDG-L, DDH-L, DDI-L, DDK-L, DDL-L, DDN-L, DDO-L, DDP-L, DDQ-L, H09-L, ME3-L, MED-L
 
 Name:   Planar Birth
 Cost:   1W
@@ -3068,7 +3098,7 @@ Cost:   2R
 Type:   Enchantment
 S/R:    JUD-U
 At the beginning of your upkeep, flip a coin. If you lose the flip, sacrifice Planar Chaos.
-Whenever a player casts a spell, that player flips a coin. If he or she loses the flip, counter that spell.
+Whenever a player casts a spell, that player flips a coin. If they lose the flip, counter that spell.
 
 Name:   Planar Cleansing
 Cost:   3WWW
@@ -3112,7 +3142,7 @@ Name:   Planar Overlay
 Cost:   2U
 Type:   Sorcery
 S/R:    PS-R
-Each player chooses a land he or she controls of each basic land type. Return those lands to their owners' hands.
+Each player chooses a land they control of each basic land type. Return those lands to their owners' hands.
 
 Name:   Planar Portal
 Cost:   6
@@ -3130,31 +3160,31 @@ Name:   Planeswalker's Favor
 Cost:   2G
 Type:   Enchantment
 S/R:    PS-R
-{3}{G}: Target opponent reveals a card at random from his or her hand. Target creature gets +X/+X until end of turn, where X is the revealed card's converted mana cost.
+{3}{G}: Target opponent reveals a card at random from their hand. Target creature gets +X/+X until end of turn, where X is the revealed card's converted mana cost.
 
 Name:   Planeswalker's Fury
 Cost:   2R
 Type:   Enchantment
 S/R:    PS-R
-{3}{R}: Target opponent reveals a card at random from his or her hand. Planeswalker's Fury deals damage equal to that card's converted mana cost to that player. Activate this ability only any time you could cast a sorcery.
+{3}{R}: Target opponent reveals a card at random from their hand. Planeswalker's Fury deals damage equal to that card's converted mana cost to that player. Activate this ability only any time you could cast a sorcery.
 
 Name:   Planeswalker's Mirth
 Cost:   2W
 Type:   Enchantment
 S/R:    PS-R
-{3}{W}: Target opponent reveals a card at random from his or her hand. You gain life equal to that card's converted mana cost.
+{3}{W}: Target opponent reveals a card at random from their hand. You gain life equal to that card's converted mana cost.
 
 Name:   Planeswalker's Mischief
 Cost:   2U
 Type:   Enchantment
 S/R:    PS-R
-{3}{U}: Target opponent reveals a card at random from his or her hand. If it's an instant or sorcery card, exile it. You may cast it without paying its mana cost for as long as it remains exiled. (If it has X in its mana cost, X is 0.) At the beginning of the next end step, if you haven't cast it, return it to its owner's hand. Activate this ability only any time you could cast a sorcery.
+{3}{U}: Target opponent reveals a card at random from their hand. If it's an instant or sorcery card, exile it. You may cast it without paying its mana cost for as long as it remains exiled. (If it has X in its mana cost, X is 0.) At the beginning of the next end step, if you haven't cast it, return it to its owner's hand. Activate this ability only any time you could cast a sorcery.
 
 Name:   Planeswalker's Scorn
 Cost:   2B
 Type:   Enchantment
 S/R:    PS-R
-{3}{B}: Target opponent reveals a card at random from his or her hand. Target creature gets -X/-X until end of turn, where X is the revealed card's converted mana cost. Activate this ability only any time you could cast a sorcery.
+{3}{B}: Target opponent reveals a card at random from their hand. Target creature gets -X/-X until end of turn, where X is the revealed card's converted mana cost. Activate this ability only any time you could cast a sorcery.
 
 Name:   Plant Elemental
 Cost:   1G
@@ -3167,7 +3197,7 @@ Name:   Plasm Capture
 Cost:   GGUU
 Type:   Instant
 S/R:    DGM-R, DDO-R
-Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors to your mana pool, where X is that spell's converted mana cost.
+Counter target spell. At the beginning of your next precombat main phase, add X mana in any combination of colors, where X is that spell's converted mana cost.
 
 Name:   Plasma Elemental
 Cost:   5U
@@ -3179,7 +3209,7 @@ Plasma Elemental can't be blocked.
 Name:   Plateau
 Type:   Land — Mountain Plains
 S/R:    A-R, B-R, U-R, RV-R, VMA-R, ME3-R, ME4-R
-({T}: Add {R} or {W} to your mana pool.)
+({T}: Add {R} or {W}.)
 
 Name:   Plated Crusher
 Cost:   4GGG
@@ -3203,7 +3233,7 @@ P/T:    1/2
 S/R:    TSP-U
 Flash (You may cast this spell any time you could cast an instant.)
 Flying
-If a spell would deal damage to a creature or player, prevent 1 damage that spell would deal to that creature or player.
+If a spell would deal damage to a permanent or player, prevent 1 damage that spell would deal to that permanent or player.
 
 Name:   Plated Rootwalla
 Cost:   4G
@@ -3334,7 +3364,7 @@ Defender, flying
 Name:   Plummet
 Cost:   1G
 Type:   Instant
-S/R:    ARC-C, M11-C, M12-C, M13-C, M14-C, CNS-C, M15-C, MM2-C, ORI-C, BFZ-C, CN2-C, RIX-C
+S/R:    ARC-C, M11-C, M12-C, M13-C, M14-C, CNS-C, M15-C, MM2-C, ORI-C, BFZ-C, CN2-C, RIX-C, A25-C
 Destroy target creature with flying.
 
 Name:   Plunder
@@ -3400,14 +3430,14 @@ Name:   Pollen Lullaby
 Cost:   1W
 Type:   Instant
 S/R:    LRW-U, CMD-U
-Prevent all combat damage that would be dealt this turn. Clash with an opponent. If you win, creatures that player controls don't untap during the player's next untap step. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Prevent all combat damage that would be dealt this turn. Clash with an opponent. If you win, creatures that player controls don't untap during the player's next untap step. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Pollen Remedy
 Cost:   W
 Type:   Instant
 S/R:    PS-C
 Kicker—Sacrifice a land. (You may sacrifice a land in addition to any other costs as you cast this spell.)
-Prevent the next 3 damage that would be dealt this turn to any number of target creatures and/or players, divided as you choose. If Pollen Remedy was kicked, prevent the next 6 damage this way instead.
+Prevent the next 3 damage that would be dealt this turn to any number of targets, divided as you choose. If this spell was kicked, prevent the next 6 damage this way instead.
 
 Name:   Pollenbright Wings
 Cost:   4GW
@@ -3439,7 +3469,7 @@ Name:   Polluted Mire
 Type:   Land
 S/R:    US-C, C14-C, C15-C, CMA-C, DDD-C, PD3-C
 Polluted Mire enters the battlefield tapped.
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Polukranos, World Eater
@@ -3454,7 +3484,7 @@ Name:   Polymorph
 Cost:   3U
 Type:   Sorcery
 S/R:    MI-R, 6E-R, 9ED-R, M10-R
-Destroy target creature. It can't be regenerated. Its controller reveals cards from the top of his or her library until he or she reveals a creature card. The player puts that card onto the battlefield, then shuffles all other cards revealed this way into his or her library.
+Destroy target creature. It can't be regenerated. Its controller reveals cards from the top of their library until they reveal a creature card. The player puts that card onto the battlefield, then shuffles all other cards revealed this way into their library.
 
 Name:   Polymorphist's Jest
 Cost:   1UU
@@ -3466,7 +3496,7 @@ Name:   Polymorphous Rush
 Cost:   2U
 Type:   Instant
 S/R:    JOU-R
-Strive — Polymorphous Rush costs {1}{U} more to cast for each target beyond the first.
+Strive — This spell costs {1}{U} more to cast for each target beyond the first.
 Choose a creature on the battlefield. Any number of target creatures you control each become a copy of that creature until end of turn.
 
 Name:   Polyraptor
@@ -3545,7 +3575,7 @@ Name:   Port Town
 Type:   Land
 S/R:    SOI-R
 As Port Town enters the battlefield, you may reveal a Plains or Island card from your hand. If you don't, Port Town enters the battlefield tapped.
-{T}: Add {W} or {U} to your mana pool.
+{T}: Add {W} or {U}.
 
 Name:   Portal Mage
 Cost:   2U
@@ -3565,7 +3595,7 @@ Name:   Portent
 Cost:   U
 Type:   Sorcery
 S/R:    IA-C, 5E-C, ME2-C
-Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle his or her library.
+Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle their library.
 Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Portent of Betrayal
@@ -3611,7 +3641,7 @@ Cost:   8
 Type:   Artifact
 S/R:    5DN-R
 If a player would draw a card, that player skips that draw instead.
-At the beginning of each end step, each player sacrifices a permanent unless he or she discards a card.
+At the beginning of each end step, each player sacrifices a permanent unless they discard a card.
 
 Name:   Possessed Skaab
 Cost:   3UB
@@ -3625,7 +3655,7 @@ Name:   Possibility Storm
 Cost:   3RR
 Type:   Enchantment
 S/R:    DGM-R
-Whenever a player casts a spell from his or her hand, that player exiles it, then exiles cards from the top of his or her library until he or she exiles a card that shares a card type with it. That player may cast that card without paying its mana cost. Then he or she puts all cards exiled with Possibility Storm on the bottom of his or her library in a random order.
+Whenever a player casts a spell from their hand, that player exiles it, then exiles cards from the top of their library until they exile a card that shares a card type with it. That player may cast that card without paying its mana cost. Then they put all cards exiled with Possibility Storm on the bottom of their library in a random order.
 
 Name:   Postmortem Lunge
 Cost:   X(B/P)
@@ -3723,20 +3753,20 @@ Name:   Power Sink
 Cost:   XU
 Type:   Instant
 S/R:    A-C, B-C, U-C, RV-C, 4E-C, IA-C, MI-C, 5E-U, TE-C, US-C, 6E-U, VMA-U
-Counter target spell unless its controller pays {X}. If he or she doesn't, that player taps all lands with mana abilities he or she controls and empties his or her mana pool.
+Counter target spell unless its controller pays {X}. If that player doesn't, they tap all lands with mana abilities they control and lose all unspent mana.
 
 Name:   Power Surge
 Cost:   RR
 Type:   Enchantment
 S/R:    A-R, B-R, U-R, RV-R, 4E-R
-At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands he or she controlled at the beginning of this turn.
+At the beginning of each player's upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
 
 Name:   Power Taint
 Cost:   1U
 Type:   Enchantment — Aura
 S/R:    US-C
 Enchant enchantment
-At the beginning of the upkeep of enchanted enchantment's controller, that player loses 2 life unless he or she pays {2}.
+At the beginning of the upkeep of enchanted enchantment's controller, that player loses 2 life unless they pay {2}.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Power of Fire
@@ -3744,7 +3774,7 @@ Cost:   1R
 Type:   Enchantment — Aura
 S/R:    SHM-C, CNS-C
 Enchant creature
-Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
+Enchanted creature has "{T}: This creature deals 1 damage to any target."
 
 Name:   Powerleech
 Cost:   GG
@@ -3758,11 +3788,17 @@ Type:   Enchantment
 S/R:    AP-R
 Whenever a creature attacks or blocks, Powerstone Minefield deals 2 damage to it.
 
+Name:   Powerstone Shard
+Cost:   3
+Type:   Artifact
+S/R:    DOM-C
+{T}: Add {C} for each artifact you control named Powerstone Shard.
+
 Name:   Pox
 Cost:   BBB
 Type:   Sorcery
 S/R:    IA-R, 5E-R, MED-R
-Each player loses a third of his or her life, then discards a third of the cards in his or her hand, then sacrifices a third of the creatures he or she controls, then sacrifices a third of the lands he or she controls. Round up each time.
+Each player loses a third of their life, then discards a third of the cards in their hand, then sacrifices a third of the creatures they control, then sacrifices a third of the lands they control. Round up each time.
 
 Name:   Pradesh Gypsies
 Cost:   2G
@@ -3781,18 +3817,18 @@ Name:   Praetor's Grasp
 Cost:   1BB
 Type:   Sorcery
 S/R:    NPH-R
-Search target opponent's library for a card and exile it face down. Then that player shuffles his or her library. You may look at and play that card for as long as it remains exiled.
+Search target opponent's library for a card and exile it face down. Then that player shuffles their library. You may look at and play that card for as long as it remains exiled.
 
 Name:   Prahv, Spires of Order
 Type:   Land
 S/R:    DIS-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {4}{W}{U}, {T}: Prevent all damage a source of your choice would deal this turn.
 
 Name:   Prairie Stream
 Type:   Land — Plains Island
 S/R:    BFZ-R, EXP-M
-({T}: Add {W} or {U} to your mana pool.)
+({T}: Add {W} or {U}.)
 Prairie Stream enters the battlefield tapped unless you control two or more basic lands.
 
 Name:   Prakhata Club Security
@@ -3814,7 +3850,7 @@ Type:   Creature — Human Cleric
 P/T:    1/1
 S/R:    DK-R, MED-R
 You may choose not to untap Preacher during your untap step.
-{T}: For as long as Preacher remains tapped, gain control of target creature of an opponent's choice he or she controls.
+{T}: For as long as Preacher remains tapped, gain control of target creature of an opponent's choice they control.
 
 Name:   Precinct Captain
 Cost:   WW
@@ -3835,6 +3871,14 @@ Cost:   4U
 Type:   Enchantment
 S/R:    TE-R
 At the beginning of your upkeep, you may look at the top card of target opponent's library. If you do, you may put that card on the bottom of that player's library.
+
+Name:   Precognition Field
+Cost:   3U
+Type:   Enchantment
+S/R:    DOM-R
+You may look at the top card of your library. (You may do this at any time.)
+You may cast the top card of your library if it's an instant or sorcery card.
+{3}: Exile the top card of your library.
 
 Name:   Precursor Golem
 Cost:   5
@@ -3945,7 +3989,7 @@ Name:   Predict
 Cost:   1U
 Type:   Instant
 S/R:    OD-U
-Choose a card name, then target player puts the top card of his or her library into his or her graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card.
+Choose a card name, then target player puts the top card of their library into their graveyard. If that card has the chosen name, you draw two cards. Otherwise, you draw a card.
 
 Name:   Preeminent Captain
 Cost:   2W
@@ -3998,7 +4042,7 @@ Whenever you cast an instant or sorcery spell, scry 1. (Look at the top card of 
 Name:   Presence of Gond
 Cost:   2G
 Type:   Enchantment — Aura
-S/R:    SHM-C, C13-C, CMA-C
+S/R:    SHM-C, C13-C, CMA-C, A25-C
 Enchant creature
 Enchanted creature has "{T}: Create a 1/1 green Elf Warrior creature token."
 
@@ -4051,7 +4095,7 @@ Whenever enchanted creature becomes blocked, tap all lands defending player cont
 Name:   Prey Upon
 Cost:   G
 Type:   Sorcery
-S/R:    ISD-C, M13-C, EMN-C, CN2-C, AeR-C, DDL-C
+S/R:    ISD-C, M13-C, EMN-C, CN2-C, AeR-C, E02-C, DDL-C
 Target creature you control fights target creature you don't control. (Each deals damage equal to its power to the other.)
 
 Name:   Prey's Vengeance
@@ -4068,7 +4112,7 @@ P/T:    4/4
 S/R:    PC2-R, PCA-R
 Flying
 Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)
-Whenever Preyseizer Dragon attacks, it deals damage to target creature or player equal to the number of +1/+1 counters on Preyseizer Dragon.
+Whenever Preyseizer Dragon attacks, it deals damage to any target equal to the number of +1/+1 counters on Preyseizer Dragon.
 
 Name:   Price of Glory
 Cost:   2R
@@ -4147,7 +4191,7 @@ Cost:   2B
 Type:   Creature — Human Cleric Minion
 P/T:    2/1
 S/R:    US-U, DDE-U
-When Priest of Gix enters the battlefield, add {B}{B}{B} to your mana pool.
+When Priest of Gix enters the battlefield, add {B}{B}{B}.
 
 Name:   Priest of Iroas
 Cost:   R
@@ -4161,21 +4205,21 @@ Cost:   1G
 Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    US-C, C14-C, CMA-C
-{T}: Add {G} to your mana pool for each Elf on the battlefield.
+{T}: Add {G} for each Elf on the battlefield.
 
 Name:   Priest of Urabrask
 Cost:   2R
 Type:   Creature — Human Cleric
 P/T:    2/1
 S/R:    NPH-U
-When Priest of Urabrask enters the battlefield, add {R}{R}{R} to your mana pool.
+When Priest of Urabrask enters the battlefield, add {R}{R}{R}.
 
 Name:   Priest of Yawgmoth
 Cost:   1B
 Type:   Creature — Human Cleric
 P/T:    1/2
 S/R:    AQ-C
-{T}, Sacrifice an artifact: Add an amount of {B} to your mana pool equal to the sacrificed artifact's converted mana cost.
+{T}, Sacrifice an artifact: Add an amount of {B} equal to the sacrificed artifact's converted mana cost.
 
 Name:   Priest of the Blood Rite
 Cost:   3BB
@@ -4220,8 +4264,8 @@ Name:   Primal Beyond
 Type:   Land
 S/R:    MOR-R
 As Primal Beyond enters the battlefield, you may reveal an Elemental card from your hand. If you don't, Primal Beyond enters the battlefield tapped.
-{T}: Add {C} to your mana pool.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast an Elemental spell or activate an ability of an Elemental.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast an Elemental spell or activate an ability of an Elemental.
 
 Name:   Primal Boost
 Cost:   2G
@@ -4235,7 +4279,7 @@ Name:   Primal Clay
 Cost:   4
 Type:   Artifact Creature — Shapeshifter
 P/T:    */*
-S/R:    AQ-U, RV-R, 4E-R, 5E-R, 6E-R, M13-U, ME4-C
+S/R:    AQ-U, RV-R, 4E-R, 5E-R, 6E-R, M13-U, A25-C, ME4-C
 As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types. (A creature with defender can't attack.)
 
 Name:   Primal Cocoon
@@ -4253,7 +4297,7 @@ S/R:    LRW-R, ARC-R, MM3-R, DDP-R
 Choose two —
 • Target player gains 7 life.
 • Put target noncreature permanent on top of its owner's library.
-• Target player shuffles his or her graveyard into his or her library.
+• Target player shuffles their graveyard into their library.
 • Search your library for a creature card, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Primal Druid
@@ -4282,7 +4326,7 @@ Cost:   2G
 Type:   Sorcery
 S/R:    PS-C, C15-C, CMA-C
 Kicker—Sacrifice a creature. (You may sacrifice a creature in addition to any other costs as you cast this spell.)
-Search your library for a basic land card, put that card onto the battlefield, then shuffle your library. If Primal Growth was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.
+Search your library for a basic land card, put that card onto the battlefield, then shuffle your library. If this spell was kicked, instead search your library for up to two basic land cards, put them onto the battlefield, then shuffle your library.
 
 Name:   Primal Huntbeast
 Cost:   3G
@@ -4295,7 +4339,7 @@ Name:   Primal Order
 Cost:   2GG
 Type:   Enchantment
 S/R:    HL-R, 5E-R, MED-R
-At the beginning of each player's upkeep, Primal Order deals damage to that player equal to the number of nonbasic lands he or she controls.
+At the beginning of each player's upkeep, Primal Order deals damage to that player equal to the number of nonbasic lands they control.
 
 Name:   Primal Plasma
 Cost:   3U
@@ -4308,7 +4352,7 @@ Name:   Primal Rage
 Cost:   1G
 Type:   Enchantment
 S/R:    ST-U, 10E-U
-Creatures you control have trample. (If a creature you control would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+Creatures you control have trample. (If a creature you control would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)
 
 Name:   Primal Surge
 Cost:   8GG
@@ -4336,7 +4380,7 @@ M-type: Transform
 M-card: Primal Amulet
 S/R:    XLN-R
 (Transforms from Primal Amulet.)
-{T}: Add one mana of any color to your mana pool. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+{T}: Add one mana of any color. When that mana is spent to cast an instant or sorcery spell, copy that spell and you may choose new targets for the copy.
 
 Name:   Primal Whisperer
 Cost:   4G
@@ -4388,7 +4432,7 @@ Cost:   10G
 Type:   Creature — Avatar
 P/T:    10/10
 S/R:    C16-R
-Primeval Protector costs {1} less to cast for each creature your opponents control.
+This spell costs {1} less to cast for each creature your opponents control.
 When Primeval Protector enters the battlefield, put a +1/+1 counter on each other creature you control.
 
 Name:   Primeval Shambler
@@ -4406,6 +4450,13 @@ S/R:    M11-M, M12-M, MM2-M, IMA-M
 Trample
 Whenever Primeval Titan enters the battlefield or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library.
 
+Name:   Primevals' Glorious Rebirth
+Cost:   5WB
+Type:   Legendary Sorcery
+S/R:    DOM-R
+(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Return all legendary permanent cards from your graveyard to the battlefield.
+
 Name:   Primitive Etchings
 Cost:   2GG
 Type:   Enchantment
@@ -4416,7 +4467,7 @@ Name:   Primitive Justice
 Cost:   1R
 Type:   Sorcery
 S/R:    AI-U, ME4-U
-As an additional cost to cast Primitive Justice, you may pay {1}{R} and/or {1}{G} any number of times.
+As an additional cost to cast this spell, you may pay {1}{R} and/or {1}{G} any number of times.
 Destroy target artifact. For each additional {1}{R} you paid, destroy another target artifact. For each additional {1}{G} you paid, destroy another target artifact, and you gain 1 life.
 
 Name:   Primoc Escapee
@@ -4451,6 +4502,12 @@ P/T:    4/5
 S/R:    RAV-R, C14-R, CMA-R
 Whenever you cast a creature spell, you may draw a card.
 
+Name:   Primordial Wurm
+Cost:   4GG
+Type:   Creature — Wurm
+P/T:    7/6
+S/R:    DOM-C
+
 Name:   Prince of Thralls
 Cost:   4UBBR
 Type:   Creature — Demon
@@ -4463,7 +4520,7 @@ Cost:   3UUB
 Type:   Legendary Creature — Human Wizard
 P/T:    5/4
 S/R:    LE-U, ME3-U
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 
 Name:   Prism Array
 Cost:   4U
@@ -4499,7 +4556,7 @@ Cost:   5
 Type:   Artifact
 S/R:    C16-R
 Prismatic Geoscope enters the battlefield tapped.
-Domain — {T}: Add X mana in any combination of colors to your mana pool, where X is the number of basic land types among lands you control.
+Domain — {T}: Add X mana in any combination of colors, where X is the number of basic land types among lands you control.
 
 Name:   Prismatic Lace
 Cost:   U
@@ -4510,9 +4567,9 @@ Target permanent becomes the color or colors of your choice. (This effect lasts 
 Name:   Prismatic Lens
 Cost:   2
 Type:   Artifact
-S/R:    TSP-C, EMA-U
-{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.
+S/R:    TSP-C, EMA-U, E02-U
+{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
 
 Name:   Prismatic Omen
 Cost:   1G
@@ -4581,7 +4638,7 @@ Name:   Pristine Talisman
 Cost:   3
 Type:   Artifact
 S/R:    NPH-C, C13-C, C14-C, IMA-U
-{T}: Add {C} to your mana pool. You gain 1 life.
+{T}: Add {C}. You gain 1 life.
 
 Name:   Private Research
 Cost:   U
@@ -4611,7 +4668,7 @@ Type:   Creature — Elephant
 P/T:    3/3
 S/R:    M13-U
 Prized Elephant gets +1/+1 as long as you control a Forest.
-{G}: Prized Elephant gains trample until end of turn. (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)
+{G}: Prized Elephant gains trample until end of turn. (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to the player or planeswalker it's attacking.)
 
 Name:   Prized Unicorn
 Cost:   3G
@@ -4631,15 +4688,14 @@ Cost:   2U
 Type:   Sorcery
 S/R:    IN-C
 Kicker {1}{B} (You may pay an additional {1}{B} as you cast this spell.)
-Draw three cards, then discard two cards.
-If Probe was kicked, target player discards two cards.
+Draw three cards, then discard two cards. If this spell was kicked, target player discards two cards.
 
 Name:   Processor Assault
 Cost:   1R
 Type:   Sorcery
 S/R:    BFZ-U
 Devoid (This card has no color.)
-As an additional cost to cast Processor Assault, put a card an opponent owns from exile into that player's graveyard.
+As an additional cost to cast this spell, put a card an opponent owns from exile into that player's graveyard.
 Processor Assault deals 5 damage to target creature.
 
 Name:   Proclamation of Rebirth
@@ -4654,14 +4710,14 @@ Cost:   2R
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    PLC-C, 10E-C, M10-U, M11-U, IMA-U
-{T}: Prodigal Pyromancer deals 1 damage to target creature or player.
+{T}: Prodigal Pyromancer deals 1 damage to any target.
 
 Name:   Prodigal Sorcerer
 Cost:   2U
 Type:   Creature — Human Wizard
 P/T:    1/1
 S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, S00-C, 7E-C, TSP-S, EMA-U, ME4-U
-{T}: Prodigal Sorcerer deals 1 damage to target creature or player.
+{T}: Prodigal Sorcerer deals 1 damage to any target.
 
 Name:   Profane Command
 Cost:   XBB
@@ -4683,7 +4739,7 @@ Name:   Profane Prayers
 Cost:   2BB
 Type:   Sorcery
 S/R:    ONS-C
-Profane Prayers deals X damage to target creature or player and you gain X life, where X is the number of Clerics on the battlefield.
+Profane Prayers deals X damage to any target and you gain X life, where X is the number of Clerics on the battlefield.
 
 Name:   Profane Procession
 Cost:   1WB
@@ -4746,12 +4802,12 @@ Cost:   1U
 Type:   Instant
 S/R:    IN-C, DDM-C
 Kicker {2} (You may pay an additional {2} as you cast this spell.)
-Counter target spell if its converted mana cost is 2 or less. If Prohibit was kicked, counter that spell if its converted mana cost is 4 or less instead.
+Counter target spell if its converted mana cost is 2 or less. If this spell was kicked, counter that spell if its converted mana cost is 4 or less instead.
 
 Name:   Promise of Bunrei
 Cost:   2W
 Type:   Enchantment
-S/R:    SOK-R
+S/R:    SOK-R, A25-U
 When a creature you control dies, sacrifice Promise of Bunrei. If you do, create four 1/1 colorless Spirit creature tokens.
 
 Name:   Promise of Power
@@ -4774,7 +4830,7 @@ Name:   Propaganda
 Cost:   2U
 Type:   Enchantment
 S/R:    TE-U, CMD-U, C13-U, C16-U
-Creatures can't attack you unless their controller pays {2} for each creature he or she controls that's attacking you.
+Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.
 
 Name:   Propeller Pioneer
 Cost:   3W
@@ -4794,7 +4850,7 @@ Name:   Prophecy
 Cost:   W
 Type:   Sorcery
 S/R:    HL-C
-Reveal the top card of target opponent's library. If it's a land, you gain 1 life. Then that player shuffles his or her library.
+Reveal the top card of target opponent's library. If it's a land, you gain 1 life. Then that player shuffles their library.
 Draw a card at the beginning of the next turn's upkeep.
 
 Name:   Prophet of Distortion
@@ -4817,7 +4873,7 @@ Name:   Prophetic Bolt
 Cost:   3UR
 Type:   Instant
 S/R:    AP-R, CMD-R, C15-R, VMA-U, DDJ-R
-Prophetic Bolt deals 4 damage to target creature or player. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.
+Prophetic Bolt deals 4 damage to any target. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.
 
 Name:   Prophetic Flamespeaker
 Cost:   1RR
@@ -4830,9 +4886,9 @@ Whenever Prophetic Flamespeaker deals combat damage to a player, exile the top c
 Name:   Prophetic Prism
 Cost:   2
 Type:   Artifact
-S/R:    ROE-C, CMD-C, GTC-C, KLD-C
+S/R:    ROE-C, CMD-C, GTC-C, KLD-C, A25-C
 When Prophetic Prism enters the battlefield, draw a card.
-{1}, {T}: Add one mana of any color to your mana pool.
+{1}, {T}: Add one mana of any color.
 
 Name:   Prophetic Ravings
 Cost:   R
@@ -4852,22 +4908,22 @@ Cost:   4U
 Type:   Creature — Human Pirate
 P/T:    3/4
 S/R:    XLN-C
-When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+When Prosperous Pirates enters the battlefield, create two colorless Treasure artifact tokens with "{T}, Sacrifice this artifact: Add one mana of any color."
 
 Name:   Prossh, Skyraider of Kher
 Cost:   3BRG
 Type:   Legendary Creature — Dragon
 P/T:    5/5
-S/R:    C13-M
+S/R:    C13-M, A25-M
+When you cast this spell, create X 0/1 red Kobold creature tokens named Kobolds of Kher Keep, where X is the amount of mana spent to cast Prossh.
 Flying
-When you cast Prossh, Skyraider of Kher, create X 0/1 red Kobold creature tokens named Kobolds of Kher Keep, where X is the amount of mana spent to cast Prossh.
-Sacrifice another creature: Prossh gets +1/+0 until end of turn.
+Sacrifice another creature: Prossh, Skyraider of Kher gets +1/+0 until end of turn.
 
 Name:   Protean Hulk
 Cost:   5GG
 Type:   Creature — Beast
 P/T:    6/6
-S/R:    DIS-R
+S/R:    DIS-R, A25-R
 When Protean Hulk dies, search your library for any number of creature cards with total converted mana cost 6 or less and put them onto the battlefield. Then shuffle your library.
 
 Name:   Protean Hydra
@@ -4934,7 +4990,7 @@ Name:   Proteus Staff
 Cost:   3
 Type:   Artifact
 S/R:    MRD-R
-{2}{U}, {T}: Put target creature on the bottom of its owner's library. That creature's controller reveals cards from the top of his or her library until he or she reveals a creature card. The player puts that card onto the battlefield and the rest on the bottom of his or her library in any order. Activate this ability only any time you could cast a sorcery.
+{2}{U}, {T}: Put target creature on the bottom of its owner's library. That creature's controller reveals cards from the top of their library until they reveal a creature card. The player puts that card onto the battlefield and the rest on the bottom of their library in any order. Activate this ability only any time you could cast a sorcery.
 
 Name:   Protomatter Powder
 Cost:   2U
@@ -5002,7 +5058,7 @@ Cost:   1GG
 Type:   Creature — Cat Snake
 P/T:    4/3
 S/R:    AKH-R
-Prowling Serpopard can't be countered.
+This spell can't be countered.
 Creature spells you control can't be countered.
 
 Name:   Prying Blade
@@ -5010,41 +5066,41 @@ Cost:   1
 Type:   Artifact — Equipment
 S/R:    XLN-C
 Equipped creature gets +1/+0.
-Whenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color to your mana pool."
+Whenever equipped creature deals combat damage to a player, create a colorless Treasure artifact token with "{T}, Sacrifice this artifact: Add one mana of any color."
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 
 Name:   Prying Questions
 Cost:   2B
 Type:   Sorcery
 S/R:    EMN-U
-Target opponent loses 3 life and puts a card from his or her hand on top of his or her library.
+Target opponent loses 3 life and puts a card from their hand on top of their library.
 
 Name:   Psionic Blast
 Cost:   2U
 Type:   Instant
 S/R:    A-U, B-U, U-U, TSP-S
-Psionic Blast deals 4 damage to target creature or player and 2 damage to you.
+Psionic Blast deals 4 damage to any target and 2 damage to you.
 
 Name:   Psionic Entity
 Cost:   4U
 Type:   Creature — Illusion
 P/T:    2/2
 S/R:    LE-R, 4E-R
-{T}: Psionic Entity deals 2 damage to target creature or player and 3 damage to itself.
+{T}: Psionic Entity deals 2 damage to any target and 3 damage to itself.
 
 Name:   Psionic Gift
 Cost:   1U
 Type:   Enchantment — Aura
 S/R:    OD-C
 Enchant creature
-Enchanted creature has "{T}: This creature deals 1 damage to target creature or player."
+Enchanted creature has "{T}: This creature deals 1 damage to any target."
 
 Name:   Psionic Sliver
 Cost:   4U
 Type:   Creature — Sliver
 P/T:    2/2
 S/R:    TSP-R
-All Sliver creatures have "{T}: This creature deals 2 damage to target creature or player and 3 damage to itself."
+All Sliver creatures have "{T}: This creature deals 2 damage to any target and 3 damage to itself."
 
 Name:   Psychatog
 Cost:   1UB
@@ -5059,7 +5115,7 @@ Cost:   3UU
 Type:   Enchantment
 S/R:    DK-R
 As Psychic Allergy enters the battlefield, choose a color.
-At the beginning of each opponent's upkeep, Psychic Allergy deals X damage to that player, where X is the number of nontoken permanents of the chosen color he or she controls.
+At the beginning of each opponent's upkeep, Psychic Allergy deals X damage to that player, where X is the number of nontoken permanents of the chosen color they control.
 At the beginning of your upkeep, destroy Psychic Allergy unless you sacrifice two Islands.
 
 Name:   Psychic Barrier
@@ -5072,19 +5128,19 @@ Name:   Psychic Battle
 Cost:   3UU
 Type:   Enchantment
 S/R:    IN-R
-Whenever a player chooses one or more targets, each player reveals the top card of his or her library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger abilities of permanents named Psychic Battle.
+Whenever a player chooses one or more targets, each player reveals the top card of their library. The player who reveals the card with the highest converted mana cost may change the target or targets. If two or more cards are tied for highest cost, the target or targets remain unchanged. Changing targets this way doesn't trigger abilities of permanents named Psychic Battle.
 
 Name:   Psychic Drain
 Cost:   XUB
 Type:   Sorcery
 S/R:    RAV-U
-Target player puts the top X cards of his or her library into his or her graveyard and you gain X life.
+Target player puts the top X cards of their library into their graveyard and you gain X life.
 
 Name:   Psychic Intrusion
 Cost:   3UB
 Type:   Sorcery
 S/R:    THS-R
-Target opponent reveals his or her hand. You choose a nonland card from that player's graveyard or hand and exile it. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.
+Target opponent reveals their hand. You choose a nonland card from that player's graveyard or hand and exile it. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.
 
 Name:   Psychic Membrane
 Cost:   2U
@@ -5128,7 +5184,7 @@ Name:   Psychic Purge
 Cost:   U
 Type:   Sorcery
 S/R:    LE-C, MED-U
-Psychic Purge deals 1 damage to target creature or player.
+Psychic Purge deals 1 damage to any target.
 When a spell or ability an opponent controls causes you to discard Psychic Purge, that player loses 5 life.
 
 Name:   Psychic Rebuttal
@@ -5142,31 +5198,31 @@ Name:   Psychic Spear
 Cost:   B
 Type:   Sorcery
 S/R:    BOK-C
-Target player reveals his or her hand. You choose a Spirit or Arcane card from it. That player discards that card.
+Target player reveals their hand. You choose a Spirit or Arcane card from it. That player discards that card.
 
 Name:   Psychic Spiral
 Cost:   4U
 Type:   Instant
 S/R:    RTR-U
-Shuffle all cards from your graveyard into your library. Target player puts that many cards from the top of his or her library into his or her graveyard.
+Shuffle all cards from your graveyard into your library. Target player puts that many cards from the top of their library into their graveyard.
 
 Name:   Psychic Strike
 Cost:   1UB
 Type:   Instant
 S/R:    GTC-C
-Counter target spell. Its controller puts the top two cards of his or her library into his or her graveyard.
+Counter target spell. Its controller puts the top two cards of their library into their graveyard.
 
 Name:   Psychic Surgery
 Cost:   1U
 Type:   Enchantment
 S/R:    NPH-R
-Whenever an opponent shuffles his or her library, you may look at the top two cards of that library. You may exile one of those cards. Then put the rest on top of that library in any order.
+Whenever an opponent shuffles their library, you may look at the top two cards of that library. You may exile one of those cards. Then put the rest on top of that library in any order.
 
 Name:   Psychic Theft
 Cost:   1U
 Type:   Sorcery
 S/R:    PR-R
-Target player reveals his or her hand. You choose an instant or sorcery card from it and exile that card. You may cast that card for as long as it remains exiled. At the beginning of the next end step, if you haven't cast the card, return it to its owner's hand.
+Target player reveals their hand. You choose an instant or sorcery card from it and exile that card. You may cast that card for as long as it remains exiled. At the beginning of the next end step, if you haven't cast the card, return it to its owner's hand.
 
 Name:   Psychic Trance
 Cost:   2UU
@@ -5198,7 +5254,7 @@ Name:   Psychogenic Probe
 Cost:   2
 Type:   Artifact
 S/R:    MRD-R
-Whenever a spell or ability causes a player to shuffle his or her library, Psychogenic Probe deals 2 damage to him or her.
+Whenever a spell or ability causes a player to shuffle their library, Psychogenic Probe deals 2 damage to that player.
 
 Name:   Psychosis Crawler
 Cost:   5
@@ -5212,7 +5268,7 @@ Name:   Psychotic Episode
 Cost:   1BB
 Type:   Sorcery
 S/R:    TSP-C
-Target player reveals his or her hand and the top card of his or her library. You choose a card revealed this way. That player puts the chosen card on the bottom of his or her library.
+Target player reveals their hand and the top card of their library. You choose a card revealed this way. That player puts the chosen card on the bottom of their library.
 Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 
 Name:   Psychotic Fury
@@ -5299,7 +5355,7 @@ Name:   Pulling Teeth
 Cost:   1B
 Type:   Sorcery
 S/R:    MOR-C
-Clash with an opponent. If you win, target player discards two cards. Otherwise, that player discards a card. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Clash with an opponent. If you win, target player discards two cards. Otherwise, that player discards a card. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Pulmonic Sliver
 Cost:   3WW
@@ -5340,7 +5396,7 @@ Name:   Pulse of the Dross
 Cost:   1BB
 Type:   Sorcery
 S/R:    DST-R
-Target player reveals three cards from his or her hand and you choose one of them. That player discards that card. Then if that player has more cards in hand than you, return Pulse of the Dross to its owner's hand.
+Target player reveals three cards from their hand and you choose one of them. That player discards that card. Then if that player has more cards in hand than you, return Pulse of the Dross to its owner's hand.
 
 Name:   Pulse of the Fields
 Cost:   1WW
@@ -5352,7 +5408,7 @@ Name:   Pulse of the Forge
 Cost:   1RR
 Type:   Instant
 S/R:    DST-R
-Pulse of the Forge deals 4 damage to target player. Then if that player has more life than you, return Pulse of the Forge to its owner's hand.
+Pulse of the Forge deals 4 damage to target player or planeswalker. Then if that player or that planeswalker's controller has more life than you, return Pulse of the Forge to its owner's hand.
 
 Name:   Pulse of the Grid
 Cost:   1UU
@@ -5371,13 +5427,13 @@ Cost:   2W
 Type:   Creature — Human Cleric
 P/T:    1/3
 S/R:    JUD-R
-{T}: Return three target cards from an opponent's graveyard to his or her hand. Return target creature card from your graveyard to the battlefield.
+{T}: Return three target cards from an opponent's graveyard to their hand. Return target creature card from your graveyard to the battlefield.
 
 Name:   Pulverize
 Cost:   4RR
 Type:   Sorcery
 S/R:    MM-R
-You may sacrifice two Mountains rather than pay Pulverize's mana cost.
+You may sacrifice two Mountains rather than pay this spell's mana cost.
 Destroy all artifacts.
 
 Name:   Puncture Blast
@@ -5385,7 +5441,7 @@ Cost:   2R
 Type:   Instant
 S/R:    EVE-C
 Wither (This deals damage to creatures in the form of -1/-1 counters.)
-Puncture Blast deals 3 damage to target creature or player.
+Puncture Blast deals 3 damage to any target.
 
 Name:   Puncture Bolt
 Cost:   1R
@@ -5415,13 +5471,13 @@ Name:   Punish the Enemy
 Cost:   4R
 Type:   Instant
 S/R:    DGM-C
-Punish the Enemy deals 3 damage to target player and 3 damage to target creature.
+Punish the Enemy deals 3 damage to target player or planeswalker and 3 damage to target creature.
 
 Name:   Punishing Fire
 Cost:   1R
 Type:   Instant
 S/R:    ZEN-U, CMD-U, DDG-U
-Punishing Fire deals 2 damage to target creature or player.
+Punishing Fire deals 2 damage to any target.
 Whenever an opponent gains life, you may pay {R}. If you do, return Punishing Fire from your graveyard to your hand.
 
 Name:   Punishment
@@ -5697,7 +5753,7 @@ Cost:   GU
 Type:   Creature — Hippo
 P/T:    2/2
 S/R:    VI-R
-Whenever Pygmy Hippo attacks and isn't blocked, you may have defending player activate a mana ability of each land he or she controls and empty his or her mana pool. If you do, Pygmy Hippo assigns no combat damage this turn and at the beginning of your next main phase this turn, you add an amount of {C} to your mana pool equal to the amount of mana emptied from that player's mana pool this way.
+Whenever Pygmy Hippo attacks and isn't blocked, you may have defending player activate a mana ability of each land they control and lose all unspent mana. If you do, Pygmy Hippo assigns no combat damage this turn and at the beginning of your next main phase this turn, you add an amount of {C} equal to the amount of mana that player lost this way.
 
 Name:   Pygmy Kavu
 Cost:   3G
@@ -5740,8 +5796,8 @@ Name:   Pyramid of the Pantheon
 Cost:   1
 Type:   Artifact
 S/R:    AKH-R
-{2}, {T}: Add one mana of any color to your mana pool. Put a brick counter on Pyramid of the Pantheon.
-{T}: Add three mana of any one color to your mana pool. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon.
+{2}, {T}: Add one mana of any color. Put a brick counter on Pyramid of the Pantheon.
+{T}: Add three mana of any one color. Activate this ability only if there are three or more brick counters on Pyramid of the Pantheon.
 
 Name:   Pyramids
 Cost:   6
@@ -5763,7 +5819,7 @@ Name:   Pyre Hound
 Cost:   3R
 Type:   Creature — Elemental Hound
 P/T:    2/3
-S/R:    SOI-C
+S/R:    SOI-C, A25-C
 Trample
 Whenever you cast an instant or sorcery spell, put a +1/+1 counter on Pyre Hound.
 
@@ -5773,7 +5829,7 @@ Type:   Creature — Zombie
 P/T:    2/1
 S/R:    IN-R
 At the beginning of your upkeep, if Pyre Zombie is in your graveyard, you may pay {1}{B}{B}. If you do, return Pyre Zombie to your hand.
-{1}{R}{R}, Sacrifice Pyre Zombie: Pyre Zombie deals 2 damage to target creature or player.
+{1}{R}{R}, Sacrifice Pyre Zombie: It deals 2 damage to any target.
 
 Name:   Pyreheart Wolf
 Cost:   2R
@@ -5796,7 +5852,7 @@ Name:   Pyretic Ritual
 Cost:   1R
 Type:   Instant
 S/R:    M11-C
-Add {R}{R}{R} to your mana pool.
+Add {R}{R}{R}.
 
 Name:   Pyrewild Shaman
 Cost:   2R
@@ -5816,8 +5872,8 @@ S/R:    MI-C
 Name:   Pyrite Spellbomb
 Cost:   1
 Type:   Artifact
-S/R:    MRD-C, MMA-C
-{R}, Sacrifice Pyrite Spellbomb: Pyrite Spellbomb deals 2 damage to target creature or player.
+S/R:    MRD-C, MMA-C, DDU-C
+{R}, Sacrifice Pyrite Spellbomb: It deals 2 damage to any target.
 {1}, Sacrifice Pyrite Spellbomb: Draw a card.
 
 Name:   Pyroblast
@@ -5831,7 +5887,7 @@ Choose one —
 Name:   Pyroclasm
 Cost:   1R
 Type:   Sorcery
-S/R:    IA-U, P1-R, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, M11-U, MM3-U, DDK-U, DDL-U
+S/R:    IA-U, P1-R, 7E-U, 8ED-U, 9ED-U, 10E-U, M10-U, M11-U, MM3-U, A25-U, DDK-U, DDL-U
 Pyroclasm deals 2 damage to each creature.
 
 Name:   Pyroclast Consul
@@ -5845,7 +5901,7 @@ Name:   Pyroconvergence
 Cost:   4R
 Type:   Enchantment
 S/R:    RTR-U
-Whenever you cast a multicolored spell, Pyroconvergence deals 2 damage to target creature or player.
+Whenever you cast a multicolored spell, Pyroconvergence deals 2 damage to any target.
 
 Name:   Pyrohemia
 Cost:   2RR
@@ -5858,7 +5914,7 @@ Name:   Pyrokinesis
 Cost:   4RR
 Type:   Instant
 S/R:    AI-U, EMA-R, DDL-U, ME2-R
-You may exile a red card from your hand rather than pay Pyrokinesis's mana cost.
+You may exile a red card from your hand rather than pay this spell's mana cost.
 Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.
 
 Name:   Pyromancer Ascension
@@ -5872,7 +5928,7 @@ Name:   Pyromancer's Assault
 Cost:   3R
 Type:   Enchantment
 S/R:    OGW-U
-Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to target creature or player.
+Whenever you cast your second spell each turn, Pyromancer's Assault deals 2 damage to any target.
 
 Name:   Pyromancer's Gauntlet
 Cost:   5
@@ -5884,34 +5940,41 @@ Name:   Pyromancer's Goggles
 Cost:   5
 Type:   Legendary Artifact
 S/R:    ORI-M
-{T}: Add {R} to your mana pool. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+{T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
 
 Name:   Pyromancer's Swath
 Cost:   2R
 Type:   Enchantment
 S/R:    FUT-R, MMA-R
-If an instant or sorcery source you control would deal damage to a creature or player, it deals that much damage plus 2 to that creature or player instead.
+If an instant or sorcery source you control would deal damage to a permanent or player, it deals that much damage plus 2 to that permanent or player instead.
 At the beginning of each end step, discard your hand.
 
 Name:   Pyromancy
 Cost:   2RR
 Type:   Enchantment
 S/R:    UL-R
-{3}, Discard a card at random: Pyromancy deals damage to target creature or player equal to the converted mana cost of the discarded card.
+{3}, Discard a card at random: Pyromancy deals damage to any target equal to the converted mana cost of the discarded card.
 
 Name:   Pyromania
 Cost:   2R
 Type:   Enchantment
 S/R:    TOR-U
-{1}{R}, Discard a card at random: Pyromania deals 1 damage to target creature or player.
-{1}{R}, Sacrifice Pyromania: Pyromania deals 1 damage to target creature or player.
+{1}{R}, Discard a card at random: Pyromania deals 1 damage to any target.
+{1}{R}, Sacrifice Pyromania: It deals 1 damage to any target.
+
+Name:   Pyromantic Pilgrim
+Cost:   2R
+Type:   Creature — Human Wizard
+P/T:    3/1
+S/R:    DOM-C
+Haste (This creature can attack and {T} as soon as it comes under your control.)
 
 Name:   Pyromatics
 Cost:   1R
 Type:   Instant
 S/R:    GPT-C, DDJ-C
 Replicate {1}{R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
-Pyromatics deals 1 damage to target creature or player.
+Pyromatics deals 1 damage to any target.
 
 Name:   Pyrostatic Pillar
 Cost:   1R
@@ -5923,13 +5986,13 @@ Name:   Pyrotechnics
 Cost:   4R
 Type:   Sorcery
 S/R:    LE-C, 4E-U, 5E-U, 6E-C, 7E-U, 8ED-U, HOP-U, FRF-U
-Pyrotechnics deals 4 damage divided as you choose among any number of target creatures and/or players.
+Pyrotechnics deals 4 damage divided as you choose among any number of targets.
 
 Name:   Pyrrhic Revival
 Cost:   3(W/B)(W/B)(W/B)
 Type:   Sorcery
 S/R:    EVE-R
-Each player returns each creature card from his or her graveyard to the battlefield with an additional -1/-1 counter on it.
+Each player returns each creature card from their graveyard to the battlefield with an additional -1/-1 counter on it.
 
 Name:   Python
 Cost:   1BB
@@ -5941,5 +6004,5 @@ Name:   Pyxis of Pandemonium
 Cost:   1
 Type:   Artifact
 S/R:    THS-R
-{T}: Each player exiles the top card of his or her library face down.
-{7}, {T}, Sacrifice Pyxis of Pandemonium: Each player turns face up all cards he or she owns exiled with Pyxis of Pandemonium, then puts all permanent cards among them onto the battlefield.
+{T}: Each player exiles the top card of their library face down.
+{7}, {T}, Sacrifice Pyxis of Pandemonium: Each player turns face up all cards they own exiled with Pyxis of Pandemonium, then puts all permanent cards among them onto the battlefield.

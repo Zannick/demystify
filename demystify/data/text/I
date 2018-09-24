@@ -27,7 +27,7 @@ Type:   Creature — Human Soldier
 P/T:    1/1
 S/R:    FE-C, TSP-S, DDO-C, ME2-C
 Icatian Javelineers enters the battlefield with a javelin counter on it.
-{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to target creature or player.
+{T}, Remove a javelin counter from Icatian Javelineers: Icatian Javelineers deals 1 damage to any target.
 
 Name:   Icatian Lieutenant
 Cost:   WW
@@ -81,7 +81,7 @@ S/R:    FE-R, 5E-R
 Icatian Store enters the battlefield tapped.
 You may choose not to untap Icatian Store during your untap step.
 At the beginning of your upkeep, if Icatian Store is tapped, put a storage counter on it.
-{T}, Remove any number of storage counters from Icatian Store: Add {W} to your mana pool for each storage counter removed this way.
+{T}, Remove any number of storage counters from Icatian Store: Add {W} for each storage counter removed this way.
 
 Name:   Icatian Town
 Cost:   5W
@@ -111,7 +111,7 @@ Cost:   4
 Type:   Artifact
 S/R:    IA-R, ME4-R
 {X}, {T}: Put a charge counter on Ice Cauldron and exile a nonland card from your hand. You may cast that card for as long as it remains exiled. Note the type and amount of mana spent to pay this activation cost. Activate this ability only if there are no charge counters on Ice Cauldron.
-{T}, Remove a charge counter from Ice Cauldron: Add Ice Cauldron's last noted type and amount of mana to your mana pool. Spend this mana only to cast the last card exiled with Ice Cauldron.
+{T}, Remove a charge counter from Ice Cauldron: Add Ice Cauldron's last noted type and amount of mana. Spend this mana only to cast the last card exiled with Ice Cauldron.
 
 Name:   Ice Cave
 Cost:   3UU
@@ -144,7 +144,7 @@ Type:   Enchantment
 S/R:    IA-U, ME2-U
 Iceberg enters the battlefield with X ice counters on it.
 {3}: Put an ice counter on Iceberg.
-Remove an ice counter from Iceberg: Add {C} to your mana pool.
+Remove an ice counter from Iceberg: Add {C}.
 
 Name:   Icefall
 Cost:   2RR
@@ -192,13 +192,13 @@ Cost:   1GG
 Type:   Creature — Human Druid
 P/T:    1/1
 S/R:    LE-U
-Whenever an opponent casts an instant spell other than the first instant spell that player casts each turn, Ichneumon Druid deals 4 damage to him or her.
+Whenever an opponent casts an instant spell other than the first instant spell that player casts each turn, Ichneumon Druid deals 4 damage to that player.
 
 Name:   Ichor Explosion
 Cost:   5BB
 Type:   Sorcery
 S/R:    NPH-U
-As an additional cost to cast Ichor Explosion, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 All creatures get -X/-X until end of turn, where X is the sacrificed creature's power.
 
 Name:   Ichor Rats
@@ -220,7 +220,7 @@ Madness {3}{B} (If you discard this card, discard it into exile. When you do, ca
 Name:   Ichor Wellspring
 Cost:   2
 Type:   Artifact
-S/R:    MBS-C, C14-C, C16-C
+S/R:    MBS-C, C14-C, C16-C, DDU-C
 When Ichor Wellspring enters the battlefield or is put into a graveyard from the battlefield, draw a card.
 
 Name:   Ichorclaw Myr
@@ -250,7 +250,7 @@ Ferocious — If you control a creature with power 4 or greater, those creatures
 Name:   Icy Manipulator
 Cost:   4
 Type:   Artifact
-S/R:    A-U, B-U, U-U, IA-U, MRD-U, 9ED-U, 10E-U, DDH-U, ME4-U
+S/R:    A-U, B-U, U-U, IA-U, MRD-U, 9ED-U, 10E-U, DOM-U, DDH-U, ME4-U
 {1}, {T}: Tap target artifact, creature, or land.
 
 Name:   Icy Prison
@@ -303,8 +303,8 @@ Flying
 Name:   Ifnir Deadlands
 Type:   Land — Desert
 S/R:    HOU-U
-{T}: Add {C} to your mana pool.
-{T}, Pay 1 life: Add {B} to your mana pool.
+{T}: Add {C}.
+{T}, Pay 1 life: Add {B}.
 {2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate this ability only any time you could cast a sorcery.
 
 Name:   Igneous Golem
@@ -320,7 +320,7 @@ Type:   Creature — Elemental
 P/T:    5/1
 S/R:    ARB-C, DDH-C
 Haste
-Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, and put it into your hand. Then shuffle your library.)
+Swampcycling {2}, mountaincycling {2} ({2}, Discard this card: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle your library.)
 
 Name:   Ignite Disorder
 Cost:   1R
@@ -332,7 +332,7 @@ Name:   Ignite Memories
 Cost:   4R
 Type:   Sorcery
 S/R:    TSP-U
-Target player reveals a card at random from his or her hand. Ignite Memories deals damage to that player equal to that card's converted mana cost.
+Target player reveals a card at random from their hand. Ignite Memories deals damage to that player equal to that card's converted mana cost.
 Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)
 
 Name:   Ignition Team
@@ -360,7 +360,7 @@ Name:   Ihsan's Shade
 Cost:   3BBB
 Type:   Legendary Creature — Shade Knight
 P/T:    5/5
-S/R:    HL-U, ME2-R
+S/R:    HL-U, A25-U, ME2-R
 Protection from white
 
 Name:   Iizuka the Ruthless
@@ -393,7 +393,7 @@ Name:   Ill-Gotten Gains
 Cost:   2BB
 Type:   Sorcery
 S/R:    US-R, CNS-R
-Exile Ill-Gotten Gains. Each player discards his or her hand, then returns up to three cards from his or her graveyard to his or her hand.
+Exile Ill-Gotten Gains. Each player discards their hand, then returns up to three cards from their graveyard to their hand.
 
 Name:   Ill-Tempered Cyclops
 Cost:   3R
@@ -420,7 +420,7 @@ Cost:   XR
 Type:   Sorcery
 S/R:    AP-U
 Kicker {2}{R} and/or {3}{U} (You may pay an additional {2}{R} and/or {3}{U} as you cast this spell.)
-Illuminate deals X damage to target creature. If Illuminate was kicked with its {2}{R} kicker, it deals X damage to that creature's controller. If Illuminate was kicked with its {3}{U} kicker, you draw X cards.
+Illuminate deals X damage to target creature. If this spell was kicked with its {2}{R} kicker, it deals X damage to that creature's controller. If this spell was kicked with its {3}{U} kicker, you draw X cards.
 
 Name:   Illuminated Folio
 Cost:   5
@@ -531,7 +531,7 @@ Name:   Illusionist's Gambit
 Cost:   2UU
 Type:   Instant
 S/R:    C13-R
-Cast Illusionist's Gambit only during the declare blockers step on an opponent's turn.
+Cast this spell only during the declare blockers step on an opponent's turn.
 Remove all attacking creatures from combat and untap them. After this phase, there is an additional combat phase. Each of those creatures attacks that combat if able. They can't attack you or a planeswalker you control that combat.
 
 Name:   Illusionist's Stratagem
@@ -562,8 +562,8 @@ Cost:   2U
 Type:   Creature — Angel Illusion
 P/T:    4/4
 S/R:    PC2-U, M15-U, PCA-U, IMA-U
+Cast this spell only if you've cast another spell this turn.
 Flying
-Cast Illusory Angel only if you've cast another spell this turn.
 
 Name:   Illusory Demon
 Cost:   1UB
@@ -606,7 +606,7 @@ Name:   Imaginary Threats
 Cost:   2UU
 Type:   Instant
 S/R:    HOU-U
-Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures he or she controls don't untap.
+Creatures target opponent controls attack this turn if able. During that player's next untap step, creatures they control don't untap.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Imi Statue
@@ -636,7 +636,7 @@ Cost:   2R
 Type:   Enchantment
 S/R:    HOU-R
 Imminent Doom enters the battlefield with a doom counter on it.
-Whenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to target creature or player. Then put a doom counter on Imminent Doom.
+Whenever you cast a spell with converted mana cost equal to the number of doom counters on Imminent Doom, Imminent Doom deals that much damage to any target. Then put a doom counter on Imminent Doom.
 
 Name:   Immobilizer Eldrazi
 Cost:   1R
@@ -724,7 +724,7 @@ Name:   Impatience
 Cost:   2R
 Type:   Enchantment
 S/R:    UD-R, 7E-R
-At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to him or her.
+At the beginning of each player's end step, if that player didn't cast a spell this turn, Impatience deals 2 damage to that player.
 
 Name:   Impeccable Timing
 Cost:   1W
@@ -765,7 +765,7 @@ Name:   Imperial Edict
 Cost:   1B
 Type:   Sorcery
 S/R:    P3K-C
-Target opponent chooses a creature he or she controls. Destroy it.
+Target opponent chooses a creature they control. Destroy that creature.
 
 Name:   Imperial Hellkite
 Cost:   5RR
@@ -794,8 +794,8 @@ Name:   Imperial Recruiter
 Cost:   2R
 Type:   Creature — Human Advisor
 P/T:    1/1
-S/R:    P3K-U, ME2-R
-When Imperial Recruiter enters the battlefield, search your library for a creature card with power 2 or less, reveal it, and put it into your hand. Then shuffle your library.
+S/R:    P3K-U, A25-M, ME2-R
+When Imperial Recruiter enters the battlefield, search your library for a creature card with power 2 or less, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Imperial Seal
 Cost:   B
@@ -839,7 +839,7 @@ Name:   Implement of Combustion
 Cost:   1
 Type:   Artifact
 S/R:    AeR-C
-{R}, Sacrifice Implement of Combustion: It deals 1 damage to target player.
+{R}, Sacrifice Implement of Combustion: It deals 1 damage to target player or planeswalker.
 When Implement of Combustion is put into a graveyard from the battlefield, draw a card.
 
 Name:   Implement of Examination
@@ -874,7 +874,7 @@ Name:   Implements of Sacrifice
 Cost:   2
 Type:   Artifact
 S/R:    FE-R
-{1}, {T}, Sacrifice Implements of Sacrifice: Add two mana of any one color to your mana pool.
+{1}, {T}, Sacrifice Implements of Sacrifice: Add two mana of any one color.
 
 Name:   Implode
 Cost:   4R
@@ -910,7 +910,7 @@ Cost:   2U
 Type:   Enchantment — Aura
 S/R:    EMN-R
 Enchant creature, land, or planeswalker
-Enchanted permanent is a colorless land with "{T}: Add {C} to your mana pool" and loses all other card types and abilities.
+Enchanted permanent is a colorless land with "{T}: Add {C}" and loses all other card types and abilities.
 
 Name:   Impromptu Raid
 Cost:   3(R/G)
@@ -944,6 +944,14 @@ Cost:   2RR
 Type:   Enchantment
 S/R:    OD-R
 Whenever a creature attacks, flip a coin. If you win the flip, the next time that creature would deal combat damage this turn, it deals double that damage instead. If you lose the flip, the next time that creature would deal combat damage this turn, prevent that damage.
+
+Name:   In Bolas's Clutches
+Cost:   4UU
+Type:   Legendary Enchantment — Aura
+S/R:    DOM-U
+Enchant permanent
+You control enchanted permanent.
+Enchanted permanent is legendary.
 
 Name:   In Garruk's Wake
 Cost:   7BB
@@ -1020,36 +1028,36 @@ Type:   Enchantment — Aura
 S/R:    UD-U
 Enchant creature
 At the beginning of your upkeep, you may put a fuse counter on Incendiary.
-When enchanted creature dies, Incendiary deals X damage to target creature or player, where X is the number of fuse counters on Incendiary.
+When enchanted creature dies, Incendiary deals X damage to any target, where X is the number of fuse counters on Incendiary.
 
 Name:   Incendiary Command
 Cost:   3RR
 Type:   Sorcery
 S/R:    LRW-R, C13-R
 Choose two —
-• Incendiary Command deals 4 damage to target player.
+• Incendiary Command deals 4 damage to target player or planeswalker.
 • Incendiary Command deals 2 damage to each creature.
 • Destroy target nonbasic land.
-• Each player discards all the cards in his or her hand, then draws that many cards.
+• Each player discards all the cards in their hand, then draws that many cards.
 
 Name:   Incendiary Flow
 Cost:   1R
 Type:   Sorcery
 S/R:    EMN-U
-Incendiary Flow deals 3 damage to target creature or player. If a creature dealt damage this way would die this turn, exile it instead.
+Incendiary Flow deals 3 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
 
 Name:   Incendiary Sabotage
 Cost:   2RR
 Type:   Instant
 S/R:    KLD-U
-As an additional cost to cast Incendiary Sabotage, sacrifice an artifact.
+As an additional cost to cast this spell, sacrifice an artifact.
 Incendiary Sabotage deals 3 damage to each creature.
 
 Name:   Incinerate
 Cost:   1R
 Type:   Instant
 S/R:    IA-C, MI-C, 5E-C, 10E-C, M12-C, DD2-C, ME2-C
-Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can't be regenerated this turn.
+Incinerate deals 3 damage to any target. A creature dealt damage this way can't be regenerated this turn.
 
 Name:   Incite
 Cost:   R
@@ -1067,7 +1075,7 @@ Name:   Incite Rebellion
 Cost:   4RR
 Type:   Sorcery
 S/R:    C14-R
-For each player, Incite Rebellion deals damage to that player and each creature that player controls equal to the number of creatures he or she controls.
+For each player, Incite Rebellion deals damage to that player and each creature that player controls equal to the number of creatures they control.
 
 Name:   Incite War
 Cost:   2R
@@ -1107,7 +1115,7 @@ Name:   Increasing Confusion
 Cost:   XU
 Type:   Sorcery
 S/R:    DKA-R
-Target player puts the top X cards of his or her library into his or her graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into his or her graveyard instead.
+Target player puts the top X cards of their library into their graveyard. If Increasing Confusion was cast from a graveyard, that player puts twice that many cards into their graveyard instead.
 Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Increasing Devotion
@@ -1149,7 +1157,7 @@ Type:   Creature — Eldrazi Drone
 P/T:    2/3
 S/R:    BFZ-C
 Devoid (This card has no color.)
-When Incubator Drone enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C} to your mana pool."
+When Incubator Drone enters the battlefield, create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this creature: Add {C}."
 
 Name:   Incurable Ogre
 Cost:   3R
@@ -1238,7 +1246,7 @@ Name:   Indomitable Creativity
 Cost:   XRRR
 Type:   Sorcery
 S/R:    AeR-M
-Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of his or her library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle their libraries.
+Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of their library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle their libraries.
 
 Name:   Indomitable Will
 Cost:   1W
@@ -1267,20 +1275,20 @@ Name:   Induce Despair
 Cost:   2B
 Type:   Instant
 S/R:    ROE-C, DDP-C
-As an additional cost to cast Induce Despair, reveal a creature card from your hand.
+As an additional cost to cast this spell, reveal a creature card from your hand.
 Target creature gets -X/-X until end of turn, where X is the revealed card's converted mana cost.
 
 Name:   Induce Paranoia
 Cost:   2UU
 Type:   Instant
 S/R:    RAV-C
-Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of his or her library into his or her graveyard, where X is the spell's converted mana cost.
+Counter target spell. If {B} was spent to cast Induce Paranoia, that spell's controller puts the top X cards of their library into their graveyard, where X is the spell's converted mana cost.
 
 Name:   Induced Amnesia
 Cost:   2U
 Type:   Enchantment
 S/R:    RIX-R
-When Induced Amnesia enters the battlefield, target player exiles all cards from his or her hand face down, then draws that many cards.
+When Induced Amnesia enters the battlefield, target player exiles all cards from their hand face down, then draws that many cards.
 When Induced Amnesia is put into a graveyard from the battlefield, return the exiled cards to their owner's hand.
 
 Name:   Indulgent Aristocrat
@@ -1408,20 +1416,20 @@ Cost:   7B
 Type:   Creature — Demon
 P/T:    5/7
 S/R:    IA-R
-At the beginning of your upkeep, sacrifice two Swamps. If you can't, tap Infernal Denizen, and an opponent may gain control of a creature you control of his or her choice for as long as Infernal Denizen remains on the battlefield.
+At the beginning of your upkeep, sacrifice two Swamps. If you can't, tap Infernal Denizen, and an opponent may gain control of a creature you control of their choice for as long as Infernal Denizen remains on the battlefield.
 {T}: Gain control of target creature for as long as Infernal Denizen remains on the battlefield.
 
 Name:   Infernal Genesis
 Cost:   4BB
 Type:   Enchantment
 S/R:    PR-R
-At the beginning of each player's upkeep, that player puts the top card of his or her library into his or her graveyard. Then he or she creates X 1/1 black Minion creature tokens, where X is that card's converted mana cost.
+At the beginning of each player's upkeep, that player puts the top card of their library into their graveyard. Then they create X 1/1 black Minion creature tokens, where X is that card's converted mana cost.
 
 Name:   Infernal Harvest
 Cost:   1B
 Type:   Sorcery
 S/R:    VI-C
-As an additional cost to cast Infernal Harvest, return X Swamps you control to their owner's hand.
+As an additional cost to cast this spell, return X Swamps you control to their owner's hand.
 Infernal Harvest deals X damage divided as you choose among any number of target creatures.
 
 Name:   Infernal Kirin
@@ -1430,7 +1438,7 @@ Type:   Legendary Creature — Kirin Spirit
 P/T:    3/3
 S/R:    SOK-R
 Flying
-Whenever you cast a Spirit or Arcane spell, target player reveals his or her hand and discards all cards with that spell's converted mana cost.
+Whenever you cast a Spirit or Arcane spell, target player reveals their hand and discards all cards with that spell's converted mana cost.
 
 Name:   Infernal Medusa
 Cost:   3BB
@@ -1445,14 +1453,14 @@ Cost:   4B
 Type:   Sorcery
 S/R:    C14-R
 Choose an opponent. You and that player each sacrifice a creature. Each player who sacrificed a creature this way draws two cards.
-Choose an opponent. Return a creature card from your graveyard to the battlefield, then that player returns a creature card from his or her graveyard to the battlefield.
+Choose an opponent. Return a creature card from your graveyard to the battlefield, then that player returns a creature card from their graveyard to the battlefield.
 
 Name:   Infernal Plunge
 Cost:   R
 Type:   Sorcery
 S/R:    ISD-C
-As an additional cost to cast Infernal Plunge, sacrifice a creature.
-Add {R}{R}{R} to your mana pool.
+As an additional cost to cast this spell, sacrifice a creature.
+Add {R}{R}{R}.
 
 Name:   Infernal Scarring
 Cost:   1B
@@ -1493,13 +1501,13 @@ Type:   Enchantment — Aura
 S/R:    M15-C
 Enchant creature you control
 Enchanted creature gets +2/+0.
-{R}, Sacrifice Inferno Fist: Inferno Fist deals 2 damage to target creature or player.
+{R}, Sacrifice Inferno Fist: Inferno Fist deals 2 damage to any target.
 
 Name:   Inferno Jet
 Cost:   5R
 Type:   Sorcery
 S/R:    HOU-U
-Inferno Jet deals 6 damage to target opponent.
+Inferno Jet deals 6 damage to target opponent or planeswalker.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
 Name:   Inferno Titan
@@ -1508,13 +1516,13 @@ Type:   Creature — Giant
 P/T:    6/6
 S/R:    M11-M, M12-M, C13-M, C15-M, E01-M
 {R}: Inferno Titan gets +1/+0 until end of turn.
-Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.
+Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three targets.
 
 Name:   Inferno Trap
 Cost:   3R
 Type:   Instant — Trap
 S/R:    ZEN-U, ARC-U, DDN-U
-If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay Inferno Trap's mana cost.
+If you've been dealt damage by two or more creatures this turn, you may pay {R} rather than pay this spell's mana cost.
 Inferno Trap deals 4 damage to target creature.
 
 Name:   Infest
@@ -1579,7 +1587,7 @@ Name:   Infinite Obliteration
 Cost:   1BB
 Type:   Sorcery
 S/R:    ORI-R
-Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles his or her library.
+Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles their library.
 
 Name:   Infinite Reflection
 Cost:   5U
@@ -1673,7 +1681,7 @@ Cost:   B
 Type:   Creature — Cleric
 P/T:    1/1
 S/R:    FE-C, 5E-C
-{1}: Add {B} to your mana pool. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step.
+{1}: Add {B}. If this ability has been activated four or more times this turn, sacrifice Initiates of the Ebon Hand at the beginning of the next end step.
 
 Name:   Injury
 Cost:   2R
@@ -1682,14 +1690,14 @@ M-type: Split
 M-card: Insult
 S/R:    AKH-R
 Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Injury deals 2 damage to target creature and 2 damage to target player.
+Injury deals 2 damage to target creature and 2 damage to target player or planeswalker.
 
 Name:   Ink Dissolver
 Cost:   1U
 Type:   Creature — Merfolk Wizard
 P/T:    2/1
 S/R:    MOR-C
-Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Ink Dissolver, you may reveal it. If you do, each opponent puts the top three cards of his or her library into his or her graveyard.
+Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Ink Dissolver, you may reveal it. If you do, each opponent puts the top three cards of their library into their graveyard.
 
 Name:   Ink-Eyes, Servant of Oni
 Cost:   4BB
@@ -1733,7 +1741,7 @@ Fear (This creature can't be blocked except by artifact creatures and/or black c
 Name:   Inkmoth Nexus
 Type:   Land
 S/R:    MBS-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {1}: Inkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 
 Name:   Inkwell Leviathan
@@ -1755,7 +1763,7 @@ Name:   Inner Fire
 Cost:   3R
 Type:   Sorcery
 S/R:    SOK-C
-Add {R} to your mana pool for each card in your hand.
+Add {R} for each card in your hand.
 
 Name:   Inner Sanctum
 Cost:   1WW
@@ -1803,20 +1811,20 @@ Whenever you cast a Spirit or Arcane spell, untap Innocence Kami.
 Name:   Innocent Blood
 Cost:   B
 Type:   Sorcery
-S/R:    OD-C, HOP-C, EMA-C, DDR-C
+S/R:    OD-C, HOP-C, EMA-C, E02-C, DDR-C
 Each player sacrifices a creature.
 
 Name:   Inquisition
 Cost:   2B
 Type:   Sorcery
 S/R:    DK-C
-Target player reveals his or her hand. Inquisition deals damage to that player equal to the number of white cards in his or her hand.
+Target player reveals their hand. Inquisition deals damage to that player equal to the number of white cards in their hand.
 
 Name:   Inquisition of Kozilek
 Cost:   B
 Type:   Sorcery
 S/R:    ROE-U, CN2-R, MM3-U
-Target player reveals his or her hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.
+Target player reveals their hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.
 
 Name:   Inquisitor Exarch
 Cost:   WW
@@ -1897,7 +1905,7 @@ Name:   Insidious Dreams
 Cost:   3B
 Type:   Instant
 S/R:    TOR-R
-As an additional cost to cast Insidious Dreams, discard X cards.
+As an additional cost to cast this spell, discard X cards.
 Search your library for X cards. Then shuffle your library and put those cards on top of it in any order.
 
 Name:   Insidious Mist
@@ -2006,7 +2014,7 @@ Name:   Inspiring Vantage
 Type:   Land
 S/R:    KLD-R
 Inspiring Vantage enters the battlefield tapped unless you control two or fewer other lands.
-{T}: Add {R} or {W} to your mana pool.
+{T}: Add {R} or {W}.
 
 Name:   Inspirit
 Cost:   2W
@@ -2115,7 +2123,7 @@ The next time a source of your choice would deal damage to you this turn, preven
 At the beginning of your next upkeep, pay {1}{W}{W}. If you don't, you lose the game.
 
 Name:   Intet, the Dreamer
-Cost:   3URG
+Cost:   3GUR
 Type:   Legendary Creature — Dragon
 P/T:    6/6
 S/R:    PLC-R, CMD-R, C17-R
@@ -2178,7 +2186,7 @@ Cost:   1U
 Type:   Instant
 S/R:    ZEN-C, C14-C, C17-C, DDM-C
 Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
-Return target nonland permanent to its owner's hand. If Into the Roil was kicked, draw a card.
+Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.
 
 Name:   Into the Void
 Cost:   3U
@@ -2253,7 +2261,7 @@ Cost:   U
 Type:   Instant
 S/R:    SOI-U
 Counter target sorcery spell.
-Delirium — If there are four or more card types among cards in your graveyard, search the graveyard, hand, and library of that spell's controller for any number of cards with the same name as that spell, exile those cards, then that player shuffles his or her library.
+Delirium — If there are four or more card types among cards in your graveyard, search the graveyard, hand, and library of that spell's controller for any number of cards with the same name as that spell, exile those cards, then that player shuffles their library.
 
 Name:   Inventor's Apprentice
 Cost:   R
@@ -2265,7 +2273,7 @@ Inventor's Apprentice gets +1/+1 as long as you control an artifact.
 Name:   Inventor's Goggles
 Cost:   1
 Type:   Artifact — Equipment
-S/R:    KLD-C
+S/R:    KLD-C, DDU-C
 Equipped creature gets +1/+2.
 Whenever an Artificer enters the battlefield under your control, you may attach Inventor's Goggles to it.
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
@@ -2274,7 +2282,7 @@ Name:   Inventors' Fair
 Type:   Legendary Land
 S/R:    KLD-R
 At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life.
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {4}, {T}, Sacrifice Inventors' Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library. Activate this ability only if you control three or more artifacts.
 
 Name:   Invert the Skies
@@ -2295,8 +2303,8 @@ When Inverter of Truth enters the battlefield, exile all cards from your library
 Name:   Invigorate
 Cost:   2G
 Type:   Instant
-S/R:    MM-C, CMD-C, EMA-U, DDD-C
-If you control a Forest, rather than pay Invigorate's mana cost, you may have an opponent gain 3 life.
+S/R:    MM-C, CMD-C, EMA-U, A25-U, DDD-C
+If you control a Forest, rather than pay this spell's mana cost, you may have an opponent gain 3 life.
 Target creature gets +4/+4 until end of turn.
 
 Name:   Invigorated Rampage
@@ -2360,13 +2368,19 @@ Type:   Enchantment
 S/R:    LE-R
 Whenever an opponent casts a creature spell that doesn't share a color with a creature you control, counter that spell unless that player pays {X}, where X is its converted mana cost.
 
+Name:   Invoke the Divine
+Cost:   2W
+Type:   Instant
+S/R:    DOM-C
+Destroy target artifact or enchantment. You gain 4 life.
+
 Name:   Invoke the Firemind
 Cost:   XUUR
 Type:   Sorcery
 S/R:    GPT-R, DDJ-R
 Choose one —
 • Draw X cards.
-• Invoke the Firemind deals X damage to target creature or player.
+• Invoke the Firemind deals X damage to any target.
 
 Name:   Invulnerability
 Cost:   1W
@@ -2379,7 +2393,7 @@ Name:   Ion Storm
 Cost:   2R
 Type:   Enchantment
 S/R:    5DN-R
-{1}{R}, Remove a +1/+1 counter or a charge counter from a permanent you control: Ion Storm deals 2 damage to target creature or player.
+{1}{R}, Remove a +1/+1 counter or a charge counter from a permanent you control: Ion Storm deals 2 damage to any target.
 
 Name:   Iona's Blessing
 Cost:   3W
@@ -2413,15 +2427,15 @@ Remove three quest counters from Ior Ruin Expedition and sacrifice it: Draw two 
 Name:   Ipnu Rivulet
 Type:   Land — Desert
 S/R:    HOU-U
-{T}: Add {C} to your mana pool.
-{T}, Pay 1 life: Add {U} to your mana pool.
-{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of his or her library into his or her graveyard.
+{T}: Add {C}.
+{T}, Pay 1 life: Add {U}.
+{1}{U}, {T}, Sacrifice a Desert: Target player puts the top four cards of their library into their graveyard.
 
 Name:   Ire Shaman
 Cost:   1R
 Type:   Creature — Orc Shaman
 P/T:    2/1
-S/R:    DTK-R
+S/R:    DTK-R, A25-U
 Menace (This creature can't be blocked except by two or more creatures.)
 Megamorph {R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)
 When Ire Shaman is turned face up, exile the top card of your library. Until end of turn, you may play that card.
@@ -2430,7 +2444,7 @@ Name:   Ire of Kaminari
 Cost:   3R
 Type:   Instant — Arcane
 S/R:    BOK-C
-Ire of Kaminari deals damage to target creature or player equal to the number of Arcane cards in your graveyard.
+Ire of Kaminari deals damage to any target equal to the number of Arcane cards in your graveyard.
 
 Name:   Iridescent Angel
 Cost:   5WU
@@ -2489,14 +2503,14 @@ Name:   Iron Maiden
 Cost:   3
 Type:   Artifact
 S/R:    UL-R
-At the beginning of each opponent's upkeep, Iron Maiden deals X damage to that player, where X is the number of cards in his or her hand minus 4.
+At the beginning of each opponent's upkeep, Iron Maiden deals X damage to that player, where X is the number of cards in their hand minus 4.
 
 Name:   Iron Myr
 Cost:   2
 Type:   Artifact Creature — Myr
 P/T:    1/1
 S/R:    MRD-C, HOP-C, SOM-C
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 
 Name:   Iron Star
 Cost:   1
@@ -2638,7 +2652,7 @@ Draw a card.
 Name:   Irrigated Farmland
 Type:   Land — Plains Island
 S/R:    AKH-R
-({T}: Add {W} or {U} to your mana pool.)
+({T}: Add {W} or {U}.)
 Irrigated Farmland enters the battlefield tapped.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
@@ -2646,8 +2660,8 @@ Name:   Irrigation Ditch
 Type:   Land
 S/R:    IN-C
 Irrigation Ditch enters the battlefield tapped.
-{T}: Add {W} to your mana pool.
-{T}, Sacrifice Irrigation Ditch: Add {G}{U} to your mana pool.
+{T}: Add {W}.
+{T}, Sacrifice Irrigation Ditch: Add {G}{U}.
 
 Name:   Isamaru, Hound of Konda
 Cost:   W
@@ -2660,7 +2674,7 @@ Cost:   2G
 Type:   Legendary Creature — Human Samurai
 P/T:    2/1
 S/R:    BOK-R
-Isao, Enlightened Bushi can't be countered.
+This spell can't be countered.
 Bushido 2 (Whenever this creature blocks or becomes blocked, it gets +2/+2 until end of turn.)
 {2}: Regenerate target Samurai.
 
@@ -2691,7 +2705,7 @@ Delirium — When Ishkanah, Grafwidow enters the battlefield, if there are four 
 
 Name:   Island
 Type:   Basic Land — Island
-S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, UG-C, UNH-L, UST-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, DDT-L, H09-L, ME3-L, MED-L
+S/R:    A-L, B-L, U-L, RV-L, 4E-L, IA-L, MI-L, 5E-L, P1-L, TE-L, P2-L, US-L, 6E-L, P3K-L, S99-L, MM-L, S00-L, IN-L, 7E-L, OD-L, ONS-L, 8ED-L, MRD-L, CHK-L, 9ED-L, RAV-L, TSP-L, 10E-L, LRW-L, SHM-L, ALA-L, M10-L, HOP-L, ZEN-L, ROE-L, ARC-L, M11-L, SOM-L, MBS-L, NPH-L, CMD-L, M12-L, ISD-L, AVR-L, PC2-L, M13-L, RTR-L, M14-L, THS-L, C13-L, M15-L, KTK-L, C14-L, FRF-L, DTK-L, ORI-L, BFZ-L, C15-L, SOI-L, KLD-L, C16-L, PCA-L, AKH-L, CMA-L, E01-L, HOU-L, C17-L, XLN-L, RIX-L, DOM-L, UG-C, UNH-L, UST-L, DD2-L, DDE-L, DDF-L, DDH-L, DDI-L, DDJ-L, DDM-L, DDN-L, DDO-L, DDQ-L, DDS-L, DDT-L, DDU-L, H09-L, ME3-L, MED-L
 
 Name:   Island Fish Jasconius
 Cost:   4UUU
@@ -2731,15 +2745,15 @@ Imprint — When Isochron Scepter enters the battlefield, you may exile an insta
 
 Name:   Isolated Chapel
 Type:   Land
-S/R:    ISD-R
+S/R:    ISD-R, DOM-R
 Isolated Chapel enters the battlefield tapped unless you control a Plains or a Swamp.
-{T}: Add {W} or {B} to your mana pool.
+{T}: Add {W} or {B}.
 
 Name:   Isolation Cell
 Cost:   4
 Type:   Artifact
 S/R:    NPH-U
-Whenever an opponent casts a creature spell, that player loses 2 life unless he or she pays {2}.
+Whenever an opponent casts a creature spell, that player loses 2 life unless they pay {2}.
 
 Name:   Isolation Zone
 Cost:   2WW
@@ -2753,7 +2767,7 @@ Type:   Legendary Creature — Sphinx
 P/T:    3/6
 S/R:    DIS-R
 Flying
-Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals his or her hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library.
+Whenever Isperia the Inscrutable deals combat damage to a player, choose a card name. That player reveals their hand. If a card with the chosen name is revealed this way, search your library for a creature card with flying, reveal it, put it into your hand, then shuffle your library.
 
 Name:   Isperia's Skywatch
 Cost:   5U
@@ -2793,7 +2807,7 @@ Type:   Creature — Eldrazi Insect
 P/T:    4/4
 S/R:    EMN-C
 Emerge {6}{G} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
-When you cast It of the Horrid Swarm, create two 1/1 green Insect creature tokens.
+When you cast this spell, create two 1/1 green Insect creature tokens.
 
 Name:   Ith, High Arcanist
 Cost:   5WU
@@ -2810,8 +2824,8 @@ M-type: Transform
 M-card: Growing Rites of Itlimoc
 S/R:    XLN-R
 (Transforms from Growing Rites of Itlimoc.)
-{T}: Add {G} to your mana pool.
-{T}: Add {G} to your mana pool for each creature you control.
+{T}: Add {G}.
+{T}: Add {G} for each creature you control.
 
 Name:   Ivory Charm
 Cost:   W
@@ -2820,7 +2834,7 @@ S/R:    MI-C
 Choose one —
 • All creatures get -2/-0 until end of turn.
 • Tap target creature.
-• Prevent the next 1 damage that would be dealt to target creature or player this turn.
+• Prevent the next 1 damage that would be dealt to any target this turn.
 
 Name:   Ivory Crane Netsuke
 Cost:   2
@@ -2896,7 +2910,7 @@ Name:   Ivy Lane Denizen
 Cost:   3G
 Type:   Creature — Elf Warrior
 P/T:    2/3
-S/R:    GTC-C
+S/R:    GTC-C, DDU-C
 Whenever another green creature enters the battlefield under your control, put a +1/+1 counter on target creature.
 
 Name:   Ivy Seer
@@ -2910,9 +2924,9 @@ Name:   Iwamori of the Open Fist
 Cost:   2GG
 Type:   Legendary Creature — Human Monk
 P/T:    5/5
-S/R:    BOK-R
+S/R:    BOK-R, A25-U
 Trample
-When Iwamori of the Open Fist enters the battlefield, each opponent may put a legendary creature card from his or her hand onto the battlefield.
+When Iwamori of the Open Fist enters the battlefield, each opponent may put a legendary creature card from their hand onto the battlefield.
 
 Name:   Ixalan's Binding
 Cost:   3W
@@ -2962,7 +2976,7 @@ Type:   Land
 S/R:    GPT-C, CMD-C, C13-C, MM2-U, C15-C, C16-U, C17-U, IMA-U, DDJ-C
 Izzet Boilerworks enters the battlefield tapped.
 When Izzet Boilerworks enters the battlefield, return a land you control to its owner's hand.
-{T}: Add {U}{R} to your mana pool.
+{T}: Add {U}{R}.
 
 Name:   Izzet Charm
 Cost:   UR
@@ -2977,7 +2991,7 @@ Name:   Izzet Chemister
 Cost:   2R
 Type:   Creature — Goblin Wizard
 P/T:    1/3
-S/R:    C17-R
+S/R:    C17-R, A25-R
 Haste
 {R}, {T}: Exile target instant or sorcery card from your graveyard.
 {1}{R}, {T}, Sacrifice Izzet Chemister: Cast any number of cards exiled with Izzet Chemister without paying their mana costs.
@@ -2993,14 +3007,14 @@ Name:   Izzet Cluestone
 Cost:   3
 Type:   Artifact
 S/R:    DGM-C
-{T}: Add {U} or {R} to your mana pool.
+{T}: Add {U} or {R}.
 {U}{R}, {T}, Sacrifice Izzet Cluestone: Draw a card.
 
 Name:   Izzet Guildgate
 Type:   Land — Gate
 S/R:    RTR-C, DGM-C, C13-C, C15-C, MM3-C
 Izzet Guildgate enters the battlefield tapped.
-{T}: Add {U} or {R} to your mana pool.
+{T}: Add {U} or {R}.
 
 Name:   Izzet Guildmage
 Cost:   (U/R)(U/R)
@@ -3015,7 +3029,7 @@ Name:   Izzet Keyrune
 Cost:   3
 Type:   Artifact
 S/R:    RTR-U
-{T}: Add {U} or {R} to your mana pool.
+{T}: Add {U} or {R}.
 {U}{R}: Until end of turn, Izzet Keyrune becomes a 2/1 blue and red Elemental artifact creature.
 Whenever Izzet Keyrune deals combat damage to a player, you may draw a card. If you do, discard a card.
 
@@ -3023,7 +3037,7 @@ Name:   Izzet Signet
 Cost:   2
 Type:   Artifact
 S/R:    GPT-C, CMD-C, C15-C, MM3-U, DDJ-C
-{1}, {T}: Add {U}{R} to your mana pool.
+{1}, {T}: Add {U}{R}.
 
 Name:   Izzet Staticaster
 Cost:   1UR

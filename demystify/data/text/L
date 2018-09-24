@@ -24,7 +24,7 @@ Cost:   3R
 Type:   Creature — Human Warrior
 P/T:    2/2
 S/R:    THS-R
-Heroic — Whenever you cast a spell that targets Labyrinth Champion, Labyrinth Champion deals 2 damage to target creature or player.
+Heroic — Whenever you cast a spell that targets Labyrinth Champion, Labyrinth Champion deals 2 damage to any target.
 
 Name:   Labyrinth Guardian
 Cost:   1U
@@ -155,8 +155,8 @@ Name:   Lake of the Dead
 Type:   Land
 S/R:    AI-R, VMA-R, MED-R
 If Lake of the Dead would enter the battlefield, sacrifice a Swamp instead. If you do, put Lake of the Dead onto the battlefield. If you don't, put it into its owner's graveyard.
-{T}: Add {B} to your mana pool.
-{T}, Sacrifice a Swamp: Add {B}{B}{B}{B} to your mana pool.
+{T}: Add {B}.
+{T}, Sacrifice a Swamp: Add {B}{B}{B}{B}.
 
 Name:   Lambholt Butcher
 Type:   Creature — Werewolf
@@ -190,7 +190,7 @@ Name:   Lammastide Weave
 Cost:   1G
 Type:   Instant
 S/R:    LRW-U
-Choose a card name, then target player puts the top card of his or her library into his or her graveyard. If that card has the chosen name, you gain life equal to its converted mana cost.
+Choose a card name, then target player puts the top card of their library into their graveyard. If that card has the chosen name, you gain life equal to its converted mana cost.
 Draw a card.
 
 Name:   Lamplighter of Selhoff
@@ -220,7 +220,7 @@ Type:   Land
 S/R:    IA-R
 Land Cap doesn't untap during your untap step if it has a depletion counter on it.
 At the beginning of your upkeep, remove a depletion counter from Land Cap.
-{T}: Add {W} or {U} to your mana pool. Put a depletion counter on Land Cap.
+{T}: Add {W} or {U}. Put a depletion counter on Land Cap.
 
 Name:   Land Equilibrium
 Cost:   2UU
@@ -232,7 +232,7 @@ Name:   Land Grant
 Cost:   1G
 Type:   Sorcery
 S/R:    MM-C
-If you have no land cards in hand, you may reveal your hand rather than pay Land Grant's mana cost.
+If you have no land cards in hand, you may reveal your hand rather than pay this spell's mana cost.
 Search your library for a Forest card, reveal that card, and put it into your hand. Then shuffle your library.
 
 Name:   Land Leeches
@@ -252,7 +252,7 @@ Name:   Land's Edge
 Cost:   1RR
 Type:   World Enchantment
 S/R:    LE-R, CH-R
-Discard a card: If the discarded card was a land card, Land's Edge deals 2 damage to target player. Any player may activate this ability.
+Discard a card: If the discarded card was a land card, Land's Edge deals 2 damage to target player or planeswalker. Any player may activate this ability.
 
 Name:   Landbind Ritual
 Cost:   3WW
@@ -264,7 +264,7 @@ Name:   Landslide
 Cost:   R
 Type:   Sorcery
 S/R:    UD-U
-Sacrifice any number of Mountains. Landslide deals that much damage to target player.
+Sacrifice any number of Mountains. Landslide deals that much damage to target player or planeswalker.
 
 Name:   Languish
 Cost:   2BB
@@ -299,13 +299,13 @@ Cost:   1
 Type:   Artifact
 S/R:    5DN-U
 Players play with the top card of their libraries revealed.
-{T}, Sacrifice Lantern of Insight: Target player shuffles his or her library.
+{T}, Sacrifice Lantern of Insight: Target player shuffles their library.
 
 Name:   Lantern-Lit Graveyard
 Type:   Land
 S/R:    CHK-U
-{T}: Add {C} to your mana pool.
-{T}: Add {B} or {R} to your mana pool. Lantern-Lit Graveyard doesn't untap during your next untap step.
+{T}: Add {C}.
+{T}: Add {B} or {R}. Lantern-Lit Graveyard doesn't untap during your next untap step.
 
 Name:   Lapis Lazuli Talisman
 Cost:   2
@@ -323,7 +323,7 @@ Name:   Laquatus's Champion
 Cost:   4BB
 Type:   Creature — Nightmare Horror
 P/T:    6/3
-S/R:    TOR-R, VMA-R
+S/R:    TOR-R, A25-R, VMA-R
 When Laquatus's Champion enters the battlefield, target player loses 6 life.
 When Laquatus's Champion leaves the battlefield, that player gains 6 life.
 {B}: Regenerate Laquatus's Champion.
@@ -332,7 +332,7 @@ Name:   Laquatus's Creativity
 Cost:   4U
 Type:   Sorcery
 S/R:    OD-U
-Target player draws cards equal to the number of cards in his or her hand, then discards that many cards.
+Target player draws cards equal to the number of cards in their hand, then discards that many cards.
 
 Name:   Laquatus's Disdain
 Cost:   1U
@@ -357,7 +357,7 @@ Name:   Lash Out
 Cost:   1R
 Type:   Instant
 S/R:    LRW-C, CMD-C
-Lash Out deals 3 damage to target creature. Clash with an opponent. If you win, Lash Out deals 3 damage to that creature's controller. (Each clashing player reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)
+Lash Out deals 3 damage to target creature. Clash with an opponent. If you win, Lash Out deals 3 damage to that creature's controller. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)
 
 Name:   Lash of the Whip
 Cost:   4B
@@ -369,7 +369,7 @@ Name:   Lashknife
 Cost:   1W
 Type:   Enchantment — Aura
 S/R:    NE-C
-If you control a Plains, you may tap an untapped creature you control rather than pay Lashknife's mana cost.
+If you control a Plains, you may tap an untapped creature you control rather than pay this spell's mana cost.
 Enchant creature
 Enchanted creature has first strike.
 
@@ -386,7 +386,7 @@ Type:   Creature — Eldrazi Horror
 P/T:    5/4
 S/R:    EMN-U
 Emerge {5}{G}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's converted mana cost.)
-When you cast Lashweed Lurker, you may put target nonland permanent on top of its owner's library.
+When you cast this spell, you may put target nonland permanent on top of its owner's library.
 
 Name:   Lashwrithe
 Cost:   4
@@ -438,7 +438,7 @@ Name:   Last Rites
 Cost:   2B
 Type:   Sorcery
 S/R:    OD-C, PD3-C
-Discard any number of cards. Target player reveals his or her hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards.
+Discard any number of cards. Target player reveals their hand, then you choose a nonland card from it for each card discarded this way. That player discards those cards.
 
 Name:   Last Stand
 Cost:   WUBRG
@@ -457,14 +457,14 @@ Name:   Last Word
 Cost:   2UU
 Type:   Instant
 S/R:    DST-R
-Last Word can't be countered by spells or abilities.
+This spell can't be countered.
 Counter target spell.
 
 Name:   Last-Ditch Effort
 Cost:   R
 Type:   Instant
 S/R:    UL-U
-Sacrifice any number of creatures. Last-Ditch Effort deals that much damage to target creature or player.
+Sacrifice any number of creatures. Last-Ditch Effort deals that much damage to any target.
 
 Name:   Lat-Nam's Legacy
 Cost:   1U
@@ -516,7 +516,7 @@ Cost:   3RR
 Type:   Legendary Creature — Human Spellshaper
 P/T:    3/3
 S/R:    PR-R
-{X}{R}, {T}, Discard two cards: Latulla, Keldon Overseer deals X damage to target creature or player.
+{X}{R}, {T}, Discard two cards: Latulla, Keldon Overseer deals X damage to any target.
 
 Name:   Launch
 Cost:   1U
@@ -530,39 +530,39 @@ Name:   Launch Party
 Cost:   3B
 Type:   Instant
 S/R:    RTR-C
-As an additional cost to cast Launch Party, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Destroy target creature. Its controller loses 2 life.
 
 Name:   Launch the Fleet
 Cost:   W
 Type:   Sorcery
 S/R:    JOU-R
-Strive — Launch the Fleet costs {1} more to cast for each target beyond the first.
+Strive — This spell costs {1} more to cast for each target beyond the first.
 Until end of turn, any number of target creatures each gain "Whenever this creature attacks, create a 1/1 white Soldier creature token that's tapped and attacking."
 
 Name:   Lava Axe
 Cost:   4R
 Type:   Sorcery
 S/R:    P1-C, P2-C, UL-C, S99-C, S00-C, 7E-C, 8ED-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, M14-C, M15-C
-Lava Axe deals 5 damage to target player.
+Lava Axe deals 5 damage to target player or planeswalker.
 
 Name:   Lava Blister
 Cost:   1R
 Type:   Sorcery
 S/R:    OD-U
-Destroy target nonbasic land unless its controller has Lava Blister deal 6 damage to him or her.
+Destroy target nonbasic land unless its controller has Lava Blister deal 6 damage to them.
 
 Name:   Lava Burst
 Cost:   XR
 Type:   Sorcery
 S/R:    IA-C, ME2-U
-Lava Burst deals X damage to target creature or player. If Lava Burst would deal damage to a creature, that damage can't be prevented or dealt instead to another creature or player.
+Lava Burst deals X damage to any target. If Lava Burst would deal damage to a creature, that damage can't be prevented or dealt instead to another permanent or player.
 
 Name:   Lava Dart
 Cost:   R
 Type:   Instant
 S/R:    JUD-C
-Lava Dart deals 1 damage to target creature or player.
+Lava Dart deals 1 damage to any target.
 Flashback—Sacrifice a Mountain. (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Lava Flow
@@ -591,7 +591,7 @@ Name:   Lava Spike
 Cost:   R
 Type:   Sorcery — Arcane
 S/R:    CHK-C, MMA-C
-Lava Spike deals 3 damage to target player.
+Lava Spike deals 3 damage to target player or planeswalker.
 
 Name:   Lava Storm
 Cost:   3RR
@@ -604,7 +604,7 @@ Type:   Land
 S/R:    IA-R
 Lava Tubes doesn't untap during your untap step if it has a depletion counter on it.
 At the beginning of your upkeep, remove a depletion counter from Lava Tubes.
-{T}: Add {B} or {R} to your mana pool. Put a depletion counter on Lava Tubes.
+{T}: Add {B} or {R}. Put a depletion counter on Lava Tubes.
 
 Name:   Lava Zombie
 Cost:   1BR
@@ -618,7 +618,7 @@ Name:   Lavaball Trap
 Cost:   6RR
 Type:   Instant — Trap
 S/R:    ZEN-R
-If an opponent had two or more lands enter the battlefield under his or her control this turn, you may pay {3}{R}{R} rather than pay Lavaball Trap's mana cost.
+If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {3}{R}{R} rather than pay this spell's mana cost.
 Destroy two target lands. Lavaball Trap deals 4 damage to each creature.
 
 Name:   Lavaborn Muse
@@ -626,13 +626,13 @@ Cost:   3R
 Type:   Creature — Spirit
 P/T:    3/3
 S/R:    LGN-R, 10E-R, DDK-R
-At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to him or her.
+At the beginning of each opponent's upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to that player.
 
 Name:   Lavaclaw Reaches
 Type:   Land
 S/R:    WWK-R
 Lavaclaw Reaches enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 {1}{B}{R}: Until end of turn, Lavaclaw Reaches becomes a 2/2 black and red Elemental creature with "{X}: This creature gets +X/+0 until end of turn." It's still a land.
 
 Name:   Lavacore Elemental
@@ -654,7 +654,7 @@ Name:   Lavalanche
 Cost:   XBRG
 Type:   Sorcery
 S/R:    ARB-R, C16-R
-Lavalanche deals X damage to target player and each creature he or she controls.
+Lavalanche deals X damage to target player or planeswalker and each creature that player or that planeswalker's controller controls.
 
 Name:   Lavamancer's Skill
 Cost:   1R
@@ -703,7 +703,7 @@ Name:   Lay Bare the Heart
 Cost:   1B
 Type:   Sorcery
 S/R:    AKH-U
-Target opponent reveals his or her hand. You choose a nonlegendary, nonland card from it. That player discards that card.
+Target opponent reveals their hand. You choose a nonlegendary, nonland card from it. That player discards that card.
 
 Name:   Lay Claim
 Cost:   5UU
@@ -765,7 +765,7 @@ Support 2. (Put a +1/+1 counter on each of up to two target creatures.)
 Name:   Lead the Stampede
 Cost:   2G
 Type:   Sorcery
-S/R:    MBS-U, CNS-U, IMA-C, DDH-U
+S/R:    MBS-U, CNS-U, IMA-C, DDH-U, DDU-C
 Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.
 
 Name:   Lead-Belly Chimera
@@ -789,7 +789,7 @@ Cost:   2
 Type:   Artifact Creature — Myr
 P/T:    1/1
 S/R:    MRD-C, HOP-C, SOM-C
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 
 Name:   Leaf Arrow
 Cost:   G
@@ -808,8 +808,8 @@ Name:   Leaf Gilder
 Cost:   1G
 Type:   Creature — Elf Druid
 P/T:    2/1
-S/R:    LRW-C, ARC-C, ORI-C
-{T}: Add {G} to your mana pool.
+S/R:    LRW-C, ARC-C, ORI-C, DDU-C
+{T}: Add {G}.
 
 Name:   Leaf-Crowned Elder
 Cost:   2GG
@@ -872,7 +872,7 @@ Name:   Learn from the Past
 Cost:   3U
 Type:   Instant
 S/R:    DTK-U
-Target player shuffles his or her graveyard into his or her library.
+Target player shuffles their graveyard into their library.
 Draw a card.
 
 Name:   Leashling
@@ -947,7 +947,7 @@ Whenever a Sliver you control attacks, defending player loses 1 life.
 Name:   Leechridden Swamp
 Type:   Land — Swamp
 S/R:    SHM-U, HOP-U, DDR-U
-({T}: Add {B} to your mana pool.)
+({T}: Add {B}.)
 Leechridden Swamp enters the battlefield tapped.
 {B}, {T}: Each opponent loses 1 life. Activate this ability only if you control two or more black permanents.
 
@@ -1085,7 +1085,7 @@ Cost:   3
 Type:   Artifact
 S/R:    MRD-U, C13-U, CMA-U
 Flash (You may cast this spell any time you could cast an instant.)
-{2}, Sacrifice Leonin Bladetrap: Leonin Bladetrap deals 2 damage to each attacking creature without flying.
+{2}, Sacrifice Leonin Bladetrap: It deals 2 damage to each attacking creature without flying.
 
 Name:   Leonin Bola
 Cost:   1
@@ -1212,7 +1212,7 @@ Name:   Lethal Sting
 Cost:   2B
 Type:   Sorcery
 S/R:    HOU-C
-As an additional cost to cast Lethal Sting, put a -1/-1 counter on a creature you control.
+As an additional cost to cast this spell, put a -1/-1 counter on a creature you control.
 Destroy target creature.
 
 Name:   Lethal Vapors
@@ -1226,7 +1226,7 @@ Name:   Lethargy Trap
 Cost:   3U
 Type:   Instant — Trap
 S/R:    ZEN-C
-If three or more creatures are attacking, you may pay {U} rather than pay Lethargy Trap's mana cost.
+If three or more creatures are attacking, you may pay {U} rather than pay this spell's mana cost.
 Attacking creatures get -3/-0 until end of turn.
 
 Name:   Leveler
@@ -1263,7 +1263,7 @@ Name:   Ley Line
 Cost:   3G
 Type:   Enchantment
 S/R:    MM-U
-At the beginning of each player's upkeep, that player may put a +1/+1 counter on target creature of his or her choice.
+At the beginning of each player's upkeep, that player may put a +1/+1 counter on target creature of their choice.
 
 Name:   Leyline Phantom
 Cost:   4U
@@ -1291,7 +1291,7 @@ Cost:   2RR
 Type:   Enchantment
 S/R:    GPT-R
 If Leyline of Lightning is in your opening hand, you may begin the game with it on the battlefield.
-Whenever you cast a spell, you may pay {1}. If you do, Leyline of Lightning deals 1 damage to target player.
+Whenever you cast a spell, you may pay {1}. If you do, Leyline of Lightning deals 1 damage to target player or planeswalker.
 
 Name:   Leyline of Punishment
 Cost:   2RR
@@ -1378,7 +1378,7 @@ Liberating Combustion deals 6 damage to target creature. You may search your lib
 Name:   Library of Alexandria
 Type:   Land
 S/R:    AN-U, VMA-M, ME4-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.
 
 Name:   Library of Lat-Nam
@@ -1412,7 +1412,17 @@ Type:   Creature — Zombie Wizard
 P/T:    2/2
 S/R:    ARB-R
 {U}{B}, {T}: Create a 1/1 blue and black Zombie Wizard creature token.
-{U}{U}{B}{B}: Target player loses X life and puts the top X cards of his or her library into his or her graveyard, where X is the number of Zombies you control.
+{U}{U}{B}{B}: Target player loses X life and puts the top X cards of their library into their graveyard, where X is the number of Zombies you control.
+
+Name:   Lich's Mastery
+Cost:   3BBB
+Type:   Legendary Enchantment
+S/R:    DOM-R
+Hexproof
+You can't lose the game.
+Whenever you gain life, draw that many cards.
+Whenever you lose life, for each 1 life you lost, exile a permanent you control or a card from your hand or graveyard.
+When Lich's Mastery leaves the battlefield, you lose the game.
 
 Name:   Lich's Mirror
 Cost:   5
@@ -1440,9 +1450,9 @@ Cost:   5RWB
 Type:   Legendary Creature — Vampire Soldier
 P/T:    4/4
 S/R:    C17-M
-Licia, Sanguine Tribune costs {1} less to cast for each 1 life you gained this turn.
+This spell costs {1} less to cast for each 1 life you gained this turn.
 First strike, lifelink
-Pay 5 life: Put three +1/+1 counters on Licia. Activate this ability only during your turn and only once each turn.
+Pay 5 life: Put three +1/+1 counters on Licia, Sanguine Tribune. Activate this ability only during your turn and only once each turn.
 
 Name:   Liege of the Axe
 Cost:   3W
@@ -1458,7 +1468,7 @@ Cost:   2GG
 Type:   Creature — Spirit
 P/T:    3/4
 S/R:    WL-R
-When Liege of the Hollows dies, each player may pay any amount of mana. Then each player creates a number of 1/1 green Squirrel creature tokens equal to the amount of mana he or she paid this way.
+When Liege of the Hollows dies, each player may pay any amount of mana. Then each player creates a number of 1/1 green Squirrel creature tokens equal to the amount of mana they paid this way.
 
 Name:   Liege of the Pit
 Cost:   5BBB
@@ -1541,13 +1551,13 @@ Name:   Life's Finale
 Cost:   4BB
 Type:   Sorcery
 S/R:    NPH-R
-Destroy all creatures, then search target opponent's library for up to three creature cards and put them into his or her graveyard. Then that player shuffles his or her library.
+Destroy all creatures, then search target opponent's library for up to three creature cards and put them into their graveyard. Then that player shuffles their library.
 
 Name:   Life's Legacy
 Cost:   1G
 Type:   Sorcery
 S/R:    M15-R
-As an additional cost to cast Life's Legacy, sacrifice a creature.
+As an additional cost to cast this spell, sacrifice a creature.
 Draw cards equal to the sacrificed creature's power.
 
 Name:   Lifebane Zombie
@@ -1556,7 +1566,7 @@ Type:   Creature — Zombie Warrior
 P/T:    3/1
 S/R:    M14-R
 Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)
-When Lifebane Zombie enters the battlefield, target opponent reveals his or her hand. You choose a green or white creature card from it and exile that card.
+When Lifebane Zombie enters the battlefield, target opponent reveals their hand. You choose a green or white creature card from it and exile that card.
 
 Name:   Lifeblood
 Cost:   2WW
@@ -1657,7 +1667,7 @@ Cost:   2G
 Type:   Creature — Elf Druid
 P/T:    2/1
 S/R:    BFZ-C
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Lifetap
 Cost:   UU
@@ -1729,7 +1739,7 @@ S/R:    ROE-R
 Whenever one or more creatures attack, Lightmine Field deals damage to each of those creatures equal to the number of attacking creatures.
 
 Name:   Lightning Angel
-Cost:   1RWU
+Cost:   1URW
 Type:   Creature — Angel
 P/T:    3/4
 S/R:    AP-R, TSP-S, DDN-R, V15-M
@@ -1739,7 +1749,7 @@ Name:   Lightning Axe
 Cost:   R
 Type:   Instant
 S/R:    TSP-C, SOI-U
-As an additional cost to cast Lightning Axe, discard a card or pay {5}.
+As an additional cost to cast this spell, discard a card or pay {5}.
 Lightning Axe deals 5 damage to target creature.
 
 Name:   Lightning Berserker
@@ -1754,7 +1764,7 @@ Name:   Lightning Blast
 Cost:   3R
 Type:   Instant
 S/R:    TE-C, 6E-C, 7E-C, 8ED-U
-Lightning Blast deals 4 damage to target creature or player.
+Lightning Blast deals 4 damage to any target.
 
 Name:   Lightning Blow
 Cost:   1W
@@ -1766,14 +1776,14 @@ Draw a card at the beginning of the next turn's upkeep.
 Name:   Lightning Bolt
 Cost:   R
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, M10-C, M11-C, MM2-U, E01-U, MED-C, PD2-C
-Lightning Bolt deals 3 damage to target creature or player.
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, M10-C, M11-C, MM2-U, E01-U, A25-U, MED-C, PD2-C
+Lightning Bolt deals 3 damage to any target.
 
 Name:   Lightning Cloud
 Cost:   3R
 Type:   Enchantment
 S/R:    VI-R
-Whenever a player casts a red spell, you may pay {R}. If you do, Lightning Cloud deals 1 damage to target creature or player.
+Whenever a player casts a red spell, you may pay {R}. If you do, Lightning Cloud deals 1 damage to any target.
 
 Name:   Lightning Coils
 Cost:   3
@@ -1788,7 +1798,7 @@ Type:   Creature — Goblin Shaman
 P/T:    3/3
 S/R:    MOR-R
 Champion a Goblin or Shaman (When this enters the battlefield, sacrifice it unless you exile another Goblin or Shaman you control. When this leaves the battlefield, that card returns to the battlefield.)
-{T}: Lightning Crafter deals 3 damage to target creature or player.
+{T}: Lightning Crafter deals 3 damage to any target.
 
 Name:   Lightning Dart
 Cost:   1R
@@ -1801,7 +1811,7 @@ Cost:   5R
 Type:   Enchantment — Aura
 S/R:    JOU-C
 Enchant creature
-When Lightning Diadem enters the battlefield, it deals 2 damage to target creature or player.
+When Lightning Diadem enters the battlefield, it deals 2 damage to any target.
 Enchanted creature gets +2/+2.
 
 Name:   Lightning Dragon
@@ -1830,8 +1840,8 @@ Equip {0}
 Name:   Lightning Helix
 Cost:   RW
 Type:   Instant
-S/R:    RAV-U, HOP-U, MMA-U, IMA-U, DDH-U, DDN-U
-Lightning Helix deals 3 damage to target creature or player and you gain 3 life.
+S/R:    RAV-U, HOP-U, MMA-U, IMA-U, E02-U, DDH-U, DDN-U
+Lightning Helix deals 3 damage to any target and you gain 3 life.
 
 Name:   Lightning Hounds
 Cost:   2RR
@@ -1844,7 +1854,7 @@ Name:   Lightning Javelin
 Cost:   3R
 Type:   Sorcery
 S/R:    ORI-C
-Lightning Javelin deals 3 damage to target creature or player. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Lightning Javelin deals 3 damage to any target. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
 
 Name:   Lightning Mauler
 Cost:   1R
@@ -1859,7 +1869,7 @@ Cost:   2R
 Type:   Enchantment — Aura
 S/R:    AVR-U
 Enchant creature
-Enchanted creature has haste and "{T}: This creature deals 1 damage to target creature or player."
+Enchanted creature has haste and "{T}: This creature deals 1 damage to any target."
 
 Name:   Lightning Reaver
 Cost:   3BR
@@ -1882,7 +1892,7 @@ Name:   Lightning Rift
 Cost:   1R
 Type:   Enchantment
 S/R:    ONS-U, VMA-U
-Whenever a player cycles a card, you may pay {1}. If you do, Lightning Rift deals 2 damage to target creature or player.
+Whenever a player cycles a card, you may pay {1}. If you do, Lightning Rift deals 2 damage to any target.
 
 Name:   Lightning Runner
 Cost:   3RR
@@ -1907,27 +1917,27 @@ Type:   Creature — Dragon
 P/T:    5/5
 S/R:    FRF-C
 Flying, trample, haste
-At the beginning of the end step, Lightning Shrieker's owner shuffles it into his or her library.
+At the beginning of the end step, Lightning Shrieker's owner shuffles it into their library.
 
 Name:   Lightning Storm
 Cost:   1RR
 Type:   Instant
 S/R:    CSP-U
-Lightning Storm deals X damage to target creature or player, where X is 3 plus the number of charge counters on it.
+Lightning Storm deals X damage to any target, where X is 3 plus the number of charge counters on Lightning Storm.
 Discard a land card: Put two charge counters on Lightning Storm. You may choose a new target for it. Any player may activate this ability but only if Lightning Storm is on the stack.
 
 Name:   Lightning Strike
 Cost:   1R
 Type:   Instant
 S/R:    THS-C, M15-C, XLN-U
-Lightning Strike deals 3 damage to target creature or player.
+Lightning Strike deals 3 damage to any target.
 
 Name:   Lightning Surge
 Cost:   3RR
 Type:   Sorcery
 S/R:    JUD-R
-Lightning Surge deals 4 damage to target creature or player.
-Threshold — If seven or more cards are in your graveyard, instead Lightning Surge deals 6 damage to that creature or player and the damage can't be prevented.
+Lightning Surge deals 4 damage to any target.
+Threshold — If seven or more cards are in your graveyard, instead Lightning Surge deals 6 damage to that permanent or player and the damage can't be prevented.
 Flashback {5}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 
 Name:   Lightning Talons
@@ -1941,7 +1951,7 @@ Name:   Lightning Volley
 Cost:   3R
 Type:   Instant
 S/R:    BNG-U
-Until end of turn, creatures you control gain "{T}: This creature deals 1 damage to target creature or player."
+Until end of turn, creatures you control gain "{T}: This creature deals 1 damage to any target."
 
 Name:   Lightning-Rig Crew
 Cost:   2R
@@ -1989,7 +1999,7 @@ P/T:    3
 S/R:    M13-M, M14-M
 [+1]: Search your library for a Swamp card, reveal it, and put it into your hand. Then shuffle your library.
 [-3]: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control.
-[-6]: You get an emblem with "Swamps you control have '{T}: Add {B}{B}{B}{B} to your mana pool.'"
+[-6]: You get an emblem with "Swamps you control have '{T}: Add {B}{B}{B}{B}.'"
 
 Name:   Liliana of the Veil
 Cost:   1BB
@@ -1998,7 +2008,7 @@ P/T:    3
 S/R:    ISD-M, MM3-M
 [+1]: Each player discards a card.
 [-2]: Target player sacrifices a creature.
-[-6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.
+[-6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.
 
 Name:   Liliana's Caress
 Cost:   1B
@@ -2135,7 +2145,7 @@ Name:   Lim-Dul's Hex
 Cost:   1B
 Type:   Enchantment
 S/R:    IA-U
-At the beginning of your upkeep, for each player, Lim-Dul's Hex deals 1 damage to that player unless he or she pays {B} or {3}.
+At the beginning of your upkeep, for each player, Lim-Dul's Hex deals 1 damage to that player unless they pay {B} or {3}.
 
 Name:   Lim-Dul's High Guard
 Cost:   1BB
@@ -2153,7 +2163,7 @@ S/R:    AI-U
 Trample
 At the beginning of your upkeep, you may discard a card. If you don't, sacrifice Lim-Dul's Paladin and draw a card.
 Whenever Lim-Dul's Paladin becomes blocked, it gets +6/+3 until end of turn.
-Whenever Lim-Dul's Paladin attacks and isn't blocked, it assigns no combat damage to defending player this turn and that player loses 4 life.
+Whenever Lim-Dul's Paladin attacks and isn't blocked, it assigns no combat damage this turn and defending player loses 4 life.
 
 Name:   Lim-Dul's Vault
 Cost:   UB
@@ -2172,7 +2182,7 @@ Name:   Limited Resources
 Cost:   W
 Type:   Enchantment
 S/R:    EX-R
-When Limited Resources enters the battlefield, each player chooses five lands he or she controls and sacrifices the rest.
+When Limited Resources enters the battlefield, each player chooses five lands they control and sacrifices the rest.
 Players can't play lands as long as ten or more lands are on the battlefield.
 
 Name:   Limits of Solidarity
@@ -2196,7 +2206,7 @@ Type:   Legendary Creature — Human Wizard
 P/T:    3/3
 S/R:    FUT-R
 {X}{U}{U}, {T}: Return target creature with converted mana cost X to its owner's hand.
-Grandeur — Discard another card named Linessa, Zephyr Mage: Target player returns a creature he or she controls to its owner's hand, then repeats this process for an artifact, an enchantment, and a land.
+Grandeur — Discard another card named Linessa, Zephyr Mage: Target player returns a creature they control to its owner's hand, then repeats this process for an artifact, an enchantment, and a land.
 
 Name:   Lingering Death
 Cost:   1B
@@ -2212,6 +2222,13 @@ S/R:    US-U
 Enchant land
 Enchanted land is an Island.
 Cycling {2} ({2}, Discard this card: Draw a card.)
+
+Name:   Lingering Phantom
+Cost:   5B
+Type:   Creature — Spirit
+P/T:    5/4
+S/R:    DOM-U
+Whenever you cast a historic spell, you may pay {B}. If you do, return Lingering Phantom from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)
 
 Name:   Lingering Souls
 Cost:   2W
@@ -2249,7 +2266,7 @@ Name:   Lion's Eye Diamond
 Cost:   0
 Type:   Artifact
 S/R:    MI-R, VMA-M
-Discard your hand, Sacrifice Lion's Eye Diamond: Add three mana of any one color to your mana pool. Activate this ability only any time you could cast an instant.
+Discard your hand, Sacrifice Lion's Eye Diamond: Add three mana of any one color. Activate this ability only any time you could cast an instant.
 
 Name:   Lionheart Maverick
 Cost:   W
@@ -2263,7 +2280,7 @@ Name:   Liquid Fire
 Cost:   4RR
 Type:   Sorcery
 S/R:    OD-U
-As an additional cost to cast Liquid Fire, choose a number between 0 and 5.
+As an additional cost to cast this spell, choose a number between 0 and 5.
 Liquid Fire deals X damage to target creature and 5 minus X damage to that creature's controller, where X is the chosen number.
 
 Name:   Liquify
@@ -2303,7 +2320,7 @@ Name:   Liturgy of Blood
 Cost:   3BB
 Type:   Sorcery
 S/R:    M14-C
-Destroy target creature. Add {B}{B}{B} to your mana pool.
+Destroy target creature. Add {B}{B}{B}.
 
 Name:   Liu Bei, Lord of Shu
 Cost:   3WW
@@ -2323,7 +2340,7 @@ Name:   Livewire Lash
 Cost:   2
 Type:   Artifact — Equipment
 S/R:    SOM-R
-Equipped creature gets +2/+0 and has "Whenever this creature becomes the target of a spell, this creature deals 2 damage to target creature or player."
+Equipped creature gets +2/+0 and has "Whenever this creature becomes the target of a spell, this creature deals 2 damage to any target."
 Equip {2}
 
 Name:   Living Airship
@@ -2351,14 +2368,14 @@ At the beginning of your upkeep, you may remove a vitality counter from Living A
 Name:   Living Death
 Cost:   3BB
 Type:   Sorcery
-S/R:    TE-R, CMD-R, VMA-R, DDE-R, V14-M
-Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield.
+S/R:    TE-R, CMD-R, A25-R, VMA-R, DDE-R, V14-M
+Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield.
 
 Name:   Living Destiny
 Cost:   3G
 Type:   Instant
 S/R:    ROE-C
-As an additional cost to cast Living Destiny, reveal a creature card from your hand.
+As an additional cost to cast this spell, reveal a creature card from your hand.
 You gain life equal to the revealed card's converted mana cost.
 
 Name:   Living End
@@ -2366,7 +2383,7 @@ Type:   Sorcery
 Color:  Black
 S/R:    TSP-R
 Suspend 3—{2}{B}{B} (Rather than cast this card from your hand, pay {2}{B}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
-Each player exiles all creature cards from his or her graveyard, then sacrifices all creatures he or she controls, then puts all cards he or she exiled this way onto the battlefield.
+Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield.
 
 Name:   Living Hive
 Cost:   6GG
@@ -2438,7 +2455,7 @@ Defender (This creature can't attack.)
 Name:   Living Wish
 Cost:   1G
 Type:   Sorcery
-S/R:    JUD-R
+S/R:    JUD-R, A25-R
 You may choose a creature or land card you own from outside the game, reveal that card, and put it into your hand. Exile Living Wish.
 
 Name:   Livonya Silone
@@ -2480,7 +2497,7 @@ Cost:   BG
 Type:   Creature — Zombie Elf
 P/T:    2/2
 S/R:    AP-C
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 
 Name:   Llanowar Druid
 Cost:   1G
@@ -2502,15 +2519,22 @@ Name:   Llanowar Elves
 Cost:   G
 Type:   Creature — Elf Druid
 P/T:    1/1
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, S00-C, 7E-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, C14-C, EMA-C, CMA-C, EVG-C
-{T}: Add {G} to your mana pool.
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, S00-C, 7E-C, 9ED-C, 10E-C, M10-C, M11-C, M12-C, C14-C, EMA-C, CMA-C, DOM-C, EVG-C
+{T}: Add {G}.
 
 Name:   Llanowar Empath
 Cost:   3G
 Type:   Creature — Elf Shaman
 P/T:    2/2
-S/R:    FUT-C, ORI-C
+S/R:    FUT-C, ORI-C, DDU-C
 When Llanowar Empath enters the battlefield, scry 2, then reveal the top card of your library. If it's a creature card, put it into your hand. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)
+
+Name:   Llanowar Envoy
+Cost:   2G
+Type:   Creature — Elf Scout
+P/T:    3/2
+S/R:    DOM-C
+{1}{G}: Add one mana of any color.
 
 Name:   Llanowar Knight
 Cost:   GW
@@ -2524,14 +2548,21 @@ Cost:   G
 Type:   Creature — Elf Spellshaper
 P/T:    1/1
 S/R:    FUT-U
-{G}, {T}, Discard a card: Create a 1/1 green Elf Druid creature token named Llanowar Elves. It has "{T}: Add {G} to your mana pool."
+{G}, {T}, Discard a card: Create a 1/1 green Elf Druid creature token named Llanowar Elves. It has "{T}: Add {G}."
 
 Name:   Llanowar Reborn
 Type:   Land
 S/R:    FUT-U, ARC-U, C13-U, C15-U, DDL-U
 Llanowar Reborn enters the battlefield tapped.
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 Graft 1 (This land enters the battlefield with a +1/+1 counter on it. Whenever a creature enters the battlefield, you may move a +1/+1 counter from this land onto it.)
+
+Name:   Llanowar Scout
+Cost:   1G
+Type:   Creature — Elf Scout
+P/T:    1/3
+S/R:    DOM-C
+{T}: You may put a land card from your hand onto the battlefield.
 
 Name:   Llanowar Sentinel
 Cost:   2G
@@ -2550,8 +2581,8 @@ S/R:    IN-C
 Name:   Llanowar Wastes
 Type:   Land
 S/R:    AP-R, 9ED-R, 10E-R, M15-R, ORI-R
-{T}: Add {C} to your mana pool.
-{T}: Add {B} or {G} to your mana pool. Llanowar Wastes deals 1 damage to you.
+{T}: Add {C}.
+{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you.
 
 Name:   Llawan, Cephalid Empress
 Cost:   3U
@@ -2573,7 +2604,7 @@ Cost:   G
 Type:   Creature — Dryad Horror
 P/T:    1/2
 S/R:    SOI-C
-{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool.
+{T}, Tap an untapped creature you control: Add one mana of any color.
 
 Name:   Loam Dweller
 Cost:   1G
@@ -2607,7 +2638,7 @@ Cost:   2G
 Type:   Creature — Centaur Shaman
 P/T:    3/2
 S/R:    DIS-R, C15-R
-When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from his or her graveyard into his or her library.
+When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from their graveyard into their library.
 
 Name:   Loathsome Catoblepas
 Cost:   5B
@@ -2630,7 +2661,7 @@ Name:   Lobotomy
 Cost:   2UB
 Type:   Sorcery
 S/R:    TE-U, IN-U
-Target player reveals his or her hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles his or her library.
+Target player reveals their hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles their library.
 
 Name:   Loch Korrigan
 Cost:   3B
@@ -2673,7 +2704,7 @@ Name:   Lodestone Bauble
 Cost:   0
 Type:   Artifact
 S/R:    AI-R, ME2-R
-{1}, {T}, Sacrifice Lodestone Bauble: Put up to four target basic land cards from a player's graveyard on top of his or her library in any order. That player draws a card at the beginning of the next turn's upkeep.
+{1}, {T}, Sacrifice Lodestone Bauble: Put up to four target basic land cards from a player's graveyard on top of their library in any order. That player draws a card at the beginning of the next turn's upkeep.
 
 Name:   Lodestone Golem
 Cost:   4
@@ -2743,7 +2774,7 @@ Name:   Lonely Sandbar
 Type:   Land
 S/R:    ONS-C, CMD-C, C13-C, C14-C, VMA-C, DDJ-C, DDT-C
 Lonely Sandbar enters the battlefield tapped.
-{T}: Add {U} to your mana pool.
+{T}: Add {U}.
 Cycling {U} ({U}, Discard this card: Draw a card.)
 
 Name:   Long Road Home
@@ -2785,7 +2816,7 @@ Cost:   2R
 Type:   Creature — Elemental Ox Beast
 P/T:    3/2
 S/R:    TOR-C
-When Longhorn Firebeast enters the battlefield, any opponent may have it deal 5 damage to him or her. If a player does, sacrifice Longhorn Firebeast.
+When Longhorn Firebeast enters the battlefield, any opponent may have it deal 5 damage to them. If a player does, sacrifice Longhorn Firebeast.
 
 Name:   Longshot Squad
 Cost:   3G
@@ -2807,7 +2838,7 @@ Name:   Lookout's Dispersal
 Cost:   2U
 Type:   Instant
 S/R:    XLN-U
-Lookout's Dispersal costs {1} less to cast if you control a Pirate.
+This spell costs {1} less to cast if you control a Pirate.
 Counter target spell unless its controller pays {4}.
 
 Name:   Looming Altisaur
@@ -2836,7 +2867,7 @@ Type:   Land
 S/R:    BFZ-C
 Looming Spires enters the battlefield tapped.
 When Looming Spires enters the battlefield, target creature gets +1/+1 and gains first strike until end of turn.
-{T}: Add {R} to your mana pool.
+{T}: Add {R}.
 
 Name:   Looter il-Kor
 Cost:   1U
@@ -2954,7 +2985,7 @@ Name:   Lorescale Coatl
 Cost:   1GU
 Type:   Creature — Snake
 P/T:    2/2
-S/R:    ARB-U, MM2-U, C15-U, DDO-U
+S/R:    ARB-U, MM2-U, C15-U, A25-U, DDO-U
 Whenever you draw a card, you may put a +1/+1 counter on Lorescale Coatl.
 
 Name:   Loreseeker's Stone
@@ -3003,13 +3034,13 @@ Name:   Lost Hours
 Cost:   1B
 Type:   Sorcery
 S/R:    FUT-C
-Target player reveals his or her hand. You choose a nonland card from it. That player puts that card into his or her library third from the top.
+Target player reveals their hand. You choose a nonland card from it. That player puts that card into their library third from the top.
 
 Name:   Lost Legacy
 Cost:   1BB
 Type:   Sorcery
 S/R:    KLD-R
-Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles his or her library, then draws a card for each card exiled from hand this way.
+Choose a nonartifact, nonland card name. Search target player's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles their library, then draws a card for each card exiled from hand this way.
 
 Name:   Lost Leonin
 Cost:   1W
@@ -3039,14 +3070,14 @@ M-type: Transform
 M-card: Dowsing Dagger
 S/R:    XLN-R
 (Transforms from Dowsing Dagger.)
-{T}: Add three mana of any one color to your mana pool.
+{T}: Add three mana of any one color.
 
 Name:   Lost in Thought
 Cost:   1U
 Type:   Enchantment — Aura
 S/R:    JUD-C
 Enchant creature
-Enchanted creature can't attack or block, and its activated abilities can't be activated. Its controller may exile three cards from his or her graveyard for that player to ignore this effect until end of turn.
+Enchanted creature can't attack or block, and its activated abilities can't be activated. Its controller may exile three cards from their graveyard for that player to ignore this effect until end of turn.
 
 Name:   Lost in a Labyrinth
 Cost:   U
@@ -3079,21 +3110,21 @@ Name:   Lotus Bloom
 Type:   Artifact
 S/R:    TSP-R, MMA-R
 Suspend 3—{0} (Rather than cast this card from your hand, pay {0} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
-{T}, Sacrifice Lotus Bloom: Add three mana of any one color to your mana pool.
+{T}, Sacrifice Lotus Bloom: Add three mana of any one color.
 
 Name:   Lotus Blossom
 Cost:   2
 Type:   Artifact
 S/R:    US-R
 At the beginning of your upkeep, you may put a petal counter on Lotus Blossom.
-{T}, Sacrifice Lotus Blossom: Add X mana of any one color to your mana pool, where X is the number of petal counters on Lotus Blossom.
+{T}, Sacrifice Lotus Blossom: Add X mana of any one color, where X is the number of petal counters on Lotus Blossom.
 
 Name:   Lotus Cobra
 Cost:   1G
 Type:   Creature — Snake
 P/T:    2/1
 S/R:    ZEN-M, IMA-R
-Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool.
+Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color.
 
 Name:   Lotus Guardian
 Cost:   7
@@ -3101,7 +3132,7 @@ Type:   Artifact Creature — Dragon
 P/T:    4/4
 S/R:    IN-R
 Flying
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Lotus Path Djinn
 Cost:   3U
@@ -3115,13 +3146,13 @@ Name:   Lotus Petal
 Cost:   0
 Type:   Artifact
 S/R:    TE-C, MPS_KLD-S, V09-M
-{T}, Sacrifice Lotus Petal: Add one mana of any color to your mana pool.
+{T}, Sacrifice Lotus Petal: Add one mana of any color.
 
 Name:   Lotus Vale
 Type:   Land
 S/R:    WL-R
 If Lotus Vale would enter the battlefield, sacrifice two untapped lands instead. If you do, put Lotus Vale onto the battlefield. If you don't, put it into its owner's graveyard.
-{T}: Add three mana of any one color to your mana pool.
+{T}: Add three mana of any one color.
 
 Name:   Lotus-Eye Mystics
 Cost:   3W
@@ -3171,7 +3202,7 @@ Cost:   2WW
 Type:   Creature — Elephant Cleric
 P/T:    2/3
 S/R:    5DN-C
-{T}: Prevent the next 2 damage that would be dealt to target creature or player this turn.
+{T}: Prevent the next 2 damage that would be dealt to any target this turn.
 
 Name:   Loxodon Convert
 Cost:   3W
@@ -3234,7 +3265,7 @@ Cost:   1GW
 Type:   Creature — Elephant Soldier
 P/T:    4/4
 S/R:    RTR-R
-Loxodon Smiter can't be countered.
+This spell can't be countered.
 If a spell or ability an opponent controls causes you to discard Loxodon Smiter, put it onto the battlefield instead of putting it into your graveyard.
 
 Name:   Loxodon Stalwart
@@ -3295,7 +3326,7 @@ Name:   Loyal Sentry
 Cost:   W
 Type:   Creature — Human Soldier
 P/T:    1/1
-S/R:    S99-R, 10E-R, DDF-R
+S/R:    S99-R, 10E-R, A25-C, DDF-R
 When Loyal Sentry blocks a creature, destroy that creature and Loyal Sentry.
 
 Name:   Lu Bu, Master-at-Arms
@@ -3364,7 +3395,7 @@ Partner (You can have two commanders if both have partner.)
 Name:   Lull
 Cost:   1G
 Type:   Instant
-S/R:    US-C
+S/R:    US-C, A25-C
 Prevent all combat damage that would be dealt this turn.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
@@ -3380,7 +3411,7 @@ Name:   Lumbering Falls
 Type:   Land
 S/R:    BFZ-R
 Lumbering Falls enters the battlefield tapped.
-{T}: Add {G} or {U} to your mana pool.
+{T}: Add {G} or {U}.
 {2}{G}{U}: Lumbering Falls becomes a 3/3 green and blue Elemental creature with hexproof until end of turn. It's still a land.
 
 Name:   Lumbering Satyr
@@ -3437,7 +3468,7 @@ S/R:    MRD-C, 9ED-C, 10E-C
 Name:   Luminarch Ascension
 Cost:   1W
 Type:   Enchantment
-S/R:    ZEN-R
+S/R:    ZEN-R, A25-R
 At the beginning of each opponent's end step, if you didn't lose life this turn, you may put a quest counter on Luminarch Ascension. (Damage causes loss of life.)
 {1}{W}: Create a 4/4 white Angel creature token with flying. Activate this ability only if Luminarch Ascension has four or more quest counters on it.
 
@@ -3531,7 +3562,7 @@ When this creature transforms into Lunarch Inquisitors, you may exile another ta
 Name:   Lunarch Mantle
 Cost:   1W
 Type:   Enchantment — Aura
-S/R:    EMN-C
+S/R:    EMN-C, A25-C
 Enchant creature
 Enchanted creature gets +2/+2 and has "{1}, Sacrifice a permanent: This creature gains flying until end of turn."
 
@@ -3539,7 +3570,7 @@ Name:   Lunge
 Cost:   2R
 Type:   Instant
 S/R:    MM-C
-Lunge deals 2 damage to target creature and 2 damage to target player.
+Lunge deals 2 damage to target creature and 2 damage to target player or planeswalker.
 
 Name:   Lunk Errant
 Cost:   5R
@@ -3573,7 +3604,7 @@ Name:   Lure of Prey
 Cost:   2GG
 Type:   Instant
 S/R:    MI-R
-Cast Lure of Prey only if an opponent cast a creature spell this turn.
+Cast this spell only if an opponent cast a creature spell this turn.
 You may put a green creature card from your hand onto the battlefield.
 
 Name:   Lurebound Scarecrow
@@ -3717,6 +3748,14 @@ P/T:    2/1
 S/R:    P2-C, S99-U
 Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)
 
+Name:   Lyra Dawnbringer
+Cost:   3WW
+Type:   Legendary Creature — Angel
+P/T:    5/5
+S/R:    DOM-M
+Flying, first strike, lifelink
+Other Angels you control get +1/+1 and have lifelink.
+
 Name:   Lys Alana Bowmaster
 Cost:   2G
 Type:   Creature — Elf Archer
@@ -3744,4 +3783,4 @@ Cost:   1BR
 Type:   Legendary Creature — Human Cleric
 P/T:    3/1
 S/R:    DIS-R
-{2}, Sacrifice a creature: Lyzolda, the Blood Witch deals 2 damage to target creature or player if the sacrificed creature was red. Draw a card if the sacrificed creature was black.
+{2}, Sacrifice a creature: Lyzolda, the Blood Witch deals 2 damage to any target if the sacrificed creature was red. Draw a card if the sacrificed creature was black.

@@ -3,7 +3,7 @@ Cost:   4
 Type:   Artifact
 S/R:    CHK-R
 If a player would draw a card, that player exiles that card face up instead.
-Each player may play cards he or she exiled with Uba Mask this turn.
+Each player may play cards they exiled with Uba Mask this turn.
 
 Name:   Ubul Sar Gatekeepers
 Cost:   3B
@@ -37,7 +37,7 @@ Cost:   8
 Type:   Legendary Planeswalker — Ugin
 P/T:    7
 S/R:    FRF-M, FRF_UGIN-M
-[+2]: Ugin, the Spirit Dragon deals 3 damage to target creature or player.
+[+2]: Ugin, the Spirit Dragon deals 3 damage to any target.
 [-10]: You gain 7 life, draw seven cards, then put up to seven permanent cards from your hand onto the battlefield.
 
 Name:   Uktabi Drake
@@ -123,19 +123,19 @@ Cost:   10
 Type:   Legendary Creature — Eldrazi
 P/T:    10/10
 S/R:    BFZ-M
-When you cast Ulamog, the Ceaseless Hunger, exile two target permanents.
+When you cast this spell, exile two target permanents.
 Indestructible
-Whenever Ulamog attacks, defending player exiles the top twenty cards of his or her library.
+Whenever Ulamog, the Ceaseless Hunger attacks, defending player exiles the top twenty cards of their library.
 
 Name:   Ulamog, the Infinite Gyre
 Cost:   11
 Type:   Legendary Creature — Eldrazi
 P/T:    10/10
 S/R:    ROE-M, MM2-M, V11-M
-When you cast Ulamog, the Infinite Gyre, destroy target permanent.
+When you cast this spell, destroy target permanent.
 Indestructible
 Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)
-When Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.
+When Ulamog, the Infinite Gyre is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.
 
 Name:   Ulasht, the Hate Seed
 Cost:   2RG
@@ -193,7 +193,7 @@ P/T:    4/6
 M-type: Transform
 M-card: Ulvenwald Captive
 S/R:    EMN-C
-{T}: Add {C}{C} to your mana pool.
+{T}: Add {C}{C}.
 
 Name:   Ulvenwald Bear
 Cost:   2G
@@ -210,7 +210,7 @@ M-type: Transform
 M-card: Ulvenwald Abomination
 S/R:    EMN-C
 Defender
-{T}: Add {G} to your mana pool.
+{T}: Add {G}.
 {5}{G}{G}: Transform Ulvenwald Captive.
 
 Name:   Ulvenwald Hydra
@@ -281,7 +281,7 @@ Name:   Umbilicus
 Cost:   4
 Type:   Artifact
 S/R:    US-R
-At the beginning of each player's upkeep, that player returns a permanent he or she controls to its owner's hand unless he or she pays 2 life.
+At the beginning of each player's upkeep, that player returns a permanent they control to its owner's hand unless they pay 2 life.
 
 Name:   Umbra Mystic
 Cost:   2W
@@ -342,7 +342,7 @@ Cost:   G
 Type:   Enchantment — Aura
 S/R:    AeR-C
 Enchant land
-Enchanted land has "{T}: Add one mana of any color to your mana pool."
+Enchanted land has "{T}: Add one mana of any color."
 Sacrifice Unbridled Growth: Draw a card.
 
 Name:   Unburden
@@ -368,7 +368,7 @@ Search your library for up to X creature cards with different names that each ha
 Name:   Uncaged Fury
 Cost:   2R
 Type:   Instant
-S/R:    SOI-C
+S/R:    SOI-C, A25-C
 Target creature gets +1/+1 and gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
 
 Name:   Uncanny Speed
@@ -387,8 +387,8 @@ Name:   Unclaimed Territory
 Type:   Land
 S/R:    XLN-U
 As Unclaimed Territory enters the battlefield, choose a creature type.
-{T}: Add {C} to your mana pool.
-{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.
 
 Name:   Uncle Istvan
 Cost:   1BBB
@@ -430,8 +430,8 @@ Cost:   3U
 Type:   Creature — Zombie
 P/T:    4/2
 S/R:    ISD-R
-If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of his or her library into his or her graveyard.
-Whenever a creature card is put into an opponent's graveyard from his or her library, exile that card and create a 2/2 black Zombie creature token.
+If a Zombie you control would deal combat damage to a player, instead that player puts that many cards from the top of their library into their graveyard.
+Whenever a creature card is put into an opponent's graveyard from their library, exile that card and create a 2/2 black Zombie creature token.
 
 Name:   Undead Executioner
 Cost:   3B
@@ -444,7 +444,7 @@ Name:   Undead Gladiator
 Cost:   1BB
 Type:   Creature — Zombie Barbarian
 P/T:    3/1
-S/R:    ONS-R
+S/R:    ONS-R, A25-U
 {1}{B}, Discard a card: Return Undead Gladiator from your graveyard to your hand. Activate this ability only during your upkeep.
 Cycling {1}{B} ({1}{B}, Discard this card: Draw a card.)
 
@@ -489,7 +489,7 @@ Cost:   2B
 Type:   Creature — Human Rogue
 P/T:    2/3
 S/R:    GTC-U
-{1}, Sacrifice a creature: Target player reveals cards from the top of his or her library until he or she reveals a land card, then puts those cards into his or her graveyard.
+{1}, Sacrifice a creature: Target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.
 
 Name:   Undercity Plague
 Cost:   4BB
@@ -517,20 +517,20 @@ Renown 1 (When this creature deals combat damage to a player, if it isn't renown
 Name:   Underground River
 Type:   Land
 S/R:    IA-R, 5E-R, 6E-R, 7E-R, 9ED-R, 10E-R, C16-R
-{T}: Add {C} to your mana pool.
-{T}: Add {U} or {B} to your mana pool. Underground River deals 1 damage to you.
+{T}: Add {C}.
+{T}: Add {U} or {B}. Underground River deals 1 damage to you.
 
 Name:   Underground Sea
 Type:   Land — Island Swamp
 S/R:    A-R, B-R, U-R, RV-R, VMA-R, ME2-R, ME4-R
-({T}: Add {U} or {B} to your mana pool.)
+({T}: Add {U} or {B}.)
 
 Name:   Undergrowth
 Cost:   G
 Type:   Instant
 S/R:    AI-C
-As an additional cost to cast Undergrowth, you may pay {2}{R}.
-Prevent all combat damage that would be dealt this turn. If its additional cost was paid, Undergrowth doesn't affect combat damage that would be dealt by red creatures.
+As an additional cost to cast this spell, you may pay {2}{R}.
+Prevent all combat damage that would be dealt this turn. If this spell's additional cost was paid, this effect doesn't affect combat damage that would be dealt by red creatures.
 
 Name:   Undergrowth Champion
 Cost:   1GG
@@ -580,7 +580,7 @@ P/T:    6/6
 S/R:    THS-M
 Underworld Cerberus can't be blocked except by three or more creatures.
 Cards in graveyards can't be the targets of spells or abilities.
-When Underworld Cerberus dies, exile it and each player returns all creature cards from his or her graveyard to his or her hand.
+When Underworld Cerberus dies, exile it and each player returns all creature cards from their graveyard to their hand.
 
 Name:   Underworld Coinsmith
 Cost:   WB
@@ -601,12 +601,12 @@ Name:   Underworld Dreams
 Cost:   BBB
 Type:   Enchantment
 S/R:    LE-U, 8ED-R, 9ED-R, 10E-R, M10-R
-Whenever an opponent draws a card, Underworld Dreams deals 1 damage to him or her.
+Whenever an opponent draws a card, Underworld Dreams deals 1 damage to that player.
 
 Name:   Undiscovered Paradise
 Type:   Land
 S/R:    VI-R
-{T}: Add one mana of any color to your mana pool. During your next untap step, as you untap your permanents, return Undiscovered Paradise to its owner's hand.
+{T}: Add one mana of any color. During your next untap step, as you untap your permanents, return Undiscovered Paradise to its owner's hand.
 
 Name:   Undo
 Cost:   1UU
@@ -631,7 +631,7 @@ Name:   Undying Flames
 Cost:   4RR
 Type:   Sorcery
 S/R:    SOK-R
-Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to target creature or player equal to that card's converted mana cost.
+Exile cards from the top of your library until you exile a nonland card. Undying Flames deals damage to any target equal to that card's converted mana cost.
 Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)
 
 Name:   Undying Rage
@@ -645,7 +645,7 @@ When Undying Rage is put into a graveyard from the battlefield, return Undying R
 Name:   Unearth
 Cost:   B
 Type:   Sorcery
-S/R:    UL-C
+S/R:    UL-C, A25-C
 Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
 Cycling {2} ({2}, Discard this card: Draw a card.)
 
@@ -699,7 +699,7 @@ Name:   Unfriendly Fire
 Cost:   4R
 Type:   Instant
 S/R:    XLN-C
-Unfriendly Fire deals 4 damage to target creature or player.
+Unfriendly Fire deals 4 damage to any target.
 
 Name:   Unfulfilled Desires
 Cost:   1UB
@@ -747,7 +747,7 @@ At the beginning of your end step, you lose 1 life.
 Name:   Unholy Grotto
 Type:   Land
 S/R:    ONS-R
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {B}, {T}: Put target Zombie card from your graveyard on top of your library.
 
 Name:   Unholy Hunger
@@ -786,7 +786,7 @@ Name:   Unifying Theory
 Cost:   1U
 Type:   Enchantment
 S/R:    OD-R
-Whenever a player casts a spell, that player may pay {2}. If the player does, he or she draws a card.
+Whenever a player casts a spell, that player may pay {2}. If the player does, they draw a card.
 
 Name:   Unimpeded Trespasser
 Type:   Creature — Spirit
@@ -823,8 +823,8 @@ S/R:    AeR-C
 Name:   Unknown Shores
 Type:   Land
 S/R:    THS-C, OGW-C, XLN-C
-{T}: Add {C} to your mana pool.
-{1}, {T}: Add one mana of any color to your mana pool.
+{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
 
 Name:   Unlicensed Disintegration
 Cost:   1BR
@@ -863,8 +863,8 @@ Name:   Unmask
 Cost:   3B
 Type:   Sorcery
 S/R:    MM-R, V16-M
-You may exile a black card from your hand rather than pay Unmask's mana cost.
-Target player reveals his or her hand. You choose a nonland card from it. That player discards that card.
+You may exile a black card from your hand rather than pay this spell's mana cost.
+Target player reveals their hand. You choose a nonland card from it. That player discards that card.
 
 Name:   Unnatural Aggression
 Cost:   2G
@@ -885,7 +885,7 @@ Cost:   3BB
 Type:   Enchantment — Aura
 S/R:    MM-R
 Enchant creature
-At the beginning of the upkeep of enchanted creature's controller, Unnatural Hunger deals damage to that player equal to that creature's power unless he or she sacrifices another creature.
+At the beginning of the upkeep of enchanted creature's controller, Unnatural Hunger deals damage equal to that creature's power to that player unless they sacrifice another creature.
 
 Name:   Unnatural Predation
 Cost:   G
@@ -937,7 +937,7 @@ Name:   Unravel the Aether
 Cost:   1G
 Type:   Instant
 S/R:    BNG-U
-Choose target artifact or enchantment. Its owner shuffles it into his or her library.
+Choose target artifact or enchantment. Its owner shuffles it into their library.
 
 Name:   Unraveling Mummy
 Cost:   1WB
@@ -981,12 +981,12 @@ Cost:   R
 Type:   Instant
 S/R:    ZEN-U
 Kicker {3}{R} (You may pay an additional {3}{R} as you cast this spell.)
-Damage can't be prevented this turn. If Unstable Footing was kicked, it deals 5 damage to target player.
+Damage can't be prevented this turn. If this spell was kicked, it deals 5 damage to target player or planeswalker.
 
 Name:   Unstable Frontier
 Type:   Land
 S/R:    CON-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {T}: Target land you control becomes the basic land type of your choice until end of turn.
 
 Name:   Unstable Hulk
@@ -1009,7 +1009,7 @@ Name:   Unstable Obelisk
 Cost:   3
 Type:   Artifact
 S/R:    C14-U, C17-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {7}, {T}, Sacrifice Unstable Obelisk: Destroy target permanent.
 
 Name:   Unstable Shapeshifter
@@ -1037,14 +1037,14 @@ Return target spell or creature to its owner's hand.
 Name:   Unsummon
 Cost:   U
 Type:   Instant
-S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, 7E-C, 8ED-C, 10E-C, CON-C, M10-C, M11-C, M12-C, M13-C, HOU-C
+S/R:    A-C, B-C, U-C, RV-C, 4E-C, 5E-C, 6E-C, 7E-C, 8ED-C, 10E-C, CON-C, M10-C, M11-C, M12-C, M13-C, HOU-C, E02-C
 Return target creature to its owner's hand.
 
 Name:   Untaidake, the Cloud Keeper
 Type:   Legendary Land
 S/R:    CHK-R
 Untaidake, the Cloud Keeper enters the battlefield tapped.
-{T}, Pay 2 life: Add {C}{C} to your mana pool. Spend this mana only to cast legendary spells.
+{T}, Pay 2 life: Add {C}{C}. Spend this mana only to cast legendary spells.
 
 Name:   Untamed Hunger
 Cost:   2B
@@ -1052,6 +1052,15 @@ Type:   Enchantment — Aura
 S/R:    OGW-C, W17-C
 Enchant creature
 Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)
+
+Name:   Untamed Kavu
+Cost:   1G
+Type:   Creature — Kavu
+P/T:    2/2
+S/R:    DOM-U
+Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Vigilance, trample
+If Untamed Kavu was kicked, it enters the battlefield with three +1/+1 counters on it.
 
 Name:   Untamed Might
 Cost:   XG
@@ -1088,6 +1097,12 @@ Type:   Sorcery
 S/R:    EVE-U
 Gain control of target creature until end of turn. Untap that creature. It gets +X/+0 and gains haste until end of turn.
 
+Name:   Unwind
+Cost:   2U
+Type:   Instant
+S/R:    DOM-C
+Counter target noncreature spell. Untap up to three lands.
+
 Name:   Unwinding Clock
 Cost:   4
 Type:   Artifact
@@ -1105,7 +1120,7 @@ Name:   Unyaro Bee Sting
 Cost:   3G
 Type:   Sorcery
 S/R:    MI-U
-Unyaro Bee Sting deals 2 damage to target creature or player.
+Unyaro Bee Sting deals 2 damage to any target.
 
 Name:   Unyaro Bees
 Cost:   GGG
@@ -1114,7 +1129,7 @@ P/T:    0/1
 S/R:    TSP-R
 Flying
 {G}: Unyaro Bees gets +1/+1 until end of turn.
-{3}{G}, Sacrifice Unyaro Bees: Unyaro Bees deals 2 damage to target creature or player.
+{3}{G}, Sacrifice Unyaro Bees: It deals 2 damage to any target.
 
 Name:   Unyaro Griffin
 Cost:   3W
@@ -1167,7 +1182,7 @@ Name:   Upwelling
 Cost:   3G
 Type:   Enchantment
 S/R:    SCG-R, 10E-R
-Mana pools don't empty as steps and phases end.
+Players don't lose unspent mana as steps and phases end.
 
 Name:   Ur-Drago
 Cost:   3UUBB
@@ -1181,7 +1196,7 @@ Name:   Ur-Golem's Eye
 Cost:   4
 Type:   Artifact
 S/R:    DST-C, 9ED-U, C14-U
-{T}: Add {C}{C} to your mana pool.
+{T}: Add {C}{C}.
 
 Name:   Urabrask the Hidden
 Cost:   3RR
@@ -1208,13 +1223,13 @@ Name:   Urbis Protector
 Cost:   4WW
 Type:   Creature — Human Cleric
 P/T:    1/1
-S/R:    GTC-U, MM3-U
+S/R:    GTC-U, MM3-U, A25-U
 When Urbis Protector enters the battlefield, create a 4/4 white Angel creature token with flying.
 
 Name:   Urborg
 Type:   Legendary Land
 S/R:    LE-U, ME3-U
-{T}: Add {B} to your mana pool.
+{T}: Add {B}.
 {T}: Target creature loses first strike or swampwalk until end of turn.
 
 Name:   Urborg Drake
@@ -1230,7 +1245,7 @@ Cost:   1G
 Type:   Creature — Elf Druid
 P/T:    1/1
 S/R:    AP-C
-{T}: Add {G}, {U}, or {B} to your mana pool.
+{T}: Add {B}, {G}, or {U}.
 
 Name:   Urborg Emissary
 Cost:   2B
@@ -1310,7 +1325,7 @@ Name:   Urborg Volcano
 Type:   Land
 S/R:    IN-U, 8ED-U, C17-U
 Urborg Volcano enters the battlefield tapped.
-{T}: Add {B} or {R} to your mana pool.
+{T}: Add {B} or {R}.
 
 Name:   Urborg, Tomb of Yawgmoth
 Type:   Legendary Land
@@ -1320,7 +1335,7 @@ Each land is a Swamp in addition to its other land types.
 Name:   Urge to Feed
 Cost:   BB
 Type:   Instant
-S/R:    WWK-U, DDK-U
+S/R:    WWK-U, E02-U, DDK-U
 Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.
 
 Name:   Urgent Exorcism
@@ -1328,6 +1343,14 @@ Cost:   1W
 Type:   Instant
 S/R:    ISD-C
 Destroy target Spirit or enchantment.
+
+Name:   Urgoros, the Empty One
+Cost:   4BB
+Type:   Legendary Creature — Specter
+P/T:    4/3
+S/R:    DOM-U
+Flying
+Whenever Urgoros, the Empty One deals combat damage to a player, that player discards a card at random. If the player can't, you draw a card.
 
 Name:   Uril, the Miststalker
 Cost:   2RGW
@@ -1397,7 +1420,7 @@ Trample
 Name:   Urza's Factory
 Type:   Land — Urza's
 S/R:    TSP-U, C13-U
-{T}: Add {C} to your mana pool.
+{T}: Add {C}.
 {7}, {T}: Create a 2/2 colorless Assembly-Worker artifact creature token.
 
 Name:   Urza's Filter
@@ -1422,7 +1445,7 @@ Creature spells of the chosen type cost {2} less to cast.
 Name:   Urza's Mine
 Type:   Land — Urza's Mine
 S/R:    AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
-{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.
+{T}: Add {C}. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} instead.
 
 Name:   Urza's Miter
 Cost:   3
@@ -1433,20 +1456,33 @@ Whenever an artifact you control is put into a graveyard from the battlefield, i
 Name:   Urza's Power Plant
 Type:   Land — Urza's Power-Plant
 S/R:    AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
-{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.
+{T}: Add {C}. If you control an Urza's Mine and an Urza's Tower, add {C}{C} instead.
 
 Name:   Urza's Rage
 Cost:   2R
 Type:   Instant
 S/R:    IN-R, C15-R, DDE-M
 Kicker {8}{R} (You may pay an additional {8}{R} as you cast this spell.)
-Urza's Rage can't be countered by spells or abilities.
-Urza's Rage deals 3 damage to target creature or player. If Urza's Rage was kicked, instead it deals 10 damage to that creature or player and the damage can't be prevented.
+This spell can't be countered.
+Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.
+
+Name:   Urza's Ruinous Blast
+Cost:   4W
+Type:   Legendary Sorcery
+S/R:    DOM-R
+(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)
+Exile all nonland permanents that aren't legendary.
+
+Name:   Urza's Tome
+Cost:   2
+Type:   Artifact
+S/R:    DOM-U
+{3}, {T}: Draw a card. Then discard a card unless you exile a historic card from your graveyard. (Artifacts, legendaries, and Sagas are historic.)
 
 Name:   Urza's Tower
 Type:   Land — Urza's Tower
 S/R:    AQ-U, CH-U, 5E-C, 8ED-U, 9ED-U, ME4-L
-{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.
+{T}: Add {C}. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} instead.
 
 Name:   Uthden Troll
 Cost:   2R
@@ -1462,22 +1498,22 @@ P/T:    0/2
 S/R:    FUT-U
 At the beginning of your upkeep, put a spore counter on Utopia Mycon.
 Remove three spore counters from Utopia Mycon: Create a 1/1 green Saproling creature token.
-Sacrifice a Saproling: Add one mana of any color to your mana pool.
+Sacrifice a Saproling: Add one mana of any color.
 
 Name:   Utopia Sprawl
 Cost:   G
 Type:   Enchantment — Aura
-S/R:    DIS-C
+S/R:    DIS-C, A25-U
 Enchant Forest
 As Utopia Sprawl enters the battlefield, choose a color.
-Whenever enchanted Forest is tapped for mana, its controller adds one mana of the chosen color to his or her mana pool (in addition to the mana the land produces).
+Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color.
 
 Name:   Utopia Tree
 Cost:   1G
 Type:   Creature — Plant
 P/T:    0/2
 S/R:    IN-R, 9ED-R
-{T}: Add one mana of any color to your mana pool.
+{T}: Add one mana of any color.
 
 Name:   Utopia Vow
 Cost:   1G
@@ -1485,7 +1521,7 @@ Type:   Enchantment — Aura
 S/R:    PLC-C
 Enchant creature
 Enchanted creature can't attack or block.
-Enchanted creature has "{T}: Add one mana of any color to your mana pool."
+Enchanted creature has "{T}: Add one mana of any color."
 
 Name:   Utter End
 Cost:   2WB
