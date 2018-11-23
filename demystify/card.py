@@ -22,6 +22,7 @@ import logging
 logger = logging.getLogger("card")
 logger.setLevel(logging.INFO)
 
+import copy
 import queue
 import multiprocessing
 import multiprocessing.queues
@@ -155,28 +156,35 @@ def make_shortname(name):
 
 class Card(object):
     """ Stores information about a Magic card, as given by Gatherer. """
-    def __init__(self, name, typeline, cost=None, color=None,
-                 pt=None, rules=None, set_rarity=None,
-                 multitype=None, multicard=None, meld_pair=None, melded=None):
+    def __init__(self, name='', type_line='', mana_cost=None, colors=(),
+                 loyalty=None, power=None, toughness=None, oracle_text=None,
+                 set_rarity=None, multitype=None, multicard=None,
+                 meld_pair=None, melded=None,
+                 # catch-all
+                 **kwargs):
         self.name = str(name)
-        self.typeline = str(typeline.lower())
-        self.cost = cost
-        self.color = color
-        self.pt = pt
-        self.rules = str(rules)
+        self.typeline = str(type_line.lower())
+        self.cost = mana_cost
+        self.color = ''.join(colors)
+        # TODO: just keep these fields separate?
+        self.pt = loyalty or power and (power + '/' + toughness)
+        self.rules = str(oracle_text)
         self.sets = set()
-        for s_r in set_rarity.split(', '):
-            s, r = s_r.split('-', 1)
-            self.sets.add(s)
-            if r not in rarities:
-                logger.error("Unknown set_rarity entry for {}: {}"
-                             .format(name, s_r))
+        if set_rarity:
+            for s_r in set_rarity.split(', '):
+                s, r = s_r.split('-', 1)
+                self.sets.add(s)
+                if r not in rarities:
+                    logger.error("Unknown set_rarity entry for {}: {}"
+                                 .format(name, s_r))
         self.sets = sorted(self.sets)
+        # TODO: Do we really need all this logic instead of simply
+        # incorporating the scryfall json references?
         self.multitype = multitype
         self.multicard = multicard
         self.meld_pair = meld_pair
         self.melded = melded
-        if self.multitype != 'Meld':
+        if self.multitype != 'meld':
             if self.melded:
                 logger.error('Malformed multicard: {} is a {} card to {} but '
                              'melds with {} into {}.'.format(
@@ -205,10 +213,10 @@ class Card(object):
                 logger.error('Multicard discrepancy: {} ({}) vs {} ({})'
                              .format(self.name, self.multicard,
                                      mc.name, mc.multicard))
-        elif self.multitype == 'Meld':
+        elif self.multitype == 'meld':
             mcards = self.melded and [self.melded] or []
             if self.meld_pair:
-                mcards.extend(self.meld_pair.split(';'))
+                mcards.extend(self.meld_pair.split('; '))
             if len(mcards) != 2:
                 logger.error('Malformed meld card: {} pair/from {} into {}.'
                              .format(self.name, self.meld_pair, self.melded))
@@ -256,18 +264,18 @@ class Card(object):
                     elif c2.multitype != self.multitype:
                         logger.error('Multitype mismatch: {} ({}) vs {} ({})'
                                      .format(self.name, self.multitype,
-                                             c1.name, c2.multitype))
+                                             c2.name, c2.multitype))
                     else:
                         if c1.melded != self.name:
                             logger.error('Melded discrepancy: '
                                          '{} ({}) vs {} ({})'
                                          .format(self.name, self.meld_pair,
-                                                 c1.name, c1.meld_pair))
+                                                 c1.name, c1.melded))
                         if c2.melded != self.name:
                             logger.error('Melded discrepancy: '
                                          '{} ({}) vs {} ({})'
                                          .format(self.name, self.meld_pair,
-                                                 c2.name, c1.meld_pair))
+                                                 c2.name, c2.melded))
                         if c1.meld_pair != c2.name or c1.name != c2.meld_pair:
                             logger.error('Meld pair discrepancy: '
                                          '{} ({}) vs {} ({})'
@@ -275,7 +283,7 @@ class Card(object):
                                                  c2.name, c2.meld_pair))
 
         self.shortname = None
-        if 'Legendary' in typeline:
+        if 'legendary' in self.typeline:
             self.shortname = str(make_shortname(self.name))
             if self.shortname:
                 logger.debug("Shortname for {} set to {}."
@@ -292,45 +300,6 @@ class Card(object):
                 cards_by_set[s] = {self.name}
             else:
                 cards_by_set[s].add(self.name)
-
-    @staticmethod
-    def from_string(s):
-        t = s.split('\n')
-        kwargs = {}
-        name = typeline = ""
-        rules = []
-        # Gatherer is pretty inconsistent, especially wrt split and flip cards
-        for l in t:
-            if l.startswith("Name:"):
-                name = str(l[5:].strip())
-                if name in _all_cards:
-                    logger.debug("Previously saw {}.".format(name))
-                    return _all_cards[name]
-            elif l.startswith("Cost:"):
-                kwargs['cost'] = l[5:].strip()
-            elif l.startswith("Color:"):
-                kwargs['color'] = l[6:].strip()
-            elif l.startswith("Type:"):
-                typeline = l[5:].strip()
-            elif l.startswith("P/T:"):
-                kwargs['pt'] = l[4:].strip()
-            elif l.startswith("S/R:"):
-                kwargs['set_rarity'] = l[4:].strip()
-            elif l.startswith("M-type:"):
-                kwargs['multitype'] = l[7:].strip()
-            elif l.startswith("M-card:"):
-                kwargs['multicard'] = l[7:].strip()
-            elif l.startswith("M-pair:"):
-                kwargs['meld_pair'] = l[7:].strip()
-            elif l.startswith("Melded:"):
-                kwargs['melded'] = l[7:].strip()
-            elif l.strip():
-                rules.append(l.strip())
-        assert name is not None
-        assert typeline is not None
-        kwargs['rules'] = '\n'.join(rules)
-        logger.debug("Loaded {}.".format(name))
-        return Card(name, typeline, **kwargs)
 
     def __eq__(self, c):
         return type(self) == type(c) and self.name == c.name
@@ -353,6 +322,44 @@ class Card(object):
             if v[c]:
                 s.append('{}: {}'.format(c, v[c]))
         return '\n'.join(s)
+
+
+def scryfall_card(layout=None, card_faces=None, all_parts=None,
+                  **kwargs):
+    """ Constructs Card objects from a Scryfall json object. """
+    # Base stats. Might be overridden by card_faces.
+    # Scryfall doesn't provide the list of sets a card was printed in,
+    # but provides legalities if we want to group cards together.
+    # MTGJSON also provides printings and keeps split etc cards separate,
+    # but has multiple copies of many cards and does not provide a way
+    # to identify meld direction.
+    stats = ['name', 'type_line', 'mana_cost', 'colors', 'oracle_text',
+             'loyalty', 'power', 'toughness', 'legalities']
+    d = {stat: kwargs[stat] for stat in stats if stat in kwargs}
+    name = kwargs['name']
+    if layout in ('split', 'flip', 'transform'):
+        # Doesn't support any number more than 2
+        d['multitype'] = layout
+        d2 = copy.deepcopy(d)
+        d.update(card_faces[0])
+        d2.update(card_faces[1])
+        d2['multicard'], d['multicard'] = [c['name'] for c in card_faces]
+        return [Card(**d), Card(**d2)]
+    if layout == 'meld':
+        d['multitype'] = layout
+        # the collector number is b for the meld target
+        parts = [x['name'] for x in all_parts[:3] if x['uri'][-1] == 'a']
+        target = [x['name'] for x in all_parts[:3] if x['uri'][-1] == 'b']
+        if name == target[0]:
+            return [Card(meld_pair='; '.join(parts), **d)]
+        else:
+            pair = name == parts[0] and parts[1] or parts[0]
+            return [Card(meld_pair=pair, melded=target[0], **d)]
+    if layout not in ('normal', 'leveler', 'saga'):
+        logger.error("Not a valid card: {} ({})".format(name, layout))
+        return []
+    return [Card(**d)]
+
 
 class CardWidget(progressbar.widgets.WidgetBase):
     def __init__(self):

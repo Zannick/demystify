@@ -277,31 +277,35 @@ def parse_triggers(cards):
 
 def preprocess(args):
     raw_cards = []
-    for clist in data.load().values():
-        raw_cards.extend(clist)
+    for obj in data.load():
+        # filter down to vintage-legal only
+        if obj["legalities"]["vintage"] == "legal" and "token" not in obj["layout"]:
+            raw_cards.append(obj)
+            _ = card.scryfall_card(**obj)
     numcards = len(raw_cards)
-    for rc in raw_cards:
-        _ = card.Card.from_string(rc)
+    if numcards == 0:
+        plog.error("No cards found.")
+        return 1
     cards = card.get_cards()
-    split = {c.name for c in cards if c.multitype == "Split"}
-    xsplit = {c.multicard for c in cards if c.multitype == "Split"}
+    split = {c.name for c in cards if c.multitype == "split"}
+    xsplit = {c.multicard for c in cards if c.multitype == "split"}
     logging.debug("Split cards: " + "; ".join(sorted(split)))
     if split != xsplit:
         logging.error("Difference: " + "; ".join(split ^ xsplit))
-    flip = {c.name for c in cards if c.multitype == "Flip"}
-    xflip = {c.multicard for c in cards if c.multitype == "Flip"}
+    flip = {c.name for c in cards if c.multitype == "flip"}
+    xflip = {c.multicard for c in cards if c.multitype == "flip"}
     logging.debug("Flip cards: " + "; ".join(sorted(flip)))
     if flip != xflip:
         logging.error("Difference: " + "; ".join(flip ^ xflip))
-    trans = {c.name for c in cards if c.multitype == "Transform"}
-    xtrans = {c.multicard for c in cards if c.multitype == "Transform"}
+    trans = {c.name for c in cards if c.multitype == "transform"}
+    xtrans = {c.multicard for c in cards if c.multitype == "transform"}
     logging.debug("Transform cards: " + "; ".join(sorted(trans)))
     if trans != xtrans:
         logging.error("Difference: " + "; ".join(trans ^ xtrans))
     s = int(len(split) / 2)
     f = int(len(flip) / 2)
     t = int(len(trans) / 2)
-    logging.info("Discovered {} unique (physical) cards, from {}, including "
+    logging.info("Discovered {} unique (physical) cards, from {} objects, including "
                  "{} split cards, {} flip cards, and {} transform cards."
                  .format(len(cards) - s - f - t, numcards, s, f, t))
     legalcards = get_cards()
@@ -318,7 +322,6 @@ def main():
     parser = argparse.ArgumentParser(
         description='A Magic: the Gathering parser.')
     subparsers = parser.add_subparsers()
-    data.add_subcommands(subparsers)
     test.add_subcommands(subparsers)
     loader = subparsers.add_parser('load')
     loader.add_argument('-i', '--interactive', action='store_true',

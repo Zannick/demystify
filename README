@@ -55,11 +55,12 @@ or file a new bug.
 4) RUNNING
 
 The main entry point is the demystify.py script in the demystify/ folder.
-It currently offers three modes of running:
+It currently offers two modes of running:
 
 load
 
-Loads the card data from demystify/data/text/ and performs preprocessing steps
+Loads the card data from the Scryfall data file in demystify/data/cache/
+(may download it from Scryfall if necessary), and performs preprocessing steps
 necessary before any lexing and parsing is done. With -i, opens an interactive
 prompt afterward, at which functions in demystify.py and card.py can be called.
 This is useful for actually invoking the parser, as well as doing special card
@@ -68,12 +69,6 @@ searches using the utility functions in card.py.
 test
 
 Runs the tests (or a specific test) in demystify/tests/.
-
-update
-
-Mainly a convenience function for me, this takes the text data downloaded from
-yawgatog, fixes some textual oddities, and saves the results in
-demystify/data/text/.
 
 These can be run from within demystify with:
     $ python3 demystify.py load -i
