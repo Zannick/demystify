@@ -728,10 +728,15 @@ def preprocess_capitals(text):
 
 # Min length is 2 to avoid the sole exception of "none".
 _non = re.compile(r"\bnon(\w{2,})", flags=re.I|re.U)
+_pw = re.compile(r"^−", flags=re.M)
 
-def preprocess_non(text):
-    """ Ensure a dash appears between non and the word it modifies. """
-    return _non.sub(r"non-\1", text)
+def preprocess_misc(text):
+    """ Miscellaneous text preprocessing. """
+    # Ensure a dash appears between non and the word it modifies.
+    text = _non.sub(r"non-\1", text)
+    # Ensure planeswalker ability costs use minus signs.
+    text = _pw.sub("-", text)
+    return text
 
 ## Main entry point for the preprocessing step ##
 
@@ -746,7 +751,7 @@ def preprocess_all(cards):
         lines = [preprocess_capitals(preprocess_names(
                     preprocess_reminder(line), names))
                  for line in c.rules.split("\n")]
-        c.rules = preprocess_non("\n".join(lines))
+        c.rules = preprocess_misc("\n".join(lines))
 
 def get_cards():
     """ Returns a set of all the Cards instantiated with the Card class. """
@@ -836,22 +841,40 @@ def counter_types(cards=None):
               'those', 'was', 'with', 'would', 'x'}
     return sorted(cwords - common)
 
+_punct = re.compile('[ \n—.]')
+
 def missing_words(cards=None):
     """ Returns a set of new words not accounted for in keywords.py. """
     from keywords import all_words, macro_words
     existing_words = {w for y in set(all_words) | macro_words for w in y.split()}
     if not cards:
         cards = get_cards()
-    # May miss words with apostrophes and dashes. Do we care?
-    seen_words = set(w for c in cards
-                     for w in c.rules.split()
-                     if w.isalpha())
+    seen_words = set()
+    for c in cards:
+        # If whitespace doesn't really matter, we could put punctuation
+        # in the preprocessing, replace any "." with " . ", etc.
+        # That way, we wouldn't need a regex to split with (but we'd still
+        # maybe want some of this handling to catch 's and jump-start.
+        for w in _punct.split(c.rules):
+            w = w.lstrip("'").rstrip(',;:."')
+            if w.startswith("non-"):
+                w = w[4:]
+            if (not w or any(x in w for x in ("NAME", "{", "[", "/"))
+                    or not w[0].isalpha()):
+                continue
+            if w.endswith("'s") or w.endswith("s'"):
+                seen_words.add(w[:-2])
+            elif w.endswith("n't") or w.endswith("'ve") or w.endswith("'re"):
+                seen_words.add(w[:-3])
+            else:
+                seen_words.add(w)
+    # Or odd half-words from split tokens.
     common_words = {'SELF', 'PARENT', 'x', 'y', 'plainswalk', 'islandwalk',
                     'swampwalk', 'mountainwalk', 'forestwalk', 'desertwalk',
                     'plainscycling', 'islandcycling', 'swampcycling',
                     'mountaincycling', 'forestcycling', 'landcycling',
                     'slivercycling', 'wizardcycling',
-                    'arabian', 'nights'}
+                    'arabian', 'nights', 'urza', 'ca', 'city'}
     return seen_words - existing_words - common_words
 
 def missing_types(cards=None):

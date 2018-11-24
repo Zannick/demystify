@@ -27,28 +27,13 @@ PARENT : 'PARENT';
 
 REFBYNAME : 'NAME_' ( 'A'..'Z' | 'a'..'z' | '_' | '\u00c6' | '\u00e6' )+;
 
-// Basic lands have only one letter as their rules text
-BASIC_MANA_SYM : WUBRGC_u;
-
 // Chop off brackets for the symbols whose text we'll need later.
 // Unfortunately we have to do our checking against hybrid alternatives
 // elsewhere.
 
 MANA_SYM
-    : '{(' ( WUBRGC | DIGIT_SYM ) '/' ( WUBRGCP | SNOW_SYM ) ')}'
-      { $text = $text[2:-2].upper() }
-    | '{' ( WUBRGC | DIGIT_SYM | SNOW_SYM ) '}'
+    : '{' ( WUBRGC | DIGIT_SYM | SNOW_SYM ) ( '/' WUBRGCP )? '}'
       { $text = $text[1:-1].upper() };
-
-// Mana cost symbols are BASIC_MANA_SYM, NUMBER_SYM,
-// MC_HYBRID_SYM, and MC_VAR_SYM.
-// These use all caps mana symbols and should never be seen in text.
-
-MC_HYBRID_SYM
-    : '(' ( WUBRGC_u | DIGIT_SYM ) '/' ( WUBRGCP_u | SNOW_u ) ')'
-      { $text = $text[1:-1] };
-
-MC_VAR_SYM : 'X'..'Z' ;
 
 // Appearance in rules text
 PHYREXIA_SYM : '{p}' { $text = 'P' };
@@ -82,11 +67,5 @@ fragment SNOW_SYM : 's';
 fragment WUBRGC : ('w'|'u'|'b'|'r'|'g'|'c');
 
 fragment WUBRGCP : ( WUBRGC | 'p' );
-
-fragment SNOW_u : 'S';
-
-fragment WUBRGC_u : ('W'|'U'|'B'|'R'|'G'|'C');
-
-fragment WUBRGCP_u : ( WUBRGC_u | 'P' );
 
 fragment DIGIT_SYM : ('1'..'9' '0'..'9') | ('0'..'9');

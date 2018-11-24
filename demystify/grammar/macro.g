@@ -25,7 +25,6 @@ parser grammar macro;
  */
 
 ability_word : ABILITY_WORD
-             | COUNCIL APOS_S DILEMMA -> COUNCILS_DILEMMA
              | SPELL MASTERY -> SPELL_MASTERY
              | WILL OF THE COUNCIL -> WILL_OF_THE_COUNCIL;
 

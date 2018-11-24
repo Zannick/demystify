@@ -67,20 +67,12 @@ repeatable_cost_item_ : PAY! mana
 
 // Loyalty
 
-loyalty_cost : LBRACKET PLUS_SYM? ( NUMBER_SYM | VAR_SYM ) RBRACKET
+loyalty_cost : PLUS_SYM? ( NUMBER_SYM | VAR_SYM )
                -> ^( LOYALTY PLUS NUMBER_SYM? ^( VAR VAR_SYM )? )
-             | LBRACKET MINUS_SYM ( NUMBER_SYM | VAR_SYM ) RBRACKET
+             | MINUS_SYM ( NUMBER_SYM | VAR_SYM )
                -> ^( LOYALTY MINUS NUMBER_SYM? ^( VAR VAR_SYM )? );
 
 // Mana symbols and mana costs
-
-mc_symbols
-    : ( BASIC_MANA_SYM | MC_HYBRID_SYM | MC_VAR_SYM | NUMBER_SYM )*
-      -> ^( MANA BASIC_MANA_SYM* MC_HYBRID_SYM*
-            ^( VAR MC_VAR_SYM )* NUMBER_SYM* );
-
-// The only place an empty mana cost is valid is the mana cost field on a card,
-// which is covered by mc_symbols above.
 
 mana : ( MANA_SYM | VAR_MANA_SYM )+
        -> ^( MANA MANA_SYM* ^( VAR VAR_MANA_SYM )* );

@@ -202,7 +202,6 @@ tokens {
     COST;
     COULD;
     COUNCIL;
-    COUNCILS_DILEMMA;
     COUNT;
     COUNTED;
     COUNTER;
@@ -252,7 +251,6 @@ tokens {
     DIFFERENCE;
     DIFFERENT;
     DIFFERENTLY;
-    DILEMMA;
     DIRECTION;
     DIRECTLY;
     DISCARD;
@@ -437,6 +435,7 @@ tokens {
     IGNORED;
     II;
     III;
+    ILLEGAL;
     IMMEDIATELY;
     IMPROVISE;
     IMPROVISED;
@@ -459,6 +458,8 @@ tokens {
     ITEM;
     ITS;
     ITSELF;
+    JUMPSTART;
+    JUMPSTARTED;
     JUST_BENEATH;
     KICK;
     KICKED;
@@ -908,6 +909,7 @@ tokens {
     WORLD;
     WOULD;
     WRONG;
+    YET;
     YOU;
     YOUR;
     ZONE;
@@ -928,7 +930,8 @@ PROLIFERATION : 'proliferation';
 REDISTRIBUTED : 'redistributed';
 SET_IN_MOTION : 'sets in motion'
               | 'set in motion';
-ABILITY_WORD : 'tempting offer'
+ABILITY_WORD : 'council\'s dilemma'
+             | 'tempting offer'
              | 'constellation'
              | 'fateful hour'
              | 'join forces'
@@ -1003,6 +1006,7 @@ FATESEALING : 'fatesealing';
 IMMEDIATELY : 'immediately';
 INVESTIGATE : 'investigates'
             | 'investigate';
+JUMPSTARTED : 'jump-started';
 LEGEND_RULE : 'legend rule';
 MONOCOLORED : 'monocolored';
 MONSTROSITY : 'monstrosity';
@@ -1855,6 +1859,8 @@ IMPROVISE : 'improvises'
           | 'improvise';
 INCLUDING : 'including';
 INCREASED : 'increased';
+JUMPSTART : 'jump-starts'
+          | 'jump-start';
 LEGENDARY : 'legendary';
 MEGAMORPH : 'megamorph';
 MONSTROUS : 'monstrous';
@@ -2074,7 +2080,6 @@ DECLARE : 'declares'
         | 'declare';
 DESTROY : 'destroys'
         | 'destroy';
-DILEMMA : 'dilemma';
 DISCARD : 'discards'
         | 'discard';
 DIVIDED : 'divided';
@@ -2112,6 +2117,7 @@ HERSELF : 'herself';
 HIGHEST : 'highest';
 HIMSELF : 'himself';
 IGNORED : 'ignored';
+ILLEGAL : 'illegal';
 INSTANT : 'instants'
         | 'instant';
 INSTEAD : 'instead';
@@ -2783,6 +2789,7 @@ WHO : 'who';
 WIN : 'wins'
     | 'win';
 WON : 'won';
+YET : 'yet';
 YOU : 'you';
 AS : 'as';
 AT : 'at';

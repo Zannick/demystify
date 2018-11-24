@@ -578,6 +578,8 @@ _abilities = [
     Keyword(("INDESTRUCTIBLE", "indestructible")),
     Keyword(("INFECT", "infect")),
     Keyword(("INGEST", "ingest")),
+    Verb(   ("JUMPSTART", "jump-start", "jump-starts"),
+            ("JUMPSTARTED", "jump-started")),
     Keyword(("KICKER", "kicker")),
     Verb(   ("KICK", "kick", "kicks"),
             ("KICKED", "kicked")),
@@ -1381,6 +1383,7 @@ _concepts = [
     Keyword(("CONVERTED", "converted")),
     Noun("COST", "cost", "costs"),
     Noun("TARGET", "target", "targets"),
+    Keyword(("ILLEGAL", "illegal")),
 
     # mana
     Keyword(("COMBINATION", "combination")),
@@ -1599,6 +1602,7 @@ _concepts = [
     Keyword(("UNTIL", "until")),
     Keyword(("WHEN", "when", "whenever")),
     Keyword(("WHILE", "while")),
+    Keyword(("YET", "yet")),
 
     # Conditions and references
     Keyword(("ALREADY", "already")),

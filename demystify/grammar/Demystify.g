@@ -183,7 +183,7 @@ tokens {
         self._state.card = name
 }
 
-card_mana_cost : mc_symbols -> ^( COST mc_symbols );
+card_mana_cost : mana -> ^( COST mana );
 
 // Literals used in parsing rules don't have to be declared,
 // but for reference they are:
