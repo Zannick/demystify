@@ -37,7 +37,8 @@ abil = re.compile(r'"[^"]+"')
 splitname = re.compile(r'([^/]+) // ([^()]+) \((\1|\2)\)')
 flipname = re.compile(r'([^()]+) \(([^()]+)\)')
 nonwords = re.compile(r'\W', flags=re.UNICODE)
-name_ref = re.compile(r'named |name is still |transforms into |meld them into ')
+name_ref = re.compile(r'named |name is still |transforms into |meld them into '
+                      r'|Partner with |[Cc]reate ')
 gains = re.compile(r'(SELF|it|\w+) (enters?|gets?|gains?|has|have|loses?|with)'
                    r'([^.]+, and )?'
                    r'(gets?|gains?|has|have|loses?|with) "')
@@ -70,6 +71,7 @@ shortname_exceptions = {
     "Boris Devilboon"                 : "Boris",
     "Brion Stoutarm"                  : "Brion",
     "Dakkon Blackblade"               : "Dakkon",
+    "Darigaaz Reincarnated"           : "Darigaaz",
     "Gabriel Angelfire"               : "Gabriel",
     "Gaddock Teeg"                    : "Gaddock",
     "Gerrard Capashen"                : "Gerrard",
@@ -163,12 +165,12 @@ class Card(object):
                  # catch-all
                  **kwargs):
         self.name = str(name)
-        self.typeline = str(type_line.lower())
+        self.typeline = str(type_line.lower().replace("’", "'"))
         self.cost = mana_cost
         self.color = ''.join(colors)
         # TODO: just keep these fields separate?
         self.pt = loyalty or power and (power + '/' + toughness)
-        self.rules = str(oracle_text)
+        self.rules = str(oracle_text.replace("’", "'"))
         self.sets = set()
         if set_rarity:
             for s_r in set_rarity.split(', '):

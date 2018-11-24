@@ -89,6 +89,8 @@ tokens {
     ASSIGNED;
     ASSIGNING;
     ASSIGNMENT;
+    ASSIST;
+    ASSISTED;
     AT;
     ATTACH;
     ATTACHED;
@@ -194,10 +196,13 @@ tokens {
     CONTROLLING;
     CONVERTED;
     CONVOKE;
+    CONVOKED;
     COPY;
     CORRECTLY;
     COST;
     COULD;
+    COUNCIL;
+    COUNCILS_DILEMMA;
     COUNT;
     COUNTED;
     COUNTER;
@@ -247,6 +252,7 @@ tokens {
     DIFFERENCE;
     DIFFERENT;
     DIFFERENTLY;
+    DILEMMA;
     DIRECTION;
     DIRECTLY;
     DISCARD;
@@ -278,6 +284,7 @@ tokens {
     EACH;
     ECHO;
     EFFECT;
+    EGG;
     EITHER;
     ELSE;
     EMBALM;
@@ -423,10 +430,13 @@ tokens {
     HOMELANDS;
     HORSEMANSHIP;
     HOW;
+    I;
     IDENTITY;
     IF;
     IGNORE;
     IGNORED;
+    II;
+    III;
     IMMEDIATELY;
     IMPROVISE;
     IMPROVISED;
@@ -504,6 +514,7 @@ tokens {
     MELDED;
     MELEE;
     MENACE;
+    MENTOR;
     MINE;
     MINIMUM;
     MINUS;
@@ -777,6 +788,8 @@ tokens {
     SUPPORTED;
     SURGE;
     SURGED;
+    SURVEIL;
+    SURVELLED;
     SUSPEND;
     SUSPENDED;
     SWAP;
@@ -853,11 +866,11 @@ tokens {
     UNLESS;
     UNOPENED;
     UNPAIRED;
+    UNSPENT;
     UNTAP;
     UNTAPPED;
     UNTAPPING;
     UNTIL;
-    UNUSED;
     UP;
     UPKEEP;
     USE;
@@ -883,6 +896,8 @@ tokens {
     WHO;
     WHOM;
     WHOSE;
+    WILL;
+    WILL_OF_THE_COUNCIL;
     WIN;
     WINNING;
     WITH;
@@ -913,12 +928,11 @@ PROLIFERATION : 'proliferation';
 REDISTRIBUTED : 'redistributed';
 SET_IN_MOTION : 'sets in motion'
               | 'set in motion';
-ABILITY_WORD : 'will of the council'
-             | 'council\'s dilemma'
-             | 'tempting offer'
+ABILITY_WORD : 'tempting offer'
              | 'constellation'
              | 'fateful hour'
              | 'join forces'
+             | 'undergrowth'
              | 'formidable'
              | 'lieutenant'
              | 'metalcraft'
@@ -1046,6 +1060,7 @@ OBJ_COUNTER : 'manifestation'
             | 'healing'
             | 'javelin'
             | 'sleight'
+            | 'slumber'
             | 'storage'
             | 'bounty'
             | 'charge'
@@ -1113,9 +1128,9 @@ OBJ_COUNTER : 'manifestation'
             | 'wish'
             | 'age'
             | 'aim'
-            | 'egg'
             | 'eon'
             | 'gem'
+            | 'hit'
             | 'ice'
             | 'net'
             | 'ore'
@@ -1222,6 +1237,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'nephilims'
             | 'nightmare'
             | 'octopuses'
+            | 'pangolins'
             | 'pentavite'
             | 'processor'
             | 'saproling'
@@ -1238,8 +1254,10 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'trilobite'
             | 'vedalkens'
             | 'viashinos'
+            | 'windgrace'
             | 'wolverine'
             | 'advisors'
+            | 'aminatou'
             | 'anteater'
             | 'antelope'
             | 'assassin'
@@ -1278,6 +1296,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'mountain'
             | 'nautilus'
             | 'nephilim'
+            | 'pangolin'
             | 'pinchers'
             | 'praetors'
             | 'scorpion'
@@ -1402,6 +1421,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'wombats'
             | 'wraiths'
             | 'xenagos'
+            | 'yanling'
             | 'zombies'
             | 'allies'
             | 'angels'
@@ -1431,6 +1451,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'dryads'
             | 'efreet'
             | 'elders'
+            | 'estrid'
             | 'faerie'
             | 'ferret'
             | 'forest'
@@ -1515,6 +1536,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'turtle'
             | 'urza\'s'
             | 'venser'
+            | 'vivien'
             | 'volver'
             | 'vraska'
             | 'weirds'
@@ -1523,6 +1545,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'wolves'
             | 'wombat'
             | 'wraith'
+            | 'yanggu'
             | 'zombie'
             | 'zubera'
             | 'ajani'
@@ -1594,6 +1617,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'rebel'
             | 'rhino'
             | 'rogue'
+            | 'rowan'
             | 'sable'
             | 'sagas'
             | 'samut'
@@ -1625,6 +1649,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'ally'
             | 'apes'
             | 'atog'
+            | 'azra'
             | 'bats'
             | 'bear'
             | 'bird'
@@ -1633,6 +1658,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'clue'
             | 'crab'
             | 'dack'
+            | 'eggs'
             | 'elks'
             | 'eyes'
             | 'fish'
@@ -1644,6 +1670,7 @@ OBJ_SUBTYPE : 'assembly-workers'
             | 'hags'
             | 'imps'
             | 'jace'
+            | 'jaya'
             | 'karn'
             | 'kavu'
             | 'kaya'
@@ -1718,6 +1745,7 @@ ARB_CHOICE : 'condemnation'
            | 'harvest'
            | 'torture'
            | 'denial'
+           | 'friend'
            | 'homage'
            | 'sprout'
            | 'grace'
@@ -1728,6 +1756,7 @@ ARB_CHOICE : 'condemnation'
            | 'taxes'
            | 'free'
            | 'wild'
+           | 'foe'
            | 'war';
 ASSIGNMENT : 'assignment';
 BATTLE_CRY : 'battle cry';
@@ -1859,6 +1888,7 @@ SOULSHIFT : 'soulshift';
 SUPERTYPE : 'supertypes'
           | 'supertype';
 SUPPORTED : 'supported';
+SURVELLED : 'surveilled';
 SUSPENDED : 'suspended';
 TOUGHNESS : 'toughness';
 TRAMPLING : 'trampling';
@@ -1888,6 +1918,7 @@ ARTIFACT : 'artifacts'
 ASSEMBLE : 'assembles'
          | 'assemble';
 ASSIGNED : 'assigned';
+ASSISTED : 'assisted';
 ATTACHED : 'attached';
 ATTACKED : 'attacked';
 AWAKENED : 'awakened';
@@ -1903,6 +1934,7 @@ CONSPIRE : 'conspires'
          | 'conspire';
 CONTINUE : 'continues'
          | 'continue';
+CONVOKED : 'convoked';
 CREATURE : 'creatures'
          | 'creature';
 DECIDING : 'deciding';
@@ -2028,7 +2060,9 @@ CONTAIN : 'contains'
         | 'contain';
 CONTROL : 'controls'
         | 'control';
-CONVOKE : 'convoke';
+CONVOKE : 'convokes'
+        | 'convoke';
+COUNCIL : 'council';
 COUNTED : 'counted';
 COUNTER : 'counters'
         | 'counter';
@@ -2040,6 +2074,7 @@ DECLARE : 'declares'
         | 'declare';
 DESTROY : 'destroys'
         | 'destroy';
+DILEMMA : 'dilemma';
 DISCARD : 'discards'
         | 'discard';
 DIVIDED : 'divided';
@@ -2151,6 +2186,8 @@ SUBTYPE : 'subtypes'
         | 'subtype';
 SUPPORT : 'supports'
         | 'support';
+SURVEIL : 'surveils'
+        | 'surveil';
 SUSPEND : 'suspends'
         | 'suspend';
 SWAPPED : 'swapped';
@@ -2165,6 +2202,7 @@ UNEARTH : 'unearths'
         | 'unearth';
 UNLEASH : 'unleashes'
         | 'unleash';
+UNSPENT : 'unspent';
 WHETHER : 'whether';
 WINNING : 'winning';
 WITHOUT : 'without';
@@ -2181,6 +2219,8 @@ AND_OR : 'and/or';
 ASCEND : 'ascend';
 ASSIGN : 'assigns'
        | 'assign';
+ASSIST : 'assists'
+       | 'assist';
 ATTACH : 'attaches'
        | 'attach';
 ATTACK : 'attacks'
@@ -2278,6 +2318,7 @@ LOWEST : 'lowest';
 MARKED : 'marked';
 MELDED : 'melded';
 MENACE : 'menace';
+MENTOR : 'mentor';
 MOVING : 'moving';
 MYRIAD : 'myriad';
 NUMBER : 'numbers'
@@ -2343,7 +2384,6 @@ TRIBAL : 'tribals'
        | 'tribal';
 TURNED : 'turned';
 UNLESS : 'unless';
-UNUSED : 'unused';
 UPKEEP : 'upkeeps'
        | 'upkeep';
 VOTING : 'voting';
@@ -2669,6 +2709,7 @@ WALK : 'walk';
 WHEN : 'whenever'
      | 'when';
 WHOM : 'whom';
+WILL : 'will';
 WITH : 'with';
 WORD : 'words'
      | 'word';
@@ -2688,6 +2729,7 @@ CAN : 'can';
 DID : 'did';
 DIE : 'dies'
     | 'die';
+EGG : 'egg';
 END : 'ends'
     | 'end';
 FAR : 'far';
@@ -2704,6 +2746,7 @@ HID : 'hid';
 HIM : 'him';
 HIS : 'his';
 HOW : 'how';
+III : 'iii';
 ITS : 'its';
 LOW : 'low';
 MAY : 'may';
@@ -2749,6 +2792,7 @@ DO : 'does'
    | 'do';
 HE : 'he';
 IF : 'if';
+II : 'ii';
 IN : 'in';
 IS : '\'re'
    | 'are'
@@ -2763,3 +2807,4 @@ TO : 'to';
 UP : 'up';
 A : 'an'
   | 'a';
+I : 'i';

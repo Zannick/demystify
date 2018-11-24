@@ -25,7 +25,9 @@ parser grammar macro;
  */
 
 ability_word : ABILITY_WORD
-             | SPELL MASTERY -> SPELL_MASTERY;
+             | COUNCIL APOS_S DILEMMA -> COUNCILS_DILEMMA
+             | SPELL MASTERY -> SPELL_MASTERY
+             | WILL OF THE COUNCIL -> WILL_OF_THE_COUNCIL;
 
 arb_choice : ARB_CHOICE
            | DEATH
@@ -50,6 +52,7 @@ obj_counter : OBJ_COUNTER
             | DEATH
             | DEVOTION
             | ECHO
+            | EGG
             | FEATHER
             | FUNGUS
             | FUSE
@@ -66,12 +69,14 @@ obj_subtype : OBJ_SUBTYPE
             | AURA
             | BOLAS
             | DRAGONS
+            | EGG
             | FUNGUS
             | MINE
             | PHYREXIA
             | TOWER
             | TRAP
             | TREASURE
+            | WILL
             | BOLAS APOS_S MEDITATION REALM -> BOLASS_MEDITATION_REALM
             | NEW PHYREXIA -> NEW_PHYREXIA;
 
