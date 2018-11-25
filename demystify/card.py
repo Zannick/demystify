@@ -166,7 +166,7 @@ class Card(object):
                  **kwargs):
         self.name = str(name)
         self.typeline = str(type_line.lower().replace("’", "'"))
-        self.cost = mana_cost
+        self.cost = mana_cost.lower()
         self.color = ''.join(colors)
         # TODO: just keep these fields separate?
         self.pt = loyalty or power and (power + '/' + toughness)
